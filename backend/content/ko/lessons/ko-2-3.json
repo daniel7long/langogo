@@ -1,0 +1,181 @@
+{
+  "emoji": "🥖",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "빵",
+      "ipa": "ppang",
+      "pos": "n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "빵 하나 주세요.",
+          "en": "One bread, please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "주세요",
+      "ipa": "juseyo",
+      "pos": "v.",
+      "meaning": "please give me",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "이거 두 개 주세요.",
+          "en": "Two of these, please."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "얼마예요?",
+      "ipa": "eolmayeyo",
+      "pos": "phr.",
+      "meaning": "how much is it?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "이 빵은 얼마예요?",
+          "en": "How much is this bread?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "더 필요해요?",
+      "ipa": "deo piryohaeyo",
+      "pos": "phr.",
+      "meaning": "need anything more?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "더 필요해요?",
+          "en": "Do you need anything more?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "원",
+      "ipa": "won",
+      "pos": "n.",
+      "meaning": "won",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "삼천 원이에요.",
+          "en": "It is three thousand won."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "신선해요",
+      "ipa": "sinseonhaeyo",
+      "pos": "adj.",
+      "meaning": "is fresh",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "빵이 아주 신선해요.",
+          "en": "The bread is very fresh."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "점원",
+      "role": "npc",
+      "text": "어서 오세요. 뭘 드릴까요?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Welcome. What can I give you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "안녕하세요. 빵 하나 주세요.",
+      "glosses": [
+        {
+          "text": "주세요",
+          "pos": "v.",
+          "meaning": "please give me"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello. One bread, please."
+    },
+    {
+      "speaker": "점원",
+      "role": "npc",
+      "text": "여기 있어요. 아주 신선해요. 더 필요해요?",
+      "glosses": [
+        {
+          "text": "더 필요해요",
+          "pos": "phr.",
+          "meaning": "need anything more?"
+        },
+        {
+          "text": "신선해요",
+          "pos": "adj.",
+          "meaning": "is fresh"
+        }
+      ],
+      "id": "t3",
+      "en": "Here you are. It is very fresh. Do you need anything more?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "네, 크루아상 두 개 주세요. 얼마예요?",
+      "glosses": [
+        {
+          "text": "주세요",
+          "pos": "v.",
+          "meaning": "please give me"
+        },
+        {
+          "text": "얼마예요",
+          "pos": "phr.",
+          "meaning": "how much is it?"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, two croissants please. How much is it?"
+    },
+    {
+      "speaker": "점원",
+      "role": "npc",
+      "text": "모두 오천 원이에요.",
+      "glosses": [],
+      "id": "t5",
+      "en": "It is five thousand won in total."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "여기 있어요. 감사합니다!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here you are. Thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "빵",
+      "tip": "Double \"pp\" is tense, no air: ppang",
+      "id": "w1"
+    },
+    {
+      "text": "얼마예요",
+      "tip": "Say \"eol-ma-ye-yo\"",
+      "id": "w2"
+    }
+  ]
+}

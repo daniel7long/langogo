@@ -1,0 +1,235 @@
+{
+  "emoji": "👋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "bonjour",
+      "ipa": "/bɔ̃.ʒuʁ/",
+      "pos": "interj.",
+      "meaning": "hello, good morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Bonjour, madame !",
+          "en": "Hello, ma'am!"
+        },
+        {
+          "target": "Bonjour, tout le monde.",
+          "en": "Hello, everyone."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "salut",
+      "ipa": "/sa.ly/",
+      "pos": "interj.",
+      "meaning": "hi, bye (informal)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Salut, Marc !",
+          "en": "Hi, Marc!"
+        },
+        {
+          "target": "Salut, à demain !",
+          "en": "Bye, see you tomorrow!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "bonsoir",
+      "ipa": "/bɔ̃.swaʁ/",
+      "pos": "interj.",
+      "meaning": "good evening",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Bonsoir, monsieur.",
+          "en": "Good evening, sir."
+        },
+        {
+          "target": "Bonsoir, comment allez-vous ?",
+          "en": "Good evening, how are you?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "comment ça va ?",
+      "ipa": "/kɔ.mɑ̃ sa va/",
+      "pos": "phr.",
+      "meaning": "how are you?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Salut Léa, comment ça va ?",
+          "en": "Hi Léa, how are you?"
+        },
+        {
+          "target": "Alors, comment ça va aujourd'hui ?",
+          "en": "So, how are you today?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "très bien",
+      "ipa": "/tʁɛ bjɛ̃/",
+      "pos": "adv. phr.",
+      "meaning": "very well",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je vais très bien, merci.",
+          "en": "I'm very well, thank you."
+        },
+        {
+          "target": "Le film était très bien.",
+          "en": "The film was very good."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "merci",
+      "ipa": "/mɛʁ.si/",
+      "pos": "interj.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Merci beaucoup !",
+          "en": "Thank you very much!"
+        },
+        {
+          "target": "Merci pour ton aide.",
+          "en": "Thanks for your help."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "au revoir",
+      "ipa": "/o ʁə.vwaʁ/",
+      "pos": "interj.",
+      "meaning": "goodbye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Au revoir, à bientôt !",
+          "en": "Goodbye, see you soon!"
+        },
+        {
+          "target": "Je dis au revoir à mes amis.",
+          "en": "I say goodbye to my friends."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sophie",
+      "role": "npc",
+      "text": "Bonjour ! Comment ça va ?",
+      "glosses": [
+        {
+          "text": "Bonjour",
+          "pos": "interj.",
+          "meaning": "hello"
+        },
+        {
+          "text": "Comment ça va",
+          "pos": "phr.",
+          "meaning": "how are you"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! How are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonjour ! Je vais très bien, merci. Et toi ?",
+      "glosses": [
+        {
+          "text": "très bien",
+          "pos": "adv. phr.",
+          "meaning": "very well"
+        },
+        {
+          "text": "merci",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello! I'm very well, thank you. And you?"
+    },
+    {
+      "speaker": "Sophie",
+      "role": "npc",
+      "text": "Très bien aussi. Tu vas au travail ?",
+      "glosses": [
+        {
+          "text": "travail",
+          "pos": "m. n.",
+          "meaning": "work"
+        }
+      ],
+      "id": "t3",
+      "en": "Very well too. Are you going to work?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, et toi ?",
+      "glosses": [],
+      "id": "t4",
+      "en": "Yes, and you?"
+    },
+    {
+      "speaker": "Sophie",
+      "role": "npc",
+      "text": "Moi, je vais au parc. Bonne journée !",
+      "glosses": [
+        {
+          "text": "Bonne journée",
+          "pos": "phr.",
+          "meaning": "have a good day"
+        }
+      ],
+      "id": "t5",
+      "en": "Me, I'm going to the park. Have a nice day!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci, toi aussi ! Au revoir !",
+      "glosses": [
+        {
+          "text": "Au revoir",
+          "pos": "interj.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t6",
+      "en": "Thank you, you too! Goodbye!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "bonjour",
+      "tip": "Nasal vowel /ɔ̃/ and a soft j /ʒ/",
+      "id": "w1"
+    },
+    {
+      "text": "au revoir",
+      "tip": "Link the two words; French r at the back of the throat",
+      "id": "w2"
+    }
+  ]
+}

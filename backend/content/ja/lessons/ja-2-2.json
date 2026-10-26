@@ -1,0 +1,176 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "今何時ですか",
+      "ipa": "ima nanji desu ka",
+      "pos": "phr.",
+      "meaning": "what time is it now?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "すみません、今何時ですか。",
+          "en": "Excuse me, what time is it now?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "時",
+      "ipa": "ji",
+      "pos": "n.",
+      "meaning": "o'clock",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "今、三時です。",
+          "en": "It is three o'clock now."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "半",
+      "ipa": "han",
+      "pos": "n.",
+      "meaning": "half",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "今、十時半です。",
+          "en": "It is half past ten now."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "十五分",
+      "ipa": "jūgo fun",
+      "pos": "phr.",
+      "meaning": "fifteen minutes",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "八時十五分です。",
+          "en": "It is eight fifteen."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "会議",
+      "ipa": "kaigi",
+      "pos": "n.",
+      "meaning": "meeting",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "会議は九時に始まります。",
+          "en": "The meeting starts at nine."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "遅れます",
+      "ipa": "okuremasu",
+      "pos": "v.",
+      "meaning": "be late",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "すみません、遅れます。",
+          "en": "Sorry, I will be late."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "タロウ",
+      "role": "npc",
+      "text": "すみません、今何時ですか。",
+      "glosses": [
+        {
+          "text": "今何時ですか",
+          "pos": "phr.",
+          "meaning": "what time is it now?"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it now?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "今、十時半です。",
+      "glosses": [],
+      "id": "t2",
+      "en": "It is half past ten now."
+    },
+    {
+      "speaker": "タロウ",
+      "role": "npc",
+      "text": "あっ、会議は十一時に始まります。遅れます！",
+      "glosses": [
+        {
+          "text": "会議",
+          "pos": "n.",
+          "meaning": "meeting"
+        },
+        {
+          "text": "遅れます",
+          "pos": "v.",
+          "meaning": "be late"
+        }
+      ],
+      "id": "t3",
+      "en": "Oh, the meeting starts at eleven. I will be late!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "大丈夫ですよ。まだ三十分あります。",
+      "glosses": [],
+      "id": "t4",
+      "en": "It is fine. You still have thirty minutes."
+    },
+    {
+      "speaker": "タロウ",
+      "role": "npc",
+      "text": "ありがとう。会議は何時に終わりますか。",
+      "glosses": [
+        {
+          "text": "会議",
+          "pos": "n.",
+          "meaning": "meeting"
+        }
+      ],
+      "id": "t5",
+      "en": "Thanks. What time does the meeting end?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "十二時に終わります。そのあと一緒に食べましょう。",
+      "glosses": [],
+      "id": "t6",
+      "en": "It ends at twelve. Then let us eat together."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "十時半",
+      "tip": "Say \"jū-ji-han\" evenly",
+      "id": "w1"
+    },
+    {
+      "text": "会議",
+      "tip": "Long final vowel: kai-gi",
+      "id": "w2"
+    }
+  ]
+}

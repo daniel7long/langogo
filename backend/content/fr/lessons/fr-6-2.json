@@ -1,0 +1,241 @@
+{
+  "emoji": "👵",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "les grands-parents",
+      "ipa": "/le gʁɑ̃.pa.ʁɑ̃/",
+      "pos": "m. n. pl.",
+      "meaning": "grandparents",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Mes grands-parents habitent à la campagne.",
+          "en": "My grandparents live in the countryside."
+        },
+        {
+          "fr": "On voit nos grands-parents le dimanche.",
+          "en": "We see our grandparents on Sundays."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la grand-mère",
+      "ipa": "/la gʁɑ̃.mɛʁ/",
+      "pos": "f. n.",
+      "meaning": "grandmother",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Ma grand-mère fait de la confiture.",
+          "en": "My grandmother makes jam."
+        },
+        {
+          "fr": "Ta grand-mère t'attend dans le jardin.",
+          "en": "Your grandmother is waiting for you in the garden."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la maison",
+      "ipa": "/la mɛ.zɔ̃/",
+      "pos": "f. n.",
+      "meaning": "house",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Leur maison est très ancienne.",
+          "en": "Their house is very old."
+        },
+        {
+          "fr": "On mange dans la maison.",
+          "en": "We eat inside the house."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "le jardin",
+      "ipa": "/lə ʒaʁ.dɛ̃/",
+      "pos": "m. n.",
+      "meaning": "garden",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Il y a des fleurs dans le jardin.",
+          "en": "There are flowers in the garden."
+        },
+        {
+          "fr": "Les enfants jouent dans le jardin.",
+          "en": "The children are playing in the garden."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "rendre visite",
+      "ipa": "/ʁɑ̃dʁ vi.zit/",
+      "pos": "v. phr.",
+      "meaning": "to visit (a person)",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Je rends visite à ma tante demain.",
+          "en": "I'm visiting my aunt tomorrow."
+        },
+        {
+          "fr": "Ils nous rendent visite en été.",
+          "en": "They visit us in the summer."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "raconter",
+      "ipa": "/ʁa.kɔ̃.te/",
+      "pos": "v.",
+      "meaning": "to tell (a story)",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Papi raconte toujours de belles histoires.",
+          "en": "Grandpa always tells nice stories."
+        },
+        {
+          "fr": "Raconte-moi ta journée.",
+          "en": "Tell me about your day."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "manquer",
+      "ipa": "/mɑ̃.ke/",
+      "pos": "v.",
+      "meaning": "to miss",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Tu me manques beaucoup.",
+          "en": "I miss you a lot."
+        },
+        {
+          "fr": "Vous nous avez manqué !",
+          "en": "We missed you!"
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mamie",
+      "role": "npc",
+      "text": "Quel plaisir de te voir ! Tu nous as manqué.",
+      "glosses": [
+        {
+          "text": "manqué",
+          "pos": "v.",
+          "meaning": "missed"
+        }
+      ],
+      "id": "t1",
+      "en": "What a pleasure to see you! We missed you."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Moi aussi, mamie ! J'aime rendre visite à mes grands-parents.",
+      "glosses": [
+        {
+          "text": "rendre visite",
+          "pos": "v. phr.",
+          "meaning": "to visit"
+        },
+        {
+          "text": "grands-parents",
+          "pos": "m. n. pl.",
+          "meaning": "grandparents"
+        }
+      ],
+      "id": "t2",
+      "en": "Me too, Grandma! I love visiting my grandparents."
+    },
+    {
+      "speaker": "Mamie",
+      "role": "npc",
+      "text": "Viens dans le jardin, papi prépare le café.",
+      "glosses": [
+        {
+          "text": "jardin",
+          "pos": "m. n.",
+          "meaning": "garden"
+        }
+      ],
+      "id": "t3",
+      "en": "Come into the garden, Grandpa is making the coffee."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ta maison est toujours aussi accueillante.",
+      "glosses": [
+        {
+          "text": "maison",
+          "pos": "f. n.",
+          "meaning": "house"
+        },
+        {
+          "text": "accueillante",
+          "pos": "adj.",
+          "meaning": "welcoming"
+        }
+      ],
+      "id": "t4",
+      "en": "Your house is always so welcoming."
+    },
+    {
+      "speaker": "Mamie",
+      "role": "npc",
+      "text": "Assieds-toi, je vais te raconter une histoire.",
+      "glosses": [
+        {
+          "text": "raconter",
+          "pos": "v.",
+          "meaning": "to tell"
+        }
+      ],
+      "id": "t5",
+      "en": "Sit down, I'm going to tell you a story."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Avec plaisir, j'adore tes histoires !",
+      "glosses": [
+        {
+          "text": "histoires",
+          "pos": "f. n. pl.",
+          "meaning": "stories"
+        }
+      ],
+      "id": "t6",
+      "en": "Gladly, I love your stories!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "les grands-parents",
+      "tip": "Two nasal vowels /ɑ̃/; the 'ds' is silent",
+      "id": "w1"
+    },
+    {
+      "text": "raconter",
+      "tip": "Nasal /ɔ̃/ in the middle; final 'r' is silent",
+      "id": "w2"
+    }
+  ]
+}

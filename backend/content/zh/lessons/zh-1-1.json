@@ -1,0 +1,236 @@
+{
+  "emoji": "👋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "你好",
+      "ipa": "nǐ hǎo",
+      "pos": "interj.",
+      "meaning": "hello",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你好，很高兴认识你。",
+          "en": "Hello, nice to meet you."
+        },
+        {
+          "target": "你好，老师！",
+          "en": "Hello, teacher!"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "早上好",
+      "ipa": "zǎo shang hǎo",
+      "pos": "phr.",
+      "meaning": "good morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "早上好，妈妈！",
+          "en": "Good morning, Mom!"
+        },
+        {
+          "target": "早上好，今天天气很好。",
+          "en": "Good morning, the weather is nice today."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "你好吗",
+      "ipa": "nǐ hǎo ma",
+      "pos": "phr.",
+      "meaning": "how are you?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你好吗？我很好。",
+          "en": "How are you? I'm fine."
+        },
+        {
+          "target": "你好吗，我的朋友？",
+          "en": "How are you, my friend?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "我很好",
+      "ipa": "wǒ hěn hǎo",
+      "pos": "phr.",
+      "meaning": "I'm fine",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我很好，谢谢。",
+          "en": "I'm fine, thank you."
+        },
+        {
+          "target": "今天我很好。",
+          "en": "I'm doing well today."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "谢谢",
+      "ipa": "xiè xie",
+      "pos": "interj.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "谢谢你！",
+          "en": "Thank you!"
+        },
+        {
+          "target": "谢谢你的帮助。",
+          "en": "Thanks for your help."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "再见",
+      "ipa": "zài jiàn",
+      "pos": "interj.",
+      "meaning": "goodbye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "再见，明天见！",
+          "en": "Goodbye, see you tomorrow!"
+        },
+        {
+          "target": "他对我说再见。",
+          "en": "He said goodbye to me."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "不客气",
+      "ipa": "bú kè qi",
+      "pos": "phr.",
+      "meaning": "you're welcome",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "不客气，应该的。",
+          "en": "You're welcome, it's nothing."
+        },
+        {
+          "target": "不客气！",
+          "en": "Don't mention it!"
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mei",
+      "role": "npc",
+      "text": "你好！早上好！",
+      "glosses": [
+        {
+          "text": "早上好",
+          "pos": "phr.",
+          "meaning": "good morning"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! Good morning!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "你好！你好吗？",
+      "glosses": [
+        {
+          "text": "你好吗",
+          "pos": "phr.",
+          "meaning": "how are you"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello! How are you?"
+    },
+    {
+      "speaker": "Mei",
+      "role": "npc",
+      "text": "我很好，谢谢。你呢？",
+      "glosses": [
+        {
+          "text": "我很好",
+          "pos": "phr.",
+          "meaning": "I'm fine"
+        },
+        {
+          "text": "谢谢",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm very well, thank you. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我也很好。很高兴认识你！",
+      "glosses": [
+        {
+          "text": "很高兴认识你",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t4",
+      "en": "I'm very well too. Nice to meet you!"
+    },
+    {
+      "speaker": "Mei",
+      "role": "npc",
+      "text": "我也是。我要去上课了。再见！",
+      "glosses": [
+        {
+          "text": "再见",
+          "pos": "interj.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t5",
+      "en": "Me too. I have to go to class. Goodbye!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "再见，明天见！",
+      "glosses": [
+        {
+          "text": "明天见",
+          "pos": "phr.",
+          "meaning": "see you tomorrow"
+        }
+      ],
+      "id": "t6",
+      "en": "Goodbye, see you tomorrow!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "你好",
+      "tip": "Two third tones in a row: the first one rises, 'ní hǎo'",
+      "id": "w1"
+    },
+    {
+      "text": "谢谢",
+      "tip": "The second 谢 is a light neutral tone",
+      "id": "w2"
+    }
+  ]
+}

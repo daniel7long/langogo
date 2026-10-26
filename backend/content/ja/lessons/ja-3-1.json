@@ -1,0 +1,198 @@
+{
+  "emoji": "☕",
+  "max_flowers": 45,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "コーヒー",
+      "ipa": "kōhī",
+      "pos": "n.",
+      "meaning": "coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "コーヒーをお願いします。",
+          "en": "Coffee, please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "牛乳",
+      "ipa": "gyūnyū",
+      "pos": "n.",
+      "meaning": "milk",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "牛乳を入れてください。",
+          "en": "Please add milk."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "お茶",
+      "ipa": "ocha",
+      "pos": "n.",
+      "meaning": "tea",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "わたしは緑のお茶を飲みます。",
+          "en": "I drink green tea."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "持ち帰り",
+      "ipa": "mochikaeri",
+      "pos": "n.",
+      "meaning": "take-out",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "持ち帰りですか。",
+          "en": "Is it take-out?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "お会計",
+      "ipa": "okaikei",
+      "pos": "n.",
+      "meaning": "the bill",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "お会計をお願いします。",
+          "en": "The bill, please."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "砂糖",
+      "ipa": "satō",
+      "pos": "n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "砂糖を入れますか。",
+          "en": "Shall I add sugar?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "いらっしゃいませ。ご注文は何ですか。",
+      "glosses": [],
+      "id": "t1",
+      "en": "Welcome. What would you like to order?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "牛乳入りのコーヒーとお茶をお願いします。",
+      "glosses": [
+        {
+          "text": "コーヒー",
+          "pos": "n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "牛乳",
+          "pos": "n.",
+          "meaning": "milk"
+        },
+        {
+          "text": "お茶",
+          "pos": "n.",
+          "meaning": "tea"
+        }
+      ],
+      "id": "t2",
+      "en": "A coffee with milk and a tea, please."
+    },
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "コーヒーに砂糖を入れますか。",
+      "glosses": [
+        {
+          "text": "コーヒー",
+          "pos": "n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "砂糖",
+          "pos": "n.",
+          "meaning": "sugar"
+        }
+      ],
+      "id": "t3",
+      "en": "Shall I add sugar to the coffee?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "いいえ、結構です。砂糖はいりません。",
+      "glosses": [
+        {
+          "text": "砂糖",
+          "pos": "n.",
+          "meaning": "sugar"
+        }
+      ],
+      "id": "t4",
+      "en": "No, thank you. I do not need sugar."
+    },
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "ここで飲みますか。持ち帰りですか。",
+      "glosses": [
+        {
+          "text": "持ち帰り",
+          "pos": "n.",
+          "meaning": "take-out"
+        }
+      ],
+      "id": "t5",
+      "en": "Will you drink here, or is it take-out?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "ここで飲みます。あとでお会計をお願いします。",
+      "glosses": [
+        {
+          "text": "お会計",
+          "pos": "n.",
+          "meaning": "the bill"
+        }
+      ],
+      "id": "t6",
+      "en": "I will drink here. The bill later, please."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "コーヒー",
+      "tip": "Stretch the long vowels: kō-hī",
+      "id": "w1"
+    },
+    {
+      "text": "お会計",
+      "tip": "Say it as \"o-kai-kei\"",
+      "id": "w2"
+    }
+  ]
+}

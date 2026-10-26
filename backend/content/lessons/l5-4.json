@@ -1,0 +1,230 @@
+{
+  "emoji": "🧺",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "demain",
+      "ipa": "/də.mɛ̃/",
+      "pos": "m. n.",
+      "meaning": "tomorrow",
+      "examples": [
+        {
+          "fr": "On part en vacances demain.",
+          "en": "We leave on vacation tomorrow."
+        },
+        {
+          "fr": "On se retrouve demain matin.",
+          "en": "We meet tomorrow morning."
+        }
+      ],
+      "cefr": "A1"
+    },
+    {
+      "id": "v2",
+      "word": "le pique-nique",
+      "ipa": "/pik.nik/",
+      "pos": "m. n.",
+      "meaning": "picnic",
+      "examples": [
+        {
+          "fr": "Le pique-nique est prêt.",
+          "en": "The picnic is ready."
+        },
+        {
+          "fr": "On fait un pique-nique au parc.",
+          "en": "We are having a picnic in the park."
+        }
+      ],
+      "cefr": "A2"
+    },
+    {
+      "id": "v3",
+      "word": "les sandwichs",
+      "ipa": "/sɑ̃d.witʃ/",
+      "pos": "m. n. pl.",
+      "meaning": "sandwiches",
+      "examples": [
+        {
+          "fr": "J'apporte des sandwichs.",
+          "en": "I'm bringing sandwiches."
+        },
+        {
+          "fr": "Les sandwichs sont au fromage.",
+          "en": "The sandwiches are cheese ones."
+        }
+      ],
+      "cefr": "A2"
+    },
+    {
+      "id": "v4",
+      "word": "le fromage",
+      "ipa": "/fʁɔ.maʒ/",
+      "pos": "m. n.",
+      "meaning": "cheese",
+      "examples": [
+        {
+          "fr": "Je préfère le fromage de chèvre.",
+          "en": "I prefer goat cheese."
+        },
+        {
+          "fr": "Il y a du fromage dans le sac.",
+          "en": "There is cheese in the bag."
+        }
+      ],
+      "cefr": "A1"
+    },
+    {
+      "id": "v5",
+      "word": "les fruits",
+      "ipa": "/fʁɥi/",
+      "pos": "m. n. pl.",
+      "meaning": "fruit",
+      "examples": [
+        {
+          "fr": "J'apporte des fruits frais.",
+          "en": "I'm bringing fresh fruit."
+        },
+        {
+          "fr": "Les fruits sont dans le panier.",
+          "en": "The fruit is in the basket."
+        }
+      ],
+      "cefr": "A1"
+    },
+    {
+      "id": "v6",
+      "word": "l'eau",
+      "ipa": "/lo/",
+      "pos": "f. n.",
+      "meaning": "water",
+      "examples": [
+        {
+          "fr": "Tu apportes de l'eau ?",
+          "en": "Are you bringing water?"
+        },
+        {
+          "fr": "L'eau est très fraîche.",
+          "en": "The water is very cold."
+        }
+      ],
+      "cefr": "A1"
+    },
+    {
+      "id": "v7",
+      "word": "la bière",
+      "ipa": "/la bjɛʁ/",
+      "pos": "f. n.",
+      "meaning": "beer",
+      "examples": [
+        {
+          "fr": "La bière est très froide.",
+          "en": "The beer is very cold."
+        },
+        {
+          "fr": "Et il y a encore de la bière fraîche tout au fond du frigo.",
+          "en": "And there is still cold beer at the back of the fridge."
+        }
+      ],
+      "cefr": "A2"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Jenny",
+      "role": "npc",
+      "text": "On fait un pique-nique demain ?",
+      "glosses": [
+        {
+          "text": "demain",
+          "pos": "adv.",
+          "meaning": "tomorrow"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, c'est une super idée ! Qu'est-ce qu'on apporte ?",
+      "glosses": [
+        {
+          "text": "apporte",
+          "pos": "v.",
+          "meaning": "bring"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "speaker": "Jenny",
+      "role": "npc",
+      "text": "J'apporte des sandwichs et de la bière.",
+      "glosses": [
+        {
+          "text": "la bière",
+          "pos": "f. n.",
+          "meaning": "beer"
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Parfait. Moi, j'apporte des fruits et de l'eau.",
+      "glosses": [
+        {
+          "text": "Parfait",
+          "pos": "adj.",
+          "meaning": "perfect"
+        },
+        {
+          "text": "l'eau",
+          "pos": "f. n.",
+          "meaning": "water"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "speaker": "Jenny",
+      "role": "npc",
+      "text": "Super, on se retrouve au parc à midi ?",
+      "glosses": [
+        {
+          "text": "à midi",
+          "pos": "adv.",
+          "meaning": "at noon"
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "D'accord, à demain !",
+      "glosses": [
+        {
+          "text": "D'accord",
+          "pos": "interj.",
+          "meaning": "OK, agreed"
+        }
+      ]
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "la bière",
+      "tip": "Pay attention to the open vowel"
+    },
+    {
+      "id": "w2",
+      "text": "J'apporte",
+      "tip": "Pay attention to the initial liaison"
+    }
+  ]
+}

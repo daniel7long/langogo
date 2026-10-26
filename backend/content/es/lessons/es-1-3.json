@@ -1,0 +1,176 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "¿de dónde eres?",
+      "ipa": "/de ˈdon.de ˈe.ɾes/",
+      "pos": "phr.",
+      "meaning": "where are you from?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "¿De dónde eres?",
+          "en": "Where are you from?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "soy de",
+      "ipa": "/soj de/",
+      "pos": "phr.",
+      "meaning": "I am from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Soy de Canadá.",
+          "en": "I am from Canada."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "país",
+      "ipa": "/pa.ˈis/",
+      "pos": "n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mi país es muy grande.",
+          "en": "My country is very big."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "ciudad",
+      "ipa": "/sju.ˈðað/",
+      "pos": "n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vivo en una ciudad pequeña.",
+          "en": "I live in a small city."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "vivir",
+      "ipa": "/bi.ˈβiɾ/",
+      "pos": "v.",
+      "meaning": "to live",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vivo en Madrid.",
+          "en": "I live in Madrid."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "hablar",
+      "ipa": "/a.ˈβlaɾ/",
+      "pos": "v.",
+      "meaning": "to speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hablo inglés y un poco de español.",
+          "en": "I speak English and a little Spanish."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Diego",
+      "role": "npc",
+      "text": "Hola, ¿de dónde eres?",
+      "glosses": [
+        {
+          "text": "de dónde eres",
+          "pos": "phr.",
+          "meaning": "where are you from?"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi, where are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Soy de Canadá. ¿Y tú?",
+      "glosses": [
+        {
+          "text": "Soy de",
+          "pos": "phr.",
+          "meaning": "I am from"
+        }
+      ],
+      "id": "t2",
+      "en": "I am from Canada. And you?"
+    },
+    {
+      "speaker": "Diego",
+      "role": "npc",
+      "text": "Soy de México, de la ciudad de Puebla.",
+      "glosses": [
+        {
+          "text": "Soy de",
+          "pos": "phr.",
+          "meaning": "I am from"
+        },
+        {
+          "text": "ciudad",
+          "pos": "n.",
+          "meaning": "city"
+        }
+      ],
+      "id": "t3",
+      "en": "I am from Mexico, from the city of Puebla."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Qué bonito. Ahora vivo en Madrid.",
+      "glosses": [],
+      "id": "t4",
+      "en": "How nice. Now I live in Madrid."
+    },
+    {
+      "speaker": "Diego",
+      "role": "npc",
+      "text": "¿Hablas español muy bien?",
+      "glosses": [],
+      "id": "t5",
+      "en": "Do you speak Spanish very well?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Hablo un poco, pero quiero aprender más.",
+      "glosses": [],
+      "id": "t6",
+      "en": "I speak a little, but I want to learn more."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "ciudad",
+      "tip": "The final \"d\" is very soft, almost silent",
+      "id": "w1"
+    },
+    {
+      "text": "hablar",
+      "tip": "The \"h\" is silent: ah-BLAR",
+      "id": "w2"
+    }
+  ]
+}

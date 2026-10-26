@@ -1,0 +1,230 @@
+{
+  "emoji": "🍳",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "la cuisine",
+      "ipa": "/la kɥi.zin/",
+      "pos": "f. n.",
+      "meaning": "kitchen, cooking",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "La cuisine sent très bon.",
+          "en": "The kitchen smells very good."
+        },
+        {
+          "fr": "J'aime la cuisine italienne.",
+          "en": "I like Italian cooking."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la recette",
+      "ipa": "/la ʁə.sɛt/",
+      "pos": "f. n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "C'est la recette de ma grand-mère.",
+          "en": "It's my grandmother's recipe."
+        },
+        {
+          "fr": "Cette recette est très simple.",
+          "en": "This recipe is very simple."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "les ingrédients",
+      "ipa": "/le zɛ̃.gʁe.djɑ̃/",
+      "pos": "m. n. pl.",
+      "meaning": "ingredients",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Les ingrédients sont sur la table.",
+          "en": "The ingredients are on the table."
+        },
+        {
+          "fr": "Il manque un ingrédient.",
+          "en": "One ingredient is missing."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "la farine",
+      "ipa": "/la fa.ʁin/",
+      "pos": "f. n.",
+      "meaning": "flour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Il faut deux cents grammes de farine.",
+          "en": "You need two hundred grams of flour."
+        },
+        {
+          "fr": "J'achète de la farine au marché.",
+          "en": "I buy flour at the market."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "les œufs",
+      "ipa": "/le zø/",
+      "pos": "m. n. pl.",
+      "meaning": "eggs",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Je casse trois œufs.",
+          "en": "I'm breaking three eggs."
+        },
+        {
+          "fr": "Les œufs sont dans le frigo.",
+          "en": "The eggs are in the fridge."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "le gâteau",
+      "ipa": "/lə ga.to/",
+      "pos": "m. n.",
+      "meaning": "cake",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Le gâteau est dans le four.",
+          "en": "The cake is in the oven."
+        },
+        {
+          "fr": "Elle fait un gâteau au chocolat.",
+          "en": "She is making a chocolate cake."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "mélanger",
+      "ipa": "/me.lɑ̃.ʒe/",
+      "pos": "v.",
+      "meaning": "to mix",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Il faut bien mélanger la pâte.",
+          "en": "You have to mix the batter well."
+        },
+        {
+          "fr": "Je mélange le sucre et le beurre.",
+          "en": "I mix the sugar and the butter."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Maman",
+      "role": "npc",
+      "text": "Aujourd'hui, on prépare un gâteau ensemble !",
+      "glosses": [
+        {
+          "text": "gâteau",
+          "pos": "m. n.",
+          "meaning": "cake"
+        }
+      ],
+      "id": "t1"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Génial ! Quelle recette on utilise ?",
+      "glosses": [
+        {
+          "text": "recette",
+          "pos": "f. n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t2"
+    },
+    {
+      "speaker": "Maman",
+      "role": "npc",
+      "text": "Celle de mamie. Il faut de la farine et trois œufs.",
+      "glosses": [
+        {
+          "text": "farine",
+          "pos": "f. n.",
+          "meaning": "flour"
+        },
+        {
+          "text": "œufs",
+          "pos": "m. n. pl.",
+          "meaning": "eggs"
+        }
+      ],
+      "id": "t3"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je sors les ingrédients du placard.",
+      "glosses": [
+        {
+          "text": "ingrédients",
+          "pos": "m. n. pl.",
+          "meaning": "ingredients"
+        }
+      ],
+      "id": "t4"
+    },
+    {
+      "speaker": "Maman",
+      "role": "npc",
+      "text": "Merci. Maintenant, mélange bien la farine et les œufs.",
+      "glosses": [
+        {
+          "text": "mélange",
+          "pos": "v.",
+          "meaning": "mix"
+        }
+      ],
+      "id": "t5"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est prêt ! La cuisine sent déjà très bon.",
+      "glosses": [
+        {
+          "text": "cuisine",
+          "pos": "f. n.",
+          "meaning": "kitchen"
+        }
+      ],
+      "id": "t6"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "les œufs",
+      "tip": "Plural: the 'f' is silent, say /ø/ (liaison /z/ after 'les')",
+      "id": "w1"
+    },
+    {
+      "text": "la farine",
+      "tip": "Use the French 'r' at the back of the throat",
+      "id": "w2"
+    }
+  ]
+}

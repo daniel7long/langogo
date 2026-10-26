@@ -1,0 +1,187 @@
+{
+  "emoji": "📅",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "주말",
+      "ipa": "jumal",
+      "pos": "n.",
+      "meaning": "weekend",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "주말에 뭐 해요?",
+          "en": "What are you doing at the weekend?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "내일",
+      "ipa": "naeil",
+      "pos": "n.",
+      "meaning": "tomorrow",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "내일 영화를 봐요.",
+          "en": "Tomorrow I will watch a movie."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "계획",
+      "ipa": "gyehoek",
+      "pos": "n.",
+      "meaning": "plan",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "주말 계획이 있어요?",
+          "en": "Do you have weekend plans?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "만나요",
+      "ipa": "mannayo",
+      "pos": "v.",
+      "meaning": "meet",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "우리 일곱 시에 만나요.",
+          "en": "Let us meet at seven."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "영화관",
+      "ipa": "yeonghwagwan",
+      "pos": "n.",
+      "meaning": "cinema",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "영화관 앞에서 만나요.",
+          "en": "Let us meet in front of the cinema."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "쉬어요",
+      "ipa": "swieoyo",
+      "pos": "v.",
+      "meaning": "rest",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "일요일에는 집에서 쉬어요.",
+          "en": "On Sunday I rest at home."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "현우",
+      "role": "npc",
+      "text": "주말에 무슨 계획이 있어요?",
+      "glosses": [
+        {
+          "text": "주말",
+          "pos": "n.",
+          "meaning": "weekend"
+        },
+        {
+          "text": "계획",
+          "pos": "n.",
+          "meaning": "plan"
+        }
+      ],
+      "id": "t1",
+      "en": "What plans do you have for the weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "토요일에 영화를 봐요. 같이 갈래요?",
+      "glosses": [],
+      "id": "t2",
+      "en": "I am watching a movie on Saturday. Shall we go together?"
+    },
+    {
+      "speaker": "현우",
+      "role": "npc",
+      "text": "좋아요! 몇 시에 만나요?",
+      "glosses": [
+        {
+          "text": "만나요",
+          "pos": "v.",
+          "meaning": "meet"
+        }
+      ],
+      "id": "t3",
+      "en": "Sure! What time shall we meet?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "일곱 시에 영화관 앞에서 만나요.",
+      "glosses": [
+        {
+          "text": "만나요",
+          "pos": "v.",
+          "meaning": "meet"
+        },
+        {
+          "text": "영화관",
+          "pos": "n.",
+          "meaning": "cinema"
+        }
+      ],
+      "id": "t4",
+      "en": "Let us meet at seven in front of the cinema."
+    },
+    {
+      "speaker": "현우",
+      "role": "npc",
+      "text": "좋아요. 일요일에는 집에서 쉬어요.",
+      "glosses": [
+        {
+          "text": "쉬어요",
+          "pos": "v.",
+          "meaning": "rest"
+        }
+      ],
+      "id": "t5",
+      "en": "Okay. On Sunday I will rest at home."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "좋은 생각이에요. 토요일에 봐요!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Good idea. See you on Saturday!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "영화관",
+      "tip": "Say it \"yeong-hwa-gwan\"",
+      "id": "w1"
+    },
+    {
+      "text": "토요일",
+      "tip": "Four even syllables: to-yo-il",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "emoji": "📅",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "das Wochenende",
+      "ipa": "/das ˈvɔ.xn̩ˌʔɛn.də/",
+      "pos": "n.",
+      "meaning": "the weekend",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Was machst du am Wochenende?",
+          "en": "What are you doing at the weekend?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "morgen",
+      "ipa": "/ˈmɔʁ.gn̩/",
+      "pos": "adv.",
+      "meaning": "tomorrow",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Morgen gehe ich ins Kino.",
+          "en": "Tomorrow I am going to the cinema."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "sich treffen",
+      "ipa": "/zɪç ˈtʁɛ.fn̩/",
+      "pos": "v.",
+      "meaning": "to meet up",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Wir treffen uns um sieben.",
+          "en": "We meet at seven."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "das Kino",
+      "ipa": "/das ˈkiː.no/",
+      "pos": "n.",
+      "meaning": "the cinema",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Wir gehen am Samstag ins Kino.",
+          "en": "We are going to the cinema on Saturday."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "am Samstag",
+      "ipa": "/am ˈzams.taːk/",
+      "pos": "phr.",
+      "meaning": "on Saturday",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Am Samstag spiele ich Fußball.",
+          "en": "On Saturday I play football."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "ausruhen",
+      "ipa": "/ˈaʊ̯s.ʁuː.ən/",
+      "pos": "v.",
+      "meaning": "to rest",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Am Sonntag ruhe ich mich aus.",
+          "en": "On Sunday I rest."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tom",
+      "role": "npc",
+      "text": "Was hast du am Wochenende vor?",
+      "glosses": [],
+      "id": "t1",
+      "en": "What are your plans for the weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Am Samstag gehe ich ins Kino. Kommst du mit?",
+      "glosses": [
+        {
+          "text": "Am Samstag",
+          "pos": "phr.",
+          "meaning": "on Saturday"
+        }
+      ],
+      "id": "t2",
+      "en": "On Saturday I am going to the cinema. Are you coming along?"
+    },
+    {
+      "speaker": "Tom",
+      "role": "npc",
+      "text": "Gern! Wann treffen wir uns?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Gladly! When shall we meet?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Um sieben Uhr, vor dem Kino.",
+      "glosses": [],
+      "id": "t4",
+      "en": "At seven o'clock, in front of the cinema."
+    },
+    {
+      "speaker": "Tom",
+      "role": "npc",
+      "text": "Perfekt. Und am Sonntag ruhe ich mich aus.",
+      "glosses": [],
+      "id": "t5",
+      "en": "Perfect. And on Sunday I will rest."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Gute Idee. Dann bis Samstag!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Good idea. See you on Saturday!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "Samstag",
+      "tip": "\"S\" at the start sounds like \"z\": ZAMS-tahk",
+      "id": "w1"
+    },
+    {
+      "text": "Wochenende",
+      "tip": "\"ch\" after \"o\" is a throaty \"kh\": VO-khen-en-de",
+      "id": "w2"
+    }
+  ]
+}

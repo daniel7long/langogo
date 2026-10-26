@@ -1,0 +1,171 @@
+{
+  "emoji": "☕",
+  "max_flowers": 45,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "ein Kaffee",
+      "ipa": "/aɪ̯n ˈka.feː/",
+      "pos": "n.",
+      "meaning": "a coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Einen Kaffee mit Milch, bitte.",
+          "en": "A coffee with milk, please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "mit Milch",
+      "ipa": "/mɪt mɪlç/",
+      "pos": "phr.",
+      "meaning": "with milk",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich trinke Kaffee mit Milch.",
+          "en": "I drink coffee with milk."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "ein Tee",
+      "ipa": "/aɪ̯n teː/",
+      "pos": "n.",
+      "meaning": "a tea",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Für mich einen grünen Tee.",
+          "en": "A green tea for me."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "zum Mitnehmen",
+      "ipa": "/tsʊm ˈmɪt.neː.mən/",
+      "pos": "phr.",
+      "meaning": "to take away",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ist das zum Mitnehmen?",
+          "en": "Is that to take away?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "die Rechnung",
+      "ipa": "/diː ˈʁɛç.nʊŋ/",
+      "pos": "n.",
+      "meaning": "the bill",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Die Rechnung, bitte.",
+          "en": "The bill, please."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "der Zucker",
+      "ipa": "/deːɐ̯ ˈtsʊ.kɐ/",
+      "pos": "n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Möchten Sie Zucker?",
+          "en": "Would you like sugar?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kellner",
+      "role": "npc",
+      "text": "Guten Tag. Was möchten Sie trinken?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good day. What would you like to drink?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Einen Kaffee mit Milch und einen grünen Tee, bitte.",
+      "glosses": [
+        {
+          "text": "mit Milch",
+          "pos": "phr.",
+          "meaning": "with milk"
+        }
+      ],
+      "id": "t2",
+      "en": "A coffee with milk and a green tea, please."
+    },
+    {
+      "speaker": "Kellner",
+      "role": "npc",
+      "text": "Möchten Sie Zucker für den Kaffee?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Would you like sugar for the coffee?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Nein, danke. Ohne Zucker.",
+      "glosses": [],
+      "id": "t4",
+      "en": "No, thank you. Without sugar."
+    },
+    {
+      "speaker": "Kellner",
+      "role": "npc",
+      "text": "Trinken Sie hier oder zum Mitnehmen?",
+      "glosses": [
+        {
+          "text": "zum Mitnehmen",
+          "pos": "phr.",
+          "meaning": "to take away"
+        }
+      ],
+      "id": "t5",
+      "en": "Will you drink here or take away?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Hier, bitte. Und später die Rechnung.",
+      "glosses": [
+        {
+          "text": "die Rechnung",
+          "pos": "n.",
+          "meaning": "the bill"
+        }
+      ],
+      "id": "t6",
+      "en": "Here, please. And later the bill."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "Rechnung",
+      "tip": "The \"ch\" is soft, like a hissing cat: REKH-nung",
+      "id": "w1"
+    },
+    {
+      "text": "Zucker",
+      "tip": "\"Z\" is \"ts\": TSU-ker",
+      "id": "w2"
+    }
+  ]
+}

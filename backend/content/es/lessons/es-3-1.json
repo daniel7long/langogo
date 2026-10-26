@@ -1,0 +1,193 @@
+{
+  "emoji": "☕",
+  "max_flowers": 45,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "un café",
+      "ipa": "/un ka.ˈfe/",
+      "pos": "n.",
+      "meaning": "a coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un café con leche, por favor.",
+          "en": "A coffee with milk, please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "con leche",
+      "ipa": "/kon ˈle.tʃe/",
+      "pos": "phr.",
+      "meaning": "with milk",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quiero el café con leche.",
+          "en": "I want the coffee with milk."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "un té",
+      "ipa": "/un te/",
+      "pos": "n.",
+      "meaning": "a tea",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Para mí, un té verde.",
+          "en": "For me, a green tea."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "para llevar",
+      "ipa": "/ˈpa.ɾa ʎe.ˈβaɾ/",
+      "pos": "phr.",
+      "meaning": "to take away",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "¿Es para llevar?",
+          "en": "Is it to take away?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "la cuenta",
+      "ipa": "/la ˈkwen.ta/",
+      "pos": "n.",
+      "meaning": "the bill",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "La cuenta, por favor.",
+          "en": "The bill, please."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "azúcar",
+      "ipa": "/a.ˈsu.kaɾ/",
+      "pos": "n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "¿Quieres azúcar?",
+          "en": "Do you want sugar?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Camarero",
+      "role": "npc",
+      "text": "Buenas tardes. ¿Qué van a tomar?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good afternoon. What would you like to have?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Un café con leche y un té verde, por favor.",
+      "glosses": [
+        {
+          "text": "Un café",
+          "pos": "n.",
+          "meaning": "a coffee"
+        },
+        {
+          "text": "con leche",
+          "pos": "phr.",
+          "meaning": "with milk"
+        },
+        {
+          "text": "un té",
+          "pos": "n.",
+          "meaning": "a tea"
+        }
+      ],
+      "id": "t2",
+      "en": "A coffee with milk and a green tea, please."
+    },
+    {
+      "speaker": "Camarero",
+      "role": "npc",
+      "text": "¿Quiere azúcar en el café?",
+      "glosses": [
+        {
+          "text": "azúcar",
+          "pos": "n.",
+          "meaning": "sugar"
+        }
+      ],
+      "id": "t3",
+      "en": "Do you want sugar in the coffee?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "No, gracias. Sin azúcar.",
+      "glosses": [
+        {
+          "text": "azúcar",
+          "pos": "n.",
+          "meaning": "sugar"
+        }
+      ],
+      "id": "t4",
+      "en": "No, thank you. Without sugar."
+    },
+    {
+      "speaker": "Camarero",
+      "role": "npc",
+      "text": "¿Es para tomar aquí o para llevar?",
+      "glosses": [
+        {
+          "text": "para llevar",
+          "pos": "phr.",
+          "meaning": "to take away"
+        }
+      ],
+      "id": "t5",
+      "en": "Is it for here or to take away?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Para tomar aquí. Y luego la cuenta, por favor.",
+      "glosses": [
+        {
+          "text": "la cuenta",
+          "pos": "n.",
+          "meaning": "the bill"
+        }
+      ],
+      "id": "t6",
+      "en": "For here. And then the bill, please."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "azúcar",
+      "tip": "Stress the second syllable: a-ZU-car",
+      "id": "w1"
+    },
+    {
+      "text": "para llevar",
+      "tip": "\"ll\" is like \"y\" in \"yes\"",
+      "id": "w2"
+    }
+  ]
+}

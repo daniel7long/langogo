@@ -1,0 +1,171 @@
+{
+  "emoji": "☀️",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "despertarse",
+      "ipa": "/des.peɾ.ˈtaɾ.se/",
+      "pos": "v.",
+      "meaning": "to wake up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Me despierto a las siete.",
+          "en": "I wake up at seven."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "desayunar",
+      "ipa": "/de.sa.ʝu.ˈnaɾ/",
+      "pos": "v.",
+      "meaning": "to have breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Desayuno café y pan.",
+          "en": "I have coffee and bread for breakfast."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "ducharse",
+      "ipa": "/du.ˈtʃaɾ.se/",
+      "pos": "v.",
+      "meaning": "to take a shower",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Me ducho antes de salir.",
+          "en": "I shower before going out."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "temprano",
+      "ipa": "/tem.ˈpɾa.no/",
+      "pos": "adv.",
+      "meaning": "early",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hoy me levanto temprano.",
+          "en": "Today I get up early."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "trabajo",
+      "ipa": "/tɾa.ˈβa.xo/",
+      "pos": "n.",
+      "meaning": "work, job",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Voy al trabajo en autobús.",
+          "en": "I go to work by bus."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "todos los días",
+      "ipa": "/ˈto.ðos los ˈdi.as/",
+      "pos": "phr.",
+      "meaning": "every day",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Corro todos los días.",
+          "en": "I run every day."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Elena",
+      "role": "npc",
+      "text": "¿A qué hora te despiertas?",
+      "glosses": [],
+      "id": "t1",
+      "en": "What time do you wake up?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Me despierto temprano, a las seis y media.",
+      "glosses": [
+        {
+          "text": "temprano",
+          "pos": "adv.",
+          "meaning": "early"
+        }
+      ],
+      "id": "t2",
+      "en": "I wake up early, at six thirty."
+    },
+    {
+      "speaker": "Elena",
+      "role": "npc",
+      "text": "¿Y qué haces después?",
+      "glosses": [],
+      "id": "t3",
+      "en": "And what do you do afterwards?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Me ducho y desayuno café con pan.",
+      "glosses": [],
+      "id": "t4",
+      "en": "I shower and have coffee with bread."
+    },
+    {
+      "speaker": "Elena",
+      "role": "npc",
+      "text": "¿Vas al trabajo en autobús?",
+      "glosses": [
+        {
+          "text": "trabajo",
+          "pos": "n.",
+          "meaning": "work, job"
+        }
+      ],
+      "id": "t5",
+      "en": "Do you go to work by bus?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sí, todos los días. Salgo a las ocho.",
+      "glosses": [
+        {
+          "text": "todos los días",
+          "pos": "phr.",
+          "meaning": "every day"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, every day. I leave at eight."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "desayuno",
+      "tip": "The \"y\" is like the \"y\" in \"yes\": de-sa-YU-no",
+      "id": "w1"
+    },
+    {
+      "text": "temprano",
+      "tip": "Tap the \"r\" once: tem-PRA-no",
+      "id": "w2"
+    }
+  ]
+}

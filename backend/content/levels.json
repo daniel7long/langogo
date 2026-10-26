@@ -1,0 +1,24 @@
+{
+  "levels": [
+    {
+      "level": 5,
+      "title": "Outdoor Activities",
+      "lessons": [
+        { "id": "l5-1", "title": "Hiking with friends" },
+        { "id": "l5-2", "title": "Skiing in Switzerland" },
+        { "id": "l5-3", "title": "Playing basketball" },
+        { "id": "l5-4", "title": "Going for a picnic" }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Family and Home",
+      "lessons": [
+        { "id": "l6-1", "title": "Cooking with Family" },
+        { "id": "l6-2", "title": "Visiting grandparents" },
+        { "id": "l6-3", "title": "Moving to a new home" },
+        { "id": "l6-4", "title": "Family celebrations" }
+      ]
+    }
+  ]
+}

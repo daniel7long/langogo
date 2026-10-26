@@ -1,0 +1,199 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "いち、に、さん",
+      "ipa": "ichi, ni, san",
+      "pos": "phr.",
+      "meaning": "one, two, three",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "いち、に、さんと数えます。",
+          "en": "I count one, two, three."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "じゅう",
+      "ipa": "jū",
+      "pos": "num.",
+      "meaning": "ten",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "りんごが十個あります。",
+          "en": "There are ten apples."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "二十歳",
+      "ipa": "hatachi",
+      "pos": "n.",
+      "meaning": "twenty years old",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "姉は二十歳です。",
+          "en": "My older sister is twenty."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "何歳ですか",
+      "ipa": "nansai desu ka",
+      "pos": "phr.",
+      "meaning": "how old are you?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "何歳ですか。",
+          "en": "How old are you?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "います",
+      "ipa": "imasu",
+      "pos": "v.",
+      "meaning": "there is (living)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "兄弟が二人います。",
+          "en": "I have two siblings."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "歳です",
+      "ipa": "sai desu",
+      "pos": "phr.",
+      "meaning": "years old",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "二十五歳です。",
+          "en": "I am twenty-five years old."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "ユキ",
+      "role": "npc",
+      "text": "何歳ですか。",
+      "glosses": [
+        {
+          "text": "何歳ですか",
+          "pos": "phr.",
+          "meaning": "how old are you?"
+        },
+        {
+          "text": "歳です",
+          "pos": "phr.",
+          "meaning": "years old"
+        }
+      ],
+      "id": "t1",
+      "en": "How old are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "二十五歳です。ユキさんは。",
+      "glosses": [
+        {
+          "text": "歳です",
+          "pos": "phr.",
+          "meaning": "years old"
+        }
+      ],
+      "id": "t2",
+      "en": "I am twenty-five. And you, Yuki?"
+    },
+    {
+      "speaker": "ユキ",
+      "role": "npc",
+      "text": "わたしは二十歳です。弟は十歳です。",
+      "glosses": [
+        {
+          "text": "二十歳",
+          "pos": "n.",
+          "meaning": "twenty years old"
+        },
+        {
+          "text": "歳です",
+          "pos": "phr.",
+          "meaning": "years old"
+        }
+      ],
+      "id": "t3",
+      "en": "I am twenty. My younger brother is ten."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "ご兄弟は何人いますか。",
+      "glosses": [
+        {
+          "text": "います",
+          "pos": "v.",
+          "meaning": "there is (living)"
+        }
+      ],
+      "id": "t4",
+      "en": "How many siblings do you have?"
+    },
+    {
+      "speaker": "ユキ",
+      "role": "npc",
+      "text": "兄が二人、姉が一人います。",
+      "glosses": [
+        {
+          "text": "います",
+          "pos": "v.",
+          "meaning": "there is (living)"
+        }
+      ],
+      "id": "t5",
+      "en": "I have two older brothers and one older sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "いいですね。わたしはいとこが五人います。",
+      "glosses": [
+        {
+          "text": "います",
+          "pos": "v.",
+          "meaning": "there is (living)"
+        }
+      ],
+      "id": "t6",
+      "en": "Nice. I have five cousins."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "二十歳",
+      "tip": "Irregular reading: ha-ta-chi",
+      "id": "w1"
+    },
+    {
+      "text": "十",
+      "tip": "Long vowel: jū",
+      "id": "w2"
+    }
+  ]
+}

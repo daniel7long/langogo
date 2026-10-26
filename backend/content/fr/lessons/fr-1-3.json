@@ -1,0 +1,231 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "le pays",
+      "ipa": "/lə pe.i/",
+      "pos": "m. n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quel est ton pays ?",
+          "en": "What is your country?"
+        },
+        {
+          "target": "Mon pays est très grand.",
+          "en": "My country is very big."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "venir de",
+      "ipa": "/və.niʁ də/",
+      "pos": "v. phr.",
+      "meaning": "to come from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je viens de Chine.",
+          "en": "I come from China."
+        },
+        {
+          "target": "Tu viens d'où ?",
+          "en": "Where do you come from?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la France",
+      "ipa": "/la fʁɑ̃s/",
+      "pos": "f. n.",
+      "meaning": "France",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "La France est en Europe.",
+          "en": "France is in Europe."
+        },
+        {
+          "target": "Je vis en France depuis un an.",
+          "en": "I have lived in France for a year."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "les États-Unis",
+      "ipa": "/le ze.ta.zy.ni/",
+      "pos": "m. n. pl.",
+      "meaning": "the United States",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Il vient des États-Unis.",
+          "en": "He comes from the United States."
+        },
+        {
+          "target": "Les États-Unis sont très grands.",
+          "en": "The United States is very big."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "la ville",
+      "ipa": "/la vil/",
+      "pos": "f. n.",
+      "meaning": "city, town",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "J'habite dans une grande ville.",
+          "en": "I live in a big city."
+        },
+        {
+          "target": "Ma ville est près de la mer.",
+          "en": "My town is near the sea."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "parler",
+      "ipa": "/paʁ.le/",
+      "pos": "v.",
+      "meaning": "to speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je parle un peu français.",
+          "en": "I speak a little French."
+        },
+        {
+          "target": "Tu parles anglais ?",
+          "en": "Do you speak English?"
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "un peu",
+      "ipa": "/œ̃ pø/",
+      "pos": "adv. phr.",
+      "meaning": "a little",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je parle un peu espagnol.",
+          "en": "I speak a little Spanish."
+        },
+        {
+          "target": "Je suis un peu fatigué.",
+          "en": "I'm a little tired."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marie",
+      "role": "npc",
+      "text": "D'où est-ce que tu viens ?",
+      "glosses": [
+        {
+          "text": "viens",
+          "pos": "v.",
+          "meaning": "come (from venir)"
+        }
+      ],
+      "id": "t1",
+      "en": "Where do you come from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je viens des États-Unis. Et toi ?",
+      "glosses": [
+        {
+          "text": "États-Unis",
+          "pos": "m. n. pl.",
+          "meaning": "United States"
+        }
+      ],
+      "id": "t2",
+      "en": "I come from the United States. And you?"
+    },
+    {
+      "speaker": "Marie",
+      "role": "npc",
+      "text": "Moi, je viens de France, de la ville de Lyon.",
+      "glosses": [
+        {
+          "text": "ville",
+          "pos": "f. n.",
+          "meaning": "city"
+        }
+      ],
+      "id": "t3",
+      "en": "I come from France, from the city of Lyon."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est une belle ville ! Je parle un peu français.",
+      "glosses": [
+        {
+          "text": "un peu",
+          "pos": "adv. phr.",
+          "meaning": "a little"
+        }
+      ],
+      "id": "t4",
+      "en": "It's a beautiful city! I speak a little French."
+    },
+    {
+      "speaker": "Marie",
+      "role": "npc",
+      "text": "Tu parles très bien ! Tu aimes la France ?",
+      "glosses": [
+        {
+          "text": "parles",
+          "pos": "v.",
+          "meaning": "speak"
+        }
+      ],
+      "id": "t5",
+      "en": "You speak very well! Do you like France?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, j'adore ce pays !",
+      "glosses": [
+        {
+          "text": "pays",
+          "pos": "m. n.",
+          "meaning": "country"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, I love this country!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "les États-Unis",
+      "tip": "Liaison: 'les_États' sounds like /le.ze.ta/; 'u' is rounded",
+      "id": "w1"
+    },
+    {
+      "text": "le pays",
+      "tip": "Say it in two syllables: /pe.i/",
+      "id": "w2"
+    }
+  ]
+}

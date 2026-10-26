@@ -1,0 +1,181 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "uno, dos, tres",
+      "ipa": "/ˈu.no dos tɾes/",
+      "pos": "phr.",
+      "meaning": "one, two, three",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Cuento: uno, dos, tres.",
+          "en": "I count: one, two, three."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "cuatro, cinco",
+      "ipa": "/ˈkwa.tɾo ˈsiŋ.ko/",
+      "pos": "phr.",
+      "meaning": "four, five",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Tengo cuatro o cinco libros.",
+          "en": "I have four or five books."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "diez",
+      "ipa": "/djes/",
+      "pos": "num.",
+      "meaning": "ten",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Tengo diez euros.",
+          "en": "I have ten euros."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "veinte",
+      "ipa": "/ˈbejn.te/",
+      "pos": "num.",
+      "meaning": "twenty",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mi hermana tiene veinte años.",
+          "en": "My sister is twenty years old."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "años",
+      "ipa": "/ˈa.ɲos/",
+      "pos": "n.",
+      "meaning": "years",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "¿Cuántos años tienes?",
+          "en": "How old are you?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "tener",
+      "ipa": "/te.ˈneɾ/",
+      "pos": "v.",
+      "meaning": "to have",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Tengo veinticinco años.",
+          "en": "I am twenty-five years old."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sofía",
+      "role": "npc",
+      "text": "¿Cuántos años tienes?",
+      "glosses": [
+        {
+          "text": "años",
+          "pos": "n.",
+          "meaning": "years"
+        }
+      ],
+      "id": "t1",
+      "en": "How old are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Tengo veinticinco años. ¿Y tú?",
+      "glosses": [
+        {
+          "text": "años",
+          "pos": "n.",
+          "meaning": "years"
+        }
+      ],
+      "id": "t2",
+      "en": "I am twenty-five. And you?"
+    },
+    {
+      "speaker": "Sofía",
+      "role": "npc",
+      "text": "Yo tengo veinte años. Mi hermano tiene diez.",
+      "glosses": [
+        {
+          "text": "diez",
+          "pos": "num.",
+          "meaning": "ten"
+        },
+        {
+          "text": "veinte",
+          "pos": "num.",
+          "meaning": "twenty"
+        },
+        {
+          "text": "años",
+          "pos": "n.",
+          "meaning": "years"
+        }
+      ],
+      "id": "t3",
+      "en": "I am twenty. My brother is ten."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "¿Cuántos hermanos tienes?",
+      "glosses": [],
+      "id": "t4",
+      "en": "How many brothers and sisters do you have?"
+    },
+    {
+      "speaker": "Sofía",
+      "role": "npc",
+      "text": "Tengo dos hermanos y una hermana.",
+      "glosses": [],
+      "id": "t5",
+      "en": "I have two brothers and one sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Qué bien. Yo tengo cinco primos.",
+      "glosses": [],
+      "id": "t6",
+      "en": "How nice. I have five cousins."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "veinte",
+      "tip": "\"ei\" in the middle: BEIN-te",
+      "id": "w1"
+    },
+    {
+      "text": "años",
+      "tip": "The \"ñ\" sounds like \"ny\" in \"canyon\"",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "una mesa",
+      "ipa": "/ˈu.na ˈme.sa/",
+      "pos": "n.",
+      "meaning": "a table",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Una mesa para dos, por favor.",
+          "en": "A table for two, please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "el menú",
+      "ipa": "/el me.ˈnu/",
+      "pos": "n.",
+      "meaning": "the menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "¿Puedo ver el menú?",
+          "en": "Can I see the menu?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "de primero",
+      "ipa": "/de pɾi.ˈme.ɾo/",
+      "pos": "phr.",
+      "meaning": "as a starter",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "De primero, una sopa.",
+          "en": "As a starter, a soup."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "de segundo",
+      "ipa": "/de se.ˈɣun.do/",
+      "pos": "phr.",
+      "meaning": "as a main course",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "De segundo, pescado.",
+          "en": "As a main course, fish."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "para beber",
+      "ipa": "/ˈpa.ɾa be.ˈβeɾ/",
+      "pos": "phr.",
+      "meaning": "to drink",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "¿Qué desean para beber?",
+          "en": "What would you like to drink?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "delicioso",
+      "ipa": "/de.li.ˈsjo.so/",
+      "pos": "adj.",
+      "meaning": "delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Todo estaba delicioso.",
+          "en": "Everything was delicious."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Camarera",
+      "role": "npc",
+      "text": "Buenas noches. ¿Una mesa para cuántas personas?",
+      "glosses": [
+        {
+          "text": "Una mesa",
+          "pos": "n.",
+          "meaning": "a table"
+        }
+      ],
+      "id": "t1",
+      "en": "Good evening. A table for how many people?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Una mesa para dos, por favor.",
+      "glosses": [
+        {
+          "text": "Una mesa",
+          "pos": "n.",
+          "meaning": "a table"
+        }
+      ],
+      "id": "t2",
+      "en": "A table for two, please."
+    },
+    {
+      "speaker": "Camarera",
+      "role": "npc",
+      "text": "Aquí tienen el menú. ¿Qué desean para beber?",
+      "glosses": [
+        {
+          "text": "el menú",
+          "pos": "n.",
+          "meaning": "the menu"
+        },
+        {
+          "text": "para beber",
+          "pos": "phr.",
+          "meaning": "to drink"
+        }
+      ],
+      "id": "t3",
+      "en": "Here is the menu. What would you like to drink?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Agua con gas para mí, y vino blanco para ella.",
+      "glosses": [],
+      "id": "t4",
+      "en": "Sparkling water for me, and white wine for her."
+    },
+    {
+      "speaker": "Camarera",
+      "role": "npc",
+      "text": "De primero, una sopa. De segundo, pescado.",
+      "glosses": [
+        {
+          "text": "De primero",
+          "pos": "phr.",
+          "meaning": "as a starter"
+        },
+        {
+          "text": "De segundo",
+          "pos": "phr.",
+          "meaning": "as a main course"
+        }
+      ],
+      "id": "t5",
+      "en": "As a starter, a soup. As a main course, fish."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Muy bien. Todo está delicioso, ya verán.",
+      "glosses": [
+        {
+          "text": "delicioso",
+          "pos": "adj.",
+          "meaning": "delicious"
+        }
+      ],
+      "id": "t6",
+      "en": "Very good. Everything is delicious, you will see."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "pescado",
+      "tip": "The \"sc\" is \"s\" + \"k\": pes-KA-do",
+      "id": "w1"
+    },
+    {
+      "text": "delicioso",
+      "tip": "Stress \"cio\": de-li-CIO-so",
+      "id": "w2"
+    }
+  ]
+}

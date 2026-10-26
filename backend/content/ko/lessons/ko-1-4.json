@@ -1,0 +1,183 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "하나, 둘, 셋",
+      "ipa": "hana, dul, set",
+      "pos": "phr.",
+      "meaning": "one, two, three",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "하나, 둘, 셋을 세요.",
+          "en": "Count one, two, three."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "일, 이, 삼",
+      "ipa": "il, i, sam",
+      "pos": "phr.",
+      "meaning": "one, two, three (Sino-Korean)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "전화번호는 일, 이, 삼이에요.",
+          "en": "The phone number is one, two, three."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "열",
+      "ipa": "yeol",
+      "pos": "num.",
+      "meaning": "ten",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "사과가 열 개 있어요.",
+          "en": "There are ten apples."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "스무 살",
+      "ipa": "seumu sal",
+      "pos": "phr.",
+      "meaning": "twenty years old",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "제 언니는 스무 살이에요.",
+          "en": "My older sister is twenty."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "몇 살이에요?",
+      "ipa": "myeot sarieyo",
+      "pos": "phr.",
+      "meaning": "how old are you?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "몇 살이에요?",
+          "en": "How old are you?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "있어요",
+      "ipa": "isseoyo",
+      "pos": "v.",
+      "meaning": "have, there is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "형제가 두 명 있어요.",
+          "en": "I have two siblings."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "수진",
+      "role": "npc",
+      "text": "몇 살이에요?",
+      "glosses": [
+        {
+          "text": "몇 살이에요",
+          "pos": "phr.",
+          "meaning": "how old are you?"
+        }
+      ],
+      "id": "t1",
+      "en": "How old are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "저는 스물다섯 살이에요. 수진 씨는요?",
+      "glosses": [],
+      "id": "t2",
+      "en": "I am twenty-five. And you, Sujin?"
+    },
+    {
+      "speaker": "수진",
+      "role": "npc",
+      "text": "저는 스무 살이에요. 동생은 열 살이에요.",
+      "glosses": [
+        {
+          "text": "스무 살",
+          "pos": "phr.",
+          "meaning": "twenty years old"
+        }
+      ],
+      "id": "t3",
+      "en": "I am twenty. My younger sibling is ten."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "형제가 몇 명 있어요?",
+      "glosses": [
+        {
+          "text": "있어요",
+          "pos": "v.",
+          "meaning": "have, there is"
+        }
+      ],
+      "id": "t4",
+      "en": "How many siblings do you have?"
+    },
+    {
+      "speaker": "수진",
+      "role": "npc",
+      "text": "형이 두 명, 누나가 한 명 있어요.",
+      "glosses": [
+        {
+          "text": "있어요",
+          "pos": "v.",
+          "meaning": "have, there is"
+        }
+      ],
+      "id": "t5",
+      "en": "I have two older brothers and one older sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "좋겠어요. 저는 사촌이 다섯 명 있어요.",
+      "glosses": [
+        {
+          "text": "있어요",
+          "pos": "v.",
+          "meaning": "have, there is"
+        }
+      ],
+      "id": "t6",
+      "en": "How nice. I have five cousins."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "스무 살",
+      "tip": "Say \"seu-mu sal\" with a light \"s\"",
+      "id": "w1"
+    },
+    {
+      "text": "열",
+      "tip": "The \"yeo\" glide is quick: yeol",
+      "id": "w2"
+    }
+  ]
+}

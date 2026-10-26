@@ -1,0 +1,165 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "你是哪国人？",
+      "ipa": "nǐ shì nǎ guó rén",
+      "pos": "phr.",
+      "meaning": "what country are you from?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你是哪国人？",
+          "en": "What country are you from?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "我是……人",
+      "ipa": "wǒ shì … rén",
+      "pos": "phr.",
+      "meaning": "I am (nationality)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我是加拿大人。",
+          "en": "I am Canadian."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "国家",
+      "ipa": "guó jiā",
+      "pos": "n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我的国家很大。",
+          "en": "My country is very big."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "城市",
+      "ipa": "chéng shì",
+      "pos": "n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我住在一个小城市。",
+          "en": "I live in a small city."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "住",
+      "ipa": "zhù",
+      "pos": "v.",
+      "meaning": "to live",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我住在北京。",
+          "en": "I live in Beijing."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "说",
+      "ipa": "shuō",
+      "pos": "v.",
+      "meaning": "to speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我会说一点儿中文。",
+          "en": "I can speak a little Chinese."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "大伟",
+      "role": "npc",
+      "text": "你好！你是哪国人？",
+      "glosses": [
+        {
+          "text": "你是哪国人",
+          "pos": "phr.",
+          "meaning": "what country are you from?"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! What country are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我是加拿大人。你呢？",
+      "glosses": [],
+      "id": "t2",
+      "en": "I am Canadian. And you?"
+    },
+    {
+      "speaker": "大伟",
+      "role": "npc",
+      "text": "我是中国人，我住在北京。",
+      "glosses": [],
+      "id": "t3",
+      "en": "I am Chinese, and I live in Beijing."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "北京是一个很大的城市。",
+      "glosses": [
+        {
+          "text": "城市",
+          "pos": "n.",
+          "meaning": "city"
+        }
+      ],
+      "id": "t4",
+      "en": "Beijing is a very big city."
+    },
+    {
+      "speaker": "大伟",
+      "role": "npc",
+      "text": "你会说中文吗？",
+      "glosses": [],
+      "id": "t5",
+      "en": "Can you speak Chinese?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我会说一点儿，我想多学习。",
+      "glosses": [],
+      "id": "t6",
+      "en": "I can speak a little. I want to study more."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "哪国人",
+      "tip": "\"nǎ\" is a falling-rising third tone",
+      "id": "w1"
+    },
+    {
+      "text": "说",
+      "tip": "Fourth tone, short and sharp: shuō",
+      "id": "w2"
+    }
+  ]
+}

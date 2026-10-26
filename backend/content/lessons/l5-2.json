@@ -1,0 +1,235 @@
+{
+  "emoji": "🎿",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "le ski",
+      "ipa": "/lə ski/",
+      "pos": "m. n.",
+      "meaning": "skiing, ski",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Je fais du ski chaque hiver.",
+          "en": "I go skiing every winter."
+        },
+        {
+          "fr": "Le ski est mon sport préféré.",
+          "en": "Skiing is my favorite sport."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la neige",
+      "ipa": "/la nɛʒ/",
+      "pos": "f. n.",
+      "meaning": "snow",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "La neige tombe depuis ce matin.",
+          "en": "Snow has been falling since this morning."
+        },
+        {
+          "fr": "Il y a beaucoup de neige en montagne.",
+          "en": "There is a lot of snow in the mountains."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la Suisse",
+      "ipa": "/la sɥis/",
+      "pos": "f. n.",
+      "meaning": "Switzerland",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "La Suisse est un pays magnifique.",
+          "en": "Switzerland is a beautiful country."
+        },
+        {
+          "fr": "On part en Suisse en février.",
+          "en": "We're going to Switzerland in February."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "la station",
+      "ipa": "/la sta.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "ski resort",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "La station est ouverte toute la saison.",
+          "en": "The resort is open all season."
+        },
+        {
+          "fr": "Cette station a vingt pistes.",
+          "en": "This resort has twenty slopes."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "la piste",
+      "ipa": "/la pist/",
+      "pos": "f. n.",
+      "meaning": "slope, ski run",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "La piste bleue est facile.",
+          "en": "The blue run is easy."
+        },
+        {
+          "fr": "Cette piste est très raide.",
+          "en": "This slope is very steep."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "le casque",
+      "ipa": "/lə kask/",
+      "pos": "m. n.",
+      "meaning": "helmet",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Mets ton casque avant de partir.",
+          "en": "Put your helmet on before leaving."
+        },
+        {
+          "fr": "Mon casque est rouge.",
+          "en": "My helmet is red."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "froid",
+      "ipa": "/fʁwa/",
+      "pos": "adj.",
+      "meaning": "cold",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Il fait froid ce matin.",
+          "en": "It's cold this morning."
+        },
+        {
+          "fr": "J'ai les mains froides.",
+          "en": "My hands are cold."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Tu es prêt pour le ski en Suisse ?",
+      "glosses": [
+        {
+          "text": "ski",
+          "pos": "m. n.",
+          "meaning": "skiing"
+        },
+        {
+          "text": "Suisse",
+          "pos": "f. n.",
+          "meaning": "Switzerland"
+        }
+      ],
+      "id": "t1"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui ! Mais il fait très froid là-bas, non ?",
+      "glosses": [
+        {
+          "text": "froid",
+          "pos": "adj.",
+          "meaning": "cold"
+        }
+      ],
+      "id": "t2"
+    },
+    {
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Oui, il y a beaucoup de neige à la station.",
+      "glosses": [
+        {
+          "text": "neige",
+          "pos": "f. n.",
+          "meaning": "snow"
+        },
+        {
+          "text": "station",
+          "pos": "f. n.",
+          "meaning": "ski resort"
+        }
+      ],
+      "id": "t3"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je n'oublie pas mon casque et mes gants.",
+      "glosses": [
+        {
+          "text": "casque",
+          "pos": "m. n.",
+          "meaning": "helmet"
+        }
+      ],
+      "id": "t4"
+    },
+    {
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Super, on commence par la piste verte.",
+      "glosses": [
+        {
+          "text": "piste",
+          "pos": "f. n.",
+          "meaning": "slope"
+        }
+      ],
+      "id": "t5"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "D'accord, je suis prêt !",
+      "glosses": [
+        {
+          "text": "prêt",
+          "pos": "adj.",
+          "meaning": "ready"
+        }
+      ],
+      "id": "t6"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "la neige",
+      "tip": "'ei' is the open vowel /ɛ/; final 'ge' is soft /ʒ/",
+      "id": "w1"
+    },
+    {
+      "text": "la Suisse",
+      "tip": "'u' is the rounded /y/, and 'ss' is /s/",
+      "id": "w2"
+    }
+  ]
+}

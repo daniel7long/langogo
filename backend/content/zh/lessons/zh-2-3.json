@@ -1,0 +1,181 @@
+{
+  "emoji": "🥖",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "面包",
+      "ipa": "miàn bāo",
+      "pos": "n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我要一个面包。",
+          "en": "I would like a loaf of bread."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "我要",
+      "ipa": "wǒ yào",
+      "pos": "phr.",
+      "meaning": "I want",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我要两个包子。",
+          "en": "I want two steamed buns."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "多少钱？",
+      "ipa": "duō shao qián",
+      "pos": "phr.",
+      "meaning": "how much is it?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "这个多少钱？",
+          "en": "How much is this?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "还要别的吗？",
+      "ipa": "hái yào bié de ma",
+      "pos": "phr.",
+      "meaning": "anything else?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "还要别的吗？",
+          "en": "Anything else?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "块",
+      "ipa": "kuài",
+      "pos": "n.",
+      "meaning": "yuan (spoken)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "一共十块。",
+          "en": "Ten yuan altogether."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "新鲜",
+      "ipa": "xīn xiān",
+      "pos": "adj.",
+      "meaning": "fresh",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "面包很新鲜。",
+          "en": "The bread is very fresh."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "店员",
+      "role": "npc",
+      "text": "你好，你要什么？",
+      "glosses": [],
+      "id": "t1",
+      "en": "Hello, what would you like?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "你好，我要一个面包。",
+      "glosses": [
+        {
+          "text": "面包",
+          "pos": "n.",
+          "meaning": "bread"
+        },
+        {
+          "text": "我要",
+          "pos": "phr.",
+          "meaning": "I want"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello, I would like a loaf of bread."
+    },
+    {
+      "speaker": "店员",
+      "role": "npc",
+      "text": "给你，很新鲜。还要别的吗？",
+      "glosses": [
+        {
+          "text": "还要别的吗",
+          "pos": "phr.",
+          "meaning": "anything else?"
+        },
+        {
+          "text": "新鲜",
+          "pos": "adj.",
+          "meaning": "fresh"
+        }
+      ],
+      "id": "t3",
+      "en": "Here you are, it is very fresh. Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "还要两个包子。一共多少钱？",
+      "glosses": [
+        {
+          "text": "多少钱",
+          "pos": "phr.",
+          "meaning": "how much is it?"
+        }
+      ],
+      "id": "t4",
+      "en": "Two steamed buns as well. How much is it altogether?"
+    },
+    {
+      "speaker": "店员",
+      "role": "npc",
+      "text": "一共十五块。",
+      "glosses": [],
+      "id": "t5",
+      "en": "Fifteen yuan altogether."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "给你钱，谢谢！",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here is the money, thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "包子",
+      "tip": "First tone, then a light tone: bāo zi",
+      "id": "w1"
+    },
+    {
+      "text": "多少钱",
+      "tip": "\"shao\" is light: duō shao qián",
+      "id": "w2"
+    }
+  ]
+}

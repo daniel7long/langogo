@@ -1,0 +1,176 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "지금 몇 시예요?",
+      "ipa": "jigeum myeot siyeyo",
+      "pos": "phr.",
+      "meaning": "what time is it now?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "실례지만, 지금 몇 시예요?",
+          "en": "Excuse me, what time is it now?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "시",
+      "ipa": "si",
+      "pos": "n.",
+      "meaning": "o'clock",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "지금 세 시예요.",
+          "en": "It is three o'clock."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "반",
+      "ipa": "ban",
+      "pos": "n.",
+      "meaning": "half",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "지금 열 시 반이에요.",
+          "en": "It is half past ten."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "분",
+      "ipa": "bun",
+      "pos": "n.",
+      "meaning": "minutes",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "여덟 시 십오 분이에요.",
+          "en": "It is eight fifteen."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "회의",
+      "ipa": "hoeui",
+      "pos": "n.",
+      "meaning": "meeting",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "회의는 아홉 시에 시작해요.",
+          "en": "The meeting starts at nine."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "늦어요",
+      "ipa": "neujeoyo",
+      "pos": "v.",
+      "meaning": "be late",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "죄송해요, 늦어요.",
+          "en": "Sorry, I am late."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "태민",
+      "role": "npc",
+      "text": "실례지만, 지금 몇 시예요?",
+      "glosses": [
+        {
+          "text": "지금 몇 시예요",
+          "pos": "phr.",
+          "meaning": "what time is it now?"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it now?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "지금 열 시 반이에요.",
+      "glosses": [],
+      "id": "t2",
+      "en": "It is half past ten."
+    },
+    {
+      "speaker": "태민",
+      "role": "npc",
+      "text": "어머, 회의가 열한 시에 시작해서 늦어요!",
+      "glosses": [
+        {
+          "text": "회의",
+          "pos": "n.",
+          "meaning": "meeting"
+        },
+        {
+          "text": "늦어요",
+          "pos": "v.",
+          "meaning": "be late"
+        }
+      ],
+      "id": "t3",
+      "en": "Oh, the meeting starts at eleven so I will be late!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "걱정 마세요. 아직 삼십 분 있어요.",
+      "glosses": [],
+      "id": "t4",
+      "en": "Do not worry. You still have thirty minutes."
+    },
+    {
+      "speaker": "태민",
+      "role": "npc",
+      "text": "고마워요. 회의는 몇 시에 끝나요?",
+      "glosses": [
+        {
+          "text": "회의",
+          "pos": "n.",
+          "meaning": "meeting"
+        }
+      ],
+      "id": "t5",
+      "en": "Thanks. What time does the meeting end?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "열두 시에 끝나요. 그다음에 같이 먹어요.",
+      "glosses": [],
+      "id": "t6",
+      "en": "It ends at twelve. Then we eat together."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "몇 시",
+      "tip": "\"myeot\" ends in a held \"t\": myeot si",
+      "id": "w1"
+    },
+    {
+      "text": "회의",
+      "tip": "Say it \"hwe-ui\" or \"hwe-i\"",
+      "id": "w2"
+    }
+  ]
+}

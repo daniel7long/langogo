@@ -1,0 +1,241 @@
+{
+  "emoji": "🏨",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "l'hôtel",
+      "ipa": "/lo.tɛl/",
+      "pos": "m. n.",
+      "meaning": "hotel",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "L'hôtel est près de la plage.",
+          "en": "The hotel is near the beach."
+        },
+        {
+          "target": "Cet hôtel a quatre étoiles.",
+          "en": "This hotel has four stars."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la réservation",
+      "ipa": "/la ʁe.zɛʁ.va.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "booking",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "J'ai une réservation au nom de Dupont.",
+          "en": "I have a booking in the name of Dupont."
+        },
+        {
+          "target": "La réservation est confirmée.",
+          "en": "The booking is confirmed."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la chambre double",
+      "ipa": "/la ʃɑ̃bʁ dubl/",
+      "pos": "f. n.",
+      "meaning": "double room",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Je voudrais une chambre double.",
+          "en": "I would like a double room."
+        },
+        {
+          "target": "La chambre double est au premier étage.",
+          "en": "The double room is on the first floor."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "la nuit",
+      "ipa": "/la nɥi/",
+      "pos": "f. n.",
+      "meaning": "night",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je reste trois nuits.",
+          "en": "I'm staying three nights."
+        },
+        {
+          "target": "Une nuit coûte cent euros.",
+          "en": "One night costs a hundred euros."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "disponible",
+      "ipa": "/dis.pɔ.nibl/",
+      "pos": "adj.",
+      "meaning": "available",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Cette chambre est disponible.",
+          "en": "This room is available."
+        },
+        {
+          "target": "Il n'y a plus de chambres disponibles.",
+          "en": "There are no rooms left."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "le prix",
+      "ipa": "/lə pʁi/",
+      "pos": "m. n.",
+      "meaning": "price",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quel est le prix ?",
+          "en": "What is the price?"
+        },
+        {
+          "target": "Le prix comprend le petit-déjeuner.",
+          "en": "The price includes breakfast."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "le passeport",
+      "ipa": "/lə pas.pɔʁ/",
+      "pos": "m. n.",
+      "meaning": "passport",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Voici mon passeport.",
+          "en": "Here is my passport."
+        },
+        {
+          "target": "N'oubliez pas votre passeport.",
+          "en": "Don't forget your passport."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Réceptionniste",
+      "role": "npc",
+      "text": "Bonjour, bienvenue à l'hôtel Le Soleil !",
+      "glosses": [
+        {
+          "text": "l'hôtel",
+          "pos": "m. n.",
+          "meaning": "hotel"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello, welcome to the Hotel Le Soleil!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonjour. J'ai une réservation au nom de Martin.",
+      "glosses": [
+        {
+          "text": "réservation",
+          "pos": "f. n.",
+          "meaning": "booking"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello. I have a reservation under the name Martin."
+    },
+    {
+      "speaker": "Réceptionniste",
+      "role": "npc",
+      "text": "Oui, une chambre double pour trois nuits. Votre passeport, s'il vous plaît ?",
+      "glosses": [
+        {
+          "text": "chambre double",
+          "pos": "f. n.",
+          "meaning": "double room"
+        },
+        {
+          "text": "nuits",
+          "pos": "f. n. pl.",
+          "meaning": "nights"
+        },
+        {
+          "text": "passeport",
+          "pos": "m. n.",
+          "meaning": "passport"
+        }
+      ],
+      "id": "t3",
+      "en": "Yes, a double room for three nights. Your passport, please?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Voici mon passeport. Quel est le prix du petit-déjeuner ?",
+      "glosses": [
+        {
+          "text": "prix",
+          "pos": "m. n.",
+          "meaning": "price"
+        }
+      ],
+      "id": "t4",
+      "en": "Here is my passport. How much is breakfast?"
+    },
+    {
+      "speaker": "Réceptionniste",
+      "role": "npc",
+      "text": "Il est compris dans le prix de la chambre.",
+      "glosses": [
+        {
+          "text": "compris",
+          "pos": "adj.",
+          "meaning": "included"
+        }
+      ],
+      "id": "t5",
+      "en": "It's included in the price of the room."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Super, merci ! La chambre est disponible dès maintenant ?",
+      "glosses": [
+        {
+          "text": "disponible",
+          "pos": "adj.",
+          "meaning": "available"
+        }
+      ],
+      "id": "t6",
+      "en": "Great, thank you! Is the room available right now?"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "l'hôtel",
+      "tip": "The 'h' is silent; stress the last syllable: ô-TEL",
+      "id": "w1"
+    },
+    {
+      "text": "la réservation",
+      "tip": "'s' between vowels is /z/; nasal /ɔ̃/ at the end",
+      "id": "w2"
+    }
+  ]
+}

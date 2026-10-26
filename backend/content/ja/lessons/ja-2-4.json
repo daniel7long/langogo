@@ -1,0 +1,182 @@
+{
+  "emoji": "📅",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "週末",
+      "ipa": "shūmatsu",
+      "pos": "n.",
+      "meaning": "weekend",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "週末は何をしますか。",
+          "en": "What will you do at the weekend?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "明日",
+      "ipa": "ashita",
+      "pos": "n.",
+      "meaning": "tomorrow",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "明日、映画を見ます。",
+          "en": "Tomorrow I will watch a movie."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "予定",
+      "ipa": "yotei",
+      "pos": "n.",
+      "meaning": "plan",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "週末の予定がありますか。",
+          "en": "Do you have weekend plans?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "会います",
+      "ipa": "aimasu",
+      "pos": "v.",
+      "meaning": "meet",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "七時に会います。",
+          "en": "We meet at seven."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "映画館",
+      "ipa": "eigakan",
+      "pos": "n.",
+      "meaning": "cinema",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "映画館の前で会いましょう。",
+          "en": "Let us meet in front of the cinema."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "休みます",
+      "ipa": "yasumimasu",
+      "pos": "v.",
+      "meaning": "rest",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "日曜日は家で休みます。",
+          "en": "On Sunday I rest at home."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "ダイ",
+      "role": "npc",
+      "text": "週末の予定がありますか。",
+      "glosses": [
+        {
+          "text": "週末",
+          "pos": "n.",
+          "meaning": "weekend"
+        },
+        {
+          "text": "予定",
+          "pos": "n.",
+          "meaning": "plan"
+        }
+      ],
+      "id": "t1",
+      "en": "Do you have plans for the weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "土曜日に映画を見ます。一緒に行きませんか。",
+      "glosses": [],
+      "id": "t2",
+      "en": "I will watch a movie on Saturday. Won't you come along?"
+    },
+    {
+      "speaker": "ダイ",
+      "role": "npc",
+      "text": "いいですね。何時に会いますか。",
+      "glosses": [
+        {
+          "text": "会います",
+          "pos": "v.",
+          "meaning": "meet"
+        }
+      ],
+      "id": "t3",
+      "en": "Sounds good. What time shall we meet?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "七時に映画館の前で会いましょう。",
+      "glosses": [
+        {
+          "text": "映画館",
+          "pos": "n.",
+          "meaning": "cinema"
+        }
+      ],
+      "id": "t4",
+      "en": "Let us meet at seven in front of the cinema."
+    },
+    {
+      "speaker": "ダイ",
+      "role": "npc",
+      "text": "わかりました。日曜日は家で休みます。",
+      "glosses": [
+        {
+          "text": "休みます",
+          "pos": "v.",
+          "meaning": "rest"
+        }
+      ],
+      "id": "t5",
+      "en": "Understood. On Sunday I will rest at home."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "いいですね。では、土曜日に！",
+      "glosses": [],
+      "id": "t6",
+      "en": "Sounds good. Then, see you on Saturday!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "映画館",
+      "tip": "Long vowel: ei-ga-kan",
+      "id": "w1"
+    },
+    {
+      "text": "週末",
+      "tip": "Long \"ū\": shū-ma-tsu",
+      "id": "w2"
+    }
+  ]
+}

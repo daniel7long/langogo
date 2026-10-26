@@ -1,0 +1,241 @@
+{
+  "emoji": "📅",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "la semaine",
+      "ipa": "/la sə.mɛn/",
+      "pos": "f. n.",
+      "meaning": "week",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Cette semaine, je travaille beaucoup.",
+          "en": "This week I'm working a lot."
+        },
+        {
+          "target": "La semaine commence le lundi.",
+          "en": "The week starts on Monday."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "lundi",
+      "ipa": "/lœ̃.di/",
+      "pos": "m. n.",
+      "meaning": "Monday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Lundi, j'ai cours à neuf heures.",
+          "en": "On Monday I have class at nine."
+        },
+        {
+          "target": "On se voit lundi ?",
+          "en": "Shall we meet on Monday?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "samedi",
+      "ipa": "/sam.di/",
+      "pos": "m. n.",
+      "meaning": "Saturday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Samedi, on fait une fête.",
+          "en": "On Saturday we're having a party."
+        },
+        {
+          "target": "Je suis libre samedi.",
+          "en": "I'm free on Saturday."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "le week-end",
+      "ipa": "/lə wi.kɛnd/",
+      "pos": "m. n.",
+      "meaning": "weekend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le week-end, je dors tard.",
+          "en": "On weekends I sleep late."
+        },
+        {
+          "target": "Bon week-end !",
+          "en": "Have a good weekend!"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "libre",
+      "ipa": "/libʁ/",
+      "pos": "adj.",
+      "meaning": "free",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Tu es libre ce soir ?",
+          "en": "Are you free tonight?"
+        },
+        {
+          "target": "Il n'est pas libre demain.",
+          "en": "He isn't free tomorrow."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "le cinéma",
+      "ipa": "/lə si.ne.ma/",
+      "pos": "m. n.",
+      "meaning": "cinema",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "On va au cinéma ce soir ?",
+          "en": "Shall we go to the cinema tonight?"
+        },
+        {
+          "target": "Le cinéma est près de la gare.",
+          "en": "The cinema is near the station."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "d'accord",
+      "ipa": "/da.kɔʁ/",
+      "pos": "interj.",
+      "meaning": "OK, agreed",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "D'accord, à samedi !",
+          "en": "OK, see you Saturday!"
+        },
+        {
+          "target": "Oui, d'accord.",
+          "en": "Yes, OK."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Nina",
+      "role": "npc",
+      "text": "Tu es libre ce week-end ?",
+      "glosses": [
+        {
+          "text": "libre",
+          "pos": "adj.",
+          "meaning": "free"
+        },
+        {
+          "text": "week-end",
+          "pos": "m. n.",
+          "meaning": "weekend"
+        }
+      ],
+      "id": "t1",
+      "en": "Are you free this weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, samedi, je suis libre. Pourquoi ?",
+      "glosses": [
+        {
+          "text": "samedi",
+          "pos": "m. n.",
+          "meaning": "Saturday"
+        },
+        {
+          "text": "Pourquoi",
+          "pos": "adv.",
+          "meaning": "why"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, I'm free on Saturday. Why?"
+    },
+    {
+      "speaker": "Nina",
+      "role": "npc",
+      "text": "On va au cinéma ? Il y a un bon film.",
+      "glosses": [
+        {
+          "text": "cinéma",
+          "pos": "m. n.",
+          "meaning": "cinema"
+        }
+      ],
+      "id": "t3",
+      "en": "Shall we go to the cinema? There's a good film."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonne idée ! Et lundi, tu travailles ?",
+      "glosses": [
+        {
+          "text": "lundi",
+          "pos": "m. n.",
+          "meaning": "Monday"
+        }
+      ],
+      "id": "t4",
+      "en": "Good idea! And on Monday, are you working?"
+    },
+    {
+      "speaker": "Nina",
+      "role": "npc",
+      "text": "Oui, toute la semaine. Alors samedi, à dix-huit heures ?",
+      "glosses": [
+        {
+          "text": "semaine",
+          "pos": "f. n.",
+          "meaning": "week"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, all week. So Saturday, at six p.m.?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "D'accord, à samedi !",
+      "glosses": [
+        {
+          "text": "D'accord",
+          "pos": "interj.",
+          "meaning": "OK, agreed"
+        }
+      ],
+      "id": "t6",
+      "en": "Okay, see you Saturday!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "le week-end",
+      "tip": "Say it as in English: /wi.kɛnd/",
+      "id": "w1"
+    },
+    {
+      "text": "le cinéma",
+      "tip": "Stress the last syllable: ci-né-MA",
+      "id": "w2"
+    }
+  ]
+}

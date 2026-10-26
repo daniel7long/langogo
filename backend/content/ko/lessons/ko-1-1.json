@@ -1,0 +1,236 @@
+{
+  "emoji": "👋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "안녕하세요",
+      "ipa": "annyeonghaseyo",
+      "pos": "interj.",
+      "meaning": "hello (polite)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "안녕하세요, 선생님!",
+          "en": "Hello, teacher!"
+        },
+        {
+          "target": "안녕하세요, 처음 뵙겠습니다.",
+          "en": "Hello, nice to meet you for the first time."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "안녕",
+      "ipa": "annyeong",
+      "pos": "interj.",
+      "meaning": "hi, bye (casual)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "안녕, 민지야!",
+          "en": "Hi, Minji!"
+        },
+        {
+          "target": "안녕, 내일 보자.",
+          "en": "Bye, see you tomorrow."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "감사합니다",
+      "ipa": "gamsahamnida",
+      "pos": "interj.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "도와주셔서 감사합니다.",
+          "en": "Thank you for helping me."
+        },
+        {
+          "target": "정말 감사합니다.",
+          "en": "Thank you so much."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "네",
+      "ipa": "ne",
+      "pos": "interj.",
+      "meaning": "yes",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "네, 맞아요.",
+          "en": "Yes, that's right."
+        },
+        {
+          "target": "네, 좋아요.",
+          "en": "Yes, sounds good."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "잘 지내요",
+      "ipa": "jal jinaeyo",
+      "pos": "phr.",
+      "meaning": "I'm doing well",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "저는 잘 지내요.",
+          "en": "I'm doing well."
+        },
+        {
+          "target": "요즘 잘 지내요?",
+          "en": "Are you doing well these days?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "만나서 반갑습니다",
+      "ipa": "mannaseo bangapseumnida",
+      "pos": "phr.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "만나서 반갑습니다, 민수 씨.",
+          "en": "Nice to meet you, Minsu."
+        },
+        {
+          "target": "저도 만나서 반갑습니다.",
+          "en": "Nice to meet you too."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "안녕히 가세요",
+      "ipa": "annyeonghi gaseyo",
+      "pos": "phr.",
+      "meaning": "goodbye (to someone leaving)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "안녕히 가세요, 또 만나요.",
+          "en": "Goodbye, let's meet again."
+        },
+        {
+          "target": "선생님, 안녕히 가세요.",
+          "en": "Goodbye, teacher."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Minji",
+      "role": "npc",
+      "text": "안녕하세요! 잘 지내요?",
+      "glosses": [
+        {
+          "text": "안녕하세요",
+          "pos": "interj.",
+          "meaning": "hello (polite)"
+        },
+        {
+          "text": "잘 지내요",
+          "pos": "phr.",
+          "meaning": "doing well"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! How have you been?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "네, 잘 지내요. 민지 씨는요?",
+      "glosses": [
+        {
+          "text": "네",
+          "pos": "interj.",
+          "meaning": "yes"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, I'm doing well. And you, Minji?"
+    },
+    {
+      "speaker": "Minji",
+      "role": "npc",
+      "text": "저도 잘 지내요. 만나서 반갑습니다.",
+      "glosses": [
+        {
+          "text": "만나서 반갑습니다",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm doing well too. Nice to meet you."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "저도 만나서 반갑습니다.",
+      "glosses": [
+        {
+          "text": "저도",
+          "pos": "pron.",
+          "meaning": "me too"
+        }
+      ],
+      "id": "t4",
+      "en": "Nice to meet you too."
+    },
+    {
+      "speaker": "Minji",
+      "role": "npc",
+      "text": "이제 수업에 가야 해요. 안녕히 계세요!",
+      "glosses": [
+        {
+          "text": "안녕히 계세요",
+          "pos": "phr.",
+          "meaning": "goodbye (to someone staying)"
+        }
+      ],
+      "id": "t5",
+      "en": "I have to go to class now. Goodbye!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "네, 안녕히 가세요!",
+      "glosses": [
+        {
+          "text": "안녕히 가세요",
+          "pos": "phr.",
+          "meaning": "goodbye (to someone leaving)"
+        }
+      ],
+      "id": "t6",
+      "en": "Okay, goodbye!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "감사합니다",
+      "tip": "ㅂ before ㄴ sounds like 'm': gam-sa-ham-ni-da",
+      "id": "w1"
+    },
+    {
+      "text": "안녕하세요",
+      "tip": "Five syllables, a light 'h': an-nyeong-ha-se-yo",
+      "id": "w2"
+    }
+  ]
+}

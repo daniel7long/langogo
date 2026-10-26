@@ -1,0 +1,183 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "시장",
+      "ipa": "sijang",
+      "pos": "n.",
+      "meaning": "market",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "토요일에 시장에 가요.",
+          "en": "I go to the market on Saturday."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "킬로",
+      "ipa": "killo",
+      "pos": "n.",
+      "meaning": "kilo",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "토마토 일 킬로 주세요.",
+          "en": "One kilo of tomatoes, please."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "과일",
+      "ipa": "gwail",
+      "pos": "n.",
+      "meaning": "fruit",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "오늘 과일이 신선해요.",
+          "en": "The fruit is fresh today."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "채소",
+      "ipa": "chaeso",
+      "pos": "n.",
+      "meaning": "vegetables",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "매주 채소를 사요.",
+          "en": "I buy vegetables every week."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "싸요",
+      "ipa": "ssayo",
+      "pos": "adj.",
+      "meaning": "is cheap",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "오늘 사과가 싸요.",
+          "en": "Apples are cheap today."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "봉지",
+      "ipa": "bongji",
+      "pos": "n.",
+      "meaning": "bag",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "봉지 필요해요?",
+          "en": "Do you need a bag?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "상인",
+      "role": "npc",
+      "text": "어서 오세요. 뭘 드릴까요?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Welcome. What can I get you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "토마토 일 킬로하고 사과 반 킬로 주세요.",
+      "glosses": [
+        {
+          "text": "킬로",
+          "pos": "n.",
+          "meaning": "kilo"
+        }
+      ],
+      "id": "t2",
+      "en": "One kilo of tomatoes and half a kilo of apples, please."
+    },
+    {
+      "speaker": "상인",
+      "role": "npc",
+      "text": "오늘 사과가 맛있고 싸요.",
+      "glosses": [
+        {
+          "text": "싸요",
+          "pos": "adj.",
+          "meaning": "is cheap"
+        }
+      ],
+      "id": "t3",
+      "en": "The apples are tasty and cheap today."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "좋아요. 국에 넣을 채소도 주세요.",
+      "glosses": [
+        {
+          "text": "채소",
+          "pos": "n.",
+          "meaning": "vegetables"
+        }
+      ],
+      "id": "t4",
+      "en": "Good. Please give me vegetables for the soup too."
+    },
+    {
+      "speaker": "상인",
+      "role": "npc",
+      "text": "여기 있어요. 봉지 필요해요?",
+      "glosses": [
+        {
+          "text": "봉지",
+          "pos": "n.",
+          "meaning": "bag"
+        }
+      ],
+      "id": "t5",
+      "en": "Here you are. Do you need a bag?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "네, 봉지 주세요. 모두 얼마예요?",
+      "glosses": [
+        {
+          "text": "봉지",
+          "pos": "n.",
+          "meaning": "bag"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, a bag please. How much is it in total?"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "시장",
+      "tip": "Clear \"s\" then \"i\": si-jang",
+      "id": "w1"
+    },
+    {
+      "text": "과일",
+      "tip": "Say it \"gwa-il\"",
+      "id": "w2"
+    }
+  ]
+}

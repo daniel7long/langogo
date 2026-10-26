@@ -1,0 +1,188 @@
+{
+  "emoji": "☀️",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "일어나요",
+      "ipa": "ireonayo",
+      "pos": "v.",
+      "meaning": "get up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "저는 일곱 시에 일어나요.",
+          "en": "I get up at seven."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "아침을 먹어요",
+      "ipa": "achimeul meogeoyo",
+      "pos": "phr.",
+      "meaning": "eat breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "아침을 먹어요.",
+          "en": "I eat breakfast."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "샤워해요",
+      "ipa": "syawohaeyo",
+      "pos": "v.",
+      "meaning": "take a shower",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "출근 전에 샤워해요.",
+          "en": "I shower before work."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "일찍",
+      "ipa": "iljjik",
+      "pos": "adv.",
+      "meaning": "early",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "오늘은 일찍 일어났어요.",
+          "en": "I got up early today."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "회사",
+      "ipa": "hoesa",
+      "pos": "n.",
+      "meaning": "company, workplace",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "버스로 회사에 가요.",
+          "en": "I go to work by bus."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "매일",
+      "ipa": "maeil",
+      "pos": "adv.",
+      "meaning": "every day",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "매일 운동해요.",
+          "en": "I exercise every day."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "지은",
+      "role": "npc",
+      "text": "몇 시에 일어나요?",
+      "glosses": [
+        {
+          "text": "일어나요",
+          "pos": "v.",
+          "meaning": "get up"
+        }
+      ],
+      "id": "t1",
+      "en": "What time do you get up?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "일찍 일어나요. 여섯 시 반에 일어나요.",
+      "glosses": [
+        {
+          "text": "일어나요",
+          "pos": "v.",
+          "meaning": "get up"
+        },
+        {
+          "text": "일찍",
+          "pos": "adv.",
+          "meaning": "early"
+        }
+      ],
+      "id": "t2",
+      "en": "I get up early, at six thirty."
+    },
+    {
+      "speaker": "지은",
+      "role": "npc",
+      "text": "그다음에 뭐 해요?",
+      "glosses": [],
+      "id": "t3",
+      "en": "What do you do after that?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "샤워하고 아침을 먹어요.",
+      "glosses": [
+        {
+          "text": "아침을 먹어요",
+          "pos": "phr.",
+          "meaning": "eat breakfast"
+        }
+      ],
+      "id": "t4",
+      "en": "I take a shower and eat breakfast."
+    },
+    {
+      "speaker": "지은",
+      "role": "npc",
+      "text": "버스로 회사에 가요?",
+      "glosses": [
+        {
+          "text": "회사",
+          "pos": "n.",
+          "meaning": "company, workplace"
+        }
+      ],
+      "id": "t5",
+      "en": "Do you go to work by bus?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "네, 매일 여덟 시에 나가요.",
+      "glosses": [
+        {
+          "text": "매일",
+          "pos": "adv.",
+          "meaning": "every day"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, I leave at eight every day."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "일찍",
+      "tip": "Double \"jj\" is tense: il-jjik",
+      "id": "w1"
+    },
+    {
+      "text": "회사",
+      "tip": "The \"oe\" sounds like \"we\": hwe-sa",
+      "id": "w2"
+    }
+  ]
+}

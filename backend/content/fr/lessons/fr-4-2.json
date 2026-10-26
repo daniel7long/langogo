@@ -1,0 +1,241 @@
+{
+  "emoji": "🚇",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "le métro",
+      "ipa": "/lə me.tʁo/",
+      "pos": "m. n.",
+      "meaning": "metro, subway",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le métro est rapide.",
+          "en": "The metro is fast."
+        },
+        {
+          "target": "Je prends le métro tous les jours.",
+          "en": "I take the metro every day."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la station",
+      "ipa": "/la sta.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "station, stop",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "La station est fermée.",
+          "en": "The station is closed."
+        },
+        {
+          "target": "Quelle est la prochaine station ?",
+          "en": "What is the next stop?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "le ticket",
+      "ipa": "/lə ti.kɛ/",
+      "pos": "m. n.",
+      "meaning": "ticket",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "J'achète un ticket.",
+          "en": "I'm buying a ticket."
+        },
+        {
+          "target": "Le ticket coûte deux euros.",
+          "en": "The ticket costs two euros."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "la ligne",
+      "ipa": "/la liɲ/",
+      "pos": "f. n.",
+      "meaning": "line",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Prenez la ligne 4.",
+          "en": "Take line 4."
+        },
+        {
+          "target": "La ligne est en travaux.",
+          "en": "The line is under repair."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "changer",
+      "ipa": "/ʃɑ̃.ʒe/",
+      "pos": "v.",
+      "meaning": "to change",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Il faut changer à Châtelet.",
+          "en": "You have to change at Châtelet."
+        },
+        {
+          "target": "On change de ligne ici.",
+          "en": "We change lines here."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "la direction",
+      "ipa": "/la di.ʁɛk.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "direction",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Direction Porte d'Orléans.",
+          "en": "Towards Porte d'Orléans."
+        },
+        {
+          "target": "Dans quelle direction vas-tu ?",
+          "en": "Which way are you going?"
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "descendre",
+      "ipa": "/de.sɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to get off",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Je descends à la prochaine.",
+          "en": "I'm getting off at the next one."
+        },
+        {
+          "target": "On descend à Opéra.",
+          "en": "We get off at Opéra."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Inès",
+      "role": "npc",
+      "text": "On prend le métro pour aller au musée ?",
+      "glosses": [
+        {
+          "text": "métro",
+          "pos": "m. n.",
+          "meaning": "metro"
+        }
+      ],
+      "id": "t1",
+      "en": "Shall we take the metro to the museum?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui ! Il faut un ticket. Où est le distributeur ?",
+      "glosses": [
+        {
+          "text": "ticket",
+          "pos": "m. n.",
+          "meaning": "ticket"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes! We need a ticket. Where is the machine?"
+    },
+    {
+      "speaker": "Inès",
+      "role": "npc",
+      "text": "Là-bas. Ensuite, prenons la ligne 1, direction La Défense.",
+      "glosses": [
+        {
+          "text": "ligne",
+          "pos": "f. n.",
+          "meaning": "line"
+        },
+        {
+          "text": "direction",
+          "pos": "f. n.",
+          "meaning": "direction"
+        }
+      ],
+      "id": "t3",
+      "en": "Over there. Then let's take line 1, towards La Défense."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Et on doit changer ?",
+      "glosses": [
+        {
+          "text": "changer",
+          "pos": "v.",
+          "meaning": "change"
+        }
+      ],
+      "id": "t4",
+      "en": "And do we have to change?"
+    },
+    {
+      "speaker": "Inès",
+      "role": "npc",
+      "text": "Non, c'est direct. On descend à la station Concorde.",
+      "glosses": [
+        {
+          "text": "descend",
+          "pos": "v.",
+          "meaning": "get off"
+        },
+        {
+          "text": "station",
+          "pos": "f. n.",
+          "meaning": "station"
+        }
+      ],
+      "id": "t5",
+      "en": "No, it's direct. We get off at Concorde station."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Parfait, c'est facile !",
+      "glosses": [
+        {
+          "text": "facile",
+          "pos": "adj.",
+          "meaning": "easy"
+        }
+      ],
+      "id": "t6",
+      "en": "Perfect, that's easy!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "le métro",
+      "tip": "Stress the last syllable; French r at the back of the throat",
+      "id": "w1"
+    },
+    {
+      "text": "la direction",
+      "tip": "'ti' is /sj/ here; nasal /ɔ̃/ at the end",
+      "id": "w2"
+    }
+  ]
+}

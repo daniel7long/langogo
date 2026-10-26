@@ -1,0 +1,165 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "一二三",
+      "ipa": "yī èr sān",
+      "pos": "phr.",
+      "meaning": "one two three",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我数一二三。",
+          "en": "I count one, two, three."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "四五",
+      "ipa": "sì wǔ",
+      "pos": "phr.",
+      "meaning": "four five",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我有四五本书。",
+          "en": "I have four or five books."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "十",
+      "ipa": "shí",
+      "pos": "num.",
+      "meaning": "ten",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我有十块钱。",
+          "en": "I have ten yuan."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "二十",
+      "ipa": "èr shí",
+      "pos": "num.",
+      "meaning": "twenty",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我姐姐二十岁。",
+          "en": "My older sister is twenty."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "岁",
+      "ipa": "suì",
+      "pos": "n.",
+      "meaning": "years old",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你今年多大？",
+          "en": "How old are you this year?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "有",
+      "ipa": "yǒu",
+      "pos": "v.",
+      "meaning": "to have",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我有两个哥哥。",
+          "en": "I have two older brothers."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "小红",
+      "role": "npc",
+      "text": "你今年多大？",
+      "glosses": [],
+      "id": "t1",
+      "en": "How old are you this year?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我二十五岁。你呢？",
+      "glosses": [
+        {
+          "text": "二十",
+          "pos": "num.",
+          "meaning": "twenty"
+        }
+      ],
+      "id": "t2",
+      "en": "I am twenty-five. And you?"
+    },
+    {
+      "speaker": "小红",
+      "role": "npc",
+      "text": "我二十岁，我弟弟十岁。",
+      "glosses": [
+        {
+          "text": "二十",
+          "pos": "num.",
+          "meaning": "twenty"
+        }
+      ],
+      "id": "t3",
+      "en": "I am twenty, and my younger brother is ten."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "你有几个兄弟姐妹？",
+      "glosses": [],
+      "id": "t4",
+      "en": "How many brothers and sisters do you have?"
+    },
+    {
+      "speaker": "小红",
+      "role": "npc",
+      "text": "我有两个哥哥，一个姐姐。",
+      "glosses": [],
+      "id": "t5",
+      "en": "I have two older brothers and one older sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "真好！我有五个表哥表姐。",
+      "glosses": [],
+      "id": "t6",
+      "en": "Great! I have five older cousins."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "十",
+      "tip": "\"sh\" with the tongue curled back: shí",
+      "id": "w1"
+    },
+    {
+      "text": "二十",
+      "tip": "Fourth tone then second tone: èr shí",
+      "id": "w2"
+    }
+  ]
+}

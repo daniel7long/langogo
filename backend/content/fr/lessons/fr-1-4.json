@@ -1,0 +1,231 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "un, deux, trois",
+      "ipa": "/œ̃ dø tʁwa/",
+      "pos": "num.",
+      "meaning": "one, two, three",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un, deux, trois, partez !",
+          "en": "One, two, three, go!"
+        },
+        {
+          "target": "J'ai trois frères.",
+          "en": "I have three brothers."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "dix",
+      "ipa": "/dis/",
+      "pos": "num.",
+      "meaning": "ten",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Il y a dix élèves.",
+          "en": "There are ten pupils."
+        },
+        {
+          "target": "Dix plus dix font vingt.",
+          "en": "Ten plus ten makes twenty."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "vingt",
+      "ipa": "/vɛ̃/",
+      "pos": "num.",
+      "meaning": "twenty",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Il a vingt ans.",
+          "en": "He is twenty years old."
+        },
+        {
+          "target": "Il y a vingt personnes ici.",
+          "en": "There are twenty people here."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "l'âge",
+      "ipa": "/lɑʒ/",
+      "pos": "m. n.",
+      "meaning": "age",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quel est l'âge de ta sœur ?",
+          "en": "How old is your sister?"
+        },
+        {
+          "target": "À mon âge, on aime le calme.",
+          "en": "At my age, you like quiet."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "avoir … ans",
+      "ipa": "/a.vwaʁ ɑ̃/",
+      "pos": "v. phr.",
+      "meaning": "to be … years old",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "J'ai vingt-cinq ans.",
+          "en": "I'm twenty-five years old."
+        },
+        {
+          "target": "Elle a douze ans.",
+          "en": "She is twelve years old."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "combien",
+      "ipa": "/kɔ̃.bjɛ̃/",
+      "pos": "adv.",
+      "meaning": "how many, how much",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Combien de frères as-tu ?",
+          "en": "How many brothers do you have?"
+        },
+        {
+          "target": "Combien ça coûte ?",
+          "en": "How much does it cost?"
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "compter",
+      "ipa": "/kɔ̃.te/",
+      "pos": "v.",
+      "meaning": "to count",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je sais compter jusqu'à dix.",
+          "en": "I can count to ten."
+        },
+        {
+          "target": "On compte les minutes.",
+          "en": "We are counting the minutes."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Luc",
+      "role": "npc",
+      "text": "Quel âge as-tu ?",
+      "glosses": [
+        {
+          "text": "âge",
+          "pos": "m. n.",
+          "meaning": "age"
+        }
+      ],
+      "id": "t1",
+      "en": "How old are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "J'ai vingt ans. Et toi ?",
+      "glosses": [
+        {
+          "text": "vingt",
+          "pos": "num.",
+          "meaning": "twenty"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm twenty. And you?"
+    },
+    {
+      "speaker": "Luc",
+      "role": "npc",
+      "text": "J'ai dix-huit ans. Combien de frères as-tu ?",
+      "glosses": [
+        {
+          "text": "Combien",
+          "pos": "adv.",
+          "meaning": "how many"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm eighteen. How many brothers do you have?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "J'ai deux frères et une sœur.",
+      "glosses": [
+        {
+          "text": "deux",
+          "pos": "num.",
+          "meaning": "two"
+        }
+      ],
+      "id": "t4",
+      "en": "I have two brothers and a sister."
+    },
+    {
+      "speaker": "Luc",
+      "role": "npc",
+      "text": "Super ! Tu sais compter en français ?",
+      "glosses": [
+        {
+          "text": "compter",
+          "pos": "v.",
+          "meaning": "to count"
+        }
+      ],
+      "id": "t5",
+      "en": "Great! Can you count in French?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bien sûr : un, deux, trois, quatre, cinq !",
+      "glosses": [
+        {
+          "text": "un, deux, trois",
+          "pos": "num.",
+          "meaning": "one, two, three"
+        }
+      ],
+      "id": "t6",
+      "en": "Of course: one, two, three, four, five!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "vingt",
+      "tip": "Nasal vowel /ɛ̃/; the 'gt' is silent",
+      "id": "w1"
+    },
+    {
+      "text": "combien",
+      "tip": "Two nasal vowels: /ɔ̃/ then /ɛ̃/",
+      "id": "w2"
+    }
+  ]
+}

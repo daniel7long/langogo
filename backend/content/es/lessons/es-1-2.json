@@ -1,0 +1,204 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "me llamo",
+      "ipa": "/me ˈʎa.mo/",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Me llamo Alex.",
+          "en": "My name is Alex."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "¿cómo te llamas?",
+      "ipa": "/ˈko.mo te ˈʎa.mas/",
+      "pos": "phr.",
+      "meaning": "what is your name?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hola, ¿cómo te llamas?",
+          "en": "Hi, what is your name?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "soy",
+      "ipa": "/soj/",
+      "pos": "v.",
+      "meaning": "I am",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Soy estudiante.",
+          "en": "I am a student."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "encantado",
+      "ipa": "/en.kan.ˈta.ðo/",
+      "pos": "adj.",
+      "meaning": "pleased to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Encantado de conocerte.",
+          "en": "Pleased to meet you."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "amigo",
+      "ipa": "/a.ˈmi.ɣo/",
+      "pos": "n.",
+      "meaning": "friend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Marta es mi amiga.",
+          "en": "Marta is my friend."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "también",
+      "ipa": "/tam.ˈbjen/",
+      "pos": "adv.",
+      "meaning": "also, too",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Yo también soy nuevo.",
+          "en": "I am new too."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marta",
+      "role": "npc",
+      "text": "Hola, ¿cómo te llamas?",
+      "glosses": [
+        {
+          "text": "cómo te llamas",
+          "pos": "phr.",
+          "meaning": "what is your name?"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi, what is your name?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Me llamo Alex. ¿Y tú?",
+      "glosses": [
+        {
+          "text": "Me llamo",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t2",
+      "en": "My name is Alex. And you?"
+    },
+    {
+      "speaker": "Marta",
+      "role": "npc",
+      "text": "Yo me llamo Marta. Soy profesora.",
+      "glosses": [
+        {
+          "text": "me llamo",
+          "pos": "phr.",
+          "meaning": "my name is"
+        },
+        {
+          "text": "Soy",
+          "pos": "v.",
+          "meaning": "I am"
+        }
+      ],
+      "id": "t3",
+      "en": "My name is Marta. I am a teacher."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Encantado, Marta. Soy estudiante.",
+      "glosses": [
+        {
+          "text": "Soy",
+          "pos": "v.",
+          "meaning": "I am"
+        },
+        {
+          "text": "Encantado",
+          "pos": "adj.",
+          "meaning": "pleased to meet you"
+        }
+      ],
+      "id": "t4",
+      "en": "Pleased to meet you, Marta. I am a student."
+    },
+    {
+      "speaker": "Marta",
+      "role": "npc",
+      "text": "Encantada también. ¿Eres nuevo aquí?",
+      "glosses": [
+        {
+          "text": "también",
+          "pos": "adv.",
+          "meaning": "also, too"
+        }
+      ],
+      "id": "t5",
+      "en": "Pleased to meet you too. Are you new here?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sí, soy nuevo. Quiero ser tu amigo.",
+      "glosses": [
+        {
+          "text": "soy",
+          "pos": "v.",
+          "meaning": "I am"
+        },
+        {
+          "text": "amigo",
+          "pos": "n.",
+          "meaning": "friend"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, I am new. I want to be your friend."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "encantado",
+      "tip": "Stress the second-to-last syllable: en-can-TA-do",
+      "id": "w1"
+    },
+    {
+      "text": "me llamo",
+      "tip": "The \"ll\" sounds like \"y\" in \"yes\"",
+      "id": "w2"
+    }
+  ]
+}

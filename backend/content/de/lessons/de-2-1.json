@@ -1,0 +1,171 @@
+{
+  "emoji": "☀️",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "aufstehen",
+      "ipa": "/ˈaʊ̯f.ʃteː.ən/",
+      "pos": "v.",
+      "meaning": "to get up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich stehe um sieben Uhr auf.",
+          "en": "I get up at seven."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "frühstücken",
+      "ipa": "/ˈfʁyː.ʃtʏ.kn̩/",
+      "pos": "v.",
+      "meaning": "to have breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich frühstücke Brot und Kaffee.",
+          "en": "I have bread and coffee for breakfast."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "duschen",
+      "ipa": "/ˈduː.ʃn̩/",
+      "pos": "v.",
+      "meaning": "to shower",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich dusche vor der Arbeit.",
+          "en": "I shower before work."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "früh",
+      "ipa": "/fʁyː/",
+      "pos": "adv.",
+      "meaning": "early",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Heute stehe ich früh auf.",
+          "en": "Today I get up early."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "die Arbeit",
+      "ipa": "/diː ˈaʁ.baɪ̯t/",
+      "pos": "n.",
+      "meaning": "work",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich fahre mit dem Bus zur Arbeit.",
+          "en": "I go to work by bus."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "jeden Tag",
+      "ipa": "/ˈjeː.dn̩ taːk/",
+      "pos": "phr.",
+      "meaning": "every day",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich laufe jeden Tag.",
+          "en": "I run every day."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Eva",
+      "role": "npc",
+      "text": "Wann stehst du auf?",
+      "glosses": [],
+      "id": "t1",
+      "en": "When do you get up?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ich stehe früh auf, um halb sieben.",
+      "glosses": [
+        {
+          "text": "früh",
+          "pos": "adv.",
+          "meaning": "early"
+        }
+      ],
+      "id": "t2",
+      "en": "I get up early, at half past six."
+    },
+    {
+      "speaker": "Eva",
+      "role": "npc",
+      "text": "Und was machst du dann?",
+      "glosses": [],
+      "id": "t3",
+      "en": "And what do you do then?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ich dusche und frühstücke Brot mit Kaffee.",
+      "glosses": [
+        {
+          "text": "früh",
+          "pos": "adv.",
+          "meaning": "early"
+        }
+      ],
+      "id": "t4",
+      "en": "I shower and have bread with coffee."
+    },
+    {
+      "speaker": "Eva",
+      "role": "npc",
+      "text": "Fährst du mit dem Bus zur Arbeit?",
+      "glosses": [],
+      "id": "t5",
+      "en": "Do you take the bus to work?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ja, jeden Tag. Ich fahre um acht los.",
+      "glosses": [
+        {
+          "text": "jeden Tag",
+          "pos": "phr.",
+          "meaning": "every day"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, every day. I leave at eight."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "frühstücken",
+      "tip": "\"ü\" is rounded; \"st\" sounds like \"sht\"",
+      "id": "w1"
+    },
+    {
+      "text": "früh",
+      "tip": "Round your lips for \"ü\": fryy",
+      "id": "w2"
+    }
+  ]
+}

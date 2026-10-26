@@ -1,0 +1,236 @@
+{
+  "emoji": "🚆",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "le train",
+      "ipa": "/lə tʁɛ̃/",
+      "pos": "m. n.",
+      "meaning": "train",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le train est à l'heure.",
+          "en": "The train is on time."
+        },
+        {
+          "target": "Je prends le train pour Lyon.",
+          "en": "I'm taking the train to Lyon."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "le billet",
+      "ipa": "/lə bi.jɛ/",
+      "pos": "m. n.",
+      "meaning": "ticket",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "J'ai acheté deux billets.",
+          "en": "I bought two tickets."
+        },
+        {
+          "target": "Où puis-je acheter un billet ?",
+          "en": "Where can I buy a ticket?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "le quai",
+      "ipa": "/lə ke/",
+      "pos": "m. n.",
+      "meaning": "platform",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Le train part du quai 3.",
+          "en": "The train leaves from platform 3."
+        },
+        {
+          "target": "Attention au bord du quai.",
+          "en": "Mind the edge of the platform."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "le départ",
+      "ipa": "/lə de.paʁ/",
+      "pos": "m. n.",
+      "meaning": "departure",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Le départ est à neuf heures quinze.",
+          "en": "Departure is at 9:15."
+        },
+        {
+          "target": "Le départ est retardé.",
+          "en": "The departure is delayed."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "l'arrivée",
+      "ipa": "/la.ʁi.ve/",
+      "pos": "f. n.",
+      "meaning": "arrival",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "L'arrivée est prévue à midi.",
+          "en": "Arrival is scheduled for noon."
+        },
+        {
+          "target": "Qui t'attend à l'arrivée ?",
+          "en": "Who is waiting for you on arrival?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "un aller simple",
+      "ipa": "/ɛ̃.na.le sɛ̃pl/",
+      "pos": "m. n.",
+      "meaning": "one-way ticket",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Un aller simple pour Nice, s'il vous plaît.",
+          "en": "A one-way ticket to Nice, please."
+        },
+        {
+          "target": "Un aller simple coûte vingt euros.",
+          "en": "A one-way ticket costs twenty euros."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "le retour",
+      "ipa": "/lə ʁə.tuʁ/",
+      "pos": "m. n.",
+      "meaning": "return",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Je réserve aussi le retour.",
+          "en": "I'm also booking the return."
+        },
+        {
+          "target": "Le retour est dimanche soir.",
+          "en": "The return is Sunday evening."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Guichetier",
+      "role": "npc",
+      "text": "Bonjour, je peux vous aider ?",
+      "glosses": [
+        {
+          "text": "aider",
+          "pos": "v.",
+          "meaning": "help"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello, can I help you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, un aller simple pour Lyon, s'il vous plaît.",
+      "glosses": [
+        {
+          "text": "aller simple",
+          "pos": "m. n.",
+          "meaning": "one-way ticket"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, a one-way ticket to Lyon, please."
+    },
+    {
+      "speaker": "Guichetier",
+      "role": "npc",
+      "text": "Très bien. Le train part à dix heures, du quai 5.",
+      "glosses": [
+        {
+          "text": "train",
+          "pos": "m. n.",
+          "meaning": "train"
+        },
+        {
+          "text": "quai",
+          "pos": "m. n.",
+          "meaning": "platform"
+        }
+      ],
+      "id": "t3",
+      "en": "Very well. The train leaves at ten o'clock, from platform 5."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Parfait. À quelle heure est l'arrivée ?",
+      "glosses": [
+        {
+          "text": "l'arrivée",
+          "pos": "f. n.",
+          "meaning": "arrival"
+        }
+      ],
+      "id": "t4",
+      "en": "Perfect. What time does it arrive?"
+    },
+    {
+      "speaker": "Guichetier",
+      "role": "npc",
+      "text": "À midi vingt. Voici votre billet.",
+      "glosses": [
+        {
+          "text": "billet",
+          "pos": "m. n.",
+          "meaning": "ticket"
+        }
+      ],
+      "id": "t5",
+      "en": "At twenty past noon. Here is your ticket."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci beaucoup. Bon après-midi !",
+      "glosses": [
+        {
+          "text": "Bon après-midi",
+          "pos": "phr.",
+          "meaning": "have a good afternoon"
+        }
+      ],
+      "id": "t6",
+      "en": "Thank you very much. Have a good afternoon!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "le billet",
+      "tip": "'ill' sounds like /j/; the final 't' is silent",
+      "id": "w1"
+    },
+    {
+      "text": "le quai",
+      "tip": "Say /ke/: 'qu' is /k/ and 'ai' is /e/",
+      "id": "w2"
+    }
+  ]
+}

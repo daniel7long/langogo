@@ -1,0 +1,6 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+python-multipart>=0.0.9
+av>=12.0  # reads the recordings so they can be scored (carries its own ffmpeg)
+pyjwt[crypto]>=2.8  # checks the sign-in token (accounts)

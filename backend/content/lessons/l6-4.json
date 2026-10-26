@@ -1,0 +1,235 @@
+{
+  "emoji": "🎂",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "l'anniversaire",
+      "ipa": "/la.ni.vɛʁ.sɛʁ/",
+      "pos": "m. n.",
+      "meaning": "birthday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Mon anniversaire est en mai.",
+          "en": "My birthday is in May."
+        },
+        {
+          "fr": "Bon anniversaire, Papa !",
+          "en": "Happy birthday, Dad!"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la fête",
+      "ipa": "/la fɛt/",
+      "pos": "f. n.",
+      "meaning": "party, celebration",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "La fête commence à huit heures.",
+          "en": "The party starts at eight."
+        },
+        {
+          "fr": "On fait une fête dans le jardin.",
+          "en": "We're having a party in the garden."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la famille",
+      "ipa": "/la fa.mij/",
+      "pos": "f. n.",
+      "meaning": "family",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Toute la famille est là.",
+          "en": "The whole family is here."
+        },
+        {
+          "fr": "J'ai une grande famille.",
+          "en": "I have a big family."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "inviter",
+      "ipa": "/ɛ̃.vi.te/",
+      "pos": "v.",
+      "meaning": "to invite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "J'invite mes cousins samedi.",
+          "en": "I'm inviting my cousins on Saturday."
+        },
+        {
+          "fr": "Qui veux-tu inviter ?",
+          "en": "Who do you want to invite?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "le repas",
+      "ipa": "/lə ʁə.pa/",
+      "pos": "m. n.",
+      "meaning": "meal",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Le repas de fête dure longtemps.",
+          "en": "The festive meal lasts a long time."
+        },
+        {
+          "fr": "Maman prépare le repas.",
+          "en": "Mom is preparing the meal."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "les cadeaux",
+      "ipa": "/le ka.do/",
+      "pos": "m. n. pl.",
+      "meaning": "gifts, presents",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Les cadeaux sont sous le sapin.",
+          "en": "The presents are under the tree."
+        },
+        {
+          "fr": "J'ai acheté deux cadeaux.",
+          "en": "I bought two presents."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "célébrer",
+      "ipa": "/se.le.bʁe/",
+      "pos": "v.",
+      "meaning": "to celebrate",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "On célèbre leur mariage demain.",
+          "en": "We're celebrating their wedding tomorrow."
+        },
+        {
+          "fr": "Nous voulons célébrer ensemble.",
+          "en": "We want to celebrate together."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Claire",
+      "role": "npc",
+      "text": "C'est bientôt l'anniversaire de papa. On organise une fête ?",
+      "glosses": [
+        {
+          "text": "anniversaire",
+          "pos": "m. n.",
+          "meaning": "birthday"
+        },
+        {
+          "text": "fête",
+          "pos": "f. n.",
+          "meaning": "party"
+        }
+      ],
+      "id": "t1"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui ! On invite toute la famille ?",
+      "glosses": [
+        {
+          "text": "invite",
+          "pos": "v.",
+          "meaning": "invite"
+        },
+        {
+          "text": "famille",
+          "pos": "f. n.",
+          "meaning": "family"
+        }
+      ],
+      "id": "t2"
+    },
+    {
+      "speaker": "Claire",
+      "role": "npc",
+      "text": "Bien sûr. Moi, je prépare le repas.",
+      "glosses": [
+        {
+          "text": "repas",
+          "pos": "m. n.",
+          "meaning": "meal"
+        }
+      ],
+      "id": "t3"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Et moi, j'achète les cadeaux.",
+      "glosses": [
+        {
+          "text": "cadeaux",
+          "pos": "m. n. pl.",
+          "meaning": "gifts"
+        }
+      ],
+      "id": "t4"
+    },
+    {
+      "speaker": "Claire",
+      "role": "npc",
+      "text": "Nous allons célébrer ça comme il faut !",
+      "glosses": [
+        {
+          "text": "célébrer",
+          "pos": "v.",
+          "meaning": "to celebrate"
+        }
+      ],
+      "id": "t5"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ce sera une belle journée en famille.",
+      "glosses": [
+        {
+          "text": "journée",
+          "pos": "f. n.",
+          "meaning": "day"
+        }
+      ],
+      "id": "t6"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "l'anniversaire",
+      "tip": "Stress the last syllable; 'ai' is the open vowel /ɛ/",
+      "id": "w1"
+    },
+    {
+      "text": "les cadeaux",
+      "tip": "Final 'x' is silent; 'eau' sounds like /o/",
+      "id": "w2"
+    }
+  ]
+}

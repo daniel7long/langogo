@@ -1,0 +1,183 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "자리",
+      "ipa": "jari",
+      "pos": "n.",
+      "meaning": "seat, table",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "두 명 자리 있어요?",
+          "en": "Do you have a table for two?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "메뉴",
+      "ipa": "menyu",
+      "pos": "n.",
+      "meaning": "menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "메뉴 좀 주세요.",
+          "en": "Please give me the menu."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "주문할게요",
+      "ipa": "jumunhalgeyo",
+      "pos": "v.",
+      "meaning": "I will order",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "지금 주문할게요.",
+          "en": "I will order now."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "국",
+      "ipa": "guk",
+      "pos": "n.",
+      "meaning": "soup",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "국 하나 주세요.",
+          "en": "One soup, please."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "생선",
+      "ipa": "saengseon",
+      "pos": "n.",
+      "meaning": "fish",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "생선 요리를 먹어요.",
+          "en": "I eat a fish dish."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "맛있어요",
+      "ipa": "masisseoyo",
+      "pos": "adj.",
+      "meaning": "is delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "여기 음식은 다 맛있어요.",
+          "en": "All the food here is delicious."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "종업원",
+      "role": "npc",
+      "text": "어서 오세요. 몇 분이세요?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Welcome. How many people?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "두 명이에요. 자리 있어요?",
+      "glosses": [
+        {
+          "text": "자리",
+          "pos": "n.",
+          "meaning": "seat, table"
+        }
+      ],
+      "id": "t2",
+      "en": "Two people. Do you have a table?"
+    },
+    {
+      "speaker": "종업원",
+      "role": "npc",
+      "text": "네, 여기 메뉴 있어요. 마실 것은요?",
+      "glosses": [
+        {
+          "text": "메뉴",
+          "pos": "n.",
+          "meaning": "menu"
+        }
+      ],
+      "id": "t3",
+      "en": "Yes, here is the menu. What to drink?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "물 주세요. 그리고 주문할게요.",
+      "glosses": [
+        {
+          "text": "주문할게요",
+          "pos": "v.",
+          "meaning": "I will order"
+        }
+      ],
+      "id": "t4",
+      "en": "Water, please. And I will order."
+    },
+    {
+      "speaker": "종업원",
+      "role": "npc",
+      "text": "국 하나랑 생선 요리 하나 주세요.",
+      "glosses": [
+        {
+          "text": "생선",
+          "pos": "n.",
+          "meaning": "fish"
+        }
+      ],
+      "id": "t5",
+      "en": "One soup and one fish dish, please."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "네, 여기 음식은 다 맛있어요.",
+      "glosses": [
+        {
+          "text": "맛있어요",
+          "pos": "adj.",
+          "meaning": "is delicious"
+        }
+      ],
+      "id": "t6",
+      "en": "Sure. All the food here is delicious."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "주문",
+      "tip": "Say it \"ju-mun\" with a short \"u\"",
+      "id": "w1"
+    },
+    {
+      "text": "맛있어요",
+      "tip": "Say it \"ma-si-sseo-yo\"",
+      "id": "w2"
+    }
+  ]
+}

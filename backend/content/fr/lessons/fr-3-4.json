@@ -1,0 +1,240 @@
+{
+  "emoji": "🍲",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "le plat",
+      "ipa": "/lə pla/",
+      "pos": "m. n.",
+      "meaning": "dish",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quel est ton plat préféré ?",
+          "en": "What is your favorite dish?"
+        },
+        {
+          "target": "Ce plat est une spécialité.",
+          "en": "This dish is a specialty."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la soupe",
+      "ipa": "/la sup/",
+      "pos": "f. n.",
+      "meaning": "soup",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "La soupe est chaude.",
+          "en": "The soup is hot."
+        },
+        {
+          "target": "Je prépare une soupe de légumes.",
+          "en": "I'm making a vegetable soup."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "le riz",
+      "ipa": "/lə ʁi/",
+      "pos": "m. n.",
+      "meaning": "rice",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je mange du riz tous les jours.",
+          "en": "I eat rice every day."
+        },
+        {
+          "target": "Le riz est dans la casserole.",
+          "en": "The rice is in the pot."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "la viande",
+      "ipa": "/la vjɑ̃d/",
+      "pos": "f. n.",
+      "meaning": "meat",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je ne mange pas de viande.",
+          "en": "I don't eat meat."
+        },
+        {
+          "target": "La viande est très tendre.",
+          "en": "The meat is very tender."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "le poisson",
+      "ipa": "/lə pwa.sɔ̃/",
+      "pos": "m. n.",
+      "meaning": "fish",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le poisson est frais.",
+          "en": "The fish is fresh."
+        },
+        {
+          "target": "On mange du poisson le vendredi.",
+          "en": "We eat fish on Fridays."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "préféré",
+      "ipa": "/pʁe.fe.ʁe/",
+      "pos": "adj.",
+      "meaning": "favorite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Mon plat préféré, c'est la pizza.",
+          "en": "My favorite dish is pizza."
+        },
+        {
+          "target": "Quelle est ta couleur préférée ?",
+          "en": "What is your favorite color?"
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "manger",
+      "ipa": "/mɑ̃.ʒe/",
+      "pos": "v.",
+      "meaning": "to eat",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "On mange à huit heures.",
+          "en": "We eat at eight."
+        },
+        {
+          "target": "J'aime manger avec ma famille.",
+          "en": "I like eating with my family."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Antoine",
+      "role": "npc",
+      "text": "Quel est ton plat préféré ?",
+      "glosses": [
+        {
+          "text": "plat",
+          "pos": "m. n.",
+          "meaning": "dish"
+        },
+        {
+          "text": "préféré",
+          "pos": "adj.",
+          "meaning": "favorite"
+        }
+      ],
+      "id": "t1",
+      "en": "What's your favourite dish?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "J'adore la soupe, surtout en hiver. Et toi ?",
+      "glosses": [
+        {
+          "text": "soupe",
+          "pos": "f. n.",
+          "meaning": "soup"
+        }
+      ],
+      "id": "t2",
+      "en": "I love soup, especially in winter. And you?"
+    },
+    {
+      "speaker": "Antoine",
+      "role": "npc",
+      "text": "Moi, je préfère le poisson avec du riz.",
+      "glosses": [
+        {
+          "text": "poisson",
+          "pos": "m. n.",
+          "meaning": "fish"
+        },
+        {
+          "text": "riz",
+          "pos": "m. n.",
+          "meaning": "rice"
+        }
+      ],
+      "id": "t3",
+      "en": "I prefer fish with rice."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Tu manges de la viande aussi ?",
+      "glosses": [
+        {
+          "text": "viande",
+          "pos": "f. n.",
+          "meaning": "meat"
+        },
+        {
+          "text": "manges",
+          "pos": "v.",
+          "meaning": "eat"
+        }
+      ],
+      "id": "t4",
+      "en": "Do you eat meat too?"
+    },
+    {
+      "speaker": "Antoine",
+      "role": "npc",
+      "text": "Un peu, mais pas tous les jours.",
+      "glosses": [],
+      "id": "t5",
+      "en": "A little, but not every day."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Alors on mange ensemble samedi ? J'invite !",
+      "glosses": [
+        {
+          "text": "mange",
+          "pos": "v.",
+          "meaning": "eat"
+        }
+      ],
+      "id": "t6",
+      "en": "So shall we eat together on Saturday? My treat!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "le poisson",
+      "tip": "'oi' is /wa/; nasal /ɔ̃/ at the end",
+      "id": "w1"
+    },
+    {
+      "text": "la viande",
+      "tip": "'vi' glides into /vj/; nasal /ɑ̃/",
+      "id": "w2"
+    }
+  ]
+}

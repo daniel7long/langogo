@@ -1,0 +1,198 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "わたしは",
+      "ipa": "watashi wa",
+      "pos": "phr.",
+      "meaning": "I (topic)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "わたしは学生です。",
+          "en": "I am a student."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "お名前は？",
+      "ipa": "onamae wa",
+      "pos": "phr.",
+      "meaning": "what is your name?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "お名前は何ですか。",
+          "en": "What is your name?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "と申します",
+      "ipa": "to mōshimasu",
+      "pos": "phr.",
+      "meaning": "my name is (humble)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "アレックスと申します。",
+          "en": "My name is Alex."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "はじめまして",
+      "ipa": "hajimemashite",
+      "pos": "phr.",
+      "meaning": "how do you do",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "はじめまして。",
+          "en": "How do you do?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "友だち",
+      "ipa": "tomodachi",
+      "pos": "n.",
+      "meaning": "friend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "ミキさんは友だちです。",
+          "en": "Miki is my friend."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "よろしくお願いします",
+      "ipa": "yoroshiku onegai shimasu",
+      "pos": "phr.",
+      "meaning": "pleased to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "どうぞよろしくお願いします。",
+          "en": "Pleased to meet you."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "ミキ",
+      "role": "npc",
+      "text": "はじめまして。お名前は何ですか。",
+      "glosses": [
+        {
+          "text": "お名前は",
+          "pos": "phr.",
+          "meaning": "what is your name?"
+        },
+        {
+          "text": "はじめまして",
+          "pos": "phr.",
+          "meaning": "how do you do"
+        }
+      ],
+      "id": "t1",
+      "en": "How do you do? What is your name?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "はじめまして。アレックスと申します。",
+      "glosses": [
+        {
+          "text": "と申します",
+          "pos": "phr.",
+          "meaning": "my name is (humble)"
+        },
+        {
+          "text": "はじめまして",
+          "pos": "phr.",
+          "meaning": "how do you do"
+        }
+      ],
+      "id": "t2",
+      "en": "How do you do? My name is Alex."
+    },
+    {
+      "speaker": "ミキ",
+      "role": "npc",
+      "text": "わたしはミキです。先生です。",
+      "glosses": [
+        {
+          "text": "わたしは",
+          "pos": "phr.",
+          "meaning": "I (topic)"
+        }
+      ],
+      "id": "t3",
+      "en": "I am Miki. I am a teacher."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "ミキさん、わたしは学生です。よろしくお願いします。",
+      "glosses": [
+        {
+          "text": "わたしは",
+          "pos": "phr.",
+          "meaning": "I (topic)"
+        },
+        {
+          "text": "よろしくお願いします",
+          "pos": "phr.",
+          "meaning": "pleased to meet you"
+        }
+      ],
+      "id": "t4",
+      "en": "Miki, I am a student. Pleased to meet you."
+    },
+    {
+      "speaker": "ミキ",
+      "role": "npc",
+      "text": "こちらこそ。ここは初めてですか。",
+      "glosses": [],
+      "id": "t5",
+      "en": "Likewise. Is this your first time here?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "はい、初めてです。友だちになりたいです。",
+      "glosses": [
+        {
+          "text": "友だち",
+          "pos": "n.",
+          "meaning": "friend"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, it is. I would like to become friends."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "はじめまして",
+      "tip": "Four even beats: ha-ji-me-ma-shi-te",
+      "id": "w1"
+    },
+    {
+      "text": "よろしく",
+      "tip": "Short vowels, even rhythm: yo-ro-shi-ku",
+      "id": "w2"
+    }
+  ]
+}

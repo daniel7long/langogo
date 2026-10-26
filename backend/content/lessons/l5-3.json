@@ -1,0 +1,230 @@
+{
+  "emoji": "🏀",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "le basket",
+      "ipa": "/lə ba.skɛt/",
+      "pos": "m. n.",
+      "meaning": "basketball",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Il joue au basket tous les mardis.",
+          "en": "He plays basketball every Tuesday."
+        },
+        {
+          "fr": "Le basket est un sport d'équipe.",
+          "en": "Basketball is a team sport."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "le ballon",
+      "ipa": "/lə ba.lɔ̃/",
+      "pos": "m. n.",
+      "meaning": "ball",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Passe-moi le ballon !",
+          "en": "Pass me the ball!"
+        },
+        {
+          "fr": "Le ballon est sous le banc.",
+          "en": "The ball is under the bench."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "l'équipe",
+      "ipa": "/le.kip/",
+      "pos": "f. n.",
+      "meaning": "team",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Notre équipe s'entraîne le soir.",
+          "en": "Our team trains in the evening."
+        },
+        {
+          "fr": "Elle change d'équipe cette année.",
+          "en": "She is changing teams this year."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "le match",
+      "ipa": "/lə matʃ/",
+      "pos": "m. n.",
+      "meaning": "game, match",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Le match commence dans dix minutes.",
+          "en": "The game starts in ten minutes."
+        },
+        {
+          "fr": "On a regardé le match hier.",
+          "en": "We watched the game yesterday."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "le terrain",
+      "ipa": "/lə te.ʁɛ̃/",
+      "pos": "m. n.",
+      "meaning": "court, field",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Le terrain est derrière l'école.",
+          "en": "The court is behind the school."
+        },
+        {
+          "fr": "Les joueurs entrent sur le terrain.",
+          "en": "The players come onto the court."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "courir",
+      "ipa": "/ku.ʁiʁ/",
+      "pos": "v.",
+      "meaning": "to run",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "J'aime courir le matin.",
+          "en": "I like running in the morning."
+        },
+        {
+          "fr": "Il faut courir pour attraper le ballon.",
+          "en": "You have to run to catch the ball."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "gagner",
+      "ipa": "/ga.ɲe/",
+      "pos": "v.",
+      "meaning": "to win",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "On veut gagner le match.",
+          "en": "We want to win the game."
+        },
+        {
+          "fr": "Qui va gagner, à ton avis ?",
+          "en": "Who is going to win, do you think?"
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "Tu joues au basket avec nous ce soir ?",
+      "glosses": [
+        {
+          "text": "basket",
+          "pos": "m. n.",
+          "meaning": "basketball"
+        }
+      ],
+      "id": "t1"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Avec plaisir ! Qui est dans mon équipe ?",
+      "glosses": [
+        {
+          "text": "équipe",
+          "pos": "f. n.",
+          "meaning": "team"
+        }
+      ],
+      "id": "t2"
+    },
+    {
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "Toi, moi et Sophie. Le match commence à dix-huit heures.",
+      "glosses": [
+        {
+          "text": "match",
+          "pos": "m. n.",
+          "meaning": "game"
+        }
+      ],
+      "id": "t3"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Super. Je prends le ballon, on se retrouve sur le terrain.",
+      "glosses": [
+        {
+          "text": "ballon",
+          "pos": "m. n.",
+          "meaning": "ball"
+        },
+        {
+          "text": "terrain",
+          "pos": "m. n.",
+          "meaning": "court"
+        }
+      ],
+      "id": "t4"
+    },
+    {
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "Prépare-toi à courir, l'autre équipe est très forte !",
+      "glosses": [
+        {
+          "text": "courir",
+          "pos": "v.",
+          "meaning": "to run"
+        }
+      ],
+      "id": "t5"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Pas de souci, on va gagner !",
+      "glosses": [
+        {
+          "text": "gagner",
+          "pos": "v.",
+          "meaning": "to win"
+        }
+      ],
+      "id": "t6"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "le ballon",
+      "tip": "Nasal vowel at the end: /ɔ̃/, no 'n' sound",
+      "id": "w1"
+    },
+    {
+      "text": "gagner",
+      "tip": "'gn' sounds like 'ny' in 'canyon'",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "emoji": "🥖",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "el pan",
+      "ipa": "/el pan/",
+      "pos": "n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quiero un pan, por favor.",
+          "en": "I would like a loaf of bread, please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "quiero",
+      "ipa": "/ˈkje.ɾo/",
+      "pos": "v.",
+      "meaning": "I want",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quiero dos croissants.",
+          "en": "I want two croissants."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "¿cuánto cuesta?",
+      "ipa": "/ˈkwan.to ˈkwes.ta/",
+      "pos": "phr.",
+      "meaning": "how much does it cost?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "¿Cuánto cuesta el pan?",
+          "en": "How much does the bread cost?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "algo más",
+      "ipa": "/ˈal.ɣo mas/",
+      "pos": "phr.",
+      "meaning": "anything else",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "¿Algo más?",
+          "en": "Anything else?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "euro",
+      "ipa": "/ˈew.ɾo/",
+      "pos": "n.",
+      "meaning": "euro",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Son tres euros.",
+          "en": "That is three euros."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "fresco",
+      "ipa": "/ˈfɾes.ko/",
+      "pos": "adj.",
+      "meaning": "fresh",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "El pan está muy fresco.",
+          "en": "The bread is very fresh."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Panadera",
+      "role": "npc",
+      "text": "Buenos días. ¿Qué desea?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning. What would you like?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Buenos días. Quiero un pan, por favor.",
+      "glosses": [
+        {
+          "text": "Quiero",
+          "pos": "v.",
+          "meaning": "I want"
+        }
+      ],
+      "id": "t2",
+      "en": "Good morning. I would like a loaf of bread, please."
+    },
+    {
+      "speaker": "Panadera",
+      "role": "npc",
+      "text": "Aquí tiene. Está muy fresco. ¿Algo más?",
+      "glosses": [
+        {
+          "text": "Algo más",
+          "pos": "phr.",
+          "meaning": "anything else"
+        },
+        {
+          "text": "fresco",
+          "pos": "adj.",
+          "meaning": "fresh"
+        }
+      ],
+      "id": "t3",
+      "en": "Here you are. It is very fresh. Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sí, dos croissants. ¿Cuánto cuesta todo?",
+      "glosses": [
+        {
+          "text": "Cuánto cuesta",
+          "pos": "phr.",
+          "meaning": "how much does it cost?"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, two croissants. How much is everything?"
+    },
+    {
+      "speaker": "Panadera",
+      "role": "npc",
+      "text": "Son cuatro euros con cincuenta.",
+      "glosses": [
+        {
+          "text": "euro",
+          "pos": "n.",
+          "meaning": "euro"
+        }
+      ],
+      "id": "t5",
+      "en": "That is four euros fifty."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Aquí tiene. Muchas gracias.",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here you are. Thank you very much."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "croissants",
+      "tip": "Say it the Spanish way: kroy-SAN",
+      "id": "w1"
+    },
+    {
+      "text": "cuánto cuesta",
+      "tip": "Both \"cu\" sounds are \"kw\": KWAN-to KWES-ta",
+      "id": "w2"
+    }
+  ]
+}

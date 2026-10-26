@@ -1,0 +1,171 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "woher kommst du?",
+      "ipa": "/voˈheːɐ̯ kɔmst duː/",
+      "pos": "phr.",
+      "meaning": "where are you from?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Woher kommst du?",
+          "en": "Where are you from?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "ich komme aus",
+      "ipa": "/ɪç ˈkɔ.mə aʊ̯s/",
+      "pos": "phr.",
+      "meaning": "I come from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich komme aus Kanada.",
+          "en": "I come from Canada."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "das Land",
+      "ipa": "/das lant/",
+      "pos": "n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mein Land ist sehr groß.",
+          "en": "My country is very big."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "die Stadt",
+      "ipa": "/diː ʃtat/",
+      "pos": "n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich wohne in einer kleinen Stadt.",
+          "en": "I live in a small city."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "wohnen",
+      "ipa": "/ˈvoː.nən/",
+      "pos": "v.",
+      "meaning": "to live",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich wohne in Berlin.",
+          "en": "I live in Berlin."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "sprechen",
+      "ipa": "/ˈʃpʁɛ.çn̩/",
+      "pos": "v.",
+      "meaning": "to speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich spreche Englisch und ein bisschen Deutsch.",
+          "en": "I speak English and a little German."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Jonas",
+      "role": "npc",
+      "text": "Hallo, woher kommst du?",
+      "glosses": [
+        {
+          "text": "woher kommst du",
+          "pos": "phr.",
+          "meaning": "where are you from?"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi, where are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ich komme aus Kanada. Und du?",
+      "glosses": [
+        {
+          "text": "Ich komme aus",
+          "pos": "phr.",
+          "meaning": "I come from"
+        }
+      ],
+      "id": "t2",
+      "en": "I come from Canada. And you?"
+    },
+    {
+      "speaker": "Jonas",
+      "role": "npc",
+      "text": "Ich komme aus Österreich, aus der Stadt Wien.",
+      "glosses": [
+        {
+          "text": "Ich komme aus",
+          "pos": "phr.",
+          "meaning": "I come from"
+        }
+      ],
+      "id": "t3",
+      "en": "I come from Austria, from the city of Vienna."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Schön. Jetzt wohne ich in Berlin.",
+      "glosses": [],
+      "id": "t4",
+      "en": "Nice. Now I live in Berlin."
+    },
+    {
+      "speaker": "Jonas",
+      "role": "npc",
+      "text": "Sprichst du schon gut Deutsch?",
+      "glosses": [],
+      "id": "t5",
+      "en": "Do you already speak good German?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ich spreche ein bisschen, aber ich lerne weiter.",
+      "glosses": [],
+      "id": "t6",
+      "en": "I speak a little, but I keep learning."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "Österreich",
+      "tip": "\"Ö\" is a rounded \"e\": ØS-ter-raikh",
+      "id": "w1"
+    },
+    {
+      "text": "sprechen",
+      "tip": "\"sp\" at the start sounds like \"shp\"",
+      "id": "w2"
+    }
+  ]
+}

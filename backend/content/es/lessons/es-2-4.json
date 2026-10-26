@@ -1,0 +1,182 @@
+{
+  "emoji": "📅",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "el fin de semana",
+      "ipa": "/el fin de se.ˈma.na/",
+      "pos": "phr.",
+      "meaning": "the weekend",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "¿Qué haces el fin de semana?",
+          "en": "What do you do on the weekend?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "mañana",
+      "ipa": "/ma.ˈɲa.na/",
+      "pos": "adv.",
+      "meaning": "tomorrow",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Mañana voy al cine.",
+          "en": "Tomorrow I am going to the cinema."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "ir a",
+      "ipa": "/iɾ a/",
+      "pos": "phr.",
+      "meaning": "to be going to",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Voy a visitar a mi abuela.",
+          "en": "I am going to visit my grandmother."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "quedar",
+      "ipa": "/ke.ˈðaɾ/",
+      "pos": "v.",
+      "meaning": "to meet up",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Quedamos a las siete.",
+          "en": "We meet at seven."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "el cine",
+      "ipa": "/el ˈsi.ne/",
+      "pos": "n.",
+      "meaning": "the cinema",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Vamos al cine el sábado.",
+          "en": "We are going to the cinema on Saturday."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "el sábado",
+      "ipa": "/el ˈsa.βa.ðo/",
+      "pos": "phr.",
+      "meaning": "on Saturday",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "El sábado juego al fútbol.",
+          "en": "On Saturday I play football."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Carlos",
+      "role": "npc",
+      "text": "¿Qué planes tienes para el fin de semana?",
+      "glosses": [
+        {
+          "text": "el fin de semana",
+          "pos": "phr.",
+          "meaning": "the weekend"
+        }
+      ],
+      "id": "t1",
+      "en": "What plans do you have for the weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "El sábado voy a ir al cine. ¿Quieres venir?",
+      "glosses": [
+        {
+          "text": "ir a",
+          "pos": "phr.",
+          "meaning": "to be going to"
+        },
+        {
+          "text": "El sábado",
+          "pos": "phr.",
+          "meaning": "on Saturday"
+        }
+      ],
+      "id": "t2",
+      "en": "On Saturday I am going to the cinema. Do you want to come?"
+    },
+    {
+      "speaker": "Carlos",
+      "role": "npc",
+      "text": "Sí, me gusta. ¿A qué hora quedamos?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Yes, I like it. What time shall we meet?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Quedamos a las siete, delante del cine.",
+      "glosses": [
+        {
+          "text": "el cine",
+          "pos": "n.",
+          "meaning": "the cinema"
+        }
+      ],
+      "id": "t4",
+      "en": "Let us meet at seven, in front of the cinema."
+    },
+    {
+      "speaker": "Carlos",
+      "role": "npc",
+      "text": "Perfecto. Y el domingo voy a descansar.",
+      "glosses": [],
+      "id": "t5",
+      "en": "Perfect. And on Sunday I am going to rest."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Buena idea. ¡Nos vemos el sábado!",
+      "glosses": [
+        {
+          "text": "el sábado",
+          "pos": "phr.",
+          "meaning": "on Saturday"
+        }
+      ],
+      "id": "t6",
+      "en": "Good idea. See you on Saturday!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "sábado",
+      "tip": "Stress the first syllable: SA-ba-do",
+      "id": "w1"
+    },
+    {
+      "text": "quedamos",
+      "tip": "\"qu\" is a hard k: ke-DA-mos",
+      "id": "w2"
+    }
+  ]
+}

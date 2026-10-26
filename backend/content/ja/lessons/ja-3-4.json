@@ -1,0 +1,214 @@
+{
+  "emoji": "😋",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "一番好きな",
+      "ipa": "ichiban suki na",
+      "pos": "phr.",
+      "meaning": "most favorite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "一番好きな料理はカレーです。",
+          "en": "My favorite dish is curry."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "カレー",
+      "ipa": "karē",
+      "pos": "n.",
+      "meaning": "curry",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "カレーが大好きです。",
+          "en": "I love curry."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "辛い",
+      "ipa": "karai",
+      "pos": "adj.",
+      "meaning": "spicy",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "この料理はとても辛いです。",
+          "en": "This dish is very spicy."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "料理",
+      "ipa": "ryōri",
+      "pos": "n.",
+      "meaning": "cooking, dish",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "母は料理が上手です。",
+          "en": "My mother is good at cooking."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "レシピ",
+      "ipa": "reshipi",
+      "pos": "n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "レシピを教えてください。",
+          "en": "Please tell me the recipe."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "好き",
+      "ipa": "suki",
+      "pos": "adj.",
+      "meaning": "like",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "チョコレートが好きです。",
+          "en": "I like chocolate."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "サキ",
+      "role": "npc",
+      "text": "一番好きな料理は何ですか。",
+      "glosses": [
+        {
+          "text": "一番好きな",
+          "pos": "phr.",
+          "meaning": "most favorite"
+        },
+        {
+          "text": "料理",
+          "pos": "n.",
+          "meaning": "cooking, dish"
+        },
+        {
+          "text": "好き",
+          "pos": "adj.",
+          "meaning": "like"
+        }
+      ],
+      "id": "t1",
+      "en": "What is your favorite dish?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "カレーが一番好きです。大好きです。",
+      "glosses": [
+        {
+          "text": "カレー",
+          "pos": "n.",
+          "meaning": "curry"
+        },
+        {
+          "text": "好き",
+          "pos": "adj.",
+          "meaning": "like"
+        }
+      ],
+      "id": "t2",
+      "en": "I like curry the most. I love it."
+    },
+    {
+      "speaker": "サキ",
+      "role": "npc",
+      "text": "自分で料理もしますか。",
+      "glosses": [
+        {
+          "text": "料理",
+          "pos": "n.",
+          "meaning": "cooking, dish"
+        }
+      ],
+      "id": "t3",
+      "en": "Do you cook it yourself too?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "はい、祖母がレシピを教えてくれました。",
+      "glosses": [
+        {
+          "text": "レシピ",
+          "pos": "n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, my grandmother taught me the recipe."
+    },
+    {
+      "speaker": "サキ",
+      "role": "npc",
+      "text": "辛い料理も好きですか。",
+      "glosses": [
+        {
+          "text": "辛い",
+          "pos": "adj.",
+          "meaning": "spicy"
+        },
+        {
+          "text": "料理",
+          "pos": "n.",
+          "meaning": "cooking, dish"
+        },
+        {
+          "text": "好き",
+          "pos": "adj.",
+          "meaning": "like"
+        }
+      ],
+      "id": "t5",
+      "en": "Do you like spicy food too?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "少しだけ。でもチョコレートのほうが好きです。",
+      "glosses": [
+        {
+          "text": "好き",
+          "pos": "adj.",
+          "meaning": "like"
+        }
+      ],
+      "id": "t6",
+      "en": "Only a little. But I like chocolate more."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "料理",
+      "tip": "Long \"ō\" in the first syllable: ryō-ri",
+      "id": "w1"
+    },
+    {
+      "text": "カレー",
+      "tip": "Stretch the last vowel: ka-rē",
+      "id": "w2"
+    }
+  ]
+}

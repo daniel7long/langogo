@@ -1,0 +1,64 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "title": "Greetings and Basics",
+      "lessons": [
+        { "id": "fr-1-1", "title": "Saying hello" },
+        { "id": "fr-1-2", "title": "Introducing yourself" },
+        { "id": "fr-1-3", "title": "Where are you from?" },
+        { "id": "fr-1-4", "title": "Numbers and age" }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Daily Life",
+      "lessons": [
+        { "id": "fr-2-1", "title": "Morning routine" },
+        { "id": "fr-2-2", "title": "Telling the time" },
+        { "id": "fr-2-3", "title": "At the bakery" },
+        { "id": "fr-2-4", "title": "Plans for the week" }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Food and Drinks",
+      "lessons": [
+        { "id": "fr-3-1", "title": "Ordering at a café" },
+        { "id": "fr-3-2", "title": "At the restaurant" },
+        { "id": "fr-3-3", "title": "Grocery shopping" },
+        { "id": "fr-3-4", "title": "Favorite dishes" }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Getting Around",
+      "lessons": [
+        { "id": "fr-4-1", "title": "Asking for directions" },
+        { "id": "fr-4-2", "title": "Taking the metro" },
+        { "id": "fr-4-3", "title": "At the train station" },
+        { "id": "fr-4-4", "title": "Booking a hotel" }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Outdoor Activities",
+      "lessons": [
+        { "id": "fr-5-1", "title": "Hiking with friends" },
+        { "id": "fr-5-2", "title": "Skiing in Switzerland" },
+        { "id": "fr-5-3", "title": "Playing basketball" },
+        { "id": "fr-5-4", "title": "Going for a picnic" }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Family and Home",
+      "lessons": [
+        { "id": "fr-6-1", "title": "Cooking with Family" },
+        { "id": "fr-6-2", "title": "Visiting grandparents" },
+        { "id": "fr-6-3", "title": "Moving to a new home" },
+        { "id": "fr-6-4", "title": "Family celebrations" }
+      ]
+    }
+  ]
+}

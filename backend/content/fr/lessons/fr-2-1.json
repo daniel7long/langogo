@@ -1,0 +1,236 @@
+{
+  "emoji": "☀️",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "se réveiller",
+      "ipa": "/sə ʁe.ve.je/",
+      "pos": "v.",
+      "meaning": "to wake up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je me réveille à sept heures.",
+          "en": "I wake up at seven."
+        },
+        {
+          "target": "Il se réveille toujours tôt.",
+          "en": "He always wakes up early."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "le petit-déjeuner",
+      "ipa": "/lə pə.ti de.ʒœ.ne/",
+      "pos": "m. n.",
+      "meaning": "breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le petit-déjeuner est prêt.",
+          "en": "Breakfast is ready."
+        },
+        {
+          "target": "Je prends le petit-déjeuner à huit heures.",
+          "en": "I have breakfast at eight."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "prendre une douche",
+      "ipa": "/pʁɑ̃dʁ yn duʃ/",
+      "pos": "v. phr.",
+      "meaning": "to take a shower",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Je prends une douche le matin.",
+          "en": "I take a shower in the morning."
+        },
+        {
+          "target": "Elle prend une douche rapide.",
+          "en": "She takes a quick shower."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "s'habiller",
+      "ipa": "/sa.bi.je/",
+      "pos": "v.",
+      "meaning": "to get dressed",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Je m'habille vite.",
+          "en": "I get dressed quickly."
+        },
+        {
+          "target": "Les enfants s'habillent pour l'école.",
+          "en": "The children get dressed for school."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "le café",
+      "ipa": "/lə ka.fe/",
+      "pos": "m. n.",
+      "meaning": "coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je bois un café noir.",
+          "en": "I drink a black coffee."
+        },
+        {
+          "target": "Le café est trop chaud.",
+          "en": "The coffee is too hot."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "tôt",
+      "ipa": "/to/",
+      "pos": "adv.",
+      "meaning": "early",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je me lève tôt le lundi.",
+          "en": "I get up early on Mondays."
+        },
+        {
+          "target": "Il arrive trop tôt.",
+          "en": "He arrives too early."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "partir",
+      "ipa": "/paʁ.tiʁ/",
+      "pos": "v.",
+      "meaning": "to leave",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je pars à huit heures.",
+          "en": "I leave at eight."
+        },
+        {
+          "target": "Le train part à midi.",
+          "en": "The train leaves at noon."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Tu te réveilles tôt ce matin ?",
+      "glosses": [
+        {
+          "text": "tôt",
+          "pos": "adv.",
+          "meaning": "early"
+        }
+      ],
+      "id": "t1",
+      "en": "Are you waking up early this morning?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, je me réveille à sept heures. Et toi ?",
+      "glosses": [
+        {
+          "text": "réveille",
+          "pos": "v.",
+          "meaning": "wake up"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, I wake up at seven. And you?"
+    },
+    {
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Moi aussi. Tu prends le petit-déjeuner ?",
+      "glosses": [
+        {
+          "text": "petit-déjeuner",
+          "pos": "m. n.",
+          "meaning": "breakfast"
+        }
+      ],
+      "id": "t3",
+      "en": "Me too. Are you having breakfast?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, un café et du pain. Puis je prends une douche.",
+      "glosses": [
+        {
+          "text": "café",
+          "pos": "m. n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "prends une douche",
+          "pos": "v. phr.",
+          "meaning": "take a shower"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, a coffee and some bread. Then I take a shower."
+    },
+    {
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Et après, tu pars à quelle heure ?",
+      "glosses": [
+        {
+          "text": "pars",
+          "pos": "v.",
+          "meaning": "leave"
+        }
+      ],
+      "id": "t5",
+      "en": "And after that, what time do you leave?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je m'habille et je pars à huit heures.",
+      "glosses": [
+        {
+          "text": "m'habille",
+          "pos": "v.",
+          "meaning": "get dressed"
+        }
+      ],
+      "id": "t6",
+      "en": "I get dressed and leave at eight."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "le petit-déjeuner",
+      "tip": "'eu' in 'déjeuner' is /œ/: round your lips",
+      "id": "w1"
+    },
+    {
+      "text": "tôt",
+      "tip": "Closed vowel /o/; the final 't' is silent",
+      "id": "w2"
+    }
+  ]
+}

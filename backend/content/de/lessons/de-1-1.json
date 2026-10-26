@@ -1,0 +1,246 @@
+{
+  "emoji": "👋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "hallo",
+      "ipa": "/ˈha.lo/",
+      "pos": "interj.",
+      "meaning": "hello",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hallo, Anna!",
+          "en": "Hello, Anna!"
+        },
+        {
+          "target": "Hallo zusammen!",
+          "en": "Hello, everyone!"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "guten Morgen",
+      "ipa": "/ˈɡuː.tn̩ ˈmɔʁ.ɡn̩/",
+      "pos": "phr.",
+      "meaning": "good morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Guten Morgen, Herr Schmidt.",
+          "en": "Good morning, Mr. Schmidt."
+        },
+        {
+          "target": "Guten Morgen! Gut geschlafen?",
+          "en": "Good morning! Did you sleep well?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "wie geht's?",
+      "ipa": "/viː ɡeːts/",
+      "pos": "phr.",
+      "meaning": "how are you?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hallo Tim, wie geht's?",
+          "en": "Hi Tim, how are you?"
+        },
+        {
+          "target": "Wie geht's dir heute?",
+          "en": "How are you today?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "gut",
+      "ipa": "/ɡuːt/",
+      "pos": "adj.",
+      "meaning": "good, well",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mir geht es gut.",
+          "en": "I'm doing well."
+        },
+        {
+          "target": "Das Essen ist gut.",
+          "en": "The food is good."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "danke",
+      "ipa": "/ˈdaŋ.kə/",
+      "pos": "interj.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Danke schön!",
+          "en": "Thank you very much!"
+        },
+        {
+          "target": "Danke für deine Hilfe.",
+          "en": "Thanks for your help."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "tschüss",
+      "ipa": "/tʃʏs/",
+      "pos": "interj.",
+      "meaning": "bye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Tschüss, bis morgen!",
+          "en": "Bye, see you tomorrow!"
+        },
+        {
+          "target": "Sag tschüss zu Oma.",
+          "en": "Say bye to Grandma."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "freut mich",
+      "ipa": "/fʁɔʏt mɪç/",
+      "pos": "phr.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Freut mich, Anna.",
+          "en": "Nice to meet you, Anna."
+        },
+        {
+          "target": "Freut mich, dich kennenzulernen.",
+          "en": "Nice to meet you."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lena",
+      "role": "npc",
+      "text": "Hallo! Guten Morgen. Wie geht's?",
+      "glosses": [
+        {
+          "text": "Guten Morgen",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "Wie geht's",
+          "pos": "phr.",
+          "meaning": "how are you"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! Good morning. How are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Hallo! Mir geht es gut, danke. Und dir?",
+      "glosses": [
+        {
+          "text": "gut",
+          "pos": "adj.",
+          "meaning": "well"
+        },
+        {
+          "text": "danke",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello! I'm fine, thank you. And you?"
+    },
+    {
+      "speaker": "Lena",
+      "role": "npc",
+      "text": "Auch gut. Ich heiße Lena. Freut mich!",
+      "glosses": [
+        {
+          "text": "Freut mich",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        },
+        {
+          "text": "heiße",
+          "pos": "v.",
+          "meaning": "am called"
+        }
+      ],
+      "id": "t3",
+      "en": "Good too. My name is Lena. Nice to meet you!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Freut mich, Lena. Ich heiße Alex.",
+      "glosses": [
+        {
+          "text": "Ich heiße",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t4",
+      "en": "Nice to meet you, Lena. My name is Alex."
+    },
+    {
+      "speaker": "Lena",
+      "role": "npc",
+      "text": "Ich muss jetzt zum Unterricht. Tschüss!",
+      "glosses": [
+        {
+          "text": "Tschüss",
+          "pos": "interj.",
+          "meaning": "bye"
+        }
+      ],
+      "id": "t5",
+      "en": "I have to go to class now. Bye!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Tschüss, bis später!",
+      "glosses": [
+        {
+          "text": "bis später",
+          "pos": "phr.",
+          "meaning": "see you later"
+        }
+      ],
+      "id": "t6",
+      "en": "Bye, see you later!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "Guten Morgen",
+      "tip": "The 'r' is made softly at the back of the throat",
+      "id": "w1"
+    },
+    {
+      "text": "tschüss",
+      "tip": "'tsch' is like 'ch' in 'chat'; 'ü' is a rounded /y/",
+      "id": "w2"
+    }
+  ]
+}

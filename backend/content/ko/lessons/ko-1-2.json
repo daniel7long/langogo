@@ -1,0 +1,193 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "제 이름은",
+      "ipa": "je ireumeun",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "제 이름은 알렉스예요.",
+          "en": "My name is Alex."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "이름이 뭐예요?",
+      "ipa": "ireumi mwoyeyo",
+      "pos": "phr.",
+      "meaning": "what is your name?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "이름이 뭐예요?",
+          "en": "What is your name?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "저는",
+      "ipa": "jeoneun",
+      "pos": "pron.",
+      "meaning": "I (polite, topic)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "저는 학생이에요.",
+          "en": "I am a student."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "만나서 반갑습니다",
+      "ipa": "mannaseo bangapseumnida",
+      "pos": "phr.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "만나서 반갑습니다.",
+          "en": "Nice to meet you."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "친구",
+      "ipa": "chingu",
+      "pos": "n.",
+      "meaning": "friend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "민지는 제 친구예요.",
+          "en": "Minji is my friend."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "도",
+      "ipa": "do",
+      "pos": "part.",
+      "meaning": "also, too",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "저도 새 학생이에요.",
+          "en": "I am a new student too."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "민지",
+      "role": "npc",
+      "text": "안녕하세요! 이름이 뭐예요?",
+      "glosses": [
+        {
+          "text": "이름이 뭐예요",
+          "pos": "phr.",
+          "meaning": "what is your name?"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! What is your name?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "안녕하세요! 제 이름은 알렉스예요. 이름이 뭐예요?",
+      "glosses": [
+        {
+          "text": "제 이름은",
+          "pos": "phr.",
+          "meaning": "my name is"
+        },
+        {
+          "text": "이름이 뭐예요",
+          "pos": "phr.",
+          "meaning": "what is your name?"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello! My name is Alex. What is your name?"
+    },
+    {
+      "speaker": "민지",
+      "role": "npc",
+      "text": "저는 민지예요. 저는 선생님이에요.",
+      "glosses": [
+        {
+          "text": "저는",
+          "pos": "pron.",
+          "meaning": "I (polite, topic)"
+        }
+      ],
+      "id": "t3",
+      "en": "I am Minji. I am a teacher."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "만나서 반갑습니다, 민지 씨. 저는 학생이에요.",
+      "glosses": [
+        {
+          "text": "저는",
+          "pos": "pron.",
+          "meaning": "I (polite, topic)"
+        },
+        {
+          "text": "만나서 반갑습니다",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t4",
+      "en": "Nice to meet you, Minji. I am a student."
+    },
+    {
+      "speaker": "민지",
+      "role": "npc",
+      "text": "저도 반가워요. 여기 처음이에요?",
+      "glosses": [],
+      "id": "t5",
+      "en": "I am glad too. Is this your first time here?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "네, 처음이에요. 친구가 되고 싶어요.",
+      "glosses": [
+        {
+          "text": "친구",
+          "pos": "n.",
+          "meaning": "friend"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, it is. I would like to be friends."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "반갑습니다",
+      "tip": "Say each syllable evenly: ban-gap-seum-ni-da",
+      "id": "w1"
+    },
+    {
+      "text": "이름이",
+      "tip": "The two \"i\" sounds are short: i-reu-mi",
+      "id": "w2"
+    }
+  ]
+}

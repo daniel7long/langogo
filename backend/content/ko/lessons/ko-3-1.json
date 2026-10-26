@@ -1,0 +1,187 @@
+{
+  "emoji": "☕",
+  "max_flowers": 45,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "커피",
+      "ipa": "keopi",
+      "pos": "n.",
+      "meaning": "coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "커피 한 잔 주세요.",
+          "en": "One coffee, please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "우유",
+      "ipa": "uyu",
+      "pos": "n.",
+      "meaning": "milk",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "우유를 넣어 주세요.",
+          "en": "Please add milk."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "차",
+      "ipa": "cha",
+      "pos": "n.",
+      "meaning": "tea",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "저는 녹차를 마셔요.",
+          "en": "I drink green tea."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "가져가요",
+      "ipa": "gajyeogayo",
+      "pos": "v.",
+      "meaning": "take away",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "가져가세요?",
+          "en": "Are you taking it away?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "계산",
+      "ipa": "gyesan",
+      "pos": "n.",
+      "meaning": "payment",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "계산 부탁해요.",
+          "en": "The bill, please."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "설탕",
+      "ipa": "seoltang",
+      "pos": "n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "설탕 넣을까요?",
+          "en": "Shall I add sugar?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "직원",
+      "role": "npc",
+      "text": "어서 오세요. 뭐 드릴까요?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Welcome. What can I get you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "커피에 우유를 넣어 주세요. 그리고 녹차 한 잔 주세요.",
+      "glosses": [
+        {
+          "text": "커피",
+          "pos": "n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "우유",
+          "pos": "n.",
+          "meaning": "milk"
+        }
+      ],
+      "id": "t2",
+      "en": "Coffee with milk, please. And one green tea."
+    },
+    {
+      "speaker": "직원",
+      "role": "npc",
+      "text": "커피에 설탕 넣을까요?",
+      "glosses": [
+        {
+          "text": "커피",
+          "pos": "n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "설탕",
+          "pos": "n.",
+          "meaning": "sugar"
+        }
+      ],
+      "id": "t3",
+      "en": "Shall I add sugar to the coffee?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "아니요, 괜찮아요. 설탕은 안 넣어 주세요.",
+      "glosses": [
+        {
+          "text": "설탕",
+          "pos": "n.",
+          "meaning": "sugar"
+        }
+      ],
+      "id": "t4",
+      "en": "No, it is fine. Please do not add sugar."
+    },
+    {
+      "speaker": "직원",
+      "role": "npc",
+      "text": "여기서 드세요, 가져가세요?",
+      "glosses": [],
+      "id": "t5",
+      "en": "For here or take away?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "여기서 먹을게요. 나중에 계산 부탁해요.",
+      "glosses": [
+        {
+          "text": "계산",
+          "pos": "n.",
+          "meaning": "payment"
+        }
+      ],
+      "id": "t6",
+      "en": "For here. The bill later, please."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "설탕",
+      "tip": "Clear \"s\" then \"l\": seol-tang",
+      "id": "w1"
+    },
+    {
+      "text": "커피",
+      "tip": "Aspirated \"k\" like in \"coffee\": keo-pi",
+      "id": "w2"
+    }
+  ]
+}

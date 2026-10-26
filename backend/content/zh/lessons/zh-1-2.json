@@ -1,0 +1,198 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "我叫",
+      "ipa": "wǒ jiào",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我叫李明。",
+          "en": "My name is Li Ming."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "你叫什么名字？",
+      "ipa": "nǐ jiào shén me míng zi",
+      "pos": "phr.",
+      "meaning": "what is your name?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "请问，你叫什么名字？",
+          "en": "Excuse me, what is your name?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "我是",
+      "ipa": "wǒ shì",
+      "pos": "phr.",
+      "meaning": "I am",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我是学生。",
+          "en": "I am a student."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "很高兴认识你",
+      "ipa": "hěn gāo xìng rèn shi nǐ",
+      "pos": "phr.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "很高兴认识你。",
+          "en": "Nice to meet you."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "朋友",
+      "ipa": "péng you",
+      "pos": "n.",
+      "meaning": "friend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "小美是我的朋友。",
+          "en": "Xiaomei is my friend."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "也",
+      "ipa": "yě",
+      "pos": "adv.",
+      "meaning": "also, too",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我也是新同学。",
+          "en": "I am also a new classmate."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "小美",
+      "role": "npc",
+      "text": "你好！你叫什么名字？",
+      "glosses": [
+        {
+          "text": "你叫什么名字",
+          "pos": "phr.",
+          "meaning": "what is your name?"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! What is your name?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "你好！我叫李明。你呢？",
+      "glosses": [
+        {
+          "text": "我叫",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello! My name is Li Ming. And you?"
+    },
+    {
+      "speaker": "小美",
+      "role": "npc",
+      "text": "我叫小美。我是老师。",
+      "glosses": [
+        {
+          "text": "我叫",
+          "pos": "phr.",
+          "meaning": "my name is"
+        },
+        {
+          "text": "我是",
+          "pos": "phr.",
+          "meaning": "I am"
+        }
+      ],
+      "id": "t3",
+      "en": "My name is Xiaomei. I am a teacher."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "很高兴认识你，小美。我是学生。",
+      "glosses": [
+        {
+          "text": "我是",
+          "pos": "phr.",
+          "meaning": "I am"
+        },
+        {
+          "text": "很高兴认识你",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t4",
+      "en": "Nice to meet you, Xiaomei. I am a student."
+    },
+    {
+      "speaker": "小美",
+      "role": "npc",
+      "text": "我也很高兴。你是新同学吗？",
+      "glosses": [],
+      "id": "t5",
+      "en": "I am happy too. Are you a new student?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "是的，我是新同学。我们做朋友吧！",
+      "glosses": [
+        {
+          "text": "我是",
+          "pos": "phr.",
+          "meaning": "I am"
+        },
+        {
+          "text": "朋友",
+          "pos": "n.",
+          "meaning": "friend"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, I am new. Let us be friends!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "认识",
+      "tip": "\"shi\" at the end is a light neutral tone: rèn shi",
+      "id": "w1"
+    },
+    {
+      "text": "朋友",
+      "tip": "The second syllable is light: péng you",
+      "id": "w2"
+    }
+  ]
+}

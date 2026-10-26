@@ -1,0 +1,70 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "title": "Greetings and Basics",
+      "lessons": [
+        {
+          "id": "zh-1-1",
+          "title": "Saying hello"
+        },
+        {
+          "id": "zh-1-2",
+          "title": "Introducing yourself"
+        },
+        {
+          "id": "zh-1-3",
+          "title": "Where are you from?"
+        },
+        {
+          "id": "zh-1-4",
+          "title": "Numbers and age"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Daily Life",
+      "lessons": [
+        {
+          "id": "zh-2-1",
+          "title": "Morning routine"
+        },
+        {
+          "id": "zh-2-2",
+          "title": "Telling the time"
+        },
+        {
+          "id": "zh-2-3",
+          "title": "At the bakery"
+        },
+        {
+          "id": "zh-2-4",
+          "title": "Plans for the week"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Food and Drinks",
+      "lessons": [
+        {
+          "id": "zh-3-1",
+          "title": "Ordering at a café"
+        },
+        {
+          "id": "zh-3-2",
+          "title": "At the restaurant"
+        },
+        {
+          "id": "zh-3-3",
+          "title": "Grocery shopping"
+        },
+        {
+          "id": "zh-3-4",
+          "title": "Favorite dishes"
+        }
+      ]
+    }
+  ]
+}

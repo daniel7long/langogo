@@ -1,0 +1,171 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "el mercado",
+      "ipa": "/el meɾ.ˈka.ðo/",
+      "pos": "n.",
+      "meaning": "the market",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Voy al mercado los sábados.",
+          "en": "I go to the market on Saturdays."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "un kilo de",
+      "ipa": "/un ˈki.lo de/",
+      "pos": "phr.",
+      "meaning": "a kilo of",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Quiero un kilo de tomates.",
+          "en": "I would like a kilo of tomatoes."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "las frutas",
+      "ipa": "/las ˈfɾu.tas/",
+      "pos": "n.",
+      "meaning": "fruit",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Las frutas están frescas hoy.",
+          "en": "The fruit is fresh today."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "la verdura",
+      "ipa": "/la beɾ.ˈðu.ɾa/",
+      "pos": "n.",
+      "meaning": "vegetables",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Compro verdura cada semana.",
+          "en": "I buy vegetables every week."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "barato",
+      "ipa": "/ba.ˈɾa.to/",
+      "pos": "adj.",
+      "meaning": "cheap",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Las naranjas están baratas.",
+          "en": "The oranges are cheap."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "una bolsa",
+      "ipa": "/ˈu.na ˈbol.sa/",
+      "pos": "n.",
+      "meaning": "a bag",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "¿Necesita una bolsa?",
+          "en": "Do you need a bag?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Vendedor",
+      "role": "npc",
+      "text": "Buenos días. ¿Qué le pongo?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning. What can I get you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Un kilo de tomates y medio kilo de manzanas.",
+      "glosses": [
+        {
+          "text": "Un kilo de",
+          "pos": "phr.",
+          "meaning": "a kilo of"
+        }
+      ],
+      "id": "t2",
+      "en": "A kilo of tomatoes and half a kilo of apples."
+    },
+    {
+      "speaker": "Vendedor",
+      "role": "npc",
+      "text": "Las manzanas están muy buenas y baratas hoy.",
+      "glosses": [],
+      "id": "t3",
+      "en": "The apples are very good and cheap today."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Perfecto. También quiero verdura para la sopa.",
+      "glosses": [],
+      "id": "t4",
+      "en": "Perfect. I also want vegetables for the soup."
+    },
+    {
+      "speaker": "Vendedor",
+      "role": "npc",
+      "text": "Aquí tiene. ¿Necesita una bolsa?",
+      "glosses": [
+        {
+          "text": "una bolsa",
+          "pos": "n.",
+          "meaning": "a bag"
+        }
+      ],
+      "id": "t5",
+      "en": "Here you are. Do you need a bag?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sí, una bolsa, por favor. ¿Cuánto es?",
+      "glosses": [
+        {
+          "text": "una bolsa",
+          "pos": "n.",
+          "meaning": "a bag"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, a bag, please. How much is it?"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "verdura",
+      "tip": "Tap the \"r\" once: ber-DU-ra",
+      "id": "w1"
+    },
+    {
+      "text": "manzanas",
+      "tip": "The \"z\" is /s/ in Latin America: man-SA-nas",
+      "id": "w2"
+    }
+  ]
+}

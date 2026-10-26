@@ -1,0 +1,236 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "la table",
+      "ipa": "/la tabl/",
+      "pos": "f. n.",
+      "meaning": "table",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Une table pour deux, s'il vous plaît.",
+          "en": "A table for two, please."
+        },
+        {
+          "target": "La table est près de la fenêtre.",
+          "en": "The table is by the window."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "réserver",
+      "ipa": "/ʁe.zɛʁ.ve/",
+      "pos": "v.",
+      "meaning": "to book",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "J'ai réservé pour vingt heures.",
+          "en": "I booked for eight p.m."
+        },
+        {
+          "target": "On doit réserver à l'avance.",
+          "en": "We have to book in advance."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "le menu",
+      "ipa": "/lə mə.ny/",
+      "pos": "m. n.",
+      "meaning": "set menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Le menu coûte vingt euros.",
+          "en": "The set menu costs twenty euros."
+        },
+        {
+          "target": "Je prends le menu du jour.",
+          "en": "I'll have the menu of the day."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "le poulet",
+      "ipa": "/lə pu.lɛ/",
+      "pos": "m. n.",
+      "meaning": "chicken",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le poulet est très bon ici.",
+          "en": "The chicken is very good here."
+        },
+        {
+          "target": "Je mange du poulet avec du riz.",
+          "en": "I eat chicken with rice."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "les pâtes",
+      "ipa": "/le pɑt/",
+      "pos": "f. n. pl.",
+      "meaning": "pasta",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "J'adore les pâtes.",
+          "en": "I love pasta."
+        },
+        {
+          "target": "Les pâtes sont prêtes.",
+          "en": "The pasta is ready."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "le dessert",
+      "ipa": "/lə de.zɛʁ/",
+      "pos": "m. n.",
+      "meaning": "dessert",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un dessert, ça vous tente ?",
+          "en": "Do you fancy a dessert?"
+        },
+        {
+          "target": "Le dessert est une tarte.",
+          "en": "The dessert is a tart."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "délicieux",
+      "ipa": "/de.li.sjø/",
+      "pos": "adj.",
+      "meaning": "delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Ce plat est délicieux !",
+          "en": "This dish is delicious!"
+        },
+        {
+          "target": "C'était délicieux, merci.",
+          "en": "It was delicious, thank you."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Serveuse",
+      "role": "npc",
+      "text": "Bonsoir ! Vous avez réservé ?",
+      "glosses": [
+        {
+          "text": "réservé",
+          "pos": "v.",
+          "meaning": "booked"
+        }
+      ],
+      "id": "t1",
+      "en": "Good evening! Do you have a reservation?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, une table pour deux, au nom de Martin.",
+      "glosses": [
+        {
+          "text": "table",
+          "pos": "f. n.",
+          "meaning": "table"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, a table for two, under the name Martin."
+    },
+    {
+      "speaker": "Serveuse",
+      "role": "npc",
+      "text": "Parfait. Que prenez-vous ?",
+      "glosses": [
+        {
+          "text": "prenez",
+          "pos": "v.",
+          "meaning": "take, have"
+        }
+      ],
+      "id": "t3",
+      "en": "Perfect. What will you have?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je prends le poulet, et mon ami prend les pâtes.",
+      "glosses": [
+        {
+          "text": "poulet",
+          "pos": "m. n.",
+          "meaning": "chicken"
+        },
+        {
+          "text": "pâtes",
+          "pos": "f. n. pl.",
+          "meaning": "pasta"
+        }
+      ],
+      "id": "t4",
+      "en": "I'll have the chicken, and my friend will have the pasta."
+    },
+    {
+      "speaker": "Serveuse",
+      "role": "npc",
+      "text": "Très bien. Et comme dessert ?",
+      "glosses": [
+        {
+          "text": "dessert",
+          "pos": "m. n.",
+          "meaning": "dessert"
+        }
+      ],
+      "id": "t5",
+      "en": "Very well. And for dessert?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Plus tard, merci. Ça a l'air délicieux !",
+      "glosses": [
+        {
+          "text": "délicieux",
+          "pos": "adj.",
+          "meaning": "delicious"
+        }
+      ],
+      "id": "t6",
+      "en": "Later, thank you. It looks delicious!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "les pâtes",
+      "tip": "Open 'a' sound /ɑ/; the final 's' is silent",
+      "id": "w1"
+    },
+    {
+      "text": "délicieux",
+      "tip": "'ci' is /sj/ and 'eux' is /ø/",
+      "id": "w2"
+    }
+  ]
+}

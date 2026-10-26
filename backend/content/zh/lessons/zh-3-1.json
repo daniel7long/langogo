@@ -1,0 +1,182 @@
+{
+  "emoji": "☕",
+  "max_flowers": 45,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "咖啡",
+      "ipa": "kā fēi",
+      "pos": "n.",
+      "meaning": "coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我要一杯咖啡。",
+          "en": "I would like a cup of coffee."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "牛奶",
+      "ipa": "niú nǎi",
+      "pos": "n.",
+      "meaning": "milk",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "咖啡里加牛奶。",
+          "en": "Add milk to the coffee."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "茶",
+      "ipa": "chá",
+      "pos": "n.",
+      "meaning": "tea",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "她喝绿茶。",
+          "en": "She drinks green tea."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "带走",
+      "ipa": "dài zǒu",
+      "pos": "v.",
+      "meaning": "to take away",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你要带走吗？",
+          "en": "Do you want it to take away?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "买单",
+      "ipa": "mǎi dān",
+      "pos": "phr.",
+      "meaning": "to pay the bill",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "服务员，买单。",
+          "en": "Waiter, the bill please."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "糖",
+      "ipa": "táng",
+      "pos": "n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你要加糖吗？",
+          "en": "Do you want sugar?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "服务员",
+      "role": "npc",
+      "text": "你好，你们想喝什么？",
+      "glosses": [],
+      "id": "t1",
+      "en": "Hello, what would you like to drink?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我要一杯咖啡加牛奶，还要一杯绿茶。",
+      "glosses": [
+        {
+          "text": "咖啡",
+          "pos": "n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "牛奶",
+          "pos": "n.",
+          "meaning": "milk"
+        }
+      ],
+      "id": "t2",
+      "en": "I would like a coffee with milk and a green tea."
+    },
+    {
+      "speaker": "服务员",
+      "role": "npc",
+      "text": "咖啡要加糖吗？",
+      "glosses": [
+        {
+          "text": "咖啡",
+          "pos": "n.",
+          "meaning": "coffee"
+        }
+      ],
+      "id": "t3",
+      "en": "Do you want sugar in the coffee?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "不用，谢谢。不要糖。",
+      "glosses": [],
+      "id": "t4",
+      "en": "No need, thanks. No sugar."
+    },
+    {
+      "speaker": "服务员",
+      "role": "npc",
+      "text": "在这儿喝还是带走？",
+      "glosses": [
+        {
+          "text": "带走",
+          "pos": "v.",
+          "meaning": "to take away"
+        }
+      ],
+      "id": "t5",
+      "en": "Drink here or take away?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "在这儿喝。一会儿我要买单。",
+      "glosses": [
+        {
+          "text": "买单",
+          "pos": "phr.",
+          "meaning": "to pay the bill"
+        }
+      ],
+      "id": "t6",
+      "en": "Here. I will pay in a little while."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "咖啡",
+      "tip": "Both syllables are first tone, flat and high: kā fēi",
+      "id": "w1"
+    },
+    {
+      "text": "买单",
+      "tip": "Third tone then first: mǎi dān",
+      "id": "w2"
+    }
+  ]
+}

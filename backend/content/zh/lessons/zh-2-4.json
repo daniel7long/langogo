@@ -1,0 +1,193 @@
+{
+  "emoji": "📅",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "周末",
+      "ipa": "zhōu mò",
+      "pos": "n.",
+      "meaning": "weekend",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "你周末做什么？",
+          "en": "What are you doing at the weekend?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "明天",
+      "ipa": "míng tiān",
+      "pos": "n.",
+      "meaning": "tomorrow",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "明天我去看电影。",
+          "en": "Tomorrow I am going to see a film."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "打算",
+      "ipa": "dǎ suàn",
+      "pos": "v.",
+      "meaning": "to plan",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我打算去爬山。",
+          "en": "I plan to go hiking."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "见面",
+      "ipa": "jiàn miàn",
+      "pos": "v.",
+      "meaning": "to meet",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我们七点见面。",
+          "en": "We meet at seven."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "电影院",
+      "ipa": "diàn yǐng yuàn",
+      "pos": "n.",
+      "meaning": "cinema",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我们在电影院见面。",
+          "en": "We will meet at the cinema."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "休息",
+      "ipa": "xiū xi",
+      "pos": "v.",
+      "meaning": "to rest",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "星期天我在家休息。",
+          "en": "On Sunday I rest at home."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "小刚",
+      "role": "npc",
+      "text": "你周末有什么打算？",
+      "glosses": [
+        {
+          "text": "周末",
+          "pos": "n.",
+          "meaning": "weekend"
+        },
+        {
+          "text": "打算",
+          "pos": "v.",
+          "meaning": "to plan"
+        }
+      ],
+      "id": "t1",
+      "en": "What are your plans for the weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "星期六我打算去看电影，你想来吗？",
+      "glosses": [
+        {
+          "text": "打算",
+          "pos": "v.",
+          "meaning": "to plan"
+        }
+      ],
+      "id": "t2",
+      "en": "On Saturday I plan to see a film. Do you want to come?"
+    },
+    {
+      "speaker": "小刚",
+      "role": "npc",
+      "text": "好啊，我们几点见面？",
+      "glosses": [
+        {
+          "text": "见面",
+          "pos": "v.",
+          "meaning": "to meet"
+        }
+      ],
+      "id": "t3",
+      "en": "Sure, what time shall we meet?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "七点，在电影院门口见面。",
+      "glosses": [
+        {
+          "text": "见面",
+          "pos": "v.",
+          "meaning": "to meet"
+        },
+        {
+          "text": "电影院",
+          "pos": "n.",
+          "meaning": "cinema"
+        }
+      ],
+      "id": "t4",
+      "en": "At seven, at the cinema entrance."
+    },
+    {
+      "speaker": "小刚",
+      "role": "npc",
+      "text": "太好了。星期天我想在家休息。",
+      "glosses": [
+        {
+          "text": "休息",
+          "pos": "v.",
+          "meaning": "to rest"
+        }
+      ],
+      "id": "t5",
+      "en": "Great. On Sunday I want to rest at home."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "好主意，星期六见！",
+      "glosses": [],
+      "id": "t6",
+      "en": "Good idea, see you on Saturday!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "周末",
+      "tip": "Both syllables are fourth/first: zhōu mò",
+      "id": "w1"
+    },
+    {
+      "text": "电影院",
+      "tip": "Third tone in the middle: diàn yǐng yuàn",
+      "id": "w2"
+    }
+  ]
+}

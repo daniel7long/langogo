@@ -1,0 +1,177 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "桌子",
+      "ipa": "zhuō zi",
+      "pos": "n.",
+      "meaning": "table",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我们要一张两个人的桌子。",
+          "en": "We want a table for two people."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "菜单",
+      "ipa": "cài dān",
+      "pos": "n.",
+      "meaning": "menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "请给我菜单。",
+          "en": "Please give me the menu."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "点菜",
+      "ipa": "diǎn cài",
+      "pos": "v.",
+      "meaning": "to order food",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我们可以点菜了吗？",
+          "en": "Can we order now?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "汤",
+      "ipa": "tāng",
+      "pos": "n.",
+      "meaning": "soup",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我要一碗汤。",
+          "en": "I would like a bowl of soup."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "鱼",
+      "ipa": "yú",
+      "pos": "n.",
+      "meaning": "fish",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "这个鱼很好吃。",
+          "en": "This fish is very tasty."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "好吃",
+      "ipa": "hǎo chī",
+      "pos": "adj.",
+      "meaning": "tasty",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "这里的菜都很好吃。",
+          "en": "All the dishes here are tasty."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "服务员",
+      "role": "npc",
+      "text": "晚上好，几位？",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good evening, how many people?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "两位，请给我们一张桌子。",
+      "glosses": [
+        {
+          "text": "桌子",
+          "pos": "n.",
+          "meaning": "table"
+        }
+      ],
+      "id": "t2",
+      "en": "Two, please give us a table."
+    },
+    {
+      "speaker": "服务员",
+      "role": "npc",
+      "text": "这是菜单。你们想喝点什么？",
+      "glosses": [
+        {
+          "text": "菜单",
+          "pos": "n.",
+          "meaning": "menu"
+        }
+      ],
+      "id": "t3",
+      "en": "Here is the menu. What would you like to drink?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我们要茶，还要点菜。",
+      "glosses": [
+        {
+          "text": "点菜",
+          "pos": "v.",
+          "meaning": "to order food"
+        }
+      ],
+      "id": "t4",
+      "en": "We would like tea, and we want to order."
+    },
+    {
+      "speaker": "服务员",
+      "role": "npc",
+      "text": "我要一碗汤和一个鱼。",
+      "glosses": [],
+      "id": "t5",
+      "en": "I would like a bowl of soup and a fish dish."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "好的，这里的菜都很好吃。",
+      "glosses": [
+        {
+          "text": "好吃",
+          "pos": "adj.",
+          "meaning": "tasty"
+        }
+      ],
+      "id": "t6",
+      "en": "Sure. All the dishes here are tasty."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "桌子",
+      "tip": "\"zhuō\" with a curled tongue; light second syllable",
+      "id": "w1"
+    },
+    {
+      "text": "好吃",
+      "tip": "Third tone is a low dip before a first tone: hǎo chī",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "现在几点？",
+      "ipa": "xiàn zài jǐ diǎn",
+      "pos": "phr.",
+      "meaning": "what time is it now?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "请问，现在几点？",
+          "en": "Excuse me, what time is it now?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "点",
+      "ipa": "diǎn",
+      "pos": "n.",
+      "meaning": "o'clock",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "现在三点。",
+          "en": "It is three o'clock now."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "半",
+      "ipa": "bàn",
+      "pos": "num.",
+      "meaning": "half",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "现在十点半。",
+          "en": "It is half past ten now."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "一刻",
+      "ipa": "yí kè",
+      "pos": "n.",
+      "meaning": "quarter hour",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "现在八点一刻。",
+          "en": "It is a quarter past eight."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "会议",
+      "ipa": "huì yì",
+      "pos": "n.",
+      "meaning": "meeting",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "会议九点开始。",
+          "en": "The meeting starts at nine."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "晚",
+      "ipa": "wǎn",
+      "pos": "adj.",
+      "meaning": "late",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "对不起，我来晚了。",
+          "en": "Sorry, I am late."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "小王",
+      "role": "npc",
+      "text": "请问，现在几点？",
+      "glosses": [
+        {
+          "text": "现在几点",
+          "pos": "phr.",
+          "meaning": "what time is it now?"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it now?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "现在十点半。",
+      "glosses": [],
+      "id": "t2",
+      "en": "It is half past ten now."
+    },
+    {
+      "speaker": "小王",
+      "role": "npc",
+      "text": "哎呀，会议十一点开始，我要晚了！",
+      "glosses": [
+        {
+          "text": "会议",
+          "pos": "n.",
+          "meaning": "meeting"
+        }
+      ],
+      "id": "t3",
+      "en": "Oh no, the meeting starts at eleven and I will be late!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "别担心，还有半个小时。",
+      "glosses": [],
+      "id": "t4",
+      "en": "Do not worry, there is still half an hour."
+    },
+    {
+      "speaker": "小王",
+      "role": "npc",
+      "text": "谢谢。会议几点结束？",
+      "glosses": [
+        {
+          "text": "会议",
+          "pos": "n.",
+          "meaning": "meeting"
+        }
+      ],
+      "id": "t5",
+      "en": "Thanks. What time does the meeting end?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "十二点结束，然后我们一起吃饭。",
+      "glosses": [],
+      "id": "t6",
+      "en": "It ends at twelve. Then we eat together."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "几点",
+      "tip": "Third tone then third: jǐ diǎn is said \"jí diǎn\"",
+      "id": "w1"
+    },
+    {
+      "text": "会议",
+      "tip": "Both fourth tones: huì yì",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "emoji": "😋",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "제일 좋아하는",
+      "ipa": "jeil joahaneun",
+      "pos": "phr.",
+      "meaning": "favorite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "제일 좋아하는 음식은 김치찌개예요.",
+          "en": "My favorite food is kimchi stew."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "김치찌개",
+      "ipa": "gimchijjigae",
+      "pos": "n.",
+      "meaning": "kimchi stew",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "김치찌개는 맛있어요.",
+          "en": "Kimchi stew is delicious."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "매워요",
+      "ipa": "maewoyo",
+      "pos": "adj.",
+      "meaning": "is spicy",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "이 음식은 아주 매워요.",
+          "en": "This food is very spicy."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "요리해요",
+      "ipa": "yorihaeyo",
+      "pos": "v.",
+      "meaning": "cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "엄마가 요리를 잘해요.",
+          "en": "My mom cooks well."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "레시피",
+      "ipa": "resipi",
+      "pos": "n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "레시피를 알려 주세요.",
+          "en": "Please tell me the recipe."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "좋아해요",
+      "ipa": "joahaeyo",
+      "pos": "v.",
+      "meaning": "like",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "저는 초콜릿을 좋아해요.",
+          "en": "I like chocolate."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "수아",
+      "role": "npc",
+      "text": "제일 좋아하는 음식이 뭐예요?",
+      "glosses": [
+        {
+          "text": "제일 좋아하는",
+          "pos": "phr.",
+          "meaning": "favorite"
+        }
+      ],
+      "id": "t1",
+      "en": "What is your favorite food?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "김치찌개를 제일 좋아해요.",
+      "glosses": [
+        {
+          "text": "김치찌개",
+          "pos": "n.",
+          "meaning": "kimchi stew"
+        },
+        {
+          "text": "좋아해요",
+          "pos": "v.",
+          "meaning": "like"
+        }
+      ],
+      "id": "t2",
+      "en": "I like kimchi stew the most."
+    },
+    {
+      "speaker": "수아",
+      "role": "npc",
+      "text": "요리도 할 수 있어요?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Can you cook it too?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "네, 할머니가 레시피를 알려 줬어요.",
+      "glosses": [
+        {
+          "text": "레시피",
+          "pos": "n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, my grandma told me the recipe."
+    },
+    {
+      "speaker": "수아",
+      "role": "npc",
+      "text": "매운 음식도 좋아해요?",
+      "glosses": [
+        {
+          "text": "좋아해요",
+          "pos": "v.",
+          "meaning": "like"
+        }
+      ],
+      "id": "t5",
+      "en": "Do you like spicy food too?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "조금요. 하지만 초콜릿을 더 좋아해요.",
+      "glosses": [
+        {
+          "text": "좋아해요",
+          "pos": "v.",
+          "meaning": "like"
+        }
+      ],
+      "id": "t6",
+      "en": "A little. But I like chocolate more."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "김치찌개",
+      "tip": "Double \"jj\" is tense: gim-chi-jji-gae",
+      "id": "w1"
+    },
+    {
+      "text": "좋아해요",
+      "tip": "The \"h\" is nearly silent: jo-a-hae-yo",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "emoji": "☕",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "le thé",
+      "ipa": "/lə te/",
+      "pos": "m. n.",
+      "meaning": "tea",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je bois du thé le soir.",
+          "en": "I drink tea in the evening."
+        },
+        {
+          "target": "Le thé est très chaud.",
+          "en": "The tea is very hot."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "le chocolat chaud",
+      "ipa": "/lə ʃɔ.kɔ.la ʃo/",
+      "pos": "m. n.",
+      "meaning": "hot chocolate",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Un chocolat chaud, s'il vous plaît.",
+          "en": "A hot chocolate, please."
+        },
+        {
+          "target": "Le chocolat chaud est délicieux.",
+          "en": "The hot chocolate is delicious."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la carte",
+      "ipa": "/la kaʁt/",
+      "pos": "f. n.",
+      "meaning": "menu",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je peux voir la carte ?",
+          "en": "Can I see the menu?"
+        },
+        {
+          "target": "La carte est sur la table.",
+          "en": "The menu is on the table."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "je voudrais",
+      "ipa": "/ʒə vu.dʁɛ/",
+      "pos": "phr.",
+      "meaning": "I would like",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Je voudrais un café.",
+          "en": "I would like a coffee."
+        },
+        {
+          "target": "Je voudrais une table pour deux.",
+          "en": "I would like a table for two."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "l'addition",
+      "ipa": "/la.di.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "the bill",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "L'addition, s'il vous plaît.",
+          "en": "The bill, please."
+        },
+        {
+          "target": "L'addition est de huit euros.",
+          "en": "The bill is eight euros."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "le serveur",
+      "ipa": "/lə sɛʁ.vœʁ/",
+      "pos": "m. n.",
+      "meaning": "waiter",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Le serveur est très gentil.",
+          "en": "The waiter is very kind."
+        },
+        {
+          "target": "Monsieur, le serveur arrive.",
+          "en": "Sir, the waiter is coming."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "le sucre",
+      "ipa": "/lə sykʁ/",
+      "pos": "m. n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je prends mon café sans sucre.",
+          "en": "I take my coffee without sugar."
+        },
+        {
+          "target": "Tu veux du sucre ?",
+          "en": "Do you want some sugar?"
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Serveur",
+      "role": "npc",
+      "text": "Bonjour ! Voici la carte.",
+      "glosses": [
+        {
+          "text": "la carte",
+          "pos": "f. n.",
+          "meaning": "menu"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! Here is the menu."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci. Je voudrais un thé, s'il vous plaît.",
+      "glosses": [
+        {
+          "text": "Je voudrais",
+          "pos": "phr.",
+          "meaning": "I would like"
+        },
+        {
+          "text": "thé",
+          "pos": "m. n.",
+          "meaning": "tea"
+        }
+      ],
+      "id": "t2",
+      "en": "Thank you. I'd like a tea, please."
+    },
+    {
+      "speaker": "Serveur",
+      "role": "npc",
+      "text": "Avec du sucre ?",
+      "glosses": [
+        {
+          "text": "sucre",
+          "pos": "m. n.",
+          "meaning": "sugar"
+        }
+      ],
+      "id": "t3",
+      "en": "With sugar?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Non, merci. Et un chocolat chaud pour mon ami.",
+      "glosses": [
+        {
+          "text": "chocolat chaud",
+          "pos": "m. n.",
+          "meaning": "hot chocolate"
+        }
+      ],
+      "id": "t4",
+      "en": "No, thank you. And a hot chocolate for my friend."
+    },
+    {
+      "speaker": "Serveur",
+      "role": "npc",
+      "text": "Très bien. Je vous apporte ça tout de suite.",
+      "glosses": [
+        {
+          "text": "tout de suite",
+          "pos": "adv. phr.",
+          "meaning": "right away"
+        }
+      ],
+      "id": "t5",
+      "en": "Very well. I'll bring that right away."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci ! L'addition, s'il vous plaît.",
+      "glosses": [
+        {
+          "text": "L'addition",
+          "pos": "f. n.",
+          "meaning": "the bill"
+        }
+      ],
+      "id": "t6",
+      "en": "Thank you! The bill, please."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "je voudrais",
+      "tip": "'ou' as in 'food'; the ending 'ais' is /ɛ/",
+      "id": "w1"
+    },
+    {
+      "text": "l'addition",
+      "tip": "Nasal /ɔ̃/ at the end; 'ti' sounds like /sj/",
+      "id": "w2"
+    }
+  ]
+}

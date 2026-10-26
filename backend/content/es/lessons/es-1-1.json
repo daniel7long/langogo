@@ -1,0 +1,241 @@
+{
+  "emoji": "👋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "hola",
+      "ipa": "/ˈo.la/",
+      "pos": "interj.",
+      "meaning": "hello",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "¡Hola, Ana!",
+          "en": "Hello, Ana!"
+        },
+        {
+          "target": "Hola, ¿qué tal?",
+          "en": "Hi, how's it going?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "buenos días",
+      "ipa": "/ˈbwe.nos ˈdi.as/",
+      "pos": "phr.",
+      "meaning": "good morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Buenos días, señora.",
+          "en": "Good morning, ma'am."
+        },
+        {
+          "target": "Buenos días a todos.",
+          "en": "Good morning, everyone."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "¿cómo estás?",
+      "ipa": "/ˈko.mo esˈtas/",
+      "pos": "phr.",
+      "meaning": "how are you?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hola Luis, ¿cómo estás?",
+          "en": "Hi Luis, how are you?"
+        },
+        {
+          "target": "¿Cómo estás hoy?",
+          "en": "How are you today?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "bien",
+      "ipa": "/bjen/",
+      "pos": "adv.",
+      "meaning": "well, fine",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Estoy muy bien, gracias.",
+          "en": "I'm very well, thank you."
+        },
+        {
+          "target": "Todo va bien.",
+          "en": "Everything is going well."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "gracias",
+      "ipa": "/ˈɡɾa.sjas/",
+      "pos": "interj.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Gracias por tu ayuda.",
+          "en": "Thanks for your help."
+        },
+        {
+          "target": "Muchas gracias.",
+          "en": "Thank you very much."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "adiós",
+      "ipa": "/aˈðjos/",
+      "pos": "interj.",
+      "meaning": "goodbye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Adiós, hasta mañana.",
+          "en": "Goodbye, see you tomorrow."
+        },
+        {
+          "target": "Le digo adiós a mi abuela.",
+          "en": "I say goodbye to my grandmother."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "mucho gusto",
+      "ipa": "/ˈmu.tʃo ˈɡus.to/",
+      "pos": "phr.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mucho gusto, soy Carlos.",
+          "en": "Nice to meet you, I'm Carlos."
+        },
+        {
+          "target": "Mucho gusto en conocerte.",
+          "en": "Nice to meet you."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lucía",
+      "role": "npc",
+      "text": "¡Hola! Buenos días. ¿Cómo estás?",
+      "glosses": [
+        {
+          "text": "Buenos días",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "Cómo estás",
+          "pos": "phr.",
+          "meaning": "how are you"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! Good morning. How are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "¡Hola! Estoy muy bien, gracias. ¿Y tú?",
+      "glosses": [
+        {
+          "text": "bien",
+          "pos": "adv.",
+          "meaning": "well"
+        },
+        {
+          "text": "gracias",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello! I'm very well, thank you. And you?"
+    },
+    {
+      "speaker": "Lucía",
+      "role": "npc",
+      "text": "Muy bien también. Me llamo Lucía. Mucho gusto.",
+      "glosses": [
+        {
+          "text": "Mucho gusto",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t3",
+      "en": "Very well too. My name is Lucía. Nice to meet you."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mucho gusto, Lucía. Me llamo Alex.",
+      "glosses": [
+        {
+          "text": "Me llamo",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t4",
+      "en": "Nice to meet you, Lucía. My name is Alex."
+    },
+    {
+      "speaker": "Lucía",
+      "role": "npc",
+      "text": "Tengo que ir a clase. ¡Hasta luego!",
+      "glosses": [
+        {
+          "text": "Hasta luego",
+          "pos": "phr.",
+          "meaning": "see you later"
+        }
+      ],
+      "id": "t5",
+      "en": "I have to go to class. See you later!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "¡Adiós! Que tengas un buen día.",
+      "glosses": [
+        {
+          "text": "Adiós",
+          "pos": "interj.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t6",
+      "en": "Goodbye! Have a nice day."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "gracias",
+      "tip": "Tap the 'r' lightly; 'c' is /s/ in Latin America and /θ/ in Spain",
+      "id": "w1"
+    },
+    {
+      "text": "buenos días",
+      "tip": "The 'd' between vowels is soft, like the 'th' in 'this'",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "¿qué hora es?",
+      "ipa": "/ke ˈo.ɾa es/",
+      "pos": "phr.",
+      "meaning": "what time is it?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Perdón, ¿qué hora es?",
+          "en": "Excuse me, what time is it?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "son las",
+      "ipa": "/son las/",
+      "pos": "phr.",
+      "meaning": "it is (time)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Son las tres de la tarde.",
+          "en": "It is three in the afternoon."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "y media",
+      "ipa": "/i ˈme.ðja/",
+      "pos": "phr.",
+      "meaning": "half past",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Son las dos y media.",
+          "en": "It is half past two."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "en punto",
+      "ipa": "/en ˈpun.to/",
+      "pos": "phr.",
+      "meaning": "on the dot",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Son las cinco en punto.",
+          "en": "It is five o'clock sharp."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "la reunión",
+      "ipa": "/la re.u.ˈnjon/",
+      "pos": "n.",
+      "meaning": "the meeting",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "La reunión es a las nueve.",
+          "en": "The meeting is at nine."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "tarde",
+      "ipa": "/ˈtaɾ.ðe/",
+      "pos": "adv.",
+      "meaning": "late",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Llego tarde a clase.",
+          "en": "I arrive late to class."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Pablo",
+      "role": "npc",
+      "text": "Perdón, ¿qué hora es?",
+      "glosses": [
+        {
+          "text": "qué hora es",
+          "pos": "phr.",
+          "meaning": "what time is it?"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Son las diez y media.",
+      "glosses": [
+        {
+          "text": "Son las",
+          "pos": "phr.",
+          "meaning": "it is (time)"
+        },
+        {
+          "text": "y media",
+          "pos": "phr.",
+          "meaning": "half past"
+        }
+      ],
+      "id": "t2",
+      "en": "It is half past ten."
+    },
+    {
+      "speaker": "Pablo",
+      "role": "npc",
+      "text": "¡Qué tarde! La reunión es a las once en punto.",
+      "glosses": [
+        {
+          "text": "en punto",
+          "pos": "phr.",
+          "meaning": "on the dot"
+        },
+        {
+          "text": "La reunión",
+          "pos": "n.",
+          "meaning": "the meeting"
+        },
+        {
+          "text": "tarde",
+          "pos": "adv.",
+          "meaning": "late"
+        }
+      ],
+      "id": "t3",
+      "en": "So late! The meeting is at eleven sharp."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Tranquila, todavía tienes media hora.",
+      "glosses": [],
+      "id": "t4",
+      "en": "Relax, you still have half an hour."
+    },
+    {
+      "speaker": "Pablo",
+      "role": "npc",
+      "text": "Gracias. ¿A qué hora termina la reunión?",
+      "glosses": [
+        {
+          "text": "la reunión",
+          "pos": "n.",
+          "meaning": "the meeting"
+        }
+      ],
+      "id": "t5",
+      "en": "Thanks. What time does the meeting end?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Termina a las doce. Luego comemos juntos.",
+      "glosses": [],
+      "id": "t6",
+      "en": "It ends at twelve. Then we eat together."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "reunión",
+      "tip": "Say it in three beats: re-u-NION",
+      "id": "w1"
+    },
+    {
+      "text": "en punto",
+      "tip": "Stress \"punto\": en PUN-to",
+      "id": "w2"
+    }
+  ]
+}

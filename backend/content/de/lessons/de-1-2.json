@@ -1,0 +1,204 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "ich heiße",
+      "ipa": "/ɪç ˈhaɪ̯.sə/",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich heiße Alex.",
+          "en": "My name is Alex."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "wie heißt du?",
+      "ipa": "/viː haɪ̯st duː/",
+      "pos": "phr.",
+      "meaning": "what is your name?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hallo, wie heißt du?",
+          "en": "Hi, what is your name?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "ich bin",
+      "ipa": "/ɪç bɪn/",
+      "pos": "phr.",
+      "meaning": "I am",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich bin Student.",
+          "en": "I am a student."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "freut mich",
+      "ipa": "/fʁɔɪ̯t mɪç/",
+      "pos": "phr.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Freut mich, dich kennenzulernen.",
+          "en": "Nice to meet you."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "der Freund",
+      "ipa": "/deːɐ̯ fʁɔɪ̯nt/",
+      "pos": "n.",
+      "meaning": "friend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Anna ist meine Freundin.",
+          "en": "Anna is my friend."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "auch",
+      "ipa": "/aʊ̯x/",
+      "pos": "adv.",
+      "meaning": "also, too",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich bin auch neu hier.",
+          "en": "I am new here too."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Anna",
+      "role": "npc",
+      "text": "Hallo, wie heißt du?",
+      "glosses": [
+        {
+          "text": "wie heißt du",
+          "pos": "phr.",
+          "meaning": "what is your name?"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi, what is your name?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ich heiße Alex. Und du?",
+      "glosses": [
+        {
+          "text": "Ich heiße",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t2",
+      "en": "My name is Alex. And you?"
+    },
+    {
+      "speaker": "Anna",
+      "role": "npc",
+      "text": "Ich heiße Anna. Ich bin Lehrerin.",
+      "glosses": [
+        {
+          "text": "Ich heiße",
+          "pos": "phr.",
+          "meaning": "my name is"
+        },
+        {
+          "text": "Ich bin",
+          "pos": "phr.",
+          "meaning": "I am"
+        }
+      ],
+      "id": "t3",
+      "en": "My name is Anna. I am a teacher."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Freut mich, Anna. Ich bin Student.",
+      "glosses": [
+        {
+          "text": "Ich bin",
+          "pos": "phr.",
+          "meaning": "I am"
+        },
+        {
+          "text": "Freut mich",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t4",
+      "en": "Nice to meet you, Anna. I am a student."
+    },
+    {
+      "speaker": "Anna",
+      "role": "npc",
+      "text": "Freut mich auch. Bist du neu hier?",
+      "glosses": [
+        {
+          "text": "Freut mich",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        },
+        {
+          "text": "auch",
+          "pos": "adv.",
+          "meaning": "also, too"
+        }
+      ],
+      "id": "t5",
+      "en": "Nice to meet you too. Are you new here?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ja, ich bin neu. Ich möchte Freunde finden.",
+      "glosses": [
+        {
+          "text": "ich bin",
+          "pos": "phr.",
+          "meaning": "I am"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, I am new. I would like to make friends."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "heiße",
+      "tip": "\"ei\" sounds like \"eye\": HAI-se",
+      "id": "w1"
+    },
+    {
+      "text": "Freut mich",
+      "tip": "\"eu\" sounds like \"oy\": froyt mikh",
+      "id": "w2"
+    }
+  ]
+}

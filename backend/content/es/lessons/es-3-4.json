@@ -1,0 +1,187 @@
+{
+  "emoji": "😋",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "mi plato favorito",
+      "ipa": "/mi ˈpla.to fa.βo.ˈɾi.to/",
+      "pos": "phr.",
+      "meaning": "my favorite dish",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Mi plato favorito es la paella.",
+          "en": "My favorite dish is paella."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la paella",
+      "ipa": "/la pa.ˈe.ʎa/",
+      "pos": "n.",
+      "meaning": "paella",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "La paella lleva arroz y mariscos.",
+          "en": "Paella has rice and seafood."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "picante",
+      "ipa": "/pi.ˈkan.te/",
+      "pos": "adj.",
+      "meaning": "spicy",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Me gusta la comida picante.",
+          "en": "I like spicy food."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "cocinar",
+      "ipa": "/ko.si.ˈnaɾ/",
+      "pos": "v.",
+      "meaning": "to cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Mi madre cocina muy bien.",
+          "en": "My mother cooks very well."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "la receta",
+      "ipa": "/la re.ˈse.ta/",
+      "pos": "n.",
+      "meaning": "the recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "¿Me das la receta?",
+          "en": "Can you give me the recipe?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "me encanta",
+      "ipa": "/me en.ˈkan.ta/",
+      "pos": "phr.",
+      "meaning": "I love it",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Me encanta el chocolate.",
+          "en": "I love chocolate."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Julia",
+      "role": "npc",
+      "text": "¿Cuál es tu plato favorito?",
+      "glosses": [],
+      "id": "t1",
+      "en": "What is your favorite dish?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mi plato favorito es la paella. Me encanta.",
+      "glosses": [
+        {
+          "text": "Mi plato favorito",
+          "pos": "phr.",
+          "meaning": "my favorite dish"
+        },
+        {
+          "text": "la paella",
+          "pos": "n.",
+          "meaning": "paella"
+        },
+        {
+          "text": "Me encanta",
+          "pos": "phr.",
+          "meaning": "I love it"
+        }
+      ],
+      "id": "t2",
+      "en": "My favorite dish is paella. I love it."
+    },
+    {
+      "speaker": "Julia",
+      "role": "npc",
+      "text": "¿Sabes cocinar paella?",
+      "glosses": [
+        {
+          "text": "cocinar",
+          "pos": "v.",
+          "meaning": "to cook"
+        }
+      ],
+      "id": "t3",
+      "en": "Do you know how to cook paella?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sí, mi abuela me dio la receta.",
+      "glosses": [
+        {
+          "text": "la receta",
+          "pos": "n.",
+          "meaning": "the recipe"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, my grandmother gave me the recipe."
+    },
+    {
+      "speaker": "Julia",
+      "role": "npc",
+      "text": "¿Te gusta la comida picante también?",
+      "glosses": [
+        {
+          "text": "picante",
+          "pos": "adj.",
+          "meaning": "spicy"
+        }
+      ],
+      "id": "t5",
+      "en": "Do you like spicy food too?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Un poco. Pero prefiero el chocolate.",
+      "glosses": [],
+      "id": "t6",
+      "en": "A little. But I prefer chocolate."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "paella",
+      "tip": "Say it \"pa-E-ya\"",
+      "id": "w1"
+    },
+    {
+      "text": "receta",
+      "tip": "Stress the second syllable: re-SE-ta",
+      "id": "w2"
+    }
+  ]
+}

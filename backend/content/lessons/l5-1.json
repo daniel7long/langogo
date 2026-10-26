@@ -1,0 +1,229 @@
+{
+  "emoji": "🥾",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "la randonnée",
+      "ipa": "/ʁɑ̃.dɔ.ne/",
+      "pos": "f. n.",
+      "meaning": "hike",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "La randonnée dure trois heures.",
+          "en": "The hike lasts three hours."
+        },
+        {
+          "fr": "On aime la randonnée en automne.",
+          "en": "We like hiking in autumn."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la montagne",
+      "ipa": "/la mɔ̃.taɲ/",
+      "pos": "f. n.",
+      "meaning": "mountain",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "J'habite près de la montagne.",
+          "en": "I live near the mountain."
+        },
+        {
+          "fr": "La montagne est magnifique.",
+          "en": "The mountain is beautiful."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "le sentier",
+      "ipa": "/lə sɑ̃.tje/",
+      "pos": "m. n.",
+      "meaning": "trail",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Le sentier est très étroit.",
+          "en": "The trail is very narrow."
+        },
+        {
+          "fr": "Suivons le sentier jusqu'au lac.",
+          "en": "Let's follow the trail to the lake."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "le sac à dos",
+      "ipa": "/lə sak a do/",
+      "pos": "m. n.",
+      "meaning": "backpack",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Mon sac à dos est trop lourd.",
+          "en": "My backpack is too heavy."
+        },
+        {
+          "fr": "Il y a de l'eau dans mon sac à dos.",
+          "en": "There is water in my backpack."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "les chaussures",
+      "ipa": "/le ʃo.syʁ/",
+      "pos": "f. n. pl.",
+      "meaning": "shoes",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Je mets mes chaussures de marche.",
+          "en": "I put on my walking shoes."
+        },
+        {
+          "fr": "Tes chaussures sont neuves ?",
+          "en": "Are your shoes new?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "la carte",
+      "ipa": "/la kaʁt/",
+      "pos": "f. n.",
+      "meaning": "map",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Regarde la carte, c'est par là.",
+          "en": "Look at the map, it's that way."
+        },
+        {
+          "fr": "J'ai oublié la carte à la maison.",
+          "en": "I forgot the map at home."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "fatigué",
+      "ipa": "/fa.ti.ge/",
+      "pos": "adj.",
+      "meaning": "tired",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Je suis fatigué après la marche.",
+          "en": "I'm tired after the walk."
+        },
+        {
+          "fr": "Elle est fatiguée mais heureuse.",
+          "en": "She is tired but happy."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marc",
+      "role": "npc",
+      "text": "On fait une randonnée samedi ?",
+      "glosses": [
+        {
+          "text": "randonnée",
+          "pos": "f. n.",
+          "meaning": "hike"
+        }
+      ],
+      "id": "t1"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonne idée ! Où est-ce qu'on va ?",
+      "glosses": [],
+      "id": "t2"
+    },
+    {
+      "speaker": "Marc",
+      "role": "npc",
+      "text": "Dans la montagne. On suit le sentier jusqu'au lac.",
+      "glosses": [
+        {
+          "text": "montagne",
+          "pos": "f. n.",
+          "meaning": "mountain"
+        },
+        {
+          "text": "sentier",
+          "pos": "m. n.",
+          "meaning": "trail"
+        }
+      ],
+      "id": "t3"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Parfait. J'apporte mon sac à dos et la carte.",
+      "glosses": [
+        {
+          "text": "sac à dos",
+          "pos": "m. n.",
+          "meaning": "backpack"
+        },
+        {
+          "text": "Parfait",
+          "pos": "adj.",
+          "meaning": "perfect"
+        }
+      ],
+      "id": "t4"
+    },
+    {
+      "speaker": "Marc",
+      "role": "npc",
+      "text": "N'oublie pas de mettre de bonnes chaussures !",
+      "glosses": [
+        {
+          "text": "chaussures",
+          "pos": "f. n. pl.",
+          "meaning": "shoes"
+        }
+      ],
+      "id": "t5"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bien sûr, à samedi !",
+      "glosses": [
+        {
+          "text": "Bien sûr",
+          "pos": "adv.",
+          "meaning": "of course"
+        }
+      ],
+      "id": "t6"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "la randonnée",
+      "tip": "Nasal vowels: /ɑ̃/ in 'ran', no 'n' sound",
+      "id": "w1"
+    },
+    {
+      "text": "les chaussures",
+      "tip": "'ch' is /ʃ/ and 'u' is the rounded /y/",
+      "id": "w2"
+    }
+  ]
+}

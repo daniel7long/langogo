@@ -1,0 +1,187 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "어느 나라 사람이에요?",
+      "ipa": "eoneu nara saramieyo",
+      "pos": "phr.",
+      "meaning": "what country are you from?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "어느 나라 사람이에요?",
+          "en": "What country are you from?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "사람이에요",
+      "ipa": "saramieyo",
+      "pos": "phr.",
+      "meaning": "am/is a person of",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "저는 캐나다 사람이에요.",
+          "en": "I am Canadian."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "나라",
+      "ipa": "nara",
+      "pos": "n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "우리 나라는 아주 커요.",
+          "en": "My country is very big."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "도시",
+      "ipa": "dosi",
+      "pos": "n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "저는 작은 도시에 살아요.",
+          "en": "I live in a small city."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "살아요",
+      "ipa": "sarayo",
+      "pos": "v.",
+      "meaning": "live",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "저는 서울에 살아요.",
+          "en": "I live in Seoul."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "말해요",
+      "ipa": "malhaeyo",
+      "pos": "v.",
+      "meaning": "speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "영어를 말해요.",
+          "en": "I speak English."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "준호",
+      "role": "npc",
+      "text": "안녕하세요! 어느 나라 사람이에요?",
+      "glosses": [
+        {
+          "text": "어느 나라 사람이에요",
+          "pos": "phr.",
+          "meaning": "what country are you from?"
+        },
+        {
+          "text": "사람이에요",
+          "pos": "phr.",
+          "meaning": "am/is a person of"
+        },
+        {
+          "text": "나라",
+          "pos": "n.",
+          "meaning": "country"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! What country are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "저는 캐나다 사람이에요. 준호 씨는요?",
+      "glosses": [
+        {
+          "text": "사람이에요",
+          "pos": "phr.",
+          "meaning": "am/is a person of"
+        }
+      ],
+      "id": "t2",
+      "en": "I am Canadian. And you, Junho?"
+    },
+    {
+      "speaker": "준호",
+      "role": "npc",
+      "text": "저는 한국 사람이에요. 부산에서 왔어요.",
+      "glosses": [
+        {
+          "text": "사람이에요",
+          "pos": "phr.",
+          "meaning": "am/is a person of"
+        }
+      ],
+      "id": "t3",
+      "en": "I am Korean. I come from Busan."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "좋아요. 저는 지금 서울에 살아요.",
+      "glosses": [
+        {
+          "text": "살아요",
+          "pos": "v.",
+          "meaning": "live"
+        }
+      ],
+      "id": "t4",
+      "en": "Nice. I live in Seoul now."
+    },
+    {
+      "speaker": "준호",
+      "role": "npc",
+      "text": "한국어를 잘해요?",
+      "glosses": [],
+      "id": "t5",
+      "en": "Do you speak Korean well?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "조금 해요. 더 배우고 싶어요.",
+      "glosses": [],
+      "id": "t6",
+      "en": "A little. I want to learn more."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "캐나다",
+      "tip": "Say it as ke-na-da",
+      "id": "w1"
+    },
+    {
+      "text": "부산",
+      "tip": "Both vowels are \"u\": bu-san",
+      "id": "w2"
+    }
+  ]
+}

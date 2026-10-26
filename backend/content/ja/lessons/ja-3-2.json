@@ -1,0 +1,176 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "席",
+      "ipa": "seki",
+      "pos": "n.",
+      "meaning": "seat",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "二人の席はありますか。",
+          "en": "Do you have a table for two?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "メニュー",
+      "ipa": "menyū",
+      "pos": "n.",
+      "meaning": "menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "メニューをください。",
+          "en": "Please give me the menu."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "注文",
+      "ipa": "chūmon",
+      "pos": "n.",
+      "meaning": "order",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "注文をお願いします。",
+          "en": "I would like to order."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "スープ",
+      "ipa": "sūpu",
+      "pos": "n.",
+      "meaning": "soup",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "スープを一つください。",
+          "en": "One soup, please."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "魚",
+      "ipa": "sakana",
+      "pos": "n.",
+      "meaning": "fish",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "今日は魚がおいしいです。",
+          "en": "The fish is tasty today."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "おいしい",
+      "ipa": "oishii",
+      "pos": "adj.",
+      "meaning": "delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "ここの料理はおいしいです。",
+          "en": "The food here is delicious."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "いらっしゃいませ。何名様ですか。",
+      "glosses": [],
+      "id": "t1",
+      "en": "Welcome. How many people?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "二人です。席はありますか。",
+      "glosses": [],
+      "id": "t2",
+      "en": "Two people. Do you have a table?"
+    },
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "はい、こちらへどうぞ。メニューです。",
+      "glosses": [
+        {
+          "text": "メニュー",
+          "pos": "n.",
+          "meaning": "menu"
+        }
+      ],
+      "id": "t3",
+      "en": "Yes, this way please. Here is the menu."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "注文をお願いします。スープと魚をください。",
+      "glosses": [
+        {
+          "text": "注文",
+          "pos": "n.",
+          "meaning": "order"
+        },
+        {
+          "text": "スープ",
+          "pos": "n.",
+          "meaning": "soup"
+        }
+      ],
+      "id": "t4",
+      "en": "I would like to order. A soup and a fish, please."
+    },
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "お飲み物はいかがですか。",
+      "glosses": [],
+      "id": "t5",
+      "en": "Would you like something to drink?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "水をください。ここの料理はおいしいですね。",
+      "glosses": [
+        {
+          "text": "おいしい",
+          "pos": "adj.",
+          "meaning": "delicious"
+        }
+      ],
+      "id": "t6",
+      "en": "Water, please. The food here is delicious."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "注文",
+      "tip": "Long vowel: chū-mon",
+      "id": "w1"
+    },
+    {
+      "text": "おいしい",
+      "tip": "Stretch the \"ii\": o-i-shii",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "emoji": "😋",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "最爱",
+      "ipa": "zuì ài",
+      "pos": "n.",
+      "meaning": "favorite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我最爱的菜是饺子。",
+          "en": "My favorite dish is dumplings."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "饺子",
+      "ipa": "jiǎo zi",
+      "pos": "n.",
+      "meaning": "dumplings",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我奶奶包饺子。",
+          "en": "My grandma makes dumplings."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "辣",
+      "ipa": "là",
+      "pos": "adj.",
+      "meaning": "spicy",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我喜欢吃辣的菜。",
+          "en": "I like spicy food."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "做饭",
+      "ipa": "zuò fàn",
+      "pos": "v.",
+      "meaning": "to cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我妈妈做饭很好。",
+          "en": "My mom cooks very well."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "食谱",
+      "ipa": "shí pǔ",
+      "pos": "n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "你可以给我食谱吗？",
+          "en": "Could you give me the recipe?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "喜欢",
+      "ipa": "xǐ huan",
+      "pos": "v.",
+      "meaning": "to like",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我喜欢巧克力。",
+          "en": "I like chocolate."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "小梅",
+      "role": "npc",
+      "text": "你最爱吃什么菜？",
+      "glosses": [
+        {
+          "text": "最爱",
+          "pos": "n.",
+          "meaning": "favorite"
+        }
+      ],
+      "id": "t1",
+      "en": "What is your favorite dish?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我最爱吃饺子，我很喜欢。",
+      "glosses": [
+        {
+          "text": "最爱",
+          "pos": "n.",
+          "meaning": "favorite"
+        },
+        {
+          "text": "饺子",
+          "pos": "n.",
+          "meaning": "dumplings"
+        },
+        {
+          "text": "喜欢",
+          "pos": "v.",
+          "meaning": "to like"
+        }
+      ],
+      "id": "t2",
+      "en": "I love dumplings the most. I really like them."
+    },
+    {
+      "speaker": "小梅",
+      "role": "npc",
+      "text": "你会做饭吗？",
+      "glosses": [
+        {
+          "text": "做饭",
+          "pos": "v.",
+          "meaning": "to cook"
+        }
+      ],
+      "id": "t3",
+      "en": "Can you cook?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "会，我奶奶给了我食谱。",
+      "glosses": [
+        {
+          "text": "食谱",
+          "pos": "n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, my grandma gave me the recipe."
+    },
+    {
+      "speaker": "小梅",
+      "role": "npc",
+      "text": "你也喜欢吃辣的菜吗？",
+      "glosses": [
+        {
+          "text": "喜欢",
+          "pos": "v.",
+          "meaning": "to like"
+        }
+      ],
+      "id": "t5",
+      "en": "Do you like spicy food too?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "有一点儿。但我更喜欢巧克力。",
+      "glosses": [
+        {
+          "text": "喜欢",
+          "pos": "v.",
+          "meaning": "to like"
+        }
+      ],
+      "id": "t6",
+      "en": "A little. But I prefer chocolate."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "饺子",
+      "tip": "Third tone then light: jiǎo zi",
+      "id": "w1"
+    },
+    {
+      "text": "喜欢",
+      "tip": "\"xǐ\" third tone; \"huan\" is light",
+      "id": "w2"
+    }
+  ]
+}

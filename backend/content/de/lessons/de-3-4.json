@@ -1,0 +1,182 @@
+{
+  "emoji": "😋",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "mein Lieblingsessen",
+      "ipa": "/maɪ̯n ˈliːp.lɪŋsˌʔɛ.sn̩/",
+      "pos": "n.",
+      "meaning": "my favorite dish",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Mein Lieblingsessen ist Pizza.",
+          "en": "My favorite dish is pizza."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "die Kartoffel",
+      "ipa": "/diː kaʁ.ˈtɔ.fl̩/",
+      "pos": "n.",
+      "meaning": "potato",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Ich esse gern Kartoffeln.",
+          "en": "I like eating potatoes."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "scharf",
+      "ipa": "/ʃaʁf/",
+      "pos": "adj.",
+      "meaning": "spicy",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Ich mag scharfes Essen.",
+          "en": "I like spicy food."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "kochen",
+      "ipa": "/ˈkɔ.xn̩/",
+      "pos": "v.",
+      "meaning": "to cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Meine Mutter kocht sehr gut.",
+          "en": "My mother cooks very well."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "das Rezept",
+      "ipa": "/das ʁeˈtsɛpt/",
+      "pos": "n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Gibst du mir das Rezept?",
+          "en": "Will you give me the recipe?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "ich liebe",
+      "ipa": "/ɪç ˈliː.bə/",
+      "pos": "phr.",
+      "meaning": "I love",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Ich liebe Schokolade.",
+          "en": "I love chocolate."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Julia",
+      "role": "npc",
+      "text": "Was ist dein Lieblingsessen?",
+      "glosses": [],
+      "id": "t1",
+      "en": "What is your favorite dish?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mein Lieblingsessen ist Kartoffelsuppe. Ich liebe sie.",
+      "glosses": [
+        {
+          "text": "Mein Lieblingsessen",
+          "pos": "n.",
+          "meaning": "my favorite dish"
+        },
+        {
+          "text": "Ich liebe",
+          "pos": "phr.",
+          "meaning": "I love"
+        }
+      ],
+      "id": "t2",
+      "en": "My favorite dish is potato soup. I love it."
+    },
+    {
+      "speaker": "Julia",
+      "role": "npc",
+      "text": "Kannst du auch kochen?",
+      "glosses": [
+        {
+          "text": "kochen",
+          "pos": "v.",
+          "meaning": "to cook"
+        }
+      ],
+      "id": "t3",
+      "en": "Can you cook too?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ja, meine Oma hat mir das Rezept gegeben.",
+      "glosses": [
+        {
+          "text": "das Rezept",
+          "pos": "n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, my grandma gave me the recipe."
+    },
+    {
+      "speaker": "Julia",
+      "role": "npc",
+      "text": "Magst du auch scharfes Essen?",
+      "glosses": [
+        {
+          "text": "scharf",
+          "pos": "adj.",
+          "meaning": "spicy"
+        }
+      ],
+      "id": "t5",
+      "en": "Do you like spicy food too?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ein bisschen. Aber ich mag lieber Schokolade.",
+      "glosses": [],
+      "id": "t6",
+      "en": "A little. But I prefer chocolate."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "Kartoffelsuppe",
+      "tip": "Stress \"tof\": kar-TO-fel-zu-pe",
+      "id": "w1"
+    },
+    {
+      "text": "Rezept",
+      "tip": "\"R\" at the back of the throat; \"z\" is \"ts\": re-TSEPT",
+      "id": "w2"
+    }
+  ]
+}

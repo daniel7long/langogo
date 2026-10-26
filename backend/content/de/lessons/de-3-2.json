@@ -1,0 +1,170 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "ein Tisch",
+      "ipa": "/aɪ̯n tɪʃ/",
+      "pos": "n.",
+      "meaning": "a table",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Einen Tisch für zwei, bitte.",
+          "en": "A table for two, please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "die Speisekarte",
+      "ipa": "/diː ˈʃpaɪ̯.zə.kaʁ.tə/",
+      "pos": "n.",
+      "meaning": "the menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Kann ich die Speisekarte sehen?",
+          "en": "Can I see the menu?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "die Vorspeise",
+      "ipa": "/diː ˈfoːɐ̯.ʃpaɪ̯.zə/",
+      "pos": "n.",
+      "meaning": "starter",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Als Vorspeise nehme ich eine Suppe.",
+          "en": "As a starter I will have a soup."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "das Hauptgericht",
+      "ipa": "/das ˈhaʊ̯pt.ɡə.ʁɪçt/",
+      "pos": "n.",
+      "meaning": "main course",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Als Hauptgericht nehme ich Fisch.",
+          "en": "As a main course I will have fish."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "zu trinken",
+      "ipa": "/tsuː ˈtʁɪŋ.kn̩/",
+      "pos": "phr.",
+      "meaning": "to drink",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Was möchten Sie zu trinken?",
+          "en": "What would you like to drink?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "lecker",
+      "ipa": "/ˈlɛ.kɐ/",
+      "pos": "adj.",
+      "meaning": "tasty",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Das Essen ist sehr lecker.",
+          "en": "The food is very tasty."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kellnerin",
+      "role": "npc",
+      "text": "Guten Abend. Einen Tisch für wie viele Personen?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good evening. A table for how many people?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Einen Tisch für zwei, bitte.",
+      "glosses": [],
+      "id": "t2",
+      "en": "A table for two, please."
+    },
+    {
+      "speaker": "Kellnerin",
+      "role": "npc",
+      "text": "Hier ist die Speisekarte. Was möchten Sie zu trinken?",
+      "glosses": [
+        {
+          "text": "die Speisekarte",
+          "pos": "n.",
+          "meaning": "the menu"
+        },
+        {
+          "text": "zu trinken",
+          "pos": "phr.",
+          "meaning": "to drink"
+        }
+      ],
+      "id": "t3",
+      "en": "Here is the menu. What would you like to drink?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ein Wasser für mich und einen Weißwein für sie.",
+      "glosses": [],
+      "id": "t4",
+      "en": "A water for me and a white wine for her."
+    },
+    {
+      "speaker": "Kellnerin",
+      "role": "npc",
+      "text": "Als Vorspeise eine Suppe, als Hauptgericht Fisch.",
+      "glosses": [],
+      "id": "t5",
+      "en": "A soup as a starter, fish as a main course."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sehr gut. Das ist heute besonders lecker.",
+      "glosses": [
+        {
+          "text": "lecker",
+          "pos": "adj.",
+          "meaning": "tasty"
+        }
+      ],
+      "id": "t6",
+      "en": "Very good. That is especially tasty today."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "Speisekarte",
+      "tip": "\"Sp\" sounds like \"shp\": SHPAI-ze-kar-te",
+      "id": "w1"
+    },
+    {
+      "text": "Hauptgericht",
+      "tip": "Say \"haupt\" like \"howpt\"",
+      "id": "w2"
+    }
+  ]
+}

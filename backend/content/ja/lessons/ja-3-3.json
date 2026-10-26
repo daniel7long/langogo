@@ -1,0 +1,171 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "市場",
+      "ipa": "ichiba",
+      "pos": "n.",
+      "meaning": "market",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "土曜日に市場に行きます。",
+          "en": "I go to the market on Saturdays."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "キロ",
+      "ipa": "kiro",
+      "pos": "n.",
+      "meaning": "kilo",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "トマトを一キロください。",
+          "en": "One kilo of tomatoes, please."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "果物",
+      "ipa": "kudamono",
+      "pos": "n.",
+      "meaning": "fruit",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "今日の果物は新しいです。",
+          "en": "The fruit is fresh today."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "野菜",
+      "ipa": "yasai",
+      "pos": "n.",
+      "meaning": "vegetables",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "毎週野菜を買います。",
+          "en": "I buy vegetables every week."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "安い",
+      "ipa": "yasui",
+      "pos": "adj.",
+      "meaning": "cheap",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "今日はりんごが安いです。",
+          "en": "Apples are cheap today."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "袋",
+      "ipa": "fukuro",
+      "pos": "n.",
+      "meaning": "bag",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "袋は要りますか。",
+          "en": "Do you need a bag?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "店主",
+      "role": "npc",
+      "text": "いらっしゃい。何にしますか。",
+      "glosses": [],
+      "id": "t1",
+      "en": "Welcome. What will you have?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "トマトを一キロと、りんごを半キロください。",
+      "glosses": [
+        {
+          "text": "キロ",
+          "pos": "n.",
+          "meaning": "kilo"
+        }
+      ],
+      "id": "t2",
+      "en": "One kilo of tomatoes and half a kilo of apples, please."
+    },
+    {
+      "speaker": "店主",
+      "role": "npc",
+      "text": "今日はりんごがおいしくて安いですよ。",
+      "glosses": [
+        {
+          "text": "安い",
+          "pos": "adj.",
+          "meaning": "cheap"
+        }
+      ],
+      "id": "t3",
+      "en": "The apples are tasty and cheap today."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "いいですね。スープ用の野菜もください。",
+      "glosses": [
+        {
+          "text": "野菜",
+          "pos": "n.",
+          "meaning": "vegetables"
+        }
+      ],
+      "id": "t4",
+      "en": "Good. Please give me vegetables for soup too."
+    },
+    {
+      "speaker": "店主",
+      "role": "npc",
+      "text": "はい、どうぞ。袋は要りますか。",
+      "glosses": [],
+      "id": "t5",
+      "en": "Here you are. Do you need a bag?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "はい、袋をください。全部でいくらですか。",
+      "glosses": [],
+      "id": "t6",
+      "en": "Yes, a bag please. How much is it in total?"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "野菜",
+      "tip": "Say it as \"ya-sa-i\"",
+      "id": "w1"
+    },
+    {
+      "text": "果物",
+      "tip": "Four even beats: ku-da-mo-no",
+      "id": "w2"
+    }
+  ]
+}

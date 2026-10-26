@@ -1,0 +1,241 @@
+{
+  "emoji": "🥖",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "la boulangerie",
+      "ipa": "/la bu.lɑ̃.ʒʁi/",
+      "pos": "f. n.",
+      "meaning": "bakery",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "La boulangerie ouvre à sept heures.",
+          "en": "The bakery opens at seven."
+        },
+        {
+          "target": "Il y a une boulangerie près de chez moi.",
+          "en": "There is a bakery near my place."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "le pain",
+      "ipa": "/lə pɛ̃/",
+      "pos": "m. n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le pain est encore chaud.",
+          "en": "The bread is still warm."
+        },
+        {
+          "target": "J'achète du pain tous les jours.",
+          "en": "I buy bread every day."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la baguette",
+      "ipa": "/la ba.gɛt/",
+      "pos": "f. n.",
+      "meaning": "baguette",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "La baguette coûte un euro.",
+          "en": "The baguette costs one euro."
+        },
+        {
+          "target": "Elle mange une baguette avec du fromage.",
+          "en": "She eats a baguette with cheese."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "le croissant",
+      "ipa": "/lə kʁwa.sɑ̃/",
+      "pos": "m. n.",
+      "meaning": "croissant",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je prends un croissant.",
+          "en": "I'll have a croissant."
+        },
+        {
+          "target": "Le croissant est délicieux.",
+          "en": "The croissant is delicious."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "s'il vous plaît",
+      "ipa": "/sil vu plɛ/",
+      "pos": "phr.",
+      "meaning": "please",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un café, s'il vous plaît.",
+          "en": "A coffee, please."
+        },
+        {
+          "target": "Deux croissants, s'il vous plaît.",
+          "en": "Two croissants, please."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "combien ça coûte ?",
+      "ipa": "/kɔ̃.bjɛ̃ sa kut/",
+      "pos": "phr.",
+      "meaning": "how much is it?",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Excusez-moi, combien ça coûte ?",
+          "en": "Excuse me, how much is it?"
+        },
+        {
+          "target": "Combien ça coûte, le pain ?",
+          "en": "How much is the bread?"
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "l'euro",
+      "ipa": "/lø.ʁo/",
+      "pos": "m. n.",
+      "meaning": "euro",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ça coûte deux euros.",
+          "en": "It costs two euros."
+        },
+        {
+          "target": "Un euro cinquante, s'il vous plaît.",
+          "en": "One euro fifty, please."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Boulangère",
+      "role": "npc",
+      "text": "Bonjour ! Qu'est-ce que je vous sers ?",
+      "glosses": [
+        {
+          "text": "sers",
+          "pos": "v.",
+          "meaning": "serve"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! What can I get you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonjour ! Une baguette et deux croissants, s'il vous plaît.",
+      "glosses": [
+        {
+          "text": "baguette",
+          "pos": "f. n.",
+          "meaning": "baguette"
+        },
+        {
+          "text": "croissants",
+          "pos": "m. n. pl.",
+          "meaning": "croissants"
+        },
+        {
+          "text": "s'il vous plaît",
+          "pos": "phr.",
+          "meaning": "please"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello! A baguette and two croissants, please."
+    },
+    {
+      "speaker": "Boulangère",
+      "role": "npc",
+      "text": "Voilà. Avec ça ?",
+      "glosses": [
+        {
+          "text": "Voilà",
+          "pos": "interj.",
+          "meaning": "here you are"
+        }
+      ],
+      "id": "t3",
+      "en": "Here you go. Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est tout, merci. Combien ça coûte ?",
+      "glosses": [
+        {
+          "text": "Combien ça coûte",
+          "pos": "phr.",
+          "meaning": "how much is it"
+        }
+      ],
+      "id": "t4",
+      "en": "That's all, thank you. How much is it?"
+    },
+    {
+      "speaker": "Boulangère",
+      "role": "npc",
+      "text": "Ça fait trois euros cinquante.",
+      "glosses": [
+        {
+          "text": "euros",
+          "pos": "m. n. pl.",
+          "meaning": "euros"
+        }
+      ],
+      "id": "t5",
+      "en": "That's three euros fifty."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Voilà. Merci, bonne journée !",
+      "glosses": [
+        {
+          "text": "bonne journée",
+          "pos": "phr.",
+          "meaning": "have a good day"
+        }
+      ],
+      "id": "t6",
+      "en": "Here you are. Thank you, have a nice day!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "croissant",
+      "tip": "'oi' is /wa/; nasal vowel /ɑ̃/ at the end",
+      "id": "w1"
+    },
+    {
+      "text": "la boulangerie",
+      "tip": "'ou' as in 'food'; soft g /ʒ/",
+      "id": "w2"
+    }
+  ]
+}

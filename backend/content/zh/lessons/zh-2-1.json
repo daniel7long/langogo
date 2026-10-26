@@ -1,0 +1,193 @@
+{
+  "emoji": "☀️",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "起床",
+      "ipa": "qǐ chuáng",
+      "pos": "v.",
+      "meaning": "to get up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我七点起床。",
+          "en": "I get up at seven."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "吃早饭",
+      "ipa": "chī zǎo fàn",
+      "pos": "phr.",
+      "meaning": "to eat breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我吃早饭的时候喝咖啡。",
+          "en": "I drink coffee when I eat breakfast."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "洗澡",
+      "ipa": "xǐ zǎo",
+      "pos": "v.",
+      "meaning": "to take a shower",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我早上洗澡。",
+          "en": "I shower in the morning."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "早",
+      "ipa": "zǎo",
+      "pos": "adj.",
+      "meaning": "early",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "今天我起得很早。",
+          "en": "Today I got up very early."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "上班",
+      "ipa": "shàng bān",
+      "pos": "v.",
+      "meaning": "to go to work",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我坐公共汽车上班。",
+          "en": "I take the bus to work."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "每天",
+      "ipa": "měi tiān",
+      "pos": "adv.",
+      "meaning": "every day",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我每天跑步。",
+          "en": "I run every day."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "小丽",
+      "role": "npc",
+      "text": "你每天几点起床？",
+      "glosses": [
+        {
+          "text": "起床",
+          "pos": "v.",
+          "meaning": "to get up"
+        },
+        {
+          "text": "每天",
+          "pos": "adv.",
+          "meaning": "every day"
+        }
+      ],
+      "id": "t1",
+      "en": "What time do you get up every day?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我起得很早，六点半起床。",
+      "glosses": [
+        {
+          "text": "起床",
+          "pos": "v.",
+          "meaning": "to get up"
+        }
+      ],
+      "id": "t2",
+      "en": "I get up very early, at six thirty."
+    },
+    {
+      "speaker": "小丽",
+      "role": "npc",
+      "text": "然后你做什么？",
+      "glosses": [],
+      "id": "t3",
+      "en": "And then what do you do?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我洗澡，然后吃早饭。",
+      "glosses": [
+        {
+          "text": "吃早饭",
+          "pos": "phr.",
+          "meaning": "to eat breakfast"
+        },
+        {
+          "text": "洗澡",
+          "pos": "v.",
+          "meaning": "to take a shower"
+        }
+      ],
+      "id": "t4",
+      "en": "I shower, and then I eat breakfast."
+    },
+    {
+      "speaker": "小丽",
+      "role": "npc",
+      "text": "你坐公共汽车上班吗？",
+      "glosses": [
+        {
+          "text": "上班",
+          "pos": "v.",
+          "meaning": "to go to work"
+        }
+      ],
+      "id": "t5",
+      "en": "Do you take the bus to work?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "对，每天八点出门。",
+      "glosses": [
+        {
+          "text": "每天",
+          "pos": "adv.",
+          "meaning": "every day"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, I leave home at eight every day."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "起床",
+      "tip": "Rising tone, then a rising tone: qǐ chuáng",
+      "id": "w1"
+    },
+    {
+      "text": "每天",
+      "tip": "Third tone before first tone: měi tiān",
+      "id": "w2"
+    }
+  ]
+}

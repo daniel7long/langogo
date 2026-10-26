@@ -1,0 +1,231 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "l'heure",
+      "ipa": "/lœʁ/",
+      "pos": "f. n.",
+      "meaning": "hour, time",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "À quelle heure tu manges ?",
+          "en": "What time do you eat?"
+        },
+        {
+          "target": "L'heure du dîner approche.",
+          "en": "Dinner time is coming."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "midi",
+      "ipa": "/mi.di/",
+      "pos": "m. n.",
+      "meaning": "noon",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Il est midi, on mange !",
+          "en": "It's noon, let's eat!"
+        },
+        {
+          "target": "On se retrouve à midi.",
+          "en": "We meet at noon."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "minuit",
+      "ipa": "/mi.nɥi/",
+      "pos": "m. n.",
+      "meaning": "midnight",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le film finit à minuit.",
+          "en": "The film ends at midnight."
+        },
+        {
+          "target": "Il est minuit passé.",
+          "en": "It's past midnight."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "le matin",
+      "ipa": "/lə ma.tɛ̃/",
+      "pos": "m. n.",
+      "meaning": "morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je travaille le matin.",
+          "en": "I work in the morning."
+        },
+        {
+          "target": "Il fait froid le matin.",
+          "en": "It's cold in the morning."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "le soir",
+      "ipa": "/lə swaʁ/",
+      "pos": "m. n.",
+      "meaning": "evening",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le soir, je lis un livre.",
+          "en": "In the evening, I read a book."
+        },
+        {
+          "target": "On sort ce soir ?",
+          "en": "Shall we go out tonight?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "et demie",
+      "ipa": "/e də.mi/",
+      "pos": "phr.",
+      "meaning": "half past",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Il est trois heures et demie.",
+          "en": "It's half past three."
+        },
+        {
+          "target": "Rendez-vous à six heures et demie.",
+          "en": "See you at half past six."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "en retard",
+      "ipa": "/ɑ̃ ʁə.taʁ/",
+      "pos": "adv. phr.",
+      "meaning": "late",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Dépêche-toi, on est en retard !",
+          "en": "Hurry up, we're late!"
+        },
+        {
+          "target": "Le bus est en retard.",
+          "en": "The bus is late."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hugo",
+      "role": "npc",
+      "text": "Pardon, quelle heure est-il ?",
+      "glosses": [
+        {
+          "text": "heure",
+          "pos": "f. n.",
+          "meaning": "hour, time"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Il est une heure et demie.",
+      "glosses": [
+        {
+          "text": "et demie",
+          "pos": "phr.",
+          "meaning": "half past"
+        }
+      ],
+      "id": "t2",
+      "en": "It's half past one."
+    },
+    {
+      "speaker": "Hugo",
+      "role": "npc",
+      "text": "Oh non, je suis en retard pour le déjeuner !",
+      "glosses": [
+        {
+          "text": "en retard",
+          "pos": "adv. phr.",
+          "meaning": "late"
+        }
+      ],
+      "id": "t3",
+      "en": "Oh no, I'm late for lunch!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Pas de panique. Le restaurant ferme à deux heures.",
+      "glosses": [
+        {
+          "text": "ferme",
+          "pos": "v.",
+          "meaning": "closes"
+        }
+      ],
+      "id": "t4",
+      "en": "Don't panic. The restaurant closes at two."
+    },
+    {
+      "speaker": "Hugo",
+      "role": "npc",
+      "text": "Merci ! Et le soir, tu es libre ?",
+      "glosses": [
+        {
+          "text": "le soir",
+          "pos": "m. n.",
+          "meaning": "evening"
+        }
+      ],
+      "id": "t5",
+      "en": "Thank you! And in the evening, are you free?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, je suis libre à huit heures.",
+      "glosses": [
+        {
+          "text": "libre",
+          "pos": "adj.",
+          "meaning": "free"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, I'm free at eight."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "l'heure",
+      "tip": "The 'h' is silent; say /œʁ/ with a French r",
+      "id": "w1"
+    },
+    {
+      "text": "minuit",
+      "tip": "'u' then 'i' glide together: /mi.nɥi/",
+      "id": "w2"
+    }
+  ]
+}

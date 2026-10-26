@@ -1,0 +1,193 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "どこから来ましたか",
+      "ipa": "doko kara kimashita ka",
+      "pos": "phr.",
+      "meaning": "where are you from?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "どこから来ましたか。",
+          "en": "Where are you from?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "から来ました",
+      "ipa": "kara kimashita",
+      "pos": "phr.",
+      "meaning": "I came from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "カナダから来ました。",
+          "en": "I came from Canada."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "国",
+      "ipa": "kuni",
+      "pos": "n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "わたしの国はとても大きいです。",
+          "en": "My country is very big."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "町",
+      "ipa": "machi",
+      "pos": "n.",
+      "meaning": "town",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "小さい町に住んでいます。",
+          "en": "I live in a small town."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "住んでいます",
+      "ipa": "sunde imasu",
+      "pos": "v.",
+      "meaning": "live",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "東京に住んでいます。",
+          "en": "I live in Tokyo."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "話します",
+      "ipa": "hanashimasu",
+      "pos": "v.",
+      "meaning": "speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "少し日本語を話します。",
+          "en": "I speak a little Japanese."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "ケン",
+      "role": "npc",
+      "text": "こんにちは。どこから来ましたか。",
+      "glosses": [
+        {
+          "text": "どこから来ましたか",
+          "pos": "phr.",
+          "meaning": "where are you from?"
+        },
+        {
+          "text": "から来ました",
+          "pos": "phr.",
+          "meaning": "I came from"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello. Where are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "カナダから来ました。ケンさんは。",
+      "glosses": [
+        {
+          "text": "から来ました",
+          "pos": "phr.",
+          "meaning": "I came from"
+        }
+      ],
+      "id": "t2",
+      "en": "I came from Canada. And you, Ken?"
+    },
+    {
+      "speaker": "ケン",
+      "role": "npc",
+      "text": "わたしは大阪から来ました。今は東京に住んでいます。",
+      "glosses": [
+        {
+          "text": "から来ました",
+          "pos": "phr.",
+          "meaning": "I came from"
+        },
+        {
+          "text": "住んでいます",
+          "pos": "v.",
+          "meaning": "live"
+        }
+      ],
+      "id": "t3",
+      "en": "I came from Osaka. Now I live in Tokyo."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "いい町ですね。わたしも東京に住んでいます。",
+      "glosses": [
+        {
+          "text": "住んでいます",
+          "pos": "v.",
+          "meaning": "live"
+        }
+      ],
+      "id": "t4",
+      "en": "It is a nice town. I live in Tokyo too."
+    },
+    {
+      "speaker": "ケン",
+      "role": "npc",
+      "text": "日本語は上手ですね。",
+      "glosses": [],
+      "id": "t5",
+      "en": "Your Japanese is good."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "少し話します。もっと勉強したいです。",
+      "glosses": [
+        {
+          "text": "話します",
+          "pos": "v.",
+          "meaning": "speak"
+        }
+      ],
+      "id": "t6",
+      "en": "I speak a little. I want to study more."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "大阪",
+      "tip": "Long \"oo\": o-o-sa-ka",
+      "id": "w1"
+    },
+    {
+      "text": "東京",
+      "tip": "Long vowels: tō-kyō",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "emoji": "🥖",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "das Brot",
+      "ipa": "/das bʁoːt/",
+      "pos": "n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich möchte ein Brot, bitte.",
+          "en": "I would like a loaf of bread, please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "ich möchte",
+      "ipa": "/ɪç ˈmœç.tə/",
+      "pos": "phr.",
+      "meaning": "I would like",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich möchte zwei Brötchen.",
+          "en": "I would like two bread rolls."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "was kostet das?",
+      "ipa": "/vas ˈkɔs.tət das/",
+      "pos": "phr.",
+      "meaning": "how much is it?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Was kostet das Brot?",
+          "en": "How much is the bread?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "sonst noch etwas?",
+      "ipa": "/zɔnst nɔx ˈɛt.vas/",
+      "pos": "phr.",
+      "meaning": "anything else?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Sonst noch etwas?",
+          "en": "Anything else?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "der Euro",
+      "ipa": "/deːɐ̯ ˈɔɪ̯.ʁo/",
+      "pos": "n.",
+      "meaning": "euro",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Das macht drei Euro.",
+          "en": "That makes three euros."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "frisch",
+      "ipa": "/fʁɪʃ/",
+      "pos": "adj.",
+      "meaning": "fresh",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Die Brötchen sind frisch.",
+          "en": "The rolls are fresh."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Bäckerin",
+      "role": "npc",
+      "text": "Guten Morgen. Was darf es sein?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning. What can I get you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Guten Morgen. Ich möchte ein Brot, bitte.",
+      "glosses": [
+        {
+          "text": "Ich möchte",
+          "pos": "phr.",
+          "meaning": "I would like"
+        }
+      ],
+      "id": "t2",
+      "en": "Good morning. I would like a loaf of bread, please."
+    },
+    {
+      "speaker": "Bäckerin",
+      "role": "npc",
+      "text": "Gern. Es ist ganz frisch. Sonst noch etwas?",
+      "glosses": [
+        {
+          "text": "Sonst noch etwas",
+          "pos": "phr.",
+          "meaning": "anything else?"
+        },
+        {
+          "text": "frisch",
+          "pos": "adj.",
+          "meaning": "fresh"
+        }
+      ],
+      "id": "t3",
+      "en": "Gladly. It is very fresh. Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ja, zwei Brötchen. Was kostet das zusammen?",
+      "glosses": [
+        {
+          "text": "Was kostet das",
+          "pos": "phr.",
+          "meaning": "how much is it?"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, two rolls. How much is that altogether?"
+    },
+    {
+      "speaker": "Bäckerin",
+      "role": "npc",
+      "text": "Das macht vier Euro fünfzig.",
+      "glosses": [],
+      "id": "t5",
+      "en": "That makes four euros fifty."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bitte schön. Vielen Dank!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here you are. Thank you very much!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "Brötchen",
+      "tip": "\"ö\" is rounded; \"ch\" is soft: BRØT-khen",
+      "id": "w1"
+    },
+    {
+      "text": "möchte",
+      "tip": "\"ö\" then a soft \"ch\": MØKH-te",
+      "id": "w2"
+    }
+  ]
+}

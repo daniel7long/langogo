@@ -1,0 +1,241 @@
+{
+  "emoji": "👋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "こんにちは",
+      "ipa": "konnichiwa",
+      "pos": "interj.",
+      "meaning": "hello",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "こんにちは、田中さん。",
+          "en": "Hello, Mr. Tanaka."
+        },
+        {
+          "target": "こんにちは、いい天気ですね。",
+          "en": "Hello, nice weather, isn't it?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "おはようございます",
+      "ipa": "ohayō gozaimasu",
+      "pos": "phr.",
+      "meaning": "good morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "おはようございます、先生。",
+          "en": "Good morning, teacher."
+        },
+        {
+          "target": "毎朝、おはようございますと言います。",
+          "en": "Every morning I say good morning."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "ありがとうございます",
+      "ipa": "arigatō gozaimasu",
+      "pos": "phr.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "手伝ってくれて、ありがとうございます。",
+          "en": "Thank you for helping."
+        },
+        {
+          "target": "ありがとうございます、助かります。",
+          "en": "Thank you, that helps."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "お元気ですか",
+      "ipa": "o-genki desu ka",
+      "pos": "phr.",
+      "meaning": "how are you?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "田中さん、お元気ですか。",
+          "en": "Mr. Tanaka, how are you?"
+        },
+        {
+          "target": "お元気ですか。はい、元気です。",
+          "en": "How are you? I'm fine."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "元気です",
+      "ipa": "genki desu",
+      "pos": "phr.",
+      "meaning": "I'm fine",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "はい、元気です。",
+          "en": "Yes, I'm fine."
+        },
+        {
+          "target": "今日は元気です。",
+          "en": "I'm doing well today."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "さようなら",
+      "ipa": "sayōnara",
+      "pos": "interj.",
+      "meaning": "goodbye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "さようなら、また明日。",
+          "en": "Goodbye, see you tomorrow."
+        },
+        {
+          "target": "先生にさようならと言いました。",
+          "en": "I said goodbye to the teacher."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "はじめまして",
+      "ipa": "hajimemashite",
+      "pos": "interj.",
+      "meaning": "nice to meet you (first meeting)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "はじめまして、アレックスです。",
+          "en": "Nice to meet you, I'm Alex."
+        },
+        {
+          "target": "はじめまして、よろしくお願いします。",
+          "en": "Nice to meet you, I look forward to working with you."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Yuki",
+      "role": "npc",
+      "text": "こんにちは！お元気ですか。",
+      "glosses": [
+        {
+          "text": "こんにちは",
+          "pos": "interj.",
+          "meaning": "hello"
+        },
+        {
+          "text": "お元気ですか",
+          "pos": "phr.",
+          "meaning": "how are you"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! How are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "こんにちは。はい、元気です。ありがとうございます。",
+      "glosses": [
+        {
+          "text": "元気です",
+          "pos": "phr.",
+          "meaning": "I'm fine"
+        },
+        {
+          "text": "ありがとうございます",
+          "pos": "phr.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello. Yes, I'm well. Thank you."
+    },
+    {
+      "speaker": "Yuki",
+      "role": "npc",
+      "text": "よかったです。私はゆきです。はじめまして。",
+      "glosses": [
+        {
+          "text": "はじめまして",
+          "pos": "interj.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm glad. I'm Yuki. Nice to meet you."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "はじめまして。アレックスです。よろしくお願いします。",
+      "glosses": [
+        {
+          "text": "よろしくお願いします",
+          "pos": "phr.",
+          "meaning": "pleased to meet you"
+        }
+      ],
+      "id": "t4",
+      "en": "Nice to meet you. I'm Alex. Please take care of me."
+    },
+    {
+      "speaker": "Yuki",
+      "role": "npc",
+      "text": "こちらこそ。もうすぐ授業です。さようなら！",
+      "glosses": [
+        {
+          "text": "さようなら",
+          "pos": "interj.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t5",
+      "en": "Likewise. Class is starting soon. Goodbye!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "さようなら。また明日！",
+      "glosses": [
+        {
+          "text": "また明日",
+          "pos": "phr.",
+          "meaning": "see you tomorrow"
+        }
+      ],
+      "id": "t6",
+      "en": "Goodbye. See you tomorrow!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "ありがとうございます",
+      "tip": "Hold the long 'ō' in 'arigatō' for two beats",
+      "id": "w1"
+    },
+    {
+      "text": "さようなら",
+      "tip": "Long 'yō'; the 'r' is a quick tap of the tongue",
+      "id": "w2"
+    }
+  ]
+}

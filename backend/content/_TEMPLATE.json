@@ -1,0 +1,54 @@
+{
+  "emoji": "🧺",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "demain",
+      "ipa": "/də.mɛ̃/",
+      "pos": "adv.",
+      "meaning": "tomorrow",
+      "examples": [
+        {
+          "target": "On part demain.",
+          "en": "We leave tomorrow."
+        },
+        {
+          "target": "À demain !",
+          "en": "See you tomorrow!"
+        }
+      ],
+      "cefr": "A1"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Jenny",
+      "role": "npc",
+      "text": "On fait un pique-nique demain ?",
+      "audio": "t1.mp3",
+      "glosses": [
+        {
+          "text": "demain",
+          "pos": "adv.",
+          "meaning": "tomorrow"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, c'est une super idée !"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "demain",
+      "tip": "Pay attention to the nasal vowel"
+    }
+  ]
+}

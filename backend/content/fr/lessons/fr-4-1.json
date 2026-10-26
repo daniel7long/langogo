@@ -1,0 +1,246 @@
+{
+  "emoji": "🧭",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "la rue",
+      "ipa": "/la ʁy/",
+      "pos": "f. n.",
+      "meaning": "street",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "La rue est calme le dimanche.",
+          "en": "The street is quiet on Sundays."
+        },
+        {
+          "target": "J'habite dans cette rue.",
+          "en": "I live on this street."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "tout droit",
+      "ipa": "/tu dʁwa/",
+      "pos": "adv. phr.",
+      "meaning": "straight ahead",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Allez tout droit jusqu'au feu.",
+          "en": "Go straight ahead to the traffic light."
+        },
+        {
+          "target": "Continuez tout droit.",
+          "en": "Keep going straight."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "à gauche",
+      "ipa": "/a goʃ/",
+      "pos": "adv. phr.",
+      "meaning": "on the left",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Tournez à gauche.",
+          "en": "Turn left."
+        },
+        {
+          "target": "La poste est à gauche.",
+          "en": "The post office is on the left."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "à droite",
+      "ipa": "/a dʁwat/",
+      "pos": "adv. phr.",
+      "meaning": "on the right",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "La banque est à droite.",
+          "en": "The bank is on the right."
+        },
+        {
+          "target": "Prenez à droite.",
+          "en": "Take the right."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "près d'ici",
+      "ipa": "/pʁɛ di.si/",
+      "pos": "adv. phr.",
+      "meaning": "near here",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Il y a une pharmacie près d'ici ?",
+          "en": "Is there a pharmacy near here?"
+        },
+        {
+          "target": "Mon hôtel est près d'ici.",
+          "en": "My hotel is near here."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "la gare",
+      "ipa": "/la gaʁ/",
+      "pos": "f. n.",
+      "meaning": "train station",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "La gare est à dix minutes.",
+          "en": "The station is ten minutes away."
+        },
+        {
+          "target": "Je cherche la gare.",
+          "en": "I'm looking for the station."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "tourner",
+      "ipa": "/tuʁ.ne/",
+      "pos": "v.",
+      "meaning": "to turn",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Il faut tourner au coin de la rue.",
+          "en": "You have to turn at the corner."
+        },
+        {
+          "target": "Tournez après la boulangerie.",
+          "en": "Turn after the bakery."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Passante",
+      "role": "npc",
+      "text": "Bonjour ! Vous cherchez quelque chose ?",
+      "glosses": [
+        {
+          "text": "cherchez",
+          "pos": "v.",
+          "meaning": "look for"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! Are you looking for something?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, excusez-moi, la gare est près d'ici ?",
+      "glosses": [
+        {
+          "text": "près d'ici",
+          "pos": "adv. phr.",
+          "meaning": "near here"
+        },
+        {
+          "text": "gare",
+          "pos": "f. n.",
+          "meaning": "train station"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, excuse me, is the train station near here?"
+    },
+    {
+      "speaker": "Passante",
+      "role": "npc",
+      "text": "Oui. Allez tout droit, puis tournez à gauche.",
+      "glosses": [
+        {
+          "text": "tout droit",
+          "pos": "adv. phr.",
+          "meaning": "straight ahead"
+        },
+        {
+          "text": "tournez",
+          "pos": "v.",
+          "meaning": "turn"
+        },
+        {
+          "text": "à gauche",
+          "pos": "adv. phr.",
+          "meaning": "on the left"
+        }
+      ],
+      "id": "t3",
+      "en": "Yes. Go straight ahead, then turn left."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Tout droit, puis à gauche. C'est dans quelle rue ?",
+      "glosses": [
+        {
+          "text": "rue",
+          "pos": "f. n.",
+          "meaning": "street"
+        }
+      ],
+      "id": "t4",
+      "en": "Straight ahead, then left. Which street is it on?"
+    },
+    {
+      "speaker": "Passante",
+      "role": "npc",
+      "text": "Rue Victor Hugo. La gare est à droite, vous la verrez.",
+      "glosses": [
+        {
+          "text": "à droite",
+          "pos": "adv. phr.",
+          "meaning": "on the right"
+        }
+      ],
+      "id": "t5",
+      "en": "Rue Victor Hugo. The station is on the right, you'll see it."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci beaucoup, c'est très gentil !",
+      "glosses": [
+        {
+          "text": "gentil",
+          "pos": "adj.",
+          "meaning": "kind"
+        }
+      ],
+      "id": "t6",
+      "en": "Thank you very much, that's very kind!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "tout droit",
+      "tip": "'oi' is /wa/; the final 't' is silent",
+      "id": "w1"
+    },
+    {
+      "text": "la gare",
+      "tip": "Open 'a' and a French r at the back of the throat",
+      "id": "w2"
+    }
+  ]
+}

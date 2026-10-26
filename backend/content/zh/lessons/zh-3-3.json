@@ -1,0 +1,183 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "市场",
+      "ipa": "shì chǎng",
+      "pos": "n.",
+      "meaning": "market",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我周六去市场。",
+          "en": "I go to the market on Saturday."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "一公斤",
+      "ipa": "yì gōng jīn",
+      "pos": "phr.",
+      "meaning": "a kilogram",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我要一公斤西红柿。",
+          "en": "I want a kilogram of tomatoes."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "水果",
+      "ipa": "shuǐ guǒ",
+      "pos": "n.",
+      "meaning": "fruit",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "今天的水果很新鲜。",
+          "en": "The fruit is fresh today."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "蔬菜",
+      "ipa": "shū cài",
+      "pos": "n.",
+      "meaning": "vegetables",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我每周买蔬菜。",
+          "en": "I buy vegetables every week."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "便宜",
+      "ipa": "pián yi",
+      "pos": "adj.",
+      "meaning": "cheap",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "今天苹果很便宜。",
+          "en": "Apples are cheap today."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "袋子",
+      "ipa": "dài zi",
+      "pos": "n.",
+      "meaning": "bag",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "你要袋子吗？",
+          "en": "Do you need a bag?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "摊主",
+      "role": "npc",
+      "text": "早上好，你想买什么？",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning, what would you like to buy?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我要一公斤西红柿和半公斤苹果。",
+      "glosses": [
+        {
+          "text": "一公斤",
+          "pos": "phr.",
+          "meaning": "a kilogram"
+        }
+      ],
+      "id": "t2",
+      "en": "I would like a kilogram of tomatoes and half a kilo of apples."
+    },
+    {
+      "speaker": "摊主",
+      "role": "npc",
+      "text": "今天苹果又好又便宜。",
+      "glosses": [
+        {
+          "text": "便宜",
+          "pos": "adj.",
+          "meaning": "cheap"
+        }
+      ],
+      "id": "t3",
+      "en": "The apples are good and cheap today."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "太好了。我还要蔬菜做汤。",
+      "glosses": [
+        {
+          "text": "蔬菜",
+          "pos": "n.",
+          "meaning": "vegetables"
+        }
+      ],
+      "id": "t4",
+      "en": "Great. I also need vegetables to make soup."
+    },
+    {
+      "speaker": "摊主",
+      "role": "npc",
+      "text": "给你。你要袋子吗？",
+      "glosses": [
+        {
+          "text": "袋子",
+          "pos": "n.",
+          "meaning": "bag"
+        }
+      ],
+      "id": "t5",
+      "en": "Here you go. Do you need a bag?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "要一个袋子，谢谢。一共多少钱？",
+      "glosses": [
+        {
+          "text": "袋子",
+          "pos": "n.",
+          "meaning": "bag"
+        }
+      ],
+      "id": "t6",
+      "en": "A bag please. How much is it altogether?"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "便宜",
+      "tip": "Light second syllable: pián yi",
+      "id": "w1"
+    },
+    {
+      "text": "蔬菜",
+      "tip": "First tone, then fourth: shū cài",
+      "id": "w2"
+    }
+  ]
+}

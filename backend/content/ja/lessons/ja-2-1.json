@@ -1,0 +1,198 @@
+{
+  "emoji": "☀️",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "起きます",
+      "ipa": "okimasu",
+      "pos": "v.",
+      "meaning": "get up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "七時に起きます。",
+          "en": "I get up at seven."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "朝ごはん",
+      "ipa": "asagohan",
+      "pos": "n.",
+      "meaning": "breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "朝ごはんを食べます。",
+          "en": "I eat breakfast."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "シャワー",
+      "ipa": "shawā",
+      "pos": "n.",
+      "meaning": "shower",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "仕事の前にシャワーを浴びます。",
+          "en": "I shower before work."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "早く",
+      "ipa": "hayaku",
+      "pos": "adv.",
+      "meaning": "early",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "今日は早く起きました。",
+          "en": "I got up early today."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "会社",
+      "ipa": "kaisha",
+      "pos": "n.",
+      "meaning": "company",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "バスで会社に行きます。",
+          "en": "I go to work by bus."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "毎日",
+      "ipa": "mainichi",
+      "pos": "adv.",
+      "meaning": "every day",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "毎日走ります。",
+          "en": "I run every day."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "アヤ",
+      "role": "npc",
+      "text": "毎日何時に起きますか。",
+      "glosses": [
+        {
+          "text": "起きます",
+          "pos": "v.",
+          "meaning": "get up"
+        },
+        {
+          "text": "毎日",
+          "pos": "adv.",
+          "meaning": "every day"
+        }
+      ],
+      "id": "t1",
+      "en": "What time do you get up every day?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "早く起きます。六時半に起きます。",
+      "glosses": [
+        {
+          "text": "起きます",
+          "pos": "v.",
+          "meaning": "get up"
+        },
+        {
+          "text": "早く",
+          "pos": "adv.",
+          "meaning": "early"
+        }
+      ],
+      "id": "t2",
+      "en": "I get up early. I get up at six thirty."
+    },
+    {
+      "speaker": "アヤ",
+      "role": "npc",
+      "text": "それから何をしますか。",
+      "glosses": [],
+      "id": "t3",
+      "en": "What do you do after that?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "シャワーを浴びて、朝ごはんを食べます。",
+      "glosses": [
+        {
+          "text": "朝ごはん",
+          "pos": "n.",
+          "meaning": "breakfast"
+        },
+        {
+          "text": "シャワー",
+          "pos": "n.",
+          "meaning": "shower"
+        }
+      ],
+      "id": "t4",
+      "en": "I take a shower and eat breakfast."
+    },
+    {
+      "speaker": "アヤ",
+      "role": "npc",
+      "text": "バスで会社に行きますか。",
+      "glosses": [
+        {
+          "text": "会社",
+          "pos": "n.",
+          "meaning": "company"
+        }
+      ],
+      "id": "t5",
+      "en": "Do you go to work by bus?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "はい、毎日八時に出かけます。",
+      "glosses": [
+        {
+          "text": "毎日",
+          "pos": "adv.",
+          "meaning": "every day"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, I leave at eight every day."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "朝ごはん",
+      "tip": "Link the sounds: a-sa-go-han",
+      "id": "w1"
+    },
+    {
+      "text": "シャワー",
+      "tip": "Long final vowel: sha-waa",
+      "id": "w2"
+    }
+  ]
+}

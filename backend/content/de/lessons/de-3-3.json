@@ -1,0 +1,165 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 45,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "der Markt",
+      "ipa": "/deːɐ̯ maʁkt/",
+      "pos": "n.",
+      "meaning": "the market",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Ich gehe samstags auf den Markt.",
+          "en": "I go to the market on Saturdays."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "ein Kilo",
+      "ipa": "/aɪ̯n ˈkiː.lo/",
+      "pos": "phr.",
+      "meaning": "a kilo",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Ich möchte ein Kilo Tomaten.",
+          "en": "I would like a kilo of tomatoes."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "das Obst",
+      "ipa": "/das oːpst/",
+      "pos": "n.",
+      "meaning": "fruit",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Das Obst ist heute frisch.",
+          "en": "The fruit is fresh today."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "das Gemüse",
+      "ipa": "/das ɡəˈmyː.zə/",
+      "pos": "n.",
+      "meaning": "vegetables",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Ich kaufe jede Woche Gemüse.",
+          "en": "I buy vegetables every week."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "billig",
+      "ipa": "/ˈbɪ.lɪç/",
+      "pos": "adj.",
+      "meaning": "cheap",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Die Äpfel sind heute billig.",
+          "en": "The apples are cheap today."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "die Tüte",
+      "ipa": "/diː ˈtyː.tə/",
+      "pos": "n.",
+      "meaning": "bag",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Brauchen Sie eine Tüte?",
+          "en": "Do you need a bag?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Verkäufer",
+      "role": "npc",
+      "text": "Guten Morgen. Was darf es sein?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning. What can I get you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ein Kilo Tomaten und ein halbes Kilo Äpfel, bitte.",
+      "glosses": [
+        {
+          "text": "Ein Kilo",
+          "pos": "phr.",
+          "meaning": "a kilo"
+        }
+      ],
+      "id": "t2",
+      "en": "A kilo of tomatoes and half a kilo of apples, please."
+    },
+    {
+      "speaker": "Verkäufer",
+      "role": "npc",
+      "text": "Die Äpfel sind heute sehr gut und billig.",
+      "glosses": [
+        {
+          "text": "billig",
+          "pos": "adj.",
+          "meaning": "cheap"
+        }
+      ],
+      "id": "t3",
+      "en": "The apples are very good and cheap today."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Prima. Ich brauche auch Gemüse für die Suppe.",
+      "glosses": [],
+      "id": "t4",
+      "en": "Great. I also need vegetables for the soup."
+    },
+    {
+      "speaker": "Verkäufer",
+      "role": "npc",
+      "text": "Bitte schön. Brauchen Sie eine Tüte?",
+      "glosses": [],
+      "id": "t5",
+      "en": "Here you are. Do you need a bag?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ja, eine Tüte, bitte. Was macht das?",
+      "glosses": [],
+      "id": "t6",
+      "en": "Yes, a bag, please. How much is that?"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "Gemüse",
+      "tip": "Round your lips for \"ü\": ge-MYY-ze",
+      "id": "w1"
+    },
+    {
+      "text": "Äpfel",
+      "tip": "\"Ä\" is like \"e\" in \"bed\": EP-fel",
+      "id": "w2"
+    }
+  ]
+}

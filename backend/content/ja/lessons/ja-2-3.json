@@ -1,0 +1,186 @@
+{
+  "emoji": "🥖",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "パン",
+      "ipa": "pan",
+      "pos": "n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "パンを一つください。",
+          "en": "One bread, please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "ください",
+      "ipa": "kudasai",
+      "pos": "v.",
+      "meaning": "please give me",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "これを二つください。",
+          "en": "Two of these, please."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "いくらですか",
+      "ipa": "ikura desu ka",
+      "pos": "phr.",
+      "meaning": "how much is it?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "このパンはいくらですか。",
+          "en": "How much is this bread?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "ほかに",
+      "ipa": "hoka ni",
+      "pos": "phr.",
+      "meaning": "anything else",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "ほかにありますか。",
+          "en": "Anything else?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "円",
+      "ipa": "en",
+      "pos": "n.",
+      "meaning": "yen",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "三百円です。",
+          "en": "It is three hundred yen."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "新しい",
+      "ipa": "atarashii",
+      "pos": "adj.",
+      "meaning": "fresh, new",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "パンは新しいです。",
+          "en": "The bread is fresh."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "いらっしゃいませ。何にしますか。",
+      "glosses": [],
+      "id": "t1",
+      "en": "Welcome. What will you have?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "こんにちは。パンを一つください。",
+      "glosses": [
+        {
+          "text": "パン",
+          "pos": "n.",
+          "meaning": "bread"
+        },
+        {
+          "text": "ください",
+          "pos": "v.",
+          "meaning": "please give me"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello. One bread, please."
+    },
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "どうぞ。新しいですよ。ほかにありますか。",
+      "glosses": [
+        {
+          "text": "ほかに",
+          "pos": "phr.",
+          "meaning": "anything else"
+        },
+        {
+          "text": "新しい",
+          "pos": "adj.",
+          "meaning": "fresh, new"
+        }
+      ],
+      "id": "t3",
+      "en": "Here you are. It is fresh. Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "はい、クロワッサンを二つください。いくらですか。",
+      "glosses": [
+        {
+          "text": "ください",
+          "pos": "v.",
+          "meaning": "please give me"
+        },
+        {
+          "text": "いくらですか",
+          "pos": "phr.",
+          "meaning": "how much is it?"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, two croissants please. How much is it?"
+    },
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "全部で五百円です。",
+      "glosses": [],
+      "id": "t5",
+      "en": "It is five hundred yen in total."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "はい、どうぞ。ありがとうございます。",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here you are. Thank you very much."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "いくら",
+      "tip": "Say it as \"i-ku-ra\"",
+      "id": "w1"
+    },
+    {
+      "text": "クロワッサン",
+      "tip": "Pause for the small \"ッ\": ku-ro-wa-ssan",
+      "id": "w2"
+    }
+  ]
+}

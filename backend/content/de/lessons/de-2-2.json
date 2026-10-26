@@ -1,0 +1,193 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 40,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "wie spät ist es?",
+      "ipa": "/viː ʃpɛːt ɪst ɛs/",
+      "pos": "phr.",
+      "meaning": "what time is it?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Entschuldigung, wie spät ist es?",
+          "en": "Excuse me, what time is it?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "es ist",
+      "ipa": "/ɛs ɪst/",
+      "pos": "phr.",
+      "meaning": "it is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Es ist drei Uhr.",
+          "en": "It is three o'clock."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "halb",
+      "ipa": "/halp/",
+      "pos": "adj.",
+      "meaning": "half",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Es ist halb zehn.",
+          "en": "It is half past nine."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "Viertel nach",
+      "ipa": "/ˈfɪʁ.tl̩ naːx/",
+      "pos": "phr.",
+      "meaning": "quarter past",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Es ist Viertel nach acht.",
+          "en": "It is quarter past eight."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "das Meeting",
+      "ipa": "/das ˈmiː.tɪŋ/",
+      "pos": "n.",
+      "meaning": "the meeting",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Das Meeting beginnt um neun.",
+          "en": "The meeting starts at nine."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "spät",
+      "ipa": "/ʃpɛːt/",
+      "pos": "adj.",
+      "meaning": "late",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich komme zu spät.",
+          "en": "I am arriving late."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Entschuldigung, wie spät ist es?",
+      "glosses": [
+        {
+          "text": "wie spät ist es",
+          "pos": "phr.",
+          "meaning": "what time is it?"
+        },
+        {
+          "text": "spät",
+          "pos": "adj.",
+          "meaning": "late"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Es ist halb elf.",
+      "glosses": [
+        {
+          "text": "Es ist",
+          "pos": "phr.",
+          "meaning": "it is"
+        },
+        {
+          "text": "halb",
+          "pos": "adj.",
+          "meaning": "half"
+        }
+      ],
+      "id": "t2",
+      "en": "It is half past ten."
+    },
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Oh nein, das Meeting beginnt um elf Uhr!",
+      "glosses": [
+        {
+          "text": "das Meeting",
+          "pos": "n.",
+          "meaning": "the meeting"
+        }
+      ],
+      "id": "t3",
+      "en": "Oh no, the meeting starts at eleven!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Keine Sorge, du hast noch eine halbe Stunde.",
+      "glosses": [
+        {
+          "text": "halb",
+          "pos": "adj.",
+          "meaning": "half"
+        }
+      ],
+      "id": "t4",
+      "en": "Do not worry, you still have half an hour."
+    },
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Danke. Wann ist das Meeting zu Ende?",
+      "glosses": [
+        {
+          "text": "das Meeting",
+          "pos": "n.",
+          "meaning": "the meeting"
+        }
+      ],
+      "id": "t5",
+      "en": "Thanks. When does the meeting end?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Um zwölf Uhr. Danach essen wir zusammen.",
+      "glosses": [],
+      "id": "t6",
+      "en": "At twelve. Then we eat together."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "Viertel",
+      "tip": "\"V\" sounds like \"f\": FIR-tel",
+      "id": "w1"
+    },
+    {
+      "text": "spät",
+      "tip": "\"sp\" sounds like \"shp\": shpayt",
+      "id": "w2"
+    }
+  ]
+}

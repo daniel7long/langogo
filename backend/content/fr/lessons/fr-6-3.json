@@ -1,0 +1,236 @@
+{
+  "emoji": "📦",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "déménager",
+      "ipa": "/de.me.na.ʒe/",
+      "pos": "v.",
+      "meaning": "to move (house)",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "On va déménager en mars.",
+          "en": "We're going to move in March."
+        },
+        {
+          "fr": "Ils ont déménagé la semaine dernière.",
+          "en": "They moved last week."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "le carton",
+      "ipa": "/lə kaʁ.tɔ̃/",
+      "pos": "m. n.",
+      "meaning": "cardboard box",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Ce carton est très lourd.",
+          "en": "This box is very heavy."
+        },
+        {
+          "fr": "J'écris sur chaque carton.",
+          "en": "I write on every box."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "l'appartement",
+      "ipa": "/la.paʁ.tə.mɑ̃/",
+      "pos": "m. n.",
+      "meaning": "apartment",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Notre appartement est au troisième étage.",
+          "en": "Our apartment is on the third floor."
+        },
+        {
+          "fr": "L'appartement est lumineux.",
+          "en": "The apartment is bright."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "le salon",
+      "ipa": "/lə sa.lɔ̃/",
+      "pos": "m. n.",
+      "meaning": "living room",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Le salon est grand et clair.",
+          "en": "The living room is big and bright."
+        },
+        {
+          "fr": "On regarde un film dans le salon.",
+          "en": "We're watching a film in the living room."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "la chambre",
+      "ipa": "/la ʃɑ̃bʁ/",
+      "pos": "f. n.",
+      "meaning": "bedroom",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "Ma chambre donne sur le jardin.",
+          "en": "My bedroom looks onto the garden."
+        },
+        {
+          "fr": "L'appartement a deux chambres.",
+          "en": "The apartment has two bedrooms."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "les meubles",
+      "ipa": "/le mœbl/",
+      "pos": "m. n. pl.",
+      "meaning": "furniture",
+      "cefr": "A2",
+      "examples": [
+        {
+          "fr": "Les meubles arrivent demain matin.",
+          "en": "The furniture arrives tomorrow morning."
+        },
+        {
+          "fr": "Ces meubles sont en bois.",
+          "en": "This furniture is made of wood."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "la clé",
+      "ipa": "/la kle/",
+      "pos": "f. n.",
+      "meaning": "key",
+      "cefr": "A1",
+      "examples": [
+        {
+          "fr": "J'ai perdu la clé de la porte.",
+          "en": "I lost the door key."
+        },
+        {
+          "fr": "Voici la clé du nouvel appartement.",
+          "en": "Here is the key to the new apartment."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Alors, vous déménagez bientôt ?",
+      "glosses": [
+        {
+          "text": "déménagez",
+          "pos": "v.",
+          "meaning": "move (house)"
+        }
+      ],
+      "id": "t1",
+      "en": "So, are you moving soon?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, samedi ! Les cartons sont presque tous prêts.",
+      "glosses": [
+        {
+          "text": "cartons",
+          "pos": "m. n. pl.",
+          "meaning": "boxes"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, on Saturday! The boxes are almost all ready."
+    },
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Le nouvel appartement est grand ?",
+      "glosses": [
+        {
+          "text": "appartement",
+          "pos": "m. n.",
+          "meaning": "apartment"
+        }
+      ],
+      "id": "t3",
+      "en": "Is the new flat big?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Assez grand : un salon, une cuisine et deux chambres.",
+      "glosses": [
+        {
+          "text": "salon",
+          "pos": "m. n.",
+          "meaning": "living room"
+        },
+        {
+          "text": "chambres",
+          "pos": "f. n. pl.",
+          "meaning": "bedrooms"
+        }
+      ],
+      "id": "t4",
+      "en": "Fairly big: a living room, a kitchen and two bedrooms."
+    },
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Je peux t'aider à porter les meubles.",
+      "glosses": [
+        {
+          "text": "meubles",
+          "pos": "m. n. pl.",
+          "meaning": "furniture"
+        }
+      ],
+      "id": "t5",
+      "en": "I can help you carry the furniture."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci ! J'ai déjà la clé, on commence à neuf heures.",
+      "glosses": [
+        {
+          "text": "clé",
+          "pos": "f. n.",
+          "meaning": "key"
+        }
+      ],
+      "id": "t6",
+      "en": "Thank you! I already have the key, we start at nine."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "l'appartement",
+      "tip": "Link 'l'' straight to 'a'; stress the last syllable",
+      "id": "w1"
+    },
+    {
+      "text": "les meubles",
+      "tip": "'eu' is /œ/; the final 'bles' is almost silent",
+      "id": "w2"
+    }
+  ]
+}

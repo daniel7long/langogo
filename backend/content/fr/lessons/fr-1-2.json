@@ -1,0 +1,236 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "je m'appelle",
+      "ipa": "/ʒə ma.pɛl/",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je m'appelle Daniel.",
+          "en": "My name is Daniel."
+        },
+        {
+          "target": "Comment tu t'appelles ? Je m'appelle Anna.",
+          "en": "What's your name? My name is Anna."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "enchanté",
+      "ipa": "/ɑ̃.ʃɑ̃.te/",
+      "pos": "adj.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Enchanté, Paul !",
+          "en": "Nice to meet you, Paul!"
+        },
+        {
+          "target": "Enchantée de vous rencontrer.",
+          "en": "Nice to meet you (said by a woman)."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "le nom",
+      "ipa": "/lə nɔ̃/",
+      "pos": "m. n.",
+      "meaning": "name",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quel est votre nom ?",
+          "en": "What is your name?"
+        },
+        {
+          "target": "Mon nom est Martin.",
+          "en": "My name is Martin."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "étudiant",
+      "ipa": "/e.ty.djɑ̃/",
+      "pos": "m. n.",
+      "meaning": "student",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je suis étudiant à Paris.",
+          "en": "I'm a student in Paris."
+        },
+        {
+          "target": "Elle est étudiante en médecine.",
+          "en": "She is a medical student."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "habiter",
+      "ipa": "/a.bi.te/",
+      "pos": "v.",
+      "meaning": "to live",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "J'habite à Lyon.",
+          "en": "I live in Lyon."
+        },
+        {
+          "target": "Où est-ce que tu habites ?",
+          "en": "Where do you live?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "aussi",
+      "ipa": "/o.si/",
+      "pos": "adv.",
+      "meaning": "also, too",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Moi aussi, je suis étudiant.",
+          "en": "I'm a student too."
+        },
+        {
+          "target": "Il parle aussi anglais.",
+          "en": "He also speaks English."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "et toi ?",
+      "ipa": "/e twa/",
+      "pos": "phr.",
+      "meaning": "and you?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je vais bien, et toi ?",
+          "en": "I'm fine, and you?"
+        },
+        {
+          "target": "J'aime le café, et toi ?",
+          "en": "I like coffee, and you?"
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Camille",
+      "role": "npc",
+      "text": "Salut ! Je m'appelle Camille. Et toi ?",
+      "glosses": [
+        {
+          "text": "Je m'appelle",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi! My name is Camille. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Enchanté, Camille ! Je m'appelle Alex.",
+      "glosses": [
+        {
+          "text": "Enchanté",
+          "pos": "adj.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t2",
+      "en": "Nice to meet you, Camille! My name is Alex."
+    },
+    {
+      "speaker": "Camille",
+      "role": "npc",
+      "text": "Tu es étudiant ?",
+      "glosses": [
+        {
+          "text": "étudiant",
+          "pos": "m. n.",
+          "meaning": "student"
+        }
+      ],
+      "id": "t3",
+      "en": "Are you a student?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, je suis étudiant. Et toi ?",
+      "glosses": [
+        {
+          "text": "Et toi",
+          "pos": "phr.",
+          "meaning": "and you"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, I'm a student. And you?"
+    },
+    {
+      "speaker": "Camille",
+      "role": "npc",
+      "text": "Moi aussi ! J'habite à Paris. Et toi ?",
+      "glosses": [
+        {
+          "text": "aussi",
+          "pos": "adv.",
+          "meaning": "also, too"
+        },
+        {
+          "text": "habite",
+          "pos": "v.",
+          "meaning": "live"
+        }
+      ],
+      "id": "t5",
+      "en": "Me too! I live in Paris. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "J'habite à Lyon, c'est une belle ville.",
+      "glosses": [
+        {
+          "text": "habite",
+          "pos": "v.",
+          "meaning": "live"
+        }
+      ],
+      "id": "t6",
+      "en": "I live in Lyon, it's a beautiful city."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "enchanté",
+      "tip": "Nasal vowel /ɑ̃/ twice; stress the last syllable",
+      "id": "w1"
+    },
+    {
+      "text": "j'habite",
+      "tip": "The 'h' is silent; link j' straight to the vowel",
+      "id": "w2"
+    }
+  ]
+}

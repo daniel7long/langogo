@@ -1,0 +1,175 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "eins, zwei, drei",
+      "ipa": "/aɪ̯ns tsvaɪ̯ dʁaɪ̯/",
+      "pos": "phr.",
+      "meaning": "one, two, three",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich zähle: eins, zwei, drei.",
+          "en": "I count: one, two, three."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "vier, fünf",
+      "ipa": "/fiːɐ̯ fʏnf/",
+      "pos": "phr.",
+      "meaning": "four, five",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich habe vier oder fünf Bücher.",
+          "en": "I have four or five books."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "zehn",
+      "ipa": "/tseːn/",
+      "pos": "num.",
+      "meaning": "ten",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich habe zehn Euro.",
+          "en": "I have ten euros."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "zwanzig",
+      "ipa": "/ˈtsvan.tsɪç/",
+      "pos": "num.",
+      "meaning": "twenty",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Meine Schwester ist zwanzig.",
+          "en": "My sister is twenty."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "Jahre alt",
+      "ipa": "/ˈjaː.ʁə alt/",
+      "pos": "phr.",
+      "meaning": "years old",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Wie viele Jahre alt bist du?",
+          "en": "How old are you?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "haben",
+      "ipa": "/ˈhaː.bn̩/",
+      "pos": "v.",
+      "meaning": "to have",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ich habe zwei Brüder.",
+          "en": "I have two brothers."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lena",
+      "role": "npc",
+      "text": "Wie alt bist du?",
+      "glosses": [],
+      "id": "t1",
+      "en": "How old are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ich bin fünfundzwanzig Jahre alt. Und du?",
+      "glosses": [
+        {
+          "text": "zwanzig",
+          "pos": "num.",
+          "meaning": "twenty"
+        },
+        {
+          "text": "Jahre alt",
+          "pos": "phr.",
+          "meaning": "years old"
+        }
+      ],
+      "id": "t2",
+      "en": "I am twenty-five years old. And you?"
+    },
+    {
+      "speaker": "Lena",
+      "role": "npc",
+      "text": "Ich bin zwanzig. Mein Bruder ist zehn.",
+      "glosses": [
+        {
+          "text": "zehn",
+          "pos": "num.",
+          "meaning": "ten"
+        },
+        {
+          "text": "zwanzig",
+          "pos": "num.",
+          "meaning": "twenty"
+        }
+      ],
+      "id": "t3",
+      "en": "I am twenty. My brother is ten."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Wie viele Geschwister hast du?",
+      "glosses": [],
+      "id": "t4",
+      "en": "How many siblings do you have?"
+    },
+    {
+      "speaker": "Lena",
+      "role": "npc",
+      "text": "Ich habe zwei Brüder und eine Schwester.",
+      "glosses": [],
+      "id": "t5",
+      "en": "I have two brothers and one sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Schön. Ich habe fünf Cousins.",
+      "glosses": [],
+      "id": "t6",
+      "en": "Nice. I have five cousins."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "zwanzig",
+      "tip": "\"z\" is \"ts\": TSVAN-tsikh",
+      "id": "w1"
+    },
+    {
+      "text": "fünf",
+      "tip": "\"ü\" is a rounded \"ee\": fünf",
+      "id": "w2"
+    }
+  ]
+}

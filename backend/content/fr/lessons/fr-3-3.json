@@ -1,0 +1,235 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "le marché",
+      "ipa": "/lə maʁ.ʃe/",
+      "pos": "m. n.",
+      "meaning": "market",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Je vais au marché le samedi.",
+          "en": "I go to the market on Saturdays."
+        },
+        {
+          "target": "Le marché est ouvert le matin.",
+          "en": "The market is open in the morning."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "les légumes",
+      "ipa": "/le le.gym/",
+      "pos": "m. n. pl.",
+      "meaning": "vegetables",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Les légumes sont frais.",
+          "en": "The vegetables are fresh."
+        },
+        {
+          "target": "Je mange beaucoup de légumes.",
+          "en": "I eat a lot of vegetables."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "les pommes",
+      "ipa": "/le pɔm/",
+      "pos": "f. n. pl.",
+      "meaning": "apples",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Les pommes sont rouges.",
+          "en": "The apples are red."
+        },
+        {
+          "target": "J'aime les pommes vertes.",
+          "en": "I like green apples."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "le lait",
+      "ipa": "/lə lɛ/",
+      "pos": "m. n.",
+      "meaning": "milk",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le lait est dans le frigo.",
+          "en": "The milk is in the fridge."
+        },
+        {
+          "target": "Je bois du lait chaud.",
+          "en": "I drink hot milk."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "les tomates",
+      "ipa": "/le tɔ.mat/",
+      "pos": "f. n. pl.",
+      "meaning": "tomatoes",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Les tomates sont mûres.",
+          "en": "The tomatoes are ripe."
+        },
+        {
+          "target": "Une salade de tomates, s'il vous plaît.",
+          "en": "A tomato salad, please."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "le kilo",
+      "ipa": "/lə ki.lo/",
+      "pos": "m. n.",
+      "meaning": "kilo",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un kilo de pommes, s'il vous plaît.",
+          "en": "A kilo of apples, please."
+        },
+        {
+          "target": "Ça fait deux kilos.",
+          "en": "That makes two kilos."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "le sac",
+      "ipa": "/lə sak/",
+      "pos": "m. n.",
+      "meaning": "bag",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vous avez un sac ?",
+          "en": "Do you have a bag?"
+        },
+        {
+          "target": "Mon sac est lourd.",
+          "en": "My bag is heavy."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Vendeur",
+      "role": "npc",
+      "text": "Bonjour ! Qu'est-ce que je vous donne aujourd'hui ?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Hello! What can I get you today?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonjour ! Je voudrais un kilo de tomates, s'il vous plaît.",
+      "glosses": [
+        {
+          "text": "kilo",
+          "pos": "m. n.",
+          "meaning": "kilo"
+        },
+        {
+          "text": "tomates",
+          "pos": "f. n. pl.",
+          "meaning": "tomatoes"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello! I'd like a kilo of tomatoes, please."
+    },
+    {
+      "speaker": "Vendeur",
+      "role": "npc",
+      "text": "Voilà. Et avec ça ? Les pommes sont très bonnes.",
+      "glosses": [
+        {
+          "text": "pommes",
+          "pos": "f. n. pl.",
+          "meaning": "apples"
+        }
+      ],
+      "id": "t3",
+      "en": "Here you go. Anything else? The apples are very good."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Alors, un kilo de pommes aussi. Vous avez du lait ?",
+      "glosses": [
+        {
+          "text": "lait",
+          "pos": "m. n.",
+          "meaning": "milk"
+        }
+      ],
+      "id": "t4",
+      "en": "Then a kilo of apples too. Do you have milk?"
+    },
+    {
+      "speaker": "Vendeur",
+      "role": "npc",
+      "text": "Désolé, pas de lait au marché. Mais voici des légumes frais.",
+      "glosses": [
+        {
+          "text": "marché",
+          "pos": "m. n.",
+          "meaning": "market"
+        },
+        {
+          "text": "légumes",
+          "pos": "m. n. pl.",
+          "meaning": "vegetables"
+        }
+      ],
+      "id": "t5",
+      "en": "Sorry, no milk at the market. But here are some fresh vegetables."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Parfait, je prends tout. Vous avez un sac ?",
+      "glosses": [
+        {
+          "text": "sac",
+          "pos": "m. n.",
+          "meaning": "bag"
+        }
+      ],
+      "id": "t6",
+      "en": "Perfect, I'll take everything. Do you have a bag?"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "les légumes",
+      "tip": "'u' is the rounded /y/; stress the last syllable",
+      "id": "w1"
+    },
+    {
+      "text": "les pommes",
+      "tip": "The 'o' is open /ɔ/; the final 'es' is silent",
+      "id": "w2"
+    }
+  ]
+}
