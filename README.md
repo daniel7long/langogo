@@ -4,8 +4,6 @@
 
 Langogo is a low-anxiety speaking-practice app for language learners. Learners hear a model line, record their own, and get immediate, encouraging feedback on pronunciation, fluency and completeness. Retry is always one tap, grades are tuned to be friendly to beginners, and nothing is shown publicly unless the learner chooses to share it.
 
-Built as a CMU Online Learning Center project by Daniel Long (M.S. HCI + M.A. Applied Linguistics, Carnegie Mellon University). Design, front end, back end and lesson content were all produced for this project.
-
 ## What it does
 
 - **Six languages:** French, Spanish, German, Chinese, Korean and Japanese, with at least 12 lessons in 3 levels each (French has 24). Lesson content is data (JSON), not hard-coded strings.
