@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Langogo audio test</title>
+<style>
+  :root { --o:#D95F0E; --bg:#FFFCF8; --ink:#1f1a17; --mute:#6b625b; --ok:#1a7f45; --bad:#b3261e; --warn:#a15c00; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:16px; font:16px/1.45 system-ui, sans-serif; background:var(--bg); color:var(--ink); }
+  h1 { font-size:22px; margin:0 0 4px; }
+  p.sub { margin:0 0 16px; color:var(--mute); }
+  section { background:#fff; border:1px solid #eadfd5; border-radius:16px; padding:14px; margin-bottom:12px; }
+  h2 { font-size:15px; margin:0 0 6px; }
+  .hint { color:var(--mute); font-size:13px; margin:0 0 10px; }
+  button { font:inherit; min-height:44px; padding:8px 14px; border-radius:999px; border:0; background:var(--o); color:#fff; font-weight:700; margin:0 8px 8px 0; }
+  button.alt { background:#fff; color:var(--o); border:1.5px solid var(--o); }
+  .row { display:flex; flex-wrap:wrap; }
+  .pill { display:inline-block; padding:2px 10px; border-radius:999px; font-size:13px; font-weight:700; margin-right:6px; }
+  .ok { background:#e3f4ea; color:var(--ok); } .bad { background:#fbe5e3; color:var(--bad); } .warn { background:#fff0d6; color:var(--warn); }
+  pre { background:#171310; color:#f3ece6; padding:12px; border-radius:12px; font-size:12px; white-space:pre-wrap; word-break:break-word; max-height:320px; overflow:auto; margin:8px 0 0; }
+  .verdict li { margin-bottom:4px; }
+</style>
+</head>
+<body>
+<h1>Langogo audio test</h1>
+<p class="sub">Open this page on the phone. Tap the buttons in order, with the volume up and the silent switch off. Then tap "Copy report" and send it to Claude.</p>
+
+<section>
+  <h2>1. Your phone</h2>
+  <div id="env"></div>
+</section>
+
+<section>
+  <h2>2. Can the phone play any sound?</h2>
+  <p class="hint">A plain beep from an audio element, with no speech involved. If you hear nothing here, the problem is the phone's volume or mute setting, not Langogo.</p>
+  <div class="row"><button id="beep">Play beep</button></div>
+</section>
+
+<section>
+  <h2>3. Speech, the way the app does it today</h2>
+  <p class="hint">Test B is exactly what the app does: stop, then speak right away. Test C waits a moment between the two. Tap each and note which ones you hear.</p>
+  <div class="row">
+    <button id="tA">A: speak only</button>
+    <button id="tB">B: stop, then speak (current app)</button>
+    <button id="tC">C: stop, wait 150 ms, speak</button>
+  </div>
+</section>
+
+<section>
+  <h2>4. Each language</h2>
+  <p class="hint">Plays a short phrase with each language's voice.</p>
+  <div class="row" id="langs"></div>
+</section>
+
+<section>
+  <h2>5. Voices on this phone</h2>
+  <div id="voices" class="hint">Loading...</div>
+</section>
+
+<section class="verdict">
+  <h2>What this means</h2>
+  <ul id="verdict"></ul>
+</section>
+
+<section>
+  <h2>Report</h2>
+  <div class="row"><button id="copy" class="alt">Copy report</button><button id="clear" class="alt">Clear log</button></div>
+  <pre id="log"></pre>
+</section>
+
+<script>
+(function () {
+  var logEl = document.getElementById('log');
+  var lines = [];
+  var t0 = Date.now();
+  var results = { beep: null, A: null, B: null, C: null };
+  var langResults = {};
+
+  function log(msg) {
+    var line = '[' + ((Date.now() - t0) / 1000).toFixed(2) + 's] ' + msg;
+    lines.push(line);
+    logEl.textContent = lines.join('\n');
+    logEl.scrollTop = logEl.scrollHeight;
+  }
+  function $(id) { return document.getElementById(id); }
+
+  var ss = window.speechSynthesis;
+  var hasSS = !!ss && typeof window.SpeechSynthesisUtterance === 'function';
+  var voices = [];
+
+  function pill(text, cls) { return '<span class="pill ' + cls + '">' + text + '</span>'; }
+
+  function loadVoices() {
+    if (!hasSS) return;
+    try { voices = ss.getVoices() || []; } catch (e) { voices = []; }
+    renderVoices();
+    renderVerdict();
+  }
+
+  function renderEnv() {
+    var ua = navigator.userAgent;
+    var html = '<div>' + ua.replace(/</g, '&lt;') + '</div><div style="margin-top:8px">';
+    html += hasSS ? pill('speechSynthesis: available', 'ok') : pill('speechSynthesis: MISSING', 'bad');
+    html += navigator.onLine ? pill('online', 'ok') : pill('offline', 'warn');
+    html += '</div>';
+    $('env').innerHTML = html;
+    log('UA: ' + ua);
+    log('speechSynthesis available: ' + hasSS);
+  }
+
+  function renderVoices() {
+    var el = $('voices');
+    if (!hasSS) { el.textContent = 'This browser has no speech engine.'; return; }
+    if (!voices.length) { el.innerHTML = pill('0 voices', 'bad') + ' No voices reported (yet). Wait a few seconds and reload if you just opened the page.'; return; }
+    var want = ['fr', 'es', 'de', 'zh', 'ko', 'ja'];
+    var html = pill(voices.length + ' voices', 'ok') + '<ul style="margin:8px 0 0;padding-left:18px">';
+    want.forEach(function (code) {
+      var m = voices.filter(function (v) { return (v.lang || '').toLowerCase().indexOf(code) === 0; });
+      html += '<li><b>' + code + '</b>: ' + (m.length ? m.length + ' (' + m.slice(0, 3).map(function (v) { return v.name + (v.localService ? ' [on-device]' : ' [network]'); }).join(', ') + ')' : '<span style="color:var(--bad)">none</span>') + '</li>';
+    });
+    html += '</ul>';
+    el.innerHTML = html;
+  }
+
+  // Speaks one phrase and reports what happened: 'heard-start' | 'error:<reason>' | 'silent' (no event at all).
+  function speakProbe(label, text, lang, mode, done) {
+    if (!hasSS) { log(label + ': no speechSynthesis'); done && done('unsupported'); return; }
+    var finished = false;
+    var started = false;
+    var tStart = Date.now();
+    function end(result) {
+      if (finished) return;
+      finished = true;
+      clearTimeout(timer);
+      log(label + ' -> ' + result + ' (' + (Date.now() - tStart) + ' ms)');
+      done && done(result);
+    }
+    var timer = setTimeout(function () { end(started ? 'started-but-never-finished' : 'silent (no start event in 4 s)'); }, 4000);
+
+    function go() {
+      var u = new SpeechSynthesisUtterance(text);
+      u.lang = lang;
+      u.rate = 0.9;
+      u.onstart = function () { started = true; log(label + ': onstart'); };
+      u.onend = function () { end(started ? 'ok' : 'ended-without-start'); };
+      u.onerror = function (e) { end('error:' + (e && e.error)); };
+      log(label + ': speak(' + lang + ')');
+      try { ss.speak(u); } catch (e) { end('threw:' + e.message); }
+    }
+
+    if (mode === 'cancel-now') { try { ss.cancel(); } catch (e) {} go(); }
+    else if (mode === 'cancel-wait') { try { ss.cancel(); } catch (e) {} setTimeout(go, 150); }
+    else { go(); }
+  }
+
+  function renderVerdict() {
+    var ul = $('verdict');
+    var items = [];
+    if (!hasSS) items.push('<b>No speech engine in this browser.</b> The app cannot read words aloud here; it needs recorded audio files instead.');
+    else if (hasSS && voices.length === 0) items.push('<b>The phone reports 0 voices.</b> Install or enable a text-to-speech engine (Settings > Text-to-speech output), or the app must ship recorded audio.');
+    if (results.beep === 'played') items.push('Beep played: the phone\'s sound output works.');
+    if (results.beep === 'failed') items.push('<b>Beep failed:</b> check media volume and the silent switch first.');
+    if (results.A && results.B && results.A === 'ok' && results.B !== 'ok') items.push('<b>A works but B fails:</b> the app\'s "stop, then speak" is the bug. A short delay after stop fixes it.');
+    if (results.B && results.C && results.B !== 'ok' && results.C === 'ok') items.push('<b>C works:</b> waiting 150 ms after stop fixes it.');
+    if (results.A && results.A !== 'ok' && results.B && results.B !== 'ok' && results.C && results.C !== 'ok') items.push('<b>None of A, B, C work:</b> this phone has no working speech voice for French. Recorded audio files are the fix.');
+    if (!items.length) items.push('Run the tests above, then read the result here.');
+    ul.innerHTML = items.map(function (h) { return '<li>' + h + '</li>'; }).join('');
+  }
+
+  // 2. beep: a half-second 880 Hz tone built in memory (no file needed)
+  function makeBeepUrl() {
+    var rate = 22050, secs = 0.5, n = Math.floor(rate * secs);
+    var buf = new ArrayBuffer(44 + n * 2), v = new DataView(buf);
+    function w(o, s) { for (var i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); }
+    w(0, 'RIFF'); v.setUint32(4, 36 + n * 2, true); w(8, 'WAVE'); w(12, 'fmt ');
+    v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+    v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+    w(36, 'data'); v.setUint32(40, n * 2, true);
+    for (var i = 0; i < n; i++) {
+      var env = Math.min(1, i / 400, (n - i) / 400);
+      v.setInt16(44 + i * 2, Math.sin(2 * Math.PI * 880 * i / rate) * 12000 * env, true);
+    }
+    return URL.createObjectURL(new Blob([buf], { type: 'audio/wav' }));
+  }
+
+  $('beep').onclick = function () {
+    var a = new Audio(makeBeepUrl());
+    var p = a.play();
+    if (p && p.then) {
+      p.then(function () { results.beep = 'played'; log('beep: play() ok'); renderVerdict(); })
+       .catch(function (e) { results.beep = 'failed'; log('beep: play() rejected: ' + e.name + ' ' + e.message); renderVerdict(); });
+    }
+  };
+
+  function wire(id, key, mode) {
+    $(id).onclick = function () {
+      speakProbe('Test ' + key, 'Bonjour, comment allez-vous ?', 'fr-FR', mode, function (r) { results[key] = r; renderVerdict(); });
+    };
+  }
+  wire('tA', 'A', 'plain');
+  wire('tB', 'B', 'cancel-now');
+  wire('tC', 'C', 'cancel-wait');
+
+  var phrases = [
+    ['fr-FR', 'Français', 'Bonjour, ça va ?'],
+    ['es-ES', 'Español', 'Hola, ¿qué tal?'],
+    ['de-DE', 'Deutsch', 'Hallo, wie geht es dir?'],
+    ['zh-CN', '中文', '你好，你好吗？'],
+    ['ko-KR', '한국어', '안녕하세요, 잘 지내세요?'],
+    ['ja-JP', '日本語', 'こんにちは、お元気ですか？']
+  ];
+  phrases.forEach(function (p) {
+    var b = document.createElement('button');
+    b.className = 'alt';
+    b.textContent = p[1];
+    b.onclick = function () {
+      speakProbe(p[0], p[2], p[0], 'cancel-wait', function (r) { langResults[p[0]] = r; });
+    };
+    $('langs').appendChild(b);
+  });
+
+  $('copy').onclick = function () {
+    var text = lines.join('\n') + '\n\nvoices: ' + voices.length + '\nresults: ' + JSON.stringify(results) + '\nlangs: ' + JSON.stringify(langResults);
+    function fallback() {
+      var ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).catch(fallback); else fallback();
+    $('copy').textContent = 'Copied';
+    setTimeout(function () { $('copy').textContent = 'Copy report'; }, 1500);
+  };
+  $('clear').onclick = function () { lines = []; logEl.textContent = ''; };
+
+  renderEnv();
+  if (hasSS) {
+    loadVoices();
+    if ('onvoiceschanged' in ss) ss.onvoiceschanged = loadVoices;
+    setTimeout(loadVoices, 1000);
+    setTimeout(loadVoices, 3000);
+  } else {
+    renderVoices();
+  }
+  renderVerdict();
+})();
+</script>
+</body>
+</html>
