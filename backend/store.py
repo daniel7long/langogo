@@ -138,6 +138,7 @@ class Session:
         self.email = email
         self.state = state
         self.attempts = {}
+        self.dirty = False  # True when the last save failed; it is tried again with the next request
         self.share_key = hashlib.sha256(uid.encode()).hexdigest()[:12]
         self.participant = hashlib.sha256((config.pseudonym_salt() + uid).encode()).hexdigest()[:16]
 
@@ -149,8 +150,10 @@ _current = contextvars.ContextVar("langogo_session", default=None)
 def activate(uid, email=None, name=None):
     """Loads (or creates) the learner and makes them the current one for this request."""
     session = _SESSIONS.get(uid)
+    if session is not None and session.dirty:
+        _write(session)  # an earlier save failed: try again before anything else
     if session is None:
-        saved = db.load(uid)
+        saved, attempts = db.load_full(uid)  # raises if the database is unreachable: never start a learner afresh
         if saved is None and uid == "dev":
             saved = _legacy_state()
         is_new = saved is None
@@ -164,6 +167,7 @@ def activate(uid, email=None, name=None):
         if email:
             user["email"] = email
         session = Session(uid, email or user.get("email"), state)
+        session.attempts = attempts
         _SESSIONS[uid] = session
     user = session.state["user"]
     if user.get("week") != _week():  # the leaderboard counts flowers earned this week
@@ -180,7 +184,24 @@ def current():
 def save_current():
     session = _current.get()
     if session is not None and _SESSIONS.get(session.uid) is session:  # not after the account was deleted
-        db.save(session.uid, session.state, session.email, session.share_key)
+        _write(session)
+
+
+def _write(session):
+    """Saves one learner. If the database is unreachable the data stays in memory and is saved on the next request."""
+    try:
+        db.save(session.uid, session.state, session.email, session.share_key, session.attempts)
+        session.dirty = False
+        return True
+    except Exception as e:  # noqa: BLE001
+        session.dirty = True
+        print(f"WARNING: could not save learner {session.share_key}: {e}", flush=True)
+        return False
+
+
+def flush_all():
+    """Saves every learner whose last save failed (called when the server shuts down)."""
+    return sum(1 for s in list(_SESSIONS.values()) if s.dirty and _write(s))
 
 
 def forget(uid):

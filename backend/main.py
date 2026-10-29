@@ -7,6 +7,7 @@ from fastapi.staticfiles import StaticFiles
 
 import auth
 import content
+import db
 import store
 from paths import STATIC_DIR
 from routers import admin, courses, notes, profile, records, share, tests, topics
@@ -35,9 +36,15 @@ async def accounts_and_saving(request: Request, call_next):
             claims = auth.verify(header[7:].strip())
         except auth.AuthError as e:
             return JSONResponse({"detail": str(e)}, status_code=401)
-        store.activate(claims["sub"], claims.get("email"), auth.display_name(claims))
+        who = (claims["sub"], claims.get("email"), auth.display_name(claims))
     else:
-        store.activate("dev")
+        who = ("dev",)
+    try:
+        store.activate(*who)
+    except Exception as e:  # noqa: BLE001 - the database is unreachable: say so, never show an empty account
+        print(f"WARNING: could not load the learner: {e}", flush=True)
+        return JSONResponse({"detail": "Your data is temporarily unavailable. Please try again in a moment."},
+                            status_code=503)
     response = await call_next(request)
     if request.method not in ("GET", "HEAD"):
         store.save_current()
@@ -72,9 +79,22 @@ STATIC_DIR.mkdir(parents=True, exist_ok=True)
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 
+@app.on_event("startup")
+def check_storage():
+    if os.getenv("RENDER") and not db.is_postgres():
+        print("WARNING: DATABASE_URL is not set. Learner data is kept on Render's temporary disk and WILL be "
+              "erased on every restart. Set DATABASE_URL (see docs/DATA_STORAGE.md).", flush=True)
+
+
+@app.on_event("shutdown")
+def save_everything():
+    store.flush_all()
+
+
 @app.get("/health")
 def health():
-    return {"status": "ok"}
+    """Also shows where learner data is kept: "postgres" is permanent, "sqlite" is a file that Render erases."""
+    return {"status": "ok", "storage": db.storage_name(), "storage_ok": db.ping()}
 
 
 @app.get("/dev/content")

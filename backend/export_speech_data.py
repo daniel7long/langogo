@@ -1,7 +1,8 @@
 """Research export of the speech data (server side only: the app never shows or receives it).
 
-Every scored recording is appended to data/speech_log.jsonl (see speech_log.py).
-Run this from the backend folder to turn it into a spreadsheet and print a short summary:
+Every scored recording of a learner who agreed to research is saved in the database (see speech_log.py).
+Run this from the backend folder to turn it into a spreadsheet and print a short summary. To export what your
+live app collected, put the same DATABASE_URL as on Render in backend/.env first.
 
     python export_speech_data.py                 # all languages
     python export_speech_data.py fr              # one language
@@ -13,8 +14,9 @@ import json
 import sys
 from pathlib import Path
 
+import db
+
 DATA = Path(__file__).parent / "data"
-SRC = DATA / "speech_log.jsonl"
 OUT = DATA / "speech_export.csv"
 COLUMNS = ["participant", "at", "lang", "lesson_id", "turn_id", "text", "engine", "unit", "units", "client_ms",
            "recorded_seconds", "speech_seconds", "rate_per_min", "recorded_rate_per_min",
@@ -28,15 +30,11 @@ def mean(values):
 
 def main():
     only = sys.argv[1] if len(sys.argv) > 1 else None
-    if not SRC.is_file():
-        print(f"No speech log yet ({SRC}). Record a lesson first.")
+    rows = db.speech_rows(only)
+    if not rows:
+        print(f"No speech log yet in the {db.storage_name()} database. Record a lesson (with research use on) first.")
         return
-    rows = []
-    for line in SRC.read_text(encoding="utf-8").splitlines():
-        if line.strip():
-            row = json.loads(line)
-            if only in (None, row.get("lang")):
-                rows.append(row)
+    DATA.mkdir(parents=True, exist_ok=True)
     with OUT.open("w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")
         writer.writeheader()

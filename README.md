@@ -1,75 +1,94 @@
-# Langogo — Low-Anxiety Speaking Practice App
+# Langogo
 
-> *Speak a language freely and confidently.*
+**Speak a language freely and confidently.**
 
-[![Live demo](https://img.shields.io/badge/Live%20demo-langogo--v3.vercel.app-2ea44f?style=for-the-badge)](https://langogo-v3.vercel.app)
+Langogo is a low-anxiety speaking-practice app for language learners. Learners hear a model line, record their own, and get immediate, encouraging feedback on pronunciation, fluency and completeness. Retry is always one tap, grades are tuned to be friendly to beginners, and nothing is shown publicly unless the learner chooses to share it.
 
-Langogo is a language-learning app built around one idea: **speaking gets easier when practising feels safe.** Learners rehearse real dialogues out loud, get immediate feedback, and can retry as often as they like, with no audience and no pressure.
+Built as a CMU Online Learning Center project by Daniel Long (M.S. HCI + M.A. Applied Linguistics, Carnegie Mellon University). Design, front end, back end and lesson content were all produced for this project.
 
-Designed and built at the **CMU Online Learning Center**.
+## What it does
 
-<!-- Add 3–4 screenshots here for maximum impact, e.g.:
-<p align="center"><img src="docs/screenshots/lesson-map.png" width="22%"> <img src="docs/screenshots/speaking.png" width="22%"> <img src="docs/screenshots/feedback.png" width="22%"></p>
--->
+- **Six languages:** French, Spanish, German, Chinese, Korean and Japanese, with at least 12 lessons in 3 levels each (French has 24). Lesson content is data (JSON), not hard-coded strings.
+- **Guided speaking practice:** prep screen with key words and notes, the model line auto-plays once, then the learner records.
+- **Instant feedback:** Azure Speech pronunciation assessment returns Pronunciation, Fluency and Completeness scores plus words to practise.
+- **Beginner-friendly grading:** A+ at 85 or above, A at 75, B+ at 65, B at 55, otherwise C. There is no D, so beginners are not discouraged.
+- **Lesson complete screen:** grade badge, flowers (points) count-up, three score rings, a "practise these" list and sharing.
+- **Community:** weekly leaderboard by flowers within the same language; learners can share a single speaking record by link.
+- **Accounts:** sign in with Google or email and password (Supabase Auth), with email confirmation, password reset and in-app account deletion.
+- **Privacy by design:** speech data for research is collected only with the learner's opt-in consent, stored on the server with an anonymous participant ID, and removed when consent is withdrawn or the account is deleted.
 
-| | |
-| --- | --- |
-| **Live demo** | <https://langogo-v3.vercel.app> |
-| **Type** | Language-learning app (Expo, web build deployed) |
-| **My role** | UX Designer & Front-End Developer |
-| **Languages** | French, Spanish, German, Japanese, Korean, Mandarin Chinese |
+## Design
 
----
-
-## The problem
-
-Many learners can read and write a language but freeze when they have to speak it. Fear of making mistakes in front of other people is the biggest barrier, so Langogo removes the audience, gives feedback straight away and makes retrying free.
-
-## Key features
-
-- **Level test and result:** a short French level test places the learner and shows their result.
-- **Favourite topics:** learners choose the topics they care about.
-- **Lesson map and profile:** a clear path through levels and lessons, with progress at a glance.
-- **Speaking dialogues:** record your own voice in a guided conversation, then **retry** until you are happy.
-- **Immediate pronunciation feedback:** speech is scored right after each attempt.
-- **Key words and vocab notes:** save and revisit the words that matter.
-- **Speaking records:** review earlier recordings.
-- **Unlockable topics:** a shop-style screen for unlocking new topics.
-- **Community leaderboard** to keep practice motivating.
-- **Sharing and settings.**
-
-## Design and UX highlights
-
-- **Anxiety-aware interaction design:** immediate feedback, unlimited retries and a private practice space are product decisions, not afterthoughts.
-- **Figma design system:** variable collections for **Primitives**, **Tokens** (Light and Dark modes) and **Layout**, plus a component library (for example buttons with state and type variants).
-- **Distinct brand:** green and orange accents carried through the logo and screens.
-- **Redesigned from scratch** in Figma Make after user testing showed the first UI felt rough, keeping every existing feature.
+Figma-based design system with tokens exported to `frontend/theme/index.js`: warm orange `#D95F0E`, background `#FFFCF8`, Nunito, rounded 16/20/28 px corners. Every screen is built with loading, empty and error states.
 
 ## Tech stack
 
 | Layer | Technology |
 | --- | --- |
-| Front end | **Expo / React Native** (JavaScript), running as a web build |
-| Back end | **FastAPI** (Python) |
-| Speech | **Azure Speech** for pronunciation scoring |
-| Design | **Figma** (variables, tokens, components) and Figma Make |
-| Hosting | **Vercel** (front end) |
+| Client | Expo SDK 57, Expo Router, React Native (JavaScript), react-native-web, expo-audio, expo-speech, react-native-svg |
+| Backend | Python, FastAPI, Pydantic, PyJWT |
+| Auth | Supabase Auth (Google OAuth and email), JWT verified by the backend |
+| Speech scoring | Azure Speech pronunciation assessment, behind one internal interface |
+| Storage | PostgreSQL on Supabase for learner data in production (set `DATABASE_URL`); SQLite file for local runs |
 
-<!-- TODO(stack): after reviewing package.json / requirements.txt, add navigation, audio libraries, state management and the back-end host. -->
+## Repository layout
 
-## Engineering highlights
+```
+backend/    FastAPI app, routers, scoring, accounts, lesson content (content/<lang>/lessons)
+frontend/   Expo app (src/app routes, screens, components, api, hooks, theme)
+docs/       Specification and setup notes (AUTH_SETUP.md)
+```
 
-- **Design-to-code token pipeline.** Figma variables are exported with the Design Tokens plugin to `design_tokens.json`, which generates the app's `theme/index.js`. Design and code share one source of truth, so a colour or spacing change in Figma flows straight into the app.
-- **One codebase, many surfaces.** Expo lets the same React Native code target native devices and the web build that is live today.
-- **Multi-language back end.** Lessons for all six languages are served from the FastAPI back end, organised by language and level (French alone has six levels of four lessons).
-- **Research-ready, privacy-conscious data.** Speech timing data is collected for future research but stays **only in the back end** and is never shown to learners.
+## Run it locally
 
-## Roadmap
+You need Node.js 20+, Python 3.11+, an Azure Speech key, and (optional) a Supabase project. Without Supabase settings the backend runs a single local "dev" learner, so you can try the app without accounts.
 
-- Public launch with sign-up via Google account or personal email
-- At least 12 lessons (three levels) for every language
-- Testing on physical phones with Expo Go
+**Backend**
 
----
+```bash
+cd backend
+python -m venv .venv
+.venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+copy env.example .env           # macOS/Linux: cp env.example .env, then fill in your values
+uvicorn main:app --reload --host 0.0.0.0
+```
 
-**Designed and built by [Daniel Long](https://daniel7long.com)** · M.S. Human-Computer Interaction, Carnegie Mellon University
+The API runs at http://localhost:8000 (interactive docs at `/docs`, health check at `/health`).
+
+**Frontend**
+
+```bash
+cd frontend
+npm install
+```
+
+Create `frontend/.env` with:
+
+```
+EXPO_PUBLIC_API_URL=http://localhost:8000
+EXPO_PUBLIC_SUPABASE_URL=...        # only when accounts are on
+EXPO_PUBLIC_SUPABASE_ANON_KEY=...   # anon key only, never the service key
+```
+
+```bash
+npx expo start
+```
+
+Press `w` for the web version at http://localhost:8081, or scan the QR code with Expo Go. After editing `.env`, restart with `npx expo start -c`.
+
+See `docs/AUTH_SETUP.md` for the Supabase and Google sign-in setup.
+
+## Security and privacy notes
+
+- `.env` files are git-ignored. Never commit or paste keys; the Supabase service key belongs only in `backend/.env`.
+- Every API call except health, docs, share links and the key-protected admin page requires a valid login token.
+- Learner data lives in the Supabase database (`DATABASE_URL`, server only). Local files in `backend/data` and `backend/recordings` are git-ignored. See `docs/DATA_STORAGE.md`.
+
+## Status
+
+The MVP is built: lessons for six languages, speaking feedback, grading, community, sharing, accounts and a private admin user list. Backend logic is covered by tests with a mocked speech service. Still to do before a public launch: real-device testing, Terms and Privacy pages, an age gate, a recording-retention window and a paid, always-on host.
+
+## Author
+
+Daniel Long, Carnegie Mellon University. Portfolio: https://daniel7long.com

@@ -5,7 +5,7 @@ Records how long learners spend speaking each line, so the speech rate can be wo
 
 One entry is written for every recording that is scored. It is kept in the saved state
 (state["speech_log"], newest last, the latest 2000 entries) and also appended to
-backend/data/speech_log.jsonl, a plain file you can open in Excel / pandas for analysis.
+the speech_log table of the database (export it with export_speech_data.py).
 
 Fields of an entry
     participant             anonymous ID (a hash of the account id): the same person always has the same ID
@@ -21,13 +21,11 @@ Fields of an entry
     recorded_rate_per_min   units per minute over the whole recording, pauses included
     fluency, pronunciation, completeness
 """
-import json
 from datetime import datetime, timezone
 
+import db
 import store
-from paths import DATA_DIR
 
-LOG_FILE = DATA_DIR / "speech_log.jsonl"
 KEEP = 2000
 
 
@@ -51,10 +49,8 @@ def record(lang, lesson_id, turn_id, text, client_ms, result, metrics):
     log.append(entry)
     del log[:-KEEP]
     try:
-        DATA_DIR.mkdir(parents=True, exist_ok=True)
-        with LOG_FILE.open("a", encoding="utf-8") as f:
-            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-    except OSError as e:
+        db.log_speech(entry)
+    except Exception as e:  # noqa: BLE001 - a research row must never break a learner's lesson
         print(f"Could not write the speech log: {e}")
     return entry
 
@@ -93,21 +89,9 @@ def entries(lesson_id=None, limit=200):
 
 
 def forget(participant):
-    """Removes every logged row of one participant (used when an account is deleted)."""
+    """Removes every logged row of one participant (used when an account is deleted or consent is withdrawn)."""
     try:
-        lines = LOG_FILE.read_text(encoding="utf-8").splitlines()
-    except OSError:
+        return db.forget_speech(participant)
+    except Exception as e:  # noqa: BLE001
+        print(f"Could not remove the speech log rows: {e}")
         return 0
-    keep = []
-    for line in lines:
-        try:
-            if json.loads(line).get("participant") == participant:
-                continue
-        except ValueError:
-            pass
-        keep.append(line)
-    try:
-        LOG_FILE.write_text("".join(l + "\n" for l in keep), encoding="utf-8")
-    except OSError:
-        return 0
-    return len(lines) - len(keep)

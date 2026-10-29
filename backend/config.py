@@ -63,6 +63,12 @@ def auth_enabled():
     return bool(supabase_url() or supabase_jwt_secret())
 
 
+def database_url():
+    """PostgreSQL connection string (Supabase). Empty = use the SQLite file on this computer.
+    On Render the disk is wiped on every restart, so set this there. Keep it private, server only."""
+    return os.getenv("DATABASE_URL", "").strip()
+
+
 def pseudonym_salt():
     """Secret text mixed into the anonymous participant ID used in the research speech log."""
     return os.getenv("LANGOGO_PSEUDONYM_SALT", "langogo-dev-salt")
