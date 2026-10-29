@@ -86,10 +86,10 @@ export default function useLessonAudio() {
         const onStarted = () => { started = true; };
 
         // Browsers refuse sound before the user has touched the page. If nothing starts, say so.
-        if (IS_WEB) ctx.after(() => { if (!started) entry.finish('blocked'); }, 3000);
+        if (IS_WEB) ctx.after(() => { if (!started) entry.finish('blocked'); }, 9000); // recordings may take a moment on a phone network
 
         const speak = () => {
-          const safety = Math.max(4000, text.length * 120);
+          const safety = Math.max(6000, text.length * 220);
           ctx.after(() => entry.finish('done'), safety);
           speakFrench(text, {
             ...(slow ? { rate: SLOW_RATE } : {}),
