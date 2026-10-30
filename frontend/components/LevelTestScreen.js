@@ -54,7 +54,7 @@ export default function LevelTestScreen() {
     setError(null);
     try {
       const result = await submitFrenchTest(payload);
-      router.replace({ pathname: '/test-result', params: { id: result.id } });
+      router.replace({ pathname: '/level-speak', params: { id: result.id } }); // the speaking step comes before the result
     } catch (e) {
       setError("Couldn't submit your answers. Please try again.");
       setSubmitting(false);
@@ -93,11 +93,11 @@ export default function LevelTestScreen() {
           {test.title}
         </Text>
         <Text style={styles.subtitle}>
-          Complete {total} questions in {test.time_limit_minutes} minute
+          Complete {total} questions in {test.time_limit_minutes} minute, then read one sentence aloud
         </Text>
 
         <View style={styles.questionBlock}>
-          <Text style={styles.questionLabel}>Question {index + 1}</Text>
+          <Text style={styles.questionLabel}>Question {index + 1} of {total}</Text>
           <Text style={styles.prompt}>{question.prompt}</Text>
 
           <View style={styles.options} accessibilityRole="radiogroup">
@@ -122,7 +122,7 @@ export default function LevelTestScreen() {
           </Pressable>
         )}
         <PrimaryButton
-          label={isLast ? 'Soumettre' : 'Suivant'}
+          label="Suivant"
           onPress={handleNext}
           disabled={!selected}
           loading={submitting}

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 
 import { fetchFrenchResult } from '../api/tests';
@@ -67,7 +67,7 @@ export default function TestResultScreen() {
 
   return (
     <Screen>
-      <View style={styles.body}>
+      <ScrollView style={styles.scroll} contentContainerStyle={styles.body} showsVerticalScrollIndicator={false}>
         <Logo width={160} />
 
         <Text style={styles.title} accessibilityRole="header">
@@ -81,11 +81,24 @@ export default function TestResultScreen() {
           <ScoreGauge score={result.score} level={result.level} maxScore={result.max_score} />
         </View>
 
+        <View style={styles.breakdown}>
+          <Text style={styles.part}>Sentences {result.completion_score}</Text>
+          <Text style={styles.dot}>·</Text>
+          <Text style={styles.part}>Speaking {result.speech_score}</Text>
+        </View>
+        <View style={styles.start}>
+          <Text style={styles.startLabel}>You start at</Text>
+          <Text style={styles.startTitle}>
+            Level {result.start_level} · Lesson {result.start_lesson_no}
+          </Text>
+          <Text style={styles.startLesson}>{result.start_lesson_title}</Text>
+        </View>
+
         <Text style={styles.message}>
           <Text style={styles.highlight}>{result.recommended_minutes_per_day} minutes</Text> per day
           {'\n'}You can become{'\n'}a master of French
         </Text>
-      </View>
+      </ScrollView>
 
       <View style={styles.footer}>
         <PrimaryButton label="Suivant" onPress={() => router.push('/favorite-topics')} />
@@ -96,10 +109,18 @@ export default function TestResultScreen() {
 
 const styles = StyleSheet.create({
   center: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: spacing.lg },
-  body: { flex: 1, paddingHorizontal: spacing.lg, paddingTop: spacing.lg, alignItems: 'center' },
+  scroll: { flex: 1 },
+  body: { paddingHorizontal: spacing.lg, paddingTop: spacing.lg, paddingBottom: spacing.lg, alignItems: 'center' },
   title: { ...typography.display, color: colors.text, textAlign: 'center', marginTop: spacing.lg },
   score: { ...typography.label, color: colors.text, marginTop: spacing.sm },
   gauge: { marginTop: spacing.lg },
+  breakdown: { flexDirection: 'row', alignItems: 'center', gap: spacing.s12, marginTop: spacing.md },
+  part: { ...typography.caption, color: colors.textMuted },
+  dot: { ...typography.caption, color: colors.textMuted },
+  start: { alignItems: 'center', marginTop: spacing.md },
+  startLabel: { ...typography.eyebrow, color: colors.primary },
+  startTitle: { ...typography.title, color: colors.text, marginTop: 2 },
+  startLesson: { ...typography.body, color: colors.textMuted },
   message: {
     ...typography.display,
     color: colors.text,
