@@ -1,0 +1,206 @@
+{
+  "emoji": "💭",
+  "max_flowers": 55,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "word": "il me semble que",
+      "ipa": "/il mə sɑ̃bl kə/",
+      "pos": "phr.",
+      "meaning": "it seems to me that",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Il me semble que tu as raison.",
+          "en": "It seems to me that you're right."
+        },
+        {
+          "fr": "Il me semble que le projet avance bien.",
+          "en": "It seems to me the project is going well."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "dans une certaine mesure",
+      "ipa": "/dɑ̃ zyn sɛʁ.tɛn mə.zyʁ/",
+      "pos": "phr.",
+      "meaning": "to a certain extent",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Je suis d'accord, dans une certaine mesure.",
+          "en": "I agree, to a certain extent."
+        },
+        {
+          "fr": "C'est vrai, dans une certaine mesure.",
+          "en": "That's true, to a certain extent."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "en revanche",
+      "ipa": "/ɑ̃ ʁə.vɑ̃ʃ/",
+      "pos": "phr.",
+      "meaning": "on the other hand",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Le prix est élevé ; en revanche, la qualité est excellente.",
+          "en": "The price is high; on the other hand, the quality is excellent."
+        },
+        {
+          "fr": "Il est timide ; elle, en revanche, adore parler.",
+          "en": "He is shy; she, on the other hand, loves to talk."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "toutefois",
+      "ipa": "/tu.tə.fwa/",
+      "pos": "adv.",
+      "meaning": "however",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Toutefois, il reste quelques problèmes.",
+          "en": "However, a few problems remain."
+        },
+        {
+          "fr": "Je comprends ; toutefois, je ne suis pas convaincu.",
+          "en": "I understand; however, I'm not convinced."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "certes",
+      "ipa": "/sɛʁt/",
+      "pos": "adv.",
+      "meaning": "admittedly, certainly",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Certes, c'est cher, mais c'est durable.",
+          "en": "Admittedly, it's expensive, but it's durable."
+        },
+        {
+          "fr": "C'est certes difficile, mais pas impossible.",
+          "en": "It's admittedly difficult, but not impossible."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "en fin de compte",
+      "ipa": "/ɑ̃ fɛ̃ də kɔ̃t/",
+      "pos": "phr.",
+      "meaning": "in the end, all things considered",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "En fin de compte, tout s'est bien passé.",
+          "en": "In the end, everything went well."
+        },
+        {
+          "fr": "En fin de compte, c'est ton choix.",
+          "en": "All things considered, it's your choice."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "nuancer",
+      "ipa": "/nɥɑ̃.se/",
+      "pos": "v.",
+      "meaning": "to add nuance",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Je voudrais nuancer mon propos.",
+          "en": "I'd like to qualify what I said."
+        },
+        {
+          "fr": "Il faut savoir nuancer son jugement.",
+          "en": "You have to know how to temper your judgment."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Inès",
+      "role": "npc",
+      "text": "Que penses-tu de ce film ? Moi, je l'ai trouvé trop long.",
+      "glosses": [],
+      "id": "t1",
+      "en": "What do you think of this film? I found it too long."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Certes, il est long. En revanche, les acteurs sont remarquables.",
+      "glosses": [],
+      "id": "t2",
+      "en": "Admittedly, it's long. On the other hand, the actors are remarkable."
+    },
+    {
+      "speaker": "Inès",
+      "role": "npc",
+      "text": "Toutefois, l'histoire ne m'a pas vraiment convaincue.",
+      "glosses": [],
+      "id": "t3",
+      "en": "However, the story didn't really convince me."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Il me semble que la fin est un peu faible, dans une certaine mesure.",
+      "glosses": [
+        {
+          "text": "Il me semble que",
+          "pos": "phr.",
+          "meaning": "it seems to me that"
+        },
+        {
+          "text": "dans une certaine mesure",
+          "pos": "phr.",
+          "meaning": "to a certain extent"
+        }
+      ],
+      "id": "t4",
+      "en": "It seems to me that the ending is a bit weak, to a certain extent."
+    },
+    {
+      "speaker": "Inès",
+      "role": "npc",
+      "text": "Voilà, nous sommes enfin d'accord !",
+      "glosses": [],
+      "id": "t5",
+      "en": "There you go, we finally agree!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "En fin de compte, c'est un bon film, mais pas un chef-d'œuvre.",
+      "glosses": [],
+      "id": "t6",
+      "en": "All things considered, it's a good film, but not a masterpiece."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "toutefois",
+      "tip": "Three syllables: tou-te-FWA",
+      "id": "w1"
+    },
+    {
+      "text": "en revanche",
+      "tip": "Nasal 'an' twice: an-re-VANSH",
+      "id": "w2"
+    }
+  ]
+}

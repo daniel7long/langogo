@@ -106,6 +106,38 @@ def _pa(obj):
     return inner if isinstance(inner, dict) else obj
 
 
+def _norm(text):
+    """Lower-case, no punctuation, and Arabic spelling variants folded together, for comparing words."""
+    text = re.sub(r"[\u064B-\u0652\u0640]", "", text or "")  # Arabic vowel marks and tatweel
+    text = text.translate(str.maketrans({"أ": "ا", "إ": "ا", "آ": "ا", "ى": "ي", "ة": "ه"}))
+    return [t.lower() for t in tokens(text)]
+
+
+def _from_recognition(best, expected_text):
+    """Used only when Azure recognised the speech but sent no pronunciation scores (a language its pronunciation
+    assessment does not cover). The marks then come from how closely what was recognised matches the sentence:
+    each word is compared with the recognised words, and long pauses lower fluency."""
+    import difflib
+    expected = tokens(expected_text)
+    heard = _norm(best.get("Lexical") or best.get("Display") or "")
+    words, hit = [], 0
+    for tok, norm in zip(expected, _norm(expected_text)):
+        ratio = max((difflib.SequenceMatcher(None, norm, h).ratio() for h in heard), default=0.0)
+        if ratio < 0.6:
+            words.append({"text": tok, "score": 0, "error": "Omission", "phonemes": []})
+        else:
+            hit += 1
+            words.append({"text": tok, "score": round(min(100, 30 + ratio * 70)), "error": "None", "phonemes": []})
+    n = max(1, len(expected))
+    completeness = hit / n * 100
+    spoken = [w for w in best.get("Words", []) if w.get("Offset") is not None and w.get("Duration")]
+    pauses = sum(1 for a, b in zip(spoken, spoken[1:]) if (b["Offset"] - a["Offset"] - a["Duration"]) / 1e7 > 0.7)
+    accuracy = sum(w["score"] for w in words) / n
+    fluency = max(0.0, accuracy - 12 * pauses)
+    speech_seconds = ((spoken[-1]["Offset"] + spoken[-1]["Duration"] - spoken[0]["Offset"]) / 1e7) if spoken else None
+    return accuracy, fluency, completeness, words, speech_seconds
+
+
 def _parse_azure(reply, expected_text):
     status = reply.get("RecognitionStatus")
     if status != "Success" or not reply.get("NBest"):
@@ -114,6 +146,8 @@ def _parse_azure(reply, expected_text):
         raise ScoringError("The scoring service couldn't process this recording. Please try again.", 502)
     best = reply["NBest"][0]
     top = _pa(best)
+    if "AccuracyScore" not in top and "PronScore" not in top:
+        return _from_recognition(best, expected_text)  # no pronunciation scores came back for this language
     accuracy = float(top.get("AccuracyScore", 0))
     fluency = float(top.get("FluencyScore", 0))
     completeness = float(top.get("CompletenessScore", 0))

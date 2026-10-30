@@ -18,7 +18,7 @@ What it does, per language:
   * skips files that already exist, so running it again only makes the new or changed texts
 
 Needs AZURE_SPEECH_KEY and AZURE_SPEECH_REGION in backend/.env (the same ones used for scoring). No extra
-packages. Change a voice with LANGOGO_TTS_VOICE_FR=fr-FR-HenriNeural (and ES, DE, ZH, KO, JA).
+packages. Change a voice with LANGOGO_TTS_VOICE_FR=fr-FR-HenriNeural (and ES, DE, ZH, KO, JA, IT, AR).
 """
 import argparse
 import hashlib
@@ -51,6 +51,8 @@ DEFAULT_VOICES = {
     "zh": "zh-CN-XiaoxiaoNeural",
     "ko": "ko-KR-SunHiNeural",
     "ja": "ja-JP-NanamiNeural",
+    "it": "it-IT-ElsaNeural",
+    "ar": "ar-SA-ZariyahNeural",
 }
 
 
@@ -77,6 +79,11 @@ def collect_texts(lang_id):
             add(t.get("text"))
         for w in raw.get("practice_words", []):
             add(w.get("text"))
+    extra = CONTENT_DIR / lang_id / "level_test.json"  # the level test's speaking sentence (French)
+    if extra.is_file():
+        sentence = (json.loads(extra.read_text(encoding="utf-8")).get("speaking_sentence") or "").strip()
+        if sentence:
+            seen.setdefault(sentence, None)
     return list(seen)
 
 

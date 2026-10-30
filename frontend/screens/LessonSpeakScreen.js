@@ -74,6 +74,7 @@ function SpeakView({ lesson }) {
   const scroller = useRef(null);
   const offsets = useRef({});
   const finishing = useRef(false);
+  const takesRef = useRef({}); // the latest takes, for code that runs after a render
 
   const setPhase = (p) => {
     phaseRef.current = p;
@@ -87,6 +88,8 @@ function SpeakView({ lesson }) {
       clearTimeout(maxTimer.current);
     };
   }, []);
+
+  takesRef.current = takes;
 
   const modelHeard = useRef({}); // turn ids whose model reading already played by itself
   const finished = cursor >= turns.length;
@@ -220,13 +223,39 @@ function SpeakView({ lesson }) {
   };
 
   // ---- Finishing -------------------------------------------------------------------
+  // The server keeps the scores of the lesson in progress in its memory. If it restarted or went to sleep
+  // meanwhile, it no longer has them, even though they are on this screen. The takes are still here, so
+  // send them again instead of making the learner record everything once more.
+  const rescoreTakes = async () => {
+    for (const t of turns) {
+      if (t.role !== 'you') continue;
+      const take = takesRef.current[t.id];
+      if (!take) throw new Error(`Please record this line again: ${t.text}`);
+      const result = await scoreTurn(lesson.id, t.id, take);
+      if (alive.current) {
+        setScores((sc) => ({ ...sc, [t.id]: result.pronunciation }));
+        setWordScores((ws) => ({ ...ws, [t.id]: result.words }));
+      }
+    }
+  };
+
   const finish = async () => {
     if (finishing.current) return;
     finishing.current = true;
     setPhase('finishing');
     setError(null);
     try {
-      const record = await completeLesson(lesson.id);
+      let record;
+      try {
+        record = await completeLesson(lesson.id);
+      } catch (first) {
+        if (first && first.status === 422 && /haven't been recorded/.test(first.message || '')) {
+          await rescoreTakes();
+          record = await completeLesson(lesson.id);
+        } else {
+          throw first;
+        }
+      }
       router.replace({ pathname: '/lesson-complete', params: { id: record.id } });
     } catch (e) {
       finishing.current = false;
@@ -306,6 +335,7 @@ function SpeakView({ lesson }) {
           <View key={t.id} onLayout={(e) => { offsets.current[i] = e.nativeEvent.layout.y; }}>
             <ChatBubble
               turn={t}
+              rtl={lesson.lang === 'ar'}
               highlighted={speakingId === t.id || (recordingNow && i === cursor)}
               playing={speakingId === t.id}
               yourTurn={i === cursor && phase === 'waiting' && !takes[t.id]}

@@ -5,11 +5,12 @@ All lesson content lives in this folder. You never need to touch Python code.
 ```
 backend/content/
   _TEMPLATE.json           copy this to start a new lesson
-  fr/                      one folder per language: fr, es, zh, ko, ja, de (codes from backend/languages.py)
+  fr/                      one folder per language: fr, es, zh, ko, ja, de, it, ar (codes from backend/languages.py)
     levels.json            which levels exist and which lessons they list, in order
     lessons/
       fr-1-1.json          one file per lesson, named <language>-<level>-<lesson>
-  es/ zh/ ko/ ja/ de/      same layout (each has 3 levels × 4 lessons written)
+  es/ zh/ ko/ ja/ de/ it/ ar/   same layout (3 levels × 4 lessons each; French has 9 levels)
+  fr/level_test.json       the sentence learners read aloud in the French level test
   audio/
     fr-1-1/t1.mp3          optional recorded voice for a dialogue line
 ```

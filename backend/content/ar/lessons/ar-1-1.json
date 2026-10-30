@@ -1,0 +1,212 @@
+{
+  "emoji": "👋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "مرحبا",
+      "ipa": "marḥaban",
+      "pos": "interj.",
+      "meaning": "hello",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "مرحبا يا أحمد!",
+          "en": "Hello, Ahmad!"
+        },
+        {
+          "target": "مرحبا بكم جميعا!",
+          "en": "Hello, everyone!"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "صباح الخير",
+      "ipa": "ṣabāḥ al-khayr",
+      "pos": "phr.",
+      "meaning": "good morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "صباح الخير يا أمي.",
+          "en": "Good morning, Mom."
+        },
+        {
+          "target": "صباح الخير، كيف حالك؟",
+          "en": "Good morning, how are you?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "كيف حالك",
+      "ipa": "kayfa ḥāluk",
+      "pos": "phr.",
+      "meaning": "how are you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "مرحبا، كيف حالك اليوم؟",
+          "en": "Hello, how are you today?"
+        },
+        {
+          "target": "كيف حالك يا سارة؟",
+          "en": "How are you, Sara?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "شكرا",
+      "ipa": "shukran",
+      "pos": "interj.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "شكرا جزيلا!",
+          "en": "Thank you very much!"
+        },
+        {
+          "target": "شكرا، أنا بخير.",
+          "en": "Thanks, I'm fine."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "مع السلامة",
+      "ipa": "maʿa s-salāma",
+      "pos": "phr.",
+      "meaning": "goodbye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "مع السلامة، إلى الغد!",
+          "en": "Goodbye, see you tomorrow!"
+        },
+        {
+          "target": "مع السلامة وشكرا.",
+          "en": "Goodbye and thank you."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "من فضلك",
+      "ipa": "min faḍlik",
+      "pos": "phr.",
+      "meaning": "please",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "قهوة من فضلك.",
+          "en": "A coffee, please."
+        },
+        {
+          "target": "ساعدني من فضلك.",
+          "en": "Help me, please."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Layla",
+      "role": "npc",
+      "text": "صباح الخير! كيف حالك؟",
+      "glosses": [
+        {
+          "text": "صباح الخير",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "كيف حالك",
+          "pos": "phr.",
+          "meaning": "how are you"
+        }
+      ],
+      "id": "t1",
+      "en": "Good morning! How are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "صباح النور! أنا بخير، شكرا. وأنت؟",
+      "glosses": [
+        {
+          "text": "شكرا",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t2",
+      "en": "Good morning! I'm fine, thank you. And you?"
+    },
+    {
+      "speaker": "Layla",
+      "role": "npc",
+      "text": "الحمد لله، بخير. الطقس جميل اليوم!",
+      "glosses": [],
+      "id": "t3",
+      "en": "Praise God, I'm well. The weather is beautiful today!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "نعم، جميل جدا. يجب أن أذهب الآن. مع السلامة!",
+      "glosses": [
+        {
+          "text": "مع السلامة",
+          "pos": "phr.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, very beautiful. I have to go now. Goodbye!"
+    },
+    {
+      "speaker": "Layla",
+      "role": "npc",
+      "text": "مع السلامة! يوما سعيدا!",
+      "glosses": [
+        {
+          "text": "مع السلامة",
+          "pos": "phr.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t5",
+      "en": "Goodbye! Have a happy day!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "شكرا، وأنت أيضا! إلى اللقاء!",
+      "glosses": [
+        {
+          "text": "شكرا",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, you too! See you later!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "صباح الخير",
+      "tip": "'kh' is a rough sound from the back of the throat, like the 'ch' in Scottish 'loch'",
+      "id": "w1"
+    },
+    {
+      "text": "مرحبا",
+      "tip": "The 'ḥ' is a breathy 'h' from deep in the throat: mar-ḥa-ban",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "emoji": "🥐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "la panetteria",
+      "ipa": "/la pa.net.teˈri.a/",
+      "pos": "f. n.",
+      "meaning": "bakery",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "La panetteria apre alle sette.",
+          "en": "The bakery opens at seven."
+        },
+        {
+          "target": "Vado alla panetteria ogni mattina.",
+          "en": "I go to the bakery every morning."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "il cornetto",
+      "ipa": "/il korˈnet.to/",
+      "pos": "m. n.",
+      "meaning": "croissant",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un cornetto alla crema, per favore.",
+          "en": "A custard croissant, please."
+        },
+        {
+          "target": "Mangio un cornetto a colazione.",
+          "en": "I eat a croissant for breakfast."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "il pane",
+      "ipa": "/il ˈpa.ne/",
+      "pos": "m. n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Il pane è ancora caldo.",
+          "en": "The bread is still warm."
+        },
+        {
+          "target": "Compro il pane fresco.",
+          "en": "I buy fresh bread."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "vorrei",
+      "ipa": "/vorˈrɛi/",
+      "pos": "v.",
+      "meaning": "I would like",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vorrei un caffè, grazie.",
+          "en": "I would like a coffee, thanks."
+        },
+        {
+          "target": "Vorrei due panini.",
+          "en": "I would like two sandwiches."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "quanto costa",
+      "ipa": "/ˈkwan.to ˈkɔ.sta/",
+      "pos": "phr.",
+      "meaning": "how much is it",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quanto costa questo pane?",
+          "en": "How much is this bread?"
+        },
+        {
+          "target": "Quanto costa tutto?",
+          "en": "How much is everything?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "l'euro",
+      "ipa": "/ˈlɛu.ro/",
+      "pos": "m. n.",
+      "meaning": "euro",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Costa due euro.",
+          "en": "It costs two euros."
+        },
+        {
+          "target": "Sono cinque euro, grazie.",
+          "en": "That's five euros, thanks."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Panettiere",
+      "role": "npc",
+      "text": "Buongiorno! Mi dica.",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! How can I help?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Buongiorno. Vorrei due cornetti e un pezzo di pane.",
+      "glosses": [
+        {
+          "text": "cornetti",
+          "pos": "m. n.",
+          "meaning": "croissant"
+        },
+        {
+          "text": "pane",
+          "pos": "m. n.",
+          "meaning": "bread"
+        },
+        {
+          "text": "Vorrei",
+          "pos": "v.",
+          "meaning": "I would like"
+        }
+      ],
+      "id": "t2",
+      "en": "Good morning. I'd like two croissants and a piece of bread."
+    },
+    {
+      "speaker": "Panettiere",
+      "role": "npc",
+      "text": "Ecco a lei. Desidera altro?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Here you are. Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "No, grazie. Quanto costa tutto?",
+      "glosses": [],
+      "id": "t4",
+      "en": "No, thanks. How much is everything?"
+    },
+    {
+      "speaker": "Panettiere",
+      "role": "npc",
+      "text": "Sono quattro euro e cinquanta.",
+      "glosses": [
+        {
+          "text": "euro",
+          "pos": "m. n.",
+          "meaning": "euro"
+        }
+      ],
+      "id": "t5",
+      "en": "That's four euros fifty."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ecco a lei. Buona giornata!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here you are. Have a nice day!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "il cornetto",
+      "tip": "Double 't': kor-NET-to",
+      "id": "w1"
+    },
+    {
+      "text": "vorrei",
+      "tip": "Roll the double 'r': vor-REI",
+      "id": "w2"
+    }
+  ]
+}

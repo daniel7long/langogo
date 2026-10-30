@@ -1,0 +1,223 @@
+{
+  "emoji": "🍝",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "حجز",
+      "ipa": "ḥajz",
+      "pos": "m. n.",
+      "meaning": "booking, reservation",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "عندي حجز باسم يوسف.",
+          "en": "I have a reservation under the name Yusuf."
+        },
+        {
+          "target": "الحجز لشخصين.",
+          "en": "The reservation is for two people."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "قائمة الطعام",
+      "ipa": "qāʾimat aṭ-ṭaʿām",
+      "pos": "f. n.",
+      "meaning": "menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أين قائمة الطعام؟",
+          "en": "Where is the menu?"
+        },
+        {
+          "target": "قائمة الطعام بالعربية.",
+          "en": "The menu is in Arabic."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "المقبلات",
+      "ipa": "al-muqabbilāt",
+      "pos": "f. n. pl.",
+      "meaning": "starters",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أحب المقبلات العربية.",
+          "en": "I love Arabic starters."
+        },
+        {
+          "target": "المقبلات جاهزة.",
+          "en": "The starters are ready."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "طبق رئيسي",
+      "ipa": "ṭabaq raʾīsī",
+      "pos": "m. n.",
+      "meaning": "main dish",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "الطبق الرئيسي هو الدجاج.",
+          "en": "The main dish is chicken."
+        },
+        {
+          "target": "أطلب السمك كطبق رئيسي.",
+          "en": "I order fish as the main dish."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "الحلوى",
+      "ipa": "al-ḥalwā",
+      "pos": "f. n.",
+      "meaning": "dessert",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "الحلوى لذيذة جدا.",
+          "en": "The dessert is very tasty."
+        },
+        {
+          "target": "ماذا تحبون من الحلوى؟",
+          "en": "What dessert do you like?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "ماء",
+      "ipa": "māʾ",
+      "pos": "m. n.",
+      "meaning": "water",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "زجاجة ماء من فضلك.",
+          "en": "A bottle of water, please."
+        },
+        {
+          "target": "الماء بارد.",
+          "en": "The water is cold."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "مساء الخير! هل لديكم حجز؟",
+      "glosses": [
+        {
+          "text": "حجز",
+          "pos": "m. n.",
+          "meaning": "booking, reservation"
+        }
+      ],
+      "id": "t1",
+      "en": "Good evening! Do you have a reservation?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "نعم، حجزت طاولة لشخصين باسم يوسف.",
+      "glosses": [
+        {
+          "text": "حجز",
+          "pos": "m. n.",
+          "meaning": "booking, reservation"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, I booked a table for two under the name Yusuf."
+    },
+    {
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "تفضلوا من هنا. هذه قائمة الطعام.",
+      "glosses": [
+        {
+          "text": "قائمة الطعام",
+          "pos": "f. n.",
+          "meaning": "menu"
+        }
+      ],
+      "id": "t3",
+      "en": "Please come this way. Here is the menu."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "أريد المقبلات أولا، ثم السمك كطبق رئيسي.",
+      "glosses": [
+        {
+          "text": "المقبلات",
+          "pos": "f. n. pl.",
+          "meaning": "starters"
+        },
+        {
+          "text": "طبق رئيسي",
+          "pos": "m. n.",
+          "meaning": "main dish"
+        }
+      ],
+      "id": "t4",
+      "en": "I'd like the starters first, then fish as the main dish."
+    },
+    {
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "اختيار ممتاز. وماذا عن الحلوى؟",
+      "glosses": [
+        {
+          "text": "الحلوى",
+          "pos": "f. n.",
+          "meaning": "dessert"
+        }
+      ],
+      "id": "t5",
+      "en": "Excellent choice. And what about dessert?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "الحلوى لاحقا، ومعها زجاجة ماء من فضلك.",
+      "glosses": [
+        {
+          "text": "الحلوى",
+          "pos": "f. n.",
+          "meaning": "dessert"
+        },
+        {
+          "text": "ماء",
+          "pos": "m. n.",
+          "meaning": "water"
+        }
+      ],
+      "id": "t6",
+      "en": "Dessert later, and with it a bottle of water please."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "قائمة الطعام",
+      "tip": "'q' is a deep 'k' and 'ṭ' is heavy: QĀ-ʾi-mat aṭ-ṬAʿĀM",
+      "id": "w1"
+    },
+    {
+      "text": "الحلوى",
+      "tip": "Long 'ā' at the end, with a breathy 'ḥ': al-ḥal-WĀ",
+      "id": "w2"
+    }
+  ]
+}

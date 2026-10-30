@@ -1,0 +1,235 @@
+{
+  "emoji": "🎓",
+  "max_flowers": 50,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "word": "l'enseignement",
+      "ipa": "/lɑ̃.sɛɲ.mɑ̃/",
+      "pos": "m. n.",
+      "meaning": "education, teaching",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "L'enseignement supérieur est très varié.",
+          "en": "Higher education is very varied."
+        },
+        {
+          "fr": "Elle travaille dans l'enseignement.",
+          "en": "She works in education."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "le diplôme",
+      "ipa": "/lə di.plom/",
+      "pos": "m. n.",
+      "meaning": "degree, diploma",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Il a obtenu son diplôme en juin.",
+          "en": "He got his degree in June."
+        },
+        {
+          "fr": "Ce diplôme est reconnu à l'étranger.",
+          "en": "This degree is recognised abroad."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "les études supérieures",
+      "ipa": "/le ze.tyd sy.pe.ʁjœʁ/",
+      "pos": "f. n. pl.",
+      "meaning": "higher education",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Je fais des études supérieures de linguistique.",
+          "en": "I'm doing higher studies in linguistics."
+        },
+        {
+          "fr": "Les études supérieures coûtent cher aux États-Unis.",
+          "en": "Higher education is expensive in the United States."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "une bourse",
+      "ipa": "/yn buʁs/",
+      "pos": "f. n.",
+      "meaning": "scholarship",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Elle a obtenu une bourse d'excellence.",
+          "en": "She received an excellence scholarship."
+        },
+        {
+          "fr": "La bourse couvre les frais d'inscription.",
+          "en": "The scholarship covers the tuition fees."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "le patrimoine",
+      "ipa": "/lə pa.tʁi.mwan/",
+      "pos": "m. n.",
+      "meaning": "heritage",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Ce château fait partie du patrimoine national.",
+          "en": "This castle is part of the national heritage."
+        },
+        {
+          "fr": "Il faut protéger notre patrimoine culturel.",
+          "en": "We must protect our cultural heritage."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "s'épanouir",
+      "ipa": "/se.pa.nwiʁ/",
+      "pos": "v.",
+      "meaning": "to flourish, to thrive",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Les enfants s'épanouissent au contact de l'art.",
+          "en": "Children thrive through contact with art."
+        },
+        {
+          "fr": "Je veux m'épanouir dans mon métier.",
+          "en": "I want to thrive in my career."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "la formation",
+      "ipa": "/la fɔʁ.ma.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "training, course",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Cette formation dure six mois.",
+          "en": "This training lasts six months."
+        },
+        {
+          "fr": "Elle suit une formation en ligne.",
+          "en": "She's taking an online course."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Professeure Colin",
+      "role": "npc",
+      "text": "Quels sont vos projets après votre diplôme ?",
+      "glosses": [
+        {
+          "text": "diplôme",
+          "pos": "m. n.",
+          "meaning": "degree, diploma"
+        }
+      ],
+      "id": "t1",
+      "en": "What are your plans after your degree?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je voudrais continuer mes études supérieures, si j'obtiens une bourse.",
+      "glosses": [
+        {
+          "text": "études supérieures",
+          "pos": "f. n. pl.",
+          "meaning": "higher education"
+        },
+        {
+          "text": "une bourse",
+          "pos": "f. n.",
+          "meaning": "scholarship"
+        }
+      ],
+      "id": "t2",
+      "en": "I'd like to continue my higher studies, if I get a scholarship."
+    },
+    {
+      "speaker": "Professeure Colin",
+      "role": "npc",
+      "text": "Excellente idée. L'enseignement des langues a besoin de jeunes chercheurs.",
+      "glosses": [
+        {
+          "text": "enseignement",
+          "pos": "m. n.",
+          "meaning": "education, teaching"
+        }
+      ],
+      "id": "t3",
+      "en": "Excellent idea. Language teaching needs young researchers."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, je voudrais aussi m'épanouir dans un métier qui a du sens.",
+      "glosses": [
+        {
+          "text": "épanouir",
+          "pos": "v.",
+          "meaning": "to flourish, to thrive"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, I'd also like to thrive in a job that has meaning."
+    },
+    {
+      "speaker": "Professeure Colin",
+      "role": "npc",
+      "text": "Pensez à une formation sur le patrimoine culturel : c'est passionnant.",
+      "glosses": [
+        {
+          "text": "le patrimoine",
+          "pos": "m. n.",
+          "meaning": "heritage"
+        },
+        {
+          "text": "formation",
+          "pos": "f. n.",
+          "meaning": "training, course"
+        }
+      ],
+      "id": "t5",
+      "en": "Think about a course on cultural heritage: it's fascinating."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci du conseil. Je vais me renseigner dès cette semaine.",
+      "glosses": [],
+      "id": "t6",
+      "en": "Thanks for the advice. I'll look into it this very week."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "le patrimoine",
+      "tip": "'oi' = 'wa': pa-tri-MWAN",
+      "id": "w1"
+    },
+    {
+      "text": "s'épanouir",
+      "tip": "Four syllables: sé-pa-nwir, with a French 'r'",
+      "id": "w2"
+    }
+  ]
+}

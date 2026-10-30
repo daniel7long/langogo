@@ -1,0 +1,230 @@
+{
+  "emoji": "😄",
+  "max_flowers": 55,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "word": "poser un lapin",
+      "ipa": "/po.ze ɛ̃ la.pɛ̃/",
+      "pos": "idiom",
+      "meaning": "to stand someone up",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Il m'a posé un lapin hier soir.",
+          "en": "He stood me up last night."
+        },
+        {
+          "fr": "Ne me pose pas un lapin, cette fois !",
+          "en": "Don't stand me up this time!"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "avoir le cafard",
+      "ipa": "/a.vwaʁ lə ka.faʁ/",
+      "pos": "idiom",
+      "meaning": "to feel down",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "J'ai le cafard quand il pleut.",
+          "en": "I feel down when it rains."
+        },
+        {
+          "fr": "Elle a le cafard depuis son départ.",
+          "en": "She has been feeling down since he left."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "coûter les yeux de la tête",
+      "ipa": "/ku.te le zjø də la tɛt/",
+      "pos": "idiom",
+      "meaning": "to cost a fortune",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Ce sac coûte les yeux de la tête.",
+          "en": "This bag costs a fortune."
+        },
+        {
+          "fr": "Ces billets m'ont coûté les yeux de la tête.",
+          "en": "These tickets cost me a fortune."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "il pleut des cordes",
+      "ipa": "/il plø de kɔʁd/",
+      "pos": "idiom",
+      "meaning": "it's pouring",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Il pleut des cordes depuis ce matin.",
+          "en": "It's been pouring since this morning."
+        },
+        {
+          "fr": "Prends un parapluie : il pleut des cordes !",
+          "en": "Take an umbrella: it's pouring!"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "mettre son grain de sel",
+      "ipa": "/mɛtʁ sɔ̃ ɡʁɛ̃ də sɛl/",
+      "pos": "idiom",
+      "meaning": "to butt in",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Il met toujours son grain de sel.",
+          "en": "He always butts in."
+        },
+        {
+          "fr": "Je ne veux pas mettre mon grain de sel.",
+          "en": "I don't want to butt in."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "avoir un fou rire",
+      "ipa": "/a.vwaʁ ɛ̃ fu ʁiʁ/",
+      "pos": "idiom",
+      "meaning": "to have a fit of giggles",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Nous avons eu un fou rire en classe.",
+          "en": "We had a fit of giggles in class."
+        },
+        {
+          "fr": "Elle a un fou rire incontrôlable.",
+          "en": "She has an uncontrollable fit of giggles."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "se creuser la tête",
+      "ipa": "/sə kʁø.ze la tɛt/",
+      "pos": "idiom",
+      "meaning": "to rack one's brain",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Je me creuse la tête depuis une heure.",
+          "en": "I've been racking my brain for an hour."
+        },
+        {
+          "fr": "Ne te creuse pas la tête pour ça.",
+          "en": "Don't rack your brain over it."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Margaux",
+      "role": "npc",
+      "text": "Tu as l'air de mauvaise humeur. Qu'est-ce qui se passe ?",
+      "glosses": [],
+      "id": "t1",
+      "en": "You look in a bad mood. What's going on?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "J'ai le cafard : Marc m'a posé un lapin hier soir.",
+      "glosses": [
+        {
+          "text": "posé un lapin",
+          "pos": "idiom",
+          "meaning": "to stand someone up"
+        },
+        {
+          "text": "le cafard",
+          "pos": "idiom",
+          "meaning": "to feel down"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm feeling down: Marc stood me up last night."
+    },
+    {
+      "speaker": "Margaux",
+      "role": "npc",
+      "text": "Je ne veux pas mettre mon grain de sel, mais il en a l'habitude.",
+      "glosses": [
+        {
+          "text": "grain de sel",
+          "pos": "idiom",
+          "meaning": "to butt in"
+        }
+      ],
+      "id": "t3",
+      "en": "I don't want to butt in, but he's in the habit."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Et en plus, il pleut des cordes depuis ce matin !",
+      "glosses": [
+        {
+          "text": "il pleut des cordes",
+          "pos": "idiom",
+          "meaning": "it's pouring"
+        }
+      ],
+      "id": "t4",
+      "en": "And on top of that, it's been pouring since this morning!"
+    },
+    {
+      "speaker": "Margaux",
+      "role": "npc",
+      "text": "Viens chez moi. Je me creuse la tête pour trouver un bon film.",
+      "glosses": [
+        {
+          "text": "creuse la tête",
+          "pos": "idiom",
+          "meaning": "to rack one's brain"
+        }
+      ],
+      "id": "t5",
+      "en": "Come to my place. I'm racking my brain to find a good film."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Avec plaisir. On aura sûrement un fou rire, comme d'habitude.",
+      "glosses": [
+        {
+          "text": "un fou rire",
+          "pos": "idiom",
+          "meaning": "to have a fit of giggles"
+        }
+      ],
+      "id": "t6",
+      "en": "With pleasure. We'll surely get the giggles, as usual."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "poser un lapin",
+      "tip": "Stress the last syllable: po-zé un la-PIN",
+      "id": "w1"
+    },
+    {
+      "text": "les yeux de la tête",
+      "tip": "'yeux' sounds like 'yuh': lé zyeuh",
+      "id": "w2"
+    }
+  ]
+}

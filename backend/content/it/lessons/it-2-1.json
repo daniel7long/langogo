@@ -1,0 +1,223 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "svegliarsi",
+      "ipa": "/zveʎˈʎar.si/",
+      "pos": "v.",
+      "meaning": "to wake up",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Mi sveglio alle sette.",
+          "en": "I wake up at seven."
+        },
+        {
+          "target": "Ti svegli presto la mattina?",
+          "en": "Do you wake up early in the morning?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la colazione",
+      "ipa": "/la ko.latˈtsjo.ne/",
+      "pos": "f. n.",
+      "meaning": "breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Faccio colazione al bar.",
+          "en": "I have breakfast at the café."
+        },
+        {
+          "target": "La colazione è pronta.",
+          "en": "Breakfast is ready."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "il caffè",
+      "ipa": "/il kafˈfɛ/",
+      "pos": "m. n.",
+      "meaning": "coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Prendo sempre un caffè.",
+          "en": "I always have a coffee."
+        },
+        {
+          "target": "Il caffè italiano è forte.",
+          "en": "Italian coffee is strong."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "farsi la doccia",
+      "ipa": "/ˈfar.si la ˈdot.tʃa/",
+      "pos": "phr.",
+      "meaning": "to take a shower",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Mi faccio la doccia ogni mattina.",
+          "en": "I take a shower every morning."
+        },
+        {
+          "target": "Dopo, mi faccio la doccia.",
+          "en": "Afterwards, I take a shower."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "uscire",
+      "ipa": "/uʃˈʃi.re/",
+      "pos": "v.",
+      "meaning": "to go out, to leave",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Esco di casa alle otto.",
+          "en": "I leave the house at eight."
+        },
+        {
+          "target": "A che ora esci?",
+          "en": "What time do you go out?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "presto",
+      "ipa": "/ˈprɛ.sto/",
+      "pos": "adv.",
+      "meaning": "early, soon",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mi alzo molto presto.",
+          "en": "I get up very early."
+        },
+        {
+          "target": "A presto!",
+          "en": "See you soon!"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chiara",
+      "role": "npc",
+      "text": "A che ora ti svegli la mattina?",
+      "glosses": [
+        {
+          "text": "svegli",
+          "pos": "v.",
+          "meaning": "to wake up"
+        }
+      ],
+      "id": "t1",
+      "en": "What time do you wake up in the morning?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mi sveglio alle sette e faccio colazione.",
+      "glosses": [
+        {
+          "text": "sveglio",
+          "pos": "v.",
+          "meaning": "to wake up"
+        },
+        {
+          "text": "colazione",
+          "pos": "f. n.",
+          "meaning": "breakfast"
+        }
+      ],
+      "id": "t2",
+      "en": "I wake up at seven and have breakfast."
+    },
+    {
+      "speaker": "Chiara",
+      "role": "npc",
+      "text": "Prendi il caffè o il tè?",
+      "glosses": [
+        {
+          "text": "il caffè",
+          "pos": "m. n.",
+          "meaning": "coffee"
+        }
+      ],
+      "id": "t3",
+      "en": "Do you have coffee or tea?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Prendo sempre un caffè, poi mi faccio la doccia.",
+      "glosses": [
+        {
+          "text": "caffè",
+          "pos": "m. n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "mi faccio la doccia",
+          "pos": "phr.",
+          "meaning": "to take a shower"
+        }
+      ],
+      "id": "t4",
+      "en": "I always have a coffee, then I take a shower."
+    },
+    {
+      "speaker": "Chiara",
+      "role": "npc",
+      "text": "Io esco di casa alle otto.",
+      "glosses": [
+        {
+          "text": "esco",
+          "pos": "v.",
+          "meaning": "to go out, to leave"
+        }
+      ],
+      "id": "t5",
+      "en": "I leave the house at eight."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Io invece esco più tardi, alle nove.",
+      "glosses": [
+        {
+          "text": "esco",
+          "pos": "v.",
+          "meaning": "to go out, to leave"
+        }
+      ],
+      "id": "t6",
+      "en": "I, on the other hand, leave later, at nine."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "svegliarsi",
+      "tip": "'gli' sounds like 'lli' in 'million': zvel-LYAR-si",
+      "id": "w1"
+    },
+    {
+      "text": "la colazione",
+      "tip": "'zi' is 'tsy': ko-lat-TSYO-ne",
+      "id": "w2"
+    }
+  ]
+}

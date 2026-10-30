@@ -1,0 +1,230 @@
+{
+  "emoji": "✉️",
+  "max_flowers": 55,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "word": "une réclamation",
+      "ipa": "/yn ʁe.kla.ma.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "complaint",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Je vous écris pour déposer une réclamation.",
+          "en": "I am writing to lodge a complaint."
+        },
+        {
+          "fr": "Votre réclamation a bien été reçue.",
+          "en": "Your complaint has been received."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "le dysfonctionnement",
+      "ipa": "/lə dis.fɔ̃k.sjɔn.mɑ̃/",
+      "pos": "m. n.",
+      "meaning": "malfunction, fault",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Un dysfonctionnement est apparu hier.",
+          "en": "A malfunction appeared yesterday."
+        },
+        {
+          "fr": "Nous regrettons ce dysfonctionnement.",
+          "en": "We regret this malfunction."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "rembourser",
+      "ipa": "/ʁɑ̃.buʁ.se/",
+      "pos": "v.",
+      "meaning": "to refund",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Je demande à être remboursé.",
+          "en": "I'm asking for a refund."
+        },
+        {
+          "fr": "L'entreprise a remboursé la commande.",
+          "en": "The company refunded the order."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "dans les meilleurs délais",
+      "ipa": "/dɑ̃ le mɛ.jœʁ de.lɛ/",
+      "pos": "phr.",
+      "meaning": "as soon as possible",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Répondez-moi dans les meilleurs délais.",
+          "en": "Please reply as soon as possible."
+        },
+        {
+          "fr": "Nous traiterons votre demande dans les meilleurs délais.",
+          "en": "We will process your request as soon as possible."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "je vous prie de",
+      "ipa": "/ʒə vu pʁi də/",
+      "pos": "phr.",
+      "meaning": "I kindly ask you to",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Je vous prie de m'excuser.",
+          "en": "I ask you to excuse me."
+        },
+        {
+          "fr": "Je vous prie de bien vouloir répondre.",
+          "en": "I kindly ask you to reply."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "veuillez agréer",
+      "ipa": "/vœ.je a.ɡʁe.e/",
+      "pos": "phr.",
+      "meaning": "yours faithfully (formal closing)",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Veuillez agréer mes salutations distinguées.",
+          "en": "Yours sincerely."
+        },
+        {
+          "fr": "Veuillez agréer, Madame, mes sincères salutations.",
+          "en": "Yours sincerely, Madam."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "la garantie",
+      "ipa": "/la ɡa.ʁɑ̃.ti/",
+      "pos": "f. n.",
+      "meaning": "warranty, guarantee",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "L'appareil est encore sous garantie.",
+          "en": "The device is still under warranty."
+        },
+        {
+          "fr": "La garantie dure deux ans.",
+          "en": "The warranty lasts two years."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Service client",
+      "role": "npc",
+      "text": "Service client, bonjour. Que puis-je faire pour vous ?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Customer service, hello. What can I do for you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonjour. Je voudrais déposer une réclamation concernant mon aspirateur.",
+      "glosses": [
+        {
+          "text": "une réclamation",
+          "pos": "f. n.",
+          "meaning": "complaint"
+        }
+      ],
+      "id": "t2",
+      "en": "Hello. I'd like to lodge a complaint about my vacuum cleaner."
+    },
+    {
+      "speaker": "Service client",
+      "role": "npc",
+      "text": "Je suis désolée. Quel est le dysfonctionnement exactement ?",
+      "glosses": [
+        {
+          "text": "le dysfonctionnement",
+          "pos": "m. n.",
+          "meaning": "malfunction, fault"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm sorry. What exactly is the fault?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Il s'arrête après cinq minutes, et il est encore sous garantie.",
+      "glosses": [
+        {
+          "text": "garantie",
+          "pos": "f. n.",
+          "meaning": "warranty, guarantee"
+        }
+      ],
+      "id": "t4",
+      "en": "It stops after five minutes, and it's still under warranty."
+    },
+    {
+      "speaker": "Service client",
+      "role": "npc",
+      "text": "Nous pouvons vous rembourser ou vous envoyer un nouvel appareil.",
+      "glosses": [
+        {
+          "text": "rembourser",
+          "pos": "v.",
+          "meaning": "to refund"
+        }
+      ],
+      "id": "t5",
+      "en": "We can refund you or send you a new device."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je vous prie de me rembourser dans les meilleurs délais.",
+      "glosses": [
+        {
+          "text": "rembourser",
+          "pos": "v.",
+          "meaning": "to refund"
+        },
+        {
+          "text": "dans les meilleurs délais",
+          "pos": "phr.",
+          "meaning": "as soon as possible"
+        }
+      ],
+      "id": "t6",
+      "en": "I kindly ask you to refund me as soon as possible."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "le dysfonctionnement",
+      "tip": "Break it up: dis-fonk-syo-nuh-MAN, with the stress on the last syllable",
+      "id": "w1"
+    },
+    {
+      "text": "rembourser",
+      "tip": "Nasal 'em' then 'bour': ran-bour-SÉ",
+      "id": "w2"
+    }
+  ]
+}

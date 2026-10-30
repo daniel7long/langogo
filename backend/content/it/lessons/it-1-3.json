@@ -1,0 +1,212 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "di dove sei",
+      "ipa": "/di ˈdo.ve ˈsɛi/",
+      "pos": "phr.",
+      "meaning": "where are you from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ciao, di dove sei?",
+          "en": "Hi, where are you from?"
+        },
+        {
+          "target": "Di dove sei, Marta?",
+          "en": "Where are you from, Marta?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "vengo da",
+      "ipa": "/ˈvɛŋ.ɡo da/",
+      "pos": "phr.",
+      "meaning": "I come from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vengo da Torino.",
+          "en": "I come from Turin."
+        },
+        {
+          "target": "Vengo dagli Stati Uniti.",
+          "en": "I come from the United States."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la città",
+      "ipa": "/la tʃitˈta/",
+      "pos": "f. n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Roma è una città bellissima.",
+          "en": "Rome is a beautiful city."
+        },
+        {
+          "target": "Questa città è molto grande.",
+          "en": "This city is very big."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "abitare",
+      "ipa": "/a.biˈta.re/",
+      "pos": "v.",
+      "meaning": "to live (in a place)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Abito a Firenze.",
+          "en": "I live in Florence."
+        },
+        {
+          "target": "Dove abiti?",
+          "en": "Where do you live?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "parlare",
+      "ipa": "/parˈla.re/",
+      "pos": "v.",
+      "meaning": "to speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Parlo italiano e inglese.",
+          "en": "I speak Italian and English."
+        },
+        {
+          "target": "Parli bene l'italiano!",
+          "en": "You speak Italian well!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "lentamente",
+      "ipa": "/len.taˈmen.te/",
+      "pos": "adv.",
+      "meaning": "slowly",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Parla più lentamente, per favore.",
+          "en": "Speak more slowly, please."
+        },
+        {
+          "target": "Cammino lentamente.",
+          "en": "I walk slowly."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sofia",
+      "role": "npc",
+      "text": "Ciao! Di dove sei?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Hi! Where are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Vengo dagli Stati Uniti. E tu?",
+      "glosses": [
+        {
+          "text": "Vengo dagli",
+          "pos": "phr.",
+          "meaning": "I come from"
+        }
+      ],
+      "id": "t2",
+      "en": "I come from the United States. And you?"
+    },
+    {
+      "speaker": "Sofia",
+      "role": "npc",
+      "text": "Io sono di Napoli, ma abito a Roma.",
+      "glosses": [
+        {
+          "text": "abito",
+          "pos": "v.",
+          "meaning": "to live (in a place)"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm from Naples, but I live in Rome."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Roma è una città bellissima!",
+      "glosses": [
+        {
+          "text": "città",
+          "pos": "f. n.",
+          "meaning": "city"
+        }
+      ],
+      "id": "t4",
+      "en": "Rome is a beautiful city!"
+    },
+    {
+      "speaker": "Sofia",
+      "role": "npc",
+      "text": "Grazie! Parli bene l'italiano!",
+      "glosses": [
+        {
+          "text": "Parli",
+          "pos": "v.",
+          "meaning": "to speak"
+        }
+      ],
+      "id": "t5",
+      "en": "Thanks! You speak Italian well!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Grazie, ma parlo ancora molto lentamente.",
+      "glosses": [
+        {
+          "text": "parlo",
+          "pos": "v.",
+          "meaning": "to speak"
+        },
+        {
+          "text": "lentamente",
+          "pos": "adv.",
+          "meaning": "slowly"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, but I still speak very slowly."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "lentamente",
+      "tip": "Stress 'men': len-ta-MEN-te",
+      "id": "w1"
+    },
+    {
+      "text": "città",
+      "tip": "Double 't', stress on the last syllable: chit-TA",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "emoji": "☕",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "il cameriere",
+      "ipa": "/il ka.meˈrjɛ.re/",
+      "pos": "m. n.",
+      "meaning": "waiter",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Il cameriere porta il menù.",
+          "en": "The waiter brings the menu."
+        },
+        {
+          "target": "Chiamo il cameriere?",
+          "en": "Shall I call the waiter?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "il cappuccino",
+      "ipa": "/il kap.putˈtʃi.no/",
+      "pos": "m. n.",
+      "meaning": "cappuccino",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un cappuccino e un cornetto, per favore.",
+          "en": "A cappuccino and a croissant, please."
+        },
+        {
+          "target": "Il cappuccino si beve al mattino.",
+          "en": "Cappuccino is drunk in the morning."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "lo zucchero",
+      "ipa": "/lo ˈdzuk.ke.ro/",
+      "pos": "m. n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vuoi lo zucchero nel caffè?",
+          "en": "Do you want sugar in your coffee?"
+        },
+        {
+          "target": "Senza zucchero, grazie.",
+          "en": "Without sugar, thanks."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "il tavolo",
+      "ipa": "/il ˈta.vo.lo/",
+      "pos": "m. n.",
+      "meaning": "table",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un tavolo per due, per favore.",
+          "en": "A table for two, please."
+        },
+        {
+          "target": "Il tavolo è vicino alla finestra.",
+          "en": "The table is next to the window."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "la finestra",
+      "ipa": "/la fiˈnɛ.stra/",
+      "pos": "f. n.",
+      "meaning": "window",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Apri la finestra, per favore.",
+          "en": "Open the window, please."
+        },
+        {
+          "target": "Mi piace sedermi vicino alla finestra.",
+          "en": "I like to sit by the window."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "il conto",
+      "ipa": "/il ˈkon.to/",
+      "pos": "m. n.",
+      "meaning": "bill",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Il conto, per favore.",
+          "en": "The bill, please."
+        },
+        {
+          "target": "Il conto è alto oggi.",
+          "en": "The bill is high today."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Cameriere",
+      "role": "npc",
+      "text": "Buongiorno! Cosa prende?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! What will you have?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Un cappuccino e un cornetto, per favore.",
+      "glosses": [
+        {
+          "text": "cappuccino",
+          "pos": "m. n.",
+          "meaning": "cappuccino"
+        }
+      ],
+      "id": "t2",
+      "en": "A cappuccino and a croissant, please."
+    },
+    {
+      "speaker": "Cameriere",
+      "role": "npc",
+      "text": "Subito. Lo vuole con lo zucchero?",
+      "glosses": [
+        {
+          "text": "lo zucchero",
+          "pos": "m. n.",
+          "meaning": "sugar"
+        }
+      ],
+      "id": "t3",
+      "en": "Right away. Would you like it with sugar?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "No, senza zucchero. C'è un tavolo vicino alla finestra?",
+      "glosses": [
+        {
+          "text": "zucchero",
+          "pos": "m. n.",
+          "meaning": "sugar"
+        },
+        {
+          "text": "tavolo",
+          "pos": "m. n.",
+          "meaning": "table"
+        },
+        {
+          "text": "la finestra",
+          "pos": "f. n.",
+          "meaning": "window"
+        }
+      ],
+      "id": "t4",
+      "en": "No, without sugar. Is there a table by the window?"
+    },
+    {
+      "speaker": "Cameriere",
+      "role": "npc",
+      "text": "Sì, si accomodi pure.",
+      "glosses": [],
+      "id": "t5",
+      "en": "Yes, please make yourself comfortable."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Grazie mille. Più tardi vorrei il conto.",
+      "glosses": [
+        {
+          "text": "il conto",
+          "pos": "m. n.",
+          "meaning": "bill"
+        }
+      ],
+      "id": "t6",
+      "en": "Thank you very much. Later I'd like the bill."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "il cappuccino",
+      "tip": "Double 'p' and double 'c': kap-put-CHEE-no",
+      "id": "w1"
+    },
+    {
+      "text": "lo zucchero",
+      "tip": "Start with 'dz': DZUK-ke-ro",
+      "id": "w2"
+    }
+  ]
+}

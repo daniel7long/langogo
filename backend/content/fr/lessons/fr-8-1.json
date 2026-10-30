@@ -1,0 +1,230 @@
+{
+  "emoji": "📰",
+  "max_flowers": 50,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "word": "l'actualité",
+      "ipa": "/lak.tɥa.li.te/",
+      "pos": "f. n.",
+      "meaning": "current affairs, news",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Je suis l'actualité tous les matins.",
+          "en": "I follow the news every morning."
+        },
+        {
+          "fr": "L'actualité est parfois très lourde.",
+          "en": "The news is sometimes very heavy."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "un débat",
+      "ipa": "/ɛ̃ de.ba/",
+      "pos": "m. n.",
+      "meaning": "debate",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Le débat a duré deux heures.",
+          "en": "The debate lasted two hours."
+        },
+        {
+          "fr": "C'est un débat très animé.",
+          "en": "It's a very lively debate."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "un argument",
+      "ipa": "/ɛ̃ naʁ.ɡy.mɑ̃/",
+      "pos": "m. n.",
+      "meaning": "argument",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Son argument ne me convainc pas.",
+          "en": "His argument doesn't convince me."
+        },
+        {
+          "fr": "Donnez-moi un argument solide.",
+          "en": "Give me a solid argument."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "défendre",
+      "ipa": "/de.fɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to defend",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Elle défend son point de vue avec passion.",
+          "en": "She defends her point of view with passion."
+        },
+        {
+          "fr": "Je défendrai cette idée jusqu'au bout.",
+          "en": "I'll defend this idea to the end."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "nuancer",
+      "ipa": "/nɥɑ̃.se/",
+      "pos": "v.",
+      "meaning": "to qualify, to add nuance",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Il faut nuancer ce que tu dis.",
+          "en": "You need to qualify what you're saying."
+        },
+        {
+          "fr": "Elle a nuancé son opinion.",
+          "en": "She qualified her opinion."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "une polémique",
+      "ipa": "/yn pɔ.le.mik/",
+      "pos": "f. n.",
+      "meaning": "controversy",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Cette décision a provoqué une polémique.",
+          "en": "This decision caused a controversy."
+        },
+        {
+          "fr": "Je ne veux pas relancer la polémique.",
+          "en": "I don't want to restart the controversy."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "contester",
+      "ipa": "/kɔ̃.tɛs.te/",
+      "pos": "v.",
+      "meaning": "to challenge, to dispute",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Personne ne conteste ce résultat.",
+          "en": "No one disputes this result."
+        },
+        {
+          "fr": "Ils contestent la nouvelle loi.",
+          "en": "They are challenging the new law."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "Tu as vu l'actualité ? Cette décision provoque une vraie polémique.",
+      "glosses": [
+        {
+          "text": "l'actualité",
+          "pos": "f. n.",
+          "meaning": "current affairs, news"
+        },
+        {
+          "text": "polémique",
+          "pos": "f. n.",
+          "meaning": "controversy"
+        }
+      ],
+      "id": "t1",
+      "en": "Did you see the news? This decision is causing a real controversy."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, et je ne suis pas d'accord avec son principal argument.",
+      "glosses": [
+        {
+          "text": "argument",
+          "pos": "m. n.",
+          "meaning": "argument"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, and I don't agree with its main argument."
+    },
+    {
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "Pourtant, beaucoup de gens défendent cette idée. Qu'en penses-tu ?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Yet many people defend this idea. What do you think?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je pense qu'il faut nuancer : tout n'est pas aussi simple.",
+      "glosses": [
+        {
+          "text": "nuancer",
+          "pos": "v.",
+          "meaning": "to qualify, to add nuance"
+        }
+      ],
+      "id": "t4",
+      "en": "I think we need to qualify things: it's not all that simple."
+    },
+    {
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "Tu as raison. Un débat calme serait plus utile.",
+      "glosses": [
+        {
+          "text": "débat",
+          "pos": "m. n.",
+          "meaning": "debate"
+        }
+      ],
+      "id": "t5",
+      "en": "You're right. A calm debate would be more useful."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Exactement. Personne ne devrait contester le droit de s'exprimer.",
+      "glosses": [
+        {
+          "text": "contester",
+          "pos": "v.",
+          "meaning": "to challenge, to dispute"
+        }
+      ],
+      "id": "t6",
+      "en": "Exactly. No one should dispute the right to speak."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "une polémique",
+      "tip": "Stress the last syllable: po-lé-MIK",
+      "id": "w1"
+    },
+    {
+      "text": "nuancer",
+      "tip": "'u' is a tight 'ü' sound: nü-an-SÉ",
+      "id": "w2"
+    }
+  ]
+}

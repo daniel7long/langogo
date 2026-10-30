@@ -129,6 +129,20 @@ def _complete(saved):
     return state
 
 
+def catch_up_levels(state):
+    """When new levels are added to a course, a learner who had already finished the old last level moves up."""
+    for lang, lv in list(state.get("levels", {}).items()):
+        try:
+            levels = content.levels(lang)
+        except Exception:  # noqa: BLE001 - a broken content file must not stop anyone from signing in
+            continue
+        new = lv
+        while new in levels and (new + 1) in levels and all(lid in state["completed"] for lid, _ in levels[new]["lessons"]):
+            new += 1
+        if new != lv:
+            set_level(lang, new, state)
+
+
 # ---- Who is asking ---------------------------------------------------------------
 class Session:
     """One learner while a request is handled: id, state and the scored attempts of the lesson in progress."""
@@ -158,6 +172,7 @@ def activate(uid, email=None, name=None):
             saved = _legacy_state()
         is_new = saved is None
         state = _complete(saved)
+        catch_up_levels(state)
         user = state["user"]
         if is_new:
             user["name"] = name or "Learner"

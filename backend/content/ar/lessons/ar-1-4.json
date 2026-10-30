@@ -1,0 +1,256 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "كم عمرك",
+      "ipa": "kam ʿumruk",
+      "pos": "phr.",
+      "meaning": "how old are you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "كم عمرك يا سامي؟",
+          "en": "How old are you, Sami?"
+        },
+        {
+          "target": "عفوا، كم عمرك؟",
+          "en": "Excuse me, how old are you?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "عمري",
+      "ipa": "ʿumrī",
+      "pos": "n.",
+      "meaning": "my age",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "عمري عشرون سنة.",
+          "en": "I am twenty years old."
+        },
+        {
+          "target": "عمري ثلاثون سنة.",
+          "en": "I am thirty years old."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "سنة",
+      "ipa": "sana",
+      "pos": "f. n.",
+      "meaning": "year",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أتعلم العربية منذ سنة.",
+          "en": "I've been learning Arabic for a year."
+        },
+        {
+          "target": "هذه سنة جديدة.",
+          "en": "This is a new year."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "عشرون",
+      "ipa": "ʿishrūn",
+      "pos": "num.",
+      "meaning": "twenty",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "عندي عشرون كتابا.",
+          "en": "I have twenty books."
+        },
+        {
+          "target": "في الصف عشرون طالبا.",
+          "en": "There are twenty students in the class."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "أخ",
+      "ipa": "akh",
+      "pos": "m. n.",
+      "meaning": "brother",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "عندي أخ كبير.",
+          "en": "I have an older brother."
+        },
+        {
+          "target": "أخي يسكن في دبي.",
+          "en": "My brother lives in Dubai."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "أخت",
+      "ipa": "ukht",
+      "pos": "f. n.",
+      "meaning": "sister",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أختي طالبة في الجامعة.",
+          "en": "My sister is a university student."
+        },
+        {
+          "target": "عندي أخت صغيرة.",
+          "en": "I have a little sister."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "عيد ميلاد",
+      "ipa": "ʿīd mīlād",
+      "pos": "m. n.",
+      "meaning": "birthday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "عيد ميلادي في مايو.",
+          "en": "My birthday is in May."
+        },
+        {
+          "target": "عيد ميلاد سعيد!",
+          "en": "Happy birthday!"
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "كم عمرك؟",
+      "glosses": [
+        {
+          "text": "كم عمرك",
+          "pos": "phr.",
+          "meaning": "how old are you"
+        }
+      ],
+      "id": "t1",
+      "en": "How old are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "عمري خمس وعشرون سنة. وأنت؟",
+      "glosses": [
+        {
+          "text": "عمري",
+          "pos": "n.",
+          "meaning": "my age"
+        },
+        {
+          "text": "سنة",
+          "pos": "f. n.",
+          "meaning": "year"
+        },
+        {
+          "text": "عشرون",
+          "pos": "num.",
+          "meaning": "twenty"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm twenty-five. And you?"
+    },
+    {
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "عمري ثلاثون سنة. عيد ميلادي في مايو.",
+      "glosses": [
+        {
+          "text": "عمري",
+          "pos": "n.",
+          "meaning": "my age"
+        },
+        {
+          "text": "سنة",
+          "pos": "f. n.",
+          "meaning": "year"
+        },
+        {
+          "text": "عيد ميلاد",
+          "pos": "m. n.",
+          "meaning": "birthday"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm thirty. My birthday is in May."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "عيد ميلادي في مايو أيضا! هل عندك إخوة؟",
+      "glosses": [
+        {
+          "text": "عيد ميلاد",
+          "pos": "m. n.",
+          "meaning": "birthday"
+        }
+      ],
+      "id": "t4",
+      "en": "My birthday is in May too! Do you have siblings?"
+    },
+    {
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "نعم، عندي أخ واحد وأخت واحدة.",
+      "glosses": [
+        {
+          "text": "أخ",
+          "pos": "m. n.",
+          "meaning": "brother"
+        },
+        {
+          "text": "أخت",
+          "pos": "f. n.",
+          "meaning": "sister"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have one brother and one sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "عائلة جميلة! عندي أخ واحد فقط.",
+      "glosses": [
+        {
+          "text": "أخ",
+          "pos": "m. n.",
+          "meaning": "brother"
+        }
+      ],
+      "id": "t6",
+      "en": "A lovely family! I only have one brother."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "عشرون",
+      "tip": "Two heavy sounds: ʿish-RŪN, with the 'ʿ' squeezed from the throat",
+      "id": "w1"
+    },
+    {
+      "text": "عيد ميلاد",
+      "tip": "Long 'ī' in both words: ʿīd mī-lād",
+      "id": "w2"
+    }
+  ]
+}

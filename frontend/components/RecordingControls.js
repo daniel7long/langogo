@@ -51,7 +51,7 @@ function Timer() {
 //   recording                   "Listening...": pulsing button with a waveform and a timer (tap to stop)
 //   review                      Retry and Done
 //   uploading / finishing       "Scoring..." / "Saving your result..."
-export default function RecordingControls({ phase, onStart, onStop, onRetry, onDone, onResume, onHear, onHearSlow }) {
+export default function RecordingControls({ phase, onStart, onStop, onRetry, onDone, onResume, onHear, onHearSlow, hideHelpers = false, micDisabled = false, caption }) {
   let body;
   if (phase === 'review') {
     body = (
@@ -112,13 +112,20 @@ export default function RecordingControls({ phase, onStart, onStop, onRetry, onD
     body = (
       <>
         <Text style={styles.title}>Your turn</Text>
-        <Text style={styles.caption}>Tap the microphone when you're ready</Text>
+        <Text style={styles.caption}>{caption ?? "Tap the microphone when you're ready"}</Text>
         <View style={styles.micHost}>
           <View style={styles.halo} pointerEvents="none" />
-          <PressableScale onPress={onStart} accessibilityRole="button" accessibilityLabel="Tap to speak" style={styles.mic}>
+          <PressableScale
+            onPress={micDisabled ? undefined : onStart}
+            accessibilityRole="button"
+            accessibilityLabel="Tap to speak"
+            accessibilityState={{ disabled: micDisabled }}
+            style={[styles.mic, micDisabled && styles.dim]}
+          >
             <Ionicons name="mic" size={36} color={colors.onPrimary} />
           </PressableScale>
         </View>
+        {!hideHelpers && (
         <View style={styles.helpers}>
           <PressableScale onPress={onHear} style={styles.helper} accessibilityRole="button" accessibilityLabel="Hear it again">
             <Ionicons name="volume-high-outline" size={18} color={colors.primary} />
@@ -129,6 +136,7 @@ export default function RecordingControls({ phase, onStart, onStop, onRetry, onD
             <Text style={styles.helperText}>Slow</Text>
           </PressableScale>
         </View>
+        )}
       </>
     );
   }

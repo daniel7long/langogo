@@ -1,0 +1,211 @@
+{
+  "emoji": "☕",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "النادل",
+      "ipa": "an-nādil",
+      "pos": "m. n.",
+      "meaning": "waiter",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "النادل يحضر القائمة.",
+          "en": "The waiter brings the menu."
+        },
+        {
+          "target": "نادي النادل من فضلك.",
+          "en": "Call the waiter please."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "كابتشينو",
+      "ipa": "kābtashīnū",
+      "pos": "m. n.",
+      "meaning": "cappuccino",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "كابتشينو واحد من فضلك.",
+          "en": "One cappuccino, please."
+        },
+        {
+          "target": "أشرب كابتشينو في الصباح.",
+          "en": "I drink cappuccino in the morning."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "سكر",
+      "ipa": "sukkar",
+      "pos": "m. n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "بدون سكر من فضلك.",
+          "en": "Without sugar, please."
+        },
+        {
+          "target": "هل تريد سكرا؟",
+          "en": "Do you want sugar?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "طاولة",
+      "ipa": "ṭāwila",
+      "pos": "f. n.",
+      "meaning": "table",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "طاولة لشخصين من فضلك.",
+          "en": "A table for two, please."
+        },
+        {
+          "target": "الطاولة قرب الباب.",
+          "en": "The table is near the door."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "النافذة",
+      "ipa": "an-nāfidha",
+      "pos": "f. n.",
+      "meaning": "window",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "افتح النافذة من فضلك.",
+          "en": "Open the window, please."
+        },
+        {
+          "target": "أحب الجلوس بجانب النافذة.",
+          "en": "I like sitting by the window."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "الحساب",
+      "ipa": "al-ḥisāb",
+      "pos": "m. n.",
+      "meaning": "bill",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "الحساب من فضلك.",
+          "en": "The bill, please."
+        },
+        {
+          "target": "الحساب مرتفع اليوم.",
+          "en": "The bill is high today."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "مرحبا بكم! ماذا تطلبون؟",
+      "glosses": [],
+      "id": "t1",
+      "en": "Welcome! What would you like to order?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "كابتشينو وكرواسون، من فضلك.",
+      "glosses": [
+        {
+          "text": "كابتشينو",
+          "pos": "m. n.",
+          "meaning": "cappuccino"
+        }
+      ],
+      "id": "t2",
+      "en": "A cappuccino and a croissant, please."
+    },
+    {
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "حاضر. مع سكر أم بدون سكر؟",
+      "glosses": [
+        {
+          "text": "سكر",
+          "pos": "m. n.",
+          "meaning": "sugar"
+        }
+      ],
+      "id": "t3",
+      "en": "Right away. With sugar or without sugar?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "بدون سكر. هل توجد طاولة بجانب النافذة؟",
+      "glosses": [
+        {
+          "text": "سكر",
+          "pos": "m. n.",
+          "meaning": "sugar"
+        },
+        {
+          "text": "طاولة",
+          "pos": "f. n.",
+          "meaning": "table"
+        },
+        {
+          "text": "النافذة",
+          "pos": "f. n.",
+          "meaning": "window"
+        }
+      ],
+      "id": "t4",
+      "en": "Without sugar. Is there a table next to the window?"
+    },
+    {
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "نعم، تفضلوا بالجلوس.",
+      "glosses": [],
+      "id": "t5",
+      "en": "Yes, please have a seat."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "شكرا جزيلا. أريد الحساب بعد قليل.",
+      "glosses": [
+        {
+          "text": "الحساب",
+          "pos": "m. n.",
+          "meaning": "bill"
+        }
+      ],
+      "id": "t6",
+      "en": "Thank you very much. I'd like the bill in a little while."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "طاولة",
+      "tip": "The 'ṭ' is a heavy 't': ṬĀ-wi-la",
+      "id": "w1"
+    },
+    {
+      "text": "الحساب",
+      "tip": "Breathy 'ḥ' from the throat: al-ḥi-SĀB",
+      "id": "w2"
+    }
+  ]
+}

@@ -32,7 +32,7 @@ function tintParts(text, words) {
 //  - after scoring, each word is tinted by its score and the line gets a score chip
 //  - dashed-underlined words are tappable and show their meaning
 export default function ChatBubble({
-  turn, highlighted, playing, yourTurn, hasRecording, replaying, score, wordScores, showTranslation, waiting, onPlayLine, onPlayRecording,
+  turn, highlighted, playing, yourTurn, hasRecording, replaying, score, wordScores, showTranslation, waiting, onPlayLine, onPlayRecording, rtl = false,
 }) {
   const mine = turn.role === 'you';
   const [openGloss, setOpenGloss] = useState(null);
@@ -40,7 +40,7 @@ export default function ChatBubble({
   const tint = useMemo(() => (score != null ? tintParts(turn.text, wordScores) : null), [turn, score, wordScores]);
 
   const body = (
-    <Text style={styles.text}>
+    <Text style={[styles.text, rtl && { writingDirection: 'rtl' }]}>
       {tint
         ? tint.map((p, i) =>
             p.score != null ? (

@@ -1,0 +1,235 @@
+{
+  "emoji": "🏠",
+  "max_flowers": 45,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "word": "le télétravail",
+      "ipa": "/lə te.le.tʁa.vaj/",
+      "pos": "m. n.",
+      "meaning": "remote work",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Je fais du télétravail deux jours par semaine.",
+          "en": "I work remotely two days a week."
+        },
+        {
+          "fr": "Le télétravail a changé nos habitudes.",
+          "en": "Remote work has changed our habits."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la visioconférence",
+      "ipa": "/la vi.zjo.kɔ̃.fe.ʁɑ̃s/",
+      "pos": "f. n.",
+      "meaning": "video call",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "La réunion se tient en visioconférence.",
+          "en": "The meeting is held by video call."
+        },
+        {
+          "fr": "Rejoignez la visioconférence à dix heures.",
+          "en": "Join the video call at ten."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la connexion",
+      "ipa": "/la kɔ.nɛk.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "connection",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Ma connexion est très lente aujourd'hui.",
+          "en": "My connection is very slow today."
+        },
+        {
+          "fr": "La connexion a été coupée.",
+          "en": "The connection was cut off."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "les horaires flexibles",
+      "ipa": "/le zɔ.ʁɛʁ flɛk.sibl/",
+      "pos": "m. n. pl.",
+      "meaning": "flexible hours",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Nous proposons des horaires flexibles.",
+          "en": "We offer flexible hours."
+        },
+        {
+          "fr": "Les horaires flexibles m'aident beaucoup.",
+          "en": "Flexible hours help me a lot."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "l'échéance",
+      "ipa": "/le.ʃe.ɑ̃s/",
+      "pos": "f. n.",
+      "meaning": "deadline",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "L'échéance est fixée à vendredi.",
+          "en": "The deadline is set for Friday."
+        },
+        {
+          "fr": "Nous avons respecté toutes les échéances.",
+          "en": "We met all the deadlines."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "se déconnecter",
+      "ipa": "/sə de.kɔ.nɛk.te/",
+      "pos": "v.",
+      "meaning": "to switch off, to disconnect",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Il est important de se déconnecter le soir.",
+          "en": "It's important to switch off in the evening."
+        },
+        {
+          "fr": "Je me déconnecte à dix-huit heures.",
+          "en": "I log off at six p.m."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "l'équilibre",
+      "ipa": "/le.ki.libʁ/",
+      "pos": "m. n.",
+      "meaning": "balance",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Je cherche un meilleur équilibre de vie.",
+          "en": "I'm looking for a better life balance."
+        },
+        {
+          "fr": "Cet équilibre est difficile à trouver.",
+          "en": "This balance is hard to find."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Tu fais encore du télétravail cette semaine ?",
+      "glosses": [
+        {
+          "text": "télétravail",
+          "pos": "m. n.",
+          "meaning": "remote work"
+        }
+      ],
+      "id": "t1",
+      "en": "Are you working remotely again this week?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, trois jours. Mais ma connexion est parfois très lente.",
+      "glosses": [
+        {
+          "text": "connexion",
+          "pos": "f. n.",
+          "meaning": "connection"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, three days. But my connection is sometimes very slow."
+    },
+    {
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Moi, j'aime les horaires flexibles, mais l'échéance du projet me stresse.",
+      "glosses": [
+        {
+          "text": "les horaires flexibles",
+          "pos": "m. n. pl.",
+          "meaning": "flexible hours"
+        },
+        {
+          "text": "l'échéance",
+          "pos": "f. n.",
+          "meaning": "deadline"
+        }
+      ],
+      "id": "t3",
+      "en": "I like flexible hours, but the project deadline stresses me."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Il faut savoir se déconnecter le soir pour garder un bon équilibre.",
+      "glosses": [
+        {
+          "text": "se déconnecter",
+          "pos": "v.",
+          "meaning": "to switch off, to disconnect"
+        },
+        {
+          "text": "équilibre",
+          "pos": "m. n.",
+          "meaning": "balance"
+        }
+      ],
+      "id": "t4",
+      "en": "You have to know how to switch off in the evening to keep a good balance."
+    },
+    {
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Tu as raison. On se retrouve en visioconférence demain matin ?",
+      "glosses": [
+        {
+          "text": "visioconférence",
+          "pos": "f. n.",
+          "meaning": "video call"
+        }
+      ],
+      "id": "t5",
+      "en": "You're right. Shall we meet by video call tomorrow morning?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "D'accord, à neuf heures. J'enverrai le lien ce soir.",
+      "glosses": [],
+      "id": "t6",
+      "en": "Okay, at nine. I'll send the link this evening."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "la visioconférence",
+      "tip": "Five syllables: vi-zyo-kon-fé-RENSS",
+      "id": "w1"
+    },
+    {
+      "text": "l'équilibre",
+      "tip": "Stress the last syllable: lé-ki-LIBR",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "emoji": "📱",
+  "max_flowers": 50,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "word": "l'intelligence artificielle",
+      "ipa": "/lɛ̃.tɛ.li.ʒɑ̃s aʁ.ti.fi.sjɛl/",
+      "pos": "f. n.",
+      "meaning": "artificial intelligence",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "L'intelligence artificielle transforme notre travail.",
+          "en": "Artificial intelligence is transforming our work."
+        },
+        {
+          "fr": "Que pensez-vous de l'intelligence artificielle ?",
+          "en": "What do you think of artificial intelligence?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "les réseaux sociaux",
+      "ipa": "/le ʁe.zo so.sjo/",
+      "pos": "m. n. pl.",
+      "meaning": "social media",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Je passe trop de temps sur les réseaux sociaux.",
+          "en": "I spend too much time on social media."
+        },
+        {
+          "fr": "Les réseaux sociaux influencent l'opinion.",
+          "en": "Social media influences opinion."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la vie privée",
+      "ipa": "/la vi pʁi.ve/",
+      "pos": "f. n.",
+      "meaning": "privacy",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Il faut protéger sa vie privée en ligne.",
+          "en": "You must protect your privacy online."
+        },
+        {
+          "fr": "Cette application respecte ma vie privée.",
+          "en": "This app respects my privacy."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "les données",
+      "ipa": "/le dɔ.ne/",
+      "pos": "f. n. pl.",
+      "meaning": "data",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Nos données personnelles sont collectées.",
+          "en": "Our personal data is collected."
+        },
+        {
+          "fr": "Où sont stockées mes données ?",
+          "en": "Where is my data stored?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "la dépendance",
+      "ipa": "/la de.pɑ̃.dɑ̃s/",
+      "pos": "f. n.",
+      "meaning": "dependence, addiction",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "La dépendance aux écrans inquiète les parents.",
+          "en": "Screen dependence worries parents."
+        },
+        {
+          "fr": "Cette dépendance se développe vite.",
+          "en": "This dependence develops quickly."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "numérique",
+      "ipa": "/ny.me.ʁik/",
+      "pos": "adj.",
+      "meaning": "digital",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "L'école numérique se généralise.",
+          "en": "Digital schooling is becoming widespread."
+        },
+        {
+          "fr": "Nous vivons à l'ère numérique.",
+          "en": "We live in the digital age."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "fiable",
+      "ipa": "/fjabl/",
+      "pos": "adj.",
+      "meaning": "reliable",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Cette source n'est pas très fiable.",
+          "en": "This source isn't very reliable."
+        },
+        {
+          "fr": "Je cherche une information fiable.",
+          "en": "I'm looking for reliable information."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samir",
+      "role": "npc",
+      "text": "Tu utilises l'intelligence artificielle dans ton travail ?",
+      "glosses": [
+        {
+          "text": "l'intelligence artificielle",
+          "pos": "f. n.",
+          "meaning": "artificial intelligence"
+        }
+      ],
+      "id": "t1",
+      "en": "Do you use artificial intelligence in your work?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, souvent, mais je vérifie toujours si l'information est fiable.",
+      "glosses": [
+        {
+          "text": "fiable",
+          "pos": "adj.",
+          "meaning": "reliable"
+        }
+      ],
+      "id": "t2",
+      "en": "Yes, often, but I always check whether the information is reliable."
+    },
+    {
+      "speaker": "Samir",
+      "role": "npc",
+      "text": "Moi, je m'inquiète pour mes données et ma vie privée.",
+      "glosses": [
+        {
+          "text": "vie privée",
+          "pos": "f. n.",
+          "meaning": "privacy"
+        },
+        {
+          "text": "données",
+          "pos": "f. n. pl.",
+          "meaning": "data"
+        }
+      ],
+      "id": "t3",
+      "en": "Me, I worry about my data and my privacy."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est légitime. Je passe aussi trop de temps sur les réseaux sociaux.",
+      "glosses": [
+        {
+          "text": "les réseaux sociaux",
+          "pos": "m. n. pl.",
+          "meaning": "social media"
+        }
+      ],
+      "id": "t4",
+      "en": "That's legitimate. I also spend too much time on social media."
+    },
+    {
+      "speaker": "Samir",
+      "role": "npc",
+      "text": "La dépendance aux écrans est un vrai problème de société.",
+      "glosses": [
+        {
+          "text": "dépendance",
+          "pos": "f. n.",
+          "meaning": "dependence, addiction"
+        }
+      ],
+      "id": "t5",
+      "en": "Screen dependence is a real social problem."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je suis d'accord. Il faut mieux éduquer à l'usage du numérique.",
+      "glosses": [
+        {
+          "text": "numérique",
+          "pos": "adj.",
+          "meaning": "digital"
+        }
+      ],
+      "id": "t6",
+      "en": "I agree. We need to teach digital use better."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "fiable",
+      "tip": "Two syllables: FYA-bl, with the 'i' as a quick 'y'",
+      "id": "w1"
+    },
+    {
+      "text": "les données",
+      "tip": "Say lé do-NÉ: short vowels, and the final 's' is silent",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "emoji": "💼",
+  "max_flowers": 45,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "word": "le poste",
+      "ipa": "/lə pɔst/",
+      "pos": "m. n.",
+      "meaning": "position, job",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Je postule pour le poste de designer.",
+          "en": "I'm applying for the designer position."
+        },
+        {
+          "fr": "Ce poste demande beaucoup d'autonomie.",
+          "en": "This position requires a lot of autonomy."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "l'expérience",
+      "ipa": "/lɛk.spe.ʁjɑ̃s/",
+      "pos": "f. n.",
+      "meaning": "experience",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "J'ai cinq ans d'expérience dans ce domaine.",
+          "en": "I have five years of experience in this field."
+        },
+        {
+          "fr": "Votre expérience nous intéresse beaucoup.",
+          "en": "Your experience interests us a lot."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "les compétences",
+      "ipa": "/le kɔ̃.pe.tɑ̃s/",
+      "pos": "f. n. pl.",
+      "meaning": "skills",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Mes compétences en gestion sont solides.",
+          "en": "My management skills are solid."
+        },
+        {
+          "fr": "Quelles compétences faut-il développer ?",
+          "en": "Which skills do you need to develop?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "se présenter",
+      "ipa": "/sə pʁe.zɑ̃.te/",
+      "pos": "v.",
+      "meaning": "to introduce oneself",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Pouvez-vous vous présenter en deux minutes ?",
+          "en": "Can you introduce yourself in two minutes?"
+        },
+        {
+          "fr": "Je me présente : Daniel Long.",
+          "en": "Let me introduce myself: Daniel Long."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "le point fort",
+      "ipa": "/lə pwɛ̃ fɔʁ/",
+      "pos": "m. n.",
+      "meaning": "strength",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Mon point fort, c'est l'écoute.",
+          "en": "My strength is listening."
+        },
+        {
+          "fr": "Quel est votre principal point fort ?",
+          "en": "What is your main strength?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "le salaire",
+      "ipa": "/lə sa.lɛʁ/",
+      "pos": "m. n.",
+      "meaning": "salary",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Quel est le salaire proposé ?",
+          "en": "What is the salary on offer?"
+        },
+        {
+          "fr": "Le salaire dépend de l'expérience.",
+          "en": "The salary depends on experience."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "embaucher",
+      "ipa": "/ɑ̃.bo.ʃe/",
+      "pos": "v.",
+      "meaning": "to hire",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Nous voulons embaucher deux personnes.",
+          "en": "We want to hire two people."
+        },
+        {
+          "fr": "L'entreprise embauche au printemps.",
+          "en": "The company hires in the spring."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mme Roux",
+      "role": "npc",
+      "text": "Bonjour, merci d'être venu. Pouvez-vous vous présenter ?",
+      "glosses": [
+        {
+          "text": "présenter",
+          "pos": "v.",
+          "meaning": "to introduce oneself"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello, thank you for coming. Can you introduce yourself?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bien sûr. J'ai cinq ans d'expérience dans le marketing.",
+      "glosses": [
+        {
+          "text": "expérience",
+          "pos": "f. n.",
+          "meaning": "experience"
+        }
+      ],
+      "id": "t2",
+      "en": "Of course. I have five years of experience in marketing."
+    },
+    {
+      "speaker": "Mme Roux",
+      "role": "npc",
+      "text": "Très bien. Quel est votre principal point fort ?",
+      "glosses": [
+        {
+          "text": "point fort",
+          "pos": "m. n.",
+          "meaning": "strength"
+        }
+      ],
+      "id": "t3",
+      "en": "Very good. What is your main strength?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je suis organisé, et mes compétences en communication sont solides.",
+      "glosses": [
+        {
+          "text": "compétences",
+          "pos": "f. n. pl.",
+          "meaning": "skills"
+        }
+      ],
+      "id": "t4",
+      "en": "I'm organised, and my communication skills are solid."
+    },
+    {
+      "speaker": "Mme Roux",
+      "role": "npc",
+      "text": "Parfait. Nous voulons embaucher quelqu'un dès le mois prochain.",
+      "glosses": [
+        {
+          "text": "embaucher",
+          "pos": "v.",
+          "meaning": "to hire"
+        }
+      ],
+      "id": "t5",
+      "en": "Perfect. We want to hire someone as early as next month."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Cela me convient. Pourriez-vous me parler du salaire ?",
+      "glosses": [
+        {
+          "text": "salaire",
+          "pos": "m. n.",
+          "meaning": "salary"
+        }
+      ],
+      "id": "t6",
+      "en": "That suits me. Could you tell me about the salary?"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "les compétences",
+      "tip": "Nasal 'on' in 'compétences', and the final 'ces' sounds like 'sse'",
+      "id": "w1"
+    },
+    {
+      "text": "l'expérience",
+      "tip": "Link 'l'' to the vowel: lèk-spé-ri-ENSS",
+      "id": "w2"
+    }
+  ]
+}

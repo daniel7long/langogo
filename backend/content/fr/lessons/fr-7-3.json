@@ -1,0 +1,236 @@
+{
+  "emoji": "🤝",
+  "max_flowers": 45,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "word": "négocier",
+      "ipa": "/ne.ɡɔ.sje/",
+      "pos": "v.",
+      "meaning": "to negotiate",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Nous devons négocier le prix.",
+          "en": "We have to negotiate the price."
+        },
+        {
+          "fr": "Elle négocie très bien.",
+          "en": "She negotiates very well."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "la proposition",
+      "ipa": "/la pʁɔ.pɔ.zi.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "proposal, offer",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Votre proposition est intéressante.",
+          "en": "Your proposal is interesting."
+        },
+        {
+          "fr": "Nous étudions cette proposition.",
+          "en": "We are studying this proposal."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "le tarif",
+      "ipa": "/lə ta.ʁif/",
+      "pos": "m. n.",
+      "meaning": "rate, price list",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Le tarif est trop élevé.",
+          "en": "The rate is too high."
+        },
+        {
+          "fr": "Pouvez-vous m'envoyer vos tarifs ?",
+          "en": "Can you send me your rates?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "la remise",
+      "ipa": "/la ʁə.miz/",
+      "pos": "f. n.",
+      "meaning": "discount",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Nous offrons une remise de dix pour cent.",
+          "en": "We offer a ten percent discount."
+        },
+        {
+          "fr": "Une remise est possible pour un gros volume.",
+          "en": "A discount is possible for a large volume."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "un compromis",
+      "ipa": "/ɛ̃ kɔ̃.pʁɔ.mi/",
+      "pos": "m. n.",
+      "meaning": "compromise",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Trouvons un compromis acceptable.",
+          "en": "Let's find an acceptable compromise."
+        },
+        {
+          "fr": "Ce compromis nous convient à tous.",
+          "en": "This compromise suits all of us."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "le contrat",
+      "ipa": "/lə kɔ̃.tʁa/",
+      "pos": "m. n.",
+      "meaning": "contract",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Le contrat doit être signé vendredi.",
+          "en": "The contract must be signed on Friday."
+        },
+        {
+          "fr": "Relisez bien le contrat.",
+          "en": "Read the contract carefully."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "conclure un accord",
+      "ipa": "/kɔ̃.klyʁ ɛ̃ na.kɔʁ/",
+      "pos": "phr.",
+      "meaning": "to reach an agreement",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Nous espérons conclure un accord rapidement.",
+          "en": "We hope to reach an agreement quickly."
+        },
+        {
+          "fr": "Ils ont conclu un accord hier.",
+          "en": "They reached an agreement yesterday."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mme Faure",
+      "role": "npc",
+      "text": "Votre tarif est trop élevé pour notre budget cette année.",
+      "glosses": [
+        {
+          "text": "tarif",
+          "pos": "m. n.",
+          "meaning": "rate, price list"
+        }
+      ],
+      "id": "t1",
+      "en": "Your rate is too high for our budget this year."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Je comprends. Je peux proposer une remise de dix pour cent.",
+      "glosses": [
+        {
+          "text": "remise",
+          "pos": "f. n.",
+          "meaning": "discount"
+        }
+      ],
+      "id": "t2",
+      "en": "I understand. I can offer a ten percent discount."
+    },
+    {
+      "speaker": "Mme Faure",
+      "role": "npc",
+      "text": "C'est un bon début, mais nous cherchons un vrai compromis.",
+      "glosses": [
+        {
+          "text": "compromis",
+          "pos": "m. n.",
+          "meaning": "compromise"
+        }
+      ],
+      "id": "t3",
+      "en": "That's a good start, but we're looking for a real compromise."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Si vous signez le contrat pour deux ans, je peux négocier davantage.",
+      "glosses": [
+        {
+          "text": "négocier",
+          "pos": "v.",
+          "meaning": "to negotiate"
+        },
+        {
+          "text": "le contrat",
+          "pos": "m. n.",
+          "meaning": "contract"
+        }
+      ],
+      "id": "t4",
+      "en": "If you sign the contract for two years, I can negotiate further."
+    },
+    {
+      "speaker": "Mme Faure",
+      "role": "npc",
+      "text": "Cette proposition nous intéresse. Pouvez-vous l'envoyer par écrit ?",
+      "glosses": [
+        {
+          "text": "proposition",
+          "pos": "f. n.",
+          "meaning": "proposal, offer"
+        }
+      ],
+      "id": "t5",
+      "en": "This proposal interests us. Can you send it in writing?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bien sûr. J'espère que nous allons conclure un accord rapidement.",
+      "glosses": [
+        {
+          "text": "conclure un accord",
+          "pos": "phr.",
+          "meaning": "to reach an agreement"
+        }
+      ],
+      "id": "t6",
+      "en": "Of course. I hope we will reach an agreement quickly."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "un compromis",
+      "tip": "The final 's' is silent: kon-pro-MI",
+      "id": "w1"
+    },
+    {
+      "text": "la remise",
+      "tip": "Soft 'r' at the back of the throat: ruh-MEEZ",
+      "id": "w2"
+    }
+  ]
+}

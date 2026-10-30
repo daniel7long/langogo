@@ -1,0 +1,227 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "أستيقظ",
+      "ipa": "astayqiẓ",
+      "pos": "v.",
+      "meaning": "I wake up",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أستيقظ في الساعة السادسة.",
+          "en": "I wake up at six o'clock."
+        },
+        {
+          "target": "أستيقظ مبكرا كل يوم.",
+          "en": "I wake up early every day."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "الفطور",
+      "ipa": "al-futūr",
+      "pos": "m. n.",
+      "meaning": "breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "الفطور جاهز.",
+          "en": "Breakfast is ready."
+        },
+        {
+          "target": "أتناول الفطور في البيت.",
+          "en": "I have breakfast at home."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "القهوة",
+      "ipa": "al-qahwa",
+      "pos": "f. n.",
+      "meaning": "coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أحب القهوة العربية.",
+          "en": "I love Arabic coffee."
+        },
+        {
+          "target": "القهوة ساخنة.",
+          "en": "The coffee is hot."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "أستحم",
+      "ipa": "astaḥimm",
+      "pos": "v.",
+      "meaning": "I take a shower",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أستحم كل صباح.",
+          "en": "I take a shower every morning."
+        },
+        {
+          "target": "أستحم بعد الرياضة.",
+          "en": "I shower after exercise."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "أخرج",
+      "ipa": "akhruj",
+      "pos": "v.",
+      "meaning": "I go out, I leave",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أخرج من البيت في الثامنة.",
+          "en": "I leave the house at eight."
+        },
+        {
+          "target": "أخرج مع أصدقائي.",
+          "en": "I go out with my friends."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "مبكرا",
+      "ipa": "mubakkiran",
+      "pos": "adv.",
+      "meaning": "early",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أنام مبكرا.",
+          "en": "I go to sleep early."
+        },
+        {
+          "target": "وصلت مبكرا اليوم.",
+          "en": "I arrived early today."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Dina",
+      "role": "npc",
+      "text": "في أي ساعة يبدأ يومك؟",
+      "glosses": [],
+      "id": "t1",
+      "en": "What time does your day start?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "أستيقظ في الساعة السابعة وأتناول الفطور.",
+      "glosses": [
+        {
+          "text": "أستيقظ",
+          "pos": "v.",
+          "meaning": "I wake up"
+        },
+        {
+          "text": "الفطور",
+          "pos": "m. n.",
+          "meaning": "breakfast"
+        }
+      ],
+      "id": "t2",
+      "en": "I wake up at seven and have breakfast."
+    },
+    {
+      "speaker": "Dina",
+      "role": "npc",
+      "text": "القهوة أم الشاي في الصباح؟",
+      "glosses": [
+        {
+          "text": "القهوة",
+          "pos": "f. n.",
+          "meaning": "coffee"
+        }
+      ],
+      "id": "t3",
+      "en": "Coffee or tea in the morning?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "أشرب القهوة دائما، ثم أستحم.",
+      "glosses": [
+        {
+          "text": "القهوة",
+          "pos": "f. n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "أستحم",
+          "pos": "v.",
+          "meaning": "I take a shower"
+        }
+      ],
+      "id": "t4",
+      "en": "I always drink coffee, then I take a shower."
+    },
+    {
+      "speaker": "Dina",
+      "role": "npc",
+      "text": "أنا أخرج من البيت في الساعة الثامنة.",
+      "glosses": [
+        {
+          "text": "أخرج",
+          "pos": "v.",
+          "meaning": "I go out, I leave"
+        }
+      ],
+      "id": "t5",
+      "en": "I leave the house at eight."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "أنا أخرج في التاسعة، لكني أستيقظ مبكرا.",
+      "glosses": [
+        {
+          "text": "أستيقظ",
+          "pos": "v.",
+          "meaning": "I wake up"
+        },
+        {
+          "text": "أخرج",
+          "pos": "v.",
+          "meaning": "I go out, I leave"
+        },
+        {
+          "text": "مبكرا",
+          "pos": "adv.",
+          "meaning": "early"
+        }
+      ],
+      "id": "t6",
+      "en": "I leave at nine, but I wake up early."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "أستيقظ",
+      "tip": "The 'q' is a deep 'k': as-tay-QIẒ, with a heavy 'ẓ' at the end",
+      "id": "w1"
+    },
+    {
+      "text": "القهوة",
+      "tip": "Stress the first syllable and breathe the 'h': al-QAH-wa",
+      "id": "w2"
+    }
+  ]
+}

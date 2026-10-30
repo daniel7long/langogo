@@ -1,0 +1,213 @@
+{
+  "emoji": "❤️",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "المفضل",
+      "ipa": "al-mufaḍḍal",
+      "pos": "adj.",
+      "meaning": "favourite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "ما لونك المفضل؟",
+          "en": "What is your favourite colour?"
+        },
+        {
+          "target": "هذا طبقي المفضل.",
+          "en": "This is my favourite dish."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "لذيذ",
+      "ipa": "ladhīdh",
+      "pos": "adj.",
+      "meaning": "delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "الطعام لذيذ جدا.",
+          "en": "The food is very delicious."
+        },
+        {
+          "target": "هذا الكعك لذيذ.",
+          "en": "These cakes are delicious."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "أفضل",
+      "ipa": "ufaḍḍil",
+      "pos": "v.",
+      "meaning": "I prefer",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أفضل الشاي على القهوة.",
+          "en": "I prefer tea to coffee."
+        },
+        {
+          "target": "أفضل الطبخ في البيت.",
+          "en": "I prefer cooking at home."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "الطبخ",
+      "ipa": "aṭ-ṭabkh",
+      "pos": "m. n.",
+      "meaning": "cooking",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "الطبخ هوايتي.",
+          "en": "Cooking is my hobby."
+        },
+        {
+          "target": "أتعلم الطبخ من أمي.",
+          "en": "I learn cooking from my mother."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "وصفة",
+      "ipa": "waṣfa",
+      "pos": "f. n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "هذه وصفة جدتي.",
+          "en": "This is my grandmother's recipe."
+        },
+        {
+          "target": "أعطني الوصفة من فضلك.",
+          "en": "Give me the recipe, please."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "أطبخ",
+      "ipa": "aṭbukh",
+      "pos": "v.",
+      "meaning": "I cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أطبخ العشاء كل ليلة.",
+          "en": "I cook dinner every night."
+        },
+        {
+          "target": "أطبخ الأرز مع الدجاج.",
+          "en": "I cook rice with chicken."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hassan",
+      "role": "npc",
+      "text": "ما طبقك المفضل؟",
+      "glosses": [
+        {
+          "text": "المفضل",
+          "pos": "adj.",
+          "meaning": "favourite"
+        }
+      ],
+      "id": "t1",
+      "en": "What's your favourite dish?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "أحب البيتزا كثيرا، فهي لذيذة جدا.",
+      "glosses": [
+        {
+          "text": "لذيذ",
+          "pos": "adj.",
+          "meaning": "delicious"
+        }
+      ],
+      "id": "t2",
+      "en": "I love pizza a lot, it's very delicious."
+    },
+    {
+      "speaker": "Hassan",
+      "role": "npc",
+      "text": "أنا أفضل الكسكس الذي تطبخه جدتي.",
+      "glosses": [
+        {
+          "text": "أفضل",
+          "pos": "v.",
+          "meaning": "I prefer"
+        }
+      ],
+      "id": "t3",
+      "en": "I prefer the couscous that my grandmother cooks."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "وهل الطبخ هوايتك أيضا؟",
+      "glosses": [
+        {
+          "text": "الطبخ",
+          "pos": "m. n.",
+          "meaning": "cooking"
+        }
+      ],
+      "id": "t4",
+      "en": "And is cooking your hobby too?"
+    },
+    {
+      "speaker": "Hassan",
+      "role": "npc",
+      "text": "نعم، عندي وصفة العائلة. وأنت؟",
+      "glosses": [
+        {
+          "text": "وصفة",
+          "pos": "f. n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have the family recipe. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "أطبخ المكرونة فقط، لكني أتعلم!",
+      "glosses": [
+        {
+          "text": "أطبخ",
+          "pos": "v.",
+          "meaning": "I cook"
+        }
+      ],
+      "id": "t6",
+      "en": "I only cook pasta, but I'm learning!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "لذيذ",
+      "tip": "The 'dh' is a soft 'th' as in 'this': la-DHĪDH",
+      "id": "w1"
+    },
+    {
+      "text": "المفضل",
+      "tip": "Doubled 'ḍḍ' is long and heavy: al-mu-faḍ-ḍal",
+      "id": "w2"
+    }
+  ]
+}

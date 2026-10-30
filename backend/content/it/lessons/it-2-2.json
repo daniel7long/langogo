@@ -1,0 +1,212 @@
+{
+  "emoji": "🕐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "che ore sono",
+      "ipa": "/ke ˈo.re ˈso.no/",
+      "pos": "phr.",
+      "meaning": "what time is it",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Scusi, che ore sono?",
+          "en": "Excuse me, what time is it?"
+        },
+        {
+          "target": "Che ore sono adesso?",
+          "en": "What time is it now?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "e mezza",
+      "ipa": "/e ˈmɛd.dza/",
+      "pos": "phr.",
+      "meaning": "half past",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Sono le tre e mezza.",
+          "en": "It's half past three."
+        },
+        {
+          "target": "Arrivo alle sei e mezza.",
+          "en": "I arrive at half past six."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "in punto",
+      "ipa": "/in ˈpun.to/",
+      "pos": "phr.",
+      "meaning": "sharp, on the dot",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Sono le sette in punto.",
+          "en": "It's seven o'clock sharp."
+        },
+        {
+          "target": "Il film inizia alle otto in punto.",
+          "en": "The film starts at eight sharp."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "in ritardo",
+      "ipa": "/in riˈtar.do/",
+      "pos": "phr.",
+      "meaning": "late",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Scusa, sono in ritardo.",
+          "en": "Sorry, I'm late."
+        },
+        {
+          "target": "Il treno è in ritardo.",
+          "en": "The train is late."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "mezz'ora",
+      "ipa": "/mɛdˈdzo.ra/",
+      "pos": "f. n.",
+      "meaning": "half an hour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Aspetto da mezz'ora.",
+          "en": "I've been waiting for half an hour."
+        },
+        {
+          "target": "Ci vuole mezz'ora.",
+          "en": "It takes half an hour."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "partire",
+      "ipa": "/parˈti.re/",
+      "pos": "v.",
+      "meaning": "to leave, to depart",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Il treno parte alle quattro.",
+          "en": "The train leaves at four."
+        },
+        {
+          "target": "Quando parti per Roma?",
+          "en": "When are you leaving for Rome?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Paolo",
+      "role": "npc",
+      "text": "Scusa, che ore sono?",
+      "glosses": [
+        {
+          "text": "che ore sono",
+          "pos": "phr.",
+          "meaning": "what time is it"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sono le tre e mezza.",
+      "glosses": [
+        {
+          "text": "e mezza",
+          "pos": "phr.",
+          "meaning": "half past"
+        }
+      ],
+      "id": "t2",
+      "en": "It's half past three."
+    },
+    {
+      "speaker": "Paolo",
+      "role": "npc",
+      "text": "Il treno parte alle quattro. Siamo in ritardo?",
+      "glosses": [
+        {
+          "text": "in ritardo",
+          "pos": "phr.",
+          "meaning": "late"
+        },
+        {
+          "text": "parte",
+          "pos": "v.",
+          "meaning": "to leave, to depart"
+        }
+      ],
+      "id": "t3",
+      "en": "The train leaves at four. Are we late?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "No, abbiamo ancora mezz'ora.",
+      "glosses": [
+        {
+          "text": "mezz'ora",
+          "pos": "f. n.",
+          "meaning": "half an hour"
+        }
+      ],
+      "id": "t4",
+      "en": "No, we still have half an hour."
+    },
+    {
+      "speaker": "Paolo",
+      "role": "npc",
+      "text": "Meno male! A che ora arriviamo a Firenze?",
+      "glosses": [],
+      "id": "t5",
+      "en": "Thank goodness! What time do we get to Florence?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Arriviamo alle sei in punto.",
+      "glosses": [
+        {
+          "text": "in punto",
+          "pos": "phr.",
+          "meaning": "sharp, on the dot"
+        }
+      ],
+      "id": "t6",
+      "en": "We arrive at six sharp."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "mezz'ora",
+      "tip": "Say med-DZO-ra, with a strong double 'z'",
+      "id": "w1"
+    },
+    {
+      "text": "in ritardo",
+      "tip": "Roll the 'r' lightly: in ree-TAR-do",
+      "id": "w2"
+    }
+  ]
+}

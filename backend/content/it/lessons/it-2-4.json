@@ -1,0 +1,216 @@
+{
+  "emoji": "📅",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "la settimana",
+      "ipa": "/la set.tiˈma.na/",
+      "pos": "f. n.",
+      "meaning": "week",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Questa settimana sono molto occupato.",
+          "en": "This week I'm very busy."
+        },
+        {
+          "target": "La settimana prossima parto.",
+          "en": "Next week I'm leaving."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "il fine settimana",
+      "ipa": "/il ˈfi.ne set.tiˈma.na/",
+      "pos": "m. n.",
+      "meaning": "weekend",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Nel fine settimana riposo.",
+          "en": "At the weekend I rest."
+        },
+        {
+          "target": "Che fai nel fine settimana?",
+          "en": "What are you doing at the weekend?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "la palestra",
+      "ipa": "/la paˈlɛ.stra/",
+      "pos": "f. n.",
+      "meaning": "gym",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Vado in palestra tre volte a settimana.",
+          "en": "I go to the gym three times a week."
+        },
+        {
+          "target": "La palestra chiude alle dieci.",
+          "en": "The gym closes at ten."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "incontrare",
+      "ipa": "/in.konˈtra.re/",
+      "pos": "v.",
+      "meaning": "to meet",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Incontro un amico domani.",
+          "en": "I'm meeting a friend tomorrow."
+        },
+        {
+          "target": "Dove ci incontriamo?",
+          "en": "Where shall we meet?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "il cinema",
+      "ipa": "/il ˈtʃi.ne.ma/",
+      "pos": "m. n.",
+      "meaning": "cinema",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Andiamo al cinema stasera?",
+          "en": "Shall we go to the cinema tonight?"
+        },
+        {
+          "target": "Il cinema è vicino a casa.",
+          "en": "The cinema is near home."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "gli amici",
+      "ipa": "/ʎi aˈmi.tʃi/",
+      "pos": "m. n. pl.",
+      "meaning": "friends",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Esco con gli amici.",
+          "en": "I'm going out with friends."
+        },
+        {
+          "target": "Gli amici arrivano alle otto.",
+          "en": "My friends arrive at eight."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Elena",
+      "role": "npc",
+      "text": "Che programmi hai per questa settimana?",
+      "glosses": [
+        {
+          "text": "settimana",
+          "pos": "f. n.",
+          "meaning": "week"
+        }
+      ],
+      "id": "t1",
+      "en": "What plans do you have for this week?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Lunedì ho lezione e mercoledì vado in palestra.",
+      "glosses": [
+        {
+          "text": "palestra",
+          "pos": "f. n.",
+          "meaning": "gym"
+        }
+      ],
+      "id": "t2",
+      "en": "On Monday I have class, and on Wednesday I go to the gym."
+    },
+    {
+      "speaker": "Elena",
+      "role": "npc",
+      "text": "E nel fine settimana?",
+      "glosses": [
+        {
+          "text": "settimana",
+          "pos": "f. n.",
+          "meaning": "week"
+        },
+        {
+          "text": "fine settimana",
+          "pos": "m. n.",
+          "meaning": "weekend"
+        }
+      ],
+      "id": "t3",
+      "en": "And at the weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sabato incontro gli amici e domenica vado al cinema.",
+      "glosses": [
+        {
+          "text": "incontro",
+          "pos": "v.",
+          "meaning": "to meet"
+        },
+        {
+          "text": "cinema",
+          "pos": "m. n.",
+          "meaning": "cinema"
+        },
+        {
+          "text": "gli amici",
+          "pos": "m. n. pl.",
+          "meaning": "friends"
+        }
+      ],
+      "id": "t4",
+      "en": "On Saturday I meet friends, and on Sunday I go to the cinema."
+    },
+    {
+      "speaker": "Elena",
+      "role": "npc",
+      "text": "Che bello! Posso venire con te?",
+      "glosses": [],
+      "id": "t5",
+      "en": "How nice! Can I come with you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Certo, mi fa molto piacere!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Of course, I'd be very happy to!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "la palestra",
+      "tip": "Stress 'les': pa-LES-tra",
+      "id": "w1"
+    },
+    {
+      "text": "gli amici",
+      "tip": "'gli' sounds like 'lli' in 'million': lyee a-MEE-chee",
+      "id": "w2"
+    }
+  ]
+}

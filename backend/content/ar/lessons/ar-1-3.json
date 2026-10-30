@@ -1,0 +1,217 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "من أين أنت",
+      "ipa": "min ayna anta",
+      "pos": "phr.",
+      "meaning": "where are you from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "مرحبا، من أين أنت؟",
+          "en": "Hello, where are you from?"
+        },
+        {
+          "target": "من أين أنت يا ماريا؟",
+          "en": "Where are you from, Maria?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "أنا من",
+      "ipa": "anā min",
+      "pos": "phr.",
+      "meaning": "I am from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أنا من بيروت.",
+          "en": "I am from Beirut."
+        },
+        {
+          "target": "أنا من كندا.",
+          "en": "I am from Canada."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "مدينة",
+      "ipa": "madīna",
+      "pos": "f. n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "القاهرة مدينة كبيرة.",
+          "en": "Cairo is a big city."
+        },
+        {
+          "target": "هذه مدينة جميلة.",
+          "en": "This is a beautiful city."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "أسكن",
+      "ipa": "askun",
+      "pos": "v.",
+      "meaning": "I live",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أسكن في دبي.",
+          "en": "I live in Dubai."
+        },
+        {
+          "target": "أسكن مع عائلتي.",
+          "en": "I live with my family."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "أتكلم",
+      "ipa": "atakallam",
+      "pos": "v.",
+      "meaning": "I speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أتكلم الإنجليزية والعربية.",
+          "en": "I speak English and Arabic."
+        },
+        {
+          "target": "أتكلم قليلا من الفرنسية.",
+          "en": "I speak a little French."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "ببطء",
+      "ipa": "bi-buṭʾ",
+      "pos": "adv.",
+      "meaning": "slowly",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "تكلم ببطء من فضلك.",
+          "en": "Speak slowly please."
+        },
+        {
+          "target": "أمشي ببطء.",
+          "en": "I walk slowly."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sara",
+      "role": "npc",
+      "text": "مرحبا! من أين أنت؟",
+      "glosses": [
+        {
+          "text": "من أين أنت",
+          "pos": "phr.",
+          "meaning": "where are you from"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! Where are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "أنا من الولايات المتحدة. وأنت؟",
+      "glosses": [
+        {
+          "text": "أنا من",
+          "pos": "phr.",
+          "meaning": "I am from"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm from the United States. And you?"
+    },
+    {
+      "speaker": "Sara",
+      "role": "npc",
+      "text": "أنا من القاهرة، لكني أسكن في دبي.",
+      "glosses": [
+        {
+          "text": "أنا من",
+          "pos": "phr.",
+          "meaning": "I am from"
+        },
+        {
+          "text": "أسكن",
+          "pos": "v.",
+          "meaning": "I live"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm from Cairo, but I live in Dubai."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "القاهرة مدينة جميلة جدا!",
+      "glosses": [
+        {
+          "text": "مدينة",
+          "pos": "f. n.",
+          "meaning": "city"
+        }
+      ],
+      "id": "t4",
+      "en": "Cairo is a very beautiful city!"
+    },
+    {
+      "speaker": "Sara",
+      "role": "npc",
+      "text": "شكرا! عربيتك جيدة جدا!",
+      "glosses": [],
+      "id": "t5",
+      "en": "Thanks! Your Arabic is very good!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "شكرا، لكني أتكلم ببطء.",
+      "glosses": [
+        {
+          "text": "أتكلم",
+          "pos": "v.",
+          "meaning": "I speak"
+        },
+        {
+          "text": "ببطء",
+          "pos": "adv.",
+          "meaning": "slowly"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, but I speak slowly."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "القاهرة",
+      "tip": "The 'q' is a deep 'k' from the back of the throat: al-qā-hi-ra",
+      "id": "w1"
+    },
+    {
+      "text": "ببطء",
+      "tip": "Say bi-buṭʾ, with a heavy 'ṭ' (tongue pressed up) and a tiny pause at the end",
+      "id": "w2"
+    }
+  ]
+}

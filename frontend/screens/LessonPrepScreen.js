@@ -19,6 +19,7 @@ import { notify } from '../utils/dialog';
 import { lessonProgress } from '../utils/progress';
 import { SLOW_RATE, speakText } from '../utils/speech';
 import { goHub } from '../utils/nav';
+import { rtlText } from '../utils/rtl';
 import { colors, radius, shadows, spacing, typography } from '../theme';
 
 // The button labels are shown in the language being learned: [next, start].
@@ -29,6 +30,8 @@ const BUTTONS = {
   ko: ['다음', '시작하기'],
   ja: ['次へ', 'はじめる'],
   de: ['Weiter', "Los geht's"],
+  it: ['Avanti', 'Inizia'],
+  ar: ['التالي', 'ابدأ'],
 };
 
 // Key-word cards before the speaking practice.
@@ -123,7 +126,7 @@ function PrepView({ lesson }) {
               </Pressable>
             </View>
 
-            <Text style={styles.word}>{card.word}</Text>
+            <Text style={[styles.word, rtlText(lesson.lang)]}>{card.word}</Text>
             {!!card.ipa && <Text style={styles.ipa}>{card.ipa}</Text>}
             <Text style={styles.meaning}>{card.meaning}</Text>
 
@@ -145,7 +148,7 @@ function PrepView({ lesson }) {
                 <View key={key} style={styles.example}>
                   <Text style={styles.exampleEyebrow}>{card.examples.length > 1 ? `In a sentence ${i + 1}` : 'In a sentence'}</Text>
                   <View style={styles.exampleRow}>
-                    <Text style={styles.exampleText}>{ex.target ?? ex.fr}</Text>
+                    <Text style={[styles.exampleText, rtlText(lesson.lang)]}>{ex.target ?? ex.fr}</Text>
                     <Pressable onPress={() => speakText(ex.target ?? ex.fr)} hitSlop={10} accessibilityRole="button" accessibilityLabel="Play sentence">
                       <Ionicons name="volume-high-outline" size={20} color={colors.primary} />
                     </Pressable>

@@ -1,0 +1,240 @@
+{
+  "emoji": "🎤",
+  "max_flowers": 45,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "word": "la présentation",
+      "ipa": "/la pʁe.zɑ̃.ta.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "presentation",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "La présentation commence à neuf heures.",
+          "en": "The presentation starts at nine."
+        },
+        {
+          "fr": "Elle a préparé une présentation claire.",
+          "en": "She prepared a clear presentation."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "les diapositives",
+      "ipa": "/le dja.po.zi.tiv/",
+      "pos": "f. n. pl.",
+      "meaning": "slides",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Mes diapositives sont presque prêtes.",
+          "en": "My slides are almost ready."
+        },
+        {
+          "fr": "Évitez trop de texte sur les diapositives.",
+          "en": "Avoid too much text on the slides."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "souligner",
+      "ipa": "/su.li.ɲe/",
+      "pos": "v.",
+      "meaning": "to emphasise, to underline",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Je tiens à souligner ce point.",
+          "en": "I want to emphasise this point."
+        },
+        {
+          "fr": "Il a souligné l'importance du budget.",
+          "en": "He stressed the importance of the budget."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "les résultats",
+      "ipa": "/le ʁe.zyl.ta/",
+      "pos": "m. n. pl.",
+      "meaning": "results",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Les résultats sont très encourageants.",
+          "en": "The results are very encouraging."
+        },
+        {
+          "fr": "Voici les résultats du trimestre.",
+          "en": "Here are the results for the quarter."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "l'objectif",
+      "ipa": "/lɔb.ʒɛk.tif/",
+      "pos": "m. n.",
+      "meaning": "goal, objective",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Notre objectif est de doubler les ventes.",
+          "en": "Our goal is to double sales."
+        },
+        {
+          "fr": "L'objectif a été atteint.",
+          "en": "The objective was reached."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "résumer",
+      "ipa": "/ʁe.zy.me/",
+      "pos": "v.",
+      "meaning": "to summarise",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Pouvez-vous résumer le projet ?",
+          "en": "Can you summarise the project?"
+        },
+        {
+          "fr": "Je résume en trois points.",
+          "en": "I'll summarise in three points."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "poser une question",
+      "ipa": "/po.ze yn kɛs.tjɔ̃/",
+      "pos": "phr.",
+      "meaning": "to ask a question",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Le public peut poser une question.",
+          "en": "The audience can ask a question."
+        },
+        {
+          "fr": "Puis-je poser une question ?",
+          "en": "May I ask a question?"
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Thomas",
+      "role": "npc",
+      "text": "Alors, la présentation de demain, tout est prêt ?",
+      "glosses": [
+        {
+          "text": "la présentation",
+          "pos": "f. n.",
+          "meaning": "presentation"
+        }
+      ],
+      "id": "t1",
+      "en": "So, tomorrow's presentation, is everything ready?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Presque. Mes diapositives sont finies, mais je dois encore résumer les résultats.",
+      "glosses": [
+        {
+          "text": "diapositives",
+          "pos": "f. n. pl.",
+          "meaning": "slides"
+        },
+        {
+          "text": "les résultats",
+          "pos": "m. n. pl.",
+          "meaning": "results"
+        },
+        {
+          "text": "résumer",
+          "pos": "v.",
+          "meaning": "to summarise"
+        }
+      ],
+      "id": "t2",
+      "en": "Almost. My slides are done, but I still have to summarise the results."
+    },
+    {
+      "speaker": "Thomas",
+      "role": "npc",
+      "text": "N'oublie pas de souligner l'objectif principal du projet.",
+      "glosses": [
+        {
+          "text": "souligner",
+          "pos": "v.",
+          "meaning": "to emphasise, to underline"
+        },
+        {
+          "text": "l'objectif",
+          "pos": "m. n.",
+          "meaning": "goal, objective"
+        }
+      ],
+      "id": "t3",
+      "en": "Don't forget to emphasise the main goal of the project."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, je vais le dire dès le début, puis présenter les résultats.",
+      "glosses": [
+        {
+          "text": "les résultats",
+          "pos": "m. n. pl.",
+          "meaning": "results"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, I'll say it right at the start, then present the results."
+    },
+    {
+      "speaker": "Thomas",
+      "role": "npc",
+      "text": "Prévois aussi du temps pour que le public puisse poser une question.",
+      "glosses": [
+        {
+          "text": "poser une question",
+          "pos": "phr.",
+          "meaning": "to ask a question"
+        }
+      ],
+      "id": "t5",
+      "en": "Also leave time so the audience can ask a question."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonne idée. Je garderai cinq minutes à la fin.",
+      "glosses": [],
+      "id": "t6",
+      "en": "Good idea. I'll keep five minutes at the end."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "les diapositives",
+      "tip": "Stress the last syllable: dya-po-zi-TIV (the final 'es' is silent)",
+      "id": "w1"
+    },
+    {
+      "text": "souligner",
+      "tip": "'gn' sounds like the 'ny' in 'canyon'",
+      "id": "w2"
+    }
+  ]
+}

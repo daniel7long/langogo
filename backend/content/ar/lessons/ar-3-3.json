@@ -1,0 +1,222 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "السوق",
+      "ipa": "as-sūq",
+      "pos": "m. n.",
+      "meaning": "market",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أذهب إلى السوق يوم الجمعة.",
+          "en": "I go to the market on Friday."
+        },
+        {
+          "target": "السوق مفتوح الآن.",
+          "en": "The market is open now."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "طماطم",
+      "ipa": "ṭamāṭim",
+      "pos": "f. n.",
+      "meaning": "tomatoes",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أريد كيلو من الطماطم.",
+          "en": "I want a kilo of tomatoes."
+        },
+        {
+          "target": "الطماطم حمراء.",
+          "en": "The tomatoes are red."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "تفاح",
+      "ipa": "tuffāḥ",
+      "pos": "m. n.",
+      "meaning": "apples",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "التفاح لذيذ.",
+          "en": "The apples are delicious."
+        },
+        {
+          "target": "أشتري تفاحا أحمر.",
+          "en": "I buy red apples."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "طازج",
+      "ipa": "ṭāzij",
+      "pos": "adj.",
+      "meaning": "fresh",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "السمك طازج اليوم.",
+          "en": "The fish is fresh today."
+        },
+        {
+          "target": "أريد خبزا طازجا.",
+          "en": "I want fresh bread."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "كيلو",
+      "ipa": "kīlū",
+      "pos": "m. n.",
+      "meaning": "kilo",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "كيلو من التفاح من فضلك.",
+          "en": "A kilo of apples, please."
+        },
+        {
+          "target": "بكم الكيلو؟",
+          "en": "How much is a kilo?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "أدفع",
+      "ipa": "adfaʿ",
+      "pos": "v.",
+      "meaning": "I pay",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أدفع نقدا.",
+          "en": "I pay in cash."
+        },
+        {
+          "target": "هل أدفع هنا؟",
+          "en": "Do I pay here?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Seller",
+      "role": "npc",
+      "text": "صباح الخير! بماذا أخدمك؟",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! How can I help you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "أريد كيلو من الطماطم وأربع تفاحات.",
+      "glosses": [
+        {
+          "text": "طماطم",
+          "pos": "f. n.",
+          "meaning": "tomatoes"
+        },
+        {
+          "text": "تفاح",
+          "pos": "m. n.",
+          "meaning": "apples"
+        },
+        {
+          "text": "كيلو",
+          "pos": "m. n.",
+          "meaning": "kilo"
+        }
+      ],
+      "id": "t2",
+      "en": "I want a kilo of tomatoes and four apples."
+    },
+    {
+      "speaker": "Seller",
+      "role": "npc",
+      "text": "كلها طازجة، تأتي من مزرعتي.",
+      "glosses": [
+        {
+          "text": "طازج",
+          "pos": "adj.",
+          "meaning": "fresh"
+        }
+      ],
+      "id": "t3",
+      "en": "They're all fresh, they come from my farm."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "بكم كيلو الطماطم؟",
+      "glosses": [
+        {
+          "text": "طماطم",
+          "pos": "f. n.",
+          "meaning": "tomatoes"
+        },
+        {
+          "text": "كيلو",
+          "pos": "m. n.",
+          "meaning": "kilo"
+        }
+      ],
+      "id": "t4",
+      "en": "How much is a kilo of tomatoes?"
+    },
+    {
+      "speaker": "Seller",
+      "role": "npc",
+      "text": "بثلاثة ريالات للكيلو. هل أعطيك الناضجة؟",
+      "glosses": [
+        {
+          "text": "كيلو",
+          "pos": "m. n.",
+          "meaning": "kilo"
+        }
+      ],
+      "id": "t5",
+      "en": "Three riyals a kilo. Shall I give you the ripe ones?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "نعم، شكرا. سآخذها كلها وأدفع بالبطاقة.",
+      "glosses": [
+        {
+          "text": "أدفع",
+          "pos": "v.",
+          "meaning": "I pay"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, thanks. I'll take them all and pay by card."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "طماطم",
+      "tip": "The 'ṭ' is heavy: ṭa-MĀ-ṭim",
+      "id": "w1"
+    },
+    {
+      "text": "أدفع",
+      "tip": "End with the squeezed 'ʿ': ad-faʿ",
+      "id": "w2"
+    }
+  ]
+}

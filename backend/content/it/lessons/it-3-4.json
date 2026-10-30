@@ -1,0 +1,223 @@
+{
+  "emoji": "❤️",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "il piatto",
+      "ipa": "/il ˈpjat.to/",
+      "pos": "m. n.",
+      "meaning": "dish, plate",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Qual è il tuo piatto preferito?",
+          "en": "What's your favourite dish?"
+        },
+        {
+          "target": "Questo piatto è tipico di Roma.",
+          "en": "This dish is typical of Rome."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "preferito",
+      "ipa": "/pre.feˈri.to/",
+      "pos": "adj.",
+      "meaning": "favourite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "La pizza è il mio cibo preferito.",
+          "en": "Pizza is my favourite food."
+        },
+        {
+          "target": "Qual è il tuo colore preferito?",
+          "en": "What's your favourite colour?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "cucinare",
+      "ipa": "/ku.tʃiˈna.re/",
+      "pos": "v.",
+      "meaning": "to cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Mi piace cucinare per gli amici.",
+          "en": "I like cooking for friends."
+        },
+        {
+          "target": "Sai cucinare la pasta?",
+          "en": "Can you cook pasta?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "la ricetta",
+      "ipa": "/la riˈtʃet.ta/",
+      "pos": "f. n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Questa è la ricetta di mia nonna.",
+          "en": "This is my grandmother's recipe."
+        },
+        {
+          "target": "Mi dai la ricetta?",
+          "en": "Can you give me the recipe?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "delizioso",
+      "ipa": "/de.litˈtsjo.zo/",
+      "pos": "adj.",
+      "meaning": "delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Il tiramisù è delizioso.",
+          "en": "The tiramisù is delicious."
+        },
+        {
+          "target": "Che profumo delizioso!",
+          "en": "What a delicious smell!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "la lasagna",
+      "ipa": "/la laˈzaɲ.ɲa/",
+      "pos": "f. n.",
+      "meaning": "lasagna",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "La lasagna della nonna è la migliore.",
+          "en": "Grandma's lasagna is the best."
+        },
+        {
+          "target": "Oggi mangio la lasagna.",
+          "en": "Today I'm eating lasagna."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Giorgio",
+      "role": "npc",
+      "text": "Qual è il tuo piatto preferito?",
+      "glosses": [
+        {
+          "text": "piatto",
+          "pos": "m. n.",
+          "meaning": "dish, plate"
+        },
+        {
+          "text": "preferito",
+          "pos": "adj.",
+          "meaning": "favourite"
+        }
+      ],
+      "id": "t1",
+      "en": "What's your favourite dish?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Adoro la pizza margherita, è deliziosa.",
+      "glosses": [
+        {
+          "text": "deliziosa",
+          "pos": "adj.",
+          "meaning": "delicious"
+        }
+      ],
+      "id": "t2",
+      "en": "I love pizza margherita, it's delicious."
+    },
+    {
+      "speaker": "Giorgio",
+      "role": "npc",
+      "text": "Io preferisco la lasagna di mia nonna. È la migliore.",
+      "glosses": [
+        {
+          "text": "preferisco",
+          "pos": "adj.",
+          "meaning": "favourite"
+        },
+        {
+          "text": "la lasagna",
+          "pos": "f. n.",
+          "meaning": "lasagna"
+        }
+      ],
+      "id": "t3",
+      "en": "I prefer my grandmother's lasagna. It's the best."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sai cucinare anche tu?",
+      "glosses": [
+        {
+          "text": "cucinare",
+          "pos": "v.",
+          "meaning": "to cook"
+        }
+      ],
+      "id": "t4",
+      "en": "Can you cook too?"
+    },
+    {
+      "speaker": "Giorgio",
+      "role": "npc",
+      "text": "Sì, ho la ricetta di famiglia. E tu?",
+      "glosses": [
+        {
+          "text": "la ricetta",
+          "pos": "f. n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have the family recipe. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Io so cucinare solo la pasta, ma imparo!",
+      "glosses": [
+        {
+          "text": "cucinare",
+          "pos": "v.",
+          "meaning": "to cook"
+        }
+      ],
+      "id": "t6",
+      "en": "I can only cook pasta, but I'm learning!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "delizioso",
+      "tip": "Say de-lee-TSYO-zo, with 'zi' as 'tsy'",
+      "id": "w1"
+    },
+    {
+      "text": "la lasagna",
+      "tip": "'gn' is 'ny': la-ZA-nya",
+      "id": "w2"
+    }
+  ]
+}

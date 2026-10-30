@@ -1,0 +1,207 @@
+{
+  "emoji": "🍝",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "prenotare",
+      "ipa": "/pre.noˈta.re/",
+      "pos": "v.",
+      "meaning": "to book, to reserve",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Vorrei prenotare un tavolo per due.",
+          "en": "I'd like to book a table for two."
+        },
+        {
+          "target": "Abbiamo prenotato per le otto.",
+          "en": "We booked for eight."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "il menù",
+      "ipa": "/il meˈnu/",
+      "pos": "m. n.",
+      "meaning": "menu",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Posso avere il menù?",
+          "en": "May I have the menu?"
+        },
+        {
+          "target": "Il menù è in italiano.",
+          "en": "The menu is in Italian."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "il primo",
+      "ipa": "/il ˈpri.mo/",
+      "pos": "m. n.",
+      "meaning": "first course",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Come primo prendo la pasta.",
+          "en": "For the first course I'll have pasta."
+        },
+        {
+          "target": "Il primo è molto abbondante.",
+          "en": "The first course is very generous."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "il secondo",
+      "ipa": "/il seˈkon.do/",
+      "pos": "m. n.",
+      "meaning": "main course",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Come secondo vorrei il pesce.",
+          "en": "For the main course I'd like fish."
+        },
+        {
+          "target": "Il secondo arriva subito.",
+          "en": "The main course is coming right away."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "il dolce",
+      "ipa": "/il ˈdol.tʃe/",
+      "pos": "m. n.",
+      "meaning": "dessert",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Per dolce prendo il tiramisù.",
+          "en": "For dessert I'll have tiramisù."
+        },
+        {
+          "target": "Il dolce è fatto in casa.",
+          "en": "The dessert is homemade."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "l'acqua",
+      "ipa": "/ˈlak.kwa/",
+      "pos": "f. n.",
+      "meaning": "water",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Una bottiglia d'acqua, per favore.",
+          "en": "A bottle of water, please."
+        },
+        {
+          "target": "L'acqua è fredda.",
+          "en": "The water is cold."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Cameriere",
+      "role": "npc",
+      "text": "Buonasera, avete prenotato?",
+      "glosses": [
+        {
+          "text": "prenotato",
+          "pos": "v.",
+          "meaning": "to book, to reserve"
+        }
+      ],
+      "id": "t1",
+      "en": "Good evening, have you booked?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sì, un tavolo per due a nome Rossi.",
+      "glosses": [],
+      "id": "t2",
+      "en": "Yes, a table for two under the name Rossi."
+    },
+    {
+      "speaker": "Cameriere",
+      "role": "npc",
+      "text": "Prego, da questa parte. Ecco il menù.",
+      "glosses": [
+        {
+          "text": "il menù",
+          "pos": "m. n.",
+          "meaning": "menu"
+        }
+      ],
+      "id": "t3",
+      "en": "Please, this way. Here is the menu."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Come primo vorrei gli spaghetti al pomodoro.",
+      "glosses": [
+        {
+          "text": "primo",
+          "pos": "m. n.",
+          "meaning": "first course"
+        }
+      ],
+      "id": "t4",
+      "en": "For the first course I'd like spaghetti with tomato sauce."
+    },
+    {
+      "speaker": "Cameriere",
+      "role": "npc",
+      "text": "Ottima scelta. E come secondo?",
+      "glosses": [
+        {
+          "text": "secondo",
+          "pos": "m. n.",
+          "meaning": "main course"
+        }
+      ],
+      "id": "t5",
+      "en": "Excellent choice. And for the main course?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Il pollo con le patate, e una bottiglia d'acqua.",
+      "glosses": [
+        {
+          "text": "acqua",
+          "pos": "f. n.",
+          "meaning": "water"
+        }
+      ],
+      "id": "t6",
+      "en": "The chicken with potatoes, and a bottle of water."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "il menù",
+      "tip": "Stress the last syllable: me-NU",
+      "id": "w1"
+    },
+    {
+      "text": "l'acqua",
+      "tip": "'qu' is 'kw': LAK-kwa",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "emoji": "🕐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "كم الساعة",
+      "ipa": "kam as-sāʿa",
+      "pos": "phr.",
+      "meaning": "what time is it",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "عفوا، كم الساعة؟",
+          "en": "Excuse me, what time is it?"
+        },
+        {
+          "target": "كم الساعة الآن؟",
+          "en": "What time is it now?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "ونصف",
+      "ipa": "wa-niṣf",
+      "pos": "phr.",
+      "meaning": "and a half",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "الساعة الثانية ونصف.",
+          "en": "It is half past two."
+        },
+        {
+          "target": "أصل في السادسة ونصف.",
+          "en": "I arrive at half past six."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "القطار",
+      "ipa": "al-qiṭār",
+      "pos": "m. n.",
+      "meaning": "train",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "القطار سريع.",
+          "en": "The train is fast."
+        },
+        {
+          "target": "أسافر بالقطار.",
+          "en": "I travel by train."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "متأخر",
+      "ipa": "mutaʾakhkhir",
+      "pos": "adj.",
+      "meaning": "late",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أنا متأخر اليوم.",
+          "en": "I'm late today."
+        },
+        {
+          "target": "القطار متأخر.",
+          "en": "The train is late."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "نصف ساعة",
+      "ipa": "niṣf sāʿa",
+      "pos": "phr.",
+      "meaning": "half an hour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أنتظر منذ نصف ساعة.",
+          "en": "I've been waiting for half an hour."
+        },
+        {
+          "target": "الطريق يأخذ نصف ساعة.",
+          "en": "The trip takes half an hour."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "تماما",
+      "ipa": "tamāman",
+      "pos": "adv.",
+      "meaning": "exactly, sharp",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "الساعة الثامنة تماما.",
+          "en": "It is eight o'clock sharp."
+        },
+        {
+          "target": "هذا صحيح تماما.",
+          "en": "That is completely right."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "يغادر",
+      "ipa": "yughādir",
+      "pos": "v.",
+      "meaning": "he/it leaves",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "القطار يغادر الآن.",
+          "en": "The train is leaving now."
+        },
+        {
+          "target": "هو يغادر غدا.",
+          "en": "He leaves tomorrow."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hadi",
+      "role": "npc",
+      "text": "عفوا، كم الساعة الآن؟",
+      "glosses": [
+        {
+          "text": "كم الساعة",
+          "pos": "phr.",
+          "meaning": "what time is it"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it now?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "الساعة الثالثة ونصف.",
+      "glosses": [
+        {
+          "text": "ونصف",
+          "pos": "phr.",
+          "meaning": "and a half"
+        }
+      ],
+      "id": "t2",
+      "en": "It's half past three."
+    },
+    {
+      "speaker": "Hadi",
+      "role": "npc",
+      "text": "القطار يغادر في الساعة الرابعة. هل نحن متأخرون؟",
+      "glosses": [
+        {
+          "text": "القطار",
+          "pos": "m. n.",
+          "meaning": "train"
+        },
+        {
+          "text": "متأخر",
+          "pos": "adj.",
+          "meaning": "late"
+        },
+        {
+          "text": "يغادر",
+          "pos": "v.",
+          "meaning": "he/it leaves"
+        }
+      ],
+      "id": "t3",
+      "en": "The train leaves at four. Are we late?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "لا، ما زال عندنا نصف ساعة.",
+      "glosses": [
+        {
+          "text": "نصف ساعة",
+          "pos": "phr.",
+          "meaning": "half an hour"
+        }
+      ],
+      "id": "t4",
+      "en": "No, we still have half an hour."
+    },
+    {
+      "speaker": "Hadi",
+      "role": "npc",
+      "text": "جيد! متى نصل إلى الإسكندرية؟",
+      "glosses": [],
+      "id": "t5",
+      "en": "Good! When do we get to Alexandria?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "نصل في الساعة السادسة تماما.",
+      "glosses": [
+        {
+          "text": "تماما",
+          "pos": "adv.",
+          "meaning": "exactly, sharp"
+        }
+      ],
+      "id": "t6",
+      "en": "We arrive at six o'clock sharp."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "القطار",
+      "tip": "The 'q' is a deep 'k' and 'ṭ' is heavy: al-qi-ṬĀR",
+      "id": "w1"
+    },
+    {
+      "text": "تماما",
+      "tip": "Long 'ā' sounds: ta-mā-man",
+      "id": "w2"
+    }
+  ]
+}

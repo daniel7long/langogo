@@ -1,0 +1,241 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 50,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "word": "le réchauffement climatique",
+      "ipa": "/lə ʁe.ʃof.mɑ̃ kli.ma.tik/",
+      "pos": "m. n.",
+      "meaning": "global warming",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Le réchauffement climatique inquiète les jeunes.",
+          "en": "Global warming worries young people."
+        },
+        {
+          "fr": "Nous devons lutter contre le réchauffement climatique.",
+          "en": "We must fight global warming."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "les énergies renouvelables",
+      "ipa": "/le ze.nɛʁ.ʒi ʁə.nu.vlabl/",
+      "pos": "f. n. pl.",
+      "meaning": "renewable energies",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Les énergies renouvelables se développent vite.",
+          "en": "Renewable energies are growing fast."
+        },
+        {
+          "fr": "Il faut investir dans les énergies renouvelables.",
+          "en": "We need to invest in renewable energies."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "réduire",
+      "ipa": "/ʁe.dɥiʁ/",
+      "pos": "v.",
+      "meaning": "to reduce",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Nous voulons réduire nos émissions.",
+          "en": "We want to reduce our emissions."
+        },
+        {
+          "fr": "Réduisons notre consommation d'eau.",
+          "en": "Let's reduce our water consumption."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "les déchets",
+      "ipa": "/le de.ʃɛ/",
+      "pos": "m. n. pl.",
+      "meaning": "waste",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Je trie mes déchets chaque jour.",
+          "en": "I sort my waste every day."
+        },
+        {
+          "fr": "Les déchets plastiques polluent les océans.",
+          "en": "Plastic waste pollutes the oceans."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "la pollution",
+      "ipa": "/la pɔ.ly.sjɔ̃/",
+      "pos": "f. n.",
+      "meaning": "pollution",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "La pollution de l'air est élevée en ville.",
+          "en": "Air pollution is high in cities."
+        },
+        {
+          "fr": "Cette usine réduit sa pollution.",
+          "en": "This factory is reducing its pollution."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "durable",
+      "ipa": "/dy.ʁabl/",
+      "pos": "adj.",
+      "meaning": "sustainable, lasting",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Je cherche un mode de vie plus durable.",
+          "en": "I'm looking for a more sustainable lifestyle."
+        },
+        {
+          "fr": "Le développement durable nous concerne tous.",
+          "en": "Sustainable development concerns us all."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "agir",
+      "ipa": "/a.ʒiʁ/",
+      "pos": "v.",
+      "meaning": "to act",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Il est temps d'agir maintenant.",
+          "en": "It's time to act now."
+        },
+        {
+          "fr": "Chacun peut agir à son niveau.",
+          "en": "Everyone can act at their own level."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Le réchauffement climatique m'inquiète de plus en plus.",
+      "glosses": [
+        {
+          "text": "réchauffement climatique",
+          "pos": "m. n.",
+          "meaning": "global warming"
+        }
+      ],
+      "id": "t1",
+      "en": "Global warming worries me more and more."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Moi aussi. Il est temps d'agir, chacun à son niveau.",
+      "glosses": [
+        {
+          "text": "agir",
+          "pos": "v.",
+          "meaning": "to act"
+        }
+      ],
+      "id": "t2",
+      "en": "Me too. It's time to act, each at our own level."
+    },
+    {
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Je trie mes déchets et je prends le vélo pour réduire la pollution.",
+      "glosses": [
+        {
+          "text": "réduire",
+          "pos": "v.",
+          "meaning": "to reduce"
+        },
+        {
+          "text": "déchets",
+          "pos": "m. n. pl.",
+          "meaning": "waste"
+        },
+        {
+          "text": "la pollution",
+          "pos": "f. n.",
+          "meaning": "pollution"
+        }
+      ],
+      "id": "t3",
+      "en": "I sort my waste and take my bike to reduce pollution."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bravo ! Je cherche un mode de vie plus durable, moi aussi.",
+      "glosses": [
+        {
+          "text": "durable",
+          "pos": "adj.",
+          "meaning": "sustainable, lasting"
+        }
+      ],
+      "id": "t4",
+      "en": "Well done! I'm looking for a more sustainable lifestyle too."
+    },
+    {
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Les gouvernements doivent investir dans les énergies renouvelables.",
+      "glosses": [
+        {
+          "text": "les énergies renouvelables",
+          "pos": "f. n. pl.",
+          "meaning": "renewable energies"
+        }
+      ],
+      "id": "t5",
+      "en": "Governments must invest in renewable energies."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, et nous devons réduire notre consommation d'énergie dès aujourd'hui.",
+      "glosses": [
+        {
+          "text": "réduire",
+          "pos": "v.",
+          "meaning": "to reduce"
+        }
+      ],
+      "id": "t6",
+      "en": "Yes, and we must reduce our energy consumption starting today."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "le réchauffement",
+      "tip": "Say ré-chof-MAN: the 'e' before '-ment' is silent",
+      "id": "w1"
+    },
+    {
+      "text": "durable",
+      "tip": "Round 'u' like 'ü', then a rolled-back 'r': dü-RABL",
+      "id": "w2"
+    }
+  ]
+}

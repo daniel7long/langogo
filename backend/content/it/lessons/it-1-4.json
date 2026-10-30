@@ -1,0 +1,233 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "quanti anni hai",
+      "ipa": "/ˈkwan.ti ˈan.ni ˈai/",
+      "pos": "phr.",
+      "meaning": "how old are you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Scusa, quanti anni hai?",
+          "en": "Excuse me, how old are you?"
+        },
+        {
+          "target": "Quanti anni hai, Luca?",
+          "en": "How old are you, Luca?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "l'anno",
+      "ipa": "/ˈlan.no/",
+      "pos": "m. n.",
+      "meaning": "year",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ho venti anni.",
+          "en": "I'm twenty years old."
+        },
+        {
+          "target": "Quest'anno vado in Italia.",
+          "en": "This year I'm going to Italy."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "il numero",
+      "ipa": "/il ˈnu.me.ro/",
+      "pos": "m. n.",
+      "meaning": "number",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Qual è il tuo numero di telefono?",
+          "en": "What's your phone number?"
+        },
+        {
+          "target": "Il numero dieci è libero.",
+          "en": "Number ten is free."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "il compleanno",
+      "ipa": "/il kom.pleˈan.no/",
+      "pos": "m. n.",
+      "meaning": "birthday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Il mio compleanno è a maggio.",
+          "en": "My birthday is in May."
+        },
+        {
+          "target": "Buon compleanno, Giulia!",
+          "en": "Happy birthday, Giulia!"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "il fratello",
+      "ipa": "/il fraˈtɛl.lo/",
+      "pos": "m. n.",
+      "meaning": "brother",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ho un fratello più grande.",
+          "en": "I have an older brother."
+        },
+        {
+          "target": "Mio fratello ha quindici anni.",
+          "en": "My brother is fifteen."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "la sorella",
+      "ipa": "/la soˈrɛl.la/",
+      "pos": "f. n.",
+      "meaning": "sister",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mia sorella abita a Bologna.",
+          "en": "My sister lives in Bologna."
+        },
+        {
+          "target": "Ho una sorella e due fratelli.",
+          "en": "I have a sister and two brothers."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marco",
+      "role": "npc",
+      "text": "Quanti anni hai?",
+      "glosses": [
+        {
+          "text": "anni",
+          "pos": "m. n.",
+          "meaning": "year"
+        }
+      ],
+      "id": "t1",
+      "en": "How old are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ho venticinque anni. E tu?",
+      "glosses": [
+        {
+          "text": "anni",
+          "pos": "m. n.",
+          "meaning": "year"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm twenty-five. And you?"
+    },
+    {
+      "speaker": "Marco",
+      "role": "npc",
+      "text": "Io ho trent'anni. Il mio compleanno è a maggio.",
+      "glosses": [
+        {
+          "text": "anno",
+          "pos": "m. n.",
+          "meaning": "year"
+        },
+        {
+          "text": "compleanno",
+          "pos": "m. n.",
+          "meaning": "birthday"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm thirty. My birthday is in May."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Anche il mio compleanno è a maggio! Hai fratelli?",
+      "glosses": [
+        {
+          "text": "anno",
+          "pos": "m. n.",
+          "meaning": "year"
+        },
+        {
+          "text": "compleanno",
+          "pos": "m. n.",
+          "meaning": "birthday"
+        },
+        {
+          "text": "fratelli",
+          "pos": "m. n.",
+          "meaning": "brother"
+        }
+      ],
+      "id": "t4",
+      "en": "My birthday is in May too! Do you have siblings?"
+    },
+    {
+      "speaker": "Marco",
+      "role": "npc",
+      "text": "Sì, ho due fratelli e una sorella.",
+      "glosses": [
+        {
+          "text": "fratelli",
+          "pos": "m. n.",
+          "meaning": "brother"
+        },
+        {
+          "text": "sorella",
+          "pos": "f. n.",
+          "meaning": "sister"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have two brothers and a sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Che bella famiglia! Io ho solo un fratello.",
+      "glosses": [
+        {
+          "text": "fratello",
+          "pos": "m. n.",
+          "meaning": "brother"
+        }
+      ],
+      "id": "t6",
+      "en": "What a lovely family! I only have one brother."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "trent'anni",
+      "tip": "Say tren-TAN-ni with a double 'n'",
+      "id": "w1"
+    },
+    {
+      "text": "la sorella",
+      "tip": "Double 'l' is held longer: so-REL-la",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "emoji": "🥐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "المخبز",
+      "ipa": "al-makhbaz",
+      "pos": "m. n.",
+      "meaning": "bakery",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "المخبز يفتح في السابعة.",
+          "en": "The bakery opens at seven."
+        },
+        {
+          "target": "أشتري الخبز من المخبز.",
+          "en": "I buy bread from the bakery."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "الخبز",
+      "ipa": "al-khubz",
+      "pos": "m. n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "الخبز طازج وساخن.",
+          "en": "The bread is fresh and hot."
+        },
+        {
+          "target": "أحب الخبز بالجبن.",
+          "en": "I like bread with cheese."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "رغيف",
+      "ipa": "raghīf",
+      "pos": "m. n.",
+      "meaning": "loaf",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "رغيف واحد من فضلك.",
+          "en": "One loaf, please."
+        },
+        {
+          "target": "اشتريت رغيفين من الخبز.",
+          "en": "I bought two loaves of bread."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "أريد",
+      "ipa": "urīd",
+      "pos": "v.",
+      "meaning": "I want",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أريد كوب ماء.",
+          "en": "I want a glass of water."
+        },
+        {
+          "target": "أريد الذهاب إلى السوق.",
+          "en": "I want to go to the market."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "بكم",
+      "ipa": "bi-kam",
+      "pos": "phr.",
+      "meaning": "how much (is it)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "بكم هذا الخبز؟",
+          "en": "How much is this bread?"
+        },
+        {
+          "target": "بكم الجميع؟",
+          "en": "How much is everything?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "ريال",
+      "ipa": "riyāl",
+      "pos": "m. n.",
+      "meaning": "riyal",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "هذا بخمسة ريالات.",
+          "en": "This is five riyals."
+        },
+        {
+          "target": "عندي عشرة ريالات.",
+          "en": "I have ten riyals."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Baker",
+      "role": "npc",
+      "text": "صباح الخير! تفضل.",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! Go ahead."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "صباح النور. أريد رغيفين من الخبز، من فضلك.",
+      "glosses": [
+        {
+          "text": "الخبز",
+          "pos": "m. n.",
+          "meaning": "bread"
+        },
+        {
+          "text": "رغيف",
+          "pos": "m. n.",
+          "meaning": "loaf"
+        },
+        {
+          "text": "أريد",
+          "pos": "v.",
+          "meaning": "I want"
+        }
+      ],
+      "id": "t2",
+      "en": "Good morning. I'd like two loaves of bread, please."
+    },
+    {
+      "speaker": "Baker",
+      "role": "npc",
+      "text": "تفضل. هل من شيء آخر؟",
+      "glosses": [],
+      "id": "t3",
+      "en": "Here you are. Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "لا، شكرا. بكم الجميع؟",
+      "glosses": [
+        {
+          "text": "بكم",
+          "pos": "phr.",
+          "meaning": "how much (is it)"
+        }
+      ],
+      "id": "t4",
+      "en": "No, thanks. How much is everything?"
+    },
+    {
+      "speaker": "Baker",
+      "role": "npc",
+      "text": "الجميع بخمسة ريالات.",
+      "glosses": [
+        {
+          "text": "ريال",
+          "pos": "m. n.",
+          "meaning": "riyal"
+        }
+      ],
+      "id": "t5",
+      "en": "Everything is five riyals."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "تفضل. مع السلامة!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here you are. Goodbye!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "الخبز",
+      "tip": "Start with the rough 'kh': al-KHUBZ",
+      "id": "w1"
+    },
+    {
+      "text": "رغيف",
+      "tip": "The 'gh' is a gargled 'r' sound at the back of the throat: ra-GHĪF",
+      "id": "w2"
+    }
+  ]
+}

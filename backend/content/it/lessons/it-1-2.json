@@ -1,0 +1,206 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "mi chiamo",
+      "ipa": "/mi ˈkja.mo/",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mi chiamo Luca.",
+          "en": "My name is Luca."
+        },
+        {
+          "target": "Mi chiamo Anna, e tu?",
+          "en": "My name is Anna, and you?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "piacere",
+      "ipa": "/pjaˈtʃe.re/",
+      "pos": "interj.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Piacere, sono Paolo.",
+          "en": "Nice to meet you, I'm Paolo."
+        },
+        {
+          "target": "Piacere mio!",
+          "en": "The pleasure is mine!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "il nome",
+      "ipa": "/il ˈno.me/",
+      "pos": "m. n.",
+      "meaning": "name",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Come ti scrivi il nome?",
+          "en": "How do you spell your name?"
+        },
+        {
+          "target": "Il mio nome è Sara.",
+          "en": "My name is Sara."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "studiare",
+      "ipa": "/stuˈdja.re/",
+      "pos": "v.",
+      "meaning": "to study",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Studio italiano all'università.",
+          "en": "I study Italian at university."
+        },
+        {
+          "target": "Studiamo insieme ogni giorno.",
+          "en": "We study together every day."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "lavorare",
+      "ipa": "/la.voˈra.re/",
+      "pos": "v.",
+      "meaning": "to work",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Lavoro in una banca.",
+          "en": "I work in a bank."
+        },
+        {
+          "target": "Dove lavori?",
+          "en": "Where do you work?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "l'ingegnere",
+      "ipa": "/in.dʒeɲˈɲe.re/",
+      "pos": "m. n.",
+      "meaning": "engineer",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Mio padre è ingegnere.",
+          "en": "My father is an engineer."
+        },
+        {
+          "target": "Sono ingegnere a Milano.",
+          "en": "I'm an engineer in Milan."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Luca",
+      "role": "npc",
+      "text": "Ciao, mi chiamo Luca. E tu?",
+      "glosses": [
+        {
+          "text": "mi chiamo",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi, my name is Luca. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mi chiamo Anna. Piacere di conoscerti!",
+      "glosses": [],
+      "id": "t2",
+      "en": "My name is Anna. Nice to meet you!"
+    },
+    {
+      "speaker": "Luca",
+      "role": "npc",
+      "text": "Piacere mio! Che cosa fai nella vita?",
+      "glosses": [],
+      "id": "t3",
+      "en": "The pleasure is mine! What do you do in life?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Studio all'università. E tu, che lavoro fai?",
+      "glosses": [
+        {
+          "text": "lavoro",
+          "pos": "v.",
+          "meaning": "to work"
+        }
+      ],
+      "id": "t4",
+      "en": "I study at university. And you, what do you do for work?"
+    },
+    {
+      "speaker": "Luca",
+      "role": "npc",
+      "text": "Io sono ingegnere. Lavoro a Milano.",
+      "glosses": [
+        {
+          "text": "Lavoro",
+          "pos": "v.",
+          "meaning": "to work"
+        },
+        {
+          "text": "ingegnere",
+          "pos": "m. n.",
+          "meaning": "engineer"
+        }
+      ],
+      "id": "t5",
+      "en": "I'm an engineer. I work in Milan."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Che bello! Io studio italiano da un mese.",
+      "glosses": [
+        {
+          "text": "studio",
+          "pos": "v.",
+          "meaning": "to study"
+        }
+      ],
+      "id": "t6",
+      "en": "How nice! I've been studying Italian for a month."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "piacere",
+      "tip": "Say pya-CHE-re: 'ch' as in 'cheese', stress on 'che'",
+      "id": "w1"
+    },
+    {
+      "text": "l'ingegnere",
+      "tip": "'gn' sounds like 'ny': in-jen-NYE-re",
+      "id": "w2"
+    }
+  ]
+}

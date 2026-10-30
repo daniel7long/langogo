@@ -1,0 +1,216 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "il mercato",
+      "ipa": "/il merˈka.to/",
+      "pos": "m. n.",
+      "meaning": "market",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vado al mercato il sabato.",
+          "en": "I go to the market on Saturdays."
+        },
+        {
+          "target": "Il mercato è aperto fino all'una.",
+          "en": "The market is open until one."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "i pomodori",
+      "ipa": "/i po.moˈdo.ri/",
+      "pos": "m. n. pl.",
+      "meaning": "tomatoes",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I pomodori sono freschissimi.",
+          "en": "The tomatoes are very fresh."
+        },
+        {
+          "target": "Compro un chilo di pomodori.",
+          "en": "I'm buying a kilo of tomatoes."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "le mele",
+      "ipa": "/le ˈme.le/",
+      "pos": "f. n. pl.",
+      "meaning": "apples",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Le mele sono rosse.",
+          "en": "The apples are red."
+        },
+        {
+          "target": "Vorrei quattro mele.",
+          "en": "I'd like four apples."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "fresco",
+      "ipa": "/ˈfre.sko/",
+      "pos": "adj.",
+      "meaning": "fresh",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Il pesce è fresco oggi.",
+          "en": "The fish is fresh today."
+        },
+        {
+          "target": "Vorrei del pane fresco.",
+          "en": "I'd like some fresh bread."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "il chilo",
+      "ipa": "/il ˈki.lo/",
+      "pos": "m. n.",
+      "meaning": "kilo",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Un chilo di mele, per favore.",
+          "en": "A kilo of apples, please."
+        },
+        {
+          "target": "Costa tre euro al chilo.",
+          "en": "It costs three euros a kilo."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "pagare",
+      "ipa": "/paˈɡa.re/",
+      "pos": "v.",
+      "meaning": "to pay",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Posso pagare con la carta?",
+          "en": "Can I pay by card?"
+        },
+        {
+          "target": "Pago in contanti.",
+          "en": "I pay in cash."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Venditore",
+      "role": "npc",
+      "text": "Buongiorno! Cosa le serve oggi?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! What do you need today?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Vorrei un chilo di pomodori e quattro mele.",
+      "glosses": [
+        {
+          "text": "i pomodori",
+          "pos": "m. n. pl.",
+          "meaning": "tomatoes"
+        },
+        {
+          "text": "mele",
+          "pos": "f. n. pl.",
+          "meaning": "apples"
+        },
+        {
+          "text": "chilo",
+          "pos": "m. n.",
+          "meaning": "kilo"
+        }
+      ],
+      "id": "t2",
+      "en": "I'd like a kilo of tomatoes and four apples."
+    },
+    {
+      "speaker": "Venditore",
+      "role": "npc",
+      "text": "Sono freschissimi, arrivano dal mio orto.",
+      "glosses": [
+        {
+          "text": "freschissimi",
+          "pos": "adj.",
+          "meaning": "fresh"
+        }
+      ],
+      "id": "t3",
+      "en": "They're very fresh, they come from my garden."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Quanto costano i pomodori al chilo?",
+      "glosses": [
+        {
+          "text": "i pomodori",
+          "pos": "m. n. pl.",
+          "meaning": "tomatoes"
+        },
+        {
+          "text": "chilo",
+          "pos": "m. n.",
+          "meaning": "kilo"
+        }
+      ],
+      "id": "t4",
+      "en": "How much are the tomatoes per kilo?"
+    },
+    {
+      "speaker": "Venditore",
+      "role": "npc",
+      "text": "Tre euro al chilo. Li vuole maturi?",
+      "glosses": [
+        {
+          "text": "chilo",
+          "pos": "m. n.",
+          "meaning": "kilo"
+        }
+      ],
+      "id": "t5",
+      "en": "Three euros a kilo. Do you want them ripe?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sì, grazie. Li prendo tutti.",
+      "glosses": [],
+      "id": "t6",
+      "en": "Yes, thanks. I'll take them all."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "i pomodori",
+      "tip": "Stress 'do': po-mo-DO-ri",
+      "id": "w1"
+    },
+    {
+      "text": "freschissimi",
+      "tip": "'sch' is 'sk': fres-KEES-si-mi",
+      "id": "w2"
+    }
+  ]
+}

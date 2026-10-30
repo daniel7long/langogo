@@ -1,0 +1,189 @@
+{
+  "emoji": "👋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "ciao",
+      "ipa": "/ˈtʃa.o/",
+      "pos": "interj.",
+      "meaning": "hi, bye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ciao, Marco!",
+          "en": "Hi, Marco!"
+        },
+        {
+          "target": "Ciao a tutti!",
+          "en": "Bye, everyone!"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "buongiorno",
+      "ipa": "/bwonˈdʒor.no/",
+      "pos": "interj.",
+      "meaning": "good morning, hello",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Buongiorno, signora.",
+          "en": "Good morning, madam."
+        },
+        {
+          "target": "Buongiorno a tutti!",
+          "en": "Good morning, everyone!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "come stai",
+      "ipa": "/ˈko.me ˈstai/",
+      "pos": "phr.",
+      "meaning": "how are you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ciao Anna, come stai?",
+          "en": "Hi Anna, how are you?"
+        },
+        {
+          "target": "Come stai oggi?",
+          "en": "How are you today?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "grazie",
+      "ipa": "/ˈɡrat.tsje/",
+      "pos": "interj.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Grazie mille!",
+          "en": "Thanks a lot!"
+        },
+        {
+          "target": "Grazie, sto bene.",
+          "en": "Thanks, I'm fine."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "arrivederci",
+      "ipa": "/ar.ri.veˈder.tʃi/",
+      "pos": "interj.",
+      "meaning": "goodbye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Arrivederci, a domani!",
+          "en": "Goodbye, see you tomorrow!"
+        },
+        {
+          "target": "Arrivederci e buona giornata.",
+          "en": "Goodbye and have a nice day."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "per favore",
+      "ipa": "/per faˈvo.re/",
+      "pos": "phr.",
+      "meaning": "please",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un caffè, per favore.",
+          "en": "A coffee, please."
+        },
+        {
+          "target": "Mi aiuti, per favore?",
+          "en": "Could you help me, please?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Giulia",
+      "role": "npc",
+      "text": "Buongiorno! Come stai?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! How are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Buongiorno! Sto bene, grazie. E tu?",
+      "glosses": [
+        {
+          "text": "grazie",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t2",
+      "en": "Good morning! I'm fine, thank you. And you?"
+    },
+    {
+      "speaker": "Giulia",
+      "role": "npc",
+      "text": "Molto bene, grazie. Che bella giornata!",
+      "glosses": [
+        {
+          "text": "grazie",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t3",
+      "en": "Very well, thank you. What a beautiful day!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sì, è bellissima. Ora devo andare. Arrivederci!",
+      "glosses": [],
+      "id": "t4",
+      "en": "Yes, it's gorgeous. Now I have to go. Goodbye!"
+    },
+    {
+      "speaker": "Giulia",
+      "role": "npc",
+      "text": "Arrivederci! Buona giornata!",
+      "glosses": [],
+      "id": "t5",
+      "en": "Goodbye! Have a nice day!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Grazie, altrettanto! Ciao!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Thanks, same to you! Bye!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "buongiorno",
+      "tip": "Say bwon-JOR-no: the 'g' before 'i' is a soft 'j'",
+      "id": "w1"
+    },
+    {
+      "text": "arrivederci",
+      "tip": "Roll the double 'r' lightly: ar-ree-ve-DER-chi",
+      "id": "w2"
+    }
+  ]
+}

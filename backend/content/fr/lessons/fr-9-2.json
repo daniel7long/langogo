@@ -1,0 +1,224 @@
+{
+  "emoji": "🔮",
+  "max_flowers": 55,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "word": "si j'avais su",
+      "ipa": "/si ʒa.vɛ sy/",
+      "pos": "phr.",
+      "meaning": "if I had known",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "Si j'avais su, je serais venu plus tôt.",
+          "en": "If I had known, I would have come earlier."
+        },
+        {
+          "fr": "Si j'avais su, je ne serais pas parti.",
+          "en": "If I had known, I wouldn't have left."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "j'aurais dû",
+      "ipa": "/ʒo.ʁɛ dy/",
+      "pos": "phr.",
+      "meaning": "I should have",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "J'aurais dû t'appeler plus tôt.",
+          "en": "I should have called you earlier."
+        },
+        {
+          "fr": "J'aurais dû écouter ton conseil.",
+          "en": "I should have listened to your advice."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "regretter",
+      "ipa": "/ʁə.ɡʁɛ.te/",
+      "pos": "v.",
+      "meaning": "to regret",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "Je regrette de ne pas être venu.",
+          "en": "I regret not having come."
+        },
+        {
+          "fr": "Elle ne regrette rien.",
+          "en": "She regrets nothing."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "peut-être que",
+      "ipa": "/pø.tɛtʁ kə/",
+      "pos": "phr.",
+      "meaning": "maybe",
+      "cefr": "B1",
+      "examples": [
+        {
+          "fr": "Peut-être que nous avons eu tort.",
+          "en": "Maybe we were wrong."
+        },
+        {
+          "fr": "Peut-être qu'il viendra demain.",
+          "en": "Maybe he'll come tomorrow."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "à supposer que",
+      "ipa": "/a sy.po.ze kə/",
+      "pos": "phr.",
+      "meaning": "supposing that",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "À supposer que tu aies raison, que faire ?",
+          "en": "Supposing you're right, what should we do?"
+        },
+        {
+          "fr": "À supposer qu'il refuse, nous chercherons ailleurs.",
+          "en": "Supposing he refuses, we'll look elsewhere."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "éventuellement",
+      "ipa": "/e.vɑ̃.tɥɛl.mɑ̃/",
+      "pos": "adv.",
+      "meaning": "possibly, if need be",
+      "cefr": "C1",
+      "examples": [
+        {
+          "fr": "On pourrait éventuellement reporter la réunion.",
+          "en": "We could possibly postpone the meeting."
+        },
+        {
+          "fr": "Éventuellement, je viendrai avec un ami.",
+          "en": "If need be, I'll come with a friend."
+        }
+      ],
+      "id": "v6"
+    },
+    {
+      "word": "rater",
+      "ipa": "/ʁa.te/",
+      "pos": "v.",
+      "meaning": "to miss, to fail",
+      "cefr": "B2",
+      "examples": [
+        {
+          "fr": "J'ai raté mon train ce matin.",
+          "en": "I missed my train this morning."
+        },
+        {
+          "fr": "Ne rate pas cette occasion.",
+          "en": "Don't miss this opportunity."
+        }
+      ],
+      "id": "v7"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Tu as raté ton train hier soir, c'est vrai ?",
+      "glosses": [],
+      "id": "t1",
+      "en": "You missed your train last night, is that right?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui. J'aurais dû partir plus tôt, je le regrette.",
+      "glosses": [],
+      "id": "t2",
+      "en": "Yes. I should have left earlier, I regret it."
+    },
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Si j'avais su, je serais venu te chercher en voiture.",
+      "glosses": [
+        {
+          "text": "Si j'avais su",
+          "pos": "phr.",
+          "meaning": "if I had known"
+        }
+      ],
+      "id": "t3",
+      "en": "If I had known, I would have come to pick you up by car."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est gentil. Peut-être que la prochaine fois, je t'appellerai.",
+      "glosses": [
+        {
+          "text": "Peut-être que",
+          "pos": "phr.",
+          "meaning": "maybe"
+        }
+      ],
+      "id": "t4",
+      "en": "That's kind. Maybe next time I'll call you."
+    },
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "À supposer que ça se reproduise, tu pourras éventuellement dormir chez moi.",
+      "glosses": [
+        {
+          "text": "À supposer que",
+          "pos": "phr.",
+          "meaning": "supposing that"
+        },
+        {
+          "text": "éventuellement",
+          "pos": "adv.",
+          "meaning": "possibly, if need be"
+        }
+      ],
+      "id": "t5",
+      "en": "Supposing it happens again, you could possibly sleep at my place."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci. Si j'avais su que tu étais si généreux, je t'aurais appelé !",
+      "glosses": [
+        {
+          "text": "Si j'avais su",
+          "pos": "phr.",
+          "meaning": "if I had known"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks. If I had known you were so generous, I would have called you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "j'aurais dû",
+      "tip": "Link the words: zho-RÈ-dü",
+      "id": "w1"
+    },
+    {
+      "text": "éventuellement",
+      "tip": "Careful: it means 'possibly', not 'eventually'. Say é-van-tuèl-MAN",
+      "id": "w2"
+    }
+  ]
+}

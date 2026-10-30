@@ -1,0 +1,216 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "اسمي",
+      "ipa": "ismī",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "اسمي عمر.",
+          "en": "My name is Omar."
+        },
+        {
+          "target": "اسمي ليلى، وما اسمك؟",
+          "en": "My name is Layla, and what's yours?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "تشرفنا",
+      "ipa": "tasharrafnā",
+      "pos": "interj.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "تشرفنا يا سيد أحمد.",
+          "en": "Nice to meet you, Mr. Ahmad."
+        },
+        {
+          "target": "تشرفنا بمعرفتك.",
+          "en": "Nice to meet you."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "أدرس",
+      "ipa": "adrus",
+      "pos": "v.",
+      "meaning": "I study",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أدرس العربية كل يوم.",
+          "en": "I study Arabic every day."
+        },
+        {
+          "target": "أدرس في الجامعة.",
+          "en": "I study at university."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "أعمل",
+      "ipa": "aʿmal",
+      "pos": "v.",
+      "meaning": "I work",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "أعمل في مستشفى.",
+          "en": "I work in a hospital."
+        },
+        {
+          "target": "أعمل من البيت.",
+          "en": "I work from home."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "مهندس",
+      "ipa": "muhandis",
+      "pos": "n.",
+      "meaning": "engineer",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "أبي مهندس.",
+          "en": "My father is an engineer."
+        },
+        {
+          "target": "هو مهندس مشهور.",
+          "en": "He is a famous engineer."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "الجامعة",
+      "ipa": "al-jāmiʿa",
+      "pos": "f. n.",
+      "meaning": "university",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "الجامعة قريبة من البيت.",
+          "en": "The university is near the house."
+        },
+        {
+          "target": "أذهب إلى الجامعة بالحافلة.",
+          "en": "I go to university by bus."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Omar",
+      "role": "npc",
+      "text": "مرحبا! اسمي عمر. ما اسمك؟",
+      "glosses": [
+        {
+          "text": "اسمي",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! My name is Omar. What's your name?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "اسمي نور. تشرفنا يا عمر!",
+      "glosses": [
+        {
+          "text": "اسمي",
+          "pos": "phr.",
+          "meaning": "my name is"
+        },
+        {
+          "text": "تشرفنا",
+          "pos": "interj.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t2",
+      "en": "My name is Nour. Nice to meet you, Omar!"
+    },
+    {
+      "speaker": "Omar",
+      "role": "npc",
+      "text": "الشرف لي! ما تخصصك؟",
+      "glosses": [],
+      "id": "t3",
+      "en": "The honour is mine! What's your major?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "أدرس اللغات في الجامعة. وما عملك أنت؟",
+      "glosses": [
+        {
+          "text": "أدرس",
+          "pos": "v.",
+          "meaning": "I study"
+        },
+        {
+          "text": "الجامعة",
+          "pos": "f. n.",
+          "meaning": "university"
+        }
+      ],
+      "id": "t4",
+      "en": "I study languages at university. And what is your job?"
+    },
+    {
+      "speaker": "Omar",
+      "role": "npc",
+      "text": "أنا مهندس، وأعمل في دبي.",
+      "glosses": [
+        {
+          "text": "أعمل",
+          "pos": "v.",
+          "meaning": "I work"
+        },
+        {
+          "text": "مهندس",
+          "pos": "n.",
+          "meaning": "engineer"
+        }
+      ],
+      "id": "t5",
+      "en": "I'm an engineer, and I work in Dubai."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "رائع! أنا أتعلم العربية منذ شهر.",
+      "glosses": [],
+      "id": "t6",
+      "en": "Great! I've been learning Arabic for a month."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "تشرفنا",
+      "tip": "Stress the second syllable: ta-SHAR-raf-nā, with a doubled 'r'",
+      "id": "w1"
+    },
+    {
+      "text": "أعمل",
+      "tip": "The 'ʿ' squeezes the throat: a-ʿmal",
+      "id": "w2"
+    }
+  ]
+}

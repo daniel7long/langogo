@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native';
-import Svg, { Circle, G, Path, Polygon, Rect } from 'react-native-svg';
+import Svg, { Circle, G, Path, Polygon, Rect, Text as SvgText } from 'react-native-svg';
 
 // National flags drawn as vector graphics. (Flag emoji do not show up on Windows, so they can't be used.)
 // All flags share a 90 x 60 box; `width` scales them, the height is two thirds of it.
@@ -101,6 +101,20 @@ const DRAW = {
     </>
   ),
   ko: Korea,
+  it: () => (
+    <>
+      <Rect x="0" width="30" height="60" fill="#009246" />
+      <Rect x="30" width="30" height="60" fill="#FFFFFF" />
+      <Rect x="60" width="30" height="60" fill="#CE2B37" />
+    </>
+  ),
+  // Arabic is spoken in over twenty countries, so it gets no national flag: a calm green tile with the letter ع.
+  ar: () => (
+    <>
+      <Rect width="90" height="60" fill="#0F766E" />
+      <SvgText x="45" y="45" fontSize="44" fontWeight="bold" fill="#FFFFFF" textAnchor="middle">ع</SvgText>
+    </>
+  ),
 };
 
 // `round` crops the flag into a circle (the language cards); `ring` adds the soft warm halo around it.
