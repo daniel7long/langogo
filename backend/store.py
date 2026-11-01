@@ -35,11 +35,15 @@ TOPICS = [
     {"id": "esports", "name": "Esports", "cefr": "B1", "cost": 70},
     {"id": "shopping", "name": "Shopping", "cefr": "A1", "cost": 50},
     {"id": "tourism", "name": "Tourism", "cefr": "A2", "cost": 75},
+    {"id": "gardening", "name": "Gardening", "cefr": "A2", "cost": 0},
+    {"id": "slack", "name": "Slack", "cefr": "B2", "cost": 0},
+    {"id": "football", "name": "Football", "cefr": "C1", "cost": 0},
+    {"id": "artists", "name": "Artists", "cefr": "C1", "cost": 0},
 ]
 TOPIC_BY_ID = {t["id"]: t for t in TOPICS}
 
 # Topics offered on the "My Favorite Topics" screen (F1S5), in display order.
-FAVORITE_CHOICES = ["cooking", "dancing", "esports", "hiking", "traveling", "photography"]
+FAVORITE_CHOICES = ["cooking", "dancing", "esports", "hiking", "traveling", "photography", "comics", "music", "shopping", "football", "artists", "gardening"]
 
 # Lesson titles shown inside a topic (F3S3). Sports comes from the mockup, the rest are placeholders.
 TOPIC_LESSONS = {
