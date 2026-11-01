@@ -12,7 +12,7 @@ import { colors, radius, shadows, spacing, typography } from '../theme';
 // words matches what the scorer heard; otherwise null and the plain text is shown).
 function tintParts(text, words) {
   if (!words || !words.length) return null;
-  const re = /[\w'’\-]+/gu;
+  const re = /[\p{L}\p{N}_'’\-]+/gu; // letters of any script (JS \w is ASCII only)
   const found = [...text.matchAll(re)];
   if (found.length !== words.length) return null;
   const parts = [];

@@ -1,0 +1,216 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "街市",
+      "ipa": "gaai1 si5",
+      "pos": "n.",
+      "meaning": "wet market",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我星期六去街市。",
+          "en": "I go to the market on Saturday."
+        },
+        {
+          "target": "街市十二點收市。",
+          "en": "The market closes at twelve."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "水果",
+      "ipa": "seoi2 gwo2",
+      "pos": "n.",
+      "meaning": "fruit",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我每日食水果。",
+          "en": "I eat fruit every day."
+        },
+        {
+          "target": "你最鍾意食咩水果呀？",
+          "en": "What fruit do you like best?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "斤",
+      "ipa": "gan1",
+      "pos": "n.",
+      "meaning": "catty (about 600 g)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "一斤米幾多錢呀？",
+          "en": "How much is a catty of rice?"
+        },
+        {
+          "target": "我想買半斤。",
+          "en": "I'd like to buy half a catty."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "番茄",
+      "ipa": "faan1 ke2",
+      "pos": "n.",
+      "meaning": "tomato",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "番茄好新鮮。",
+          "en": "The tomatoes are very fresh."
+        },
+        {
+          "target": "我想要半斤番茄。",
+          "en": "I'd like half a catty of tomatoes."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "蘋果",
+      "ipa": "ping4 gwo2",
+      "pos": "n.",
+      "meaning": "apple",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "呢個蘋果好甜。",
+          "en": "This apple is very sweet."
+        },
+        {
+          "target": "我想要三個蘋果。",
+          "en": "I'd like three apples."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "新鮮",
+      "ipa": "san1 sin1",
+      "pos": "adj.",
+      "meaning": "fresh",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "條魚好新鮮。",
+          "en": "The fish is very fresh."
+        },
+        {
+          "target": "我鍾意新鮮嘅麵包。",
+          "en": "I like fresh bread."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "小販",
+      "role": "npc",
+      "text": "早晨！今日想買啲咩呀？",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! What would you like to buy today?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我想要一斤番茄同四個蘋果。",
+      "glosses": [
+        {
+          "text": "斤",
+          "pos": "n.",
+          "meaning": "catty (about 600 g)"
+        },
+        {
+          "text": "番茄",
+          "pos": "n.",
+          "meaning": "tomato"
+        },
+        {
+          "text": "蘋果",
+          "pos": "n.",
+          "meaning": "apple"
+        }
+      ],
+      "id": "t2",
+      "en": "I'd like a catty of tomatoes and four apples."
+    },
+    {
+      "speaker": "小販",
+      "role": "npc",
+      "text": "都好新鮮，今朝先到嘅。",
+      "glosses": [
+        {
+          "text": "新鮮",
+          "pos": "adj.",
+          "meaning": "fresh"
+        }
+      ],
+      "id": "t3",
+      "en": "All very fresh, they arrived just this morning."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "番茄一斤幾多錢呀？",
+      "glosses": [
+        {
+          "text": "斤",
+          "pos": "n.",
+          "meaning": "catty (about 600 g)"
+        },
+        {
+          "text": "番茄",
+          "pos": "n.",
+          "meaning": "tomato"
+        }
+      ],
+      "id": "t4",
+      "en": "How much is a catty of tomatoes?"
+    },
+    {
+      "speaker": "小販",
+      "role": "npc",
+      "text": "一斤十二蚊。仲要啲咩呀？",
+      "glosses": [
+        {
+          "text": "斤",
+          "pos": "n.",
+          "meaning": "catty (about 600 g)"
+        }
+      ],
+      "id": "t5",
+      "en": "Twelve dollars a catty. Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "唔使喇，就咁多，多謝！",
+      "glosses": [],
+      "id": "t6",
+      "en": "No need, that's all, thanks!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "蘋果",
+      "tip": "Say ping4 gwo2: 'ping' is low and falling, 'gwo' rises",
+      "id": "w1"
+    },
+    {
+      "text": "新鮮",
+      "tip": "Say san1 sin1: both tones are high and level",
+      "id": "w2"
+    }
+  ]
+}

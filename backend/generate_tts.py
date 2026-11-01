@@ -53,6 +53,10 @@ DEFAULT_VOICES = {
     "ja": "ja-JP-NanamiNeural",
     "it": "it-IT-ElsaNeural",
     "ar": "ar-SA-ZariyahNeural",
+    "pt": "pt-BR-FranciscaNeural",
+    "ru": "ru-RU-SvetlanaNeural",
+    "ro": "ro-RO-AlinaNeural",
+    "yue": "zh-HK-HiuMaanNeural",
 }
 
 

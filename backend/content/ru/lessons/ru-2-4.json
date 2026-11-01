@@ -1,0 +1,217 @@
+{
+  "emoji": "📅",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "выходные",
+      "ipa": "vykhadnýye",
+      "pos": "pl. n.",
+      "meaning": "weekend, days off",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Хороших выходных!",
+          "en": "Have a good weekend!"
+        },
+        {
+          "target": "Что ты делаешь на выходных?",
+          "en": "What are you doing on the weekend?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "завтра",
+      "ipa": "závtra",
+      "pos": "adv.",
+      "meaning": "tomorrow",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Завтра я работаю.",
+          "en": "Tomorrow I work."
+        },
+        {
+          "target": "До завтра!",
+          "en": "See you tomorrow!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "кино",
+      "ipa": "kinó",
+      "pos": "n.",
+      "meaning": "cinema, film",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Мы идём в кино сегодня вечером.",
+          "en": "We're going to the cinema tonight."
+        },
+        {
+          "target": "Кино рядом с домом.",
+          "en": "The cinema is next to the house."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "навещать",
+      "ipa": "navyeshchát'",
+      "pos": "v.",
+      "meaning": "to visit (a person)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Я навещаю родителей в воскресенье.",
+          "en": "I visit my parents on Sunday."
+        },
+        {
+          "target": "Мы навещаем друзей.",
+          "en": "We visit our friends."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "потом",
+      "ipa": "patóm",
+      "pos": "adv.",
+      "meaning": "then, later",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Потом мы идём ужинать.",
+          "en": "Then we go to have dinner."
+        },
+        {
+          "target": "Поговорим потом.",
+          "en": "Let's talk later."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "план",
+      "ipa": "plan",
+      "pos": "m. n.",
+      "meaning": "plan",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "У меня есть план на субботу.",
+          "en": "I have a plan for Saturday."
+        },
+        {
+          "target": "Какие у тебя планы?",
+          "en": "What plans do you have?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Роман",
+      "role": "npc",
+      "text": "Какие у тебя планы на выходные?",
+      "glosses": [
+        {
+          "text": "выходные",
+          "pos": "pl. n.",
+          "meaning": "weekend, days off"
+        },
+        {
+          "text": "план",
+          "pos": "m. n.",
+          "meaning": "plan"
+        }
+      ],
+      "id": "t1",
+      "en": "What plans do you have for the weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "В субботу я иду в кино с друзьями.",
+      "glosses": [
+        {
+          "text": "кино",
+          "pos": "n.",
+          "meaning": "cinema, film"
+        }
+      ],
+      "id": "t2",
+      "en": "On Saturday I'm going to the cinema with friends."
+    },
+    {
+      "speaker": "Роман",
+      "role": "npc",
+      "text": "Здорово! А что ты делаешь завтра?",
+      "glosses": [
+        {
+          "text": "завтра",
+          "pos": "adv.",
+          "meaning": "tomorrow"
+        }
+      ],
+      "id": "t3",
+      "en": "Great! And what are you doing tomorrow?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Завтра я навещаю бабушку.",
+      "glosses": [
+        {
+          "text": "Завтра",
+          "pos": "adv.",
+          "meaning": "tomorrow"
+        },
+        {
+          "text": "навещаю",
+          "pos": "v.",
+          "meaning": "to visit (a person)"
+        }
+      ],
+      "id": "t4",
+      "en": "Tomorrow I'm visiting my grandmother."
+    },
+    {
+      "speaker": "Роман",
+      "role": "npc",
+      "text": "Потом мы можем вместе поужинать?",
+      "glosses": [
+        {
+          "text": "Потом",
+          "pos": "adv.",
+          "meaning": "then, later"
+        }
+      ],
+      "id": "t5",
+      "en": "Then can we have dinner together?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Конечно! Будет здорово.",
+      "glosses": [],
+      "id": "t6",
+      "en": "Of course! It will be great."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "завтра",
+      "tip": "Say ZAF-tra: the 'в' sounds like 'f' before 'т'",
+      "id": "w1"
+    },
+    {
+      "text": "выходные",
+      "tip": "The 'ы' is a back 'i': vy-khad-NY-ye",
+      "id": "w2"
+    }
+  ]
+}

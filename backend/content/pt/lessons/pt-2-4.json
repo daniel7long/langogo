@@ -1,0 +1,217 @@
+{
+  "emoji": "📅",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "o fim de semana",
+      "ipa": "/u ˈfĩ dʒi seˈmɐ̃.na/",
+      "pos": "m. n.",
+      "meaning": "weekend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "O que você faz no fim de semana?",
+          "en": "What do you do on the weekend?"
+        },
+        {
+          "target": "Bom fim de semana!",
+          "en": "Have a nice weekend!"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "amanhã",
+      "ipa": "/a.mɐ̃ˈɲɐ̃/",
+      "pos": "adv.",
+      "meaning": "tomorrow",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Amanhã eu trabalho.",
+          "en": "Tomorrow I work."
+        },
+        {
+          "target": "Até amanhã!",
+          "en": "See you tomorrow!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "o cinema",
+      "ipa": "/u siˈne.ma/",
+      "pos": "m. n.",
+      "meaning": "cinema",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vamos ao cinema hoje à noite.",
+          "en": "Let's go to the cinema tonight."
+        },
+        {
+          "target": "O cinema fica perto daqui.",
+          "en": "The cinema is near here."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "visitar",
+      "ipa": "/vi.ziˈtaɾ/",
+      "pos": "v.",
+      "meaning": "to visit",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Vou visitar meus avós.",
+          "en": "I'm going to visit my grandparents."
+        },
+        {
+          "target": "Quero visitar Salvador.",
+          "en": "I want to visit Salvador."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "depois",
+      "ipa": "/deˈpojs/",
+      "pos": "adv.",
+      "meaning": "afterwards, later",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Depois, vamos jantar.",
+          "en": "Afterwards, we'll have dinner."
+        },
+        {
+          "target": "Falo com você depois.",
+          "en": "I'll talk to you later."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "o plano",
+      "ipa": "/u ˈplɐ̃.nu/",
+      "pos": "m. n.",
+      "meaning": "plan",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Tenho um plano para sábado.",
+          "en": "I have a plan for Saturday."
+        },
+        {
+          "target": "Quais são seus planos?",
+          "en": "What are your plans?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Rafael",
+      "role": "npc",
+      "text": "Quais são seus planos para o fim de semana?",
+      "glosses": [
+        {
+          "text": "o fim de semana",
+          "pos": "m. n.",
+          "meaning": "weekend"
+        },
+        {
+          "text": "plano",
+          "pos": "m. n.",
+          "meaning": "plan"
+        }
+      ],
+      "id": "t1",
+      "en": "What are your plans for the weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "No sábado vou ao cinema com uns amigos.",
+      "glosses": [
+        {
+          "text": "o cinema",
+          "pos": "m. n.",
+          "meaning": "cinema"
+        }
+      ],
+      "id": "t2",
+      "en": "On Saturday I'm going to the cinema with some friends."
+    },
+    {
+      "speaker": "Rafael",
+      "role": "npc",
+      "text": "Que legal! E amanhã, o que você vai fazer?",
+      "glosses": [
+        {
+          "text": "amanhã",
+          "pos": "adv.",
+          "meaning": "tomorrow"
+        }
+      ],
+      "id": "t3",
+      "en": "How nice! And tomorrow, what are you going to do?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Amanhã vou visitar a minha avó.",
+      "glosses": [
+        {
+          "text": "Amanhã",
+          "pos": "adv.",
+          "meaning": "tomorrow"
+        },
+        {
+          "text": "visitar",
+          "pos": "v.",
+          "meaning": "to visit"
+        }
+      ],
+      "id": "t4",
+      "en": "Tomorrow I'm going to visit my grandmother."
+    },
+    {
+      "speaker": "Rafael",
+      "role": "npc",
+      "text": "Depois podemos jantar juntos?",
+      "glosses": [
+        {
+          "text": "Depois",
+          "pos": "adv.",
+          "meaning": "afterwards, later"
+        }
+      ],
+      "id": "t5",
+      "en": "Afterwards, can we have dinner together?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Claro! Vai ser ótimo.",
+      "glosses": [],
+      "id": "t6",
+      "en": "Of course! It'll be great."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "amanhã",
+      "tip": "Nasal vowels: a-ma-NYAN",
+      "id": "w1"
+    },
+    {
+      "text": "visitar",
+      "tip": "Say vi-zi-TAR with a 'z' sound in the middle",
+      "id": "w2"
+    }
+  ]
+}

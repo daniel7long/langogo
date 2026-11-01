@@ -1,0 +1,216 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "магазин",
+      "ipa": "magazín",
+      "pos": "m. n.",
+      "meaning": "shop, store",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я иду в магазин.",
+          "en": "I'm going to the store."
+        },
+        {
+          "target": "Магазин закрывается в десять.",
+          "en": "The store closes at ten."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "фрукты",
+      "ipa": "frúkty",
+      "pos": "pl. n.",
+      "meaning": "fruit",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я ем фрукты каждый день.",
+          "en": "I eat fruit every day."
+        },
+        {
+          "target": "Какие твои любимые фрукты?",
+          "en": "What are your favorite fruits?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "килограмм",
+      "ipa": "kilagrámm",
+      "pos": "m. n.",
+      "meaning": "kilogram",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Килограмм риса, пожалуйста.",
+          "en": "A kilogram of rice, please."
+        },
+        {
+          "target": "Сколько стоит килограмм?",
+          "en": "How much is a kilogram?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "помидор",
+      "ipa": "pamidór",
+      "pos": "m. n.",
+      "meaning": "tomato",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Помидоры свежие.",
+          "en": "The tomatoes are fresh."
+        },
+        {
+          "target": "Мне полкило помидоров.",
+          "en": "I'd like half a kilo of tomatoes."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "яблоко",
+      "ipa": "yáblaka",
+      "pos": "n.",
+      "meaning": "apple",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Яблоко очень сладкое.",
+          "en": "The apple is very sweet."
+        },
+        {
+          "target": "Я хочу четыре яблока.",
+          "en": "I want four apples."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "свежий",
+      "ipa": "svyézhij",
+      "pos": "adj.",
+      "meaning": "fresh",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Хлеб свежий.",
+          "en": "The bread is fresh."
+        },
+        {
+          "target": "Я люблю свежую рыбу.",
+          "en": "I like fresh fish."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Продавец",
+      "role": "npc",
+      "text": "Доброе утро! Что вам предложить?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! What can I offer you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Мне килограмм помидоров и четыре яблока.",
+      "glosses": [
+        {
+          "text": "килограмм",
+          "pos": "m. n.",
+          "meaning": "kilogram"
+        },
+        {
+          "text": "помидор",
+          "pos": "m. n.",
+          "meaning": "tomato"
+        },
+        {
+          "text": "яблока",
+          "pos": "n.",
+          "meaning": "apple"
+        }
+      ],
+      "id": "t2",
+      "en": "I'd like a kilogram of tomatoes and four apples."
+    },
+    {
+      "speaker": "Продавец",
+      "role": "npc",
+      "text": "Всё свежее, сегодня утром привезли.",
+      "glosses": [
+        {
+          "text": "свежее",
+          "pos": "adj.",
+          "meaning": "fresh"
+        }
+      ],
+      "id": "t3",
+      "en": "Everything is fresh, it came this morning."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Сколько стоит килограмм помидоров?",
+      "glosses": [
+        {
+          "text": "килограмм",
+          "pos": "m. n.",
+          "meaning": "kilogram"
+        },
+        {
+          "text": "помидор",
+          "pos": "m. n.",
+          "meaning": "tomato"
+        }
+      ],
+      "id": "t4",
+      "en": "How much is a kilogram of tomatoes?"
+    },
+    {
+      "speaker": "Продавец",
+      "role": "npc",
+      "text": "Двести рублей за килограмм. Что-нибудь ещё?",
+      "glosses": [
+        {
+          "text": "килограмм",
+          "pos": "m. n.",
+          "meaning": "kilogram"
+        }
+      ],
+      "id": "t5",
+      "en": "Two hundred rubles a kilogram. Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Нет, это всё. Спасибо!",
+      "glosses": [],
+      "id": "t6",
+      "en": "No, that's all. Thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "помидоры",
+      "tip": "Stress the last syllable: pa-mi-DO-ry",
+      "id": "w1"
+    },
+    {
+      "text": "яблоко",
+      "tip": "Say YA-bla-ka; the 'о' at the end sounds like 'a'",
+      "id": "w2"
+    }
+  ]
+}

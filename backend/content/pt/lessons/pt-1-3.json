@@ -1,0 +1,218 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "de onde você é",
+      "ipa": "/dʒi ˈõ.dʒi vo.ˈse ˈɛ/",
+      "pos": "phr.",
+      "meaning": "where are you from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "De onde você é?",
+          "en": "Where are you from?"
+        },
+        {
+          "target": "De onde você é, Marta?",
+          "en": "Where are you from, Marta?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "eu sou de",
+      "ipa": "/ew ˈsow dʒi/",
+      "pos": "phr.",
+      "meaning": "I am from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu sou de Salvador.",
+          "en": "I'm from Salvador."
+        },
+        {
+          "target": "Eu sou de Portugal.",
+          "en": "I'm from Portugal."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "a cidade",
+      "ipa": "/a siˈda.dʒi/",
+      "pos": "f. n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Lisboa é uma cidade linda.",
+          "en": "Lisbon is a beautiful city."
+        },
+        {
+          "target": "Esta cidade é muito grande.",
+          "en": "This city is very big."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "o país",
+      "ipa": "/u paˈis/",
+      "pos": "m. n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "O Brasil é um país enorme.",
+          "en": "Brazil is a huge country."
+        },
+        {
+          "target": "Qual é o seu país?",
+          "en": "What is your country?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "falar",
+      "ipa": "/faˈlaɾ/",
+      "pos": "v.",
+      "meaning": "to speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu falo português e inglês.",
+          "en": "I speak Portuguese and English."
+        },
+        {
+          "target": "Você fala muito bem!",
+          "en": "You speak very well!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "devagar",
+      "ipa": "/dʒi.vaˈɡaɾ/",
+      "pos": "adv.",
+      "meaning": "slowly",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Fale mais devagar, por favor.",
+          "en": "Speak more slowly, please."
+        },
+        {
+          "target": "Eu caminho devagar.",
+          "en": "I walk slowly."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Camila",
+      "role": "npc",
+      "text": "Oi! De onde você é?",
+      "glosses": [
+        {
+          "text": "De onde você é",
+          "pos": "phr.",
+          "meaning": "where are you from"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi! Where are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Eu sou dos Estados Unidos. E você?",
+      "glosses": [
+        {
+          "text": "Eu sou do",
+          "pos": "phr.",
+          "meaning": "I am from"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm from the United States. And you?"
+    },
+    {
+      "speaker": "Camila",
+      "role": "npc",
+      "text": "Eu sou do Rio, mas moro em São Paulo.",
+      "glosses": [
+        {
+          "text": "Eu sou do",
+          "pos": "phr.",
+          "meaning": "I am from"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm from Rio, but I live in São Paulo."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "São Paulo é uma cidade enorme!",
+      "glosses": [
+        {
+          "text": "a cidade",
+          "pos": "f. n.",
+          "meaning": "city"
+        }
+      ],
+      "id": "t4",
+      "en": "São Paulo is a huge city!"
+    },
+    {
+      "speaker": "Camila",
+      "role": "npc",
+      "text": "É sim! Você fala muito bem português!",
+      "glosses": [
+        {
+          "text": "fala",
+          "pos": "v.",
+          "meaning": "to speak"
+        }
+      ],
+      "id": "t5",
+      "en": "It is! You speak Portuguese very well!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Obrigado, mas ainda falo devagar.",
+      "glosses": [
+        {
+          "text": "falo",
+          "pos": "v.",
+          "meaning": "to speak"
+        },
+        {
+          "text": "devagar",
+          "pos": "adv.",
+          "meaning": "slowly"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, but I still speak slowly."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "devagar",
+      "tip": "Say de-va-GAR; the 'd' before 'e' sounds like 'j' in 'jam'",
+      "id": "w1"
+    },
+    {
+      "text": "cidade",
+      "tip": "Say si-DA-dji: 'de' at the end sounds like 'dji'",
+      "id": "w2"
+    }
+  ]
+}

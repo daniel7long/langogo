@@ -1,0 +1,222 @@
+{
+  "emoji": "👋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "你好",
+      "ipa": "nei5 hou2",
+      "pos": "interj.",
+      "meaning": "hello",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你好，阿明！",
+          "en": "Hello, Ming!"
+        },
+        {
+          "target": "你好，好耐冇見！",
+          "en": "Hello, long time no see!"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "早晨",
+      "ipa": "zou2 san4",
+      "pos": "phr.",
+      "meaning": "good morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "早晨，老師！",
+          "en": "Good morning, teacher!"
+        },
+        {
+          "target": "早晨，各位！",
+          "en": "Good morning, everyone!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "你好嗎",
+      "ipa": "nei5 hou2 maa3",
+      "pos": "phr.",
+      "meaning": "how are you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你好嗎？我好好。",
+          "en": "How are you? I'm fine."
+        },
+        {
+          "target": "你好嗎，我嘅朋友？",
+          "en": "How are you, my friend?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "多謝",
+      "ipa": "do1 ze6",
+      "pos": "interj.",
+      "meaning": "thank you (for a gift or a favor)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "多謝你！",
+          "en": "Thank you!"
+        },
+        {
+          "target": "多謝你嘅幫忙。",
+          "en": "Thanks for your help."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "再見",
+      "ipa": "zoi3 gin3",
+      "pos": "interj.",
+      "meaning": "goodbye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "再見，聽日見！",
+          "en": "Goodbye, see you tomorrow!"
+        },
+        {
+          "target": "佢同我講再見。",
+          "en": "He said goodbye to me."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "唔該",
+      "ipa": "m4 goi1",
+      "pos": "interj.",
+      "meaning": "please, thank you (for a service), excuse me",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "唔該，我要一杯咖啡。",
+          "en": "Please, I'd like a coffee."
+        },
+        {
+          "target": "唔該借借！",
+          "en": "Excuse me!"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mary",
+      "role": "npc",
+      "text": "你好！早晨！你好嗎？",
+      "glosses": [
+        {
+          "text": "你好",
+          "pos": "interj.",
+          "meaning": "hello"
+        },
+        {
+          "text": "早晨",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "你好嗎",
+          "pos": "phr.",
+          "meaning": "how are you"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! Good morning! How are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "早晨！我幾好，多謝。你呢？",
+      "glosses": [
+        {
+          "text": "早晨",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "多謝",
+          "pos": "interj.",
+          "meaning": "thank you (for a gift or a favor)"
+        }
+      ],
+      "id": "t2",
+      "en": "Good morning! I'm quite well, thank you. And you?"
+    },
+    {
+      "speaker": "Mary",
+      "role": "npc",
+      "text": "我都好好，今日天氣好靚呀！",
+      "glosses": [],
+      "id": "t3",
+      "en": "I'm fine too, the weather is lovely today!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "係呀。我而家要走喇，再見！",
+      "glosses": [
+        {
+          "text": "再見",
+          "pos": "interj.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes. I have to go now, goodbye!"
+    },
+    {
+      "speaker": "Mary",
+      "role": "npc",
+      "text": "再見！祝你有美好嘅一日！",
+      "glosses": [
+        {
+          "text": "再見",
+          "pos": "interj.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t5",
+      "en": "Goodbye! Have a wonderful day!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "多謝，你都係！遲啲見！",
+      "glosses": [
+        {
+          "text": "多謝",
+          "pos": "interj.",
+          "meaning": "thank you (for a gift or a favor)"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, you too! See you later!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "多謝",
+      "tip": "Say do1 ze6: 'do' is high and level, 'ze' is low and level",
+      "id": "w1"
+    },
+    {
+      "text": "早晨",
+      "tip": "Say zou2 san4: 'zou' rises, 'san' falls from low",
+      "id": "w2"
+    }
+  ]
+}

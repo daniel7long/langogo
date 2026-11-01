@@ -1,0 +1,218 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "откуда ты",
+      "ipa": "atkúda ty",
+      "pos": "phr.",
+      "meaning": "where are you from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Привет! Откуда ты?",
+          "en": "Hi! Where are you from?"
+        },
+        {
+          "target": "Откуда ты, Олег?",
+          "en": "Where are you from, Oleg?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "я из",
+      "ipa": "ya iz",
+      "pos": "phr.",
+      "meaning": "I am from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я из Санкт-Петербурга.",
+          "en": "I'm from Saint Petersburg."
+        },
+        {
+          "target": "Я из Соединённых Штатов.",
+          "en": "I'm from the United States."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "город",
+      "ipa": "górad",
+      "pos": "m. n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Москва — большой город.",
+          "en": "Moscow is a big city."
+        },
+        {
+          "target": "Этот город очень красивый.",
+          "en": "This city is very beautiful."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "страна",
+      "ipa": "straná",
+      "pos": "f. n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Россия — большая страна.",
+          "en": "Russia is a big country."
+        },
+        {
+          "target": "Какая твоя страна?",
+          "en": "What is your country?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "говорить",
+      "ipa": "gavarít'",
+      "pos": "v.",
+      "meaning": "to speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я говорю по-английски и по-русски.",
+          "en": "I speak English and Russian."
+        },
+        {
+          "target": "Ты хорошо говоришь!",
+          "en": "You speak well!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "медленно",
+      "ipa": "médlenna",
+      "pos": "adv.",
+      "meaning": "slowly",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Говорите медленно, пожалуйста.",
+          "en": "Speak slowly, please."
+        },
+        {
+          "target": "Я хожу медленно.",
+          "en": "I walk slowly."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Мария",
+      "role": "npc",
+      "text": "Привет! Откуда ты?",
+      "glosses": [
+        {
+          "text": "Откуда ты",
+          "pos": "phr.",
+          "meaning": "where are you from"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi! Where are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Я из Соединённых Штатов. А ты?",
+      "glosses": [
+        {
+          "text": "Я из",
+          "pos": "phr.",
+          "meaning": "I am from"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm from the United States. And you?"
+    },
+    {
+      "speaker": "Мария",
+      "role": "npc",
+      "text": "Я из Казани, но живу в Москве.",
+      "glosses": [
+        {
+          "text": "Я из",
+          "pos": "phr.",
+          "meaning": "I am from"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm from Kazan, but I live in Moscow."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Москва очень большой город!",
+      "glosses": [
+        {
+          "text": "город",
+          "pos": "m. n.",
+          "meaning": "city"
+        }
+      ],
+      "id": "t4",
+      "en": "Moscow is a very big city!"
+    },
+    {
+      "speaker": "Мария",
+      "role": "npc",
+      "text": "Да! Ты очень хорошо говоришь по-русски!",
+      "glosses": [
+        {
+          "text": "говоришь",
+          "pos": "v.",
+          "meaning": "to speak"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes! You speak Russian very well!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Спасибо, но я пока говорю медленно.",
+      "glosses": [
+        {
+          "text": "говорю",
+          "pos": "v.",
+          "meaning": "to speak"
+        },
+        {
+          "text": "медленно",
+          "pos": "adv.",
+          "meaning": "slowly"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, but I still speak slowly."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "медленно",
+      "tip": "Say MYED-len-na, with a double 'н'",
+      "id": "w1"
+    },
+    {
+      "text": "город",
+      "tip": "Stress the first syllable: GO-rat; the final 'д' sounds like 't'",
+      "id": "w2"
+    }
+  ]
+}

@@ -113,21 +113,36 @@ def _norm(text):
     return [t.lower() for t in tokens(text)]
 
 
-def _from_recognition(best, expected_text):
+def _from_recognition(best, expected_text, unit="words"):
     """Used only when Azure recognised the speech but sent no pronunciation scores (a language its pronunciation
     assessment does not cover). The marks then come from how closely what was recognised matches the sentence:
-    each word is compared with the recognised words, and long pauses lower fluency."""
+    each word is compared with the recognised words, and long pauses lower fluency.
+    For Chinese-style scripts (unit "characters") the comparison is character by character instead."""
     import difflib
-    expected = tokens(expected_text)
-    heard = _norm(best.get("Lexical") or best.get("Display") or "")
+    heard_text = best.get("Lexical") or best.get("Display") or ""
     words, hit = [], 0
-    for tok, norm in zip(expected, _norm(expected_text)):
-        ratio = max((difflib.SequenceMatcher(None, norm, h).ratio() for h in heard), default=0.0)
-        if ratio < 0.6:
-            words.append({"text": tok, "score": 0, "error": "Omission", "phonemes": []})
-        else:
-            hit += 1
-            words.append({"text": tok, "score": round(min(100, 30 + ratio * 70)), "error": "None", "phonemes": []})
+    if unit == "characters":
+        expected = [c for c in expected_text if c.isalnum()]
+        heard = [c for c in heard_text if c.isalnum()]
+        matched = set()
+        for block in difflib.SequenceMatcher(None, expected, heard, autojunk=False).get_matching_blocks():
+            matched.update(range(block.a, block.a + block.size))
+        for i, ch in enumerate(expected):
+            if i in matched:
+                hit += 1
+                words.append({"text": ch, "score": 90, "error": "None", "phonemes": []})
+            else:
+                words.append({"text": ch, "score": 0, "error": "Omission", "phonemes": []})
+    else:
+        expected = tokens(expected_text)
+        heard = _norm(heard_text)
+        for tok, norm in zip(expected, _norm(expected_text)):
+            ratio = max((difflib.SequenceMatcher(None, norm, h).ratio() for h in heard), default=0.0)
+            if ratio < 0.6:
+                words.append({"text": tok, "score": 0, "error": "Omission", "phonemes": []})
+            else:
+                hit += 1
+                words.append({"text": tok, "score": round(min(100, 30 + ratio * 70)), "error": "None", "phonemes": []})
     n = max(1, len(expected))
     completeness = hit / n * 100
     spoken = [w for w in best.get("Words", []) if w.get("Offset") is not None and w.get("Duration")]
@@ -138,7 +153,7 @@ def _from_recognition(best, expected_text):
     return accuracy, fluency, completeness, words, speech_seconds
 
 
-def _parse_azure(reply, expected_text):
+def _parse_azure(reply, expected_text, unit="words"):
     status = reply.get("RecognitionStatus")
     if status != "Success" or not reply.get("NBest"):
         if status in ("NoMatch", "InitialSilenceTimeout", "BabbleTimeout"):
@@ -147,7 +162,7 @@ def _parse_azure(reply, expected_text):
     best = reply["NBest"][0]
     top = _pa(best)
     if "AccuracyScore" not in top and "PronScore" not in top:
-        return _from_recognition(best, expected_text)  # no pronunciation scores came back for this language
+        return _from_recognition(best, expected_text, unit)  # no pronunciation scores came back for this language
     accuracy = float(top.get("AccuracyScore", 0))
     fluency = float(top.get("FluencyScore", 0))
     completeness = float(top.get("CompletenessScore", 0))
@@ -202,7 +217,7 @@ def score_speech(audio_path, expected_text, lang_id=languages.DEFAULT):
         if audio_seconds < 0.4:
             raise ScoringError("The recording is too short. Tap the mic and say the whole line.")
         reply = _azure_call(wav, expected_text, lang["locale"])
-        accuracy, fluency, completeness, words, speech_seconds = _parse_azure(reply, expected_text)
+        accuracy, fluency, completeness, words, speech_seconds = _parse_azure(reply, expected_text, lang["unit"])
     else:
         accuracy, fluency, completeness, words, speech_seconds = _demo(audio_path, expected_text)
 

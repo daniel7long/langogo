@@ -1,0 +1,228 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "起身",
+      "ipa": "hei2 san1",
+      "pos": "v.",
+      "meaning": "to get up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我七點起身。",
+          "en": "I get up at seven."
+        },
+        {
+          "target": "你幾點起身呀？",
+          "en": "What time do you get up?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "早餐",
+      "ipa": "zou2 caan1",
+      "pos": "n.",
+      "meaning": "breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我喺屋企食早餐。",
+          "en": "I have breakfast at home."
+        },
+        {
+          "target": "早餐好好食。",
+          "en": "The breakfast is delicious."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "咖啡",
+      "ipa": "gaa3 fe1",
+      "pos": "n.",
+      "meaning": "coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我每日都飲咖啡。",
+          "en": "I drink coffee every day."
+        },
+        {
+          "target": "呢杯咖啡好熱。",
+          "en": "This cup of coffee is very hot."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "沖涼",
+      "ipa": "cung1 loeng4",
+      "pos": "v.",
+      "meaning": "to take a shower",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我朝早沖涼。",
+          "en": "I take a shower in the morning."
+        },
+        {
+          "target": "我食完飯就沖涼。",
+          "en": "I take a shower after I eat."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "出門",
+      "ipa": "ceot1 mun4",
+      "pos": "v.",
+      "meaning": "to leave home",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我八點出門。",
+          "en": "I leave home at eight."
+        },
+        {
+          "target": "你幾點出門呀？",
+          "en": "What time do you leave home?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "朝早",
+      "ipa": "ziu1 zou2",
+      "pos": "n.",
+      "meaning": "morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我朝早跑步。",
+          "en": "I jog in the morning."
+        },
+        {
+          "target": "你朝早飲咩呀？",
+          "en": "What do you drink in the morning?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "阿芬",
+      "role": "npc",
+      "text": "你朝早幾點起身呀？",
+      "glosses": [
+        {
+          "text": "起身",
+          "pos": "v.",
+          "meaning": "to get up"
+        },
+        {
+          "text": "朝早",
+          "pos": "n.",
+          "meaning": "morning"
+        }
+      ],
+      "id": "t1",
+      "en": "What time do you get up in the morning?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我七點起身，然後食早餐。",
+      "glosses": [
+        {
+          "text": "起身",
+          "pos": "v.",
+          "meaning": "to get up"
+        },
+        {
+          "text": "早餐",
+          "pos": "n.",
+          "meaning": "breakfast"
+        }
+      ],
+      "id": "t2",
+      "en": "I get up at seven and then have breakfast."
+    },
+    {
+      "speaker": "阿芬",
+      "role": "npc",
+      "text": "你飲咖啡定係飲茶呀？",
+      "glosses": [
+        {
+          "text": "咖啡",
+          "pos": "n.",
+          "meaning": "coffee"
+        }
+      ],
+      "id": "t3",
+      "en": "Do you drink coffee or tea?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我一定飲咖啡，之後沖涼。",
+      "glosses": [
+        {
+          "text": "咖啡",
+          "pos": "n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "沖涼",
+          "pos": "v.",
+          "meaning": "to take a shower"
+        }
+      ],
+      "id": "t4",
+      "en": "I always drink coffee, and then I take a shower."
+    },
+    {
+      "speaker": "阿芬",
+      "role": "npc",
+      "text": "我八點出門。",
+      "glosses": [
+        {
+          "text": "出門",
+          "pos": "v.",
+          "meaning": "to leave home"
+        }
+      ],
+      "id": "t5",
+      "en": "I leave home at eight."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我遲啲先出門，九點啦。",
+      "glosses": [
+        {
+          "text": "出門",
+          "pos": "v.",
+          "meaning": "to leave home"
+        }
+      ],
+      "id": "t6",
+      "en": "I leave later, at nine."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "咖啡",
+      "tip": "Say gaa3 fe1: 'gaa' is mid level, 'fe' is high and level",
+      "id": "w1"
+    },
+    {
+      "text": "沖涼",
+      "tip": "Say cung1 loeng4: 'cung' is high, 'loeng' starts low and falls",
+      "id": "w2"
+    }
+  ]
+}

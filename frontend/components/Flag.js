@@ -115,6 +115,36 @@ const DRAW = {
       <SvgText x="45" y="45" fontSize="44" fontWeight="bold" fill="#FFFFFF" textAnchor="middle">ع</SvgText>
     </>
   ),
+  ro: () => (
+    <>
+      <Rect x="0" width="30" height="60" fill="#002B7F" />
+      <Rect x="30" width="30" height="60" fill="#FCD116" />
+      <Rect x="60" width="30" height="60" fill="#CE1126" />
+    </>
+  ),
+  ru: () => (
+    <>
+      <Rect y="0" width="90" height="20" fill="#FFFFFF" />
+      <Rect y="20" width="90" height="20" fill="#0039A6" />
+      <Rect y="40" width="90" height="20" fill="#D52B1E" />
+    </>
+  ),
+  // Portuguese is taught in its Brazilian form, so it gets the flag of Brazil.
+  pt: () => (
+    <>
+      <Rect width="90" height="60" fill="#009C3B" />
+      <Polygon points="45,6 84,30 45,54 6,30" fill="#FFDF00" />
+      <Circle cx="45" cy="30" r="13" fill="#002776" />
+      <Path d="M32.5 27.5 Q46 24 57.3 34" stroke="#FFFFFF" strokeWidth="2.6" fill="none" />
+    </>
+  ),
+  // Cantonese is spoken in Hong Kong, Guangdong and elsewhere, so it gets a tile with the character 粵 (Yuè).
+  yue: () => (
+    <>
+      <Rect width="90" height="60" fill="#B91C1C" />
+      <SvgText x="45" y="45" fontSize="40" fontWeight="bold" fill="#FFFFFF" textAnchor="middle">粵</SvgText>
+    </>
+  ),
 };
 
 // `round` crops the flag into a circle (the language cards); `ring` adds the soft warm halo around it.

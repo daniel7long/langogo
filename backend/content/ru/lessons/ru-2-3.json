@@ -1,0 +1,205 @@
+{
+  "emoji": "🥐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "булочная",
+      "ipa": "búlachnaya",
+      "pos": "f. n.",
+      "meaning": "bakery",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Булочная открывается в шесть.",
+          "en": "The bakery opens at six."
+        },
+        {
+          "target": "Я хожу в булочную каждый день.",
+          "en": "I go to the bakery every day."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "хлеб",
+      "ipa": "khlyep",
+      "pos": "m. n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Хлеб ещё тёплый.",
+          "en": "The bread is still warm."
+        },
+        {
+          "target": "Я покупаю свежий хлеб.",
+          "en": "I buy fresh bread."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "булочка",
+      "ipa": "búlachka",
+      "pos": "f. n.",
+      "meaning": "bun",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Одну булочку с корицей, пожалуйста.",
+          "en": "One cinnamon bun, please."
+        },
+        {
+          "target": "Булочки очень вкусные.",
+          "en": "The buns are very tasty."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "дайте",
+      "ipa": "dájte",
+      "pos": "v.",
+      "meaning": "give me (polite)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Дайте, пожалуйста, чай.",
+          "en": "Give me tea, please."
+        },
+        {
+          "target": "Дайте мне два хлеба.",
+          "en": "Give me two loaves of bread."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "сколько стоит",
+      "ipa": "skól'ka stóit",
+      "pos": "phr.",
+      "meaning": "how much does it cost",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Сколько стоит этот хлеб?",
+          "en": "How much is this bread?"
+        },
+        {
+          "target": "Сколько стоит всё вместе?",
+          "en": "How much is everything together?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "рубль",
+      "ipa": "rubl'",
+      "pos": "m. n.",
+      "meaning": "ruble",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Это стоит двадцать рублей.",
+          "en": "It costs twenty rubles."
+        },
+        {
+          "target": "Сто рублей, пожалуйста.",
+          "en": "A hundred rubles, please."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Продавец",
+      "role": "npc",
+      "text": "Добрый день! Что вам нужно?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good day! What do you need?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Дайте, пожалуйста, хлеб и две булочки.",
+      "glosses": [
+        {
+          "text": "хлеб",
+          "pos": "m. n.",
+          "meaning": "bread"
+        },
+        {
+          "text": "булочки",
+          "pos": "f. n.",
+          "meaning": "bun"
+        },
+        {
+          "text": "Дайте",
+          "pos": "v.",
+          "meaning": "give me (polite)"
+        }
+      ],
+      "id": "t2",
+      "en": "Give me, please, a loaf of bread and two buns."
+    },
+    {
+      "speaker": "Продавец",
+      "role": "npc",
+      "text": "Конечно! Что-нибудь ещё?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Of course! Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Сколько стоит всё вместе?",
+      "glosses": [
+        {
+          "text": "Сколько стоит",
+          "pos": "phr.",
+          "meaning": "how much does it cost"
+        }
+      ],
+      "id": "t4",
+      "en": "How much is everything together?"
+    },
+    {
+      "speaker": "Продавец",
+      "role": "npc",
+      "text": "Сто двадцать рублей.",
+      "glosses": [
+        {
+          "text": "рублей",
+          "pos": "m. n.",
+          "meaning": "ruble"
+        }
+      ],
+      "id": "t5",
+      "en": "A hundred and twenty rubles."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Вот, пожалуйста. Большое спасибо!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here you are. Thank you very much!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "булочка",
+      "tip": "Say BU-lach-ka; 'ч' is like 'ch' in 'cheese'",
+      "id": "w1"
+    },
+    {
+      "text": "сколько стоит",
+      "tip": "Say SKOL-ka STO-it",
+      "id": "w2"
+    }
+  ]
+}

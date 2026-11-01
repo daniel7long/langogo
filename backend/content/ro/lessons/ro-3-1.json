@@ -1,0 +1,201 @@
+{
+  "emoji": "☕",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "cafea cu lapte",
+      "ipa": "/kaˈfe̯a ku ˈlap.te/",
+      "pos": "phr.",
+      "meaning": "coffee with milk",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "O cafea cu lapte, vă rog.",
+          "en": "A coffee with milk, please."
+        },
+        {
+          "target": "Îmi place cafeaua cu lapte.",
+          "en": "I like coffee with milk."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "suc de portocale",
+      "ipa": "/ˈsuk de por.toˈka.le/",
+      "pos": "phr.",
+      "meaning": "orange juice",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vreau un suc de portocale.",
+          "en": "I want an orange juice."
+        },
+        {
+          "target": "Sucul de portocale este rece.",
+          "en": "The orange juice is cold."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "apă",
+      "ipa": "/ˈa.pə/",
+      "pos": "f. n.",
+      "meaning": "water",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "O apă, vă rog.",
+          "en": "A water, please."
+        },
+        {
+          "target": "Apa este rece.",
+          "en": "The water is cold."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "a comanda",
+      "ipa": "/a ko.manˈda/",
+      "pos": "v.",
+      "meaning": "to order",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Ce doriți să comandați?",
+          "en": "What would you like to order?"
+        },
+        {
+          "target": "Comand un sandviș.",
+          "en": "I'll order a sandwich."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "nota de plată",
+      "ipa": "/ˈno.ta de ˈpla.tə/",
+      "pos": "phr.",
+      "meaning": "the bill",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Nota de plată, vă rog.",
+          "en": "The bill, please."
+        },
+        {
+          "target": "Cât este nota de plată?",
+          "en": "How much is the bill?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "masă",
+      "ipa": "/ˈma.sə/",
+      "pos": "f. n.",
+      "meaning": "table",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Această masă este liberă?",
+          "en": "Is this table free?"
+        },
+        {
+          "target": "O masă pentru doi, vă rog.",
+          "en": "A table for two, please."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chelner",
+      "role": "npc",
+      "text": "Bună ziua! Ce doriți să comandați?",
+      "glosses": [
+        {
+          "text": "comandați",
+          "pos": "v.",
+          "meaning": "to order"
+        }
+      ],
+      "id": "t1",
+      "en": "Good day! What would you like to order?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "O cafea cu lapte, vă rog.",
+      "glosses": [
+        {
+          "text": "cafea cu lapte",
+          "pos": "phr.",
+          "meaning": "coffee with milk"
+        }
+      ],
+      "id": "t2",
+      "en": "A coffee with milk, please."
+    },
+    {
+      "speaker": "Chelner",
+      "role": "npc",
+      "text": "Doriți și ceva de mâncare?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Would you like something to eat too?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Da, un covrig și o apă.",
+      "glosses": [
+        {
+          "text": "apă",
+          "pos": "f. n.",
+          "meaning": "water"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, a pretzel ring and a water."
+    },
+    {
+      "speaker": "Chelner",
+      "role": "npc",
+      "text": "Perfect! Vi le aduc imediat.",
+      "glosses": [],
+      "id": "t5",
+      "en": "Perfect! I'll bring them right away."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mulțumesc. Nota de plată, vă rog, când puteți.",
+      "glosses": [
+        {
+          "text": "Nota de plată",
+          "pos": "phr.",
+          "meaning": "the bill"
+        }
+      ],
+      "id": "t6",
+      "en": "Thank you. The bill, please, when you can."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "apă",
+      "tip": "Say A-puh: the final 'ă' is a short, soft vowel",
+      "id": "w1"
+    },
+    {
+      "text": "comandați",
+      "tip": "The 'ț' is 'ts': ko-man-DATS",
+      "id": "w2"
+    }
+  ]
+}

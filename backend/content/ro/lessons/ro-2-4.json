@@ -1,0 +1,217 @@
+{
+  "emoji": "📅",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "weekend",
+      "ipa": "/ˈwi.kend/",
+      "pos": "m. n.",
+      "meaning": "weekend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ce faci în weekend?",
+          "en": "What do you do at the weekend?"
+        },
+        {
+          "target": "Weekendul acesta merg la munte.",
+          "en": "This weekend I'm going to the mountains."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "mâine",
+      "ipa": "/ˈmɨj.ne/",
+      "pos": "adv.",
+      "meaning": "tomorrow",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mâine lucrez.",
+          "en": "Tomorrow I work."
+        },
+        {
+          "target": "Pe mâine!",
+          "en": "See you tomorrow!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "cinema",
+      "ipa": "/ˈtʃi.ne.ma/",
+      "pos": "n.",
+      "meaning": "cinema",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mergem la cinema diseară.",
+          "en": "We're going to the cinema tonight."
+        },
+        {
+          "target": "Cinemaul este aproape de aici.",
+          "en": "The cinema is near here."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "a vizita",
+      "ipa": "/a vi.ziˈta/",
+      "pos": "v.",
+      "meaning": "to visit",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Vizitez bunicii mei.",
+          "en": "I'm visiting my grandparents."
+        },
+        {
+          "target": "Vreau să vizitez Sibiul.",
+          "en": "I want to visit Sibiu."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "apoi",
+      "ipa": "/aˈpoj/",
+      "pos": "adv.",
+      "meaning": "then, afterwards",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Apoi mergem la cină.",
+          "en": "Then we go to dinner."
+        },
+        {
+          "target": "Vorbim apoi.",
+          "en": "We'll talk afterwards."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "plan",
+      "ipa": "/plan/",
+      "pos": "n.",
+      "meaning": "plan",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Am un plan pentru sâmbătă.",
+          "en": "I have a plan for Saturday."
+        },
+        {
+          "target": "Ce planuri ai?",
+          "en": "What plans do you have?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Radu",
+      "role": "npc",
+      "text": "Ce planuri ai pentru weekend?",
+      "glosses": [
+        {
+          "text": "weekend",
+          "pos": "m. n.",
+          "meaning": "weekend"
+        },
+        {
+          "text": "plan",
+          "pos": "n.",
+          "meaning": "plan"
+        }
+      ],
+      "id": "t1",
+      "en": "What plans do you have for the weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sâmbătă merg la cinema cu niște prieteni.",
+      "glosses": [
+        {
+          "text": "cinema",
+          "pos": "n.",
+          "meaning": "cinema"
+        }
+      ],
+      "id": "t2",
+      "en": "On Saturday I'm going to the cinema with some friends."
+    },
+    {
+      "speaker": "Radu",
+      "role": "npc",
+      "text": "Frumos! Dar mâine ce faci?",
+      "glosses": [
+        {
+          "text": "mâine",
+          "pos": "adv.",
+          "meaning": "tomorrow"
+        }
+      ],
+      "id": "t3",
+      "en": "Nice! And tomorrow, what are you doing?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mâine vizitez bunica mea.",
+      "glosses": [
+        {
+          "text": "Mâine",
+          "pos": "adv.",
+          "meaning": "tomorrow"
+        },
+        {
+          "text": "vizitez",
+          "pos": "v.",
+          "meaning": "to visit"
+        }
+      ],
+      "id": "t4",
+      "en": "Tomorrow I'm visiting my grandmother."
+    },
+    {
+      "speaker": "Radu",
+      "role": "npc",
+      "text": "Apoi putem lua cina împreună?",
+      "glosses": [
+        {
+          "text": "Apoi",
+          "pos": "adv.",
+          "meaning": "then, afterwards"
+        }
+      ],
+      "id": "t5",
+      "en": "Then can we have dinner together?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sigur! Va fi grozav.",
+      "glosses": [],
+      "id": "t6",
+      "en": "Of course! It will be great."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "mâine",
+      "tip": "Say MUH-ee-ne: the 'â' is a closed vowel",
+      "id": "w1"
+    },
+    {
+      "text": "a vizita",
+      "tip": "The 'z' is voiced: vi-zi-TA",
+      "id": "w2"
+    }
+  ]
+}

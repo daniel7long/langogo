@@ -1,0 +1,216 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "o mercado",
+      "ipa": "/u meɾˈka.du/",
+      "pos": "m. n.",
+      "meaning": "market, supermarket",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vou ao mercado agora.",
+          "en": "I'm going to the market now."
+        },
+        {
+          "target": "O mercado fecha às dez.",
+          "en": "The market closes at ten."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "a fruta",
+      "ipa": "/a ˈfɾu.ta/",
+      "pos": "f. n.",
+      "meaning": "fruit",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu como fruta todo dia.",
+          "en": "I eat fruit every day."
+        },
+        {
+          "target": "Qual é a sua fruta preferida?",
+          "en": "What's your favorite fruit?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "o quilo",
+      "ipa": "/u ˈki.lu/",
+      "pos": "m. n.",
+      "meaning": "kilo",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Um quilo de arroz, por favor.",
+          "en": "A kilo of rice, please."
+        },
+        {
+          "target": "Quanto custa o quilo?",
+          "en": "How much is the kilo?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "o tomate",
+      "ipa": "/u toˈma.tʃi/",
+      "pos": "m. n.",
+      "meaning": "tomato",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Os tomates estão frescos.",
+          "en": "The tomatoes are fresh."
+        },
+        {
+          "target": "Eu queria meio quilo de tomate.",
+          "en": "I'd like half a kilo of tomatoes."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "a maçã",
+      "ipa": "/a maˈsɐ̃/",
+      "pos": "f. n.",
+      "meaning": "apple",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "A maçã está doce.",
+          "en": "The apple is sweet."
+        },
+        {
+          "target": "Quero quatro maçãs.",
+          "en": "I want four apples."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "fresco",
+      "ipa": "/ˈfɾes.ku/",
+      "pos": "adj.",
+      "meaning": "fresh",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "O pão está fresco.",
+          "en": "The bread is fresh."
+        },
+        {
+          "target": "Prefiro peixe fresco.",
+          "en": "I prefer fresh fish."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Vendedor",
+      "role": "npc",
+      "text": "Bom dia! O que vai levar hoje?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! What will you take today?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Eu queria um quilo de tomates e quatro maçãs.",
+      "glosses": [
+        {
+          "text": "quilo",
+          "pos": "m. n.",
+          "meaning": "kilo"
+        },
+        {
+          "text": "tomate",
+          "pos": "m. n.",
+          "meaning": "tomato"
+        },
+        {
+          "text": "maçã",
+          "pos": "f. n.",
+          "meaning": "apple"
+        }
+      ],
+      "id": "t2",
+      "en": "I'd like a kilo of tomatoes and four apples."
+    },
+    {
+      "speaker": "Vendedor",
+      "role": "npc",
+      "text": "Estão frescos, chegaram hoje de manhã.",
+      "glosses": [
+        {
+          "text": "fresco",
+          "pos": "adj.",
+          "meaning": "fresh"
+        }
+      ],
+      "id": "t3",
+      "en": "They're fresh, they arrived this morning."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Quanto custa o quilo do tomate?",
+      "glosses": [
+        {
+          "text": "o quilo",
+          "pos": "m. n.",
+          "meaning": "kilo"
+        },
+        {
+          "text": "o tomate",
+          "pos": "m. n.",
+          "meaning": "tomato"
+        }
+      ],
+      "id": "t4",
+      "en": "How much is a kilo of tomatoes?"
+    },
+    {
+      "speaker": "Vendedor",
+      "role": "npc",
+      "text": "Seis reais o quilo. Quer mais alguma coisa?",
+      "glosses": [
+        {
+          "text": "o quilo",
+          "pos": "m. n.",
+          "meaning": "kilo"
+        }
+      ],
+      "id": "t5",
+      "en": "Six reais a kilo. Do you want anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Não, só isso. Obrigado!",
+      "glosses": [],
+      "id": "t6",
+      "en": "No, that's all. Thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "maçã",
+      "tip": "Nasal 'ã': ma-SAN, with a 'ç' that sounds like 's'",
+      "id": "w1"
+    },
+    {
+      "text": "tomate",
+      "tip": "Say to-MA-tchi: 'te' at the end sounds like 'tchi'",
+      "id": "w2"
+    }
+  ]
+}

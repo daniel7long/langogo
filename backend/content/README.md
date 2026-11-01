@@ -5,11 +5,11 @@ All lesson content lives in this folder. You never need to touch Python code.
 ```
 backend/content/
   _TEMPLATE.json           copy this to start a new lesson
-  fr/                      one folder per language: fr, es, zh, ko, ja, de, it, ar (codes from backend/languages.py)
+  fr/                      one folder per language: fr, es, zh, ko, ja, de, it, ar, pt, ru, ro, yue (codes from backend/languages.py)
     levels.json            which levels exist and which lessons they list, in order
     lessons/
       fr-1-1.json          one file per lesson, named <language>-<level>-<lesson>
-  es/ zh/ ko/ ja/ de/ it/ ar/   same layout (3 levels × 4 lessons each; French has 9 levels)
+  es/ zh/ ko/ ja/ de/ it/ ar/ pt/ ru/ ro/ yue/   same layout (3 levels × 4 lessons each; French has 9 levels)
   fr/level_test.json       the sentence learners read aloud in the French level test
   audio/
     fr-1-1/t1.mp3          optional recorded voice for a dialogue line
@@ -38,7 +38,7 @@ backend/content/
 |-------|---------|
 | `emoji`, `max_flowers` | Icon in the records list; the "To Get N" reward shown at the top |
 | `cefr` | Default CEFR level of the lesson's words: A1, A2, B1, B2, C1 or C2 (A2 if left out). Used to sort the Vocab Notes |
-| `vocab[]` | Words for the preparation screen: `id`, `word`, `ipa` (for Chinese, Japanese and Korean put pinyin, romaji or romanization here), `pos`, `meaning`, `examples[]` of `{target, en}` (`fr` is accepted instead of `target`), and an optional `cefr` for this word (overrides the lesson's) |
+| `vocab[]` | Words for the preparation screen: `id`, `word`, `ipa` (for Chinese, Japanese and Korean put pinyin, romaji or romanization here; Cantonese uses Jyutping; Russian uses a Latin transliteration with an accent on the stressed vowel), `pos`, `meaning`, `examples[]` of `{target, en}` (`fr` is accepted instead of `target`), and an optional `cefr` for this word (overrides the lesson's) |
 | `dialogue[]` | The conversation, top to bottom (see below) |
 | `practice_words[]` | Fallback words to retry. The result screen normally practises the words and phrase you really scored lowest on; these are used only if there is no scoring data |
 

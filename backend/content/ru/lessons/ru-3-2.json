@@ -1,0 +1,216 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "бронь",
+      "ipa": "bron'",
+      "pos": "f. n.",
+      "meaning": "reservation",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "У меня бронь на восемь часов.",
+          "en": "I have a reservation for eight o'clock."
+        },
+        {
+          "target": "Бронь на моё имя.",
+          "en": "The reservation is in my name."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "меню",
+      "ipa": "menyú",
+      "pos": "n.",
+      "meaning": "menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Можно посмотреть меню?",
+          "en": "May I see the menu?"
+        },
+        {
+          "target": "Меню лежит на столе.",
+          "en": "The menu is on the table."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "блюдо дня",
+      "ipa": "blyúda dnya",
+      "pos": "phr.",
+      "meaning": "dish of the day",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Какое сегодня блюдо дня?",
+          "en": "What's the dish of the day today?"
+        },
+        {
+          "target": "Блюдо дня: курица с рисом.",
+          "en": "The dish of the day: chicken with rice."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "десерт",
+      "ipa": "desért",
+      "pos": "m. n.",
+      "meaning": "dessert",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "На десерт я хочу блины.",
+          "en": "For dessert I want blini."
+        },
+        {
+          "target": "Десерт очень вкусный.",
+          "en": "The dessert is very tasty."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "вкусный",
+      "ipa": "fkúsnyj",
+      "pos": "adj.",
+      "meaning": "tasty",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Рыба очень вкусная.",
+          "en": "The fish is very tasty."
+        },
+        {
+          "target": "Какой вкусный запах!",
+          "en": "What a tasty smell!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "рыба",
+      "ipa": "rýba",
+      "pos": "f. n.",
+      "meaning": "fish",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я ем рыбу два раза в неделю.",
+          "en": "I eat fish twice a week."
+        },
+        {
+          "target": "Рыба свежая.",
+          "en": "The fish is fresh."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Официант",
+      "role": "npc",
+      "text": "Добрый вечер! У вас есть бронь?",
+      "glosses": [
+        {
+          "text": "бронь",
+          "pos": "f. n.",
+          "meaning": "reservation"
+        }
+      ],
+      "id": "t1",
+      "en": "Good evening! Do you have a reservation?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Да, столик на двоих, на имя Анна.",
+      "glosses": [],
+      "id": "t2",
+      "en": "Yes, a table for two, in the name of Anna."
+    },
+    {
+      "speaker": "Официант",
+      "role": "npc",
+      "text": "Вот меню. Блюдо дня: рыба с рисом.",
+      "glosses": [
+        {
+          "text": "меню",
+          "pos": "n.",
+          "meaning": "menu"
+        },
+        {
+          "text": "Блюдо дня",
+          "pos": "phr.",
+          "meaning": "dish of the day"
+        },
+        {
+          "text": "рыба",
+          "pos": "f. n.",
+          "meaning": "fish"
+        }
+      ],
+      "id": "t3",
+      "en": "Here is the menu. The dish of the day: fish with rice."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Я возьму рыбу. А на десерт блины.",
+      "glosses": [
+        {
+          "text": "десерт",
+          "pos": "m. n.",
+          "meaning": "dessert"
+        },
+        {
+          "text": "рыбу",
+          "pos": "f. n.",
+          "meaning": "fish"
+        }
+      ],
+      "id": "t4",
+      "en": "I'll take the fish. And blini for dessert."
+    },
+    {
+      "speaker": "Официант",
+      "role": "npc",
+      "text": "Отличный выбор! Очень вкусно.",
+      "glosses": [
+        {
+          "text": "вкусно",
+          "pos": "adj.",
+          "meaning": "tasty"
+        }
+      ],
+      "id": "t5",
+      "en": "Excellent choice! It's very tasty."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Прекрасно, спасибо!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Wonderful, thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "вкусный",
+      "tip": "The 'в' at the start sounds like 'f': FKUS-nyj",
+      "id": "w1"
+    },
+    {
+      "text": "десерт",
+      "tip": "Stress the last syllable: de-SERT",
+      "id": "w2"
+    }
+  ]
+}

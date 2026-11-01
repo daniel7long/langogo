@@ -1,0 +1,233 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "quantos anos você tem",
+      "ipa": "/ˈkwɐ̃.tus ˈɐ̃.nus vo.ˈse ˈtẽj/",
+      "pos": "phr.",
+      "meaning": "how old are you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quantos anos você tem?",
+          "en": "How old are you?"
+        },
+        {
+          "target": "Quantos anos você tem, Rui?",
+          "en": "How old are you, Rui?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "o ano",
+      "ipa": "/u ˈɐ̃.nu/",
+      "pos": "m. n.",
+      "meaning": "year",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu tenho vinte anos.",
+          "en": "I'm twenty years old."
+        },
+        {
+          "target": "Este ano vou ao Brasil.",
+          "en": "This year I'm going to Brazil."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "o número",
+      "ipa": "/u ˈnu.me.ɾu/",
+      "pos": "m. n.",
+      "meaning": "number",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Qual é o seu número de telefone?",
+          "en": "What's your phone number?"
+        },
+        {
+          "target": "O número dez está livre.",
+          "en": "Number ten is free."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "o aniversário",
+      "ipa": "/u a.ni.veɾˈsa.ɾju/",
+      "pos": "m. n.",
+      "meaning": "birthday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Meu aniversário é em maio.",
+          "en": "My birthday is in May."
+        },
+        {
+          "target": "Feliz aniversário, Júlia!",
+          "en": "Happy birthday, Júlia!"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "o irmão",
+      "ipa": "/u iɾˈmɐ̃w/",
+      "pos": "m. n.",
+      "meaning": "brother",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Tenho um irmão mais velho.",
+          "en": "I have an older brother."
+        },
+        {
+          "target": "Meu irmão tem quinze anos.",
+          "en": "My brother is fifteen."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "a irmã",
+      "ipa": "/a iɾˈmɐ̃/",
+      "pos": "f. n.",
+      "meaning": "sister",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Minha irmã mora em Recife.",
+          "en": "My sister lives in Recife."
+        },
+        {
+          "target": "Tenho uma irmã e dois irmãos.",
+          "en": "I have a sister and two brothers."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Pedro",
+      "role": "npc",
+      "text": "Quantos anos você tem?",
+      "glosses": [
+        {
+          "text": "Quantos anos você tem",
+          "pos": "phr.",
+          "meaning": "how old are you"
+        },
+        {
+          "text": "ano",
+          "pos": "m. n.",
+          "meaning": "year"
+        }
+      ],
+      "id": "t1",
+      "en": "How old are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Tenho vinte e cinco anos. E você?",
+      "glosses": [
+        {
+          "text": "o ano",
+          "pos": "m. n.",
+          "meaning": "year"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm twenty-five. And you?"
+    },
+    {
+      "speaker": "Pedro",
+      "role": "npc",
+      "text": "Eu tenho trinta. Meu aniversário é em maio.",
+      "glosses": [
+        {
+          "text": "aniversário",
+          "pos": "m. n.",
+          "meaning": "birthday"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm thirty. My birthday is in May."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "O meu também é em maio! Você tem irmãos?",
+      "glosses": [
+        {
+          "text": "irmão",
+          "pos": "m. n.",
+          "meaning": "brother"
+        },
+        {
+          "text": "irmã",
+          "pos": "f. n.",
+          "meaning": "sister"
+        }
+      ],
+      "id": "t4",
+      "en": "Mine is in May too! Do you have siblings?"
+    },
+    {
+      "speaker": "Pedro",
+      "role": "npc",
+      "text": "Tenho dois irmãos e uma irmã.",
+      "glosses": [
+        {
+          "text": "irmão",
+          "pos": "m. n.",
+          "meaning": "brother"
+        },
+        {
+          "text": "a irmã",
+          "pos": "f. n.",
+          "meaning": "sister"
+        }
+      ],
+      "id": "t5",
+      "en": "I have two brothers and a sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Que família grande! Eu só tenho um irmão.",
+      "glosses": [
+        {
+          "text": "irmão",
+          "pos": "m. n.",
+          "meaning": "brother"
+        },
+        {
+          "text": "irmã",
+          "pos": "f. n.",
+          "meaning": "sister"
+        }
+      ],
+      "id": "t6",
+      "en": "What a big family! I only have one brother."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "irmão",
+      "tip": "Nasal 'ão': say ir-MAO through your nose",
+      "id": "w1"
+    },
+    {
+      "text": "aniversário",
+      "tip": "Stress 'sá': a-ni-ver-SA-rio",
+      "id": "w2"
+    }
+  ]
+}

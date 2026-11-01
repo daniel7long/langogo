@@ -1,0 +1,228 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "acordar",
+      "ipa": "/a.koɾˈdaɾ/",
+      "pos": "v.",
+      "meaning": "to wake up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu acordo às sete horas.",
+          "en": "I wake up at seven."
+        },
+        {
+          "target": "Você acorda cedo?",
+          "en": "Do you wake up early?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "o café da manhã",
+      "ipa": "/u kaˈfɛ da mɐ̃ˈɲɐ̃/",
+      "pos": "m. n.",
+      "meaning": "breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu tomo café da manhã em casa.",
+          "en": "I have breakfast at home."
+        },
+        {
+          "target": "O café da manhã está pronto.",
+          "en": "Breakfast is ready."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "o café",
+      "ipa": "/u kaˈfɛ/",
+      "pos": "m. n.",
+      "meaning": "coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu bebo café todo dia.",
+          "en": "I drink coffee every day."
+        },
+        {
+          "target": "O café brasileiro é forte.",
+          "en": "Brazilian coffee is strong."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "tomar banho",
+      "ipa": "/toˈmaɾ ˈbɐ̃.ɲu/",
+      "pos": "phr.",
+      "meaning": "to take a shower",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Eu tomo banho de manhã.",
+          "en": "I take a shower in the morning."
+        },
+        {
+          "target": "Depois, vou tomar banho.",
+          "en": "Afterwards, I'm going to take a shower."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "sair",
+      "ipa": "/saˈiɾ/",
+      "pos": "v.",
+      "meaning": "to leave, to go out",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Eu saio de casa às oito.",
+          "en": "I leave the house at eight."
+        },
+        {
+          "target": "A que horas você sai?",
+          "en": "What time do you leave?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "cedo",
+      "ipa": "/ˈse.du/",
+      "pos": "adv.",
+      "meaning": "early",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu acordo muito cedo.",
+          "en": "I wake up very early."
+        },
+        {
+          "target": "Ainda é cedo.",
+          "en": "It's still early."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marina",
+      "role": "npc",
+      "text": "A que horas você acorda de manhã?",
+      "glosses": [
+        {
+          "text": "acorda",
+          "pos": "v.",
+          "meaning": "to wake up"
+        }
+      ],
+      "id": "t1",
+      "en": "What time do you wake up in the morning?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Eu acordo às sete e tomo café da manhã.",
+      "glosses": [
+        {
+          "text": "acordo",
+          "pos": "v.",
+          "meaning": "to wake up"
+        },
+        {
+          "text": "o café da manhã",
+          "pos": "m. n.",
+          "meaning": "breakfast"
+        },
+        {
+          "text": "o café",
+          "pos": "m. n.",
+          "meaning": "coffee"
+        }
+      ],
+      "id": "t2",
+      "en": "I wake up at seven and have breakfast."
+    },
+    {
+      "speaker": "Marina",
+      "role": "npc",
+      "text": "Você toma café ou chá?",
+      "glosses": [
+        {
+          "text": "café",
+          "pos": "m. n.",
+          "meaning": "coffee"
+        }
+      ],
+      "id": "t3",
+      "en": "Do you have coffee or tea?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sempre café, e depois tomo banho.",
+      "glosses": [
+        {
+          "text": "café",
+          "pos": "m. n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "tomo banho",
+          "pos": "phr.",
+          "meaning": "to take a shower"
+        }
+      ],
+      "id": "t4",
+      "en": "Always coffee, and then I take a shower."
+    },
+    {
+      "speaker": "Marina",
+      "role": "npc",
+      "text": "Eu saio de casa às oito.",
+      "glosses": [
+        {
+          "text": "saio",
+          "pos": "v.",
+          "meaning": "to leave, to go out"
+        }
+      ],
+      "id": "t5",
+      "en": "I leave the house at eight."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Eu saio mais tarde, às nove.",
+      "glosses": [
+        {
+          "text": "saio",
+          "pos": "v.",
+          "meaning": "to leave, to go out"
+        }
+      ],
+      "id": "t6",
+      "en": "I leave later, at nine."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "café",
+      "tip": "Stress the last syllable: ka-FÉ",
+      "id": "w1"
+    },
+    {
+      "text": "manhã",
+      "tip": "Nasal 'ã': ma-NYAN, with 'nh' like 'ny'",
+      "id": "w2"
+    }
+  ]
+}

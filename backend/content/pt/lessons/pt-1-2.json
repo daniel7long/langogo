@@ -1,0 +1,228 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "meu nome é",
+      "ipa": "/ˈmew ˈno.mi ˈɛ/",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Meu nome é Lucas.",
+          "en": "My name is Lucas."
+        },
+        {
+          "target": "Oi, meu nome é Júlia.",
+          "en": "Hi, my name is Júlia."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "prazer",
+      "ipa": "/pɾaˈzeɾ/",
+      "pos": "interj.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Muito prazer!",
+          "en": "Very nice to meet you!"
+        },
+        {
+          "target": "Prazer, eu sou o Pedro.",
+          "en": "Nice to meet you, I'm Pedro."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "o estudante",
+      "ipa": "/u is.tuˈdɐ̃.tʃi/",
+      "pos": "m. n.",
+      "meaning": "student",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu sou estudante.",
+          "en": "I am a student."
+        },
+        {
+          "target": "Ela é estudante de medicina.",
+          "en": "She is a medical student."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "trabalhar",
+      "ipa": "/tɾa.baˈʎaɾ/",
+      "pos": "v.",
+      "meaning": "to work",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu trabalho num banco.",
+          "en": "I work in a bank."
+        },
+        {
+          "target": "Onde você trabalha?",
+          "en": "Where do you work?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "o engenheiro",
+      "ipa": "/u ẽ.ʒeˈɲej.ɾu/",
+      "pos": "m. n.",
+      "meaning": "engineer",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Meu pai é engenheiro.",
+          "en": "My father is an engineer."
+        },
+        {
+          "target": "Sou engenheiro em Curitiba.",
+          "en": "I'm an engineer in Curitiba."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "morar",
+      "ipa": "/moˈɾaɾ/",
+      "pos": "v.",
+      "meaning": "to live (somewhere)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu moro no Rio.",
+          "en": "I live in Rio."
+        },
+        {
+          "target": "Onde você mora?",
+          "en": "Where do you live?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lucas",
+      "role": "npc",
+      "text": "Oi, meu nome é Lucas. E você?",
+      "glosses": [
+        {
+          "text": "meu nome é",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi, my name is Lucas. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Meu nome é Anna. Muito prazer!",
+      "glosses": [
+        {
+          "text": "Meu nome é",
+          "pos": "phr.",
+          "meaning": "my name is"
+        },
+        {
+          "text": "prazer",
+          "pos": "interj.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t2",
+      "en": "My name is Anna. Nice to meet you!"
+    },
+    {
+      "speaker": "Lucas",
+      "role": "npc",
+      "text": "O prazer é meu! O que você faz?",
+      "glosses": [
+        {
+          "text": "prazer",
+          "pos": "interj.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t3",
+      "en": "The pleasure is mine! What do you do?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Eu sou estudante. E você, onde trabalha?",
+      "glosses": [
+        {
+          "text": "estudante",
+          "pos": "m. n.",
+          "meaning": "student"
+        },
+        {
+          "text": "trabalha",
+          "pos": "v.",
+          "meaning": "to work"
+        }
+      ],
+      "id": "t4",
+      "en": "I'm a student. And you, where do you work?"
+    },
+    {
+      "speaker": "Lucas",
+      "role": "npc",
+      "text": "Sou engenheiro e trabalho em São Paulo.",
+      "glosses": [
+        {
+          "text": "trabalho",
+          "pos": "v.",
+          "meaning": "to work"
+        },
+        {
+          "text": "engenheiro",
+          "pos": "m. n.",
+          "meaning": "engineer"
+        }
+      ],
+      "id": "t5",
+      "en": "I'm an engineer and I work in São Paulo."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Que legal! Eu moro aqui perto.",
+      "glosses": [
+        {
+          "text": "moro",
+          "pos": "v.",
+          "meaning": "to live (somewhere)"
+        }
+      ],
+      "id": "t6",
+      "en": "How cool! I live near here."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "prazer",
+      "tip": "Say pra-ZER: the 'r' at the end is soft, like an English 'h'",
+      "id": "w1"
+    },
+    {
+      "text": "engenheiro",
+      "tip": "Say en-zhe-NYEY-ro: 'nh' sounds like 'ny'",
+      "id": "w2"
+    }
+  ]
+}

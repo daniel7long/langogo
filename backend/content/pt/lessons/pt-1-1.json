@@ -1,0 +1,227 @@
+{
+  "emoji": "👋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "oi",
+      "ipa": "/ˈoj/",
+      "pos": "interj.",
+      "meaning": "hi",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Oi, Ana!",
+          "en": "Hi, Ana!"
+        },
+        {
+          "target": "Oi, tudo bem?",
+          "en": "Hi, how's it going?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "bom dia",
+      "ipa": "/bõ ˈdʒi.ɐ/",
+      "pos": "phr.",
+      "meaning": "good morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Bom dia, professor!",
+          "en": "Good morning, professor!"
+        },
+        {
+          "target": "Bom dia a todos!",
+          "en": "Good morning, everyone!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "tudo bem",
+      "ipa": "/ˈtu.du ˈbẽj/",
+      "pos": "phr.",
+      "meaning": "how are you? / all good",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Oi, tudo bem?",
+          "en": "Hi, how are you?"
+        },
+        {
+          "target": "Tudo bem, e você?",
+          "en": "All good, and you?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "obrigado",
+      "ipa": "/o.bɾiˈɡa.du/",
+      "pos": "interj.",
+      "meaning": "thank you (said by a man)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Muito obrigado!",
+          "en": "Thank you very much!"
+        },
+        {
+          "target": "Obrigado pela ajuda.",
+          "en": "Thanks for the help."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "tchau",
+      "ipa": "/ˈtʃaw/",
+      "pos": "interj.",
+      "meaning": "bye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Tchau, até amanhã!",
+          "en": "Bye, see you tomorrow!"
+        },
+        {
+          "target": "Tchau, pessoal!",
+          "en": "Bye, everyone!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "por favor",
+      "ipa": "/poɾ faˈvoɾ/",
+      "pos": "phr.",
+      "meaning": "please",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Um café, por favor.",
+          "en": "A coffee, please."
+        },
+        {
+          "target": "Pode me ajudar, por favor?",
+          "en": "Can you help me, please?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ana",
+      "role": "npc",
+      "text": "Bom dia! Tudo bem?",
+      "glosses": [
+        {
+          "text": "Bom dia",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "Tudo bem",
+          "pos": "phr.",
+          "meaning": "how are you? / all good"
+        }
+      ],
+      "id": "t1",
+      "en": "Good morning! How are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bom dia! Tudo bem, obrigado. E você?",
+      "glosses": [
+        {
+          "text": "Bom dia",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "Tudo bem",
+          "pos": "phr.",
+          "meaning": "how are you? / all good"
+        },
+        {
+          "text": "obrigado",
+          "pos": "interj.",
+          "meaning": "thank you (said by a man)"
+        }
+      ],
+      "id": "t2",
+      "en": "Good morning! I'm fine, thank you. And you?"
+    },
+    {
+      "speaker": "Ana",
+      "role": "npc",
+      "text": "Tudo ótimo! Que dia lindo, não é?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Great! What a beautiful day, isn't it?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "É verdade. Agora preciso ir. Tchau!",
+      "glosses": [
+        {
+          "text": "Tchau",
+          "pos": "interj.",
+          "meaning": "bye"
+        }
+      ],
+      "id": "t4",
+      "en": "It's true. Now I need to go. Bye!"
+    },
+    {
+      "speaker": "Ana",
+      "role": "npc",
+      "text": "Tchau! Tenha um bom dia!",
+      "glosses": [
+        {
+          "text": "bom dia",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "Tchau",
+          "pos": "interj.",
+          "meaning": "bye"
+        }
+      ],
+      "id": "t5",
+      "en": "Bye! Have a nice day!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Obrigado, igualmente! Até logo!",
+      "glosses": [
+        {
+          "text": "Obrigado",
+          "pos": "interj.",
+          "meaning": "thank you (said by a man)"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, you too! See you soon!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "obrigado",
+      "tip": "Say o-bri-GA-do: the stress is on 'ga'",
+      "id": "w1"
+    },
+    {
+      "text": "tchau",
+      "tip": "'tch' sounds like 'ch' in 'cheese': tchow",
+      "id": "w2"
+    }
+  ]
+}

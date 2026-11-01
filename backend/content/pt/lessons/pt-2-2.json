@@ -1,0 +1,218 @@
+{
+  "emoji": "🕐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "que horas são",
+      "ipa": "/ki ˈɔ.ɾaz ˈsɐ̃w/",
+      "pos": "phr.",
+      "meaning": "what time is it",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Com licença, que horas são?",
+          "en": "Excuse me, what time is it?"
+        },
+        {
+          "target": "Que horas são agora?",
+          "en": "What time is it now?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "e meia",
+      "ipa": "/i ˈmej.ɐ/",
+      "pos": "phr.",
+      "meaning": "half past",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "São três e meia.",
+          "en": "It's half past three."
+        },
+        {
+          "target": "Chego às seis e meia.",
+          "en": "I arrive at half past six."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "em ponto",
+      "ipa": "/ẽj ˈpõ.tu/",
+      "pos": "phr.",
+      "meaning": "sharp, on the dot",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "São sete horas em ponto.",
+          "en": "It's seven o'clock sharp."
+        },
+        {
+          "target": "O filme começa às oito em ponto.",
+          "en": "The movie starts at eight sharp."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "atrasado",
+      "ipa": "/a.tɾaˈza.du/",
+      "pos": "adj.",
+      "meaning": "late",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Desculpe, estou atrasado.",
+          "en": "Sorry, I'm late."
+        },
+        {
+          "target": "O trem está atrasado.",
+          "en": "The train is late."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "meia hora",
+      "ipa": "/ˈmej.ɐ ˈɔ.ɾa/",
+      "pos": "phr.",
+      "meaning": "half an hour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Espero há meia hora.",
+          "en": "I've been waiting for half an hour."
+        },
+        {
+          "target": "Leva meia hora.",
+          "en": "It takes half an hour."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "chegar",
+      "ipa": "/ʃeˈɡaɾ/",
+      "pos": "v.",
+      "meaning": "to arrive",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "O ônibus chega às nove.",
+          "en": "The bus arrives at nine."
+        },
+        {
+          "target": "Quando você chega?",
+          "en": "When do you arrive?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Paulo",
+      "role": "npc",
+      "text": "Com licença, que horas são?",
+      "glosses": [
+        {
+          "text": "que horas são",
+          "pos": "phr.",
+          "meaning": "what time is it"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "São três e meia.",
+      "glosses": [
+        {
+          "text": "e meia",
+          "pos": "phr.",
+          "meaning": "half past"
+        }
+      ],
+      "id": "t2",
+      "en": "It's half past three."
+    },
+    {
+      "speaker": "Paulo",
+      "role": "npc",
+      "text": "O trem sai às quatro. Estamos atrasados?",
+      "glosses": [
+        {
+          "text": "atrasado",
+          "pos": "adj.",
+          "meaning": "late"
+        }
+      ],
+      "id": "t3",
+      "en": "The train leaves at four. Are we late?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Não, ainda temos meia hora.",
+      "glosses": [
+        {
+          "text": "meia hora",
+          "pos": "phr.",
+          "meaning": "half an hour"
+        }
+      ],
+      "id": "t4",
+      "en": "No, we still have half an hour."
+    },
+    {
+      "speaker": "Paulo",
+      "role": "npc",
+      "text": "Ufa! A que horas chegamos?",
+      "glosses": [
+        {
+          "text": "chegamos",
+          "pos": "v.",
+          "meaning": "to arrive"
+        }
+      ],
+      "id": "t5",
+      "en": "Phew! What time do we arrive?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Chegamos às seis em ponto.",
+      "glosses": [
+        {
+          "text": "em ponto",
+          "pos": "phr.",
+          "meaning": "sharp, on the dot"
+        },
+        {
+          "text": "Chegamos",
+          "pos": "v.",
+          "meaning": "to arrive"
+        }
+      ],
+      "id": "t6",
+      "en": "We arrive at six sharp."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "atrasado",
+      "tip": "Say a-tra-ZA-do: the 's' between vowels sounds like 'z'",
+      "id": "w1"
+    },
+    {
+      "text": "chegar",
+      "tip": "'ch' is like 'sh': she-GAR",
+      "id": "w2"
+    }
+  ]
+}

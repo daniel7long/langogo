@@ -1,0 +1,233 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "我叫",
+      "ipa": "ngo5 giu3",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我叫阿明。",
+          "en": "My name is Ming."
+        },
+        {
+          "target": "我叫小玲，你呢？",
+          "en": "My name is Ling, and you?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "好高興認識你",
+      "ipa": "hou2 gou1 hing3 jing6 sik1 nei5",
+      "pos": "phr.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "好高興認識你！",
+          "en": "Nice to meet you!"
+        },
+        {
+          "target": "好高興認識你，我係阿強。",
+          "en": "Nice to meet you, I'm Keung."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "學生",
+      "ipa": "hok6 saang1",
+      "pos": "n.",
+      "meaning": "student",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我係大學生。",
+          "en": "I am a university student."
+        },
+        {
+          "target": "佢係中學生。",
+          "en": "He is a secondary school student."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "做嘢",
+      "ipa": "zou6 je5",
+      "pos": "v.",
+      "meaning": "to work (colloquial)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我喺銀行做嘢。",
+          "en": "I work in a bank."
+        },
+        {
+          "target": "你喺邊度做嘢呀？",
+          "en": "Where do you work?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "工程師",
+      "ipa": "gung1 cing4 si1",
+      "pos": "n.",
+      "meaning": "engineer",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我爸爸係工程師。",
+          "en": "My father is an engineer."
+        },
+        {
+          "target": "我係工程師。",
+          "en": "I'm an engineer."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "住",
+      "ipa": "zyu6",
+      "pos": "v.",
+      "meaning": "to live (somewhere)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我住喺九龍。",
+          "en": "I live in Kowloon."
+        },
+        {
+          "target": "你住喺邊度呀？",
+          "en": "Where do you live?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "阿明",
+      "role": "npc",
+      "text": "你好，我叫阿明。你叫咩名呀？",
+      "glosses": [
+        {
+          "text": "我叫",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello, my name is Ming. What's your name?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我叫安娜。好高興認識你！",
+      "glosses": [
+        {
+          "text": "我叫",
+          "pos": "phr.",
+          "meaning": "my name is"
+        },
+        {
+          "text": "好高興認識你",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t2",
+      "en": "My name is Anna. Nice to meet you!"
+    },
+    {
+      "speaker": "阿明",
+      "role": "npc",
+      "text": "我都係！你係學生定係做嘢呀？",
+      "glosses": [
+        {
+          "text": "學生",
+          "pos": "n.",
+          "meaning": "student"
+        },
+        {
+          "text": "做嘢",
+          "pos": "v.",
+          "meaning": "to work (colloquial)"
+        }
+      ],
+      "id": "t3",
+      "en": "Me too! Are you a student or do you work?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我係學生。你喺邊度做嘢呀？",
+      "glosses": [
+        {
+          "text": "學生",
+          "pos": "n.",
+          "meaning": "student"
+        },
+        {
+          "text": "做嘢",
+          "pos": "v.",
+          "meaning": "to work (colloquial)"
+        }
+      ],
+      "id": "t4",
+      "en": "I'm a student. Where do you work?"
+    },
+    {
+      "speaker": "阿明",
+      "role": "npc",
+      "text": "我係工程師，喺香港做嘢。",
+      "glosses": [
+        {
+          "text": "做嘢",
+          "pos": "v.",
+          "meaning": "to work (colloquial)"
+        },
+        {
+          "text": "工程師",
+          "pos": "n.",
+          "meaning": "engineer"
+        }
+      ],
+      "id": "t5",
+      "en": "I'm an engineer, I work in Hong Kong."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "好叻呀！我住喺呢度附近。",
+      "glosses": [
+        {
+          "text": "住",
+          "pos": "v.",
+          "meaning": "to live (somewhere)"
+        }
+      ],
+      "id": "t6",
+      "en": "That's great! I live near here."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "工程師",
+      "tip": "Say gung1 cing4 si1: the first and last tones are high and level",
+      "id": "w1"
+    },
+    {
+      "text": "學生",
+      "tip": "Say hok6 saang1: 'hok' is low and level, 'saang' is high and level",
+      "id": "w2"
+    }
+  ]
+}

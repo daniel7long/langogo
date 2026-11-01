@@ -1,0 +1,233 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "меня зовут",
+      "ipa": "menyá zavút",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Меня зовут Анна.",
+          "en": "My name is Anna."
+        },
+        {
+          "target": "Меня зовут Игорь, а тебя?",
+          "en": "My name is Igor, and you?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "приятно познакомиться",
+      "ipa": "priyátno poznakómitsya",
+      "pos": "phr.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Очень приятно познакомиться!",
+          "en": "Very nice to meet you!"
+        },
+        {
+          "target": "Приятно познакомиться, я Павел.",
+          "en": "Nice to meet you, I'm Pavel."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "учиться",
+      "ipa": "uchítsya",
+      "pos": "v.",
+      "meaning": "to study, to be a student",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я учусь в университете.",
+          "en": "I study at university."
+        },
+        {
+          "target": "Мы учимся вместе.",
+          "en": "We study together."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "работать",
+      "ipa": "rabótat'",
+      "pos": "v.",
+      "meaning": "to work",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я работаю в банке.",
+          "en": "I work in a bank."
+        },
+        {
+          "target": "Где ты работаешь?",
+          "en": "Where do you work?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "инженер",
+      "ipa": "inzhenyór",
+      "pos": "m. n.",
+      "meaning": "engineer",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Мой отец инженер.",
+          "en": "My father is an engineer."
+        },
+        {
+          "target": "Я инженер в Казани.",
+          "en": "I'm an engineer in Kazan."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "жить",
+      "ipa": "zhit'",
+      "pos": "v.",
+      "meaning": "to live",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я живу в Москве.",
+          "en": "I live in Moscow."
+        },
+        {
+          "target": "Где ты живёшь?",
+          "en": "Where do you live?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Иван",
+      "role": "npc",
+      "text": "Привет, меня зовут Иван. А тебя как зовут?",
+      "glosses": [
+        {
+          "text": "меня зовут",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi, my name is Ivan. And what's your name?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Меня зовут Анна. Очень приятно познакомиться!",
+      "glosses": [
+        {
+          "text": "Меня зовут",
+          "pos": "phr.",
+          "meaning": "my name is"
+        },
+        {
+          "text": "приятно познакомиться",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t2",
+      "en": "My name is Anna. Nice to meet you!"
+    },
+    {
+      "speaker": "Иван",
+      "role": "npc",
+      "text": "Мне тоже! Ты работаешь или учишься?",
+      "glosses": [
+        {
+          "text": "учишься",
+          "pos": "v.",
+          "meaning": "to study, to be a student"
+        },
+        {
+          "text": "работаешь",
+          "pos": "v.",
+          "meaning": "to work"
+        }
+      ],
+      "id": "t3",
+      "en": "Me too! Do you work or study?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Я учусь в университете. А ты где работаешь?",
+      "glosses": [
+        {
+          "text": "учусь",
+          "pos": "v.",
+          "meaning": "to study, to be a student"
+        },
+        {
+          "text": "работаешь",
+          "pos": "v.",
+          "meaning": "to work"
+        }
+      ],
+      "id": "t4",
+      "en": "I study at university. And where do you work?"
+    },
+    {
+      "speaker": "Иван",
+      "role": "npc",
+      "text": "Я инженер, работаю в Москве.",
+      "glosses": [
+        {
+          "text": "работаю",
+          "pos": "v.",
+          "meaning": "to work"
+        },
+        {
+          "text": "инженер",
+          "pos": "m. n.",
+          "meaning": "engineer"
+        }
+      ],
+      "id": "t5",
+      "en": "I'm an engineer, I work in Moscow."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Здорово! А я живу здесь, недалеко.",
+      "glosses": [
+        {
+          "text": "живу",
+          "pos": "v.",
+          "meaning": "to live"
+        }
+      ],
+      "id": "t6",
+      "en": "Great! And I live here, nearby."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "инженер",
+      "tip": "Say in-zhe-NYER: 'ж' is like the 's' in 'measure'",
+      "id": "w1"
+    },
+    {
+      "text": "приятно",
+      "tip": "Stress 'ya': pri-YAT-na; the 'о' at the end sounds like 'a'",
+      "id": "w2"
+    }
+  ]
+}

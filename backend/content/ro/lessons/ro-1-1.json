@@ -1,0 +1,223 @@
+{
+  "emoji": "👋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "salut",
+      "ipa": "/saˈlut/",
+      "pos": "interj.",
+      "meaning": "hi, bye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Salut, Maria!",
+          "en": "Hi, Maria!"
+        },
+        {
+          "target": "Salut tuturor!",
+          "en": "Bye, everyone!"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "bună dimineața",
+      "ipa": "/ˈbu.nə di.miˈnja.tsa/",
+      "pos": "phr.",
+      "meaning": "good morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Bună dimineața, doamnă!",
+          "en": "Good morning, madam!"
+        },
+        {
+          "target": "Bună dimineața tuturor!",
+          "en": "Good morning, everyone!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "ce mai faci",
+      "ipa": "/tʃe maj ˈfatʃ/",
+      "pos": "phr.",
+      "meaning": "how are you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Salut, Ana, ce mai faci?",
+          "en": "Hi, Ana, how are you?"
+        },
+        {
+          "target": "Ce mai faci astăzi?",
+          "en": "How are you today?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "mulțumesc",
+      "ipa": "/mul.tsuˈmesk/",
+      "pos": "interj.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mulțumesc mult!",
+          "en": "Thanks a lot!"
+        },
+        {
+          "target": "Mulțumesc, sunt bine.",
+          "en": "Thanks, I'm fine."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "la revedere",
+      "ipa": "/la re.veˈde.re/",
+      "pos": "phr.",
+      "meaning": "goodbye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "La revedere, pe mâine!",
+          "en": "Goodbye, see you tomorrow!"
+        },
+        {
+          "target": "La revedere și o zi bună!",
+          "en": "Goodbye and have a nice day!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "te rog",
+      "ipa": "/te ˈroɡ/",
+      "pos": "phr.",
+      "meaning": "please",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "O cafea, te rog.",
+          "en": "A coffee, please."
+        },
+        {
+          "target": "Mă ajuți, te rog?",
+          "en": "Can you help me, please?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ioana",
+      "role": "npc",
+      "text": "Bună dimineața! Ce mai faci?",
+      "glosses": [
+        {
+          "text": "Bună dimineața",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "Ce mai faci",
+          "pos": "phr.",
+          "meaning": "how are you"
+        }
+      ],
+      "id": "t1",
+      "en": "Good morning! How are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Bună dimineața! Bine, mulțumesc. Dar tu?",
+      "glosses": [
+        {
+          "text": "Bună dimineața",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "mulțumesc",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t2",
+      "en": "Good morning! Fine, thank you. And you?"
+    },
+    {
+      "speaker": "Ioana",
+      "role": "npc",
+      "text": "Foarte bine, mulțumesc. Ce zi frumoasă!",
+      "glosses": [
+        {
+          "text": "mulțumesc",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t3",
+      "en": "Very well, thank you. What a beautiful day!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Da, e superbă. Acum trebuie să plec. La revedere!",
+      "glosses": [
+        {
+          "text": "La revedere",
+          "pos": "phr.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, it's gorgeous. Now I have to go. Goodbye!"
+    },
+    {
+      "speaker": "Ioana",
+      "role": "npc",
+      "text": "La revedere! O zi bună!",
+      "glosses": [
+        {
+          "text": "La revedere",
+          "pos": "phr.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t5",
+      "en": "Goodbye! Have a nice day!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mulțumesc, la fel! Pa!",
+      "glosses": [
+        {
+          "text": "Mulțumesc",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, you too! Bye!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "mulțumesc",
+      "tip": "The 'ț' sounds like 'ts': mool-tsoo-MESK",
+      "id": "w1"
+    },
+    {
+      "text": "la revedere",
+      "tip": "Roll the 'r' lightly: la re-ve-DE-re",
+      "id": "w2"
+    }
+  ]
+}

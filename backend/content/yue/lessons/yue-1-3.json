@@ -1,0 +1,212 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "你係邊度人",
+      "ipa": "nei5 hai6 bin1 dou6 jan4",
+      "pos": "phr.",
+      "meaning": "where are you from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你係邊度人呀？",
+          "en": "Where are you from?"
+        },
+        {
+          "target": "阿玲，你係邊度人呀？",
+          "en": "Ling, where are you from?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "美國人",
+      "ipa": "mei5 gwok3 jan4",
+      "pos": "n.",
+      "meaning": "American (person)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我係美國人。",
+          "en": "I'm American."
+        },
+        {
+          "target": "佢係美國人。",
+          "en": "He is American."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "城市",
+      "ipa": "sing4 si5",
+      "pos": "n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "呢個城市好靚。",
+          "en": "This city is beautiful."
+        },
+        {
+          "target": "呢個城市好大。",
+          "en": "This city is very big."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "國家",
+      "ipa": "gwok3 gaa1",
+      "pos": "n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "中國係一個大國家。",
+          "en": "China is a big country."
+        },
+        {
+          "target": "你嘅國家係邊度？",
+          "en": "Which is your country?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "講",
+      "ipa": "gong2",
+      "pos": "v.",
+      "meaning": "to speak, to say",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我講廣東話同英文。",
+          "en": "I speak Cantonese and English."
+        },
+        {
+          "target": "你講得好好！",
+          "en": "You speak very well!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "慢",
+      "ipa": "maan6",
+      "pos": "adj.",
+      "meaning": "slow",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "請講慢啲。",
+          "en": "Please speak more slowly."
+        },
+        {
+          "target": "我行得好慢。",
+          "en": "I walk very slowly."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "阿玲",
+      "role": "npc",
+      "text": "你好！你係邊度人呀？",
+      "glosses": [
+        {
+          "text": "你係邊度人",
+          "pos": "phr.",
+          "meaning": "where are you from"
+        }
+      ],
+      "id": "t1",
+      "en": "Hello! Where are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我係美國人。你呢？",
+      "glosses": [
+        {
+          "text": "美國人",
+          "pos": "n.",
+          "meaning": "American (person)"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm American. And you?"
+    },
+    {
+      "speaker": "阿玲",
+      "role": "npc",
+      "text": "我係廣州人，不過而家住喺香港。",
+      "glosses": [],
+      "id": "t3",
+      "en": "I'm from Guangzhou, but I now live in Hong Kong."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "香港係一個好繁忙嘅城市！",
+      "glosses": [
+        {
+          "text": "城市",
+          "pos": "n.",
+          "meaning": "city"
+        }
+      ],
+      "id": "t4",
+      "en": "Hong Kong is a very busy city!"
+    },
+    {
+      "speaker": "阿玲",
+      "role": "npc",
+      "text": "係呀！你講廣東話講得好好呀！",
+      "glosses": [
+        {
+          "text": "講",
+          "pos": "v.",
+          "meaning": "to speak, to say"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes! You speak Cantonese very well!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "多謝，不過我而家仲係講得好慢。",
+      "glosses": [
+        {
+          "text": "講",
+          "pos": "v.",
+          "meaning": "to speak, to say"
+        },
+        {
+          "text": "慢",
+          "pos": "adj.",
+          "meaning": "slow"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, but I still speak very slowly."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "你係邊度人",
+      "tip": "Say nei5 hai6 bin1 dou6 jan4: 'bin' is high and level, 'dou' is low and level",
+      "id": "w1"
+    },
+    {
+      "text": "慢",
+      "tip": "Say maan6: low and level, no rising or falling",
+      "id": "w2"
+    }
+  ]
+}

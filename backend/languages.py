@@ -19,6 +19,10 @@ LANGUAGES = [
     {"id": "de", "name": "German", "native": "Deutsch", "locale": "de-DE", "unit": "words"},
     {"id": "it", "name": "Italian", "native": "Italiano", "locale": "it-IT", "unit": "words"},
     {"id": "ar", "name": "Arabic", "native": "العربية", "locale": "ar-SA", "unit": "words"},  # written right to left
+    {"id": "pt", "name": "Portuguese", "native": "Português", "locale": "pt-BR", "unit": "words"},  # Brazilian Portuguese
+    {"id": "ru", "name": "Russian", "native": "Русский", "locale": "ru-RU", "unit": "words"},
+    {"id": "ro", "name": "Romanian", "native": "Română", "locale": "ro-RO", "unit": "words"},
+    {"id": "yue", "name": "Cantonese", "native": "廣東話", "locale": "zh-HK", "unit": "characters"},  # Hong Kong Cantonese
 ]
 BY_ID = {l["id"]: l for l in LANGUAGES}
 DEFAULT = "fr"

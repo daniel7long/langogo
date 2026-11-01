@@ -18,7 +18,7 @@ Built as a CMU Online Learning Center project by **Daniel Long** (M.S. Human-Com
 | --- | --- |
 | **Live demo** | [https://langogo-v3.vercel.app](https://langogo-v3.vercel.app) |
 | **Type** | Mobile-first web app for speaking practice |
-| **Languages** | French, Spanish, German, Italian, Arabic, Chinese, Korean, Japanese |
+| **Languages** | French, Spanish, German, Italian, Portuguese, Romanian, Russian, Arabic, Mandarin, Cantonese, Korean, Japanese |
 | **Front end** | Expo SDK 57, Expo Router, React Native (JavaScript), react-native-web, expo-audio |
 | **Back end** | Python, FastAPI, Pydantic |
 | **Auth and data** | Supabase Auth (Google and email), Supabase PostgreSQL |
@@ -32,9 +32,9 @@ Built as a CMU Online Learning Center project by **Daniel Long** (M.S. Human-Com
 - **Instant feedback.** Pronunciation, Fluency and Completeness scores, plus the words worth practising.
 - **Beginner-friendly grading.** A+ at 85 or above, A at 75, B+ at 65, B at 55, otherwise C. There is no D, so beginners are not discouraged.
 - **Consistent pronunciation everywhere.** Every word and sentence has a recorded neural-voice clip, so audio sounds the same on every phone and browser.
-- **Eight languages.** Twelve lessons in 3 levels each, and 36 lessons in 9 levels for French (A1 to C1). Arabic is displayed right to left. Lesson content is data (JSON), not hard-coded strings.
+- **Twelve languages.** Twelve lessons in 3 levels each, and 36 lessons in 9 levels for French (A1 to C1). Arabic is displayed right to left, and Cantonese is taught in written Cantonese with Jyutping. Lesson content is data (JSON), not hard-coded strings.
 - **Lesson summary.** Grade badge, flowers (points) count-up, three score rings and a "practise these" list.
-- **Community.** A weekly leaderboard within the same language, and shareable links for a single speaking record.
+- **Community.** A weekly leaderboard within the same language, headed by today's date, and shareable links for a single speaking record.
 - **Accounts that keep your progress.** Sign in with Google or email, with email confirmation, password reset and in-app account deletion. Progress is stored in a managed PostgreSQL database.
 - **Privacy by design.** Speech data for research is collected only with the learner's opt-in consent, stored with an anonymous participant ID, and removed when consent is withdrawn or the account is deleted.
 

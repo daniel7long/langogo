@@ -1,0 +1,223 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "câți ani ai",
+      "ipa": "/kɨtsʲ anʲ aj/",
+      "pos": "phr.",
+      "meaning": "how old are you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Câți ani ai?",
+          "en": "How old are you?"
+        },
+        {
+          "target": "Câți ani ai, Andrei?",
+          "en": "How old are you, Andrei?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "an",
+      "ipa": "/an/",
+      "pos": "m. n.",
+      "meaning": "year",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Am douăzeci de ani.",
+          "en": "I'm twenty years old."
+        },
+        {
+          "target": "Anul acesta merg în România.",
+          "en": "This year I'm going to Romania."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "număr",
+      "ipa": "/ˈnu.mər/",
+      "pos": "n.",
+      "meaning": "number",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Care este numărul tău de telefon?",
+          "en": "What's your phone number?"
+        },
+        {
+          "target": "Numărul zece este liber.",
+          "en": "Number ten is free."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "ziua de naștere",
+      "ipa": "/ˈzi.wa de ˈnaʃ.te.re/",
+      "pos": "f. n.",
+      "meaning": "birthday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ziua mea de naștere este în mai.",
+          "en": "My birthday is in May."
+        },
+        {
+          "target": "La mulți ani de ziua ta!",
+          "en": "Happy birthday!"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "frate",
+      "ipa": "/ˈfra.te/",
+      "pos": "m. n.",
+      "meaning": "brother",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Am un frate mai mare.",
+          "en": "I have an older brother."
+        },
+        {
+          "target": "Fratele meu are cincisprezece ani.",
+          "en": "My brother is fifteen."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "soră",
+      "ipa": "/ˈso.rə/",
+      "pos": "f. n.",
+      "meaning": "sister",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Sora mea locuiește la Iași.",
+          "en": "My sister lives in Iași."
+        },
+        {
+          "target": "Am o soră și doi frați.",
+          "en": "I have a sister and two brothers."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Andrei",
+      "role": "npc",
+      "text": "Câți ani ai?",
+      "glosses": [
+        {
+          "text": "Câți ani ai",
+          "pos": "phr.",
+          "meaning": "how old are you"
+        },
+        {
+          "text": "an",
+          "pos": "m. n.",
+          "meaning": "year"
+        }
+      ],
+      "id": "t1",
+      "en": "How old are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Am douăzeci și cinci de ani. Dar tu?",
+      "glosses": [
+        {
+          "text": "an",
+          "pos": "m. n.",
+          "meaning": "year"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm twenty-five. And you?"
+    },
+    {
+      "speaker": "Andrei",
+      "role": "npc",
+      "text": "Eu am treizeci. Ziua mea de naștere este în mai.",
+      "glosses": [
+        {
+          "text": "Ziua mea de naștere",
+          "pos": "f. n.",
+          "meaning": "birthday"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm thirty. My birthday is in May."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Și a mea este în mai! Ai frați?",
+      "glosses": [
+        {
+          "text": "frați",
+          "pos": "m. n.",
+          "meaning": "brother"
+        }
+      ],
+      "id": "t4",
+      "en": "And mine is in May! Do you have siblings?"
+    },
+    {
+      "speaker": "Andrei",
+      "role": "npc",
+      "text": "Da, am doi frați și o soră.",
+      "glosses": [
+        {
+          "text": "frați",
+          "pos": "m. n.",
+          "meaning": "brother"
+        },
+        {
+          "text": "soră",
+          "pos": "f. n.",
+          "meaning": "sister"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have two brothers and a sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ce familie mare! Eu am doar un frate.",
+      "glosses": [
+        {
+          "text": "frate",
+          "pos": "m. n.",
+          "meaning": "brother"
+        }
+      ],
+      "id": "t6",
+      "en": "What a big family! I only have one brother."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "câți ani ai",
+      "tip": "'ți' sounds like 'tsi': say kuhtsi AN-i AI",
+      "id": "w1"
+    },
+    {
+      "text": "naștere",
+      "tip": "The 'ș' sounds like 'sh': NASH-te-re",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "訂位",
+      "ipa": "deng6 wai2",
+      "pos": "n.",
+      "meaning": "table reservation",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "你有冇訂位呀？",
+          "en": "Do you have a reservation?"
+        },
+        {
+          "target": "我哋喺七點訂咗位。",
+          "en": "We reserved a table for seven."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "餐牌",
+      "ipa": "caan1 paai2",
+      "pos": "n.",
+      "meaning": "menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "可唔可以睇下餐牌呀？",
+          "en": "May I look at the menu?"
+        },
+        {
+          "target": "餐牌喺枱面。",
+          "en": "The menu is on the table."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "今日推介",
+      "ipa": "gam1 jat6 teoi1 gaai3",
+      "pos": "phr.",
+      "meaning": "today's special",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "今日推介係咩呀？",
+          "en": "What is today's special?"
+        },
+        {
+          "target": "今日推介係雞同白飯。",
+          "en": "Today's special is chicken with rice."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "甜品",
+      "ipa": "tim4 ban2",
+      "pos": "n.",
+      "meaning": "dessert",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "甜品我要雪糕。",
+          "en": "For dessert I'll have ice cream."
+        },
+        {
+          "target": "呢個甜品好甜。",
+          "en": "This dessert is very sweet."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "好味",
+      "ipa": "hou2 mei6",
+      "pos": "adj.",
+      "meaning": "delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "魚好好味。",
+          "en": "The fish is delicious."
+        },
+        {
+          "target": "好好味呀！",
+          "en": "It's delicious!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "魚",
+      "ipa": "jyu2",
+      "pos": "n.",
+      "meaning": "fish",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我每個星期食兩次魚。",
+          "en": "I eat fish twice a week."
+        },
+        {
+          "target": "魚好新鮮。",
+          "en": "The fish is very fresh."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "侍應",
+      "role": "npc",
+      "text": "晚上好！你哋有冇訂位呀？",
+      "glosses": [
+        {
+          "text": "訂位",
+          "pos": "n.",
+          "meaning": "table reservation"
+        }
+      ],
+      "id": "t1",
+      "en": "Good evening! Do you have a reservation?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "有，兩位，用安娜嘅名。",
+      "glosses": [],
+      "id": "t2",
+      "en": "Yes, for two, under Anna's name."
+    },
+    {
+      "speaker": "侍應",
+      "role": "npc",
+      "text": "呢度係餐牌。今日推介係魚同白飯。",
+      "glosses": [
+        {
+          "text": "餐牌",
+          "pos": "n.",
+          "meaning": "menu"
+        },
+        {
+          "text": "今日推介",
+          "pos": "phr.",
+          "meaning": "today's special"
+        },
+        {
+          "text": "魚",
+          "pos": "n.",
+          "meaning": "fish"
+        }
+      ],
+      "id": "t3",
+      "en": "Here is the menu. Today's special is fish with rice."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我要魚。甜品我要布甸。",
+      "glosses": [
+        {
+          "text": "甜品",
+          "pos": "n.",
+          "meaning": "dessert"
+        },
+        {
+          "text": "魚",
+          "pos": "n.",
+          "meaning": "fish"
+        }
+      ],
+      "id": "t4",
+      "en": "I'll have the fish. For dessert, pudding."
+    },
+    {
+      "speaker": "侍應",
+      "role": "npc",
+      "text": "好選擇！呢度啲嘢好好味。",
+      "glosses": [
+        {
+          "text": "好味",
+          "pos": "adj.",
+          "meaning": "delicious"
+        }
+      ],
+      "id": "t5",
+      "en": "Good choice! The food here is delicious."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "太好喇，多謝！",
+      "glosses": [],
+      "id": "t6",
+      "en": "Wonderful, thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "好味",
+      "tip": "Say hou2 mei6: 'hou' rises, 'mei' is low and level",
+      "id": "w1"
+    },
+    {
+      "text": "訂位",
+      "tip": "Say deng6 wai2: 'deng' is low and level, 'wai' rises",
+      "id": "w2"
+    }
+  ]
+}

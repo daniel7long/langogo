@@ -36,7 +36,10 @@ export function setSpeechRate(speed) {
 // ---- The list of recordings ---------------------------------------------------------------------
 // /media/tts/<lang>/manifest.json: { clips: { "<text>": "<id>" } }, files "<id>.mp3" and "<id>-s.mp3" (slow).
 const clipSets = {}; // lang -> { state: 'loading' | 'ready' | 'none', map, at }
-const langOf = () => locale.split('-')[0].toLowerCase();
+// The folder of recordings is the language id. It is the first part of the locale, except Cantonese ('zh-HK'),
+// which must not share the Mandarin ('zh') folder.
+const CLIP_LANG = { 'zh-hk': 'yue' };
+const langOf = () => CLIP_LANG[locale.toLowerCase()] || locale.split('-')[0].toLowerCase();
 
 function loadClips() {
   const lang = langOf();

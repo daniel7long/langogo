@@ -48,7 +48,10 @@ function Body({ board, records, router }) {
           {me && <Chip icon="flower-outline" tone="orange" label={`${me.flowers} flowers`} />}
         </View>
 
-        <Text style={styles.eyebrow}>LEADERBOARD</Text>
+        <View style={styles.boardHead}>
+          <Text style={styles.eyebrowPlain}>LEADERBOARD</Text>
+          <Text style={styles.today} accessibilityLabel={`Today is ${todayLong()}`}>Today {todayShort()}</Text>
+        </View>
         <View style={styles.board}>
           {board.map((row) => (
             <View key={row.name} style={[styles.row, row.you && styles.rowYou]}>
@@ -94,11 +97,18 @@ function Body({ board, records, router }) {
   );
 }
 
+// Today's date on the learner's own device, e.g. "Nov 1": a reason to come back each day.
+const todayShort = () => new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+const todayLong = () => new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+
 const styles = StyleSheet.create({
   flex: { flex: 1 },
   scroll: { padding: spacing.md, gap: spacing.s12 },
   chips: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm },
   eyebrow: { ...typography.eyebrow, color: colors.primary, marginTop: spacing.sm },
+  boardHead: { flexDirection: 'row', alignItems: 'baseline', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.sm },
+  eyebrowPlain: { ...typography.eyebrow, color: colors.primary },
+  today: { ...typography.label, color: colors.coral },
   board: { backgroundColor: colors.surface, borderRadius: radius.lg, padding: spacing.sm, gap: 2, borderWidth: 1, borderColor: colors.line, ...shadows.card() },
   row: { flexDirection: 'row', alignItems: 'center', gap: spacing.s12, paddingVertical: spacing.sm, paddingHorizontal: spacing.s12, borderRadius: radius.md },
   rowYou: { backgroundColor: colors.selectedBg },

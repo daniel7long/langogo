@@ -1,0 +1,222 @@
+{
+  "emoji": "❤️",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "mâncare",
+      "ipa": "/mɨnˈka.re/",
+      "pos": "f. n.",
+      "meaning": "food, dish",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Care este mâncarea ta preferată?",
+          "en": "What's your favorite food?"
+        },
+        {
+          "target": "Această mâncare este tipică pentru Ardeal.",
+          "en": "This dish is typical of Transylvania."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "preferat",
+      "ipa": "/pre.feˈrat/",
+      "pos": "adj.",
+      "meaning": "favorite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Pizza este mâncarea mea preferată.",
+          "en": "Pizza is my favorite food."
+        },
+        {
+          "target": "Care este culoarea ta preferată?",
+          "en": "What's your favorite color?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "a găti",
+      "ipa": "/a ɡəˈti/",
+      "pos": "v.",
+      "meaning": "to cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Îmi place să gătesc pentru prieteni.",
+          "en": "I like cooking for my friends."
+        },
+        {
+          "target": "Știi să gătești?",
+          "en": "Can you cook?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "rețetă",
+      "ipa": "/reˈtse.tə/",
+      "pos": "f. n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Aceasta este rețeta bunicii mele.",
+          "en": "This is my grandmother's recipe."
+        },
+        {
+          "target": "Îmi dai rețeta?",
+          "en": "Will you give me the recipe?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "gustos",
+      "ipa": "/ɡusˈtos/",
+      "pos": "adj.",
+      "meaning": "tasty",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Tortul este foarte gustos.",
+          "en": "The cake is very tasty."
+        },
+        {
+          "target": "Ce mâncare gustoasă!",
+          "en": "What tasty food!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "sarmale",
+      "ipa": "/sarˈma.le/",
+      "pos": "f. n. pl.",
+      "meaning": "sarmale (stuffed cabbage rolls)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Sarmalele sunt un fel de mâncare tradițional.",
+          "en": "Sarmale are a traditional dish."
+        },
+        {
+          "target": "De Crăciun mâncăm sarmale.",
+          "en": "At Christmas we eat sarmale."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mihai",
+      "role": "npc",
+      "text": "Care este mâncarea ta preferată?",
+      "glosses": [
+        {
+          "text": "mâncare",
+          "pos": "f. n.",
+          "meaning": "food, dish"
+        },
+        {
+          "text": "preferat",
+          "pos": "adj.",
+          "meaning": "favorite"
+        }
+      ],
+      "id": "t1",
+      "en": "What is your favorite food?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ador sarmalele, sunt foarte gustoase.",
+      "glosses": [
+        {
+          "text": "gustoase",
+          "pos": "adj.",
+          "meaning": "tasty"
+        },
+        {
+          "text": "sarmale",
+          "pos": "f. n. pl.",
+          "meaning": "sarmale (stuffed cabbage rolls)"
+        }
+      ],
+      "id": "t2",
+      "en": "I love sarmale, they are very tasty."
+    },
+    {
+      "speaker": "Mihai",
+      "role": "npc",
+      "text": "Eu prefer sarmalele bunicii mele. Sunt cele mai bune!",
+      "glosses": [
+        {
+          "text": "prefer",
+          "pos": "adj.",
+          "meaning": "favorite"
+        },
+        {
+          "text": "sarmale",
+          "pos": "f. n. pl.",
+          "meaning": "sarmale (stuffed cabbage rolls)"
+        }
+      ],
+      "id": "t3",
+      "en": "I prefer my grandmother's sarmale. They're the best!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Știi să gătești și tu?",
+      "glosses": [
+        {
+          "text": "gătești",
+          "pos": "v.",
+          "meaning": "to cook"
+        }
+      ],
+      "id": "t4",
+      "en": "Can you cook too?"
+    },
+    {
+      "speaker": "Mihai",
+      "role": "npc",
+      "text": "Da, am rețeta familiei. Dar tu?",
+      "glosses": [
+        {
+          "text": "rețeta",
+          "pos": "f. n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have the family recipe. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Eu știu să fac doar paste, dar învăț!",
+      "glosses": [],
+      "id": "t6",
+      "en": "I can only make pasta, but I'm learning!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "sarmale",
+      "tip": "Say sar-MA-le, with a rolled 'r'",
+      "id": "w1"
+    },
+    {
+      "text": "a găti",
+      "tip": "The 'ă' is a short, soft vowel: guh-TI",
+      "id": "w2"
+    }
+  ]
+}

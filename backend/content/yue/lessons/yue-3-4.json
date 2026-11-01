@@ -1,0 +1,222 @@
+{
+  "emoji": "❤️",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "菜",
+      "ipa": "coi3",
+      "pos": "n.",
+      "meaning": "dish, vegetable",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "呢道菜好出名。",
+          "en": "This dish is very famous."
+        },
+        {
+          "target": "你最鍾意邊道菜呀？",
+          "en": "Which dish do you like best?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "最鍾意",
+      "ipa": "zeoi3 zung1 ji3",
+      "pos": "phr.",
+      "meaning": "like the most, favorite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我最鍾意食雲吞麵。",
+          "en": "I like wonton noodles the most."
+        },
+        {
+          "target": "你最鍾意咩顏色呀？",
+          "en": "What's your favorite color?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "煮餸",
+      "ipa": "zyu2 sung3",
+      "pos": "v.",
+      "meaning": "to cook (dishes)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我鍾意煮餸俾朋友食。",
+          "en": "I like cooking for my friends."
+        },
+        {
+          "target": "你識唔識煮餸呀？",
+          "en": "Can you cook?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "食譜",
+      "ipa": "sik6 pou2",
+      "pos": "n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "呢個係我婆婆嘅食譜。",
+          "en": "This is my grandmother's recipe."
+        },
+        {
+          "target": "可唔可以俾我食譜呀？",
+          "en": "Could you give me the recipe?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "好食",
+      "ipa": "hou2 sik6",
+      "pos": "adj.",
+      "meaning": "tasty",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "蛋糕好好食。",
+          "en": "The cake is very tasty."
+        },
+        {
+          "target": "呢啲餸好好食！",
+          "en": "These dishes are delicious!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "點心",
+      "ipa": "dim2 sam1",
+      "pos": "n.",
+      "meaning": "dim sum",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我哋星期日去飲茶食點心。",
+          "en": "On Sundays we go for tea and dim sum."
+        },
+        {
+          "target": "點心係廣東菜。",
+          "en": "Dim sum is a Cantonese cuisine."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "阿文",
+      "role": "npc",
+      "text": "你最鍾意食咩菜呀？",
+      "glosses": [
+        {
+          "text": "菜",
+          "pos": "n.",
+          "meaning": "dish, vegetable"
+        },
+        {
+          "text": "最鍾意",
+          "pos": "phr.",
+          "meaning": "like the most, favorite"
+        }
+      ],
+      "id": "t1",
+      "en": "What dish do you like best?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我最鍾意食點心，真係好好食！",
+      "glosses": [
+        {
+          "text": "最鍾意",
+          "pos": "phr.",
+          "meaning": "like the most, favorite"
+        },
+        {
+          "text": "好食",
+          "pos": "adj.",
+          "meaning": "tasty"
+        },
+        {
+          "text": "點心",
+          "pos": "n.",
+          "meaning": "dim sum"
+        }
+      ],
+      "id": "t2",
+      "en": "I like dim sum the most, it's really tasty!"
+    },
+    {
+      "speaker": "阿文",
+      "role": "npc",
+      "text": "我就鍾意我婆婆煮嘅餸，係最好食嘅！",
+      "glosses": [
+        {
+          "text": "好食",
+          "pos": "adj.",
+          "meaning": "tasty"
+        }
+      ],
+      "id": "t3",
+      "en": "I like the dishes my grandmother cooks, they're the tastiest!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "你識唔識煮餸呀？",
+      "glosses": [
+        {
+          "text": "煮餸",
+          "pos": "v.",
+          "meaning": "to cook (dishes)"
+        }
+      ],
+      "id": "t4",
+      "en": "Can you cook?"
+    },
+    {
+      "speaker": "阿文",
+      "role": "npc",
+      "text": "識呀，我有屋企嘅食譜。你呢？",
+      "glosses": [
+        {
+          "text": "食譜",
+          "pos": "n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have the family recipes. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我淨係識煮麵，不過我喺度學緊！",
+      "glosses": [],
+      "id": "t6",
+      "en": "I can only cook noodles, but I'm learning!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "點心",
+      "tip": "Say dim2 sam1: 'dim' rises, 'sam' is high and level",
+      "id": "w1"
+    },
+    {
+      "text": "食譜",
+      "tip": "Say sik6 pou2: 'sik' is low and level, 'pou' rises",
+      "id": "w2"
+    }
+  ]
+}

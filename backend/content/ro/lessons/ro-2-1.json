@@ -1,0 +1,223 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "a se trezi",
+      "ipa": "/a se treˈzi/",
+      "pos": "v.",
+      "meaning": "to wake up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mă trezesc la ora șapte.",
+          "en": "I wake up at seven."
+        },
+        {
+          "target": "Te trezești devreme?",
+          "en": "Do you wake up early?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "micul dejun",
+      "ipa": "/ˈmi.kul deˈʒun/",
+      "pos": "m. n.",
+      "meaning": "breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Iau micul dejun acasă.",
+          "en": "I have breakfast at home."
+        },
+        {
+          "target": "Micul dejun este gata.",
+          "en": "Breakfast is ready."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "cafea",
+      "ipa": "/kaˈfe̯a/",
+      "pos": "f. n.",
+      "meaning": "coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Beau cafea în fiecare zi.",
+          "en": "I drink coffee every day."
+        },
+        {
+          "target": "Cafeaua este fierbinte.",
+          "en": "The coffee is hot."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "a face duș",
+      "ipa": "/a ˈfa.tʃe ˈduʃ/",
+      "pos": "phr.",
+      "meaning": "to take a shower",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Fac duș dimineața.",
+          "en": "I take a shower in the morning."
+        },
+        {
+          "target": "După aceea, fac duș.",
+          "en": "Afterwards, I take a shower."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "a pleca",
+      "ipa": "/a pleˈka/",
+      "pos": "v.",
+      "meaning": "to leave",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Plec de acasă la opt.",
+          "en": "I leave home at eight."
+        },
+        {
+          "target": "La ce oră pleci?",
+          "en": "What time do you leave?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "devreme",
+      "ipa": "/deˈvre.me/",
+      "pos": "adv.",
+      "meaning": "early",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mă trezesc foarte devreme.",
+          "en": "I wake up very early."
+        },
+        {
+          "target": "Este încă devreme.",
+          "en": "It's still early."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Elena",
+      "role": "npc",
+      "text": "La ce oră te trezești dimineața?",
+      "glosses": [
+        {
+          "text": "trezești",
+          "pos": "v.",
+          "meaning": "to wake up"
+        }
+      ],
+      "id": "t1",
+      "en": "What time do you wake up in the morning?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mă trezesc la șapte și iau micul dejun.",
+      "glosses": [
+        {
+          "text": "trezesc",
+          "pos": "v.",
+          "meaning": "to wake up"
+        },
+        {
+          "text": "micul dejun",
+          "pos": "m. n.",
+          "meaning": "breakfast"
+        }
+      ],
+      "id": "t2",
+      "en": "I wake up at seven and have breakfast."
+    },
+    {
+      "speaker": "Elena",
+      "role": "npc",
+      "text": "Bei cafea sau ceai?",
+      "glosses": [
+        {
+          "text": "cafea",
+          "pos": "f. n.",
+          "meaning": "coffee"
+        }
+      ],
+      "id": "t3",
+      "en": "Do you drink coffee or tea?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Întotdeauna cafea, apoi fac duș.",
+      "glosses": [
+        {
+          "text": "cafea",
+          "pos": "f. n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "fac duș",
+          "pos": "phr.",
+          "meaning": "to take a shower"
+        }
+      ],
+      "id": "t4",
+      "en": "Always coffee, then I take a shower."
+    },
+    {
+      "speaker": "Elena",
+      "role": "npc",
+      "text": "Eu plec de acasă la opt.",
+      "glosses": [
+        {
+          "text": "plec",
+          "pos": "v.",
+          "meaning": "to leave"
+        }
+      ],
+      "id": "t5",
+      "en": "I leave home at eight."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Eu plec mai târziu, la nouă.",
+      "glosses": [
+        {
+          "text": "plec",
+          "pos": "v.",
+          "meaning": "to leave"
+        }
+      ],
+      "id": "t6",
+      "en": "I leave later, at nine."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "cafea",
+      "tip": "Say ka-FEA-ah: the 'ea' is a quick 'ya' sound",
+      "id": "w1"
+    },
+    {
+      "text": "devreme",
+      "tip": "Say de-VRE-me, with a rolled, light 'r'",
+      "id": "w2"
+    }
+  ]
+}

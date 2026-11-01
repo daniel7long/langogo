@@ -1,0 +1,218 @@
+{
+  "emoji": "❤️",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "блюдо",
+      "ipa": "blyúda",
+      "pos": "n.",
+      "meaning": "dish",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Какое твоё любимое блюдо?",
+          "en": "What is your favorite dish?"
+        },
+        {
+          "target": "Это блюдо типично для России.",
+          "en": "This dish is typical of Russia."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "любимый",
+      "ipa": "lyubímyj",
+      "pos": "adj.",
+      "meaning": "favorite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Пицца — это моё любимое блюдо.",
+          "en": "Pizza is my favorite dish."
+        },
+        {
+          "target": "Какой твой любимый цвет?",
+          "en": "What's your favorite color?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "готовить",
+      "ipa": "gatóvit'",
+      "pos": "v.",
+      "meaning": "to cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Я люблю готовить для друзей.",
+          "en": "I like cooking for friends."
+        },
+        {
+          "target": "Ты умеешь готовить?",
+          "en": "Can you cook?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "рецепт",
+      "ipa": "retsépt",
+      "pos": "m. n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Это рецепт моей бабушки.",
+          "en": "This is my grandmother's recipe."
+        },
+        {
+          "target": "Дай мне рецепт, пожалуйста.",
+          "en": "Give me the recipe, please."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "пельмени",
+      "ipa": "pel'méni",
+      "pos": "pl. n.",
+      "meaning": "pelmeni (dumplings)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Пельмени — это традиционное русское блюдо.",
+          "en": "Pelmeni are a traditional Russian dish."
+        },
+        {
+          "target": "Зимой мы едим пельмени.",
+          "en": "In winter we eat pelmeni."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "борщ",
+      "ipa": "borshch",
+      "pos": "m. n.",
+      "meaning": "borscht (beet soup)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Борщ — это суп из свёклы.",
+          "en": "Borscht is a beet soup."
+        },
+        {
+          "target": "Я люблю борщ со сметаной.",
+          "en": "I like borscht with sour cream."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Михаил",
+      "role": "npc",
+      "text": "Какое у тебя любимое блюдо?",
+      "glosses": [
+        {
+          "text": "блюдо",
+          "pos": "n.",
+          "meaning": "dish"
+        },
+        {
+          "text": "любимое",
+          "pos": "adj.",
+          "meaning": "favorite"
+        }
+      ],
+      "id": "t1",
+      "en": "What is your favorite dish?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Я обожаю борщ, он очень вкусный.",
+      "glosses": [
+        {
+          "text": "борщ",
+          "pos": "m. n.",
+          "meaning": "borscht (beet soup)"
+        }
+      ],
+      "id": "t2",
+      "en": "I love borscht, it's very tasty."
+    },
+    {
+      "speaker": "Михаил",
+      "role": "npc",
+      "text": "А я люблю бабушкины пельмени. Они лучшие!",
+      "glosses": [
+        {
+          "text": "пельмени",
+          "pos": "pl. n.",
+          "meaning": "pelmeni (dumplings)"
+        }
+      ],
+      "id": "t3",
+      "en": "And I love my grandmother's pelmeni. They're the best!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ты тоже умеешь готовить?",
+      "glosses": [
+        {
+          "text": "готовить",
+          "pos": "v.",
+          "meaning": "to cook"
+        }
+      ],
+      "id": "t4",
+      "en": "Can you cook too?"
+    },
+    {
+      "speaker": "Михаил",
+      "role": "npc",
+      "text": "Да, у меня есть семейный рецепт. А у тебя?",
+      "glosses": [
+        {
+          "text": "рецепт",
+          "pos": "m. n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have a family recipe. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Я умею готовить только макароны, но учусь!",
+      "glosses": [
+        {
+          "text": "готовить",
+          "pos": "v.",
+          "meaning": "to cook"
+        }
+      ],
+      "id": "t6",
+      "en": "I can only cook pasta, but I'm learning!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "борщ",
+      "tip": "Say borshch: 'щ' is a long, soft 'sh' sound",
+      "id": "w1"
+    },
+    {
+      "text": "пельмени",
+      "tip": "Stress 'me': pel-ME-ni; the 'л' is soft",
+      "id": "w2"
+    }
+  ]
+}

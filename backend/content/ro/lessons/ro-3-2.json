@@ -1,0 +1,216 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "rezervare",
+      "ipa": "/re.zerˈva.re/",
+      "pos": "f. n.",
+      "meaning": "reservation",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Am o rezervare la ora opt.",
+          "en": "I have a reservation at eight."
+        },
+        {
+          "target": "Rezervarea este pe numele meu.",
+          "en": "The reservation is in my name."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "meniu",
+      "ipa": "/meˈnju/",
+      "pos": "n.",
+      "meaning": "menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Pot să văd meniul?",
+          "en": "May I see the menu?"
+        },
+        {
+          "target": "Meniul este pe masă.",
+          "en": "The menu is on the table."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "felul zilei",
+      "ipa": "/ˈfe.lul ˈzi.lej/",
+      "pos": "phr.",
+      "meaning": "dish of the day",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Care este felul zilei?",
+          "en": "What is the dish of the day?"
+        },
+        {
+          "target": "Felul zilei este pui cu orez.",
+          "en": "The dish of the day is chicken with rice."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "desert",
+      "ipa": "/deˈsert/",
+      "pos": "n.",
+      "meaning": "dessert",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "La desert vreau clătite.",
+          "en": "For dessert I want pancakes."
+        },
+        {
+          "target": "Desertul este delicios.",
+          "en": "The dessert is delicious."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "delicios",
+      "ipa": "/de.liˈtʃjos/",
+      "pos": "adj.",
+      "meaning": "delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Peștele este delicios.",
+          "en": "The fish is delicious."
+        },
+        {
+          "target": "Ce miros delicios!",
+          "en": "What a delicious smell!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "pește",
+      "ipa": "/ˈpeʃ.te/",
+      "pos": "m. n.",
+      "meaning": "fish",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mănânc pește de două ori pe săptămână.",
+          "en": "I eat fish twice a week."
+        },
+        {
+          "target": "Peștele este proaspăt.",
+          "en": "The fish is fresh."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chelner",
+      "role": "npc",
+      "text": "Bună seara! Aveți rezervare?",
+      "glosses": [
+        {
+          "text": "rezervare",
+          "pos": "f. n.",
+          "meaning": "reservation"
+        }
+      ],
+      "id": "t1",
+      "en": "Good evening! Do you have a reservation?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Da, o masă pentru două persoane, pe numele Anna.",
+      "glosses": [],
+      "id": "t2",
+      "en": "Yes, a table for two, in the name of Anna."
+    },
+    {
+      "speaker": "Chelner",
+      "role": "npc",
+      "text": "Poftiți meniul. Felul zilei este pește cu orez.",
+      "glosses": [
+        {
+          "text": "meniu",
+          "pos": "n.",
+          "meaning": "menu"
+        },
+        {
+          "text": "Felul zilei",
+          "pos": "phr.",
+          "meaning": "dish of the day"
+        },
+        {
+          "text": "pește",
+          "pos": "m. n.",
+          "meaning": "fish"
+        }
+      ],
+      "id": "t3",
+      "en": "Here is the menu. The dish of the day is fish with rice."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Iau peștele. Iar la desert, clătite.",
+      "glosses": [
+        {
+          "text": "desert",
+          "pos": "n.",
+          "meaning": "dessert"
+        },
+        {
+          "text": "pește",
+          "pos": "m. n.",
+          "meaning": "fish"
+        }
+      ],
+      "id": "t4",
+      "en": "I'll have the fish. And for dessert, pancakes."
+    },
+    {
+      "speaker": "Chelner",
+      "role": "npc",
+      "text": "Alegere excelentă! Este delicios.",
+      "glosses": [
+        {
+          "text": "delicios",
+          "pos": "adj.",
+          "meaning": "delicious"
+        }
+      ],
+      "id": "t5",
+      "en": "Excellent choice! It's delicious."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Minunat, mulțumesc!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Wonderful, thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "rezervare",
+      "tip": "Say re-zer-VA-re, with a rolled 'r'",
+      "id": "w1"
+    },
+    {
+      "text": "pește",
+      "tip": "The 'ș' is 'sh': PESH-te",
+      "id": "w2"
+    }
+  ]
+}

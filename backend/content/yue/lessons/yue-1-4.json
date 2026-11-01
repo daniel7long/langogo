@@ -1,0 +1,228 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "幾多歲",
+      "ipa": "gei2 do1 seoi3",
+      "pos": "phr.",
+      "meaning": "how old",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你幾多歲呀？",
+          "en": "How old are you?"
+        },
+        {
+          "target": "你今年幾多歲呀，阿強？",
+          "en": "How old are you this year, Keung?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "歲",
+      "ipa": "seoi3",
+      "pos": "n.",
+      "meaning": "years of age",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我二十歲。",
+          "en": "I'm twenty years old."
+        },
+        {
+          "target": "佢今年十五歲。",
+          "en": "He is fifteen this year."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "電話號碼",
+      "ipa": "din6 waa2 hou6 maa5",
+      "pos": "n.",
+      "meaning": "phone number",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "你嘅電話號碼係幾多呀？",
+          "en": "What's your phone number?"
+        },
+        {
+          "target": "我唔記得佢嘅電話號碼。",
+          "en": "I don't remember his phone number."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "生日",
+      "ipa": "saang1 jat6",
+      "pos": "n.",
+      "meaning": "birthday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我嘅生日喺五月。",
+          "en": "My birthday is in May."
+        },
+        {
+          "target": "生日快樂，阿玲！",
+          "en": "Happy birthday, Ling!"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "哥哥",
+      "ipa": "go4 go1",
+      "pos": "n.",
+      "meaning": "older brother",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我有一個哥哥。",
+          "en": "I have an older brother."
+        },
+        {
+          "target": "我哥哥今年十五歲。",
+          "en": "My older brother is fifteen this year."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "姐姐",
+      "ipa": "ze4 ze1",
+      "pos": "n.",
+      "meaning": "older sister",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我姐姐住喺九龍。",
+          "en": "My older sister lives in Kowloon."
+        },
+        {
+          "target": "我有一個姐姐同兩個哥哥。",
+          "en": "I have an older sister and two older brothers."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "阿強",
+      "role": "npc",
+      "text": "你今年幾多歲呀？",
+      "glosses": [
+        {
+          "text": "幾多歲",
+          "pos": "phr.",
+          "meaning": "how old"
+        },
+        {
+          "text": "歲",
+          "pos": "n.",
+          "meaning": "years of age"
+        }
+      ],
+      "id": "t1",
+      "en": "How old are you this year?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我二十五歲。你呢？",
+      "glosses": [
+        {
+          "text": "歲",
+          "pos": "n.",
+          "meaning": "years of age"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm twenty-five. And you?"
+    },
+    {
+      "speaker": "阿強",
+      "role": "npc",
+      "text": "我三十歲，我嘅生日喺五月。",
+      "glosses": [
+        {
+          "text": "歲",
+          "pos": "n.",
+          "meaning": "years of age"
+        },
+        {
+          "text": "生日",
+          "pos": "n.",
+          "meaning": "birthday"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm thirty, my birthday is in May."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我嘅生日都喺五月！你有冇兄弟姐妹呀？",
+      "glosses": [
+        {
+          "text": "生日",
+          "pos": "n.",
+          "meaning": "birthday"
+        }
+      ],
+      "id": "t4",
+      "en": "My birthday is in May too! Do you have siblings?"
+    },
+    {
+      "speaker": "阿強",
+      "role": "npc",
+      "text": "有呀，我有一個哥哥同一個姐姐。",
+      "glosses": [
+        {
+          "text": "哥哥",
+          "pos": "n.",
+          "meaning": "older brother"
+        },
+        {
+          "text": "姐姐",
+          "pos": "n.",
+          "meaning": "older sister"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have an older brother and an older sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "你哋一家好熱鬧呀！我淨係有一個哥哥。",
+      "glosses": [
+        {
+          "text": "哥哥",
+          "pos": "n.",
+          "meaning": "older brother"
+        }
+      ],
+      "id": "t6",
+      "en": "Your family must be lively! I only have one older brother."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "幾多歲",
+      "tip": "Say gei2 do1 seoi3: 'gei' rises like a question, 'do' is high",
+      "id": "w1"
+    },
+    {
+      "text": "生日",
+      "tip": "Say saang1 jat6: 'saang' is high and level, 'jat' is low and level",
+      "id": "w2"
+    }
+  ]
+}

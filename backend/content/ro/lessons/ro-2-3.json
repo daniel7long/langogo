@@ -1,0 +1,205 @@
+{
+  "emoji": "🥐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "brutărie",
+      "ipa": "/bru.təˈri.e/",
+      "pos": "f. n.",
+      "meaning": "bakery",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Brutăria se deschide la șase.",
+          "en": "The bakery opens at six."
+        },
+        {
+          "target": "Merg la brutărie în fiecare zi.",
+          "en": "I go to the bakery every day."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "pâine",
+      "ipa": "/ˈpɨj.ne/",
+      "pos": "f. n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Pâinea este caldă.",
+          "en": "The bread is warm."
+        },
+        {
+          "target": "Cumpăr pâine proaspătă.",
+          "en": "I buy fresh bread."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "covrig",
+      "ipa": "/ˈkov.riɡ/",
+      "pos": "m. n.",
+      "meaning": "pretzel ring",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un covrig, vă rog.",
+          "en": "A pretzel ring, please."
+        },
+        {
+          "target": "Covrigii sunt calzi.",
+          "en": "The pretzel rings are warm."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "aș vrea",
+      "ipa": "/aʃ ˈvrʲa/",
+      "pos": "phr.",
+      "meaning": "I would like",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Aș vrea o cafea.",
+          "en": "I would like a coffee."
+        },
+        {
+          "target": "Aș vrea două pâini.",
+          "en": "I would like two loaves."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "cât costă",
+      "ipa": "/kɨt ˈkos.tə/",
+      "pos": "phr.",
+      "meaning": "how much does it cost",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Cât costă pâinea aceasta?",
+          "en": "How much is this bread?"
+        },
+        {
+          "target": "Cât costă totul?",
+          "en": "How much is everything?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "leu",
+      "ipa": "/ˈlew/",
+      "pos": "m. n.",
+      "meaning": "leu (Romanian currency)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Costă doi lei.",
+          "en": "It costs two lei."
+        },
+        {
+          "target": "Sunt zece lei, vă rog.",
+          "en": "That's ten lei, please."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Vânzătoare",
+      "role": "npc",
+      "text": "Bună ziua! Ce doriți?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good day! What would you like?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Aș vrea o pâine și doi covrigi.",
+      "glosses": [
+        {
+          "text": "pâine",
+          "pos": "f. n.",
+          "meaning": "bread"
+        },
+        {
+          "text": "covrig",
+          "pos": "m. n.",
+          "meaning": "pretzel ring"
+        },
+        {
+          "text": "Aș vrea",
+          "pos": "phr.",
+          "meaning": "I would like"
+        }
+      ],
+      "id": "t2",
+      "en": "I'd like a loaf of bread and two pretzel rings."
+    },
+    {
+      "speaker": "Vânzătoare",
+      "role": "npc",
+      "text": "Sigur! Altceva?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Of course! Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Cât costă totul?",
+      "glosses": [
+        {
+          "text": "Cât costă",
+          "pos": "phr.",
+          "meaning": "how much does it cost"
+        }
+      ],
+      "id": "t4",
+      "en": "How much is everything?"
+    },
+    {
+      "speaker": "Vânzătoare",
+      "role": "npc",
+      "text": "Douăsprezece lei.",
+      "glosses": [
+        {
+          "text": "lei",
+          "pos": "m. n.",
+          "meaning": "leu (Romanian currency)"
+        }
+      ],
+      "id": "t5",
+      "en": "Twelve lei."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Poftiți! Mulțumesc mult!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here you are! Thank you very much!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "pâine",
+      "tip": "Say PUH-ee-ne: the 'â' is a closed vowel",
+      "id": "w1"
+    },
+    {
+      "text": "covrig",
+      "tip": "Say KOV-reeg, stress on the first syllable",
+      "id": "w2"
+    }
+  ]
+}

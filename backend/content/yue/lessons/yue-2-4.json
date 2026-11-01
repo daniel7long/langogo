@@ -1,0 +1,217 @@
+{
+  "emoji": "📅",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "週末",
+      "ipa": "zau1 mut6",
+      "pos": "n.",
+      "meaning": "weekend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "你週末做咩呀？",
+          "en": "What do you do on the weekend?"
+        },
+        {
+          "target": "祝你週末愉快！",
+          "en": "Have a nice weekend!"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "聽日",
+      "ipa": "ting1 jat6",
+      "pos": "n.",
+      "meaning": "tomorrow",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "聽日我要返工。",
+          "en": "Tomorrow I have to work."
+        },
+        {
+          "target": "聽日見！",
+          "en": "See you tomorrow!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "睇戲",
+      "ipa": "tai2 hei3",
+      "pos": "v.",
+      "meaning": "to watch a film",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我哋今晚去睇戲。",
+          "en": "We're going to see a film tonight."
+        },
+        {
+          "target": "你鍾意睇戲嗎？",
+          "en": "Do you like watching films?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "探",
+      "ipa": "taam3",
+      "pos": "v.",
+      "meaning": "to visit (a person)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我星期日探朋友。",
+          "en": "I visit friends on Sunday."
+        },
+        {
+          "target": "我想探我嘅婆婆。",
+          "en": "I want to visit my grandmother."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "之後",
+      "ipa": "zi1 hau6",
+      "pos": "adv.",
+      "meaning": "afterwards",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "之後我哋去食飯。",
+          "en": "Afterwards we go to eat."
+        },
+        {
+          "target": "我食完飯之後沖涼。",
+          "en": "After I eat, I take a shower."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "計劃",
+      "ipa": "gai3 waak6",
+      "pos": "n.",
+      "meaning": "plan",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我星期六有個計劃。",
+          "en": "I have a plan for Saturday."
+        },
+        {
+          "target": "你有咩計劃呀？",
+          "en": "What plans do you have?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "阿雄",
+      "role": "npc",
+      "text": "你呢個週末有咩計劃呀？",
+      "glosses": [
+        {
+          "text": "週末",
+          "pos": "n.",
+          "meaning": "weekend"
+        },
+        {
+          "text": "計劃",
+          "pos": "n.",
+          "meaning": "plan"
+        }
+      ],
+      "id": "t1",
+      "en": "What plans do you have for this weekend?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "星期六我同朋友去睇戲。",
+      "glosses": [
+        {
+          "text": "睇戲",
+          "pos": "v.",
+          "meaning": "to watch a film"
+        }
+      ],
+      "id": "t2",
+      "en": "On Saturday I'm going to see a film with friends."
+    },
+    {
+      "speaker": "阿雄",
+      "role": "npc",
+      "text": "好呀！咁聽日你做咩呀？",
+      "glosses": [
+        {
+          "text": "聽日",
+          "pos": "n.",
+          "meaning": "tomorrow"
+        }
+      ],
+      "id": "t3",
+      "en": "Nice! And what are you doing tomorrow?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "聽日我去探我嘅婆婆。",
+      "glosses": [
+        {
+          "text": "聽日",
+          "pos": "n.",
+          "meaning": "tomorrow"
+        },
+        {
+          "text": "探",
+          "pos": "v.",
+          "meaning": "to visit (a person)"
+        }
+      ],
+      "id": "t4",
+      "en": "Tomorrow I'm visiting my grandmother."
+    },
+    {
+      "speaker": "阿雄",
+      "role": "npc",
+      "text": "之後我哋可以一齊食晚飯嗎？",
+      "glosses": [
+        {
+          "text": "之後",
+          "pos": "adv.",
+          "meaning": "afterwards"
+        }
+      ],
+      "id": "t5",
+      "en": "Afterwards, can we have dinner together?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "好呀！一定好開心。",
+      "glosses": [],
+      "id": "t6",
+      "en": "Sure! It will be lots of fun."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "聽日",
+      "tip": "Say ting1 jat6: 'ting' is high and level, 'jat' is low and level",
+      "id": "w1"
+    },
+    {
+      "text": "計劃",
+      "tip": "Say gai3 waak6: 'gai' is mid level, 'waak' is low and level",
+      "id": "w2"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "emoji": "🕐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "幾點",
+      "ipa": "gei2 dim2",
+      "pos": "phr.",
+      "meaning": "what time",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "而家幾點呀？",
+          "en": "What time is it now?"
+        },
+        {
+          "target": "電影幾點開始呀？",
+          "en": "What time does the film start?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "半",
+      "ipa": "bun3",
+      "pos": "n.",
+      "meaning": "half",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "而家兩點半。",
+          "en": "It's half past two."
+        },
+        {
+          "target": "我六點半到。",
+          "en": "I arrive at half past six."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "正",
+      "ipa": "zing3",
+      "pos": "adv.",
+      "meaning": "sharp, exactly (on the hour)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "而家七點正。",
+          "en": "It's seven o'clock sharp."
+        },
+        {
+          "target": "電影八點正開始。",
+          "en": "The film starts at eight sharp."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "遲到",
+      "ipa": "ci4 dou3",
+      "pos": "v.",
+      "meaning": "to be late",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "對唔住，我遲到咗。",
+          "en": "Sorry, I'm late."
+        },
+        {
+          "target": "火車遲到咗。",
+          "en": "The train is late."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "半個鐘",
+      "ipa": "bun3 go3 zung1",
+      "pos": "phr.",
+      "meaning": "half an hour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "我等咗半個鐘。",
+          "en": "I've waited for half an hour."
+        },
+        {
+          "target": "行路要半個鐘。",
+          "en": "Walking takes half an hour."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "到",
+      "ipa": "dou3",
+      "pos": "v.",
+      "meaning": "to arrive",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "巴士九點到。",
+          "en": "The bus arrives at nine."
+        },
+        {
+          "target": "你幾時到呀？",
+          "en": "When do you arrive?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "阿標",
+      "role": "npc",
+      "text": "唔該晒，而家幾點呀？",
+      "glosses": [
+        {
+          "text": "幾點",
+          "pos": "phr.",
+          "meaning": "what time"
+        }
+      ],
+      "id": "t1",
+      "en": "Thanks, what time is it now?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "而家三點半。",
+      "glosses": [
+        {
+          "text": "半",
+          "pos": "n.",
+          "meaning": "half"
+        }
+      ],
+      "id": "t2",
+      "en": "It's half past three."
+    },
+    {
+      "speaker": "阿標",
+      "role": "npc",
+      "text": "火車四點開，我哋會唔會遲到呀？",
+      "glosses": [
+        {
+          "text": "遲到",
+          "pos": "v.",
+          "meaning": "to be late"
+        },
+        {
+          "text": "到",
+          "pos": "v.",
+          "meaning": "to arrive"
+        }
+      ],
+      "id": "t3",
+      "en": "The train leaves at four, will we be late?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "唔會，我哋仲有半個鐘。",
+      "glosses": [
+        {
+          "text": "半",
+          "pos": "n.",
+          "meaning": "half"
+        },
+        {
+          "text": "半個鐘",
+          "pos": "phr.",
+          "meaning": "half an hour"
+        }
+      ],
+      "id": "t4",
+      "en": "No, we still have half an hour."
+    },
+    {
+      "speaker": "阿標",
+      "role": "npc",
+      "text": "好彩！我哋幾點到呀？",
+      "glosses": [
+        {
+          "text": "幾點",
+          "pos": "phr.",
+          "meaning": "what time"
+        },
+        {
+          "text": "到",
+          "pos": "v.",
+          "meaning": "to arrive"
+        }
+      ],
+      "id": "t5",
+      "en": "Phew! What time do we arrive?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我哋六點正到。",
+      "glosses": [
+        {
+          "text": "正",
+          "pos": "adv.",
+          "meaning": "sharp, exactly (on the hour)"
+        },
+        {
+          "text": "到",
+          "pos": "v.",
+          "meaning": "to arrive"
+        }
+      ],
+      "id": "t6",
+      "en": "We arrive at six sharp."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "遲到",
+      "tip": "Say ci4 dou3: 'ci' is low and falling, 'dou' is mid level",
+      "id": "w1"
+    },
+    {
+      "text": "幾點",
+      "tip": "Say gei2 dim2: both tones are high; 'gei' rises",
+      "id": "w2"
+    }
+  ]
+}

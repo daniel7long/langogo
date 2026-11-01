@@ -32,6 +32,10 @@ const BUTTONS = {
   de: ['Weiter', "Los geht's"],
   it: ['Avanti', 'Inizia'],
   ar: ['التالي', 'ابدأ'],
+  pt: ['Próximo', 'Começar'],
+  ru: ['Далее', 'Начать'],
+  ro: ['Următorul', 'Începe'],
+  yue: ['下一個', '開始'],
 };
 
 // Key-word cards before the speaking practice.

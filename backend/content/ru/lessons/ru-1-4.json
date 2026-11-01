@@ -1,0 +1,223 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "сколько тебе лет",
+      "ipa": "skól'ka tibyé lyet",
+      "pos": "phr.",
+      "meaning": "how old are you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Сколько тебе лет?",
+          "en": "How old are you?"
+        },
+        {
+          "target": "Сколько тебе лет, Олег?",
+          "en": "How old are you, Oleg?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "год",
+      "ipa": "got",
+      "pos": "m. n.",
+      "meaning": "year",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Мне двадцать лет.",
+          "en": "I'm twenty years old."
+        },
+        {
+          "target": "В этом году я еду в Россию.",
+          "en": "This year I'm going to Russia."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "номер",
+      "ipa": "nómyer",
+      "pos": "m. n.",
+      "meaning": "number",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Какой у тебя номер телефона?",
+          "en": "What's your phone number?"
+        },
+        {
+          "target": "Номер десять свободен.",
+          "en": "Number ten is free."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "день рождения",
+      "ipa": "dyen' razhdyéniya",
+      "pos": "phr.",
+      "meaning": "birthday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Мой день рождения в мае.",
+          "en": "My birthday is in May."
+        },
+        {
+          "target": "С днём рождения, Юля!",
+          "en": "Happy birthday, Yulia!"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "брат",
+      "ipa": "brat",
+      "pos": "m. n.",
+      "meaning": "brother",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "У меня есть старший брат.",
+          "en": "I have an older brother."
+        },
+        {
+          "target": "Моему брату пятнадцать лет.",
+          "en": "My brother is fifteen."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "сестра",
+      "ipa": "sestrá",
+      "pos": "f. n.",
+      "meaning": "sister",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Моя сестра живёт в Казани.",
+          "en": "My sister lives in Kazan."
+        },
+        {
+          "target": "У меня сестра и два брата.",
+          "en": "I have a sister and two brothers."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Андрей",
+      "role": "npc",
+      "text": "Сколько тебе лет?",
+      "glosses": [
+        {
+          "text": "Сколько тебе лет",
+          "pos": "phr.",
+          "meaning": "how old are you"
+        },
+        {
+          "text": "лет",
+          "pos": "m. n.",
+          "meaning": "year"
+        }
+      ],
+      "id": "t1",
+      "en": "How old are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Мне двадцать пять лет. А тебе?",
+      "glosses": [
+        {
+          "text": "лет",
+          "pos": "m. n.",
+          "meaning": "year"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm twenty-five. And you?"
+    },
+    {
+      "speaker": "Андрей",
+      "role": "npc",
+      "text": "Мне тридцать. Мой день рождения в мае.",
+      "glosses": [
+        {
+          "text": "день рождения",
+          "pos": "phr.",
+          "meaning": "birthday"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm thirty. My birthday is in May."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "И мой тоже в мае! У тебя есть братья?",
+      "glosses": [
+        {
+          "text": "брат",
+          "pos": "m. n.",
+          "meaning": "brother"
+        }
+      ],
+      "id": "t4",
+      "en": "Mine too is in May! Do you have brothers?"
+    },
+    {
+      "speaker": "Андрей",
+      "role": "npc",
+      "text": "Да, у меня два брата и сестра.",
+      "glosses": [
+        {
+          "text": "брат",
+          "pos": "m. n.",
+          "meaning": "brother"
+        },
+        {
+          "text": "сестра",
+          "pos": "f. n.",
+          "meaning": "sister"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have two brothers and a sister."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Какая большая семья! У меня только брат.",
+      "glosses": [
+        {
+          "text": "брат",
+          "pos": "m. n.",
+          "meaning": "brother"
+        }
+      ],
+      "id": "t6",
+      "en": "What a big family! I only have a brother."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "сколько",
+      "tip": "Say SKOL-ka: the 'ь' makes the 'л' soft",
+      "id": "w1"
+    },
+    {
+      "text": "день рождения",
+      "tip": "Say dyen razh-DYE-ni-ya; 'ж' is like 's' in 'measure'",
+      "id": "w2"
+    }
+  ]
+}

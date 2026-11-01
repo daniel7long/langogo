@@ -1,0 +1,218 @@
+{
+  "emoji": "🕐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "ce oră este",
+      "ipa": "/tʃe ˈo.rə ˈes.te/",
+      "pos": "phr.",
+      "meaning": "what time is it",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Scuze, ce oră este?",
+          "en": "Excuse me, what time is it?"
+        },
+        {
+          "target": "Ce oră este acum?",
+          "en": "What time is it now?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "și jumătate",
+      "ipa": "/ʃi ʒu.məˈta.te/",
+      "pos": "phr.",
+      "meaning": "half past",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Este trei și jumătate.",
+          "en": "It's half past three."
+        },
+        {
+          "target": "Ajung la șase și jumătate.",
+          "en": "I arrive at half past six."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "fix",
+      "ipa": "/fiks/",
+      "pos": "adv.",
+      "meaning": "sharp, exactly",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Este ora șapte fix.",
+          "en": "It's seven o'clock sharp."
+        },
+        {
+          "target": "Filmul începe la opt fix.",
+          "en": "The film starts at eight sharp."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "întârziat",
+      "ipa": "/ɨn.tɨr.ziˈat/",
+      "pos": "adj.",
+      "meaning": "late",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Scuze, am întârziat.",
+          "en": "Sorry, I'm late."
+        },
+        {
+          "target": "Trenul este întârziat.",
+          "en": "The train is late."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "o jumătate de oră",
+      "ipa": "/o ʒu.məˈta.te de ˈo.rə/",
+      "pos": "phr.",
+      "meaning": "half an hour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Aștept de o jumătate de oră.",
+          "en": "I've been waiting for half an hour."
+        },
+        {
+          "target": "Durează o jumătate de oră.",
+          "en": "It takes half an hour."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "a ajunge",
+      "ipa": "/a aˈʒun.dʒe/",
+      "pos": "v.",
+      "meaning": "to arrive",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Autobuzul ajunge la nouă.",
+          "en": "The bus arrives at nine."
+        },
+        {
+          "target": "Când ajungi?",
+          "en": "When do you arrive?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Scuze, ce oră este?",
+      "glosses": [
+        {
+          "text": "ce oră este",
+          "pos": "phr.",
+          "meaning": "what time is it"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Este trei și jumătate.",
+      "glosses": [
+        {
+          "text": "și jumătate",
+          "pos": "phr.",
+          "meaning": "half past"
+        }
+      ],
+      "id": "t2",
+      "en": "It's half past three."
+    },
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Trenul pleacă la patru. Suntem întârziați?",
+      "glosses": [
+        {
+          "text": "întârziați",
+          "pos": "adj.",
+          "meaning": "late"
+        }
+      ],
+      "id": "t3",
+      "en": "The train leaves at four. Are we late?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Nu, mai avem o jumătate de oră.",
+      "glosses": [
+        {
+          "text": "o jumătate de oră",
+          "pos": "phr.",
+          "meaning": "half an hour"
+        }
+      ],
+      "id": "t4",
+      "en": "No, we still have half an hour."
+    },
+    {
+      "speaker": "Paul",
+      "role": "npc",
+      "text": "Uf! La ce oră ajungem?",
+      "glosses": [
+        {
+          "text": "ajungem",
+          "pos": "v.",
+          "meaning": "to arrive"
+        }
+      ],
+      "id": "t5",
+      "en": "Phew! What time do we arrive?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Ajungem la șase fix.",
+      "glosses": [
+        {
+          "text": "fix",
+          "pos": "adv.",
+          "meaning": "sharp, exactly"
+        },
+        {
+          "text": "Ajungem",
+          "pos": "v.",
+          "meaning": "to arrive"
+        }
+      ],
+      "id": "t6",
+      "en": "We arrive at six sharp."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "întârziat",
+      "tip": "Both 'â' vowels are closed, like 'î': un-tuhr-zee-AT",
+      "id": "w1"
+    },
+    {
+      "text": "jumătate",
+      "tip": "The 'j' is as in 'measure': zhoo-muh-TA-te",
+      "id": "w2"
+    }
+  ]
+}

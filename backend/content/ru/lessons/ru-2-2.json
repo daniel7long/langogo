@@ -1,0 +1,218 @@
+{
+  "emoji": "🕐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "который час",
+      "ipa": "katóryj chas",
+      "pos": "phr.",
+      "meaning": "what time is it",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Извини, который час?",
+          "en": "Excuse me, what time is it?"
+        },
+        {
+          "target": "Который сейчас час?",
+          "en": "What time is it now?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "половина",
+      "ipa": "palavína",
+      "pos": "f. n.",
+      "meaning": "half",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Сейчас половина седьмого.",
+          "en": "It's half past six."
+        },
+        {
+          "target": "Сейчас половина второго.",
+          "en": "It's half past one."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "ровно",
+      "ipa": "róvna",
+      "pos": "adv.",
+      "meaning": "exactly, sharp",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Сейчас ровно семь часов.",
+          "en": "It's exactly seven o'clock."
+        },
+        {
+          "target": "Фильм начинается ровно в восемь.",
+          "en": "The film starts at eight sharp."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "опаздывать",
+      "ipa": "apázdyvat'",
+      "pos": "v.",
+      "meaning": "to be late",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Извини, я опаздываю.",
+          "en": "Sorry, I'm late."
+        },
+        {
+          "target": "Поезд опаздывает.",
+          "en": "The train is late."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "полчаса",
+      "ipa": "palchasá",
+      "pos": "m. n.",
+      "meaning": "half an hour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Я жду уже полчаса.",
+          "en": "I've been waiting for half an hour."
+        },
+        {
+          "target": "Дорога занимает полчаса.",
+          "en": "The trip takes half an hour."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "приезжать",
+      "ipa": "priyezzhát'",
+      "pos": "v.",
+      "meaning": "to arrive (by transport)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Автобус приезжает в девять.",
+          "en": "The bus arrives at nine."
+        },
+        {
+          "target": "Когда ты приезжаешь?",
+          "en": "When do you arrive?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Павел",
+      "role": "npc",
+      "text": "Извини, который час?",
+      "glosses": [
+        {
+          "text": "который час",
+          "pos": "phr.",
+          "meaning": "what time is it"
+        }
+      ],
+      "id": "t1",
+      "en": "Excuse me, what time is it?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Сейчас половина четвёртого.",
+      "glosses": [
+        {
+          "text": "половина",
+          "pos": "f. n.",
+          "meaning": "half"
+        }
+      ],
+      "id": "t2",
+      "en": "It's half past three."
+    },
+    {
+      "speaker": "Павел",
+      "role": "npc",
+      "text": "Поезд отправляется в четыре. Мы опаздываем?",
+      "glosses": [
+        {
+          "text": "опаздываем",
+          "pos": "v.",
+          "meaning": "to be late"
+        }
+      ],
+      "id": "t3",
+      "en": "The train leaves at four. Are we late?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Нет, у нас ещё полчаса.",
+      "glosses": [
+        {
+          "text": "полчаса",
+          "pos": "m. n.",
+          "meaning": "half an hour"
+        }
+      ],
+      "id": "t4",
+      "en": "No, we still have half an hour."
+    },
+    {
+      "speaker": "Павел",
+      "role": "npc",
+      "text": "Уф! Во сколько мы приезжаем?",
+      "glosses": [
+        {
+          "text": "приезжаем",
+          "pos": "v.",
+          "meaning": "to arrive (by transport)"
+        }
+      ],
+      "id": "t5",
+      "en": "Phew! What time do we arrive?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Мы приезжаем ровно в шесть.",
+      "glosses": [
+        {
+          "text": "ровно",
+          "pos": "adv.",
+          "meaning": "exactly, sharp"
+        },
+        {
+          "text": "приезжаем",
+          "pos": "v.",
+          "meaning": "to arrive (by transport)"
+        }
+      ],
+      "id": "t6",
+      "en": "We arrive at six sharp."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "который час",
+      "tip": "Say ka-TO-ryj chas; the 'ы' is a back 'i' sound",
+      "id": "w1"
+    },
+    {
+      "text": "половина",
+      "tip": "Stress 'vi': pa-la-VI-na",
+      "id": "w2"
+    }
+  ]
+}

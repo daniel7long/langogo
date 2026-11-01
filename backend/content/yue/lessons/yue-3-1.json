@@ -1,0 +1,201 @@
+{
+  "emoji": "☕",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "奶茶",
+      "ipa": "naai5 caa4",
+      "pos": "n.",
+      "meaning": "milk tea (Hong Kong style)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "香港奶茶好出名。",
+          "en": "Hong Kong milk tea is very famous."
+        },
+        {
+          "target": "我想要一杯凍奶茶。",
+          "en": "I'd like a cold milk tea."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "橙汁",
+      "ipa": "caang2 zap1",
+      "pos": "n.",
+      "meaning": "orange juice",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我想飲橙汁。",
+          "en": "I'd like to drink orange juice."
+        },
+        {
+          "target": "橙汁好凍。",
+          "en": "The orange juice is very cold."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "水",
+      "ipa": "seoi2",
+      "pos": "n.",
+      "meaning": "water",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "請俾我一杯水。",
+          "en": "Please give me a glass of water."
+        },
+        {
+          "target": "水好凍。",
+          "en": "The water is very cold."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "叫",
+      "ipa": "giu3",
+      "pos": "v.",
+      "meaning": "to order (food or drink)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "你想叫啲咩呀？",
+          "en": "What would you like to order?"
+        },
+        {
+          "target": "我叫咗一個三文治。",
+          "en": "I ordered a sandwich."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "埋單",
+      "ipa": "maai4 daan1",
+      "pos": "v.",
+      "meaning": "to ask for the bill",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "唔該埋單！",
+          "en": "The bill, please!"
+        },
+        {
+          "target": "我哋想埋單。",
+          "en": "We'd like to pay."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "枱",
+      "ipa": "toi2",
+      "pos": "n.",
+      "meaning": "table",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "呢張枱有冇人坐？",
+          "en": "Is anyone sitting at this table?"
+        },
+        {
+          "target": "唔該，一張兩個人嘅枱。",
+          "en": "Please, a table for two."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "侍應",
+      "role": "npc",
+      "text": "下晝好！你想叫啲咩呀？",
+      "glosses": [
+        {
+          "text": "叫",
+          "pos": "v.",
+          "meaning": "to order (food or drink)"
+        }
+      ],
+      "id": "t1",
+      "en": "Good afternoon! What would you like to order?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我想要一杯奶茶，唔該。",
+      "glosses": [
+        {
+          "text": "奶茶",
+          "pos": "n.",
+          "meaning": "milk tea (Hong Kong style)"
+        }
+      ],
+      "id": "t2",
+      "en": "I'd like a cup of milk tea, please."
+    },
+    {
+      "speaker": "侍應",
+      "role": "npc",
+      "text": "仲想食啲咩呀？",
+      "glosses": [],
+      "id": "t3",
+      "en": "Anything to eat?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "一件多士同一杯水。",
+      "glosses": [
+        {
+          "text": "水",
+          "pos": "n.",
+          "meaning": "water"
+        }
+      ],
+      "id": "t4",
+      "en": "A piece of toast and a glass of water."
+    },
+    {
+      "speaker": "侍應",
+      "role": "npc",
+      "text": "冇問題！即刻嚟。",
+      "glosses": [],
+      "id": "t5",
+      "en": "No problem! Coming right up."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "多謝。得閒就唔該埋單。",
+      "glosses": [
+        {
+          "text": "埋單",
+          "pos": "v.",
+          "meaning": "to ask for the bill"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks. When you have a moment, the bill please."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "奶茶",
+      "tip": "Say naai5 caa4: both tones are low; 'naai' rises a little",
+      "id": "w1"
+    },
+    {
+      "text": "埋單",
+      "tip": "Say maai4 daan1: 'maai' starts low and falls, 'daan' is high",
+      "id": "w2"
+    }
+  ]
+}

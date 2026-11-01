@@ -1,0 +1,228 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "mă cheamă",
+      "ipa": "/mə ˈkja.mə/",
+      "pos": "phr.",
+      "meaning": "my name is",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mă cheamă Luca.",
+          "en": "My name is Luca."
+        },
+        {
+          "target": "Mă cheamă Ana, și pe tine?",
+          "en": "My name is Ana, and you?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "îmi pare bine",
+      "ipa": "/ɨmʲ ˈpa.re ˈbi.ne/",
+      "pos": "phr.",
+      "meaning": "nice to meet you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Îmi pare bine să te cunosc.",
+          "en": "Nice to meet you."
+        },
+        {
+          "target": "Îmi pare bine, sunt Paul.",
+          "en": "Nice to meet you, I'm Paul."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "student",
+      "ipa": "/stuˈdent/",
+      "pos": "m. n.",
+      "meaning": "student",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Sunt student la Cluj.",
+          "en": "I'm a student in Cluj."
+        },
+        {
+          "target": "El este student la medicină.",
+          "en": "He is a medical student."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "a lucra",
+      "ipa": "/a luˈkra/",
+      "pos": "v.",
+      "meaning": "to work",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Lucrez la o bancă.",
+          "en": "I work at a bank."
+        },
+        {
+          "target": "Unde lucrezi?",
+          "en": "Where do you work?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "inginer",
+      "ipa": "/in.dʒiˈner/",
+      "pos": "m. n.",
+      "meaning": "engineer",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Tatăl meu este inginer.",
+          "en": "My father is an engineer."
+        },
+        {
+          "target": "Sunt inginer la Iași.",
+          "en": "I'm an engineer in Iași."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "a locui",
+      "ipa": "/a lo.kuˈi/",
+      "pos": "v.",
+      "meaning": "to live (somewhere)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Locuiesc în București.",
+          "en": "I live in Bucharest."
+        },
+        {
+          "target": "Unde locuiești?",
+          "en": "Where do you live?"
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Luca",
+      "role": "npc",
+      "text": "Salut, mă cheamă Luca. Tu cum te cheamă?",
+      "glosses": [
+        {
+          "text": "mă cheamă",
+          "pos": "phr.",
+          "meaning": "my name is"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi, my name is Luca. What's your name?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mă cheamă Anna. Îmi pare bine!",
+      "glosses": [
+        {
+          "text": "Mă cheamă",
+          "pos": "phr.",
+          "meaning": "my name is"
+        },
+        {
+          "text": "Îmi pare bine",
+          "pos": "phr.",
+          "meaning": "nice to meet you"
+        }
+      ],
+      "id": "t2",
+      "en": "My name is Anna. Nice to meet you!"
+    },
+    {
+      "speaker": "Luca",
+      "role": "npc",
+      "text": "Și mie! Lucrezi sau studiezi?",
+      "glosses": [
+        {
+          "text": "Lucrezi",
+          "pos": "v.",
+          "meaning": "to work"
+        }
+      ],
+      "id": "t3",
+      "en": "Me too! Do you work or study?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sunt student. Dar tu, unde lucrezi?",
+      "glosses": [
+        {
+          "text": "student",
+          "pos": "m. n.",
+          "meaning": "student"
+        },
+        {
+          "text": "lucrezi",
+          "pos": "v.",
+          "meaning": "to work"
+        }
+      ],
+      "id": "t4",
+      "en": "I'm a student. And you, where do you work?"
+    },
+    {
+      "speaker": "Luca",
+      "role": "npc",
+      "text": "Sunt inginer și lucrez la București.",
+      "glosses": [
+        {
+          "text": "lucrez",
+          "pos": "v.",
+          "meaning": "to work"
+        },
+        {
+          "text": "inginer",
+          "pos": "m. n.",
+          "meaning": "engineer"
+        }
+      ],
+      "id": "t5",
+      "en": "I'm an engineer and I work in Bucharest."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Foarte frumos! Eu locuiesc aici aproape.",
+      "glosses": [
+        {
+          "text": "locuiesc",
+          "pos": "v.",
+          "meaning": "to live (somewhere)"
+        }
+      ],
+      "id": "t6",
+      "en": "How nice! I live near here."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "îmi pare bine",
+      "tip": "Stress 'pa': um-PA-re BEE-ne (the 'î' is a closed vowel, between 'i' and 'u')",
+      "id": "w1"
+    },
+    {
+      "text": "inginer",
+      "tip": "The 'g' before 'i' is soft like 'j': in-ji-NER",
+      "id": "w2"
+    }
+  ]
+}

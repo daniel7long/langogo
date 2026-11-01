@@ -1,0 +1,205 @@
+{
+  "emoji": "🥐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "a padaria",
+      "ipa": "/a pa.daˈɾi.a/",
+      "pos": "f. n.",
+      "meaning": "bakery",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "A padaria abre às seis.",
+          "en": "The bakery opens at six."
+        },
+        {
+          "target": "Vou à padaria todo dia.",
+          "en": "I go to the bakery every day."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "o pão",
+      "ipa": "/u ˈpɐ̃w/",
+      "pos": "m. n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "O pão está quentinho.",
+          "en": "The bread is nice and warm."
+        },
+        {
+          "target": "Compro pão fresco.",
+          "en": "I buy fresh bread."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "o pão de queijo",
+      "ipa": "/u ˈpɐ̃w dʒi ˈkej.ʒu/",
+      "pos": "m. n.",
+      "meaning": "cheese bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu adoro pão de queijo.",
+          "en": "I love cheese bread."
+        },
+        {
+          "target": "Um pão de queijo, por favor.",
+          "en": "A cheese bread, please."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "eu queria",
+      "ipa": "/ew keˈɾi.ɐ/",
+      "pos": "phr.",
+      "meaning": "I would like",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu queria um café.",
+          "en": "I would like a coffee."
+        },
+        {
+          "target": "Queria dois pães, por favor.",
+          "en": "I'd like two rolls, please."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "quanto custa",
+      "ipa": "/ˈkwɐ̃.tu ˈkus.ta/",
+      "pos": "phr.",
+      "meaning": "how much does it cost",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Quanto custa este pão?",
+          "en": "How much is this bread?"
+        },
+        {
+          "target": "Quanto custa tudo?",
+          "en": "How much is everything?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "o real",
+      "ipa": "/u heˈaw/",
+      "pos": "m. n.",
+      "meaning": "real (Brazilian currency)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Custa dois reais.",
+          "en": "It costs two reais."
+        },
+        {
+          "target": "São dez reais, por favor.",
+          "en": "That's ten reais, please."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Atendente",
+      "role": "npc",
+      "text": "Bom dia! O que vai ser hoje?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! What will it be today?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Eu queria quatro pães e um pão de queijo.",
+      "glosses": [
+        {
+          "text": "pão",
+          "pos": "m. n.",
+          "meaning": "bread"
+        },
+        {
+          "text": "pão de queijo",
+          "pos": "m. n.",
+          "meaning": "cheese bread"
+        },
+        {
+          "text": "Eu queria",
+          "pos": "phr.",
+          "meaning": "I would like"
+        }
+      ],
+      "id": "t2",
+      "en": "I'd like four rolls and a cheese bread."
+    },
+    {
+      "speaker": "Atendente",
+      "role": "npc",
+      "text": "Claro! Mais alguma coisa?",
+      "glosses": [],
+      "id": "t3",
+      "en": "Of course! Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Quanto custa tudo?",
+      "glosses": [
+        {
+          "text": "Quanto custa",
+          "pos": "phr.",
+          "meaning": "how much does it cost"
+        }
+      ],
+      "id": "t4",
+      "en": "How much is everything?"
+    },
+    {
+      "speaker": "Atendente",
+      "role": "npc",
+      "text": "São doze reais.",
+      "glosses": [
+        {
+          "text": "reais",
+          "pos": "m. n.",
+          "meaning": "real (Brazilian currency)"
+        }
+      ],
+      "id": "t5",
+      "en": "That's twelve reais."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Aqui está. Muito obrigado!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here you go. Thank you very much!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "pão de queijo",
+      "tip": "'ão' is nasal: pao de KEY-zhoo",
+      "id": "w1"
+    },
+    {
+      "text": "quanto custa",
+      "tip": "Say KWAN-tu KUS-ta",
+      "id": "w2"
+    }
+  ]
+}

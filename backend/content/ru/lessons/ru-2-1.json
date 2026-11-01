@@ -1,0 +1,223 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "просыпаться",
+      "ipa": "prasypát'sya",
+      "pos": "v.",
+      "meaning": "to wake up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я просыпаюсь в семь часов.",
+          "en": "I wake up at seven."
+        },
+        {
+          "target": "Ты рано просыпаешься?",
+          "en": "Do you wake up early?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "завтракать",
+      "ipa": "závtrakat'",
+      "pos": "v.",
+      "meaning": "to have breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я завтракаю дома.",
+          "en": "I have breakfast at home."
+        },
+        {
+          "target": "Мы завтракаем вместе.",
+          "en": "We have breakfast together."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "кофе",
+      "ipa": "kófe",
+      "pos": "m. n.",
+      "meaning": "coffee",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я пью кофе каждый день.",
+          "en": "I drink coffee every day."
+        },
+        {
+          "target": "Русский кофе очень крепкий.",
+          "en": "Russian coffee is very strong."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "принимать душ",
+      "ipa": "prinimát' dush",
+      "pos": "phr.",
+      "meaning": "to take a shower",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Я принимаю душ утром.",
+          "en": "I take a shower in the morning."
+        },
+        {
+          "target": "Потом я принимаю душ.",
+          "en": "Then I take a shower."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "уходить",
+      "ipa": "ukhadít'",
+      "pos": "v.",
+      "meaning": "to leave, to go away",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Я ухожу из дома в восемь.",
+          "en": "I leave home at eight."
+        },
+        {
+          "target": "Во сколько ты уходишь?",
+          "en": "What time do you leave?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "рано",
+      "ipa": "rána",
+      "pos": "adv.",
+      "meaning": "early",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Я очень рано встаю.",
+          "en": "I get up very early."
+        },
+        {
+          "target": "Ещё рано.",
+          "en": "It's still early."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Елена",
+      "role": "npc",
+      "text": "Во сколько ты просыпаешься утром?",
+      "glosses": [
+        {
+          "text": "просыпаешься",
+          "pos": "v.",
+          "meaning": "to wake up"
+        }
+      ],
+      "id": "t1",
+      "en": "What time do you wake up in the morning?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Я просыпаюсь в семь и завтракаю.",
+      "glosses": [
+        {
+          "text": "просыпаюсь",
+          "pos": "v.",
+          "meaning": "to wake up"
+        },
+        {
+          "text": "завтракаю",
+          "pos": "v.",
+          "meaning": "to have breakfast"
+        }
+      ],
+      "id": "t2",
+      "en": "I wake up at seven and have breakfast."
+    },
+    {
+      "speaker": "Елена",
+      "role": "npc",
+      "text": "Ты пьёшь кофе или чай?",
+      "glosses": [
+        {
+          "text": "кофе",
+          "pos": "m. n.",
+          "meaning": "coffee"
+        }
+      ],
+      "id": "t3",
+      "en": "Do you drink coffee or tea?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Всегда кофе, а потом принимаю душ.",
+      "glosses": [
+        {
+          "text": "кофе",
+          "pos": "m. n.",
+          "meaning": "coffee"
+        },
+        {
+          "text": "принимаю душ",
+          "pos": "phr.",
+          "meaning": "to take a shower"
+        }
+      ],
+      "id": "t4",
+      "en": "Always coffee, and then I take a shower."
+    },
+    {
+      "speaker": "Елена",
+      "role": "npc",
+      "text": "Я ухожу из дома в восемь.",
+      "glosses": [
+        {
+          "text": "ухожу",
+          "pos": "v.",
+          "meaning": "to leave, to go away"
+        }
+      ],
+      "id": "t5",
+      "en": "I leave home at eight."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "А я ухожу позже, в девять.",
+      "glosses": [
+        {
+          "text": "ухожу",
+          "pos": "v.",
+          "meaning": "to leave, to go away"
+        }
+      ],
+      "id": "t6",
+      "en": "And I leave later, at nine."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "завтракаю",
+      "tip": "Say ZAF-tra-ka-yu: the 'в' sounds like 'f' before 'т'",
+      "id": "w1"
+    },
+    {
+      "text": "кофе",
+      "tip": "Say KO-fe, with the stress on the first syllable",
+      "id": "w2"
+    }
+  ]
+}

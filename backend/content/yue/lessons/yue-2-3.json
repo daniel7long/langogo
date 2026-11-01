@@ -1,0 +1,205 @@
+{
+  "emoji": "🥐",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "麵包舖",
+      "ipa": "min6 baau1 pou2",
+      "pos": "n.",
+      "meaning": "bakery",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "麵包舖六點開門。",
+          "en": "The bakery opens at six."
+        },
+        {
+          "target": "我每日去麵包舖。",
+          "en": "I go to the bakery every day."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "麵包",
+      "ipa": "min6 baau1",
+      "pos": "n.",
+      "meaning": "bread",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "麵包仲好暖。",
+          "en": "The bread is still nice and warm."
+        },
+        {
+          "target": "我買新鮮麵包。",
+          "en": "I buy fresh bread."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "菠蘿包",
+      "ipa": "bo1 lo4 baau1",
+      "pos": "n.",
+      "meaning": "pineapple bun",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我好鍾意食菠蘿包。",
+          "en": "I really like pineapple buns."
+        },
+        {
+          "target": "一個菠蘿包，唔該。",
+          "en": "One pineapple bun, please."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "我想要",
+      "ipa": "ngo5 soeng2 jiu3",
+      "pos": "phr.",
+      "meaning": "I would like",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "我想要一杯咖啡。",
+          "en": "I'd like a cup of coffee."
+        },
+        {
+          "target": "我想要兩個麵包。",
+          "en": "I'd like two loaves of bread."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "幾多錢",
+      "ipa": "gei2 do1 cin2",
+      "pos": "phr.",
+      "meaning": "how much (money)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "呢個麵包幾多錢呀？",
+          "en": "How much is this bread?"
+        },
+        {
+          "target": "一共幾多錢呀？",
+          "en": "How much is it altogether?"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "蚊",
+      "ipa": "man1",
+      "pos": "n.",
+      "meaning": "dollar (colloquial)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "呢個要二十蚊。",
+          "en": "This one is twenty dollars."
+        },
+        {
+          "target": "一共五十蚊。",
+          "en": "Fifty dollars altogether."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "早晨！想要啲咩呀？",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! What would you like?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "我想要四個麵包同一個菠蘿包。",
+      "glosses": [
+        {
+          "text": "麵包",
+          "pos": "n.",
+          "meaning": "bread"
+        },
+        {
+          "text": "菠蘿包",
+          "pos": "n.",
+          "meaning": "pineapple bun"
+        },
+        {
+          "text": "我想要",
+          "pos": "phr.",
+          "meaning": "I would like"
+        }
+      ],
+      "id": "t2",
+      "en": "I'd like four rolls and one pineapple bun."
+    },
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "好呀！仲要啲咩呀？",
+      "glosses": [],
+      "id": "t3",
+      "en": "Sure! Anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "一共幾多錢呀？",
+      "glosses": [
+        {
+          "text": "幾多錢",
+          "pos": "phr.",
+          "meaning": "how much (money)"
+        }
+      ],
+      "id": "t4",
+      "en": "How much is it altogether?"
+    },
+    {
+      "speaker": "店員",
+      "role": "npc",
+      "text": "一共三十六蚊。",
+      "glosses": [
+        {
+          "text": "蚊",
+          "pos": "n.",
+          "meaning": "dollar (colloquial)"
+        }
+      ],
+      "id": "t5",
+      "en": "Thirty-six dollars altogether."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "喺度，多謝晒！",
+      "glosses": [],
+      "id": "t6",
+      "en": "Here you are, thank you very much!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "菠蘿包",
+      "tip": "Say bo1 lo4 baau1: 'bo' is high, 'lo' falls from low",
+      "id": "w1"
+    },
+    {
+      "text": "幾多錢",
+      "tip": "Say gei2 do1 cin2: 'cin' rises, like a question",
+      "id": "w2"
+    }
+  ]
+}

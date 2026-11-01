@@ -1,0 +1,218 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "de unde ești",
+      "ipa": "/de ˈun.de eʃtʲ/",
+      "pos": "phr.",
+      "meaning": "where are you from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Salut! De unde ești?",
+          "en": "Hi! Where are you from?"
+        },
+        {
+          "target": "De unde ești, Elena?",
+          "en": "Where are you from, Elena?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "sunt din",
+      "ipa": "/sunt din/",
+      "pos": "phr.",
+      "meaning": "I am from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Sunt din Brașov.",
+          "en": "I'm from Brașov."
+        },
+        {
+          "target": "Sunt din Statele Unite.",
+          "en": "I'm from the United States."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "oraș",
+      "ipa": "/oˈraʃ/",
+      "pos": "n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Sibiu este un oraș frumos.",
+          "en": "Sibiu is a beautiful city."
+        },
+        {
+          "target": "Acest oraș este foarte mare.",
+          "en": "This city is very big."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "țară",
+      "ipa": "/ˈtsa.rə/",
+      "pos": "f. n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "România este o țară frumoasă.",
+          "en": "Romania is a beautiful country."
+        },
+        {
+          "target": "Care este țara ta?",
+          "en": "What is your country?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "a vorbi",
+      "ipa": "/a vorˈbi/",
+      "pos": "v.",
+      "meaning": "to speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Vorbesc engleză și română.",
+          "en": "I speak English and Romanian."
+        },
+        {
+          "target": "Vorbești foarte bine!",
+          "en": "You speak very well!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "încet",
+      "ipa": "/ɨnˈtʃet/",
+      "pos": "adv.",
+      "meaning": "slowly",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Vorbește mai încet, te rog.",
+          "en": "Speak more slowly, please."
+        },
+        {
+          "target": "Merg încet.",
+          "en": "I walk slowly."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Maria",
+      "role": "npc",
+      "text": "Salut! De unde ești?",
+      "glosses": [
+        {
+          "text": "De unde ești",
+          "pos": "phr.",
+          "meaning": "where are you from"
+        }
+      ],
+      "id": "t1",
+      "en": "Hi! Where are you from?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sunt din Statele Unite. Dar tu?",
+      "glosses": [
+        {
+          "text": "Sunt din",
+          "pos": "phr.",
+          "meaning": "I am from"
+        }
+      ],
+      "id": "t2",
+      "en": "I'm from the United States. And you?"
+    },
+    {
+      "speaker": "Maria",
+      "role": "npc",
+      "text": "Eu sunt din Cluj, dar locuiesc la București.",
+      "glosses": [
+        {
+          "text": "sunt din",
+          "pos": "phr.",
+          "meaning": "I am from"
+        }
+      ],
+      "id": "t3",
+      "en": "I'm from Cluj, but I live in Bucharest."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "București este un oraș mare!",
+      "glosses": [
+        {
+          "text": "oraș",
+          "pos": "n.",
+          "meaning": "city"
+        }
+      ],
+      "id": "t4",
+      "en": "Bucharest is a big city!"
+    },
+    {
+      "speaker": "Maria",
+      "role": "npc",
+      "text": "Da, așa este! Vorbești foarte bine românește!",
+      "glosses": [
+        {
+          "text": "Vorbești",
+          "pos": "v.",
+          "meaning": "to speak"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, it is! You speak Romanian very well!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Mulțumesc, dar încă vorbesc încet.",
+      "glosses": [
+        {
+          "text": "vorbesc",
+          "pos": "v.",
+          "meaning": "to speak"
+        },
+        {
+          "text": "încet",
+          "pos": "adv.",
+          "meaning": "slowly"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, but I still speak slowly."
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "încet",
+      "tip": "Say un-CHET: the 'c' before 'e' sounds like 'ch'",
+      "id": "w1"
+    },
+    {
+      "text": "țară",
+      "tip": "The 'ț' is 'ts': TSA-ruh",
+      "id": "w2"
+    }
+  ]
+}

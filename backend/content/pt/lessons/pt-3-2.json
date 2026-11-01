@@ -1,0 +1,216 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "a reserva",
+      "ipa": "/a heˈzɛɾ.va/",
+      "pos": "f. n.",
+      "meaning": "reservation",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Tenho uma reserva para as oito.",
+          "en": "I have a reservation for eight."
+        },
+        {
+          "target": "A reserva está no meu nome.",
+          "en": "The reservation is in my name."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "o cardápio",
+      "ipa": "/u kaɾˈda.pju/",
+      "pos": "m. n.",
+      "meaning": "menu",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Posso ver o cardápio?",
+          "en": "Can I see the menu?"
+        },
+        {
+          "target": "O cardápio está na mesa.",
+          "en": "The menu is on the table."
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "o prato do dia",
+      "ipa": "/u ˈpɾa.tu du ˈdʒi.a/",
+      "pos": "m. n.",
+      "meaning": "dish of the day",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Qual é o prato do dia?",
+          "en": "What's the dish of the day?"
+        },
+        {
+          "target": "O prato do dia é frango com arroz.",
+          "en": "The dish of the day is chicken with rice."
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "a sobremesa",
+      "ipa": "/a so.bɾiˈme.za/",
+      "pos": "f. n.",
+      "meaning": "dessert",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "De sobremesa quero pudim.",
+          "en": "For dessert I want pudding."
+        },
+        {
+          "target": "A sobremesa está deliciosa.",
+          "en": "The dessert is delicious."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "delicioso",
+      "ipa": "/de.liˈsjo.zu/",
+      "pos": "adj.",
+      "meaning": "delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "O peixe está delicioso.",
+          "en": "The fish is delicious."
+        },
+        {
+          "target": "Que cheiro delicioso!",
+          "en": "What a delicious smell!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "o peixe",
+      "ipa": "/u ˈpej.ʃi/",
+      "pos": "m. n.",
+      "meaning": "fish",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Eu como peixe duas vezes por semana.",
+          "en": "I eat fish twice a week."
+        },
+        {
+          "target": "O peixe é fresco.",
+          "en": "The fish is fresh."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Garçom",
+      "role": "npc",
+      "text": "Boa noite! Vocês têm reserva?",
+      "glosses": [
+        {
+          "text": "reserva",
+          "pos": "f. n.",
+          "meaning": "reservation"
+        }
+      ],
+      "id": "t1",
+      "en": "Good evening! Do you have a reservation?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Sim, uma mesa para dois, no nome de Anna.",
+      "glosses": [],
+      "id": "t2",
+      "en": "Yes, a table for two, under the name Anna."
+    },
+    {
+      "speaker": "Garçom",
+      "role": "npc",
+      "text": "Aqui está o cardápio. O prato do dia é peixe com arroz.",
+      "glosses": [
+        {
+          "text": "o cardápio",
+          "pos": "m. n.",
+          "meaning": "menu"
+        },
+        {
+          "text": "prato do dia",
+          "pos": "m. n.",
+          "meaning": "dish of the day"
+        },
+        {
+          "text": "peixe",
+          "pos": "m. n.",
+          "meaning": "fish"
+        }
+      ],
+      "id": "t3",
+      "en": "Here is the menu. The dish of the day is fish with rice."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Vou querer o peixe. E de sobremesa, pudim.",
+      "glosses": [
+        {
+          "text": "sobremesa",
+          "pos": "f. n.",
+          "meaning": "dessert"
+        },
+        {
+          "text": "o peixe",
+          "pos": "m. n.",
+          "meaning": "fish"
+        }
+      ],
+      "id": "t4",
+      "en": "I'll have the fish. And for dessert, pudding."
+    },
+    {
+      "speaker": "Garçom",
+      "role": "npc",
+      "text": "Ótima escolha! Está delicioso.",
+      "glosses": [
+        {
+          "text": "delicioso",
+          "pos": "adj.",
+          "meaning": "delicious"
+        }
+      ],
+      "id": "t5",
+      "en": "Great choice! It's delicious."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Maravilha, obrigado!",
+      "glosses": [],
+      "id": "t6",
+      "en": "Wonderful, thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "sobremesa",
+      "tip": "Say so-bre-ME-za, with a 'z' sound in the middle",
+      "id": "w1"
+    },
+    {
+      "text": "delicioso",
+      "tip": "Stress 'cio': de-li-SYO-zo",
+      "id": "w2"
+    }
+  ]
+}

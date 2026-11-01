@@ -1,0 +1,217 @@
+{
+  "emoji": "❤️",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "o prato",
+      "ipa": "/u ˈpɾa.tu/",
+      "pos": "m. n.",
+      "meaning": "dish, plate",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Qual é o seu prato preferido?",
+          "en": "What's your favorite dish?"
+        },
+        {
+          "target": "Este prato é típico da Bahia.",
+          "en": "This dish is typical of Bahia."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "preferido",
+      "ipa": "/pɾe.feˈɾi.du/",
+      "pos": "adj.",
+      "meaning": "favorite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "A pizza é a minha comida preferida.",
+          "en": "Pizza is my favorite food."
+        },
+        {
+          "target": "Qual é a sua cor preferida?",
+          "en": "What's your favorite color?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "cozinhar",
+      "ipa": "/ko.ziˈɲaɾ/",
+      "pos": "v.",
+      "meaning": "to cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Eu gosto de cozinhar para os amigos.",
+          "en": "I like cooking for my friends."
+        },
+        {
+          "target": "Você sabe cozinhar?",
+          "en": "Can you cook?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "a receita",
+      "ipa": "/a heˈsej.ta/",
+      "pos": "f. n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Esta é a receita da minha avó.",
+          "en": "This is my grandmother's recipe."
+        },
+        {
+          "target": "Você me passa a receita?",
+          "en": "Can you give me the recipe?"
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "gostoso",
+      "ipa": "/ɡosˈto.zu/",
+      "pos": "adj.",
+      "meaning": "tasty",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "O bolo está muito gostoso.",
+          "en": "The cake is very tasty."
+        },
+        {
+          "target": "Que comida gostosa!",
+          "en": "What tasty food!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "a feijoada",
+      "ipa": "/a fej.ʒoˈa.da/",
+      "pos": "f. n.",
+      "meaning": "feijoada (black bean stew)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "A feijoada é um prato típico do Brasil.",
+          "en": "Feijoada is a typical dish of Brazil."
+        },
+        {
+          "target": "Aos sábados comemos feijoada.",
+          "en": "On Saturdays we eat feijoada."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Jorge",
+      "role": "npc",
+      "text": "Qual é o seu prato preferido?",
+      "glosses": [
+        {
+          "text": "prato",
+          "pos": "m. n.",
+          "meaning": "dish, plate"
+        },
+        {
+          "text": "preferido",
+          "pos": "adj.",
+          "meaning": "favorite"
+        }
+      ],
+      "id": "t1",
+      "en": "What's your favorite dish?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Eu adoro feijoada, é muito gostosa.",
+      "glosses": [
+        {
+          "text": "gostosa",
+          "pos": "adj.",
+          "meaning": "tasty"
+        },
+        {
+          "text": "feijoada",
+          "pos": "f. n.",
+          "meaning": "feijoada (black bean stew)"
+        }
+      ],
+      "id": "t2",
+      "en": "I love feijoada, it's very tasty."
+    },
+    {
+      "speaker": "Jorge",
+      "role": "npc",
+      "text": "Eu prefiro a lasanha da minha avó. É a melhor!",
+      "glosses": [
+        {
+          "text": "prefiro",
+          "pos": "adj.",
+          "meaning": "favorite"
+        }
+      ],
+      "id": "t3",
+      "en": "I prefer my grandmother's lasagna. It's the best!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Você sabe cozinhar também?",
+      "glosses": [
+        {
+          "text": "cozinhar",
+          "pos": "v.",
+          "meaning": "to cook"
+        }
+      ],
+      "id": "t4",
+      "en": "Can you cook too?"
+    },
+    {
+      "speaker": "Jorge",
+      "role": "npc",
+      "text": "Sei, tenho a receita da família. E você?",
+      "glosses": [
+        {
+          "text": "a receita",
+          "pos": "f. n.",
+          "meaning": "recipe"
+        }
+      ],
+      "id": "t5",
+      "en": "Yes, I have the family recipe. And you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Eu só sei fazer macarrão, mas estou aprendendo!",
+      "glosses": [],
+      "id": "t6",
+      "en": "I can only make pasta, but I'm learning!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "feijoada",
+      "tip": "Say fay-zhoo-A-da: 'j' sounds like 's' in 'measure'",
+      "id": "w1"
+    },
+    {
+      "text": "cozinhar",
+      "tip": "'nh' sounds like 'ny': ko-zi-NYAR",
+      "id": "w2"
+    }
+  ]
+}

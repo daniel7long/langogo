@@ -1,0 +1,216 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 40,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "word": "piață",
+      "ipa": "/ˈpja.tsə/",
+      "pos": "f. n.",
+      "meaning": "market",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Merg la piață sâmbăta.",
+          "en": "I go to the market on Saturdays."
+        },
+        {
+          "target": "Piața se închide la prânz.",
+          "en": "The market closes at noon."
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "fruct",
+      "ipa": "/fruktʲ/",
+      "pos": "n.",
+      "meaning": "fruit",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mănânc fructe în fiecare zi.",
+          "en": "I eat fruit every day."
+        },
+        {
+          "target": "Care este fructul tău preferat?",
+          "en": "What's your favorite fruit?"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "kilogram",
+      "ipa": "/ki.loˈɡram/",
+      "pos": "n.",
+      "meaning": "kilogram",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Un kilogram de orez, vă rog.",
+          "en": "A kilogram of rice, please."
+        },
+        {
+          "target": "Cât costă kilogramul?",
+          "en": "How much is the kilogram?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "roșie",
+      "ipa": "/ˈro.ʃi.e/",
+      "pos": "f. n.",
+      "meaning": "tomato",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Roșiile sunt proaspete.",
+          "en": "The tomatoes are fresh."
+        },
+        {
+          "target": "Aș vrea o jumătate de kilogram de roșii.",
+          "en": "I'd like half a kilogram of tomatoes."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "măr",
+      "ipa": "/mər/",
+      "pos": "n.",
+      "meaning": "apple",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Mărul este dulce.",
+          "en": "The apple is sweet."
+        },
+        {
+          "target": "Vreau patru mere.",
+          "en": "I want four apples."
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "proaspăt",
+      "ipa": "/ˈpro̯as.pət/",
+      "pos": "adj.",
+      "meaning": "fresh",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Pâinea este proaspătă.",
+          "en": "The bread is fresh."
+        },
+        {
+          "target": "Prefer peștele proaspăt.",
+          "en": "I prefer fresh fish."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Vânzător",
+      "role": "npc",
+      "text": "Bună dimineața! Ce doriți astăzi?",
+      "glosses": [],
+      "id": "t1",
+      "en": "Good morning! What would you like today?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Aș vrea un kilogram de roșii și patru mere.",
+      "glosses": [
+        {
+          "text": "kilogram",
+          "pos": "n.",
+          "meaning": "kilogram"
+        },
+        {
+          "text": "roșii",
+          "pos": "f. n.",
+          "meaning": "tomato"
+        },
+        {
+          "text": "mere",
+          "pos": "n.",
+          "meaning": "apple"
+        }
+      ],
+      "id": "t2",
+      "en": "I'd like a kilogram of tomatoes and four apples."
+    },
+    {
+      "speaker": "Vânzător",
+      "role": "npc",
+      "text": "Sunt proaspete, le-am adus azi dimineață.",
+      "glosses": [
+        {
+          "text": "proaspete",
+          "pos": "adj.",
+          "meaning": "fresh"
+        }
+      ],
+      "id": "t3",
+      "en": "They're fresh, I brought them this morning."
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Cât costă kilogramul de roșii?",
+      "glosses": [
+        {
+          "text": "kilogram",
+          "pos": "n.",
+          "meaning": "kilogram"
+        },
+        {
+          "text": "roșii",
+          "pos": "f. n.",
+          "meaning": "tomato"
+        }
+      ],
+      "id": "t4",
+      "en": "How much is a kilogram of tomatoes?"
+    },
+    {
+      "speaker": "Vânzător",
+      "role": "npc",
+      "text": "Șase lei kilogramul. Mai doriți ceva?",
+      "glosses": [
+        {
+          "text": "kilogram",
+          "pos": "n.",
+          "meaning": "kilogram"
+        }
+      ],
+      "id": "t5",
+      "en": "Six lei a kilogram. Would you like anything else?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Nu, atât. Mulțumesc!",
+      "glosses": [],
+      "id": "t6",
+      "en": "No, that's all. Thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "roșii",
+      "tip": "The 'ș' is 'sh': RO-shee",
+      "id": "w1"
+    },
+    {
+      "text": "proaspăt",
+      "tip": "Say PRWAS-puht: the 'oa' blends into one sound",
+      "id": "w2"
+    }
+  ]
+}

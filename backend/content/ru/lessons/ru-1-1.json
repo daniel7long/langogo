@@ -1,0 +1,223 @@
+{
+  "emoji": "👋",
+  "max_flowers": 30,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "word": "привет",
+      "ipa": "privét",
+      "pos": "interj.",
+      "meaning": "hi",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Привет, Маша!",
+          "en": "Hi, Masha!"
+        },
+        {
+          "target": "Привет! Как дела?",
+          "en": "Hi! How are you?"
+        }
+      ],
+      "id": "v1"
+    },
+    {
+      "word": "доброе утро",
+      "ipa": "dóbraye útra",
+      "pos": "phr.",
+      "meaning": "good morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Доброе утро, Анна!",
+          "en": "Good morning, Anna!"
+        },
+        {
+          "target": "Доброе утро всем!",
+          "en": "Good morning, everyone!"
+        }
+      ],
+      "id": "v2"
+    },
+    {
+      "word": "как дела",
+      "ipa": "kak delá",
+      "pos": "phr.",
+      "meaning": "how are you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Привет, Саша, как дела?",
+          "en": "Hi, Sasha, how are you?"
+        },
+        {
+          "target": "Как дела сегодня?",
+          "en": "How are you today?"
+        }
+      ],
+      "id": "v3"
+    },
+    {
+      "word": "спасибо",
+      "ipa": "spasíbo",
+      "pos": "interj.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Большое спасибо!",
+          "en": "Thank you very much!"
+        },
+        {
+          "target": "Спасибо, у меня всё хорошо.",
+          "en": "Thanks, I'm fine."
+        }
+      ],
+      "id": "v4"
+    },
+    {
+      "word": "до свидания",
+      "ipa": "da svidániya",
+      "pos": "phr.",
+      "meaning": "goodbye",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "До свидания, до завтра!",
+          "en": "Goodbye, see you tomorrow!"
+        },
+        {
+          "target": "До свидания и хорошего дня!",
+          "en": "Goodbye and have a nice day!"
+        }
+      ],
+      "id": "v5"
+    },
+    {
+      "word": "пожалуйста",
+      "ipa": "pozháluysta",
+      "pos": "interj.",
+      "meaning": "please, you're welcome",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Кофе, пожалуйста.",
+          "en": "A coffee, please."
+        },
+        {
+          "target": "Помогите мне, пожалуйста.",
+          "en": "Help me, please."
+        }
+      ],
+      "id": "v6"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Анна",
+      "role": "npc",
+      "text": "Доброе утро! Как дела?",
+      "glosses": [
+        {
+          "text": "Доброе утро",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "Как дела",
+          "pos": "phr.",
+          "meaning": "how are you"
+        }
+      ],
+      "id": "t1",
+      "en": "Good morning! How are you?"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Доброе утро! Хорошо, спасибо. А у тебя?",
+      "glosses": [
+        {
+          "text": "Доброе утро",
+          "pos": "phr.",
+          "meaning": "good morning"
+        },
+        {
+          "text": "спасибо",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t2",
+      "en": "Good morning! Fine, thank you. And you?"
+    },
+    {
+      "speaker": "Анна",
+      "role": "npc",
+      "text": "Тоже хорошо, спасибо. Какой чудесный день!",
+      "glosses": [
+        {
+          "text": "спасибо",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t3",
+      "en": "Also fine, thanks. What a wonderful day!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Да, правда. Мне пора идти. До свидания!",
+      "glosses": [
+        {
+          "text": "До свидания",
+          "pos": "phr.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t4",
+      "en": "Yes, it's true. I have to go. Goodbye!"
+    },
+    {
+      "speaker": "Анна",
+      "role": "npc",
+      "text": "До свидания! Хорошего дня!",
+      "glosses": [
+        {
+          "text": "До свидания",
+          "pos": "phr.",
+          "meaning": "goodbye"
+        }
+      ],
+      "id": "t5",
+      "en": "Goodbye! Have a nice day!"
+    },
+    {
+      "speaker": "You",
+      "role": "you",
+      "text": "Спасибо, и тебе! Пока!",
+      "glosses": [
+        {
+          "text": "Спасибо",
+          "pos": "interj.",
+          "meaning": "thank you"
+        }
+      ],
+      "id": "t6",
+      "en": "Thanks, you too! Bye!"
+    }
+  ],
+  "practice_words": [
+    {
+      "text": "спасибо",
+      "tip": "Stress 'si': spa-SI-ba; the last 'o' is said like 'a'",
+      "id": "w1"
+    },
+    {
+      "text": "до свидания",
+      "tip": "Say da svi-DA-ni-ya: an unstressed 'o' sounds like 'a'",
+      "id": "w2"
+    }
+  ]
+}
