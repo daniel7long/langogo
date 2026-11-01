@@ -50,7 +50,7 @@ function Body({ board, records, router }) {
 
         <View style={styles.boardHead}>
           <Text style={styles.eyebrowPlain}>LEADERBOARD</Text>
-          <Text style={styles.today} accessibilityLabel={`Today is ${todayLong()}`}>Today {todayShort()}</Text>
+          <Text style={styles.today} accessibilityLabel={`Today is ${todayLong()}`}>{`TODAY ${todayShort().toUpperCase()}`}</Text>
         </View>
         <View style={styles.board}>
           {board.map((row) => (
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   eyebrow: { ...typography.eyebrow, color: colors.primary, marginTop: spacing.sm },
   boardHead: { flexDirection: 'row', alignItems: 'baseline', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.sm },
   eyebrowPlain: { ...typography.eyebrow, color: colors.primary },
-  today: { ...typography.label, color: colors.coral },
+  today: { ...typography.eyebrow, color: colors.coral }, // same font and size as LEADERBOARD
   board: { backgroundColor: colors.surface, borderRadius: radius.lg, padding: spacing.sm, gap: 2, borderWidth: 1, borderColor: colors.line, ...shadows.card() },
   row: { flexDirection: 'row', alignItems: 'center', gap: spacing.s12, paddingVertical: spacing.sm, paddingHorizontal: spacing.s12, borderRadius: radius.md },
   rowYou: { backgroundColor: colors.selectedBg },
