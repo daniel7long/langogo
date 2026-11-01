@@ -14,6 +14,10 @@ const ART = {
   music: ['🎵', '#EBDDF5'],
   shopping: ['🛍️', '#FBE2D5'],
   tourism: ['🗺️', '#D9ECF7'],
+  gardening: ['🌱', '#DDEFC9'],
+  slack: ['💬', '#E3E8FB'],
+  football: ['🏈', '#D9EFD2'],
+  artists: ['🎨', '#FBE2D5'],
 };
 
 // A topic picture. Uses the image from assets/topics when registered, otherwise an emoji tile.

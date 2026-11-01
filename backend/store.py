@@ -43,7 +43,10 @@ TOPICS = [
 TOPIC_BY_ID = {t["id"]: t for t in TOPICS}
 
 # Topics offered on the "My Favorite Topics" screen (F1S5), in display order.
-FAVORITE_CHOICES = ["cooking", "dancing", "esports", "hiking", "traveling", "photography", "comics", "music", "shopping", "football", "artists", "gardening"]
+FAVORITE_CHOICES = [
+    "cooking", "dancing", "esports", "hiking", "traveling", "photography",   # the first six
+    "comics", "music", "shopping", "football", "artists", "gardening",       # six more
+]
 
 # Lesson titles shown inside a topic (F3S3). Sports comes from the mockup, the rest are placeholders.
 TOPIC_LESSONS = {
@@ -53,6 +56,10 @@ TOPIC_LESSONS = {
     "esports": ["Gaming with friends", "Streaming", "Tournaments", "Game reviews"],
     "shopping": ["At the market", "Buying clothes", "Bargaining", "Online shopping"],
     "tourism": ["Booking a hotel", "Visiting museums", "Asking for directions", "Local food"],
+    "gardening": ["Planting seeds", "Talking about the weather", "Garden tools", "Flowers and herbs"],
+    "football": ["Match day", "Famous players", "Joining a local team", "Watching the final"],
+    "artists": ["Visiting a gallery", "Famous painters", "Describing a painting", "Making art"],
+    "slack": ["Team chat", "Sharing updates", "Asking for help", "Scheduling a meeting"],
 }
 TOPIC_WORD_COUNT = 120
 TOPIC_SCENARIO_COUNT = 20
