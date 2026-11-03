@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "be",
+      "ipa": "/bi/",
+      "pos": "v. (irregular)",
+      "meaning": "to say your age or what something is",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "am",
+          "ipa": "/aɪ æm/"
+        },
+        {
+          "p": "you",
+          "f": "are",
+          "ipa": "/ju ɑr/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "is",
+          "ipa": "/hi ɪz/"
+        },
+        {
+          "p": "we",
+          "f": "are",
+          "ipa": "/wi ɑr/"
+        },
+        {
+          "p": "they",
+          "f": "are",
+          "ipa": "/ðeɪ ɑr/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I am twenty years old."
+        },
+        {
+          "target": "She is thirty."
+        }
+      ],
+      "note": "In English we say 'I am 22', not 'I have 22'."
+    },
+    {
+      "id": "c2",
+      "word": "have",
+      "ipa": "/hæv/",
+      "pos": "v. (irregular)",
+      "meaning": "to own something or to do an event",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "have",
+          "ipa": "/aɪ hæv/"
+        },
+        {
+          "p": "you",
+          "f": "have",
+          "ipa": "/ju hæv/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "has",
+          "ipa": "/hi hæz/"
+        },
+        {
+          "p": "we",
+          "f": "have",
+          "ipa": "/wi hæv/"
+        },
+        {
+          "p": "they",
+          "f": "have",
+          "ipa": "/ðeɪ hæv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I have a party today."
+        },
+        {
+          "target": "She has a big family."
+        }
+      ],
+      "note": "'Have' becomes 'has' after he / she / it."
+    }
+  ]
+}

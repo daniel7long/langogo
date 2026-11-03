@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "have",
+      "ipa": "/hæv/",
+      "pos": "v. (irregular)",
+      "meaning": "to own or to hold",
+      "tense": "Present perfect (experience)",
+      "forms": [
+        {
+          "p": "I",
+          "f": "have worked",
+          "ipa": "/aɪ həv wɜrkt/"
+        },
+        {
+          "p": "you",
+          "f": "have worked",
+          "ipa": "/ju həv wɜrkt/"
+        },
+        {
+          "p": "he / she",
+          "f": "has worked",
+          "ipa": "/hi həz wɜrkt/"
+        },
+        {
+          "p": "we",
+          "f": "have worked",
+          "ipa": "/wi həv wɜrkt/"
+        },
+        {
+          "p": "they",
+          "f": "have worked",
+          "ipa": "/ðeɪ həv wɜrkt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I have worked in a bank."
+        },
+        {
+          "target": "She has worked here for a year."
+        }
+      ],
+      "note": "Use have + past form to talk about experience up to now."
+    },
+    {
+      "id": "c2",
+      "word": "learn",
+      "ipa": "/lɜːrn/",
+      "pos": "v.",
+      "meaning": "to get new knowledge",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "learn",
+          "ipa": "/aɪ lɜːrn/"
+        },
+        {
+          "p": "you",
+          "f": "learn",
+          "ipa": "/ju lɜːrn/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "learns",
+          "ipa": "/hi lɜːrnz/"
+        },
+        {
+          "p": "we",
+          "f": "learn",
+          "ipa": "/wi lɜːrn/"
+        },
+        {
+          "p": "they",
+          "f": "learn",
+          "ipa": "/ðeɪ lɜːrn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I learn fast."
+        },
+        {
+          "target": "He learns new skills."
+        }
+      ],
+      "note": "Add -s after he / she / it."
+    },
+    {
+      "id": "c3",
+      "word": "will",
+      "ipa": "/wɪl/",
+      "pos": "v. (modal)",
+      "meaning": "to talk about the future",
+      "tense": "Future with will",
+      "forms": [
+        {
+          "p": "I",
+          "f": "will contact",
+          "ipa": "/aɪ wɪl kənˈtækt/"
+        },
+        {
+          "p": "you",
+          "f": "will contact",
+          "ipa": "/ju wɪl kənˈtækt/"
+        },
+        {
+          "p": "he / she",
+          "f": "will contact",
+          "ipa": "/hi wɪl kənˈtækt/"
+        },
+        {
+          "p": "we",
+          "f": "will contact",
+          "ipa": "/wi wɪl kənˈtækt/"
+        },
+        {
+          "p": "they",
+          "f": "will contact",
+          "ipa": "/ðeɪ wɪl kənˈtækt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "We will contact you."
+        },
+        {
+          "target": "I will send an email."
+        }
+      ],
+      "note": "Use will + plain verb for promises and plans."
+    }
+  ]
+}

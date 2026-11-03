@@ -1,0 +1,210 @@
+{
+  "emoji": "🎓",
+  "max_flowers": 35,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "subject",
+      "ipa": "/ˈsʌbdʒɪkt/",
+      "pos": "n.",
+      "meaning": "an area of study, like math or art",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "My favorite subject is history."
+        },
+        {
+          "target": "What subject do you study?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "degree",
+      "ipa": "/dɪˈɡriː/",
+      "pos": "n.",
+      "meaning": "a title you get after finishing university",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "She has a degree in law."
+        },
+        {
+          "target": "I want a master's degree."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "research",
+      "ipa": "/ˈriːsɜːrtʃ/",
+      "pos": "n.",
+      "meaning": "careful study to find new facts",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I do research on language."
+        },
+        {
+          "target": "The research takes time."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "pos": "n.",
+      "meaning": "the last day to finish something",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "The deadline is Friday."
+        },
+        {
+          "target": "I missed the deadline."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "assignment",
+      "ipa": "/əˈsaɪnmənt/",
+      "pos": "n.",
+      "meaning": "a piece of work from a teacher",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "The assignment is long."
+        },
+        {
+          "target": "I finished my assignment."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "professor",
+      "ipa": "/prəˈfesər/",
+      "pos": "n.",
+      "meaning": "a teacher at a university",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "My professor is kind."
+        },
+        {
+          "target": "Ask the professor."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "graduate",
+      "ipa": "/ˈɡrædʒueɪt/",
+      "pos": "v.",
+      "meaning": "to finish your studies at a school",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I graduate next year."
+        },
+        {
+          "target": "He graduated in May."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Classmate",
+      "role": "npc",
+      "text": "What do you study at university?",
+      "glosses": [],
+      "en": "What subject do you learn at the university?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "I study linguistics. I want a master's degree next year.",
+      "glosses": [
+        {
+          "text": "degree",
+          "pos": "n.",
+          "meaning": "a title you get after finishing university"
+        }
+      ],
+      "en": "I learn about language. I want a higher title next year."
+    },
+    {
+      "id": "t3",
+      "speaker": "Classmate",
+      "role": "npc",
+      "text": "Nice! Do you have any assignments this week?",
+      "glosses": [],
+      "en": "Good! Do you have homework this week?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, a research paper. The deadline is Friday.",
+      "glosses": [
+        {
+          "text": "research",
+          "pos": "n.",
+          "meaning": "careful study to find new facts"
+        },
+        {
+          "text": "deadline",
+          "pos": "n.",
+          "meaning": "the last day to finish something"
+        }
+      ],
+      "en": "Yes, a long paper. The last day is Friday."
+    },
+    {
+      "id": "t5",
+      "speaker": "Classmate",
+      "role": "npc",
+      "text": "Did you ask your professor for help?",
+      "glosses": [
+        {
+          "text": "professor",
+          "pos": "n.",
+          "meaning": "a teacher at a university"
+        }
+      ],
+      "en": "Did you ask your teacher to help?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "I did. I will graduate in May, so I must work hard.",
+      "glosses": [
+        {
+          "text": "graduate",
+          "pos": "v.",
+          "meaning": "to finish your studies at a school"
+        }
+      ],
+      "en": "Yes. I finish school in May, so I must try hard."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "research",
+      "tip": "Say REE-search: stress the first part"
+    },
+    {
+      "id": "w2",
+      "text": "degree",
+      "tip": "Say di-GREE: stress the second part"
+    }
+  ]
+}

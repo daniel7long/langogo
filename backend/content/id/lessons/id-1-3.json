@@ -1,0 +1,266 @@
+{
+  "emoji": "🌏",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "negara",
+      "ipa": "/nə.ˈɡa.ra/",
+      "pos": "n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Negara saya besar.",
+          "en": "My country is big."
+        },
+        {
+          "target": "Negara mana?",
+          "en": "Which country?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "kota",
+      "ipa": "/ˈko.ta/",
+      "pos": "n.",
+      "meaning": "city, town",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Jakarta kota besar.",
+          "en": "Jakarta is a big city."
+        },
+        {
+          "target": "Kota ini indah.",
+          "en": "This city is beautiful."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "berasal",
+      "ipa": "/bər.ˈa.sal/",
+      "pos": "v.",
+      "meaning": "to come from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya berasal dari Bali.",
+          "en": "I come from Bali."
+        },
+        {
+          "target": "Kamu berasal dari mana?",
+          "en": "Where do you come from?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "bahasa",
+      "ipa": "/ba.ˈha.sa/",
+      "pos": "n.",
+      "meaning": "language",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Bahasa apa?",
+          "en": "Which language?"
+        },
+        {
+          "target": "Bahasa Indonesia mudah.",
+          "en": "Indonesian is easy."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "bicara",
+      "ipa": "/bi.ˈtʃa.ra/",
+      "pos": "v.",
+      "meaning": "to speak",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Dia bicara pelan.",
+          "en": "He speaks slowly."
+        },
+        {
+          "target": "Saya bicara bahasa Inggris.",
+          "en": "I speak English."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "belajar",
+      "ipa": "/bə.ˈla.dʒar/",
+      "pos": "v.",
+      "meaning": "to study, to learn",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya belajar setiap hari.",
+          "en": "I study every day."
+        },
+        {
+          "target": "Kami belajar bersama.",
+          "en": "We study together."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "Indonesia",
+      "ipa": "/in.do.ˈne.sja/",
+      "pos": "n.",
+      "meaning": "Indonesia",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya dari Indonesia.",
+          "en": "I am from Indonesia."
+        },
+        {
+          "target": "Indonesia punya banyak pulau.",
+          "en": "Indonesia has many islands."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Rudi",
+      "role": "npc",
+      "text": "Kamu berasal dari negara mana?",
+      "glosses": [
+        {
+          "text": "negara",
+          "pos": "n.",
+          "meaning": "country"
+        },
+        {
+          "text": "berasal",
+          "pos": "v.",
+          "meaning": "to come from"
+        }
+      ],
+      "en": "Which country do you come from?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Saya berasal dari Amerika. Kamu?",
+      "glosses": [
+        {
+          "text": "berasal",
+          "pos": "v.",
+          "meaning": "to come from"
+        }
+      ],
+      "en": "I come from America. And you?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Rudi",
+      "role": "npc",
+      "text": "Saya dari Indonesia, dari kota Jakarta.",
+      "glosses": [
+        {
+          "text": "kota",
+          "pos": "n.",
+          "meaning": "city, town"
+        },
+        {
+          "text": "Indonesia",
+          "pos": "n.",
+          "meaning": "Indonesia"
+        }
+      ],
+      "en": "I am from Indonesia, from the city of Jakarta."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Wah! Kamu bicara bahasa apa?",
+      "glosses": [
+        {
+          "text": "bahasa",
+          "pos": "n.",
+          "meaning": "language"
+        },
+        {
+          "text": "bicara",
+          "pos": "v.",
+          "meaning": "to speak"
+        }
+      ],
+      "en": "Wow! Which language do you speak?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Rudi",
+      "role": "npc",
+      "text": "Saya bicara bahasa Indonesia dan bahasa Inggris.",
+      "glosses": [
+        {
+          "text": "bahasa",
+          "pos": "n.",
+          "meaning": "language"
+        },
+        {
+          "text": "bicara",
+          "pos": "v.",
+          "meaning": "to speak"
+        },
+        {
+          "text": "Indonesia",
+          "pos": "n.",
+          "meaning": "Indonesia"
+        }
+      ],
+      "en": "I speak Indonesian and English."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Saya suka belajar bahasa Indonesia.",
+      "glosses": [
+        {
+          "text": "bahasa",
+          "pos": "n.",
+          "meaning": "language"
+        },
+        {
+          "text": "belajar",
+          "pos": "v.",
+          "meaning": "to study, to learn"
+        },
+        {
+          "text": "Indonesia",
+          "pos": "n.",
+          "meaning": "Indonesia"
+        }
+      ],
+      "en": "I like learning Indonesian."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "belajar",
+      "tip": "Say bə-LA-jar; the 'j' is like English 'j'"
+    },
+    {
+      "id": "w2",
+      "text": "bicara",
+      "tip": "'c' sounds like 'ch': bi-CHA-ra"
+    }
+  ]
+}

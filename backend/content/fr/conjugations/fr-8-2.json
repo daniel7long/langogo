@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have to",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "dois",
+          "ipa": "/ʒə dwa/"
+        },
+        {
+          "p": "tu",
+          "f": "dois",
+          "ipa": "/ty dwa/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "doit",
+          "ipa": "/il dwa/"
+        },
+        {
+          "p": "nous",
+          "f": "devons",
+          "ipa": "/nu də.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "devez",
+          "ipa": "/vu də.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "doivent",
+          "ipa": "/il dwav/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous devons réduire notre consommation.",
+          "en": "We must reduce our consumption."
+        },
+        {
+          "target": "Les gouvernements doivent investir.",
+          "en": "Governments must invest."
+        }
+      ],
+      "note": "Nous devons = we must."
+    },
+    {
+      "id": "c2",
+      "word": "trier",
+      "ipa": "/tʁi.je/",
+      "pos": "v.",
+      "meaning": "to sort",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "trie",
+          "ipa": "/ʒə tʁi/"
+        },
+        {
+          "p": "tu",
+          "f": "tries",
+          "ipa": "/ty tʁi/"
+        },
+        {
+          "p": "il / elle",
+          "f": "trie",
+          "ipa": "/il tʁi/"
+        },
+        {
+          "p": "nous",
+          "f": "trions",
+          "ipa": "/nu tʁi.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "triez",
+          "ipa": "/vu tʁi.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "trient",
+          "ipa": "/il tʁi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je trie mes déchets.",
+          "en": "I sort my waste."
+        },
+        {
+          "target": "Nous trions le plastique.",
+          "en": "We sort the plastic."
+        }
+      ],
+      "note": "Trier les déchets = sort the waste."
+    },
+    {
+      "id": "c3",
+      "word": "chercher",
+      "ipa": "/ʃɛʁ.ʃe/",
+      "pos": "v.",
+      "meaning": "to look for",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "cherche",
+          "ipa": "/ʒə ʃɛʁʃ/"
+        },
+        {
+          "p": "tu",
+          "f": "cherches",
+          "ipa": "/ty ʃɛʁʃ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "cherche",
+          "ipa": "/il ʃɛʁʃ/"
+        },
+        {
+          "p": "nous",
+          "f": "cherchons",
+          "ipa": "/nu ʃɛʁ.ʃɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "cherchez",
+          "ipa": "/vu ʃɛʁ.ʃe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "cherchent",
+          "ipa": "/il ʃɛʁʃ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je cherche un mode de vie plus durable.",
+          "en": "I'm looking for a more sustainable lifestyle."
+        },
+        {
+          "target": "Nous cherchons des solutions.",
+          "en": "We're looking for solutions."
+        }
+      ],
+      "note": "Chercher un mode de vie durable."
+    }
+  ]
+}

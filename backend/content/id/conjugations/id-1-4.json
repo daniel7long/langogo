@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "punya",
+      "ipa": "/ˈpu.nja/",
+      "pos": "v.",
+      "meaning": "to have",
+      "tense": "Present (no change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya punya",
+          "ipa": "/ˈsa.ja ˈpu.nja/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu punya",
+          "ipa": "/ˈka.mu ˈpu.nja/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia punya",
+          "ipa": "/ˈdi.a ˈpu.nja/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami punya",
+          "ipa": "/ˈka.mi ˈpu.nja/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka punya",
+          "ipa": "/mə.ˈrɛ.ka ˈpu.nja/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya punya dua kakak.",
+          "en": "I have two older siblings."
+        },
+        {
+          "target": "Kamu punya kucing?",
+          "en": "Do you have a cat?"
+        }
+      ],
+      "note": "Use 'punya' for owning or having people: punya kakak."
+    },
+    {
+      "id": "c2",
+      "word": "satu … lima",
+      "ipa": "/ˈsa.tu … ˈli.ma/",
+      "pos": "num.",
+      "meaning": "one … five",
+      "tense": "Numbers 1–5",
+      "forms": [
+        {
+          "p": "1",
+          "f": "satu",
+          "ipa": "/ˈsa.tu/"
+        },
+        {
+          "p": "2",
+          "f": "dua",
+          "ipa": "/ˈdu.a/"
+        },
+        {
+          "p": "3",
+          "f": "tiga",
+          "ipa": "/ˈti.ɡa/"
+        },
+        {
+          "p": "4",
+          "f": "empat",
+          "ipa": "/ˈəm.pat/"
+        },
+        {
+          "p": "5",
+          "f": "lima",
+          "ipa": "/ˈli.ma/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya punya dua kakak.",
+          "en": "I have two older siblings."
+        },
+        {
+          "target": "Lima kucing!",
+          "en": "Five cats!"
+        }
+      ],
+      "note": "No plural needed: dua kucing = two cats."
+    }
+  ]
+}

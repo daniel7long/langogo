@@ -1,0 +1,240 @@
+{
+  "emoji": "🌏",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "দেশ",
+      "ipa": "desh · /deʃ/",
+      "pos": "n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমার দেশ সুন্দর।",
+          "en": "My country is beautiful."
+        },
+        {
+          "target": "আপনার দেশ কোনটি?",
+          "en": "Which is your country?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "শহর",
+      "ipa": "shohor · /ʃɔhor/",
+      "pos": "n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "ঢাকা বড় শহর।",
+          "en": "Dhaka is a big city."
+        },
+        {
+          "target": "এই শহর সুন্দর।",
+          "en": "This city is beautiful."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "বাংলাদেশ",
+      "ipa": "banglades · /baŋlaˌdeʃ/",
+      "pos": "n.",
+      "meaning": "Bangladesh",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমি বাংলাদেশ থেকে এসেছি।",
+          "en": "I came from Bangladesh."
+        },
+        {
+          "target": "বাংলাদেশ নদীর দেশ।",
+          "en": "Bangladesh is a land of rivers."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "ভাষা",
+      "ipa": "bhasha · /bʱaʃa/",
+      "pos": "n.",
+      "meaning": "language",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "তুমি কোন ভাষা জানো?",
+          "en": "Which language do you know?"
+        },
+        {
+          "target": "বাংলা মিষ্টি ভাষা।",
+          "en": "Bengali is a sweet language."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "বাংলা",
+      "ipa": "bangla · /baŋla/",
+      "pos": "n.",
+      "meaning": "Bengali",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমি বাংলা বলি।",
+          "en": "I speak Bengali."
+        },
+        {
+          "target": "বাংলা সহজ নয়।",
+          "en": "Bengali is not easy."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "ইংরেজি",
+      "ipa": "ingreji · /iŋredʒi/",
+      "pos": "n.",
+      "meaning": "English",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "ইংরেজি আমার প্রিয়।",
+          "en": "English is my favorite."
+        },
+        {
+          "target": "সে ইংরেজি পড়ে।",
+          "en": "He studies English."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "শেখা",
+      "ipa": "shekha · /ʃekʰa/",
+      "pos": "n.",
+      "meaning": "learning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "ভাষা শেখা মজার।",
+          "en": "Learning languages is fun."
+        },
+        {
+          "target": "শেখা কখনও শেষ হয় না।",
+          "en": "Learning never ends."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "আপনি কোন দেশ থেকে এসেছেন?",
+      "glosses": [
+        {
+          "text": "দেশ",
+          "pos": "n.",
+          "meaning": "country"
+        }
+      ],
+      "en": "Which country have you come from?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "আমি আমেরিকা থেকে এসেছি। আপনি?",
+      "glosses": [],
+      "en": "I came from America. And you?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "আমি বাংলাদেশ থেকে এসেছি, ঢাকা শহর থেকে।",
+      "glosses": [
+        {
+          "text": "শহর",
+          "pos": "n.",
+          "meaning": "city"
+        },
+        {
+          "text": "বাংলাদেশ",
+          "pos": "n.",
+          "meaning": "Bangladesh"
+        }
+      ],
+      "en": "I came from Bangladesh, from the city of Dhaka."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "বাহ! আপনি কোন ভাষা জানেন?",
+      "glosses": [
+        {
+          "text": "ভাষা",
+          "pos": "n.",
+          "meaning": "language"
+        }
+      ],
+      "en": "Wow! Which language do you know?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "আমি বাংলা আর ইংরেজি জানি।",
+      "glosses": [
+        {
+          "text": "বাংলা",
+          "pos": "n.",
+          "meaning": "Bengali"
+        },
+        {
+          "text": "ইংরেজি",
+          "pos": "n.",
+          "meaning": "English"
+        }
+      ],
+      "en": "I know Bengali and English."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "বাংলা শেখা আমার পছন্দ।",
+      "glosses": [
+        {
+          "text": "বাংলা",
+          "pos": "n.",
+          "meaning": "Bengali"
+        },
+        {
+          "text": "শেখা",
+          "pos": "n.",
+          "meaning": "learning"
+        }
+      ],
+      "en": "I like learning Bengali."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "ইংরেজি",
+      "tip": "Say ing-re-jee"
+    },
+    {
+      "id": "w2",
+      "text": "শহর",
+      "tip": "Say SHO-hor; the 'h' is light"
+    }
+  ]
+}

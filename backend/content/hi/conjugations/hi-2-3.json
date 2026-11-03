@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "चाहिए",
+      "ipa": "chāhiye · /tʃaːɦɪje/",
+      "pos": "v.",
+      "meaning": "to need, want",
+      "tense": "'Need' pattern: मुझे … चाहिए",
+      "forms": [
+        {
+          "p": "मुझे",
+          "f": "चाहिए",
+          "ipa": "mʊdʒʰeː tʃaːɦɪje"
+        },
+        {
+          "p": "तुम्हें",
+          "f": "चाहिए",
+          "ipa": "tʊmʰeː tʃaːɦɪje"
+        },
+        {
+          "p": "उसे",
+          "f": "चाहिए",
+          "ipa": "ʊseː tʃaːɦɪje"
+        },
+        {
+          "p": "हमें",
+          "f": "चाहिए",
+          "ipa": "həmeː tʃaːɦɪje"
+        },
+        {
+          "p": "आपको",
+          "f": "चाहिए",
+          "ipa": "aːpkoː tʃaːɦɪje"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मुझे एक किलो टमाटर चाहिए।",
+          "en": "I want one kilo of tomatoes."
+        },
+        {
+          "target": "आपको क्या चाहिए?",
+          "en": "What do you need?"
+        }
+      ],
+      "note": "The person comes first (with the ending -े / -को) and चाहिए never changes."
+    },
+    {
+      "id": "c2",
+      "word": "देना",
+      "ipa": "denā · /deːnaː/",
+      "pos": "v.",
+      "meaning": "to give",
+      "tense": "Polite request / future",
+      "forms": [
+        {
+          "p": "दीजिए",
+          "f": "please give",
+          "ipa": "diːdʒɪje"
+        },
+        {
+          "p": "दे दूँगा",
+          "f": "I will give",
+          "ipa": "deː duːŋɡaː"
+        },
+        {
+          "p": "दो",
+          "f": "give (to a friend)",
+          "ipa": "doː"
+        },
+        {
+          "p": "दें",
+          "f": "let's give",
+          "ipa": "deːŋ"
+        },
+        {
+          "p": "देते हैं",
+          "f": "we give",
+          "ipa": "deːteː hɛ̃ː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "एक किलो आलू दीजिए।",
+          "en": "Please give one kilo of potatoes."
+        },
+        {
+          "target": "तीस रुपये में दे दूँगा।",
+          "en": "I will give it for thirty."
+        }
+      ],
+      "note": "-इए / -ीजिए makes a polite request."
+    }
+  ]
+}

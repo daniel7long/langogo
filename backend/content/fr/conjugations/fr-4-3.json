@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, to be able",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "peux",
+          "ipa": "/ʒə pø/"
+        },
+        {
+          "p": "tu",
+          "f": "peux",
+          "ipa": "/ty pø/"
+        },
+        {
+          "p": "il / elle",
+          "f": "peut",
+          "ipa": "/il pø/"
+        },
+        {
+          "p": "nous",
+          "f": "pouvons",
+          "ipa": "/nu pu.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pouvez",
+          "ipa": "/vu pu.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "peuvent",
+          "ipa": "/il pœv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je peux vous aider ?",
+          "en": "Can I help you?"
+        },
+        {
+          "target": "Vous pouvez payer ici.",
+          "en": "You can pay here."
+        }
+      ],
+      "note": "'Je peux vous aider ?' is what staff say."
+    },
+    {
+      "id": "c2",
+      "word": "partir",
+      "ipa": "/paʁ.tiʁ/",
+      "pos": "v.",
+      "meaning": "to leave",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "pars",
+          "ipa": "/ʒə paʁ/"
+        },
+        {
+          "p": "tu",
+          "f": "pars",
+          "ipa": "/ty paʁ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "part",
+          "ipa": "/il paʁ/"
+        },
+        {
+          "p": "nous",
+          "f": "partons",
+          "ipa": "/nu paʁ.tɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "partez",
+          "ipa": "/vu paʁ.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "partent",
+          "ipa": "/il paʁt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Le train part à dix heures.",
+          "en": "The train leaves at ten."
+        },
+        {
+          "target": "Nous partons demain.",
+          "en": "We leave tomorrow."
+        }
+      ],
+      "note": "Trains and buses 'partent'."
+    }
+  ]
+}

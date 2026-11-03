@@ -1,0 +1,147 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "aller / tourner",
+      "ipa": "/a.le/",
+      "pos": "v.",
+      "meaning": "to go / to turn",
+      "tense": "Commands (impératif)",
+      "forms": [
+        {
+          "p": "tu",
+          "f": "Va tout droit",
+          "ipa": "/va tu dʁwa/"
+        },
+        {
+          "p": "nous",
+          "f": "Allons tout droit",
+          "ipa": "/a.lɔ̃ tu dʁwa/"
+        },
+        {
+          "p": "vous",
+          "f": "Allez tout droit",
+          "ipa": "/a.le tu dʁwa/"
+        },
+        {
+          "p": "vous",
+          "f": "Tournez à gauche",
+          "ipa": "/tuʁ.ne a ɡoʃ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Allez tout droit, puis tournez à gauche.",
+          "en": "Go straight, then turn left."
+        },
+        {
+          "target": "Tournez à droite.",
+          "en": "Turn right."
+        }
+      ],
+      "note": "Drop the pronoun for commands. For vous: allez, tournez."
+    },
+    {
+      "id": "c2",
+      "word": "voir",
+      "ipa": "/vwaʁ/",
+      "pos": "v.",
+      "meaning": "to see",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "verrai",
+          "ipa": "/ʒə vɛ.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "verras",
+          "ipa": "/ty vɛ.ʁa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "verra",
+          "ipa": "/il vɛ.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "verrons",
+          "ipa": "/nu vɛ.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "verrez",
+          "ipa": "/vu vɛ.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "verront",
+          "ipa": "/il vɛ.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Vous la verrez.",
+          "en": "You will see it."
+        },
+        {
+          "target": "Je verrai demain.",
+          "en": "I'll see tomorrow."
+        }
+      ],
+      "note": "Use the future for what will happen next."
+    },
+    {
+      "id": "c3",
+      "word": "chercher",
+      "ipa": "/ʃɛʁ.ʃe/",
+      "pos": "v.",
+      "meaning": "to look for",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "cherche",
+          "ipa": "/ʒə ʃɛʁʃ/"
+        },
+        {
+          "p": "tu",
+          "f": "cherches",
+          "ipa": "/ty ʃɛʁʃ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "cherche",
+          "ipa": "/il ʃɛʁʃ/"
+        },
+        {
+          "p": "nous",
+          "f": "cherchons",
+          "ipa": "/nu ʃɛʁ.ʃɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "cherchez",
+          "ipa": "/vu ʃɛʁ.ʃe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "cherchent",
+          "ipa": "/il ʃɛʁʃ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Vous cherchez quelque chose ?",
+          "en": "Are you looking for something?"
+        },
+        {
+          "target": "Je cherche la gare.",
+          "en": "I'm looking for the station."
+        }
+      ],
+      "note": "Chercher takes no preposition: chercher quelque chose."
+    }
+  ]
+}

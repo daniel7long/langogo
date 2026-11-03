@@ -1,0 +1,255 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "বয়স",
+      "ipa": "boyosh · /bɔjoʃ/",
+      "pos": "n.",
+      "meaning": "age",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আপনার বয়স কত?",
+          "en": "How old are you?"
+        },
+        {
+          "target": "তার বয়স কম।",
+          "en": "He is young."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "বছর",
+      "ipa": "bochhor · /bɔtʃʰor/",
+      "pos": "n.",
+      "meaning": "year",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমার বয়স বিশ বছর।",
+          "en": "I am twenty years old."
+        },
+        {
+          "target": "এই বছর ভালো।",
+          "en": "This year is good."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "কত",
+      "ipa": "koto · /koto/",
+      "pos": "adj.",
+      "meaning": "how much",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "এটার দাম কত?",
+          "en": "How much is this?"
+        },
+        {
+          "target": "তোমার বয়স কত?",
+          "en": "How old are you?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "পঁচিশ",
+      "ipa": "pochish · /põtʃiʃ/",
+      "pos": "num.",
+      "meaning": "twenty-five",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "পঁচিশ টাকা দিন।",
+          "en": "Give twenty-five taka."
+        },
+        {
+          "target": "সে পঁচিশ বছরের।",
+          "en": "He is twenty-five."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "ত্রিশ",
+      "ipa": "trish · /triʃ/",
+      "pos": "num.",
+      "meaning": "thirty",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "ত্রিশ মিনিট লাগবে।",
+          "en": "It will take thirty minutes."
+        },
+        {
+          "target": "আমার বয়স ত্রিশ।",
+          "en": "I am thirty."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "দুই",
+      "ipa": "dui · /dui̯/",
+      "pos": "num.",
+      "meaning": "two",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমার দুই ভাই আছে।",
+          "en": "I have two brothers."
+        },
+        {
+          "target": "দুই কাপ চা।",
+          "en": "Two cups of tea."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "পাঁচটা",
+      "ipa": "panchta · /pãtʃta/",
+      "pos": "num.",
+      "meaning": "five (things)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "পাঁচটা বাজে।",
+          "en": "It is five o'clock."
+        },
+        {
+          "target": "পাঁচটা আম দিন।",
+          "en": "Give five mangoes."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "আপনার বয়স কত?",
+      "glosses": [
+        {
+          "text": "বয়স",
+          "pos": "n.",
+          "meaning": "age"
+        },
+        {
+          "text": "কত",
+          "pos": "adj.",
+          "meaning": "how much"
+        }
+      ],
+      "en": "How old are you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "আমার বয়স পঁচিশ বছর। আপনার?",
+      "glosses": [
+        {
+          "text": "বয়স",
+          "pos": "n.",
+          "meaning": "age"
+        },
+        {
+          "text": "বছর",
+          "pos": "n.",
+          "meaning": "year"
+        },
+        {
+          "text": "পঁচিশ",
+          "pos": "num.",
+          "meaning": "twenty-five"
+        }
+      ],
+      "en": "I am twenty-five years old. And you?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "আমার বয়স ত্রিশ বছর।",
+      "glosses": [
+        {
+          "text": "বয়স",
+          "pos": "n.",
+          "meaning": "age"
+        },
+        {
+          "text": "বছর",
+          "pos": "n.",
+          "meaning": "year"
+        },
+        {
+          "text": "ত্রিশ",
+          "pos": "num.",
+          "meaning": "thirty"
+        }
+      ],
+      "en": "I am thirty years old."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "আপনার কয়জন ভাইবোন আছে?",
+      "glosses": [],
+      "en": "How many brothers and sisters do you have?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "আমার দুই ভাই আর পাঁচটা বিড়াল আছে!",
+      "glosses": [
+        {
+          "text": "দুই",
+          "pos": "num.",
+          "meaning": "two"
+        },
+        {
+          "text": "পাঁচটা",
+          "pos": "num.",
+          "meaning": "five (things)"
+        }
+      ],
+      "en": "I have two brothers and five cats!"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "পাঁচটা বিড়াল! বাহ!",
+      "glosses": [
+        {
+          "text": "পাঁচটা",
+          "pos": "num.",
+          "meaning": "five (things)"
+        }
+      ],
+      "en": "Five cats! Wow!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "পঁচিশ",
+      "tip": "Nasal vowel: po(n)-chish"
+    },
+    {
+      "id": "w2",
+      "text": "ত্রিশ",
+      "tip": "Say 'trish' with a rolled r"
+    }
+  ]
+}

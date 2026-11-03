@@ -1,0 +1,225 @@
+{
+  "emoji": "👋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "hello",
+      "ipa": "/həˈloʊ/",
+      "pos": "interj.",
+      "meaning": "a word you say when you meet someone",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hello, Anna!"
+        },
+        {
+          "target": "Hello, how are you?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "hi",
+      "ipa": "/haɪ/",
+      "pos": "interj.",
+      "meaning": "a short, friendly way to say hello",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hi, Tom!"
+        },
+        {
+          "target": "Hi! Nice day, right?"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "good morning",
+      "ipa": "/ɡʊd ˈmɔːrnɪŋ/",
+      "pos": "phr.",
+      "meaning": "what you say to greet someone in the morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Good morning, teacher!"
+        },
+        {
+          "target": "Good morning! Did you sleep well?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "how are you?",
+      "ipa": "/haʊ ɑːr juː/",
+      "pos": "phr.",
+      "meaning": "a question you ask to learn how someone feels",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hi Sam, how are you?"
+        },
+        {
+          "target": "How are you today?"
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "fine",
+      "ipa": "/faɪn/",
+      "pos": "adj.",
+      "meaning": "well; in good health",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I am fine, thanks."
+        },
+        {
+          "target": "She is fine today."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "thank you",
+      "ipa": "/ˈθæŋk juː/",
+      "pos": "phr.",
+      "meaning": "words you say when someone helps you or is kind",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Thank you very much!"
+        },
+        {
+          "target": "Thank you for your help."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "goodbye",
+      "ipa": "/ɡʊdˈbaɪ/",
+      "pos": "interj.",
+      "meaning": "what you say when you leave",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Goodbye, see you soon!"
+        },
+        {
+          "target": "She waves and says goodbye."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Emma",
+      "role": "npc",
+      "text": "Good morning! How are you?",
+      "glosses": [
+        {
+          "text": "Good morning",
+          "pos": "phr.",
+          "meaning": "what you say to greet someone in the morning"
+        },
+        {
+          "text": "How are you",
+          "pos": "phr.",
+          "meaning": "a question you ask to learn how someone feels"
+        }
+      ],
+      "en": "Hello in the morning. Tell me how you feel."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Hello! I am fine, thank you. And you?",
+      "glosses": [
+        {
+          "text": "Hello",
+          "pos": "interj.",
+          "meaning": "a word you say when you meet someone"
+        },
+        {
+          "text": "fine",
+          "pos": "adj.",
+          "meaning": "well; in good health"
+        },
+        {
+          "text": "thank you",
+          "pos": "phr.",
+          "meaning": "words you say when someone helps you or is kind"
+        }
+      ],
+      "en": "Hello! I feel well, thank you. How do you feel?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Emma",
+      "role": "npc",
+      "text": "I am fine too. Are you going to work?",
+      "glosses": [
+        {
+          "text": "fine",
+          "pos": "adj.",
+          "meaning": "well; in good health"
+        }
+      ],
+      "en": "I feel well too. Is work your next stop?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, I am going to work. And you?",
+      "glosses": [],
+      "en": "Yes, work is my next stop. What about you?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Emma",
+      "role": "npc",
+      "text": "I am going to the park. Have a nice day!",
+      "glosses": [],
+      "en": "My next stop is the park. I hope your day is good!"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Thank you, you too! Goodbye!",
+      "glosses": [
+        {
+          "text": "Thank you",
+          "pos": "phr.",
+          "meaning": "words you say when someone helps you or is kind"
+        },
+        {
+          "text": "Goodbye",
+          "pos": "interj.",
+          "meaning": "what you say when you leave"
+        }
+      ],
+      "en": "Thanks, the same to you! Bye!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "good morning",
+      "tip": "Link the two words: good-MOR-ning"
+    },
+    {
+      "id": "w2",
+      "text": "thank you",
+      "tip": "Put your tongue between your teeth for /θ/"
+    }
+  ]
+}

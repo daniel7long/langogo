@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "would like",
+      "ipa": "/wʊd laɪk/",
+      "pos": "v. phr.",
+      "meaning": "to politely ask for something",
+      "tense": "Polite request",
+      "forms": [
+        {
+          "p": "I",
+          "f": "would like",
+          "ipa": "/aɪ wʊd laɪk/"
+        },
+        {
+          "p": "you",
+          "f": "would like",
+          "ipa": "/ju wʊd laɪk/"
+        },
+        {
+          "p": "he / she",
+          "f": "would like",
+          "ipa": "/hi wʊd laɪk/"
+        },
+        {
+          "p": "we",
+          "f": "would like",
+          "ipa": "/wi wʊd laɪk/"
+        },
+        {
+          "p": "they",
+          "f": "would like",
+          "ipa": "/ðeɪ wʊd laɪk/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I would like a coffee."
+        },
+        {
+          "target": "We would like a table."
+        }
+      ],
+      "note": "'Would like' does not change: I would like, she would like."
+    },
+    {
+      "id": "c2",
+      "word": "buy",
+      "ipa": "/baɪ/",
+      "pos": "v.",
+      "meaning": "to get something by paying",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "buy",
+          "ipa": "/aɪ baɪ/"
+        },
+        {
+          "p": "you",
+          "f": "buy",
+          "ipa": "/ju baɪ/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "buys",
+          "ipa": "/hi baɪz/"
+        },
+        {
+          "p": "we",
+          "f": "buy",
+          "ipa": "/wi baɪ/"
+        },
+        {
+          "p": "they",
+          "f": "buy",
+          "ipa": "/ðeɪ baɪ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I buy bread here."
+        },
+        {
+          "target": "She buys a cake."
+        }
+      ],
+      "note": "Add -s after he / she / it: he buys."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "emoji": "✈️",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "passport",
+      "ipa": "/ˈpæspɔːrt/",
+      "pos": "n.",
+      "meaning": "a small book that shows who you are when you travel",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Show your passport, please."
+        },
+        {
+          "target": "I forgot my passport."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "flight",
+      "ipa": "/flaɪt/",
+      "pos": "n.",
+      "meaning": "a trip in a plane",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "My flight is at noon."
+        },
+        {
+          "target": "The flight takes three hours."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "gate",
+      "ipa": "/ɡeɪt/",
+      "pos": "n.",
+      "meaning": "the place where you get on a plane",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Go to gate twelve."
+        },
+        {
+          "target": "The gate is open."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "luggage",
+      "ipa": "/ˈlʌɡɪdʒ/",
+      "pos": "n.",
+      "meaning": "the bags you take on a trip",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I have two pieces of luggage."
+        },
+        {
+          "target": "Where is my luggage?"
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "check in",
+      "ipa": "/tʃek ɪn/",
+      "pos": "phr. v.",
+      "meaning": "to tell the airline you have arrived",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "We check in at two."
+        },
+        {
+          "target": "Can I check in online?"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "delayed",
+      "ipa": "/dɪˈleɪd/",
+      "pos": "adj.",
+      "meaning": "later than planned",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "The flight is delayed."
+        },
+        {
+          "target": "My train is delayed."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "boarding",
+      "ipa": "/ˈbɔːrdɪŋ/",
+      "pos": "n.",
+      "meaning": "the time when people get on the plane",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Boarding starts at five."
+        },
+        {
+          "target": "Boarding is now open."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Agent",
+      "role": "npc",
+      "text": "Good afternoon. May I see your passport, please?",
+      "glosses": [
+        {
+          "text": "passport",
+          "pos": "n.",
+          "meaning": "a small book that shows who you are when you travel"
+        }
+      ],
+      "en": "Hello. Can you show me your passport?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Here you are. I would like to check in for my flight.",
+      "glosses": [
+        {
+          "text": "flight",
+          "pos": "n.",
+          "meaning": "a trip in a plane"
+        },
+        {
+          "text": "check in",
+          "pos": "phr. v.",
+          "meaning": "to tell the airline you have arrived"
+        }
+      ],
+      "en": "This is it. I want to tell you I have arrived for my flight."
+    },
+    {
+      "id": "t3",
+      "speaker": "Agent",
+      "role": "npc",
+      "text": "Thank you. Do you have any luggage?",
+      "glosses": [
+        {
+          "text": "luggage",
+          "pos": "n.",
+          "meaning": "the bags you take on a trip"
+        }
+      ],
+      "en": "Thanks. Do you have bags?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, one bag. Is my flight on time?",
+      "glosses": [
+        {
+          "text": "flight",
+          "pos": "n.",
+          "meaning": "a trip in a plane"
+        }
+      ],
+      "en": "Yes, one bag. Is my plane on time?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Agent",
+      "role": "npc",
+      "text": "It is delayed by thirty minutes. Boarding is at gate twelve.",
+      "glosses": [
+        {
+          "text": "gate",
+          "pos": "n.",
+          "meaning": "the place where you get on a plane"
+        },
+        {
+          "text": "delayed",
+          "pos": "adj.",
+          "meaning": "later than planned"
+        },
+        {
+          "text": "Boarding",
+          "pos": "n.",
+          "meaning": "the time when people get on the plane"
+        }
+      ],
+      "en": "It is 30 minutes late. You get on at gate 12."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Thank you. I will wait at the gate.",
+      "glosses": [
+        {
+          "text": "gate",
+          "pos": "n.",
+          "meaning": "the place where you get on a plane"
+        }
+      ],
+      "en": "Thanks. I will wait by the gate."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "luggage",
+      "tip": "Say LUG-ij: the 'gg' is a soft 'j' sound"
+    },
+    {
+      "id": "w2",
+      "text": "passport",
+      "tip": "Say PASS-port: stress the first part"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "emoji": "🍵",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "teh",
+      "ipa": "/teh/",
+      "pos": "n.",
+      "meaning": "tea",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya suka teh.",
+          "en": "I like tea."
+        },
+        {
+          "target": "Teh manis, tolong.",
+          "en": "Sweet tea, please."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "gula",
+      "ipa": "/ˈɡu.la/",
+      "pos": "n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Tanpa gula, ya.",
+          "en": "No sugar, please."
+        },
+        {
+          "target": "Gula di mana?",
+          "en": "Where is the sugar?"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "susu",
+      "ipa": "/ˈsu.su/",
+      "pos": "n.",
+      "meaning": "milk",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Kopi susu enak.",
+          "en": "Coffee with milk is tasty."
+        },
+        {
+          "target": "Satu gelas susu.",
+          "en": "One glass of milk."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "panas",
+      "ipa": "/ˈpa.nas/",
+      "pos": "adj.",
+      "meaning": "hot",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Teh ini panas.",
+          "en": "This tea is hot."
+        },
+        {
+          "target": "Hari ini panas.",
+          "en": "It is hot today."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "pisang goreng",
+      "ipa": "/ˈpi.saŋ ɡo.ˈrɛŋ/",
+      "pos": "n.",
+      "meaning": "fried banana",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Pisang goreng enak.",
+          "en": "Fried banana is delicious."
+        },
+        {
+          "target": "Satu pisang goreng.",
+          "en": "One fried banana."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "minta",
+      "ipa": "/ˈmin.ta/",
+      "pos": "v.",
+      "meaning": "to ask for",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya minta air.",
+          "en": "I'd like some water."
+        },
+        {
+          "target": "Minta tolong ya.",
+          "en": "Could you help me?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "pesan",
+      "ipa": "/pə.ˈsan/",
+      "pos": "v.",
+      "meaning": "to order",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya mau pesan kopi.",
+          "en": "I want to order coffee."
+        },
+        {
+          "target": "Sudah pesan?",
+          "en": "Have you ordered?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Pelayan",
+      "role": "npc",
+      "text": "Selamat siang! Mau pesan apa?",
+      "glosses": [
+        {
+          "text": "pesan",
+          "pos": "v.",
+          "meaning": "to order"
+        }
+      ],
+      "en": "Good afternoon! What would you like to order?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Saya minta satu teh, tolong.",
+      "glosses": [
+        {
+          "text": "teh",
+          "pos": "n.",
+          "meaning": "tea"
+        },
+        {
+          "text": "minta",
+          "pos": "v.",
+          "meaning": "to ask for"
+        }
+      ],
+      "en": "I'd like one tea, please."
+    },
+    {
+      "id": "t3",
+      "speaker": "Pelayan",
+      "role": "npc",
+      "text": "Mau pakai gula?",
+      "glosses": [
+        {
+          "text": "gula",
+          "pos": "n.",
+          "meaning": "sugar"
+        }
+      ],
+      "en": "Do you want sugar?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Tidak pakai gula. Saya mau teh susu yang panas.",
+      "glosses": [
+        {
+          "text": "teh",
+          "pos": "n.",
+          "meaning": "tea"
+        },
+        {
+          "text": "gula",
+          "pos": "n.",
+          "meaning": "sugar"
+        },
+        {
+          "text": "susu",
+          "pos": "n.",
+          "meaning": "milk"
+        }
+      ],
+      "en": "No sugar. I want hot milk tea."
+    },
+    {
+      "id": "t5",
+      "speaker": "Pelayan",
+      "role": "npc",
+      "text": "Baik. Mau pisang goreng juga?",
+      "glosses": [
+        {
+          "text": "pisang goreng",
+          "pos": "n.",
+          "meaning": "fried banana"
+        }
+      ],
+      "en": "Okay. Do you want fried banana too?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ya, satu pisang goreng. Terima kasih!",
+      "glosses": [
+        {
+          "text": "pisang goreng",
+          "pos": "n.",
+          "meaning": "fried banana"
+        }
+      ],
+      "en": "Yes, one fried banana. Thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "pisang goreng",
+      "tip": "Say PI-sang go-RENG"
+    },
+    {
+      "id": "w2",
+      "text": "pesan",
+      "tip": "Say pə-SAN"
+    }
+  ]
+}

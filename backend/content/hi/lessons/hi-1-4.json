@@ -1,0 +1,255 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "उम्र",
+      "ipa": "umra · /ʊmr/",
+      "pos": "n.",
+      "meaning": "age",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "आपकी उम्र क्या है?",
+          "en": "What is your age?"
+        },
+        {
+          "target": "उसकी उम्र कम है।",
+          "en": "His age is low."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "साल",
+      "ipa": "sāl · /saːl/",
+      "pos": "n.",
+      "meaning": "year",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मैं बीस साल का हूँ।",
+          "en": "I am twenty years old."
+        },
+        {
+          "target": "यह साल अच्छा है।",
+          "en": "This year is good."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "कितनी",
+      "ipa": "kitnī · /kɪtniː/",
+      "pos": "adj.",
+      "meaning": "how much (feminine)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "आपकी उम्र कितनी है?",
+          "en": "How old are you?"
+        },
+        {
+          "target": "कितनी चाय चाहिए?",
+          "en": "How much tea do you want?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "पच्चीस",
+      "ipa": "pachchīs · /pətʃtʃiːs/",
+      "pos": "num.",
+      "meaning": "twenty-five",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "पच्चीस रुपये दीजिए।",
+          "en": "Please give twenty-five rupees."
+        },
+        {
+          "target": "वह पच्चीस साल की है।",
+          "en": "She is twenty-five."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "तीस",
+      "ipa": "tīs · /tiːs/",
+      "pos": "num.",
+      "meaning": "thirty",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "तीस मिनट लगेंगे।",
+          "en": "It will take thirty minutes."
+        },
+        {
+          "target": "मेरी उम्र तीस साल है।",
+          "en": "I am thirty years old."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "दो",
+      "ipa": "do · /doː/",
+      "pos": "num.",
+      "meaning": "two",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मेरे दो भाई हैं।",
+          "en": "I have two brothers."
+        },
+        {
+          "target": "दो चाय, कृपया।",
+          "en": "Two teas, please."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "पाँच",
+      "ipa": "pāṁch · /paːntʃ/",
+      "pos": "num.",
+      "meaning": "five",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "पाँच बजे हैं।",
+          "en": "It is five o'clock."
+        },
+        {
+          "target": "मेरे पाँच दोस्त हैं।",
+          "en": "I have five friends."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Neha",
+      "role": "npc",
+      "text": "आपकी उम्र कितनी है?",
+      "glosses": [
+        {
+          "text": "उम्र",
+          "pos": "n.",
+          "meaning": "age"
+        },
+        {
+          "text": "कितनी",
+          "pos": "adj.",
+          "meaning": "how much (feminine)"
+        }
+      ],
+      "en": "How old are you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "मेरी उम्र पच्चीस साल है। और आपकी?",
+      "glosses": [
+        {
+          "text": "उम्र",
+          "pos": "n.",
+          "meaning": "age"
+        },
+        {
+          "text": "साल",
+          "pos": "n.",
+          "meaning": "year"
+        },
+        {
+          "text": "पच्चीस",
+          "pos": "num.",
+          "meaning": "twenty-five"
+        }
+      ],
+      "en": "I am twenty-five years old. And you?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Neha",
+      "role": "npc",
+      "text": "मेरी उम्र तीस साल है।",
+      "glosses": [
+        {
+          "text": "उम्र",
+          "pos": "n.",
+          "meaning": "age"
+        },
+        {
+          "text": "साल",
+          "pos": "n.",
+          "meaning": "year"
+        },
+        {
+          "text": "तीस",
+          "pos": "num.",
+          "meaning": "thirty"
+        }
+      ],
+      "en": "I am thirty years old."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "आपके कितने भाई-बहन हैं?",
+      "glosses": [],
+      "en": "How many brothers and sisters do you have?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Neha",
+      "role": "npc",
+      "text": "मेरे दो भाई और पाँच बिल्लियाँ हैं!",
+      "glosses": [
+        {
+          "text": "दो",
+          "pos": "num.",
+          "meaning": "two"
+        },
+        {
+          "text": "पाँच",
+          "pos": "num.",
+          "meaning": "five"
+        }
+      ],
+      "en": "I have two brothers and five cats!"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "पाँच बिल्लियाँ! वाह!",
+      "glosses": [
+        {
+          "text": "पाँच",
+          "pos": "num.",
+          "meaning": "five"
+        }
+      ],
+      "en": "Five cats! Wow!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "पच्चीस",
+      "tip": "Say pətch-CHEES: 'chch' is a long ch"
+    },
+    {
+      "id": "w2",
+      "text": "पाँच",
+      "tip": "Nasal vowel: paa(n)ch"
+    }
+  ]
+}

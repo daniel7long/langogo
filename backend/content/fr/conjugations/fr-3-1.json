@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "vouloir",
+      "ipa": "/vu.lwaʁ/",
+      "pos": "v.",
+      "meaning": "to want",
+      "tense": "Conditional (polite)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "voudrais",
+          "ipa": "/ʒə vu.dʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "voudrais",
+          "ipa": "/ty vu.dʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "voudrait",
+          "ipa": "/il vu.dʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "voudrions",
+          "ipa": "/nu vu.dʁi.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "voudriez",
+          "ipa": "/vu vu.dʁi.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "voudraient",
+          "ipa": "/il vu.dʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je voudrais un thé, s'il vous plaît.",
+          "en": "I would like a tea, please."
+        },
+        {
+          "target": "Nous voudrions une table.",
+          "en": "We would like a table."
+        }
+      ],
+      "note": "Je voudrais is more polite than je veux."
+    },
+    {
+      "id": "c2",
+      "word": "apporter",
+      "ipa": "/a.pɔʁ.te/",
+      "pos": "v.",
+      "meaning": "to bring",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "apporte",
+          "ipa": "/ʒa.pɔʁt/"
+        },
+        {
+          "p": "tu",
+          "f": "apportes",
+          "ipa": "/ty a.pɔʁt/"
+        },
+        {
+          "p": "il / elle",
+          "f": "apporte",
+          "ipa": "/il a.pɔʁt/"
+        },
+        {
+          "p": "nous",
+          "f": "apportons",
+          "ipa": "/nu za.pɔʁ.tɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "apportez",
+          "ipa": "/vu za.pɔʁ.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "apportent",
+          "ipa": "/il za.pɔʁt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je vous apporte ça tout de suite.",
+          "en": "I'll bring that right away."
+        },
+        {
+          "target": "J'apporte du pain.",
+          "en": "I'm bringing bread."
+        }
+      ],
+      "note": "Waiters say 'Je vous apporte ça tout de suite.'"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "उठना",
+      "ipa": "uṭhnā · /ʊʈʰnaː/",
+      "pos": "v.",
+      "meaning": "to get up",
+      "tense": "Present habitual",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "उठता / उठती हूँ",
+          "ipa": "ʊʈʰtaː huː̃"
+        },
+        {
+          "p": "तुम",
+          "f": "उठते / उठती हो",
+          "ipa": "ʊʈʰteː hoː"
+        },
+        {
+          "p": "वह",
+          "f": "उठता / उठती है",
+          "ipa": "ʊʈʰtaː hɛː"
+        },
+        {
+          "p": "हम",
+          "f": "उठते हैं",
+          "ipa": "ʊʈʰteː hɛ̃ː"
+        },
+        {
+          "p": "आप",
+          "f": "उठते हैं",
+          "ipa": "ʊʈʰteː hɛ̃ː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मैं रोज़ छह बजे उठता हूँ।",
+          "en": "I get up at six every day."
+        },
+        {
+          "target": "तुम कितने बजे उठते हो?",
+          "en": "What time do you get up?"
+        }
+      ],
+      "note": "Stem उठ + ता / ती / ते + हूँ / हो / है / हैं."
+    },
+    {
+      "id": "c2",
+      "word": "करना",
+      "ipa": "karnā · /kərnaː/",
+      "pos": "v.",
+      "meaning": "to do, to make",
+      "tense": "Present habitual",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "करता / करती हूँ",
+          "ipa": "kərtaː huː̃"
+        },
+        {
+          "p": "तुम",
+          "f": "करते / करती हो",
+          "ipa": "kərteː hoː"
+        },
+        {
+          "p": "वह",
+          "f": "करता / करती है",
+          "ipa": "kərtaː hɛː"
+        },
+        {
+          "p": "हम",
+          "f": "करते हैं",
+          "ipa": "kərteː hɛ̃ː"
+        },
+        {
+          "p": "आप",
+          "f": "करते हैं",
+          "ipa": "kərteː hɛ̃ː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मैं नाश्ता करता हूँ।",
+          "en": "I have breakfast."
+        },
+        {
+          "target": "फिर क्या करते हो?",
+          "en": "Then what do you do?"
+        }
+      ],
+      "note": "नाश्ता करना = to have breakfast; काम करना = to work."
+    },
+    {
+      "id": "c3",
+      "word": "जाना",
+      "ipa": "jānā · /dʒaːnaː/",
+      "pos": "v.",
+      "meaning": "to go",
+      "tense": "Present habitual",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "जाता / जाती हूँ",
+          "ipa": "dʒaːtaː huː̃"
+        },
+        {
+          "p": "तुम",
+          "f": "जाते / जाती हो",
+          "ipa": "dʒaːteː hoː"
+        },
+        {
+          "p": "वह",
+          "f": "जाता / जाती है",
+          "ipa": "dʒaːtaː hɛː"
+        },
+        {
+          "p": "हम",
+          "f": "जाते हैं",
+          "ipa": "dʒaːteː hɛ̃ː"
+        },
+        {
+          "p": "आप",
+          "f": "जाते हैं",
+          "ipa": "dʒaːteː hɛ̃ː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मैं नौ बजे जाता हूँ।",
+          "en": "I go at nine."
+        },
+        {
+          "target": "आप कब जाते हैं?",
+          "en": "When do you go?"
+        }
+      ],
+      "note": "काम पर जाना = to go to work."
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "emoji": "💬",
+  "max_flowers": 35,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "opinion",
+      "ipa": "/əˈpɪnjən/",
+      "pos": "n.",
+      "meaning": "what you think about something",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "In my opinion, it is good."
+        },
+        {
+          "target": "What is your opinion?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "agree",
+      "ipa": "/əˈɡriː/",
+      "pos": "v.",
+      "meaning": "to have the same idea as someone",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I agree with you."
+        },
+        {
+          "target": "They agree on the plan."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "disagree",
+      "ipa": "/ˌdɪsəˈɡriː/",
+      "pos": "v.",
+      "meaning": "to have a different idea",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I disagree with that."
+        },
+        {
+          "target": "We disagree about food."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "believe",
+      "ipa": "/bɪˈliːv/",
+      "pos": "v.",
+      "meaning": "to think something is true",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I believe you."
+        },
+        {
+          "target": "She believes in hard work."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "reason",
+      "ipa": "/ˈriːzn/",
+      "pos": "n.",
+      "meaning": "why something happens or is true",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "What is the reason?"
+        },
+        {
+          "target": "I have two reasons."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "maybe",
+      "ipa": "/ˈmeɪbi/",
+      "pos": "adv.",
+      "meaning": "possibly",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Maybe it will rain."
+        },
+        {
+          "target": "Maybe you are right."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "example",
+      "ipa": "/ɪɡˈzæmpl/",
+      "pos": "n.",
+      "meaning": "something that shows what you mean",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Give me an example."
+        },
+        {
+          "target": "For example, I walk to work."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Friend",
+      "role": "npc",
+      "text": "What is your opinion about working four days a week?",
+      "glosses": [
+        {
+          "text": "opinion",
+          "pos": "n.",
+          "meaning": "what you think about something"
+        }
+      ],
+      "en": "What do you think about working four days each week?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "I agree with it. I believe people are happier.",
+      "glosses": [
+        {
+          "text": "agree",
+          "pos": "v.",
+          "meaning": "to have the same idea as someone"
+        },
+        {
+          "text": "believe",
+          "pos": "v.",
+          "meaning": "to think something is true"
+        }
+      ],
+      "en": "I think it is good. I think people feel happier."
+    },
+    {
+      "id": "t3",
+      "speaker": "Friend",
+      "role": "npc",
+      "text": "That is one reason. Do you have another one?",
+      "glosses": [
+        {
+          "text": "reason",
+          "pos": "n.",
+          "meaning": "why something happens or is true"
+        }
+      ],
+      "en": "That is one cause. Is there another?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes. For example, people have more time for family.",
+      "glosses": [
+        {
+          "text": "example",
+          "pos": "n.",
+          "meaning": "something that shows what you mean"
+        }
+      ],
+      "en": "Yes. For one, people have more time with their family."
+    },
+    {
+      "id": "t5",
+      "speaker": "Friend",
+      "role": "npc",
+      "text": "I disagree a little. Maybe some jobs need five days.",
+      "glosses": [
+        {
+          "text": "disagree",
+          "pos": "v.",
+          "meaning": "to have a different idea"
+        },
+        {
+          "text": "Maybe",
+          "pos": "adv.",
+          "meaning": "possibly"
+        }
+      ],
+      "en": "I do not fully think so. Possibly some jobs need five days."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "That is true. Maybe we can find a good middle.",
+      "glosses": [
+        {
+          "text": "Maybe",
+          "pos": "adv.",
+          "meaning": "possibly"
+        }
+      ],
+      "en": "That is right. Possibly we can find a good balance."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "believe",
+      "tip": "Say bi-LEEV: stress the second part"
+    },
+    {
+      "id": "w2",
+      "text": "opinion",
+      "tip": "Say uh-PIN-yun: stress the second part"
+    }
+  ]
+}

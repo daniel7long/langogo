@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "rumah saya",
+      "ipa": "/ˈru.mah ˈsa.ja/",
+      "pos": "n. phr.",
+      "meaning": "my house",
+      "tense": "Possession: noun + pronoun",
+      "forms": [
+        {
+          "p": "saya",
+          "f": "rumah saya",
+          "ipa": "/ˈru.mah ˈsa.ja/"
+        },
+        {
+          "p": "kamu",
+          "f": "rumah kamu",
+          "ipa": "/ˈru.mah ˈka.mu/"
+        },
+        {
+          "p": "dia",
+          "f": "rumah dia",
+          "ipa": "/ˈru.mah ˈdi.a/"
+        },
+        {
+          "p": "kami",
+          "f": "rumah kami",
+          "ipa": "/ˈru.mah ˈka.mi/"
+        },
+        {
+          "p": "mereka",
+          "f": "rumah mereka",
+          "ipa": "/ˈru.mah mə.ˈrɛ.ka/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Rumah saya di Amerika.",
+          "en": "My home is in America."
+        },
+        {
+          "target": "Ini teman saya.",
+          "en": "This is my friend."
+        }
+      ],
+      "note": "The owner goes after the thing: rumah saya = house of me."
+    },
+    {
+      "id": "c2",
+      "word": "tinggal",
+      "ipa": "/ˈtiŋ.ɡal/",
+      "pos": "v.",
+      "meaning": "to live",
+      "tense": "Present (no change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya tinggal",
+          "ipa": "/ˈsa.ja ˈtiŋ.ɡal/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu tinggal",
+          "ipa": "/ˈka.mu ˈtiŋ.ɡal/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia tinggal",
+          "ipa": "/ˈdi.a ˈtiŋ.ɡal/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami tinggal",
+          "ipa": "/ˈka.mi ˈtiŋ.ɡal/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka tinggal",
+          "ipa": "/mə.ˈrɛ.ka ˈtiŋ.ɡal/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya tinggal di Jakarta.",
+          "en": "I live in Jakarta."
+        },
+        {
+          "target": "Mereka tinggal di sini.",
+          "en": "They live here."
+        }
+      ],
+      "note": "Say 'tinggal di' + place."
+    }
+  ]
+}

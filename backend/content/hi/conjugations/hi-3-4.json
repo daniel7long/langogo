@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "बनाना",
+      "ipa": "banānā · /bənaːnaː/",
+      "pos": "v.",
+      "meaning": "to make, to cook",
+      "tense": "Present habitual",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "बनाता / बनाती हूँ",
+          "ipa": "bənaːtaː huː̃"
+        },
+        {
+          "p": "तुम",
+          "f": "बनाते / बनाती हो",
+          "ipa": "bənaːteː hoː"
+        },
+        {
+          "p": "वह",
+          "f": "बनाता / बनाती है",
+          "ipa": "bənaːtaː hɛː"
+        },
+        {
+          "p": "हम",
+          "f": "बनाते हैं",
+          "ipa": "bənaːteː hɛ̃ː"
+        },
+        {
+          "p": "आप",
+          "f": "बनाते हैं",
+          "ipa": "bənaːteː hɛ̃ː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "रविवार को बनाता हूँ।",
+          "en": "I make it on Sundays."
+        },
+        {
+          "target": "क्या तुम घर पर बनाते हो?",
+          "en": "Do you make it at home?"
+        }
+      ],
+      "note": "Women say बनाती; men say बनाता."
+    },
+    {
+      "id": "c2",
+      "word": "पसंद होना",
+      "ipa": "pasand honā · /pəsənd hoːnaː/",
+      "pos": "v. phr.",
+      "meaning": "to like",
+      "tense": "'Like' pattern",
+      "forms": [
+        {
+          "p": "मुझे",
+          "f": "पसंद है",
+          "ipa": "pəsənd hɛː"
+        },
+        {
+          "p": "तुम्हें",
+          "f": "पसंद है",
+          "ipa": "pəsənd hɛː"
+        },
+        {
+          "p": "उसे",
+          "f": "पसंद है",
+          "ipa": "pəsənd hɛː"
+        },
+        {
+          "p": "हमें",
+          "f": "पसंद हैं",
+          "ipa": "pəsənd hɛ̃ː"
+        },
+        {
+          "p": "मुझे फल",
+          "f": "पसंद हैं",
+          "ipa": "pəsənd hɛ̃ː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मुझे मीठा ज़्यादा पसंद है।",
+          "en": "I like sweets more."
+        },
+        {
+          "target": "मुझे फल पसंद हैं।",
+          "en": "I like fruit."
+        }
+      ],
+      "note": "The liked thing decides है / हैं: चाय पसंद है, फल पसंद हैं."
+    }
+  ]
+}

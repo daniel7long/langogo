@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "have",
+      "ipa": "/hæv/",
+      "pos": "v. (irregular)",
+      "meaning": "to own or carry something",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "have",
+          "ipa": "/aɪ hæv/"
+        },
+        {
+          "p": "you",
+          "f": "have",
+          "ipa": "/ju hæv/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "has",
+          "ipa": "/hi hæz/"
+        },
+        {
+          "p": "we",
+          "f": "have",
+          "ipa": "/wi hæv/"
+        },
+        {
+          "p": "they",
+          "f": "have",
+          "ipa": "/ðeɪ hæv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I have one bag."
+        },
+        {
+          "target": "She has a passport."
+        }
+      ],
+      "note": "Questions use do: Do you have any luggage?"
+    },
+    {
+      "id": "c2",
+      "word": "be",
+      "ipa": "/bi/",
+      "pos": "v. (irregular)",
+      "meaning": "to describe a state",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "it",
+          "f": "is",
+          "ipa": "/ɪt ɪz/"
+        },
+        {
+          "p": "I",
+          "f": "am",
+          "ipa": "/aɪ æm/"
+        },
+        {
+          "p": "you",
+          "f": "are",
+          "ipa": "/ju ɑr/"
+        },
+        {
+          "p": "we",
+          "f": "are",
+          "ipa": "/wi ɑr/"
+        },
+        {
+          "p": "they",
+          "f": "are",
+          "ipa": "/ðeɪ ɑr/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "The flight is delayed."
+        },
+        {
+          "target": "Boarding is at gate twelve."
+        }
+      ],
+      "note": "'Is' is for one thing: the flight is delayed."
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "emoji": "📊",
+  "max_flowers": 35,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "presentation",
+      "ipa": "/ˌpreznˈteɪʃn/",
+      "pos": "n.",
+      "meaning": "a talk that shows ideas to a group",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "My presentation is at ten."
+        },
+        {
+          "target": "The presentation was short."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "slide",
+      "ipa": "/slaɪd/",
+      "pos": "n.",
+      "meaning": "one page of a presentation",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "This slide shows the results."
+        },
+        {
+          "target": "I have ten slides."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "topic",
+      "ipa": "/ˈtɑːpɪk/",
+      "pos": "n.",
+      "meaning": "the subject you talk about",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Today's topic is health."
+        },
+        {
+          "target": "Choose a topic."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "explain",
+      "ipa": "/ɪkˈspleɪn/",
+      "pos": "v.",
+      "meaning": "to make something clear",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Let me explain the plan."
+        },
+        {
+          "target": "Can you explain this?"
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "audience",
+      "ipa": "/ˈɔːdiəns/",
+      "pos": "n.",
+      "meaning": "the people who listen or watch",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "The audience is large."
+        },
+        {
+          "target": "Look at the audience."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "question",
+      "ipa": "/ˈkwestʃən/",
+      "pos": "n.",
+      "meaning": "something you ask to get an answer",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I have a question."
+        },
+        {
+          "target": "Any questions?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "conclusion",
+      "ipa": "/kənˈkluːʒn/",
+      "pos": "n.",
+      "meaning": "the final part",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "In conclusion, we need more time."
+        },
+        {
+          "target": "The conclusion is clear."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Host",
+      "role": "npc",
+      "text": "Good morning, everyone. Today my topic is healthy food.",
+      "glosses": [
+        {
+          "text": "topic",
+          "pos": "n.",
+          "meaning": "the subject you talk about"
+        }
+      ],
+      "en": "Hello all. Today I will talk about food that is good for you."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "First, I will explain why this topic is important.",
+      "glosses": [
+        {
+          "text": "topic",
+          "pos": "n.",
+          "meaning": "the subject you talk about"
+        },
+        {
+          "text": "explain",
+          "pos": "v.",
+          "meaning": "to make something clear"
+        }
+      ],
+      "en": "First, I will make clear why this subject matters."
+    },
+    {
+      "id": "t3",
+      "speaker": "Host",
+      "role": "npc",
+      "text": "This slide shows the results of our survey.",
+      "glosses": [
+        {
+          "text": "slide",
+          "pos": "n.",
+          "meaning": "one page of a presentation"
+        }
+      ],
+      "en": "This page shows what we learned from our questions."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "In conclusion, people should eat more vegetables.",
+      "glosses": [
+        {
+          "text": "conclusion",
+          "pos": "n.",
+          "meaning": "the final part"
+        }
+      ],
+      "en": "To finish, people should eat more vegetables."
+    },
+    {
+      "id": "t5",
+      "speaker": "Host",
+      "role": "npc",
+      "text": "Thank you for listening. Are there any questions?",
+      "glosses": [],
+      "en": "Thanks for hearing me. Do you want to ask something?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, I have one question about the survey.",
+      "glosses": [
+        {
+          "text": "question",
+          "pos": "n.",
+          "meaning": "something you ask to get an answer"
+        }
+      ],
+      "en": "Yes, I want to ask one thing about the survey."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "presentation",
+      "tip": "Say prez-en-TAY-shun: stress the third part"
+    },
+    {
+      "id": "w2",
+      "text": "audience",
+      "tip": "Say AW-dee-ense: stress the first part"
+    }
+  ]
+}

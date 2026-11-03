@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "gather",
+      "ipa": "/ˈɡæðər/",
+      "pos": "v.",
+      "meaning": "to come together",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "gather",
+          "ipa": "/aɪ ˈɡæðər/"
+        },
+        {
+          "p": "you",
+          "f": "gather",
+          "ipa": "/ju ˈɡæðər/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "gathers",
+          "ipa": "/hi ˈɡæðərz/"
+        },
+        {
+          "p": "we",
+          "f": "gather",
+          "ipa": "/wi ˈɡæðər/"
+        },
+        {
+          "p": "they",
+          "f": "gather",
+          "ipa": "/ðeɪ ˈɡæðər/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Our family gathers for dinner."
+        },
+        {
+          "target": "We gather at my aunt's house."
+        }
+      ],
+      "note": "Our family gathers... (he / she / it → -s)."
+    },
+    {
+      "id": "c2",
+      "word": "celebrate",
+      "ipa": "/ˈseləbreɪt/",
+      "pos": "v.",
+      "meaning": "to do something special",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "celebrate",
+          "ipa": "/aɪ ˈseləbreɪt/"
+        },
+        {
+          "p": "you",
+          "f": "celebrate",
+          "ipa": "/ju ˈseləbreɪt/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "celebrates",
+          "ipa": "/hi ˈseləbreɪts/"
+        },
+        {
+          "p": "we",
+          "f": "celebrate",
+          "ipa": "/wi ˈseləbreɪt/"
+        },
+        {
+          "p": "they",
+          "f": "celebrate",
+          "ipa": "/ðeɪ ˈseləbreɪt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "We celebrate New Year."
+        },
+        {
+          "target": "She celebrates with friends."
+        }
+      ],
+      "note": "Use celebrate + holiday: We celebrate New Year."
+    },
+    {
+      "id": "c3",
+      "word": "decorate",
+      "ipa": "/ˈdekəreɪt/",
+      "pos": "v.",
+      "meaning": "to make a place look nice",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "decorate",
+          "ipa": "/aɪ ˈdekəreɪt/"
+        },
+        {
+          "p": "you",
+          "f": "decorate",
+          "ipa": "/ju ˈdekəreɪt/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "decorates",
+          "ipa": "/hi ˈdekəreɪts/"
+        },
+        {
+          "p": "we",
+          "f": "decorate",
+          "ipa": "/wi ˈdekəreɪt/"
+        },
+        {
+          "p": "they",
+          "f": "decorate",
+          "ipa": "/ðeɪ ˈdekəreɪt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "We decorate the house."
+        },
+        {
+          "target": "They decorate the tree."
+        }
+      ],
+      "note": "Do you decorate...? is the question form."
+    }
+  ]
+}

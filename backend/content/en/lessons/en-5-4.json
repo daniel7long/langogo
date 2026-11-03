@@ -1,0 +1,203 @@
+{
+  "emoji": "🏠",
+  "max_flowers": 35,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "remote",
+      "ipa": "/rɪˈmoʊt/",
+      "pos": "adj.",
+      "meaning": "done from a place far away",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I do remote work."
+        },
+        {
+          "target": "It is a remote job."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "meeting",
+      "ipa": "/ˈmiːtɪŋ/",
+      "pos": "n.",
+      "meaning": "a time when people talk about work",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "We have a meeting at nine."
+        },
+        {
+          "target": "The meeting was long."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "schedule",
+      "ipa": "/ˈskedʒuːl/",
+      "pos": "n.",
+      "meaning": "a plan of times for things",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "My schedule is full."
+        },
+        {
+          "target": "Check the schedule."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "connection",
+      "ipa": "/kəˈnekʃn/",
+      "pos": "n.",
+      "meaning": "a link to the internet",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "The connection is slow."
+        },
+        {
+          "target": "I have a good connection."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "focus",
+      "ipa": "/ˈfoʊkəs/",
+      "pos": "v.",
+      "meaning": "to give all your attention to one thing",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I can focus at home."
+        },
+        {
+          "target": "Please focus on the task."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "flexible",
+      "ipa": "/ˈfleksəbl/",
+      "pos": "adj.",
+      "meaning": "able to change easily",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "My hours are flexible."
+        },
+        {
+          "target": "She is flexible."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "break",
+      "ipa": "/breɪk/",
+      "pos": "n.",
+      "meaning": "a short time to rest",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Let's take a break."
+        },
+        {
+          "target": "I take a break at noon."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Colleague",
+      "role": "npc",
+      "text": "Do you like working from home?",
+      "glosses": [],
+      "en": "Do you enjoy doing your job at your house?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, my schedule is flexible, and I can focus better.",
+      "glosses": [
+        {
+          "text": "schedule",
+          "pos": "n.",
+          "meaning": "a plan of times for things"
+        },
+        {
+          "text": "focus",
+          "pos": "v.",
+          "meaning": "to give all your attention to one thing"
+        },
+        {
+          "text": "flexible",
+          "pos": "adj.",
+          "meaning": "able to change easily"
+        }
+      ],
+      "en": "Yes, my times can change, and I can pay attention better."
+    },
+    {
+      "id": "t3",
+      "speaker": "Colleague",
+      "role": "npc",
+      "text": "What about meetings? Is the connection good?",
+      "glosses": [
+        {
+          "text": "connection",
+          "pos": "n.",
+          "meaning": "a link to the internet"
+        }
+      ],
+      "en": "And meetings? Is the internet good?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Sometimes it is slow, but it is usually fine.",
+      "glosses": [],
+      "en": "Sometimes it is not fast, but most days it is okay."
+    },
+    {
+      "id": "t5",
+      "speaker": "Colleague",
+      "role": "npc",
+      "text": "Do you take breaks during the day?",
+      "glosses": [],
+      "en": "Do you rest for short times in the day?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, I walk outside at noon. It helps me a lot.",
+      "glosses": [],
+      "en": "Yes, I go out at noon. It helps me very much."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "schedule",
+      "tip": "Say SKED-jool (American) or SHED-yool (British)"
+    },
+    {
+      "id": "w2",
+      "text": "flexible",
+      "tip": "Say FLEK-suh-bul: stress the first part"
+    }
+  ]
+}

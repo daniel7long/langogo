@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "come",
+      "ipa": "/kʌm/",
+      "pos": "v.",
+      "meaning": "to move toward a place or to start from a place",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "come",
+          "ipa": "/aɪ kʌm/"
+        },
+        {
+          "p": "you",
+          "f": "come",
+          "ipa": "/ju kʌm/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "comes",
+          "ipa": "/hi kʌmz/"
+        },
+        {
+          "p": "we",
+          "f": "come",
+          "ipa": "/wi kʌm/"
+        },
+        {
+          "p": "they",
+          "f": "come",
+          "ipa": "/ðeɪ kʌm/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I come from a small town."
+        },
+        {
+          "target": "She comes from Mexico."
+        }
+      ],
+      "note": "'Come from' tells where you are from: I come from Spain."
+    },
+    {
+      "id": "c2",
+      "word": "speak",
+      "ipa": "/spiːk/",
+      "pos": "v.",
+      "meaning": "to say words out loud",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "speak",
+          "ipa": "/aɪ spiːk/"
+        },
+        {
+          "p": "you",
+          "f": "speak",
+          "ipa": "/ju spiːk/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "speaks",
+          "ipa": "/hi spiːks/"
+        },
+        {
+          "p": "we",
+          "f": "speak",
+          "ipa": "/wi spiːk/"
+        },
+        {
+          "p": "they",
+          "f": "speak",
+          "ipa": "/ðeɪ spiːk/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I speak English every day."
+        },
+        {
+          "target": "He speaks three languages."
+        }
+      ],
+      "note": "Add -s after he / she / it: he speaks."
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "emoji": "🛍️",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "दुकान",
+      "ipa": "dukān · /dʊkaːn/",
+      "pos": "n.",
+      "meaning": "shop",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "दुकान बंद है।",
+          "en": "The shop is closed."
+        },
+        {
+          "target": "यह दुकान अच्छी है।",
+          "en": "This shop is good."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "सब्ज़ी",
+      "ipa": "sabzī · /səbziː/",
+      "pos": "n.",
+      "meaning": "vegetable",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "सब्ज़ी ताज़ी है।",
+          "en": "The vegetables are fresh."
+        },
+        {
+          "target": "मुझे सब्ज़ी चाहिए।",
+          "en": "I want vegetables."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "दाम",
+      "ipa": "dām · /daːm/",
+      "pos": "n.",
+      "meaning": "price",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "इसका दाम क्या है?",
+          "en": "What is its price?"
+        },
+        {
+          "target": "दाम ज़्यादा है।",
+          "en": "The price is high."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "महँगा",
+      "ipa": "mahangā · /məɦəŋɡaː/",
+      "pos": "adj.",
+      "meaning": "expensive",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "यह बहुत महँगा है।",
+          "en": "This is very expensive."
+        },
+        {
+          "target": "आज सब कुछ महँगा है।",
+          "en": "Everything is expensive today."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "सस्ता",
+      "ipa": "sastā · /səstaː/",
+      "pos": "adj.",
+      "meaning": "cheap",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "यह सस्ता है।",
+          "en": "This is cheap."
+        },
+        {
+          "target": "सस्ता दीजिए।",
+          "en": "Give a cheaper one."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "किलो",
+      "ipa": "kilo · /kɪloː/",
+      "pos": "n.",
+      "meaning": "kilogram",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "एक किलो आलू दीजिए।",
+          "en": "Give me one kilo of potatoes."
+        },
+        {
+          "target": "दो किलो सेब चाहिए।",
+          "en": "I want two kilos of apples."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "थैला",
+      "ipa": "thailā · /tʰɛːlaː/",
+      "pos": "n.",
+      "meaning": "bag",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "थैला भारी है।",
+          "en": "The bag is heavy."
+        },
+        {
+          "target": "मेरा थैला कहाँ है?",
+          "en": "Where is my bag?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Dukandar",
+      "role": "npc",
+      "text": "आइए, सब्ज़ी ताज़ी है। आपको क्या चाहिए?",
+      "glosses": [
+        {
+          "text": "सब्ज़ी",
+          "pos": "n.",
+          "meaning": "vegetable"
+        }
+      ],
+      "en": "Come, the vegetables are fresh. What do you want?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "मुझे एक किलो टमाटर चाहिए। इसका दाम क्या है?",
+      "glosses": [
+        {
+          "text": "दाम",
+          "pos": "n.",
+          "meaning": "price"
+        },
+        {
+          "text": "किलो",
+          "pos": "n.",
+          "meaning": "kilogram"
+        }
+      ],
+      "en": "I want one kilo of tomatoes. What is the price?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Dukandar",
+      "role": "npc",
+      "text": "चालीस रुपये किलो।",
+      "glosses": [
+        {
+          "text": "किलो",
+          "pos": "n.",
+          "meaning": "kilogram"
+        }
+      ],
+      "en": "Forty rupees a kilo."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "यह बहुत महँगा है। कुछ सस्ता दीजिए।",
+      "glosses": [
+        {
+          "text": "महँगा",
+          "pos": "adj.",
+          "meaning": "expensive"
+        },
+        {
+          "text": "सस्ता",
+          "pos": "adj.",
+          "meaning": "cheap"
+        }
+      ],
+      "en": "This is very expensive. Please give something cheaper."
+    },
+    {
+      "id": "t5",
+      "speaker": "Dukandar",
+      "role": "npc",
+      "text": "तीस रुपये में दे दूँगा। थैला है?",
+      "glosses": [
+        {
+          "text": "थैला",
+          "pos": "n.",
+          "meaning": "bag"
+        }
+      ],
+      "en": "I'll give it for thirty. Do you have a bag?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "जी हाँ, मेरा थैला यह रहा। धन्यवाद!",
+      "glosses": [
+        {
+          "text": "थैला",
+          "pos": "n.",
+          "meaning": "bag"
+        }
+      ],
+      "en": "Yes, here is my bag. Thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "महँगा",
+      "tip": "Nasal 'n' in the middle: mə-HANG-gaa"
+    },
+    {
+      "id": "w2",
+      "text": "सब्ज़ी",
+      "tip": "Say sab-ZEE"
+    }
+  ]
+}

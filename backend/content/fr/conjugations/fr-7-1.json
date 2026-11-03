@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "vouloir",
+      "ipa": "/vu.lwaʁ/",
+      "pos": "v.",
+      "meaning": "to want",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "veux",
+          "ipa": "/ʒə vø/"
+        },
+        {
+          "p": "tu",
+          "f": "veux",
+          "ipa": "/ty vø/"
+        },
+        {
+          "p": "il / elle",
+          "f": "veut",
+          "ipa": "/il vø/"
+        },
+        {
+          "p": "nous",
+          "f": "voulons",
+          "ipa": "/nu vu.lɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "voulez",
+          "ipa": "/vu vu.le/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "veulent",
+          "ipa": "/il vœl/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous voulons embaucher quelqu'un.",
+          "en": "We want to hire someone."
+        },
+        {
+          "target": "Je veux un café.",
+          "en": "I want a coffee."
+        }
+      ],
+      "note": "Nous voulons = we want."
+    },
+    {
+      "id": "c2",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, to be able",
+      "tense": "Conditional (polite)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "pourrais",
+          "ipa": "/ʒə pu.ʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "pourrais",
+          "ipa": "/ty pu.ʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "pourrait",
+          "ipa": "/il pu.ʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "pourrions",
+          "ipa": "/nu pu.ʁi.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pourriez",
+          "ipa": "/vu pu.ʁi.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "pourraient",
+          "ipa": "/il pu.ʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Pourriez-vous me parler du salaire ?",
+          "en": "Could you tell me about the salary?"
+        },
+        {
+          "target": "Pouvez-vous vous présenter ?",
+          "en": "Can you introduce yourself?"
+        }
+      ],
+      "note": "'Pourriez-vous… ?' is very polite."
+    },
+    {
+      "id": "c3",
+      "word": "être",
+      "ipa": "/ɛtʁ/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "suis",
+          "ipa": "/ʒə sɥi/"
+        },
+        {
+          "p": "tu",
+          "f": "es",
+          "ipa": "/ty ɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "est",
+          "ipa": "/il ɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "sommes",
+          "ipa": "/nu sɔm/"
+        },
+        {
+          "p": "vous",
+          "f": "êtes",
+          "ipa": "/vu zɛt/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "sont",
+          "ipa": "/il sɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je suis organisé.",
+          "en": "I'm organized."
+        },
+        {
+          "target": "Nous sommes prêts.",
+          "en": "We're ready."
+        }
+      ],
+      "note": "Je suis + adjective to describe yourself."
+    }
+  ]
+}

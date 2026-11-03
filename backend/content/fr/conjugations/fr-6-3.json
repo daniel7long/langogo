@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "déménager",
+      "ipa": "/de.me.na.ʒe/",
+      "pos": "v.",
+      "meaning": "to move house",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "déménage",
+          "ipa": "/ʒə de.me.naʒ/"
+        },
+        {
+          "p": "tu",
+          "f": "déménages",
+          "ipa": "/ty de.me.naʒ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "déménage",
+          "ipa": "/il de.me.naʒ/"
+        },
+        {
+          "p": "nous",
+          "f": "déménageons",
+          "ipa": "/nu de.me.na.ʒɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "déménagez",
+          "ipa": "/vu de.me.na.ʒe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "déménagent",
+          "ipa": "/il de.me.naʒ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Vous déménagez bientôt ?",
+          "en": "Are you moving soon?"
+        },
+        {
+          "target": "Nous déménageons samedi.",
+          "en": "We're moving on Saturday."
+        }
+      ],
+      "note": "Add an e before -ons in nous déménageons."
+    },
+    {
+      "id": "c2",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, to be able",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "peux",
+          "ipa": "/ʒə pø/"
+        },
+        {
+          "p": "tu",
+          "f": "peux",
+          "ipa": "/ty pø/"
+        },
+        {
+          "p": "il / elle",
+          "f": "peut",
+          "ipa": "/il pø/"
+        },
+        {
+          "p": "nous",
+          "f": "pouvons",
+          "ipa": "/nu pu.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pouvez",
+          "ipa": "/vu pu.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "peuvent",
+          "ipa": "/il pœv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je peux t'aider à porter les meubles.",
+          "en": "I can help you carry the furniture."
+        },
+        {
+          "target": "Tu peux venir ?",
+          "en": "Can you come?"
+        }
+      ],
+      "note": "Je peux t'aider = I can help you."
+    },
+    {
+      "id": "c3",
+      "word": "commencer",
+      "ipa": "/kɔ.mɑ̃.se/",
+      "pos": "v.",
+      "meaning": "to start",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "commence",
+          "ipa": "/ʒə kɔ.mɑ̃s/"
+        },
+        {
+          "p": "tu",
+          "f": "commences",
+          "ipa": "/ty kɔ.mɑ̃s/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "commence",
+          "ipa": "/il kɔ.mɑ̃s/"
+        },
+        {
+          "p": "nous",
+          "f": "commençons",
+          "ipa": "/nu kɔ.mɑ̃.sɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "commencez",
+          "ipa": "/vu kɔ.mɑ̃.se/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "commencent",
+          "ipa": "/il kɔ.mɑ̃s/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On commence à neuf heures.",
+          "en": "We start at nine."
+        },
+        {
+          "target": "Nous commençons demain.",
+          "en": "We start tomorrow."
+        }
+      ],
+      "note": "'On' often replaces nous in speech."
+    }
+  ]
+}

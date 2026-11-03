@@ -1,0 +1,250 @@
+{
+  "emoji": "❤️",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "প্রিয়",
+      "ipa": "priyo · /prijo/",
+      "pos": "adj.",
+      "meaning": "favorite, dear",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "আমার প্রিয় খাবার বিরিয়ানি।",
+          "en": "My favorite food is biryani."
+        },
+        {
+          "target": "আপনার প্রিয় রং কী?",
+          "en": "What is your favorite color?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "ঝাল",
+      "ipa": "jhal · /dʒʱal/",
+      "pos": "adj.",
+      "meaning": "spicy",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "খাবার ঝাল।",
+          "en": "The food is spicy."
+        },
+        {
+          "target": "আমি ঝাল পছন্দ করি।",
+          "en": "I like spicy food."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "রান্না",
+      "ipa": "ranna · /ranːa/",
+      "pos": "n.",
+      "meaning": "cooking",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "মায়ের রান্না ভালো।",
+          "en": "Mom's cooking is good."
+        },
+        {
+          "target": "আমি রান্না করি।",
+          "en": "I cook."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "রেসিপি",
+      "ipa": "resipi · /resipi/",
+      "pos": "n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "রেসিপি সহজ।",
+          "en": "The recipe is easy."
+        },
+        {
+          "target": "রেসিপি দিন।",
+          "en": "Give me the recipe."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "মিষ্টি",
+      "ipa": "mishti · /miʃʈi/",
+      "pos": "adj.",
+      "meaning": "sweet",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "রসগোল্লা মিষ্টি।",
+          "en": "Rasgulla is sweet."
+        },
+        {
+          "target": "আমি মিষ্টি ভালোবাসি।",
+          "en": "I love sweets."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "পছন্দ",
+      "ipa": "pochhondo · /pɔtʃʰɔndo/",
+      "pos": "n.",
+      "meaning": "liking",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "এটা আমার পছন্দ।",
+          "en": "I like this."
+        },
+        {
+          "target": "আপনার পছন্দ কী?",
+          "en": "What is your choice?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "বিরিয়ানি",
+      "ipa": "biriyani · /biriani/",
+      "pos": "n.",
+      "meaning": "biryani",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "বিরিয়ানি সুস্বাদু।",
+          "en": "Biryani is delicious."
+        },
+        {
+          "target": "বিরিয়ানি ঝাল।",
+          "en": "The biryani is spicy."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Sumi",
+      "role": "npc",
+      "text": "তোমার প্রিয় খাবার কী?",
+      "glosses": [
+        {
+          "text": "প্রিয়",
+          "pos": "adj.",
+          "meaning": "favorite, dear"
+        }
+      ],
+      "en": "What is your favorite food?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "আমার প্রিয় খাবার বিরিয়ানি। একটু ঝাল।",
+      "glosses": [
+        {
+          "text": "প্রিয়",
+          "pos": "adj.",
+          "meaning": "favorite, dear"
+        },
+        {
+          "text": "ঝাল",
+          "pos": "adj.",
+          "meaning": "spicy"
+        },
+        {
+          "text": "বিরিয়ানি",
+          "pos": "n.",
+          "meaning": "biryani"
+        }
+      ],
+      "en": "My favorite food is biryani. A little spicy."
+    },
+    {
+      "id": "t3",
+      "speaker": "Sumi",
+      "role": "npc",
+      "text": "বাসায় রান্না করো?",
+      "glosses": [
+        {
+          "text": "রান্না",
+          "pos": "n.",
+          "meaning": "cooking"
+        }
+      ],
+      "en": "Do you cook it at home?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "হ্যাঁ, রবিবারে রান্না করি। রেসিপি সহজ।",
+      "glosses": [
+        {
+          "text": "রান্না",
+          "pos": "n.",
+          "meaning": "cooking"
+        },
+        {
+          "text": "রেসিপি",
+          "pos": "n.",
+          "meaning": "recipe"
+        }
+      ],
+      "en": "Yes, I cook on Sundays. The recipe is easy."
+    },
+    {
+      "id": "t5",
+      "speaker": "Sumi",
+      "role": "npc",
+      "text": "আমার মিষ্টি বেশি পছন্দ। রেসিপি দেবে?",
+      "glosses": [
+        {
+          "text": "রেসিপি",
+          "pos": "n.",
+          "meaning": "recipe"
+        },
+        {
+          "text": "মিষ্টি",
+          "pos": "adj.",
+          "meaning": "sweet"
+        },
+        {
+          "text": "পছন্দ",
+          "pos": "n.",
+          "meaning": "liking"
+        }
+      ],
+      "en": "I like sweets more. Will you give the recipe?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "অবশ্যই, আজ রাতে পাঠিয়ে দেব।",
+      "glosses": [],
+      "en": "Of course, I'll send it tonight."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "বিরিয়ানি",
+      "tip": "Say bi-ri-YAA-ni"
+    },
+    {
+      "id": "w2",
+      "text": "রেসিপি",
+      "tip": "Say RE-si-pi"
+    }
+  ]
+}

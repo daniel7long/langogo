@@ -1,0 +1,241 @@
+{
+  "emoji": "🌅",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "সকাল",
+      "ipa": "shokal · /ʃokal/",
+      "pos": "n.",
+      "meaning": "morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "সকাল সুন্দর।",
+          "en": "The morning is beautiful."
+        },
+        {
+          "target": "সকাল ছয়টা বাজে।",
+          "en": "It is six in the morning."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "উঠি",
+      "ipa": "uthi · /utʰi/",
+      "pos": "v.",
+      "meaning": "I get up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমি ছয়টায় উঠি।",
+          "en": "I get up at six."
+        },
+        {
+          "target": "আমরা আগে উঠি।",
+          "en": "We get up early."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "গোসল",
+      "ipa": "gosol · /ɡoʃol/",
+      "pos": "n.",
+      "meaning": "bath",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমি রোজ গোসল করি।",
+          "en": "I bathe every day."
+        },
+        {
+          "target": "গোসলের পানি গরম।",
+          "en": "The bath water is hot."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "নাশতা",
+      "ipa": "nashta · /naʃta/",
+      "pos": "n.",
+      "meaning": "breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "নাশতা তৈরি।",
+          "en": "Breakfast is ready."
+        },
+        {
+          "target": "আমি নাশতা খাই।",
+          "en": "I eat breakfast."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "তাড়াতাড়ি",
+      "ipa": "taratari · /taɽataɽi/",
+      "pos": "adv.",
+      "meaning": "quickly, early",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "তাড়াতাড়ি এসো।",
+          "en": "Come quickly."
+        },
+        {
+          "target": "তাড়াতাড়ি ওঠো।",
+          "en": "Get up early."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "কাজ",
+      "ipa": "kaj · /kadʒ/",
+      "pos": "n.",
+      "meaning": "work",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমার কাজ আছে।",
+          "en": "I have work."
+        },
+        {
+          "target": "কাজ শেষ।",
+          "en": "The work is done."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "রোজ",
+      "ipa": "roj · /rodʒ/",
+      "pos": "adv.",
+      "meaning": "every day",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমি রোজ পড়ি।",
+          "en": "I study every day."
+        },
+        {
+          "target": "রোজ চা খাই।",
+          "en": "I drink tea every day."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "তোমার সকাল কখন শুরু হয়?",
+      "glosses": [
+        {
+          "text": "সকাল",
+          "pos": "n.",
+          "meaning": "morning"
+        }
+      ],
+      "en": "When does your morning start?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "আমি রোজ ছয়টায় উঠি।",
+      "glosses": [
+        {
+          "text": "উঠি",
+          "pos": "v.",
+          "meaning": "I get up"
+        },
+        {
+          "text": "রোজ",
+          "pos": "adv.",
+          "meaning": "every day"
+        }
+      ],
+      "en": "I get up at six every day."
+    },
+    {
+      "id": "t3",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "এত তাড়াতাড়ি! তারপর কী করো?",
+      "glosses": [
+        {
+          "text": "তাড়াতাড়ি",
+          "pos": "adv.",
+          "meaning": "quickly, early"
+        }
+      ],
+      "en": "So early! Then what do you do?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "আগে গোসল করি, তারপর নাশতা খাই।",
+      "glosses": [
+        {
+          "text": "গোসল",
+          "pos": "n.",
+          "meaning": "bath"
+        },
+        {
+          "text": "নাশতা",
+          "pos": "n.",
+          "meaning": "breakfast"
+        }
+      ],
+      "en": "First I bathe, then I eat breakfast."
+    },
+    {
+      "id": "t5",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "কাজ কখন শুরু হয়?",
+      "glosses": [
+        {
+          "text": "কাজ",
+          "pos": "n.",
+          "meaning": "work"
+        }
+      ],
+      "en": "When does work start?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "নয়টায় কাজ শুরু হয়।",
+      "glosses": [
+        {
+          "text": "কাজ",
+          "pos": "n.",
+          "meaning": "work"
+        }
+      ],
+      "en": "Work starts at nine."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "নাশতা",
+      "tip": "Say NASH-ta; the 'sh' is soft"
+    },
+    {
+      "id": "w2",
+      "text": "কাজ",
+      "tip": "Say 'kaj' with a j sound at the end"
+    }
+  ]
+}

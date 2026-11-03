@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "বাজা",
+      "ipa": "baja · /badʒa/",
+      "pos": "v.",
+      "meaning": "to strike (time)",
+      "tense": "Telling the time",
+      "forms": [
+        {
+          "p": "1:00",
+          "f": "একটা বাজে",
+          "ipa": "ekta badʒe"
+        },
+        {
+          "p": "2:00",
+          "f": "দুইটা বাজে",
+          "ipa": "duiʈa badʒe"
+        },
+        {
+          "p": "3:00",
+          "f": "তিনটা বাজে",
+          "ipa": "tinʈa badʒe"
+        },
+        {
+          "p": "3:30",
+          "f": "সাড়ে তিনটা বাজে",
+          "ipa": "ʃaɽe tinʈa badʒe"
+        },
+        {
+          "p": "Ask",
+          "f": "কয়টা বাজে?",
+          "ipa": "kɔjʈa badʒe"
+        }
+      ],
+      "examples": [
+        {
+          "target": "তিনটা বাজে।",
+          "en": "It is three o'clock."
+        },
+        {
+          "target": "এখন কয়টা বাজে?",
+          "en": "What time is it now?"
+        }
+      ],
+      "note": "The number comes before বাজে; add -টা after it."
+    },
+    {
+      "id": "c2",
+      "word": "লাগা",
+      "ipa": "laga · /laɡa/",
+      "pos": "v.",
+      "meaning": "to take (time)",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "এক ঘণ্টা",
+          "f": "লাগবে",
+          "ipa": "laɡbe"
+        },
+        {
+          "p": "আধা ঘণ্টা",
+          "f": "লাগবে",
+          "ipa": "laɡbe"
+        },
+        {
+          "p": "কত সময়",
+          "f": "লাগবে?",
+          "ipa": "laɡbe"
+        },
+        {
+          "p": "আমার",
+          "f": "লাগবে",
+          "ipa": "laɡbe"
+        },
+        {
+          "p": "দুই ঘণ্টা",
+          "f": "লাগবে",
+          "ipa": "laɡbe"
+        }
+      ],
+      "examples": [
+        {
+          "target": "এক ঘণ্টা লাগবে?",
+          "en": "Will it take an hour?"
+        },
+        {
+          "target": "আধা ঘণ্টা লাগবে।",
+          "en": "It will take half an hour."
+        }
+      ],
+      "note": "The future form is the same for most subjects: লাগবে."
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "emoji": "🥔",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "kentang",
+      "ipa": "/ˈkən.taŋ/",
+      "pos": "n.",
+      "meaning": "potato",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Kentang murah.",
+          "en": "Potatoes are cheap."
+        },
+        {
+          "target": "Satu kilo kentang.",
+          "en": "One kilo of potatoes."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "bawang",
+      "ipa": "/ˈba.waŋ/",
+      "pos": "n.",
+      "meaning": "onion, garlic",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Bawang mahal.",
+          "en": "Onions are expensive."
+        },
+        {
+          "target": "Potong bawang.",
+          "en": "Cut the onion."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "tomat",
+      "ipa": "/ˈto.mat/",
+      "pos": "n.",
+      "meaning": "tomato",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Tomat merah.",
+          "en": "Tomatoes are red."
+        },
+        {
+          "target": "Setengah kilo tomat.",
+          "en": "Half a kilo of tomatoes."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "beras",
+      "ipa": "/ˈbə.ras/",
+      "pos": "n.",
+      "meaning": "raw rice",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Beras habis.",
+          "en": "The rice is gone."
+        },
+        {
+          "target": "Dua kilo beras.",
+          "en": "Two kilos of rice."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "tepung",
+      "ipa": "/ˈtə.puŋ/",
+      "pos": "n.",
+      "meaning": "flour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Tepung habis.",
+          "en": "The flour is gone."
+        },
+        {
+          "target": "Beli tepung.",
+          "en": "Buy flour."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "buah",
+      "ipa": "/ˈbu.ah/",
+      "pos": "n.",
+      "meaning": "fruit",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Saya suka buah.",
+          "en": "I like fruit."
+        },
+        {
+          "target": "Buah ini manis.",
+          "en": "This fruit is sweet."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "daftar",
+      "ipa": "/ˈdaf.tar/",
+      "pos": "n.",
+      "meaning": "list",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Mana daftar saya?",
+          "en": "Where is my list?"
+        },
+        {
+          "target": "Daftar belanja panjang.",
+          "en": "The shopping list is long."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Ibu",
+      "role": "npc",
+      "text": "Mana daftar belanja kita?",
+      "glosses": [
+        {
+          "text": "daftar",
+          "pos": "n.",
+          "meaning": "list"
+        }
+      ],
+      "en": "Where is our shopping list?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Kentang, bawang, tomat, dan beras.",
+      "glosses": [
+        {
+          "text": "Kentang",
+          "pos": "n.",
+          "meaning": "potato"
+        },
+        {
+          "text": "bawang",
+          "pos": "n.",
+          "meaning": "onion, garlic"
+        },
+        {
+          "text": "tomat",
+          "pos": "n.",
+          "meaning": "tomato"
+        }
+      ],
+      "en": "Potatoes, onions, tomatoes, and rice."
+    },
+    {
+      "id": "t3",
+      "speaker": "Ibu",
+      "role": "npc",
+      "text": "Kita butuh tepung juga. Di rumah sudah habis.",
+      "glosses": [
+        {
+          "text": "tepung",
+          "pos": "n.",
+          "meaning": "flour"
+        }
+      ],
+      "en": "We need flour too. It's gone at home."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Baik. Mau beli buah juga?",
+      "glosses": [
+        {
+          "text": "buah",
+          "pos": "n.",
+          "meaning": "fruit"
+        }
+      ],
+      "en": "Okay. Do you want to buy fruit too?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Ibu",
+      "role": "npc",
+      "text": "Ya, buah di sini segar dan murah.",
+      "glosses": [
+        {
+          "text": "buah",
+          "pos": "n.",
+          "meaning": "fruit"
+        }
+      ],
+      "en": "Yes, the fruit here is fresh and cheap."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Bagus! Daftar kita sudah lengkap.",
+      "glosses": [
+        {
+          "text": "Daftar",
+          "pos": "n.",
+          "meaning": "list"
+        }
+      ],
+      "en": "Great! Our list is complete."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "kentang",
+      "tip": "Say KƏN-tang"
+    },
+    {
+      "id": "w2",
+      "text": "tepung",
+      "tip": "Say TƏ-pung"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ frontend/components/Flag.js.
 
 LANGUAGES = [
     {"id": "fr", "name": "French", "native": "Français", "locale": "fr-FR", "unit": "words"},
+    {"id": "en", "name": "English", "native": "English", "locale": "en-US", "unit": "words"},  # American English
     {"id": "es", "name": "Spanish", "native": "Español", "locale": "es-ES", "unit": "words"},
     {"id": "zh", "name": "Mandarin", "native": "中文", "locale": "zh-CN", "unit": "characters"},
     {"id": "ko", "name": "Korean", "native": "한국어", "locale": "ko-KR", "unit": "characters"},
@@ -23,6 +24,9 @@ LANGUAGES = [
     {"id": "ru", "name": "Russian", "native": "Русский", "locale": "ru-RU", "unit": "words"},
     {"id": "ro", "name": "Romanian", "native": "Română", "locale": "ro-RO", "unit": "words"},
     {"id": "yue", "name": "Cantonese", "native": "廣東話", "locale": "zh-HK", "unit": "characters"},  # Hong Kong Cantonese
+    {"id": "hi", "name": "Hindi", "native": "हिन्दी", "locale": "hi-IN", "unit": "words"},
+    {"id": "bn", "name": "Bengali", "native": "বাংলা", "locale": "bn-IN", "unit": "words"},  # use "bn-BD" for Bangladeshi Bengali
+    {"id": "id", "name": "Indonesian", "native": "Bahasa Indonesia", "locale": "id-ID", "unit": "words"},
 ]
 BY_ID = {l["id"]: l for l in LANGUAGES}
 DEFAULT = "fr"

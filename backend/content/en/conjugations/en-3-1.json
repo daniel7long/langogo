@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "would like",
+      "ipa": "/wʊd laɪk/",
+      "pos": "v. phr.",
+      "meaning": "to politely ask for something",
+      "tense": "Polite request",
+      "forms": [
+        {
+          "p": "I",
+          "f": "would like",
+          "ipa": "/aɪ wʊd laɪk/"
+        },
+        {
+          "p": "you",
+          "f": "would like",
+          "ipa": "/ju wʊd laɪk/"
+        },
+        {
+          "p": "he / she",
+          "f": "would like",
+          "ipa": "/hi wʊd laɪk/"
+        },
+        {
+          "p": "we",
+          "f": "would like",
+          "ipa": "/wi wʊd laɪk/"
+        },
+        {
+          "p": "they",
+          "f": "would like",
+          "ipa": "/ðeɪ wʊd laɪk/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I would like a coffee."
+        },
+        {
+          "target": "We would like two teas."
+        }
+      ],
+      "note": "Use 'would like' to order politely: I would like a tea."
+    },
+    {
+      "id": "c2",
+      "word": "want",
+      "ipa": "/wɑnt/",
+      "pos": "v.",
+      "meaning": "to hope to have or do something",
+      "tense": "Present simple (questions with do)",
+      "forms": [
+        {
+          "p": "I",
+          "f": "want",
+          "ipa": "/aɪ wɑnt/"
+        },
+        {
+          "p": "you",
+          "f": "want",
+          "ipa": "/ju wɑnt/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "wants",
+          "ipa": "/hi wɑnts/"
+        },
+        {
+          "p": "we",
+          "f": "want",
+          "ipa": "/wi wɑnt/"
+        },
+        {
+          "p": "they",
+          "f": "want",
+          "ipa": "/ðeɪ wɑnt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Do you want sugar?"
+        },
+        {
+          "target": "She wants a sandwich."
+        }
+      ],
+      "note": "Ask 'Do you want...?' for offers: Do you want sugar?"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "লাগা",
+      "ipa": "laga · /laɡa/",
+      "pos": "v.",
+      "meaning": "to need",
+      "tense": "'Need' pattern",
+      "forms": [
+        {
+          "p": "আমার",
+          "f": "লাগবে",
+          "ipa": "laɡbe"
+        },
+        {
+          "p": "তোমার",
+          "f": "লাগবে",
+          "ipa": "laɡbe"
+        },
+        {
+          "p": "তার",
+          "f": "লাগবে",
+          "ipa": "laɡbe"
+        },
+        {
+          "p": "আপনার",
+          "f": "লাগবে",
+          "ipa": "laɡbe"
+        },
+        {
+          "p": "আমাদের",
+          "f": "লাগবে",
+          "ipa": "laɡbe"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমার এক কেজি টমেটো লাগবে।",
+          "en": "I need one kilo of tomatoes."
+        },
+        {
+          "target": "আপনার কী লাগবে?",
+          "en": "What do you need?"
+        }
+      ],
+      "note": "'আমার … লাগবে' = I will need."
+    },
+    {
+      "id": "c2",
+      "word": "দেওয়া",
+      "ipa": "deoa · /deoa/",
+      "pos": "v.",
+      "meaning": "to give",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "দেব",
+          "ipa": "debo"
+        },
+        {
+          "p": "তুমি",
+          "f": "দেবে",
+          "ipa": "debe"
+        },
+        {
+          "p": "সে",
+          "f": "দেবে",
+          "ipa": "debe"
+        },
+        {
+          "p": "আপনি",
+          "f": "দেবেন",
+          "ipa": "deben"
+        },
+        {
+          "p": "আমরা",
+          "f": "দেব",
+          "ipa": "debo"
+        }
+      ],
+      "examples": [
+        {
+          "target": "ত্রিশ টাকায় দেব।",
+          "en": "I'll give it for thirty."
+        },
+        {
+          "target": "আপনি কখন দেবেন?",
+          "en": "When will you give it?"
+        }
+      ],
+      "note": "'দেব' is what a shopkeeper says: I will give."
+    }
+  ]
+}

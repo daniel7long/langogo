@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "réserver",
+      "ipa": "/ʁe.zɛʁ.ve/",
+      "pos": "v.",
+      "meaning": "to reserve",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai réservé",
+          "ipa": "/ʒe ʁe.zɛʁ.ve/"
+        },
+        {
+          "p": "tu",
+          "f": "as réservé",
+          "ipa": "/ty a ʁe.zɛʁ.ve/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a réservé",
+          "ipa": "/il a ʁe.zɛʁ.ve/"
+        },
+        {
+          "p": "nous",
+          "f": "avons réservé",
+          "ipa": "/nu za.vɔ̃ ʁe.zɛʁ.ve/"
+        },
+        {
+          "p": "vous",
+          "f": "avez réservé",
+          "ipa": "/vu za.ve ʁe.zɛʁ.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont réservé",
+          "ipa": "/il zɔ̃ ʁe.zɛʁ.ve/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Vous avez réservé ?",
+          "en": "Did you reserve?"
+        },
+        {
+          "target": "J'ai réservé une table.",
+          "en": "I reserved a table."
+        }
+      ],
+      "note": "Passé composé = avoir (present) + past participle."
+    },
+    {
+      "id": "c2",
+      "word": "prendre",
+      "ipa": "/pʁɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to take, to order",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "prends",
+          "ipa": "/ʒə pʁɑ̃/"
+        },
+        {
+          "p": "tu",
+          "f": "prends",
+          "ipa": "/ty pʁɑ̃/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "prend",
+          "ipa": "/il pʁɑ̃/"
+        },
+        {
+          "p": "nous",
+          "f": "prenons",
+          "ipa": "/nu pʁə.nɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "prenez",
+          "ipa": "/vu pʁə.ne/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "prennent",
+          "ipa": "/il pʁɛn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je prends le poulet.",
+          "en": "I'll have the chicken."
+        },
+        {
+          "target": "Que prenez-vous ?",
+          "en": "What will you have?"
+        }
+      ],
+      "note": "In a restaurant, 'je prends' means 'I'll have'."
+    }
+  ]
+}

@@ -3,6 +3,7 @@
     AZURE_SPEECH_KEY      key of your Azure AI Speech resource (Azure portal > Keys and Endpoint)
     AZURE_SPEECH_REGION   its region, e.g. eastus, westeurope, southeastasia
     LANGOGO_SCORING       "azure" (default when a key is set), or "demo" to force the made-up scores
+    OPENAI_API_KEY        key for Free Talk (speech to text, the AI conversation partner and its voice)
 
 Real environment variables win over the .env file. No extra packages are needed.
 """
@@ -82,3 +83,16 @@ def demo_leaderboard():
 def admin_key():
     """Secret for the /admin/users page. Empty = the page does not exist."""
     return os.getenv("LANGOGO_ADMIN_KEY", "").strip()
+
+
+# ---- Free Talk (OpenAI). Without a key the Free Talk screen runs in a small demo mode. ----
+def openai_key():
+    return os.getenv("OPENAI_API_KEY", "").strip()
+
+
+def openai_models():
+    """(chat, speech-to-text, text-to-speech, voice). Change them with the matching environment variables."""
+    return (os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini").strip(),
+            os.getenv("OPENAI_STT_MODEL", "whisper-1").strip(),
+            os.getenv("OPENAI_TTS_MODEL", "tts-1").strip(),
+            os.getenv("OPENAI_TTS_VOICE", "nova").strip())

@@ -1,0 +1,261 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "umur",
+      "ipa": "/ˈu.mur/",
+      "pos": "n.",
+      "meaning": "age",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Umur saya dua puluh.",
+          "en": "I am twenty."
+        },
+        {
+          "target": "Berapa umur kamu?",
+          "en": "How old are you?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "tahun",
+      "ipa": "/ˈta.hun/",
+      "pos": "n.",
+      "meaning": "year",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Dia dua puluh tahun.",
+          "en": "She is twenty years old."
+        },
+        {
+          "target": "Tahun ini bagus.",
+          "en": "This year is good."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "berapa",
+      "ipa": "/bə.ˈra.pa/",
+      "pos": "pron.",
+      "meaning": "how many, how much",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Berapa harganya?",
+          "en": "How much is it?"
+        },
+        {
+          "target": "Berapa orang?",
+          "en": "How many people?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "dua puluh lima",
+      "ipa": "/ˈdu.a ˈpu.luh ˈli.ma/",
+      "pos": "num.",
+      "meaning": "twenty-five",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Umur saya dua puluh lima.",
+          "en": "I am twenty-five."
+        },
+        {
+          "target": "Dua puluh lima ribu.",
+          "en": "Twenty-five thousand."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "tiga puluh",
+      "ipa": "/ˈti.ɡa ˈpu.luh/",
+      "pos": "num.",
+      "meaning": "thirty",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Dia tiga puluh tahun.",
+          "en": "He is thirty."
+        },
+        {
+          "target": "Tiga puluh menit.",
+          "en": "Thirty minutes."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "dua",
+      "ipa": "/ˈdu.a/",
+      "pos": "num.",
+      "meaning": "two",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya punya dua kakak.",
+          "en": "I have two older siblings."
+        },
+        {
+          "target": "Dua teh, tolong.",
+          "en": "Two teas, please."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "lima",
+      "ipa": "/ˈli.ma/",
+      "pos": "num.",
+      "meaning": "five",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Jam lima.",
+          "en": "Five o'clock."
+        },
+        {
+          "target": "Lima teman.",
+          "en": "Five friends."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Rudi",
+      "role": "npc",
+      "text": "Berapa umur kamu?",
+      "glosses": [
+        {
+          "text": "umur",
+          "pos": "n.",
+          "meaning": "age"
+        },
+        {
+          "text": "Berapa",
+          "pos": "pron.",
+          "meaning": "how many, how much"
+        }
+      ],
+      "en": "How old are you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Umur saya dua puluh lima tahun. Kamu?",
+      "glosses": [
+        {
+          "text": "Umur",
+          "pos": "n.",
+          "meaning": "age"
+        },
+        {
+          "text": "tahun",
+          "pos": "n.",
+          "meaning": "year"
+        },
+        {
+          "text": "dua puluh lima",
+          "pos": "num.",
+          "meaning": "twenty-five"
+        }
+      ],
+      "en": "I am twenty-five years old. And you?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Rudi",
+      "role": "npc",
+      "text": "Umur saya tiga puluh tahun.",
+      "glosses": [
+        {
+          "text": "Umur",
+          "pos": "n.",
+          "meaning": "age"
+        },
+        {
+          "text": "tahun",
+          "pos": "n.",
+          "meaning": "year"
+        },
+        {
+          "text": "tiga puluh",
+          "pos": "num.",
+          "meaning": "thirty"
+        }
+      ],
+      "en": "I am thirty years old."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Kamu punya berapa saudara?",
+      "glosses": [
+        {
+          "text": "berapa",
+          "pos": "pron.",
+          "meaning": "how many, how much"
+        }
+      ],
+      "en": "How many siblings do you have?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Rudi",
+      "role": "npc",
+      "text": "Saya punya dua kakak dan lima kucing!",
+      "glosses": [
+        {
+          "text": "dua",
+          "pos": "num.",
+          "meaning": "two"
+        },
+        {
+          "text": "lima",
+          "pos": "num.",
+          "meaning": "five"
+        }
+      ],
+      "en": "I have two older siblings and five cats!"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Lima kucing! Wow!",
+      "glosses": [
+        {
+          "text": "Lima",
+          "pos": "num.",
+          "meaning": "five"
+        }
+      ],
+      "en": "Five cats! Wow!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "tiga puluh",
+      "tip": "Say TEE-ga PU-luh"
+    },
+    {
+      "id": "w2",
+      "text": "lima",
+      "tip": "Say LEE-ma"
+    }
+  ]
+}

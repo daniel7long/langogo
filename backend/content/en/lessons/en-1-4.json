@@ -1,0 +1,227 @@
+{
+  "emoji": "🔢",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "number",
+      "ipa": "/ˈnʌmbər/",
+      "pos": "n.",
+      "meaning": "a word or sign for counting, like 1, 2 or 3",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Two is a small number."
+        },
+        {
+          "target": "What is your phone number?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "old",
+      "ipa": "/oʊld/",
+      "pos": "adj.",
+      "meaning": "having lived or existed for many years",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "How old are you?"
+        },
+        {
+          "target": "This is an old house."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "twenty",
+      "ipa": "/ˈtwenti/",
+      "pos": "n.",
+      "meaning": "the number 20",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I have twenty books."
+        },
+        {
+          "target": "She is twenty years old."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "thirty",
+      "ipa": "/ˈθɜːrti/",
+      "pos": "n.",
+      "meaning": "the number 30",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "He is thirty today."
+        },
+        {
+          "target": "Thirty people came."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "birthday",
+      "ipa": "/ˈbɜːrθdeɪ/",
+      "pos": "n.",
+      "meaning": "the day each year when you were born",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "My birthday is in May."
+        },
+        {
+          "target": "Happy birthday!"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "year",
+      "ipa": "/jɪr/",
+      "pos": "n.",
+      "meaning": "twelve months",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "A year has twelve months."
+        },
+        {
+          "target": "I am here for one year."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "party",
+      "ipa": "/ˈpɑːrti/",
+      "pos": "n.",
+      "meaning": "an event where people eat, talk and have fun",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "We have a party on Friday."
+        },
+        {
+          "target": "The party is at my house."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Lisa",
+      "role": "npc",
+      "text": "How old are you?",
+      "glosses": [
+        {
+          "text": "old",
+          "pos": "adj.",
+          "meaning": "having lived or existed for many years"
+        }
+      ],
+      "en": "Tell me your age."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "I am twenty-two years old. And you?",
+      "glosses": [
+        {
+          "text": "old",
+          "pos": "adj.",
+          "meaning": "having lived or existed for many years"
+        },
+        {
+          "text": "twenty",
+          "pos": "n.",
+          "meaning": "the number 20"
+        }
+      ],
+      "en": "My age is 22. What is your age?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Lisa",
+      "role": "npc",
+      "text": "I am thirty. When is your birthday?",
+      "glosses": [
+        {
+          "text": "thirty",
+          "pos": "n.",
+          "meaning": "the number 30"
+        },
+        {
+          "text": "birthday",
+          "pos": "n.",
+          "meaning": "the day each year when you were born"
+        }
+      ],
+      "en": "My age is 30. On what day were you born?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "My birthday is in May. It is on the tenth.",
+      "glosses": [
+        {
+          "text": "birthday",
+          "pos": "n.",
+          "meaning": "the day each year when you were born"
+        }
+      ],
+      "en": "I was born in May, on the tenth day."
+    },
+    {
+      "id": "t5",
+      "speaker": "Lisa",
+      "role": "npc",
+      "text": "Nice! My birthday is in June.",
+      "glosses": [
+        {
+          "text": "birthday",
+          "pos": "n.",
+          "meaning": "the day each year when you were born"
+        }
+      ],
+      "en": "How nice! Mine is in June."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Let us have a party for both!",
+      "glosses": [
+        {
+          "text": "party",
+          "pos": "n.",
+          "meaning": "an event where people eat, talk and have fun"
+        }
+      ],
+      "en": "We can make one party for us both!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "thirty",
+      "tip": "Put your tongue between your teeth for /θ/, then 'er'"
+    },
+    {
+      "id": "w2",
+      "text": "birthday",
+      "tip": "Say BERTH-day: the 'ir' sounds like 'er'"
+    }
+  ]
+}

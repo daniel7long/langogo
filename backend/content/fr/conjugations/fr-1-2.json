@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "s'appeler",
+      "ipa": "/sa.pə.le/",
+      "pos": "v.",
+      "meaning": "to be called",
+      "tense": "Present (reflexive)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "m'appelle",
+          "ipa": "/ʒə ma.pɛl/"
+        },
+        {
+          "p": "tu",
+          "f": "t'appelles",
+          "ipa": "/ty ta.pɛl/"
+        },
+        {
+          "p": "il / elle",
+          "f": "s'appelle",
+          "ipa": "/il sa.pɛl/"
+        },
+        {
+          "p": "nous",
+          "f": "nous appelons",
+          "ipa": "/nu za.pə.lɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "vous appelez",
+          "ipa": "/vu za.pə.le/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "s'appellent",
+          "ipa": "/il sa.pɛl/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je m'appelle Camille.",
+          "en": "My name is Camille."
+        },
+        {
+          "target": "Je m'appelle Alex.",
+          "en": "My name is Alex."
+        }
+      ],
+      "note": "Say 'Je m'appelle…' to give your name."
+    },
+    {
+      "id": "c2",
+      "word": "être",
+      "ipa": "/ɛtʁ/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "suis",
+          "ipa": "/ʒə sɥi/"
+        },
+        {
+          "p": "tu",
+          "f": "es",
+          "ipa": "/ty ɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "est",
+          "ipa": "/il ɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "sommes",
+          "ipa": "/nu sɔm/"
+        },
+        {
+          "p": "vous",
+          "f": "êtes",
+          "ipa": "/vu zɛt/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "sont",
+          "ipa": "/il sɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu es étudiant ?",
+          "en": "Are you a student?"
+        },
+        {
+          "target": "Je suis étudiant.",
+          "en": "I'm a student."
+        }
+      ],
+      "note": "Use être for identity and jobs: je suis étudiant."
+    },
+    {
+      "id": "c3",
+      "word": "habiter",
+      "ipa": "/a.bi.te/",
+      "pos": "v.",
+      "meaning": "to live",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "habite",
+          "ipa": "/ʒa.bit/"
+        },
+        {
+          "p": "tu",
+          "f": "habites",
+          "ipa": "/ty a.bit/"
+        },
+        {
+          "p": "il / elle",
+          "f": "habite",
+          "ipa": "/il a.bit/"
+        },
+        {
+          "p": "nous",
+          "f": "habitons",
+          "ipa": "/nu za.bi.tɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "habitez",
+          "ipa": "/vu za.bi.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "habitent",
+          "ipa": "/il za.bit/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'habite à Paris.",
+          "en": "I live in Paris."
+        },
+        {
+          "target": "J'habite à Lyon.",
+          "en": "I live in Lyon."
+        }
+      ],
+      "note": "Habiter is a regular -er verb. Drop -er and add -e, -es, -e, -ons, -ez, -ent."
+    }
+  ]
+}

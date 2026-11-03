@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "need",
+      "ipa": "/niːd/",
+      "pos": "v.",
+      "meaning": "to have to have something",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "need",
+          "ipa": "/aɪ niːd/"
+        },
+        {
+          "p": "you",
+          "f": "need",
+          "ipa": "/ju niːd/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "needs",
+          "ipa": "/hi niːdz/"
+        },
+        {
+          "p": "we",
+          "f": "need",
+          "ipa": "/wi niːd/"
+        },
+        {
+          "p": "they",
+          "f": "need",
+          "ipa": "/ðeɪ niːd/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I need milk."
+        },
+        {
+          "target": "She needs a bag."
+        }
+      ],
+      "note": "Say 'I need + noun' or 'I need to + verb'."
+    },
+    {
+      "id": "c2",
+      "word": "buy",
+      "ipa": "/baɪ/",
+      "pos": "v.",
+      "meaning": "to get something by paying",
+      "tense": "Future with will",
+      "forms": [
+        {
+          "p": "I",
+          "f": "will buy",
+          "ipa": "/aɪ wɪl baɪ/"
+        },
+        {
+          "p": "you",
+          "f": "will buy",
+          "ipa": "/ju wɪl baɪ/"
+        },
+        {
+          "p": "he / she",
+          "f": "will buy",
+          "ipa": "/hi wɪl baɪ/"
+        },
+        {
+          "p": "we",
+          "f": "will buy",
+          "ipa": "/wi wɪl baɪ/"
+        },
+        {
+          "p": "they",
+          "f": "will buy",
+          "ipa": "/ðeɪ wɪl baɪ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I will buy apples."
+        },
+        {
+          "target": "We will buy bread."
+        }
+      ],
+      "note": "Future = will + the plain verb. It never changes."
+    }
+  ]
+}

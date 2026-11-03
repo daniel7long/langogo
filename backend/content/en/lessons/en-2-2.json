@@ -1,0 +1,216 @@
+{
+  "emoji": "🕒",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "time",
+      "ipa": "/taɪm/",
+      "pos": "n.",
+      "meaning": "the hours and minutes on a clock",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "What time is it?"
+        },
+        {
+          "target": "It is time to go."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "o'clock",
+      "ipa": "/əˈklɑːk/",
+      "pos": "adv.",
+      "meaning": "exactly on the hour",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "It is three o'clock."
+        },
+        {
+          "target": "The class starts at ten o'clock."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "half past",
+      "ipa": "/hæf pæst/",
+      "pos": "phr.",
+      "meaning": "thirty minutes after the hour",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "It is half past two."
+        },
+        {
+          "target": "We eat at half past six."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "quarter",
+      "ipa": "/ˈkwɔːrtər/",
+      "pos": "n.",
+      "meaning": "fifteen minutes; one part of four",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "It is a quarter past five."
+        },
+        {
+          "target": "A quarter of an hour is 15 minutes."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "early",
+      "ipa": "/ˈɜːrli/",
+      "pos": "adj.",
+      "meaning": "before the usual or planned time",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I am early today."
+        },
+        {
+          "target": "We get up early."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "late",
+      "ipa": "/leɪt/",
+      "pos": "adj.",
+      "meaning": "after the usual or planned time",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Sorry, I am late."
+        },
+        {
+          "target": "The train is late."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "start",
+      "ipa": "/stɑːrt/",
+      "pos": "v.",
+      "meaning": "to begin",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "The movie starts at eight."
+        },
+        {
+          "target": "Let us start now."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Mark",
+      "role": "npc",
+      "text": "Excuse me, what time is it?",
+      "glosses": [
+        {
+          "text": "time",
+          "pos": "n.",
+          "meaning": "the hours and minutes on a clock"
+        }
+      ],
+      "en": "Please tell me the hour."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "It is half past nine.",
+      "glosses": [
+        {
+          "text": "half past",
+          "pos": "phr.",
+          "meaning": "thirty minutes after the hour"
+        }
+      ],
+      "en": "It is nine thirty."
+    },
+    {
+      "id": "t3",
+      "speaker": "Mark",
+      "role": "npc",
+      "text": "Oh no, I am late. The class starts at ten o'clock.",
+      "glosses": [
+        {
+          "text": "o'clock",
+          "pos": "adv.",
+          "meaning": "exactly on the hour"
+        },
+        {
+          "text": "late",
+          "pos": "adj.",
+          "meaning": "after the usual or planned time"
+        }
+      ],
+      "en": "Oh no! I am not on time. The class begins at ten."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Do not worry. You are early for the bus.",
+      "glosses": [
+        {
+          "text": "early",
+          "pos": "adj.",
+          "meaning": "before the usual or planned time"
+        }
+      ],
+      "en": "Please be calm. The bus is not leaving yet."
+    },
+    {
+      "id": "t5",
+      "speaker": "Mark",
+      "role": "npc",
+      "text": "Really? When does the bus leave?",
+      "glosses": [],
+      "en": "Is that true? At what time does the bus go?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "At a quarter past nine. Let us go!",
+      "glosses": [
+        {
+          "text": "quarter",
+          "pos": "n.",
+          "meaning": "fifteen minutes; one part of four"
+        }
+      ],
+      "en": "At 9:15. Let us walk now!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "o'clock",
+      "tip": "Say uh-CLOCK, with the stress on the second part"
+    },
+    {
+      "id": "w2",
+      "text": "quarter",
+      "tip": "Say KWOR-ter, and make the 'r' soft"
+    }
+  ]
+}

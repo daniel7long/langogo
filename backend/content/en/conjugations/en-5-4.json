@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "can",
+      "ipa": "/kæn/",
+      "pos": "v. (modal)",
+      "meaning": "to be able to do something",
+      "tense": "Ability with can",
+      "forms": [
+        {
+          "p": "I",
+          "f": "can",
+          "ipa": "/aɪ kæn/"
+        },
+        {
+          "p": "you",
+          "f": "can",
+          "ipa": "/ju kæn/"
+        },
+        {
+          "p": "he / she",
+          "f": "can",
+          "ipa": "/hi kæn/"
+        },
+        {
+          "p": "we",
+          "f": "can",
+          "ipa": "/wi kæn/"
+        },
+        {
+          "p": "they",
+          "f": "can",
+          "ipa": "/ðeɪ kæn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I can focus at home."
+        },
+        {
+          "target": "She can work from anywhere."
+        }
+      ],
+      "note": "Can never changes and the next verb stays plain."
+    },
+    {
+      "id": "c2",
+      "word": "take",
+      "ipa": "/teɪk/",
+      "pos": "v. (irregular)",
+      "meaning": "to have or do something",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "take",
+          "ipa": "/aɪ teɪk/"
+        },
+        {
+          "p": "you",
+          "f": "take",
+          "ipa": "/ju teɪk/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "takes",
+          "ipa": "/hi teɪks/"
+        },
+        {
+          "p": "we",
+          "f": "take",
+          "ipa": "/wi teɪk/"
+        },
+        {
+          "p": "they",
+          "f": "take",
+          "ipa": "/ðeɪ teɪk/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I take a break at noon."
+        },
+        {
+          "target": "He takes a walk."
+        }
+      ],
+      "note": "Take a break, take a walk."
+    }
+  ]
+}

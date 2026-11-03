@@ -1,0 +1,162 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "prendre",
+      "ipa": "/pʁɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to take",
+      "tense": "Present and command",
+      "forms": [
+        {
+          "p": "je",
+          "f": "prends",
+          "ipa": "/ʒə pʁɑ̃/"
+        },
+        {
+          "p": "tu",
+          "f": "prends",
+          "ipa": "/ty pʁɑ̃/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "prend",
+          "ipa": "/il pʁɑ̃/"
+        },
+        {
+          "p": "nous",
+          "f": "prenons",
+          "ipa": "/nu pʁə.nɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "prenez",
+          "ipa": "/vu pʁə.ne/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "prennent",
+          "ipa": "/il pʁɛn/"
+        },
+        {
+          "p": "nous (command)",
+          "f": "Prenons",
+          "ipa": "/pʁə.nɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On prend le métro ?",
+          "en": "Shall we take the metro?"
+        },
+        {
+          "target": "Prenons la ligne 1.",
+          "en": "Let's take line 1."
+        }
+      ],
+      "note": "Prenons = let's take."
+    },
+    {
+      "id": "c2",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have to",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "dois",
+          "ipa": "/ʒə dwa/"
+        },
+        {
+          "p": "tu",
+          "f": "dois",
+          "ipa": "/ty dwa/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "doit",
+          "ipa": "/il dwa/"
+        },
+        {
+          "p": "nous",
+          "f": "devons",
+          "ipa": "/nu də.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "devez",
+          "ipa": "/vu də.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "doivent",
+          "ipa": "/il dwav/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On doit changer ?",
+          "en": "Do we have to change?"
+        },
+        {
+          "target": "Je dois partir.",
+          "en": "I have to leave."
+        }
+      ],
+      "note": "Devoir + infinitive = must / have to."
+    },
+    {
+      "id": "c3",
+      "word": "descendre",
+      "ipa": "/de.sɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to get off",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "descends",
+          "ipa": "/ʒə de.sɑ̃/"
+        },
+        {
+          "p": "tu",
+          "f": "descends",
+          "ipa": "/ty de.sɑ̃/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "descend",
+          "ipa": "/il de.sɑ̃/"
+        },
+        {
+          "p": "nous",
+          "f": "descendons",
+          "ipa": "/nu de.sɑ̃.dɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "descendez",
+          "ipa": "/vu de.sɑ̃.de/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "descendent",
+          "ipa": "/il de.sɑ̃d/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On descend à la station Concorde.",
+          "en": "We get off at Concorde."
+        },
+        {
+          "target": "Vous descendez ici ?",
+          "en": "Are you getting off here?"
+        }
+      ],
+      "note": "Use descendre for getting off a train or metro."
+    }
+  ]
+}

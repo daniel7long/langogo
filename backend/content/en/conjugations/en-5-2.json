@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "study",
+      "ipa": "/ˈstʌdi/",
+      "pos": "v.",
+      "meaning": "to learn about something",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "study",
+          "ipa": "/aɪ ˈstʌdi/"
+        },
+        {
+          "p": "you",
+          "f": "study",
+          "ipa": "/ju ˈstʌdi/"
+        },
+        {
+          "p": "he / she",
+          "f": "studies",
+          "ipa": "/hi ˈstʌdiz/"
+        },
+        {
+          "p": "we",
+          "f": "study",
+          "ipa": "/wi ˈstʌdi/"
+        },
+        {
+          "p": "they",
+          "f": "study",
+          "ipa": "/ðeɪ ˈstʌdi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I study linguistics."
+        },
+        {
+          "target": "She studies law."
+        }
+      ],
+      "note": "Verbs ending in consonant + y change to -ies for he / she / it."
+    },
+    {
+      "id": "c2",
+      "word": "do",
+      "ipa": "/duː/",
+      "pos": "v. (irregular)",
+      "meaning": "to carry out an action",
+      "tense": "Past simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "did",
+          "ipa": "/aɪ dɪd/"
+        },
+        {
+          "p": "you",
+          "f": "did",
+          "ipa": "/ju dɪd/"
+        },
+        {
+          "p": "he / she",
+          "f": "did",
+          "ipa": "/hi dɪd/"
+        },
+        {
+          "p": "we",
+          "f": "did",
+          "ipa": "/wi dɪd/"
+        },
+        {
+          "p": "they",
+          "f": "did",
+          "ipa": "/ðeɪ dɪd/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I did my homework."
+        },
+        {
+          "target": "They did a project."
+        }
+      ],
+      "note": "Past of do is did. It is the same for all people."
+    },
+    {
+      "id": "c3",
+      "word": "will",
+      "ipa": "/wɪl/",
+      "pos": "v. (modal)",
+      "meaning": "to talk about the future",
+      "tense": "Future with will",
+      "forms": [
+        {
+          "p": "I",
+          "f": "will graduate",
+          "ipa": "/aɪ wɪl ˈɡrædʒueɪt/"
+        },
+        {
+          "p": "you",
+          "f": "will graduate",
+          "ipa": "/ju wɪl ˈɡrædʒueɪt/"
+        },
+        {
+          "p": "he / she",
+          "f": "will graduate",
+          "ipa": "/hi wɪl ˈɡrædʒueɪt/"
+        },
+        {
+          "p": "we",
+          "f": "will graduate",
+          "ipa": "/wi wɪl ˈɡrædʒueɪt/"
+        },
+        {
+          "p": "they",
+          "f": "will graduate",
+          "ipa": "/ðeɪ wɪl ˈɡrædʒueɪt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I will graduate in May."
+        },
+        {
+          "target": "She will graduate soon."
+        }
+      ],
+      "note": "Will + plain verb."
+    }
+  ]
+}

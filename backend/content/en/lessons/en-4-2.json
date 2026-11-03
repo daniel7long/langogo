@@ -1,0 +1,232 @@
+{
+  "emoji": "🚌",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "bus",
+      "ipa": "/bʌs/",
+      "pos": "n.",
+      "meaning": "a big vehicle that carries many people",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I take the bus to work."
+        },
+        {
+          "target": "The bus is full."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "ticket",
+      "ipa": "/ˈtɪkɪt/",
+      "pos": "n.",
+      "meaning": "a paper or card that lets you travel",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I buy a ticket."
+        },
+        {
+          "target": "Here is your ticket."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "stop",
+      "ipa": "/stɑːp/",
+      "pos": "n.",
+      "meaning": "a place where a bus stops",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "This is my stop."
+        },
+        {
+          "target": "The next stop is the museum."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "next",
+      "ipa": "/nekst/",
+      "pos": "adj.",
+      "meaning": "coming right after this one",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Get off at the next stop."
+        },
+        {
+          "target": "The next bus is at six."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "get off",
+      "ipa": "/ɡet ɔːf/",
+      "pos": "phr. v.",
+      "meaning": "to leave a bus, train or plane",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I get off at the park."
+        },
+        {
+          "target": "Where do you get off?"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "arrive",
+      "ipa": "/əˈraɪv/",
+      "pos": "v.",
+      "meaning": "to reach a place",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "The bus arrives at nine."
+        },
+        {
+          "target": "We arrive soon."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "every",
+      "ipa": "/ˈevri/",
+      "pos": "adj.",
+      "meaning": "each one of a group",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "A bus comes every ten minutes."
+        },
+        {
+          "target": "I ride every day."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Driver",
+      "role": "npc",
+      "text": "Excuse me, does this bus go to the museum?",
+      "glosses": [
+        {
+          "text": "bus",
+          "pos": "n.",
+          "meaning": "a big vehicle that carries many people"
+        }
+      ],
+      "en": "Please, will this bus take me to the museum?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes. Buy a ticket here. It is two dollars.",
+      "glosses": [
+        {
+          "text": "ticket",
+          "pos": "n.",
+          "meaning": "a paper or card that lets you travel"
+        }
+      ],
+      "en": "Yes. Get your paper to travel here. It costs $2."
+    },
+    {
+      "id": "t3",
+      "speaker": "Driver",
+      "role": "npc",
+      "text": "Here you are. When does it arrive?",
+      "glosses": [
+        {
+          "text": "arrive",
+          "pos": "v.",
+          "meaning": "to reach a place"
+        }
+      ],
+      "en": "This is the money. At what time does it reach the place?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "It arrives in twenty minutes. Get off at the next stop after the bank.",
+      "glosses": [
+        {
+          "text": "stop",
+          "pos": "n.",
+          "meaning": "a place where a bus stops"
+        },
+        {
+          "text": "next",
+          "pos": "adj.",
+          "meaning": "coming right after this one"
+        },
+        {
+          "text": "Get off",
+          "pos": "phr. v.",
+          "meaning": "to leave a bus, train or plane"
+        }
+      ],
+      "en": "It reaches it in 20 minutes. Leave at the stop after the bank."
+    },
+    {
+      "id": "t5",
+      "speaker": "Driver",
+      "role": "npc",
+      "text": "Thank you. How often does the bus come?",
+      "glosses": [
+        {
+          "text": "bus",
+          "pos": "n.",
+          "meaning": "a big vehicle that carries many people"
+        }
+      ],
+      "en": "Thanks. How many times does the bus come?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "A bus comes every ten minutes.",
+      "glosses": [
+        {
+          "text": "bus",
+          "pos": "n.",
+          "meaning": "a big vehicle that carries many people"
+        },
+        {
+          "text": "every",
+          "pos": "adj.",
+          "meaning": "each one of a group"
+        }
+      ],
+      "en": "Each ten minutes there is a bus."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "ticket",
+      "tip": "Say TIK-it with a short 'i' twice"
+    },
+    {
+      "id": "w2",
+      "text": "arrive",
+      "tip": "Say uh-RIVE: stress the second part"
+    }
+  ]
+}

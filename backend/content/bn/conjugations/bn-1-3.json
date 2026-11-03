@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "আসা",
+      "ipa": "asha · /aʃa/",
+      "pos": "v.",
+      "meaning": "to come",
+      "tense": "Present perfect (এসেছি)",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "এসেছি",
+          "ipa": "eʃetʃʰi"
+        },
+        {
+          "p": "তুমি",
+          "f": "এসেছ",
+          "ipa": "eʃetʃʰo"
+        },
+        {
+          "p": "সে",
+          "f": "এসেছে",
+          "ipa": "eʃetʃʰe"
+        },
+        {
+          "p": "আপনি",
+          "f": "এসেছেন",
+          "ipa": "eʃetʃʰen"
+        },
+        {
+          "p": "আমরা",
+          "f": "এসেছি",
+          "ipa": "eʃetʃʰi"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমি আমেরিকা থেকে এসেছি।",
+          "en": "I am from America."
+        },
+        {
+          "target": "আপনি কোন দেশ থেকে এসেছেন?",
+          "en": "Which country are you from?"
+        }
+      ],
+      "note": "'থেকে এসেছি' = I have come from, i.e. I am from."
+    },
+    {
+      "id": "c2",
+      "word": "জানা",
+      "ipa": "jana · /dʒana/",
+      "pos": "v.",
+      "meaning": "to know",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "জানি",
+          "ipa": "dʒani"
+        },
+        {
+          "p": "তুমি",
+          "f": "জানো",
+          "ipa": "dʒano"
+        },
+        {
+          "p": "সে",
+          "f": "জানে",
+          "ipa": "dʒane"
+        },
+        {
+          "p": "আপনি",
+          "f": "জানেন",
+          "ipa": "dʒanen"
+        },
+        {
+          "p": "আমরা",
+          "f": "জানি",
+          "ipa": "dʒani"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমি বাংলা জানি।",
+          "en": "I know Bengali."
+        },
+        {
+          "target": "আপনি কোন ভাষা জানেন?",
+          "en": "Which language do you know?"
+        }
+      ],
+      "note": "Use জানা for languages: আমি বাংলা জানি."
+    }
+  ]
+}

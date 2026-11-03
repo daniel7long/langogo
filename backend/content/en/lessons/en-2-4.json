@@ -1,0 +1,232 @@
+{
+  "emoji": "📅",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "plan",
+      "ipa": "/plæn/",
+      "pos": "n.",
+      "meaning": "an idea of what you will do",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I have a plan for Friday."
+        },
+        {
+          "target": "What is your plan?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "tomorrow",
+      "ipa": "/təˈmɑːroʊ/",
+      "pos": "adv.",
+      "meaning": "the day after today",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I work tomorrow."
+        },
+        {
+          "target": "See you tomorrow!"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "weekend",
+      "ipa": "/ˈwiːkend/",
+      "pos": "n.",
+      "meaning": "Saturday and Sunday",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I relax at the weekend."
+        },
+        {
+          "target": "Have a nice weekend!"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "meet",
+      "ipa": "/miːt/",
+      "pos": "v.",
+      "meaning": "to see and talk with someone",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Let us meet at five."
+        },
+        {
+          "target": "I meet my friends on Sundays."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "movie",
+      "ipa": "/ˈmuːvi/",
+      "pos": "n.",
+      "meaning": "a story shown on a screen",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "We watch a movie tonight."
+        },
+        {
+          "target": "That movie is funny."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "busy",
+      "ipa": "/ˈbɪzi/",
+      "pos": "adj.",
+      "meaning": "having a lot to do",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I am busy on Monday."
+        },
+        {
+          "target": "She is very busy."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "free",
+      "ipa": "/friː/",
+      "pos": "adj.",
+      "meaning": "not busy; with time to do things",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Are you free on Saturday?"
+        },
+        {
+          "target": "I am free after six."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Kate",
+      "role": "npc",
+      "text": "What are your plans for the weekend?",
+      "glosses": [
+        {
+          "text": "weekend",
+          "pos": "n.",
+          "meaning": "Saturday and Sunday"
+        }
+      ],
+      "en": "What will you do on Saturday and Sunday?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "I am going to meet my friends on Saturday. Are you free?",
+      "glosses": [
+        {
+          "text": "meet",
+          "pos": "v.",
+          "meaning": "to see and talk with someone"
+        },
+        {
+          "text": "free",
+          "pos": "adj.",
+          "meaning": "not busy; with time to do things"
+        }
+      ],
+      "en": "I will see my friends on Saturday. Do you have time?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Kate",
+      "role": "npc",
+      "text": "I am busy on Saturday. But I am free on Sunday.",
+      "glosses": [
+        {
+          "text": "busy",
+          "pos": "adj.",
+          "meaning": "having a lot to do"
+        },
+        {
+          "text": "free",
+          "pos": "adj.",
+          "meaning": "not busy; with time to do things"
+        }
+      ],
+      "en": "I have much to do on Saturday. I have time on Sunday."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Great! We will watch a movie on Sunday.",
+      "glosses": [
+        {
+          "text": "movie",
+          "pos": "n.",
+          "meaning": "a story shown on a screen"
+        }
+      ],
+      "en": "Good! On Sunday we will see a movie."
+    },
+    {
+      "id": "t5",
+      "speaker": "Kate",
+      "role": "npc",
+      "text": "That is a good plan. What time will we meet?",
+      "glosses": [
+        {
+          "text": "plan",
+          "pos": "n.",
+          "meaning": "an idea of what you will do"
+        },
+        {
+          "text": "meet",
+          "pos": "v.",
+          "meaning": "to see and talk with someone"
+        }
+      ],
+      "en": "That sounds good. At what hour will we see each other?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "I will call you tomorrow. See you!",
+      "glosses": [
+        {
+          "text": "tomorrow",
+          "pos": "adv.",
+          "meaning": "the day after today"
+        }
+      ],
+      "en": "I will phone you the next day. Goodbye!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "weekend",
+      "tip": "Say WEEK-end with the stress on the first part"
+    },
+    {
+      "id": "w2",
+      "text": "tomorrow",
+      "tip": "Say tuh-MAR-oh: stress the middle"
+    }
+  ]
+}

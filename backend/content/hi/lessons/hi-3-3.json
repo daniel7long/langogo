@@ -1,0 +1,241 @@
+{
+  "emoji": "🥔",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "आलू",
+      "ipa": "ālū · /aːluː/",
+      "pos": "n.",
+      "meaning": "potato",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "आलू सस्ता है।",
+          "en": "Potatoes are cheap."
+        },
+        {
+          "target": "आलू की सब्ज़ी बनाओ।",
+          "en": "Make a potato dish."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "प्याज़",
+      "ipa": "pyāz · /pjaːz/",
+      "pos": "n.",
+      "meaning": "onion",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "प्याज़ काटिए।",
+          "en": "Cut the onion."
+        },
+        {
+          "target": "प्याज़ महँगा है।",
+          "en": "Onions are expensive."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "टमाटर",
+      "ipa": "ṭamāṭar · /ʈəmaːʈər/",
+      "pos": "n.",
+      "meaning": "tomato",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "टमाटर लाल है।",
+          "en": "The tomato is red."
+        },
+        {
+          "target": "आधा किलो टमाटर दीजिए।",
+          "en": "Give half a kilo of tomatoes."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "चावल",
+      "ipa": "chāval · /tʃaːʋəl/",
+      "pos": "n.",
+      "meaning": "rice",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "मैं चावल खाता हूँ।",
+          "en": "I eat rice."
+        },
+        {
+          "target": "चावल एक किलो।",
+          "en": "One kilo of rice."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "आटा",
+      "ipa": "āṭā · /aːʈaː/",
+      "pos": "n.",
+      "meaning": "flour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "आटा खत्म है।",
+          "en": "The flour is finished."
+        },
+        {
+          "target": "दो किलो आटा लाइए।",
+          "en": "Bring two kilos of flour."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "फल",
+      "ipa": "phal · /pʰəl/",
+      "pos": "n.",
+      "meaning": "fruit",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "फल ताज़े हैं।",
+          "en": "The fruits are fresh."
+        },
+        {
+          "target": "मुझे फल पसंद हैं।",
+          "en": "I like fruit."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "सूची",
+      "ipa": "sūchī · /suːtʃiː/",
+      "pos": "n.",
+      "meaning": "list",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "मेरी सूची कहाँ है?",
+          "en": "Where is my list?"
+        },
+        {
+          "target": "सूची में दूध है।",
+          "en": "Milk is on the list."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Dukandar",
+      "role": "npc",
+      "text": "तुम्हारी सूची में क्या-क्या है?",
+      "glosses": [
+        {
+          "text": "सूची",
+          "pos": "n.",
+          "meaning": "list"
+        }
+      ],
+      "en": "What is on your list?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "आलू, प्याज़, टमाटर और चावल।",
+      "glosses": [
+        {
+          "text": "आलू",
+          "pos": "n.",
+          "meaning": "potato"
+        },
+        {
+          "text": "प्याज़",
+          "pos": "n.",
+          "meaning": "onion"
+        },
+        {
+          "text": "टमाटर",
+          "pos": "n.",
+          "meaning": "tomato"
+        }
+      ],
+      "en": "Potatoes, onions, tomatoes and rice."
+    },
+    {
+      "id": "t3",
+      "speaker": "Dukandar",
+      "role": "npc",
+      "text": "आटा भी चाहिए। घर में खत्म है।",
+      "glosses": [
+        {
+          "text": "आटा",
+          "pos": "n.",
+          "meaning": "flour"
+        }
+      ],
+      "en": "We need flour too. It's finished at home."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "ठीक है। फल भी लेंगे?",
+      "glosses": [
+        {
+          "text": "फल",
+          "pos": "n.",
+          "meaning": "fruit"
+        }
+      ],
+      "en": "Okay. Shall we take fruit too?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Dukandar",
+      "role": "npc",
+      "text": "हाँ, फल ताज़े हैं और सस्ते भी।",
+      "glosses": [
+        {
+          "text": "फल",
+          "pos": "n.",
+          "meaning": "fruit"
+        }
+      ],
+      "en": "Yes, the fruit is fresh and cheap too."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "बहुत अच्छा! सूची पूरी हुई।",
+      "glosses": [
+        {
+          "text": "सूची",
+          "pos": "n.",
+          "meaning": "list"
+        }
+      ],
+      "en": "Great! The list is complete."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "प्याज़",
+      "tip": "Say pyaaz with a clear 'z'"
+    },
+    {
+      "id": "w2",
+      "text": "आटा",
+      "tip": "ʈ is retroflex: AA-ṭaa"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ const NATIVE = Platform.OS !== 'web';
 
 const ITEMS = [
   { label: 'Courses', icon: 'book-outline', path: '/courses' },
+  { label: 'Free Talk', icon: 'chatbubbles-outline', path: '/free-talk' },
   { label: 'Vocab Notes', icon: 'journal-outline', path: '/vocab-notes' },
   { label: 'My Community', icon: 'people-outline', path: '/community' },
   { label: 'Settings', icon: 'settings-outline', path: '/settings' },

@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "bertemu",
+      "ipa": "/bər.ˈtə.mu/",
+      "pos": "v.",
+      "meaning": "to meet",
+      "tense": "Present (verbs never change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya bertemu",
+          "ipa": "/ˈsa.ja bər.ˈtə.mu/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu bertemu",
+          "ipa": "/ˈka.mu bər.ˈtə.mu/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia bertemu",
+          "ipa": "/ˈdi.a bər.ˈtə.mu/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami bertemu",
+          "ipa": "/ˈka.mi bər.ˈtə.mu/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka bertemu",
+          "ipa": "/mə.ˈrɛ.ka bər.ˈtə.mu/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Senang bertemu denganmu.",
+          "en": "Nice to meet you."
+        },
+        {
+          "target": "Kami bertemu setiap hari.",
+          "en": "We meet every day."
+        }
+      ],
+      "note": "Indonesian verbs do not change for person or tense. Only the pronoun changes."
+    },
+    {
+      "id": "c2",
+      "word": "harus pergi",
+      "ipa": "/ˈha.rus ˈpər.ɡi/",
+      "pos": "v. phr.",
+      "meaning": "must go",
+      "tense": "Obligation with 'harus'",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya harus pergi",
+          "ipa": "/ˈsa.ja ˈha.rus ˈpər.ɡi/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu harus pergi",
+          "ipa": "/ˈka.mu ˈha.rus ˈpər.ɡi/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia harus pergi",
+          "ipa": "/ˈdi.a ˈha.rus ˈpər.ɡi/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami harus pergi",
+          "ipa": "/ˈka.mi ˈha.rus ˈpər.ɡi/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka harus pergi",
+          "ipa": "/mə.ˈrɛ.ka ˈha.rus ˈpər.ɡi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya harus pergi.",
+          "en": "I must go."
+        },
+        {
+          "target": "Kami harus pulang.",
+          "en": "We must go home."
+        }
+      ],
+      "note": "Put 'harus' before the verb to say 'must'."
+    }
+  ]
+}

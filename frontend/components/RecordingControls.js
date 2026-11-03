@@ -51,13 +51,13 @@ function Timer() {
 //   recording                   "Listening...": pulsing button with a waveform and a timer (tap to stop)
 //   review                      Retry and Done
 //   uploading / finishing       "Scoring..." / "Saving your result..."
-export default function RecordingControls({ phase, onStart, onStop, onRetry, onDone, onResume, onHear, onHearSlow, hideHelpers = false, micDisabled = false, caption }) {
+export default function RecordingControls({ phase, onStart, onStop, onRetry, onDone, onResume, onHear, onHearSlow, hideHelpers = false, micDisabled = false, caption, reviewCaption, busyTitle, busyCaption }) {
   let body;
   if (phase === 'review') {
     body = (
       <>
         <Text style={styles.title}>Happy with it?</Text>
-        <Text style={styles.caption}>Play your take in the bubble, or record it again.</Text>
+        <Text style={styles.caption}>{reviewCaption ?? 'Play your take in the bubble, or record it again.'}</Text>
         <View style={styles.pair}>
           <View style={styles.flex}>
             <SecondaryButton label="Retry" icon="mic-outline" onPress={onRetry} />
@@ -84,7 +84,7 @@ export default function RecordingControls({ phase, onStart, onStop, onRetry, onD
       </>
     );
   } else if (phase === 'starting' || phase === 'uploading' || phase === 'finishing') {
-    const title = phase === 'finishing' ? 'Saving your result…' : phase === 'uploading' ? 'Scoring…' : 'Opening the microphone…';
+    const title = phase === 'finishing' ? 'Saving your result…' : phase === 'uploading' ? (busyTitle ?? 'Scoring…') : 'Opening the microphone…';
     body = (
       <>
         <Text style={styles.title}>{title}</Text>
@@ -93,7 +93,7 @@ export default function RecordingControls({ phase, onStart, onStop, onRetry, onD
             <ActivityIndicator color={colors.onPrimary} />
           </View>
         </View>
-        <Text style={styles.caption}>{phase === 'uploading' ? 'Checking your pronunciation' : 'Just a moment'}</Text>
+        <Text style={styles.caption}>{phase === 'uploading' ? (busyCaption ?? 'Checking your pronunciation') : 'Just a moment'}</Text>
       </>
     );
   } else if (phase === 'blocked') {

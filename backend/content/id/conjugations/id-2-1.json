@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "sudah / sedang / akan",
+      "ipa": "/ˈsu.dah / ˈsə.daŋ / ˈa.kan/",
+      "pos": "adv.",
+      "meaning": "already / in progress / will",
+      "tense": "Time words replace verb endings",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "sudah mandi",
+          "ipa": "/ˈsu.dah ˈman.di/"
+        },
+        {
+          "p": "Saya",
+          "f": "sedang mandi",
+          "ipa": "/ˈsə.daŋ ˈman.di/"
+        },
+        {
+          "p": "Saya",
+          "f": "akan mandi",
+          "ipa": "/ˈa.kan ˈman.di/"
+        },
+        {
+          "p": "Saya",
+          "f": "belum mandi",
+          "ipa": "/bə.ˈlum ˈman.di/"
+        },
+        {
+          "p": "Saya",
+          "f": "tidak mandi",
+          "ipa": "/ˈti.dak ˈman.di/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya sudah sarapan.",
+          "en": "I have already had breakfast."
+        },
+        {
+          "target": "Dia sedang mandi.",
+          "en": "He is bathing."
+        }
+      ],
+      "note": "Put the time word before the verb. The verb stays the same."
+    },
+    {
+      "id": "c2",
+      "word": "bangun",
+      "ipa": "/ˈba.ŋun/",
+      "pos": "v.",
+      "meaning": "to wake up",
+      "tense": "Present (no change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya bangun jam enam",
+          "ipa": "/ˈsa.ja ˈba.ŋun dʒam ˈə.nam/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu bangun jam enam",
+          "ipa": "/ˈka.mu ˈba.ŋun dʒam ˈə.nam/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia bangun jam enam",
+          "ipa": "/ˈdi.a ˈba.ŋun dʒam ˈə.nam/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami bangun jam enam",
+          "ipa": "/ˈka.mi ˈba.ŋun dʒam ˈə.nam/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka bangun jam enam",
+          "ipa": "/mə.ˈrɛ.ka ˈba.ŋun dʒam ˈə.nam/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya bangun jam enam.",
+          "en": "I get up at six."
+        },
+        {
+          "target": "Kami bangun pagi.",
+          "en": "We get up early."
+        }
+      ],
+      "note": "Say 'jam' + number to give a time."
+    }
+  ]
+}

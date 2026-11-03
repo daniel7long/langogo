@@ -1,0 +1,142 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "préparer",
+      "ipa": "/pʁe.pa.ʁe/",
+      "pos": "v.",
+      "meaning": "to prepare",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "prépare",
+          "ipa": "/ʒə pʁe.paʁ/"
+        },
+        {
+          "p": "tu",
+          "f": "prépares",
+          "ipa": "/ty pʁe.paʁ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "prépare",
+          "ipa": "/il pʁe.paʁ/"
+        },
+        {
+          "p": "nous",
+          "f": "préparons",
+          "ipa": "/nu pʁe.pa.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "préparez",
+          "ipa": "/vu pʁe.pa.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "préparent",
+          "ipa": "/il pʁe.paʁ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On prépare un gâteau ensemble !",
+          "en": "We're making a cake together!"
+        },
+        {
+          "target": "Je prépare le repas.",
+          "en": "I'm preparing the meal."
+        }
+      ],
+      "note": "Regular -er verb."
+    },
+    {
+      "id": "c2",
+      "word": "sortir",
+      "ipa": "/sɔʁ.tiʁ/",
+      "pos": "v.",
+      "meaning": "to take out, to go out",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "sors",
+          "ipa": "/ʒə sɔʁ/"
+        },
+        {
+          "p": "tu",
+          "f": "sors",
+          "ipa": "/ty sɔʁ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "sort",
+          "ipa": "/il sɔʁ/"
+        },
+        {
+          "p": "nous",
+          "f": "sortons",
+          "ipa": "/nu sɔʁ.tɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "sortez",
+          "ipa": "/vu sɔʁ.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "sortent",
+          "ipa": "/il sɔʁt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je sors les ingrédients.",
+          "en": "I take out the ingredients."
+        },
+        {
+          "target": "Tu sors ce soir ?",
+          "en": "Are you going out tonight?"
+        }
+      ],
+      "note": "Sortir can mean 'to take something out'."
+    },
+    {
+      "id": "c3",
+      "word": "mélanger",
+      "ipa": "/me.lɑ̃.ʒe/",
+      "pos": "v.",
+      "meaning": "to mix",
+      "tense": "Command (impératif)",
+      "forms": [
+        {
+          "p": "tu",
+          "f": "Mélange",
+          "ipa": "/me.lɑ̃ʒ/"
+        },
+        {
+          "p": "nous",
+          "f": "Mélangeons",
+          "ipa": "/me.lɑ̃.ʒɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "Mélangez",
+          "ipa": "/me.lɑ̃.ʒe/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Mélange bien la farine et les œufs.",
+          "en": "Mix the flour and eggs well."
+        },
+        {
+          "target": "Mélangez le sucre.",
+          "en": "Mix the sugar."
+        }
+      ],
+      "note": "For tu, the command drops the -s: tu mélanges → mélange."
+    }
+  ]
+}

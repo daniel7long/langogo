@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "होना",
+      "ipa": "honā · /hoːnaː/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Present of 'to be'",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "हूँ",
+          "ipa": "mɛ̃ː huː̃"
+        },
+        {
+          "p": "तुम",
+          "f": "हो",
+          "ipa": "tum hoː"
+        },
+        {
+          "p": "वह",
+          "f": "है",
+          "ipa": "ʋoː hɛː"
+        },
+        {
+          "p": "हम",
+          "f": "हैं",
+          "ipa": "həm hɛ̃ː"
+        },
+        {
+          "p": "आप",
+          "f": "हैं",
+          "ipa": "aːp hɛ̃ː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मैं ठीक हूँ।",
+          "en": "I am fine."
+        },
+        {
+          "target": "आप कैसे हैं?",
+          "en": "How are you?"
+        }
+      ],
+      "note": "The verb comes last. 'आप' always takes 'हैं'."
+    },
+    {
+      "id": "c2",
+      "word": "मिलना",
+      "ipa": "milnā · /mɪlnaː/",
+      "pos": "v.",
+      "meaning": "to meet",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "मिलूँगा / मिलूँगी",
+          "ipa": "mɪluːŋɡaː / mɪluːŋɡiː"
+        },
+        {
+          "p": "तुम",
+          "f": "मिलोगे / मिलोगी",
+          "ipa": "mɪloːɡeː"
+        },
+        {
+          "p": "वह",
+          "f": "मिलेगा / मिलेगी",
+          "ipa": "mɪleːɡaː"
+        },
+        {
+          "p": "हम",
+          "f": "मिलेंगे",
+          "ipa": "mɪleːŋɡeː"
+        },
+        {
+          "p": "आप",
+          "f": "मिलेंगे",
+          "ipa": "mɪleːŋɡeː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "कल फिर मिलेंगे।",
+          "en": "We will meet again tomorrow."
+        },
+        {
+          "target": "मैं आपसे मिलूँगा।",
+          "en": "I will meet you."
+        }
+      ],
+      "note": "Add -ेगा / -ेंगे for the future. Use -गी when a woman speaks or is spoken about."
+    }
+  ]
+}

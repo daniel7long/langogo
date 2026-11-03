@@ -1,0 +1,225 @@
+{
+  "emoji": "🌅",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "सुबह",
+      "ipa": "subah · /sʊbəɦ/",
+      "pos": "n.",
+      "meaning": "morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "सुबह सुहानी है।",
+          "en": "The morning is pleasant."
+        },
+        {
+          "target": "मैं सुबह उठता हूँ।",
+          "en": "I get up in the morning."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "उठना",
+      "ipa": "uṭhnā · /ʊʈʰnaː/",
+      "pos": "v.",
+      "meaning": "to get up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मैं छह बजे उठता हूँ।",
+          "en": "I get up at six."
+        },
+        {
+          "target": "जल्दी उठो!",
+          "en": "Get up early!"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "नहाना",
+      "ipa": "nahānā · /nəɦaːnaː/",
+      "pos": "v.",
+      "meaning": "to bathe",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मैं रोज़ नहाता हूँ।",
+          "en": "I bathe every day."
+        },
+        {
+          "target": "नहाने के बाद चाय पीता हूँ।",
+          "en": "After bathing I drink tea."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "नाश्ता",
+      "ipa": "nāshtā · /naːʃtaː/",
+      "pos": "n.",
+      "meaning": "breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "नाश्ता तैयार है।",
+          "en": "Breakfast is ready."
+        },
+        {
+          "target": "मैं नाश्ता करता हूँ।",
+          "en": "I have breakfast."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "जल्दी",
+      "ipa": "jaldī · /dʒəldiː/",
+      "pos": "adv.",
+      "meaning": "early, quickly",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "आज जल्दी आओ।",
+          "en": "Come early today."
+        },
+        {
+          "target": "जल्दी करो!",
+          "en": "Hurry up!"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "काम",
+      "ipa": "kām · /kaːm/",
+      "pos": "n.",
+      "meaning": "work",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मेरा काम सुबह शुरू होता है।",
+          "en": "My work starts in the morning."
+        },
+        {
+          "target": "बहुत काम है।",
+          "en": "There is a lot of work."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "रोज़",
+      "ipa": "roz · /roːz/",
+      "pos": "adv.",
+      "meaning": "every day",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मैं रोज़ पढ़ता हूँ।",
+          "en": "I study every day."
+        },
+        {
+          "target": "रोज़ चाय पीता हूँ।",
+          "en": "I drink tea every day."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Priya",
+      "role": "npc",
+      "text": "तुम सुबह कितने बजे उठते हो?",
+      "glosses": [
+        {
+          "text": "सुबह",
+          "pos": "n.",
+          "meaning": "morning"
+        }
+      ],
+      "en": "What time do you get up in the morning?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "मैं रोज़ छह बजे उठता हूँ।",
+      "glosses": [
+        {
+          "text": "रोज़",
+          "pos": "adv.",
+          "meaning": "every day"
+        }
+      ],
+      "en": "I get up at six every day."
+    },
+    {
+      "id": "t3",
+      "speaker": "Priya",
+      "role": "npc",
+      "text": "इतनी जल्दी! फिर क्या करते हो?",
+      "glosses": [
+        {
+          "text": "जल्दी",
+          "pos": "adv.",
+          "meaning": "early, quickly"
+        }
+      ],
+      "en": "So early! Then what do you do?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "पहले नहाता हूँ, फिर नाश्ता करता हूँ।",
+      "glosses": [
+        {
+          "text": "नाश्ता",
+          "pos": "n.",
+          "meaning": "breakfast"
+        }
+      ],
+      "en": "First I bathe, then I have breakfast."
+    },
+    {
+      "id": "t5",
+      "speaker": "Priya",
+      "role": "npc",
+      "text": "और काम पर कब जाते हो?",
+      "glosses": [
+        {
+          "text": "काम",
+          "pos": "n.",
+          "meaning": "work"
+        }
+      ],
+      "en": "And when do you go to work?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "नौ बजे जाता हूँ।",
+      "glosses": [],
+      "en": "I go at nine."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "नाश्ता",
+      "tip": "Say NAASH-taa; the 'sh' is soft"
+    },
+    {
+      "id": "w2",
+      "text": "जल्दी",
+      "tip": "jal-DEE with a strong 'l'"
+    }
+  ]
+}

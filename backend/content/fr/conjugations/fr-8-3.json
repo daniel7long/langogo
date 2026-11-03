@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "utiliser",
+      "ipa": "/y.ti.li.ze/",
+      "pos": "v.",
+      "meaning": "to use",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "utilise",
+          "ipa": "/ʒy.ti.liz/"
+        },
+        {
+          "p": "tu",
+          "f": "utilises",
+          "ipa": "/ty y.ti.liz/"
+        },
+        {
+          "p": "il / elle",
+          "f": "utilise",
+          "ipa": "/il y.ti.liz/"
+        },
+        {
+          "p": "nous",
+          "f": "utilisons",
+          "ipa": "/nu zy.ti.li.zɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "utilisez",
+          "ipa": "/vu zy.ti.li.ze/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "utilisent",
+          "ipa": "/il zy.ti.liz/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu utilises l'intelligence artificielle ?",
+          "en": "Do you use artificial intelligence?"
+        },
+        {
+          "target": "J'utilise un ordinateur.",
+          "en": "I use a computer."
+        }
+      ],
+      "note": "Regular -er verb."
+    },
+    {
+      "id": "c2",
+      "word": "vérifier",
+      "ipa": "/ve.ʁi.fje/",
+      "pos": "v.",
+      "meaning": "to check",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "vérifie",
+          "ipa": "/ʒə ve.ʁi.fi/"
+        },
+        {
+          "p": "tu",
+          "f": "vérifies",
+          "ipa": "/ty ve.ʁi.fi/"
+        },
+        {
+          "p": "il / elle",
+          "f": "vérifie",
+          "ipa": "/il ve.ʁi.fi/"
+        },
+        {
+          "p": "nous",
+          "f": "vérifions",
+          "ipa": "/nu ve.ʁi.fjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "vérifiez",
+          "ipa": "/vu ve.ʁi.fje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "vérifient",
+          "ipa": "/il ve.ʁi.fi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je vérifie toujours l'information.",
+          "en": "I always check the information."
+        },
+        {
+          "target": "Nous vérifions les sources.",
+          "en": "We check the sources."
+        }
+      ],
+      "note": "Regular -er verb."
+    },
+    {
+      "id": "c3",
+      "word": "s'inquiéter",
+      "ipa": "/sɛ̃.kje.te/",
+      "pos": "v.",
+      "meaning": "to worry",
+      "tense": "Present (reflexive)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "m'inquiète",
+          "ipa": "/ʒə mɛ̃.kjɛt/"
+        },
+        {
+          "p": "tu",
+          "f": "t'inquiètes",
+          "ipa": "/ty tɛ̃.kjɛt/"
+        },
+        {
+          "p": "il / elle",
+          "f": "s'inquiète",
+          "ipa": "/il sɛ̃.kjɛt/"
+        },
+        {
+          "p": "nous",
+          "f": "nous inquiétons",
+          "ipa": "/nu zɛ̃.kje.tɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "vous inquiétez",
+          "ipa": "/vu zɛ̃.kje.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "s'inquiètent",
+          "ipa": "/il sɛ̃.kjɛt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je m'inquiète pour mes données.",
+          "en": "I worry about my data."
+        },
+        {
+          "target": "Tu t'inquiètes trop.",
+          "en": "You worry too much."
+        }
+      ],
+      "note": "S'inquiéter pour = worry about."
+    }
+  ]
+}

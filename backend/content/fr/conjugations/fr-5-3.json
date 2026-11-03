@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "jouer",
+      "ipa": "/ʒwe/",
+      "pos": "v.",
+      "meaning": "to play",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "joue",
+          "ipa": "/ʒə ʒu/"
+        },
+        {
+          "p": "tu",
+          "f": "joues",
+          "ipa": "/ty ʒu/"
+        },
+        {
+          "p": "il / elle",
+          "f": "joue",
+          "ipa": "/il ʒu/"
+        },
+        {
+          "p": "nous",
+          "f": "jouons",
+          "ipa": "/nu ʒu.ɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "jouez",
+          "ipa": "/vu ʒu.e/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "jouent",
+          "ipa": "/il ʒu/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu joues au basket avec nous ?",
+          "en": "Are you playing basketball with us?"
+        },
+        {
+          "target": "Nous jouons au foot.",
+          "en": "We play football."
+        }
+      ],
+      "note": "Sports use jouer + au: jouer au basket."
+    },
+    {
+      "id": "c2",
+      "word": "commencer",
+      "ipa": "/kɔ.mɑ̃.se/",
+      "pos": "v.",
+      "meaning": "to start",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "commence",
+          "ipa": "/ʒə kɔ.mɑ̃s/"
+        },
+        {
+          "p": "tu",
+          "f": "commences",
+          "ipa": "/ty kɔ.mɑ̃s/"
+        },
+        {
+          "p": "il / elle",
+          "f": "commence",
+          "ipa": "/il kɔ.mɑ̃s/"
+        },
+        {
+          "p": "nous",
+          "f": "commençons",
+          "ipa": "/nu kɔ.mɑ̃.sɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "commencez",
+          "ipa": "/vu kɔ.mɑ̃.se/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "commencent",
+          "ipa": "/il kɔ.mɑ̃s/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Le match commence à dix-huit heures.",
+          "en": "The match starts at six."
+        },
+        {
+          "target": "Nous commençons à six heures.",
+          "en": "We start at six."
+        }
+      ],
+      "note": "Nous commençons uses ç to keep the soft 's'."
+    },
+    {
+      "id": "c3",
+      "word": "aller + infinitif",
+      "ipa": "/a.le/",
+      "pos": "v.",
+      "meaning": "to be going to",
+      "tense": "Near future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "vais gagner",
+          "ipa": "/ʒə vɛ ɡa.ɲe/"
+        },
+        {
+          "p": "tu",
+          "f": "vas gagner",
+          "ipa": "/ty va ɡa.ɲe/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "va gagner",
+          "ipa": "/il va ɡa.ɲe/"
+        },
+        {
+          "p": "nous",
+          "f": "allons gagner",
+          "ipa": "/nu za.lɔ̃ ɡa.ɲe/"
+        },
+        {
+          "p": "vous",
+          "f": "allez gagner",
+          "ipa": "/vu za.le ɡa.ɲe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "vont gagner",
+          "ipa": "/il vɔ̃ ɡa.ɲe/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On va gagner !",
+          "en": "We're going to win!"
+        },
+        {
+          "target": "Je vais jouer ce soir.",
+          "en": "I'm going to play tonight."
+        }
+      ],
+      "note": "Aller + infinitive = what is about to happen."
+    }
+  ]
+}

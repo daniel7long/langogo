@@ -1,0 +1,241 @@
+{
+  "emoji": "☕",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "menu",
+      "ipa": "/ˈmenjuː/",
+      "pos": "n.",
+      "meaning": "a list of food and drinks you can order",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Can I see the menu?"
+        },
+        {
+          "target": "The menu has many drinks."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "order",
+      "ipa": "/ˈɔːrdər/",
+      "pos": "v.",
+      "meaning": "to ask for food or drink in a place",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I order a coffee."
+        },
+        {
+          "target": "Are you ready to order?"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "tea",
+      "ipa": "/tiː/",
+      "pos": "n.",
+      "meaning": "a hot drink made with leaves and water",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I drink green tea."
+        },
+        {
+          "target": "Tea with milk, please."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "sugar",
+      "ipa": "/ˈʃʊɡər/",
+      "pos": "n.",
+      "meaning": "a sweet white food you put in drinks",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Do you want sugar?"
+        },
+        {
+          "target": "No sugar, thanks."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "sandwich",
+      "ipa": "/ˈsænwɪtʃ/",
+      "pos": "n.",
+      "meaning": "food between two pieces of bread",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I eat a cheese sandwich."
+        },
+        {
+          "target": "The sandwich is big."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "bill",
+      "ipa": "/bɪl/",
+      "pos": "n.",
+      "meaning": "the paper that shows how much you must pay",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "The bill, please."
+        },
+        {
+          "target": "Who pays the bill?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "here you are",
+      "ipa": "/hɪr ju ɑr/",
+      "pos": "phr.",
+      "meaning": "what you say when you give something to someone",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Here you are, your coffee."
+        },
+        {
+          "target": "Here you are, ma'am."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "Hello! Here is the menu. Are you ready to order?",
+      "glosses": [
+        {
+          "text": "menu",
+          "pos": "n.",
+          "meaning": "a list of food and drinks you can order"
+        },
+        {
+          "text": "order",
+          "pos": "v.",
+          "meaning": "to ask for food or drink in a place"
+        }
+      ],
+      "en": "Hi! This is the list of food and drinks. Do you want to ask for something?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, I would like a tea and a sandwich, please.",
+      "glosses": [
+        {
+          "text": "tea",
+          "pos": "n.",
+          "meaning": "a hot drink made with leaves and water"
+        },
+        {
+          "text": "sandwich",
+          "pos": "n.",
+          "meaning": "food between two pieces of bread"
+        }
+      ],
+      "en": "Yes, I want a tea and a sandwich, please."
+    },
+    {
+      "id": "t3",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "Sure. Do you want sugar with your tea?",
+      "glosses": [
+        {
+          "text": "tea",
+          "pos": "n.",
+          "meaning": "a hot drink made with leaves and water"
+        },
+        {
+          "text": "sugar",
+          "pos": "n.",
+          "meaning": "a sweet white food you put in drinks"
+        }
+      ],
+      "en": "Of course. Should I bring sugar for the tea?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "No sugar, thank you. Can I have the bill later?",
+      "glosses": [
+        {
+          "text": "sugar",
+          "pos": "n.",
+          "meaning": "a sweet white food you put in drinks"
+        },
+        {
+          "text": "bill",
+          "pos": "n.",
+          "meaning": "the paper that shows how much you must pay"
+        }
+      ],
+      "en": "No sweet powder, thanks. Can you bring the paper to pay later?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "Of course. Here you are, your tea and sandwich.",
+      "glosses": [
+        {
+          "text": "tea",
+          "pos": "n.",
+          "meaning": "a hot drink made with leaves and water"
+        },
+        {
+          "text": "sandwich",
+          "pos": "n.",
+          "meaning": "food between two pieces of bread"
+        },
+        {
+          "text": "Here you are",
+          "pos": "phr.",
+          "meaning": "what you say when you give something to someone"
+        }
+      ],
+      "en": "Yes. This is your tea and sandwich."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Thank you. It looks delicious!",
+      "glosses": [],
+      "en": "Thanks. It looks very tasty!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "sandwich",
+      "tip": "Say SAND-wich: the 'd' is soft and the end is 'wich'"
+    },
+    {
+      "id": "w2",
+      "text": "menu",
+      "tip": "Say MEN-yoo: the end sounds like 'you'"
+    }
+  ]
+}

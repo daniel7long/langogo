@@ -1,0 +1,260 @@
+{
+  "emoji": "🍛",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "meja",
+      "ipa": "/ˈmɛ.dʒa/",
+      "pos": "n.",
+      "meaning": "table",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Meja untuk dua orang.",
+          "en": "A table for two."
+        },
+        {
+          "target": "Meja itu kosong.",
+          "en": "That table is empty."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "makanan",
+      "ipa": "/ma.ˈka.nan/",
+      "pos": "n.",
+      "meaning": "food",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Makanan sudah siap.",
+          "en": "The food is ready."
+        },
+        {
+          "target": "Makanan apa?",
+          "en": "What food?"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "nasi",
+      "ipa": "/ˈna.si/",
+      "pos": "n.",
+      "meaning": "rice (cooked)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Saya makan nasi.",
+          "en": "I eat rice."
+        },
+        {
+          "target": "Dua nasi putih.",
+          "en": "Two white rice."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "ayam goreng",
+      "ipa": "/ˈa.jam ɡo.ˈrɛŋ/",
+      "pos": "n.",
+      "meaning": "fried chicken",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Ayam goreng renyah.",
+          "en": "Fried chicken is crispy."
+        },
+        {
+          "target": "Saya pesan ayam goreng.",
+          "en": "I order fried chicken."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "sate",
+      "ipa": "/ˈsa.te/",
+      "pos": "n.",
+      "meaning": "satay",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Sate ayam enak.",
+          "en": "Chicken satay is delicious."
+        },
+        {
+          "target": "Sepuluh tusuk sate.",
+          "en": "Ten sticks of satay."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "enak",
+      "ipa": "/ˈɛ.nak/",
+      "pos": "adj.",
+      "meaning": "tasty, delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Makanannya enak.",
+          "en": "The food is delicious."
+        },
+        {
+          "target": "Enak sekali!",
+          "en": "Very delicious!"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "tagihan",
+      "ipa": "/ta.ˈɡi.han/",
+      "pos": "n.",
+      "meaning": "bill",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Tagihannya berapa?",
+          "en": "How much is the bill?"
+        },
+        {
+          "target": "Minta tagihan.",
+          "en": "The bill, please."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Pelayan",
+      "role": "npc",
+      "text": "Selamat datang! Ada meja untuk dua orang.",
+      "glosses": [
+        {
+          "text": "meja",
+          "pos": "n.",
+          "meaning": "table"
+        }
+      ],
+      "en": "Welcome! There is a table for two."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Terima kasih. Makanan apa yang enak hari ini?",
+      "glosses": [
+        {
+          "text": "Makanan",
+          "pos": "n.",
+          "meaning": "food"
+        },
+        {
+          "text": "enak",
+          "pos": "adj.",
+          "meaning": "tasty, delicious"
+        }
+      ],
+      "en": "Thanks. What food is tasty today?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Pelayan",
+      "role": "npc",
+      "text": "Ayam goreng dan sate sangat enak.",
+      "glosses": [
+        {
+          "text": "Ayam goreng",
+          "pos": "n.",
+          "meaning": "fried chicken"
+        },
+        {
+          "text": "sate",
+          "pos": "n.",
+          "meaning": "satay"
+        },
+        {
+          "text": "enak",
+          "pos": "adj.",
+          "meaning": "tasty, delicious"
+        }
+      ],
+      "en": "The fried chicken and satay are very tasty."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Kalau begitu, saya mau sate, ayam goreng, dan dua nasi.",
+      "glosses": [
+        {
+          "text": "nasi",
+          "pos": "n.",
+          "meaning": "rice (cooked)"
+        },
+        {
+          "text": "ayam goreng",
+          "pos": "n.",
+          "meaning": "fried chicken"
+        },
+        {
+          "text": "sate",
+          "pos": "n.",
+          "meaning": "satay"
+        }
+      ],
+      "en": "In that case, I want satay, fried chicken, and two rice."
+    },
+    {
+      "id": "t5",
+      "speaker": "Pelayan",
+      "role": "npc",
+      "text": "Baik, segera saya antar.",
+      "glosses": [],
+      "en": "Okay, I'll bring it right away."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Makanan di sini enak sekali. Minta tagihan, tolong.",
+      "glosses": [
+        {
+          "text": "Makanan",
+          "pos": "n.",
+          "meaning": "food"
+        },
+        {
+          "text": "enak",
+          "pos": "adj.",
+          "meaning": "tasty, delicious"
+        },
+        {
+          "text": "tagihan",
+          "pos": "n.",
+          "meaning": "bill"
+        }
+      ],
+      "en": "The food here is really tasty. The bill, please."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "tagihan",
+      "tip": "Say ta-GEE-han"
+    },
+    {
+      "id": "w2",
+      "text": "enak",
+      "tip": "Say E-nak; the 'k' at the end is a stop"
+    }
+  ]
+}

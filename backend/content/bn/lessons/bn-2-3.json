@@ -1,0 +1,246 @@
+{
+  "emoji": "🛍️",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "সবজি",
+      "ipa": "shobji · /ʃɔbdʒi/",
+      "pos": "n.",
+      "meaning": "vegetable",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "সবজি তাজা।",
+          "en": "The vegetables are fresh."
+        },
+        {
+          "target": "আমি সবজি কিনি।",
+          "en": "I buy vegetables."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "দাম",
+      "ipa": "dam · /dam/",
+      "pos": "n.",
+      "meaning": "price",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "দাম কত?",
+          "en": "What is the price?"
+        },
+        {
+          "target": "দাম বেশি।",
+          "en": "The price is high."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "দামি",
+      "ipa": "dami · /dami/",
+      "pos": "adj.",
+      "meaning": "expensive",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "এটা খুব দামি।",
+          "en": "This is very expensive."
+        },
+        {
+          "target": "সব কিছু দামি।",
+          "en": "Everything is expensive."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "সস্তা",
+      "ipa": "shosta · /ʃɔsta/",
+      "pos": "adj.",
+      "meaning": "cheap",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "এটা সস্তা।",
+          "en": "This is cheap."
+        },
+        {
+          "target": "সস্তা কিছু দিন।",
+          "en": "Give something cheaper."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "কেজি",
+      "ipa": "keji · /kedʒi/",
+      "pos": "n.",
+      "meaning": "kilogram",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "এক কেজি আলু দিন।",
+          "en": "Give me one kilo of potatoes."
+        },
+        {
+          "target": "দুই কেজি চাল।",
+          "en": "Two kilos of rice."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "ব্যাগ",
+      "ipa": "byag · /bjaɡ/",
+      "pos": "n.",
+      "meaning": "bag",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "ব্যাগ ভারী।",
+          "en": "The bag is heavy."
+        },
+        {
+          "target": "আমার ব্যাগ কোথায়?",
+          "en": "Where is my bag?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "তাজা",
+      "ipa": "taja · /tadʒa/",
+      "pos": "adj.",
+      "meaning": "fresh",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "মাছ তাজা।",
+          "en": "The fish is fresh."
+        },
+        {
+          "target": "তাজা ফল ভালো।",
+          "en": "Fresh fruit is good."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Dokandar",
+      "role": "npc",
+      "text": "আসুন! সবজি একদম তাজা। কী লাগবে?",
+      "glosses": [
+        {
+          "text": "সবজি",
+          "pos": "n.",
+          "meaning": "vegetable"
+        },
+        {
+          "text": "তাজা",
+          "pos": "adj.",
+          "meaning": "fresh"
+        }
+      ],
+      "en": "Come! The vegetables are very fresh. What do you need?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "আমার এক কেজি টমেটো লাগবে। দাম কত?",
+      "glosses": [
+        {
+          "text": "দাম",
+          "pos": "n.",
+          "meaning": "price"
+        },
+        {
+          "text": "কেজি",
+          "pos": "n.",
+          "meaning": "kilogram"
+        }
+      ],
+      "en": "I need one kilo of tomatoes. What is the price?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Dokandar",
+      "role": "npc",
+      "text": "চল্লিশ টাকা কেজি।",
+      "glosses": [
+        {
+          "text": "কেজি",
+          "pos": "n.",
+          "meaning": "kilogram"
+        }
+      ],
+      "en": "Forty taka a kilo."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "এটা তো অনেক দামি। একটু সস্তা হবে?",
+      "glosses": [
+        {
+          "text": "দামি",
+          "pos": "adj.",
+          "meaning": "expensive"
+        },
+        {
+          "text": "সস্তা",
+          "pos": "adj.",
+          "meaning": "cheap"
+        }
+      ],
+      "en": "This is very expensive. Can it be a bit cheaper?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Dokandar",
+      "role": "npc",
+      "text": "ত্রিশ টাকায় দেব। ব্যাগ আছে?",
+      "glosses": [
+        {
+          "text": "ব্যাগ",
+          "pos": "n.",
+          "meaning": "bag"
+        }
+      ],
+      "en": "I'll give it for thirty. Do you have a bag?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "হ্যাঁ, আমার ব্যাগ এই যে। ধন্যবাদ!",
+      "glosses": [
+        {
+          "text": "ব্যাগ",
+          "pos": "n.",
+          "meaning": "bag"
+        }
+      ],
+      "en": "Yes, here is my bag. Thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "সস্তা",
+      "tip": "Say SHOS-ta"
+    },
+    {
+      "id": "w2",
+      "text": "ব্যাগ",
+      "tip": "Say 'byag' like 'bag' with a y"
+    }
+  ]
+}

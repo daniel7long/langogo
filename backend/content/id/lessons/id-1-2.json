@@ -1,0 +1,265 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "nama",
+      "ipa": "/ˈna.ma/",
+      "pos": "n.",
+      "meaning": "name",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Nama saya Rudi.",
+          "en": "My name is Rudi."
+        },
+        {
+          "target": "Siapa nama kamu?",
+          "en": "What is your name?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "saya",
+      "ipa": "/ˈsa.ja/",
+      "pos": "pron.",
+      "meaning": "I, me, my",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya suka teh.",
+          "en": "I like tea."
+        },
+        {
+          "target": "Ini rumah saya.",
+          "en": "This is my house."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "siapa",
+      "ipa": "/ˈsi.a.pa/",
+      "pos": "pron.",
+      "meaning": "who",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Siapa itu?",
+          "en": "Who is that?"
+        },
+        {
+          "target": "Siapa nama kamu?",
+          "en": "What is your name?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "mahasiswa",
+      "ipa": "/ma.ha.ˈsis.wa/",
+      "pos": "n.",
+      "meaning": "university student",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya mahasiswa.",
+          "en": "I am a university student."
+        },
+        {
+          "target": "Dia mahasiswa baru.",
+          "en": "He is a new student."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "rumah",
+      "ipa": "/ˈru.mah/",
+      "pos": "n.",
+      "meaning": "house, home",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Rumah saya besar.",
+          "en": "My house is big."
+        },
+        {
+          "target": "Ayo ke rumah.",
+          "en": "Let's go home."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "teman",
+      "ipa": "/ˈtə.man/",
+      "pos": "n.",
+      "meaning": "friend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Dia teman saya.",
+          "en": "He is my friend."
+        },
+        {
+          "target": "Teman saya banyak.",
+          "en": "I have many friends."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "di mana",
+      "ipa": "/di ˈma.na/",
+      "pos": "phr.",
+      "meaning": "where (at)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Kamu di mana?",
+          "en": "Where are you?"
+        },
+        {
+          "target": "Stasiun di mana?",
+          "en": "Where is the station?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Sari",
+      "role": "npc",
+      "text": "Siapa nama kamu?",
+      "glosses": [
+        {
+          "text": "nama",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "Siapa",
+          "pos": "pron.",
+          "meaning": "who"
+        }
+      ],
+      "en": "What is your name?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Nama saya Daniel. Saya mahasiswa.",
+      "glosses": [
+        {
+          "text": "Nama",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "saya",
+          "pos": "pron.",
+          "meaning": "I, me, my"
+        },
+        {
+          "text": "mahasiswa",
+          "pos": "n.",
+          "meaning": "university student"
+        }
+      ],
+      "en": "My name is Daniel. I am a university student."
+    },
+    {
+      "id": "t3",
+      "speaker": "Sari",
+      "role": "npc",
+      "text": "Nama yang bagus! Di mana rumah kamu?",
+      "glosses": [
+        {
+          "text": "Nama",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "rumah",
+          "pos": "n.",
+          "meaning": "house, home"
+        },
+        {
+          "text": "Di mana",
+          "pos": "phr.",
+          "meaning": "where (at)"
+        }
+      ],
+      "en": "A nice name! Where is your home?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Rumah saya di Amerika.",
+      "glosses": [
+        {
+          "text": "saya",
+          "pos": "pron.",
+          "meaning": "I, me, my"
+        },
+        {
+          "text": "Rumah",
+          "pos": "n.",
+          "meaning": "house, home"
+        }
+      ],
+      "en": "My home is in America."
+    },
+    {
+      "id": "t5",
+      "speaker": "Sari",
+      "role": "npc",
+      "text": "Nama saya Sari. Ini teman saya, Rudi.",
+      "glosses": [
+        {
+          "text": "Nama",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "saya",
+          "pos": "pron.",
+          "meaning": "I, me, my"
+        },
+        {
+          "text": "teman",
+          "pos": "n.",
+          "meaning": "friend"
+        }
+      ],
+      "en": "My name is Sari. This is my friend, Rudi."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Senang berkenalan dengan kalian berdua.",
+      "glosses": [],
+      "en": "Nice to meet you both."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "mahasiswa",
+      "tip": "Say ma-ha-SIS-wa; stress the third part"
+    },
+    {
+      "id": "w2",
+      "text": "siapa",
+      "tip": "Say SEE-a-pa in three beats"
+    }
+  ]
+}

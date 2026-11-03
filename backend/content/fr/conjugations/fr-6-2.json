@@ -1,0 +1,142 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "manquer",
+      "ipa": "/mɑ̃.ke/",
+      "pos": "v.",
+      "meaning": "to miss",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai manqué",
+          "ipa": "/ʒe mɑ̃.ke/"
+        },
+        {
+          "p": "tu",
+          "f": "as manqué",
+          "ipa": "/ty a mɑ̃.ke/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a manqué",
+          "ipa": "/il a mɑ̃.ke/"
+        },
+        {
+          "p": "nous",
+          "f": "avons manqué",
+          "ipa": "/nu za.vɔ̃ mɑ̃.ke/"
+        },
+        {
+          "p": "vous",
+          "f": "avez manqué",
+          "ipa": "/vu za.ve mɑ̃.ke/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont manqué",
+          "ipa": "/il zɔ̃ mɑ̃.ke/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu nous as manqué.",
+          "en": "We missed you."
+        },
+        {
+          "target": "Vous m'avez manqué.",
+          "en": "I missed you."
+        }
+      ],
+      "note": "'Tu nous as manqué' = we missed you."
+    },
+    {
+      "id": "c2",
+      "word": "s'asseoir",
+      "ipa": "/sa.swaʁ/",
+      "pos": "v.",
+      "meaning": "to sit down",
+      "tense": "Command (impératif)",
+      "forms": [
+        {
+          "p": "tu",
+          "f": "Assieds-toi",
+          "ipa": "/a.sjɛ twa/"
+        },
+        {
+          "p": "nous",
+          "f": "Asseyons-nous",
+          "ipa": "/a.sɛ.jɔ̃ nu/"
+        },
+        {
+          "p": "vous",
+          "f": "Asseyez-vous",
+          "ipa": "/a.sɛ.je vu/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Assieds-toi.",
+          "en": "Sit down."
+        },
+        {
+          "target": "Asseyez-vous, madame.",
+          "en": "Please sit down, madam."
+        }
+      ],
+      "note": "Use these to invite someone to sit."
+    },
+    {
+      "id": "c3",
+      "word": "aller + infinitif",
+      "ipa": "/a.le/",
+      "pos": "v.",
+      "meaning": "to be going to",
+      "tense": "Near future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "vais raconter",
+          "ipa": "/ʒə vɛ ʁa.kɔ̃.te/"
+        },
+        {
+          "p": "tu",
+          "f": "vas raconter",
+          "ipa": "/ty va ʁa.kɔ̃.te/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "va raconter",
+          "ipa": "/il va ʁa.kɔ̃.te/"
+        },
+        {
+          "p": "nous",
+          "f": "allons raconter",
+          "ipa": "/nu za.lɔ̃ ʁa.kɔ̃.te/"
+        },
+        {
+          "p": "vous",
+          "f": "allez raconter",
+          "ipa": "/vu za.le ʁa.kɔ̃.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "vont raconter",
+          "ipa": "/il vɔ̃ ʁa.kɔ̃.te/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je vais te raconter une histoire.",
+          "en": "I'm going to tell you a story."
+        },
+        {
+          "target": "Nous allons cuisiner.",
+          "en": "We're going to cook."
+        }
+      ],
+      "note": "Je vais te raconter = I'm going to tell you."
+    }
+  ]
+}

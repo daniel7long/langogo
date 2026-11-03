@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "aller",
+      "ipa": "/a.le/",
+      "pos": "v.",
+      "meaning": "to go",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "vais",
+          "ipa": "/ʒə vɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "vas",
+          "ipa": "/ty va/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "va",
+          "ipa": "/il va/"
+        },
+        {
+          "p": "nous",
+          "f": "allons",
+          "ipa": "/nu za.lɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "allez",
+          "ipa": "/vu za.le/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "vont",
+          "ipa": "/il vɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je vais au parc.",
+          "en": "I'm going to the park."
+        },
+        {
+          "target": "Tu vas au travail ?",
+          "en": "Are you going to work?"
+        }
+      ],
+      "note": "'Aller' is irregular. Use it for places: je vais au parc."
+    },
+    {
+      "id": "c2",
+      "word": "à + le = au",
+      "ipa": "/a/",
+      "pos": "prep.",
+      "meaning": "to / at (after aller)",
+      "tense": "Contractions",
+      "forms": [
+        {
+          "p": "à + le",
+          "f": "au",
+          "ipa": "/o/"
+        },
+        {
+          "p": "à + la",
+          "f": "à la",
+          "ipa": "/a la/"
+        },
+        {
+          "p": "à + l'",
+          "f": "à l'",
+          "ipa": "/a l/"
+        },
+        {
+          "p": "à + les",
+          "f": "aux",
+          "ipa": "/o/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu vas au travail ?",
+          "en": "Are you going to work?"
+        },
+        {
+          "target": "Je vais au parc.",
+          "en": "I'm going to the park."
+        }
+      ],
+      "note": "à + le becomes au, and à + les becomes aux."
+    }
+  ]
+}

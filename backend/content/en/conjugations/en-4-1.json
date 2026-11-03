@@ -1,0 +1,87 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "go",
+      "ipa": "/ɡoʊ/",
+      "pos": "v.",
+      "meaning": "to move from one place to another",
+      "tense": "Commands (imperative)",
+      "forms": [
+        {
+          "p": "",
+          "f": "Go straight.",
+          "ipa": "/ɡoʊ streɪt/"
+        },
+        {
+          "p": "",
+          "f": "Turn left.",
+          "ipa": "/tɜrn left/"
+        },
+        {
+          "p": "",
+          "f": "Turn right.",
+          "ipa": "/tɜrn raɪt/"
+        },
+        {
+          "p": "",
+          "f": "Don't turn here.",
+          "ipa": "/doʊnt tɜrn hɪr/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Go straight for two blocks."
+        },
+        {
+          "target": "Turn right at the corner."
+        }
+      ],
+      "note": "For directions use the plain verb with no 'you': Go straight. Turn left."
+    },
+    {
+      "id": "c2",
+      "word": "be",
+      "ipa": "/bi/",
+      "pos": "v. (irregular)",
+      "meaning": "to say where something is",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "it",
+          "f": "is",
+          "ipa": "/ɪt ɪz/"
+        },
+        {
+          "p": "the bank",
+          "f": "is",
+          "ipa": "/ðə bæŋk ɪz/"
+        },
+        {
+          "p": "the shops",
+          "f": "are",
+          "ipa": "/ðə ʃɑps ɑr/"
+        },
+        {
+          "p": "I",
+          "f": "am",
+          "ipa": "/aɪ æm/"
+        },
+        {
+          "p": "we",
+          "f": "are",
+          "ipa": "/wi ɑr/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "It is near here."
+        },
+        {
+          "target": "The station is on the right."
+        }
+      ],
+      "note": "Use 'is' for one thing and 'are' for many: it is near, they are far."
+    }
+  ]
+}

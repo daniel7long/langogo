@@ -1,0 +1,239 @@
+{
+  "emoji": "❤️",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "पसंद",
+      "ipa": "pasand · /pəsənd/",
+      "pos": "n.",
+      "meaning": "liking",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "मुझे चाय पसंद है।",
+          "en": "I like tea."
+        },
+        {
+          "target": "आपकी पसंद क्या है?",
+          "en": "What is your choice?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "पसंदीदा",
+      "ipa": "pasandīdā · /pəsəndiːdaː/",
+      "pos": "adj.",
+      "meaning": "favorite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "मेरा पसंदीदा खाना बिरयानी है।",
+          "en": "My favorite food is biryani."
+        },
+        {
+          "target": "आपका पसंदीदा रंग क्या है?",
+          "en": "What's your favorite color?"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "मसालेदार",
+      "ipa": "masāledār · /məsaːleːdaːr/",
+      "pos": "adj.",
+      "meaning": "spicy",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "खाना मसालेदार है।",
+          "en": "The food is spicy."
+        },
+        {
+          "target": "मुझे मसालेदार चटनी पसंद है।",
+          "en": "I like spicy chutney."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "मीठा",
+      "ipa": "mīṭhā · /miːʈʰaː/",
+      "pos": "adj.",
+      "meaning": "sweet",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "हलवा मीठा है।",
+          "en": "The halwa is sweet."
+        },
+        {
+          "target": "मुझे मीठा पसंद नहीं।",
+          "en": "I don't like sweets."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "बनाना",
+      "ipa": "banānā · /bənaːnaː/",
+      "pos": "v.",
+      "meaning": "to make, to cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "माँ खाना बनाती हैं।",
+          "en": "Mom cooks food."
+        },
+        {
+          "target": "मैं चाय बनाना जानता हूँ।",
+          "en": "I know how to make tea."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "बिरयानी",
+      "ipa": "biryānī · /bɪrjaːniː/",
+      "pos": "n.",
+      "meaning": "biryani",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "बिरयानी स्वादिष्ट है।",
+          "en": "The biryani is delicious."
+        },
+        {
+          "target": "बिरयानी बहुत मसालेदार है।",
+          "en": "The biryani is very spicy."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "नुस्खा",
+      "ipa": "nuskhā · /nʊskʰaː/",
+      "pos": "n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "यह माँ का नुस्खा है।",
+          "en": "This is mom's recipe."
+        },
+        {
+          "target": "नुस्खा आसान है।",
+          "en": "The recipe is easy."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Sunita",
+      "role": "npc",
+      "text": "तुम्हारा पसंदीदा खाना क्या है?",
+      "glosses": [
+        {
+          "text": "पसंदीदा",
+          "pos": "adj.",
+          "meaning": "favorite"
+        }
+      ],
+      "en": "What is your favorite food?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "मेरा पसंदीदा खाना बिरयानी है। वह थोड़ी मसालेदार है।",
+      "glosses": [
+        {
+          "text": "पसंदीदा",
+          "pos": "adj.",
+          "meaning": "favorite"
+        },
+        {
+          "text": "मसालेदार",
+          "pos": "adj.",
+          "meaning": "spicy"
+        },
+        {
+          "text": "बिरयानी",
+          "pos": "n.",
+          "meaning": "biryani"
+        }
+      ],
+      "en": "My favorite food is biryani. It is a little spicy."
+    },
+    {
+      "id": "t3",
+      "speaker": "Sunita",
+      "role": "npc",
+      "text": "क्या तुम घर पर बनाते हो?",
+      "glosses": [],
+      "en": "Do you make it at home?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "हाँ, रविवार को बनाता हूँ। नुस्खा आसान है।",
+      "glosses": [
+        {
+          "text": "नुस्खा",
+          "pos": "n.",
+          "meaning": "recipe"
+        }
+      ],
+      "en": "Yes, I make it on Sundays. The recipe is easy."
+    },
+    {
+      "id": "t5",
+      "speaker": "Sunita",
+      "role": "npc",
+      "text": "मुझे मीठा ज़्यादा पसंद है। मुझे नुस्खा दोगे?",
+      "glosses": [
+        {
+          "text": "पसंद",
+          "pos": "n.",
+          "meaning": "liking"
+        },
+        {
+          "text": "मीठा",
+          "pos": "adj.",
+          "meaning": "sweet"
+        },
+        {
+          "text": "नुस्खा",
+          "pos": "n.",
+          "meaning": "recipe"
+        }
+      ],
+      "en": "I like sweets more. Will you give me the recipe?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "ज़रूर, आज रात भेज दूँगा।",
+      "glosses": [],
+      "en": "Of course, I'll send it tonight."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "बिरयानी",
+      "tip": "Say bir-YAA-nee"
+    },
+    {
+      "id": "w2",
+      "text": "नुस्खा",
+      "tip": "Say NUS-khaa; the 'kh' is breathy"
+    }
+  ]
+}

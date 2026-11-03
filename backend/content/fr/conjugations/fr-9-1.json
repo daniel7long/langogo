@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "trouver",
+      "ipa": "/tʁu.ve/",
+      "pos": "v.",
+      "meaning": "to find, to think",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai trouvé",
+          "ipa": "/ʒe tʁu.ve/"
+        },
+        {
+          "p": "tu",
+          "f": "as trouvé",
+          "ipa": "/ty a tʁu.ve/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a trouvé",
+          "ipa": "/il a tʁu.ve/"
+        },
+        {
+          "p": "nous",
+          "f": "avons trouvé",
+          "ipa": "/nu za.vɔ̃ tʁu.ve/"
+        },
+        {
+          "p": "vous",
+          "f": "avez trouvé",
+          "ipa": "/vu za.ve tʁu.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont trouvé",
+          "ipa": "/il zɔ̃ tʁu.ve/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je l'ai trouvé trop long.",
+          "en": "I found it too long."
+        },
+        {
+          "target": "Nous avons trouvé la fin faible.",
+          "en": "We found the ending weak."
+        }
+      ],
+      "note": "'Je l'ai trouvé trop long' = I found it too long."
+    },
+    {
+      "id": "c2",
+      "word": "sembler",
+      "ipa": "/sɑ̃.ble/",
+      "pos": "v.",
+      "meaning": "to seem",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "semble",
+          "ipa": "/ʒə sɑ̃bl/"
+        },
+        {
+          "p": "tu",
+          "f": "sembles",
+          "ipa": "/ty sɑ̃bl/"
+        },
+        {
+          "p": "il / elle",
+          "f": "semble",
+          "ipa": "/il sɑ̃bl/"
+        },
+        {
+          "p": "nous",
+          "f": "semblons",
+          "ipa": "/nu sɑ̃.blɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "semblez",
+          "ipa": "/vu sɑ̃.ble/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "semblent",
+          "ipa": "/il sɑ̃bl/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il me semble que la fin est faible.",
+          "en": "It seems to me the ending is weak."
+        },
+        {
+          "target": "Ça semble facile.",
+          "en": "It seems easy."
+        }
+      ],
+      "note": "'Il me semble que' softens an opinion."
+    },
+    {
+      "id": "c3",
+      "word": "être",
+      "ipa": "/ɛtʁ/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "suis",
+          "ipa": "/ʒə sɥi/"
+        },
+        {
+          "p": "tu",
+          "f": "es",
+          "ipa": "/ty ɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "est",
+          "ipa": "/il ɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "sommes",
+          "ipa": "/nu sɔm/"
+        },
+        {
+          "p": "vous",
+          "f": "êtes",
+          "ipa": "/vu zɛt/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "sont",
+          "ipa": "/il sɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous sommes enfin d'accord !",
+          "en": "We finally agree!"
+        },
+        {
+          "target": "Les acteurs sont remarquables.",
+          "en": "The actors are remarkable."
+        }
+      ],
+      "note": "Nous sommes d'accord = we agree."
+    }
+  ]
+}

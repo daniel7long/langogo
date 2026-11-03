@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have to",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "dois",
+          "ipa": "/ʒə dwa/"
+        },
+        {
+          "p": "tu",
+          "f": "dois",
+          "ipa": "/ty dwa/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "doit",
+          "ipa": "/il dwa/"
+        },
+        {
+          "p": "nous",
+          "f": "devons",
+          "ipa": "/nu də.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "devez",
+          "ipa": "/vu də.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "doivent",
+          "ipa": "/il dwav/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je dois encore résumer les résultats.",
+          "en": "I still have to summarize the results."
+        },
+        {
+          "target": "Nous devons finir.",
+          "en": "We must finish."
+        }
+      ],
+      "note": "Je dois encore = I still have to."
+    },
+    {
+      "id": "c2",
+      "word": "garder",
+      "ipa": "/ɡaʁ.de/",
+      "pos": "v.",
+      "meaning": "to keep",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "garderai",
+          "ipa": "/ʒə ɡaʁ.də.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "garderas",
+          "ipa": "/ty ɡaʁ.də.ʁa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "gardera",
+          "ipa": "/il ɡaʁ.də.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "garderons",
+          "ipa": "/nu ɡaʁ.də.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "garderez",
+          "ipa": "/vu ɡaʁ.də.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "garderont",
+          "ipa": "/il ɡaʁ.də.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je garderai cinq minutes à la fin.",
+          "en": "I'll keep five minutes at the end."
+        },
+        {
+          "target": "Nous garderons le temps.",
+          "en": "We'll keep the time."
+        }
+      ],
+      "note": "Regular future: infinitive + endings."
+    },
+    {
+      "id": "c3",
+      "word": "aller + infinitif",
+      "ipa": "/a.le/",
+      "pos": "v.",
+      "meaning": "to be going to",
+      "tense": "Near future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "vais dire",
+          "ipa": "/ʒə vɛ diʁ/"
+        },
+        {
+          "p": "tu",
+          "f": "vas dire",
+          "ipa": "/ty va diʁ/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "va dire",
+          "ipa": "/il va diʁ/"
+        },
+        {
+          "p": "nous",
+          "f": "allons dire",
+          "ipa": "/nu za.lɔ̃ diʁ/"
+        },
+        {
+          "p": "vous",
+          "f": "allez dire",
+          "ipa": "/vu za.le diʁ/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "vont dire",
+          "ipa": "/il vɔ̃ diʁ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je vais le dire dès le début.",
+          "en": "I'm going to say it from the start."
+        },
+        {
+          "target": "Nous allons présenter.",
+          "en": "We're going to present."
+        }
+      ],
+      "note": "Aller + infinitive for plans."
+    }
+  ]
+}

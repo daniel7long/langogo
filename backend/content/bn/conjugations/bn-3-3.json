@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "নেওয়া",
+      "ipa": "neoa · /neoa/",
+      "pos": "v.",
+      "meaning": "to take, to buy",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "নেব",
+          "ipa": "nebo"
+        },
+        {
+          "p": "তুমি",
+          "f": "নেবে",
+          "ipa": "nebe"
+        },
+        {
+          "p": "সে",
+          "f": "নেবে",
+          "ipa": "nebe"
+        },
+        {
+          "p": "আপনি",
+          "f": "নেবেন",
+          "ipa": "neben"
+        },
+        {
+          "p": "আমরা",
+          "f": "নেব",
+          "ipa": "nebo"
+        }
+      ],
+      "examples": [
+        {
+          "target": "ফল নেবে?",
+          "en": "Will you take fruit?"
+        },
+        {
+          "target": "আমি আলু নেব।",
+          "en": "I will take potatoes."
+        }
+      ],
+      "note": "'ফল নেবে?' = will you take fruit?"
+    },
+    {
+      "id": "c2",
+      "word": "থাকা",
+      "ipa": "thaka · /tʰaka/",
+      "pos": "v.",
+      "meaning": "to be there",
+      "tense": "Present (আছে)",
+      "forms": [
+        {
+          "p": "ফল",
+          "f": "আছে",
+          "ipa": "atʃʰe"
+        },
+        {
+          "p": "আলু",
+          "f": "আছে",
+          "ipa": "atʃʰe"
+        },
+        {
+          "p": "আটা",
+          "f": "নেই (not)",
+          "ipa": "nei"
+        },
+        {
+          "p": "তালিকায় দুধ",
+          "f": "আছে",
+          "ipa": "atʃʰe"
+        },
+        {
+          "p": "বাজারে সবজি",
+          "f": "আছে",
+          "ipa": "atʃʰe"
+        }
+      ],
+      "examples": [
+        {
+          "target": "তালিকায় দুধ আছে।",
+          "en": "Milk is on the list."
+        },
+        {
+          "target": "বাসায় আটা নেই।",
+          "en": "There is no flour at home."
+        }
+      ],
+      "note": "আছে = there is; নেই = there isn't."
+    }
+  ]
+}

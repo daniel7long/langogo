@@ -1,0 +1,126 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "can",
+      "ipa": "/kæn/",
+      "pos": "v. (modal)",
+      "meaning": "to say what is possible",
+      "tense": "Possibility with can",
+      "forms": [
+        {
+          "p": "I",
+          "f": "can",
+          "ipa": "/aɪ kæn/"
+        },
+        {
+          "p": "you",
+          "f": "can",
+          "ipa": "/ju kæn/"
+        },
+        {
+          "p": "he / she",
+          "f": "can",
+          "ipa": "/hi kæn/"
+        },
+        {
+          "p": "we",
+          "f": "can",
+          "ipa": "/wi kæn/"
+        },
+        {
+          "p": "they",
+          "f": "can",
+          "ipa": "/ðeɪ kæn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "We can recycle paper."
+        },
+        {
+          "target": "You can save energy."
+        }
+      ],
+      "note": "Use 'we can + verb' for ideas to help."
+    },
+    {
+      "id": "c2",
+      "word": "recycle",
+      "ipa": "/riːˈsaɪkl/",
+      "pos": "v.",
+      "meaning": "to use things again",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "recycle",
+          "ipa": "/aɪ riːˈsaɪkl/"
+        },
+        {
+          "p": "you",
+          "f": "recycle",
+          "ipa": "/ju riːˈsaɪkl/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "recycles",
+          "ipa": "/hi riːˈsaɪklz/"
+        },
+        {
+          "p": "we",
+          "f": "recycle",
+          "ipa": "/wi riːˈsaɪkl/"
+        },
+        {
+          "p": "they",
+          "f": "recycle",
+          "ipa": "/ðeɪ riːˈsaɪkl/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I recycle plastic."
+        },
+        {
+          "target": "She recycles paper."
+        }
+      ],
+      "note": "Add -s after he / she / it."
+    },
+    {
+      "id": "c3",
+      "word": "will",
+      "ipa": "/wɪl/",
+      "pos": "v. (modal)",
+      "meaning": "to talk about the future",
+      "tense": "First conditional: if + present, will + verb",
+      "forms": [
+        {
+          "p": "If we work together,",
+          "f": "the future will be better",
+          "ipa": "/ɪf wi wɜrk təˈɡeðər/"
+        },
+        {
+          "p": "If I recycle,",
+          "f": "I will help",
+          "ipa": "/ɪf aɪ riːˈsaɪkl/"
+        },
+        {
+          "p": "If you save energy,",
+          "f": "you will pay less",
+          "ipa": "/ɪf ju seɪv ˈenərdʒi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "If we work together, the future will be better."
+        },
+        {
+          "target": "If I recycle, I will help."
+        }
+      ],
+      "note": "If + present simple, then will + plain verb."
+    }
+  ]
+}

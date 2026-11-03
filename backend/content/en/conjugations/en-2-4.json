@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "be going to",
+      "ipa": "/bi ˈɡoʊɪŋ tu/",
+      "pos": "v. phr.",
+      "meaning": "to talk about a plan for the future",
+      "tense": "Future plans",
+      "forms": [
+        {
+          "p": "I",
+          "f": "am going to",
+          "ipa": "/aɪ æm ˈɡoʊɪŋ tu/"
+        },
+        {
+          "p": "you",
+          "f": "are going to",
+          "ipa": "/ju ɑr ˈɡoʊɪŋ tu/"
+        },
+        {
+          "p": "he / she",
+          "f": "is going to",
+          "ipa": "/hi ɪz ˈɡoʊɪŋ tu/"
+        },
+        {
+          "p": "we",
+          "f": "are going to",
+          "ipa": "/wi ɑr ˈɡoʊɪŋ tu/"
+        },
+        {
+          "p": "they",
+          "f": "are going to",
+          "ipa": "/ðeɪ ɑr ˈɡoʊɪŋ tu/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I am going to cook dinner."
+        },
+        {
+          "target": "They are going to visit us."
+        }
+      ],
+      "note": "Use am / is / are going to + verb for plans you already have."
+    },
+    {
+      "id": "c2",
+      "word": "will",
+      "ipa": "/wɪl/",
+      "pos": "v. (modal)",
+      "meaning": "to talk about the future or to make a promise",
+      "tense": "Future with will",
+      "forms": [
+        {
+          "p": "I",
+          "f": "will",
+          "ipa": "/aɪ wɪl/"
+        },
+        {
+          "p": "you",
+          "f": "will",
+          "ipa": "/ju wɪl/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "will",
+          "ipa": "/hi wɪl/"
+        },
+        {
+          "p": "we",
+          "f": "will",
+          "ipa": "/wi wɪl/"
+        },
+        {
+          "p": "they",
+          "f": "will",
+          "ipa": "/ðeɪ wɪl/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I will call you tomorrow."
+        },
+        {
+          "target": "We will watch a movie."
+        }
+      ],
+      "note": "'Will' never changes. Use it with the base verb: I will call."
+    }
+  ]
+}

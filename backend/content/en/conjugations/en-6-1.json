@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "agree",
+      "ipa": "/əˈɡriː/",
+      "pos": "v.",
+      "meaning": "to have the same idea",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "agree",
+          "ipa": "/aɪ əˈɡriː/"
+        },
+        {
+          "p": "you",
+          "f": "agree",
+          "ipa": "/ju əˈɡriː/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "agrees",
+          "ipa": "/hi əˈɡriːz/"
+        },
+        {
+          "p": "we",
+          "f": "agree",
+          "ipa": "/wi əˈɡriː/"
+        },
+        {
+          "p": "they",
+          "f": "agree",
+          "ipa": "/ðeɪ əˈɡriː/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I agree with it."
+        },
+        {
+          "target": "She agrees with me."
+        }
+      ],
+      "note": "Say 'agree with' a person: I agree with you."
+    },
+    {
+      "id": "c2",
+      "word": "believe",
+      "ipa": "/bɪˈliːv/",
+      "pos": "v.",
+      "meaning": "to think something is true",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "believe",
+          "ipa": "/aɪ bɪˈliːv/"
+        },
+        {
+          "p": "you",
+          "f": "believe",
+          "ipa": "/ju bɪˈliːv/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "believes",
+          "ipa": "/hi bɪˈliːvz/"
+        },
+        {
+          "p": "we",
+          "f": "believe",
+          "ipa": "/wi bɪˈliːv/"
+        },
+        {
+          "p": "they",
+          "f": "believe",
+          "ipa": "/ðeɪ bɪˈliːv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I believe people are happy."
+        },
+        {
+          "target": "He believes you."
+        }
+      ],
+      "note": "Believe that + sentence: I believe people are happier."
+    },
+    {
+      "id": "c3",
+      "word": "can",
+      "ipa": "/kæn/",
+      "pos": "v. (modal)",
+      "meaning": "to say that something is possible",
+      "tense": "Possibility with can",
+      "forms": [
+        {
+          "p": "I",
+          "f": "can",
+          "ipa": "/aɪ kæn/"
+        },
+        {
+          "p": "you",
+          "f": "can",
+          "ipa": "/ju kæn/"
+        },
+        {
+          "p": "he / she",
+          "f": "can",
+          "ipa": "/hi kæn/"
+        },
+        {
+          "p": "we",
+          "f": "can",
+          "ipa": "/wi kæn/"
+        },
+        {
+          "p": "they",
+          "f": "can",
+          "ipa": "/ðeɪ kæn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Maybe we can find a middle."
+        },
+        {
+          "target": "We can try again."
+        }
+      ],
+      "note": "Maybe + we can... suggests a possible idea."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "akan",
+      "ipa": "/ˈa.kan/",
+      "pos": "adv.",
+      "meaning": "will (future)",
+      "tense": "Future with 'akan'",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya akan jalan-jalan",
+          "ipa": "/ˈsa.ja ˈa.kan ˈdʒa.lan ˈdʒa.lan/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu akan jalan-jalan",
+          "ipa": "/ˈka.mu ˈa.kan ˈdʒa.lan ˈdʒa.lan/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia akan jalan-jalan",
+          "ipa": "/ˈdi.a ˈa.kan ˈdʒa.lan ˈdʒa.lan/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami akan jalan-jalan",
+          "ipa": "/ˈka.mi ˈa.kan ˈdʒa.lan ˈdʒa.lan/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka akan jalan-jalan",
+          "ipa": "/mə.ˈrɛ.ka ˈa.kan ˈdʒa.lan ˈdʒa.lan/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Kita akan jalan-jalan.",
+          "en": "We will stroll around."
+        },
+        {
+          "target": "Dia akan datang.",
+          "en": "He will come."
+        }
+      ],
+      "note": "'Akan' goes before the verb. In speech you can use a time word instead."
+    },
+    {
+      "id": "c2",
+      "word": "kita / kami",
+      "ipa": "/ˈki.ta / ˈka.mi/",
+      "pos": "pron.",
+      "meaning": "we (you included / excluded)",
+      "tense": "Two kinds of 'we'",
+      "forms": [
+        {
+          "p": "kita",
+          "f": "you + me",
+          "ipa": "/ˈki.ta/"
+        },
+        {
+          "p": "kami",
+          "f": "me + others, not you",
+          "ipa": "/ˈka.mi/"
+        },
+        {
+          "p": "Kita nonton",
+          "f": "Let's watch (together)",
+          "ipa": "/ˈki.ta ˈnon.ton/"
+        },
+        {
+          "p": "Kami nonton",
+          "f": "We watch (without you)",
+          "ipa": "/ˈka.mi ˈnon.ton/"
+        },
+        {
+          "p": "Kita pergi",
+          "f": "We go (with you)",
+          "ipa": "/ˈki.ta ˈpər.ɡi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Kita nonton film bersama?",
+          "en": "Shall we watch a film together?"
+        },
+        {
+          "target": "Kami pergi besok.",
+          "en": "We go tomorrow."
+        }
+      ],
+      "note": "Use 'kita' when the listener is part of the group."
+    }
+  ]
+}

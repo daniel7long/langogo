@@ -1,0 +1,152 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, may",
+      "tense": "Formal question",
+      "forms": [
+        {
+          "p": "puis-je",
+          "f": "faire",
+          "ipa": "/pɥiʒ fɛʁ/"
+        },
+        {
+          "p": "peux-tu",
+          "f": "faire",
+          "ipa": "/pø ty fɛʁ/"
+        },
+        {
+          "p": "peut-il",
+          "f": "faire",
+          "ipa": "/pø.til fɛʁ/"
+        },
+        {
+          "p": "pouvons-nous",
+          "f": "faire",
+          "ipa": "/pu.vɔ̃ nu fɛʁ/"
+        },
+        {
+          "p": "pouvez-vous",
+          "f": "faire",
+          "ipa": "/pu.ve vu fɛʁ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Que puis-je faire pour vous ?",
+          "en": "What can I do for you?"
+        },
+        {
+          "target": "Pouvez-vous m'aider ?",
+          "en": "Can you help me?"
+        }
+      ],
+      "note": "'Puis-je' is the formal 'may I'."
+    },
+    {
+      "id": "c2",
+      "word": "vouloir",
+      "ipa": "/vu.lwaʁ/",
+      "pos": "v.",
+      "meaning": "to want",
+      "tense": "Conditional (polite)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "voudrais",
+          "ipa": "/ʒə vu.dʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "voudrais",
+          "ipa": "/ty vu.dʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "voudrait",
+          "ipa": "/il vu.dʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "voudrions",
+          "ipa": "/nu vu.dʁi.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "voudriez",
+          "ipa": "/vu vu.dʁi.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "voudraient",
+          "ipa": "/il vu.dʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je voudrais déposer une réclamation.",
+          "en": "I would like to file a complaint."
+        },
+        {
+          "target": "Nous voudrions un remboursement.",
+          "en": "We would like a refund."
+        }
+      ],
+      "note": "Je voudrais déposer = I would like to submit."
+    },
+    {
+      "id": "c3",
+      "word": "s'arrêter",
+      "ipa": "/sa.ʁɛ.te/",
+      "pos": "v.",
+      "meaning": "to stop",
+      "tense": "Present (reflexive)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "m'arrête",
+          "ipa": "/ʒə ma.ʁɛt/"
+        },
+        {
+          "p": "tu",
+          "f": "t'arrêtes",
+          "ipa": "/ty ta.ʁɛt/"
+        },
+        {
+          "p": "il / elle",
+          "f": "s'arrête",
+          "ipa": "/il sa.ʁɛt/"
+        },
+        {
+          "p": "nous",
+          "f": "nous arrêtons",
+          "ipa": "/nu za.ʁɛ.tɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "vous arrêtez",
+          "ipa": "/vu za.ʁɛ.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "s'arrêtent",
+          "ipa": "/il sa.ʁɛt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il s'arrête après cinq minutes.",
+          "en": "It stops after five minutes."
+        },
+        {
+          "target": "Je m'arrête ici.",
+          "en": "I'm stopping here."
+        }
+      ],
+      "note": "S'arrêter = to stop (by itself)."
+    }
+  ]
+}

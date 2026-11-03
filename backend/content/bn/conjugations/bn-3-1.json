@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "দেওয়া",
+      "ipa": "deoa · /deoa/",
+      "pos": "v.",
+      "meaning": "to give",
+      "tense": "Requests (imperative)",
+      "forms": [
+        {
+          "p": "আপনি (polite)",
+          "f": "দিন",
+          "ipa": "din"
+        },
+        {
+          "p": "তুমি (friend)",
+          "f": "দাও",
+          "ipa": "dao"
+        },
+        {
+          "p": "তুই (very close)",
+          "f": "দে",
+          "ipa": "de"
+        },
+        {
+          "p": "Example",
+          "f": "এক কাপ চা দিন",
+          "ipa": "ek kap tʃa din"
+        },
+        {
+          "p": "Example",
+          "f": "একটু চিনি দাও",
+          "ipa": "ekʈu tʃini dao"
+        }
+      ],
+      "examples": [
+        {
+          "target": "এক কাপ চা দিন।",
+          "en": "Please give a cup of tea."
+        },
+        {
+          "target": "একটা সিঙাড়াও দিন।",
+          "en": "Give a samosa too."
+        }
+      ],
+      "note": "Use দিন to a stranger; দাও to a friend."
+    },
+    {
+      "id": "c2",
+      "word": "চাওয়া",
+      "ipa": "chaoa · /tʃaoa/",
+      "pos": "v.",
+      "meaning": "to want",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "চাই",
+          "ipa": "tʃai"
+        },
+        {
+          "p": "তুমি",
+          "f": "চাও",
+          "ipa": "tʃao"
+        },
+        {
+          "p": "সে",
+          "f": "চায়",
+          "ipa": "tʃai̯"
+        },
+        {
+          "p": "আপনি",
+          "f": "চান",
+          "ipa": "tʃan"
+        },
+        {
+          "p": "আমরা",
+          "f": "চাই",
+          "ipa": "tʃai"
+        }
+      ],
+      "examples": [
+        {
+          "target": "দুধ দিয়ে চা চাই।",
+          "en": "I want tea with milk."
+        },
+        {
+          "target": "আপনি কী চান?",
+          "en": "What do you want?"
+        }
+      ],
+      "note": "'আমি চা চাই' = I want tea."
+    }
+  ]
+}

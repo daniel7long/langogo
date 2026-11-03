@@ -1,0 +1,237 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "wake up",
+      "ipa": "/weɪk ʌp/",
+      "pos": "phr. v.",
+      "meaning": "to stop sleeping",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I wake up at six."
+        },
+        {
+          "target": "He wakes up early."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "get up",
+      "ipa": "/ɡet ʌp/",
+      "pos": "phr. v.",
+      "meaning": "to leave your bed",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I get up at seven."
+        },
+        {
+          "target": "Please get up now."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "shower",
+      "ipa": "/ˈʃaʊər/",
+      "pos": "n.",
+      "meaning": "a way to wash your body with falling water",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I take a shower every day."
+        },
+        {
+          "target": "The shower is hot."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "breakfast",
+      "ipa": "/ˈbrekfəst/",
+      "pos": "n.",
+      "meaning": "the first meal of the day",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I eat breakfast at eight."
+        },
+        {
+          "target": "Breakfast is ready!"
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "coffee",
+      "ipa": "/ˈkɔːfi/",
+      "pos": "n.",
+      "meaning": "a hot brown drink that helps you feel awake",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I drink coffee in the morning."
+        },
+        {
+          "target": "A coffee, please."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "leave",
+      "ipa": "/liːv/",
+      "pos": "v.",
+      "meaning": "to go away from a place",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I leave home at nine."
+        },
+        {
+          "target": "The train leaves soon."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "usually",
+      "ipa": "/ˈjuːʒuəli/",
+      "pos": "adv.",
+      "meaning": "most of the time",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I usually walk to work."
+        },
+        {
+          "target": "She usually eats at home."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Anna",
+      "role": "npc",
+      "text": "What time do you wake up?",
+      "glosses": [
+        {
+          "text": "wake up",
+          "pos": "phr. v.",
+          "meaning": "to stop sleeping"
+        }
+      ],
+      "en": "At what hour do you stop sleeping?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "I usually wake up at seven. Then I take a shower.",
+      "glosses": [
+        {
+          "text": "wake up",
+          "pos": "phr. v.",
+          "meaning": "to stop sleeping"
+        },
+        {
+          "text": "shower",
+          "pos": "n.",
+          "meaning": "a way to wash your body with falling water"
+        },
+        {
+          "text": "usually",
+          "pos": "adv.",
+          "meaning": "most of the time"
+        }
+      ],
+      "en": "Most days I wake up at 7 and then wash in the shower."
+    },
+    {
+      "id": "t3",
+      "speaker": "Anna",
+      "role": "npc",
+      "text": "Do you have breakfast at home?",
+      "glosses": [
+        {
+          "text": "breakfast",
+          "pos": "n.",
+          "meaning": "the first meal of the day"
+        }
+      ],
+      "en": "Do you eat the first meal at home?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, I have breakfast and a coffee at home.",
+      "glosses": [
+        {
+          "text": "breakfast",
+          "pos": "n.",
+          "meaning": "the first meal of the day"
+        },
+        {
+          "text": "coffee",
+          "pos": "n.",
+          "meaning": "a hot brown drink that helps you feel awake"
+        }
+      ],
+      "en": "Yes, I eat the first meal and drink a coffee at home."
+    },
+    {
+      "id": "t5",
+      "speaker": "Anna",
+      "role": "npc",
+      "text": "I leave at eight. And you?",
+      "glosses": [
+        {
+          "text": "leave",
+          "pos": "v.",
+          "meaning": "to go away from a place"
+        }
+      ],
+      "en": "I go out at 8 o'clock. What about you?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "I leave at nine. I get up late!",
+      "glosses": [
+        {
+          "text": "get up",
+          "pos": "phr. v.",
+          "meaning": "to leave your bed"
+        },
+        {
+          "text": "leave",
+          "pos": "v.",
+          "meaning": "to go away from a place"
+        }
+      ],
+      "en": "I go out at 9. I leave my bed late!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "usually",
+      "tip": "Say YOO-zhoo-uh-lee with a soft 'zh' in the middle"
+    },
+    {
+      "id": "w2",
+      "text": "breakfast",
+      "tip": "Say BREK-fuhst: the 'ea' is a short 'e'"
+    }
+  ]
+}

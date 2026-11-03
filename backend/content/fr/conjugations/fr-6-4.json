@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "acheter",
+      "ipa": "/aʃ.te/",
+      "pos": "v.",
+      "meaning": "to buy",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "achète",
+          "ipa": "/ʒa.ʃɛt/"
+        },
+        {
+          "p": "tu",
+          "f": "achètes",
+          "ipa": "/ty a.ʃɛt/"
+        },
+        {
+          "p": "il / elle",
+          "f": "achète",
+          "ipa": "/il a.ʃɛt/"
+        },
+        {
+          "p": "nous",
+          "f": "achetons",
+          "ipa": "/nu za.ʃ.tɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "achetez",
+          "ipa": "/vu za.ʃ.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "achètent",
+          "ipa": "/il za.ʃɛt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'achète les cadeaux.",
+          "en": "I'm buying the gifts."
+        },
+        {
+          "target": "Nous achetons un gâteau.",
+          "en": "We buy a cake."
+        }
+      ],
+      "note": "The vowel changes: è in achète, e in achetons."
+    },
+    {
+      "id": "c2",
+      "word": "être",
+      "ipa": "/ɛtʁ/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "serai",
+          "ipa": "/ʒə sə.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "seras",
+          "ipa": "/ty sə.ʁa/"
+        },
+        {
+          "p": "il / elle / ce",
+          "f": "sera",
+          "ipa": "/il sə.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "serons",
+          "ipa": "/nu sə.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "serez",
+          "ipa": "/vu sə.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "seront",
+          "ipa": "/il sə.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ce sera une belle journée.",
+          "en": "It will be a lovely day."
+        },
+        {
+          "target": "Nous serons ensemble.",
+          "en": "We'll be together."
+        }
+      ],
+      "note": "The future of être is irregular: ce sera = it will be."
+    },
+    {
+      "id": "c3",
+      "word": "aller",
+      "ipa": "/a.le/",
+      "pos": "v.",
+      "meaning": "to go",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "vais",
+          "ipa": "/ʒə vɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "vas",
+          "ipa": "/ty va/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "va",
+          "ipa": "/il va/"
+        },
+        {
+          "p": "nous",
+          "f": "allons",
+          "ipa": "/nu za.lɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "allez",
+          "ipa": "/vu za.le/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "vont",
+          "ipa": "/il vɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous allons célébrer ça.",
+          "en": "We're going to celebrate that."
+        },
+        {
+          "target": "Je vais préparer le repas.",
+          "en": "I'm going to make the meal."
+        }
+      ],
+      "note": "'Nous allons + infinitive' = we are going to."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "থাকা",
+      "ipa": "thaka · /tʰaka/",
+      "pos": "v.",
+      "meaning": "to live, to stay",
+      "tense": "Present habitual",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "থাকি",
+          "ipa": "tʰaki"
+        },
+        {
+          "p": "তুমি",
+          "f": "থাকো",
+          "ipa": "tʰako"
+        },
+        {
+          "p": "সে",
+          "f": "থাকে",
+          "ipa": "tʰake"
+        },
+        {
+          "p": "আপনি",
+          "f": "থাকেন",
+          "ipa": "tʰaken"
+        },
+        {
+          "p": "আমরা",
+          "f": "থাকি",
+          "ipa": "tʰaki"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমি ঢাকায় থাকি।",
+          "en": "I live in Dhaka."
+        },
+        {
+          "target": "আপনি কোথায় থাকেন?",
+          "en": "Where do you live?"
+        }
+      ],
+      "note": "Verb endings change with respect: তুমি থাকো (friend), আপনি থাকেন (respectful)."
+    },
+    {
+      "id": "c2",
+      "word": "আমার / আপনার",
+      "ipa": "amar / apnar · /amar / apnar/",
+      "pos": "pron.",
+      "meaning": "my / your",
+      "tense": "Possessives",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "আমার",
+          "ipa": "amar"
+        },
+        {
+          "p": "তুমি",
+          "f": "তোমার",
+          "ipa": "tomar"
+        },
+        {
+          "p": "সে",
+          "f": "তার",
+          "ipa": "tar"
+        },
+        {
+          "p": "আপনি",
+          "f": "আপনার",
+          "ipa": "apnar"
+        },
+        {
+          "p": "আমরা",
+          "f": "আমাদের",
+          "ipa": "amader"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমার নাম রিনা।",
+          "en": "My name is Rina."
+        },
+        {
+          "target": "আপনার বাড়ি কোথায়?",
+          "en": "Where is your home?"
+        }
+      ],
+      "note": "Possessives never change for gender or number."
+    }
+  ]
+}

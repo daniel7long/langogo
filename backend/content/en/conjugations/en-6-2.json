@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "be",
+      "ipa": "/bi/",
+      "pos": "v. (irregular)",
+      "meaning": "to describe something",
+      "tense": "Past simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "was",
+          "ipa": "/aɪ wʌz/"
+        },
+        {
+          "p": "you",
+          "f": "were",
+          "ipa": "/ju wɜr/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "was",
+          "ipa": "/hi wʌz/"
+        },
+        {
+          "p": "we",
+          "f": "were",
+          "ipa": "/wi wɜr/"
+        },
+        {
+          "p": "they",
+          "f": "were",
+          "ipa": "/ðeɪ wɜr/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "The plot was exciting."
+        },
+        {
+          "target": "The characters were funny."
+        }
+      ],
+      "note": "Past of be: was (I, he, she, it) and were (you, we, they)."
+    },
+    {
+      "id": "c2",
+      "word": "see",
+      "ipa": "/siː/",
+      "pos": "v. (irregular)",
+      "meaning": "to look at with your eyes",
+      "tense": "Past simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "saw",
+          "ipa": "/aɪ sɔː/"
+        },
+        {
+          "p": "you",
+          "f": "saw",
+          "ipa": "/ju sɔː/"
+        },
+        {
+          "p": "he / she",
+          "f": "saw",
+          "ipa": "/hi sɔː/"
+        },
+        {
+          "p": "we",
+          "f": "saw",
+          "ipa": "/wi sɔː/"
+        },
+        {
+          "p": "they",
+          "f": "saw",
+          "ipa": "/ðeɪ sɔː/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I saw the movie."
+        },
+        {
+          "target": "We saw it last night."
+        }
+      ],
+      "note": "Past of see is saw for all people."
+    },
+    {
+      "id": "c3",
+      "word": "recommend",
+      "ipa": "/ˌrekəˈmend/",
+      "pos": "v.",
+      "meaning": "to say that something is good",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "recommend",
+          "ipa": "/aɪ ˌrekəˈmend/"
+        },
+        {
+          "p": "you",
+          "f": "recommend",
+          "ipa": "/ju ˌrekəˈmend/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "recommends",
+          "ipa": "/hi ˌrekəˈmendz/"
+        },
+        {
+          "p": "we",
+          "f": "recommend",
+          "ipa": "/wi ˌrekəˈmend/"
+        },
+        {
+          "p": "they",
+          "f": "recommend",
+          "ipa": "/ðeɪ ˌrekəˈmend/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I recommend this book."
+        },
+        {
+          "target": "He recommends the movie."
+        }
+      ],
+      "note": "I recommend it. She recommends it."
+    }
+  ]
+}

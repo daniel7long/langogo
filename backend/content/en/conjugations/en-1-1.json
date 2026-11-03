@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "be",
+      "ipa": "/bi/",
+      "pos": "v. (irregular)",
+      "meaning": "to exist or to describe someone or something",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "am",
+          "ipa": "/aɪ æm/"
+        },
+        {
+          "p": "you",
+          "f": "are",
+          "ipa": "/ju ɑr/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "is",
+          "ipa": "/hi ɪz/"
+        },
+        {
+          "p": "we",
+          "f": "are",
+          "ipa": "/wi ɑr/"
+        },
+        {
+          "p": "they",
+          "f": "are",
+          "ipa": "/ðeɪ ɑr/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I am fine today."
+        },
+        {
+          "target": "You are very kind."
+        }
+      ],
+      "note": "'Be' changes a lot: I am, you are, he is. We use it to say how we feel."
+    },
+    {
+      "id": "c2",
+      "word": "go",
+      "ipa": "/ɡoʊ/",
+      "pos": "v.",
+      "meaning": "to move from one place to another",
+      "tense": "Present continuous (what is happening now or soon)",
+      "forms": [
+        {
+          "p": "I",
+          "f": "am going",
+          "ipa": "/aɪ æm ˈɡoʊɪŋ/"
+        },
+        {
+          "p": "you",
+          "f": "are going",
+          "ipa": "/ju ɑr ˈɡoʊɪŋ/"
+        },
+        {
+          "p": "he / she",
+          "f": "is going",
+          "ipa": "/hi ɪz ˈɡoʊɪŋ/"
+        },
+        {
+          "p": "we",
+          "f": "are going",
+          "ipa": "/wi ɑr ˈɡoʊɪŋ/"
+        },
+        {
+          "p": "they",
+          "f": "are going",
+          "ipa": "/ðeɪ ɑr ˈɡoʊɪŋ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I am going to school."
+        },
+        {
+          "target": "They are going home."
+        }
+      ],
+      "note": "Use am / is / are + verb-ing for plans and actions right now."
+    }
+  ]
+}

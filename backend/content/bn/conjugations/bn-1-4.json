@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "থাকা",
+      "ipa": "thaka · /tʰaka/",
+      "pos": "v.",
+      "meaning": "to have (exist)",
+      "tense": "'Have' pattern: …র আছে",
+      "forms": [
+        {
+          "p": "আমার",
+          "f": "আছে",
+          "ipa": "atʃʰe"
+        },
+        {
+          "p": "তোমার",
+          "f": "আছে",
+          "ipa": "atʃʰe"
+        },
+        {
+          "p": "তার",
+          "f": "আছে",
+          "ipa": "atʃʰe"
+        },
+        {
+          "p": "আপনার",
+          "f": "আছে",
+          "ipa": "atʃʰe"
+        },
+        {
+          "p": "আমাদের",
+          "f": "আছে",
+          "ipa": "atʃʰe"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমার দুই ভাই আছে।",
+          "en": "I have two brothers."
+        },
+        {
+          "target": "আপনার কয়জন ভাইবোন আছে?",
+          "en": "How many siblings do you have?"
+        }
+      ],
+      "note": "Bengali says 'to me there is': আমার দুই ভাই আছে."
+    },
+    {
+      "id": "c2",
+      "word": "এক… পাঁচ",
+      "ipa": "ek … panch · /ek … pãtʃ/",
+      "pos": "num.",
+      "meaning": "one … five",
+      "tense": "Numbers 1–5",
+      "forms": [
+        {
+          "p": "1",
+          "f": "এক",
+          "ipa": "ek"
+        },
+        {
+          "p": "2",
+          "f": "দুই",
+          "ipa": "dui̯"
+        },
+        {
+          "p": "3",
+          "f": "তিন",
+          "ipa": "tin"
+        },
+        {
+          "p": "4",
+          "f": "চার",
+          "ipa": "tʃar"
+        },
+        {
+          "p": "5",
+          "f": "পাঁচ",
+          "ipa": "pãtʃ"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমার দুই ভাই আছে।",
+          "en": "I have two brothers."
+        },
+        {
+          "target": "পাঁচটা বিড়াল!",
+          "en": "Five cats!"
+        }
+      ],
+      "note": "Add -টা to count things: পাঁচটা, দুটো."
+    }
+  ]
+}

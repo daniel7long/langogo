@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "कितना",
+      "ipa": "kitnā · /kɪtnaː/",
+      "pos": "adj.",
+      "meaning": "how much / how many",
+      "tense": "Agrees with the noun",
+      "forms": [
+        {
+          "p": "masc. sg.",
+          "f": "कितना",
+          "ipa": "kɪtnaː"
+        },
+        {
+          "p": "fem. sg.",
+          "f": "कितनी",
+          "ipa": "kɪtniː"
+        },
+        {
+          "p": "masc. pl.",
+          "f": "कितने",
+          "ipa": "kɪtneː"
+        },
+        {
+          "p": "example",
+          "f": "कितने भाई",
+          "ipa": "kɪtneː bʰaːiː"
+        },
+        {
+          "p": "example",
+          "f": "कितनी उम्र",
+          "ipa": "kɪtniː ʊmr"
+        }
+      ],
+      "examples": [
+        {
+          "target": "आपकी उम्र कितनी है?",
+          "en": "How old are you?"
+        },
+        {
+          "target": "आपके कितने भाई हैं?",
+          "en": "How many brothers do you have?"
+        }
+      ],
+      "note": "Choose कितना / कितनी / कितने to match the thing: उम्र is feminine, so कितनी."
+    },
+    {
+      "id": "c2",
+      "word": "होना",
+      "ipa": "honā · /hoːnaː/",
+      "pos": "v.",
+      "meaning": "to be (have)",
+      "tense": "'हैं' for plural things",
+      "forms": [
+        {
+          "p": "मेरा एक भाई",
+          "f": "है",
+          "ipa": "hɛː"
+        },
+        {
+          "p": "मेरे दो भाई",
+          "f": "हैं",
+          "ipa": "hɛ̃ː"
+        },
+        {
+          "p": "मेरी उम्र",
+          "f": "है",
+          "ipa": "hɛː"
+        },
+        {
+          "p": "मेरे पाँच दोस्त",
+          "f": "हैं",
+          "ipa": "hɛ̃ː"
+        },
+        {
+          "p": "मैं",
+          "f": "हूँ",
+          "ipa": "huː̃"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मेरे दो भाई हैं।",
+          "en": "I have two brothers."
+        },
+        {
+          "target": "मेरी उम्र तीस साल है।",
+          "en": "I am thirty."
+        }
+      ],
+      "note": "Use है for one, हैं for many (and for respect)."
+    }
+  ]
+}

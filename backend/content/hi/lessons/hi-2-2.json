@@ -1,0 +1,251 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "समय",
+      "ipa": "samay · /səməj/",
+      "pos": "n.",
+      "meaning": "time",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "अभी क्या समय है?",
+          "en": "What time is it now?"
+        },
+        {
+          "target": "मेरे पास समय नहीं है।",
+          "en": "I don't have time."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "बजे",
+      "ipa": "baje · /bədʒeː/",
+      "pos": "n.",
+      "meaning": "o'clock",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "दो बजे हैं।",
+          "en": "It is two o'clock."
+        },
+        {
+          "target": "मैं सात बजे आऊँगा।",
+          "en": "I will come at seven."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "घड़ी",
+      "ipa": "ghaṛī · /ɡʰəɽiː/",
+      "pos": "n.",
+      "meaning": "watch, clock",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मेरी घड़ी तेज़ है।",
+          "en": "My watch is fast."
+        },
+        {
+          "target": "घड़ी दीवार पर है।",
+          "en": "The clock is on the wall."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "अभी",
+      "ipa": "abhī · /əbʰiː/",
+      "pos": "adv.",
+      "meaning": "now, just now",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "अभी आता हूँ।",
+          "en": "I am coming right now."
+        },
+        {
+          "target": "अभी नहीं।",
+          "en": "Not now."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "आधा",
+      "ipa": "ādhā · /aːdʰaː/",
+      "pos": "adj.",
+      "meaning": "half",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "आधा घंटा रुको।",
+          "en": "Wait half an hour."
+        },
+        {
+          "target": "साढ़े आठ बजे हैं।",
+          "en": "It is half past eight."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "देर",
+      "ipa": "der · /deːr/",
+      "pos": "n.",
+      "meaning": "delay, lateness",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मुझे देर हो गई।",
+          "en": "I am late."
+        },
+        {
+          "target": "देर मत करो।",
+          "en": "Don't be late."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "घंटा",
+      "ipa": "ghaṇṭā · /ɡʰəɳʈaː/",
+      "pos": "n.",
+      "meaning": "hour",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "एक घंटा लगेगा।",
+          "en": "It will take one hour."
+        },
+        {
+          "target": "दो घंटे बाद मिलेंगे।",
+          "en": "We will meet in two hours."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Kabir",
+      "role": "npc",
+      "text": "सुनिए, अभी क्या समय हुआ है?",
+      "glosses": [
+        {
+          "text": "समय",
+          "pos": "n.",
+          "meaning": "time"
+        },
+        {
+          "text": "अभी",
+          "pos": "adv.",
+          "meaning": "now, just now"
+        }
+      ],
+      "en": "Excuse me, what time is it now?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "मेरी घड़ी में तीन बजे हैं।",
+      "glosses": [
+        {
+          "text": "बजे",
+          "pos": "n.",
+          "meaning": "o'clock"
+        },
+        {
+          "text": "घड़ी",
+          "pos": "n.",
+          "meaning": "watch, clock"
+        }
+      ],
+      "en": "My watch says three o'clock."
+    },
+    {
+      "id": "t3",
+      "speaker": "Kabir",
+      "role": "npc",
+      "text": "ओह! मुझे देर हो गई। मीटिंग साढ़े तीन बजे है।",
+      "glosses": [
+        {
+          "text": "बजे",
+          "pos": "n.",
+          "meaning": "o'clock"
+        },
+        {
+          "text": "देर",
+          "pos": "n.",
+          "meaning": "delay, lateness"
+        }
+      ],
+      "en": "Oh! I am late. The meeting is at half past three."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "चिंता मत कीजिए, आधा घंटा है।",
+      "glosses": [
+        {
+          "text": "आधा",
+          "pos": "adj.",
+          "meaning": "half"
+        },
+        {
+          "text": "घंटा",
+          "pos": "n.",
+          "meaning": "hour"
+        }
+      ],
+      "en": "Don't worry, there is half an hour."
+    },
+    {
+      "id": "t5",
+      "speaker": "Kabir",
+      "role": "npc",
+      "text": "सिर्फ़ एक घंटा लगेगा न?",
+      "glosses": [
+        {
+          "text": "घंटा",
+          "pos": "n.",
+          "meaning": "hour"
+        }
+      ],
+      "en": "It will only take one hour, right?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "जी हाँ, बस एक घंटा।",
+      "glosses": [
+        {
+          "text": "घंटा",
+          "pos": "n.",
+          "meaning": "hour"
+        }
+      ],
+      "en": "Yes, just one hour."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "घड़ी",
+      "tip": "The 'ṛ' is a flapped r: ghə-RHEE"
+    },
+    {
+      "id": "w2",
+      "text": "समय",
+      "tip": "Say sə-məy; short vowels"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "emoji": "👋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "halo",
+      "ipa": "/ˈha.lo/",
+      "pos": "interj.",
+      "meaning": "hello",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Halo, Budi!",
+          "en": "Hello, Budi!"
+        },
+        {
+          "target": "Halo semuanya.",
+          "en": "Hello everyone."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "apa kabar",
+      "ipa": "/ˈa.pa ˈka.bar/",
+      "pos": "phr.",
+      "meaning": "how are you?",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Halo, apa kabar?",
+          "en": "Hi, how are you?"
+        },
+        {
+          "target": "Apa kabar keluargamu?",
+          "en": "How is your family?"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "baik",
+      "ipa": "/ˈba.ik/",
+      "pos": "adj.",
+      "meaning": "good, well, fine",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya baik-baik saja.",
+          "en": "I am just fine."
+        },
+        {
+          "target": "Dia orang yang baik.",
+          "en": "He is a good person."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "terima kasih",
+      "ipa": "/tə.ˈri.ma ˈka.sih/",
+      "pos": "phr.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Terima kasih banyak.",
+          "en": "Thank you very much."
+        },
+        {
+          "target": "Terima kasih, Bu.",
+          "en": "Thank you, ma'am."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "senang",
+      "ipa": "/ˈsə.naŋ/",
+      "pos": "adj.",
+      "meaning": "happy, glad",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya senang hari ini.",
+          "en": "I am happy today."
+        },
+        {
+          "target": "Senang bertemu kamu.",
+          "en": "Nice to meet you."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "sampai jumpa",
+      "ipa": "/ˈsam.paj ˈdʒum.pa/",
+      "pos": "phr.",
+      "meaning": "goodbye, see you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Sampai jumpa besok!",
+          "en": "See you tomorrow!"
+        },
+        {
+          "target": "Sampai jumpa lagi.",
+          "en": "See you again."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "kamu",
+      "ipa": "/ˈka.mu/",
+      "pos": "pron.",
+      "meaning": "you (informal)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Kamu dari mana?",
+          "en": "Where are you from?"
+        },
+        {
+          "target": "Apa kabar kamu?",
+          "en": "How are you?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Budi",
+      "role": "npc",
+      "text": "Halo! Apa kabar?",
+      "glosses": [
+        {
+          "text": "Halo",
+          "pos": "interj.",
+          "meaning": "hello"
+        },
+        {
+          "text": "Apa kabar",
+          "pos": "phr.",
+          "meaning": "how are you?"
+        }
+      ],
+      "en": "Hello! How are you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Halo! Kabar baik, terima kasih. Kamu?",
+      "glosses": [
+        {
+          "text": "Halo",
+          "pos": "interj.",
+          "meaning": "hello"
+        },
+        {
+          "text": "baik",
+          "pos": "adj.",
+          "meaning": "good, well, fine"
+        },
+        {
+          "text": "terima kasih",
+          "pos": "phr.",
+          "meaning": "thank you"
+        }
+      ],
+      "en": "Hello! I am well, thank you. And you?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Budi",
+      "role": "npc",
+      "text": "Saya baik juga. Senang bertemu denganmu.",
+      "glosses": [
+        {
+          "text": "baik",
+          "pos": "adj.",
+          "meaning": "good, well, fine"
+        },
+        {
+          "text": "Senang",
+          "pos": "adj.",
+          "meaning": "happy, glad"
+        }
+      ],
+      "en": "I am well too. Nice to meet you."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Saya juga senang bertemu denganmu.",
+      "glosses": [
+        {
+          "text": "senang",
+          "pos": "adj.",
+          "meaning": "happy, glad"
+        }
+      ],
+      "en": "I am glad to meet you too."
+    },
+    {
+      "id": "t5",
+      "speaker": "Budi",
+      "role": "npc",
+      "text": "Sekarang saya harus pergi. Sampai jumpa!",
+      "glosses": [
+        {
+          "text": "Sampai jumpa",
+          "pos": "phr.",
+          "meaning": "goodbye, see you"
+        }
+      ],
+      "en": "Now I must go. See you!"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ya, sampai jumpa lagi!",
+      "glosses": [
+        {
+          "text": "sampai jumpa",
+          "pos": "phr.",
+          "meaning": "goodbye, see you"
+        }
+      ],
+      "en": "Yes, see you again!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "terima kasih",
+      "tip": "Say tə-REE-ma KA-sih; the 'h' at the end is light"
+    },
+    {
+      "id": "w2",
+      "text": "senang",
+      "tip": "The final 'ng' is a nasal sound like in 'sing'"
+    }
+  ]
+}

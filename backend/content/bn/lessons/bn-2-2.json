@@ -1,0 +1,251 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "সময়",
+      "ipa": "shomoy · /ʃɔmɔj/",
+      "pos": "n.",
+      "meaning": "time",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "এখন কী সময়?",
+          "en": "What time is it now?"
+        },
+        {
+          "target": "আমার সময় নেই।",
+          "en": "I have no time."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "ঘড়ি",
+      "ipa": "ghori · /ɡʱɔɽi/",
+      "pos": "n.",
+      "meaning": "clock, watch",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমার ঘড়ি দ্রুত চলে।",
+          "en": "My watch runs fast."
+        },
+        {
+          "target": "ঘড়ি দেয়ালে।",
+          "en": "The clock is on the wall."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "এখন",
+      "ipa": "ekhon · /ekʰon/",
+      "pos": "adv.",
+      "meaning": "now",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "এখন আসছি।",
+          "en": "I'm coming now."
+        },
+        {
+          "target": "এখন নয়।",
+          "en": "Not now."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "বাজে",
+      "ipa": "baje · /badʒe/",
+      "pos": "v.",
+      "meaning": "it strikes (time)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "তিনটা বাজে।",
+          "en": "It is three o'clock."
+        },
+        {
+          "target": "কয়টা বাজে?",
+          "en": "What time is it?"
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "সাড়ে",
+      "ipa": "share · /ʃaɽe/",
+      "pos": "adv.",
+      "meaning": "half past",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "সাড়ে তিনটা বাজে।",
+          "en": "It is half past three."
+        },
+        {
+          "target": "সাড়ে আটটায় আসুন।",
+          "en": "Come at half past eight."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "দেরি",
+      "ipa": "deri · /deri/",
+      "pos": "n.",
+      "meaning": "delay, lateness",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমার দেরি হয়ে গেছে।",
+          "en": "I am late."
+        },
+        {
+          "target": "দেরি করবেন না।",
+          "en": "Don't be late."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "ঘণ্টা",
+      "ipa": "ghonta · /ɡʱɔnʈa/",
+      "pos": "n.",
+      "meaning": "hour",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "এক ঘণ্টা লাগবে।",
+          "en": "It will take an hour."
+        },
+        {
+          "target": "দুই ঘণ্টা পরে দেখা হবে।",
+          "en": "We'll meet in two hours."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "এখন কয়টা বাজে?",
+      "glosses": [
+        {
+          "text": "এখন",
+          "pos": "adv.",
+          "meaning": "now"
+        },
+        {
+          "text": "বাজে",
+          "pos": "v.",
+          "meaning": "it strikes (time)"
+        }
+      ],
+      "en": "What time is it now?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "আমার ঘড়ি বলছে তিনটা বাজে।",
+      "glosses": [
+        {
+          "text": "ঘড়ি",
+          "pos": "n.",
+          "meaning": "clock, watch"
+        },
+        {
+          "text": "বাজে",
+          "pos": "v.",
+          "meaning": "it strikes (time)"
+        }
+      ],
+      "en": "My watch says it is three o'clock."
+    },
+    {
+      "id": "t3",
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "ওহ! আমার দেরি হয়ে গেছে। মিটিং সাড়ে তিনটায়।",
+      "glosses": [
+        {
+          "text": "সাড়ে",
+          "pos": "adv.",
+          "meaning": "half past"
+        },
+        {
+          "text": "দেরি",
+          "pos": "n.",
+          "meaning": "delay, lateness"
+        }
+      ],
+      "en": "Oh! I'm late. The meeting is at half past three."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "চিন্তা করবেন না, আধা ঘণ্টা সময় আছে।",
+      "glosses": [
+        {
+          "text": "সময়",
+          "pos": "n.",
+          "meaning": "time"
+        },
+        {
+          "text": "ঘণ্টা",
+          "pos": "n.",
+          "meaning": "hour"
+        }
+      ],
+      "en": "Don't worry, there is half an hour."
+    },
+    {
+      "id": "t5",
+      "speaker": "Karim",
+      "role": "npc",
+      "text": "যেতে এক ঘণ্টা লাগবে?",
+      "glosses": [
+        {
+          "text": "ঘণ্টা",
+          "pos": "n.",
+          "meaning": "hour"
+        }
+      ],
+      "en": "Will it take an hour to go?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "না, মাত্র আধা ঘণ্টা লাগবে।",
+      "glosses": [
+        {
+          "text": "ঘণ্টা",
+          "pos": "n.",
+          "meaning": "hour"
+        }
+      ],
+      "en": "No, only half an hour."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "ঘড়ি",
+      "tip": "Breathy 'gh' and a flap: GHO-ri"
+    },
+    {
+      "id": "w2",
+      "text": "ঘণ্টা",
+      "tip": "Say GHON-ta"
+    }
+  ]
+}

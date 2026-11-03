@@ -1,0 +1,152 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "pleuvoir",
+      "ipa": "/plø.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to rain",
+      "tense": "Impersonal verb",
+      "forms": [
+        {
+          "p": "il",
+          "f": "pleut",
+          "ipa": "/il plø/"
+        },
+        {
+          "p": "il",
+          "f": "a plu",
+          "ipa": "/il a ply/"
+        },
+        {
+          "p": "il",
+          "f": "pleuvait",
+          "ipa": "/il plø.vɛ/"
+        },
+        {
+          "p": "il",
+          "f": "va pleuvoir",
+          "ipa": "/il va plø.vwaʁ/"
+        },
+        {
+          "p": "il",
+          "f": "pleuvra",
+          "ipa": "/il plø.vʁa/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il pleut des cordes.",
+          "en": "It's pouring."
+        },
+        {
+          "target": "Il va pleuvoir demain.",
+          "en": "It's going to rain tomorrow."
+        }
+      ],
+      "note": "Il pleut des cordes = it's pouring."
+    },
+    {
+      "id": "c2",
+      "word": "poser",
+      "ipa": "/po.ze/",
+      "pos": "v.",
+      "meaning": "to put, to ask",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai posé",
+          "ipa": "/ʒe po.ze/"
+        },
+        {
+          "p": "tu",
+          "f": "as posé",
+          "ipa": "/ty a po.ze/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a posé",
+          "ipa": "/il a po.ze/"
+        },
+        {
+          "p": "nous",
+          "f": "avons posé",
+          "ipa": "/nu za.vɔ̃ po.ze/"
+        },
+        {
+          "p": "vous",
+          "f": "avez posé",
+          "ipa": "/vu za.ve po.ze/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont posé",
+          "ipa": "/il zɔ̃ po.ze/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Marc m'a posé un lapin.",
+          "en": "Marc stood me up."
+        },
+        {
+          "target": "Elle a posé une question.",
+          "en": "She asked a question."
+        }
+      ],
+      "note": "Poser un lapin = stand someone up."
+    },
+    {
+      "id": "c3",
+      "word": "avoir",
+      "ipa": "/a.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "aurai",
+          "ipa": "/ʒo.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "auras",
+          "ipa": "/ty o.ʁa/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "aura",
+          "ipa": "/il o.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "aurons",
+          "ipa": "/nu zo.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "aurez",
+          "ipa": "/vu zo.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "auront",
+          "ipa": "/il zo.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On aura sûrement un fou rire.",
+          "en": "We'll surely have a laughing fit."
+        },
+        {
+          "target": "Nous aurons le temps.",
+          "en": "We'll have time."
+        }
+      ],
+      "note": "On aura = we will have."
+    }
+  ]
+}

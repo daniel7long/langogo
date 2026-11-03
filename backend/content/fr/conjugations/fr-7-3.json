@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, to be able",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "peux",
+          "ipa": "/ʒə pø/"
+        },
+        {
+          "p": "tu",
+          "f": "peux",
+          "ipa": "/ty pø/"
+        },
+        {
+          "p": "il / elle",
+          "f": "peut",
+          "ipa": "/il pø/"
+        },
+        {
+          "p": "nous",
+          "f": "pouvons",
+          "ipa": "/nu pu.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pouvez",
+          "ipa": "/vu pu.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "peuvent",
+          "ipa": "/il pœv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je peux proposer une remise.",
+          "en": "I can offer a discount."
+        },
+        {
+          "target": "Vous pouvez signer ici.",
+          "en": "You can sign here."
+        }
+      ],
+      "note": "Je peux proposer… = I can offer…"
+    },
+    {
+      "id": "c2",
+      "word": "chercher",
+      "ipa": "/ʃɛʁ.ʃe/",
+      "pos": "v.",
+      "meaning": "to look for",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "cherche",
+          "ipa": "/ʒə ʃɛʁʃ/"
+        },
+        {
+          "p": "tu",
+          "f": "cherches",
+          "ipa": "/ty ʃɛʁʃ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "cherche",
+          "ipa": "/il ʃɛʁʃ/"
+        },
+        {
+          "p": "nous",
+          "f": "cherchons",
+          "ipa": "/nu ʃɛʁ.ʃɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "cherchez",
+          "ipa": "/vu ʃɛʁ.ʃe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "cherchent",
+          "ipa": "/il ʃɛʁʃ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous cherchons un vrai compromis.",
+          "en": "We're looking for a real compromise."
+        },
+        {
+          "target": "Je cherche un accord.",
+          "en": "I'm looking for an agreement."
+        }
+      ],
+      "note": "Nous cherchons un compromis."
+    },
+    {
+      "id": "c3",
+      "word": "espérer",
+      "ipa": "/ɛs.pe.ʁe/",
+      "pos": "v.",
+      "meaning": "to hope",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "espère",
+          "ipa": "/ʒɛs.pɛʁ/"
+        },
+        {
+          "p": "tu",
+          "f": "espères",
+          "ipa": "/ty ɛs.pɛʁ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "espère",
+          "ipa": "/il ɛs.pɛʁ/"
+        },
+        {
+          "p": "nous",
+          "f": "espérons",
+          "ipa": "/nu zɛs.pe.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "espérez",
+          "ipa": "/vu zɛs.pe.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "espèrent",
+          "ipa": "/il zɛs.pɛʁ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'espère que nous allons conclure.",
+          "en": "I hope we'll conclude."
+        },
+        {
+          "target": "Nous espérons une réponse.",
+          "en": "We hope for an answer."
+        }
+      ],
+      "note": "J'espère que + sentence."
+    }
+  ]
+}

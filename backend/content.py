@@ -2,6 +2,8 @@
 
     content/<lang>/levels.json          which levels exist and which lessons they list (in order)
     content/<lang>/lessons/<id>.json    the full content of one lesson (files starting with _ are ignored)
+    content/<lang>/conjugations/<id>.json   optional "Key Conjugation" cards of that lesson (2-3 cards, shown
+                                        between the flashcards and the dialogue)
     content/audio/<id>/<file>           optional recorded voice for a dialogue line, served at /media/...
 <lang> is a language code from languages.py (fr, es, zh, ko, ja, de); lesson ids look like "fr-1-1"
 (language, level, lesson).
@@ -10,6 +12,7 @@ Files are re-read automatically when they change, so you do not need to restart 
 after editing a lesson. Run `python validate_content.py` to check everything at once.
 """
 import json
+import re
 from pathlib import Path
 
 import languages
@@ -61,6 +64,10 @@ def levels_file(lang):
 
 def lessons_dir(lang):
     return CONTENT_DIR / lang / "lessons"
+
+
+def conjugations_dir(lang):
+    return CONTENT_DIR / lang / "conjugations"
 
 
 def levels(lang=languages.DEFAULT):
@@ -121,7 +128,11 @@ def _build_lesson(lesson_id, raw, level, no, title):
         for e in v["examples"]:
             # the sentence in the language being learned is "target" ("fr" is accepted too)
             e["target"] = e["fr"] = _str(e, "target", w, required=False) or _str(e, "fr", w)
-            _str(e, "en", w)
+            # English lessons have no translation to give: the sentence is its own meaning (en is optional there)
+            if lang["id"] == "en":
+                e["en"] = _str(e, "en", w, required=False) or ""
+            else:
+                _str(e, "en", w)
 
     dialogue = raw.get("dialogue", [])
     if not dialogue:
@@ -170,6 +181,69 @@ def _build_lesson(lesson_id, raw, level, no, title):
     }
 
 
+_WORD_SPLIT = re.compile(r"[\s.,!?;:¿¡\"«»()…।–—'’\-]+")
+
+
+def _split_words(text):
+    return [t for t in _WORD_SPLIT.split(text.lower()) if t]
+
+
+def _contains(said, said_tokens, phrase):
+    """Does `phrase` appear in the dialogue as whole words (so "am" does not match "name")?"""
+    if said_tokens is None:  # no spaces in this writing system: a plain substring test
+        return phrase.lower() in said
+    want = _split_words(phrase)
+    n = len(want)
+    return n > 0 and any(said_tokens[i:i + n] == want for i in range(len(said_tokens) - n + 1))
+
+
+def _build_conjugations(lesson_id, lang, dialogue, vocab):
+    """The "Key Conjugation" cards of a lesson (an optional file), in the same shape as the vocab cards:
+    word (the verb), ipa, pos, meaning, examples, plus `tense` and `forms` [{p, f, ipa, used}].
+    `used` is true for a form that appears in this lesson's dialogue, so the screen can highlight it."""
+    path = conjugations_dir(lang["id"]) / f"{lesson_id}.json"
+    if not path.is_file():
+        return []
+    where = f"{lang['id']}/conjugations/{lesson_id}.json"
+    raw = _read_json(path)
+    cards = raw.get("cards", [])
+    if not 1 <= len(cards) <= 4:
+        raise ContentError(f"{where}: add 2 or 3 cards under \"cards\" (1 to 4 are accepted).")
+    said = " ".join(t["text"] for t in dialogue).lower()
+    spaced = lang["unit"] != "characters"  # Chinese, Japanese, Korean and Cantonese have no spaces to split on
+    said_tokens = _split_words(said) if spaced else None
+    out = []
+    for k, c in enumerate(cards, start=1):
+        w = f"{where}, card {k}"
+        c.setdefault("id", f"c{k}")
+        for key in ("word", "ipa", "pos", "meaning", "tense"):
+            _str(c, key, w)
+        c["note"] = _str(c, "note", w, required=False)
+        forms = c.get("forms", [])
+        if len(forms) < 2:
+            raise ContentError(f"{w}: \"forms\" needs at least two entries ({{p, f, ipa}}).")
+        shown = []
+        for j, f in enumerate(forms, start=1):
+            fw = f"{w}, form {j}"
+            form = _str(f, "f", fw)
+            pron = _str(f, "p", fw, required=False) or ""
+            whole = (pron + form if pron.endswith(("'", "’")) else f"{pron} {form}").strip()
+            shown.append({"p": pron, "f": form, "ipa": _str(f, "ipa", fw, required=False) or "",
+                          "say": whole,
+                          "used": _contains(said, said_tokens, form) or _contains(said, said_tokens, whole)})
+        c["forms"] = shown
+        if not c.get("examples"):
+            raise ContentError(f"{w}: add at least one example.")
+        for e in c["examples"]:
+            e["target"] = e["fr"] = _str(e, "target", w, required=False) or _str(e, "fr", w)
+            if lang["id"] == "en":
+                e["en"] = _str(e, "en", w, required=False) or ""
+            else:
+                _str(e, "en", w)
+        out.append(c)
+    return out
+
+
 def lesson(lesson_id):
     """The lesson dict, or None when the lesson isn't listed or has no file yet.
     Raises ContentError when the file exists but is wrongly filled in."""
@@ -180,7 +254,9 @@ def lesson(lesson_id):
     if pos is None or not path.is_file():
         return None
     level, no, title = pos
-    return _build_lesson(lesson_id, _read_json(path), level, no, title)
+    built = _build_lesson(lesson_id, _read_json(path), level, no, title)
+    built["conjugations"] = _build_conjugations(lesson_id, languages.of_lesson(lesson_id), built["dialogue"], built["vocab"])
+    return built
 
 
 def lesson_out(lesson_id):
@@ -212,7 +288,8 @@ def report():
                     ls = lesson(lid)
                     you = sum(1 for t in ls["dialogue"] if t["role"] == "you")
                     rows.append({**base, "status": "ok",
-                                 "detail": f"{len(ls['vocab'])} words, {len(ls['dialogue'])} lines ({you} yours)"})
+                                 "detail": f"{len(ls['vocab'])} words, {len(ls['conjugations'])} conjugation cards, "
+                                           f"{len(ls['dialogue'])} lines ({you} yours)"})
                 except ContentError as e:
                     rows.append({**base, "status": "error", "detail": str(e)})
         listed = {r["id"] for r in rows if r["lang"] == lid_lang}

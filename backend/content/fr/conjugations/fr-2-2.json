@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "être",
+      "ipa": "/ɛtʁ/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "suis",
+          "ipa": "/ʒə sɥi/"
+        },
+        {
+          "p": "tu",
+          "f": "es",
+          "ipa": "/ty ɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "est",
+          "ipa": "/il ɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "sommes",
+          "ipa": "/nu sɔm/"
+        },
+        {
+          "p": "vous",
+          "f": "êtes",
+          "ipa": "/vu zɛt/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "sont",
+          "ipa": "/il sɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il est une heure et demie.",
+          "en": "It's half past one."
+        },
+        {
+          "target": "Je suis en retard.",
+          "en": "I'm late."
+        }
+      ],
+      "note": "Use 'il est' to tell the time: il est une heure."
+    },
+    {
+      "id": "c2",
+      "word": "fermer",
+      "ipa": "/fɛʁ.me/",
+      "pos": "v.",
+      "meaning": "to close",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "ferme",
+          "ipa": "/ʒə fɛʁm/"
+        },
+        {
+          "p": "tu",
+          "f": "fermes",
+          "ipa": "/ty fɛʁm/"
+        },
+        {
+          "p": "il / elle",
+          "f": "ferme",
+          "ipa": "/il fɛʁm/"
+        },
+        {
+          "p": "nous",
+          "f": "fermons",
+          "ipa": "/nu fɛʁ.mɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "fermez",
+          "ipa": "/vu fɛʁ.me/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ferment",
+          "ipa": "/il fɛʁm/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Le restaurant ferme à deux heures.",
+          "en": "The restaurant closes at two."
+        },
+        {
+          "target": "Nous fermons à huit heures.",
+          "en": "We close at eight."
+        }
+      ],
+      "note": "Regular -er verb."
+    }
+  ]
+}

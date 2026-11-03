@@ -1,0 +1,240 @@
+{
+  "emoji": "🌏",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "देश",
+      "ipa": "desh · /deːʃ/",
+      "pos": "n.",
+      "meaning": "country",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "भारत एक बड़ा देश है।",
+          "en": "India is a big country."
+        },
+        {
+          "target": "आपका देश कौन-सा है?",
+          "en": "Which is your country?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "शहर",
+      "ipa": "shahar · /ʃəɦər/",
+      "pos": "n.",
+      "meaning": "city",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "दिल्ली बड़ा शहर है।",
+          "en": "Delhi is a big city."
+        },
+        {
+          "target": "यह शहर सुंदर है।",
+          "en": "This city is beautiful."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "भारत",
+      "ipa": "bhārat · /bʰaːrət/",
+      "pos": "n.",
+      "meaning": "India",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मैं भारत से हूँ।",
+          "en": "I am from India."
+        },
+        {
+          "target": "भारत में बहुत भाषाएँ हैं।",
+          "en": "India has many languages."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "भाषा",
+      "ipa": "bhāṣā · /bʰaːʂaː/",
+      "pos": "n.",
+      "meaning": "language",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "आप कौन-सी भाषा बोलते हैं?",
+          "en": "Which language do you speak?"
+        },
+        {
+          "target": "हिंदी सुंदर भाषा है।",
+          "en": "Hindi is a beautiful language."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "हिंदी",
+      "ipa": "hindī · /hɪndiː/",
+      "pos": "n.",
+      "meaning": "Hindi",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मुझे हिंदी पसंद है।",
+          "en": "I like Hindi."
+        },
+        {
+          "target": "वह हिंदी बोलता है।",
+          "en": "He speaks Hindi."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "अंग्रेज़ी",
+      "ipa": "angrezī · /əŋɡreːziː/",
+      "pos": "n.",
+      "meaning": "English",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "अंग्रेज़ी आसान है।",
+          "en": "English is easy."
+        },
+        {
+          "target": "मैं अंग्रेज़ी पढ़ता हूँ।",
+          "en": "I study English."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "सीखना",
+      "ipa": "sīkhnā · /siːkʰnaː/",
+      "pos": "v.",
+      "meaning": "to learn",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मुझे हिंदी सीखना पसंद है।",
+          "en": "I like learning Hindi."
+        },
+        {
+          "target": "हम साथ सीखेंगे।",
+          "en": "We will learn together."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Ravi",
+      "role": "npc",
+      "text": "आप किस देश से हैं?",
+      "glosses": [
+        {
+          "text": "देश",
+          "pos": "n.",
+          "meaning": "country"
+        }
+      ],
+      "en": "Which country are you from?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "मैं अमेरिका से हूँ। और आप?",
+      "glosses": [],
+      "en": "I am from America. And you?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Ravi",
+      "role": "npc",
+      "text": "मैं भारत से हूँ, दिल्ली शहर से।",
+      "glosses": [
+        {
+          "text": "शहर",
+          "pos": "n.",
+          "meaning": "city"
+        },
+        {
+          "text": "भारत",
+          "pos": "n.",
+          "meaning": "India"
+        }
+      ],
+      "en": "I am from India, from the city of Delhi."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "वाह! आप कौन-सी भाषा बोलते हैं?",
+      "glosses": [
+        {
+          "text": "भाषा",
+          "pos": "n.",
+          "meaning": "language"
+        }
+      ],
+      "en": "Wow! Which language do you speak?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Ravi",
+      "role": "npc",
+      "text": "मैं हिंदी और अंग्रेज़ी बोलता हूँ।",
+      "glosses": [
+        {
+          "text": "हिंदी",
+          "pos": "n.",
+          "meaning": "Hindi"
+        },
+        {
+          "text": "अंग्रेज़ी",
+          "pos": "n.",
+          "meaning": "English"
+        }
+      ],
+      "en": "I speak Hindi and English."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "मुझे हिंदी सीखना पसंद है।",
+      "glosses": [
+        {
+          "text": "हिंदी",
+          "pos": "n.",
+          "meaning": "Hindi"
+        },
+        {
+          "text": "सीखना",
+          "pos": "v.",
+          "meaning": "to learn"
+        }
+      ],
+      "en": "I like learning Hindi."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "अंग्रेज़ी",
+      "tip": "ज़ is a 'z' sound: ang-re-ZEE"
+    },
+    {
+      "id": "w2",
+      "text": "शहर",
+      "tip": "Say sha-har with a soft h in the middle"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "title": "Greetings and Basics",
+      "lessons": [
+        {
+          "id": "en-1-1",
+          "title": "Saying hello"
+        },
+        {
+          "id": "en-1-2",
+          "title": "Introducing yourself"
+        },
+        {
+          "id": "en-1-3",
+          "title": "Where are you from?"
+        },
+        {
+          "id": "en-1-4",
+          "title": "Numbers and age"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Daily Life",
+      "lessons": [
+        {
+          "id": "en-2-1",
+          "title": "Morning routine"
+        },
+        {
+          "id": "en-2-2",
+          "title": "Telling the time"
+        },
+        {
+          "id": "en-2-3",
+          "title": "At the bakery"
+        },
+        {
+          "id": "en-2-4",
+          "title": "Plans for the week"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Food and Drinks",
+      "lessons": [
+        {
+          "id": "en-3-1",
+          "title": "Ordering at a café"
+        },
+        {
+          "id": "en-3-2",
+          "title": "At the restaurant"
+        },
+        {
+          "id": "en-3-3",
+          "title": "Grocery shopping"
+        },
+        {
+          "id": "en-3-4",
+          "title": "Favorite dishes"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Getting Around",
+      "lessons": [
+        {
+          "id": "en-4-1",
+          "title": "Asking for directions"
+        },
+        {
+          "id": "en-4-2",
+          "title": "Taking the bus"
+        },
+        {
+          "id": "en-4-3",
+          "title": "At the airport"
+        },
+        {
+          "id": "en-4-4",
+          "title": "Booking a hotel"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Work and School",
+      "lessons": [
+        {
+          "id": "en-5-1",
+          "title": "Job interview"
+        },
+        {
+          "id": "en-5-2",
+          "title": "Talking about your studies"
+        },
+        {
+          "id": "en-5-3",
+          "title": "Giving a presentation"
+        },
+        {
+          "id": "en-5-4",
+          "title": "Working from home"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and Culture",
+      "lessons": [
+        {
+          "id": "en-6-1",
+          "title": "Sharing opinions"
+        },
+        {
+          "id": "en-6-2",
+          "title": "Movies and books"
+        },
+        {
+          "id": "en-6-3",
+          "title": "The environment"
+        },
+        {
+          "id": "en-6-4",
+          "title": "Holidays and traditions"
+        }
+      ]
+    }
+  ]
+}

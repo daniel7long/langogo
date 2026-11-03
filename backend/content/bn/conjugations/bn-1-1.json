@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "থাকা",
+      "ipa": "thaka · /tʰaka/",
+      "pos": "v.",
+      "meaning": "to be, to stay",
+      "tense": "Present of 'to be' (আছি)",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "আছি",
+          "ipa": "atʃʰi"
+        },
+        {
+          "p": "তুমি",
+          "f": "আছ",
+          "ipa": "atʃʰo"
+        },
+        {
+          "p": "সে",
+          "f": "আছে",
+          "ipa": "atʃʰe"
+        },
+        {
+          "p": "আপনি",
+          "f": "আছেন",
+          "ipa": "atʃʰen"
+        },
+        {
+          "p": "আমরা",
+          "f": "আছি",
+          "ipa": "atʃʰi"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমি ভালো আছি।",
+          "en": "I am well."
+        },
+        {
+          "target": "আপনি কেমন আছেন?",
+          "en": "How are you?"
+        }
+      ],
+      "note": "Bengali has no 'am / is / are' with adjectives: 'আমি ভালো আছি' means 'I am well'."
+    },
+    {
+      "id": "c2",
+      "word": "হওয়া",
+      "ipa": "hoa · /hɔoa/",
+      "pos": "v.",
+      "meaning": "to be, to happen",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "হব",
+          "ipa": "hɔbo"
+        },
+        {
+          "p": "তুমি",
+          "f": "হবে",
+          "ipa": "hɔbe"
+        },
+        {
+          "p": "সে",
+          "f": "হবে",
+          "ipa": "hɔbe"
+        },
+        {
+          "p": "আপনি",
+          "f": "হবেন",
+          "ipa": "hɔben"
+        },
+        {
+          "p": "আমরা",
+          "f": "হব",
+          "ipa": "hɔbo"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আবার দেখা হবে।",
+          "en": "We will meet again."
+        },
+        {
+          "target": "আমাকে যেতে হবে।",
+          "en": "I have to go."
+        }
+      ],
+      "note": "'দেখা হবে' = we will meet; 'যেতে হবে' = have to go."
+    }
+  ]
+}

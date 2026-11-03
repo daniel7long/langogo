@@ -1,0 +1,271 @@
+{
+  "emoji": "👋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "নমস্কার",
+      "ipa": "nomoskar · /nɔmoʃkar/",
+      "pos": "interj.",
+      "meaning": "hello, goodbye (respectful)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "নমস্কার, দিদি!",
+          "en": "Hello, sister!"
+        },
+        {
+          "target": "সবাইকে নমস্কার।",
+          "en": "Hello to everyone."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "ধন্যবাদ",
+      "ipa": "dhonnobad · /dʱɔnːɔbad/",
+      "pos": "n.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আপনার সাহায্যের জন্য ধন্যবাদ।",
+          "en": "Thank you for your help."
+        },
+        {
+          "target": "অনেক ধন্যবাদ!",
+          "en": "Thank you very much!"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "ভালো",
+      "ipa": "bhalo · /bʱalo/",
+      "pos": "adj.",
+      "meaning": "good, well",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমি ভালো আছি।",
+          "en": "I am well."
+        },
+        {
+          "target": "এটা ভালো খবর।",
+          "en": "This is good news."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "আপনি",
+      "ipa": "apni · /apni/",
+      "pos": "pron.",
+      "meaning": "you (respectful)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আপনি কোথায় থাকেন?",
+          "en": "Where do you live?"
+        },
+        {
+          "target": "আপনি বসুন।",
+          "en": "Please sit down."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "কেমন",
+      "ipa": "kemon · /kemon/",
+      "pos": "adv.",
+      "meaning": "how",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আপনি কেমন আছেন?",
+          "en": "How are you?"
+        },
+        {
+          "target": "খাবার কেমন?",
+          "en": "How is the food?"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "দেখা",
+      "ipa": "dekha · /dekʰa/",
+      "pos": "n.",
+      "meaning": "meeting, seeing",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "কাল দেখা হবে।",
+          "en": "We'll meet tomorrow."
+        },
+        {
+          "target": "আপনার সঙ্গে দেখা হলো।",
+          "en": "I met you."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "আবার",
+      "ipa": "abar · /abar/",
+      "pos": "adv.",
+      "meaning": "again",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আবার বলুন।",
+          "en": "Say it again."
+        },
+        {
+          "target": "আবার দেখা হবে।",
+          "en": "We will meet again."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "নমস্কার! আপনি কেমন আছেন?",
+      "glosses": [
+        {
+          "text": "নমস্কার",
+          "pos": "interj.",
+          "meaning": "hello, goodbye (respectful)"
+        },
+        {
+          "text": "আপনি",
+          "pos": "pron.",
+          "meaning": "you (respectful)"
+        },
+        {
+          "text": "কেমন",
+          "pos": "adv.",
+          "meaning": "how"
+        }
+      ],
+      "en": "Hello! How are you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "নমস্কার! আমি ভালো আছি, ধন্যবাদ। আপনি?",
+      "glosses": [
+        {
+          "text": "নমস্কার",
+          "pos": "interj.",
+          "meaning": "hello, goodbye (respectful)"
+        },
+        {
+          "text": "ধন্যবাদ",
+          "pos": "n.",
+          "meaning": "thank you"
+        },
+        {
+          "text": "ভালো",
+          "pos": "adj.",
+          "meaning": "good, well"
+        }
+      ],
+      "en": "Hello! I am well, thank you. And you?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "আমিও ভালো আছি। আপনার সঙ্গে দেখা হয়ে ভালো লাগলো।",
+      "glosses": [
+        {
+          "text": "ভালো",
+          "pos": "adj.",
+          "meaning": "good, well"
+        },
+        {
+          "text": "দেখা",
+          "pos": "n.",
+          "meaning": "meeting, seeing"
+        }
+      ],
+      "en": "I am well too. It was nice to meet you."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "আমারও ভালো লাগলো।",
+      "glosses": [
+        {
+          "text": "ভালো",
+          "pos": "adj.",
+          "meaning": "good, well"
+        }
+      ],
+      "en": "I felt happy too."
+    },
+    {
+      "id": "t5",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "এখন আমাকে যেতে হবে। আবার দেখা হবে!",
+      "glosses": [
+        {
+          "text": "দেখা",
+          "pos": "n.",
+          "meaning": "meeting, seeing"
+        },
+        {
+          "text": "আবার",
+          "pos": "adv.",
+          "meaning": "again"
+        }
+      ],
+      "en": "I have to go now. We will meet again!"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "হ্যাঁ, আবার দেখা হবে। নমস্কার!",
+      "glosses": [
+        {
+          "text": "নমস্কার",
+          "pos": "interj.",
+          "meaning": "hello, goodbye (respectful)"
+        },
+        {
+          "text": "দেখা",
+          "pos": "n.",
+          "meaning": "meeting, seeing"
+        },
+        {
+          "text": "আবার",
+          "pos": "adv.",
+          "meaning": "again"
+        }
+      ],
+      "en": "Yes, we'll meet again. Goodbye!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "ধন্যবাদ",
+      "tip": "Say dhon-no-bad; 'dh' is breathy"
+    },
+    {
+      "id": "w2",
+      "text": "কেমন",
+      "tip": "Say KEH-mon with a clear 'e'"
+    }
+  ]
+}

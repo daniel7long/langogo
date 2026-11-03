@@ -1,0 +1,127 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "obtenir",
+      "ipa": "/ɔp.tə.niʁ/",
+      "pos": "v.",
+      "meaning": "to obtain",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "obtiens",
+          "ipa": "/ʒɔp.tjɛ̃/"
+        },
+        {
+          "p": "tu",
+          "f": "obtiens",
+          "ipa": "/ty ɔp.tjɛ̃/"
+        },
+        {
+          "p": "il / elle",
+          "f": "obtient",
+          "ipa": "/il ɔp.tjɛ̃/"
+        },
+        {
+          "p": "nous",
+          "f": "obtenons",
+          "ipa": "/nu zɔp.tə.nɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "obtenez",
+          "ipa": "/vu zɔp.tə.ne/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "obtiennent",
+          "ipa": "/il zɔp.tjɛn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Si j'obtiens une bourse.",
+          "en": "If I get a scholarship."
+        },
+        {
+          "target": "Il obtient son diplôme.",
+          "en": "He gets his degree."
+        }
+      ],
+      "note": "Obtenir une bourse = get a scholarship."
+    },
+    {
+      "id": "c2",
+      "word": "penser",
+      "ipa": "/pɑ̃.se/",
+      "pos": "v.",
+      "meaning": "to think",
+      "tense": "Command (impératif)",
+      "forms": [
+        {
+          "p": "tu",
+          "f": "Pense",
+          "ipa": "/pɑ̃s/"
+        },
+        {
+          "p": "nous",
+          "f": "Pensons",
+          "ipa": "/pɑ̃.sɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "Pensez",
+          "ipa": "/pɑ̃.se/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Pensez à une formation sur le patrimoine.",
+          "en": "Think about training in heritage."
+        },
+        {
+          "target": "Pense à ton avenir.",
+          "en": "Think about your future."
+        }
+      ],
+      "note": "Pensez à + noun = think about."
+    },
+    {
+      "id": "c3",
+      "word": "aller + infinitif",
+      "ipa": "/a.le/",
+      "pos": "v.",
+      "meaning": "to be going to",
+      "tense": "Near future (reflexive)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "vais me renseigner",
+          "ipa": "/ʒə vɛ mə ʁɑ̃.sɛ.ɲe/"
+        },
+        {
+          "p": "tu",
+          "f": "vas me renseigner",
+          "ipa": "/ty va mə ʁɑ̃.sɛ.ɲe/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "va me renseigner",
+          "ipa": "/il va mə ʁɑ̃.sɛ.ɲe/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je vais me renseigner.",
+          "en": "I'm going to find out more."
+        },
+        {
+          "target": "Tu vas te renseigner.",
+          "en": "You're going to find out more."
+        }
+      ],
+      "note": "The reflexive pronoun goes before the infinitive."
+    }
+  ]
+}

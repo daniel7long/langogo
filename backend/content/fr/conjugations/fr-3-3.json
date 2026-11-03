@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "vouloir",
+      "ipa": "/vu.lwaʁ/",
+      "pos": "v.",
+      "meaning": "to want",
+      "tense": "Conditional (polite)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "voudrais",
+          "ipa": "/ʒə vu.dʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "voudrais",
+          "ipa": "/ty vu.dʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "voudrait",
+          "ipa": "/il vu.dʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "voudrions",
+          "ipa": "/nu vu.dʁi.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "voudriez",
+          "ipa": "/vu vu.dʁi.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "voudraient",
+          "ipa": "/il vu.dʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je voudrais un kilo de tomates.",
+          "en": "I would like a kilo of tomatoes."
+        },
+        {
+          "target": "Elle voudrait un sac.",
+          "en": "She would like a bag."
+        }
+      ],
+      "note": "Use je voudrais to ask politely."
+    },
+    {
+      "id": "c2",
+      "word": "avoir",
+      "ipa": "/a.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai",
+          "ipa": "/ʒe/"
+        },
+        {
+          "p": "tu",
+          "f": "as",
+          "ipa": "/ty a/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a",
+          "ipa": "/il a/"
+        },
+        {
+          "p": "nous",
+          "f": "avons",
+          "ipa": "/nu za.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "avez",
+          "ipa": "/vu za.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont",
+          "ipa": "/il zɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Vous avez du lait ?",
+          "en": "Do you have milk?"
+        },
+        {
+          "target": "Vous avez un sac ?",
+          "en": "Do you have a bag?"
+        }
+      ],
+      "note": "Ask 'Vous avez… ?' to find out if a shop has something."
+    },
+    {
+      "id": "c3",
+      "word": "prendre",
+      "ipa": "/pʁɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to take",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "prends",
+          "ipa": "/ʒə pʁɑ̃/"
+        },
+        {
+          "p": "tu",
+          "f": "prends",
+          "ipa": "/ty pʁɑ̃/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "prend",
+          "ipa": "/il pʁɑ̃/"
+        },
+        {
+          "p": "nous",
+          "f": "prenons",
+          "ipa": "/nu pʁə.nɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "prenez",
+          "ipa": "/vu pʁə.ne/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "prennent",
+          "ipa": "/il pʁɛn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je prends tout.",
+          "en": "I'll take it all."
+        },
+        {
+          "target": "Nous prenons du pain.",
+          "en": "We take some bread."
+        }
+      ],
+      "note": "'Je prends tout' = I'll take everything."
+    }
+  ]
+}

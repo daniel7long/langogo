@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "berasal",
+      "ipa": "/bər.ˈa.sal/",
+      "pos": "v.",
+      "meaning": "to come from",
+      "tense": "Present (no change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya berasal dari",
+          "ipa": "/ˈsa.ja bər.ˈa.sal ˈda.ri/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu berasal dari",
+          "ipa": "/ˈka.mu bər.ˈa.sal ˈda.ri/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia berasal dari",
+          "ipa": "/ˈdi.a bər.ˈa.sal ˈda.ri/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami berasal dari",
+          "ipa": "/ˈka.mi bər.ˈa.sal ˈda.ri/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka berasal dari",
+          "ipa": "/mə.ˈrɛ.ka bər.ˈa.sal ˈda.ri/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya berasal dari Amerika.",
+          "en": "I come from America."
+        },
+        {
+          "target": "Kamu berasal dari mana?",
+          "en": "Where do you come from?"
+        }
+      ],
+      "note": "The prefix ber- makes many verbs: berasal, bekerja, belajar."
+    },
+    {
+      "id": "c2",
+      "word": "belajar",
+      "ipa": "/bə.ˈla.dʒar/",
+      "pos": "v.",
+      "meaning": "to study",
+      "tense": "Present (no change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya belajar",
+          "ipa": "/ˈsa.ja bə.ˈla.dʒar/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu belajar",
+          "ipa": "/ˈka.mu bə.ˈla.dʒar/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia belajar",
+          "ipa": "/ˈdi.a bə.ˈla.dʒar/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami belajar",
+          "ipa": "/ˈka.mi bə.ˈla.dʒar/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka belajar",
+          "ipa": "/mə.ˈrɛ.ka bə.ˈla.dʒar/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya suka belajar bahasa.",
+          "en": "I like studying languages."
+        },
+        {
+          "target": "Dia belajar setiap hari.",
+          "en": "She studies every day."
+        }
+      ],
+      "note": "ber- + ajar → belajar (a spelling exception)."
+    }
+  ]
+}

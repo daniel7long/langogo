@@ -1,0 +1,250 @@
+{
+  "emoji": "❤️",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "favorit",
+      "ipa": "/fa.vo.ˈrit/",
+      "pos": "adj.",
+      "meaning": "favorite",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Makanan favorit saya sate.",
+          "en": "My favorite food is satay."
+        },
+        {
+          "target": "Warna favorit kamu apa?",
+          "en": "What is your favorite color?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "pedas",
+      "ipa": "/ˈpə.das/",
+      "pos": "adj.",
+      "meaning": "spicy",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Sambalnya pedas.",
+          "en": "The chili sauce is spicy."
+        },
+        {
+          "target": "Saya suka pedas.",
+          "en": "I like spicy food."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "manis",
+      "ipa": "/ˈma.nis/",
+      "pos": "adj.",
+      "meaning": "sweet",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Teh ini manis.",
+          "en": "This tea is sweet."
+        },
+        {
+          "target": "Saya suka yang manis.",
+          "en": "I like sweet things."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "masak",
+      "ipa": "/ˈma.sak/",
+      "pos": "v.",
+      "meaning": "to cook",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Ibu masak di dapur.",
+          "en": "Mom cooks in the kitchen."
+        },
+        {
+          "target": "Saya bisa masak.",
+          "en": "I can cook."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "resep",
+      "ipa": "/ˈrə.sɛp/",
+      "pos": "n.",
+      "meaning": "recipe",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Resep ini mudah.",
+          "en": "This recipe is easy."
+        },
+        {
+          "target": "Minta resep, dong.",
+          "en": "Give me the recipe, please."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "nasi goreng",
+      "ipa": "/ˈna.si ɡo.ˈrɛŋ/",
+      "pos": "n.",
+      "meaning": "fried rice",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Nasi goreng enak.",
+          "en": "Fried rice is delicious."
+        },
+        {
+          "target": "Saya makan nasi goreng.",
+          "en": "I eat fried rice."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "suka",
+      "ipa": "/ˈsu.ka/",
+      "pos": "v.",
+      "meaning": "to like",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Saya suka kopi.",
+          "en": "I like coffee."
+        },
+        {
+          "target": "Kamu suka apa?",
+          "en": "What do you like?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Sinta",
+      "role": "npc",
+      "text": "Apa makanan favorit kamu?",
+      "glosses": [
+        {
+          "text": "favorit",
+          "pos": "adj.",
+          "meaning": "favorite"
+        }
+      ],
+      "en": "What is your favorite food?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Makanan favorit saya nasi goreng. Agak pedas.",
+      "glosses": [
+        {
+          "text": "favorit",
+          "pos": "adj.",
+          "meaning": "favorite"
+        },
+        {
+          "text": "pedas",
+          "pos": "adj.",
+          "meaning": "spicy"
+        },
+        {
+          "text": "nasi goreng",
+          "pos": "n.",
+          "meaning": "fried rice"
+        }
+      ],
+      "en": "My favorite food is fried rice. A little spicy."
+    },
+    {
+      "id": "t3",
+      "speaker": "Sinta",
+      "role": "npc",
+      "text": "Kamu masak sendiri di rumah?",
+      "glosses": [
+        {
+          "text": "masak",
+          "pos": "v.",
+          "meaning": "to cook"
+        }
+      ],
+      "en": "Do you cook it yourself at home?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ya, hari Minggu saya masak. Resep ini mudah.",
+      "glosses": [
+        {
+          "text": "masak",
+          "pos": "v.",
+          "meaning": "to cook"
+        },
+        {
+          "text": "Resep",
+          "pos": "n.",
+          "meaning": "recipe"
+        }
+      ],
+      "en": "Yes, I cook on Sundays. This recipe is easy."
+    },
+    {
+      "id": "t5",
+      "speaker": "Sinta",
+      "role": "npc",
+      "text": "Saya lebih suka yang manis. Boleh minta resep itu?",
+      "glosses": [
+        {
+          "text": "manis",
+          "pos": "adj.",
+          "meaning": "sweet"
+        },
+        {
+          "text": "resep",
+          "pos": "n.",
+          "meaning": "recipe"
+        },
+        {
+          "text": "suka",
+          "pos": "v.",
+          "meaning": "to like"
+        }
+      ],
+      "en": "I prefer sweet things. May I ask for that recipe?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Tentu, nanti malam saya kirim.",
+      "glosses": [],
+      "en": "Of course, I'll send it tonight."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "favorit",
+      "tip": "Say fa-vo-RIT"
+    },
+    {
+      "id": "w2",
+      "text": "resep",
+      "tip": "Say RƏ-sep"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "emoji": "🍛",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "मेज़",
+      "ipa": "mez · /meːz/",
+      "pos": "n.",
+      "meaning": "table",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "दो लोगों के लिए मेज़।",
+          "en": "A table for two people."
+        },
+        {
+          "target": "मेज़ खाली है।",
+          "en": "The table is empty."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "खाना",
+      "ipa": "khānā · /kʰaːnaː/",
+      "pos": "n.",
+      "meaning": "food, meal",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "खाना तैयार है।",
+          "en": "The food is ready."
+        },
+        {
+          "target": "खाना स्वादिष्ट है।",
+          "en": "The food is delicious."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "दाल",
+      "ipa": "dāl · /daːl/",
+      "pos": "n.",
+      "meaning": "lentil curry",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "दाल गरम है।",
+          "en": "The dal is hot."
+        },
+        {
+          "target": "मुझे दाल चावल पसंद है।",
+          "en": "I like dal and rice."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "रोटी",
+      "ipa": "roṭī · /roːʈiː/",
+      "pos": "n.",
+      "meaning": "flatbread",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "दो रोटी दीजिए।",
+          "en": "Please give two rotis."
+        },
+        {
+          "target": "रोटी गरम है।",
+          "en": "The roti is hot."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "पनीर",
+      "ipa": "panīr · /pəniːr/",
+      "pos": "n.",
+      "meaning": "Indian cheese",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "पनीर की सब्ज़ी मँगाइए।",
+          "en": "Order the paneer dish."
+        },
+        {
+          "target": "मुझे पनीर पसंद है।",
+          "en": "I like paneer."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "स्वादिष्ट",
+      "ipa": "svādiṣṭ · /sʋaːdɪʂʈ/",
+      "pos": "adj.",
+      "meaning": "delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "यह बहुत स्वादिष्ट है।",
+          "en": "This is very tasty."
+        },
+        {
+          "target": "खाना स्वादिष्ट था।",
+          "en": "The food was delicious."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "बिल",
+      "ipa": "bil · /bɪl/",
+      "pos": "n.",
+      "meaning": "bill",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "बिल लाइए।",
+          "en": "Please bring the bill."
+        },
+        {
+          "target": "बिल कितना हुआ?",
+          "en": "How much is the bill?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "स्वागत है! दो लोगों के लिए मेज़ है।",
+      "glosses": [
+        {
+          "text": "मेज़",
+          "pos": "n.",
+          "meaning": "table"
+        }
+      ],
+      "en": "Welcome! There is a table for two."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "धन्यवाद। आज खाने में क्या अच्छा है?",
+      "glosses": [],
+      "en": "Thanks. What is good to eat today?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "पनीर की सब्ज़ी और दाल बहुत स्वादिष्ट है।",
+      "glosses": [
+        {
+          "text": "दाल",
+          "pos": "n.",
+          "meaning": "lentil curry"
+        },
+        {
+          "text": "पनीर",
+          "pos": "n.",
+          "meaning": "Indian cheese"
+        },
+        {
+          "text": "स्वादिष्ट",
+          "pos": "adj.",
+          "meaning": "delicious"
+        }
+      ],
+      "en": "The paneer dish and dal are very tasty."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "ठीक है, पनीर, दाल और चार रोटी दीजिए।",
+      "glosses": [
+        {
+          "text": "दाल",
+          "pos": "n.",
+          "meaning": "lentil curry"
+        },
+        {
+          "text": "रोटी",
+          "pos": "n.",
+          "meaning": "flatbread"
+        },
+        {
+          "text": "पनीर",
+          "pos": "n.",
+          "meaning": "Indian cheese"
+        }
+      ],
+      "en": "Okay, please give paneer, dal and four rotis."
+    },
+    {
+      "id": "t5",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "जी, अभी लाता हूँ।",
+      "glosses": [],
+      "en": "Yes, I'll bring it right away."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "खाना बहुत स्वादिष्ट था। बिल लाइए, कृपया।",
+      "glosses": [
+        {
+          "text": "खाना",
+          "pos": "n.",
+          "meaning": "food, meal"
+        },
+        {
+          "text": "स्वादिष्ट",
+          "pos": "adj.",
+          "meaning": "delicious"
+        },
+        {
+          "text": "बिल",
+          "pos": "n.",
+          "meaning": "bill"
+        }
+      ],
+      "en": "The food was very tasty. Please bring the bill."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "पनीर",
+      "tip": "Say pə-NEER; stress the end"
+    },
+    {
+      "id": "w2",
+      "text": "स्वादिष्ट",
+      "tip": "Say svaa-DISHT; the ending is quick"
+    }
+  ]
+}

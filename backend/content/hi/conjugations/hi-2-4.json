@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "देखना",
+      "ipa": "dekhnā · /deːkʰnaː/",
+      "pos": "v.",
+      "meaning": "to watch, to see",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "देखूँगा / देखूँगी",
+          "ipa": "deːkʰuːŋɡaː"
+        },
+        {
+          "p": "तुम",
+          "f": "देखोगे / देखोगी",
+          "ipa": "deːkʰoːɡeː"
+        },
+        {
+          "p": "वह",
+          "f": "देखेगा / देखेगी",
+          "ipa": "deːkʰeːɡaː"
+        },
+        {
+          "p": "हम",
+          "f": "देखेंगे",
+          "ipa": "deːkʰeːŋɡeː"
+        },
+        {
+          "p": "आप",
+          "f": "देखेंगे",
+          "ipa": "deːkʰeːŋɡeː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "हम साथ फ़िल्म देखेंगे।",
+          "en": "We will watch a film together."
+        },
+        {
+          "target": "मैं कल देखूँगा।",
+          "en": "I will see it tomorrow."
+        }
+      ],
+      "note": "For plans use stem + ेंगे / ेगा / ूँगा."
+    },
+    {
+      "id": "c2",
+      "word": "घूमना",
+      "ipa": "ghūmnā · /ɡʰuːmnaː/",
+      "pos": "v.",
+      "meaning": "to tour",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "घूमूँगा / घूमूँगी",
+          "ipa": "ɡʰuːmuːŋɡaː"
+        },
+        {
+          "p": "तुम",
+          "f": "घूमोगे / घूमोगी",
+          "ipa": "ɡʰuːmoːɡeː"
+        },
+        {
+          "p": "वह",
+          "f": "घूमेगा / घूमेगी",
+          "ipa": "ɡʰuːmeːɡaː"
+        },
+        {
+          "p": "हम",
+          "f": "घूमेंगे",
+          "ipa": "ɡʰuːmeːŋɡeː"
+        },
+        {
+          "p": "आप",
+          "f": "घूमेंगे",
+          "ipa": "ɡʰuːmeːŋɡeː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "हम शहर घूमेंगे।",
+          "en": "We'll tour the city."
+        },
+        {
+          "target": "आप कहाँ घूमेंगे?",
+          "en": "Where will you tour?"
+        }
+      ],
+      "note": "हम … घूमेंगे = we will tour."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "sudah",
+      "ipa": "/ˈsu.dah/",
+      "pos": "adv.",
+      "meaning": "already",
+      "tense": "Completed state",
+      "forms": [
+        {
+          "p": "Tepung",
+          "f": "Tepung sudah habis",
+          "ipa": "/ˈtə.puŋ ˈsu.dah ˈha.bis/"
+        },
+        {
+          "p": "Daftar",
+          "f": "Daftar sudah lengkap",
+          "ipa": "/ˈdaf.tar ˈsu.dah ləŋ.ˈkap/"
+        },
+        {
+          "p": "Saya",
+          "f": "Saya sudah beli",
+          "ipa": "/ˈsa.ja ˈsu.dah ˈbə.li/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami sudah makan",
+          "ipa": "/ˈka.mi ˈsu.dah ˈma.kan/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia sudah pergi",
+          "ipa": "/ˈdi.a ˈsu.dah ˈpər.ɡi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Di rumah sudah habis.",
+          "en": "It's already gone at home."
+        },
+        {
+          "target": "Daftar kita sudah lengkap.",
+          "en": "Our list is complete."
+        }
+      ],
+      "note": "Sudah shows something is finished: sudah habis = already finished."
+    },
+    {
+      "id": "c2",
+      "word": "butuh",
+      "ipa": "/ˈbu.tuh/",
+      "pos": "v.",
+      "meaning": "to need",
+      "tense": "Present (no change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya butuh tepung",
+          "ipa": "/ˈsa.ja ˈbu.tuh ˈtə.puŋ/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu butuh tepung",
+          "ipa": "/ˈka.mu ˈbu.tuh ˈtə.puŋ/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia butuh tepung",
+          "ipa": "/ˈdi.a ˈbu.tuh ˈtə.puŋ/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami butuh tepung",
+          "ipa": "/ˈka.mi ˈbu.tuh ˈtə.puŋ/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka butuh tepung",
+          "ipa": "/mə.ˈrɛ.ka ˈbu.tuh ˈtə.puŋ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Kita butuh tepung juga.",
+          "en": "We need flour too."
+        },
+        {
+          "target": "Saya butuh tas.",
+          "en": "I need a bag."
+        }
+      ],
+      "note": "Butuh + noun."
+    }
+  ]
+}

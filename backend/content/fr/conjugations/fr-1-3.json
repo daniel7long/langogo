@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "venir",
+      "ipa": "/və.niʁ/",
+      "pos": "v.",
+      "meaning": "to come",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "viens",
+          "ipa": "/ʒə vjɛ̃/"
+        },
+        {
+          "p": "tu",
+          "f": "viens",
+          "ipa": "/ty vjɛ̃/"
+        },
+        {
+          "p": "il / elle",
+          "f": "vient",
+          "ipa": "/il vjɛ̃/"
+        },
+        {
+          "p": "nous",
+          "f": "venons",
+          "ipa": "/nu və.nɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "venez",
+          "ipa": "/vu və.ne/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "viennent",
+          "ipa": "/il vjɛn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "D'où est-ce que tu viens ?",
+          "en": "Where do you come from?"
+        },
+        {
+          "target": "Je viens de France.",
+          "en": "I come from France."
+        }
+      ],
+      "note": "Say 'venir de' + place to tell where you are from."
+    },
+    {
+      "id": "c2",
+      "word": "parler",
+      "ipa": "/paʁ.le/",
+      "pos": "v.",
+      "meaning": "to speak",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "parle",
+          "ipa": "/ʒə paʁl/"
+        },
+        {
+          "p": "tu",
+          "f": "parles",
+          "ipa": "/ty paʁl/"
+        },
+        {
+          "p": "il / elle",
+          "f": "parle",
+          "ipa": "/il paʁl/"
+        },
+        {
+          "p": "nous",
+          "f": "parlons",
+          "ipa": "/nu paʁ.lɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "parlez",
+          "ipa": "/vu paʁ.le/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "parlent",
+          "ipa": "/il paʁl/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je parle un peu français.",
+          "en": "I speak a little French."
+        },
+        {
+          "target": "Tu parles très bien !",
+          "en": "You speak very well!"
+        }
+      ],
+      "note": "Regular -er verb: parle, parles, parle, parlons, parlez, parlent."
+    },
+    {
+      "id": "c3",
+      "word": "aimer",
+      "ipa": "/ɛ.me/",
+      "pos": "v.",
+      "meaning": "to like, to love",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "aime",
+          "ipa": "/ʒɛm/"
+        },
+        {
+          "p": "tu",
+          "f": "aimes",
+          "ipa": "/ty ɛm/"
+        },
+        {
+          "p": "il / elle",
+          "f": "aime",
+          "ipa": "/il ɛm/"
+        },
+        {
+          "p": "nous",
+          "f": "aimons",
+          "ipa": "/nu zɛ.mɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "aimez",
+          "ipa": "/vu zɛ.me/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "aiment",
+          "ipa": "/il zɛm/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu aimes la France ?",
+          "en": "Do you like France?"
+        },
+        {
+          "target": "J'aime le français.",
+          "en": "I like French."
+        }
+      ],
+      "note": "With a place: aimer la France. With a verb: aimer parler."
+    }
+  ]
+}

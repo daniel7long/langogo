@@ -1,0 +1,244 @@
+{
+  "emoji": "🍵",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "চা",
+      "ipa": "cha · /tʃa/",
+      "pos": "n.",
+      "meaning": "tea",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমি চা পছন্দ করি।",
+          "en": "I like tea."
+        },
+        {
+          "target": "এক কাপ চা।",
+          "en": "One cup of tea."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "কাপ",
+      "ipa": "kap · /kap/",
+      "pos": "n.",
+      "meaning": "cup",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "এক কাপ চা দিন।",
+          "en": "Give me a cup of tea."
+        },
+        {
+          "target": "কাপ গরম।",
+          "en": "The cup is hot."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "চিনি",
+      "ipa": "chini · /tʃini/",
+      "pos": "n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "চিনি কম দিন।",
+          "en": "Put less sugar."
+        },
+        {
+          "target": "চিনি ছাড়া চা।",
+          "en": "Tea without sugar."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "দুধ",
+      "ipa": "dudh · /dudʱ/",
+      "pos": "n.",
+      "meaning": "milk",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "দুধ গরম।",
+          "en": "The milk is hot."
+        },
+        {
+          "target": "দুধ চা ভালো।",
+          "en": "Milk tea is good."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "গরম",
+      "ipa": "gorom · /ɡɔrom/",
+      "pos": "adj.",
+      "meaning": "hot",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "চা গরম।",
+          "en": "The tea is hot."
+        },
+        {
+          "target": "গরম ভাত।",
+          "en": "Hot rice."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "সিঙাড়া",
+      "ipa": "singara · /siŋɡaɽa/",
+      "pos": "n.",
+      "meaning": "samosa",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "একটা সিঙাড়া দিন।",
+          "en": "Give me one samosa."
+        },
+        {
+          "target": "সিঙাড়া সুস্বাদু।",
+          "en": "The samosa is delicious."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "দয়া করে",
+      "ipa": "doya kore · /dɔja kore/",
+      "pos": "phr.",
+      "meaning": "please",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "দয়া করে বসুন।",
+          "en": "Please sit."
+        },
+        {
+          "target": "দয়া করে অপেক্ষা করুন।",
+          "en": "Please wait."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Chawala",
+      "role": "npc",
+      "text": "নমস্কার! কী দেব আপনাকে?",
+      "glosses": [],
+      "en": "Hello! What can I give you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "এক কাপ চা দিন, দয়া করে।",
+      "glosses": [
+        {
+          "text": "চা",
+          "pos": "n.",
+          "meaning": "tea"
+        },
+        {
+          "text": "কাপ",
+          "pos": "n.",
+          "meaning": "cup"
+        },
+        {
+          "text": "দয়া করে",
+          "pos": "phr.",
+          "meaning": "please"
+        }
+      ],
+      "en": "One cup of tea, please."
+    },
+    {
+      "id": "t3",
+      "speaker": "Chawala",
+      "role": "npc",
+      "text": "চিনি কতটা দেব?",
+      "glosses": [
+        {
+          "text": "চিনি",
+          "pos": "n.",
+          "meaning": "sugar"
+        }
+      ],
+      "en": "How much sugar shall I put?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "চিনি কম দিন। দুধ দিয়ে চা চাই।",
+      "glosses": [
+        {
+          "text": "চা",
+          "pos": "n.",
+          "meaning": "tea"
+        },
+        {
+          "text": "চিনি",
+          "pos": "n.",
+          "meaning": "sugar"
+        },
+        {
+          "text": "দুধ",
+          "pos": "n.",
+          "meaning": "milk"
+        }
+      ],
+      "en": "Put less sugar. I want tea with milk."
+    },
+    {
+      "id": "t5",
+      "speaker": "Chawala",
+      "role": "npc",
+      "text": "ঠিক আছে। গরম সিঙাড়া নেবেন?",
+      "glosses": [
+        {
+          "text": "গরম",
+          "pos": "adj.",
+          "meaning": "hot"
+        },
+        {
+          "text": "সিঙাড়া",
+          "pos": "n.",
+          "meaning": "samosa"
+        }
+      ],
+      "en": "Okay. Will you take a hot samosa?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "হ্যাঁ, একটা সিঙাড়াও দিন। ধন্যবাদ!",
+      "glosses": [],
+      "en": "Yes, give a samosa too. Thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "সিঙাড়া",
+      "tip": "Say sing-GA-ra"
+    },
+    {
+      "id": "w2",
+      "text": "দয়া",
+      "tip": "Say DO-ya"
+    }
+  ]
+}

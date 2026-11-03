@@ -1,0 +1,231 @@
+{
+  "emoji": "🍲",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "favorite",
+      "ipa": "/ˈfeɪvərɪt/",
+      "pos": "adj.",
+      "meaning": "liked more than all others",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Pizza is my favorite food."
+        },
+        {
+          "target": "What is your favorite color?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "dish",
+      "ipa": "/dɪʃ/",
+      "pos": "n.",
+      "meaning": "food prepared in a special way",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "This dish is new to me."
+        },
+        {
+          "target": "Rice is a common dish."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "cook",
+      "ipa": "/kʊk/",
+      "pos": "v.",
+      "meaning": "to make food hot and ready to eat",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I cook dinner at home."
+        },
+        {
+          "target": "He cooks very well."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "spicy",
+      "ipa": "/ˈspaɪsi/",
+      "pos": "adj.",
+      "meaning": "having a hot taste, like pepper",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I like spicy food."
+        },
+        {
+          "target": "This soup is too spicy."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "sweet",
+      "ipa": "/swiːt/",
+      "pos": "adj.",
+      "meaning": "tasting like sugar",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "The cake is sweet."
+        },
+        {
+          "target": "I do not like sweet tea."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "recipe",
+      "ipa": "/ˈresəpi/",
+      "pos": "n.",
+      "meaning": "instructions for how to make a food",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "This is my mother's recipe."
+        },
+        {
+          "target": "Do you have the recipe?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "taste",
+      "ipa": "/teɪst/",
+      "pos": "v.",
+      "meaning": "to have a certain flavor",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "It tastes great."
+        },
+        {
+          "target": "Please taste the soup."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Jake",
+      "role": "npc",
+      "text": "What is your favorite dish?",
+      "glosses": [
+        {
+          "text": "favorite",
+          "pos": "adj.",
+          "meaning": "liked more than all others"
+        },
+        {
+          "text": "dish",
+          "pos": "n.",
+          "meaning": "food prepared in a special way"
+        }
+      ],
+      "en": "Which food do you like the most?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "My favorite dish is noodle soup. It is a little spicy.",
+      "glosses": [
+        {
+          "text": "favorite",
+          "pos": "adj.",
+          "meaning": "liked more than all others"
+        },
+        {
+          "text": "dish",
+          "pos": "n.",
+          "meaning": "food prepared in a special way"
+        },
+        {
+          "text": "spicy",
+          "pos": "adj.",
+          "meaning": "having a hot taste, like pepper"
+        }
+      ],
+      "en": "I like noodle soup most. It has a small hot taste."
+    },
+    {
+      "id": "t3",
+      "speaker": "Jake",
+      "role": "npc",
+      "text": "Do you cook it at home?",
+      "glosses": [
+        {
+          "text": "cook",
+          "pos": "v.",
+          "meaning": "to make food hot and ready to eat"
+        }
+      ],
+      "en": "Do you make it in your kitchen?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, I cook it on Sundays. The recipe is easy.",
+      "glosses": [
+        {
+          "text": "cook",
+          "pos": "v.",
+          "meaning": "to make food hot and ready to eat"
+        },
+        {
+          "text": "recipe",
+          "pos": "n.",
+          "meaning": "instructions for how to make a food"
+        }
+      ],
+      "en": "Yes, I make it on Sundays. The instructions are simple."
+    },
+    {
+      "id": "t5",
+      "speaker": "Jake",
+      "role": "npc",
+      "text": "It tastes so good! Can I have the recipe?",
+      "glosses": [
+        {
+          "text": "recipe",
+          "pos": "n.",
+          "meaning": "instructions for how to make a food"
+        }
+      ],
+      "en": "It has a great flavor! Can you give me the instructions?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Of course. I will send it to you tonight.",
+      "glosses": [],
+      "en": "Sure. I will send it to you this evening."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "recipe",
+      "tip": "Say RES-uh-pee: the last part is 'pee'"
+    },
+    {
+      "id": "w2",
+      "text": "favorite",
+      "tip": "Say FAY-vrit: only two or three beats"
+    }
+  ]
+}

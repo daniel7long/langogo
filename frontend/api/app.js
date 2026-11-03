@@ -79,6 +79,21 @@ export async function scoreTurn(lessonId, turnId, recording) {
 // The server keeps the scores of your takes, so completing needs no body.
 export const completeLesson = (lessonId) => post(`/lessons/${encodeURIComponent(lessonId)}/complete`);
 
+// Free Talk: an open conversation with the AI partner about the learner's favorite topics.
+export const startFreeTalk = async (topicId) => {
+  const start = await post('/freetalk/start', topicId ? { topic_id: topicId } : {});
+  setSpeechLocale(start.locale);
+  return start;
+};
+// Sends the learner's recording and the conversation so far; returns { you, turn, hints, level }.
+export async function sendFreeTalkTurn({ topicId, history, turnNo, hintUsed, recording }) {
+  const form = await audioForm(
+    { topic_id: topicId, history: JSON.stringify(history), turn_no: String(turnNo), hint_used: hintUsed ? 'true' : 'false' },
+    recording
+  );
+  return postForm('/freetalk/turn', form);
+}
+
 // Vocab Notes (words saved from the flashcards) and their review
 const enc = encodeURIComponent;
 export const getNotes = async () => {

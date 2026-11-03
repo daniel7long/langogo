@@ -18,7 +18,7 @@ What it does, per language:
   * skips files that already exist, so running it again only makes the new or changed texts
 
 Needs AZURE_SPEECH_KEY and AZURE_SPEECH_REGION in backend/.env (the same ones used for scoring). No extra
-packages. Change a voice with LANGOGO_TTS_VOICE_FR=fr-FR-HenriNeural (and ES, DE, ZH, KO, JA, IT, AR).
+packages. Change a voice with LANGOGO_TTS_VOICE_FR=fr-FR-HenriNeural (and EN, ES, DE, ZH, KO, JA, IT, AR, HI, BN, ID).
 """
 import argparse
 import hashlib
@@ -57,6 +57,10 @@ DEFAULT_VOICES = {
     "ru": "ru-RU-SvetlanaNeural",
     "ro": "ro-RO-AlinaNeural",
     "yue": "zh-HK-HiuMaanNeural",
+    "en": "en-US-JennyNeural",
+    "hi": "hi-IN-SwaraNeural",
+    "bn": "bn-IN-TanishaaNeural",   # for Bangladeshi Bengali use bn-BD-NabanitaNeural
+    "id": "id-ID-GadisNeural",
 }
 
 
@@ -83,6 +87,18 @@ def collect_texts(lang_id):
             add(t.get("text"))
         for w in raw.get("practice_words", []):
             add(w.get("text"))
+    # "Key Conjugation" cards: the verb, every form (with its pronoun) and the example sentences
+    for path in sorted((CONTENT_DIR / lang_id / "conjugations").glob("*.json")):
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        for c in raw.get("cards", []):
+            seen.setdefault((c.get("word") or "").strip(), None)
+            for f in c.get("forms", []):
+                pron = f.get("p", "")
+                seen.setdefault((pron + f.get("f", "") if pron.endswith(("'", "’")) else f"{pron} {f.get('f', '')}").strip(), None)
+                seen.setdefault((f.get("f") or "").strip(), None)
+            for e in c.get("examples", []):
+                seen.setdefault((e.get("target") or e.get("fr") or "").strip(), None)
+    seen.pop("", None)
     extra = CONTENT_DIR / lang_id / "level_test.json"  # the level test's speaking sentence (French)
     if extra.is_file():
         sentence = (json.loads(extra.read_text(encoding="utf-8")).get("speaking_sentence") or "").strip()

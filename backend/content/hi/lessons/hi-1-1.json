@@ -1,0 +1,261 @@
+{
+  "emoji": "👋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "नमस्ते",
+      "ipa": "namaste · /nəməsˈteː/",
+      "pos": "interj.",
+      "meaning": "hello, goodbye (respectful)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "नमस्ते, दादी जी!",
+          "en": "Hello, grandma!"
+        },
+        {
+          "target": "सबको नमस्ते।",
+          "en": "Hello to everyone."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "धन्यवाद",
+      "ipa": "dhanyavād · /dʰənjəˈʋaːd/",
+      "pos": "n.",
+      "meaning": "thank you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "आपकी मदद के लिए धन्यवाद।",
+          "en": "Thank you for your help."
+        },
+        {
+          "target": "बहुत धन्यवाद!",
+          "en": "Thank you very much!"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "ठीक",
+      "ipa": "ṭhīk · /ʈʰiːk/",
+      "pos": "adj.",
+      "meaning": "fine, okay",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मैं ठीक हूँ।",
+          "en": "I am fine."
+        },
+        {
+          "target": "सब ठीक है।",
+          "en": "Everything is fine."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "आप",
+      "ipa": "āp · /aːp/",
+      "pos": "pron.",
+      "meaning": "you (respectful)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "आप कहाँ रहते हैं?",
+          "en": "Where do you live?"
+        },
+        {
+          "target": "आप बैठिए।",
+          "en": "Please sit down."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "कैसे",
+      "ipa": "kaise · /kɛːse/",
+      "pos": "adv.",
+      "meaning": "how",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "आप कैसे हैं?",
+          "en": "How are you?"
+        },
+        {
+          "target": "यह कैसे होगा?",
+          "en": "How will this happen?"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "खुशी",
+      "ipa": "khushī · /kʰuʃiː/",
+      "pos": "n.",
+      "meaning": "happiness, pleasure",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मुझे बहुत खुशी है।",
+          "en": "I am very happy."
+        },
+        {
+          "target": "आपसे मिलकर खुशी हुई।",
+          "en": "Nice to meet you."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "फिर मिलेंगे",
+      "ipa": "phir milenge · /pʰɪr mɪleːŋɡeː/",
+      "pos": "phr.",
+      "meaning": "see you again",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "अच्छा, फिर मिलेंगे!",
+          "en": "Okay, see you again!"
+        },
+        {
+          "target": "कल फिर मिलेंगे।",
+          "en": "We will meet again tomorrow."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Aarav",
+      "role": "npc",
+      "text": "नमस्ते! आप कैसे हैं?",
+      "glosses": [
+        {
+          "text": "नमस्ते",
+          "pos": "interj.",
+          "meaning": "hello, goodbye (respectful)"
+        },
+        {
+          "text": "आप",
+          "pos": "pron.",
+          "meaning": "you (respectful)"
+        },
+        {
+          "text": "कैसे",
+          "pos": "adv.",
+          "meaning": "how"
+        }
+      ],
+      "en": "Hello! How are you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "नमस्ते! मैं ठीक हूँ, धन्यवाद। और आप?",
+      "glosses": [
+        {
+          "text": "नमस्ते",
+          "pos": "interj.",
+          "meaning": "hello, goodbye (respectful)"
+        },
+        {
+          "text": "धन्यवाद",
+          "pos": "n.",
+          "meaning": "thank you"
+        },
+        {
+          "text": "ठीक",
+          "pos": "adj.",
+          "meaning": "fine, okay"
+        }
+      ],
+      "en": "Hello! I am fine, thank you. And you?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Aarav",
+      "role": "npc",
+      "text": "मैं भी ठीक हूँ। आपसे मिलकर खुशी हुई।",
+      "glosses": [
+        {
+          "text": "ठीक",
+          "pos": "adj.",
+          "meaning": "fine, okay"
+        },
+        {
+          "text": "खुशी",
+          "pos": "n.",
+          "meaning": "happiness, pleasure"
+        }
+      ],
+      "en": "I am fine too. Nice to meet you."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "मुझे भी बहुत खुशी हुई।",
+      "glosses": [
+        {
+          "text": "खुशी",
+          "pos": "n.",
+          "meaning": "happiness, pleasure"
+        }
+      ],
+      "en": "I am very happy too."
+    },
+    {
+      "id": "t5",
+      "speaker": "Aarav",
+      "role": "npc",
+      "text": "अब मुझे जाना है। फिर मिलेंगे!",
+      "glosses": [
+        {
+          "text": "फिर मिलेंगे",
+          "pos": "phr.",
+          "meaning": "see you again"
+        }
+      ],
+      "en": "I have to go now. See you again!"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "जी हाँ, फिर मिलेंगे। नमस्ते!",
+      "glosses": [
+        {
+          "text": "नमस्ते",
+          "pos": "interj.",
+          "meaning": "hello, goodbye (respectful)"
+        },
+        {
+          "text": "फिर मिलेंगे",
+          "pos": "phr.",
+          "meaning": "see you again"
+        }
+      ],
+      "en": "Yes, see you again. Goodbye!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "धन्यवाद",
+      "tip": "dh is breathy: say dhə-nyə-VAAD"
+    },
+    {
+      "id": "w2",
+      "text": "नमस्ते",
+      "tip": "Say nə-məs-TEH with a long ending"
+    }
+  ]
+}

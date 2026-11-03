@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "recommend",
+      "ipa": "/ˌrekəˈmend/",
+      "pos": "v.",
+      "meaning": "to say that something is good",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "recommend",
+          "ipa": "/aɪ ˌrekəˈmend/"
+        },
+        {
+          "p": "you",
+          "f": "recommend",
+          "ipa": "/ju ˌrekəˈmend/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "recommends",
+          "ipa": "/hi ˌrekəˈmendz/"
+        },
+        {
+          "p": "we",
+          "f": "recommend",
+          "ipa": "/wi ˌrekəˈmend/"
+        },
+        {
+          "p": "they",
+          "f": "recommend",
+          "ipa": "/ðeɪ ˌrekəˈmend/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I recommend the chicken."
+        },
+        {
+          "target": "She recommends this café."
+        }
+      ],
+      "note": "Use 'recommend' to give a good idea: I recommend the soup."
+    },
+    {
+      "id": "c2",
+      "word": "take",
+      "ipa": "/teɪk/",
+      "pos": "v. (irregular)",
+      "meaning": "to choose something; to get it",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "take",
+          "ipa": "/aɪ teɪk/"
+        },
+        {
+          "p": "you",
+          "f": "take",
+          "ipa": "/ju teɪk/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "takes",
+          "ipa": "/hi teɪks/"
+        },
+        {
+          "p": "we",
+          "f": "take",
+          "ipa": "/wi teɪk/"
+        },
+        {
+          "p": "they",
+          "f": "take",
+          "ipa": "/ðeɪ teɪk/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I take the pasta."
+        },
+        {
+          "target": "He takes a coffee."
+        }
+      ],
+      "note": "In a restaurant, 'I will take...' means 'I choose...'."
+    },
+    {
+      "id": "c3",
+      "word": "will",
+      "ipa": "/wɪl/",
+      "pos": "v. (modal)",
+      "meaning": "to decide something at the moment of speaking",
+      "tense": "Future with will",
+      "forms": [
+        {
+          "p": "I",
+          "f": "will",
+          "ipa": "/aɪ wɪl/"
+        },
+        {
+          "p": "you",
+          "f": "will",
+          "ipa": "/ju wɪl/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "will",
+          "ipa": "/hi wɪl/"
+        },
+        {
+          "p": "we",
+          "f": "will",
+          "ipa": "/wi wɪl/"
+        },
+        {
+          "p": "they",
+          "f": "will",
+          "ipa": "/ðeɪ wɪl/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I will take the soup."
+        },
+        {
+          "target": "We will have dessert."
+        }
+      ],
+      "note": "'I will take it' is a quick decision."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "apporter",
+      "ipa": "/a.pɔʁ.te/",
+      "pos": "v.",
+      "meaning": "to bring",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "apporte",
+          "ipa": "/ʒa.pɔʁt/"
+        },
+        {
+          "p": "tu",
+          "f": "apportes",
+          "ipa": "/ty a.pɔʁt/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "apporte",
+          "ipa": "/il a.pɔʁt/"
+        },
+        {
+          "p": "nous",
+          "f": "apportons",
+          "ipa": "/nu za.pɔʁ.tɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "apportez",
+          "ipa": "/vu za.pɔʁ.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "apportent",
+          "ipa": "/il za.pɔʁt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'apporte des sandwichs.",
+          "en": "I'm bringing sandwiches."
+        },
+        {
+          "target": "Qu'est-ce qu'on apporte ?",
+          "en": "What shall we bring?"
+        }
+      ],
+      "note": "Use apporter for things you bring along."
+    },
+    {
+      "id": "c2",
+      "word": "se retrouver",
+      "ipa": "/sə ʁə.tʁu.ve/",
+      "pos": "v.",
+      "meaning": "to meet up",
+      "tense": "Present (reflexive)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "me retrouve",
+          "ipa": "/ʒə mə ʁə.tʁuv/"
+        },
+        {
+          "p": "tu",
+          "f": "te retrouves",
+          "ipa": "/ty tə ʁə.tʁuv/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "se retrouve",
+          "ipa": "/il sə ʁə.tʁuv/"
+        },
+        {
+          "p": "nous",
+          "f": "nous retrouvons",
+          "ipa": "/nu ʁə.tʁu.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "vous retrouvez",
+          "ipa": "/vu ʁə.tʁu.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "se retrouvent",
+          "ipa": "/il sə ʁə.tʁuv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On se retrouve au parc à midi ?",
+          "en": "Shall we meet at the park at noon?"
+        },
+        {
+          "target": "Nous nous retrouvons demain.",
+          "en": "We meet tomorrow."
+        }
+      ],
+      "note": "'On se retrouve' = shall we meet."
+    },
+    {
+      "id": "c3",
+      "word": "faire",
+      "ipa": "/fɛʁ/",
+      "pos": "v.",
+      "meaning": "to do, to make",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "fais",
+          "ipa": "/ʒə fɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "fais",
+          "ipa": "/ty fɛ/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "fait",
+          "ipa": "/il fɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "faisons",
+          "ipa": "/nu fə.zɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "faites",
+          "ipa": "/vu fɛt/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "font",
+          "ipa": "/il fɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On fait un pique-nique demain ?",
+          "en": "Shall we have a picnic tomorrow?"
+        },
+        {
+          "target": "Nous faisons un gâteau.",
+          "en": "We're making a cake."
+        }
+      ],
+      "note": "Faire un pique-nique = have a picnic."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "explain",
+      "ipa": "/ɪkˈspleɪn/",
+      "pos": "v.",
+      "meaning": "to make something clear",
+      "tense": "Future with will",
+      "forms": [
+        {
+          "p": "I",
+          "f": "will explain",
+          "ipa": "/aɪ wɪl ɪkˈspleɪn/"
+        },
+        {
+          "p": "you",
+          "f": "will explain",
+          "ipa": "/ju wɪl ɪkˈspleɪn/"
+        },
+        {
+          "p": "he / she",
+          "f": "will explain",
+          "ipa": "/hi wɪl ɪkˈspleɪn/"
+        },
+        {
+          "p": "we",
+          "f": "will explain",
+          "ipa": "/wi wɪl ɪkˈspleɪn/"
+        },
+        {
+          "p": "they",
+          "f": "will explain",
+          "ipa": "/ðeɪ wɪl ɪkˈspleɪn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I will explain the plan."
+        },
+        {
+          "target": "We will explain the results."
+        }
+      ],
+      "note": "Use 'I will explain' to say what comes next in a talk."
+    },
+    {
+      "id": "c2",
+      "word": "show",
+      "ipa": "/ʃoʊ/",
+      "pos": "v.",
+      "meaning": "to let people see something",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "show",
+          "ipa": "/aɪ ʃoʊ/"
+        },
+        {
+          "p": "you",
+          "f": "show",
+          "ipa": "/ju ʃoʊ/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "shows",
+          "ipa": "/hi ʃoʊz/"
+        },
+        {
+          "p": "we",
+          "f": "show",
+          "ipa": "/wi ʃoʊ/"
+        },
+        {
+          "p": "they",
+          "f": "show",
+          "ipa": "/ðeɪ ʃoʊ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "This slide shows the results."
+        },
+        {
+          "target": "The chart shows a trend."
+        }
+      ],
+      "note": "The slide shows..., the graph shows..."
+    },
+    {
+      "id": "c3",
+      "word": "should",
+      "ipa": "/ʃʊd/",
+      "pos": "v. (modal)",
+      "meaning": "to give advice",
+      "tense": "Advice with should",
+      "forms": [
+        {
+          "p": "I",
+          "f": "should",
+          "ipa": "/aɪ ʃʊd/"
+        },
+        {
+          "p": "you",
+          "f": "should",
+          "ipa": "/ju ʃʊd/"
+        },
+        {
+          "p": "he / she",
+          "f": "should",
+          "ipa": "/hi ʃʊd/"
+        },
+        {
+          "p": "we",
+          "f": "should",
+          "ipa": "/wi ʃʊd/"
+        },
+        {
+          "p": "people",
+          "f": "should",
+          "ipa": "/ˈpiːpl ʃʊd/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "People should eat more fruit."
+        },
+        {
+          "target": "You should ask a question."
+        }
+      ],
+      "note": "Should is followed by the plain verb."
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "नाम",
+      "ipa": "nām · /naːm/",
+      "pos": "n.",
+      "meaning": "name",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मेरा नाम राहुल है।",
+          "en": "My name is Rahul."
+        },
+        {
+          "target": "आपका नाम क्या है?",
+          "en": "What is your name?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "मेरा",
+      "ipa": "merā · /meːraː/",
+      "pos": "pron.",
+      "meaning": "my (masculine)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मेरा घर बड़ा है।",
+          "en": "My house is big."
+        },
+        {
+          "target": "यह मेरा दोस्त है।",
+          "en": "This is my friend."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "आपका",
+      "ipa": "āpkā · /aːpkaː/",
+      "pos": "pron.",
+      "meaning": "your (respectful)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "आपका स्वागत है।",
+          "en": "You are welcome."
+        },
+        {
+          "target": "आपका फ़ोन कहाँ है?",
+          "en": "Where is your phone?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "विद्यार्थी",
+      "ipa": "vidyārthī · /ʋɪdjaːrtʰiː/",
+      "pos": "n.",
+      "meaning": "student",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मैं विद्यार्थी हूँ।",
+          "en": "I am a student."
+        },
+        {
+          "target": "वह अच्छा विद्यार्थी है।",
+          "en": "He is a good student."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "घर",
+      "ipa": "ghar · /ɡʰər/",
+      "pos": "n.",
+      "meaning": "home, house",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मेरा घर दूर है।",
+          "en": "My home is far."
+        },
+        {
+          "target": "घर चलो।",
+          "en": "Let's go home."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "दोस्त",
+      "ipa": "dost · /doːst/",
+      "pos": "n.",
+      "meaning": "friend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "वह मेरा दोस्त है।",
+          "en": "He is my friend."
+        },
+        {
+          "target": "दोस्त, कैसे हो?",
+          "en": "Friend, how are you?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "कहाँ",
+      "ipa": "kahāṁ · /kəɦaː̃/",
+      "pos": "adv.",
+      "meaning": "where",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "आप कहाँ हैं?",
+          "en": "Where are you?"
+        },
+        {
+          "target": "स्टेशन कहाँ है?",
+          "en": "Where is the station?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Meera",
+      "role": "npc",
+      "text": "आपका नाम क्या है?",
+      "glosses": [
+        {
+          "text": "नाम",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "आपका",
+          "pos": "pron.",
+          "meaning": "your (respectful)"
+        }
+      ],
+      "en": "What is your name?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "मेरा नाम डैनियल है। मैं विद्यार्थी हूँ।",
+      "glosses": [
+        {
+          "text": "नाम",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "मेरा",
+          "pos": "pron.",
+          "meaning": "my (masculine)"
+        },
+        {
+          "text": "विद्यार्थी",
+          "pos": "n.",
+          "meaning": "student"
+        }
+      ],
+      "en": "My name is Daniel. I am a student."
+    },
+    {
+      "id": "t3",
+      "speaker": "Meera",
+      "role": "npc",
+      "text": "अच्छा नाम है! आपका घर कहाँ है?",
+      "glosses": [
+        {
+          "text": "नाम",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "आपका",
+          "pos": "pron.",
+          "meaning": "your (respectful)"
+        },
+        {
+          "text": "घर",
+          "pos": "n.",
+          "meaning": "home, house"
+        }
+      ],
+      "en": "A nice name! Where is your home?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "मेरा घर अमेरिका में है।",
+      "glosses": [
+        {
+          "text": "मेरा",
+          "pos": "pron.",
+          "meaning": "my (masculine)"
+        },
+        {
+          "text": "घर",
+          "pos": "n.",
+          "meaning": "home, house"
+        }
+      ],
+      "en": "My home is in America."
+    },
+    {
+      "id": "t5",
+      "speaker": "Meera",
+      "role": "npc",
+      "text": "मेरा नाम मीरा है। यह मेरा दोस्त रवि है।",
+      "glosses": [
+        {
+          "text": "नाम",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "मेरा",
+          "pos": "pron.",
+          "meaning": "my (masculine)"
+        },
+        {
+          "text": "दोस्त",
+          "pos": "n.",
+          "meaning": "friend"
+        }
+      ],
+      "en": "My name is Meera. This is my friend Ravi."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "आप दोनों से मिलकर अच्छा लगा।",
+      "glosses": [],
+      "en": "It was nice to meet you both."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "विद्यार्थी",
+      "tip": "Say vɪd-jaar-THEE; the 'th' is breathy"
+    },
+    {
+      "id": "w2",
+      "text": "घर",
+      "tip": "gh is a breathy g: GHAR"
+    }
+  ]
+}

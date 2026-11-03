@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "लाना",
+      "ipa": "lānā · /laːnaː/",
+      "pos": "v.",
+      "meaning": "to bring",
+      "tense": "Imperative and future",
+      "forms": [
+        {
+          "p": "आप",
+          "f": "लाइए",
+          "ipa": "laːɪje"
+        },
+        {
+          "p": "तुम",
+          "f": "लाओ",
+          "ipa": "laːoː"
+        },
+        {
+          "p": "मैं",
+          "f": "लाता हूँ",
+          "ipa": "laːtaː huː̃"
+        },
+        {
+          "p": "मैं",
+          "f": "लाऊँगा",
+          "ipa": "laːuːŋɡaː"
+        },
+        {
+          "p": "हम",
+          "f": "लाएँगे",
+          "ipa": "laːeːŋɡeː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "बिल लाइए, कृपया।",
+          "en": "Please bring the bill."
+        },
+        {
+          "target": "अभी लाता हूँ।",
+          "en": "I'll bring it right away."
+        }
+      ],
+      "note": "लाइए is the polite request: बिल लाइए."
+    },
+    {
+      "id": "c2",
+      "word": "होना",
+      "ipa": "honā · /hoːnaː/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Past of 'to be'",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "था / थी",
+          "ipa": "tʰaː / tʰiː"
+        },
+        {
+          "p": "तुम",
+          "f": "थे / थीं",
+          "ipa": "tʰeː"
+        },
+        {
+          "p": "वह",
+          "f": "था / थी",
+          "ipa": "tʰaː"
+        },
+        {
+          "p": "हम",
+          "f": "थे",
+          "ipa": "tʰeː"
+        },
+        {
+          "p": "खाना",
+          "f": "स्वादिष्ट था",
+          "ipa": "tʰaː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "खाना बहुत स्वादिष्ट था।",
+          "en": "The food was very tasty."
+        },
+        {
+          "target": "मैं कल घर पर था।",
+          "en": "I was at home yesterday."
+        }
+      ],
+      "note": "था (m) / थी (f) / थे (pl)."
+    }
+  ]
+}

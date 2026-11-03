@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "avoir",
+      "ipa": "/a.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai",
+          "ipa": "/ʒe/"
+        },
+        {
+          "p": "tu",
+          "f": "as",
+          "ipa": "/ty a/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a",
+          "ipa": "/il a/"
+        },
+        {
+          "p": "nous",
+          "f": "avons",
+          "ipa": "/nu za.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "avez",
+          "ipa": "/vu za.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont",
+          "ipa": "/il zɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'ai vingt ans.",
+          "en": "I'm twenty years old."
+        },
+        {
+          "target": "Quel âge as-tu ?",
+          "en": "How old are you?"
+        }
+      ],
+      "note": "French uses avoir for age: j'ai vingt ans."
+    },
+    {
+      "id": "c2",
+      "word": "savoir",
+      "ipa": "/sa.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to know (how)",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "sais",
+          "ipa": "/ʒə sɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "sais",
+          "ipa": "/ty sɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "sait",
+          "ipa": "/il sɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "savons",
+          "ipa": "/nu sa.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "savez",
+          "ipa": "/vu sa.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "savent",
+          "ipa": "/il sav/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu sais compter en français ?",
+          "en": "Can you count in French?"
+        },
+        {
+          "target": "Je sais nager.",
+          "en": "I know how to swim."
+        }
+      ],
+      "note": "Savoir + infinitive = know how to."
+    }
+  ]
+}

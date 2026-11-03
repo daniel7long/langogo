@@ -1,0 +1,137 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "faire",
+      "ipa": "/fɛʁ/",
+      "pos": "v.",
+      "meaning": "to do, to make",
+      "tense": "Weather",
+      "forms": [
+        {
+          "p": "il",
+          "f": "fait froid",
+          "ipa": "/il fɛ fʁwa/"
+        },
+        {
+          "p": "il",
+          "f": "fait chaud",
+          "ipa": "/il fɛ ʃo/"
+        },
+        {
+          "p": "il",
+          "f": "fait beau",
+          "ipa": "/il fɛ bo/"
+        },
+        {
+          "p": "il",
+          "f": "fait mauvais",
+          "ipa": "/il fɛ mo.vɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il fait très froid là-bas.",
+          "en": "It's very cold there."
+        },
+        {
+          "target": "Il fait beau aujourd'hui.",
+          "en": "The weather is nice today."
+        }
+      ],
+      "note": "The weather uses 'il fait' + adjective."
+    },
+    {
+      "id": "c2",
+      "word": "avoir",
+      "ipa": "/a.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have",
+      "tense": "'Il y a'",
+      "forms": [
+        {
+          "p": "il y a",
+          "f": "neige",
+          "ipa": "/il i a nɛʒ/"
+        },
+        {
+          "p": "il y a",
+          "f": "du monde",
+          "ipa": "/il i a dy mɔ̃d/"
+        },
+        {
+          "p": "il y avait",
+          "f": "du soleil",
+          "ipa": "/il i a.vɛ dy sɔ.lɛj/"
+        },
+        {
+          "p": "il y aura",
+          "f": "de la neige",
+          "ipa": "/il i o.ʁa də la nɛʒ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il y a beaucoup de neige.",
+          "en": "There's a lot of snow."
+        },
+        {
+          "target": "Il y a une piste verte.",
+          "en": "There is a green slope."
+        }
+      ],
+      "note": "'Il y a' = there is / there are."
+    },
+    {
+      "id": "c3",
+      "word": "oublier",
+      "ipa": "/u.bli.je/",
+      "pos": "v.",
+      "meaning": "to forget",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "oublie",
+          "ipa": "/ʒu.bli/"
+        },
+        {
+          "p": "tu",
+          "f": "oublies",
+          "ipa": "/ty u.bli/"
+        },
+        {
+          "p": "il / elle",
+          "f": "oublie",
+          "ipa": "/il u.bli/"
+        },
+        {
+          "p": "nous",
+          "f": "oublions",
+          "ipa": "/nu zu.bli.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "oubliez",
+          "ipa": "/vu zu.bli.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "oublient",
+          "ipa": "/il zu.bli/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je n'oublie pas mon casque.",
+          "en": "I'm not forgetting my helmet."
+        },
+        {
+          "target": "Tu oublies tes gants.",
+          "en": "You're forgetting your gloves."
+        }
+      ],
+      "note": "Negative: je n'oublie pas."
+    }
+  ]
+}

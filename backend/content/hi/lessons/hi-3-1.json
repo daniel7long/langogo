@@ -1,0 +1,250 @@
+{
+  "emoji": "🍵",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "चाय",
+      "ipa": "chāy · /tʃaːj/",
+      "pos": "n.",
+      "meaning": "tea",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "मुझे चाय पसंद है।",
+          "en": "I like tea."
+        },
+        {
+          "target": "एक चाय, कृपया।",
+          "en": "One tea, please."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "कप",
+      "ipa": "kap · /kəp/",
+      "pos": "n.",
+      "meaning": "cup",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "एक कप चाय दीजिए।",
+          "en": "Give me a cup of tea."
+        },
+        {
+          "target": "कप गरम है।",
+          "en": "The cup is hot."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "चीनी",
+      "ipa": "chīnī · /tʃiːniː/",
+      "pos": "n.",
+      "meaning": "sugar",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "चीनी कम डालिए।",
+          "en": "Put less sugar."
+        },
+        {
+          "target": "चीनी के बिना चाय।",
+          "en": "Tea without sugar."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "दूध",
+      "ipa": "dūdh · /duːdʰ/",
+      "pos": "n.",
+      "meaning": "milk",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "दूध गरम है।",
+          "en": "The milk is hot."
+        },
+        {
+          "target": "मुझे दूध वाली चाय चाहिए।",
+          "en": "I want tea with milk."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "गरम",
+      "ipa": "garam · /ɡərəm/",
+      "pos": "adj.",
+      "meaning": "hot",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "चाय गरम है।",
+          "en": "The tea is hot."
+        },
+        {
+          "target": "गरम समोसा खाइए।",
+          "en": "Eat a hot samosa."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "समोसा",
+      "ipa": "samosā · /səmoːsaː/",
+      "pos": "n.",
+      "meaning": "samosa",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "एक समोसा दीजिए।",
+          "en": "Give me one samosa."
+        },
+        {
+          "target": "समोसा स्वादिष्ट है।",
+          "en": "The samosa is delicious."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "कृपया",
+      "ipa": "kṛpayā · /krɪpəjaː/",
+      "pos": "adv.",
+      "meaning": "please",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "कृपया बैठिए।",
+          "en": "Please sit."
+        },
+        {
+          "target": "कृपया थोड़ा रुकिए।",
+          "en": "Please wait a little."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Chaiwala",
+      "role": "npc",
+      "text": "नमस्ते! आपको क्या चाहिए?",
+      "glosses": [],
+      "en": "Hello! What would you like?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "एक कप चाय दीजिए, कृपया।",
+      "glosses": [
+        {
+          "text": "चाय",
+          "pos": "n.",
+          "meaning": "tea"
+        },
+        {
+          "text": "कप",
+          "pos": "n.",
+          "meaning": "cup"
+        },
+        {
+          "text": "कृपया",
+          "pos": "adv.",
+          "meaning": "please"
+        }
+      ],
+      "en": "One cup of tea, please."
+    },
+    {
+      "id": "t3",
+      "speaker": "Chaiwala",
+      "role": "npc",
+      "text": "चीनी कितनी डालूँ?",
+      "glosses": [
+        {
+          "text": "चीनी",
+          "pos": "n.",
+          "meaning": "sugar"
+        }
+      ],
+      "en": "How much sugar should I put?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "चीनी कम डालिए। दूध वाली चाय चाहिए।",
+      "glosses": [
+        {
+          "text": "चाय",
+          "pos": "n.",
+          "meaning": "tea"
+        },
+        {
+          "text": "चीनी",
+          "pos": "n.",
+          "meaning": "sugar"
+        },
+        {
+          "text": "दूध",
+          "pos": "n.",
+          "meaning": "milk"
+        }
+      ],
+      "en": "Put less sugar. I want tea with milk."
+    },
+    {
+      "id": "t5",
+      "speaker": "Chaiwala",
+      "role": "npc",
+      "text": "ठीक है। गरम समोसा भी लेंगे?",
+      "glosses": [
+        {
+          "text": "गरम",
+          "pos": "adj.",
+          "meaning": "hot"
+        },
+        {
+          "text": "समोसा",
+          "pos": "n.",
+          "meaning": "samosa"
+        }
+      ],
+      "en": "Okay. Will you take a hot samosa too?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "जी हाँ, एक समोसा भी दीजिए। धन्यवाद!",
+      "glosses": [
+        {
+          "text": "समोसा",
+          "pos": "n.",
+          "meaning": "samosa"
+        }
+      ],
+      "en": "Yes, give one samosa as well. Thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "कृपया",
+      "tip": "Say kri-pə-YAA; 'kri' is quick"
+    },
+    {
+      "id": "w2",
+      "text": "चाय",
+      "tip": "Say CHAAY with a long vowel"
+    }
+  ]
+}

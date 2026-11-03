@@ -1,0 +1,236 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "where",
+      "ipa": "/wer/",
+      "pos": "adv.",
+      "meaning": "a word you use to ask about a place",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Where is the bank?"
+        },
+        {
+          "target": "Where do you live?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "from",
+      "ipa": "/frʌm/",
+      "pos": "prep.",
+      "meaning": "showing the place someone starts or comes from",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I am from Brazil."
+        },
+        {
+          "target": "She is from Japan."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "country",
+      "ipa": "/ˈkʌntri/",
+      "pos": "n.",
+      "meaning": "a land with its own people and government",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Canada is a big country."
+        },
+        {
+          "target": "My country is small."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "city",
+      "ipa": "/ˈsɪti/",
+      "pos": "n.",
+      "meaning": "a big town with many people",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I come from a big city."
+        },
+        {
+          "target": "Paris is a famous city."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "language",
+      "ipa": "/ˈlæŋɡwɪdʒ/",
+      "pos": "n.",
+      "meaning": "the words people use to talk to each other",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "English is a language."
+        },
+        {
+          "target": "Which language do you speak?"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "speak",
+      "ipa": "/spiːk/",
+      "pos": "v.",
+      "meaning": "to say words out loud",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I speak two languages."
+        },
+        {
+          "target": "Can you speak slowly?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "little",
+      "ipa": "/ˈlɪtl/",
+      "pos": "adj.",
+      "meaning": "not much; small",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I speak a little French."
+        },
+        {
+          "target": "A little water, please."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Tom",
+      "role": "npc",
+      "text": "Where are you from?",
+      "glosses": [
+        {
+          "text": "Where",
+          "pos": "adv.",
+          "meaning": "a word you use to ask about a place"
+        },
+        {
+          "text": "from",
+          "pos": "prep.",
+          "meaning": "showing the place someone starts or comes from"
+        }
+      ],
+      "en": "Tell me the place you come from."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "I am from China. I come from a big city.",
+      "glosses": [
+        {
+          "text": "from",
+          "pos": "prep.",
+          "meaning": "showing the place someone starts or comes from"
+        },
+        {
+          "text": "city",
+          "pos": "n.",
+          "meaning": "a big town with many people"
+        }
+      ],
+      "en": "My country is China. My home city is large."
+    },
+    {
+      "id": "t3",
+      "speaker": "Tom",
+      "role": "npc",
+      "text": "That is great! Which language do you speak?",
+      "glosses": [
+        {
+          "text": "language",
+          "pos": "n.",
+          "meaning": "the words people use to talk to each other"
+        },
+        {
+          "text": "speak",
+          "pos": "v.",
+          "meaning": "to say words out loud"
+        }
+      ],
+      "en": "How nice! What language do you use?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "I speak Chinese and a little English.",
+      "glosses": [
+        {
+          "text": "speak",
+          "pos": "v.",
+          "meaning": "to say words out loud"
+        },
+        {
+          "text": "little",
+          "pos": "adj.",
+          "meaning": "not much; small"
+        }
+      ],
+      "en": "I use Chinese, and I know some English."
+    },
+    {
+      "id": "t5",
+      "speaker": "Tom",
+      "role": "npc",
+      "text": "My country is the United States. I speak English.",
+      "glosses": [
+        {
+          "text": "country",
+          "pos": "n.",
+          "meaning": "a land with its own people and government"
+        },
+        {
+          "text": "speak",
+          "pos": "v.",
+          "meaning": "to say words out loud"
+        }
+      ],
+      "en": "I come from the United States. I use English."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Your English is very good!",
+      "glosses": [],
+      "en": "You speak English well!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "where",
+      "tip": "Start with 'wh' like 'w' and keep the vowel short"
+    },
+    {
+      "id": "w2",
+      "text": "language",
+      "tip": "Say LANG-gwij: the 'gu' sounds like 'gw'"
+    }
+  ]
+}

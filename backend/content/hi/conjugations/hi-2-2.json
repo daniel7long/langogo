@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "होना",
+      "ipa": "honā · /hoːnaː/",
+      "pos": "v.",
+      "meaning": "to be (time)",
+      "tense": "Present of 'to be' with time",
+      "forms": [
+        {
+          "p": "एक बजा",
+          "f": "है",
+          "ipa": "hɛː"
+        },
+        {
+          "p": "दो बजे",
+          "f": "हैं",
+          "ipa": "hɛ̃ː"
+        },
+        {
+          "p": "तीन बजे",
+          "f": "हैं",
+          "ipa": "hɛ̃ː"
+        },
+        {
+          "p": "साढ़े तीन",
+          "f": "हैं",
+          "ipa": "hɛ̃ː"
+        },
+        {
+          "p": "मीटिंग तीन बजे",
+          "f": "है",
+          "ipa": "hɛː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "तीन बजे हैं।",
+          "en": "It is three o'clock."
+        },
+        {
+          "target": "मीटिंग साढ़े तीन बजे है।",
+          "en": "The meeting is at half past three."
+        }
+      ],
+      "note": "One o'clock uses बजा है; all others use बजे हैं."
+    },
+    {
+      "id": "c2",
+      "word": "लगना",
+      "ipa": "lagnā · /ləɡnaː/",
+      "pos": "v.",
+      "meaning": "to take (time)",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "यह",
+          "f": "लगेगा",
+          "ipa": "ləɡeːɡaː"
+        },
+        {
+          "p": "एक घंटा",
+          "f": "लगेगा",
+          "ipa": "ləɡeːɡaː"
+        },
+        {
+          "p": "दो घंटे",
+          "f": "लगेंगे",
+          "ipa": "ləɡeːŋɡeː"
+        },
+        {
+          "p": "आधा घंटा",
+          "f": "लगेगा",
+          "ipa": "ləɡeːɡaː"
+        },
+        {
+          "p": "कितना समय",
+          "f": "लगेगा?",
+          "ipa": "ləɡeːɡaː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "एक घंटा लगेगा।",
+          "en": "It will take one hour."
+        },
+        {
+          "target": "दो घंटे लगेंगे।",
+          "en": "It will take two hours."
+        }
+      ],
+      "note": "एक घंटा लगेगा = it will take an hour."
+    }
+  ]
+}

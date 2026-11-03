@@ -145,6 +145,43 @@ const DRAW = {
       <SvgText x="45" y="45" fontSize="40" fontWeight="bold" fill="#FFFFFF" textAnchor="middle">粵</SvgText>
     </>
   ),
+  // English is spoken in many countries; the Union Jack is the one that reads clearly in a round crop.
+  en: () => (
+    <>
+      <Rect width="90" height="60" fill="#012169" />
+      <Path d="M0 0 L90 60 M90 0 L0 60" stroke="#FFFFFF" strokeWidth="12" />
+      <Path d="M0 0 L90 60 M90 0 L0 60" stroke="#C8102E" strokeWidth="4" />
+      <Rect x="0" y="20" width="90" height="20" fill="#FFFFFF" />
+      <Rect x="35" y="0" width="20" height="60" fill="#FFFFFF" />
+      <Rect x="0" y="24" width="90" height="12" fill="#C8102E" />
+      <Rect x="39" y="0" width="12" height="60" fill="#C8102E" />
+    </>
+  ),
+  // Hindi: the flag of India (saffron, white and green, with the navy Ashoka wheel).
+  hi: () => (
+    <>
+      <Rect y="0" width="90" height="20" fill="#FF9933" />
+      <Rect y="20" width="90" height="20" fill="#FFFFFF" />
+      <Rect y="40" width="90" height="20" fill="#138808" />
+      <Circle cx="45" cy="30" r="7.5" fill="none" stroke="#000080" strokeWidth="1.2" />
+      <Path d="M45 22.5 V37.5 M37.5 30 H52.5 M39.7 24.7 L50.3 35.3 M50.3 24.7 L39.7 35.3" stroke="#000080" strokeWidth="0.9" />
+      <Circle cx="45" cy="30" r="1.4" fill="#000080" />
+    </>
+  ),
+  // Bengali: the flag of Bangladesh (a red disc on green).
+  bn: () => (
+    <>
+      <Rect width="90" height="60" fill="#006A4E" />
+      <Circle cx="42" cy="30" r="18" fill="#F42A41" />
+    </>
+  ),
+  // Indonesian: the flag of Indonesia (red above white).
+  id: () => (
+    <>
+      <Rect y="0" width="90" height="30" fill="#CE1126" />
+      <Rect y="30" width="90" height="30" fill="#FFFFFF" />
+    </>
+  ),
 };
 
 // `round` crops the flag into a circle (the language cards); `ring` adds the soft warm halo around it.

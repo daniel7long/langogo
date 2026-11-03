@@ -1,0 +1,142 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "faire",
+      "ipa": "/fɛʁ/",
+      "pos": "v.",
+      "meaning": "to do, to make",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "fais",
+          "ipa": "/ʒə fɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "fais",
+          "ipa": "/ty fɛ/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "fait",
+          "ipa": "/il fɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "faisons",
+          "ipa": "/nu fə.zɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "faites",
+          "ipa": "/vu fɛt/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "font",
+          "ipa": "/il fɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On fait une randonnée samedi ?",
+          "en": "Shall we go hiking on Saturday?"
+        },
+        {
+          "target": "Nous faisons du sport.",
+          "en": "We do sport."
+        }
+      ],
+      "note": "Faire une randonnée = go on a hike."
+    },
+    {
+      "id": "c2",
+      "word": "suivre",
+      "ipa": "/sɥivʁ/",
+      "pos": "v.",
+      "meaning": "to follow",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "suis",
+          "ipa": "/ʒə sɥi/"
+        },
+        {
+          "p": "tu",
+          "f": "suis",
+          "ipa": "/ty sɥi/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "suit",
+          "ipa": "/il sɥi/"
+        },
+        {
+          "p": "nous",
+          "f": "suivons",
+          "ipa": "/nu sɥi.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "suivez",
+          "ipa": "/vu sɥi.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "suivent",
+          "ipa": "/il sɥiv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On suit le sentier jusqu'au lac.",
+          "en": "We follow the path to the lake."
+        },
+        {
+          "target": "Je suis le guide.",
+          "en": "I follow the guide."
+        }
+      ],
+      "note": "Suivre un sentier = follow a path."
+    },
+    {
+      "id": "c3",
+      "word": "oublier",
+      "ipa": "/u.bli.je/",
+      "pos": "v.",
+      "meaning": "to forget",
+      "tense": "Command (negative)",
+      "forms": [
+        {
+          "p": "tu",
+          "f": "N'oublie pas",
+          "ipa": "/nu.bli pa/"
+        },
+        {
+          "p": "nous",
+          "f": "N'oublions pas",
+          "ipa": "/nu.bli.jɔ̃ pa/"
+        },
+        {
+          "p": "vous",
+          "f": "N'oubliez pas",
+          "ipa": "/nu.bli.je pa/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "N'oublie pas de mettre de bonnes chaussures !",
+          "en": "Don't forget to wear good shoes!"
+        },
+        {
+          "target": "N'oubliez pas le billet.",
+          "en": "Don't forget the ticket."
+        }
+      ],
+      "note": "Negative command: ne + verb + pas."
+    }
+  ]
+}

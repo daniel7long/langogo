@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "être",
+      "ipa": "/ɛtʁ/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "suis",
+          "ipa": "/ʒə sɥi/"
+        },
+        {
+          "p": "tu",
+          "f": "es",
+          "ipa": "/ty ɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "est",
+          "ipa": "/il ɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "sommes",
+          "ipa": "/nu sɔm/"
+        },
+        {
+          "p": "vous",
+          "f": "êtes",
+          "ipa": "/vu zɛt/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "sont",
+          "ipa": "/il sɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu es libre ce week-end ?",
+          "en": "Are you free this weekend?"
+        },
+        {
+          "target": "Je suis libre samedi.",
+          "en": "I'm free on Saturday."
+        }
+      ],
+      "note": "Être + adjective: tu es libre."
+    },
+    {
+      "id": "c2",
+      "word": "aller",
+      "ipa": "/a.le/",
+      "pos": "v.",
+      "meaning": "to go",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "vais",
+          "ipa": "/ʒə vɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "vas",
+          "ipa": "/ty va/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "va",
+          "ipa": "/il va/"
+        },
+        {
+          "p": "nous",
+          "f": "allons",
+          "ipa": "/nu za.lɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "allez",
+          "ipa": "/vu za.le/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "vont",
+          "ipa": "/il vɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On va au cinéma ?",
+          "en": "Shall we go to the cinema?"
+        },
+        {
+          "target": "Je vais à Paris.",
+          "en": "I'm going to Paris."
+        }
+      ],
+      "note": "'On va' is a common way to say 'let's go' or 'we are going'."
+    },
+    {
+      "id": "c3",
+      "word": "travailler",
+      "ipa": "/tʁa.va.je/",
+      "pos": "v.",
+      "meaning": "to work",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "travaille",
+          "ipa": "/ʒə tʁa.vaj/"
+        },
+        {
+          "p": "tu",
+          "f": "travailles",
+          "ipa": "/ty tʁa.vaj/"
+        },
+        {
+          "p": "il / elle",
+          "f": "travaille",
+          "ipa": "/il tʁa.vaj/"
+        },
+        {
+          "p": "nous",
+          "f": "travaillons",
+          "ipa": "/nu tʁa.va.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "travaillez",
+          "ipa": "/vu tʁa.va.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "travaillent",
+          "ipa": "/il tʁa.vaj/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu travailles lundi ?",
+          "en": "Do you work on Monday?"
+        },
+        {
+          "target": "Je travaille à Lyon.",
+          "en": "I work in Lyon."
+        }
+      ],
+      "note": "Regular -er verb."
+    }
+  ]
+}

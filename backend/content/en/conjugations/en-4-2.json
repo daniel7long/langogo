@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "arrive",
+      "ipa": "/əˈraɪv/",
+      "pos": "v.",
+      "meaning": "to reach a place",
+      "tense": "Present simple (schedules)",
+      "forms": [
+        {
+          "p": "I",
+          "f": "arrive",
+          "ipa": "/aɪ əˈraɪv/"
+        },
+        {
+          "p": "you",
+          "f": "arrive",
+          "ipa": "/ju əˈraɪv/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "arrives",
+          "ipa": "/hi əˈraɪvz/"
+        },
+        {
+          "p": "we",
+          "f": "arrive",
+          "ipa": "/wi əˈraɪv/"
+        },
+        {
+          "p": "they",
+          "f": "arrive",
+          "ipa": "/ðeɪ əˈraɪv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "The bus arrives at nine."
+        },
+        {
+          "target": "We arrive soon."
+        }
+      ],
+      "note": "Use the present simple for timetables: the bus arrives at nine."
+    },
+    {
+      "id": "c2",
+      "word": "come",
+      "ipa": "/kʌm/",
+      "pos": "v.",
+      "meaning": "to move toward a place",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "come",
+          "ipa": "/aɪ kʌm/"
+        },
+        {
+          "p": "you",
+          "f": "come",
+          "ipa": "/ju kʌm/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "comes",
+          "ipa": "/hi kʌmz/"
+        },
+        {
+          "p": "we",
+          "f": "come",
+          "ipa": "/wi kʌm/"
+        },
+        {
+          "p": "they",
+          "f": "come",
+          "ipa": "/ðeɪ kʌm/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "A bus comes every ten minutes."
+        },
+        {
+          "target": "I come here every day."
+        }
+      ],
+      "note": "Add -s after he / she / it: a bus comes."
+    }
+  ]
+}

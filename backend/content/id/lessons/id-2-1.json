@@ -1,0 +1,266 @@
+{
+  "emoji": "🌅",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "bangun",
+      "ipa": "/ˈba.ŋun/",
+      "pos": "v.",
+      "meaning": "to wake up, to get up",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya bangun jam enam.",
+          "en": "I get up at six."
+        },
+        {
+          "target": "Ayo bangun!",
+          "en": "Wake up!"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "mandi",
+      "ipa": "/ˈman.di/",
+      "pos": "v.",
+      "meaning": "to bathe",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya mandi pagi.",
+          "en": "I bathe in the morning."
+        },
+        {
+          "target": "Dia sedang mandi.",
+          "en": "He is bathing."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "sarapan",
+      "ipa": "/ˈsa.ra.pan/",
+      "pos": "v.",
+      "meaning": "to have breakfast",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Kami sarapan nasi goreng.",
+          "en": "We have fried rice for breakfast."
+        },
+        {
+          "target": "Sudah sarapan?",
+          "en": "Have you had breakfast?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "pagi",
+      "ipa": "/ˈpa.ɡi/",
+      "pos": "n.",
+      "meaning": "morning",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Selamat pagi!",
+          "en": "Good morning!"
+        },
+        {
+          "target": "Pagi ini cerah.",
+          "en": "This morning is sunny."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "kerja",
+      "ipa": "/ˈkər.dʒa/",
+      "pos": "v.",
+      "meaning": "to work",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya kerja di kantor.",
+          "en": "I work at an office."
+        },
+        {
+          "target": "Ayah sudah kerja.",
+          "en": "Dad is already at work."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "setiap hari",
+      "ipa": "/ˈsə.ti.ap ˈha.ri/",
+      "pos": "phr.",
+      "meaning": "every day",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya belajar setiap hari.",
+          "en": "I study every day."
+        },
+        {
+          "target": "Dia lari setiap hari.",
+          "en": "She runs every day."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "jam",
+      "ipa": "/dʒam/",
+      "pos": "n.",
+      "meaning": "hour, o'clock",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Jam berapa sekarang?",
+          "en": "What time is it now?"
+        },
+        {
+          "target": "Saya pulang jam lima.",
+          "en": "I go home at five."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Dewi",
+      "role": "npc",
+      "text": "Jam berapa kamu bangun setiap pagi?",
+      "glosses": [
+        {
+          "text": "bangun",
+          "pos": "v.",
+          "meaning": "to wake up, to get up"
+        },
+        {
+          "text": "pagi",
+          "pos": "n.",
+          "meaning": "morning"
+        },
+        {
+          "text": "Jam",
+          "pos": "n.",
+          "meaning": "hour, o'clock"
+        }
+      ],
+      "en": "What time do you wake up every morning?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Saya bangun jam enam setiap hari.",
+      "glosses": [
+        {
+          "text": "bangun",
+          "pos": "v.",
+          "meaning": "to wake up, to get up"
+        },
+        {
+          "text": "setiap hari",
+          "pos": "phr.",
+          "meaning": "every day"
+        },
+        {
+          "text": "jam",
+          "pos": "n.",
+          "meaning": "hour, o'clock"
+        }
+      ],
+      "en": "I get up at six every day."
+    },
+    {
+      "id": "t3",
+      "speaker": "Dewi",
+      "role": "npc",
+      "text": "Pagi sekali! Lalu apa yang kamu lakukan?",
+      "glosses": [
+        {
+          "text": "Pagi",
+          "pos": "n.",
+          "meaning": "morning"
+        }
+      ],
+      "en": "So early! Then what do you do?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pertama saya mandi, lalu sarapan.",
+      "glosses": [
+        {
+          "text": "mandi",
+          "pos": "v.",
+          "meaning": "to bathe"
+        },
+        {
+          "text": "sarapan",
+          "pos": "v.",
+          "meaning": "to have breakfast"
+        }
+      ],
+      "en": "First I bathe, then I have breakfast."
+    },
+    {
+      "id": "t5",
+      "speaker": "Dewi",
+      "role": "npc",
+      "text": "Kamu mulai kerja jam berapa?",
+      "glosses": [
+        {
+          "text": "kerja",
+          "pos": "v.",
+          "meaning": "to work"
+        },
+        {
+          "text": "jam",
+          "pos": "n.",
+          "meaning": "hour, o'clock"
+        }
+      ],
+      "en": "What time do you start work?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Saya mulai kerja jam sembilan.",
+      "glosses": [
+        {
+          "text": "kerja",
+          "pos": "v.",
+          "meaning": "to work"
+        },
+        {
+          "text": "jam",
+          "pos": "n.",
+          "meaning": "hour, o'clock"
+        }
+      ],
+      "en": "I start work at nine."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "sarapan",
+      "tip": "Say SA-ra-pan; the 'r' is a quick tap"
+    },
+    {
+      "id": "w2",
+      "text": "bangun",
+      "tip": "Say BA-ngun; 'ng' is one sound"
+    }
+  ]
+}

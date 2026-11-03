@@ -10,7 +10,7 @@ import content
 import db
 import store
 from paths import STATIC_DIR
-from routers import admin, courses, notes, profile, records, share, tests, topics
+from routers import admin, courses, freetalk, notes, profile, records, share, tests, topics
 
 app = FastAPI(title="Langogo API")
 
@@ -69,6 +69,7 @@ app.include_router(courses.router)
 app.include_router(records.router)
 app.include_router(notes.router)
 app.include_router(share.router)
+app.include_router(freetalk.router)
 
 # Recorded voices for dialogue lines: backend/content/audio/<lesson_id>/<file>  ->  /media/<lesson_id>/<file>
 content.AUDIO_DIR.mkdir(parents=True, exist_ok=True)

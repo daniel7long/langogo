@@ -1,0 +1,265 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "নাম",
+      "ipa": "nam · /nam/",
+      "pos": "n.",
+      "meaning": "name",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমার নাম রাহুল।",
+          "en": "My name is Rahul."
+        },
+        {
+          "target": "আপনার নাম কী?",
+          "en": "What is your name?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "আমার",
+      "ipa": "amar · /amar/",
+      "pos": "pron.",
+      "meaning": "my",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমার বাড়ি দূরে।",
+          "en": "My home is far."
+        },
+        {
+          "target": "এ আমার বন্ধু।",
+          "en": "This is my friend."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "আপনার",
+      "ipa": "apnar · /apnar/",
+      "pos": "pron.",
+      "meaning": "your (respectful)",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আপনার ফোন কোথায়?",
+          "en": "Where is your phone?"
+        },
+        {
+          "target": "আপনার স্বাগতম।",
+          "en": "You are welcome."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "ছাত্র",
+      "ipa": "chhatro · /tʃʰatro/",
+      "pos": "n.",
+      "meaning": "student",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমি ছাত্র।",
+          "en": "I am a student."
+        },
+        {
+          "target": "সে ভালো ছাত্র।",
+          "en": "He is a good student."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "বাড়ি",
+      "ipa": "bari · /baɽi/",
+      "pos": "n.",
+      "meaning": "home, house",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমার বাড়ি বড়।",
+          "en": "My house is big."
+        },
+        {
+          "target": "চলো বাড়ি যাই।",
+          "en": "Let's go home."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "বন্ধু",
+      "ipa": "bondhu · /bɔndʱu/",
+      "pos": "n.",
+      "meaning": "friend",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "সে আমার বন্ধু।",
+          "en": "He is my friend."
+        },
+        {
+          "target": "বন্ধু, কেমন আছো?",
+          "en": "Friend, how are you?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "কোথায়",
+      "ipa": "kothay · /kotʰaj/",
+      "pos": "adv.",
+      "meaning": "where",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আপনি কোথায়?",
+          "en": "Where are you?"
+        },
+        {
+          "target": "স্টেশন কোথায়?",
+          "en": "Where is the station?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "আপনার নাম কী?",
+      "glosses": [
+        {
+          "text": "নাম",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "আপনার",
+          "pos": "pron.",
+          "meaning": "your (respectful)"
+        }
+      ],
+      "en": "What is your name?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "আমার নাম ড্যানিয়েল। আমি ছাত্র।",
+      "glosses": [
+        {
+          "text": "নাম",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "আমার",
+          "pos": "pron.",
+          "meaning": "my"
+        },
+        {
+          "text": "ছাত্র",
+          "pos": "n.",
+          "meaning": "student"
+        }
+      ],
+      "en": "My name is Daniel. I am a student."
+    },
+    {
+      "id": "t3",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "সুন্দর নাম! আপনার বাড়ি কোথায়?",
+      "glosses": [
+        {
+          "text": "নাম",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "আপনার",
+          "pos": "pron.",
+          "meaning": "your (respectful)"
+        },
+        {
+          "text": "বাড়ি",
+          "pos": "n.",
+          "meaning": "home, house"
+        }
+      ],
+      "en": "A nice name! Where is your home?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "আমার বাড়ি আমেরিকায়।",
+      "glosses": [
+        {
+          "text": "আমার",
+          "pos": "pron.",
+          "meaning": "my"
+        },
+        {
+          "text": "বাড়ি",
+          "pos": "n.",
+          "meaning": "home, house"
+        }
+      ],
+      "en": "My home is in America."
+    },
+    {
+      "id": "t5",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "আমার নাম রিনা। ইনি আমার বন্ধু রবি।",
+      "glosses": [
+        {
+          "text": "নাম",
+          "pos": "n.",
+          "meaning": "name"
+        },
+        {
+          "text": "আমার",
+          "pos": "pron.",
+          "meaning": "my"
+        },
+        {
+          "text": "বন্ধু",
+          "pos": "n.",
+          "meaning": "friend"
+        }
+      ],
+      "en": "My name is Rina. This is my friend Robi."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "আপনাদের দুজনের সঙ্গে পরিচিত হয়ে ভালো লাগলো।",
+      "glosses": [],
+      "en": "I am glad to meet you both."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "ছাত্র",
+      "tip": "Say CHHAT-ro; 'chh' is breathy"
+    },
+    {
+      "id": "w2",
+      "text": "বাড়ি",
+      "tip": "The 'ṛ' is a flap: BAA-ri"
+    }
+  ]
+}

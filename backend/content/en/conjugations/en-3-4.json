@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "be",
+      "ipa": "/bi/",
+      "pos": "v. (irregular)",
+      "meaning": "to describe what something is",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "it",
+          "f": "is",
+          "ipa": "/ɪt ɪz/"
+        },
+        {
+          "p": "I",
+          "f": "am",
+          "ipa": "/aɪ æm/"
+        },
+        {
+          "p": "you",
+          "f": "are",
+          "ipa": "/ju ɑr/"
+        },
+        {
+          "p": "we",
+          "f": "are",
+          "ipa": "/wi ɑr/"
+        },
+        {
+          "p": "they",
+          "f": "are",
+          "ipa": "/ðeɪ ɑr/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "My favorite dish is noodle soup."
+        },
+        {
+          "target": "The recipe is easy."
+        }
+      ],
+      "note": "Describe food with 'is': it is spicy, they are sweet."
+    },
+    {
+      "id": "c2",
+      "word": "cook",
+      "ipa": "/kʊk/",
+      "pos": "v.",
+      "meaning": "to make food ready to eat",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "cook",
+          "ipa": "/aɪ kʊk/"
+        },
+        {
+          "p": "you",
+          "f": "cook",
+          "ipa": "/ju kʊk/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "cooks",
+          "ipa": "/hi kʊks/"
+        },
+        {
+          "p": "we",
+          "f": "cook",
+          "ipa": "/wi kʊk/"
+        },
+        {
+          "p": "they",
+          "f": "cook",
+          "ipa": "/ðeɪ kʊk/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I cook it on Sundays."
+        },
+        {
+          "target": "He cooks very well."
+        }
+      ],
+      "note": "Add -s after he / she / it: she cooks."
+    },
+    {
+      "id": "c3",
+      "word": "taste",
+      "ipa": "/teɪst/",
+      "pos": "v.",
+      "meaning": "to have a certain flavor",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "taste",
+          "ipa": "/aɪ teɪst/"
+        },
+        {
+          "p": "you",
+          "f": "taste",
+          "ipa": "/ju teɪst/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "tastes",
+          "ipa": "/hi teɪsts/"
+        },
+        {
+          "p": "we",
+          "f": "taste",
+          "ipa": "/wi teɪst/"
+        },
+        {
+          "p": "they",
+          "f": "taste",
+          "ipa": "/ðeɪ teɪst/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "It tastes so good!"
+        },
+        {
+          "target": "These apples taste sweet."
+        }
+      ],
+      "note": "Food 'tastes' good: it tastes great."
+    }
+  ]
+}

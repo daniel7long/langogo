@@ -1,0 +1,256 @@
+{
+  "emoji": "⏰",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "waktu",
+      "ipa": "/ˈwak.tu/",
+      "pos": "n.",
+      "meaning": "time",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya tidak punya waktu.",
+          "en": "I don't have time."
+        },
+        {
+          "target": "Waktu berjalan cepat.",
+          "en": "Time goes fast."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "sekarang",
+      "ipa": "/sə.ˈka.raŋ/",
+      "pos": "adv.",
+      "meaning": "now",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Sekarang jam tiga.",
+          "en": "It is three o'clock now."
+        },
+        {
+          "target": "Kita pergi sekarang.",
+          "en": "Let's go now."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "setengah",
+      "ipa": "/sə.ˈtə.ŋah/",
+      "pos": "num.",
+      "meaning": "half",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Jam setengah empat.",
+          "en": "It is half past three."
+        },
+        {
+          "target": "Setengah jam lagi.",
+          "en": "Half an hour more."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "terlambat",
+      "ipa": "/tər.ˈlam.bat/",
+      "pos": "adj.",
+      "meaning": "late",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Maaf, saya terlambat.",
+          "en": "Sorry, I am late."
+        },
+        {
+          "target": "Jangan terlambat!",
+          "en": "Don't be late!"
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "menit",
+      "ipa": "/mə.ˈnit/",
+      "pos": "n.",
+      "meaning": "minute",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Lima menit lagi.",
+          "en": "Five more minutes."
+        },
+        {
+          "target": "Tiga puluh menit.",
+          "en": "Thirty minutes."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "rapat",
+      "ipa": "/ˈra.pat/",
+      "pos": "n.",
+      "meaning": "meeting",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Rapat mulai jam sembilan.",
+          "en": "The meeting starts at nine."
+        },
+        {
+          "target": "Rapat hari ini panjang.",
+          "en": "Today's meeting is long."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "jam",
+      "ipa": "/dʒam/",
+      "pos": "n.",
+      "meaning": "hour, clock, watch",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Jam saya mati.",
+          "en": "My watch is dead."
+        },
+        {
+          "target": "Satu jam lagi.",
+          "en": "One more hour."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Eko",
+      "role": "npc",
+      "text": "Permisi, sekarang jam berapa?",
+      "glosses": [
+        {
+          "text": "sekarang",
+          "pos": "adv.",
+          "meaning": "now"
+        },
+        {
+          "text": "jam",
+          "pos": "n.",
+          "meaning": "hour, clock, watch"
+        }
+      ],
+      "en": "Excuse me, what time is it now?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Di jam saya, sekarang jam tiga.",
+      "glosses": [
+        {
+          "text": "sekarang",
+          "pos": "adv.",
+          "meaning": "now"
+        },
+        {
+          "text": "jam",
+          "pos": "n.",
+          "meaning": "hour, clock, watch"
+        }
+      ],
+      "en": "On my watch, it is three o'clock now."
+    },
+    {
+      "id": "t3",
+      "speaker": "Eko",
+      "role": "npc",
+      "text": "Oh tidak! Saya terlambat. Rapat mulai jam setengah empat.",
+      "glosses": [
+        {
+          "text": "setengah",
+          "pos": "num.",
+          "meaning": "half"
+        },
+        {
+          "text": "terlambat",
+          "pos": "adj.",
+          "meaning": "late"
+        },
+        {
+          "text": "Rapat",
+          "pos": "n.",
+          "meaning": "meeting"
+        }
+      ],
+      "en": "Oh no! I'm late. The meeting starts at half past three."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Tenang, masih ada tiga puluh menit.",
+      "glosses": [
+        {
+          "text": "menit",
+          "pos": "n.",
+          "meaning": "minute"
+        }
+      ],
+      "en": "Calm down, there are still thirty minutes."
+    },
+    {
+      "id": "t5",
+      "speaker": "Eko",
+      "role": "npc",
+      "text": "Perjalanan butuh waktu satu jam?",
+      "glosses": [
+        {
+          "text": "waktu",
+          "pos": "n.",
+          "meaning": "time"
+        },
+        {
+          "text": "jam",
+          "pos": "n.",
+          "meaning": "hour, clock, watch"
+        }
+      ],
+      "en": "Does the trip take one hour?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Tidak, hanya tiga puluh menit.",
+      "glosses": [
+        {
+          "text": "menit",
+          "pos": "n.",
+          "meaning": "minute"
+        }
+      ],
+      "en": "No, only thirty minutes."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "terlambat",
+      "tip": "Say tər-LAM-bat; stress the second-to-last part"
+    },
+    {
+      "id": "w2",
+      "text": "setengah",
+      "tip": "Say sə-TƏ-ngah; 'ng' is one sound"
+    }
+  ]
+}

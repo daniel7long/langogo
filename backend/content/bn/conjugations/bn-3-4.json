@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "করা",
+      "ipa": "kora · /kɔra/",
+      "pos": "v.",
+      "meaning": "to do, to cook",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "রান্না করি",
+          "ipa": "ranːa kɔri"
+        },
+        {
+          "p": "তুমি",
+          "f": "রান্না করো",
+          "ipa": "ranːa kɔro"
+        },
+        {
+          "p": "সে",
+          "f": "রান্না করে",
+          "ipa": "ranːa kɔre"
+        },
+        {
+          "p": "আপনি",
+          "f": "রান্না করেন",
+          "ipa": "ranːa kɔren"
+        },
+        {
+          "p": "আমরা",
+          "f": "রান্না করি",
+          "ipa": "ranːa kɔri"
+        }
+      ],
+      "examples": [
+        {
+          "target": "রবিবারে রান্না করি।",
+          "en": "I cook on Sundays."
+        },
+        {
+          "target": "বাসায় রান্না করো?",
+          "en": "Do you cook at home?"
+        }
+      ],
+      "note": "রান্না করা = to cook. Verb endings follow respect level."
+    },
+    {
+      "id": "c2",
+      "word": "পছন্দ করা",
+      "ipa": "pochhondo kora · /pɔtʃʰɔndo kɔra/",
+      "pos": "v. phr.",
+      "meaning": "to like",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "পছন্দ করি",
+          "ipa": "pɔtʃʰɔndo kɔri"
+        },
+        {
+          "p": "তুমি",
+          "f": "পছন্দ করো",
+          "ipa": "pɔtʃʰɔndo kɔro"
+        },
+        {
+          "p": "সে",
+          "f": "পছন্দ করে",
+          "ipa": "pɔtʃʰɔndo kɔre"
+        },
+        {
+          "p": "আপনি",
+          "f": "পছন্দ করেন",
+          "ipa": "pɔtʃʰɔndo kɔren"
+        },
+        {
+          "p": "আমরা",
+          "f": "পছন্দ করি",
+          "ipa": "pɔtʃʰɔndo kɔri"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমি ঝাল পছন্দ করি।",
+          "en": "I like spicy food."
+        },
+        {
+          "target": "আপনি কী পছন্দ করেন?",
+          "en": "What do you like?"
+        }
+      ],
+      "note": "Say 'আমার পছন্দ' or 'আমি পছন্দ করি' to talk about likes."
+    }
+  ]
+}

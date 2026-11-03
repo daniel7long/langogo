@@ -1,0 +1,245 @@
+{
+  "emoji": "📅",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "সোমবার",
+      "ipa": "shombar · /ʃɔmbar/",
+      "pos": "n.",
+      "meaning": "Monday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "সোমবার কাজ আছে।",
+          "en": "There is work on Monday."
+        },
+        {
+          "target": "সোমবার দেখা হবে।",
+          "en": "We will meet on Monday."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "শনিবার",
+      "ipa": "shonibar · /ʃɔnibar/",
+      "pos": "n.",
+      "meaning": "Saturday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "শনিবার ছুটি।",
+          "en": "Saturday is a holiday."
+        },
+        {
+          "target": "শনিবার সিনেমা দেখব।",
+          "en": "We'll watch a film on Saturday."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "রবিবার",
+      "ipa": "robibar · /robibar/",
+      "pos": "n.",
+      "meaning": "Sunday",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "রবিবার বাড়িতে আছি।",
+          "en": "I am home on Sunday."
+        },
+        {
+          "target": "রবিবার ভালো দিন।",
+          "en": "Sunday is a good day."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "সপ্তাহ",
+      "ipa": "shoptaho · /ʃɔptaɦo/",
+      "pos": "n.",
+      "meaning": "week",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "এই সপ্তাহ ব্যস্ত।",
+          "en": "This week is busy."
+        },
+        {
+          "target": "সপ্তাহ শেষ।",
+          "en": "The week is over."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "সিনেমা",
+      "ipa": "cinema · /sinema/",
+      "pos": "n.",
+      "meaning": "film, cinema",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "সিনেমা ভালো ছিল।",
+          "en": "The film was good."
+        },
+        {
+          "target": "আমি সিনেমা পছন্দ করি।",
+          "en": "I like films."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "ঘুরব",
+      "ipa": "ghurbo · /ɡʱurbo/",
+      "pos": "v.",
+      "meaning": "we/I will wander",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "আমি শহরে ঘুরব।",
+          "en": "I will wander around the city."
+        },
+        {
+          "target": "কাল ঘুরব।",
+          "en": "I'll go around tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "একসঙ্গে",
+      "ipa": "ekshonge · /ekʃoŋɡe/",
+      "pos": "adv.",
+      "meaning": "together",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "চলো একসঙ্গে যাই।",
+          "en": "Let's go together."
+        },
+        {
+          "target": "আমরা একসঙ্গে থাকি।",
+          "en": "We live together."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "এই সপ্তাহ তোমার কেমন কাটবে?",
+      "glosses": [
+        {
+          "text": "সপ্তাহ",
+          "pos": "n.",
+          "meaning": "week"
+        }
+      ],
+      "en": "How will your week go?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "সোমবার কাজ আছে, কিন্তু শনিবার ছুটি।",
+      "glosses": [
+        {
+          "text": "সোমবার",
+          "pos": "n.",
+          "meaning": "Monday"
+        },
+        {
+          "text": "শনিবার",
+          "pos": "n.",
+          "meaning": "Saturday"
+        }
+      ],
+      "en": "I work on Monday, but Saturday is a holiday."
+    },
+    {
+      "id": "t3",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "তাহলে শনিবার একসঙ্গে সিনেমা দেখব?",
+      "glosses": [
+        {
+          "text": "শনিবার",
+          "pos": "n.",
+          "meaning": "Saturday"
+        },
+        {
+          "text": "সিনেমা",
+          "pos": "n.",
+          "meaning": "film, cinema"
+        },
+        {
+          "text": "একসঙ্গে",
+          "pos": "adv.",
+          "meaning": "together"
+        }
+      ],
+      "en": "Then shall we watch a film together on Saturday?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "হ্যাঁ, অবশ্যই! রবিবার কী করব?",
+      "glosses": [
+        {
+          "text": "রবিবার",
+          "pos": "n.",
+          "meaning": "Sunday"
+        }
+      ],
+      "en": "Yes, of course! What shall we do on Sunday?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Rina",
+      "role": "npc",
+      "text": "রবিবার আমরা শহরে ঘুরব।",
+      "glosses": [
+        {
+          "text": "রবিবার",
+          "pos": "n.",
+          "meaning": "Sunday"
+        },
+        {
+          "text": "ঘুরব",
+          "pos": "v.",
+          "meaning": "we/I will wander"
+        }
+      ],
+      "en": "On Sunday we will wander around the city."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "দারুণ! ঘুরতে আমার ভালো লাগে।",
+      "glosses": [],
+      "en": "Great! I like wandering."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "সপ্তাহ",
+      "tip": "Say SHOP-ta-ho"
+    },
+    {
+      "id": "w2",
+      "text": "রবিবার",
+      "tip": "Say ROBI-bar; stress the first part"
+    }
+  ]
+}

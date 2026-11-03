@@ -1,0 +1,246 @@
+{
+  "emoji": "🛍️",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "pasar",
+      "ipa": "/ˈpa.sar/",
+      "pos": "n.",
+      "meaning": "market",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Saya ke pasar.",
+          "en": "I go to the market."
+        },
+        {
+          "target": "Pasar ramai.",
+          "en": "The market is busy."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "sayur",
+      "ipa": "/ˈsa.jur/",
+      "pos": "n.",
+      "meaning": "vegetables",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Sayur ini segar.",
+          "en": "These vegetables are fresh."
+        },
+        {
+          "target": "Saya suka sayur.",
+          "en": "I like vegetables."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "harga",
+      "ipa": "/ˈhar.ɡa/",
+      "pos": "n.",
+      "meaning": "price",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Berapa harga ini?",
+          "en": "How much is this?"
+        },
+        {
+          "target": "Harga naik.",
+          "en": "Prices go up."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "mahal",
+      "ipa": "/ˈma.hal/",
+      "pos": "adj.",
+      "meaning": "expensive",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ini terlalu mahal.",
+          "en": "This is too expensive."
+        },
+        {
+          "target": "Pasar itu mahal.",
+          "en": "That market is expensive."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "murah",
+      "ipa": "/ˈmu.rah/",
+      "pos": "adj.",
+      "meaning": "cheap",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Ini murah sekali.",
+          "en": "This is very cheap."
+        },
+        {
+          "target": "Ada yang lebih murah?",
+          "en": "Is there a cheaper one?"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "kilo",
+      "ipa": "/ˈki.lo/",
+      "pos": "n.",
+      "meaning": "kilogram",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Satu kilo apel.",
+          "en": "One kilo of apples."
+        },
+        {
+          "target": "Dua kilo beras.",
+          "en": "Two kilos of rice."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "tas",
+      "ipa": "/tas/",
+      "pos": "n.",
+      "meaning": "bag",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Tas saya berat.",
+          "en": "My bag is heavy."
+        },
+        {
+          "target": "Bawa tas sendiri.",
+          "en": "Bring your own bag."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Penjual",
+      "role": "npc",
+      "text": "Selamat datang di pasar! Sayur di sini segar. Mau beli apa?",
+      "glosses": [
+        {
+          "text": "pasar",
+          "pos": "n.",
+          "meaning": "market"
+        },
+        {
+          "text": "Sayur",
+          "pos": "n.",
+          "meaning": "vegetables"
+        }
+      ],
+      "en": "Welcome to the market! The vegetables here are fresh. What do you want to buy?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Saya mau satu kilo tomat. Berapa harga satu kilo?",
+      "glosses": [
+        {
+          "text": "harga",
+          "pos": "n.",
+          "meaning": "price"
+        },
+        {
+          "text": "kilo",
+          "pos": "n.",
+          "meaning": "kilogram"
+        }
+      ],
+      "en": "I want one kilo of tomatoes. How much is one kilo?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Penjual",
+      "role": "npc",
+      "text": "Lima belas ribu per kilo.",
+      "glosses": [
+        {
+          "text": "kilo",
+          "pos": "n.",
+          "meaning": "kilogram"
+        }
+      ],
+      "en": "Fifteen thousand a kilo."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Wah, mahal sekali. Bisa lebih murah?",
+      "glosses": [
+        {
+          "text": "mahal",
+          "pos": "adj.",
+          "meaning": "expensive"
+        },
+        {
+          "text": "murah",
+          "pos": "adj.",
+          "meaning": "cheap"
+        }
+      ],
+      "en": "Wow, very expensive. Can it be cheaper?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Penjual",
+      "role": "npc",
+      "text": "Dua belas ribu saja. Bawa tas?",
+      "glosses": [
+        {
+          "text": "tas",
+          "pos": "n.",
+          "meaning": "bag"
+        }
+      ],
+      "en": "Just twelve thousand. Do you have a bag?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ya, ini tas saya. Terima kasih!",
+      "glosses": [
+        {
+          "text": "tas",
+          "pos": "n.",
+          "meaning": "bag"
+        }
+      ],
+      "en": "Yes, here is my bag. Thank you!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "mahal",
+      "tip": "Say MA-hal; the 'h' is light"
+    },
+    {
+      "id": "w2",
+      "text": "murah",
+      "tip": "Say MU-rah"
+    }
+  ]
+}

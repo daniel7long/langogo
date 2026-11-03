@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "ada",
+      "ipa": "/ˈa.da/",
+      "pos": "v.",
+      "meaning": "there is, to have",
+      "tense": "'Ada' = there is",
+      "forms": [
+        {
+          "p": "Ada",
+          "f": "Ada meja",
+          "ipa": "/ˈa.da ˈmɛ.dʒa/"
+        },
+        {
+          "p": "Tidak ada",
+          "f": "Tidak ada meja",
+          "ipa": "/ˈti.dak ˈa.da ˈmɛ.dʒa/"
+        },
+        {
+          "p": "Ada?",
+          "f": "Ada sate?",
+          "ipa": "/ˈa.da ˈsa.te/"
+        },
+        {
+          "p": "Saya",
+          "f": "Saya ada",
+          "ipa": "/ˈsa.ja ˈa.da/"
+        },
+        {
+          "p": "Sudah ada",
+          "f": "Sudah ada",
+          "ipa": "/ˈsu.dah ˈa.da/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ada meja untuk dua orang.",
+          "en": "There is a table for two."
+        },
+        {
+          "target": "Tidak ada sate.",
+          "en": "There is no satay."
+        }
+      ],
+      "note": "Use 'ada' to say something exists; 'tidak ada' means there is none."
+    },
+    {
+      "id": "c2",
+      "word": "enak",
+      "ipa": "/ˈɛ.nak/",
+      "pos": "adj.",
+      "meaning": "tasty",
+      "tense": "Intensifiers",
+      "forms": [
+        {
+          "p": "enak",
+          "f": "enak",
+          "ipa": "/ˈɛ.nak/"
+        },
+        {
+          "p": "sangat",
+          "f": "sangat enak",
+          "ipa": "/ˈsa.ŋat ˈɛ.nak/"
+        },
+        {
+          "p": "sekali",
+          "f": "enak sekali",
+          "ipa": "/ˈɛ.nak sə.ˈka.li/"
+        },
+        {
+          "p": "agak",
+          "f": "agak enak",
+          "ipa": "/ˈa.ɡak ˈɛ.nak/"
+        },
+        {
+          "p": "tidak",
+          "f": "tidak enak",
+          "ipa": "/ˈti.dak ˈɛ.nak/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ayam goreng sangat enak.",
+          "en": "The fried chicken is very tasty."
+        },
+        {
+          "target": "Enak sekali!",
+          "en": "Very tasty!"
+        }
+      ],
+      "note": "'Sangat' goes before; 'sekali' goes after."
+    }
+  ]
+}

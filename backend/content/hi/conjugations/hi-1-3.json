@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "होना",
+      "ipa": "honā · /hoːnaː/",
+      "pos": "v.",
+      "meaning": "to be (origin)",
+      "tense": "'से' + to be",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "… से हूँ",
+          "ipa": "seː huː̃"
+        },
+        {
+          "p": "तुम",
+          "f": "… से हो",
+          "ipa": "seː hoː"
+        },
+        {
+          "p": "वह",
+          "f": "… से है",
+          "ipa": "seː hɛː"
+        },
+        {
+          "p": "हम",
+          "f": "… से हैं",
+          "ipa": "seː hɛ̃ː"
+        },
+        {
+          "p": "आप",
+          "f": "… से हैं",
+          "ipa": "seː hɛ̃ː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मैं अमेरिका से हूँ।",
+          "en": "I am from America."
+        },
+        {
+          "target": "आप किस देश से हैं?",
+          "en": "Which country are you from?"
+        }
+      ],
+      "note": "Place + से + होना tells where you are from."
+    },
+    {
+      "id": "c2",
+      "word": "बोलना",
+      "ipa": "bolnā · /boːlnaː/",
+      "pos": "v.",
+      "meaning": "to speak",
+      "tense": "Present habitual",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "बोलता / बोलती हूँ",
+          "ipa": "boːltaː huː̃"
+        },
+        {
+          "p": "तुम",
+          "f": "बोलते / बोलती हो",
+          "ipa": "boːlteː hoː"
+        },
+        {
+          "p": "वह",
+          "f": "बोलता / बोलती है",
+          "ipa": "boːltaː hɛː"
+        },
+        {
+          "p": "हम",
+          "f": "बोलते हैं",
+          "ipa": "boːlteː hɛ̃ː"
+        },
+        {
+          "p": "आप",
+          "f": "बोलते हैं",
+          "ipa": "boːlteː hɛ̃ː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मैं हिंदी बोलता हूँ।",
+          "en": "I speak Hindi."
+        },
+        {
+          "target": "आप कौन-सी भाषा बोलते हैं?",
+          "en": "Which language do you speak?"
+        }
+      ],
+      "note": "Stem + ता / ती / ते + हूँ / है / हैं. Women use -ती."
+    }
+  ]
+}

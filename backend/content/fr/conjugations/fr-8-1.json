@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "penser",
+      "ipa": "/pɑ̃.se/",
+      "pos": "v.",
+      "meaning": "to think",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "pense",
+          "ipa": "/ʒə pɑ̃s/"
+        },
+        {
+          "p": "tu",
+          "f": "penses",
+          "ipa": "/ty pɑ̃s/"
+        },
+        {
+          "p": "il / elle",
+          "f": "pense",
+          "ipa": "/il pɑ̃s/"
+        },
+        {
+          "p": "nous",
+          "f": "pensons",
+          "ipa": "/nu pɑ̃.sɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pensez",
+          "ipa": "/vu pɑ̃.se/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "pensent",
+          "ipa": "/il pɑ̃s/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Qu'en penses-tu ?",
+          "en": "What do you think?"
+        },
+        {
+          "target": "Je pense qu'il faut nuancer.",
+          "en": "I think we must nuance."
+        }
+      ],
+      "note": "Penser que + sentence."
+    },
+    {
+      "id": "c2",
+      "word": "défendre",
+      "ipa": "/de.fɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to defend",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "défends",
+          "ipa": "/ʒə de.fɑ̃/"
+        },
+        {
+          "p": "tu",
+          "f": "défends",
+          "ipa": "/ty de.fɑ̃/"
+        },
+        {
+          "p": "il / elle",
+          "f": "défend",
+          "ipa": "/il de.fɑ̃/"
+        },
+        {
+          "p": "nous",
+          "f": "défendons",
+          "ipa": "/nu de.fɑ̃.dɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "défendez",
+          "ipa": "/vu de.fɑ̃.de/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "défendent",
+          "ipa": "/il de.fɑ̃d/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Beaucoup de gens défendent cette idée.",
+          "en": "Many people defend this idea."
+        },
+        {
+          "target": "Je défends mon avis.",
+          "en": "I defend my opinion."
+        }
+      ],
+      "note": "Ils défendent = they defend."
+    },
+    {
+      "id": "c3",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have to",
+      "tense": "Conditional",
+      "forms": [
+        {
+          "p": "je",
+          "f": "devrais",
+          "ipa": "/ʒə də.vʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "devrais",
+          "ipa": "/ty də.vʁɛ/"
+        },
+        {
+          "p": "il / elle / personne",
+          "f": "devrait",
+          "ipa": "/il də.vʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "devrions",
+          "ipa": "/nu də.vʁi.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "devriez",
+          "ipa": "/vu də.vʁi.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "devraient",
+          "ipa": "/il də.vʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Personne ne devrait contester ce droit.",
+          "en": "No one should challenge this right."
+        },
+        {
+          "target": "Tu devrais lire ça.",
+          "en": "You should read that."
+        }
+      ],
+      "note": "The conditional gives advice: personne ne devrait…"
+    }
+  ]
+}

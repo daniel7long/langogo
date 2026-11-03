@@ -1,0 +1,222 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 35,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "environment",
+      "ipa": "/ɪnˈvaɪrənmənt/",
+      "pos": "n.",
+      "meaning": "the air, water and land around us",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "We must protect the environment."
+        },
+        {
+          "target": "The environment is changing."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "pollution",
+      "ipa": "/pəˈluːʃn/",
+      "pos": "n.",
+      "meaning": "dirty things in the air or water",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Air pollution is a problem."
+        },
+        {
+          "target": "The river has pollution."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "recycle",
+      "ipa": "/riːˈsaɪkl/",
+      "pos": "v.",
+      "meaning": "to use things again in a new way",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "We recycle paper."
+        },
+        {
+          "target": "Do you recycle plastic?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "waste",
+      "ipa": "/weɪst/",
+      "pos": "n.",
+      "meaning": "things we throw away",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "We make too much waste."
+        },
+        {
+          "target": "Do not waste water."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "energy",
+      "ipa": "/ˈenərdʒi/",
+      "pos": "n.",
+      "meaning": "power for light, heat or machines",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Solar energy is clean."
+        },
+        {
+          "target": "Save energy at home."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "protect",
+      "ipa": "/prəˈtekt/",
+      "pos": "v.",
+      "meaning": "to keep safe from harm",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "We protect animals."
+        },
+        {
+          "target": "Trees protect the soil."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "future",
+      "ipa": "/ˈfjuːtʃər/",
+      "pos": "n.",
+      "meaning": "the time after now",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "We want a clean future."
+        },
+        {
+          "target": "In the future, cars will be electric."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Teacher",
+      "role": "npc",
+      "text": "What can we do to protect the environment?",
+      "glosses": [
+        {
+          "text": "environment",
+          "pos": "n.",
+          "meaning": "the air, water and land around us"
+        },
+        {
+          "text": "protect",
+          "pos": "v.",
+          "meaning": "to keep safe from harm"
+        }
+      ],
+      "en": "How can we keep nature safe?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "We can recycle paper and plastic.",
+      "glosses": [
+        {
+          "text": "recycle",
+          "pos": "v.",
+          "meaning": "to use things again in a new way"
+        }
+      ],
+      "en": "We can use paper and plastic again."
+    },
+    {
+      "id": "t3",
+      "speaker": "Teacher",
+      "role": "npc",
+      "text": "Good idea. We also make too much waste.",
+      "glosses": [
+        {
+          "text": "waste",
+          "pos": "n.",
+          "meaning": "things we throw away"
+        }
+      ],
+      "en": "Good. We also throw away too many things."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes. I try to save energy at home.",
+      "glosses": [
+        {
+          "text": "energy",
+          "pos": "n.",
+          "meaning": "power for light, heat or machines"
+        }
+      ],
+      "en": "Yes. I try to use less power in my house."
+    },
+    {
+      "id": "t5",
+      "speaker": "Teacher",
+      "role": "npc",
+      "text": "Air pollution is another big problem in cities.",
+      "glosses": [
+        {
+          "text": "pollution",
+          "pos": "n.",
+          "meaning": "dirty things in the air or water"
+        }
+      ],
+      "en": "Dirty air is also a big problem in cities."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "If we work together, the future will be better.",
+      "glosses": [
+        {
+          "text": "future",
+          "pos": "n.",
+          "meaning": "the time after now"
+        }
+      ],
+      "en": "If we work together, the days ahead will be better."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "environment",
+      "tip": "Say en-VY-run-ment: the middle sounds like 'eye'"
+    },
+    {
+      "id": "w2",
+      "text": "energy",
+      "tip": "Say EN-er-jee: stress the first part"
+    }
+  ]
+}

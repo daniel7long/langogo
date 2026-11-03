@@ -36,9 +36,13 @@ const BUTTONS = {
   ru: ['Далее', 'Начать'],
   ro: ['Următorul', 'Începe'],
   yue: ['下一個', '開始'],
+  en: ['Next', 'Start'],
+  hi: ['अगला', 'शुरू करें'],
+  bn: ['পরবর্তী', 'শুরু করুন'],
+  id: ['Berikutnya', 'Mulai'],
 };
 
-// Key-word cards before the speaking practice.
+// Key-word cards, then the key-conjugation cards (if the lesson has any), before the speaking practice.
 export default function LessonPrepScreen() {
   const router = useRouter();
   const params = useLocalSearchParams();
@@ -61,8 +65,10 @@ function PrepView({ lesson }) {
   const [shown, setShown] = useState({}); // which English translations the learner opened
   const [saved, setSaved] = useState({}); // vocab id -> true when the word is in Vocab Notes
   const [saving, setSaving] = useState(false);
-  const total = lesson.vocab.length;
-  const card = lesson.vocab[index];
+  const conj = lesson.conjugations || [];
+  const total = lesson.vocab.length + conj.length;
+  const isConj = index >= lesson.vocab.length;
+  const card = isConj ? conj[index - lesson.vocab.length] : lesson.vocab[index];
   const isLast = index === total - 1;
 
   // Which words of this lesson are already in the notes.
@@ -78,7 +84,7 @@ function PrepView({ lesson }) {
 
   // Tap once to add the word to Vocab Notes, tap again to take it out.
   const toggleNote = async () => {
-    if (saving) return;
+    if (saving || isConj) return;
     const id = card.id;
     const adding = !saved[id];
     setSaving(true);
@@ -110,24 +116,26 @@ function PrepView({ lesson }) {
         <FadeIn key={index} distance={18} duration={260}>
           <View style={styles.card}>
             <View style={styles.cardTop}>
-              <Chip label={`Card ${index + 1} of ${total}`} />
-              <Pressable
-                onPress={toggleNote}
-                style={[styles.notes, saved[card.id] && styles.notesOn]}
-                hitSlop={8}
-                accessibilityRole="button"
-                accessibilityState={{ selected: !!saved[card.id] }}
-                accessibilityLabel={saved[card.id] ? 'Remove from notes' : 'Add to notes'}
-              >
-                <Ionicons
-                  name={saved[card.id] ? 'bookmark' : 'bookmark-outline'}
-                  size={18}
-                  color={saved[card.id] ? colors.primary : colors.textMuted}
-                />
-                <Text style={[styles.notesText, saved[card.id] && styles.notesTextOn]}>
-                  {saved[card.id] ? 'Added' : 'Add notes'}
-                </Text>
-              </Pressable>
+              <Chip label={isConj ? `Key conjugation ${index - lesson.vocab.length + 1} of ${conj.length}` : `Card ${index + 1} of ${total - conj.length}`} tone={isConj ? 'green' : undefined} />
+              {!isConj && (
+                <Pressable
+                  onPress={toggleNote}
+                  style={[styles.notes, saved[card.id] && styles.notesOn]}
+                  hitSlop={8}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: !!saved[card.id] }}
+                  accessibilityLabel={saved[card.id] ? 'Remove from notes' : 'Add to notes'}
+                >
+                  <Ionicons
+                    name={saved[card.id] ? 'bookmark' : 'bookmark-outline'}
+                    size={18}
+                    color={saved[card.id] ? colors.primary : colors.textMuted}
+                  />
+                  <Text style={[styles.notesText, saved[card.id] && styles.notesTextOn]}>
+                    {saved[card.id] ? 'Added' : 'Add notes'}
+                  </Text>
+                </Pressable>
+              )}
             </View>
 
             <Text style={[styles.word, rtlText(lesson.lang)]}>{card.word}</Text>
@@ -145,6 +153,8 @@ function PrepView({ lesson }) {
               </PressableScale>
             </View>
 
+            {isConj && <ConjugationTable card={card} lang={lesson.lang} />}
+
             {card.examples.map((ex, i) => {
               const key = `${index}-${i}`;
               const open = settings.show_translation || shown[key];
@@ -157,7 +167,7 @@ function PrepView({ lesson }) {
                       <Ionicons name="volume-high-outline" size={20} color={colors.primary} />
                     </Pressable>
                   </View>
-                  {open ? (
+                  {!ex.en ? null : open ? (
                     <Text style={styles.translation}>{ex.en}</Text>
                   ) : (
                     <Pressable onPress={() => setShown((s) => ({ ...s, [key]: true }))} hitSlop={8} accessibilityRole="button" accessibilityLabel="Show translation">
@@ -185,8 +195,49 @@ function PrepView({ lesson }) {
   );
 }
 
+// The forms of a verb in one tense, one row per person. Rows whose form appears in the dialogue are
+// highlighted. Tap a row to hear it.
+function ConjugationTable({ card, lang }) {
+  return (
+    <View style={styles.conj}>
+      <Text style={styles.conjTense}>{card.tense}</Text>
+      {card.forms.map((f, i) => (
+        <Pressable
+          key={`${f.say}-${i}`}
+          onPress={() => speakText(f.say)}
+          style={[styles.conjRow, f.used && styles.conjRowUsed]}
+          accessibilityRole="button"
+          accessibilityLabel={`Listen to ${f.say}`}
+        >
+          <View style={styles.conjText}>
+            <Text style={[styles.conjSay, rtlText(lang)]}>
+              {!!f.p && <Text style={styles.conjPron}>{f.p} </Text>}
+              <Text style={styles.conjForm}>{f.f}</Text>
+            </Text>
+            {!!f.ipa && <Text style={styles.conjIpa}>{f.ipa}</Text>}
+          </View>
+          {f.used && <Text style={styles.conjBadge}>In the dialogue</Text>}
+          <Ionicons name="volume-high-outline" size={18} color={colors.primary} />
+        </Pressable>
+      ))}
+      {!!card.note && <Text style={styles.conjNote}>{card.note}</Text>}
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
   flex: { flex: 1 },
+  conj: { alignSelf: 'stretch', gap: 6, marginTop: spacing.sm },
+  conjTense: { ...typography.eyebrow, color: '#9A5B2E' },
+  conjRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingVertical: 8, paddingHorizontal: spacing.s12, borderRadius: radius.lg, backgroundColor: '#FAF4EE' },
+  conjRowUsed: { backgroundColor: colors.selectedBg, borderWidth: 1.5, borderColor: colors.orange200 },
+  conjText: { flex: 1 },
+  conjSay: { ...typography.bodyStrong, fontSize: 17, lineHeight: 24, color: colors.text },
+  conjPron: { color: colors.textMuted },
+  conjForm: { color: colors.text, fontWeight: '700' },
+  conjIpa: { ...typography.caption, color: '#9A5B2E' },
+  conjBadge: { ...typography.caption, color: colors.primary, fontWeight: '700' },
+  conjNote: { ...typography.body, color: colors.textMuted, marginTop: 4 },
   scroll: { padding: spacing.md, paddingTop: spacing.sm, gap: spacing.s12 },
   eyebrow: { ...typography.eyebrow, color: colors.textMuted, textAlign: 'center' },
   card: {

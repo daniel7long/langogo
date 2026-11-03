@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "préférer",
+      "ipa": "/pʁe.fe.ʁe/",
+      "pos": "v.",
+      "meaning": "to prefer",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "préfère",
+          "ipa": "/ʒə pʁe.fɛʁ/"
+        },
+        {
+          "p": "tu",
+          "f": "préfères",
+          "ipa": "/ty pʁe.fɛʁ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "préfère",
+          "ipa": "/il pʁe.fɛʁ/"
+        },
+        {
+          "p": "nous",
+          "f": "préférons",
+          "ipa": "/nu pʁe.fe.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "préférez",
+          "ipa": "/vu pʁe.fe.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "préfèrent",
+          "ipa": "/il pʁe.fɛʁ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je préfère le poisson avec du riz.",
+          "en": "I prefer fish with rice."
+        },
+        {
+          "target": "Tu préfères le thé ?",
+          "en": "Do you prefer tea?"
+        }
+      ],
+      "note": "Watch the accent: é in préférons, è in préfère."
+    },
+    {
+      "id": "c2",
+      "word": "manger",
+      "ipa": "/mɑ̃.ʒe/",
+      "pos": "v.",
+      "meaning": "to eat",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "mange",
+          "ipa": "/ʒə mɑ̃ʒ/"
+        },
+        {
+          "p": "tu",
+          "f": "manges",
+          "ipa": "/ty mɑ̃ʒ/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "mange",
+          "ipa": "/il mɑ̃ʒ/"
+        },
+        {
+          "p": "nous",
+          "f": "mangeons",
+          "ipa": "/nu mɑ̃.ʒɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "mangez",
+          "ipa": "/vu mɑ̃.ʒe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "mangent",
+          "ipa": "/il mɑ̃ʒ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu manges de la viande aussi ?",
+          "en": "Do you eat meat too?"
+        },
+        {
+          "target": "On mange ensemble samedi ?",
+          "en": "Shall we eat together Saturday?"
+        }
+      ],
+      "note": "Add an e in nous mangeons to keep the soft 'g'."
+    },
+    {
+      "id": "c3",
+      "word": "inviter",
+      "ipa": "/ɛ̃.vi.te/",
+      "pos": "v.",
+      "meaning": "to invite",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "invite",
+          "ipa": "/ʒɛ̃.vit/"
+        },
+        {
+          "p": "tu",
+          "f": "invites",
+          "ipa": "/ty ɛ̃.vit/"
+        },
+        {
+          "p": "il / elle",
+          "f": "invite",
+          "ipa": "/il ɛ̃.vit/"
+        },
+        {
+          "p": "nous",
+          "f": "invitons",
+          "ipa": "/nu zɛ̃.vi.tɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "invitez",
+          "ipa": "/vu zɛ̃.vi.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "invitent",
+          "ipa": "/il zɛ̃.vit/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'invite !",
+          "en": "My treat!"
+        },
+        {
+          "target": "Nous invitons nos amis.",
+          "en": "We invite our friends."
+        }
+      ],
+      "note": "'J'invite !' means 'My treat!'"
+    }
+  ]
+}

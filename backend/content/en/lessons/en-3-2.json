@@ -1,0 +1,237 @@
+{
+  "emoji": "🍽️",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "table",
+      "ipa": "/ˈteɪbl/",
+      "pos": "n.",
+      "meaning": "a piece of furniture where you eat",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "A table for two, please."
+        },
+        {
+          "target": "The table is near the window."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "reserve",
+      "ipa": "/rɪˈzɜːrv/",
+      "pos": "v.",
+      "meaning": "to ask a place to keep a table for you",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I reserve a table for six."
+        },
+        {
+          "target": "Did you reserve?"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "chicken",
+      "ipa": "/ˈtʃɪkɪn/",
+      "pos": "n.",
+      "meaning": "a bird that we eat as meat",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I eat chicken and rice."
+        },
+        {
+          "target": "The chicken is hot."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "pasta",
+      "ipa": "/ˈpɑːstə/",
+      "pos": "n.",
+      "meaning": "an Italian food made from flour and water",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I love pasta."
+        },
+        {
+          "target": "The pasta has tomato sauce."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "dessert",
+      "ipa": "/dɪˈzɜːrt/",
+      "pos": "n.",
+      "meaning": "a sweet food at the end of a meal",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "We have ice cream for dessert."
+        },
+        {
+          "target": "Do you want dessert?"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "delicious",
+      "ipa": "/dɪˈlɪʃəs/",
+      "pos": "adj.",
+      "meaning": "tasting very good",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "The soup is delicious."
+        },
+        {
+          "target": "That cake looks delicious!"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "recommend",
+      "ipa": "/ˌrekəˈmend/",
+      "pos": "v.",
+      "meaning": "to say that something is good",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "What do you recommend?"
+        },
+        {
+          "target": "I recommend the fish."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "Good evening! Did you reserve a table?",
+      "glosses": [
+        {
+          "text": "table",
+          "pos": "n.",
+          "meaning": "a piece of furniture where you eat"
+        },
+        {
+          "text": "reserve",
+          "pos": "v.",
+          "meaning": "to ask a place to keep a table for you"
+        }
+      ],
+      "en": "Hello! Did you ask us to keep a table?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, a table for two under the name Brown.",
+      "glosses": [
+        {
+          "text": "table",
+          "pos": "n.",
+          "meaning": "a piece of furniture where you eat"
+        }
+      ],
+      "en": "Yes, we want a table for two people, for Brown."
+    },
+    {
+      "id": "t3",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "Perfect. What do you recommend tonight?",
+      "glosses": [
+        {
+          "text": "recommend",
+          "pos": "v.",
+          "meaning": "to say that something is good"
+        }
+      ],
+      "en": "Good. What food do you think is best tonight?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "I recommend the chicken. It is delicious.",
+      "glosses": [
+        {
+          "text": "chicken",
+          "pos": "n.",
+          "meaning": "a bird that we eat as meat"
+        },
+        {
+          "text": "delicious",
+          "pos": "adj.",
+          "meaning": "tasting very good"
+        },
+        {
+          "text": "recommend",
+          "pos": "v.",
+          "meaning": "to say that something is good"
+        }
+      ],
+      "en": "I say the chicken is best. It tastes very good."
+    },
+    {
+      "id": "t5",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "I will take the chicken, and my friend takes the pasta.",
+      "glosses": [
+        {
+          "text": "chicken",
+          "pos": "n.",
+          "meaning": "a bird that we eat as meat"
+        },
+        {
+          "text": "pasta",
+          "pos": "n.",
+          "meaning": "an Italian food made from flour and water"
+        }
+      ],
+      "en": "I choose the chicken, and my friend chooses the pasta."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Great. And a dessert later?",
+      "glosses": [
+        {
+          "text": "dessert",
+          "pos": "n.",
+          "meaning": "a sweet food at the end of a meal"
+        }
+      ],
+      "en": "Good. Do you want a sweet food after?"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "delicious",
+      "tip": "Say di-LISH-us: stress the middle"
+    },
+    {
+      "id": "w2",
+      "text": "reserve",
+      "tip": "Say ri-ZERV, not 'ree-serve'"
+    }
+  ]
+}

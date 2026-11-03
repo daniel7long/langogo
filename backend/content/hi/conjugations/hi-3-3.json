@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "लेना",
+      "ipa": "lenā · /leːnaː/",
+      "pos": "v.",
+      "meaning": "to take, to buy",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "लूँगा / लूँगी",
+          "ipa": "luːŋɡaː"
+        },
+        {
+          "p": "तुम",
+          "f": "लोगे / लोगी",
+          "ipa": "loːɡeː"
+        },
+        {
+          "p": "वह",
+          "f": "लेगा / लेगी",
+          "ipa": "leːɡaː"
+        },
+        {
+          "p": "हम",
+          "f": "लेंगे",
+          "ipa": "leːŋɡeː"
+        },
+        {
+          "p": "आप",
+          "f": "लेंगे",
+          "ipa": "leːŋɡeː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "फल भी लेंगे?",
+          "en": "Shall we take fruit too?"
+        },
+        {
+          "target": "मैं आलू लूँगा।",
+          "en": "I will take potatoes."
+        }
+      ],
+      "note": "फल भी लेंगे? = shall we take fruit too?"
+    },
+    {
+      "id": "c2",
+      "word": "होना",
+      "ipa": "honā · /hoːnaː/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Plural present",
+      "forms": [
+        {
+          "p": "फल",
+          "f": "ताज़े हैं",
+          "ipa": "taːzeː hɛ̃ː"
+        },
+        {
+          "p": "आलू",
+          "f": "सस्ते हैं",
+          "ipa": "səsteː hɛ̃ː"
+        },
+        {
+          "p": "टमाटर",
+          "f": "लाल हैं",
+          "ipa": "laːl hɛ̃ː"
+        },
+        {
+          "p": "सूची में",
+          "f": "आलू हैं",
+          "ipa": "hɛ̃ː"
+        },
+        {
+          "p": "दूध",
+          "f": "है",
+          "ipa": "hɛː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "फल ताज़े हैं।",
+          "en": "The fruits are fresh."
+        },
+        {
+          "target": "सूची में दूध है।",
+          "en": "Milk is on the list."
+        }
+      ],
+      "note": "Use हैं for plural things and है for single things."
+    }
+  ]
+}

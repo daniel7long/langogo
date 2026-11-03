@@ -1,0 +1,142 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "করা",
+      "ipa": "kora · /kɔra/",
+      "pos": "v.",
+      "meaning": "to do, to make",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "করি",
+          "ipa": "kɔri"
+        },
+        {
+          "p": "তুমি",
+          "f": "করো",
+          "ipa": "kɔro"
+        },
+        {
+          "p": "সে",
+          "f": "করে",
+          "ipa": "kɔre"
+        },
+        {
+          "p": "আপনি",
+          "f": "করেন",
+          "ipa": "kɔren"
+        },
+        {
+          "p": "আমরা",
+          "f": "করি",
+          "ipa": "kɔri"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমি গোসল করি।",
+          "en": "I bathe."
+        },
+        {
+          "target": "তারপর কী করো?",
+          "en": "Then what do you do?"
+        }
+      ],
+      "note": "Use করা with nouns: গোসল করা (to bathe)."
+    },
+    {
+      "id": "c2",
+      "word": "খাওয়া",
+      "ipa": "khaoa · /kʰaoa/",
+      "pos": "v.",
+      "meaning": "to eat, to drink",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "খাই",
+          "ipa": "kʰai"
+        },
+        {
+          "p": "তুমি",
+          "f": "খাও",
+          "ipa": "kʰao"
+        },
+        {
+          "p": "সে",
+          "f": "খায়",
+          "ipa": "kʰai̯"
+        },
+        {
+          "p": "আপনি",
+          "f": "খান",
+          "ipa": "kʰan"
+        },
+        {
+          "p": "আমরা",
+          "f": "খাই",
+          "ipa": "kʰai"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমি নাশতা খাই।",
+          "en": "I eat breakfast."
+        },
+        {
+          "target": "আপনি চা খান?",
+          "en": "Do you drink tea?"
+        }
+      ],
+      "note": "Use খাওয়া for food and also for tea."
+    },
+    {
+      "id": "c3",
+      "word": "ওঠা",
+      "ipa": "otha · /otʰa/",
+      "pos": "v.",
+      "meaning": "to get up",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "উঠি",
+          "ipa": "utʰi"
+        },
+        {
+          "p": "তুমি",
+          "f": "উঠো",
+          "ipa": "utʰo"
+        },
+        {
+          "p": "সে",
+          "f": "ওঠে",
+          "ipa": "otʰe"
+        },
+        {
+          "p": "আপনি",
+          "f": "ওঠেন",
+          "ipa": "otʰen"
+        },
+        {
+          "p": "আমরা",
+          "f": "উঠি",
+          "ipa": "utʰi"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমি রোজ ছয়টায় উঠি।",
+          "en": "I get up at six every day."
+        },
+        {
+          "target": "সে আটটায় ওঠে।",
+          "en": "She gets up at eight."
+        }
+      ],
+      "note": "The vowel changes: উঠি / উঠো but ওঠে / ওঠেন."
+    }
+  ]
+}

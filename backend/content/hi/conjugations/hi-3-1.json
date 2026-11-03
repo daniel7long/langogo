@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "देना",
+      "ipa": "denā · /deːnaː/",
+      "pos": "v.",
+      "meaning": "to give",
+      "tense": "Polite request",
+      "forms": [
+        {
+          "p": "आप (polite)",
+          "f": "दीजिए",
+          "ipa": "diːdʒɪje"
+        },
+        {
+          "p": "तुम (friend)",
+          "f": "दो",
+          "ipa": "doː"
+        },
+        {
+          "p": "तू (very close)",
+          "f": "दे",
+          "ipa": "deː"
+        },
+        {
+          "p": "आप (very formal)",
+          "f": "दीजिएगा",
+          "ipa": "diːdʒɪjeːɡaː"
+        },
+        {
+          "p": "example",
+          "f": "एक चाय दीजिए",
+          "ipa": "eːk tʃaːj diːdʒɪje"
+        }
+      ],
+      "examples": [
+        {
+          "target": "एक कप चाय दीजिए।",
+          "en": "Please give one cup of tea."
+        },
+        {
+          "target": "एक समोसा भी दीजिए।",
+          "en": "Please give one samosa too."
+        }
+      ],
+      "note": "Use -इए / -ीजिए to ask politely. 'दीजिए' is the polite 'please give'."
+    },
+    {
+      "id": "c2",
+      "word": "चाहिए",
+      "ipa": "chāhiye · /tʃaːɦɪje/",
+      "pos": "v.",
+      "meaning": "to want, need",
+      "tense": "Pattern",
+      "forms": [
+        {
+          "p": "मुझे",
+          "f": "चाहिए",
+          "ipa": "mʊdʒʰeː tʃaːɦɪje"
+        },
+        {
+          "p": "आपको",
+          "f": "चाहिए",
+          "ipa": "aːpkoː tʃaːɦɪje"
+        },
+        {
+          "p": "उसे",
+          "f": "चाहिए",
+          "ipa": "ʊseː tʃaːɦɪje"
+        },
+        {
+          "p": "हमें",
+          "f": "चाहिए",
+          "ipa": "həmeː tʃaːɦɪje"
+        },
+        {
+          "p": "उन्हें",
+          "f": "चाहिए",
+          "ipa": "ʊnʰeː tʃaːɦɪje"
+        }
+      ],
+      "examples": [
+        {
+          "target": "आपको क्या चाहिए?",
+          "en": "What do you want?"
+        },
+        {
+          "target": "मुझे चाय चाहिए।",
+          "en": "I want tea."
+        }
+      ],
+      "note": "Person + चाहिए. The word never changes."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "avoir",
+      "ipa": "/a.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai",
+          "ipa": "/ʒe/"
+        },
+        {
+          "p": "tu",
+          "f": "as",
+          "ipa": "/ty a/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a",
+          "ipa": "/il a/"
+        },
+        {
+          "p": "nous",
+          "f": "avons",
+          "ipa": "/nu za.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "avez",
+          "ipa": "/vu za.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont",
+          "ipa": "/il zɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'ai une réservation.",
+          "en": "I have a reservation."
+        },
+        {
+          "target": "Vous avez votre passeport ?",
+          "en": "Do you have your passport?"
+        }
+      ],
+      "note": "J'ai une réservation = I have a booking."
+    },
+    {
+      "id": "c2",
+      "word": "être",
+      "ipa": "/ɛtʁ/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "suis",
+          "ipa": "/ʒə sɥi/"
+        },
+        {
+          "p": "tu",
+          "f": "es",
+          "ipa": "/ty ɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "est",
+          "ipa": "/il ɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "sommes",
+          "ipa": "/nu sɔm/"
+        },
+        {
+          "p": "vous",
+          "f": "êtes",
+          "ipa": "/vu zɛt/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "sont",
+          "ipa": "/il sɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il est compris dans le prix.",
+          "en": "It's included in the price."
+        },
+        {
+          "target": "La chambre est disponible.",
+          "en": "The room is available."
+        }
+      ],
+      "note": "'Il est compris' = it is included."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "be",
+      "ipa": "/bi/",
+      "pos": "v. (irregular)",
+      "meaning": "to talk about time and states",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "it",
+          "f": "is",
+          "ipa": "/ɪt ɪz/"
+        },
+        {
+          "p": "I",
+          "f": "am",
+          "ipa": "/aɪ æm/"
+        },
+        {
+          "p": "you",
+          "f": "are",
+          "ipa": "/ju ɑr/"
+        },
+        {
+          "p": "we",
+          "f": "are",
+          "ipa": "/wi ɑr/"
+        },
+        {
+          "p": "they",
+          "f": "are",
+          "ipa": "/ðeɪ ɑr/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "It is eight o'clock."
+        },
+        {
+          "target": "I am late."
+        }
+      ],
+      "note": "For time we always use 'it is': it is nine o'clock."
+    },
+    {
+      "id": "c2",
+      "word": "start",
+      "ipa": "/stɑrt/",
+      "pos": "v.",
+      "meaning": "to begin",
+      "tense": "Present simple (schedules)",
+      "forms": [
+        {
+          "p": "I",
+          "f": "start",
+          "ipa": "/aɪ stɑrt/"
+        },
+        {
+          "p": "you",
+          "f": "start",
+          "ipa": "/ju stɑrt/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "starts",
+          "ipa": "/hi stɑrts/"
+        },
+        {
+          "p": "we",
+          "f": "start",
+          "ipa": "/wi stɑrt/"
+        },
+        {
+          "p": "they",
+          "f": "start",
+          "ipa": "/ðeɪ stɑrt/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "The movie starts at seven."
+        },
+        {
+          "target": "We start work at nine."
+        }
+      ],
+      "note": "The present simple also talks about timetables: the class starts at ten."
+    }
+  ]
+}

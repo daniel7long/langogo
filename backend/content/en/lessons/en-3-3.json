@@ -1,0 +1,219 @@
+{
+  "emoji": "🛒",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "shopping list",
+      "ipa": "/ˈʃɑːpɪŋ lɪst/",
+      "pos": "n.",
+      "meaning": "a paper with the things you need to buy",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "My shopping list is long."
+        },
+        {
+          "target": "I forgot my shopping list."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "vegetable",
+      "ipa": "/ˈvedʒtəbl/",
+      "pos": "n.",
+      "meaning": "a plant we eat, like a carrot or an onion",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I eat many vegetables."
+        },
+        {
+          "target": "Carrots are healthy vegetables."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "fruit",
+      "ipa": "/fruːt/",
+      "pos": "n.",
+      "meaning": "a sweet food from a plant, like an apple",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I eat fruit for breakfast."
+        },
+        {
+          "target": "This fruit is sweet."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "milk",
+      "ipa": "/mɪlk/",
+      "pos": "n.",
+      "meaning": "a white drink from cows",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I buy milk and eggs."
+        },
+        {
+          "target": "A glass of milk, please."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "cheap",
+      "ipa": "/tʃiːp/",
+      "pos": "adj.",
+      "meaning": "not costing much money",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "The apples are cheap today."
+        },
+        {
+          "target": "This shop is cheap."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "need",
+      "ipa": "/niːd/",
+      "pos": "v.",
+      "meaning": "to have to have something",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I need milk and bread."
+        },
+        {
+          "target": "Do you need help?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "bag",
+      "ipa": "/bæɡ/",
+      "pos": "n.",
+      "meaning": "something you use to carry things",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Do you need a bag?"
+        },
+        {
+          "target": "My bag is full."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Cashier",
+      "role": "npc",
+      "text": "Hello! Do you have your shopping list?",
+      "glosses": [
+        {
+          "text": "shopping list",
+          "pos": "n.",
+          "meaning": "a paper with the things you need to buy"
+        }
+      ],
+      "en": "Hi! Did you bring the paper with your things to buy?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes. I need milk, fruit and vegetables.",
+      "glosses": [
+        {
+          "text": "fruit",
+          "pos": "n.",
+          "meaning": "a sweet food from a plant, like an apple"
+        },
+        {
+          "text": "milk",
+          "pos": "n.",
+          "meaning": "a white drink from cows"
+        },
+        {
+          "text": "need",
+          "pos": "v.",
+          "meaning": "to have to have something"
+        }
+      ],
+      "en": "Yes. I must buy milk, fruit and vegetables."
+    },
+    {
+      "id": "t3",
+      "speaker": "Cashier",
+      "role": "npc",
+      "text": "The fruit is cheap today. Do you need a bag?",
+      "glosses": [
+        {
+          "text": "fruit",
+          "pos": "n.",
+          "meaning": "a sweet food from a plant, like an apple"
+        },
+        {
+          "text": "cheap",
+          "pos": "adj.",
+          "meaning": "not costing much money"
+        },
+        {
+          "text": "need",
+          "pos": "v.",
+          "meaning": "to have to have something"
+        }
+      ],
+      "en": "The fruit does not cost much today. Do you want a bag?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, please. I will buy five apples.",
+      "glosses": [],
+      "en": "Yes, please. I choose to buy five apples."
+    },
+    {
+      "id": "t5",
+      "speaker": "Cashier",
+      "role": "npc",
+      "text": "That is eight dollars in total.",
+      "glosses": [],
+      "en": "Together it costs $8."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Here you are. Thank you, have a nice day!",
+      "glosses": [],
+      "en": "This is the money. Thanks, and I hope your day is good!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "vegetable",
+      "tip": "Say VEJ-tuh-bul: three beats, not four"
+    },
+    {
+      "id": "w2",
+      "text": "cheap",
+      "tip": "Say 'cheep' with a long ee sound"
+    }
+  ]
+}

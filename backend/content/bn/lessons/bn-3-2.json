@@ -1,0 +1,255 @@
+{
+  "emoji": "🍛",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "টেবিল",
+      "ipa": "tebil · /ʈebil/",
+      "pos": "n.",
+      "meaning": "table",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "দুজনের জন্য টেবিল।",
+          "en": "A table for two."
+        },
+        {
+          "target": "টেবিল খালি।",
+          "en": "The table is empty."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "খাবার",
+      "ipa": "khabar · /kʰabar/",
+      "pos": "n.",
+      "meaning": "food",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "খাবার তৈরি।",
+          "en": "The food is ready."
+        },
+        {
+          "target": "খাবার ভালো।",
+          "en": "The food is good."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "ডাল",
+      "ipa": "dal · /ɖal/",
+      "pos": "n.",
+      "meaning": "lentils",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "ডাল গরম।",
+          "en": "The dal is hot."
+        },
+        {
+          "target": "আমি ডাল ভাত পছন্দ করি।",
+          "en": "I like dal and rice."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "ভাত",
+      "ipa": "bhat · /bʱat/",
+      "pos": "n.",
+      "meaning": "rice (cooked)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "আমি ভাত খাই।",
+          "en": "I eat rice."
+        },
+        {
+          "target": "এক প্লেট ভাত।",
+          "en": "One plate of rice."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "মাছ",
+      "ipa": "mach · /matʃʰ/",
+      "pos": "n.",
+      "meaning": "fish",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "মাছ তাজা।",
+          "en": "The fish is fresh."
+        },
+        {
+          "target": "বাঙালি মাছ ভালোবাসে।",
+          "en": "Bengalis love fish."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "সুস্বাদু",
+      "ipa": "shushwadu · /ʃuʃːadu/",
+      "pos": "adj.",
+      "meaning": "delicious",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "এটা খুব সুস্বাদু।",
+          "en": "This is very tasty."
+        },
+        {
+          "target": "রান্না সুস্বাদু ছিল।",
+          "en": "The cooking was delicious."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "বিল",
+      "ipa": "bil · /bil/",
+      "pos": "n.",
+      "meaning": "bill",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "বিল দিন।",
+          "en": "Please bring the bill."
+        },
+        {
+          "target": "বিল কত হলো?",
+          "en": "How much is the bill?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "স্বাগতম! দুজনের জন্য টেবিল আছে।",
+      "glosses": [
+        {
+          "text": "টেবিল",
+          "pos": "n.",
+          "meaning": "table"
+        }
+      ],
+      "en": "Welcome! There is a table for two."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "ধন্যবাদ। আজ কী খাবার ভালো?",
+      "glosses": [
+        {
+          "text": "খাবার",
+          "pos": "n.",
+          "meaning": "food"
+        }
+      ],
+      "en": "Thanks. What food is good today?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "মাছ আর ডাল খুব সুস্বাদু।",
+      "glosses": [
+        {
+          "text": "ডাল",
+          "pos": "n.",
+          "meaning": "lentils"
+        },
+        {
+          "text": "মাছ",
+          "pos": "n.",
+          "meaning": "fish"
+        },
+        {
+          "text": "সুস্বাদু",
+          "pos": "adj.",
+          "meaning": "delicious"
+        }
+      ],
+      "en": "The fish and dal are very tasty."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "তাহলে মাছ, ডাল আর দুই প্লেট ভাত দিন।",
+      "glosses": [
+        {
+          "text": "ডাল",
+          "pos": "n.",
+          "meaning": "lentils"
+        },
+        {
+          "text": "ভাত",
+          "pos": "n.",
+          "meaning": "rice (cooked)"
+        },
+        {
+          "text": "মাছ",
+          "pos": "n.",
+          "meaning": "fish"
+        }
+      ],
+      "en": "Then please give fish, dal and two plates of rice."
+    },
+    {
+      "id": "t5",
+      "speaker": "Waiter",
+      "role": "npc",
+      "text": "জি, এখনই আনছি।",
+      "glosses": [],
+      "en": "Yes, I'm bringing it right away."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "খাবার খুব সুস্বাদু ছিল। বিল দিন, দয়া করে।",
+      "glosses": [
+        {
+          "text": "খাবার",
+          "pos": "n.",
+          "meaning": "food"
+        },
+        {
+          "text": "সুস্বাদু",
+          "pos": "adj.",
+          "meaning": "delicious"
+        },
+        {
+          "text": "বিল",
+          "pos": "n.",
+          "meaning": "bill"
+        }
+      ],
+      "en": "The food was very tasty. Please give the bill."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "সুস্বাদু",
+      "tip": "Say shu-SHAA-du"
+    },
+    {
+      "id": "w2",
+      "text": "মাছ",
+      "tip": "Say 'mach' with a breathy ch"
+    }
+  ]
+}

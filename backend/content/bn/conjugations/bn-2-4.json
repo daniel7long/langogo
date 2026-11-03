@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "দেখা",
+      "ipa": "dekha · /dekʰa/",
+      "pos": "v.",
+      "meaning": "to see, to watch",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "দেখব",
+          "ipa": "dekʰbo"
+        },
+        {
+          "p": "তুমি",
+          "f": "দেখবে",
+          "ipa": "dekʰbe"
+        },
+        {
+          "p": "সে",
+          "f": "দেখবে",
+          "ipa": "dekʰbe"
+        },
+        {
+          "p": "আপনি",
+          "f": "দেখবেন",
+          "ipa": "dekʰben"
+        },
+        {
+          "p": "আমরা",
+          "f": "দেখব",
+          "ipa": "dekʰbo"
+        }
+      ],
+      "examples": [
+        {
+          "target": "সিনেমা দেখব।",
+          "en": "We'll watch a film."
+        },
+        {
+          "target": "আপনি কখন দেখবেন?",
+          "en": "When will you watch?"
+        }
+      ],
+      "note": "Future endings: -ব (I / we), -বে (you / he), -বেন (respectful)."
+    },
+    {
+      "id": "c2",
+      "word": "ঘোরা",
+      "ipa": "ghora · /ɡʱora/",
+      "pos": "v.",
+      "meaning": "to wander, to tour",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "ঘুরব",
+          "ipa": "ɡʱurbo"
+        },
+        {
+          "p": "তুমি",
+          "f": "ঘুরবে",
+          "ipa": "ɡʱurbe"
+        },
+        {
+          "p": "সে",
+          "f": "ঘুরবে",
+          "ipa": "ɡʱurbe"
+        },
+        {
+          "p": "আপনি",
+          "f": "ঘুরবেন",
+          "ipa": "ɡʱurben"
+        },
+        {
+          "p": "আমরা",
+          "f": "ঘুরব",
+          "ipa": "ɡʱurbo"
+        }
+      ],
+      "examples": [
+        {
+          "target": "আমরা শহরে ঘুরব।",
+          "en": "We will wander the city."
+        },
+        {
+          "target": "তুমি কোথায় ঘুরবে?",
+          "en": "Where will you wander?"
+        }
+      ],
+      "note": "The stem vowel changes: ঘোরা → ঘুরব."
+    }
+  ]
+}

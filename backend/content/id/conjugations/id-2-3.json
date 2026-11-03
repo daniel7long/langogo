@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "mau",
+      "ipa": "/ˈma.u/",
+      "pos": "v.",
+      "meaning": "to want",
+      "tense": "Wanting: mau + verb or noun",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya mau beli",
+          "ipa": "/ˈsa.ja ˈma.u ˈbə.li/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu mau beli",
+          "ipa": "/ˈka.mu ˈma.u ˈbə.li/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia mau beli",
+          "ipa": "/ˈdi.a ˈma.u ˈbə.li/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami mau beli",
+          "ipa": "/ˈka.mi ˈma.u ˈbə.li/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka mau beli",
+          "ipa": "/mə.ˈrɛ.ka ˈma.u ˈbə.li/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya mau satu kilo tomat.",
+          "en": "I want one kilo of tomatoes."
+        },
+        {
+          "target": "Kamu mau apa?",
+          "en": "What do you want?"
+        }
+      ],
+      "note": "'Mau' is informal and common. Use 'ingin' in formal speech."
+    },
+    {
+      "id": "c2",
+      "word": "bisa",
+      "ipa": "/ˈbi.sa/",
+      "pos": "v.",
+      "meaning": "can, able",
+      "tense": "Ability: bisa + verb",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya bisa bantu",
+          "ipa": "/ˈsa.ja ˈbi.sa ˈban.tu/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu bisa bantu",
+          "ipa": "/ˈka.mu ˈbi.sa ˈban.tu/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia bisa bantu",
+          "ipa": "/ˈdi.a ˈbi.sa ˈban.tu/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami bisa bantu",
+          "ipa": "/ˈka.mi ˈbi.sa ˈban.tu/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka bisa bantu",
+          "ipa": "/mə.ˈrɛ.ka ˈbi.sa ˈban.tu/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Bisa lebih murah?",
+          "en": "Can it be cheaper?"
+        },
+        {
+          "target": "Saya bisa bicara bahasa Indonesia.",
+          "en": "I can speak Indonesian."
+        }
+      ],
+      "note": "Question: 'Bisa lebih murah?' = Can it be cheaper?"
+    }
+  ]
+}

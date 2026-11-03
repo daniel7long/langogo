@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "be",
+      "ipa": "/bi/",
+      "pos": "v. (irregular)",
+      "meaning": "to say who or what someone is",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "am",
+          "ipa": "/aɪ æm/"
+        },
+        {
+          "p": "you",
+          "f": "are",
+          "ipa": "/ju ɑr/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "is",
+          "ipa": "/hi ɪz/"
+        },
+        {
+          "p": "we",
+          "f": "are",
+          "ipa": "/wi ɑr/"
+        },
+        {
+          "p": "they",
+          "f": "are",
+          "ipa": "/ðeɪ ɑr/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I am a teacher."
+        },
+        {
+          "target": "She is my friend."
+        }
+      ],
+      "note": "Use 'I am' to say your job or your name."
+    },
+    {
+      "id": "c2",
+      "word": "live",
+      "ipa": "/lɪv/",
+      "pos": "v.",
+      "meaning": "to have your home in a place",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "live",
+          "ipa": "/aɪ lɪv/"
+        },
+        {
+          "p": "you",
+          "f": "live",
+          "ipa": "/ju lɪv/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "lives",
+          "ipa": "/hi lɪvz/"
+        },
+        {
+          "p": "we",
+          "f": "live",
+          "ipa": "/wi lɪv/"
+        },
+        {
+          "p": "they",
+          "f": "live",
+          "ipa": "/ðeɪ lɪv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I live in London."
+        },
+        {
+          "target": "He lives with his sister."
+        }
+      ],
+      "note": "He / she / it adds -s: she lives."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "minta / tolong",
+      "ipa": "/ˈmin.ta / ˈto.loŋ/",
+      "pos": "v.",
+      "meaning": "to ask for / please",
+      "tense": "Polite requests",
+      "forms": [
+        {
+          "p": "Minta",
+          "f": "Minta teh",
+          "ipa": "/ˈmin.ta teh/"
+        },
+        {
+          "p": "Tolong",
+          "f": "Tolong bawa teh",
+          "ipa": "/ˈto.loŋ ˈba.wa teh/"
+        },
+        {
+          "p": "Boleh",
+          "f": "Boleh minta teh?",
+          "ipa": "/ˈbo.lɛh ˈmin.ta teh/"
+        },
+        {
+          "p": "Saya",
+          "f": "Saya minta teh",
+          "ipa": "/ˈsa.ja ˈmin.ta teh/"
+        },
+        {
+          "p": "Ya",
+          "f": "Ya, tolong",
+          "ipa": "/ja ˈto.loŋ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya minta satu teh, tolong.",
+          "en": "I'd like one tea, please."
+        },
+        {
+          "target": "Tolong bantu saya.",
+          "en": "Please help me."
+        }
+      ],
+      "note": "Add 'tolong' (please) or 'ya' to make a request polite."
+    },
+    {
+      "id": "c2",
+      "word": "mau pesan",
+      "ipa": "/ˈma.u pə.ˈsan/",
+      "pos": "v. phr.",
+      "meaning": "want to order",
+      "tense": "Present (no change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya mau pesan",
+          "ipa": "/ˈsa.ja ˈma.u pə.ˈsan/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu mau pesan",
+          "ipa": "/ˈka.mu ˈma.u pə.ˈsan/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia mau pesan",
+          "ipa": "/ˈdi.a ˈma.u pə.ˈsan/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami mau pesan",
+          "ipa": "/ˈka.mi ˈma.u pə.ˈsan/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka mau pesan",
+          "ipa": "/mə.ˈrɛ.ka ˈma.u pə.ˈsan/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya mau pesan teh.",
+          "en": "I want to order tea."
+        },
+        {
+          "target": "Kami mau pesan dua.",
+          "en": "We want to order two."
+        }
+      ],
+      "note": "Mau + verb = want to + verb."
+    }
+  ]
+}

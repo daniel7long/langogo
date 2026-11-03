@@ -1,0 +1,241 @@
+{
+  "emoji": "🥔",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "আলু",
+      "ipa": "alu · /alu/",
+      "pos": "n.",
+      "meaning": "potato",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "আলু সস্তা।",
+          "en": "Potatoes are cheap."
+        },
+        {
+          "target": "আলু ভর্তা খাই।",
+          "en": "I eat mashed potato."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "পেঁয়াজ",
+      "ipa": "penyaj · /pẽjadʒ/",
+      "pos": "n.",
+      "meaning": "onion",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "পেঁয়াজ দামি।",
+          "en": "Onions are expensive."
+        },
+        {
+          "target": "পেঁয়াজ কাটুন।",
+          "en": "Cut the onion."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "টমেটো",
+      "ipa": "tometo · /ʈomeʈo/",
+      "pos": "n.",
+      "meaning": "tomato",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "টমেটো লাল।",
+          "en": "The tomato is red."
+        },
+        {
+          "target": "আধা কেজি টমেটো দিন।",
+          "en": "Give half a kilo of tomatoes."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "চাল",
+      "ipa": "chal · /tʃal/",
+      "pos": "n.",
+      "meaning": "rice (raw)",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "চাল শেষ।",
+          "en": "The rice is finished."
+        },
+        {
+          "target": "এক কেজি চাল।",
+          "en": "One kilo of rice."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "আটা",
+      "ipa": "ata · /aʈa/",
+      "pos": "n.",
+      "meaning": "flour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "আটা লাগবে।",
+          "en": "We need flour."
+        },
+        {
+          "target": "আটা শেষ।",
+          "en": "The flour is gone."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "ফল",
+      "ipa": "fol · /pʰɔl/",
+      "pos": "n.",
+      "meaning": "fruit",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "ফল তাজা।",
+          "en": "The fruit is fresh."
+        },
+        {
+          "target": "আমি ফল পছন্দ করি।",
+          "en": "I like fruit."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "তালিকা",
+      "ipa": "talika · /talika/",
+      "pos": "n.",
+      "meaning": "list",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "আমার তালিকা কোথায়?",
+          "en": "Where is my list?"
+        },
+        {
+          "target": "তালিকায় দুধ আছে।",
+          "en": "Milk is on the list."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Dokandar",
+      "role": "npc",
+      "text": "তোমার তালিকা কোথায়? কী কী লাগবে?",
+      "glosses": [
+        {
+          "text": "তালিকা",
+          "pos": "n.",
+          "meaning": "list"
+        }
+      ],
+      "en": "Where is your list? What do we need?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "আলু, পেঁয়াজ, টমেটো আর চাল।",
+      "glosses": [
+        {
+          "text": "আলু",
+          "pos": "n.",
+          "meaning": "potato"
+        },
+        {
+          "text": "পেঁয়াজ",
+          "pos": "n.",
+          "meaning": "onion"
+        },
+        {
+          "text": "টমেটো",
+          "pos": "n.",
+          "meaning": "tomato"
+        }
+      ],
+      "en": "Potatoes, onions, tomatoes and rice."
+    },
+    {
+      "id": "t3",
+      "speaker": "Dokandar",
+      "role": "npc",
+      "text": "আটা লাগবে। বাসায় শেষ হয়ে গেছে।",
+      "glosses": [
+        {
+          "text": "আটা",
+          "pos": "n.",
+          "meaning": "flour"
+        }
+      ],
+      "en": "We need flour. It's finished at home."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "ঠিক আছে। ফল নেবে?",
+      "glosses": [
+        {
+          "text": "ফল",
+          "pos": "n.",
+          "meaning": "fruit"
+        }
+      ],
+      "en": "Okay. Will you take fruit?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Dokandar",
+      "role": "npc",
+      "text": "হ্যাঁ, ফল তাজা আর সস্তা।",
+      "glosses": [
+        {
+          "text": "ফল",
+          "pos": "n.",
+          "meaning": "fruit"
+        }
+      ],
+      "en": "Yes, the fruit is fresh and cheap."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "চমৎকার! তালিকা শেষ।",
+      "glosses": [
+        {
+          "text": "তালিকা",
+          "pos": "n.",
+          "meaning": "list"
+        }
+      ],
+      "en": "Great! The list is complete."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "পেঁয়াজ",
+      "tip": "Nasal vowel: pe(n)-yaj"
+    },
+    {
+      "id": "w2",
+      "text": "আটা",
+      "tip": "Retroflex ṭ: AA-ṭa"
+    }
+  ]
+}

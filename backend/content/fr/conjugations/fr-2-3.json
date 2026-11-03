@@ -1,0 +1,147 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "servir",
+      "ipa": "/sɛʁ.viʁ/",
+      "pos": "v.",
+      "meaning": "to serve",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "sers",
+          "ipa": "/ʒə sɛʁ/"
+        },
+        {
+          "p": "tu",
+          "f": "sers",
+          "ipa": "/ty sɛʁ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "sert",
+          "ipa": "/il sɛʁ/"
+        },
+        {
+          "p": "nous",
+          "f": "servons",
+          "ipa": "/nu sɛʁ.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "servez",
+          "ipa": "/vu sɛʁ.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "servent",
+          "ipa": "/il sɛʁv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Qu'est-ce que je vous sers ?",
+          "en": "What can I get you?"
+        },
+        {
+          "target": "Il sert le café.",
+          "en": "He serves the coffee."
+        }
+      ],
+      "note": "Shopkeepers say 'Qu'est-ce que je vous sers ?'"
+    },
+    {
+      "id": "c2",
+      "word": "faire",
+      "ipa": "/fɛʁ/",
+      "pos": "v.",
+      "meaning": "to do, to make",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "fais",
+          "ipa": "/ʒə fɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "fais",
+          "ipa": "/ty fɛ/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "fait",
+          "ipa": "/il fɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "faisons",
+          "ipa": "/nu fə.zɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "faites",
+          "ipa": "/vu fɛt/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "font",
+          "ipa": "/il fɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ça fait trois euros cinquante.",
+          "en": "That comes to €3.50."
+        },
+        {
+          "target": "Je fais du sport.",
+          "en": "I do sport."
+        }
+      ],
+      "note": "Prices use faire: ça fait trois euros."
+    },
+    {
+      "id": "c3",
+      "word": "coûter",
+      "ipa": "/ku.te/",
+      "pos": "v.",
+      "meaning": "to cost",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "ça",
+          "f": "coûte",
+          "ipa": "/sa kut/"
+        },
+        {
+          "p": "ça",
+          "f": "coûtait",
+          "ipa": "/sa ku.tɛ/"
+        },
+        {
+          "p": "ça",
+          "f": "va coûter",
+          "ipa": "/sa va ku.te/"
+        },
+        {
+          "p": "ça",
+          "f": "a coûté",
+          "ipa": "/sa a ku.te/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Combien ça coûte ?",
+          "en": "How much does it cost?"
+        },
+        {
+          "target": "Ça coûte trois euros.",
+          "en": "It costs three euros."
+        }
+      ],
+      "note": "Ask 'Combien ça coûte ?' to find the price."
+    }
+  ]
+}

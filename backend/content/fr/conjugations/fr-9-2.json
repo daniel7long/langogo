@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have to",
+      "tense": "Past conditional",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "aurais dû",
+          "ipa": "/ʒo.ʁɛ dy/"
+        },
+        {
+          "p": "tu",
+          "f": "aurais dû",
+          "ipa": "/ty o.ʁɛ dy/"
+        },
+        {
+          "p": "il / elle",
+          "f": "aurait dû",
+          "ipa": "/il o.ʁɛ dy/"
+        },
+        {
+          "p": "nous",
+          "f": "aurions dû",
+          "ipa": "/nu zo.ʁjɔ̃ dy/"
+        },
+        {
+          "p": "vous",
+          "f": "auriez dû",
+          "ipa": "/vu zo.ʁje dy/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "auraient dû",
+          "ipa": "/il zo.ʁɛ dy/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'aurais dû partir plus tôt.",
+          "en": "I should have left earlier."
+        },
+        {
+          "target": "Tu aurais dû appeler.",
+          "en": "You should have called."
+        }
+      ],
+      "note": "'J'aurais dû' = I should have."
+    },
+    {
+      "id": "c2",
+      "word": "venir",
+      "ipa": "/və.niʁ/",
+      "pos": "v.",
+      "meaning": "to come",
+      "tense": "Past conditional",
+      "forms": [
+        {
+          "p": "je",
+          "f": "serais venu(e)",
+          "ipa": "/ʒə sə.ʁɛ və.ny/"
+        },
+        {
+          "p": "tu",
+          "f": "serais venu(e)",
+          "ipa": "/ty sə.ʁɛ və.ny/"
+        },
+        {
+          "p": "il / elle",
+          "f": "serait venu(e)",
+          "ipa": "/il sə.ʁɛ və.ny/"
+        },
+        {
+          "p": "nous",
+          "f": "serions venu(e)s",
+          "ipa": "/nu sə.ʁjɔ̃ və.ny/"
+        },
+        {
+          "p": "vous",
+          "f": "seriez venu(e)(s)",
+          "ipa": "/vu sə.ʁje və.ny/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "seraient venu(e)s",
+          "ipa": "/il sə.ʁɛ və.ny/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je serais venu te chercher.",
+          "en": "I would have come to get you."
+        },
+        {
+          "target": "Elle serait venue.",
+          "en": "She would have come."
+        }
+      ],
+      "note": "Venir uses être in compound tenses."
+    },
+    {
+      "id": "c3",
+      "word": "appeler",
+      "ipa": "/a.pə.le/",
+      "pos": "v.",
+      "meaning": "to call",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "appellerai",
+          "ipa": "/ʒa.pɛl.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "appelleras",
+          "ipa": "/ty a.pɛl.ʁa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "appellera",
+          "ipa": "/il a.pɛl.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "appellerons",
+          "ipa": "/nu za.pɛl.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "appellerez",
+          "ipa": "/vu za.pɛl.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "appelleront",
+          "ipa": "/il za.pɛl.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je t'appellerai.",
+          "en": "I'll call you."
+        },
+        {
+          "target": "Nous t'appellerons demain.",
+          "en": "We'll call you tomorrow."
+        }
+      ],
+      "note": "Double l in the future: appellerai."
+    }
+  ]
+}

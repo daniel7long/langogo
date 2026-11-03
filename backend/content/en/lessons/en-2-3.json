@@ -1,0 +1,225 @@
+{
+  "emoji": "🥖",
+  "max_flowers": 35,
+  "cefr": "A2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "bread",
+      "ipa": "/bred/",
+      "pos": "n.",
+      "meaning": "a baked food made from flour",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I eat bread with butter."
+        },
+        {
+          "target": "This bread is fresh."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "cake",
+      "ipa": "/keɪk/",
+      "pos": "n.",
+      "meaning": "a sweet baked food, often for a party",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "She makes a birthday cake."
+        },
+        {
+          "target": "I love chocolate cake."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "buy",
+      "ipa": "/baɪ/",
+      "pos": "v.",
+      "meaning": "to get something by paying money",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I buy bread every day."
+        },
+        {
+          "target": "He buys a new phone."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "would like",
+      "ipa": "/wʊd laɪk/",
+      "pos": "phr.",
+      "meaning": "a polite way to say 'want'",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "I would like some tea."
+        },
+        {
+          "target": "She would like a cake."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "how much",
+      "ipa": "/haʊ mʌtʃ/",
+      "pos": "phr.",
+      "meaning": "a question about the price",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "How much is the bread?"
+        },
+        {
+          "target": "How much does it cost?"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "fresh",
+      "ipa": "/freʃ/",
+      "pos": "adj.",
+      "meaning": "new and not old; just made",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "The bread is fresh."
+        },
+        {
+          "target": "I want fresh fruit."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "pos": "n.",
+      "meaning": "the money you get back after paying",
+      "cefr": "A2",
+      "examples": [
+        {
+          "target": "Here is your change."
+        },
+        {
+          "target": "I have no change."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Clerk",
+      "role": "npc",
+      "text": "Good morning! What would you like?",
+      "glosses": [],
+      "en": "Hello! Tell me what you want."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "I would like two loaves of bread, please.",
+      "glosses": [
+        {
+          "text": "bread",
+          "pos": "n.",
+          "meaning": "a baked food made from flour"
+        },
+        {
+          "text": "would like",
+          "pos": "phr.",
+          "meaning": "a polite way to say 'want'"
+        }
+      ],
+      "en": "I want two breads, please."
+    },
+    {
+      "id": "t3",
+      "speaker": "Clerk",
+      "role": "npc",
+      "text": "Of course. Our bread is fresh today. Anything else?",
+      "glosses": [
+        {
+          "text": "bread",
+          "pos": "n.",
+          "meaning": "a baked food made from flour"
+        },
+        {
+          "text": "fresh",
+          "pos": "adj.",
+          "meaning": "new and not old; just made"
+        }
+      ],
+      "en": "Sure. We just made this bread today. Do you want more?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, a chocolate cake. How much is it?",
+      "glosses": [
+        {
+          "text": "cake",
+          "pos": "n.",
+          "meaning": "a sweet baked food, often for a party"
+        },
+        {
+          "text": "How much",
+          "pos": "phr.",
+          "meaning": "a question about the price"
+        }
+      ],
+      "en": "Yes, I want a chocolate cake. What is the price?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Clerk",
+      "role": "npc",
+      "text": "The cake is ten dollars. Here is your change.",
+      "glosses": [
+        {
+          "text": "cake",
+          "pos": "n.",
+          "meaning": "a sweet baked food, often for a party"
+        },
+        {
+          "text": "change",
+          "pos": "n.",
+          "meaning": "the money you get back after paying"
+        }
+      ],
+      "en": "The cake costs $10. This is the money I give back."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Thank you. Have a nice day!",
+      "glosses": [],
+      "en": "Thanks. I hope you have a good day!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "chocolate",
+      "tip": "Say CHOK-lit with only two beats"
+    },
+    {
+      "id": "w2",
+      "text": "would like",
+      "tip": "Say 'wood like' and keep 'd' light"
+    }
+  ]
+}

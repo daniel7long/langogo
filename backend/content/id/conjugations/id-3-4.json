@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "suka",
+      "ipa": "/ˈsu.ka/",
+      "pos": "v.",
+      "meaning": "to like",
+      "tense": "Present (no change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya suka yang manis",
+          "ipa": "/ˈsa.ja ˈsu.ka jaŋ ˈma.nis/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu suka yang manis",
+          "ipa": "/ˈka.mu ˈsu.ka jaŋ ˈma.nis/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia suka yang manis",
+          "ipa": "/ˈdi.a ˈsu.ka jaŋ ˈma.nis/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami suka yang manis",
+          "ipa": "/ˈka.mi ˈsu.ka jaŋ ˈma.nis/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka suka yang manis",
+          "ipa": "/mə.ˈrɛ.ka ˈsu.ka jaŋ ˈma.nis/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya lebih suka yang manis.",
+          "en": "I prefer sweet things."
+        },
+        {
+          "target": "Dia suka nasi goreng.",
+          "en": "He likes fried rice."
+        }
+      ],
+      "note": "Suka + noun or verb: suka masak."
+    },
+    {
+      "id": "c2",
+      "word": "masak",
+      "ipa": "/ˈma.sak/",
+      "pos": "v.",
+      "meaning": "to cook",
+      "tense": "Present (no change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya masak",
+          "ipa": "/ˈsa.ja ˈma.sak/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu masak",
+          "ipa": "/ˈka.mu ˈma.sak/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia masak",
+          "ipa": "/ˈdi.a ˈma.sak/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami masak",
+          "ipa": "/ˈka.mi ˈma.sak/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka masak",
+          "ipa": "/mə.ˈrɛ.ka ˈma.sak/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Hari Minggu saya masak.",
+          "en": "On Sundays I cook."
+        },
+        {
+          "target": "Kamu masak sendiri?",
+          "en": "Do you cook yourself?"
+        }
+      ],
+      "note": "In formal writing: memasak. In speech, 'masak' is fine."
+    }
+  ]
+}

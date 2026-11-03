@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "मेरा / आपका",
+      "ipa": "merā / āpkā · /meːraː / aːpkaː/",
+      "pos": "pron.",
+      "meaning": "my / your",
+      "tense": "Possessives with 'है'",
+      "forms": [
+        {
+          "p": "मेरा नाम",
+          "f": "मेरा … है",
+          "ipa": "meːraː naːm … hɛː"
+        },
+        {
+          "p": "आपका नाम",
+          "f": "आपका … है",
+          "ipa": "aːpkaː naːm … hɛː"
+        },
+        {
+          "p": "मेरी दोस्त",
+          "f": "मेरी (fem.)",
+          "ipa": "meːriː"
+        },
+        {
+          "p": "मेरे दोस्त",
+          "f": "मेरे (plural)",
+          "ipa": "meːreː"
+        },
+        {
+          "p": "हमारा घर",
+          "f": "हमारा (our)",
+          "ipa": "həmaːraː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मेरा नाम मीरा है।",
+          "en": "My name is Meera."
+        },
+        {
+          "target": "आपका घर कहाँ है?",
+          "en": "Where is your home?"
+        }
+      ],
+      "note": "The word changes with the thing owned: मेरा (m), मेरी (f), मेरे (plural)."
+    },
+    {
+      "id": "c2",
+      "word": "रहना",
+      "ipa": "rahnā · /rəɦnaː/",
+      "pos": "v.",
+      "meaning": "to live, to stay",
+      "tense": "Present habitual",
+      "forms": [
+        {
+          "p": "मैं",
+          "f": "रहता / रहती हूँ",
+          "ipa": "rəɦtaː / rəɦtiː huː̃"
+        },
+        {
+          "p": "तुम",
+          "f": "रहते / रहती हो",
+          "ipa": "rəɦteː hoː"
+        },
+        {
+          "p": "वह",
+          "f": "रहता / रहती है",
+          "ipa": "rəɦtaː hɛː"
+        },
+        {
+          "p": "हम",
+          "f": "रहते हैं",
+          "ipa": "rəɦteː hɛ̃ː"
+        },
+        {
+          "p": "आप",
+          "f": "रहते हैं",
+          "ipa": "rəɦteː hɛ̃ː"
+        }
+      ],
+      "examples": [
+        {
+          "target": "मैं दिल्ली में रहता हूँ।",
+          "en": "I live in Delhi."
+        },
+        {
+          "target": "आप कहाँ रहते हैं?",
+          "en": "Where do you live?"
+        }
+      ],
+      "note": "Stem + ता / ती / ते + हूँ / है / हैं."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "have",
+      "ipa": "/hæv/",
+      "pos": "v. (irregular)",
+      "meaning": "to own something or hold a booking",
+      "tense": "Present simple",
+      "forms": [
+        {
+          "p": "I",
+          "f": "have",
+          "ipa": "/aɪ hæv/"
+        },
+        {
+          "p": "you",
+          "f": "have",
+          "ipa": "/ju hæv/"
+        },
+        {
+          "p": "he / she / it",
+          "f": "has",
+          "ipa": "/hi hæz/"
+        },
+        {
+          "p": "we",
+          "f": "have",
+          "ipa": "/wi hæv/"
+        },
+        {
+          "p": "they",
+          "f": "have",
+          "ipa": "/ðeɪ hæv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "I have a reservation."
+        },
+        {
+          "target": "The hotel has a pool."
+        }
+      ],
+      "note": "Say 'I have a reservation' to tell the hotel you booked."
+    },
+    {
+      "id": "c2",
+      "word": "stay",
+      "ipa": "/steɪ/",
+      "pos": "v.",
+      "meaning": "to be in a place for some time",
+      "tense": "Future with will",
+      "forms": [
+        {
+          "p": "I",
+          "f": "will stay",
+          "ipa": "/aɪ wɪl steɪ/"
+        },
+        {
+          "p": "you",
+          "f": "will stay",
+          "ipa": "/ju wɪl steɪ/"
+        },
+        {
+          "p": "he / she",
+          "f": "will stay",
+          "ipa": "/hi wɪl steɪ/"
+        },
+        {
+          "p": "we",
+          "f": "will stay",
+          "ipa": "/wi wɪl steɪ/"
+        },
+        {
+          "p": "they",
+          "f": "will stay",
+          "ipa": "/ðeɪ wɪl steɪ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "We will stay two nights."
+        },
+        {
+          "target": "She will stay longer."
+        }
+      ],
+      "note": "Future = will + stay. It never changes."
+    }
+  ]
+}

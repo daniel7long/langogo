@@ -1,0 +1,217 @@
+{
+  "emoji": "💼",
+  "max_flowers": 35,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "experience",
+      "ipa": "/ɪkˈspɪriəns/",
+      "pos": "n.",
+      "meaning": "the things you have done in past jobs",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I have two years of experience."
+        },
+        {
+          "target": "She has a lot of experience."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "skill",
+      "ipa": "/skɪl/",
+      "pos": "n.",
+      "meaning": "something you can do well",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Speaking is a useful skill."
+        },
+        {
+          "target": "What skills do you have?"
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "team",
+      "ipa": "/tiːm/",
+      "pos": "n.",
+      "meaning": "a group of people who work together",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I like working in a team."
+        },
+        {
+          "target": "Our team is small."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "apply",
+      "ipa": "/əˈplaɪ/",
+      "pos": "v.",
+      "meaning": "to ask for a job in a formal way",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I apply for a job online."
+        },
+        {
+          "target": "Why did you apply?"
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "strength",
+      "ipa": "/streŋkθ/",
+      "pos": "n.",
+      "meaning": "a good quality that you have",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "My strength is learning fast."
+        },
+        {
+          "target": "Name one strength."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "salary",
+      "ipa": "/ˈsæləri/",
+      "pos": "n.",
+      "meaning": "the money you get each month for work",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "The salary is good."
+        },
+        {
+          "target": "What salary do you want?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "hire",
+      "ipa": "/haɪr/",
+      "pos": "v.",
+      "meaning": "to give someone a job",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "We hire two people."
+        },
+        {
+          "target": "They hired her last week."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Interviewer",
+      "role": "npc",
+      "text": "Thank you for coming. Why did you apply for this job?",
+      "glosses": [
+        {
+          "text": "apply",
+          "pos": "v.",
+          "meaning": "to ask for a job in a formal way"
+        }
+      ],
+      "en": "Thanks for being here. Why did you ask for this work?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "I like the company, and I have three years of experience in this field.",
+      "glosses": [
+        {
+          "text": "experience",
+          "pos": "n.",
+          "meaning": "the things you have done in past jobs"
+        }
+      ],
+      "en": "I like the company, and I worked three years in this area."
+    },
+    {
+      "id": "t3",
+      "speaker": "Interviewer",
+      "role": "npc",
+      "text": "Good. What is your biggest strength?",
+      "glosses": [
+        {
+          "text": "strength",
+          "pos": "n.",
+          "meaning": "a good quality that you have"
+        }
+      ],
+      "en": "Good. What good quality do you have most?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "I learn fast, and I work well in a team.",
+      "glosses": [
+        {
+          "text": "team",
+          "pos": "n.",
+          "meaning": "a group of people who work together"
+        }
+      ],
+      "en": "I understand new things quickly, and I work well with others."
+    },
+    {
+      "id": "t5",
+      "speaker": "Interviewer",
+      "role": "npc",
+      "text": "Great. We will contact you next week about the salary.",
+      "glosses": [
+        {
+          "text": "salary",
+          "pos": "n.",
+          "meaning": "the money you get each month for work"
+        }
+      ],
+      "en": "Good. We will write to you next week about the money."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Thank you. I hope you will hire me!",
+      "glosses": [
+        {
+          "text": "hire",
+          "pos": "v.",
+          "meaning": "to give someone a job"
+        }
+      ],
+      "en": "Thanks. I hope you give me the job!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "strength",
+      "tip": "Say 'strengkth': the end has a 'th' sound"
+    },
+    {
+      "id": "w2",
+      "text": "experience",
+      "tip": "Say ik-SPEER-ee-unce: stress the second part"
+    }
+  ]
+}

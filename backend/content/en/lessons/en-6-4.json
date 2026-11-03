@@ -1,0 +1,205 @@
+{
+  "emoji": "🎉",
+  "max_flowers": 35,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "holiday",
+      "ipa": "/ˈhɑːlədeɪ/",
+      "pos": "n.",
+      "meaning": "a special day or a time without work",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Christmas is a holiday."
+        },
+        {
+          "target": "We have a holiday in May."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "tradition",
+      "ipa": "/trəˈdɪʃn/",
+      "pos": "n.",
+      "meaning": "a custom passed down through the years",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "It is a family tradition."
+        },
+        {
+          "target": "This tradition is old."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "celebrate",
+      "ipa": "/ˈseləbreɪt/",
+      "pos": "v.",
+      "meaning": "to do something special for a happy day",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "We celebrate with a big dinner."
+        },
+        {
+          "target": "How do you celebrate?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "gift",
+      "ipa": "/ɡɪft/",
+      "pos": "n.",
+      "meaning": "something you give to someone",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "I bought a gift for her."
+        },
+        {
+          "target": "Thank you for the gift."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "decorate",
+      "ipa": "/ˈdekəreɪt/",
+      "pos": "v.",
+      "meaning": "to make a place look nice",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "We decorate the house."
+        },
+        {
+          "target": "They decorated the tree."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "gather",
+      "ipa": "/ˈɡæðər/",
+      "pos": "v.",
+      "meaning": "to come together",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Families gather on this day."
+        },
+        {
+          "target": "We gather at my aunt's house."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "custom",
+      "ipa": "/ˈkʌstəm/",
+      "pos": "n.",
+      "meaning": "a way of doing things in a place",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "It is a local custom."
+        },
+        {
+          "target": "Each country has its customs."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Neighbor",
+      "role": "npc",
+      "text": "What is your favorite holiday?",
+      "glosses": [
+        {
+          "text": "holiday",
+          "pos": "n.",
+          "meaning": "a special day or a time without work"
+        }
+      ],
+      "en": "Which special day do you like most?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "I love New Year. Our family gathers for a big dinner.",
+      "glosses": [],
+      "en": "I like New Year. My family comes together for a big meal."
+    },
+    {
+      "id": "t3",
+      "speaker": "Neighbor",
+      "role": "npc",
+      "text": "That sounds nice. Do you decorate the house?",
+      "glosses": [
+        {
+          "text": "decorate",
+          "pos": "v.",
+          "meaning": "to make a place look nice"
+        }
+      ],
+      "en": "That is nice. Do you make the house pretty?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, we decorate it, and we give small gifts.",
+      "glosses": [
+        {
+          "text": "decorate",
+          "pos": "v.",
+          "meaning": "to make a place look nice"
+        }
+      ],
+      "en": "Yes, we make it pretty and we give small presents."
+    },
+    {
+      "id": "t5",
+      "speaker": "Neighbor",
+      "role": "npc",
+      "text": "What other traditions do you have?",
+      "glosses": [],
+      "en": "What other customs does your family have?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "We watch fireworks together. How do you celebrate?",
+      "glosses": [
+        {
+          "text": "celebrate",
+          "pos": "v.",
+          "meaning": "to do something special for a happy day"
+        }
+      ],
+      "en": "We watch fireworks as a family. How do you celebrate?"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "celebrate",
+      "tip": "Say SEL-uh-brate: stress the first part"
+    },
+    {
+      "id": "w2",
+      "text": "tradition",
+      "tip": "Say truh-DISH-un: stress the second part"
+    }
+  ]
+}

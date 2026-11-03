@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "sudah / belum",
+      "ipa": "/ˈsu.dah / bə.ˈlum/",
+      "pos": "adv.",
+      "meaning": "already / not yet",
+      "tense": "Done or not yet",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "sudah terlambat",
+          "ipa": "/ˈsu.dah tər.ˈlam.bat/"
+        },
+        {
+          "p": "Saya",
+          "f": "belum terlambat",
+          "ipa": "/bə.ˈlum tər.ˈlam.bat/"
+        },
+        {
+          "p": "Rapat",
+          "f": "sudah mulai",
+          "ipa": "/ˈsu.dah ˈmu.lai/"
+        },
+        {
+          "p": "Rapat",
+          "f": "belum mulai",
+          "ipa": "/bə.ˈlum ˈmu.lai/"
+        },
+        {
+          "p": "Kamu",
+          "f": "sudah makan?",
+          "ipa": "/ˈsu.dah ˈma.kan/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Saya sudah terlambat.",
+          "en": "I am already late."
+        },
+        {
+          "target": "Rapat belum mulai.",
+          "en": "The meeting hasn't started."
+        }
+      ],
+      "note": "'Sudah?' asks if it is done. Answer 'Sudah' or 'Belum'."
+    },
+    {
+      "id": "c2",
+      "word": "butuh",
+      "ipa": "/ˈbu.tuh/",
+      "pos": "v.",
+      "meaning": "to need",
+      "tense": "Present (no change)",
+      "forms": [
+        {
+          "p": "Saya",
+          "f": "Saya butuh waktu",
+          "ipa": "/ˈsa.ja ˈbu.tuh ˈwak.tu/"
+        },
+        {
+          "p": "Kamu",
+          "f": "Kamu butuh waktu",
+          "ipa": "/ˈka.mu ˈbu.tuh ˈwak.tu/"
+        },
+        {
+          "p": "Dia",
+          "f": "Dia butuh waktu",
+          "ipa": "/ˈdi.a ˈbu.tuh ˈwak.tu/"
+        },
+        {
+          "p": "Kami",
+          "f": "Kami butuh waktu",
+          "ipa": "/ˈka.mi ˈbu.tuh ˈwak.tu/"
+        },
+        {
+          "p": "Mereka",
+          "f": "Mereka butuh waktu",
+          "ipa": "/mə.ˈrɛ.ka ˈbu.tuh ˈwak.tu/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Perjalanan butuh waktu satu jam.",
+          "en": "The trip takes an hour."
+        },
+        {
+          "target": "Saya butuh bantuan.",
+          "en": "I need help."
+        }
+      ],
+      "note": "Butuh + noun: butuh waktu = need time / take time."
+    }
+  ]
+}

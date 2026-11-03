@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "আনা",
+      "ipa": "ana · /ana/",
+      "pos": "v.",
+      "meaning": "to bring",
+      "tense": "Present continuous",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "আনছি",
+          "ipa": "antʃʰi"
+        },
+        {
+          "p": "তুমি",
+          "f": "আনছ",
+          "ipa": "antʃʰo"
+        },
+        {
+          "p": "সে",
+          "f": "আনছে",
+          "ipa": "antʃʰe"
+        },
+        {
+          "p": "আপনি",
+          "f": "আনছেন",
+          "ipa": "antʃʰen"
+        },
+        {
+          "p": "আমরা",
+          "f": "আনছি",
+          "ipa": "antʃʰi"
+        }
+      ],
+      "examples": [
+        {
+          "target": "এখনই আনছি।",
+          "en": "I'm bringing it right now."
+        },
+        {
+          "target": "কী আনছেন?",
+          "en": "What are you bringing?"
+        }
+      ],
+      "note": "-ছি / -ছ / -ছে = doing right now."
+    },
+    {
+      "id": "c2",
+      "word": "থাকা / হওয়া",
+      "ipa": "thaka / hoa · /tʰaka / hɔoa/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Past (ছিল)",
+      "forms": [
+        {
+          "p": "আমি",
+          "f": "ছিলাম",
+          "ipa": "tʃʰilam"
+        },
+        {
+          "p": "তুমি",
+          "f": "ছিলে",
+          "ipa": "tʃʰile"
+        },
+        {
+          "p": "সে",
+          "f": "ছিল",
+          "ipa": "tʃʰilo"
+        },
+        {
+          "p": "আপনি",
+          "f": "ছিলেন",
+          "ipa": "tʃʰilen"
+        },
+        {
+          "p": "আমরা",
+          "f": "ছিলাম",
+          "ipa": "tʃʰilam"
+        }
+      ],
+      "examples": [
+        {
+          "target": "খাবার সুস্বাদু ছিল।",
+          "en": "The food was delicious."
+        },
+        {
+          "target": "আমি কাল বাড়িতে ছিলাম।",
+          "en": "I was home yesterday."
+        }
+      ],
+      "note": "ছিল is the past of 'is'. খাবার সুস্বাদু ছিল = the food was tasty."
+    }
+  ]
+}

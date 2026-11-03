@@ -1,0 +1,242 @@
+{
+  "emoji": "🙋",
+  "max_flowers": 35,
+  "cefr": "A1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "name",
+      "ipa": "/neɪm/",
+      "pos": "n.",
+      "meaning": "the word people use to call you",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "What is your name?"
+        },
+        {
+          "target": "Her name is Maria."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "my name is",
+      "ipa": "/maɪ ˈneɪm ɪz/",
+      "pos": "phr.",
+      "meaning": "words you use to tell someone your name",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Hello, my name is Ken."
+        },
+        {
+          "target": "My name is Julia."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "nice to meet you",
+      "ipa": "/naɪs tə ˈmiːt juː/",
+      "pos": "phr.",
+      "meaning": "what you say when you meet someone for the first time",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "Nice to meet you, Paul."
+        },
+        {
+          "target": "Nice to meet you too!"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "student",
+      "ipa": "/ˈstuːdnt/",
+      "pos": "n.",
+      "meaning": "a person who studies at a school or university",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I am a student."
+        },
+        {
+          "target": "The student has a book."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "teacher",
+      "ipa": "/ˈtiːtʃər/",
+      "pos": "n.",
+      "meaning": "a person who helps others learn",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "My teacher is kind."
+        },
+        {
+          "target": "She is a math teacher."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "live",
+      "ipa": "/lɪv/",
+      "pos": "v.",
+      "meaning": "to have your home in a place",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "I live in Boston."
+        },
+        {
+          "target": "They live near the park."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "city",
+      "ipa": "/ˈsɪti/",
+      "pos": "n.",
+      "meaning": "a big town with many people",
+      "cefr": "A1",
+      "examples": [
+        {
+          "target": "This city is big."
+        },
+        {
+          "target": "I love my city."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Ben",
+      "role": "npc",
+      "text": "Hi! My name is Ben. What is your name?",
+      "glosses": [
+        {
+          "text": "name",
+          "pos": "n.",
+          "meaning": "the word people use to call you"
+        }
+      ],
+      "en": "Hello! I am Ben. Please tell me your name."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Hello, Ben. My name is Sara. Nice to meet you.",
+      "glosses": [
+        {
+          "text": "name",
+          "pos": "n.",
+          "meaning": "the word people use to call you"
+        },
+        {
+          "text": "Nice to meet you",
+          "pos": "phr.",
+          "meaning": "what you say when you meet someone for the first time"
+        }
+      ],
+      "en": "Hello, Ben. I am Sara. I am happy to meet you."
+    },
+    {
+      "id": "t3",
+      "speaker": "Ben",
+      "role": "npc",
+      "text": "Nice to meet you too. Are you a student?",
+      "glosses": [
+        {
+          "text": "Nice to meet you",
+          "pos": "phr.",
+          "meaning": "what you say when you meet someone for the first time"
+        },
+        {
+          "text": "student",
+          "pos": "n.",
+          "meaning": "a person who studies at a school or university"
+        }
+      ],
+      "en": "I am happy to meet you too. Do you study?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Yes, I am a student. And you?",
+      "glosses": [
+        {
+          "text": "student",
+          "pos": "n.",
+          "meaning": "a person who studies at a school or university"
+        }
+      ],
+      "en": "Yes, I study. What about you?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Ben",
+      "role": "npc",
+      "text": "I am a teacher. I live in this city.",
+      "glosses": [
+        {
+          "text": "teacher",
+          "pos": "n.",
+          "meaning": "a person who helps others learn"
+        },
+        {
+          "text": "live",
+          "pos": "v.",
+          "meaning": "to have your home in a place"
+        },
+        {
+          "text": "city",
+          "pos": "n.",
+          "meaning": "a big town with many people"
+        }
+      ],
+      "en": "I teach people. My home is in this city."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "That is nice. I live in this city too!",
+      "glosses": [
+        {
+          "text": "live",
+          "pos": "v.",
+          "meaning": "to have your home in a place"
+        },
+        {
+          "text": "city",
+          "pos": "n.",
+          "meaning": "a big town with many people"
+        }
+      ],
+      "en": "How nice. My home is in this city too!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "student",
+      "tip": "Say stu-dent with a long 'oo' and a quiet 'ent'"
+    },
+    {
+      "id": "w2",
+      "text": "nice to meet you",
+      "tip": "Say the words smoothly: nice-to-MEET-you"
+    }
+  ]
+}
