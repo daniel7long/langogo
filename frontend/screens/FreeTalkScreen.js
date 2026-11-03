@@ -19,7 +19,8 @@ import { goHub } from '../utils/nav';
 import { isRtl } from '../utils/rtl';
 import { colors, radius, spacing, typography } from '../theme';
 
-// If the learner has not started to answer this long after the partner finishes, hints appear.
+// If the learner has not started to answer this long after the partner finishes, a "Not sure what to say?" link appears;
+// the example answers only open when the learner taps it.
 const HINT_AFTER_MS = 2000;
 const MAX_RECORD_MS = 30000;
 const MIN_RECORD_MS = 600;
@@ -80,7 +81,8 @@ function TalkView({ start, onTopic }) {
   const [level, setLevel] = useState(start.level);
   const [phase, setPhaseState] = useState('playing');
   const [take, setTake] = useState(null);
-  const [showHints, setShowHints] = useState(false);
+  const [showHints, setShowHints] = useState(false); // example answers are open
+  const [offerHelp, setOfferHelp] = useState(false); // the "Not sure what to say?" link is visible
   const [speakingId, setSpeakingId] = useState(null);
   const [replaying, setReplaying] = useState(false);
   const [runKey, setRunKey] = useState(0);
@@ -131,14 +133,14 @@ function TalkView({ start, onTopic }) {
 
   // ---- Hints: nothing started 2 seconds after the partner finished -> offer help --------------------------
   useEffect(() => {
-    if (phase !== 'waiting' || showHints || !hints.length) return undefined;
-    const t = setTimeout(() => setShowHints(true), HINT_AFTER_MS);
+    if (phase !== 'waiting' || offerHelp || !hints.length) return undefined;
+    const t = setTimeout(() => setOfferHelp(true), HINT_AFTER_MS);
     return () => clearTimeout(t);
-  }, [phase, showHints, hints]);
+  }, [phase, offerHelp, hints]);
 
   useEffect(() => {
     if (scroller.current) setTimeout(() => scroller.current && scroller.current.scrollToEnd({ animated: true }), 80);
-  }, [turns.length, showHints]);
+  }, [turns.length, showHints, offerHelp]);
 
   // ---- Recording ----------------------------------------------------------------------------------
   const beginRecording = async () => {
@@ -217,6 +219,7 @@ function TalkView({ start, onTopic }) {
       hintUsed.current = false;
       setTake(null);
       setShowHints(false);
+      setOfferHelp(false);
       setHints(result.hints || []);
       if (result.level) setLevel(result.level);
       setTurns((t) => [...t, result.you, result.turn]); // the new partner line triggers its own playback
@@ -272,7 +275,9 @@ function TalkView({ start, onTopic }) {
 
   const hasTranslations = turns.some((t) => !!t.en);
   const speaking = speakingId != null;
-  const hintsVisible = showHints && hints.length > 0 && ['waiting', 'starting', 'recording'].includes(phase);
+  const helpPhase = ['waiting', 'starting', 'recording'].includes(phase) && hints.length > 0;
+  const hintsVisible = showHints && helpPhase;
+  const helpLinkVisible = offerHelp && !showHints && helpPhase;
 
   return (
     <>
@@ -334,6 +339,18 @@ function TalkView({ start, onTopic }) {
           </Pressable>
         )}
 
+        {helpLinkVisible && (
+          <Pressable
+            onPress={() => setShowHints(true)}
+            style={styles.helpLink}
+            accessibilityRole="button"
+            accessibilityLabel="Not sure what to say? Show example answers"
+          >
+            <Ionicons name="bulb-outline" size={18} color={colors.primary} />
+            <Text style={styles.helpLinkText}>Not sure what to say?</Text>
+          </Pressable>
+        )}
+
         {hintsVisible && (
           <View style={styles.hints} accessibilityRole="summary">
             <Text style={styles.hintsTitle}>Not sure what to say? Try one of these</Text>
@@ -390,6 +407,8 @@ const styles = StyleSheet.create({
   chat: { padding: spacing.md, gap: spacing.md, paddingBottom: spacing.lg },
   take: { alignSelf: 'flex-end', flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: spacing.md, height: 44, borderRadius: radius.full, backgroundColor: colors.selectedBg },
   takeText: { ...typography.labelSm, color: colors.primary },
+  helpLink: { alignSelf: 'flex-start', flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: spacing.md, height: 44, borderRadius: radius.full, backgroundColor: colors.selectedBg },
+  helpLinkText: { ...typography.label, color: colors.primary },
   hints: { padding: spacing.md, borderRadius: radius.lg, backgroundColor: '#FAF4EE', gap: spacing.sm, borderWidth: 1, borderColor: colors.orange200 },
   hintsTitle: { ...typography.label, color: colors.text },
   hint: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, padding: spacing.s12, borderRadius: radius.lg, backgroundColor: colors.surface },
