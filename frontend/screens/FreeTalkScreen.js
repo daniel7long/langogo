@@ -290,7 +290,7 @@ function TalkView({ start, onTopic }) {
       </View>
 
       {start.topics.length > 1 && (
-        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.topics}>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.topicsScroll} contentContainerStyle={styles.topics}>
           {start.topics.map((t) => {
             const on = t.id === start.topic.id;
             return (
@@ -381,6 +381,7 @@ const styles = StyleSheet.create({
   avatarText: { ...typography.title, color: colors.onPrimary },
   eyebrow: { ...typography.eyebrow, color: colors.textMuted },
   title: { ...typography.label, color: colors.text },
+  topicsScroll: { flexGrow: 0, flexShrink: 0 },
   topics: { gap: spacing.sm, paddingHorizontal: spacing.md, paddingBottom: spacing.sm },
   subhead: { flexDirection: 'row', alignItems: 'center', gap: spacing.s12, paddingHorizontal: spacing.md, paddingBottom: spacing.sm },
   demo: { ...typography.caption, color: colors.error, flex: 1 },
