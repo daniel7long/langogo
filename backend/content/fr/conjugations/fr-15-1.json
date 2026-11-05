@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "sortir",
+      "ipa": "/sɔʁ.tiʁ/",
+      "pos": "v.",
+      "meaning": "to go out",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "je",
+          "f": "suis sorti(e)",
+          "ipa": "/ʒə sɥi sɔʁ.ti/"
+        },
+        {
+          "p": "tu",
+          "f": "es sorti(e)",
+          "ipa": "/ty ɛ sɔʁ.ti/"
+        },
+        {
+          "p": "il / elle",
+          "f": "est sorti(e)",
+          "ipa": "/il ɛ sɔʁ.ti/"
+        },
+        {
+          "p": "nous",
+          "f": "sommes sorti(e)s",
+          "ipa": "/nu sɔm sɔʁ.ti/"
+        },
+        {
+          "p": "vous",
+          "f": "êtes sorti(e)(s)",
+          "ipa": "/vu zɛt sɔʁ.ti/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "sont sortis",
+          "ipa": "/il sɔ̃ sɔʁ.ti/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je suis sorti de la salle partagé.",
+          "en": "I came out of the theater torn."
+        },
+        {
+          "target": "Elles sont sorties tôt.",
+          "en": "They left early."
+        }
+      ],
+      "note": "Sortir uses être when it means to go out."
+    },
+    {
+      "id": "c2",
+      "word": "prendre",
+      "ipa": "/pʁɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to take",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "prendrai",
+          "ipa": "/ʒə pʁɑ̃.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "prendras",
+          "ipa": "/ty pʁɑ̃.ʁa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "prendra",
+          "ipa": "/il pʁɑ̃.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "prendrons",
+          "ipa": "/nu pʁɑ̃.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "prendrez",
+          "ipa": "/vu pʁɑ̃.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "prendront",
+          "ipa": "/il pʁɑ̃.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je prendrai des notes.",
+          "en": "I'll take notes."
+        },
+        {
+          "target": "Nous prendrons le temps.",
+          "en": "We'll take the time."
+        }
+      ],
+      "note": "Prendre drops -dre in the future: prendr-."
+    }
+  ]
+}

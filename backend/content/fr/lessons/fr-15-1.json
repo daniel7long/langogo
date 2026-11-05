@@ -1,0 +1,295 @@
+{
+  "emoji": "🎬",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "scénario",
+      "ipa": "/se.na.ʁjo/",
+      "pos": "n.m.",
+      "meaning": "script, screenplay",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le scénario est original.",
+          "en": "The script is original."
+        },
+        {
+          "target": "J'ai lu le scénario.",
+          "en": "I read the script."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "réalisateur",
+      "ipa": "/ʁe.a.li.za.tœʁ/",
+      "pos": "n.m.",
+      "meaning": "director",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le réalisateur a reçu un prix.",
+          "en": "The director received an award."
+        },
+        {
+          "target": "Ce réalisateur filme la ville.",
+          "en": "This director films the city."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "intrigue",
+      "ipa": "/ɛ̃.tʁig/",
+      "pos": "n.f.",
+      "meaning": "plot",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "L'intrigue est complexe.",
+          "en": "The plot is complex."
+        },
+        {
+          "target": "Je n'ai pas compris l'intrigue.",
+          "en": "I didn't understand the plot."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "interprétation",
+      "ipa": "/ɛ̃.tɛʁ.pʁe.ta.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "performance",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Son interprétation est remarquable.",
+          "en": "Her performance is remarkable."
+        },
+        {
+          "target": "Une interprétation sobre.",
+          "en": "A restrained performance."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "bande originale",
+      "ipa": "/bɑ̃d ɔ.ʁi.ʒi.nal/",
+      "pos": "n.f.",
+      "meaning": "soundtrack",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "La bande originale est magnifique.",
+          "en": "The soundtrack is magnificent."
+        },
+        {
+          "target": "J'écoute la bande originale.",
+          "en": "I listen to the soundtrack."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "décevant",
+      "ipa": "/de.sə.vɑ̃/",
+      "pos": "adj.",
+      "meaning": "disappointing",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "La fin est décevante.",
+          "en": "The ending is disappointing."
+        },
+        {
+          "target": "Un film décevant.",
+          "en": "A disappointing film."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "émouvant",
+      "ipa": "/e.mu.vɑ̃/",
+      "pos": "adj.",
+      "meaning": "moving",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "C'est un film émouvant.",
+          "en": "It's a moving film."
+        },
+        {
+          "target": "Une scène très émouvante.",
+          "en": "A very moving scene."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Critique de cinéma",
+      "role": "npc",
+      "text": "Alors, tu as vu le nouveau film du réalisateur dont tout le monde parle ?",
+      "glosses": [
+        {
+          "text": "réalisateur",
+          "pos": "n.m.",
+          "meaning": "director"
+        }
+      ],
+      "en": "So, did you see the new film by the director everyone's talking about?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, hier soir. Je suis sorti de la salle un peu partagé, pour être honnête.",
+      "glosses": [],
+      "en": "Yes, last night. I came out of the theater a bit torn, to be honest."
+    },
+    {
+      "id": "t3",
+      "speaker": "Critique de cinéma",
+      "role": "npc",
+      "text": "Ah bon ? Pourtant, les critiques sont excellentes. Qu'est-ce qui ne t'a pas plu ?",
+      "glosses": [],
+      "en": "Really? Yet the reviews are excellent. What didn't you like?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Le scénario est ambitieux, mais l'intrigue est trop compliquée. Je me suis perdu au bout d'une heure.",
+      "glosses": [
+        {
+          "text": "scénario",
+          "pos": "n.m.",
+          "meaning": "script, screenplay"
+        },
+        {
+          "text": "intrigue",
+          "pos": "n.f.",
+          "meaning": "plot"
+        }
+      ],
+      "en": "The script is ambitious, but the plot is too complicated. I got lost after an hour."
+    },
+    {
+      "id": "t5",
+      "speaker": "Critique de cinéma",
+      "role": "npc",
+      "text": "Moi, j'ai trouvé que c'était justement ce qui le rendait intéressant. Il faut le revoir pour tout comprendre.",
+      "glosses": [],
+      "en": "Me, I found that was precisely what made it interesting. You have to watch it again to understand everything."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Peut-être. En revanche, l'interprétation de l'actrice principale est remarquable.",
+      "glosses": [
+        {
+          "text": "interprétation",
+          "pos": "n.f.",
+          "meaning": "performance"
+        }
+      ],
+      "en": "Maybe. On the other hand, the lead actress's performance is remarkable."
+    },
+    {
+      "id": "t7",
+      "speaker": "Critique de cinéma",
+      "role": "npc",
+      "text": "Totalement d'accord. Et la bande originale m'a vraiment transporté, surtout dans la scène finale.",
+      "glosses": [
+        {
+          "text": "bande originale",
+          "pos": "n.f.",
+          "meaning": "soundtrack"
+        }
+      ],
+      "en": "Totally agree. And the soundtrack really carried me away, especially in the final scene."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pour moi, le dénouement est un peu décevant : on a l'impression que le réalisateur n'a pas osé conclure.",
+      "glosses": [
+        {
+          "text": "réalisateur",
+          "pos": "n.m.",
+          "meaning": "director"
+        },
+        {
+          "text": "décevant",
+          "pos": "adj.",
+          "meaning": "disappointing"
+        }
+      ],
+      "en": "For me, the ending is a bit disappointing: you feel the director didn't dare to conclude."
+    },
+    {
+      "id": "t9",
+      "speaker": "Critique de cinéma",
+      "role": "npc",
+      "text": "Je ne suis pas sûr. Je l'ai trouvée ouverte, et le dernier plan est très émouvant.",
+      "glosses": [
+        {
+          "text": "émouvant",
+          "pos": "adj.",
+          "meaning": "moving"
+        }
+      ],
+      "en": "I'm not sure. I found it open, and the last shot is very moving."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Tu as sans doute raison. Disons que le film demande plus d'attention que la plupart des productions actuelles.",
+      "glosses": [],
+      "en": "You're probably right. Let's say the film demands more attention than most current productions."
+    },
+    {
+      "id": "t11",
+      "speaker": "Critique de cinéma",
+      "role": "npc",
+      "text": "Exactement. Je te propose de le revoir ensemble samedi, puis de comparer nos impressions.",
+      "glosses": [],
+      "en": "Exactly. I suggest we watch it again together on Saturday, then compare our impressions."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Avec plaisir. Cette fois, je prendrai des notes pour suivre l'intrigue !",
+      "glosses": [
+        {
+          "text": "intrigue",
+          "pos": "n.f.",
+          "meaning": "plot"
+        }
+      ],
+      "en": "Gladly. This time, I'll take notes to follow the plot!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "réalisateur",
+      "tip": "Six beats: ʁe-a-li-za-TŒʁ"
+    },
+    {
+      "id": "w2",
+      "text": "décevant",
+      "tip": "Say de-sə-VɑN"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "se demander",
+      "ipa": "/sə də.mɑ̃.de/",
+      "pos": "v.",
+      "meaning": "to wonder",
+      "tense": "Present (reflexive)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "me demande",
+          "ipa": "/ʒə mə də.mɑ̃d/"
+        },
+        {
+          "p": "tu",
+          "f": "te demandes",
+          "ipa": "/ty tə də.mɑ̃d/"
+        },
+        {
+          "p": "il / elle",
+          "f": "se demande",
+          "ipa": "/il sə də.mɑ̃d/"
+        },
+        {
+          "p": "nous",
+          "f": "nous demandons",
+          "ipa": "/nu nu də.mɑ̃.dɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "vous demandez",
+          "ipa": "/vu vu də.mɑ̃.de/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "se demandent",
+          "ipa": "/il sə də.mɑ̃d/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je me demande si les applications motivent.",
+          "en": "I wonder whether apps motivate."
+        },
+        {
+          "target": "Nous nous demandons pourquoi.",
+          "en": "We wonder why."
+        }
+      ],
+      "note": "Je me demande si… = I wonder whether…"
+    },
+    {
+      "id": "c2",
+      "word": "rendre",
+      "ipa": "/ʁɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to give back",
+      "tense": "Imperative",
+      "forms": [
+        {
+          "p": "tu",
+          "f": "Rends",
+          "ipa": "/ʁɑ̃/"
+        },
+        {
+          "p": "nous",
+          "f": "Rendons",
+          "ipa": "/ʁɑ̃.dɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "Rendez",
+          "ipa": "/ʁɑ̃.de/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Rendez-moi le chapitre révisé.",
+          "en": "Give me back the revised chapter."
+        },
+        {
+          "target": "Rends-moi mon livre.",
+          "en": "Give me back my book."
+        }
+      ],
+      "note": "Rendre: -dre verbs drop the t in the singular (rends)."
+    }
+  ]
+}

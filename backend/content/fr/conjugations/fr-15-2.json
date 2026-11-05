@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "recommander",
+      "ipa": "/ʁə.kɔ.mɑ̃.de/",
+      "pos": "v.",
+      "meaning": "to recommend",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "recommande",
+          "ipa": "/ʒə ʁə.kɔ.mɑ̃d/"
+        },
+        {
+          "p": "tu",
+          "f": "recommandes",
+          "ipa": "/ty ʁə.kɔ.mɑ̃d/"
+        },
+        {
+          "p": "il / elle",
+          "f": "recommande",
+          "ipa": "/il ʁə.kɔ.mɑ̃d/"
+        },
+        {
+          "p": "nous",
+          "f": "recommandons",
+          "ipa": "/nu ʁə.kɔ.mɑ̃.dɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "recommandez",
+          "ipa": "/vu ʁə.kɔ.mɑ̃.de/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "recommandent",
+          "ipa": "/il ʁə.kɔ.mɑ̃d/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je vous recommande ce livre.",
+          "en": "I recommend this book to you."
+        },
+        {
+          "target": "Ils recommandent ce roman.",
+          "en": "They recommend this novel."
+        }
+      ],
+      "note": "Regular -er verb."
+    },
+    {
+      "id": "c2",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, to be able",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "pourrai",
+          "ipa": "/ʒə pu.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "pourras",
+          "ipa": "/ty pu.ʁa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "pourra",
+          "ipa": "/il pu.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "pourrons",
+          "ipa": "/nu pu.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pourrez",
+          "ipa": "/vu pu.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "pourront",
+          "ipa": "/il pu.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je pourrai vous conseiller deux autres romans.",
+          "en": "I'll be able to suggest two other novels."
+        },
+        {
+          "target": "Elle pourra le lire demain.",
+          "en": "She'll be able to read it tomorrow."
+        }
+      ],
+      "note": "Future stem: pourr-."
+    }
+  ]
+}

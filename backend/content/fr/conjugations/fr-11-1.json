@@ -1,0 +1,101 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "se reposer / ouvrir / dire",
+      "ipa": "/sə ʁə.po.ze/",
+      "pos": "v.",
+      "meaning": "to rest / to open / to say",
+      "tense": "Commands to 'vous' (impératif)",
+      "forms": [
+        {
+          "p": "vous",
+          "f": "Ouvrez la bouche",
+          "ipa": "/u.vʁe la buʃ/"
+        },
+        {
+          "p": "vous",
+          "f": "Dites « ah »",
+          "ipa": "/dit a/"
+        },
+        {
+          "p": "vous",
+          "f": "Reposez-vous",
+          "ipa": "/ʁə.po.ze vu/"
+        },
+        {
+          "p": "vous",
+          "f": "Buvez de l'eau",
+          "ipa": "/by.ve də lo/"
+        },
+        {
+          "p": "tu",
+          "f": "Repose-toi",
+          "ipa": "/ʁə.poz twa/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ouvrez la bouche et dites « ah ».",
+          "en": "Open your mouth and say “ah”."
+        },
+        {
+          "target": "Reposez-vous, buvez beaucoup d'eau.",
+          "en": "Rest, drink lots of water."
+        }
+      ],
+      "note": "For vous, the command ends in -ez (irregular: dites, faites)."
+    },
+    {
+      "id": "c2",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have to",
+      "tense": "Present (inverted question)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "dois-je ?",
+          "ipa": "/dwa ʒə/"
+        },
+        {
+          "p": "tu",
+          "f": "dois-tu ?",
+          "ipa": "/dwa ty/"
+        },
+        {
+          "p": "il / elle",
+          "f": "doit-il ?",
+          "ipa": "/dwa.til/"
+        },
+        {
+          "p": "nous",
+          "f": "devons-nous ?",
+          "ipa": "/də.vɔ̃ nu/"
+        },
+        {
+          "p": "vous",
+          "f": "devez-vous ?",
+          "ipa": "/də.ve vu/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "doivent-ils ?",
+          "ipa": "/dwav.til/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Dois-je revenir ?",
+          "en": "Do I need to come back?"
+        },
+        {
+          "target": "Devez-vous partir ?",
+          "en": "Do you have to leave?"
+        }
+      ],
+      "note": "Inversion makes a formal question: Dois-je revenir ?"
+    }
+  ]
+}

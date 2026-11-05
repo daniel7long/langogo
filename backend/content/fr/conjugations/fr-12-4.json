@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "voir",
+      "ipa": "/vwaʁ/",
+      "pos": "v.",
+      "meaning": "to see",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "verrai",
+          "ipa": "/ʒə vɛ.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "verras",
+          "ipa": "/ty vɛ.ʁa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "verra",
+          "ipa": "/il vɛ.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "verrons",
+          "ipa": "/nu vɛ.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "verrez",
+          "ipa": "/vu vɛ.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "verront",
+          "ipa": "/il vɛ.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Vous verrez, c'est calme.",
+          "en": "You'll see, it's quiet."
+        },
+        {
+          "target": "Je verrai demain.",
+          "en": "I'll see tomorrow."
+        }
+      ],
+      "note": "Vous verrez = you'll see (irregular stem: verr-)."
+    },
+    {
+      "id": "c2",
+      "word": "emménager",
+      "ipa": "/ɑ̃.me.na.ʒe/",
+      "pos": "v.",
+      "meaning": "to move in",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai emménagé",
+          "ipa": "/ʒe ɑ̃.me.na.ʒe/"
+        },
+        {
+          "p": "tu",
+          "f": "as emménagé",
+          "ipa": "/ty a ɑ̃.me.na.ʒe/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a emménagé",
+          "ipa": "/il a ɑ̃.me.na.ʒe/"
+        },
+        {
+          "p": "nous",
+          "f": "avons emménagé",
+          "ipa": "/nu za.vɔ̃ ɑ̃.me.na.ʒe/"
+        },
+        {
+          "p": "vous",
+          "f": "avez emménagé",
+          "ipa": "/vu za.ve ɑ̃.me.na.ʒe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont emménagé",
+          "ipa": "/il zɔ̃ ɑ̃.me.na.ʒe/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'ai emménagé la semaine dernière.",
+          "en": "I moved in last week."
+        },
+        {
+          "target": "Ils ont emménagé en mai.",
+          "en": "They moved in in May."
+        }
+      ],
+      "note": "Use the passé composé for a finished action: j'ai emménagé."
+    }
+  ]
+}

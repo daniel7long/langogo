@@ -1,0 +1,334 @@
+{
+  "emoji": "🗳️",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "scrutin",
+      "ipa": "/skʁy.tɛ̃/",
+      "pos": "n.m.",
+      "meaning": "vote, ballot",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le scrutin aura lieu dimanche.",
+          "en": "The vote will take place on Sunday."
+        },
+        {
+          "target": "Le scrutin est à deux tours.",
+          "en": "The election has two rounds."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "abstention",
+      "ipa": "/ab.stɑ̃.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "abstention, non-voting",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'abstention a atteint un record.",
+          "en": "Abstention reached a record."
+        },
+        {
+          "target": "L'abstention inquiète les partis.",
+          "en": "Abstention worries the parties."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "légitimité",
+      "ipa": "/le.ʒi.ti.mi.te/",
+      "pos": "n.f.",
+      "meaning": "legitimacy",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le président a une forte légitimité.",
+          "en": "The president has strong legitimacy."
+        },
+        {
+          "target": "Sa légitimité est contestée.",
+          "en": "Their legitimacy is contested."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "clivage",
+      "ipa": "/kli.vaʒ/",
+      "pos": "n.m.",
+      "meaning": "divide, cleavage",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le clivage gauche-droite évolue.",
+          "en": "The left–right divide is evolving."
+        },
+        {
+          "target": "Ce clivage s'accentue.",
+          "en": "This divide is deepening."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "électorat",
+      "ipa": "/e.lɛk.to.ʁa/",
+      "pos": "n.m.",
+      "meaning": "electorate",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'électorat est divisé.",
+          "en": "The electorate is divided."
+        },
+        {
+          "target": "Ce candidat vise l'électorat jeune.",
+          "en": "This candidate targets young voters."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "démocratie",
+      "ipa": "/de.mɔ.kʁa.si/",
+      "pos": "n.f.",
+      "meaning": "democracy",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La démocratie repose sur le débat.",
+          "en": "Democracy rests on debate."
+        },
+        {
+          "target": "Défendons la démocratie.",
+          "en": "Let's defend democracy."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "populisme",
+      "ipa": "/pɔ.py.lism/",
+      "pos": "n.m.",
+      "meaning": "populism",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le populisme progresse en Europe.",
+          "en": "Populism is advancing in Europe."
+        },
+        {
+          "target": "Le populisme simplifie les problèmes.",
+          "en": "Populism simplifies problems."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Politologue",
+      "role": "npc",
+      "text": "Professeur, le dernier scrutin a été marqué par une abstention record. Comment l'expliquez-vous ?",
+      "glosses": [
+        {
+          "text": "scrutin",
+          "pos": "n.m.",
+          "meaning": "vote, ballot"
+        },
+        {
+          "text": "abstention",
+          "pos": "n.f.",
+          "meaning": "abstention, non-voting"
+        }
+      ],
+      "en": "Professor, the last election was marked by record abstention. How do you explain it?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Il n'y a pas de cause unique. Beaucoup d'électeurs ont le sentiment que leur vote ne change rien à leur quotidien.",
+      "glosses": [],
+      "en": "There isn't a single cause. Many voters feel their vote changes nothing in their daily lives."
+    },
+    {
+      "id": "t3",
+      "speaker": "Politologue",
+      "role": "npc",
+      "text": "Cela pose-t-il un problème de légitimité pour les élus ?",
+      "glosses": [
+        {
+          "text": "légitimité",
+          "pos": "n.f.",
+          "meaning": "legitimacy"
+        }
+      ],
+      "en": "Does that pose a legitimacy problem for those elected?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Sur le plan juridique, non, puisque la loi ne fixe aucun seuil de participation. Mais politiquement, la légitimité s'en trouve fragilisée.",
+      "glosses": [
+        {
+          "text": "légitimité",
+          "pos": "n.f.",
+          "meaning": "legitimacy"
+        }
+      ],
+      "en": "Legally, no, since the law sets no participation threshold. But politically, legitimacy is weakened."
+    },
+    {
+      "id": "t5",
+      "speaker": "Politologue",
+      "role": "npc",
+      "text": "On parle souvent de la fin du clivage traditionnel entre la gauche et la droite. Qu'en pensez-vous ?",
+      "glosses": [
+        {
+          "text": "clivage",
+          "pos": "n.m.",
+          "meaning": "divide, cleavage"
+        }
+      ],
+      "en": "People often speak of the end of the traditional divide between left and right. What do you think?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je dirais plutôt qu'il se redéfinit. De nouveaux clivages apparaissent, entre les grandes villes et les territoires ruraux, par exemple.",
+      "glosses": [],
+      "en": "I'd rather say it is being redefined. New divides are appearing, between big cities and rural areas, for example."
+    },
+    {
+      "id": "t7",
+      "speaker": "Politologue",
+      "role": "npc",
+      "text": "Comment ces évolutions transforment-elles l'électorat ?",
+      "glosses": [
+        {
+          "text": "électorat",
+          "pos": "n.m.",
+          "meaning": "electorate"
+        }
+      ],
+      "en": "How are these changes transforming the electorate?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "L'électorat est devenu plus volatil : beaucoup de gens changent de camp d'une élection à l'autre.",
+      "glosses": [
+        {
+          "text": "électorat",
+          "pos": "n.m.",
+          "meaning": "electorate"
+        }
+      ],
+      "en": "The electorate has become more volatile: many people switch sides from one election to the next."
+    },
+    {
+      "id": "t9",
+      "speaker": "Politologue",
+      "role": "npc",
+      "text": "Est-ce que cette volatilité favorise le populisme, selon vous ?",
+      "glosses": [
+        {
+          "text": "populisme",
+          "pos": "n.m.",
+          "meaning": "populism"
+        }
+      ],
+      "en": "Does this volatility favor populism, in your view?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elle y contribue, en effet. Le populisme prospère quand les citoyens se sentent ignorés et que les réponses proposées sont simples.",
+      "glosses": [
+        {
+          "text": "populisme",
+          "pos": "n.m.",
+          "meaning": "populism"
+        }
+      ],
+      "en": "It contributes to it, indeed. Populism thrives when citizens feel ignored and the answers offered are simple."
+    },
+    {
+      "id": "t11",
+      "speaker": "Politologue",
+      "role": "npc",
+      "text": "Faut-il alors réformer le système électoral pour regagner la confiance ?",
+      "glosses": [],
+      "en": "Should the electoral system then be reformed to regain trust?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Certains plaident pour une dose de proportionnelle, d'autres pour le vote obligatoire. Aucune solution ne fait l'unanimité.",
+      "glosses": [],
+      "en": "Some argue for a dose of proportional representation, others for compulsory voting. No solution is unanimous."
+    },
+    {
+      "id": "t13",
+      "speaker": "Politologue",
+      "role": "npc",
+      "text": "Et la démocratie participative, avec des consultations citoyennes, est-elle une piste sérieuse ?",
+      "glosses": [
+        {
+          "text": "démocratie",
+          "pos": "n.f.",
+          "meaning": "democracy"
+        }
+      ],
+      "en": "And participatory democracy, with citizen consultations, is it a serious avenue?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, à condition que les décisions issues de ces consultations soient réellement prises en compte, sinon la déception sera pire.",
+      "glosses": [],
+      "en": "Yes, provided that the decisions coming from these consultations are really taken into account, otherwise the disappointment will be worse."
+    },
+    {
+      "id": "t15",
+      "speaker": "Politologue",
+      "role": "npc",
+      "text": "Pensez-vous que les jeunes finiront par se réengager en politique ?",
+      "glosses": [],
+      "en": "Do you think young people will end up re-engaging in politics?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je le crois. Ils s'engagent déjà autrement, par des causes précises. À nos institutions d'en tirer les leçons.",
+      "glosses": [],
+      "en": "I believe so. They already engage differently, through specific causes. It's up to our institutions to learn from that."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "légitimité",
+      "tip": "Five beats: le-ʒi-ti-mi-TE"
+    },
+    {
+      "id": "w2",
+      "text": "scrutin",
+      "tip": "Say skʁy-TɛN, nasal ending"
+    }
+  ]
+}

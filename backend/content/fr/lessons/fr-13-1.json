@@ -1,0 +1,294 @@
+{
+  "emoji": "💼",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "candidature",
+      "ipa": "/kɑ̃.di.da.tyʁ/",
+      "pos": "n.f.",
+      "meaning": "application",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "J'ai envoyé ma candidature.",
+          "en": "I sent my application."
+        },
+        {
+          "target": "Votre candidature m'intéresse.",
+          "en": "Your application interests me."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "poste",
+      "ipa": "/pɔst/",
+      "pos": "n.m.",
+      "meaning": "position, job",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Ce poste demande de l'autonomie.",
+          "en": "This position requires autonomy."
+        },
+        {
+          "target": "Je postule à ce poste.",
+          "en": "I'm applying for this position."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "compétences",
+      "ipa": "/kɔ̃.pe.tɑ̃s/",
+      "pos": "n.f.pl.",
+      "meaning": "skills",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Quelles sont vos compétences ?",
+          "en": "What are your skills?"
+        },
+        {
+          "target": "Elle a de solides compétences.",
+          "en": "She has solid skills."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "expérience",
+      "ipa": "/ɛk.spe.ʁjɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "experience",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "J'ai dix ans d'expérience.",
+          "en": "I have ten years of experience."
+        },
+        {
+          "target": "L'expérience compte beaucoup.",
+          "en": "Experience counts a lot."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "atout",
+      "ipa": "/a.tu/",
+      "pos": "n.m.",
+      "meaning": "asset",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Votre anglais est un atout.",
+          "en": "Your English is an asset."
+        },
+        {
+          "target": "C'est un atout majeur.",
+          "en": "It's a major asset."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "défaut",
+      "ipa": "/de.fo/",
+      "pos": "n.m.",
+      "meaning": "flaw, weakness",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Mon principal défaut est l'impatience.",
+          "en": "My main flaw is impatience."
+        },
+        {
+          "target": "Chacun a ses défauts.",
+          "en": "Everyone has flaws."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "rémunération",
+      "ipa": "/ʁe.my.ne.ʁa.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "pay, salary package",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "La rémunération est négociable.",
+          "en": "The pay is negotiable."
+        },
+        {
+          "target": "Quelle rémunération espérez-vous ?",
+          "en": "What pay do you expect?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Recruteuse",
+      "role": "npc",
+      "text": "Merci d'être venu. Votre candidature a retenu notre attention. Pouvez-vous vous présenter ?",
+      "glosses": [
+        {
+          "text": "candidature",
+          "pos": "n.f.",
+          "meaning": "application"
+        }
+      ],
+      "en": "Thank you for coming. Your application caught our attention. Can you introduce yourself?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Bien sûr. Je suis diplômé en gestion de projet et je travaille depuis six ans dans le secteur numérique.",
+      "glosses": [],
+      "en": "Of course. I have a degree in project management and have been working in the digital sector for six years."
+    },
+    {
+      "id": "t3",
+      "speaker": "Recruteuse",
+      "role": "npc",
+      "text": "Pourquoi souhaitez-vous quitter votre entreprise actuelle ?",
+      "glosses": [],
+      "en": "Why do you want to leave your current company?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je cherche un poste avec davantage de responsabilités, et votre projet à l'international me motive beaucoup.",
+      "glosses": [
+        {
+          "text": "poste",
+          "pos": "n.m.",
+          "meaning": "position, job"
+        }
+      ],
+      "en": "I'm looking for a position with more responsibility, and your international project motivates me a lot."
+    },
+    {
+      "id": "t5",
+      "speaker": "Recruteuse",
+      "role": "npc",
+      "text": "Quelles sont vos principales compétences pour ce poste ?",
+      "glosses": [
+        {
+          "text": "poste",
+          "pos": "n.m.",
+          "meaning": "position, job"
+        },
+        {
+          "text": "compétences",
+          "pos": "n.f.pl.",
+          "meaning": "skills"
+        }
+      ],
+      "en": "What are your main skills for this position?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je sais coordonner des équipes à distance, et j'ai une bonne expérience de la gestion de budget.",
+      "glosses": [
+        {
+          "text": "expérience",
+          "pos": "n.f.",
+          "meaning": "experience"
+        }
+      ],
+      "en": "I know how to coordinate remote teams, and I have good experience managing budgets."
+    },
+    {
+      "id": "t7",
+      "speaker": "Recruteuse",
+      "role": "npc",
+      "text": "Vous parlez couramment anglais, c'est un vrai atout. Et votre plus grand défaut ?",
+      "glosses": [
+        {
+          "text": "atout",
+          "pos": "n.m.",
+          "meaning": "asset"
+        },
+        {
+          "text": "défaut",
+          "pos": "n.m.",
+          "meaning": "flaw, weakness"
+        }
+      ],
+      "en": "You speak fluent English, that's a real asset. And your biggest weakness?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je suis parfois trop perfectionniste, mais j'apprends à déléguer davantage.",
+      "glosses": [],
+      "en": "I'm sometimes too much of a perfectionist, but I'm learning to delegate more."
+    },
+    {
+      "id": "t9",
+      "speaker": "Recruteuse",
+      "role": "npc",
+      "text": "Très bien. Pouvez-vous me citer une difficulté que vous avez surmontée récemment ?",
+      "glosses": [],
+      "en": "Very good. Can you give me a difficulty you've overcome recently?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "L'an dernier, un client a annulé un contrat important. J'ai négocié un nouvel accord en trois semaines.",
+      "glosses": [],
+      "en": "Last year, a client cancelled an important contract. I negotiated a new agreement in three weeks."
+    },
+    {
+      "id": "t11",
+      "speaker": "Recruteuse",
+      "role": "npc",
+      "text": "Impressionnant. Quelle rémunération espérez-vous pour ce poste ?",
+      "glosses": [
+        {
+          "text": "poste",
+          "pos": "n.m.",
+          "meaning": "position, job"
+        },
+        {
+          "text": "rémunération",
+          "pos": "n.f.",
+          "meaning": "pay, salary package"
+        }
+      ],
+      "en": "Impressive. What pay do you expect for this position?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je souhaiterais en discuter après avoir mieux compris les missions, mais je suis ouvert à la négociation.",
+      "glosses": [],
+      "en": "I'd like to discuss it after better understanding the duties, but I'm open to negotiation."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "compétences",
+      "tip": "Five beats: kɔ̃-pe-TɑNS"
+    },
+    {
+      "id": "w2",
+      "text": "rémunération",
+      "tip": "Six beats: ʁe-my-ne-ʁa-SJɔN"
+    }
+  ]
+}

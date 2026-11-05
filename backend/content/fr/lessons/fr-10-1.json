@@ -1,0 +1,283 @@
+{
+  "emoji": "🧳",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "réservé",
+      "ipa": "/ʁe.zɛʁ.ve/",
+      "pos": "p.p.",
+      "meaning": "booked",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "J'ai réservé une chambre.",
+          "en": "I booked a room."
+        },
+        {
+          "target": "Vous avez réservé ?",
+          "en": "Did you book?"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "billets d'avion",
+      "ipa": "/bi.jɛ da.vjɔ̃/",
+      "pos": "n.m.pl.",
+      "meaning": "plane tickets",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Les billets d'avion sont chers.",
+          "en": "Plane tickets are expensive."
+        },
+        {
+          "target": "Je cherche des billets d'avion.",
+          "en": "I'm looking for plane tickets."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "budget",
+      "ipa": "/byd.ʒɛ/",
+      "pos": "n.m.",
+      "meaning": "budget",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Mon budget est limité.",
+          "en": "My budget is limited."
+        },
+        {
+          "target": "Quel est votre budget ?",
+          "en": "What is your budget?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "hébergement",
+      "ipa": "/e.bɛʁ.ʒə.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "accommodation",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "L'hébergement est compris.",
+          "en": "Accommodation is included."
+        },
+        {
+          "target": "Je cherche un hébergement pas cher.",
+          "en": "I'm looking for cheap accommodation."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "passeport",
+      "ipa": "/pas.pɔʁ/",
+      "pos": "n.m.",
+      "meaning": "passport",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "N'oublie pas ton passeport.",
+          "en": "Don't forget your passport."
+        },
+        {
+          "target": "Mon passeport est périmé.",
+          "en": "My passport has expired."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "valable",
+      "ipa": "/va.labl/",
+      "pos": "adj.",
+      "meaning": "valid",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Ce billet est valable un mois.",
+          "en": "This ticket is valid for a month."
+        },
+        {
+          "target": "Ton visa est-il encore valable ?",
+          "en": "Is your visa still valid?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "à temps",
+      "ipa": "/a tɑ̃/",
+      "pos": "adv. phr.",
+      "meaning": "in time, on time",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Nous sommes arrivés à temps.",
+          "en": "We arrived on time."
+        },
+        {
+          "target": "Il faut réserver à temps.",
+          "en": "You have to book in time."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Alors, tu as décidé où tu pars cet été ?",
+      "glosses": [],
+      "en": "So, have you decided where you're going this summer?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, je voudrais visiter le Portugal pendant deux semaines.",
+      "glosses": [],
+      "en": "Yes, I'd like to visit Portugal for two weeks."
+    },
+    {
+      "id": "t3",
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Super choix ! Tu as déjà réservé tes billets d'avion ?",
+      "glosses": [
+        {
+          "text": "réservé",
+          "pos": "p.p.",
+          "meaning": "booked"
+        },
+        {
+          "text": "billets d'avion",
+          "pos": "n.m.pl.",
+          "meaning": "plane tickets"
+        }
+      ],
+      "en": "Great choice! Have you already booked your plane tickets?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pas encore, je compare les prix sur plusieurs sites.",
+      "glosses": [],
+      "en": "Not yet, I'm comparing prices on several websites."
+    },
+    {
+      "id": "t5",
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Attention, les vols sont souvent plus chers en juillet.",
+      "glosses": [],
+      "en": "Careful, flights are often more expensive in July."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est vrai, donc je pense partir fin août, quand il y a moins de touristes.",
+      "glosses": [],
+      "en": "True, so I'm thinking of leaving at the end of August, when there are fewer tourists."
+    },
+    {
+      "id": "t7",
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Bonne idée. Et tu as un budget précis pour le voyage ?",
+      "glosses": [
+        {
+          "text": "budget",
+          "pos": "n.m.",
+          "meaning": "budget"
+        }
+      ],
+      "en": "Good idea. And do you have a precise budget for the trip?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Environ mille euros, avec l'hébergement et les repas.",
+      "glosses": [
+        {
+          "text": "hébergement",
+          "pos": "n.m.",
+          "meaning": "accommodation"
+        }
+      ],
+      "en": "About a thousand euros, including accommodation and meals."
+    },
+    {
+      "id": "t9",
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Tu devrais aussi vérifier si ton passeport est encore valable.",
+      "glosses": [
+        {
+          "text": "passeport",
+          "pos": "n.m.",
+          "meaning": "passport"
+        },
+        {
+          "text": "valable",
+          "pos": "adj.",
+          "meaning": "valid"
+        }
+      ],
+      "en": "You should also check whether your passport is still valid."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oh, merci de me le rappeler, il expire dans quelques mois !",
+      "glosses": [],
+      "en": "Oh, thanks for reminding me, it expires in a few months!"
+    },
+    {
+      "id": "t11",
+      "speaker": "Julie",
+      "role": "npc",
+      "text": "Prends un rendez-vous rapidement, sinon tu risques de ne pas le recevoir à temps.",
+      "glosses": [
+        {
+          "text": "à temps",
+          "pos": "adv. phr.",
+          "meaning": "in time, on time"
+        }
+      ],
+      "en": "Make an appointment quickly, otherwise you risk not getting it in time."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Tu as raison, je m'en occupe dès demain. Merci pour tous tes conseils !",
+      "glosses": [],
+      "en": "You're right, I'll take care of it tomorrow. Thanks for all your advice!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "hébergement",
+      "tip": "Four beats: e-bɛʁ-ʒə-mɑ̃, with a nasal ending"
+    },
+    {
+      "id": "w2",
+      "text": "passeport",
+      "tip": "The final t is silent: pas-pɔʁ"
+    }
+  ]
+}

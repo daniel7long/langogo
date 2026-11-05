@@ -1,0 +1,289 @@
+{
+  "emoji": "🏠",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "annonce",
+      "ipa": "/a.nɔ̃s/",
+      "pos": "n.f.",
+      "meaning": "advertisement, listing",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "J'ai lu l'annonce hier.",
+          "en": "I read the ad yesterday."
+        },
+        {
+          "target": "L'annonce est en ligne.",
+          "en": "The listing is online."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "loyer",
+      "ipa": "/lwa.je/",
+      "pos": "n.m.",
+      "meaning": "rent",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Le loyer est trop cher.",
+          "en": "The rent is too expensive."
+        },
+        {
+          "target": "Je paie le loyer le premier du mois.",
+          "en": "I pay the rent on the first of the month."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "charges",
+      "ipa": "/ʃaʁʒ/",
+      "pos": "n.f.pl.",
+      "meaning": "utility costs",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Les charges sont comprises.",
+          "en": "Utilities are included."
+        },
+        {
+          "target": "Les charges augmentent.",
+          "en": "Costs are going up."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "caution",
+      "ipa": "/ko.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "deposit",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Il faut une caution.",
+          "en": "A deposit is required."
+        },
+        {
+          "target": "La caution est rendue à la fin.",
+          "en": "The deposit is returned at the end."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "bail",
+      "ipa": "/baj/",
+      "pos": "n.m.",
+      "meaning": "lease",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je signe le bail demain.",
+          "en": "I sign the lease tomorrow."
+        },
+        {
+          "target": "Le bail dure trois ans.",
+          "en": "The lease lasts three years."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "meublé",
+      "ipa": "/mœ.ble/",
+      "pos": "adj.",
+      "meaning": "furnished",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "L'appartement est meublé.",
+          "en": "The apartment is furnished."
+        },
+        {
+          "target": "Je cherche un studio meublé.",
+          "en": "I'm looking for a furnished studio."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "propriétaire",
+      "ipa": "/pʁɔ.pʁi.e.tɛʁ/",
+      "pos": "n.m./f.",
+      "meaning": "owner, landlord",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Le propriétaire est sympa.",
+          "en": "The landlord is nice."
+        },
+        {
+          "target": "Appelez le propriétaire.",
+          "en": "Call the landlord."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Agent immobilier",
+      "role": "npc",
+      "text": "Bonjour, vous êtes venu pour la visite de l'appartement ?",
+      "glosses": [],
+      "en": "Hello, did you come for the apartment viewing?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, j'ai vu l'annonce en ligne. Il est toujours disponible ?",
+      "glosses": [
+        {
+          "text": "annonce",
+          "pos": "n.f.",
+          "meaning": "advertisement, listing"
+        }
+      ],
+      "en": "Yes, I saw the ad online. Is it still available?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Agent immobilier",
+      "role": "npc",
+      "text": "Oui. C'est un deux-pièces de quarante mètres carrés, au troisième étage avec ascenseur.",
+      "glosses": [],
+      "en": "Yes. It's a two-room flat of forty square meters, on the third floor with an elevator."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Le loyer est de combien, charges comprises ?",
+      "glosses": [
+        {
+          "text": "loyer",
+          "pos": "n.m.",
+          "meaning": "rent"
+        },
+        {
+          "text": "charges",
+          "pos": "n.f.pl.",
+          "meaning": "utility costs"
+        }
+      ],
+      "en": "How much is the rent, utilities included?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Agent immobilier",
+      "role": "npc",
+      "text": "Huit cents euros par mois, charges comprises, plus un mois de caution.",
+      "glosses": [
+        {
+          "text": "charges",
+          "pos": "n.f.pl.",
+          "meaning": "utility costs"
+        },
+        {
+          "text": "caution",
+          "pos": "n.f.",
+          "meaning": "deposit"
+        }
+      ],
+      "en": "Eight hundred euros a month, utilities included, plus one month's deposit."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Les animaux sont-ils acceptés ? J'ai un petit chat.",
+      "glosses": [],
+      "en": "Are pets allowed? I have a small cat."
+    },
+    {
+      "id": "t7",
+      "speaker": "Agent immobilier",
+      "role": "npc",
+      "text": "Oui, sans problème, mais il faut le préciser dans le bail.",
+      "glosses": [
+        {
+          "text": "bail",
+          "pos": "n.m.",
+          "meaning": "lease"
+        }
+      ],
+      "en": "Yes, no problem, but it has to be specified in the lease."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Est-ce que l'appartement est meublé ?",
+      "glosses": [
+        {
+          "text": "meublé",
+          "pos": "adj.",
+          "meaning": "furnished"
+        }
+      ],
+      "en": "Is the apartment furnished?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Agent immobilier",
+      "role": "npc",
+      "text": "Non, seule la cuisine est équipée. Le propriétaire laisse la machine à laver.",
+      "glosses": [
+        {
+          "text": "propriétaire",
+          "pos": "n.m./f.",
+          "meaning": "owner, landlord"
+        }
+      ],
+      "en": "No, only the kitchen is equipped. The owner is leaving the washing machine."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Très bien. Quels documents dois-je fournir pour le dossier ?",
+      "glosses": [],
+      "en": "Very good. What documents must I provide for the application?"
+    },
+    {
+      "id": "t11",
+      "speaker": "Agent immobilier",
+      "role": "npc",
+      "text": "Une pièce d'identité, vos trois dernières fiches de paie et un justificatif de domicile.",
+      "glosses": [],
+      "en": "An ID, your last three payslips and proof of address."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je vous les envoie demain matin. Quand pourrais-je emménager ?",
+      "glosses": [],
+      "en": "I'll send them to you tomorrow morning. When could I move in?"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "propriétaire",
+      "tip": "Six beats: pʁɔ-pʁi-e-Tɛʁ, stress the end"
+    },
+    {
+      "id": "w2",
+      "text": "bail",
+      "tip": "Say 'baj' like English 'buy' with a j sound"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "should, ought to",
+      "tense": "Conditional",
+      "forms": [
+        {
+          "p": "je",
+          "f": "devrais",
+          "ipa": "/ʒə də.vʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "devrais",
+          "ipa": "/ty də.vʁɛ/"
+        },
+        {
+          "p": "il / elle / personne",
+          "f": "devrait",
+          "ipa": "/il də.vʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "devrions",
+          "ipa": "/nu də.vʁi.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "devriez",
+          "ipa": "/vu də.vʁi.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "devraient",
+          "ipa": "/il də.vʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On devrait favoriser le vélo.",
+          "en": "We should promote cycling."
+        },
+        {
+          "target": "Vous devriez investir.",
+          "en": "You should invest."
+        }
+      ],
+      "note": "On devrait = we should. Conditional softens advice."
+    },
+    {
+      "id": "c2",
+      "word": "être",
+      "ipa": "/ɛtʁ/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Conditional",
+      "forms": [
+        {
+          "p": "je",
+          "f": "serais",
+          "ipa": "/ʒə sə.ʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "serais",
+          "ipa": "/ty sə.ʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "serait",
+          "ipa": "/il sə.ʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "serions",
+          "ipa": "/nu sə.ʁjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "seriez",
+          "ipa": "/vu sə.ʁje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "seraient",
+          "ipa": "/il sə.ʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Une taxe seule serait injuste.",
+          "en": "A tax alone would be unfair."
+        },
+        {
+          "target": "Ce serait bénéfique.",
+          "en": "That would be beneficial."
+        }
+      ],
+      "note": "Une taxe seule serait injuste."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "mettre",
+      "ipa": "/mɛtʁ/",
+      "pos": "v.",
+      "meaning": "to put",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai mis",
+          "ipa": "/ʒe mi/"
+        },
+        {
+          "p": "tu",
+          "f": "as mis",
+          "ipa": "/ty a mi/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a mis",
+          "ipa": "/il a mi/"
+        },
+        {
+          "p": "nous",
+          "f": "avons mis",
+          "ipa": "/nu za.vɔ̃ mi/"
+        },
+        {
+          "p": "vous",
+          "f": "avez mis",
+          "ipa": "/vu za.ve mi/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont mis",
+          "ipa": "/il zɔ̃ mi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'ai mis un seau dessous.",
+          "en": "I put a bucket underneath."
+        },
+        {
+          "target": "Il a mis le joint.",
+          "en": "He put in the seal."
+        }
+      ],
+      "note": "Mettre has an irregular participle: mis."
+    },
+    {
+      "id": "c2",
+      "word": "savoir",
+      "ipa": "/sa.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to know",
+      "tense": "Imparfait",
+      "forms": [
+        {
+          "p": "je",
+          "f": "savais",
+          "ipa": "/ʒə sa.vɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "savais",
+          "ipa": "/ty sa.vɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "savait",
+          "ipa": "/il sa.vɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "savions",
+          "ipa": "/nu sa.vjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "saviez",
+          "ipa": "/vu sa.vje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "savaient",
+          "ipa": "/il sa.vɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je ne savais pas où il se trouvait.",
+          "en": "I didn't know where it was."
+        },
+        {
+          "target": "Nous ne savions pas.",
+          "en": "We didn't know."
+        }
+      ],
+      "note": "The imparfait is used for 'didn't know' in the past."
+    }
+  ]
+}

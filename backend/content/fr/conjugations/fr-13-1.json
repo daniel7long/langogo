@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "souhaiter",
+      "ipa": "/swe.te/",
+      "pos": "v.",
+      "meaning": "to wish",
+      "tense": "Conditional",
+      "forms": [
+        {
+          "p": "je",
+          "f": "souhaiterais",
+          "ipa": "/ʒə swɛ.te.ʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "souhaiterais",
+          "ipa": "/ty swɛ.te.ʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "souhaiterait",
+          "ipa": "/il swɛ.te.ʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "souhaiterions",
+          "ipa": "/nu swɛ.te.ʁjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "souhaiteriez",
+          "ipa": "/vu swɛ.te.ʁje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "souhaiteraient",
+          "ipa": "/il swɛ.te.ʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je souhaiterais en discuter.",
+          "en": "I would like to discuss it."
+        },
+        {
+          "target": "Nous souhaiterions vous rencontrer.",
+          "en": "We would like to meet you."
+        }
+      ],
+      "note": "Conditional for politeness: je souhaiterais = I would like."
+    },
+    {
+      "id": "c2",
+      "word": "surmonter",
+      "ipa": "/syʁ.mɔ̃.te/",
+      "pos": "v.",
+      "meaning": "to overcome",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai surmonté",
+          "ipa": "/ʒe syʁ.mɔ̃.te/"
+        },
+        {
+          "p": "tu",
+          "f": "as surmonté",
+          "ipa": "/ty a syʁ.mɔ̃.te/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a surmonté",
+          "ipa": "/il a syʁ.mɔ̃.te/"
+        },
+        {
+          "p": "nous",
+          "f": "avons surmonté",
+          "ipa": "/nu za.vɔ̃ syʁ.mɔ̃.te/"
+        },
+        {
+          "p": "vous",
+          "f": "avez surmonté",
+          "ipa": "/vu za.ve syʁ.mɔ̃.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont surmonté",
+          "ipa": "/il zɔ̃ syʁ.mɔ̃.te/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'ai surmonté cette difficulté.",
+          "en": "I overcame this difficulty."
+        },
+        {
+          "target": "Elle a surmonté sa peur.",
+          "en": "She overcame her fear."
+        }
+      ],
+      "note": "Verbs ending in -er form the participle with -é."
+    }
+  ]
+}

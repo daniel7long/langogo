@@ -1,0 +1,289 @@
+{
+  "emoji": "🛄",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "valise",
+      "ipa": "/va.liz/",
+      "pos": "n.f.",
+      "meaning": "suitcase",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Ma valise est trop lourde.",
+          "en": "My suitcase is too heavy."
+        },
+        {
+          "target": "Je fais ma valise.",
+          "en": "I'm packing my suitcase."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "étiquette",
+      "ipa": "/e.ti.kɛt/",
+      "pos": "n.f.",
+      "meaning": "label, tag",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Il y a une étiquette sur le sac.",
+          "en": "There's a tag on the bag."
+        },
+        {
+          "target": "Lisez l'étiquette.",
+          "en": "Read the label."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "reçu",
+      "ipa": "/ʁə.sy/",
+      "pos": "n.m.",
+      "meaning": "receipt",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Gardez votre reçu.",
+          "en": "Keep your receipt."
+        },
+        {
+          "target": "Avez-vous le reçu ?",
+          "en": "Do you have the receipt?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "livrer",
+      "ipa": "/li.vʁe/",
+      "pos": "v.",
+      "meaning": "to deliver",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Nous pouvons vous livrer demain.",
+          "en": "We can deliver to you tomorrow."
+        },
+        {
+          "target": "Ils livrent à domicile.",
+          "en": "They deliver to your home."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "retrouvez",
+      "ipa": "/ʁə.tʁu.ve/",
+      "pos": "v.",
+      "meaning": "(you) find again",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Si vous la retrouvez, appelez-moi.",
+          "en": "If you find it again, call me."
+        },
+        {
+          "target": "Nous la retrouverons.",
+          "en": "We will find it again."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "remboursé",
+      "ipa": "/ʁɑ̃.buʁ.se/",
+      "pos": "p.p.",
+      "meaning": "refunded",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je serai remboursé ?",
+          "en": "Will I be refunded?"
+        },
+        {
+          "target": "Le billet est remboursé.",
+          "en": "The ticket is refunded."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "factures",
+      "ipa": "/fak.tyʁ/",
+      "pos": "n.f.pl.",
+      "meaning": "invoices, bills",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Gardez vos factures.",
+          "en": "Keep your invoices."
+        },
+        {
+          "target": "Les factures sont sur la table.",
+          "en": "The bills are on the table."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Agente",
+      "role": "npc",
+      "text": "Bonjour, comment puis-je vous aider ?",
+      "glosses": [],
+      "en": "Hello, how can I help you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonjour, ma valise n'est pas arrivée avec le vol de Montréal.",
+      "glosses": [
+        {
+          "text": "valise",
+          "pos": "n.f.",
+          "meaning": "suitcase"
+        }
+      ],
+      "en": "Hello, my suitcase didn't arrive with the flight from Montreal."
+    },
+    {
+      "id": "t3",
+      "speaker": "Agente",
+      "role": "npc",
+      "text": "Je suis désolée. Pouvez-vous me décrire votre bagage ?",
+      "glosses": [],
+      "en": "I'm sorry. Can you describe your luggage to me?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est une grande valise noire avec une étiquette orange sur la poignée.",
+      "glosses": [
+        {
+          "text": "valise",
+          "pos": "n.f.",
+          "meaning": "suitcase"
+        },
+        {
+          "text": "étiquette",
+          "pos": "n.f.",
+          "meaning": "label, tag"
+        }
+      ],
+      "en": "It's a large black suitcase with an orange tag on the handle."
+    },
+    {
+      "id": "t5",
+      "speaker": "Agente",
+      "role": "npc",
+      "text": "Très bien. Avez-vous le reçu de l'enregistrement ?",
+      "glosses": [
+        {
+          "text": "reçu",
+          "pos": "n.m.",
+          "meaning": "receipt"
+        }
+      ],
+      "en": "Very well. Do you have the check-in receipt?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, le voici. Il y avait aussi mes médicaments dedans, c'est urgent.",
+      "glosses": [],
+      "en": "Yes, here it is. My medicine was also in it, it's urgent."
+    },
+    {
+      "id": "t7",
+      "speaker": "Agente",
+      "role": "npc",
+      "text": "Je comprends. Nous allons la chercher et vous la livrer à votre hôtel.",
+      "glosses": [
+        {
+          "text": "livrer",
+          "pos": "v.",
+          "meaning": "to deliver"
+        }
+      ],
+      "en": "I understand. We're going to look for it and deliver it to your hotel."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Combien de temps faut-il compter, à peu près ?",
+      "glosses": [],
+      "en": "How long should I expect, roughly?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Agente",
+      "role": "npc",
+      "text": "En général, vingt-quatre heures, parfois un peu plus.",
+      "glosses": [],
+      "en": "Usually twenty-four hours, sometimes a little more."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Et si vous ne la retrouvez pas ? Je serai remboursé ?",
+      "glosses": [
+        {
+          "text": "retrouvez",
+          "pos": "v.",
+          "meaning": "(you) find again"
+        },
+        {
+          "text": "remboursé",
+          "pos": "p.p.",
+          "meaning": "refunded"
+        }
+      ],
+      "en": "And if you don't find it? Will I be refunded?"
+    },
+    {
+      "id": "t11",
+      "speaker": "Agente",
+      "role": "npc",
+      "text": "Oui, après une déclaration, vous serez indemnisé selon le contrat.",
+      "glosses": [],
+      "en": "Yes, after a claim, you will be compensated according to the contract."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "D'accord. En attendant, puis-je acheter des vêtements et garder les factures ?",
+      "glosses": [
+        {
+          "text": "factures",
+          "pos": "n.f.pl.",
+          "meaning": "invoices, bills"
+        }
+      ],
+      "en": "Okay. Meanwhile, can I buy clothes and keep the invoices?"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "valise",
+      "tip": "The v is soft: va-LIZ"
+    },
+    {
+      "id": "w2",
+      "text": "remboursé",
+      "tip": "Nasal start: ʁɑ̃-buʁ-SE"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "laisser",
+      "ipa": "/lɛ.se/",
+      "pos": "v.",
+      "meaning": "to let",
+      "tense": "Imperative",
+      "forms": [
+        {
+          "p": "tu",
+          "f": "Laisse",
+          "ipa": "/lɛs/"
+        },
+        {
+          "p": "nous",
+          "f": "Laissons",
+          "ipa": "/lɛ.sɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "Laissez",
+          "ipa": "/lɛ.se/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Laissez mijoter doucement.",
+          "en": "Let it simmer gently."
+        },
+        {
+          "target": "Laisse reposer la pâte.",
+          "en": "Let the dough rest."
+        }
+      ],
+      "note": "Laissez mijoter = let it simmer."
+    },
+    {
+      "id": "c2",
+      "word": "falloir",
+      "ipa": "/fa.lwaʁ/",
+      "pos": "v.",
+      "meaning": "to be necessary",
+      "tense": "Impersonal forms",
+      "forms": [
+        {
+          "p": "il (present)",
+          "f": "il faut",
+          "ipa": "/il fo/"
+        },
+        {
+          "p": "il (conditional)",
+          "f": "il faudrait",
+          "ipa": "/il fo.dʁɛ/"
+        },
+        {
+          "p": "il (future)",
+          "f": "il faudra",
+          "ipa": "/il fo.dʁa/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il faut laisser mijoter trois heures.",
+          "en": "You have to let it simmer three hours."
+        },
+        {
+          "target": "Il faut de la patience.",
+          "en": "Patience is needed."
+        }
+      ],
+      "note": "Il faut + infinitive expresses necessity."
+    }
+  ]
+}

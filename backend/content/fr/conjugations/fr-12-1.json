@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, to be able",
+      "tense": "Conditional (inverted question)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "pourrais-je ?",
+          "ipa": "/pu.ʁɛ ʒə/"
+        },
+        {
+          "p": "tu",
+          "f": "pourrais-tu ?",
+          "ipa": "/pu.ʁɛ ty/"
+        },
+        {
+          "p": "il / elle",
+          "f": "pourrait-il ?",
+          "ipa": "/pu.ʁɛ.til/"
+        },
+        {
+          "p": "nous",
+          "f": "pourrions-nous ?",
+          "ipa": "/pu.ʁjɔ̃ nu/"
+        },
+        {
+          "p": "vous",
+          "f": "pourriez-vous ?",
+          "ipa": "/pu.ʁje vu/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "pourraient-ils ?",
+          "ipa": "/pu.ʁɛ.til/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Quand pourrais-je emménager ?",
+          "en": "When could I move in?"
+        },
+        {
+          "target": "Pourriez-vous m'aider ?",
+          "en": "Could you help me?"
+        }
+      ],
+      "note": "Pourrais-je… ? is a polite way to ask permission."
+    },
+    {
+      "id": "c2",
+      "word": "envoyer",
+      "ipa": "/ɑ̃.vwa.je/",
+      "pos": "v.",
+      "meaning": "to send",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "envoie",
+          "ipa": "/ʒɑ̃.vwa/"
+        },
+        {
+          "p": "tu",
+          "f": "envoies",
+          "ipa": "/ty ɑ̃.vwa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "envoie",
+          "ipa": "/il ɑ̃.vwa/"
+        },
+        {
+          "p": "nous",
+          "f": "envoyons",
+          "ipa": "/nu zɑ̃.vwa.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "envoyez",
+          "ipa": "/vu zɑ̃.vwa.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "envoient",
+          "ipa": "/il zɑ̃.vwa/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je vous les envoie demain matin.",
+          "en": "I'll send them to you tomorrow morning."
+        },
+        {
+          "target": "Nous envoyons le dossier.",
+          "en": "We're sending the file."
+        }
+      ],
+      "note": "y becomes i before a silent -e: envoie, envoient."
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "emoji": "🖼️",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "exposition",
+      "ipa": "/ɛk.spo.zi.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "exhibition",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Cette exposition est gratuite.",
+          "en": "This exhibition is free."
+        },
+        {
+          "target": "J'ai vu une exposition sur Monet.",
+          "en": "I saw an exhibition on Monet."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "tarif réduit",
+      "ipa": "/ta.ʁif ʁe.dɥi/",
+      "pos": "n.m.",
+      "meaning": "reduced price",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Les étudiants ont un tarif réduit.",
+          "en": "Students get a reduced price."
+        },
+        {
+          "target": "Je paie le tarif réduit.",
+          "en": "I pay the reduced rate."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "visite guidée",
+      "ipa": "/vi.zit ɡi.de/",
+      "pos": "n.f.",
+      "meaning": "guided tour",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Une visite guidée commence à dix heures.",
+          "en": "A guided tour starts at ten."
+        },
+        {
+          "target": "La visite guidée dure une heure.",
+          "en": "The guided tour lasts an hour."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "audioguide",
+      "ipa": "/o.djo.ɡid/",
+      "pos": "n.m.",
+      "meaning": "audio guide",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je prends un audioguide.",
+          "en": "I'll take an audio guide."
+        },
+        {
+          "target": "L'audioguide est en français.",
+          "en": "The audio guide is in French."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "tableau",
+      "ipa": "/ta.blo/",
+      "pos": "n.m.",
+      "meaning": "painting",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Ce tableau est magnifique.",
+          "en": "This painting is magnificent."
+        },
+        {
+          "target": "Quel est ton tableau préféré ?",
+          "en": "What's your favorite painting?"
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "peintre",
+      "ipa": "/pɛ̃tʁ/",
+      "pos": "n.m./f.",
+      "meaning": "painter",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Monet est un peintre célèbre.",
+          "en": "Monet is a famous painter."
+        },
+        {
+          "target": "Ma mère est peintre.",
+          "en": "My mother is a painter."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "chef-d'œuvre",
+      "ipa": "/ʃɛ.dœvʁ/",
+      "pos": "n.m.",
+      "meaning": "masterpiece",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "C'est un vrai chef-d'œuvre.",
+          "en": "It's a real masterpiece."
+        },
+        {
+          "target": "Ce film est un chef-d'œuvre.",
+          "en": "This film is a masterpiece."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Tu as vu qu'il y a une grande exposition sur Monet en ce moment ?",
+      "glosses": [
+        {
+          "text": "exposition",
+          "pos": "n.f.",
+          "meaning": "exhibition"
+        }
+      ],
+      "en": "Did you see there's a big Monet exhibition right now?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui ! J'aimerais beaucoup y aller ce week-end. Tu viens avec moi ?",
+      "glosses": [],
+      "en": "Yes! I'd really like to go this weekend. Are you coming with me?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Avec plaisir. Je crois que les étudiants ont un tarif réduit.",
+      "glosses": [
+        {
+          "text": "tarif réduit",
+          "pos": "n.m.",
+          "meaning": "reduced price"
+        }
+      ],
+      "en": "With pleasure. I think students get a reduced price."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Parfait, n'oublie pas ta carte. On prend une visite guidée ?",
+      "glosses": [
+        {
+          "text": "visite guidée",
+          "pos": "n.f.",
+          "meaning": "guided tour"
+        }
+      ],
+      "en": "Perfect, don't forget your card. Shall we take a guided tour?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Je préfère l'audioguide, comme ça on avance à notre rythme.",
+      "glosses": [
+        {
+          "text": "audioguide",
+          "pos": "n.m.",
+          "meaning": "audio guide"
+        }
+      ],
+      "en": "I prefer the audio guide, that way we move at our own pace."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Tu as raison. Quel est ton tableau préféré de ce peintre ?",
+      "glosses": [
+        {
+          "text": "tableau",
+          "pos": "n.m.",
+          "meaning": "painting"
+        },
+        {
+          "text": "peintre",
+          "pos": "n.m./f.",
+          "meaning": "painter"
+        }
+      ],
+      "en": "You're right. What's your favorite painting by this painter?"
+    },
+    {
+      "id": "t7",
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Sans hésiter, « Impression, soleil levant ». C'est un vrai chef-d'œuvre.",
+      "glosses": [
+        {
+          "text": "chef-d'œuvre",
+          "pos": "n.m.",
+          "meaning": "masterpiece"
+        }
+      ],
+      "en": "Without hesitation, “Impression, Sunrise”. It's a real masterpiece."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Moi, j'adore les nymphéas : les couleurs changent selon la lumière.",
+      "glosses": [],
+      "en": "Me, I love the water lilies: the colors change with the light."
+    },
+    {
+      "id": "t9",
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "On pourrait déjeuner au café du musée après la visite.",
+      "glosses": [],
+      "en": "We could have lunch at the museum café after the visit."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonne idée, mais il faudra réserver, il y a toujours beaucoup de monde.",
+      "glosses": [],
+      "en": "Good idea, but we'll need to book, there are always lots of people."
+    },
+    {
+      "id": "t11",
+      "speaker": "Léa",
+      "role": "npc",
+      "text": "Je m'en charge. Samedi à quatorze heures, ça te convient ?",
+      "glosses": [],
+      "en": "I'll take care of it. Saturday at two p.m., does that suit you?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Parfait, rendez-vous devant l'entrée à treize heures quarante-cinq !",
+      "glosses": [],
+      "en": "Perfect, let's meet in front of the entrance at 1:45 p.m.!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "chef-d'œuvre",
+      "tip": "Say ʃɛ-DŒVR; the 'œu' is a rounded vowel"
+    },
+    {
+      "id": "w2",
+      "text": "exposition",
+      "tip": "Four beats: ɛk-spo-zi-SJɔ̃"
+    }
+  ]
+}

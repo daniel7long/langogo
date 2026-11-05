@@ -1,0 +1,328 @@
+{
+  "emoji": "📖",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "traduction",
+      "ipa": "/tʁa.dyk.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "translation",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La traduction est un art.",
+          "en": "Translation is an art."
+        },
+        {
+          "target": "Cette traduction est fidèle.",
+          "en": "This translation is faithful."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "nuance",
+      "ipa": "/nɥɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "nuance",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Chaque mot a sa nuance.",
+          "en": "Each word has its nuance."
+        },
+        {
+          "target": "Il manque une nuance.",
+          "en": "A nuance is missing."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "intraduisible",
+      "ipa": "/ɛ̃.tʁa.dɥi.zibl/",
+      "pos": "adj.",
+      "meaning": "untranslatable",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Ce mot est intraduisible.",
+          "en": "This word is untranslatable."
+        },
+        {
+          "target": "Certaines expressions sont intraduisibles.",
+          "en": "Some expressions are untranslatable."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "fidélité",
+      "ipa": "/fi.de.li.te/",
+      "pos": "n.f.",
+      "meaning": "faithfulness",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La fidélité au texte compte.",
+          "en": "Faithfulness to the text matters."
+        },
+        {
+          "target": "Fidélité ou lisibilité ?",
+          "en": "Faithfulness or readability?"
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "contexte",
+      "ipa": "/kɔ̃.tɛkst/",
+      "pos": "n.m.",
+      "meaning": "context",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Tout dépend du contexte.",
+          "en": "It all depends on context."
+        },
+        {
+          "target": "Le contexte change le sens.",
+          "en": "Context changes meaning."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "équivalent",
+      "ipa": "/e.ki.va.lɑ̃/",
+      "pos": "n.m.",
+      "meaning": "equivalent",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Il n'y a pas d'équivalent exact.",
+          "en": "There's no exact equivalent."
+        },
+        {
+          "target": "Je cherche un équivalent français.",
+          "en": "I'm looking for a French equivalent."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "lecteur",
+      "ipa": "/lɛk.tœʁ/",
+      "pos": "n.m.",
+      "meaning": "reader",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le lecteur doit comprendre.",
+          "en": "The reader must understand."
+        },
+        {
+          "target": "Pensez au lecteur.",
+          "en": "Think of the reader."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Traductrice",
+      "role": "npc",
+      "text": "Vous traduisez des romans depuis vingt ans. Qu'est-ce qui rend la traduction si difficile ?",
+      "glosses": [
+        {
+          "text": "traduction",
+          "pos": "n.f.",
+          "meaning": "translation"
+        }
+      ],
+      "en": "You've been translating novels for twenty years. What makes translation so difficult?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Traduire, ce n'est pas remplacer des mots par d'autres : c'est recréer un texte dans un autre univers culturel et sonore.",
+      "glosses": [],
+      "en": "Translating isn't replacing words with other words: it's recreating a text in another cultural and sound universe."
+    },
+    {
+      "id": "t3",
+      "speaker": "Traductrice",
+      "role": "npc",
+      "text": "On dit souvent que certains mots sont intraduisibles. Est-ce vrai ?",
+      "glosses": [],
+      "en": "People often say some words are untranslatable. Is that true?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Rien n'est vraiment intraduisible, mais certains mots exigent une phrase entière pour rendre leur nuance.",
+      "glosses": [
+        {
+          "text": "nuance",
+          "pos": "n.f.",
+          "meaning": "nuance"
+        },
+        {
+          "text": "intraduisible",
+          "pos": "adj.",
+          "meaning": "untranslatable"
+        }
+      ],
+      "en": "Nothing is truly untranslatable, but some words require a whole sentence to render their nuance."
+    },
+    {
+      "id": "t5",
+      "speaker": "Traductrice",
+      "role": "npc",
+      "text": "Pouvez-vous nous donner un exemple ?",
+      "glosses": [],
+      "en": "Can you give us an example?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Le mot portugais « saudade » exprime une nostalgie tendre et douloureuse. Aucun équivalent français n'en couvre toute la richesse.",
+      "glosses": [
+        {
+          "text": "équivalent",
+          "pos": "n.m.",
+          "meaning": "equivalent"
+        }
+      ],
+      "en": "The Portuguese word 'saudade' expresses a tender and painful nostalgia. No French equivalent covers all its richness."
+    },
+    {
+      "id": "t7",
+      "speaker": "Traductrice",
+      "role": "npc",
+      "text": "Comment choisissez-vous alors entre fidélité au texte et lisibilité ?",
+      "glosses": [
+        {
+          "text": "fidélité",
+          "pos": "n.f.",
+          "meaning": "faithfulness"
+        }
+      ],
+      "en": "How do you then choose between faithfulness to the text and readability?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est le dilemme permanent. Trop de fidélité rend le texte artificiel ; trop de liberté trahit l'auteur.",
+      "glosses": [
+        {
+          "text": "fidélité",
+          "pos": "n.f.",
+          "meaning": "faithfulness"
+        }
+      ],
+      "en": "That's the permanent dilemma. Too much faithfulness makes the text artificial; too much freedom betrays the author."
+    },
+    {
+      "id": "t9",
+      "speaker": "Traductrice",
+      "role": "npc",
+      "text": "L'italien dit « traduttore, traditore » : traducteur, traître. Vous reconnaissez-vous là-dedans ?",
+      "glosses": [],
+      "en": "The Italians say 'traduttore, traditore': translator, traitor. Do you recognize yourself in that?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "En partie. On trahit toujours quelque chose, mais on essaie de trahir le moins possible et de faire entendre la voix de l'auteur.",
+      "glosses": [],
+      "en": "In part. One always betrays something, but one tries to betray as little as possible and to let the author's voice be heard."
+    },
+    {
+      "id": "t11",
+      "speaker": "Traductrice",
+      "role": "npc",
+      "text": "Quel rôle joue le contexte dans votre travail ?",
+      "glosses": [
+        {
+          "text": "contexte",
+          "pos": "n.m.",
+          "meaning": "context"
+        }
+      ],
+      "en": "What role does context play in your work?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Un rôle décisif. Une même phrase peut être ironique, tendre ou menaçante selon la situation et le registre du personnage.",
+      "glosses": [],
+      "en": "A decisive role. The same sentence can be ironic, tender or threatening depending on the situation and the character's register."
+    },
+    {
+      "id": "t13",
+      "speaker": "Traductrice",
+      "role": "npc",
+      "text": "Les outils de traduction automatique vous inquiètent-ils ?",
+      "glosses": [
+        {
+          "text": "traduction",
+          "pos": "n.f.",
+          "meaning": "translation"
+        }
+      ],
+      "en": "Do automatic translation tools worry you?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ils sont utiles pour comprendre l'essentiel, mais ils peinent avec l'humour, l'ironie et le rythme. Un roman n'est pas un manuel d'utilisation.",
+      "glosses": [],
+      "en": "They're useful for grasping the gist, but they struggle with humor, irony and rhythm. A novel isn't a user manual."
+    },
+    {
+      "id": "t15",
+      "speaker": "Traductrice",
+      "role": "npc",
+      "text": "Pour qui traduisez-vous, en définitive ?",
+      "glosses": [],
+      "en": "Who do you translate for, in the end?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pour le lecteur qui n'a pas accès à la langue d'origine, afin qu'il puisse vivre la même expérience que le lecteur original.",
+      "glosses": [
+        {
+          "text": "lecteur",
+          "pos": "n.m.",
+          "meaning": "reader"
+        }
+      ],
+      "en": "For the reader who has no access to the original language, so that he can live the same experience as the original reader."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "intraduisible",
+      "tip": "Six beats: ɛ̃-tʁa-dɥi-ZIBL"
+    },
+    {
+      "id": "w2",
+      "text": "fidélité",
+      "tip": "Four beats: fi-de-li-TE"
+    }
+  ]
+}

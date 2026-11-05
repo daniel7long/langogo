@@ -137,9 +137,16 @@ def level_for(score: int) -> str:
 # The course is a ladder of lessons (French: 9 levels x 4 lessons = 36). The score (0-100) is spread evenly
 # over that ladder, so each lesson owns about 2.8 points: 0-2 starts at Level 1 Lesson 1, 50 at Level 5 Lesson 3,
 # 70 at Level 7 Lesson 2 and 98-100 at Level 9 Lesson 4. It never moves a learner backwards.
-def _ladder(lang):
+# Placement only uses the original 9 levels (36 lessons). Levels 10 and up are extra B1/B2/C1 practice that a learner
+# reaches by progressing, so adding them does not change which lesson a score starts at.
+PLACEMENT_MAX_LEVEL = 9
+
+
+def _ladder(lang, max_level=None):
     out = []
     for lv, spec in sorted(content.levels(lang).items()):
+        if max_level and lv > max_level:
+            continue
         for no, (lid, title) in enumerate(spec["lessons"], start=1):
             out.append({"level": lv, "no": no, "id": lid, "title": title})
     return out
@@ -152,8 +159,9 @@ def placement_index(score, size):
 def place_learner(lang, score):
     """Moves the learner to the lesson their score earns and returns that lesson. Lessons before it in the same
     level are marked as done; earlier levels count as done automatically."""
-    ladder = _ladder(lang)
-    target = ladder[placement_index(score, len(ladder))]
+    ladder = _ladder(lang)  # the whole course, used to find where the learner is now
+    scale = _ladder(lang, PLACEMENT_MAX_LEVEL) or ladder  # the part of the course a score maps onto
+    target = scale[placement_index(score, len(scale))]
     state = store.STATE
     done = set(state["completed"])
     level = store.level_of(lang)

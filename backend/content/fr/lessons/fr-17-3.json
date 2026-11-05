@@ -1,0 +1,322 @@
+{
+  "emoji": "🧬",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "génétique",
+      "ipa": "/ʒe.ne.tik/",
+      "pos": "adj.",
+      "meaning": "genetic",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le patrimoine génétique est unique.",
+          "en": "The genetic heritage is unique."
+        },
+        {
+          "target": "Un test génétique est proposé.",
+          "en": "A genetic test is offered."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "consentement",
+      "ipa": "/kɔ̃.sɑ̃t.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "consent",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le consentement éclairé est obligatoire.",
+          "en": "Informed consent is mandatory."
+        },
+        {
+          "target": "Il a donné son consentement.",
+          "en": "He gave his consent."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "dépistage",
+      "ipa": "/de.pis.taʒ/",
+      "pos": "n.m.",
+      "meaning": "screening",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le dépistage précoce sauve des vies.",
+          "en": "Early screening saves lives."
+        },
+        {
+          "target": "Un dépistage est recommandé.",
+          "en": "A screening is recommended."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "clonage",
+      "ipa": "/klo.naʒ/",
+      "pos": "n.m.",
+      "meaning": "cloning",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le clonage humain est interdit.",
+          "en": "Human cloning is prohibited."
+        },
+        {
+          "target": "Le clonage soulève des questions éthiques.",
+          "en": "Cloning raises ethical questions."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "dérive",
+      "ipa": "/de.ʁiv/",
+      "pos": "n.f.",
+      "meaning": "slippery slope, drift",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Il y a un risque de dérive.",
+          "en": "There is a risk of a slippery slope."
+        },
+        {
+          "target": "Cette dérive nous inquiète.",
+          "en": "This drift worries us."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "thérapie",
+      "ipa": "/te.ʁa.pi/",
+      "pos": "n.f.",
+      "meaning": "therapy",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Cette thérapie est innovante.",
+          "en": "This therapy is innovative."
+        },
+        {
+          "target": "Les thérapies géniques progressent.",
+          "en": "Gene therapies are progressing."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "légiférer",
+      "ipa": "/le.ʒi.fe.ʁe/",
+      "pos": "v.",
+      "meaning": "to legislate",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Il faut légiférer sur ce sujet.",
+          "en": "We must legislate on this subject."
+        },
+        {
+          "target": "Le Parlement a légiféré en 2021.",
+          "en": "Parliament legislated in 2021."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Bioéthicienne",
+      "role": "npc",
+      "text": "Madame, les progrès de la génétique ouvrent des perspectives médicales inédites. Où se situent les principales questions éthiques ?",
+      "glosses": [
+        {
+          "text": "génétique",
+          "pos": "adj.",
+          "meaning": "genetic"
+        }
+      ],
+      "en": "Madam, advances in genetics open unprecedented medical prospects. Where do the main ethical questions lie?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Il y en a plusieurs. La première concerne le consentement : que signifie consentir à un test dont on ne maîtrise pas toutes les conséquences ?",
+      "glosses": [
+        {
+          "text": "consentement",
+          "pos": "n.m.",
+          "meaning": "consent"
+        }
+      ],
+      "en": "There are several. The first concerns consent: what does it mean to consent to a test whose consequences you don't fully control?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Bioéthicienne",
+      "role": "npc",
+      "text": "Prenons le dépistage génétique. Doit-on tout vouloir savoir sur sa santé future ?",
+      "glosses": [
+        {
+          "text": "génétique",
+          "pos": "adj.",
+          "meaning": "genetic"
+        },
+        {
+          "text": "dépistage",
+          "pos": "n.m.",
+          "meaning": "screening"
+        }
+      ],
+      "en": "Take genetic screening. Should one want to know everything about one's future health?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Chacun a le droit de savoir, mais aussi le droit de ne pas savoir. Connaître un risque de maladie incurable peut bouleverser une vie.",
+      "glosses": [],
+      "en": "Everyone has the right to know, but also the right not to know. Knowing a risk of incurable disease can upset a life."
+    },
+    {
+      "id": "t5",
+      "speaker": "Bioéthicienne",
+      "role": "npc",
+      "text": "Et les assureurs ou les employeurs pourraient-ils utiliser ces informations ?",
+      "glosses": [],
+      "en": "And could insurers or employers use this information?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est justement ce que la loi interdit en France, mais la vigilance reste nécessaire, car les pressions économiques sont réelles.",
+      "glosses": [],
+      "en": "That's exactly what the law forbids in France, but vigilance remains necessary, because economic pressures are real."
+    },
+    {
+      "id": "t7",
+      "speaker": "Bioéthicienne",
+      "role": "npc",
+      "text": "Parlons de la thérapie génique : certaines maladies rares peuvent désormais être soignées.",
+      "glosses": [
+        {
+          "text": "thérapie",
+          "pos": "n.f.",
+          "meaning": "therapy"
+        }
+      ],
+      "en": "Let's talk about gene therapy: some rare diseases can now be treated."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, et c'est une avancée extraordinaire. Le défi est de garantir un accès équitable, car ces traitements coûtent parfois plus d'un million d'euros.",
+      "glosses": [],
+      "en": "Yes, and it's an extraordinary advance. The challenge is to guarantee fair access, because these treatments sometimes cost more than a million euros."
+    },
+    {
+      "id": "t9",
+      "speaker": "Bioéthicienne",
+      "role": "npc",
+      "text": "Certains évoquent la possibilité de modifier les embryons. Est-ce une ligne rouge ?",
+      "glosses": [],
+      "en": "Some mention the possibility of modifying embryos. Is that a red line?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pour la majorité des comités d'éthique, oui, car ces modifications seraient transmises aux générations futures sans leur accord.",
+      "glosses": [],
+      "en": "For most ethics committees, yes, because these modifications would be passed on to future generations without their agreement."
+    },
+    {
+      "id": "t11",
+      "speaker": "Bioéthicienne",
+      "role": "npc",
+      "text": "Le clonage humain, lui, est interdit presque partout. Pourquoi cette unanimité ?",
+      "glosses": [
+        {
+          "text": "clonage",
+          "pos": "n.m.",
+          "meaning": "cloning"
+        }
+      ],
+      "en": "Human cloning, on the other hand, is prohibited almost everywhere. Why this unanimity?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Parce qu'il remet en cause l'idée même de dignité et d'unicité de la personne, et qu'il comporte d'énormes risques médicaux.",
+      "glosses": [],
+      "en": "Because it challenges the very idea of dignity and uniqueness of the person, and carries enormous medical risks."
+    },
+    {
+      "id": "t13",
+      "speaker": "Bioéthicienne",
+      "role": "npc",
+      "text": "Craignez-vous une dérive vers une médecine qui sélectionnerait les enfants selon leurs caractéristiques ?",
+      "glosses": [
+        {
+          "text": "dérive",
+          "pos": "n.f.",
+          "meaning": "slippery slope, drift"
+        }
+      ],
+      "en": "Do you fear a slide toward a medicine that would select children by their characteristics?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Le risque existe : la frontière entre soigner et améliorer est floue, et chaque pas peut sembler raisonnable isolément.",
+      "glosses": [],
+      "en": "The risk exists: the boundary between treating and enhancing is blurry, and each step may seem reasonable in isolation."
+    },
+    {
+      "id": "t15",
+      "speaker": "Bioéthicienne",
+      "role": "npc",
+      "text": "Le rôle du législateur est-il donc central ?",
+      "glosses": [],
+      "en": "So is the legislator's role central?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Il doit légiférer, mais après un vrai débat public. Ces questions engagent notre vision de l'humain ; elles ne peuvent pas être laissées aux seuls experts.",
+      "glosses": [
+        {
+          "text": "légiférer",
+          "pos": "v.",
+          "meaning": "to legislate"
+        }
+      ],
+      "en": "It must legislate, but after a genuine public debate. These questions involve our vision of the human; they can't be left to experts alone."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "consentement",
+      "tip": "Say kɔ̃-sɑ̃t-MɑN"
+    },
+    {
+      "id": "w2",
+      "text": "dépistage",
+      "tip": "Say de-pis-TAʒ"
+    }
+  ]
+}

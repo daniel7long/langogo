@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "dépendre",
+      "ipa": "/de.pɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to depend",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "dépends",
+          "ipa": "/ʒə de.pɑ̃/"
+        },
+        {
+          "p": "tu",
+          "f": "dépends",
+          "ipa": "/ty de.pɑ̃/"
+        },
+        {
+          "p": "il / elle",
+          "f": "dépend",
+          "ipa": "/il de.pɑ̃/"
+        },
+        {
+          "p": "nous",
+          "f": "dépendons",
+          "ipa": "/nu de.pɑ̃.dɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "dépendez",
+          "ipa": "/vu de.pɑ̃.de/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "dépendent",
+          "ipa": "/il de.pɑ̃d/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous dépendons des satellites.",
+          "en": "We depend on satellites."
+        },
+        {
+          "target": "Tout dépend du financement.",
+          "en": "It all depends on funding."
+        }
+      ],
+      "note": "Dépendre de = to depend on."
+    },
+    {
+      "id": "c2",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "should",
+      "tense": "Conditional",
+      "forms": [
+        {
+          "p": "je",
+          "f": "devrais",
+          "ipa": "/ʒə də.vʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "devrais",
+          "ipa": "/ty də.vʁɛ/"
+        },
+        {
+          "p": "il / elle / personne",
+          "f": "devrait",
+          "ipa": "/il də.vʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "devrions",
+          "ipa": "/nu də.vʁi.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "devriez",
+          "ipa": "/vu də.vʁi.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "devraient",
+          "ipa": "/il də.vʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Quelles devraient être les priorités ?",
+          "en": "What should the priorities be?"
+        },
+        {
+          "target": "Nous devrions préserver la Terre.",
+          "en": "We should preserve the Earth."
+        }
+      ],
+      "note": "Quelles devraient être les priorités ?"
+    }
+  ]
+}

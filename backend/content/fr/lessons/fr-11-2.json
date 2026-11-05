@@ -1,0 +1,290 @@
+{
+  "emoji": "💊",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "ordonnance",
+      "ipa": "/ɔʁ.dɔ.nɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "prescription",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "J'ai une ordonnance.",
+          "en": "I have a prescription."
+        },
+        {
+          "target": "Le médecin écrit l'ordonnance.",
+          "en": "The doctor writes the prescription."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "comprimé",
+      "ipa": "/kɔ̃.pʁi.me/",
+      "pos": "n.m.",
+      "meaning": "tablet, pill",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Prenez un comprimé par jour.",
+          "en": "Take one tablet a day."
+        },
+        {
+          "target": "Ce comprimé est trop gros.",
+          "en": "This tablet is too big."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "effets secondaires",
+      "ipa": "/e.fɛ sə.kɔ̃.dɛʁ/",
+      "pos": "n.m.pl.",
+      "meaning": "side effects",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Y a-t-il des effets secondaires ?",
+          "en": "Are there any side effects?"
+        },
+        {
+          "target": "Les effets secondaires sont rares.",
+          "en": "Side effects are rare."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "nausées",
+      "ipa": "/no.ze/",
+      "pos": "n.f.pl.",
+      "meaning": "nausea",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "J'ai des nausées.",
+          "en": "I feel nauseous."
+        },
+        {
+          "target": "Les nausées passent vite.",
+          "en": "The nausea passes quickly."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "paracétamol",
+      "ipa": "/pa.ʁa.se.ta.mɔl/",
+      "pos": "n.m.",
+      "meaning": "paracetamol",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je prends du paracétamol.",
+          "en": "I'm taking paracetamol."
+        },
+        {
+          "target": "Le paracétamol baisse la fièvre.",
+          "en": "Paracetamol lowers fever."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "prises",
+      "ipa": "/pʁiz/",
+      "pos": "n.f.pl.",
+      "meaning": "doses (intakes)",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Trois prises par jour.",
+          "en": "Three doses a day."
+        },
+        {
+          "target": "Attendez entre deux prises.",
+          "en": "Wait between two doses."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "pastilles",
+      "ipa": "/pas.tij/",
+      "pos": "n.f.pl.",
+      "meaning": "lozenges",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je suce des pastilles.",
+          "en": "I'm sucking lozenges."
+        },
+        {
+          "target": "Ces pastilles calment la gorge.",
+          "en": "These lozenges soothe the throat."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Pharmacien",
+      "role": "npc",
+      "text": "Bonjour, je peux vous aider ?",
+      "glosses": [],
+      "en": "Hello, can I help you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonjour, j'ai une ordonnance du médecin et j'aimerais aussi quelque chose contre les maux de tête.",
+      "glosses": [
+        {
+          "text": "ordonnance",
+          "pos": "n.f.",
+          "meaning": "prescription"
+        }
+      ],
+      "en": "Hello, I have a prescription from the doctor and I'd also like something for headaches."
+    },
+    {
+      "id": "t3",
+      "speaker": "Pharmacien",
+      "role": "npc",
+      "text": "Donnez-moi l'ordonnance, je regarde. Vous prenez d'autres médicaments ?",
+      "glosses": [
+        {
+          "text": "ordonnance",
+          "pos": "n.f.",
+          "meaning": "prescription"
+        }
+      ],
+      "en": "Give me the prescription, I'll have a look. Are you taking other medication?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Non, aucun traitement en ce moment.",
+      "glosses": [],
+      "en": "No, no treatment at the moment."
+    },
+    {
+      "id": "t5",
+      "speaker": "Pharmacien",
+      "role": "npc",
+      "text": "Parfait. Voici vos antibiotiques : un comprimé matin et soir, pendant les repas.",
+      "glosses": [
+        {
+          "text": "comprimé",
+          "pos": "n.m.",
+          "meaning": "tablet, pill"
+        }
+      ],
+      "en": "Perfect. Here are your antibiotics: one tablet morning and evening, with meals."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Y a-t-il des effets secondaires que je dois connaître ?",
+      "glosses": [
+        {
+          "text": "effets secondaires",
+          "pos": "n.m.pl.",
+          "meaning": "side effects"
+        }
+      ],
+      "en": "Are there any side effects I should know about?"
+    },
+    {
+      "id": "t7",
+      "speaker": "Pharmacien",
+      "role": "npc",
+      "text": "Parfois des nausées. Si cela arrive, prévenez votre médecin.",
+      "glosses": [
+        {
+          "text": "nausées",
+          "pos": "n.f.pl.",
+          "meaning": "nausea"
+        }
+      ],
+      "en": "Sometimes nausea. If that happens, tell your doctor."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Et pour mon mal de tête, qu'est-ce que vous me conseillez ?",
+      "glosses": [],
+      "en": "And for my headache, what do you recommend?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Pharmacien",
+      "role": "npc",
+      "text": "Du paracétamol. Ne dépassez pas quatre comprimés par jour.",
+      "glosses": [
+        {
+          "text": "paracétamol",
+          "pos": "n.m.",
+          "meaning": "paracetamol"
+        }
+      ],
+      "en": "Paracetamol. Don't exceed four tablets a day."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je dois le prendre avec de l'eau ?",
+      "glosses": [],
+      "en": "Do I have to take it with water?"
+    },
+    {
+      "id": "t11",
+      "speaker": "Pharmacien",
+      "role": "npc",
+      "text": "Oui, et attendez six heures entre deux prises. Voici aussi des pastilles pour la gorge.",
+      "glosses": [
+        {
+          "text": "prises",
+          "pos": "n.f.pl.",
+          "meaning": "doses (intakes)"
+        },
+        {
+          "text": "pastilles",
+          "pos": "n.f.pl.",
+          "meaning": "lozenges"
+        }
+      ],
+      "en": "Yes, and wait six hours between two doses. Here are also lozenges for the throat."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Très bien, merci. Combien je vous dois ?",
+      "glosses": [],
+      "en": "Very good, thank you. How much do I owe you?"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "paracétamol",
+      "tip": "Six beats: pa-ʁa-se-ta-MOL"
+    },
+    {
+      "id": "w2",
+      "text": "pastilles",
+      "tip": "The ll sounds like y: pas-TEE"
+    }
+  ]
+}

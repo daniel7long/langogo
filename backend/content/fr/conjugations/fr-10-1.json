@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "réserver",
+      "ipa": "/ʁe.zɛʁ.ve/",
+      "pos": "v.",
+      "meaning": "to book",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai réservé",
+          "ipa": "/ʒe ʁe.zɛʁ.ve/"
+        },
+        {
+          "p": "tu",
+          "f": "as réservé",
+          "ipa": "/ty a ʁe.zɛʁ.ve/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a réservé",
+          "ipa": "/il a ʁe.zɛʁ.ve/"
+        },
+        {
+          "p": "nous",
+          "f": "avons réservé",
+          "ipa": "/nu za.vɔ̃ ʁe.zɛʁ.ve/"
+        },
+        {
+          "p": "vous",
+          "f": "avez réservé",
+          "ipa": "/vu za.ve ʁe.zɛʁ.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont réservé",
+          "ipa": "/il zɔ̃ ʁe.zɛʁ.ve/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu as déjà réservé tes billets ?",
+          "en": "Have you already booked your tickets?"
+        },
+        {
+          "target": "Nous avons réservé l'hôtel.",
+          "en": "We booked the hotel."
+        }
+      ],
+      "note": "Passé composé = avoir + past participle."
+    },
+    {
+      "id": "c2",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have to",
+      "tense": "Conditional (advice)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "devrais",
+          "ipa": "/ʒə də.vʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "devrais",
+          "ipa": "/ty də.vʁɛ/"
+        },
+        {
+          "p": "il / elle / personne",
+          "f": "devrait",
+          "ipa": "/il də.vʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "devrions",
+          "ipa": "/nu də.vʁi.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "devriez",
+          "ipa": "/vu də.vʁi.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "devraient",
+          "ipa": "/il də.vʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Tu devrais vérifier ton passeport.",
+          "en": "You should check your passport."
+        },
+        {
+          "target": "Vous devriez réserver à temps.",
+          "en": "You should book in time."
+        }
+      ],
+      "note": "The conditional gives soft advice: tu devrais…"
+    }
+  ]
+}

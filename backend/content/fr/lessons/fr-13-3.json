@@ -1,0 +1,284 @@
+{
+  "emoji": "🎓",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "mémoire",
+      "ipa": "/me.mwaʁ/",
+      "pos": "n.m.",
+      "meaning": "dissertation, thesis",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je rédige mon mémoire.",
+          "en": "I'm writing my dissertation."
+        },
+        {
+          "target": "Le mémoire fait cent pages.",
+          "en": "The dissertation is 100 pages."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "problématique",
+      "ipa": "/pʁɔ.ble.ma.tik/",
+      "pos": "n.f.",
+      "meaning": "research question",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Quelle est ta problématique ?",
+          "en": "What's your research question?"
+        },
+        {
+          "target": "La problématique est claire.",
+          "en": "The research question is clear."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "bibliographie",
+      "ipa": "/bi.bljɔ.gʁa.fi/",
+      "pos": "n.f.",
+      "meaning": "bibliography",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Ma bibliographie est incomplète.",
+          "en": "My bibliography is incomplete."
+        },
+        {
+          "target": "Ajoutez cette référence à la bibliographie.",
+          "en": "Add this reference to the bibliography."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "hypothèse",
+      "ipa": "/i.pɔ.tɛz/",
+      "pos": "n.f.",
+      "meaning": "hypothesis",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Cette hypothèse est intéressante.",
+          "en": "This hypothesis is interesting."
+        },
+        {
+          "target": "Je vérifie mon hypothèse.",
+          "en": "I'm testing my hypothesis."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "enquête",
+      "ipa": "/ɑ̃.kɛt/",
+      "pos": "n.f.",
+      "meaning": "survey, study",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Nous menons une enquête.",
+          "en": "We're carrying out a survey."
+        },
+        {
+          "target": "L'enquête porte sur cent étudiants.",
+          "en": "The survey covers a hundred students."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "soutenance",
+      "ipa": "/su.tə.nɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "thesis defense",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "La soutenance est en juin.",
+          "en": "The defense is in June."
+        },
+        {
+          "target": "Je prépare ma soutenance.",
+          "en": "I'm preparing my defense."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "rigoureux",
+      "ipa": "/ʁi.gu.ʁø/",
+      "pos": "adj.",
+      "meaning": "rigorous",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Un travail rigoureux est essentiel.",
+          "en": "Rigorous work is essential."
+        },
+        {
+          "target": "Elle est très rigoureuse.",
+          "en": "She is very rigorous."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Directrice de thèse",
+      "role": "npc",
+      "text": "Bonjour, asseyez-vous. Où en êtes-vous de votre mémoire ?",
+      "glosses": [
+        {
+          "text": "mémoire",
+          "pos": "n.m.",
+          "meaning": "dissertation, thesis"
+        }
+      ],
+      "en": "Hello, take a seat. Where are you with your dissertation?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "J'ai terminé la première partie, mais ma problématique n'est pas encore tout à fait précise.",
+      "glosses": [
+        {
+          "text": "problématique",
+          "pos": "n.f.",
+          "meaning": "research question"
+        }
+      ],
+      "en": "I've finished the first part, but my research question isn't quite precise yet."
+    },
+    {
+      "id": "t3",
+      "speaker": "Directrice de thèse",
+      "role": "npc",
+      "text": "Rappelez-moi votre sujet. Il me semble qu'il porte sur l'apprentissage des langues en ligne.",
+      "glosses": [],
+      "en": "Remind me of your topic. I believe it's about online language learning."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Exactement. Je me demande si les applications favorisent vraiment la motivation à long terme.",
+      "glosses": [],
+      "en": "Exactly. I wonder whether apps really foster long-term motivation."
+    },
+    {
+      "id": "t5",
+      "speaker": "Directrice de thèse",
+      "role": "npc",
+      "text": "Votre hypothèse est intéressante, mais votre raisonnement doit être plus rigoureux.",
+      "glosses": [
+        {
+          "text": "hypothèse",
+          "pos": "n.f.",
+          "meaning": "hypothesis"
+        },
+        {
+          "text": "rigoureux",
+          "pos": "adj.",
+          "meaning": "rigorous"
+        }
+      ],
+      "en": "Your hypothesis is interesting, but your reasoning needs to be more rigorous."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je pensais mener une enquête auprès de cinquante étudiants pendant trois mois.",
+      "glosses": [
+        {
+          "text": "enquête",
+          "pos": "n.f.",
+          "meaning": "survey, study"
+        }
+      ],
+      "en": "I was thinking of carrying out a survey with fifty students over three months."
+    },
+    {
+      "id": "t7",
+      "speaker": "Directrice de thèse",
+      "role": "npc",
+      "text": "C'est ambitieux. Avez-vous prévu un groupe de contrôle pour comparer les résultats ?",
+      "glosses": [],
+      "en": "That's ambitious. Have you planned a control group to compare the results?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pas encore. Je vais réfléchir à la méthode et vous envoyer un nouveau plan.",
+      "glosses": [],
+      "en": "Not yet. I'll think about the method and send you a new outline."
+    },
+    {
+      "id": "t9",
+      "speaker": "Directrice de thèse",
+      "role": "npc",
+      "text": "Pensez aussi à votre bibliographie : il manque des sources récentes en français.",
+      "glosses": [
+        {
+          "text": "bibliographie",
+          "pos": "n.f.",
+          "meaning": "bibliography"
+        }
+      ],
+      "en": "Also think about your bibliography: it lacks recent sources in French."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Vous avez raison, je n'ai consulté que des articles en anglais jusqu'ici.",
+      "glosses": [],
+      "en": "You're right, I've only consulted articles in English so far."
+    },
+    {
+      "id": "t11",
+      "speaker": "Directrice de thèse",
+      "role": "npc",
+      "text": "Rendez-moi le chapitre révisé avant la fin du mois, afin que nous préparions la soutenance.",
+      "glosses": [
+        {
+          "text": "soutenance",
+          "pos": "n.f.",
+          "meaning": "thesis defense"
+        }
+      ],
+      "en": "Give me the revised chapter before the end of the month, so that we can prepare the defense."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je n'y manquerai pas. Merci beaucoup pour vos conseils, ils m'aident énormément.",
+      "glosses": [],
+      "en": "I won't fail. Thank you very much for your advice, it helps me enormously."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "hypothèse",
+      "tip": "Silent h: i-pɔ-TɛZ"
+    },
+    {
+      "id": "w2",
+      "text": "soutenance",
+      "tip": "Say su-tə-NɑNS"
+    }
+  ]
+}

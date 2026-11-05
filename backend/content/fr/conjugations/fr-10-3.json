@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "aimer",
+      "ipa": "/ɛ.me/",
+      "pos": "v.",
+      "meaning": "to like, to love",
+      "tense": "Conditional (polite wish)",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "aimerais",
+          "ipa": "/ʒɛ.mə.ʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "aimerais",
+          "ipa": "/ty ɛ.mə.ʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "aimerait",
+          "ipa": "/il ɛ.mə.ʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "aimerions",
+          "ipa": "/nu zɛ.mə.ʁjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "aimeriez",
+          "ipa": "/vu zɛ.mə.ʁje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "aimeraient",
+          "ipa": "/il zɛ.mə.ʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'aimerais beaucoup y aller.",
+          "en": "I'd really like to go there."
+        },
+        {
+          "target": "Nous aimerions réserver.",
+          "en": "We would like to book."
+        }
+      ],
+      "note": "J'aimerais = I would like. Softer than j'aime."
+    },
+    {
+      "id": "c2",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, to be able",
+      "tense": "Conditional (suggestion)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "pourrais",
+          "ipa": "/ʒə pu.ʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "pourrais",
+          "ipa": "/ty pu.ʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "pourrait",
+          "ipa": "/il pu.ʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "pourrions",
+          "ipa": "/nu pu.ʁi.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pourriez",
+          "ipa": "/vu pu.ʁi.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "pourraient",
+          "ipa": "/il pu.ʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On pourrait déjeuner au café.",
+          "en": "We could have lunch at the café."
+        },
+        {
+          "target": "Vous pourriez venir avec nous.",
+          "en": "You could come with us."
+        }
+      ],
+      "note": "'On pourrait' suggests an idea."
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "emoji": "🇪🇺",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "souveraineté",
+      "ipa": "/su.vʁɛ.ne.te/",
+      "pos": "n.f.",
+      "meaning": "sovereignty",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La souveraineté nationale est en jeu.",
+          "en": "National sovereignty is at stake."
+        },
+        {
+          "target": "Partager la souveraineté fait débat.",
+          "en": "Sharing sovereignty is debated."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "élargissement",
+      "ipa": "/e.laʁ.ʒis.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "enlargement",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'élargissement divise les États.",
+          "en": "Enlargement divides the states."
+        },
+        {
+          "target": "Un nouvel élargissement est prévu.",
+          "en": "A new enlargement is planned."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "compromis",
+      "ipa": "/kɔ̃.pʁɔ.mi/",
+      "pos": "n.m.",
+      "meaning": "compromise",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Nous avons trouvé un compromis.",
+          "en": "We found a compromise."
+        },
+        {
+          "target": "Un compromis est nécessaire.",
+          "en": "A compromise is necessary."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "subsidiarité",
+      "ipa": "/syb.zi.dja.ʁi.te/",
+      "pos": "n.f.",
+      "meaning": "subsidiarity",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le principe de subsidiarité s'applique.",
+          "en": "The principle of subsidiarity applies."
+        },
+        {
+          "target": "La subsidiarité protège les régions.",
+          "en": "Subsidiarity protects the regions."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "directive",
+      "ipa": "/di.ʁɛk.tiv/",
+      "pos": "n.f.",
+      "meaning": "directive",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Cette directive est controversée.",
+          "en": "This directive is controversial."
+        },
+        {
+          "target": "Les États transposent la directive.",
+          "en": "States transpose the directive."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "frontières",
+      "ipa": "/fʁɔ̃.tjɛʁ/",
+      "pos": "n.f.pl.",
+      "meaning": "borders",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Les frontières sont ouvertes.",
+          "en": "Borders are open."
+        },
+        {
+          "target": "Contrôler les frontières extérieures.",
+          "en": "To control the external borders."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "unanimité",
+      "ipa": "/y.na.ni.mi.te/",
+      "pos": "n.f.",
+      "meaning": "unanimity",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La décision requiert l'unanimité.",
+          "en": "The decision requires unanimity."
+        },
+        {
+          "target": "L'unanimité est rare.",
+          "en": "Unanimity is rare."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Eurodéputée",
+      "role": "npc",
+      "text": "Madame la députée, l'Union européenne est souvent accusée d'être lointaine et technocratique. Que répondez-vous ?",
+      "glosses": [],
+      "en": "Madam, the European Union is often accused of being remote and technocratic. What do you answer?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Que ce reproche contient une part de vérité, mais qu'il faut distinguer la complexité du processus de l'absence de démocratie.",
+      "glosses": [],
+      "en": "That this criticism contains some truth, but that one must distinguish the complexity of the process from the absence of democracy."
+    },
+    {
+      "id": "t3",
+      "speaker": "Eurodéputée",
+      "role": "npc",
+      "text": "Beaucoup de citoyens craignent pourtant une perte de souveraineté nationale.",
+      "glosses": [
+        {
+          "text": "souveraineté",
+          "pos": "n.f.",
+          "meaning": "sovereignty"
+        }
+      ],
+      "en": "Yet many citizens fear a loss of national sovereignty."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "La souveraineté partagée est parfois plus efficace que la souveraineté isolée, notamment face au changement climatique ou aux géants du numérique.",
+      "glosses": [
+        {
+          "text": "souveraineté",
+          "pos": "n.f.",
+          "meaning": "sovereignty"
+        }
+      ],
+      "en": "Shared sovereignty is sometimes more effective than isolated sovereignty, notably in the face of climate change or digital giants."
+    },
+    {
+      "id": "t5",
+      "speaker": "Eurodéputée",
+      "role": "npc",
+      "text": "Le principe de subsidiarité n'est-il pas censé garantir que l'Europe n'agisse que lorsque c'est nécessaire ?",
+      "glosses": [
+        {
+          "text": "subsidiarité",
+          "pos": "n.f.",
+          "meaning": "subsidiarity"
+        }
+      ],
+      "en": "Isn't the principle of subsidiarity supposed to guarantee that Europe acts only when necessary?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Si, et c'est précisément ce que nous vérifions pour chaque directive avant son adoption.",
+      "glosses": [
+        {
+          "text": "directive",
+          "pos": "n.f.",
+          "meaning": "directive"
+        }
+      ],
+      "en": "Yes, and that is precisely what we check for each directive before its adoption."
+    },
+    {
+      "id": "t7",
+      "speaker": "Eurodéputée",
+      "role": "npc",
+      "text": "Pourtant, certaines directives donnent l'impression d'être imposées sans consultation réelle.",
+      "glosses": [],
+      "en": "Yet some directives give the impression of being imposed without real consultation."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elles sont négociées pendant des mois entre le Parlement, la Commission et les gouvernements, ce qui explique la lenteur et les compromis.",
+      "glosses": [
+        {
+          "text": "compromis",
+          "pos": "n.m.",
+          "meaning": "compromise"
+        }
+      ],
+      "en": "They are negotiated for months between Parliament, the Commission and the governments, which explains the slowness and the compromises."
+    },
+    {
+      "id": "t9",
+      "speaker": "Eurodéputée",
+      "role": "npc",
+      "text": "Parlons de l'élargissement : faut-il accueillir de nouveaux pays dans l'Union ?",
+      "glosses": [
+        {
+          "text": "élargissement",
+          "pos": "n.m.",
+          "meaning": "enlargement"
+        }
+      ],
+      "en": "Let's talk about enlargement: should new countries be welcomed into the Union?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est un enjeu géopolitique majeur, mais l'Union doit d'abord se réformer pour fonctionner à plus de trente membres.",
+      "glosses": [],
+      "en": "It's a major geopolitical issue, but the Union must first reform itself to function with more than thirty members."
+    },
+    {
+      "id": "t11",
+      "speaker": "Eurodéputée",
+      "role": "npc",
+      "text": "La règle de l'unanimité ne risque-t-elle pas de bloquer toute décision importante ?",
+      "glosses": [
+        {
+          "text": "unanimité",
+          "pos": "n.f.",
+          "meaning": "unanimity"
+        }
+      ],
+      "en": "Doesn't the unanimity rule risk blocking every important decision?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est le grand débat. Certains proposent la majorité qualifiée, d'autres y voient une atteinte aux intérêts nationaux.",
+      "glosses": [],
+      "en": "That's the big debate. Some propose qualified majority, others see it as an infringement on national interests."
+    },
+    {
+      "id": "t13",
+      "speaker": "Eurodéputée",
+      "role": "npc",
+      "text": "Et sur la question des frontières extérieures, y a-t-il une vraie politique commune ?",
+      "glosses": [
+        {
+          "text": "frontières",
+          "pos": "n.f.pl.",
+          "meaning": "borders"
+        }
+      ],
+      "en": "And on the question of external borders, is there a real common policy?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elle progresse, mais lentement, car les situations des États varient beaucoup selon leur position géographique.",
+      "glosses": [],
+      "en": "It's progressing, but slowly, because states' situations vary greatly depending on their geographic position."
+    },
+    {
+      "id": "t15",
+      "speaker": "Eurodéputée",
+      "role": "npc",
+      "text": "Finalement, êtes-vous optimiste quant à l'avenir de l'Europe ?",
+      "glosses": [],
+      "en": "Finally, are you optimistic about the future of Europe?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je reste lucide mais confiante : l'Europe avance par crises et par compromis, et elle a toujours fini par trouver sa voie.",
+      "glosses": [
+        {
+          "text": "compromis",
+          "pos": "n.m.",
+          "meaning": "compromise"
+        }
+      ],
+      "en": "I remain clear-eyed but confident: Europe advances through crises and compromise, and it has always ended up finding its way."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "souveraineté",
+      "tip": "Five beats: su-vʁɛ-n(ə)-TE"
+    },
+    {
+      "id": "w2",
+      "text": "subsidiarité",
+      "tip": "Six beats: syb-zi-dja-ʁi-TE"
+    }
+  ]
+}

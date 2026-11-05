@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "être",
+      "ipa": "/ɛtʁ/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "serai",
+          "ipa": "/ʒə sə.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "seras",
+          "ipa": "/ty sə.ʁa/"
+        },
+        {
+          "p": "il / elle / ce",
+          "f": "sera",
+          "ipa": "/il sə.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "serons",
+          "ipa": "/nu sə.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "serez",
+          "ipa": "/vu sə.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "seront",
+          "ipa": "/il sə.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je serai remboursé ?",
+          "en": "Will I be refunded?"
+        },
+        {
+          "target": "Vous serez indemnisé.",
+          "en": "You will be compensated."
+        }
+      ],
+      "note": "Je serai remboursé = I will be refunded (passive meaning)."
+    },
+    {
+      "id": "c2",
+      "word": "aller + infinitif",
+      "ipa": "/a.le/",
+      "pos": "v.",
+      "meaning": "to be going to",
+      "tense": "Near future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "vais chercher",
+          "ipa": "/ʒə vɛ ʃɛʁ.ʃe/"
+        },
+        {
+          "p": "tu",
+          "f": "vas chercher",
+          "ipa": "/ty va ʃɛʁ.ʃe/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "va chercher",
+          "ipa": "/il va ʃɛʁ.ʃe/"
+        },
+        {
+          "p": "nous",
+          "f": "allons chercher",
+          "ipa": "/nu za.lɔ̃ ʃɛʁ.ʃe/"
+        },
+        {
+          "p": "vous",
+          "f": "allez chercher",
+          "ipa": "/vu za.le ʃɛʁ.ʃe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "vont chercher",
+          "ipa": "/il vɔ̃ ʃɛʁ.ʃe/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous allons la chercher.",
+          "en": "We're going to look for it."
+        },
+        {
+          "target": "Je vais vous la livrer.",
+          "en": "I'm going to deliver it to you."
+        }
+      ],
+      "note": "Aller + infinitive for what is about to happen."
+    }
+  ]
+}

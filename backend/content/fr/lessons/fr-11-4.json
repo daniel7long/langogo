@@ -1,0 +1,283 @@
+{
+  "emoji": "😴",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "stressé",
+      "ipa": "/stʁe.se/",
+      "pos": "adj.",
+      "meaning": "stressed",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je suis très stressé.",
+          "en": "I'm very stressed."
+        },
+        {
+          "target": "Elle est stressée par le travail.",
+          "en": "She's stressed by work."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "sommeil",
+      "ipa": "/sɔ.mɛj/",
+      "pos": "n.m.",
+      "meaning": "sleep",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "J'ai besoin de sommeil.",
+          "en": "I need sleep."
+        },
+        {
+          "target": "Le sommeil est important.",
+          "en": "Sleep is important."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "écrans",
+      "ipa": "/e.kʁɑ̃/",
+      "pos": "n.m.pl.",
+      "meaning": "screens",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Évite les écrans le soir.",
+          "en": "Avoid screens in the evening."
+        },
+        {
+          "target": "Les écrans fatiguent les yeux.",
+          "en": "Screens tire the eyes."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "détendre",
+      "ipa": "/de.tɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to relax",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je me détends en lisant.",
+          "en": "I relax by reading."
+        },
+        {
+          "target": "Comment te détendre ?",
+          "en": "How can you relax?"
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "méditation",
+      "ipa": "/me.di.ta.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "meditation",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je fais de la méditation.",
+          "en": "I meditate."
+        },
+        {
+          "target": "La méditation aide à se calmer.",
+          "en": "Meditation helps you calm down."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "respiration",
+      "ipa": "/ʁɛs.pi.ʁa.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "breathing",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Contrôle ta respiration.",
+          "en": "Control your breathing."
+        },
+        {
+          "target": "La respiration profonde calme.",
+          "en": "Deep breathing calms you."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "sceptique",
+      "ipa": "/sɛp.tik/",
+      "pos": "adj.",
+      "meaning": "skeptical",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je suis sceptique.",
+          "en": "I'm skeptical."
+        },
+        {
+          "target": "Il reste sceptique.",
+          "en": "He remains skeptical."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Amélie",
+      "role": "npc",
+      "text": "Tu as une mine fatiguée ces derniers jours. Tout va bien ?",
+      "glosses": [],
+      "en": "You look tired these last few days. Is everything okay?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Honnêtement, je suis très stressé à cause de mes examens.",
+      "glosses": [
+        {
+          "text": "stressé",
+          "pos": "adj.",
+          "meaning": "stressed"
+        }
+      ],
+      "en": "Honestly, I'm very stressed because of my exams."
+    },
+    {
+      "id": "t3",
+      "speaker": "Amélie",
+      "role": "npc",
+      "text": "Tu dors suffisamment ?",
+      "glosses": [],
+      "en": "Are you sleeping enough?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pas du tout. Je me réveille souvent vers trois heures du matin et je n'arrive plus à me rendormir.",
+      "glosses": [],
+      "en": "Not at all. I often wake up around three a.m. and can't get back to sleep."
+    },
+    {
+      "id": "t5",
+      "speaker": "Amélie",
+      "role": "npc",
+      "text": "C'est un signe de stress. Tu regardes ton téléphone avant de dormir ?",
+      "glosses": [],
+      "en": "That's a sign of stress. Do you look at your phone before sleeping?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, tous les soirs, jusqu'à minuit.",
+      "glosses": [],
+      "en": "Yes, every evening, until midnight."
+    },
+    {
+      "id": "t7",
+      "speaker": "Amélie",
+      "role": "npc",
+      "text": "Les écrans perturbent le sommeil. Essaie de les éteindre une heure avant.",
+      "glosses": [
+        {
+          "text": "sommeil",
+          "pos": "n.m.",
+          "meaning": "sleep"
+        },
+        {
+          "text": "écrans",
+          "pos": "n.m.pl.",
+          "meaning": "screens"
+        }
+      ],
+      "en": "Screens disturb sleep. Try to turn them off an hour before."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Tu as raison. Et que faire pour me détendre ?",
+      "glosses": [
+        {
+          "text": "détendre",
+          "pos": "v.",
+          "meaning": "to relax"
+        }
+      ],
+      "en": "You're right. And what can I do to relax?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Amélie",
+      "role": "npc",
+      "text": "Moi, je pratique la méditation et la respiration profonde dix minutes par jour.",
+      "glosses": [
+        {
+          "text": "méditation",
+          "pos": "n.f.",
+          "meaning": "meditation"
+        },
+        {
+          "text": "respiration",
+          "pos": "n.f.",
+          "meaning": "breathing"
+        }
+      ],
+      "en": "I practice meditation and deep breathing ten minutes a day."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ça marche vraiment ? Je suis plutôt sceptique.",
+      "glosses": [
+        {
+          "text": "sceptique",
+          "pos": "adj.",
+          "meaning": "skeptical"
+        }
+      ],
+      "en": "Does it really work? I'm rather skeptical."
+    },
+    {
+      "id": "t11",
+      "speaker": "Amélie",
+      "role": "npc",
+      "text": "Il faut essayer régulièrement. Si ça ne s'améliore pas, consulte un professionnel.",
+      "glosses": [],
+      "en": "You have to try regularly. If it doesn't improve, consult a professional."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "D'accord, je vais tester ça dès ce soir. Merci pour ton soutien !",
+      "glosses": [],
+      "en": "Okay, I'm going to test that tonight. Thanks for your support!"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "sommeil",
+      "tip": "Say sɔ-MɛJ; the ‘eil’ sounds like English 'ay'"
+    },
+    {
+      "id": "w2",
+      "text": "sceptique",
+      "tip": "The c is hard and the p is pronounced: sɛp-TIK"
+    }
+  ]
+}

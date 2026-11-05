@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, to be able",
+      "tense": "Conditional",
+      "forms": [
+        {
+          "p": "je",
+          "f": "pourrais",
+          "ipa": "/ʒə pu.ʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "pourrais",
+          "ipa": "/ty pu.ʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "pourrait",
+          "ipa": "/il pu.ʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "pourrions",
+          "ipa": "/nu pu.ʁjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pourriez",
+          "ipa": "/vu pu.ʁje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "pourraient",
+          "ipa": "/il pu.ʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous pourrions le revoir à la hausse.",
+          "en": "We could revise it upward."
+        },
+        {
+          "target": "Je pourrais commencer dans deux mois.",
+          "en": "I could start in two months."
+        }
+      ],
+      "note": "Conditional of pouvoir: je pourrais, nous pourrions."
+    },
+    {
+      "id": "c2",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have to; to owe",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "dois",
+          "ipa": "/ʒə dwa/"
+        },
+        {
+          "p": "tu",
+          "f": "dois",
+          "ipa": "/ty dwa/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "doit",
+          "ipa": "/il dwa/"
+        },
+        {
+          "p": "nous",
+          "f": "devons",
+          "ipa": "/nu də.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "devez",
+          "ipa": "/vu də.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "doivent",
+          "ipa": "/il dwav/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je dois respecter mon préavis.",
+          "en": "I have to serve my notice."
+        },
+        {
+          "target": "Nous devons en parler.",
+          "en": "We have to talk about it."
+        }
+      ],
+      "note": "Devoir expresses obligation: je dois respecter mon préavis."
+    }
+  ]
+}

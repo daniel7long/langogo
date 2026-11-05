@@ -1,0 +1,317 @@
+{
+  "emoji": "🌐",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "plurilinguisme",
+      "ipa": "/ply.ʁi.lɛ̃.gɥism/",
+      "pos": "n.m.",
+      "meaning": "plurilingualism",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le plurilinguisme est un atout.",
+          "en": "Plurilingualism is an asset."
+        },
+        {
+          "target": "Le plurilinguisme est encouragé en Europe.",
+          "en": "Plurilingualism is encouraged in Europe."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "identité",
+      "ipa": "/i.dɑ̃.ti.te/",
+      "pos": "n.f.",
+      "meaning": "identity",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Sa langue fait partie de son identité.",
+          "en": "His language is part of his identity."
+        },
+        {
+          "target": "L'identité culturelle est complexe.",
+          "en": "Cultural identity is complex."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "héritage",
+      "ipa": "/e.ʁi.taʒ/",
+      "pos": "n.m.",
+      "meaning": "heritage",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La langue est un héritage familial.",
+          "en": "Language is a family heritage."
+        },
+        {
+          "target": "Cet héritage se transmet.",
+          "en": "This heritage is passed on."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "immersion",
+      "ipa": "/i.mɛʁ.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "immersion",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'immersion accélère l'apprentissage.",
+          "en": "Immersion speeds up learning."
+        },
+        {
+          "target": "Un séjour en immersion totale.",
+          "en": "A stay in total immersion."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "bilingue",
+      "ipa": "/bi.lɛ̃g/",
+      "pos": "adj.",
+      "meaning": "bilingual",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Ma fille est bilingue.",
+          "en": "My daughter is bilingual."
+        },
+        {
+          "target": "Il grandit dans un foyer bilingue.",
+          "en": "He's growing up in a bilingual household."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "alternance",
+      "ipa": "/al.tɛʁ.nɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "alternation (code-switching)",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'alternance de langues est naturelle.",
+          "en": "Language alternation is natural."
+        },
+        {
+          "target": "Cette alternance révèle des compétences.",
+          "en": "This alternation reveals skills."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "légitime",
+      "ipa": "/le.ʒi.tim/",
+      "pos": "adj.",
+      "meaning": "legitimate",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Cette crainte est légitime.",
+          "en": "This fear is legitimate."
+        },
+        {
+          "target": "Il est légitime de se demander pourquoi.",
+          "en": "It's legitimate to wonder why."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Sociolinguiste",
+      "role": "npc",
+      "text": "Docteure, vous étudiez le plurilinguisme depuis longtemps. Pourquoi est-il un sujet si important aujourd'hui ?",
+      "glosses": [
+        {
+          "text": "plurilinguisme",
+          "pos": "n.m.",
+          "meaning": "plurilingualism"
+        }
+      ],
+      "en": "Doctor, you've studied plurilingualism for a long time. Why is it such an important subject today?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Parce que la majorité de la population mondiale utilise plusieurs langues au quotidien, ce qui contredit l'idée du locuteur monolingue comme norme.",
+      "glosses": [],
+      "en": "Because most of the world's population uses several languages daily, which contradicts the idea of the monolingual speaker as the norm."
+    },
+    {
+      "id": "t3",
+      "speaker": "Sociolinguiste",
+      "role": "npc",
+      "text": "Quels sont les bénéfices cognitifs observés chez les personnes bilingues ?",
+      "glosses": [],
+      "en": "What cognitive benefits are observed in bilingual people?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elles jonglent souvent mieux entre les tâches et résistent aux distractions, mais les résultats varient, et il faut éviter les généralisations hâtives.",
+      "glosses": [],
+      "en": "They often juggle tasks better and resist distractions, but results vary, and hasty generalizations should be avoided."
+    },
+    {
+      "id": "t5",
+      "speaker": "Sociolinguiste",
+      "role": "npc",
+      "text": "Beaucoup de parents craignent que l'éducation bilingue retarde l'apprentissage de leur enfant. Cette crainte est-elle fondée ?",
+      "glosses": [
+        {
+          "text": "bilingue",
+          "pos": "adj.",
+          "meaning": "bilingual"
+        }
+      ],
+      "en": "Many parents fear that bilingual education delays their child's learning. Is that fear justified?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elle est légitime, mais la recherche montre que le retard éventuel est temporaire. À long terme, les enfants bilingues ne sont pas désavantagés.",
+      "glosses": [
+        {
+          "text": "légitime",
+          "pos": "adj.",
+          "meaning": "legitimate"
+        }
+      ],
+      "en": "It's legitimate, but research shows that any delay is temporary. In the long term, bilingual children are not disadvantaged."
+    },
+    {
+      "id": "t7",
+      "speaker": "Sociolinguiste",
+      "role": "npc",
+      "text": "Comment les familles peuvent-elles transmettre leur langue d'origine ?",
+      "glosses": [],
+      "en": "How can families pass on their language of origin?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "En l'utilisant régulièrement à la maison, en lisant, en voyageant. Pour ces familles, la langue est un véritable héritage affectif.",
+      "glosses": [
+        {
+          "text": "héritage",
+          "pos": "n.m.",
+          "meaning": "heritage"
+        }
+      ],
+      "en": "By using it regularly at home, reading, travelling. For these families, the language is a true emotional heritage."
+    },
+    {
+      "id": "t9",
+      "speaker": "Sociolinguiste",
+      "role": "npc",
+      "text": "L'identité passe-t-elle forcément par la langue ?",
+      "glosses": [
+        {
+          "text": "identité",
+          "pos": "n.f.",
+          "meaning": "identity"
+        }
+      ],
+      "en": "Does identity necessarily go through language?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pas forcément. Mais pour beaucoup, perdre sa langue d'origine revient à perdre un fragment de soi, d'où l'importance de sa transmission.",
+      "glosses": [],
+      "en": "Not necessarily. But for many, losing their language of origin amounts to losing a fragment of themselves, hence the importance of passing it on."
+    },
+    {
+      "id": "t11",
+      "speaker": "Sociolinguiste",
+      "role": "npc",
+      "text": "Certains passent d'une langue à l'autre dans la même phrase. Est-ce un signe de confusion ?",
+      "glosses": [],
+      "en": "Some switch from one language to another within the same sentence. Is that a sign of confusion?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Au contraire. Cette alternance obéit à des règles précises et suppose une excellente maîtrise des deux systèmes.",
+      "glosses": [
+        {
+          "text": "alternance",
+          "pos": "n.f.",
+          "meaning": "alternation (code-switching)"
+        }
+      ],
+      "en": "On the contrary. This alternation follows precise rules and requires excellent mastery of both systems."
+    },
+    {
+      "id": "t13",
+      "speaker": "Sociolinguiste",
+      "role": "npc",
+      "text": "Que pensez-vous de l'apprentissage en immersion, par exemple dans des écoles où l'on étudie les matières scolaires dans la langue cible ?",
+      "glosses": [
+        {
+          "text": "immersion",
+          "pos": "n.f.",
+          "meaning": "immersion"
+        }
+      ],
+      "en": "What do you think of immersion learning, for example in schools where school subjects are studied in the target language?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Les résultats sont généralement très bons, à condition que les enseignants soient formés et que la langue maternelle des élèves reste valorisée.",
+      "glosses": [],
+      "en": "The results are generally very good, provided teachers are trained and pupils' mother tongue remains valued."
+    },
+    {
+      "id": "t15",
+      "speaker": "Sociolinguiste",
+      "role": "npc",
+      "text": "Quel message voudriez-vous adresser à ceux qui apprennent une langue étrangère à l'âge adulte ?",
+      "glosses": [],
+      "en": "What message would you like to send to those learning a foreign language in adulthood?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Qu'il n'est jamais trop tard. Chaque nouvelle langue ouvre une manière de voir le monde, et l'erreur fait partie du chemin.",
+      "glosses": [],
+      "en": "That it's never too late. Every new language opens a way of seeing the world, and making mistakes is part of the path."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "plurilinguisme",
+      "tip": "Six beats: ply-ʁi-lɛ̃-gɥis-M"
+    },
+    {
+      "id": "w2",
+      "text": "bilingue",
+      "tip": "Say bi-LɛN-g, with the u silent"
+    }
+  ]
+}

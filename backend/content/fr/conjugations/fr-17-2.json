@@ -1,0 +1,91 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "falloir",
+      "ipa": "/fa.lwaʁ/",
+      "pos": "v.",
+      "meaning": "to be necessary",
+      "tense": "Impersonal forms",
+      "forms": [
+        {
+          "p": "il (present)",
+          "f": "il faut",
+          "ipa": "/il fo/"
+        },
+        {
+          "p": "il (conditional)",
+          "f": "il faudrait",
+          "ipa": "/il fo.dʁɛ/"
+        },
+        {
+          "p": "il (future)",
+          "f": "il faudra",
+          "ipa": "/il fo.dʁa/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il faudrait que les émissions baissent.",
+          "en": "Emissions would need to fall."
+        },
+        {
+          "target": "Il faudrait agir vite.",
+          "en": "We would need to act fast."
+        }
+      ],
+      "note": "Il faudrait que + subjunctive: expresses an urgent recommendation."
+    },
+    {
+      "id": "c2",
+      "word": "baisser",
+      "ipa": "/bɛ.se/",
+      "pos": "v.",
+      "meaning": "to decrease",
+      "tense": "Subjunctive",
+      "forms": [
+        {
+          "p": "que je",
+          "f": "baisse",
+          "ipa": "/kə ʒə bɛs/"
+        },
+        {
+          "p": "que tu",
+          "f": "baisses",
+          "ipa": "/kə ty bɛs/"
+        },
+        {
+          "p": "qu'il / qu'elle",
+          "f": "baisse",
+          "ipa": "/kil bɛs/"
+        },
+        {
+          "p": "que nous",
+          "f": "baissions",
+          "ipa": "/kə nu bɛ.sjɔ̃/"
+        },
+        {
+          "p": "que vous",
+          "f": "baissiez",
+          "ipa": "/kə vu bɛ.sje/"
+        },
+        {
+          "p": "qu'ils / qu'elles",
+          "f": "baissent",
+          "ipa": "/kil bɛs/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il faut que les émissions baissent.",
+          "en": "Emissions must fall."
+        },
+        {
+          "target": "Il faut que nous baissions la consommation.",
+          "en": "We must reduce consumption."
+        }
+      ],
+      "note": "Subjunctive after il faudrait que."
+    }
+  ]
+}

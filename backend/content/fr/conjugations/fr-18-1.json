@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "emprunter",
+      "ipa": "/ɑ̃.pʁœ̃.te/",
+      "pos": "v.",
+      "meaning": "to borrow",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "emprunte",
+          "ipa": "/ʒɑ̃.pʁœ̃t/"
+        },
+        {
+          "p": "tu",
+          "f": "empruntes",
+          "ipa": "/ty ɑ̃.pʁœ̃t/"
+        },
+        {
+          "p": "il / elle",
+          "f": "emprunte",
+          "ipa": "/il ɑ̃.pʁœ̃t/"
+        },
+        {
+          "p": "nous",
+          "f": "empruntons",
+          "ipa": "/nu zɑ̃.pʁœ̃.tɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "empruntez",
+          "ipa": "/vu zɑ̃.pʁœ̃.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "empruntent",
+          "ipa": "/il zɑ̃.pʁœ̃t/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Chaque langue emprunte.",
+          "en": "Every language borrows."
+        },
+        {
+          "target": "Nous empruntons des mots.",
+          "en": "We borrow words."
+        }
+      ],
+      "note": "Chaque langue emprunte = every language borrows."
+    },
+    {
+      "id": "c2",
+      "word": "déplorer",
+      "ipa": "/de.plɔ.ʁe/",
+      "pos": "v.",
+      "meaning": "to lament",
+      "tense": "Imparfait",
+      "forms": [
+        {
+          "p": "je",
+          "f": "déplorais",
+          "ipa": "/ʒə de.plɔ.ʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "déplorais",
+          "ipa": "/ty de.plɔ.ʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "déplorait",
+          "ipa": "/il de.plɔ.ʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "déplorions",
+          "ipa": "/nu de.plɔ.ʁjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "déploriez",
+          "ipa": "/vu de.plɔ.ʁje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "déploraient",
+          "ipa": "/il de.plɔ.ʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On déplorait déjà cette influence.",
+          "en": "People already lamented this influence."
+        },
+        {
+          "target": "Ils déploraient la situation.",
+          "en": "They lamented the situation."
+        }
+      ],
+      "note": "Imparfait: habitual or background past."
+    }
+  ]
+}

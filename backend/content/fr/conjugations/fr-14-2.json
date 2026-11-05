@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, to be able",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "peux",
+          "ipa": "/ʒə pø/"
+        },
+        {
+          "p": "tu",
+          "f": "peux",
+          "ipa": "/ty pø/"
+        },
+        {
+          "p": "il / elle",
+          "f": "peut",
+          "ipa": "/il pø/"
+        },
+        {
+          "p": "nous",
+          "f": "pouvons",
+          "ipa": "/nu pu.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pouvez",
+          "ipa": "/vu pu.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "peuvent",
+          "ipa": "/il pœv/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ils peuvent créer une addiction.",
+          "en": "They can create an addiction."
+        },
+        {
+          "target": "Que peut-on faire ?",
+          "en": "What can be done?"
+        }
+      ],
+      "note": "Pouvoir often expresses possibility: ils peuvent créer une addiction."
+    },
+    {
+      "id": "c2",
+      "word": "risquer",
+      "ipa": "/ʁis.ke/",
+      "pos": "v.",
+      "meaning": "to risk",
+      "tense": "Conditional",
+      "forms": [
+        {
+          "p": "je",
+          "f": "risquerais",
+          "ipa": "/ʒə ʁis.ke.ʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "risquerais",
+          "ipa": "/ty ʁis.ke.ʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "risquerait",
+          "ipa": "/il ʁis.ke.ʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "risquerions",
+          "ipa": "/nu ʁis.ke.ʁjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "risqueriez",
+          "ipa": "/vu ʁis.ke.ʁje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "risqueraient",
+          "ipa": "/il ʁis.ke.ʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Une régulation excessive risquerait de limiter la liberté.",
+          "en": "Excessive regulation could limit freedom."
+        },
+        {
+          "target": "Cela risquerait de poser problème.",
+          "en": "That could cause problems."
+        }
+      ],
+      "note": "Conditional expresses a possible consequence."
+    }
+  ]
+}

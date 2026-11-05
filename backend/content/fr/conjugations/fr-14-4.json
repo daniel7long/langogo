@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "permettre",
+      "ipa": "/pɛʁ.mɛtr/",
+      "pos": "v.",
+      "meaning": "to allow, enable",
+      "tense": "Conditional",
+      "forms": [
+        {
+          "p": "je",
+          "f": "permettrais",
+          "ipa": "/ʒə pɛʁ.mɛ.ʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "permettrais",
+          "ipa": "/ty pɛʁ.mɛ.ʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "permettrait",
+          "ipa": "/il pɛʁ.mɛ.ʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "permettrions",
+          "ipa": "/nu pɛʁ.mɛ.ʁjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "permettriez",
+          "ipa": "/vu pɛʁ.mɛ.ʁje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "permettraient",
+          "ipa": "/il pɛʁ.mɛ.ʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Cela permettrait de sensibiliser vos collègues.",
+          "en": "That would help raise your colleagues' awareness."
+        },
+        {
+          "target": "Cette aide permettrait de manger.",
+          "en": "This help would allow people to eat."
+        }
+      ],
+      "note": "Cela permettrait de + infinitive = That would make it possible to…"
+    },
+    {
+      "id": "c2",
+      "word": "s'engager",
+      "ipa": "/sɑ̃.ga.ʒe/",
+      "pos": "v.",
+      "meaning": "to get involved",
+      "tense": "Passé composé (reflexive)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "me suis engagé(e)",
+          "ipa": "/ʒə mə sɥi ɑ̃.ga.ʒe/"
+        },
+        {
+          "p": "tu",
+          "f": "t'es engagé(e)",
+          "ipa": "/ty tɛ ɑ̃.ga.ʒe/"
+        },
+        {
+          "p": "il / elle",
+          "f": "s'est engagé(e)",
+          "ipa": "/il sɛ ɑ̃.ga.ʒe/"
+        },
+        {
+          "p": "nous",
+          "f": "nous sommes engagé(e)s",
+          "ipa": "/nu nu sɔm ɑ̃.ga.ʒe/"
+        },
+        {
+          "p": "vous",
+          "f": "vous êtes engagé(e)(s)",
+          "ipa": "/vu vu zɛt ɑ̃.ga.ʒe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "se sont engagés",
+          "ipa": "/il sə sɔ̃ ɑ̃.ga.ʒe/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Elle s'est engagée dans l'association.",
+          "en": "She got involved in the association."
+        },
+        {
+          "target": "Je me suis engagé il y a un an.",
+          "en": "I got involved a year ago."
+        }
+      ],
+      "note": "Reflexive verbs use être: je me suis engagé."
+    }
+  ]
+}

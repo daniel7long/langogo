@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to owe; must",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "dois",
+          "ipa": "/ʒə dwa/"
+        },
+        {
+          "p": "tu",
+          "f": "dois",
+          "ipa": "/ty dwa/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "doit",
+          "ipa": "/il dwa/"
+        },
+        {
+          "p": "nous",
+          "f": "devons",
+          "ipa": "/nu də.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "devez",
+          "ipa": "/vu də.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "doivent",
+          "ipa": "/il dwav/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Que nous devons-nous les uns aux autres ?",
+          "en": "What do we owe each other?"
+        },
+        {
+          "target": "Il doit respecter le secret.",
+          "en": "He must respect secrecy."
+        }
+      ],
+      "note": "Que nous devons-nous les uns aux autres ? = What do we owe one another?"
+    },
+    {
+      "id": "c2",
+      "word": "comprendre",
+      "ipa": "/kɔ̃.pʁɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to understand",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "comprends",
+          "ipa": "/ʒə kɔ̃.pʁɑ̃/"
+        },
+        {
+          "p": "tu",
+          "f": "comprends",
+          "ipa": "/ty kɔ̃.pʁɑ̃/"
+        },
+        {
+          "p": "il / elle",
+          "f": "comprend",
+          "ipa": "/il kɔ̃.pʁɑ̃/"
+        },
+        {
+          "p": "nous",
+          "f": "comprenons",
+          "ipa": "/nu kɔ̃.pʁə.nɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "comprenez",
+          "ipa": "/vu kɔ̃.pʁə.ne/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "comprennent",
+          "ipa": "/il kɔ̃.pʁɛn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On est libre quand on comprend ses choix.",
+          "en": "One is free when one understands one's choices."
+        },
+        {
+          "target": "Nous comprenons le dilemme.",
+          "en": "We understand the dilemma."
+        }
+      ],
+      "note": "Conjugated like prendre."
+    }
+  ]
+}

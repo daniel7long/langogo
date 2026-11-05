@@ -1,0 +1,328 @@
+{
+  "emoji": "🚀",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "exploration",
+      "ipa": "/ɛk.splɔ.ʁa.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "exploration",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'exploration spatiale fascine.",
+          "en": "Space exploration fascinates."
+        },
+        {
+          "target": "Cette exploration dure dix ans.",
+          "en": "This exploration lasts ten years."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "financement",
+      "ipa": "/fi.nɑ̃s.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "funding",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le financement public diminue.",
+          "en": "Public funding is decreasing."
+        },
+        {
+          "target": "Le financement de la mission est assuré.",
+          "en": "The mission's funding is secured."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "retombées",
+      "ipa": "/ʁə.tɔ̃.be/",
+      "pos": "n.f.pl.",
+      "meaning": "spin-offs, benefits",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Les retombées technologiques sont nombreuses.",
+          "en": "The technological spin-offs are numerous."
+        },
+        {
+          "target": "Les retombées économiques restent incertaines.",
+          "en": "The economic benefits remain uncertain."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "mission",
+      "ipa": "/mi.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "mission",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La mission vers Mars est prévue.",
+          "en": "The Mars mission is planned."
+        },
+        {
+          "target": "Cette mission est habitée.",
+          "en": "This mission is crewed."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "débris",
+      "ipa": "/de.bʁi/",
+      "pos": "n.m.pl.",
+      "meaning": "debris",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Les débris menacent les satellites.",
+          "en": "Debris threatens satellites."
+        },
+        {
+          "target": "Des débris spatiaux tombent.",
+          "en": "Space debris is falling."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "colonisation",
+      "ipa": "/kɔ.lɔ.ni.za.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "colonization",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La colonisation de Mars est-elle réaliste ?",
+          "en": "Is the colonization of Mars realistic?"
+        },
+        {
+          "target": "La colonisation spatiale divise.",
+          "en": "Space colonization is divisive."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "priorités",
+      "ipa": "/pʁi.jɔ.ʁi.te/",
+      "pos": "n.f.pl.",
+      "meaning": "priorities",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Nos priorités ont changé.",
+          "en": "Our priorities have changed."
+        },
+        {
+          "target": "Établissons des priorités claires.",
+          "en": "Let's set clear priorities."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Astrophysicien",
+      "role": "npc",
+      "text": "Monsieur, la nouvelle mission d'exploration lunaire vient d'être annoncée. Pourquoi retourner sur la Lune cinquante ans après ?",
+      "glosses": [
+        {
+          "text": "exploration",
+          "pos": "n.f.",
+          "meaning": "exploration"
+        },
+        {
+          "text": "mission",
+          "pos": "n.f.",
+          "meaning": "mission"
+        }
+      ],
+      "en": "Sir, the new lunar exploration mission has just been announced. Why return to the Moon fifty years later?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Parce que nous disposons de technologies bien plus avancées, et que la Lune peut servir de base pour des missions plus lointaines.",
+      "glosses": [],
+      "en": "Because we now have far more advanced technologies, and the Moon can serve as a base for more distant missions."
+    },
+    {
+      "id": "t3",
+      "speaker": "Astrophysicien",
+      "role": "npc",
+      "text": "Le financement de ces projets est colossal. Est-il justifiable alors que la Terre affronte tant de problèmes ?",
+      "glosses": [
+        {
+          "text": "financement",
+          "pos": "n.m.",
+          "meaning": "funding"
+        }
+      ],
+      "en": "The funding for these projects is colossal. Is it justifiable when the Earth faces so many problems?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est la question qu'on nous pose le plus souvent. Mais le budget spatial représente une infime fraction des dépenses publiques.",
+      "glosses": [],
+      "en": "It's the question we're asked most often. But the space budget represents a tiny fraction of public spending."
+    },
+    {
+      "id": "t5",
+      "speaker": "Astrophysicien",
+      "role": "npc",
+      "text": "Quelles sont les retombées concrètes de la recherche spatiale pour le quotidien ?",
+      "glosses": [
+        {
+          "text": "retombées",
+          "pos": "n.f.pl.",
+          "meaning": "spin-offs, benefits"
+        }
+      ],
+      "en": "What are the concrete spin-offs of space research for daily life?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elles sont nombreuses : le GPS, les prévisions météorologiques, l'observation du climat, et même certains équipements médicaux.",
+      "glosses": [],
+      "en": "They are numerous: GPS, weather forecasting, climate observation, and even some medical equipment."
+    },
+    {
+      "id": "t7",
+      "speaker": "Astrophysicien",
+      "role": "npc",
+      "text": "Certains rêvent d'une mission habitée vers Mars. Est-ce réaliste ?",
+      "glosses": [
+        {
+          "text": "mission",
+          "pos": "n.f.",
+          "meaning": "mission"
+        }
+      ],
+      "en": "Some dream of a crewed mission to Mars. Is that realistic?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Techniquement, c'est envisageable d'ici une vingtaine d'années, mais les défis sont immenses : radiations, durée du voyage, soutien psychologique de l'équipage.",
+      "glosses": [],
+      "en": "Technically, it's conceivable within about twenty years, but the challenges are immense: radiation, trip duration, psychological support for the crew."
+    },
+    {
+      "id": "t9",
+      "speaker": "Astrophysicien",
+      "role": "npc",
+      "text": "Et la colonisation de Mars, comme le proposent certains entrepreneurs ?",
+      "glosses": [
+        {
+          "text": "colonisation",
+          "pos": "n.f.",
+          "meaning": "colonization"
+        }
+      ],
+      "en": "And the colonization of Mars, as some entrepreneurs propose?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je suis sceptique. Rendre une autre planète habitable est bien plus complexe que préserver celle que nous avons déjà.",
+      "glosses": [],
+      "en": "I'm skeptical. Making another planet habitable is far more complex than preserving the one we already have."
+    },
+    {
+      "id": "t11",
+      "speaker": "Astrophysicien",
+      "role": "npc",
+      "text": "Le secteur privé joue désormais un rôle majeur. Est-ce une bonne chose ?",
+      "glosses": [],
+      "en": "The private sector now plays a major role. Is that a good thing?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Il accélère l'innovation et réduit les coûts, mais il faut éviter que la logique du profit dicte les priorités scientifiques.",
+      "glosses": [
+        {
+          "text": "priorités",
+          "pos": "n.f.pl.",
+          "meaning": "priorities"
+        }
+      ],
+      "en": "It accelerates innovation and reduces costs, but we must avoid profit logic dictating scientific priorities."
+    },
+    {
+      "id": "t13",
+      "speaker": "Astrophysicien",
+      "role": "npc",
+      "text": "On parle aussi beaucoup des débris spatiaux. Représentent-ils un danger réel ?",
+      "glosses": [
+        {
+          "text": "débris",
+          "pos": "n.m.pl.",
+          "meaning": "debris"
+        }
+      ],
+      "en": "There's also a lot of talk about space debris. Do they represent a real danger?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui. Des milliers de fragments orbitent autour de la Terre à très grande vitesse et menacent les satellites dont nous dépendons.",
+      "glosses": [],
+      "en": "Yes. Thousands of fragments orbit the Earth at very high speed and threaten the satellites we depend on."
+    },
+    {
+      "id": "t15",
+      "speaker": "Astrophysicien",
+      "role": "npc",
+      "text": "Quelles devraient être, selon vous, les priorités de la recherche spatiale ?",
+      "glosses": [
+        {
+          "text": "priorités",
+          "pos": "n.f.pl.",
+          "meaning": "priorities"
+        }
+      ],
+      "en": "What should the priorities of space research be, in your view?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Comprendre notre planète et notre climat, détecter les menaces et poursuivre la quête de vie ailleurs. Regarder le ciel nous aide à mieux regarder la Terre.",
+      "glosses": [],
+      "en": "Understanding our planet and climate, detecting threats and continuing the search for life elsewhere. Looking at the sky helps us look better at the Earth."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "exploration",
+      "tip": "Five beats: ɛk-splɔ-ʁa-SJɔN"
+    },
+    {
+      "id": "w2",
+      "text": "retombées",
+      "tip": "Say ʁə-tɔ̃-BE"
+    }
+  ]
+}

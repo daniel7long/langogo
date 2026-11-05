@@ -1,0 +1,283 @@
+{
+  "emoji": "📚",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "roman",
+      "ipa": "/ʁɔ.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "novel",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Ce roman est captivant.",
+          "en": "This novel is captivating."
+        },
+        {
+          "target": "Je lis un roman policier.",
+          "en": "I'm reading a detective novel."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "auteur",
+      "ipa": "/o.tœʁ/",
+      "pos": "n.m.",
+      "meaning": "author",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Cet auteur écrit depuis trente ans.",
+          "en": "This author has been writing for thirty years."
+        },
+        {
+          "target": "L'auteur signe ses livres.",
+          "en": "The author signs his books."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "récit",
+      "ipa": "/ʁe.si/",
+      "pos": "n.m.",
+      "meaning": "narrative, story",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le récit est à la première personne.",
+          "en": "The narrative is in the first person."
+        },
+        {
+          "target": "Un récit poignant.",
+          "en": "A gripping story."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "personnage",
+      "ipa": "/pɛʁ.sɔ.naʒ/",
+      "pos": "n.m.",
+      "meaning": "character",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le personnage principal est attachant.",
+          "en": "The main character is endearing."
+        },
+        {
+          "target": "Les personnages sont crédibles.",
+          "en": "The characters are believable."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "style",
+      "ipa": "/stil/",
+      "pos": "n.m.",
+      "meaning": "style",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Son style est très poétique.",
+          "en": "His style is very poetic."
+        },
+        {
+          "target": "J'aime ce style direct.",
+          "en": "I like this direct style."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "prix littéraire",
+      "ipa": "/pʁi li.te.ʁɛʁ/",
+      "pos": "n.m.",
+      "meaning": "literary prize",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Il a reçu un prix littéraire.",
+          "en": "He received a literary prize."
+        },
+        {
+          "target": "Ce prix littéraire est prestigieux.",
+          "en": "This literary prize is prestigious."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "recommander",
+      "ipa": "/ʁə.kɔ.mɑ̃.de/",
+      "pos": "v.",
+      "meaning": "to recommend",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je vous recommande ce livre.",
+          "en": "I recommend this book to you."
+        },
+        {
+          "target": "Qui t'a recommandé ce roman ?",
+          "en": "Who recommended this novel to you?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Libraire",
+      "role": "npc",
+      "text": "Bonjour, je cherche un bon roman à offrir à ma mère. Elle aime les histoires qui font réfléchir.",
+      "glosses": [
+        {
+          "text": "roman",
+          "pos": "n.m.",
+          "meaning": "novel"
+        }
+      ],
+      "en": "Hello, I'm looking for a good novel to give my mother. She likes stories that make you think."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Très bien. Aime-t-elle les récits historiques ou plutôt les romans contemporains ?",
+      "glosses": [],
+      "en": "Very good. Does she like historical narratives or rather contemporary novels?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Libraire",
+      "role": "npc",
+      "text": "Plutôt contemporains, avec des personnages complexes et une belle écriture.",
+      "glosses": [],
+      "en": "Rather contemporary, with complex characters and beautiful writing."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Alors je peux vous recommander le dernier livre de cette auteure, qui vient de recevoir un prix littéraire.",
+      "glosses": [
+        {
+          "text": "prix littéraire",
+          "pos": "n.m.",
+          "meaning": "literary prize"
+        },
+        {
+          "text": "recommander",
+          "pos": "v.",
+          "meaning": "to recommend"
+        }
+      ],
+      "en": "Then I can recommend this author's latest book, which has just received a literary prize."
+    },
+    {
+      "id": "t5",
+      "speaker": "Libraire",
+      "role": "npc",
+      "text": "De quoi parle-t-il, sans trop en dévoiler ?",
+      "glosses": [],
+      "en": "What is it about, without giving too much away?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est l'histoire d'une femme qui retourne dans son village natal après trente ans d'absence.",
+      "glosses": [],
+      "en": "It's the story of a woman who returns to her native village after thirty years away."
+    },
+    {
+      "id": "t7",
+      "speaker": "Libraire",
+      "role": "npc",
+      "text": "Le personnage principal est très attachant, et le style de l'auteure est à la fois simple et poétique.",
+      "glosses": [
+        {
+          "text": "personnage",
+          "pos": "n.m.",
+          "meaning": "character"
+        },
+        {
+          "text": "style",
+          "pos": "n.m.",
+          "meaning": "style"
+        }
+      ],
+      "en": "The main character is very endearing, and the author's style is both simple and poetic."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Est-ce que c'est un livre facile à lire ? Ma mère n'aime pas les phrases trop longues.",
+      "glosses": [],
+      "en": "Is it an easy book to read? My mother doesn't like sentences that are too long."
+    },
+    {
+      "id": "t9",
+      "speaker": "Libraire",
+      "role": "npc",
+      "text": "Oui, les chapitres sont courts, et le récit avance vite. On le lit presque d'une traite.",
+      "glosses": [
+        {
+          "text": "récit",
+          "pos": "n.m.",
+          "meaning": "narrative, story"
+        }
+      ],
+      "en": "Yes, the chapters are short, and the story moves fast. You read it almost in one go."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Parfait, c'est exactement ce que je cherche. Vous en avez un exemplaire en poche ?",
+      "glosses": [],
+      "en": "Perfect, that's exactly what I'm looking for. Do you have a copy in paperback?"
+    },
+    {
+      "id": "t11",
+      "speaker": "Libraire",
+      "role": "npc",
+      "text": "Oui, le voici. Si elle l'aime, je pourrai vous conseiller deux autres romans du même auteur.",
+      "glosses": [
+        {
+          "text": "auteur",
+          "pos": "n.m.",
+          "meaning": "author"
+        }
+      ],
+      "en": "Yes, here it is. If she likes it, I'll be able to suggest two other novels by the same author."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci, je reviendrai vous le dire. Pouvez-vous l'emballer dans un papier cadeau ?",
+      "glosses": [],
+      "en": "Thanks, I'll come back to tell you. Can you wrap it in gift paper?"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "auteur",
+      "tip": "Say o-TŒʁ"
+    },
+    {
+      "id": "w2",
+      "text": "personnage",
+      "tip": "Say pɛʁ-sɔ-NAʒ"
+    }
+  ]
+}

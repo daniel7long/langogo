@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "réclamer",
+      "ipa": "/ʁe.kla.me/",
+      "pos": "v.",
+      "meaning": "to demand",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "réclame",
+          "ipa": "/ʒə ʁe.klam/"
+        },
+        {
+          "p": "tu",
+          "f": "réclames",
+          "ipa": "/ty ʁe.klam/"
+        },
+        {
+          "p": "il / elle",
+          "f": "réclame",
+          "ipa": "/il ʁe.klam/"
+        },
+        {
+          "p": "nous",
+          "f": "réclamons",
+          "ipa": "/nu ʁe.kla.mɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "réclamez",
+          "ipa": "/vu ʁe.kla.me/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "réclament",
+          "ipa": "/il ʁe.klam/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous réclamons plus d'équité.",
+          "en": "We demand more fairness."
+        },
+        {
+          "target": "Ils réclament une augmentation.",
+          "en": "They demand a raise."
+        }
+      ],
+      "note": "Regular -er verb."
+    },
+    {
+      "id": "c2",
+      "word": "pénaliser",
+      "ipa": "/pe.na.li.ze/",
+      "pos": "v.",
+      "meaning": "to penalize",
+      "tense": "Conditional",
+      "forms": [
+        {
+          "p": "je",
+          "f": "pénaliserais",
+          "ipa": "/ʒə pe.na.li.ze.ʁɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "pénaliserais",
+          "ipa": "/ty pe.na.li.ze.ʁɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "pénaliserait",
+          "ipa": "/il pe.na.li.ze.ʁɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "pénaliserions",
+          "ipa": "/nu pe.na.li.ze.ʁjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pénaliseriez",
+          "ipa": "/vu pe.na.li.ze.ʁje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "pénaliseraient",
+          "ipa": "/il pe.na.li.ze.ʁɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Cela pénaliserait la compétitivité.",
+          "en": "That would penalize competitiveness."
+        },
+        {
+          "target": "Ce choix nous pénaliserait.",
+          "en": "That choice would penalize us."
+        }
+      ],
+      "note": "Conditional of a hypothetical consequence."
+    }
+  ]
+}

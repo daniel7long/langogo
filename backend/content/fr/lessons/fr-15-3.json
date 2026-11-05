@@ -1,0 +1,285 @@
+{
+  "emoji": "🥖",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "gastronomie",
+      "ipa": "/gas.tʁɔ.nɔ.mi/",
+      "pos": "n.f.",
+      "meaning": "gastronomy",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "La gastronomie française est célèbre.",
+          "en": "French gastronomy is famous."
+        },
+        {
+          "target": "J'adore la gastronomie.",
+          "en": "I love gastronomy."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "terroir",
+      "ipa": "/tɛ.ʁwaʁ/",
+      "pos": "n.m.",
+      "meaning": "regional land, local produce",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je cuisine les produits du terroir.",
+          "en": "I cook local produce."
+        },
+        {
+          "target": "Ce fromage est un produit du terroir.",
+          "en": "This cheese is a local product."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "saveur",
+      "ipa": "/sa.vœʁ/",
+      "pos": "n.f.",
+      "meaning": "flavor",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "La saveur est délicate.",
+          "en": "The flavor is delicate."
+        },
+        {
+          "target": "Chaque plat a sa saveur.",
+          "en": "Each dish has its flavor."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "recette",
+      "ipa": "/ʁə.sɛt/",
+      "pos": "n.f.",
+      "meaning": "recipe",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Cette recette vient de ma grand-mère.",
+          "en": "This recipe comes from my grandmother."
+        },
+        {
+          "target": "Suivez la recette.",
+          "en": "Follow the recipe."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "mijoter",
+      "ipa": "/mi.ʒɔ.te/",
+      "pos": "v.",
+      "meaning": "to simmer",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le plat mijote depuis deux heures.",
+          "en": "The dish has been simmering for two hours."
+        },
+        {
+          "target": "Laissez mijoter doucement.",
+          "en": "Let it simmer gently."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "assaisonner",
+      "ipa": "/a.sɛ.zɔ.ne/",
+      "pos": "v.",
+      "meaning": "to season",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "N'oubliez pas d'assaisonner.",
+          "en": "Don't forget to season."
+        },
+        {
+          "target": "J'assaisonne la salade.",
+          "en": "I'm seasoning the salad."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "héritage",
+      "ipa": "/e.ʁi.taʒ/",
+      "pos": "n.m.",
+      "meaning": "heritage",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "C'est un héritage culinaire.",
+          "en": "It's a culinary heritage."
+        },
+        {
+          "target": "Nous préservons cet héritage.",
+          "en": "We preserve this heritage."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Chef cuisinier",
+      "role": "npc",
+      "text": "Chef, la gastronomie française est classée au patrimoine de l'UNESCO. Que signifie-t-elle pour vous ?",
+      "glosses": [
+        {
+          "text": "gastronomie",
+          "pos": "n.f.",
+          "meaning": "gastronomy"
+        }
+      ],
+      "en": "Chef, French gastronomy is listed as UNESCO heritage. What does it mean to you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est bien plus qu'une recette : c'est une manière de partager, de prendre le temps et de transmettre.",
+      "glosses": [
+        {
+          "text": "recette",
+          "pos": "n.f.",
+          "meaning": "recipe"
+        }
+      ],
+      "en": "It's much more than a recipe: it's a way of sharing, taking time and passing things on."
+    },
+    {
+      "id": "t3",
+      "speaker": "Chef cuisinier",
+      "role": "npc",
+      "text": "Vous défendez beaucoup les produits du terroir. Pourquoi est-ce si important ?",
+      "glosses": [
+        {
+          "text": "terroir",
+          "pos": "n.m.",
+          "meaning": "regional land, local produce"
+        }
+      ],
+      "en": "You strongly defend local produce. Why is it so important?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Parce qu'un produit local, cueilli à maturité, a une saveur que rien ne remplace.",
+      "glosses": [
+        {
+          "text": "saveur",
+          "pos": "n.f.",
+          "meaning": "flavor"
+        }
+      ],
+      "en": "Because a local product, picked ripe, has a flavor nothing can replace."
+    },
+    {
+      "id": "t5",
+      "speaker": "Chef cuisinier",
+      "role": "npc",
+      "text": "Pouvez-vous nous décrire un plat typique de votre région ?",
+      "glosses": [],
+      "en": "Can you describe a typical dish from your region?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Bien sûr. C'est un bœuf bourguignon, qu'il faut laisser mijoter pendant au moins trois heures.",
+      "glosses": [
+        {
+          "text": "mijoter",
+          "pos": "v.",
+          "meaning": "to simmer"
+        }
+      ],
+      "en": "Of course. It's a beef bourguignon, which you have to let simmer for at least three hours."
+    },
+    {
+      "id": "t7",
+      "speaker": "Chef cuisinier",
+      "role": "npc",
+      "text": "Trois heures ! Et le secret de la réussite, c'est la patience ?",
+      "glosses": [],
+      "en": "Three hours! And the secret of success is patience?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, la patience, un bon vin, et savoir assaisonner au bon moment, sans en faire trop.",
+      "glosses": [
+        {
+          "text": "assaisonner",
+          "pos": "v.",
+          "meaning": "to season"
+        }
+      ],
+      "en": "Yes, patience, a good wine, and knowing how to season at the right moment, without overdoing it."
+    },
+    {
+      "id": "t9",
+      "speaker": "Chef cuisinier",
+      "role": "npc",
+      "text": "Beaucoup de jeunes cuisinent aujourd'hui avec des plats préparés. Cela vous inquiète-t-il ?",
+      "glosses": [],
+      "en": "Many young people today cook with ready meals. Does that worry you?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Un peu, car on risque de perdre ce savoir-faire. C'est pourquoi j'organise des ateliers dans les écoles.",
+      "glosses": [],
+      "en": "A bit, because we risk losing this know-how. That's why I organize workshops in schools."
+    },
+    {
+      "id": "t11",
+      "speaker": "Chef cuisinier",
+      "role": "npc",
+      "text": "Donc il s'agit de préserver un véritable héritage culinaire ?",
+      "glosses": [
+        {
+          "text": "héritage",
+          "pos": "n.m.",
+          "meaning": "heritage"
+        }
+      ],
+      "en": "So it's about preserving a true culinary heritage?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Exactement, mais aussi de l'adapter : la cuisine vit, elle évolue avec les saisons et avec ceux qui la font.",
+      "glosses": [],
+      "en": "Exactly, but also adapting it: cooking is alive, it evolves with the seasons and with those who make it."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "gastronomie",
+      "tip": "Say gas-tʁɔ-nɔ-MI"
+    },
+    {
+      "id": "w2",
+      "text": "terroir",
+      "tip": "Say tɛ-ʁWAʁ"
+    }
+  ]
+}

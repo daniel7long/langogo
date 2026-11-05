@@ -1,0 +1,86 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "falloir",
+      "ipa": "/fa.lwaʁ/",
+      "pos": "v.",
+      "meaning": "to be necessary",
+      "tense": "Subjunctive trigger",
+      "forms": [
+        {
+          "p": "il",
+          "f": "faut que + subjonctif",
+          "ipa": "/il fo kə/"
+        },
+        {
+          "p": "il",
+          "f": "faudrait que + subjonctif",
+          "ipa": "/il fo.dʁɛ kə/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Faut-il que l'on réforme le système ?",
+          "en": "Must the system be reformed?"
+        },
+        {
+          "target": "Il faudrait que les élus écoutent.",
+          "en": "Elected officials should listen."
+        }
+      ],
+      "note": "Il faut que is followed by the subjunctive."
+    },
+    {
+      "id": "c2",
+      "word": "prendre",
+      "ipa": "/pʁɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to take",
+      "tense": "Subjunctive",
+      "forms": [
+        {
+          "p": "que je",
+          "f": "prenne",
+          "ipa": "/kə ʒə pʁɛn/"
+        },
+        {
+          "p": "que tu",
+          "f": "prennes",
+          "ipa": "/kə ty pʁɛn/"
+        },
+        {
+          "p": "qu'il / qu'elle",
+          "f": "prenne",
+          "ipa": "/kil pʁɛn/"
+        },
+        {
+          "p": "que nous",
+          "f": "prenions",
+          "ipa": "/kə nu pʁə.njɔ̃/"
+        },
+        {
+          "p": "que vous",
+          "f": "preniez",
+          "ipa": "/kə vu pʁə.nje/"
+        },
+        {
+          "p": "qu'ils / qu'elles",
+          "f": "prennent",
+          "ipa": "/kil pʁɛn/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "À condition qu'on les prenne en compte.",
+          "en": "Provided they are taken into account."
+        },
+        {
+          "target": "Il faut que nous prenions une décision.",
+          "en": "We have to make a decision."
+        }
+      ],
+      "note": "The subjunctive follows à condition que: soient prises en compte."
+    }
+  ]
+}

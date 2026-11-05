@@ -1,0 +1,290 @@
+{
+  "emoji": "🏘️",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "voisin",
+      "ipa": "/vwa.zɛ̃/",
+      "pos": "n.m.",
+      "meaning": "neighbor",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Mon voisin est très gentil.",
+          "en": "My neighbor is very kind."
+        },
+        {
+          "target": "Je salue mes voisins.",
+          "en": "I greet my neighbors."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "quartier",
+      "ipa": "/kaʁ.tje/",
+      "pos": "n.m.",
+      "meaning": "neighborhood",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "J'aime mon quartier.",
+          "en": "I love my neighborhood."
+        },
+        {
+          "target": "Ce quartier est calme.",
+          "en": "This area is quiet."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "marché",
+      "ipa": "/maʁ.ʃe/",
+      "pos": "n.m.",
+      "meaning": "market",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Le marché a lieu le samedi.",
+          "en": "The market takes place on Saturday."
+        },
+        {
+          "target": "J'achète des fruits au marché.",
+          "en": "I buy fruit at the market."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "tri",
+      "ipa": "/tʁi/",
+      "pos": "n.m.",
+      "meaning": "sorting (waste)",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Le tri des déchets est obligatoire.",
+          "en": "Waste sorting is mandatory."
+        },
+        {
+          "target": "Je fais le tri chaque semaine.",
+          "en": "I do the sorting every week."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "association",
+      "ipa": "/a.sɔ.sja.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "association, club",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je suis membre d'une association.",
+          "en": "I'm a member of an association."
+        },
+        {
+          "target": "L'association organise une fête.",
+          "en": "The association is organizing a party."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "bénévoles",
+      "ipa": "/be.ne.vɔl/",
+      "pos": "n.m./f.pl.",
+      "meaning": "volunteers",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Nous cherchons des bénévoles.",
+          "en": "We're looking for volunteers."
+        },
+        {
+          "target": "Les bénévoles aident beaucoup.",
+          "en": "Volunteers help a lot."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "réunion",
+      "ipa": "/ʁe.y.njɔ̃/",
+      "pos": "n.f.",
+      "meaning": "meeting",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "La réunion est lundi.",
+          "en": "The meeting is on Monday."
+        },
+        {
+          "target": "Je vais à la réunion.",
+          "en": "I'm going to the meeting."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Voisine",
+      "role": "npc",
+      "text": "Bonjour ! Vous êtes le nouveau voisin du deuxième étage ?",
+      "glosses": [
+        {
+          "text": "voisin",
+          "pos": "n.m.",
+          "meaning": "neighbor"
+        }
+      ],
+      "en": "Hello! Are you the new neighbor on the second floor?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, j'ai emménagé la semaine dernière. Enchanté, je m'appelle Alex.",
+      "glosses": [],
+      "en": "Yes, I moved in last week. Nice to meet you, my name is Alex."
+    },
+    {
+      "id": "t3",
+      "speaker": "Voisine",
+      "role": "npc",
+      "text": "Bienvenue dans le quartier ! Vous verrez, c'est calme et très sympathique.",
+      "glosses": [
+        {
+          "text": "quartier",
+          "pos": "n.m.",
+          "meaning": "neighborhood"
+        }
+      ],
+      "en": "Welcome to the neighborhood! You'll see, it's quiet and very friendly."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci. Il y a un marché dans le coin ?",
+      "glosses": [
+        {
+          "text": "marché",
+          "pos": "n.m.",
+          "meaning": "market"
+        }
+      ],
+      "en": "Thanks. Is there a market nearby?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Voisine",
+      "role": "npc",
+      "text": "Oui, tous les samedis matin sur la place, avec des produits locaux.",
+      "glosses": [],
+      "en": "Yes, every Saturday morning on the square, with local products."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Super. Et pour le tri des déchets, comment ça marche ici ?",
+      "glosses": [
+        {
+          "text": "tri",
+          "pos": "n.m.",
+          "meaning": "sorting (waste)"
+        }
+      ],
+      "en": "Great. And for waste sorting, how does it work here?"
+    },
+    {
+      "id": "t7",
+      "speaker": "Voisine",
+      "role": "npc",
+      "text": "Les bacs jaunes sont pour le plastique et le carton, les verts pour le verre.",
+      "glosses": [],
+      "en": "The yellow bins are for plastic and cardboard, the green ones for glass."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "D'accord. Est-ce qu'il y a des associations dans le quartier ?",
+      "glosses": [
+        {
+          "text": "quartier",
+          "pos": "n.m.",
+          "meaning": "neighborhood"
+        }
+      ],
+      "en": "Okay. Are there any associations in the neighborhood?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Voisine",
+      "role": "npc",
+      "text": "Oui, une association de jardinage partagé. Nous plantons des légumes chaque printemps.",
+      "glosses": [
+        {
+          "text": "association",
+          "pos": "n.f.",
+          "meaning": "association, club"
+        }
+      ],
+      "en": "Yes, a shared gardening association. We plant vegetables every spring."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "J'aimerais bien participer, je suis nouveau et je veux rencontrer des gens.",
+      "glosses": [],
+      "en": "I'd like to take part, I'm new and I want to meet people."
+    },
+    {
+      "id": "t11",
+      "speaker": "Voisine",
+      "role": "npc",
+      "text": "Venez à la réunion du mois prochain, on cherche toujours des bénévoles.",
+      "glosses": [
+        {
+          "text": "bénévoles",
+          "pos": "n.m./f.pl.",
+          "meaning": "volunteers"
+        },
+        {
+          "text": "réunion",
+          "pos": "n.f.",
+          "meaning": "meeting"
+        }
+      ],
+      "en": "Come to next month's meeting, we're always looking for volunteers."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Avec plaisir ! Merci de votre accueil, c'est très gentil.",
+      "glosses": [],
+      "en": "With pleasure! Thank you for your welcome, that's very kind."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "association",
+      "tip": "Say a-sɔ-sja-SJɔN: the ci sounds like 'si'"
+    },
+    {
+      "id": "w2",
+      "text": "quartier",
+      "tip": "Say kaʁ-TJE"
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "emoji": "🏦",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "compte courant",
+      "ipa": "/kɔ̃t ku.ʁɑ̃/",
+      "pos": "n.m.",
+      "meaning": "checking account",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "J'ouvre un compte courant.",
+          "en": "I'm opening a checking account."
+        },
+        {
+          "target": "Mon compte courant est vide.",
+          "en": "My checking account is empty."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "carte bancaire",
+      "ipa": "/kaʁt bɑ̃.kɛʁ/",
+      "pos": "n.f.",
+      "meaning": "bank card",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je paie avec ma carte bancaire.",
+          "en": "I pay with my bank card."
+        },
+        {
+          "target": "J'ai perdu ma carte bancaire.",
+          "en": "I lost my bank card."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "titre de séjour",
+      "ipa": "/titʁ də se.ʒuʁ/",
+      "pos": "n.m.",
+      "meaning": "residence permit",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Il faut un titre de séjour.",
+          "en": "A residence permit is required."
+        },
+        {
+          "target": "Mon titre de séjour expire en mai.",
+          "en": "My residence permit expires in May."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "frais",
+      "ipa": "/fʁɛ/",
+      "pos": "n.m.pl.",
+      "meaning": "fees",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Il y a des frais de gestion.",
+          "en": "There are management fees."
+        },
+        {
+          "target": "Les frais sont élevés.",
+          "en": "The fees are high."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "retirer",
+      "ipa": "/ʁə.ti.ʁe/",
+      "pos": "v.",
+      "meaning": "to withdraw",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je retire de l'argent.",
+          "en": "I'm withdrawing money."
+        },
+        {
+          "target": "On peut retirer cinq cents euros.",
+          "en": "You can withdraw five hundred euros."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "virements",
+      "ipa": "/viʁ.mɑ̃/",
+      "pos": "n.m.pl.",
+      "meaning": "transfers",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Les virements sont gratuits.",
+          "en": "Transfers are free."
+        },
+        {
+          "target": "Je fais deux virements par mois.",
+          "en": "I make two transfers a month."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "solde",
+      "ipa": "/sɔld/",
+      "pos": "n.m.",
+      "meaning": "balance",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je vérifie mon solde.",
+          "en": "I check my balance."
+        },
+        {
+          "target": "Le solde est positif.",
+          "en": "The balance is positive."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Banquier",
+      "role": "npc",
+      "text": "Bonjour, que puis-je faire pour vous ?",
+      "glosses": [],
+      "en": "Hello, what can I do for you?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonjour, je viens d'arriver en France et je voudrais ouvrir un compte bancaire.",
+      "glosses": [],
+      "en": "Hello, I've just arrived in France and I'd like to open a bank account."
+    },
+    {
+      "id": "t3",
+      "speaker": "Banquier",
+      "role": "npc",
+      "text": "Bien sûr. Vous souhaitez un compte courant ou aussi un livret d'épargne ?",
+      "glosses": [
+        {
+          "text": "compte courant",
+          "pos": "n.m.",
+          "meaning": "checking account"
+        }
+      ],
+      "en": "Of course. Do you want a checking account or also a savings book?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Un compte courant d'abord, avec une carte bancaire.",
+      "glosses": [
+        {
+          "text": "compte courant",
+          "pos": "n.m.",
+          "meaning": "checking account"
+        },
+        {
+          "text": "carte bancaire",
+          "pos": "n.f.",
+          "meaning": "bank card"
+        }
+      ],
+      "en": "A checking account first, with a bank card."
+    },
+    {
+      "id": "t5",
+      "speaker": "Banquier",
+      "role": "npc",
+      "text": "Très bien. Vous avez un justificatif de domicile et votre titre de séjour ?",
+      "glosses": [
+        {
+          "text": "titre de séjour",
+          "pos": "n.m.",
+          "meaning": "residence permit"
+        }
+      ],
+      "en": "Very well. Do you have proof of address and your residence permit?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, voici mon passeport, mon visa et le contrat de location.",
+      "glosses": [],
+      "en": "Yes, here is my passport, my visa and the rental contract."
+    },
+    {
+      "id": "t7",
+      "speaker": "Banquier",
+      "role": "npc",
+      "text": "Parfait. Il y a des frais de tenue de compte de deux euros par mois.",
+      "glosses": [
+        {
+          "text": "frais",
+          "pos": "n.m.pl.",
+          "meaning": "fees"
+        }
+      ],
+      "en": "Perfect. There's an account maintenance fee of two euros a month."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Est-ce qu'il y a des frais pour retirer de l'argent dans un autre pays ?",
+      "glosses": [
+        {
+          "text": "frais",
+          "pos": "n.m.pl.",
+          "meaning": "fees"
+        },
+        {
+          "text": "retirer",
+          "pos": "v.",
+          "meaning": "to withdraw"
+        }
+      ],
+      "en": "Are there fees to withdraw money in another country?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Banquier",
+      "role": "npc",
+      "text": "Oui, une petite commission, mais les virements dans la zone euro sont gratuits.",
+      "glosses": [
+        {
+          "text": "virements",
+          "pos": "n.m.pl.",
+          "meaning": "transfers"
+        }
+      ],
+      "en": "Yes, a small commission, but transfers within the euro zone are free."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je pourrai consulter mon solde depuis une application mobile ?",
+      "glosses": [
+        {
+          "text": "solde",
+          "pos": "n.m.",
+          "meaning": "balance"
+        }
+      ],
+      "en": "Will I be able to check my balance from a mobile app?"
+    },
+    {
+      "id": "t11",
+      "speaker": "Banquier",
+      "role": "npc",
+      "text": "Bien entendu. Vous recevrez votre carte sous une semaine et votre code par courrier.",
+      "glosses": [],
+      "en": "Of course. You'll receive your card within a week and your code by mail."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci beaucoup. Je signe où, s'il vous plaît ?",
+      "glosses": [],
+      "en": "Thank you very much. Where do I sign, please?"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "virements",
+      "tip": "Say viʁ-MɑN, with a nasal ending"
+    },
+    {
+      "id": "w2",
+      "text": "solde",
+      "tip": "The l is clear: sɔld"
+    }
+  ]
+}

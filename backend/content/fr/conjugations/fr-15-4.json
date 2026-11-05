@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "construire",
+      "ipa": "/kɔ̃s.tʁɥiʁ/",
+      "pos": "v.",
+      "meaning": "to build",
+      "tense": "Passé composé (passive)",
+      "forms": [
+        {
+          "p": "il",
+          "f": "a été construit",
+          "ipa": "/il a e.te kɔ̃s.tʁɥi/"
+        },
+        {
+          "p": "elle",
+          "f": "a été construite",
+          "ipa": "/ɛl a e.te kɔ̃s.tʁɥit/"
+        },
+        {
+          "p": "ils",
+          "f": "ont été construits",
+          "ipa": "/il zɔ̃ e.te kɔ̃s.tʁɥi/"
+        },
+        {
+          "p": "elles",
+          "f": "ont été construites",
+          "ipa": "/ɛl zɔ̃ e.te kɔ̃s.tʁɥit/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il a été construit au quinzième siècle.",
+          "en": "It was built in the fifteenth century."
+        },
+        {
+          "target": "Les tours ont été construites en 1450.",
+          "en": "The towers were built in 1450."
+        }
+      ],
+      "note": "Passive: avoir été + past participle."
+    },
+    {
+      "id": "c2",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "must have",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai dû",
+          "ipa": "/ʒe dy/"
+        },
+        {
+          "p": "tu",
+          "f": "as dû",
+          "ipa": "/ty a dy/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a dû",
+          "ipa": "/il a dy/"
+        },
+        {
+          "p": "nous",
+          "f": "avons dû",
+          "ipa": "/nu za.vɔ̃ dy/"
+        },
+        {
+          "p": "vous",
+          "f": "avez dû",
+          "ipa": "/vu za.ve dy/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont dû",
+          "ipa": "/il zɔ̃ dy/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Cela a dû coûter très cher.",
+          "en": "It must have cost a lot."
+        },
+        {
+          "target": "Ils ont dû partir tôt.",
+          "en": "They must have left early."
+        }
+      ],
+      "note": "J'ai dû / Cela a dû = must have (probability)."
+    }
+  ]
+}

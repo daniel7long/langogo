@@ -1,0 +1,285 @@
+{
+  "emoji": "💻",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "visioconférence",
+      "ipa": "/vi.zjo.kɔ̃.fe.ʁɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "video conference",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "La visioconférence commence à dix heures.",
+          "en": "The video conference starts at ten."
+        },
+        {
+          "target": "Je coupe le micro pendant la visioconférence.",
+          "en": "I mute the mic during the video conference."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "échéance",
+      "ipa": "/e.ʃe.ɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "deadline",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "L'échéance est vendredi.",
+          "en": "The deadline is Friday."
+        },
+        {
+          "target": "Nous respectons toutes les échéances.",
+          "en": "We meet all deadlines."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "répartir",
+      "ipa": "/ʁe.paʁ.tiʁ/",
+      "pos": "v.",
+      "meaning": "to distribute",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Répartissons les tâches.",
+          "en": "Let's distribute the tasks."
+        },
+        {
+          "target": "Il faut répartir la charge de travail.",
+          "en": "The workload has to be distributed."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "retard",
+      "ipa": "/ʁə.taʁ/",
+      "pos": "n.m.",
+      "meaning": "delay",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Nous avons pris du retard.",
+          "en": "We've fallen behind."
+        },
+        {
+          "target": "Excusez mon retard.",
+          "en": "Sorry for my delay."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "priorité",
+      "ipa": "/pʁi.jɔ.ʁi.te/",
+      "pos": "n.f.",
+      "meaning": "priority",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "C'est la priorité du jour.",
+          "en": "It's today's priority."
+        },
+        {
+          "target": "Établissons nos priorités.",
+          "en": "Let's set our priorities."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "partager",
+      "ipa": "/paʁ.ta.ʒe/",
+      "pos": "v.",
+      "meaning": "to share",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je partage mon écran.",
+          "en": "I'm sharing my screen."
+        },
+        {
+          "target": "Peux-tu partager le document ?",
+          "en": "Can you share the document?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "bilan",
+      "ipa": "/bi.lɑ̃/",
+      "pos": "n.m.",
+      "meaning": "review, summary",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Faisons un bilan.",
+          "en": "Let's do a review."
+        },
+        {
+          "target": "Le bilan est positif.",
+          "en": "The review is positive."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Cheffe d'équipe",
+      "role": "npc",
+      "text": "Bonjour à tous, merci de vous être connectés à la visioconférence. On commence par un point rapide sur le projet.",
+      "glosses": [
+        {
+          "text": "visioconférence",
+          "pos": "n.f.",
+          "meaning": "video conference"
+        }
+      ],
+      "en": "Hello everyone, thank you for joining the video conference. We'll start with a quick update on the project."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonjour. Je vous préviens que ma connexion est instable, donc je coupe la caméra.",
+      "glosses": [],
+      "en": "Hello. I warn you that my connection is unstable, so I'm turning off the camera."
+    },
+    {
+      "id": "t3",
+      "speaker": "Cheffe d'équipe",
+      "role": "npc",
+      "text": "Pas de souci. Où en est le module de paiement ? L'échéance est vendredi.",
+      "glosses": [
+        {
+          "text": "échéance",
+          "pos": "n.f.",
+          "meaning": "deadline"
+        }
+      ],
+      "en": "No problem. Where are we with the payment module? The deadline is Friday."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Nous avons pris du retard à cause d'un bug, mais je pense pouvoir le corriger demain.",
+      "glosses": [
+        {
+          "text": "retard",
+          "pos": "n.m.",
+          "meaning": "delay"
+        }
+      ],
+      "en": "We've fallen behind because of a bug, but I think I can fix it tomorrow."
+    },
+    {
+      "id": "t5",
+      "speaker": "Cheffe d'équipe",
+      "role": "npc",
+      "text": "D'accord. Quelle est notre priorité pour les prochains jours, selon vous ?",
+      "glosses": [
+        {
+          "text": "priorité",
+          "pos": "n.f.",
+          "meaning": "priority"
+        }
+      ],
+      "en": "Okay. What's our priority for the coming days, in your view?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je suggère de finir d'abord les tests, puis de répartir la documentation entre nous.",
+      "glosses": [
+        {
+          "text": "répartir",
+          "pos": "v.",
+          "meaning": "to distribute"
+        }
+      ],
+      "en": "I suggest finishing the tests first, then distributing the documentation among us."
+    },
+    {
+      "id": "t7",
+      "speaker": "Cheffe d'équipe",
+      "role": "npc",
+      "text": "Bonne idée. Camille, peux-tu partager ton écran pour nous montrer les résultats ?",
+      "glosses": [
+        {
+          "text": "partager",
+          "pos": "v.",
+          "meaning": "to share"
+        }
+      ],
+      "en": "Good idea. Camille, can you share your screen to show us the results?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, je le fais tout de suite. Vous voyez le tableau ?",
+      "glosses": [],
+      "en": "Yes, I'm doing it right now. Can you see the table?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Cheffe d'équipe",
+      "role": "npc",
+      "text": "Oui, très bien. Le taux d'erreurs a baissé, c'est encourageant.",
+      "glosses": [],
+      "en": "Yes, very clearly. The error rate has dropped, which is encouraging."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Mais il reste des problèmes sur mobile. Il faudrait que quelqu'un s'en occupe cette semaine.",
+      "glosses": [],
+      "en": "But there are still problems on mobile. Someone should take care of it this week."
+    },
+    {
+      "id": "t11",
+      "speaker": "Cheffe d'équipe",
+      "role": "npc",
+      "text": "Je m'en charge, à condition qu'on me donne accès au serveur de test.",
+      "glosses": [],
+      "en": "I'll take care of it, provided that I'm given access to the test server."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Entendu. Je vous envoie le compte rendu dans l'heure, avec le bilan et les tâches de chacun.",
+      "glosses": [
+        {
+          "text": "bilan",
+          "pos": "n.m.",
+          "meaning": "review, summary"
+        }
+      ],
+      "en": "Agreed. I'll send you the minutes within the hour, with the review and everyone's tasks."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "visioconférence",
+      "tip": "Six beats: vi-zjo-kɔ̃-fe-ʁɑ̃s"
+    },
+    {
+      "id": "w2",
+      "text": "échéance",
+      "tip": "Say e-ʃe-ANS"
+    }
+  ]
+}

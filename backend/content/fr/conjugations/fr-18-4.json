@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "grandir",
+      "ipa": "/gʁɑ̃.diʁ/",
+      "pos": "v.",
+      "meaning": "to grow up",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai grandi",
+          "ipa": "/ʒe gʁɑ̃.di/"
+        },
+        {
+          "p": "tu",
+          "f": "as grandi",
+          "ipa": "/ty a gʁɑ̃.di/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a grandi",
+          "ipa": "/il a gʁɑ̃.di/"
+        },
+        {
+          "p": "nous",
+          "f": "avons grandi",
+          "ipa": "/nu za.vɔ̃ gʁɑ̃.di/"
+        },
+        {
+          "p": "vous",
+          "f": "avez grandi",
+          "ipa": "/vu za.ve gʁɑ̃.di/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont grandi",
+          "ipa": "/il zɔ̃ gʁɑ̃.di/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Elle a grandi dans un foyer bilingue.",
+          "en": "She grew up in a bilingual household."
+        },
+        {
+          "target": "Ils ont grandi à Lyon.",
+          "en": "They grew up in Lyon."
+        }
+      ],
+      "note": "Grandir is a regular -ir verb; the participle ends in -i."
+    },
+    {
+      "id": "c2",
+      "word": "apprendre",
+      "ipa": "/a.pʁɑ̃dʁ/",
+      "pos": "v.",
+      "meaning": "to learn",
+      "tense": "Conditional past",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "aurais appris",
+          "ipa": "/ʒo.ʁɛ a.pʁi/"
+        },
+        {
+          "p": "tu",
+          "f": "aurais appris",
+          "ipa": "/ty o.ʁɛ a.pʁi/"
+        },
+        {
+          "p": "il / elle",
+          "f": "aurait appris",
+          "ipa": "/il o.ʁɛ a.pʁi/"
+        },
+        {
+          "p": "nous",
+          "f": "aurions appris",
+          "ipa": "/nu zo.ʁjɔ̃ a.pʁi/"
+        },
+        {
+          "p": "vous",
+          "f": "auriez appris",
+          "ipa": "/vu zo.ʁje a.pʁi/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "auraient appris",
+          "ipa": "/il zo.ʁɛ a.pʁi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "J'aurais appris plus vite en immersion.",
+          "en": "I would have learned faster in immersion."
+        },
+        {
+          "target": "Elle aurait appris trois langues.",
+          "en": "She would have learned three languages."
+        }
+      ],
+      "note": "Conditional past: would have + participle."
+    }
+  ]
+}

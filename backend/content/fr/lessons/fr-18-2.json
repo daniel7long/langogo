@@ -1,0 +1,340 @@
+{
+  "emoji": "🤔",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "liberté",
+      "ipa": "/li.bɛʁ.te/",
+      "pos": "n.f.",
+      "meaning": "freedom",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La liberté a des limites.",
+          "en": "Freedom has limits."
+        },
+        {
+          "target": "Défendre la liberté d'expression.",
+          "en": "To defend freedom of expression."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "conscience",
+      "ipa": "/kɔ̃.sjɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "conscience, consciousness",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Il a la conscience tranquille.",
+          "en": "He has a clear conscience."
+        },
+        {
+          "target": "La conscience de soi est complexe.",
+          "en": "Self-awareness is complex."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "n.m.",
+      "meaning": "duty",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Chacun a des devoirs.",
+          "en": "Everyone has duties."
+        },
+        {
+          "target": "Le devoir moral prime parfois.",
+          "en": "Moral duty sometimes comes first."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "dilemme",
+      "ipa": "/di.lɛm/",
+      "pos": "n.m.",
+      "meaning": "dilemma",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Ce dilemme est difficile.",
+          "en": "This dilemma is hard."
+        },
+        {
+          "target": "Un dilemme moral se pose.",
+          "en": "A moral dilemma arises."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "bonheur",
+      "ipa": "/bɔ.nœʁ/",
+      "pos": "n.m.",
+      "meaning": "happiness",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le bonheur est subjectif.",
+          "en": "Happiness is subjective."
+        },
+        {
+          "target": "Chercher le bonheur est légitime.",
+          "en": "Seeking happiness is legitimate."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "vérité",
+      "ipa": "/ve.ʁi.te/",
+      "pos": "n.f.",
+      "meaning": "truth",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La vérité est parfois dure.",
+          "en": "The truth is sometimes hard."
+        },
+        {
+          "target": "Dire la vérité demande du courage.",
+          "en": "Telling the truth takes courage."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "doute",
+      "ipa": "/dut/",
+      "pos": "n.m.",
+      "meaning": "doubt",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le doute est salutaire.",
+          "en": "Doubt is healthy."
+        },
+        {
+          "target": "Il a un doute.",
+          "en": "He has a doubt."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Philosophe",
+      "role": "npc",
+      "text": "Bonsoir. Pour commencer, une question simple en apparence : qu'est-ce que la liberté ?",
+      "glosses": [
+        {
+          "text": "liberté",
+          "pos": "n.f.",
+          "meaning": "freedom"
+        }
+      ],
+      "en": "Good evening. To begin, a question that seems simple: what is freedom?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elle n'est pas simple du tout. Pour certains, c'est l'absence de contraintes ; pour d'autres, la capacité de se donner à soi-même ses propres lois.",
+      "glosses": [],
+      "en": "It isn't simple at all. For some, it is the absence of constraints; for others, the ability to give oneself one's own laws."
+    },
+    {
+      "id": "t3",
+      "speaker": "Philosophe",
+      "role": "npc",
+      "text": "Et vous, de quel côté vous situez-vous ?",
+      "glosses": [],
+      "en": "And you, which side do you place yourself on?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je pense qu'on n'est vraiment libre que lorsqu'on comprend les raisons de ses choix, ce qui demande un effort de conscience permanent.",
+      "glosses": [
+        {
+          "text": "conscience",
+          "pos": "n.f.",
+          "meaning": "conscience, consciousness"
+        }
+      ],
+      "en": "I think one is truly free only when one understands the reasons for one's choices, which requires a constant effort of awareness."
+    },
+    {
+      "id": "t5",
+      "speaker": "Philosophe",
+      "role": "npc",
+      "text": "La liberté de l'un s'arrête là où commence celle de l'autre, dit-on. Est-ce suffisant ?",
+      "glosses": [
+        {
+          "text": "liberté",
+          "pos": "n.f.",
+          "meaning": "freedom"
+        }
+      ],
+      "en": "One person's freedom ends where another's begins, they say. Is that enough?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est un bon point de départ, mais il laisse ouverte la question du devoir : que nous devons-nous les uns aux autres ?",
+      "glosses": [
+        {
+          "text": "devoir",
+          "pos": "n.m.",
+          "meaning": "duty"
+        }
+      ],
+      "en": "It's a good starting point, but it leaves open the question of duty: what do we owe each other?"
+    },
+    {
+      "id": "t7",
+      "speaker": "Philosophe",
+      "role": "npc",
+      "text": "Pouvez-vous donner un exemple de dilemme moral concret ?",
+      "glosses": [
+        {
+          "text": "dilemme",
+          "pos": "n.m.",
+          "meaning": "dilemma"
+        }
+      ],
+      "en": "Can you give an example of a concrete moral dilemma?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Un médecin découvre qu'un patient contagieux refuse d'avertir son entourage. Doit-il respecter le secret professionnel ou protéger les autres ?",
+      "glosses": [],
+      "en": "A doctor discovers that a contagious patient refuses to warn those around him. Must he respect professional secrecy or protect others?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Philosophe",
+      "role": "npc",
+      "text": "Votre réponse ?",
+      "glosses": [],
+      "en": "Your answer?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je n'ai pas de réponse définitive. Un dilemme véritable n'a pas de solution parfaite, seulement des choix assumés avec leurs conséquences.",
+      "glosses": [
+        {
+          "text": "dilemme",
+          "pos": "n.m.",
+          "meaning": "dilemma"
+        }
+      ],
+      "en": "I have no definitive answer. A true dilemma has no perfect solution, only choices made with their consequences accepted."
+    },
+    {
+      "id": "t11",
+      "speaker": "Philosophe",
+      "role": "npc",
+      "text": "Beaucoup de gens disent que le but de la vie est le bonheur. Êtes-vous d'accord ?",
+      "glosses": [
+        {
+          "text": "bonheur",
+          "pos": "n.m.",
+          "meaning": "happiness"
+        }
+      ],
+      "en": "Many people say the purpose of life is happiness. Do you agree?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Le bonheur est un bien légitime, mais le poursuivre directement conduit souvent à la frustration. Il arrive plutôt comme un effet de ce qui a du sens.",
+      "glosses": [
+        {
+          "text": "bonheur",
+          "pos": "n.m.",
+          "meaning": "happiness"
+        }
+      ],
+      "en": "Happiness is a legitimate good, but pursuing it directly often leads to frustration. It arrives rather as an effect of what is meaningful."
+    },
+    {
+      "id": "t13",
+      "speaker": "Philosophe",
+      "role": "npc",
+      "text": "Dans un monde saturé d'informations, comment s'approcher de la vérité ?",
+      "glosses": [
+        {
+          "text": "vérité",
+          "pos": "n.f.",
+          "meaning": "truth"
+        }
+      ],
+      "en": "In a world saturated with information, how can one approach the truth?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Par l'exercice patient du doute : vérifier, comparer, accepter de changer d'avis. Le doute n'est pas l'ennemi de la vérité, il en est la condition.",
+      "glosses": [
+        {
+          "text": "vérité",
+          "pos": "n.f.",
+          "meaning": "truth"
+        },
+        {
+          "text": "doute",
+          "pos": "n.m.",
+          "meaning": "doubt"
+        }
+      ],
+      "en": "Through the patient exercise of doubt: verifying, comparing, accepting to change one's mind. Doubt isn't the enemy of truth, it is its condition."
+    },
+    {
+      "id": "t15",
+      "speaker": "Philosophe",
+      "role": "npc",
+      "text": "N'y a-t-il pas un risque de relativisme, où tout se vaudrait ?",
+      "glosses": [],
+      "en": "Isn't there a risk of relativism, where everything is equal?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Si, et il faut s'en méfier. Douter n'est pas renoncer à juger : c'est juger avec humilité, sans cesser de chercher.",
+      "glosses": [],
+      "en": "Yes, and one must beware of it. Doubting isn't giving up judging: it's judging with humility, without ceasing to search."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "conscience",
+      "tip": "Say kɔ̃-SJɑNS"
+    },
+    {
+      "id": "w2",
+      "text": "dilemme",
+      "tip": "Say di-LɛM"
+    }
+  ]
+}

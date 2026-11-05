@@ -1,0 +1,335 @@
+{
+  "emoji": "📈",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "inflation",
+      "ipa": "/ɛ̃.fla.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "inflation",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'inflation a ralenti.",
+          "en": "Inflation has slowed down."
+        },
+        {
+          "target": "L'inflation réduit le pouvoir d'achat.",
+          "en": "Inflation reduces purchasing power."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "pouvoir d'achat",
+      "ipa": "/pu.vwaʁ da.ʃa/",
+      "pos": "n.m.",
+      "meaning": "purchasing power",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le pouvoir d'achat baisse.",
+          "en": "Purchasing power is falling."
+        },
+        {
+          "target": "Défendre le pouvoir d'achat est une priorité.",
+          "en": "Defending purchasing power is a priority."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "croissance",
+      "ipa": "/kʁwa.sɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "growth",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La croissance est faible.",
+          "en": "Growth is weak."
+        },
+        {
+          "target": "La croissance repart au deuxième trimestre.",
+          "en": "Growth picks up in the second quarter."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "chômage",
+      "ipa": "/ʃo.maʒ/",
+      "pos": "n.m.",
+      "meaning": "unemployment",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le chômage baisse légèrement.",
+          "en": "Unemployment is falling slightly."
+        },
+        {
+          "target": "Le chômage touche surtout les jeunes.",
+          "en": "Unemployment mostly affects the young."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "endettement",
+      "ipa": "/ɑ̃.dɛt.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "indebtedness",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'endettement public inquiète.",
+          "en": "Public debt is worrying."
+        },
+        {
+          "target": "L'endettement des ménages augmente.",
+          "en": "Household debt is increasing."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "relance",
+      "ipa": "/ʁə.lɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "stimulus, recovery",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Un plan de relance est annoncé.",
+          "en": "A stimulus plan is announced."
+        },
+        {
+          "target": "La relance passe par l'investissement.",
+          "en": "Recovery comes through investment."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "pénurie",
+      "ipa": "/pe.ny.ʁi/",
+      "pos": "n.f.",
+      "meaning": "shortage",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Il y a une pénurie de main-d'œuvre.",
+          "en": "There's a labor shortage."
+        },
+        {
+          "target": "La pénurie de matériaux ralentit les chantiers.",
+          "en": "The shortage of materials slows construction."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Économiste",
+      "role": "npc",
+      "text": "Merci d'être avec nous. Commençons par l'inflation : pourquoi les prix ont-ils tant augmenté ces dernières années ?",
+      "glosses": [
+        {
+          "text": "inflation",
+          "pos": "n.f.",
+          "meaning": "inflation"
+        }
+      ],
+      "en": "Thank you for being with us. Let's start with inflation: why have prices risen so much in recent years?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Plusieurs facteurs se sont combinés : la hausse de l'énergie, des perturbations dans les chaînes d'approvisionnement et la reprise rapide de la demande.",
+      "glosses": [],
+      "en": "Several factors combined: rising energy costs, supply chain disruptions and the rapid recovery of demand."
+    },
+    {
+      "id": "t3",
+      "speaker": "Économiste",
+      "role": "npc",
+      "text": "Concrètement, comment cela affecte-t-il le pouvoir d'achat des ménages ?",
+      "glosses": [
+        {
+          "text": "pouvoir d'achat",
+          "pos": "n.m.",
+          "meaning": "purchasing power"
+        }
+      ],
+      "en": "Concretely, how does this affect household purchasing power?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Lorsque les salaires augmentent moins vite que les prix, le pouvoir d'achat recule, et ce sont les foyers modestes qui souffrent le plus.",
+      "glosses": [
+        {
+          "text": "pouvoir d'achat",
+          "pos": "n.m.",
+          "meaning": "purchasing power"
+        }
+      ],
+      "en": "When wages rise more slowly than prices, purchasing power declines, and it's low-income households that suffer most."
+    },
+    {
+      "id": "t5",
+      "speaker": "Économiste",
+      "role": "npc",
+      "text": "La croissance est pourtant restée positive. N'est-ce pas contradictoire ?",
+      "glosses": [
+        {
+          "text": "croissance",
+          "pos": "n.f.",
+          "meaning": "growth"
+        }
+      ],
+      "en": "Growth has nevertheless remained positive. Isn't that contradictory?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pas vraiment. La croissance mesure la production globale, pas la manière dont elle est répartie entre les ménages.",
+      "glosses": [
+        {
+          "text": "croissance",
+          "pos": "n.f.",
+          "meaning": "growth"
+        }
+      ],
+      "en": "Not really. Growth measures overall production, not how it is distributed among households."
+    },
+    {
+      "id": "t7",
+      "speaker": "Économiste",
+      "role": "npc",
+      "text": "Et sur le marché du travail, le chômage a baissé alors que certains secteurs manquent de personnel.",
+      "glosses": [
+        {
+          "text": "chômage",
+          "pos": "n.m.",
+          "meaning": "unemployment"
+        }
+      ],
+      "en": "And in the labor market, unemployment has fallen while some sectors lack staff."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est le paradoxe actuel : une pénurie de main-d'œuvre coexiste avec des chômeurs qui n'ont pas les compétences recherchées.",
+      "glosses": [
+        {
+          "text": "pénurie",
+          "pos": "n.f.",
+          "meaning": "shortage"
+        }
+      ],
+      "en": "That's the current paradox: a labor shortage coexists with unemployed people who lack the skills in demand."
+    },
+    {
+      "id": "t9",
+      "speaker": "Économiste",
+      "role": "npc",
+      "text": "Les États ont beaucoup dépensé pour soutenir l'économie. L'endettement public est-il devenu dangereux ?",
+      "glosses": [
+        {
+          "text": "endettement",
+          "pos": "n.m.",
+          "meaning": "indebtedness"
+        }
+      ],
+      "en": "States have spent a lot to support the economy. Has public debt become dangerous?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Il devient préoccupant, surtout avec la remontée des taux d'intérêt, qui renchérit le coût de la dette.",
+      "glosses": [],
+      "en": "It is becoming worrying, especially with rising interest rates, which make the cost of debt more expensive."
+    },
+    {
+      "id": "t11",
+      "speaker": "Économiste",
+      "role": "npc",
+      "text": "Que pensez-vous des plans de relance financés par l'emprunt ?",
+      "glosses": [
+        {
+          "text": "relance",
+          "pos": "n.f.",
+          "meaning": "stimulus, recovery"
+        }
+      ],
+      "en": "What do you think of recovery plans financed by borrowing?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ils peuvent être efficaces s'ils financent des investissements productifs, comme la transition énergétique, plutôt que des dépenses courantes.",
+      "glosses": [],
+      "en": "They can be effective if they fund productive investments, such as the energy transition, rather than current spending."
+    },
+    {
+      "id": "t13",
+      "speaker": "Économiste",
+      "role": "npc",
+      "text": "Certains économistes prônent pourtant l'austérité. Leurs arguments tiennent-ils ?",
+      "glosses": [],
+      "en": "Some economists nevertheless advocate austerity. Do their arguments hold up?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ils ont une part de vérité, mais une austérité brutale aggraverait la récession et le chômage. L'équilibre est délicat.",
+      "glosses": [
+        {
+          "text": "chômage",
+          "pos": "n.m.",
+          "meaning": "unemployment"
+        }
+      ],
+      "en": "They have some truth, but brutal austerity would worsen recession and unemployment. The balance is delicate."
+    },
+    {
+      "id": "t15",
+      "speaker": "Économiste",
+      "role": "npc",
+      "text": "Si vous deviez donner un conseil aux décideurs, quel serait-il ?",
+      "glosses": [],
+      "en": "If you had to give advice to decision-makers, what would it be?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Investir dans la formation, protéger les plus fragiles et préparer l'avenir sans hypothéquer celui des générations futures.",
+      "glosses": [],
+      "en": "Invest in training, protect the most vulnerable and prepare the future without mortgaging that of future generations."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "pénurie",
+      "tip": "Say pe-ny-ʁI, stress the end"
+    },
+    {
+      "id": "w2",
+      "text": "endettement",
+      "tip": "Five beats: ɑ̃-dɛt-mɑN"
+    }
+  ]
+}

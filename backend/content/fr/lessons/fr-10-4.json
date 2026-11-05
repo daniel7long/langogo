@@ -1,0 +1,285 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "accueillants",
+      "ipa": "/a.kœ.jɑ̃/",
+      "pos": "adj.pl.",
+      "meaning": "welcoming",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Les gens sont très accueillants.",
+          "en": "The people are very welcoming."
+        },
+        {
+          "target": "Ils sont toujours accueillants.",
+          "en": "They're always welcoming."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "médina",
+      "ipa": "/me.di.na/",
+      "pos": "n.f.",
+      "meaning": "old town (Arab city)",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Nous visitons la médina.",
+          "en": "We're visiting the medina."
+        },
+        {
+          "target": "La médina est pleine de couleurs.",
+          "en": "The medina is full of colors."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "ruelles",
+      "ipa": "/ʁɥɛl/",
+      "pos": "n.f.pl.",
+      "meaning": "narrow streets",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Les ruelles sont étroites.",
+          "en": "The alleys are narrow."
+        },
+        {
+          "target": "On se perd dans les ruelles.",
+          "en": "You get lost in the alleys."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "commerçant",
+      "ipa": "/kɔ.mɛʁ.sɑ̃/",
+      "pos": "n.m.",
+      "meaning": "shopkeeper",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Le commerçant est sympathique.",
+          "en": "The shopkeeper is friendly."
+        },
+        {
+          "target": "Un commerçant m'a aidé.",
+          "en": "A shopkeeper helped me."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "tajine",
+      "ipa": "/ta.ʒin/",
+      "pos": "n.m.",
+      "meaning": "tagine",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Le tajine est délicieux.",
+          "en": "The tagine is delicious."
+        },
+        {
+          "target": "Nous mangeons un tajine.",
+          "en": "We're eating a tagine."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "désert",
+      "ipa": "/de.zɛʁ/",
+      "pos": "n.m.",
+      "meaning": "desert",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Le désert est immense.",
+          "en": "The desert is huge."
+        },
+        {
+          "target": "Nous traversons le désert.",
+          "en": "We're crossing the desert."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "souvenir",
+      "ipa": "/suv.niʁ/",
+      "pos": "n.m.",
+      "meaning": "memory, souvenir",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "C'est un très beau souvenir.",
+          "en": "It's a very beautiful memory."
+        },
+        {
+          "target": "J'achète un souvenir.",
+          "en": "I'm buying a souvenir."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Marie",
+      "role": "npc",
+      "text": "Alors, raconte ! Comment s'est passé ton voyage au Maroc ?",
+      "glosses": [],
+      "en": "So, tell me! How was your trip to Morocco?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'était incroyable ! Il faisait beau tous les jours et les gens étaient très accueillants.",
+      "glosses": [
+        {
+          "text": "accueillants",
+          "pos": "adj.pl.",
+          "meaning": "welcoming"
+        }
+      ],
+      "en": "It was incredible! The weather was nice every day and the people were very welcoming."
+    },
+    {
+      "id": "t3",
+      "speaker": "Marie",
+      "role": "npc",
+      "text": "Qu'est-ce que tu as visité en premier ?",
+      "glosses": [],
+      "en": "What did you visit first?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Nous sommes arrivés à Marrakech, et nous avons passé une journée entière dans la médina.",
+      "glosses": [
+        {
+          "text": "médina",
+          "pos": "n.f.",
+          "meaning": "old town (Arab city)"
+        }
+      ],
+      "en": "We arrived in Marrakech, and we spent a whole day in the medina."
+    },
+    {
+      "id": "t5",
+      "speaker": "Marie",
+      "role": "npc",
+      "text": "Tu t'es perdu dans les ruelles ?",
+      "glosses": [
+        {
+          "text": "ruelles",
+          "pos": "n.f.pl.",
+          "meaning": "narrow streets"
+        }
+      ],
+      "en": "Did you get lost in the narrow streets?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, deux fois ! Heureusement, un commerçant nous a indiqué le chemin.",
+      "glosses": [
+        {
+          "text": "commerçant",
+          "pos": "n.m.",
+          "meaning": "shopkeeper"
+        }
+      ],
+      "en": "Yes, twice! Luckily, a shopkeeper showed us the way."
+    },
+    {
+      "id": "t7",
+      "speaker": "Marie",
+      "role": "npc",
+      "text": "Et la nourriture, elle était comment ?",
+      "glosses": [],
+      "en": "And the food, how was it?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Délicieuse. J'ai goûté un tajine à l'agneau que je n'oublierai jamais.",
+      "glosses": [
+        {
+          "text": "tajine",
+          "pos": "n.m.",
+          "meaning": "tagine"
+        }
+      ],
+      "en": "Delicious. I tried a lamb tagine that I'll never forget."
+    },
+    {
+      "id": "t9",
+      "speaker": "Marie",
+      "role": "npc",
+      "text": "Vous avez fait une excursion dans le désert ?",
+      "glosses": [
+        {
+          "text": "désert",
+          "pos": "n.m.",
+          "meaning": "desert"
+        }
+      ],
+      "en": "Did you take a trip into the desert?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, on a dormi sous une tente, et le ciel était rempli d'étoiles.",
+      "glosses": [],
+      "en": "Yes, we slept in a tent, and the sky was full of stars."
+    },
+    {
+      "id": "t11",
+      "speaker": "Marie",
+      "role": "npc",
+      "text": "Quel souvenir ! Tu as pris beaucoup de photos ?",
+      "glosses": [
+        {
+          "text": "souvenir",
+          "pos": "n.m.",
+          "meaning": "memory, souvenir"
+        }
+      ],
+      "en": "What a memory! Did you take lots of photos?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Des centaines ! Je te les montrerai ce soir, si tu veux.",
+      "glosses": [],
+      "en": "Hundreds! I'll show them to you tonight, if you like."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "tajine",
+      "tip": "Say ta-ZHEEN; the j is soft"
+    },
+    {
+      "id": "w2",
+      "text": "souvenir",
+      "tip": "Say suv-NEER; the middle e is silent"
+    }
+  ]
+}

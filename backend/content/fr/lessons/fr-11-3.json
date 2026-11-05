@@ -1,0 +1,291 @@
+{
+  "emoji": "🏃",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "salle de sport",
+      "ipa": "/sal də spɔʁ/",
+      "pos": "n.f.",
+      "meaning": "gym",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je vais à la salle de sport.",
+          "en": "I go to the gym."
+        },
+        {
+          "target": "La salle de sport ferme à vingt-deux heures.",
+          "en": "The gym closes at ten p.m."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "musculation",
+      "ipa": "/mys.ky.la.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "weight training",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je fais de la musculation.",
+          "en": "I do weight training."
+        },
+        {
+          "target": "La musculation est fatigante.",
+          "en": "Weight training is tiring."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "courir",
+      "ipa": "/ku.ʁiʁ/",
+      "pos": "v.",
+      "meaning": "to run",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "J'aime courir le matin.",
+          "en": "I like to run in the morning."
+        },
+        {
+          "target": "Tu veux courir avec moi ?",
+          "en": "Do you want to run with me?"
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "semi-marathon",
+      "ipa": "/sə.mi ma.ʁa.tɔ̃/",
+      "pos": "n.m.",
+      "meaning": "half marathon",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je prépare un semi-marathon.",
+          "en": "I'm training for a half marathon."
+        },
+        {
+          "target": "Le semi-marathon fait vingt et un kilomètres.",
+          "en": "The half marathon is 21 kilometers."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "entraînement",
+      "ipa": "/ɑ̃.tʁɛn.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "training",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Mon entraînement commence lundi.",
+          "en": "My training starts Monday."
+        },
+        {
+          "target": "L'entraînement est dur.",
+          "en": "Training is hard."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "alimentation",
+      "ipa": "/a.li.mɑ̃.ta.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "diet, nutrition",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je fais attention à mon alimentation.",
+          "en": "I watch my diet."
+        },
+        {
+          "target": "Une bonne alimentation est essentielle.",
+          "en": "A good diet is essential."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "débutant",
+      "ipa": "/de.by.tɑ̃/",
+      "pos": "n.m.",
+      "meaning": "beginner",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je suis débutant en natation.",
+          "en": "I'm a beginner at swimming."
+        },
+        {
+          "target": "Ce cours est pour les débutants.",
+          "en": "This class is for beginners."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Antoine",
+      "role": "npc",
+      "text": "Tu as l'air en forme ! Tu fais du sport en ce moment ?",
+      "glosses": [],
+      "en": "You look fit! Are you doing sport at the moment?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, je me suis inscrit à la salle de sport il y a un mois.",
+      "glosses": [
+        {
+          "text": "salle de sport",
+          "pos": "n.f.",
+          "meaning": "gym"
+        }
+      ],
+      "en": "Yes, I signed up at the gym a month ago."
+    },
+    {
+      "id": "t3",
+      "speaker": "Antoine",
+      "role": "npc",
+      "text": "Et tu y vas souvent ?",
+      "glosses": [],
+      "en": "And do you go often?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Trois fois par semaine : de la musculation le lundi et du cardio le mercredi.",
+      "glosses": [
+        {
+          "text": "musculation",
+          "pos": "n.f.",
+          "meaning": "weight training"
+        }
+      ],
+      "en": "Three times a week: weight training on Monday and cardio on Wednesday."
+    },
+    {
+      "id": "t5",
+      "speaker": "Antoine",
+      "role": "npc",
+      "text": "Moi, je préfère courir dehors. Ça me détend vraiment.",
+      "glosses": [
+        {
+          "text": "courir",
+          "pos": "v.",
+          "meaning": "to run"
+        }
+      ],
+      "en": "Me, I prefer running outside. It really relaxes me."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Tu t'entraînes pour une course ?",
+      "glosses": [],
+      "en": "Are you training for a race?"
+    },
+    {
+      "id": "t7",
+      "speaker": "Antoine",
+      "role": "npc",
+      "text": "Oui, je prépare un semi-marathon pour le mois de mars.",
+      "glosses": [
+        {
+          "text": "semi-marathon",
+          "pos": "n.m.",
+          "meaning": "half marathon"
+        }
+      ],
+      "en": "Yes, I'm preparing for a half marathon in March."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Chapeau ! Tu as un programme d'entraînement précis ?",
+      "glosses": [
+        {
+          "text": "entraînement",
+          "pos": "n.m.",
+          "meaning": "training"
+        }
+      ],
+      "en": "Hats off! Do you have a precise training plan?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Antoine",
+      "role": "npc",
+      "text": "Oui, et je fais aussi attention à mon alimentation : plus de légumes, moins de sucre.",
+      "glosses": [
+        {
+          "text": "alimentation",
+          "pos": "n.f.",
+          "meaning": "diet, nutrition"
+        }
+      ],
+      "en": "Yes, and I also watch my diet: more vegetables, less sugar."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est difficile pour moi, j'adore les gâteaux ! Mais je dors mieux depuis que je bouge.",
+      "glosses": [],
+      "en": "It's hard for me, I love cakes! But I sleep better since I started moving."
+    },
+    {
+      "id": "t11",
+      "speaker": "Antoine",
+      "role": "npc",
+      "text": "C'est normal, l'activité physique améliore le sommeil. Tu veux courir avec moi dimanche ?",
+      "glosses": [
+        {
+          "text": "courir",
+          "pos": "v.",
+          "meaning": "to run"
+        }
+      ],
+      "en": "That's normal, physical activity improves sleep. Do you want to run with me on Sunday?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pourquoi pas ! Mais je te préviens : je suis encore débutant.",
+      "glosses": [
+        {
+          "text": "débutant",
+          "pos": "n.m.",
+          "meaning": "beginner"
+        }
+      ],
+      "en": "Why not! But I'm warning you: I'm still a beginner."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "semi-marathon",
+      "tip": "Say sə-mi-ma-ʁa-TɔN; stress the last part"
+    },
+    {
+      "id": "w2",
+      "text": "entraînement",
+      "tip": "Say ɑ̃-tʁɛn-MɑN: two nasal vowels"
+    }
+  ]
+}

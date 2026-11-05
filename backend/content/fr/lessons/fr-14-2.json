@@ -1,0 +1,285 @@
+{
+  "emoji": "📱",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "réseaux sociaux",
+      "ipa": "/ʁe.zo so.sjo/",
+      "pos": "n.m.pl.",
+      "meaning": "social media",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Les réseaux sociaux changent la société.",
+          "en": "Social media is changing society."
+        },
+        {
+          "target": "Je limite les réseaux sociaux.",
+          "en": "I limit social media."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "addiction",
+      "ipa": "/a.dik.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "addiction",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "L'addiction aux écrans augmente.",
+          "en": "Screen addiction is rising."
+        },
+        {
+          "target": "Cette addiction est préoccupante.",
+          "en": "This addiction is worrying."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "influenceur",
+      "ipa": "/ɛ̃.flɥɑ̃.sœʁ/",
+      "pos": "n.m.",
+      "meaning": "influencer",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Cet influenceur a un million d'abonnés.",
+          "en": "This influencer has a million followers."
+        },
+        {
+          "target": "Les influenceurs vendent des produits.",
+          "en": "Influencers sell products."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "vie privée",
+      "ipa": "/vi pʁi.ve/",
+      "pos": "n.f.",
+      "meaning": "privacy",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je protège ma vie privée.",
+          "en": "I protect my privacy."
+        },
+        {
+          "target": "La vie privée est menacée.",
+          "en": "Privacy is under threat."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "données",
+      "ipa": "/dɔ.ne/",
+      "pos": "n.f.pl.",
+      "meaning": "data",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Mes données sont collectées.",
+          "en": "My data is collected."
+        },
+        {
+          "target": "Les données personnelles sont précieuses.",
+          "en": "Personal data is valuable."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "harcèlement",
+      "ipa": "/aʁ.sɛl.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "harassment",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le harcèlement en ligne est grave.",
+          "en": "Online harassment is serious."
+        },
+        {
+          "target": "Il faut lutter contre le harcèlement.",
+          "en": "We must fight harassment."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "réglementer",
+      "ipa": "/ʁɛ.glə.mɑ̃.te/",
+      "pos": "v.",
+      "meaning": "to regulate",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Il faut réglementer ces plateformes.",
+          "en": "These platforms must be regulated."
+        },
+        {
+          "target": "On a réglementé l'âge minimum.",
+          "en": "The minimum age was regulated."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Sociologue",
+      "role": "npc",
+      "text": "Professeure, pensez-vous que les réseaux sociaux ont un effet négatif sur les jeunes ?",
+      "glosses": [
+        {
+          "text": "réseaux sociaux",
+          "pos": "n.m.pl.",
+          "meaning": "social media"
+        }
+      ],
+      "en": "Professor, do you think social media has a negative effect on young people?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est plus nuancé. Ils favorisent le lien social, mais ils peuvent aussi créer une véritable addiction.",
+      "glosses": [
+        {
+          "text": "addiction",
+          "pos": "n.f.",
+          "meaning": "addiction"
+        }
+      ],
+      "en": "It's more nuanced. They foster social connection, but they can also create real addiction."
+    },
+    {
+      "id": "t3",
+      "speaker": "Sociologue",
+      "role": "npc",
+      "text": "Beaucoup de jeunes veulent ressembler à l'influenceur qu'ils suivent. Est-ce dangereux ?",
+      "glosses": [
+        {
+          "text": "influenceur",
+          "pos": "n.m.",
+          "meaning": "influencer"
+        }
+      ],
+      "en": "Many young people want to look like the influencer they follow. Is that dangerous?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Cela dépend. Quand l'image présentée est irréaliste, elle peut nuire à l'estime de soi.",
+      "glosses": [],
+      "en": "It depends. When the image presented is unrealistic, it can harm self-esteem."
+    },
+    {
+      "id": "t5",
+      "speaker": "Sociologue",
+      "role": "npc",
+      "text": "Et la protection de la vie privée ? Beaucoup de gens publient sans réfléchir.",
+      "glosses": [
+        {
+          "text": "vie privée",
+          "pos": "n.f.",
+          "meaning": "privacy"
+        }
+      ],
+      "en": "And privacy protection? Many people post without thinking."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est un enjeu majeur. Les plateformes collectent des données personnelles dont les utilisateurs ignorent souvent l'usage.",
+      "glosses": [
+        {
+          "text": "données",
+          "pos": "n.f.pl.",
+          "meaning": "data"
+        }
+      ],
+      "en": "It's a major issue. Platforms collect personal data whose use users often don't know about."
+    },
+    {
+      "id": "t7",
+      "speaker": "Sociologue",
+      "role": "npc",
+      "text": "On parle aussi beaucoup du harcèlement en ligne. Que peut-on faire ?",
+      "glosses": [
+        {
+          "text": "harcèlement",
+          "pos": "n.m.",
+          "meaning": "harassment"
+        }
+      ],
+      "en": "There's also a lot of talk about online harassment. What can be done?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Il faut éduquer les élèves et soutenir les victimes, mais les plateformes doivent aussi modérer les contenus.",
+      "glosses": [],
+      "en": "Pupils must be educated and victims supported, but platforms must also moderate content."
+    },
+    {
+      "id": "t9",
+      "speaker": "Sociologue",
+      "role": "npc",
+      "text": "Certains pensent qu'il faudrait réglementer plus sévèrement ces entreprises.",
+      "glosses": [
+        {
+          "text": "réglementer",
+          "pos": "v.",
+          "meaning": "to regulate"
+        }
+      ],
+      "en": "Some think these companies should be regulated more strictly."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je comprends cette position, mais une régulation excessive risquerait de limiter la liberté d'expression.",
+      "glosses": [],
+      "en": "I understand that position, but excessive regulation could limit freedom of expression."
+    },
+    {
+      "id": "t11",
+      "speaker": "Sociologue",
+      "role": "npc",
+      "text": "Alors, quel équilibre recommandez-vous ?",
+      "glosses": [],
+      "en": "So what balance do you recommend?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Plus de transparence pour les utilisateurs, et une éducation numérique dès l'école primaire.",
+      "glosses": [],
+      "en": "More transparency for users, and digital education from primary school."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "harcèlement",
+      "tip": "Say aʁ-sɛl-MɑN"
+    },
+    {
+      "id": "w2",
+      "text": "addiction",
+      "tip": "Say a-dik-SJɔN"
+    }
+  ]
+}

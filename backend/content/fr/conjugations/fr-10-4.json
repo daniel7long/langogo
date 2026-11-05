@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "être",
+      "ipa": "/ɛtʁ/",
+      "pos": "v.",
+      "meaning": "to be",
+      "tense": "Imparfait (description)",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "étais",
+          "ipa": "/ʒe.tɛ/"
+        },
+        {
+          "p": "tu",
+          "f": "étais",
+          "ipa": "/ty e.tɛ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "était",
+          "ipa": "/il e.tɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "étions",
+          "ipa": "/nu ze.tjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "étiez",
+          "ipa": "/vu ze.tje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "étaient",
+          "ipa": "/il ze.tɛ/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "C'était incroyable !",
+          "en": "It was incredible!"
+        },
+        {
+          "target": "Les gens étaient accueillants.",
+          "en": "The people were welcoming."
+        }
+      ],
+      "note": "Imparfait describes how things were."
+    },
+    {
+      "id": "c2",
+      "word": "arriver",
+      "ipa": "/a.ʁi.ve/",
+      "pos": "v.",
+      "meaning": "to arrive",
+      "tense": "Passé composé with être",
+      "forms": [
+        {
+          "p": "je",
+          "f": "suis arrivé(e)",
+          "ipa": "/ʒə sɥi a.ʁi.ve/"
+        },
+        {
+          "p": "tu",
+          "f": "es arrivé(e)",
+          "ipa": "/ty ɛ a.ʁi.ve/"
+        },
+        {
+          "p": "il / elle",
+          "f": "est arrivé(e)",
+          "ipa": "/il ɛ a.ʁi.ve/"
+        },
+        {
+          "p": "nous",
+          "f": "sommes arrivé(e)s",
+          "ipa": "/nu sɔm a.ʁi.ve/"
+        },
+        {
+          "p": "vous",
+          "f": "êtes arrivé(e)(s)",
+          "ipa": "/vu zɛt a.ʁi.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "sont arrivés",
+          "ipa": "/il sɔ̃ a.ʁi.ve/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous sommes arrivés à Marrakech.",
+          "en": "We arrived in Marrakech."
+        },
+        {
+          "target": "Elle est arrivée hier.",
+          "en": "She arrived yesterday."
+        }
+      ],
+      "note": "Verbs of movement use être; the participle agrees with the subject."
+    }
+  ]
+}

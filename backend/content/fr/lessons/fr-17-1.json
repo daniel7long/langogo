@@ -1,0 +1,316 @@
+{
+  "emoji": "🤖",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "algorithme",
+      "ipa": "/al.gɔ.ʁitm/",
+      "pos": "n.m.",
+      "meaning": "algorithm",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'algorithme choisit les vidéos.",
+          "en": "The algorithm chooses the videos."
+        },
+        {
+          "target": "Cet algorithme est opaque.",
+          "en": "This algorithm is opaque."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "biais",
+      "ipa": "/bjɛ/",
+      "pos": "n.m.",
+      "meaning": "bias",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Les données contiennent des biais.",
+          "en": "The data contain biases."
+        },
+        {
+          "target": "Ce biais est discriminatoire.",
+          "en": "This bias is discriminatory."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "transparence",
+      "ipa": "/tʁɑ̃s.pa.ʁɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "transparency",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Nous exigeons plus de transparence.",
+          "en": "We demand more transparency."
+        },
+        {
+          "target": "La transparence est un enjeu clé.",
+          "en": "Transparency is a key issue."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "responsabilité",
+      "ipa": "/ʁɛs.pɔ̃.sa.bi.li.te/",
+      "pos": "n.f.",
+      "meaning": "responsibility, liability",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Qui porte la responsabilité ?",
+          "en": "Who bears responsibility?"
+        },
+        {
+          "target": "La responsabilité juridique reste floue.",
+          "en": "Legal liability remains unclear."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "automatisation",
+      "ipa": "/o.to.ma.ti.za.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "automation",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'automatisation supprime des emplois.",
+          "en": "Automation removes jobs."
+        },
+        {
+          "target": "L'automatisation s'accélère.",
+          "en": "Automation is speeding up."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "surveillance",
+      "ipa": "/syʁ.vɛ.jɑ̃s/",
+      "pos": "n.f.",
+      "meaning": "surveillance",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La surveillance de masse est inquiétante.",
+          "en": "Mass surveillance is worrying."
+        },
+        {
+          "target": "Cette surveillance est-elle légale ?",
+          "en": "Is this surveillance legal?"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "encadrer",
+      "ipa": "/ɑ̃.ka.dʁe/",
+      "pos": "v.",
+      "meaning": "to regulate, frame",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Il faut encadrer l'usage de l'IA.",
+          "en": "The use of AI must be regulated."
+        },
+        {
+          "target": "Un règlement encadre ces pratiques.",
+          "en": "A regulation frames these practices."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Chercheuse en IA",
+      "role": "npc",
+      "text": "Docteure, l'intelligence artificielle est désormais présente dans la banque, la santé, le recrutement. Faut-il s'en réjouir ?",
+      "glosses": [],
+      "en": "Doctor, artificial intelligence is now present in banking, health, recruitment. Should we be glad?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elle offre des progrès considérables, mais elle soulève aussi des questions éthiques que nous ne pouvons plus ignorer.",
+      "glosses": [],
+      "en": "It offers considerable progress, but it also raises ethical questions we can no longer ignore."
+    },
+    {
+      "id": "t3",
+      "speaker": "Chercheuse en IA",
+      "role": "npc",
+      "text": "Lesquelles vous préoccupent le plus ?",
+      "glosses": [],
+      "en": "Which ones concern you most?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "D'abord le biais : un algorithme entraîné sur des données historiques reproduit, voire amplifie, les discriminations du passé.",
+      "glosses": [
+        {
+          "text": "algorithme",
+          "pos": "n.m.",
+          "meaning": "algorithm"
+        },
+        {
+          "text": "biais",
+          "pos": "n.m.",
+          "meaning": "bias"
+        }
+      ],
+      "en": "First, bias: an algorithm trained on historical data reproduces, even amplifies, past discrimination."
+    },
+    {
+      "id": "t5",
+      "speaker": "Chercheuse en IA",
+      "role": "npc",
+      "text": "Pouvez-vous donner un exemple concret ?",
+      "glosses": [],
+      "en": "Can you give a concrete example?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Un outil de tri de candidatures qui écarte systématiquement les femmes parce que, par le passé, l'entreprise recrutait surtout des hommes.",
+      "glosses": [],
+      "en": "A tool sorting applications that systematically rejects women because, in the past, the company mostly recruited men."
+    },
+    {
+      "id": "t7",
+      "speaker": "Chercheuse en IA",
+      "role": "npc",
+      "text": "Pourquoi ces erreurs passent-elles inaperçues ?",
+      "glosses": [],
+      "en": "Why do these errors go unnoticed?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Par manque de transparence : beaucoup de modèles fonctionnent comme des boîtes noires, et même leurs concepteurs ne savent pas toujours expliquer une décision.",
+      "glosses": [
+        {
+          "text": "transparence",
+          "pos": "n.f.",
+          "meaning": "transparency"
+        }
+      ],
+      "en": "For lack of transparency: many models work like black boxes, and even their designers can't always explain a decision."
+    },
+    {
+      "id": "t9",
+      "speaker": "Chercheuse en IA",
+      "role": "npc",
+      "text": "Si une erreur cause un préjudice, qui doit en assumer la responsabilité ?",
+      "glosses": [
+        {
+          "text": "responsabilité",
+          "pos": "n.f.",
+          "meaning": "responsibility, liability"
+        }
+      ],
+      "en": "If an error causes harm, who must bear responsibility?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est une question ouverte. Le développeur, l'entreprise utilisatrice, ou les deux ? La loi tarde à répondre.",
+      "glosses": [],
+      "en": "That's an open question. The developer, the user company, or both? The law is slow to answer."
+    },
+    {
+      "id": "t11",
+      "speaker": "Chercheuse en IA",
+      "role": "npc",
+      "text": "L'automatisation menace-t-elle réellement les emplois ?",
+      "glosses": [
+        {
+          "text": "automatisation",
+          "pos": "n.f.",
+          "meaning": "automation"
+        }
+      ],
+      "en": "Does automation really threaten jobs?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elle transformera surtout les métiers : certaines tâches disparaîtront, d'autres émergeront. Tout dépend de la manière dont nous accompagnerons cette transition.",
+      "glosses": [],
+      "en": "It will mainly transform jobs: some tasks will disappear, others will emerge. Everything depends on how we support this transition."
+    },
+    {
+      "id": "t13",
+      "speaker": "Chercheuse en IA",
+      "role": "npc",
+      "text": "Que pensez-vous de la surveillance par reconnaissance faciale dans l'espace public ?",
+      "glosses": [
+        {
+          "text": "surveillance",
+          "pos": "n.f.",
+          "meaning": "surveillance"
+        }
+      ],
+      "en": "What do you think of facial-recognition surveillance in public spaces?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elle porte une atteinte grave aux libertés individuelles et ne devrait être autorisée que dans des cas strictement encadrés.",
+      "glosses": [],
+      "en": "It seriously infringes individual freedoms and should be authorized only in strictly regulated cases."
+    },
+    {
+      "id": "t15",
+      "speaker": "Chercheuse en IA",
+      "role": "npc",
+      "text": "Il faudrait donc encadrer l'IA par la loi plutôt que laisser les entreprises s'autoréguler ?",
+      "glosses": [
+        {
+          "text": "encadrer",
+          "pos": "v.",
+          "meaning": "to regulate, frame"
+        }
+      ],
+      "en": "So AI should be regulated by law rather than letting companies self-regulate?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Les deux sont nécessaires, mais l'autorégulation seule n'a jamais suffi : sans règles claires, l'intérêt commercial l'emporte.",
+      "glosses": [],
+      "en": "Both are necessary, but self-regulation alone has never been enough: without clear rules, commercial interest wins out."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "algorithme",
+      "tip": "Say al-gɔ-ʁITM: the th is a t"
+    },
+    {
+      "id": "w2",
+      "text": "biais",
+      "tip": "One syllable: bjɛ"
+    }
+  ]
+}

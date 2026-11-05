@@ -1,0 +1,101 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "devoir",
+      "ipa": "/də.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to have to; to owe",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "dois",
+          "ipa": "/ʒə dwa/"
+        },
+        {
+          "p": "tu",
+          "f": "dois",
+          "ipa": "/ty dwa/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "doit",
+          "ipa": "/il dwa/"
+        },
+        {
+          "p": "nous",
+          "f": "devons",
+          "ipa": "/nu də.vɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "devez",
+          "ipa": "/vu də.ve/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "doivent",
+          "ipa": "/il dwav/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je dois le prendre avec de l'eau ?",
+          "en": "Do I have to take it with water?"
+        },
+        {
+          "target": "Combien je vous dois ?",
+          "en": "How much do I owe you?"
+        }
+      ],
+      "note": "Devoir also means 'to owe': Combien je vous dois ?"
+    },
+    {
+      "id": "c2",
+      "word": "dépasser / attendre",
+      "ipa": "/de.pa.se/",
+      "pos": "v.",
+      "meaning": "to exceed / to wait",
+      "tense": "Commands to 'vous'",
+      "forms": [
+        {
+          "p": "vous",
+          "f": "Ne dépassez pas",
+          "ipa": "/nə de.pa.se pa/"
+        },
+        {
+          "p": "vous",
+          "f": "Attendez six heures",
+          "ipa": "/a.tɑ̃.de si zœʁ/"
+        },
+        {
+          "p": "vous",
+          "f": "Prévenez votre médecin",
+          "ipa": "/pʁe.və.ne vɔ.tʁə med.sɛ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "Donnez-moi l'ordonnance",
+          "ipa": "/dɔ.ne mwa lɔʁ.dɔ.nɑ̃s/"
+        },
+        {
+          "p": "tu",
+          "f": "Attends",
+          "ipa": "/a.tɑ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ne dépassez pas quatre comprimés.",
+          "en": "Don't exceed four tablets."
+        },
+        {
+          "target": "Attendez six heures entre deux prises.",
+          "en": "Wait six hours between doses."
+        }
+      ],
+      "note": "Negative commands: ne + verb + pas."
+    }
+  ]
+}

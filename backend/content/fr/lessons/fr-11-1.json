@@ -1,0 +1,288 @@
+{
+  "emoji": "🩺",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "gorge",
+      "ipa": "/ɡɔʁʒ/",
+      "pos": "n.f.",
+      "meaning": "throat",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "J'ai mal à la gorge.",
+          "en": "I have a sore throat."
+        },
+        {
+          "target": "Ma gorge est sèche.",
+          "en": "My throat is dry."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "fièvre",
+      "ipa": "/fjɛvʁ/",
+      "pos": "n.f.",
+      "meaning": "fever",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Il a de la fièvre.",
+          "en": "He has a fever."
+        },
+        {
+          "target": "La fièvre est montée.",
+          "en": "The fever went up."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "tousse",
+      "ipa": "/tus/",
+      "pos": "v.",
+      "meaning": "(I/he) cough",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je tousse la nuit.",
+          "en": "I cough at night."
+        },
+        {
+          "target": "Il tousse beaucoup.",
+          "en": "He coughs a lot."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "angine",
+      "ipa": "/ɑ̃.ʒin/",
+      "pos": "n.f.",
+      "meaning": "sore throat (tonsillitis)",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "J'ai une angine.",
+          "en": "I have tonsillitis."
+        },
+        {
+          "target": "L'angine passe vite.",
+          "en": "Tonsillitis passes quickly."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "allergies",
+      "ipa": "/a.lɛʁ.ʒi/",
+      "pos": "n.f.pl.",
+      "meaning": "allergies",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Avez-vous des allergies ?",
+          "en": "Do you have any allergies?"
+        },
+        {
+          "target": "J'ai des allergies au pollen.",
+          "en": "I have pollen allergies."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "antibiotiques",
+      "ipa": "/ɑ̃.ti.bjɔ.tik/",
+      "pos": "n.m.pl.",
+      "meaning": "antibiotics",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je prends des antibiotiques.",
+          "en": "I'm taking antibiotics."
+        },
+        {
+          "target": "Les antibiotiques ne soignent pas un rhume.",
+          "en": "Antibiotics don't cure a cold."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "reposez-vous",
+      "ipa": "/ʁə.po.ze vu/",
+      "pos": "v. (imp.)",
+      "meaning": "rest (yourself)",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Reposez-vous bien.",
+          "en": "Rest well."
+        },
+        {
+          "target": "Reposez-vous ce week-end.",
+          "en": "Rest this weekend."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Docteur",
+      "role": "npc",
+      "text": "Bonjour, installez-vous. Qu'est-ce qui vous amène aujourd'hui ?",
+      "glosses": [],
+      "en": "Hello, make yourself comfortable. What brings you here today?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Bonjour docteur. J'ai mal à la gorge depuis trois jours et je tousse beaucoup.",
+      "glosses": [
+        {
+          "text": "gorge",
+          "pos": "n.f.",
+          "meaning": "throat"
+        },
+        {
+          "text": "tousse",
+          "pos": "v.",
+          "meaning": "(I/he) cough"
+        }
+      ],
+      "en": "Hello doctor. I've had a sore throat for three days and I cough a lot."
+    },
+    {
+      "id": "t3",
+      "speaker": "Docteur",
+      "role": "npc",
+      "text": "Avez-vous de la fièvre ?",
+      "glosses": [
+        {
+          "text": "fièvre",
+          "pos": "n.f.",
+          "meaning": "fever"
+        }
+      ],
+      "en": "Do you have a fever?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Un peu, j'avais trente-huit degrés hier soir, et je suis très fatigué.",
+      "glosses": [],
+      "en": "A little, I had 38 degrees last night, and I'm very tired."
+    },
+    {
+      "id": "t5",
+      "speaker": "Docteur",
+      "role": "npc",
+      "text": "Je vais vous examiner. Ouvrez la bouche et dites « ah ».",
+      "glosses": [],
+      "en": "I'm going to examine you. Open your mouth and say “ah”."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ah... Ça me fait mal quand j'avale.",
+      "glosses": [],
+      "en": "Ah... It hurts when I swallow."
+    },
+    {
+      "id": "t7",
+      "speaker": "Docteur",
+      "role": "npc",
+      "text": "La gorge est rouge, c'est une angine. Avez-vous des allergies ?",
+      "glosses": [
+        {
+          "text": "gorge",
+          "pos": "n.f.",
+          "meaning": "throat"
+        },
+        {
+          "text": "angine",
+          "pos": "n.f.",
+          "meaning": "sore throat (tonsillitis)"
+        },
+        {
+          "text": "allergies",
+          "pos": "n.f.pl.",
+          "meaning": "allergies"
+        }
+      ],
+      "en": "The throat is red, it's tonsillitis. Do you have any allergies?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Non, aucune allergie, mais je ne supporte pas l'aspirine.",
+      "glosses": [],
+      "en": "No, no allergy, but I can't tolerate aspirin."
+    },
+    {
+      "id": "t9",
+      "speaker": "Docteur",
+      "role": "npc",
+      "text": "Je vous prescris des antibiotiques et du sirop contre la toux.",
+      "glosses": [
+        {
+          "text": "antibiotiques",
+          "pos": "n.m.pl.",
+          "meaning": "antibiotics"
+        }
+      ],
+      "en": "I'm prescribing antibiotics and cough syrup."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pendant combien de temps dois-je les prendre ?",
+      "glosses": [],
+      "en": "For how long must I take them?"
+    },
+    {
+      "id": "t11",
+      "speaker": "Docteur",
+      "role": "npc",
+      "text": "Pendant sept jours, matin et soir. Et reposez-vous, buvez beaucoup d'eau.",
+      "glosses": [
+        {
+          "text": "reposez-vous",
+          "pos": "v. (imp.)",
+          "meaning": "rest (yourself)"
+        }
+      ],
+      "en": "For seven days, morning and evening. And rest, drink lots of water."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci, docteur. Dois-je revenir si cela ne va pas mieux ?",
+      "glosses": [],
+      "en": "Thank you, doctor. Should I come back if it doesn't get better?"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "angine",
+      "tip": "Say ɑ̃-ZHEEN; the first sound is nasal"
+    },
+    {
+      "id": "w2",
+      "text": "allergies",
+      "tip": "Say a-lɛʁ-ZHEE: stress the end"
+    }
+  ]
+}

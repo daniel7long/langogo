@@ -1,0 +1,305 @@
+{
+  "emoji": "🏰",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "patrimoine",
+      "ipa": "/pa.tʁi.mwan/",
+      "pos": "n.m.",
+      "meaning": "heritage",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le patrimoine français est riche.",
+          "en": "French heritage is rich."
+        },
+        {
+          "target": "Nous protégeons le patrimoine.",
+          "en": "We protect heritage."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "château",
+      "ipa": "/ʃa.to/",
+      "pos": "n.m.",
+      "meaning": "castle",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le château date du seizième siècle.",
+          "en": "The castle dates from the sixteenth century."
+        },
+        {
+          "target": "Nous visitons un château.",
+          "en": "We visit a castle."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "siècle",
+      "ipa": "/sjɛkl/",
+      "pos": "n.m.",
+      "meaning": "century",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Ce siècle fut une période de changements.",
+          "en": "This century was a time of change."
+        },
+        {
+          "target": "Il vit au vingt et unième siècle.",
+          "en": "He lives in the 21st century."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "restaurer",
+      "ipa": "/ʁɛs.to.ʁe/",
+      "pos": "v.",
+      "meaning": "to restore",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "On a restauré la façade.",
+          "en": "The facade was restored."
+        },
+        {
+          "target": "Il faut restaurer ce monument.",
+          "en": "This monument must be restored."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "vestiges",
+      "ipa": "/vɛs.tiʒ/",
+      "pos": "n.m.pl.",
+      "meaning": "remains, ruins",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "On voit des vestiges romains.",
+          "en": "You can see Roman remains."
+        },
+        {
+          "target": "Les vestiges sont protégés.",
+          "en": "The ruins are protected."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "visiteurs",
+      "ipa": "/vi.zi.tœʁ/",
+      "pos": "n.m.pl.",
+      "meaning": "visitors",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Les visiteurs sont nombreux.",
+          "en": "The visitors are numerous."
+        },
+        {
+          "target": "Les visiteurs suivent le guide.",
+          "en": "The visitors follow the guide."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "transmettre",
+      "ipa": "/tʁɑ̃s.mɛtʁ/",
+      "pos": "v.",
+      "meaning": "to pass on",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Il faut transmettre notre histoire.",
+          "en": "We must pass on our history."
+        },
+        {
+          "target": "Elle transmet son savoir.",
+          "en": "She passes on her knowledge."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Guide conférencier",
+      "role": "npc",
+      "text": "Bienvenue à tous ! Aujourd'hui, nous allons découvrir ce château, construit au quinzième siècle.",
+      "glosses": [
+        {
+          "text": "château",
+          "pos": "n.m.",
+          "meaning": "castle"
+        },
+        {
+          "text": "siècle",
+          "pos": "n.m.",
+          "meaning": "century"
+        }
+      ],
+      "en": "Welcome everyone! Today we're going to discover this castle, built in the fifteenth century."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pourquoi a-t-il été construit à cet endroit précis ?",
+      "glosses": [],
+      "en": "Why was it built in this precise spot?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Guide conférencier",
+      "role": "npc",
+      "text": "Pour surveiller la vallée. À l'époque, la position stratégique comptait plus que le confort.",
+      "glosses": [],
+      "en": "To watch over the valley. At that time, strategic position mattered more than comfort."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "On dirait qu'une partie du bâtiment est plus ancienne. Je vois des pierres différentes.",
+      "glosses": [],
+      "en": "It looks like part of the building is older. I see different stones."
+    },
+    {
+      "id": "t5",
+      "speaker": "Guide conférencier",
+      "role": "npc",
+      "text": "Très bien vu ! Ce sont des vestiges d'une forteresse du douzième siècle sur laquelle le château a été bâti.",
+      "glosses": [
+        {
+          "text": "château",
+          "pos": "n.m.",
+          "meaning": "castle"
+        },
+        {
+          "text": "siècle",
+          "pos": "n.m.",
+          "meaning": "century"
+        },
+        {
+          "text": "vestiges",
+          "pos": "n.m.pl.",
+          "meaning": "remains, ruins"
+        }
+      ],
+      "en": "Well spotted! These are remains of a twelfth-century fortress on which the castle was built."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Et pendant la Révolution, qu'est-il arrivé au château ?",
+      "glosses": [
+        {
+          "text": "château",
+          "pos": "n.m.",
+          "meaning": "castle"
+        }
+      ],
+      "en": "And during the Revolution, what happened to the castle?"
+    },
+    {
+      "id": "t7",
+      "speaker": "Guide conférencier",
+      "role": "npc",
+      "text": "Il a été pillé, puis abandonné pendant presque un siècle, avant qu'on décide de le restaurer progressivement.",
+      "glosses": [
+        {
+          "text": "siècle",
+          "pos": "n.m.",
+          "meaning": "century"
+        },
+        {
+          "text": "restaurer",
+          "pos": "v.",
+          "meaning": "to restore"
+        }
+      ],
+      "en": "It was looted, then abandoned for almost a century, before it was decided to restore it gradually."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Qui a financé la restauration ? Cela a dû coûter très cher.",
+      "glosses": [],
+      "en": "Who financed the restoration? It must have cost a lot."
+    },
+    {
+      "id": "t9",
+      "speaker": "Guide conférencier",
+      "role": "npc",
+      "text": "L'État, la région et des associations de bénévoles. Le patrimoine appartient à tout le monde, après tout.",
+      "glosses": [
+        {
+          "text": "patrimoine",
+          "pos": "n.m.",
+          "meaning": "heritage"
+        }
+      ],
+      "en": "The State, the region and volunteer associations. Heritage belongs to everyone, after all."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Combien de visiteurs accueillez-vous chaque année ?",
+      "glosses": [
+        {
+          "text": "visiteurs",
+          "pos": "n.m.pl.",
+          "meaning": "visitors"
+        }
+      ],
+      "en": "How many visitors do you welcome each year?"
+    },
+    {
+      "id": "t11",
+      "speaker": "Guide conférencier",
+      "role": "npc",
+      "text": "Environ deux cent mille, ce qui aide à entretenir le site, mais pose aussi des questions de préservation.",
+      "glosses": [],
+      "en": "About two hundred thousand, which helps maintain the site, but also raises preservation questions."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci pour cette visite passionnante. Votre travail permet vraiment de transmettre l'histoire aux générations futures.",
+      "glosses": [
+        {
+          "text": "transmettre",
+          "pos": "v.",
+          "meaning": "to pass on"
+        }
+      ],
+      "en": "Thank you for this fascinating visit. Your work really makes it possible to pass history on to future generations."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "patrimoine",
+      "tip": "Say pa-tʁi-MWAN"
+    },
+    {
+      "id": "w2",
+      "text": "château",
+      "tip": "Say ʃa-TO, like 'shah-TOH'"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "accueillir",
+      "ipa": "/a.kœ.jiʁ/",
+      "pos": "v.",
+      "meaning": "to welcome",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "accueille",
+          "ipa": "/ʒa.kœj/"
+        },
+        {
+          "p": "tu",
+          "f": "accueilles",
+          "ipa": "/ty a.kœj/"
+        },
+        {
+          "p": "il / elle",
+          "f": "accueille",
+          "ipa": "/il a.kœj/"
+        },
+        {
+          "p": "nous",
+          "f": "accueillons",
+          "ipa": "/nu za.kœ.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "accueillez",
+          "ipa": "/vu za.kœ.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "accueillent",
+          "ipa": "/il za.kœj/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Faut-il accueillir de nouveaux pays ?",
+          "en": "Should new countries be welcomed?"
+        },
+        {
+          "target": "Nous accueillons les nouveaux membres.",
+          "en": "We welcome the new members."
+        }
+      ],
+      "note": "Accueillir is conjugated like cueillir."
+    },
+    {
+      "id": "c2",
+      "word": "proposer",
+      "ipa": "/pʁɔ.pɔ.ze/",
+      "pos": "v.",
+      "meaning": "to propose",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "propose",
+          "ipa": "/ʒə pʁɔ.poz/"
+        },
+        {
+          "p": "tu",
+          "f": "proposes",
+          "ipa": "/ty pʁɔ.poz/"
+        },
+        {
+          "p": "il / elle",
+          "f": "propose",
+          "ipa": "/il pʁɔ.poz/"
+        },
+        {
+          "p": "nous",
+          "f": "proposons",
+          "ipa": "/nu pʁɔ.pɔ.zɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "proposez",
+          "ipa": "/vu pʁɔ.pɔ.ze/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "proposent",
+          "ipa": "/il pʁɔ.poz/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Certains proposent la majorité qualifiée.",
+          "en": "Some propose qualified majority."
+        },
+        {
+          "target": "Nous proposons un compromis.",
+          "en": "We propose a compromise."
+        }
+      ],
+      "note": "Regular -er verb."
+    }
+  ]
+}

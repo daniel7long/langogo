@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "s'inscrire",
+      "ipa": "/sɛ̃s.kʁiʁ/",
+      "pos": "v.",
+      "meaning": "to sign up",
+      "tense": "Passé composé (reflexive)",
+      "forms": [
+        {
+          "p": "je",
+          "f": "me suis inscrit(e)",
+          "ipa": "/ʒə mə sɥi ɛ̃s.kʁi/"
+        },
+        {
+          "p": "tu",
+          "f": "t'es inscrit(e)",
+          "ipa": "/ty tɛ ɛ̃s.kʁi/"
+        },
+        {
+          "p": "il / elle",
+          "f": "s'est inscrit(e)",
+          "ipa": "/il sɛ ɛ̃s.kʁi/"
+        },
+        {
+          "p": "nous",
+          "f": "nous sommes inscrit(e)s",
+          "ipa": "/nu nu sɔm ɛ̃s.kʁi/"
+        },
+        {
+          "p": "vous",
+          "f": "vous êtes inscrit(e)(s)",
+          "ipa": "/vu vu zɛt ɛ̃s.kʁi/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "se sont inscrits",
+          "ipa": "/il sə sɔ̃ ɛ̃s.kʁi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je me suis inscrit à la salle de sport.",
+          "en": "I signed up at the gym."
+        },
+        {
+          "target": "Elle s'est inscrite au cours.",
+          "en": "She signed up for the class."
+        }
+      ],
+      "note": "Reflexive verbs use être in the passé composé."
+    },
+    {
+      "id": "c2",
+      "word": "dormir",
+      "ipa": "/dɔʁ.miʁ/",
+      "pos": "v.",
+      "meaning": "to sleep",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "dors",
+          "ipa": "/ʒə dɔʁ/"
+        },
+        {
+          "p": "tu",
+          "f": "dors",
+          "ipa": "/ty dɔʁ/"
+        },
+        {
+          "p": "il / elle",
+          "f": "dort",
+          "ipa": "/il dɔʁ/"
+        },
+        {
+          "p": "nous",
+          "f": "dormons",
+          "ipa": "/nu dɔʁ.mɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "dormez",
+          "ipa": "/vu dɔʁ.me/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "dorment",
+          "ipa": "/il dɔʁm/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je dors mieux depuis que je bouge.",
+          "en": "I sleep better since I started moving."
+        },
+        {
+          "target": "Nous dormons huit heures.",
+          "en": "We sleep eight hours."
+        }
+      ],
+      "note": "Dormir: the m is dropped in the singular (dors, dort)."
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "emoji": "🗣️",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "anglicisme",
+      "ipa": "/ɑ̃.gli.sism/",
+      "pos": "n.m.",
+      "meaning": "anglicism",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Cet anglicisme est très courant.",
+          "en": "This anglicism is very common."
+        },
+        {
+          "target": "Évitons les anglicismes inutiles.",
+          "en": "Let's avoid needless anglicisms."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "néologisme",
+      "ipa": "/ne.ɔ.lɔ.ʒism/",
+      "pos": "n.m.",
+      "meaning": "neologism",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Ce néologisme est récent.",
+          "en": "This neologism is recent."
+        },
+        {
+          "target": "Un néologisme entre dans le dictionnaire.",
+          "en": "A neologism enters the dictionary."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "registre",
+      "ipa": "/ʁə.ʒistʁ/",
+      "pos": "n.m.",
+      "meaning": "register",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Il change de registre selon l'interlocuteur.",
+          "en": "He changes register depending on the person."
+        },
+        {
+          "target": "Ce registre est trop familier.",
+          "en": "This register is too informal."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "évolution",
+      "ipa": "/e.vɔ.ly.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "evolution",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'évolution de la langue est naturelle.",
+          "en": "The evolution of language is natural."
+        },
+        {
+          "target": "Cette évolution est rapide.",
+          "en": "This evolution is fast."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "norme",
+      "ipa": "/nɔʁm/",
+      "pos": "n.f.",
+      "meaning": "norm, standard",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La norme change avec l'usage.",
+          "en": "The norm changes with usage."
+        },
+        {
+          "target": "Cette norme est contestée.",
+          "en": "This norm is contested."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "académie",
+      "ipa": "/a.ka.de.mi/",
+      "pos": "n.f.",
+      "meaning": "academy",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'Académie française publie un dictionnaire.",
+          "en": "The Académie française publishes a dictionary."
+        },
+        {
+          "target": "L'académie recommande ce terme.",
+          "en": "The academy recommends this term."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "langue",
+      "ipa": "/lɑ̃g/",
+      "pos": "n.f.",
+      "meaning": "language, tongue",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La langue est vivante.",
+          "en": "Language is alive."
+        },
+        {
+          "target": "Cette langue a mille ans.",
+          "en": "This language is a thousand years old."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Linguiste",
+      "role": "npc",
+      "text": "Professeur, beaucoup de gens se plaignent que le français serait envahi par les anglicismes. Est-ce justifié ?",
+      "glosses": [],
+      "en": "Professor, many people complain that French is being invaded by anglicisms. Is that justified?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est une inquiétude ancienne. Au dix-huitième siècle, on déplorait déjà l'influence de l'anglais sur la langue.",
+      "glosses": [
+        {
+          "text": "langue",
+          "pos": "n.f.",
+          "meaning": "language, tongue"
+        }
+      ],
+      "en": "It's an old worry. In the eighteenth century, people were already lamenting the influence of English on the language."
+    },
+    {
+      "id": "t3",
+      "speaker": "Linguiste",
+      "role": "npc",
+      "text": "Pourtant, un anglicisme comme « week-end » ou « email » est désormais partout.",
+      "glosses": [
+        {
+          "text": "anglicisme",
+          "pos": "n.m.",
+          "meaning": "anglicism"
+        }
+      ],
+      "en": "Yet an anglicism like 'weekend' or 'email' is now everywhere."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Certes, mais chaque langue emprunte. Le français a lui-même donné à l'anglais des milliers de mots, comme « restaurant » ou « ambassade ».",
+      "glosses": [
+        {
+          "text": "langue",
+          "pos": "n.f.",
+          "meaning": "language, tongue"
+        }
+      ],
+      "en": "True, but every language borrows. French itself gave English thousands of words, like 'restaurant' or 'embassy'."
+    },
+    {
+      "id": "t5",
+      "speaker": "Linguiste",
+      "role": "npc",
+      "text": "Ne faut-il pas protéger la langue contre cet afflux ?",
+      "glosses": [
+        {
+          "text": "langue",
+          "pos": "n.f.",
+          "meaning": "language, tongue"
+        }
+      ],
+      "en": "Shouldn't the language be protected against this influx?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Une langue vivante ne se protège pas en la figeant. Elle s'adapte, elle absorbe, elle transforme ce qu'elle emprunte.",
+      "glosses": [
+        {
+          "text": "langue",
+          "pos": "n.f.",
+          "meaning": "language, tongue"
+        }
+      ],
+      "en": "A living language isn't protected by freezing it. It adapts, absorbs, transforms what it borrows."
+    },
+    {
+      "id": "t7",
+      "speaker": "Linguiste",
+      "role": "npc",
+      "text": "Quel rôle joue l'Académie française dans ce processus ?",
+      "glosses": [
+        {
+          "text": "Académie",
+          "pos": "n.f.",
+          "meaning": "academy"
+        }
+      ],
+      "en": "What role does the Académie française play in this process?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Elle propose des équivalents français, comme « courriel », mais elle n'a aucun pouvoir contraignant sur l'usage réel des locuteurs.",
+      "glosses": [],
+      "en": "It proposes French equivalents, like 'courriel', but it has no binding power over speakers' actual usage."
+    },
+    {
+      "id": "t9",
+      "speaker": "Linguiste",
+      "role": "npc",
+      "text": "Certains néologismes réussissent, d'autres échouent. Pourquoi ?",
+      "glosses": [],
+      "en": "Some neologisms succeed, others fail. Why?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Un néologisme réussit s'il comble un vide, s'il est facile à prononcer et s'il est adopté par des personnes influentes dans la communauté.",
+      "glosses": [
+        {
+          "text": "néologisme",
+          "pos": "n.m.",
+          "meaning": "neologism"
+        }
+      ],
+      "en": "A neologism succeeds if it fills a gap, if it's easy to pronounce and if it's adopted by influential people in the community."
+    },
+    {
+      "id": "t11",
+      "speaker": "Linguiste",
+      "role": "npc",
+      "text": "Parlons du registre. Les jeunes parlent-ils vraiment « mal », comme on le dit souvent ?",
+      "glosses": [
+        {
+          "text": "registre",
+          "pos": "n.m.",
+          "meaning": "register"
+        }
+      ],
+      "en": "Let's talk about register. Do young people really speak 'badly', as is often said?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ils parlent différemment, ce qui n'est pas la même chose. Ils maîtrisent souvent plusieurs registres et changent d'un contexte à l'autre.",
+      "glosses": [],
+      "en": "They speak differently, which is not the same thing. They often master several registers and switch from one context to another."
+    },
+    {
+      "id": "t13",
+      "speaker": "Linguiste",
+      "role": "npc",
+      "text": "La norme grammaticale évolue-t-elle, elle aussi ?",
+      "glosses": [
+        {
+          "text": "norme",
+          "pos": "n.f.",
+          "meaning": "norm, standard"
+        }
+      ],
+      "en": "Does the grammatical norm evolve too?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Lentement, mais oui : des tournures autrefois jugées fautives sont aujourd'hui acceptées, et l'inverse est vrai aussi.",
+      "glosses": [],
+      "en": "Slowly, but yes: expressions once judged incorrect are accepted today, and the reverse is true too."
+    },
+    {
+      "id": "t15",
+      "speaker": "Linguiste",
+      "role": "npc",
+      "text": "Si vous deviez résumer votre vision de l'évolution du français, que diriez-vous ?",
+      "glosses": [
+        {
+          "text": "évolution",
+          "pos": "n.f.",
+          "meaning": "evolution"
+        }
+      ],
+      "en": "If you had to sum up your vision of French's evolution, what would you say?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Que le français n'est ni menacé ni immuable : il est ce que ses locuteurs en font, jour après jour.",
+      "glosses": [],
+      "en": "That French is neither threatened nor unchanging: it is what its speakers make of it, day after day."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "anglicisme",
+      "tip": "Say ɑ̃-gli-SISM"
+    },
+    {
+      "id": "w2",
+      "text": "néologisme",
+      "tip": "Say ne-ɔ-lɔ-ʒISM"
+    }
+  ]
+}

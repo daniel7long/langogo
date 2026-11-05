@@ -1,0 +1,291 @@
+{
+  "emoji": "🌍",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "débat",
+      "ipa": "/de.ba/",
+      "pos": "n.m.",
+      "meaning": "debate",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le débat est animé.",
+          "en": "The debate is lively."
+        },
+        {
+          "target": "J'ouvre le débat.",
+          "en": "I open the debate."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "environnement",
+      "ipa": "/ɑ̃.vi.ʁɔn.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "environment",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Protégeons l'environnement.",
+          "en": "Let's protect the environment."
+        },
+        {
+          "target": "L'environnement est une priorité.",
+          "en": "The environment is a priority."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "transports en commun",
+      "ipa": "/tʁɑ̃s.pɔʁ ɑ̃ kɔ.mœ̃/",
+      "pos": "n.m.pl.",
+      "meaning": "public transport",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je prends les transports en commun.",
+          "en": "I use public transport."
+        },
+        {
+          "target": "Les transports en commun sont gratuits.",
+          "en": "Public transport is free."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "pollution",
+      "ipa": "/pɔ.ly.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "pollution",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "La pollution de l'air augmente.",
+          "en": "Air pollution is increasing."
+        },
+        {
+          "target": "Cette pollution est dangereuse.",
+          "en": "This pollution is dangerous."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "taxer",
+      "ipa": "/tak.se/",
+      "pos": "v.",
+      "meaning": "to tax",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "On veut taxer les voitures polluantes.",
+          "en": "They want to tax polluting cars."
+        },
+        {
+          "target": "Il faut taxer le carbone.",
+          "en": "Carbon must be taxed."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "favoriser",
+      "ipa": "/fa.vɔ.ʁi.ze/",
+      "pos": "v.",
+      "meaning": "to promote, favor",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Il faut favoriser le vélo.",
+          "en": "Cycling must be promoted."
+        },
+        {
+          "target": "Cette mesure favorise l'emploi.",
+          "en": "This measure favors employment."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "mesure",
+      "ipa": "/mə.zyʁ/",
+      "pos": "n.f.",
+      "meaning": "measure",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "C'est une mesure efficace.",
+          "en": "It's an effective measure."
+        },
+        {
+          "target": "Le gouvernement prend des mesures.",
+          "en": "The government is taking measures."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Modérateur",
+      "role": "npc",
+      "text": "Bonsoir à tous. Ce soir, notre débat porte sur la place de la voiture en centre-ville. Madame Roux, votre position ?",
+      "glosses": [
+        {
+          "text": "débat",
+          "pos": "n.m.",
+          "meaning": "debate"
+        }
+      ],
+      "en": "Good evening everyone. Tonight our debate is about the place of cars in city centers. Ms. Roux, your position?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je pense qu'il faut limiter la voiture, car la pollution de l'air nuit gravement à notre santé.",
+      "glosses": [
+        {
+          "text": "pollution",
+          "pos": "n.f.",
+          "meaning": "pollution"
+        }
+      ],
+      "en": "I think cars need to be limited, because air pollution seriously harms our health."
+    },
+    {
+      "id": "t3",
+      "speaker": "Modérateur",
+      "role": "npc",
+      "text": "Monsieur Blanc, que répondez-vous ?",
+      "glosses": [],
+      "en": "Mr. Blanc, what do you answer?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je comprends le problème, mais beaucoup de gens n'ont pas le choix : les transports en commun ne desservent pas leur quartier.",
+      "glosses": [
+        {
+          "text": "transports en commun",
+          "pos": "n.m.pl.",
+          "meaning": "public transport"
+        }
+      ],
+      "en": "I understand the problem, but many people have no choice: public transport doesn't serve their neighborhood."
+    },
+    {
+      "id": "t5",
+      "speaker": "Modérateur",
+      "role": "npc",
+      "text": "C'est justement pourquoi il faut investir davantage dans le réseau de bus et de trams.",
+      "glosses": [],
+      "en": "That's precisely why more must be invested in the bus and tram network."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Investir, c'est bien, mais cela prend du temps. En attendant, faut-il taxer les automobilistes ?",
+      "glosses": [
+        {
+          "text": "taxer",
+          "pos": "v.",
+          "meaning": "to tax"
+        }
+      ],
+      "en": "Investing is good, but it takes time. In the meantime, should drivers be taxed?"
+    },
+    {
+      "id": "t7",
+      "speaker": "Modérateur",
+      "role": "npc",
+      "text": "Une taxe seule serait injuste. On devrait plutôt favoriser les alternatives, comme le vélo ou le covoiturage.",
+      "glosses": [
+        {
+          "text": "favoriser",
+          "pos": "v.",
+          "meaning": "to promote, favor"
+        }
+      ],
+      "en": "A tax alone would be unfair. We should rather promote alternatives, like cycling or carpooling."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je suis d'accord, à condition que cette mesure ne pénalise pas les familles modestes.",
+      "glosses": [
+        {
+          "text": "mesure",
+          "pos": "n.f.",
+          "meaning": "measure"
+        }
+      ],
+      "en": "I agree, provided that this measure doesn't penalize low-income families."
+    },
+    {
+      "id": "t9",
+      "speaker": "Modérateur",
+      "role": "npc",
+      "text": "Pensez-vous qu'un centre-ville sans voiture serait bénéfique pour les commerçants ?",
+      "glosses": [],
+      "en": "Do you think a car-free city center would be beneficial for shopkeepers?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Les études montrent que oui : les piétons dépensent davantage que les automobilistes.",
+      "glosses": [],
+      "en": "Studies show it would: pedestrians spend more than drivers."
+    },
+    {
+      "id": "t11",
+      "speaker": "Modérateur",
+      "role": "npc",
+      "text": "Je reste prudent. Chaque ville est différente, et l'environnement ne doit pas servir de prétexte pour exclure certains habitants.",
+      "glosses": [
+        {
+          "text": "environnement",
+          "pos": "n.m.",
+          "meaning": "environment"
+        }
+      ],
+      "en": "I remain cautious. Each city is different, and the environment shouldn't serve as a pretext to exclude some residents."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci à tous les deux. Ce débat montre qu'il n'existe pas de solution unique, mais des compromis à construire.",
+      "glosses": [
+        {
+          "text": "débat",
+          "pos": "n.m.",
+          "meaning": "debate"
+        }
+      ],
+      "en": "Thank you both. This debate shows there is no single solution, but compromises to build."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "environnement",
+      "tip": "Say ɑ̃-vi-ʁɔn-MɑN"
+    },
+    {
+      "id": "w2",
+      "text": "pollution",
+      "tip": "Say pɔ-ly-SJɔN"
+    }
+  ]
+}

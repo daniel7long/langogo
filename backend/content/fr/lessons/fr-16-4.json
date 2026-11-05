@@ -1,0 +1,329 @@
+{
+  "emoji": "⚖️",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "réforme",
+      "ipa": "/ʁe.fɔʁm/",
+      "pos": "n.f.",
+      "meaning": "reform",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La réforme est contestée.",
+          "en": "The reform is contested."
+        },
+        {
+          "target": "Cette réforme change tout.",
+          "en": "This reform changes everything."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "retraite",
+      "ipa": "/ʁə.tʁɛt/",
+      "pos": "n.f.",
+      "meaning": "retirement, pension",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'âge de la retraite recule.",
+          "en": "The retirement age is moving back."
+        },
+        {
+          "target": "Il prépare sa retraite.",
+          "en": "He is preparing his retirement."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "cotisations",
+      "ipa": "/kɔ.ti.za.sjɔ̃/",
+      "pos": "n.f.pl.",
+      "meaning": "contributions",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Les cotisations financent le système.",
+          "en": "Contributions fund the system."
+        },
+        {
+          "target": "Les cotisations augmentent.",
+          "en": "Contributions are increasing."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "grève",
+      "ipa": "/gʁɛv/",
+      "pos": "n.f.",
+      "meaning": "strike",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La grève dure depuis une semaine.",
+          "en": "The strike has lasted a week."
+        },
+        {
+          "target": "Les syndicats appellent à la grève.",
+          "en": "The unions call for a strike."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "négociation",
+      "ipa": "/ne.gɔ.sja.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "negotiation",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La négociation est tendue.",
+          "en": "The negotiation is tense."
+        },
+        {
+          "target": "Nous reprenons la négociation demain.",
+          "en": "We resume negotiations tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "pénibilité",
+      "ipa": "/pe.ni.bi.li.te/",
+      "pos": "n.f.",
+      "meaning": "arduousness",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La pénibilité doit être reconnue.",
+          "en": "Arduousness must be recognized."
+        },
+        {
+          "target": "Certains métiers ont une forte pénibilité.",
+          "en": "Some jobs are very arduous."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "équité",
+      "ipa": "/e.ki.te/",
+      "pos": "n.f.",
+      "meaning": "fairness",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Nous réclamons plus d'équité.",
+          "en": "We demand more fairness."
+        },
+        {
+          "target": "L'équité entre générations est essentielle.",
+          "en": "Fairness between generations is essential."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Syndicaliste",
+      "role": "npc",
+      "text": "Bonjour, vous représentez les salariés dans les discussions sur la réforme. Quelle est votre position ?",
+      "glosses": [
+        {
+          "text": "réforme",
+          "pos": "n.f.",
+          "meaning": "reform"
+        }
+      ],
+      "en": "Hello, you represent employees in the discussions on the reform. What is your position?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Nous refusons le report de l'âge de la retraite sans contreparties pour ceux qui ont commencé à travailler tôt.",
+      "glosses": [
+        {
+          "text": "retraite",
+          "pos": "n.f.",
+          "meaning": "retirement, pension"
+        }
+      ],
+      "en": "We refuse postponing the retirement age without compensation for those who started working early."
+    },
+    {
+      "id": "t3",
+      "speaker": "Syndicaliste",
+      "role": "npc",
+      "text": "Le gouvernement affirme que sans réforme, le système sera déficitaire. Que répondez-vous ?",
+      "glosses": [
+        {
+          "text": "réforme",
+          "pos": "n.f.",
+          "meaning": "reform"
+        }
+      ],
+      "en": "The government claims that without reform, the system will run a deficit. What do you answer?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Nous ne nions pas le déséquilibre, mais nous pensons qu'il existe d'autres leviers, comme une hausse des cotisations patronales.",
+      "glosses": [
+        {
+          "text": "cotisations",
+          "pos": "n.f.pl.",
+          "meaning": "contributions"
+        }
+      ],
+      "en": "We don't deny the imbalance, but we believe other levers exist, such as raising employer contributions."
+    },
+    {
+      "id": "t5",
+      "speaker": "Syndicaliste",
+      "role": "npc",
+      "text": "Les entreprises répondent que cela pénaliserait la compétitivité et l'emploi.",
+      "glosses": [],
+      "en": "Companies respond that this would penalize competitiveness and employment."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est un argument classique. Pourtant, des pays voisins ont fait ce choix sans catastrophe économique.",
+      "glosses": [],
+      "en": "That's a classic argument. Yet neighboring countries made this choice without economic catastrophe."
+    },
+    {
+      "id": "t7",
+      "speaker": "Syndicaliste",
+      "role": "npc",
+      "text": "Parlons de la pénibilité : tous les métiers peuvent-ils partir au même âge ?",
+      "glosses": [
+        {
+          "text": "pénibilité",
+          "pos": "n.f.",
+          "meaning": "arduousness"
+        }
+      ],
+      "en": "Let's talk about arduousness: can all jobs retire at the same age?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Évidemment pas. Un maçon ou une aide-soignante ne peuvent pas travailler jusqu'à soixante-sept ans avec la même santé qu'un cadre de bureau.",
+      "glosses": [],
+      "en": "Obviously not. A mason or a nurse's aide cannot work until sixty-seven with the same health as an office manager."
+    },
+    {
+      "id": "t9",
+      "speaker": "Syndicaliste",
+      "role": "npc",
+      "text": "Mais définir la pénibilité est complexe : où placer la limite entre un métier pénible et un autre ?",
+      "glosses": [
+        {
+          "text": "pénibilité",
+          "pos": "n.f.",
+          "meaning": "arduousness"
+        }
+      ],
+      "en": "But defining arduousness is complex: where to draw the line between one arduous job and another?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est justement l'objet de la négociation. Nous demandons des critères objectifs, fondés sur des données médicales.",
+      "glosses": [
+        {
+          "text": "négociation",
+          "pos": "n.f.",
+          "meaning": "negotiation"
+        }
+      ],
+      "en": "That's precisely the object of the negotiation. We demand objective criteria, based on medical data."
+    },
+    {
+      "id": "t11",
+      "speaker": "Syndicaliste",
+      "role": "npc",
+      "text": "La grève est-elle, selon vous, le seul moyen de se faire entendre ?",
+      "glosses": [
+        {
+          "text": "grève",
+          "pos": "n.f.",
+          "meaning": "strike"
+        }
+      ],
+      "en": "Is a strike, in your view, the only way to be heard?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Non, c'est un dernier recours. Mais quand le dialogue est rompu, elle devient un outil légitime.",
+      "glosses": [],
+      "en": "No, it's a last resort. But when dialogue breaks down, it becomes a legitimate tool."
+    },
+    {
+      "id": "t13",
+      "speaker": "Syndicaliste",
+      "role": "npc",
+      "text": "Beaucoup d'usagers subissent pourtant ses conséquences au quotidien, ce qui peut retourner l'opinion contre vous.",
+      "glosses": [],
+      "en": "Yet many users suffer its consequences daily, which can turn public opinion against you."
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Nous en avons conscience, et c'est pourquoi nous essayons d'expliquer nos revendications le plus clairement possible.",
+      "glosses": [],
+      "en": "We are aware of that, and that's why we try to explain our demands as clearly as possible."
+    },
+    {
+      "id": "t15",
+      "speaker": "Syndicaliste",
+      "role": "npc",
+      "text": "Où voyez-vous la sortie de crise ?",
+      "glosses": [],
+      "en": "Where do you see the way out of the crisis?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Dans un compromis fondé sur l'équité : un effort réparti entre tous, et non supporté par les seuls salariés.",
+      "glosses": [
+        {
+          "text": "équité",
+          "pos": "n.f.",
+          "meaning": "fairness"
+        }
+      ],
+      "en": "In a compromise based on fairness: an effort shared among everyone, not borne by employees alone."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "pénibilité",
+      "tip": "Six beats: pe-ni-bi-li-TE"
+    },
+    {
+      "id": "w2",
+      "text": "équité",
+      "tip": "Three beats: e-ki-TE"
+    }
+  ]
+}

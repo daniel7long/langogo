@@ -1,0 +1,295 @@
+{
+  "emoji": "🤝",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "contrat",
+      "ipa": "/kɔ̃.tʁa/",
+      "pos": "n.m.",
+      "meaning": "contract",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je signe le contrat lundi.",
+          "en": "I sign the contract on Monday."
+        },
+        {
+          "target": "Le contrat est à durée indéterminée.",
+          "en": "The contract is permanent."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "augmentation",
+      "ipa": "/og.mɑ̃.ta.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "raise",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je demande une augmentation.",
+          "en": "I'm asking for a raise."
+        },
+        {
+          "target": "Elle a obtenu une augmentation.",
+          "en": "She got a raise."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "télétravail",
+      "ipa": "/te.le.tʁa.vaj/",
+      "pos": "n.m.",
+      "meaning": "remote work",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le télétravail est possible deux jours.",
+          "en": "Remote work is possible two days."
+        },
+        {
+          "target": "J'apprécie le télétravail.",
+          "en": "I appreciate remote work."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "préavis",
+      "ipa": "/pʁe.a.vi/",
+      "pos": "n.m.",
+      "meaning": "notice period",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Mon préavis dure trois mois.",
+          "en": "My notice period lasts three months."
+        },
+        {
+          "target": "Il respecte son préavis.",
+          "en": "He respects his notice period."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "avantages",
+      "ipa": "/a.vɑ̃.taʒ/",
+      "pos": "n.m.pl.",
+      "meaning": "benefits",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Quels sont les avantages ?",
+          "en": "What are the benefits?"
+        },
+        {
+          "target": "L'entreprise offre de nombreux avantages.",
+          "en": "The company offers many benefits."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "évolution",
+      "ipa": "/e.vɔ.ly.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "career progression",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je souhaite une évolution rapide.",
+          "en": "I want fast progression."
+        },
+        {
+          "target": "Les possibilités d'évolution sont réelles.",
+          "en": "The progression prospects are real."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "clause",
+      "ipa": "/kloz/",
+      "pos": "n.f.",
+      "meaning": "clause",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Cette clause me pose problème.",
+          "en": "This clause is a problem for me."
+        },
+        {
+          "target": "Lisez bien chaque clause.",
+          "en": "Read each clause carefully."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Directeur",
+      "role": "npc",
+      "text": "Voici le contrat que nous vous proposons. Prenez le temps de le lire attentivement.",
+      "glosses": [
+        {
+          "text": "contrat",
+          "pos": "n.m.",
+          "meaning": "contract"
+        }
+      ],
+      "en": "Here is the contract we are offering you. Take the time to read it carefully."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci. Je vois que le salaire est inférieur à ce dont nous avions parlé.",
+      "glosses": [],
+      "en": "Thank you. I see that the salary is lower than what we had discussed."
+    },
+    {
+      "id": "t3",
+      "speaker": "Directeur",
+      "role": "npc",
+      "text": "Nous pourrions le revoir à la hausse, mais cela dépend de votre disponibilité.",
+      "glosses": [],
+      "en": "We could revise it upward, but that depends on your availability."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je pourrais commencer dans deux mois, car je dois respecter mon préavis.",
+      "glosses": [
+        {
+          "text": "préavis",
+          "pos": "n.m.",
+          "meaning": "notice period"
+        }
+      ],
+      "en": "I could start in two months, because I have to serve my notice period."
+    },
+    {
+      "id": "t5",
+      "speaker": "Directeur",
+      "role": "npc",
+      "text": "C'est acceptable. Que souhaitez-vous améliorer dans l'offre ?",
+      "glosses": [],
+      "en": "That's acceptable. What would you like to improve in the offer?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "J'aimerais une augmentation après la période d'essai, et deux jours de télétravail par semaine.",
+      "glosses": [
+        {
+          "text": "augmentation",
+          "pos": "n.f.",
+          "meaning": "raise"
+        },
+        {
+          "text": "télétravail",
+          "pos": "n.m.",
+          "meaning": "remote work"
+        }
+      ],
+      "en": "I'd like a raise after the trial period, and two remote days a week."
+    },
+    {
+      "id": "t7",
+      "speaker": "Directeur",
+      "role": "npc",
+      "text": "Le télétravail est envisageable. Pour l'augmentation, nous devons en parler avec la direction.",
+      "glosses": [
+        {
+          "text": "augmentation",
+          "pos": "n.f.",
+          "meaning": "raise"
+        },
+        {
+          "text": "télétravail",
+          "pos": "n.m.",
+          "meaning": "remote work"
+        }
+      ],
+      "en": "Remote work is possible. For the raise, we have to talk with management."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Et quels avantages sont prévus : mutuelle, tickets restaurant, formation ?",
+      "glosses": [
+        {
+          "text": "avantages",
+          "pos": "n.m.pl.",
+          "meaning": "benefits"
+        }
+      ],
+      "en": "And what benefits are planned: health insurance, meal vouchers, training?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Directeur",
+      "role": "npc",
+      "text": "La mutuelle est prise en charge à soixante pour cent, et vous aurez accès à un budget de formation.",
+      "glosses": [],
+      "en": "Health insurance is covered at sixty percent, and you'll have access to a training budget."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Parfait. Il y a une clause de non-concurrence que je ne comprends pas bien.",
+      "glosses": [
+        {
+          "text": "clause",
+          "pos": "n.f.",
+          "meaning": "clause"
+        }
+      ],
+      "en": "Perfect. There's a non-compete clause that I don't fully understand."
+    },
+    {
+      "id": "t11",
+      "speaker": "Directeur",
+      "role": "npc",
+      "text": "Elle vous interdit de travailler chez un concurrent pendant un an. Nous pouvons la limiter à six mois.",
+      "glosses": [],
+      "en": "It forbids you from working for a competitor for a year. We can limit it to six months."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Dans ce cas, je suis prêt à signer, à condition que l'évolution vers un poste de responsable soit mentionnée.",
+      "glosses": [
+        {
+          "text": "évolution",
+          "pos": "n.f.",
+          "meaning": "career progression"
+        }
+      ],
+      "en": "In that case, I'm ready to sign, provided that progression to a manager position is mentioned."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "préavis",
+      "tip": "Say pʁe-a-VI: three syllables"
+    },
+    {
+      "id": "w2",
+      "text": "clause",
+      "tip": "Rhymes with 'chose': kloz"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "traduire",
+      "ipa": "/tʁa.dɥiʁ/",
+      "pos": "v.",
+      "meaning": "to translate",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "traduis",
+          "ipa": "/ʒə tʁa.dɥi/"
+        },
+        {
+          "p": "tu",
+          "f": "traduis",
+          "ipa": "/ty tʁa.dɥi/"
+        },
+        {
+          "p": "il / elle",
+          "f": "traduit",
+          "ipa": "/il tʁa.dɥi/"
+        },
+        {
+          "p": "nous",
+          "f": "traduisons",
+          "ipa": "/nu tʁa.dɥi.zɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "traduisez",
+          "ipa": "/vu tʁa.dɥi.ze/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "traduisent",
+          "ipa": "/il tʁa.dɥiz/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je traduis des romans.",
+          "en": "I translate novels."
+        },
+        {
+          "target": "Nous traduisons ce poème.",
+          "en": "We translate this poem."
+        }
+      ],
+      "note": "Conjugated like conduire."
+    },
+    {
+      "id": "c2",
+      "word": "trahir",
+      "ipa": "/tʁa.iʁ/",
+      "pos": "v.",
+      "meaning": "to betray",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "trahis",
+          "ipa": "/ʒə tʁa.i/"
+        },
+        {
+          "p": "tu",
+          "f": "trahis",
+          "ipa": "/ty tʁa.i/"
+        },
+        {
+          "p": "il / elle",
+          "f": "trahit",
+          "ipa": "/il tʁa.i/"
+        },
+        {
+          "p": "nous",
+          "f": "trahissons",
+          "ipa": "/nu tʁa.i.sɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "trahissez",
+          "ipa": "/vu tʁa.i.se/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "trahissent",
+          "ipa": "/il tʁa.is/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "On trahit toujours quelque chose.",
+          "en": "One always betrays something."
+        },
+        {
+          "target": "Ils trahissent l'auteur.",
+          "en": "They betray the author."
+        }
+      ],
+      "note": "Regular -ir verb: adds -iss- in the plural."
+    }
+  ]
+}

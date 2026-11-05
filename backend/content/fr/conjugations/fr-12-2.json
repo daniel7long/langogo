@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "pouvoir",
+      "ipa": "/pu.vwaʁ/",
+      "pos": "v.",
+      "meaning": "can, to be able",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "pourrai",
+          "ipa": "/ʒə pu.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "pourras",
+          "ipa": "/ty pu.ʁa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "pourra",
+          "ipa": "/il pu.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "pourrons",
+          "ipa": "/nu pu.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "pourrez",
+          "ipa": "/vu pu.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "pourront",
+          "ipa": "/il pu.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je pourrai consulter mon solde ?",
+          "en": "Will I be able to check my balance?"
+        },
+        {
+          "target": "Vous pourrez retirer de l'argent.",
+          "en": "You'll be able to withdraw money."
+        }
+      ],
+      "note": "The future of pouvoir is irregular: pourr-."
+    },
+    {
+      "id": "c2",
+      "word": "recevoir",
+      "ipa": "/ʁə.sə.vwaʁ/",
+      "pos": "v.",
+      "meaning": "to receive",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "recevrai",
+          "ipa": "/ʒə ʁə.sə.vʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "recevras",
+          "ipa": "/ty ʁə.sə.vʁa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "recevra",
+          "ipa": "/il ʁə.sə.vʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "recevrons",
+          "ipa": "/nu ʁə.sə.vʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "recevrez",
+          "ipa": "/vu ʁə.sə.vʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "recevront",
+          "ipa": "/il ʁə.sə.vʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Vous recevrez votre carte sous une semaine.",
+          "en": "You'll receive your card within a week."
+        },
+        {
+          "target": "Je recevrai le code par courrier.",
+          "en": "I'll receive the code by mail."
+        }
+      ],
+      "note": "Recevoir drops -oir in the future: recevr-."
+    }
+  ]
+}

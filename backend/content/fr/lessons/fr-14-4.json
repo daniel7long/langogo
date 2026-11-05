@@ -1,0 +1,284 @@
+{
+  "emoji": "🤲",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "solidarité",
+      "ipa": "/sɔ.li.da.ʁi.te/",
+      "pos": "n.f.",
+      "meaning": "solidarity",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "La solidarité est essentielle.",
+          "en": "Solidarity is essential."
+        },
+        {
+          "target": "Un élan de solidarité est né.",
+          "en": "A wave of solidarity has risen."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "sans-abri",
+      "ipa": "/sɑ̃.z‿a.bʁi/",
+      "pos": "n.m./f.",
+      "meaning": "homeless person",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Nous aidons les sans-abri.",
+          "en": "We help the homeless."
+        },
+        {
+          "target": "Le nombre de sans-abri augmente.",
+          "en": "The number of homeless is rising."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "dons",
+      "ipa": "/dɔ̃/",
+      "pos": "n.m.pl.",
+      "meaning": "donations",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Nous collectons des dons.",
+          "en": "We collect donations."
+        },
+        {
+          "target": "Merci pour vos dons.",
+          "en": "Thank you for your donations."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "engagement",
+      "ipa": "/ɑ̃.gaʒ.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "commitment",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Votre engagement nous touche.",
+          "en": "Your commitment touches us."
+        },
+        {
+          "target": "L'engagement associatif est précieux.",
+          "en": "Community involvement is precious."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "maraude",
+      "ipa": "/ma.ʁod/",
+      "pos": "n.f.",
+      "meaning": "night outreach round",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "La maraude commence à vingt heures.",
+          "en": "The outreach round starts at 8 p.m."
+        },
+        {
+          "target": "Je participe à une maraude.",
+          "en": "I take part in an outreach round."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "hébergement",
+      "ipa": "/e.bɛʁ.ʒə.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "accommodation, shelter",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "L'hébergement d'urgence est saturé.",
+          "en": "Emergency shelter is full."
+        },
+        {
+          "target": "Nous cherchons un hébergement.",
+          "en": "We're looking for accommodation."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "sensibiliser",
+      "ipa": "/sɑ̃.si.bi.li.ze/",
+      "pos": "v.",
+      "meaning": "to raise awareness",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Il faut sensibiliser le public.",
+          "en": "The public must be made aware."
+        },
+        {
+          "target": "Nous sensibilisons les écoles.",
+          "en": "We raise awareness in schools."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Responsable d'association",
+      "role": "npc",
+      "text": "Bonjour et merci de vous intéresser à notre association. Qu'est-ce qui vous amène ?",
+      "glosses": [],
+      "en": "Hello and thank you for your interest in our association. What brings you here?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je voudrais m'engager auprès des personnes sans-abri. J'ai du temps libre le soir et le week-end.",
+      "glosses": [
+        {
+          "text": "sans-abri",
+          "pos": "n.m./f.",
+          "meaning": "homeless person"
+        }
+      ],
+      "en": "I'd like to get involved with homeless people. I have free time in the evenings and on weekends."
+    },
+    {
+      "id": "t3",
+      "speaker": "Responsable d'association",
+      "role": "npc",
+      "text": "C'est formidable. Votre engagement sera très précieux, car la solidarité compte surtout en hiver.",
+      "glosses": [
+        {
+          "text": "solidarité",
+          "pos": "n.f.",
+          "meaning": "solidarity"
+        },
+        {
+          "text": "engagement",
+          "pos": "n.m.",
+          "meaning": "commitment"
+        }
+      ],
+      "en": "That's wonderful. Your commitment will be very valuable, because solidarity matters most in winter."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "En quoi consiste votre action, concrètement ?",
+      "glosses": [],
+      "en": "What does your work consist of, concretely?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Responsable d'association",
+      "role": "npc",
+      "text": "Nous organisons des maraudes trois soirs par semaine pour distribuer des repas chauds et des couvertures.",
+      "glosses": [],
+      "en": "We organize outreach rounds three evenings a week to distribute hot meals and blankets."
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Et quand quelqu'un a besoin d'un lit, que faites-vous ?",
+      "glosses": [],
+      "en": "And when someone needs a bed, what do you do?"
+    },
+    {
+      "id": "t7",
+      "speaker": "Responsable d'association",
+      "role": "npc",
+      "text": "Nous appelons le service d'hébergement d'urgence, mais les places sont rares et la plupart sont déjà prises.",
+      "glosses": [
+        {
+          "text": "hébergement",
+          "pos": "n.m.",
+          "meaning": "accommodation, shelter"
+        }
+      ],
+      "en": "We call the emergency shelter service, but places are scarce and most are already taken."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Comment financez-vous toutes ces actions ?",
+      "glosses": [],
+      "en": "How do you fund all these actions?"
+    },
+    {
+      "id": "t9",
+      "speaker": "Responsable d'association",
+      "role": "npc",
+      "text": "Principalement grâce aux dons des habitants et à quelques subventions municipales.",
+      "glosses": [
+        {
+          "text": "dons",
+          "pos": "n.m.pl.",
+          "meaning": "donations"
+        }
+      ],
+      "en": "Mainly thanks to residents' donations and a few municipal grants."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je pourrais aussi organiser une collecte de vêtements dans mon entreprise.",
+      "glosses": [],
+      "en": "I could also organize a clothing drive in my company."
+    },
+    {
+      "id": "t11",
+      "speaker": "Responsable d'association",
+      "role": "npc",
+      "text": "Excellente idée ! Cela permettrait de sensibiliser vos collègues à cette cause.",
+      "glosses": [
+        {
+          "text": "sensibiliser",
+          "pos": "v.",
+          "meaning": "to raise awareness"
+        }
+      ],
+      "en": "Excellent idea! That would help raise your colleagues' awareness of this cause."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je vous propose de commencer samedi par une maraude avec un bénévole expérimenté. Cela vous convient ?",
+      "glosses": [
+        {
+          "text": "maraude",
+          "pos": "n.f.",
+          "meaning": "night outreach round"
+        }
+      ],
+      "en": "I suggest you start on Saturday with an outreach round with an experienced volunteer. Does that suit you?"
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "sans-abri",
+      "tip": "Say sɑ̃-za-BʁI with liaison"
+    },
+    {
+      "id": "w2",
+      "text": "hébergement",
+      "tip": "Say e-bɛʁ-ʒə-MɑN"
+    }
+  ]
+}

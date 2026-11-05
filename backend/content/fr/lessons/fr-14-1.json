@@ -1,0 +1,289 @@
+{
+  "emoji": "📰",
+  "max_flowers": 55,
+  "cefr": "B2",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "actualité",
+      "ipa": "/ak.tɥa.li.te/",
+      "pos": "n.f.",
+      "meaning": "current events",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je suis l'actualité tous les jours.",
+          "en": "I follow the news every day."
+        },
+        {
+          "target": "L'actualité est chargée.",
+          "en": "The news is heavy."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "source",
+      "ipa": "/suʁs/",
+      "pos": "n.f.",
+      "meaning": "source",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Cite ta source.",
+          "en": "Cite your source."
+        },
+        {
+          "target": "Cette source n'est pas fiable.",
+          "en": "This source isn't reliable."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "fiable",
+      "ipa": "/fjabl/",
+      "pos": "adj.",
+      "meaning": "reliable",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Cette information est fiable.",
+          "en": "This information is reliable."
+        },
+        {
+          "target": "Un journal fiable vérifie ses faits.",
+          "en": "A reliable paper checks its facts."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "rumeur",
+      "ipa": "/ʁy.mœʁ/",
+      "pos": "n.f.",
+      "meaning": "rumor",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Ce n'est qu'une rumeur.",
+          "en": "It's only a rumor."
+        },
+        {
+          "target": "La rumeur circule vite.",
+          "en": "The rumor spreads fast."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "démentir",
+      "ipa": "/de.mɑ̃.tiʁ/",
+      "pos": "v.",
+      "meaning": "to deny, refute",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le ministre a démenti.",
+          "en": "The minister denied it."
+        },
+        {
+          "target": "Ils démentent cette information.",
+          "en": "They deny this information."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "titre",
+      "ipa": "/titʁ/",
+      "pos": "n.m.",
+      "meaning": "headline",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Le titre est trompeur.",
+          "en": "The headline is misleading."
+        },
+        {
+          "target": "Ne lis pas que le titre.",
+          "en": "Don't only read the headline."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "vérifier",
+      "ipa": "/ve.ʁi.fje/",
+      "pos": "v.",
+      "meaning": "to verify",
+      "cefr": "B2",
+      "examples": [
+        {
+          "target": "Je vérifie toujours les faits.",
+          "en": "I always check the facts."
+        },
+        {
+          "target": "Il faut vérifier avant de partager.",
+          "en": "You must verify before sharing."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Journaliste",
+      "role": "npc",
+      "text": "Tu as vu la nouvelle qui circule sur les réseaux sociaux ? Apparemment, l'usine va fermer.",
+      "glosses": [],
+      "en": "Did you see the news going around on social media? Apparently the factory is going to close."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, mais je me méfie. Ce n'est peut-être qu'une rumeur.",
+      "glosses": [
+        {
+          "text": "rumeur",
+          "pos": "n.f.",
+          "meaning": "rumor"
+        }
+      ],
+      "en": "Yes, but I'm wary. It might just be a rumor."
+    },
+    {
+      "id": "t3",
+      "speaker": "Journaliste",
+      "role": "npc",
+      "text": "Pourtant, la publication a déjà été partagée des milliers de fois.",
+      "glosses": [],
+      "en": "Yet the post has already been shared thousands of times."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ça ne prouve rien. Avant de croire quoi que ce soit, il faut vérifier l'information.",
+      "glosses": [
+        {
+          "text": "vérifier",
+          "pos": "v.",
+          "meaning": "to verify"
+        }
+      ],
+      "en": "That proves nothing. Before believing anything, you have to verify the information."
+    },
+    {
+      "id": "t5",
+      "speaker": "Journaliste",
+      "role": "npc",
+      "text": "Comment tu fais, concrètement, pour savoir si une source est fiable ?",
+      "glosses": [
+        {
+          "text": "source",
+          "pos": "n.f.",
+          "meaning": "source"
+        },
+        {
+          "text": "fiable",
+          "pos": "adj.",
+          "meaning": "reliable"
+        }
+      ],
+      "en": "How do you do it, concretely, to know whether a source is reliable?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je regarde qui publie l'article, si d'autres médias en parlent, et s'il cite des documents officiels.",
+      "glosses": [],
+      "en": "I look at who publishes the article, whether other media talk about it, and whether it cites official documents."
+    },
+    {
+      "id": "t7",
+      "speaker": "Journaliste",
+      "role": "npc",
+      "text": "Et si le titre est très choquant, je me demande si on cherche simplement à attirer des clics.",
+      "glosses": [
+        {
+          "text": "titre",
+          "pos": "n.m.",
+          "meaning": "headline"
+        }
+      ],
+      "en": "And if the headline is very shocking, I wonder whether they're simply trying to attract clicks."
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est vrai que certains titres sont trompeurs. Je lis rarement l'article en entier.",
+      "glosses": [],
+      "en": "It's true that some headlines are misleading. I rarely read the whole article."
+    },
+    {
+      "id": "t9",
+      "speaker": "Journaliste",
+      "role": "npc",
+      "text": "C'est justement le problème. Là, la direction de l'usine a choisi de démentir la rumeur ce matin.",
+      "glosses": [
+        {
+          "text": "rumeur",
+          "pos": "n.f.",
+          "meaning": "rumor"
+        },
+        {
+          "text": "démentir",
+          "pos": "v.",
+          "meaning": "to deny, refute"
+        }
+      ],
+      "en": "That's precisely the problem. In this case, the factory management chose to deny the rumor this morning."
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ah bon ? Je n'avais pas vu. Tu as le lien vers le communiqué ?",
+      "glosses": [],
+      "en": "Really? I hadn't seen that. Do you have the link to the statement?"
+    },
+    {
+      "id": "t11",
+      "speaker": "Journaliste",
+      "role": "npc",
+      "text": "Oui, je te l'envoie. Je te conseille aussi de suivre l'actualité locale sur un site sérieux.",
+      "glosses": [
+        {
+          "text": "actualité",
+          "pos": "n.f.",
+          "meaning": "current events"
+        }
+      ],
+      "en": "Yes, I'll send it to you. I also advise you to follow local news on a serious site."
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Merci du conseil. Je vais supprimer mon partage, je ne voudrais pas diffuser de fausses informations.",
+      "glosses": [],
+      "en": "Thanks for the advice. I'm going to delete my share, I wouldn't want to spread false information."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "actualité",
+      "tip": "Five beats: ak-tɥa-li-TE"
+    },
+    {
+      "id": "w2",
+      "text": "fiable",
+      "tip": "Two beats: FJABL, with a clear j sound"
+    }
+  ]
+}

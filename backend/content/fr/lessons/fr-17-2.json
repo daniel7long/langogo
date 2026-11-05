@@ -1,0 +1,334 @@
+{
+  "emoji": "🌡️",
+  "max_flowers": 65,
+  "cefr": "C1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "réchauffement",
+      "ipa": "/ʁe.ʃof.mɑ̃/",
+      "pos": "n.m.",
+      "meaning": "warming",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Le réchauffement s'accélère.",
+          "en": "Warming is accelerating."
+        },
+        {
+          "target": "Le réchauffement climatique est mesurable.",
+          "en": "Global warming is measurable."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "émissions",
+      "ipa": "/e.mi.sjɔ̃/",
+      "pos": "n.f.pl.",
+      "meaning": "emissions",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Les émissions de CO2 augmentent.",
+          "en": "CO2 emissions are rising."
+        },
+        {
+          "target": "Réduire les émissions est urgent.",
+          "en": "Reducing emissions is urgent."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "adaptation",
+      "ipa": "/a.dap.ta.sjɔ̃/",
+      "pos": "n.f.",
+      "meaning": "adaptation",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "L'adaptation coûte cher.",
+          "en": "Adaptation is expensive."
+        },
+        {
+          "target": "Les villes planifient leur adaptation.",
+          "en": "Cities plan their adaptation."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "sécheresse",
+      "ipa": "/se.ʃɛ.ʁɛs/",
+      "pos": "n.f.",
+      "meaning": "drought",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La sécheresse menace les récoltes.",
+          "en": "Drought threatens crops."
+        },
+        {
+          "target": "Une sécheresse historique a frappé la région.",
+          "en": "A historic drought hit the region."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "biodiversité",
+      "ipa": "/bjo.di.vɛʁ.si.te/",
+      "pos": "n.f.",
+      "meaning": "biodiversity",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "La biodiversité s'effondre.",
+          "en": "Biodiversity is collapsing."
+        },
+        {
+          "target": "Préserver la biodiversité est vital.",
+          "en": "Preserving biodiversity is vital."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "seuil",
+      "ipa": "/sœj/",
+      "pos": "n.m.",
+      "meaning": "threshold",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Nous approchons du seuil critique.",
+          "en": "We are nearing the critical threshold."
+        },
+        {
+          "target": "Ce seuil ne doit pas être dépassé.",
+          "en": "This threshold must not be exceeded."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "décarboner",
+      "ipa": "/de.kaʁ.bɔ.ne/",
+      "pos": "v.",
+      "meaning": "to decarbonize",
+      "cefr": "C1",
+      "examples": [
+        {
+          "target": "Il faut décarboner l'industrie.",
+          "en": "Industry must be decarbonized."
+        },
+        {
+          "target": "Décarboner les transports prend du temps.",
+          "en": "Decarbonizing transport takes time."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Climatologue",
+      "role": "npc",
+      "text": "Merci d'avoir accepté cet entretien. Quel est, aujourd'hui, l'état des connaissances sur le réchauffement climatique ?",
+      "glosses": [
+        {
+          "text": "réchauffement",
+          "pos": "n.m.",
+          "meaning": "warming"
+        }
+      ],
+      "en": "Thank you for accepting this interview. What is the current state of knowledge on global warming?"
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Le consensus scientifique est solide : le réchauffement est réel, il est causé par les activités humaines, et il s'accélère.",
+      "glosses": [
+        {
+          "text": "réchauffement",
+          "pos": "n.m.",
+          "meaning": "warming"
+        }
+      ],
+      "en": "The scientific consensus is solid: warming is real, it is caused by human activity, and it is accelerating."
+    },
+    {
+      "id": "t3",
+      "speaker": "Climatologue",
+      "role": "npc",
+      "text": "On entend souvent parler de l'objectif de un virgule cinq degré. Pourquoi ce seuil est-il si important ?",
+      "glosses": [
+        {
+          "text": "seuil",
+          "pos": "n.m.",
+          "meaning": "threshold"
+        }
+      ],
+      "en": "We often hear about the 1.5-degree target. Why is this threshold so important?"
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Parce qu'au-delà, les risques augmentent fortement : vagues de chaleur, élévation du niveau de la mer, disparition d'écosystèmes entiers.",
+      "glosses": [],
+      "en": "Because beyond it, risks rise sharply: heat waves, sea-level rise, the disappearance of entire ecosystems."
+    },
+    {
+      "id": "t5",
+      "speaker": "Climatologue",
+      "role": "npc",
+      "text": "Pouvons-nous encore l'éviter ?",
+      "glosses": [],
+      "en": "Can we still avoid it?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "C'est devenu très difficile. Il faudrait que les émissions mondiales baissent de près de moitié en moins de dix ans.",
+      "glosses": [
+        {
+          "text": "émissions",
+          "pos": "n.f.pl.",
+          "meaning": "emissions"
+        }
+      ],
+      "en": "It has become very difficult. Global emissions would need to fall by nearly half in less than ten years."
+    },
+    {
+      "id": "t7",
+      "speaker": "Climatologue",
+      "role": "npc",
+      "text": "Quels secteurs sont les plus concernés par cette baisse ?",
+      "glosses": [],
+      "en": "Which sectors are most affected by this reduction?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "L'énergie, les transports, l'agriculture et l'industrie. Il faut décarboner l'ensemble de l'économie, pas seulement quelques secteurs.",
+      "glosses": [
+        {
+          "text": "décarboner",
+          "pos": "v.",
+          "meaning": "to decarbonize"
+        }
+      ],
+      "en": "Energy, transport, agriculture and industry. The whole economy must be decarbonized, not just a few sectors."
+    },
+    {
+      "id": "t9",
+      "speaker": "Climatologue",
+      "role": "npc",
+      "text": "En France, quels effets observe-t-on déjà ?",
+      "glosses": [],
+      "en": "In France, what effects are already observed?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Des étés plus chauds, une sécheresse presque chaque année, et une pression croissante sur l'eau et sur l'agriculture.",
+      "glosses": [
+        {
+          "text": "sécheresse",
+          "pos": "n.f.",
+          "meaning": "drought"
+        }
+      ],
+      "en": "Hotter summers, a drought nearly every year, and growing pressure on water and agriculture."
+    },
+    {
+      "id": "t11",
+      "speaker": "Climatologue",
+      "role": "npc",
+      "text": "La biodiversité est-elle aussi touchée ?",
+      "glosses": [
+        {
+          "text": "biodiversité",
+          "pos": "n.f.",
+          "meaning": "biodiversity"
+        }
+      ],
+      "en": "Is biodiversity also affected?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Fortement. Les espèces ne peuvent pas toutes migrer assez vite, et certaines disparaissent avant même d'avoir été étudiées.",
+      "glosses": [],
+      "en": "Strongly. Not all species can migrate fast enough, and some disappear before they've even been studied."
+    },
+    {
+      "id": "t13",
+      "speaker": "Climatologue",
+      "role": "npc",
+      "text": "Faut-il privilégier la réduction des émissions ou l'adaptation ?",
+      "glosses": [
+        {
+          "text": "émissions",
+          "pos": "n.f.pl.",
+          "meaning": "emissions"
+        },
+        {
+          "text": "adaptation",
+          "pos": "n.f.",
+          "meaning": "adaptation"
+        }
+      ],
+      "en": "Should we prioritize reducing emissions or adaptation?"
+    },
+    {
+      "id": "t14",
+      "speaker": "You",
+      "role": "you",
+      "text": "Les deux sont indispensables. Sans réduction, l'adaptation deviendra impossible ; sans adaptation, nous subirons des dégâts évitables.",
+      "glosses": [
+        {
+          "text": "adaptation",
+          "pos": "n.f.",
+          "meaning": "adaptation"
+        }
+      ],
+      "en": "Both are essential. Without reduction, adaptation will become impossible; without adaptation, we'll suffer avoidable damage."
+    },
+    {
+      "id": "t15",
+      "speaker": "Climatologue",
+      "role": "npc",
+      "text": "Les citoyens ont-ils encore un rôle à jouer, ou tout dépend-il des États ?",
+      "glosses": [],
+      "en": "Do citizens still have a role to play, or does everything depend on states?"
+    },
+    {
+      "id": "t16",
+      "speaker": "You",
+      "role": "you",
+      "text": "Ils en ont un, mais il ne doit pas servir d'alibi : les choix collectifs, comme l'urbanisme ou l'énergie, pèsent bien plus que les gestes individuels.",
+      "glosses": [],
+      "en": "They do, but it must not serve as an alibi: collective choices, such as urban planning or energy, weigh far more than individual gestures."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "réchauffement",
+      "tip": "Say ʁe-ʃof-MɑN"
+    },
+    {
+      "id": "w2",
+      "text": "biodiversité",
+      "tip": "Six beats: bjo-di-vɛʁ-si-TE"
+    }
+  ]
+}

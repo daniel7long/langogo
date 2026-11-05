@@ -1,0 +1,91 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "falloir",
+      "ipa": "/fa.lwaʁ/",
+      "pos": "v.",
+      "meaning": "to be necessary",
+      "tense": "Impersonal forms",
+      "forms": [
+        {
+          "p": "il (present)",
+          "f": "il faut",
+          "ipa": "/il fo/"
+        },
+        {
+          "p": "il (conditional)",
+          "f": "il faudrait",
+          "ipa": "/il fo.dʁɛ/"
+        },
+        {
+          "p": "il (future)",
+          "f": "il faudra",
+          "ipa": "/il fo.dʁa/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il faudrait que quelqu'un s'en occupe.",
+          "en": "Someone should take care of it."
+        },
+        {
+          "target": "Il faudrait partir tôt.",
+          "en": "We should leave early."
+        }
+      ],
+      "note": "Falloir exists only in the il form: il faudrait que + subjunctive."
+    },
+    {
+      "id": "c2",
+      "word": "s'occuper",
+      "ipa": "/sɔ.ky.pe/",
+      "pos": "v.",
+      "meaning": "to take care of",
+      "tense": "Subjunctive",
+      "forms": [
+        {
+          "p": "que je",
+          "f": "occupe",
+          "ipa": "/kə ʒə ɔ.kyp/"
+        },
+        {
+          "p": "que tu",
+          "f": "occupes",
+          "ipa": "/kə ty ɔ.kyp/"
+        },
+        {
+          "p": "qu'il / qu'elle",
+          "f": "occupe",
+          "ipa": "/kil ɔ.kyp/"
+        },
+        {
+          "p": "que nous",
+          "f": "occupions",
+          "ipa": "/kə nu ɔ.ky.pjɔ̃/"
+        },
+        {
+          "p": "que vous",
+          "f": "occupiez",
+          "ipa": "/kə vu ɔ.ky.pje/"
+        },
+        {
+          "p": "qu'ils / qu'elles",
+          "f": "occupent",
+          "ipa": "/kil ɔ.kyp/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Il faudrait que tu t'en occupes.",
+          "en": "You should take care of it."
+        },
+        {
+          "target": "Il faut que nous nous en occupions.",
+          "en": "We have to take care of it."
+        }
+      ],
+      "note": "After il faudrait que the subjunctive is used."
+    }
+  ]
+}

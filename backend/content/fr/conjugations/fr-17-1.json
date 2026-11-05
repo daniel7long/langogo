@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "amplifier",
+      "ipa": "/ɑ̃.pli.fje/",
+      "pos": "v.",
+      "meaning": "to amplify",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "amplifie",
+          "ipa": "/ʒɑ̃.pli.fi/"
+        },
+        {
+          "p": "tu",
+          "f": "amplifies",
+          "ipa": "/ty ɑ̃.pli.fi/"
+        },
+        {
+          "p": "il / elle",
+          "f": "amplifie",
+          "ipa": "/il ɑ̃.pli.fi/"
+        },
+        {
+          "p": "nous",
+          "f": "amplifions",
+          "ipa": "/nu zɑ̃.pli.fjɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "amplifiez",
+          "ipa": "/vu zɑ̃.pli.fje/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "amplifient",
+          "ipa": "/il zɑ̃.pli.fi/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "L'algorithme amplifie les biais.",
+          "en": "The algorithm amplifies biases."
+        },
+        {
+          "target": "Nous amplifions le message.",
+          "en": "We amplify the message."
+        }
+      ],
+      "note": "Verbs in -ier keep the i: nous amplifions."
+    },
+    {
+      "id": "c2",
+      "word": "accompagner",
+      "ipa": "/a.kɔ̃.pa.ɲe/",
+      "pos": "v.",
+      "meaning": "to support, accompany",
+      "tense": "Future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "accompagnerai",
+          "ipa": "/ʒə a.kɔ̃.pa.ɲe.ʁe/"
+        },
+        {
+          "p": "tu",
+          "f": "accompagneras",
+          "ipa": "/ty a.kɔ̃.pa.ɲe.ʁa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "accompagnera",
+          "ipa": "/il a.kɔ̃.pa.ɲe.ʁa/"
+        },
+        {
+          "p": "nous",
+          "f": "accompagnerons",
+          "ipa": "/nu a.kɔ̃.pa.ɲe.ʁɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "accompagnerez",
+          "ipa": "/vu a.kɔ̃.pa.ɲe.ʁe/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "accompagneront",
+          "ipa": "/il a.kɔ̃.pa.ɲe.ʁɔ̃/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nous accompagnerons cette transition.",
+          "en": "We will support this transition."
+        },
+        {
+          "target": "Elle vous accompagnera.",
+          "en": "She will accompany you."
+        }
+      ],
+      "note": "Future for what will depend on future actions."
+    }
+  ]
+}

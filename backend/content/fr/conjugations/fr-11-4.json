@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "essayer / consulter",
+      "ipa": "/e.sɛ.je/",
+      "pos": "v.",
+      "meaning": "to try / to consult",
+      "tense": "Commands (impératif)",
+      "forms": [
+        {
+          "p": "tu",
+          "f": "Essaie",
+          "ipa": "/e.sɛ/"
+        },
+        {
+          "p": "nous",
+          "f": "Essayons",
+          "ipa": "/e.sɛ.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "Essayez",
+          "ipa": "/e.sɛ.je/"
+        },
+        {
+          "p": "tu",
+          "f": "Consulte un professionnel",
+          "ipa": "/kɔ̃.sylt œ̃ pʁɔ.fɛ.sjɔ.nɛl/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Essaie de les éteindre une heure avant.",
+          "en": "Try to turn them off an hour before."
+        },
+        {
+          "target": "Consulte un professionnel.",
+          "en": "Consult a professional."
+        }
+      ],
+      "note": "The tu command of -er verbs drops the final -s: essaie, consulte."
+    },
+    {
+      "id": "c2",
+      "word": "aller + infinitif",
+      "ipa": "/a.le/",
+      "pos": "v.",
+      "meaning": "to be going to",
+      "tense": "Near future",
+      "forms": [
+        {
+          "p": "je",
+          "f": "vais tester",
+          "ipa": "/ʒə vɛ tɛs.te/"
+        },
+        {
+          "p": "tu",
+          "f": "vas tester",
+          "ipa": "/ty va tɛs.te/"
+        },
+        {
+          "p": "il / elle / on",
+          "f": "va tester",
+          "ipa": "/il va tɛs.te/"
+        },
+        {
+          "p": "nous",
+          "f": "allons tester",
+          "ipa": "/nu za.lɔ̃ tɛs.te/"
+        },
+        {
+          "p": "vous",
+          "f": "allez tester",
+          "ipa": "/vu za.le tɛs.te/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "vont tester",
+          "ipa": "/il vɔ̃ tɛs.te/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Je vais tester ça dès ce soir.",
+          "en": "I'm going to test that tonight."
+        },
+        {
+          "target": "Nous allons essayer.",
+          "en": "We're going to try."
+        }
+      ],
+      "note": "'Je vais tester' = I'm going to try."
+    }
+  ]
+}

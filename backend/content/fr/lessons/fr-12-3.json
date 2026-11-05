@@ -1,0 +1,283 @@
+{
+  "emoji": "🔧",
+  "max_flowers": 45,
+  "cefr": "B1",
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "fuite",
+      "ipa": "/fɥit/",
+      "pos": "n.f.",
+      "meaning": "leak",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Il y a une fuite d'eau.",
+          "en": "There's a water leak."
+        },
+        {
+          "target": "La fuite vient du tuyau.",
+          "en": "The leak comes from the pipe."
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "évier",
+      "ipa": "/e.vje/",
+      "pos": "n.m.",
+      "meaning": "kitchen sink",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "L'évier est bouché.",
+          "en": "The sink is clogged."
+        },
+        {
+          "target": "Je nettoie l'évier.",
+          "en": "I'm cleaning the sink."
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "seau",
+      "ipa": "/so/",
+      "pos": "n.m.",
+      "meaning": "bucket",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Le seau est plein.",
+          "en": "The bucket is full."
+        },
+        {
+          "target": "Mets un seau sous la fuite.",
+          "en": "Put a bucket under the leak."
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "compteur",
+      "ipa": "/kɔ̃.tœʁ/",
+      "pos": "n.m.",
+      "meaning": "meter",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Le compteur est dans la cave.",
+          "en": "The meter is in the cellar."
+        },
+        {
+          "target": "Je relève le compteur d'eau.",
+          "en": "I read the water meter."
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "joint",
+      "ipa": "/ʒwɛ̃/",
+      "pos": "n.m.",
+      "meaning": "seal, gasket",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Le joint est cassé.",
+          "en": "The seal is broken."
+        },
+        {
+          "target": "Il faut changer le joint.",
+          "en": "The seal needs changing."
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "remplace",
+      "ipa": "/ʁɑ̃.plas/",
+      "pos": "v.",
+      "meaning": "(I) replace",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "Je remplace la pièce.",
+          "en": "I'm replacing the part."
+        },
+        {
+          "target": "Il remplace l'ampoule.",
+          "en": "He replaces the bulb."
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "garantie",
+      "ipa": "/ɡa.ʁɑ̃.ti/",
+      "pos": "adj./n.f.",
+      "meaning": "guaranteed; warranty",
+      "cefr": "B1",
+      "examples": [
+        {
+          "target": "La réparation est garantie.",
+          "en": "The repair is guaranteed."
+        },
+        {
+          "target": "La garantie dure deux ans.",
+          "en": "The warranty lasts two years."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "t1",
+      "speaker": "Plombier",
+      "role": "npc",
+      "text": "Bonjour, merci d'être venu aussi vite. Il y a une fuite sous l'évier de la cuisine.",
+      "glosses": [
+        {
+          "text": "fuite",
+          "pos": "n.f.",
+          "meaning": "leak"
+        },
+        {
+          "text": "évier",
+          "pos": "n.m.",
+          "meaning": "kitchen sink"
+        }
+      ],
+      "en": "Hello, thanks for coming so quickly. There's a leak under the kitchen sink."
+    },
+    {
+      "id": "t2",
+      "speaker": "You",
+      "role": "you",
+      "text": "Pas de problème. Depuis quand l'eau coule-t-elle ?",
+      "glosses": [],
+      "en": "No problem. Since when has the water been leaking?"
+    },
+    {
+      "id": "t3",
+      "speaker": "Plombier",
+      "role": "npc",
+      "text": "Depuis hier soir. J'ai mis un seau dessous, mais il se remplit vite.",
+      "glosses": [
+        {
+          "text": "seau",
+          "pos": "n.m.",
+          "meaning": "bucket"
+        }
+      ],
+      "en": "Since last night. I put a bucket underneath, but it fills up quickly."
+    },
+    {
+      "id": "t4",
+      "speaker": "You",
+      "role": "you",
+      "text": "Je vais regarder. Avez-vous coupé l'eau au compteur ?",
+      "glosses": [
+        {
+          "text": "compteur",
+          "pos": "n.m.",
+          "meaning": "meter"
+        }
+      ],
+      "en": "I'll take a look. Did you turn off the water at the meter?"
+    },
+    {
+      "id": "t5",
+      "speaker": "Plombier",
+      "role": "npc",
+      "text": "Non, je ne savais pas où il se trouvait. C'est dans le placard ?",
+      "glosses": [],
+      "en": "No, I didn't know where it was. Is it in the cupboard?"
+    },
+    {
+      "id": "t6",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, à gauche. Voilà, je coupe l'arrivée d'eau. Passez-moi une clé, s'il vous plaît.",
+      "glosses": [],
+      "en": "Yes, on the left. There, I'm cutting the water supply. Pass me a wrench, please."
+    },
+    {
+      "id": "t7",
+      "speaker": "Plombier",
+      "role": "npc",
+      "text": "Tenez. Vous croyez que c'est grave ?",
+      "glosses": [],
+      "en": "Here. Do you think it's serious?"
+    },
+    {
+      "id": "t8",
+      "speaker": "You",
+      "role": "you",
+      "text": "Non, le joint est usé. Je le remplace en dix minutes.",
+      "glosses": [
+        {
+          "text": "joint",
+          "pos": "n.m.",
+          "meaning": "seal, gasket"
+        },
+        {
+          "text": "remplace",
+          "pos": "v.",
+          "meaning": "(I) replace"
+        }
+      ],
+      "en": "No, the seal is worn. I'll replace it in ten minutes."
+    },
+    {
+      "id": "t9",
+      "speaker": "Plombier",
+      "role": "npc",
+      "text": "Heureusement ! Combien coûte l'intervention ?",
+      "glosses": [],
+      "en": "Thank goodness! How much does the repair cost?"
+    },
+    {
+      "id": "t10",
+      "speaker": "You",
+      "role": "you",
+      "text": "Quatre-vingts euros, pièce et déplacement compris. Je vous fais une facture.",
+      "glosses": [],
+      "en": "Eighty euros, part and travel included. I'll give you an invoice."
+    },
+    {
+      "id": "t11",
+      "speaker": "Plombier",
+      "role": "npc",
+      "text": "Très bien. Vous pensez que ça va tenir longtemps ?",
+      "glosses": [],
+      "en": "Very good. Do you think it will hold for a long time?"
+    },
+    {
+      "id": "t12",
+      "speaker": "You",
+      "role": "you",
+      "text": "Oui, au moins dix ans. Si ça coule encore, appelez-moi, la réparation est garantie.",
+      "glosses": [
+        {
+          "text": "garantie",
+          "pos": "adj./n.f.",
+          "meaning": "guaranteed; warranty"
+        }
+      ],
+      "en": "Yes, at least ten years. If it leaks again, call me, the repair is guaranteed."
+    }
+  ],
+  "practice_words": [
+    {
+      "id": "w1",
+      "text": "évier",
+      "tip": "Say e-VYE: two short beats"
+    },
+    {
+      "id": "w2",
+      "text": "compteur",
+      "tip": "The p is silent: kɔ̃-TŒʁ"
+    }
+  ]
+}

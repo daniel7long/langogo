@@ -1,0 +1,106 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "word": "croire",
+      "ipa": "/kʁwaʁ/",
+      "pos": "v.",
+      "meaning": "to believe",
+      "tense": "Present",
+      "forms": [
+        {
+          "p": "je",
+          "f": "crois",
+          "ipa": "/ʒə kʁwa/"
+        },
+        {
+          "p": "tu",
+          "f": "crois",
+          "ipa": "/ty kʁwa/"
+        },
+        {
+          "p": "il / elle",
+          "f": "croit",
+          "ipa": "/il kʁwa/"
+        },
+        {
+          "p": "nous",
+          "f": "croyons",
+          "ipa": "/nu kʁwa.jɔ̃/"
+        },
+        {
+          "p": "vous",
+          "f": "croyez",
+          "ipa": "/vu kʁwa.je/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "croient",
+          "ipa": "/il kʁwa/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "Avant de croire quoi que ce soit, il faut vérifier.",
+          "en": "Before believing anything, you must verify."
+        },
+        {
+          "target": "Nous croyons cette source.",
+          "en": "We believe this source."
+        }
+      ],
+      "note": "Croire changes oi → oy before -ons / -ez."
+    },
+    {
+      "id": "c2",
+      "word": "démentir",
+      "ipa": "/de.mɑ̃.tiʁ/",
+      "pos": "v.",
+      "meaning": "to deny",
+      "tense": "Passé composé",
+      "forms": [
+        {
+          "p": "j'",
+          "f": "ai démenti",
+          "ipa": "/ʒe de.mɑ̃.ti/"
+        },
+        {
+          "p": "tu",
+          "f": "as démenti",
+          "ipa": "/ty a de.mɑ̃.ti/"
+        },
+        {
+          "p": "il / elle",
+          "f": "a démenti",
+          "ipa": "/il a de.mɑ̃.ti/"
+        },
+        {
+          "p": "nous",
+          "f": "avons démenti",
+          "ipa": "/nu za.vɔ̃ de.mɑ̃.ti/"
+        },
+        {
+          "p": "vous",
+          "f": "avez démenti",
+          "ipa": "/vu za.ve de.mɑ̃.ti/"
+        },
+        {
+          "p": "ils / elles",
+          "f": "ont démenti",
+          "ipa": "/il zɔ̃ de.mɑ̃.ti/"
+        }
+      ],
+      "examples": [
+        {
+          "target": "La direction a démenti la rumeur.",
+          "en": "Management denied the rumor."
+        },
+        {
+          "target": "Le ministre a démenti.",
+          "en": "The minister denied it."
+        }
+      ],
+      "note": "Démentir is conjugated like mentir."
+    }
+  ]
+}

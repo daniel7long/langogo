@@ -197,6 +197,204 @@
           "title": "French idioms and humor"
         }
       ]
+    },
+    {
+      "level": 10,
+      "title": "Travel and Experiences",
+      "lessons": [
+        {
+          "id": "fr-10-1",
+          "title": "Planning a trip abroad"
+        },
+        {
+          "id": "fr-10-2",
+          "title": "Lost luggage"
+        },
+        {
+          "id": "fr-10-3",
+          "title": "Visiting a museum"
+        },
+        {
+          "id": "fr-10-4",
+          "title": "Telling a travel story"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "title": "Health and Well-being",
+      "lessons": [
+        {
+          "id": "fr-11-1",
+          "title": "At the doctor's"
+        },
+        {
+          "id": "fr-11-2",
+          "title": "At the pharmacy"
+        },
+        {
+          "id": "fr-11-3",
+          "title": "Sport and fitness"
+        },
+        {
+          "id": "fr-11-4",
+          "title": "Stress and sleep"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "title": "Daily Challenges",
+      "lessons": [
+        {
+          "id": "fr-12-1",
+          "title": "Renting a flat"
+        },
+        {
+          "id": "fr-12-2",
+          "title": "Opening a bank account"
+        },
+        {
+          "id": "fr-12-3",
+          "title": "Fixing a leak"
+        },
+        {
+          "id": "fr-12-4",
+          "title": "Meeting the neighbors"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "title": "Career and Study",
+      "lessons": [
+        {
+          "id": "fr-13-1",
+          "title": "Job interview"
+        },
+        {
+          "id": "fr-13-2",
+          "title": "Negotiating a contract"
+        },
+        {
+          "id": "fr-13-3",
+          "title": "Thesis supervision"
+        },
+        {
+          "id": "fr-13-4",
+          "title": "Remote team meeting"
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "title": "Media and Society",
+      "lessons": [
+        {
+          "id": "fr-14-1",
+          "title": "Fake news"
+        },
+        {
+          "id": "fr-14-2",
+          "title": "Social media"
+        },
+        {
+          "id": "fr-14-3",
+          "title": "Debate on city transport"
+        },
+        {
+          "id": "fr-14-4",
+          "title": "Volunteering and solidarity"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "title": "Culture and Heritage",
+      "lessons": [
+        {
+          "id": "fr-15-1",
+          "title": "Film review"
+        },
+        {
+          "id": "fr-15-2",
+          "title": "At the bookshop"
+        },
+        {
+          "id": "fr-15-3",
+          "title": "French gastronomy"
+        },
+        {
+          "id": "fr-15-4",
+          "title": "Visiting a castle"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "title": "Politics and Economy",
+      "lessons": [
+        {
+          "id": "fr-16-1",
+          "title": "Elections and democracy"
+        },
+        {
+          "id": "fr-16-2",
+          "title": "Inflation and growth"
+        },
+        {
+          "id": "fr-16-3",
+          "title": "The European Union"
+        },
+        {
+          "id": "fr-16-4",
+          "title": "The pension reform debate"
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "title": "Science and Ethics",
+      "lessons": [
+        {
+          "id": "fr-17-1",
+          "title": "Ethics of artificial intelligence"
+        },
+        {
+          "id": "fr-17-2",
+          "title": "Climate science"
+        },
+        {
+          "id": "fr-17-3",
+          "title": "Genetics and bioethics"
+        },
+        {
+          "id": "fr-17-4",
+          "title": "Space exploration"
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "title": "Language and Thought",
+      "lessons": [
+        {
+          "id": "fr-18-1",
+          "title": "How French evolves"
+        },
+        {
+          "id": "fr-18-2",
+          "title": "Freedom and morality"
+        },
+        {
+          "id": "fr-18-3",
+          "title": "The art of translation"
+        },
+        {
+          "id": "fr-18-4",
+          "title": "Plurilingualism and identity"
+        }
+      ]
     }
   ]
 }
