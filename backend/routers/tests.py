@@ -7,6 +7,7 @@ from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 from pydantic import BaseModel, Field
 
 import content
+import analytics
 import scoring
 import store
 from routers.courses import MAX_AUDIO_BYTES, MIN_AUDIO_BYTES, _extension
@@ -213,7 +214,7 @@ def submit_french_test(body: SubmitIn):
             correct_count += 1
 
     # Unanswered questions simply score 0.
-    record = {"id": uuid4().hex, "stage": "speaking", "completion_score": score,
+    record = {"id": uuid4().hex, "at": analytics.now_iso(), "stage": "speaking", "completion_score": score,
               "correct_count": correct_count, "total_questions": len(QUESTIONS)}
     _remember(record)
     return SubmitOut(id=record["id"], completion_score=score, correct_count=correct_count,

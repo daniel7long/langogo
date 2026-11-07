@@ -154,6 +154,20 @@ def retry_rows(state):
     return rows
 
 
+def level_test_rows(state):
+    """The finished level tests (the app keeps the latest 5 per learner), newest first."""
+    rows = []
+    for t in state.get("level_tests", {}).values():
+        if t.get("stage") != "done":
+            continue
+        local = to_local(t.get("at"))
+        rows.append({"at": local.strftime("%Y-%m-%d %H:%M") if local else "(before tracking)",
+                     "score": t.get("score"), "level": t.get("level"), "questions_score": t.get("completion_score"),
+                     "correct": f"{t.get('correct_count')}/{t.get('total_questions')}", "speaking_score": t.get("speech_score"),
+                     "start_lesson": t.get("start_lesson_id"), "start_title": t.get("start_lesson_title")})
+    return sorted(rows, key=lambda r: r["at"], reverse=True)
+
+
 def daily_rows(state, days=30):
     usage = state.get("usage", {}).get("days", {})
     lessons = {}
@@ -188,7 +202,9 @@ def summary(state):
     lessons = lesson_rows(state)
     scores = [r["pronunciation"] for r in lessons if r["pronunciation"] is not None]
     retries = retry_rows(state)
+    lt = level_test_rows(state)
     return {
+        "level_test": f"{lt[0]['score']} ({lt[0]['level']})" if lt else "",
         "minutes_today": td["minutes"] if td else 0, "minutes_week": round(sum(d["minutes"] for d in week), 1),
         "minutes_total": round(sum(d["minutes"] for d in days), 1),
         "lessons_today": td["lessons"] if td else 0, "lessons_week": sum(d["lessons"] for d in week),

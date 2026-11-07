@@ -77,10 +77,10 @@ def overview(key: str = ""):
     rows.sort(key=lambda r: r.get("last_seen") or "", reverse=True)
     cols = [("name_link", "Learner"), ("email", "Email"), ("langs", "Languages: level, current lesson (★ = now)"),
             ("minutes_today", "Min today"), ("minutes_week", "Min this week"), ("lessons_today", "Lessons today"),
-            ("lessons_week", "Lessons this week"), ("lessons_total", "Lessons total"), ("avg_pronunciation", "Avg pronunciation"),
+            ("lessons_week", "Lessons this week"), ("lessons_total", "Lessons total"), ("level_test", "Level test (latest)"), ("avg_pronunciation", "Avg pronunciation"),
             ("retries_total", "Retries"), ("low_words", "Low-score words"), ("last_seen", "Last seen"), ("joined", "Joined")]
     exports = "".join(f'<a class=b href="/admin/dashboard/export?kind={x}&amp;key={k}">{x} CSV</a>'
-                      for x in ("summary", "daily", "weekly", "lessons", "retries"))
+                      for x in ("summary", "daily", "weekly", "lessons", "retries", "leveltests"))
     return _page("Langogo dashboard", f"""<h1>Langogo dashboard</h1>
 <p class=n>{len(rows)} learners. Private: contains personal data. {escape(_tz_note())} Time in the app is counted while the app is open and in front.</p>
 {exports}{_table(cols, rows, raw=("name_link",))}""")
@@ -99,6 +99,9 @@ def learner(id: str = "", key: str = ""):
         ("Minutes today", s["minutes_today"]), ("Minutes this week", s["minutes_week"]), ("Minutes total", s["minutes_total"]),
         ("Lessons today", s["lessons_today"]), ("Lessons this week", s["lessons_week"]), ("Lessons total", s["lessons_total"]),
         ("Retries", s["retries_total"]), ("Low-score words", s["low_words"])])
+    lt = _table([("at", "When"), ("score", "Final score /100"), ("level", "CEFR"), ("questions_score", "Questions part"),
+                 ("correct", "Correct"), ("speaking_score", "Speaking part"), ("start_lesson", "Placed at"), ("start_title", "Lesson")],
+                analytics.level_test_rows(st))
     prog = _table([("language", "Language"), ("level", "Level"), ("lesson", "Current lesson"), ("lesson_title", "Title"),
                    ("finished", "Lessons done"), ("total", "Lessons in course")], analytics.progress(st))
     daily = analytics.daily_rows(st, 30)
@@ -128,6 +131,7 @@ def learner(id: str = "", key: str = ""):
     who = escape(match["name"] or match["email"] or id)
     return _page(f"Langogo - {who}", f"""<p><a href="/admin/dashboard?key={k}">&larr; All learners</a></p>
 <h1>{who}</h1><p class=n>{escape(match["email"])} · joined {escape(match["joined"])} · {escape(_tz_note())}</p>{cards}
+<h2>Level test results</h2>{lt}
 <h2>Languages: level and current lesson</h2>{prog}
 <h2>Time and lessons per day (last 30 days)</h2>{days}
 <h2>Time and lessons per week</h2>{weeks}
@@ -151,6 +155,8 @@ def export(kind: str = "summary", key: str = ""):
             rows += [{**base, **w} for w in analytics.weekly_rows(st)]
         elif kind == "lessons":
             rows += [{**base, **r} for r in analytics.lesson_rows(st)]
+        elif kind == "leveltests":
+            rows += [{**base, **r} for r in analytics.level_test_rows(st)]
         elif kind == "retries":
             rows += [{**base, **r} for r in analytics.retry_rows(st)]
         else:
