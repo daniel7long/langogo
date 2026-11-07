@@ -1,9 +1,11 @@
 import { useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import * as ImagePicker from 'expo-image-picker';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 
-import { getMe, getNotes, getRecords, getTopics } from '../api/app';
+import { getMe, getNotes, getRecords, getTopics, removePhoto, uploadPhoto } from '../api/app';
+import Avatar from '../components/Avatar';
 import AsyncState from '../components/AsyncState';
 import PrimaryButton from '../components/PrimaryButton';
 import RecordRow from '../components/RecordRow';
@@ -12,7 +14,7 @@ import SettingsMenu from '../components/SettingsMenu';
 import TopBar from '../components/TopBar';
 import TopicCard from '../components/TopicCard';
 import useAsync from '../hooks/useAsync';
-import { confirm } from '../utils/dialog';
+import { confirm, notify } from '../utils/dialog';
 import { goHub } from '../utils/nav';
 import { colors, radius, spacing, typography } from '../theme';
 
@@ -64,15 +66,73 @@ function Stat({ icon, label, value }) {
 function ProfileView({ me, topics, records, notes }) {
   const router = useRouter();
   const toUnlock = topics.filter((t) => t.cost > 0 && !t.unlocked);
+  const [photoUrl, setPhotoUrl] = useState(me.photo_url || null);
+  const [busy, setBusy] = useState(false);
+
+  const send = async (result) => {
+    if (result.canceled || !result.assets?.length) return;
+    setBusy(true);
+    try {
+      const res = await uploadPhoto(result.assets[0]);
+      setPhotoUrl(res.photo_url);
+    } catch (e) {
+      notify('Could not save the picture', e.message);
+    } finally {
+      setBusy(false);
+    }
+  };
+  const options = { allowsEditing: true, aspect: [1, 1], quality: 0.5 };
+  const choosePhoto = async () => {
+    if (Platform.OS !== 'web') {
+      const perm = await ImagePicker.requestMediaLibraryPermissionsAsync();
+      if (!perm.granted) return notify('Photos are off', 'Allow Langogo to use your photos in your phone settings to choose a picture.');
+    }
+    send(await ImagePicker.launchImageLibraryAsync(options));
+  };
+  const takePhoto = async () => {
+    const perm = await ImagePicker.requestCameraPermissionsAsync();
+    if (!perm.granted) return notify('Camera is off', 'Allow Langogo to use the camera in your phone settings to take a picture.');
+    send(await ImagePicker.launchCameraAsync(options));
+  };
+  const clearPhoto = async () => {
+    if (!(await confirm('Remove picture', 'Remove your profile picture?', 'Remove'))) return;
+    setBusy(true);
+    try {
+      await removePhoto();
+      setPhotoUrl(null);
+    } catch (e) {
+      notify('Could not remove the picture', e.message);
+    } finally {
+      setBusy(false);
+    }
+  };
 
   return (
     <View style={styles.page}>
     <ScrollView style={styles.flex} contentContainerStyle={styles.scroll}>
       <View style={styles.identity}>
-        <View style={styles.avatar}>
-          <Text style={styles.avatarText}>{me.name.charAt(0)}</Text>
-        </View>
+        <Pressable onPress={choosePhoto} disabled={busy} accessibilityRole="button" accessibilityLabel="Change profile picture" style={styles.avatarWrap}>
+          <Avatar name={me.name} photoUrl={photoUrl} size={88} />
+          <View style={styles.camera}>
+            <Ionicons name="camera" size={14} color={colors.onPrimary} />
+          </View>
+        </Pressable>
         <Text style={styles.name}>{me.name}</Text>
+        <View style={styles.photoLinks}>
+          <Pressable onPress={choosePhoto} disabled={busy} accessibilityRole="button">
+            <Text style={styles.link}>{busy ? 'Saving…' : photoUrl ? 'Change photo' : 'Add photo'}</Text>
+          </Pressable>
+          {Platform.OS !== 'web' && (
+            <Pressable onPress={takePhoto} disabled={busy} accessibilityRole="button">
+              <Text style={styles.link}>Take photo</Text>
+            </Pressable>
+          )}
+          {photoUrl && (
+            <Pressable onPress={clearPhoto} disabled={busy} accessibilityRole="button">
+              <Text style={styles.link}>Remove</Text>
+            </Pressable>
+          )}
+        </View>
       </View>
 
       <View style={styles.stats}>
@@ -144,8 +204,9 @@ const styles = StyleSheet.create({
   notesSub: { ...typography.caption, color: colors.textMuted },
   scroll: { padding: spacing.md, gap: spacing.md },
   identity: { alignItems: 'center', gap: spacing.sm },
-  avatar: { width: 72, height: 72, borderRadius: 36, backgroundColor: colors.primary, alignItems: 'center', justifyContent: 'center' },
-  avatarText: { ...typography.display, color: colors.onPrimary },
+  avatarWrap: { width: 88, height: 88 },
+  camera: { position: 'absolute', right: 0, bottom: 0, width: 28, height: 28, borderRadius: 14, backgroundColor: colors.primary, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: colors.card },
+  photoLinks: { flexDirection: 'row', gap: spacing.md },
   name: { ...typography.title, color: colors.text },
   stats: { flexDirection: 'row', backgroundColor: colors.card, borderRadius: radius.lg, paddingVertical: spacing.s12 },
   stat: { flex: 1, alignItems: 'center', gap: spacing.xs },

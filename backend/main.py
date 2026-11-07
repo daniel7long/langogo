@@ -10,13 +10,13 @@ import content
 import db
 import store
 from paths import STATIC_DIR
-from routers import admin, courses, freetalk, notes, profile, records, share, tests, topics
+from routers import admin, courses, dashboard, freetalk, notes, profile, records, share, tests, topics
 
 app = FastAPI(title="Langogo API")
 
 # Pages anyone may open without signing in: the share preview page, pictures and lesson audio.
 def _is_public(path):
-    if path in ("/health", "/openapi.json", "/docs", "/redoc") or path.startswith(("/static", "/media")):
+    if path in ("/health", "/openapi.json", "/docs", "/redoc") or path.startswith(("/static", "/media", "/photos/")):
         return True
     if path.startswith("/admin/"):  # protected by its own key (LANGOGO_ADMIN_KEY), not by a learner login
         return True
@@ -62,6 +62,7 @@ app.add_middleware(
 
 
 app.include_router(admin.router)
+app.include_router(dashboard.router)
 app.include_router(tests.router)
 app.include_router(profile.router)
 app.include_router(topics.router)

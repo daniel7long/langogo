@@ -3,6 +3,7 @@ import time
 
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
+import analytics
 import scoring
 import store
 from paths import RECORDINGS_DIR
@@ -61,6 +62,7 @@ async def retry_word(record_id: str, word_id: str = Form(...), audio: UploadFile
     word["score"] = pronunciation  # the record now shows your latest take
     key = f"{record_id}:{word_id}"
     store.STATE["retries"][key] = store.STATE["retries"].get(key, 0) + 1
+    analytics.log_retry(store.STATE, record, word, previous, pronunciation, store.STATE["retries"][key])
 
     user = store.STATE["user"]
     user["flowers"] += store.RETRY_REWARD

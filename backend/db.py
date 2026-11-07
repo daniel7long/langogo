@@ -44,6 +44,14 @@ _TABLES = [
            entry TEXT NOT NULL
        )""",
     "CREATE INDEX IF NOT EXISTS speech_log_participant ON speech_log (participant)",
+    """CREATE TABLE IF NOT EXISTS photos (
+           token TEXT PRIMARY KEY,
+           uid TEXT,
+           mime TEXT,
+           data TEXT NOT NULL,
+           updated_at TEXT
+       )""",
+    "CREATE INDEX IF NOT EXISTS photos_uid ON photos (uid)",
 ]
 
 
@@ -217,6 +225,39 @@ def list_users():
             "joined": (created or "")[:10], "last_active": (updated or "")[:16].replace("T", " "),
         })
     return out
+
+
+# ---- Profile pictures (small pictures kept as base64 text so SQLite and PostgreSQL behave the same) ----
+def save_photo(uid, token, mime, raw):
+    import base64
+
+    def work(con):
+        con.execute(_q("DELETE FROM photos WHERE uid = ?"), (uid,))  # one picture per learner
+        con.execute(_q("INSERT INTO photos (token, uid, mime, data, updated_at) VALUES (?, ?, ?, ?, ?)"),
+                    (token, uid, mime, base64.b64encode(raw).decode("ascii"), _now()))
+        con.commit()
+    _run(work)
+
+
+def load_photo(token):
+    """(mime, bytes) of a picture, or None."""
+    import base64
+    row = _run(lambda con: con.execute(_q("SELECT mime, data FROM photos WHERE token = ?"), (token,)).fetchone())
+    return (row[0], base64.b64decode(row[1])) if row else None
+
+
+def delete_photo(uid):
+    def work(con):
+        con.execute(_q("DELETE FROM photos WHERE uid = ?"), (uid,))
+        con.commit()
+    _run(work)
+
+
+def all_states():
+    """[(id, email, created_at, updated_at, state dict)] for every learner: used by the admin dashboard."""
+    rows = _run(lambda con: con.execute(
+        "SELECT id, email, created_at, updated_at, state FROM users ORDER BY created_at").fetchall())
+    return [(uid, email, created, updated, _loads(state, {})) for uid, email, created, updated, state in rows]
 
 
 # ---- Research speech log (see speech_log.py) --------------------------------------------------------

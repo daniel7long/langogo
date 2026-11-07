@@ -6,6 +6,7 @@ from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 import content
 import scoring
 import speech_log
+import analytics
 import store
 from paths import RECORDINGS_DIR
 
@@ -134,6 +135,7 @@ def complete_lesson(lesson_id: str):
 
     record = {
         "id": f"r{state['next_record']}",
+        "at": analytics.now_iso(),
         "lang": lang,
         "language": lesson["language"],
         "lesson_id": lesson_id,
@@ -148,7 +150,7 @@ def complete_lesson(lesson_id: str):
         "engine": engine,
         "flowers_earned": earned,
         "unlocked_level": unlocked_level,
-        "words": feedback or [dict(w) for w in lesson["practice_words"]],
+        "words": [{**w, "first_score": w.get("score")} for w in (feedback or [dict(w) for w in lesson["practice_words"]])],
     }
     state["next_record"] += 1
     state["records"].insert(0, record)

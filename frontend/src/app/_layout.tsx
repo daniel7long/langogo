@@ -9,6 +9,7 @@ import {
 } from '@expo-google-fonts/nunito';
 
 import { saveConsent } from '../../api/app';
+import useUsagePing from '../../hooks/useUsagePing';
 import { clearPendingConsent, getPendingConsent, initAuth } from '../../api/auth';
 import DialogHost from '../../components/DialogHost';
 import useAuth from '../../hooks/useAuth';
@@ -21,6 +22,7 @@ export default function RootLayout() {
     Nunito_800ExtraBold,
   });
   const { enabled, ready, session } = useAuth();
+  useUsagePing(!enabled || !!session);
   const router = useRouter();
   const segments = useSegments();
   const navState = useRootNavigationState();

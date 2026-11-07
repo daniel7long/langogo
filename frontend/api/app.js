@@ -1,6 +1,6 @@
 import { Platform } from 'react-native';
 
-import { post, postForm, request } from './client';
+import { BASE_URL, post, postForm, request } from './client';
 import { applySettings } from '../utils/settingsStore';
 import { setSpeechLocale } from '../utils/speech';
 
@@ -28,6 +28,24 @@ export const deleteRecordings = () => request('/me/recordings', { method: 'DELET
 export const getLeaderboard = () => request('/leaderboard');
 export const resetDemo = () => post('/dev/reset');
 export const saveConsent = (research) => request('/me/consent', { method: 'PUT', body: JSON.stringify({ research }) });
+// Profile picture: `asset` is what expo-image-picker returns ({ uri, mimeType }). The server returns the new address.
+export async function uploadPhoto(asset) {
+  const form = new FormData();
+  if (Platform.OS === 'web') {
+    const blob = await (await fetch(asset.uri)).blob();
+    form.append('photo', blob, 'photo.jpg');
+  } else {
+    const ext = (asset.uri.split('.').pop() || 'jpg').toLowerCase();
+    form.append('photo', { uri: asset.uri, name: `photo.${ext}`, type: asset.mimeType || `image/${ext === 'jpg' ? 'jpeg' : ext}` });
+  }
+  return postForm('/me/photo', form);
+}
+export const removePhoto = () => request('/me/photo', { method: 'DELETE' });
+// Full web address of a picture the server returned (null when there is none).
+export const photoUri = (path) => (path ? `${BASE_URL}${path}` : null);
+// Tells the server the app is open (adds up the time spent). Never throws.
+export const pingUsage = (seconds, newSession = false) =>
+  post('/me/ping', { seconds, new_session: newSession }).catch(() => {});
 export const deleteAccount = () => request('/me/account', { method: 'DELETE' });
 
 // Topics

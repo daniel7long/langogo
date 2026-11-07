@@ -108,6 +108,8 @@ def fresh_state():
         "completed": [],                      # finished lesson ids ("fr-1-1", "es-1-1", ...)
         "records": [],                        # newest first; each has "lang"
         "retries": {},
+        "retry_log": [],                      # one row per retry take (see analytics.py)
+        "usage": {},                          # time in the app per day (see analytics.py)
         "notes": {},                          # Vocab Notes: "lesson_id:vocab_id" -> note (see notes.py)
         "speech_log": [],                     # one entry per spoken line (see speech_log.py)
         "next_record": 1,

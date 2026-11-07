@@ -1,9 +1,12 @@
+import secrets
 import shutil
 from typing import Literal
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, File, HTTPException, UploadFile
+from fastapi.responses import Response
 from pydantic import BaseModel, Field
 
+import analytics
 import auth
 import content
 import db
@@ -44,7 +47,8 @@ def get_me():
             "native": lang["native"], "language": user.get("language"), "language_name": lang["name"], "locale": lang["locale"],
             "favorites": store.STATE["favorites"], "unlimited": user["plan"] is not None,
             "email": user.get("email"), "research_consent": bool(user.get("research_consent")),
-            "accounts": auth.enabled()}
+            "accounts": auth.enabled(),
+            "photo_url": f"/photos/{user['photo_token']}" if user.get("photo_token") else None}
 
 
 @router.get("/languages")
@@ -91,6 +95,66 @@ def save_favorites(body: FavoritesIn):
         raise HTTPException(status_code=422, detail=f"Unknown favorite topics: {', '.join(bad)}")
     store.STATE["favorites"] = list(dict.fromkeys(body.topic_ids))
     return {"favorites": store.STATE["favorites"]}
+
+
+class PingIn(BaseModel):
+    seconds: int = Field(30, ge=0, le=300)
+    new_session: bool = False
+
+
+@router.post("/me/ping")
+def ping(body: PingIn):
+    """The app calls this every 30 seconds while it is open and in front: it adds up the time spent in the app."""
+    analytics.add_time(store.STATE, store.current_lang(), body.seconds, body.new_session)
+    return {"ok": True}
+
+
+MAX_PHOTO_BYTES = 1_500_000
+PHOTO_TYPES = {"image/jpeg": "jpeg", "image/png": "png", "image/webp": "webp"}
+
+
+def _sniff(data):
+    """The real picture type from the first bytes (the uploaded file name and type can't be trusted)."""
+    if data[:3] == b"\xff\xd8\xff":
+        return "image/jpeg"
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return "image/png"
+    if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
+        return "image/webp"
+    return None
+
+
+@router.post("/me/photo")
+async def upload_photo(photo: UploadFile = File(...)):
+    """Saves the learner's profile picture (JPEG, PNG or WebP, up to 1.5 MB)."""
+    data = await photo.read(MAX_PHOTO_BYTES + 1)
+    if len(data) > MAX_PHOTO_BYTES:
+        raise HTTPException(status_code=413, detail="That picture is too large. Please choose a smaller one.")
+    mime = _sniff(data)
+    if mime is None:
+        raise HTTPException(status_code=422, detail="Please choose a JPEG, PNG or WebP picture.")
+    token = secrets.token_urlsafe(16)  # a new address for every picture, so the old one never stays cached
+    db.save_photo(store.current().uid, token, mime, data)
+    store.STATE["user"]["photo_token"] = token
+    return {"photo_url": f"/photos/{token}"}
+
+
+@router.delete("/me/photo")
+def remove_photo():
+    db.delete_photo(store.current().uid)
+    store.STATE["user"].pop("photo_token", None)
+    return {"photo_url": None}
+
+
+@router.get("/photos/{token}")
+def get_photo(token: str):
+    """Public address of a profile picture. The address can't be guessed, so only people who see it can open it."""
+    found = db.load_photo(token) if len(token) <= 40 else None
+    if not found:
+        raise HTTPException(status_code=404, detail="Not Found")
+    mime, data = found
+    return Response(data, media_type=mime, headers={"Cache-Control": "public, max-age=31536000, immutable",
+                                                    "X-Content-Type-Options": "nosniff"})
 
 
 @router.put("/me/name")
@@ -144,6 +208,7 @@ def delete_account():
     session = store.current()
     deleted = _wipe_recordings()
     speech_log.forget(session.participant)
+    db.delete_photo(session.uid)
     db.delete(session.uid)
     store.forget(session.uid)
     login_removed = auth.delete_remote_user(session.uid) if auth.enabled() else False
