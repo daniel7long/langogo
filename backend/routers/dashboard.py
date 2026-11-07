@@ -26,13 +26,21 @@ table{border-collapse:collapse;width:100%;background:#fff;border-radius:12px;ove
 th,td{padding:8px 12px;text-align:left;border-bottom:1px solid #EADFD3;font-size:14px;white-space:nowrap}
 th{background:#FFF1E4;color:#B84A08}a{color:#B84A08}a.b{display:inline-block;margin:4px 6px 4px 0;padding:6px 14px;border-radius:99px;background:#D95F0E;color:#fff;text-decoration:none;font-size:14px}
 .low{color:#B3261E;font-weight:600}.good{color:#1E7B34;font-weight:600}.card{display:inline-block;background:#fff;border-radius:12px;padding:10px 16px;margin:0 8px 8px 0;box-shadow:0 2px 12px rgba(120,70,20,.08)}
-.card b{display:block;font-size:22px}"""
+.card b{display:block;font-size:22px}
+body.app{margin:0;max-width:none}.shell{display:grid;grid-template-columns:300px 1fr;min-height:100vh}
+.side{background:#fff;border-right:1px solid #EADFD3;padding:16px 12px;position:sticky;top:0;height:100vh;overflow-y:auto;box-sizing:border-box}
+.side h1{font-size:22px;margin:0 4px 2px}.side .n{margin:0 4px 10px}.side input{width:100%;box-sizing:border-box;padding:8px 12px;border:1px solid #EADFD3;border-radius:10px;margin:6px 0 10px;font-size:14px}
+.who{display:block;text-decoration:none;color:#1F1B16;padding:9px 10px;border-radius:12px;margin-bottom:2px}.who:hover{background:#FFF1E4}
+.who.on{background:#FFE3CC;box-shadow:inset 3px 0 0 #D95F0E}.who b{display:block;font-size:14px}.who span{display:block;font-size:12px;color:#6B6259;overflow:hidden;text-overflow:ellipsis}
+.main{padding:24px 28px;min-width:0}.main h1{margin:0}.panel{background:#fff;border-radius:16px;padding:16px 18px;margin:0 0 18px;box-shadow:0 2px 12px rgba(120,70,20,.08)}
+.panel h2{margin:0 0 10px;font-size:17px}.panel table{box-shadow:none;border-radius:0}.panel .w{max-height:420px;overflow-y:auto}.side a.b{margin:2px 4px 8px 0;padding:5px 10px;font-size:12px}
+@media(max-width:800px){.shell{grid-template-columns:1fr}.side{position:static;height:auto;max-height:45vh}}"""
 
 
-def _page(title, body):
+def _page(title, body, cls=""):
     return HTMLResponse(f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>{escape(title)}</title>
-<style>{CSS}</style></head><body>{body}</body></html>""")
+<style>{CSS}</style></head><body class="{cls}">{body}</body></html>""")
 
 
 def _table(cols, rows, raw=()):
@@ -64,9 +72,11 @@ def _tz_note():
 
 
 @router.get("")
-def overview(key: str = ""):
+def overview(key: str = "", id: str = "", view: str = ""):
     _check(key)
     k = quote(key)
+    if view != "table":
+        return _shell(id, k)
     rows = []
     for L in _learners():
         s = analytics.summary(L["state"])
@@ -83,16 +93,10 @@ def overview(key: str = ""):
                       for x in ("summary", "daily", "weekly", "lessons", "retries", "leveltests"))
     return _page("Langogo dashboard", f"""<h1>Langogo dashboard</h1>
 <p class=n>{len(rows)} learners. Private: contains personal data. {escape(_tz_note())} Time in the app is counted while the app is open and in front.</p>
-{exports}{_table(cols, rows, raw=("name_link",))}""")
+<a class=b href="/admin/dashboard?key={k}">&larr; Back to learner view</a> {exports}{_table(cols, rows, raw=("name_link",))}""")
 
 
-@router.get("/learner")
-def learner(id: str = "", key: str = ""):
-    _check(key)
-    k = quote(key)
-    match = next((L for L in _learners() if L["id"] == id), None)
-    if match is None:
-        return _page("Not found", f'<p>No such learner. <a href="/admin/dashboard?key={k}">Back</a></p>')
+def _detail(match, k):
     st = match["state"]
     s = analytics.summary(st)
     cards = "".join(f'<div class=card>{escape(lbl)}<b>{escape(str(v))}</b></div>' for lbl, v in [
@@ -110,16 +114,15 @@ def learner(id: str = "", key: str = ""):
     days = _table([("day", "Day"), ("minutes", "Minutes in app"), ("sessions", "Sessions"), ("lessons", "Lessons finished"), ("langs", "By language")], daily)
     weeks = _table([("week", "Week starting (Mon)"), ("minutes", "Minutes"), ("lessons", "Lessons finished"),
                     ("days_active", "Days active"), ("sessions", "Sessions")], analytics.weekly_rows(st))
-    lessons = list(reversed(analytics.lesson_rows(st)))
     ltab = _table([("at", "When"), ("lang", "Lang"), ("lesson_id", "Lesson"), ("title", "Title"), ("attempt", "Attempt #"),
                    ("grade", "Grade"), ("pronunciation", "Pronunciation"), ("fluency", "Fluency"),
-                   ("completeness", "Completeness"), ("flowers", "Flowers")], lessons)
+                   ("completeness", "Completeness"), ("flowers", "Flowers")], list(reversed(analytics.lesson_rows(st))))
     retries = list(reversed(analytics.retry_rows(st)))
     for r in retries:
-        cls = "low" if r["low"] else ""
-        r["word_html"] = f'<span class="{cls}">{escape(str(r["word"]))}</span>'
+        r["word_html"] = f'<span class="{"low" if r["low"] else ""}">{escape(str(r["word"]))}</span>'
         r["change_txt"] = "" if r["change"] is None else f"{r['change']:+d}"
-        r["status_html"] = f'<span class="{"good" if r["status"].startswith("improved") and "still" not in r["status"] else ("low" if "still low" in r["status"] or r["status"] == "not retried" else "")}">{escape(r["status"])}</span>'
+        bad = "still low" in r["status"] or r["status"] == "not retried"
+        r["status_html"] = f'<span class="{"low" if bad else ("good" if r["status"].startswith("improved") else "")}">{escape(r["status"])}</span>'
     rtab = _table([("at", "When"), ("lesson_id", "Lesson"), ("kind", "Kind"), ("word_html", "Practice item"), ("first", "First score"),
                    ("latest", "Latest score"), ("change_txt", "Change"), ("retries", "Retry times"), ("status_html", "Status")],
                   retries, raw=("word_html", "status_html"))
@@ -128,16 +131,49 @@ def learner(id: str = "", key: str = ""):
         t = analytics.to_local(e["at"])
         e["when"] = t.strftime("%Y-%m-%d %H:%M") if t else ""
     ltk = _table([("when", "When"), ("lesson_id", "Lesson"), ("text", "Item"), ("previous", "Before"), ("score", "After"), ("n", "Take #")], log)
-    who = escape(match["name"] or match["email"] or id)
-    return _page(f"Langogo - {who}", f"""<p><a href="/admin/dashboard?key={k}">&larr; All learners</a></p>
-<h1>{who}</h1><p class=n>{escape(match["email"])} · joined {escape(match["joined"])} · {escape(_tz_note())}</p>{cards}
-<h2>Level test results</h2>{lt}
-<h2>Languages: level and current lesson</h2>{prog}
-<h2>Time and lessons per day (last 30 days)</h2>{days}
-<h2>Time and lessons per week</h2>{weeks}
-<h2>Lesson scores (every finished lesson)</h2>{ltab}
-<h2>Retry data: practice words, first vs latest score</h2><p class=n>Red = below {analytics.LOW_SCORE} on the first try.</p>{rtab}
-<h2>Retry takes (newest 200)</h2>{ltk}""")
+    who = escape(match["name"] or match["email"] or match["id"])
+    seen = f" · last seen {escape(s['last_seen'])}" if s["last_seen"] else " · no time tracked yet"
+    return f"""<h1>{who}</h1><p class=n>{escape(match["email"])} · joined {escape(match["joined"])}{seen}</p>{cards}
+<div class=panel><h2>Languages: level and current lesson</h2>{prog}</div>
+<div class=panel><h2>Level test results</h2>{lt}</div>
+<div class=panel><h2>Per day (last 30 days)</h2>{days}</div>
+<div class=panel><h2>Per week</h2>{weeks}</div>
+<div class=panel><h2>Lesson scores (every finished lesson)</h2>{ltab}</div>
+<div class=panel><h2>Retry data: first vs latest score of each practice item</h2><p class=n>Red = below {analytics.LOW_SCORE} on the first try.</p>{rtab}</div>
+<div class=panel><h2>Retry takes (newest 200)</h2>{ltk}</div>"""
+
+
+def _shell(selected, k):
+    """Left: the learners. Right: the one picked."""
+    people = _learners()
+    for L in people:
+        L["_sum"] = analytics.summary(L["state"])
+    people.sort(key=lambda L: L["_sum"]["last_seen"] or "", reverse=True)
+    match = next((L for L in people if L["id"] == selected), None) or (people[0] if people else None)
+    items = ""
+    for L in people:
+        prog = analytics.progress(L["state"])
+        cur = next((p for p in prog if p["current"]), prog[0] if prog else None)
+        line = f"{cur['language']} · L{cur['level']} lesson {cur['lesson']}" if cur else "-"
+        on = " on" if match and L["id"] == match["id"] else ""
+        label = L["name"] or L["email"] or L["id"][:8]
+        items += (f'<a class="who{on}" data-q="{escape((label + " " + L["email"]).lower())}" '
+                  f'href="/admin/dashboard?id={quote(L["id"])}&amp;key={k}"><b>{escape(label)}</b><span>{escape(line)}</span>'
+                  f'<span>{escape(L["_sum"]["last_seen"] or "no activity tracked yet")}</span></a>')
+    exports = "".join(f'<a class=b href="/admin/dashboard/export?kind={x}&amp;key={k}">{x}</a>'
+                      for x in ("summary", "daily", "weekly", "lessons", "retries", "leveltests"))
+    side = f"""<div class=side><h1>Langogo</h1><p class=n>{len(people)} learners · {escape(_tz_note())}</p>
+<a class=b href="/admin/dashboard?view=table&amp;key={k}">All learners table</a>
+<input id=q placeholder="Search learners" oninput="for(const a of document.querySelectorAll('.who'))a.style.display=a.dataset.q.includes(this.value.toLowerCase())?'':'none'">
+{items}<p class=n style="margin:14px 4px 4px">CSV downloads</p>{exports}</div>"""
+    main = _detail(match, k) if match else "<p>No learners yet.</p>"
+    return _page("Langogo dashboard", f'<div class=shell>{side}<div class=main>{main}</div></div>', cls="app")
+
+
+@router.get("/learner")
+def learner(id: str = "", key: str = ""):
+    _check(key)
+    return _shell(id, quote(key))
 
 
 @router.get("/export")
