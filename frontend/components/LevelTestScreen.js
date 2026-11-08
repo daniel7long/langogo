@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
-import { useRouter } from 'expo-router';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 
 import { fetchFrenchTest, submitFrenchTest } from '../api/tests';
 import Logo from './Logo';
@@ -11,6 +11,8 @@ import { colors, spacing, typography } from '../theme';
 
 export default function LevelTestScreen() {
   const router = useRouter();
+  const params = useLocalSearchParams();
+  const purpose = (Array.isArray(params.purpose) ? params.purpose[0] : params.purpose) === 'match' ? 'match' : 'placement';
 
   const [test, setTest] = useState(null); // { title, time_limit_minutes, questions: [...] }
   const [index, setIndex] = useState(0);
@@ -53,7 +55,7 @@ export default function LevelTestScreen() {
     setSubmitting(true);
     setError(null);
     try {
-      const result = await submitFrenchTest(payload);
+      const result = await submitFrenchTest(payload, purpose);
       router.replace({ pathname: '/level-speak', params: { id: result.id } }); // the speaking step comes before the result
     } catch (e) {
       setError("Couldn't submit your answers. Please try again.");

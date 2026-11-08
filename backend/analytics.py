@@ -162,6 +162,7 @@ def level_test_rows(state):
             continue
         local = to_local(t.get("at"))
         rows.append({"at": local.strftime("%Y-%m-%d %H:%M") if local else "(before tracking)",
+                     "type": ("match test" + (" (switched)" if t.get("applied") else " (stayed)")) if t.get("purpose") == "match" else "first test",
                      "score": t.get("score"), "level": t.get("level"), "questions_score": t.get("completion_score"),
                      "correct": f"{t.get('correct_count')}/{t.get('total_questions')}", "speaking_score": t.get("speech_score"),
                      "start_lesson": t.get("start_lesson_id"), "start_title": t.get("start_lesson_title")})

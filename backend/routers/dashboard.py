@@ -103,7 +103,7 @@ def _detail(match, k):
         ("Minutes today", s["minutes_today"]), ("Minutes this week", s["minutes_week"]), ("Minutes total", s["minutes_total"]),
         ("Lessons today", s["lessons_today"]), ("Lessons this week", s["lessons_week"]), ("Lessons total", s["lessons_total"]),
         ("Retries", s["retries_total"]), ("Low-score words", s["low_words"])])
-    lt = _table([("at", "When"), ("score", "Final score /100"), ("level", "CEFR"), ("questions_score", "Questions part"),
+    lt = _table([("at", "When"), ("type", "Test"), ("score", "Final score /100"), ("level", "CEFR"), ("questions_score", "Questions part"),
                  ("correct", "Correct"), ("speaking_score", "Speaking part"), ("start_lesson", "Placed at"), ("start_title", "Lesson")],
                 analytics.level_test_rows(st))
     prog = _table([("language", "Language"), ("level", "Level"), ("lesson", "Current lesson"), ("lesson_title", "Title"),

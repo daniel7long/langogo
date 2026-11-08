@@ -90,6 +90,9 @@ class AnswerIn(BaseModel):
 
 class SubmitIn(BaseModel):
     answers: list[AnswerIn] = Field(..., min_length=1)
+    # "placement": the first test, it places the learner at once. "match": taken later from the menu, it only
+    # suggests a lesson and the learner decides whether to switch (see apply_match).
+    purpose: str = Field("placement", pattern="^(placement|match)$")
 
 
 class SubmitOut(BaseModel):
@@ -115,6 +118,12 @@ class ResultOut(BaseModel):
     start_lesson_no: int
     start_lesson_id: str
     start_lesson_title: str
+    purpose: str = "placement"
+    applied: bool = True            # "match" tests: has the learner switched to the suggested lesson yet?
+    current_level: int | None = None   # "match" tests: where the learner is now
+    current_lesson_no: int | None = None
+    current_lesson_title: str | None = None
+    same_place: bool = False        # the suggestion is where the learner already is
 
 
 # --- Test records ------------------------------------------------------------
@@ -176,6 +185,34 @@ def place_learner(lang, score):
     return target
 
 
+def _current_spot(lang):
+    """The lesson the learner is on now: the first unfinished lesson of their level."""
+    ladder = _ladder(lang)
+    done = set(store.STATE["completed"])
+    level = store.level_of(lang)
+    return next((l for l in ladder if l["level"] == level and l["id"] not in done), ladder[-1])
+
+
+def _match_target(lang, score):
+    scale = _ladder(lang, PLACEMENT_MAX_LEVEL) or _ladder(lang)
+    return scale[placement_index(score, len(scale))]
+
+
+def _move_to(lang, target):
+    """Puts the learner on `target` in either direction: earlier lessons of that level count as done, the target
+    and the ones after it in that level become open again. Lessons finished in other levels stay finished and
+    every recording, score and flower is kept."""
+    state = store.STATE
+    store.set_level(lang, target["level"])
+    for l in _ladder(lang):
+        if l["level"] != target["level"]:
+            continue
+        if l["no"] < target["no"] and l["id"] not in state["completed"]:
+            state["completed"].append(l["id"])
+        elif l["no"] >= target["no"] and l["id"] in state["completed"]:
+            state["completed"].remove(l["id"])
+
+
 # --- Endpoints ---------------------------------------------------------------
 @router.get("/french", response_model=TestOut)
 def get_french_test():
@@ -214,7 +251,7 @@ def submit_french_test(body: SubmitIn):
             correct_count += 1
 
     # Unanswered questions simply score 0.
-    record = {"id": uuid4().hex, "at": analytics.now_iso(), "stage": "speaking", "completion_score": score,
+    record = {"id": uuid4().hex, "at": analytics.now_iso(), "purpose": body.purpose, "stage": "speaking", "completion_score": score,
               "correct_count": correct_count, "total_questions": len(QUESTIONS)}
     _remember(record)
     return SubmitOut(id=record["id"], completion_score=score, correct_count=correct_count,
@@ -222,7 +259,12 @@ def submit_french_test(body: SubmitIn):
 
 
 def _result_out(record):
-    return ResultOut(**{k: record[k] for k in ResultOut.model_fields})
+    out = ResultOut(**{k: record[k] for k in ResultOut.model_fields if k in record})
+    if out.purpose == "match":
+        here = _current_spot("fr")
+        out.current_level, out.current_lesson_no, out.current_lesson_title = here["level"], here["no"], here["title"]
+        out.same_place = here["id"] == out.start_lesson_id
+    return out
 
 
 @router.post("/french/{test_id}/speak", response_model=ResultOut)
@@ -255,7 +297,11 @@ async def speak_french_test(test_id: str, duration_ms: int | None = Form(None), 
     speech_score = round((result["fluency"] + result["pronunciation"]) / 2)
     final = round(WEIGHT_QUESTIONS * record["completion_score"] + WEIGHT_SPEAKING * speech_score)
     level = level_for(final)
-    lesson = place_learner("fr", final)
+    if record.get("purpose") == "match":
+        lesson = _match_target("fr", final)  # only a suggestion: nothing moves until the learner agrees
+        record["applied"] = False
+    else:
+        lesson = place_learner("fr", final)
     record.update({
         "stage": "done", "speech_score": speech_score, "score": final, "max_score": 100, "level": level,
         "recommended_minutes_per_day": MINUTES_PER_DAY[level],
@@ -263,6 +309,22 @@ async def speak_french_test(test_id: str, duration_ms: int | None = Form(None), 
         "start_lesson_id": lesson["id"], "start_lesson_title": lesson["title"],
     })
     _remember(record)
+    return _result_out(record)
+
+
+@router.post("/french/{test_id}/apply", response_model=ResultOut)
+def apply_match(test_id: str):
+    """The learner agreed to switch to the lesson a "match" test suggested."""
+    record = _tests().get(test_id)
+    if record is None or record.get("stage") != "done" or record.get("purpose") != "match":
+        raise HTTPException(status_code=404, detail="Test not found.")
+    if not record.get("applied"):
+        target = next((l for l in _ladder("fr") if l["id"] == record["start_lesson_id"]), None)
+        if target is None:
+            raise HTTPException(status_code=404, detail="That lesson is not available any more.")
+        _move_to("fr", target)
+        record["applied"] = True
+        _remember(record)
     return _result_out(record)
 
 

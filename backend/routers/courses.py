@@ -124,7 +124,8 @@ def complete_lesson(lesson_id: str):
                 and all(l in state["completed"] for l in level_lessons)
                 and (current + 1) in levels):
             store.set_level(lang, current + 1)
-            unlocked_level = current + 1
+            store.catch_up_levels(state)  # skip levels that are already finished (e.g. after a "match" test moved the learner back)
+            unlocked_level = store.level_of(lang)
 
     user["flowers"] += earned
     user["weekly_flowers"] += earned

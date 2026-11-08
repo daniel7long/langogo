@@ -8,8 +8,14 @@ export function fetchFrenchTest() {
 
 // answers: [{ question_id: 'q1', option_id: 'b' }, ...]
 // Returns { id, completion_score, correct_count, total_questions }: the speaking step comes next.
-export function submitFrenchTest(answers) {
-  return post('/tests/french/submit', { answers });
+// purpose: 'placement' (the first test, places the learner at once) or 'match' (retake from the menu: only suggests).
+export function submitFrenchTest(answers, purpose = 'placement') {
+  return post('/tests/french/submit', { answers, purpose });
+}
+
+// "Match" tests: the learner agreed to switch to the suggested lesson.
+export function applyFrenchMatch(id) {
+  return post(`/tests/french/${encodeURIComponent(id)}/apply`, {});
 }
 
 // The speaking step. `recording` is { uri, durationMs } from the recorder. There is one try: the server scores it

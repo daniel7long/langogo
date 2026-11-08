@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 
-import { fetchFrenchResult } from '../api/tests';
+import { applyFrenchMatch, fetchFrenchResult } from '../api/tests';
 import Logo from './Logo';
 import PrimaryButton from './PrimaryButton';
 import ScoreGauge from './ScoreGauge';
@@ -17,6 +17,7 @@ export default function TestResultScreen() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [switching, setSwitching] = useState(false);
 
   const load = useCallback(async () => {
     if (!id) {
@@ -38,6 +39,18 @@ export default function TestResultScreen() {
   useEffect(() => {
     load();
   }, [load]);
+
+  const match = result?.purpose === 'match';
+  const switchNow = async () => {
+    setSwitching(true);
+    try {
+      await applyFrenchMatch(result.id);
+      router.replace('/courses');
+    } catch (e) {
+      setError("Couldn't switch lessons. Please try again.");
+      setSwitching(false);
+    }
+  };
 
   if (loading) {
     return (
@@ -71,7 +84,7 @@ export default function TestResultScreen() {
         <Logo width={160} />
 
         <Text style={styles.title} accessibilityRole="header">
-          My Test Result
+          {match ? 'Your best match' : 'My Test Result'}
         </Text>
         <Text style={styles.score}>
           Score {result.score}/{result.max_score}
@@ -86,22 +99,55 @@ export default function TestResultScreen() {
           <Text style={styles.dot}>·</Text>
           <Text style={styles.part}>Speaking {result.speech_score}</Text>
         </View>
+        {match && !result.same_place && (
+          <View style={styles.start}>
+            <Text style={styles.startLabel}>You are now at</Text>
+            <Text style={styles.startTitle}>
+              Level {result.current_level} · Lesson {result.current_lesson_no}
+            </Text>
+            <Text style={styles.startLesson}>{result.current_lesson_title}</Text>
+          </View>
+        )}
         <View style={styles.start}>
-          <Text style={styles.startLabel}>You start at</Text>
+          <Text style={styles.startLabel}>{match ? (result.same_place ? 'You are already in the right place' : 'Best match for you') : 'You start at'}</Text>
           <Text style={styles.startTitle}>
             Level {result.start_level} · Lesson {result.start_lesson_no}
           </Text>
           <Text style={styles.startLesson}>{result.start_lesson_title}</Text>
         </View>
 
-        <Text style={styles.message}>
-          <Text style={styles.highlight}>{result.recommended_minutes_per_day} minutes</Text> per day
-          {'\n'}You can become{'\n'}a master of French
-        </Text>
+        {match ? (
+          <Text style={styles.matchNote}>
+            Your lessons, scores and flowers are kept. Switching only changes the lesson you continue from.
+          </Text>
+        ) : (
+          <Text style={styles.message}>
+            <Text style={styles.highlight}>{result.recommended_minutes_per_day} minutes</Text> per day
+            {'\n'}You can become{'\n'}a master of French
+          </Text>
+        )}
+        {!!error && <Text style={styles.error}>{error}</Text>}
       </ScrollView>
 
       <View style={styles.footer}>
-        <PrimaryButton label="Suivant" onPress={() => router.push('/favorite-topics')} />
+        {match ? (
+          result.same_place ? (
+            <PrimaryButton label="Back to my lessons" onPress={() => router.replace('/courses')} />
+          ) : (
+            <>
+              <PrimaryButton
+                label={`Switch to Level ${result.start_level} · Lesson ${result.start_lesson_no}`}
+                onPress={switchNow}
+                loading={switching}
+              />
+              <Pressable onPress={() => router.replace('/courses')} style={styles.link} accessibilityRole="button">
+                <Text style={styles.linkText}>Stay where I am</Text>
+              </Pressable>
+            </>
+          )
+        ) : (
+          <PrimaryButton label="Suivant" onPress={() => router.push('/favorite-topics')} />
+        )}
       </View>
     </Screen>
   );
@@ -128,6 +174,7 @@ const styles = StyleSheet.create({
     marginTop: spacing.lg,
   },
   highlight: { color: colors.accentText },
+  matchNote: { ...typography.body, color: colors.textMuted, textAlign: 'center', marginTop: spacing.lg },
   error: { ...typography.body, color: colors.error, textAlign: 'center' },
   errorActions: { alignSelf: 'stretch', marginTop: spacing.md, gap: spacing.sm },
   link: { alignSelf: 'center', paddingVertical: spacing.sm },

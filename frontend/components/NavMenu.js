@@ -12,6 +12,7 @@ const NATIVE = Platform.OS !== 'web';
 
 const ITEMS = [
   { label: 'Courses', icon: 'book-outline', path: '/courses' },
+  { label: 'Find My Level', icon: 'compass-outline', path: '/level-test', params: { purpose: 'match' }, only: 'fr' },
   { label: 'Free Talk', icon: 'chatbubbles-outline', path: '/free-talk' },
   { label: 'Vocab Notes', icon: 'journal-outline', path: '/vocab-notes' },
   { label: 'My Community', icon: 'people-outline', path: '/community' },
@@ -32,7 +33,7 @@ export default function NavMenu({ visible, onClose, language, active = 'Courses'
 
   const go = (item) => {
     onClose();
-    if (item.label !== active) router.push(item.path);
+    if (item.label !== active) router.push(item.params ? { pathname: item.path, params: item.params } : item.path);
   };
 
   return (
@@ -69,7 +70,7 @@ export default function NavMenu({ visible, onClose, language, active = 'Courses'
         )}
 
         <View style={styles.items}>
-          {ITEMS.map((item) => {
+          {ITEMS.filter((item) => !item.only || language?.id === item.only).map((item) => {
             const on = item.label === active;
             return (
               <Pressable
