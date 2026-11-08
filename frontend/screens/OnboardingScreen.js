@@ -38,7 +38,7 @@ function Welcome({ me }) {
   return (
     <>
       <View style={styles.top}>
-        <IconButton name="arrow-back" label="Back" onPress={() => goBackOr(router, '/')} />
+        <IconButton name="arrow-back" label="Back" onPress={() => goBackOr(router, '/language')} />
       </View>
       <ScrollView contentContainerStyle={styles.body} showsVerticalScrollIndicator={false}>
         <FadeIn style={styles.hero}>
@@ -63,7 +63,7 @@ function Welcome({ me }) {
       <View style={styles.footer}>
         <PrimaryButton label="Start from Level 1" icon="arrow-forward" onPress={() => router.replace('/courses')} />
         {hasTest && <SecondaryButton label="Take the level test" onPress={() => router.push('/level-test')} />}
-        <Pressable onPress={() => goBackOr(router, '/')} style={styles.link} accessibilityRole="button">
+        <Pressable onPress={() => goBackOr(router, '/language')} style={styles.link} accessibilityRole="button">
           <Text style={styles.linkText}>Choose another language</Text>
         </Pressable>
       </View>
