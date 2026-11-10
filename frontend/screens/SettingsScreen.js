@@ -1,5 +1,8 @@
 import { useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Switch, Text, TextInput, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Switch, TextInput, View } from 'react-native';
+
+import Text from '../components/AppText';
+import { t } from '../i18n';
 import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 
@@ -23,6 +26,7 @@ import SecondaryButton from '../components/SecondaryButton';
 import TopBar from '../components/TopBar';
 import useAsync from '../hooks/useAsync';
 import useSettings from '../hooks/useSettings';
+import { UI_LANGS, getUiLang, setUiLang } from '../i18n';
 import { confirm, notify } from '../utils/dialog';
 import { colors, radius, spacing, typography } from '../theme';
 
@@ -54,6 +58,30 @@ export default function SettingsScreen() {
         )}
       </AsyncState>
     </Screen>
+  );
+}
+
+// Language of the app's own buttons and menus. Changing it re-draws the whole app (see the root layout).
+function AppLanguage() {
+  const [open, setOpen] = useState(false);
+  const current = UI_LANGS.find((l) => l.id === getUiLang()) ?? UI_LANGS[0];
+  return (
+    <View style={styles.card}>
+      <Text style={styles.label}>App language</Text>
+      <Text style={styles.note}>The language of Langogo's buttons and menus. Lessons stay in the language you are learning.</Text>
+      <SecondaryButton label={`${current.native}${open ? '  ▲' : '  ▼'}`} onPress={() => setOpen((v) => !v)} />
+      {open &&
+        UI_LANGS.map((l) => {
+          const on = l.id === current.id;
+          return (
+            <Pressable key={l.id} onPress={() => setUiLang(l.id)} style={styles.link} accessibilityRole="radio" accessibilityState={{ selected: on }}>
+              <Ionicons name={on ? 'radio-button-on' : 'radio-button-off'} size={20} color={colors.primary} />
+              <Text style={styles.linkText}>{l.native}</Text>
+              <Text style={styles.note}>{l.id === 'en' ? '' : l.name}</Text>
+            </Pressable>
+          );
+        })}
+    </View>
   );
 }
 
@@ -127,6 +155,8 @@ function Learning({ me, reload }) {
         <Text style={styles.note}>Clear your {me.language_name} progress and records.</Text>
         <SecondaryButton label={`Reset ${me.language_name} progress`} onPress={reset} />
       </View>
+
+      <AppLanguage />
 
       <Text style={styles.eyebrow}>ACCOUNT</Text>
       <View style={styles.card}>
@@ -231,7 +261,7 @@ function Account({ me, reload }) {
           onChangeText={setName}
           maxLength={30}
           style={styles.input}
-          placeholder="Your name"
+          placeholder={t('Your name')}
           placeholderTextColor={colors.textMuted}
           accessibilityLabel="Name"
         />

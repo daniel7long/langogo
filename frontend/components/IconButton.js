@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { t } from '../i18n';
 
 import PressableScale from './PressableScale';
 import { colors, shadows } from '../theme';
@@ -12,7 +13,7 @@ export default function IconButton({ name, onPress, label, size = 44, iconSize =
       hitSlop={6}
       scaleTo={0.92}
       accessibilityRole="button"
-      accessibilityLabel={label}
+      accessibilityLabel={t(label)}
       style={[
         styles.button,
         { width: size, height: size, borderRadius: size / 2 },

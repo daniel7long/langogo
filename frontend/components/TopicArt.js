@@ -1,4 +1,6 @@
-import { Image, Text, View } from 'react-native';
+import { Image, View } from 'react-native';
+
+import Text from './AppText';
 import { topicImages } from '../assets/topics';
 
 // Placeholder look for topics that have no picture yet: [emoji, background].

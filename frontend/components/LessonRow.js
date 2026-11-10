@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react';
-import { Animated, Easing, Platform, StyleSheet, Text, View } from 'react-native';
+import { Animated, Easing, Platform, StyleSheet, View } from 'react-native';
+
+import Text from './AppText';
 import { Ionicons } from '@expo/vector-icons';
 
 import Chip from './Chip';

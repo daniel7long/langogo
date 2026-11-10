@@ -1,4 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+
+import Text from './AppText';
 import { colors, radius, spacing, typography } from '../theme';
 
 // Green banner with the lesson title (F2S2 to F2S4).

@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import { Animated, Easing, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Animated, Easing, Platform, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+
+import Text from '../components/AppText';
 import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 

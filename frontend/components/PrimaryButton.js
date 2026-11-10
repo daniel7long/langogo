@@ -1,5 +1,8 @@
 import { useState } from 'react';
-import { ActivityIndicator, StyleSheet, Text } from 'react-native';
+import { ActivityIndicator, StyleSheet } from 'react-native';
+import { t } from '../i18n';
+
+import Text from './AppText';
 import { Ionicons } from '@expo/vector-icons';
 
 import PressableScale from './PressableScale';
@@ -12,7 +15,7 @@ export default function PrimaryButton({ label, onPress, disabled = false, loadin
   return (
     <PressableScale
       accessibilityRole="button"
-      accessibilityLabel={label}
+      accessibilityLabel={t(label)}
       accessibilityState={{ disabled: inactive }}
       onPress={onPress}
       onPressIn={() => setPressed(true)}

@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import { ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
+import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
+
+import Text from '../components/AppText';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 

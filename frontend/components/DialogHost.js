@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import { Animated, Easing, Modal, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Animated, Easing, Modal, Platform, Pressable, StyleSheet, View } from 'react-native';
+
+import Text from './AppText';
 import { Ionicons } from '@expo/vector-icons';
 
 import PrimaryButton from './PrimaryButton';

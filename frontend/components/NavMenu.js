@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react';
-import { Animated, Easing, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Animated, Easing, Platform, Pressable, StyleSheet, View } from 'react-native';
+
+import Text from './AppText';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 

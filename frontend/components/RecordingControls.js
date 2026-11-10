@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Animated, Easing, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Animated, Easing, Platform, Pressable, StyleSheet, View } from 'react-native';
+
+import Text from './AppText';
 import { Ionicons } from '@expo/vector-icons';
 
 import PressableScale from './PressableScale';

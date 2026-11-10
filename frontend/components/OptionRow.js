@@ -1,4 +1,6 @@
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
+
+import Text from './AppText';
 import { colors, radius, sizes, spacing, typography } from '../theme';
 
 export default function OptionRow({ text, selected, onPress }) {

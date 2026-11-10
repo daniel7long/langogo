@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Modal, Pressable, StyleSheet, View } from 'react-native';
+
+import Text from './AppText';
 import { Ionicons } from '@expo/vector-icons';
 
 import { getSharePayload } from '../api/app';

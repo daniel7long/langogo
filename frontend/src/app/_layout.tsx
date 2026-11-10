@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Stack, useRootNavigationState, useRouter, useSegments } from 'expo-router';
 import { useFonts } from 'expo-font';
 import {
@@ -11,6 +11,7 @@ import {
 import { saveConsent } from '../../api/app';
 import useUsagePing from '../../hooks/useUsagePing';
 import { clearPendingConsent, getPendingConsent, initAuth } from '../../api/auth';
+import { uiLangReady, useUiLang } from '../../i18n';
 import DialogHost from '../../components/DialogHost';
 import useAuth from '../../hooks/useAuth';
 
@@ -22,6 +23,11 @@ export default function RootLayout() {
     Nunito_800ExtraBold,
   });
   const { enabled, ready, session } = useAuth();
+  const uiLang = useUiLang();
+  const [langReady, setLangReady] = useState(false);
+  useEffect(() => {
+    uiLangReady.then(() => setLangReady(true));
+  }, []);
   useUsagePing(!enabled || !!session);
   const router = useRouter();
   const segments = useSegments();
@@ -52,11 +58,20 @@ export default function RootLayout() {
   }, [enabled, session?.user?.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Wait for the fonts (render anyway if they fail) and for the saved session to be read.
-  if ((!loaded && !error) || !ready) return null;
+  // Changing the app language re-draws every screen, then returns to Settings.
+  const firstLang = useRef(uiLang);
+  useEffect(() => {
+    if (uiLang !== firstLang.current && navState?.key) {
+      firstLang.current = uiLang;
+      router.replace('/settings');
+    }
+  }, [uiLang]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  if ((!loaded && !error) || !ready || !langReady) return null;
 
   return (
     <>
-      <Stack screenOptions={{ headerShown: false, animation: 'fade_from_bottom' }} />
+      <Stack key={uiLang} screenOptions={{ headerShown: false, animation: 'fade_from_bottom' }} />
       <DialogHost />
     </>
   );

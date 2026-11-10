@@ -1,5 +1,8 @@
 import { useState } from 'react';
-import { StyleSheet, Text } from 'react-native';
+import { StyleSheet } from 'react-native';
+import { t } from '../i18n';
+
+import Text from './AppText';
 import { Ionicons } from '@expo/vector-icons';
 
 import PressableScale from './PressableScale';
@@ -15,7 +18,7 @@ export default function SecondaryButton({ label, onPress, disabled, style, icon 
       onPressOut={() => setPressed(false)}
       disabled={disabled}
       accessibilityRole="button"
-      accessibilityLabel={label}
+      accessibilityLabel={t(label)}
       style={[styles.button, pressed && styles.pressed, disabled && styles.disabled, style]}
     >
       {icon ? <Ionicons name={icon} size={18} color={colors.secondaryText} /> : null}

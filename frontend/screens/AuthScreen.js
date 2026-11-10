@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import { KeyboardAvoidingView, Linking, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { KeyboardAvoidingView, Linking, Platform, Pressable, ScrollView, StyleSheet, TextInput, View } from 'react-native';
+
+import Text from '../components/AppText';
 import { Ionicons } from '@expo/vector-icons';
 
 import { clearPendingConsent, resetPassword, setPendingConsent, signIn, signInWithGoogle, signUp } from '../api/auth';

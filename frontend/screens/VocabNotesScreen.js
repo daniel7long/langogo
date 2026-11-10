@@ -1,5 +1,8 @@
 import { useMemo, useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, TextInput, View } from 'react-native';
+
+import Text from '../components/AppText';
+import { t } from '../i18n';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 
@@ -135,7 +138,7 @@ function NotesView({ data, reload }) {
           <TextInput
             value={query}
             onChangeText={setQuery}
-            placeholder="Search a word or meaning"
+            placeholder={t('Search a word or meaning')}
             placeholderTextColor={colors.textMuted}
             style={styles.input}
             autoCapitalize="none"

@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Pressable, StyleSheet, View } from 'react-native';
+
+import Text from './AppText';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 
 import { fetchFrenchTest, submitFrenchTest } from '../api/tests';
