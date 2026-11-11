@@ -15,7 +15,7 @@ export default function RecordRow({ record, onPress }) {
     <Pressable onPress={onPress} accessibilityRole="button" accessibilityLabel={`${record.title}, grade ${record.grade}. Open to retry`} style={styles.row}>
       <TopicArt emoji={record.emoji} width={48} height={48} />
       <View style={styles.text}>
-        <Text style={styles.label}>Level {record.level} · Lesson {record.lesson_no}</Text>
+        <Text style={styles.label}>{record.kind === 'freetalk' ? 'Free Talk' : `Level ${record.level} · Lesson ${record.lesson_no}`}</Text>
         <Text style={styles.title} numberOfLines={1}>{record.title}</Text>
         <View style={styles.chips}>
           <View style={[styles.grade, { backgroundColor: g.bg }]}>

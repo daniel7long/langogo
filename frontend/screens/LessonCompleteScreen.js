@@ -95,15 +95,21 @@ function CompleteView({ record, board }) {
   const [shots, setShots] = useState(celebrate ? 1 : 0);
   const me = board.find((r) => r.you);
   const language = record.language ?? 'French';
+  const talk = record.kind === 'freetalk'; // a Free Talk dialogue shows the same result screen as a lesson
 
   return (
     <View style={styles.root}>
       <ShareSheet visible={sharing} recordId={record.id} record={record} onClose={() => setSharing(false)} />
       <LessonTopBar onClose={() => goHub(router, '/courses')} />
       <ScrollView contentContainerStyle={styles.scroll}>
-        <Text style={styles.eyebrow}>LESSON COMPLETE</Text>
+        <Text style={styles.eyebrow}>{talk ? 'DIALOGUE COMPLETE' : 'LESSON COMPLETE'}</Text>
         <Grade grade={record.grade} onCelebrate={() => settings.effects !== false && setShots((s) => s + 1)} />
-        <Text style={styles.title} accessibilityRole="header">Lesson complete!</Text>
+        <Text style={styles.title} accessibilityRole="header">{talk ? 'Dialogue complete!' : 'Lesson complete!'}</Text>
+        {talk && (
+          <Text style={styles.talkSub}>
+            {record.topic} · {record.turns} turns{record.seconds ? ` · ${Math.max(1, Math.round(record.seconds / 60))} min` : ''}
+          </Text>
+        )}
         <View style={styles.rewardRow}>
           <Ionicons name="flower-outline" size={18} color={colors.primary} />
           <CountUp to={record.flowers_earned} prefix="+" style={styles.reward} />
@@ -156,6 +162,15 @@ function CompleteView({ record, board }) {
       </ScrollView>
       <View style={styles.footer}>
         <PrimaryButton label="Continue" onPress={() => goHub(router, '/courses')} />
+        {talk ? (
+          <SecondaryButton label="Talk again" icon="chatbubbles-outline" onPress={() => router.replace('/free-talk')} />
+        ) : (
+          <SecondaryButton
+            label="Practise the other role"
+            icon="swap-horizontal"
+            onPress={() => router.replace({ pathname: '/lesson-speak', params: { id: record.lesson_id, swap: record.swapped ? '0' : '1' } })}
+          />
+        )}
         <SecondaryButton label="Share my result" icon="share-outline" onPress={() => setSharing(true)} />
       </View>
       {shots > 0 && <ConfettiCannon shots={shots} />}
@@ -175,6 +190,7 @@ const styles = StyleSheet.create({
   title: { ...typography.headline, color: colors.text, textAlign: 'center' },
   rewardRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 4 },
   reward: { ...typography.label, color: colors.primary },
+  talkSub: { ...typography.body, color: colors.textMuted, textAlign: 'center' },
   unlock: { alignSelf: 'center', flexDirection: 'row', alignItems: 'center', gap: spacing.xs, backgroundColor: colors.primary, borderRadius: radius.full, paddingVertical: spacing.xs, paddingHorizontal: spacing.s12 },
   unlockText: { ...typography.labelSm, color: colors.onPrimary },
   tiles: { flexDirection: 'row', gap: spacing.sm },

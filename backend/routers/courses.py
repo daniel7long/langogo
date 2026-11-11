@@ -54,12 +54,14 @@ def get_lesson(lesson_id: str):
 
 @router.post("/lessons/{lesson_id}/speak")
 async def score_turn(lesson_id: str, turn_id: str = Form(...), duration_ms: int | None = Form(None),
-                     audio: UploadFile = File(...)):
+                     swap: bool = Form(False), audio: UploadFile = File(...)):
     """Receive the recording of one spoken line, save it, score it, log how long it took to say,
-    and remember the result for the Complete screen."""
+    and remember the result for the Complete screen.
+    `swap` = the learner chose "Switch parts": they speak the lines of the other speaker."""
     lesson = _lesson_or_404(lesson_id)
+    mine = "npc" if swap else "you"
     turn = next((t for t in lesson["dialogue"] if t["id"] == turn_id), None)
-    if turn is None or turn["role"] != "you":
+    if turn is None or turn["role"] != mine:
         raise HTTPException(status_code=422, detail="Unknown speaking turn.")
 
     data = await audio.read(MAX_AUDIO_BYTES + 1)
@@ -92,13 +94,13 @@ async def score_turn(lesson_id: str, turn_id: str = Form(...), duration_ms: int 
 
 
 @router.post("/lessons/{lesson_id}/complete")
-def complete_lesson(lesson_id: str):
+def complete_lesson(lesson_id: str, swap: bool = False):
     lesson = _lesson_or_404(lesson_id)
     state = store.STATE
     user = state["user"]
 
     attempts = store.ATTEMPTS.get(lesson_id, {})
-    user_turns = [t["id"] for t in lesson["dialogue"] if t["role"] == "you"]
+    user_turns = [t["id"] for t in lesson["dialogue"] if t["role"] == ("npc" if swap else "you")]
     missing = [t for t in user_turns if t not in attempts]
     if missing:
         raise HTTPException(status_code=422, detail="Some of your lines haven't been recorded yet.")
@@ -149,6 +151,7 @@ def complete_lesson(lesson_id: str):
         "pronunciation": pronunciation,
         "completeness": completeness,
         "engine": engine,
+        "swapped": bool(swap),  # the learner practised the other speaker's part
         "flowers_earned": earned,
         "unlocked_level": unlocked_level,
         "words": [{**w, "first_score": w.get("score")} for w in (feedback or [dict(w) for w in lesson["practice_words"]])],

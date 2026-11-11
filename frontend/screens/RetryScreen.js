@@ -35,12 +35,12 @@ export default function RetryScreen() {
             <ScrollView contentContainerStyle={styles.scroll}>
               <View style={styles.summary}>
                 <View style={styles.summaryTop}>
-                  <Text style={styles.summaryTitle}>Lv{record.level} - Lesson {record.lesson_no}</Text>
+                  <Text style={styles.summaryTitle}>{record.kind === 'freetalk' ? record.title : `Lv${record.level} - Lesson ${record.lesson_no}`}</Text>
                   <Pressable onPress={() => setSharing(true)} hitSlop={12} accessibilityRole="button" accessibilityLabel="Share">
                     <Ionicons name="open-outline" size={20} color={colors.accentText} />
                   </Pressable>
                 </View>
-                <Text style={styles.summarySub}>Completed lesson in Lv{record.level}</Text>
+                <Text style={styles.summarySub}>{record.kind === 'freetalk' ? `Free Talk dialogue · ${record.turns} turns` : `Completed lesson in Lv${record.level}`}</Text>
                 <View style={styles.scores}>
                   <Chip tone="orange" label={`Grade ${record.grade}`} />
                   <Chip tone="teal" label={`Pronunciation ${record.pronunciation}`} />

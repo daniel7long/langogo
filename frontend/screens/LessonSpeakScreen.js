@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
-import { ScrollView, StyleSheet, Switch, View } from 'react-native';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, Switch, View } from 'react-native';
 
 import Text from '../components/AppText';
+import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 
 import { completeLesson, getLesson, scoreTurn } from '../api/app';
@@ -17,9 +18,10 @@ import { ListSkeleton } from '../components/Skeleton';
 import useAsync from '../hooks/useAsync';
 import useLessonAudio from '../hooks/useLessonAudio';
 import useSettings from '../hooks/useSettings';
+import { confirm } from '../utils/dialog';
 import { lessonProgress } from '../utils/progress';
 import { goHub } from '../utils/nav';
-import { colors, spacing, typography } from '../theme';
+import { colors, radius, spacing, typography } from '../theme';
 
 // Can the learner tap the mic while the other speaker is still talking? If so, it cuts the line off.
 const ALLOW_INTERRUPT = true;
@@ -34,13 +36,18 @@ export default function LessonSpeakScreen() {
   const params = useLocalSearchParams();
   const id = Array.isArray(params.id) ? params.id[0] : params.id;
   const state = useAsync(() => getLesson(id), [id]);
+  // "Switch parts": the learner speaks the other speaker's lines (and the app plays theirs). `swap=1` starts that way
+  // (the "Practise the other part" button on the result screen).
+  const startSwapped = (Array.isArray(params.swap) ? params.swap[0] : params.swap) === '1';
+  const [swapped, setSwapped] = useState(startSwapped);
 
   return (
     <Screen>
       <AsyncState state={state} skeleton={<ListSkeleton rows={3} />} onBack={() => goHub(router, '/courses')}>
         {(lesson) => (
           <MicGate language={lesson.language}>
-            <SpeakView lesson={lesson} />
+            {/* the key restarts the lesson from the first line whenever the parts are switched */}
+            <SpeakView key={swapped ? 'other' : 'main'} lesson={lesson} swapped={swapped} onSwitch={() => setSwapped((s) => !s)} />
           </MicGate>
         )}
       </AsyncState>
@@ -49,9 +56,17 @@ export default function LessonSpeakScreen() {
 }
 
 // phase: playing | paused | waiting | blocked | starting | recording | review | uploading | finishing
-function SpeakView({ lesson }) {
+function SpeakView({ lesson, swapped, onSwitch }) {
   const router = useRouter();
-  const turns = lesson.dialogue;
+  // With the parts switched, every line changes hands: the learner's lines are the other speaker's, and the app plays theirs.
+  const partner = lesson.dialogue.find((t) => t.role === 'npc')?.speaker || 'Partner';
+  const turns = useMemo(
+    () =>
+      swapped
+        ? lesson.dialogue.map((t) => (t.role === 'npc' ? { ...t, role: 'you' } : { ...t, role: 'npc', speaker: 'Partner' }))
+        : lesson.dialogue,
+    [lesson, swapped]
+  );
   const audio = useLessonAudio();
 
   const [cursor, setCursor] = useState(0); // the line in focus; turns.length means "all done"
@@ -212,7 +227,7 @@ function SpeakView({ lesson }) {
     setError(null);
     setPhase('uploading');
     try {
-      const result = await scoreTurn(lesson.id, turn.id, take);
+      const result = await scoreTurn(lesson.id, turn.id, take, swapped);
       if (!alive.current) return;
       setScores((sc) => ({ ...sc, [turn.id]: result.pronunciation }));
       setWordScores((ws) => ({ ...ws, [turn.id]: result.words }));
@@ -233,7 +248,7 @@ function SpeakView({ lesson }) {
       if (t.role !== 'you') continue;
       const take = takesRef.current[t.id];
       if (!take) throw new Error(`Please record this line again: ${t.text}`);
-      const result = await scoreTurn(lesson.id, t.id, take);
+      const result = await scoreTurn(lesson.id, t.id, take, swapped);
       if (alive.current) {
         setScores((sc) => ({ ...sc, [t.id]: result.pronunciation }));
         setWordScores((ws) => ({ ...ws, [t.id]: result.words }));
@@ -249,11 +264,11 @@ function SpeakView({ lesson }) {
     try {
       let record;
       try {
-        record = await completeLesson(lesson.id);
+        record = await completeLesson(lesson.id, swapped);
       } catch (first) {
         if (first && first.status === 422 && /haven't been recorded/.test(first.message || '')) {
           await rescoreTakes();
-          record = await completeLesson(lesson.id);
+          record = await completeLesson(lesson.id, swapped);
         } else {
           throw first;
         }
@@ -301,6 +316,25 @@ function SpeakView({ lesson }) {
     });
   };
 
+  // ---- Switch parts ------------------------------------------------------------------
+  const switchBusy = ['recording', 'starting', 'uploading', 'finishing'].includes(phase);
+  const askSwitch = async () => {
+    if (switchBusy) return;
+    audio.stopPlayback();
+    if (cursor > 0 || Object.keys(takes).length) {
+      const ok = await confirm(
+        'Switch role?',
+        swapped
+          ? 'You will say your usual lines again, and the dialogue starts from the beginning. Your recordings in this round are cleared.'
+          : `You will say ${partner}'s lines, and the dialogue starts from the beginning. Your recordings in this round are cleared.`,
+        'Switch Role',
+        'Stay'
+      );
+      if (!ok) return;
+    }
+    onSwitch();
+  };
+
   // ---- Screen ---------------------------------------------------------------------
   const recordingNow = phase === 'recording' || phase === 'starting';
   const allDoneWithError = finished && error;
@@ -314,7 +348,7 @@ function SpeakView({ lesson }) {
       />
       <View style={styles.subhead}>
         <View style={styles.flex}>
-          <Text style={styles.eyebrow}>{lesson.language} dialogue</Text>
+          <Text style={styles.eyebrow}>{lesson.language} dialogue · {swapped ? `${partner}'s role` : 'Your role'}</Text>
           <Text style={styles.lessonTitle} numberOfLines={1}>{lesson.title}</Text>
         </View>
         {hasTranslations && (
@@ -330,6 +364,20 @@ function SpeakView({ lesson }) {
           </View>
         )}
         <Chip label={`${Math.min(cursor + 1, turns.length)} of ${turns.length}`} />
+      </View>
+
+      <View style={styles.switchWrap}>
+        <Pressable
+          onPress={askSwitch}
+          disabled={switchBusy}
+          style={[styles.switchPill, switchBusy && { opacity: 0.4 }]}
+          accessibilityRole="button"
+          accessibilityLabel={swapped ? 'Switch Role: say your usual lines' : `Switch Role: say ${partner}'s lines`}
+        >
+          <Ionicons name="swap-horizontal" size={18} color={colors.primary} />
+          <Text style={styles.switchPillText}>Switch Role</Text>
+          <Text style={styles.switchPillSub}>{swapped ? '· Back to your role' : `· Say ${partner}'s lines`}</Text>
+        </Pressable>
       </View>
 
       <ScrollView ref={scroller} style={styles.scroll} contentContainerStyle={styles.chat} showsVerticalScrollIndicator={false}>
@@ -386,6 +434,10 @@ const styles = StyleSheet.create({
   lessonTitle: { ...typography.label, color: colors.text },
   switchRow: { alignItems: 'center', gap: 2 },
   switchLabel: { ...typography.caption, color: colors.textMuted },
+  switchWrap: { paddingHorizontal: spacing.md, paddingBottom: spacing.sm, alignItems: 'flex-start' },
+  switchPill: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: spacing.md, minHeight: 40, borderRadius: radius.full, backgroundColor: colors.selectedBg },
+  switchPillText: { ...typography.labelSm, color: colors.primary },
+  switchPillSub: { ...typography.caption, color: colors.textMuted },
   scroll: { flex: 1 },
   chat: { padding: spacing.md, gap: spacing.md, paddingBottom: spacing.lg },
   message: { paddingHorizontal: spacing.lg, paddingVertical: spacing.sm, backgroundColor: colors.surface },

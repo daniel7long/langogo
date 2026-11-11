@@ -5,7 +5,7 @@ import Text from '../components/AppText';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 
-import { sendFreeTalkTurn, startFreeTalk } from '../api/app';
+import { finishFreeTalk, sendFreeTalkTurn, startFreeTalk } from '../api/app';
 import AsyncState from '../components/AsyncState';
 import ChatBubble from '../components/ChatBubble';
 import Chip from '../components/Chip';
@@ -17,6 +17,7 @@ import { ListSkeleton } from '../components/Skeleton';
 import Waveform from '../components/Waveform';
 import useLessonAudio from '../hooks/useLessonAudio';
 import useSettings from '../hooks/useSettings';
+import { confirm, notify } from '../utils/dialog';
 import { goHub } from '../utils/nav';
 import { isRtl } from '../utils/rtl';
 import { colors, radius, spacing, typography } from '../theme';
@@ -90,12 +91,20 @@ function TalkView({ start, onTopic }) {
   const [runKey, setRunKey] = useState(0);
   const [error, setError] = useState(null);
   const [choice, setChoice] = useState(null);
+  const [scores, setScores] = useState({}); // learner turn id -> pronunciation score of that turn
+  const [wordScores, setWordScores] = useState({}); // learner turn id -> [{ text, score }] to tint the words
+  const [ending, setEnding] = useState(false);
   const showTranslation = choice ?? settings.show_translation;
+  const MIN_TURNS = start.min_turns ?? 5; // a dialogue needs this many of your turns to get a rating and the flowers
+  const REWARD = start.reward ?? 25;
 
   const phaseRef = useRef('playing');
   const alive = useRef(true);
   const playId = useRef(0);
   const hintUsed = useRef(false);
+  const hintsCount = useRef(0); // turns in which the example answers were opened
+  const scoredRef = useRef([]); // scored turns: sent when the dialogue ends (a backup if the server restarted)
+  const startedAt = useRef(Date.now());
   const maxTimer = useRef(null);
   const scroller = useRef(null);
   const turnsRef = useRef(turns);
@@ -115,6 +124,8 @@ function TalkView({ start, onTopic }) {
   }, []);
 
   const lastNpc = [...turns].reverse().find((t) => t.role === 'npc');
+  const spoken = turns.filter((t) => t.role === 'you').length; // your turns so far
+  const enough = spoken >= MIN_TURNS;
 
   // ---- The partner speaks whenever there is a new line of theirs ---------------------------------
   useEffect(() => {
@@ -212,13 +223,20 @@ function TalkView({ start, onTopic }) {
       const history = turnsRef.current.map((t) => ({ role: t.role, text: t.text }));
       const result = await sendFreeTalkTurn({
         topicId: start.topic.id,
+        sessionId: start.session_id,
         history,
         turnNo: history.length,
         hintUsed: hintUsed.current,
         recording: take,
       });
       if (!alive.current) return;
+      if (hintUsed.current) hintsCount.current += 1;
       hintUsed.current = false;
+      if (result.scores) {
+        setScores((s) => ({ ...s, [result.you.id]: result.scores.pronunciation }));
+        setWordScores((s) => ({ ...s, [result.you.id]: result.scores.words }));
+        scoredRef.current.push({ text: result.you.text, ...result.scores });
+      }
       setTake(null);
       setShowHints(false);
       setOfferHelp(false);
@@ -247,11 +265,74 @@ function TalkView({ start, onTopic }) {
     });
   };
 
-  const hearHint = (h) => {
-    playId.current += 1;
-    hintUsed.current = true;
-    setSpeakingId(null);
-    audio.playLine({ text: h.text, slow: false });
+  // ---- Ending the dialogue -------------------------------------------------------------------------
+  // The learner can end it whenever they want, but not by accident: it always asks first, and the dialogue only gets
+  // a rating and flowers once it has MIN_TURNS of the learner's turns. Leaving earlier is still possible (it is
+  // logged as "left early" and earns nothing). You can't end while recording or while an answer is being checked.
+  const busy = ['recording', 'starting', 'uploading', 'finishing'].includes(phase) || ending;
+
+  const wrapUp = async (finished) => {
+    audio.stopPlayback();
+    clearTimeout(maxTimer.current);
+    setEnding(true);
+    setPhase('finishing');
+    try {
+      return await finishFreeTalk({
+        sessionId: start.session_id,
+        topicId: start.topic.id,
+        seconds: Math.round((Date.now() - startedAt.current) / 1000),
+        hintsUsed: hintsCount.current,
+        finished,
+        turns: scoredRef.current,
+      });
+    } catch (e) {
+      if (alive.current) {
+        setEnding(false);
+        setPhase('waiting');
+        notify("Couldn't end the dialogue", e.message);
+      }
+      return null;
+    }
+  };
+
+  const requestEnd = async () => {
+    if (busy) return;
+    if (spoken === 0) {
+      audio.stopPlayback();
+      goHub(router, '/courses'); // nothing said yet: nothing to rate
+      return;
+    }
+    const ok = await confirm(
+      enough ? 'End this dialogue?' : 'Leave this dialogue?',
+      enough
+        ? `You've said ${spoken} turns. You'll get ${REWARD} flowers and your ratings.`
+        : `You've said ${spoken} of ${MIN_TURNS} turns. A dialogue needs ${MIN_TURNS} turns to get ratings and ${REWARD} flowers, so leaving now earns nothing. Keep talking a little longer?`,
+      enough ? 'End and see my rating' : 'Leave anyway',
+      'Keep talking'
+    );
+    if (!ok || !alive.current) return;
+    const out = await wrapUp(enough);
+    if (!out || !alive.current) return;
+    if (out.record) router.replace({ pathname: '/lesson-complete', params: { id: out.record.id } });
+    else goHub(router, '/courses');
+  };
+
+  const changeTopic = async (id) => {
+    if (busy) return;
+    if (spoken > 0) {
+      const ok = await confirm(
+        'Change topic?',
+        enough
+          ? `This ends the current dialogue without a rating or flowers. To get your ${REWARD} flowers, tap End dialogue instead.`
+          : 'This ends the current dialogue without a rating or flowers.',
+        'Change topic',
+        'Stay'
+      );
+      if (!ok || !alive.current) return;
+      const out = await wrapUp(false);
+      if (!out) return;
+    }
+    onTopic(id);
   };
 
   const hearCurrent = (slow) => {
@@ -283,7 +364,7 @@ function TalkView({ start, onTopic }) {
 
   return (
     <>
-      <LessonTopBar onClose={() => goHub(router, '/courses')} />
+      <LessonTopBar progress={Math.min(spoken / MIN_TURNS, 1)} reward={REWARD} confirmClose={false} onClose={requestEnd} />
 
       <View style={styles.head}>
         <View style={styles.avatar}>
@@ -296,12 +377,28 @@ function TalkView({ start, onTopic }) {
         <Chip label={`Level ${level}`} tone="green" />
       </View>
 
+      <View style={styles.endRow}>
+        <Text style={styles.endInfo}>
+          {enough ? `Ready for your rating · +${REWARD} flowers` : `${spoken} of ${MIN_TURNS} turns · finish the dialogue to earn ${REWARD} flowers`}
+        </Text>
+        <Pressable
+          onPress={requestEnd}
+          disabled={busy}
+          style={[styles.endBtn, enough && styles.endBtnReady, busy && { opacity: 0.4 }]}
+          accessibilityRole="button"
+          accessibilityLabel="End dialogue"
+        >
+          <Ionicons name="flag-outline" size={16} color={enough ? colors.onPrimary : colors.primary} />
+          <Text style={[styles.endBtnText, enough && { color: colors.onPrimary }]}>End dialogue</Text>
+        </Pressable>
+      </View>
+
       {start.topics.length > 1 && (
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.topicsScroll} contentContainerStyle={styles.topics}>
           {start.topics.map((t) => {
             const on = t.id === start.topic.id;
             return (
-              <Pressable key={t.id} onPress={() => !on && onTopic(t.id)} accessibilityRole="button" accessibilityState={{ selected: on }} accessibilityLabel={`Talk about ${t.name}`}>
+              <Pressable key={t.id} onPress={() => !on && changeTopic(t.id)} accessibilityRole="button" accessibilityState={{ selected: on }} accessibilityLabel={`Talk about ${t.name}`}>
                 <Chip label={t.name} tone={on ? 'orange' : 'grey'} />
               </Pressable>
             );
@@ -329,6 +426,8 @@ function TalkView({ start, onTopic }) {
             rtl={rtl}
             highlighted={speakingId === t.id}
             playing={speakingId === t.id}
+            score={scores[t.id]}
+            wordScores={wordScores[t.id]}
             showTranslation={showTranslation}
             onPlayLine={() => playModel(t)}
           />
@@ -357,15 +456,14 @@ function TalkView({ start, onTopic }) {
           <View style={styles.hints} accessibilityRole="summary">
             <Text style={styles.hintsTitle}>Not sure what to say? Try one of these</Text>
             {hints.map((h, i) => (
-              <Pressable key={i} onPress={() => hearHint(h)} style={styles.hint} accessibilityRole="button" accessibilityLabel={`Hear: ${h.text}`}>
+              <View key={i} style={styles.hint}>
                 <View style={styles.flex}>
                   <Text style={[styles.hintText, rtl && { writingDirection: 'rtl' }]}>{h.text}</Text>
                   {!!h.en && <Text style={styles.hintEn}>{h.en}</Text>}
                 </View>
-                <Ionicons name="volume-high-outline" size={20} color={colors.primary} />
-              </Pressable>
+              </View>
             ))}
-            <Text style={styles.hintsFoot}>Tap one to hear it, then say it in your own words.</Text>
+            <Text style={styles.hintsFoot}>Read one out loud, or say it in your own words.</Text>
           </View>
         )}
       </ScrollView>
@@ -400,6 +498,11 @@ const styles = StyleSheet.create({
   avatarText: { ...typography.title, color: colors.onPrimary },
   eyebrow: { ...typography.eyebrow, color: colors.textMuted },
   title: { ...typography.label, color: colors.text },
+  endRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.s12, paddingHorizontal: spacing.md, paddingBottom: spacing.sm },
+  endInfo: { ...typography.caption, color: colors.textMuted, flex: 1 },
+  endBtn: { flexDirection: 'row', alignItems: 'center', gap: 6, paddingHorizontal: spacing.s12, minHeight: 36, borderRadius: radius.full, backgroundColor: colors.selectedBg },
+  endBtnReady: { backgroundColor: colors.primary },
+  endBtnText: { ...typography.labelSm, color: colors.primary },
   topicsScroll: { flexGrow: 0, flexShrink: 0 },
   topics: { gap: spacing.sm, paddingHorizontal: spacing.md, paddingBottom: spacing.sm },
   subhead: { flexDirection: 'row', alignItems: 'center', gap: spacing.s12, paddingHorizontal: spacing.md, paddingBottom: spacing.sm },

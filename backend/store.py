@@ -71,6 +71,8 @@ PLANS = [
 
 GRADE_FLOWERS = {"A+": 35, "A": 30, "B+": 25, "B": 20, "C": 10, "D": 5}
 RETRY_REWARD = 5  # "Earn 5 flowers for each retry!" (F3S5). There is no cap yet.
+FREETALK_FLOWERS = 25  # flowers for each finished Free Talk dialogue
+FREETALK_MIN_TURNS = 5  # a dialogue needs at least this many learner turns to count (rating + flowers)
 
 # Demo learners for the leaderboard until there are real accounts. Flowers = flowers earned this week.
 LEADERBOARD_OTHERS = [
@@ -109,6 +111,7 @@ def fresh_state():
         "records": [],                        # newest first; each has "lang"
         "retries": {},
         "retry_log": [],                      # one row per retry take (see analytics.py)
+        "freetalk_log": [],                   # one row per Free Talk dialogue, finished or left early (see analytics.py)
         "usage": {},                          # time in the app per day (see analytics.py)
         "notes": {},                          # Vocab Notes: "lesson_id:vocab_id" -> note (see notes.py)
         "speech_log": [],                     # one entry per spoken line (see speech_log.py)

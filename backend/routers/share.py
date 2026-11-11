@@ -45,7 +45,9 @@ def _texts(record):
     title = f"I got {record['grade']} on Langogo!"
     flowers = f" +{record['flowers_earned']} flowers." if record["flowers_earned"] else ""
     language = record.get("language", "French")
-    description = (f"Lv{record['level']} - Lesson {record['lesson_no']}: {record['title']}."
+    where = (f"Lv{record['level']} - Lesson {record['lesson_no']}: {record['title']}." if record.get("kind") != "freetalk"
+             else f"{record['title']}.")
+    description = (f"{where}"
                    f"{flowers} Practice speaking {language} with no pressure.")
     return title, description
 

@@ -80,7 +80,7 @@ export default function ShareSheet({ visible, recordId, record, onClose }) {
                   <Text style={styles.gradeText}>{record.grade}</Text>
                 </View>
                 <View style={styles.flex}>
-                  <Text style={styles.eyebrowSmall}>Lesson complete</Text>
+                  <Text style={styles.eyebrowSmall}>{record.kind === 'freetalk' ? 'Dialogue complete' : 'Lesson complete'}</Text>
                   <Text style={styles.lesson} numberOfLines={2}>{record.title}</Text>
                   <View style={styles.flowers}>
                     <Ionicons name="flower-outline" size={14} color={colors.primary} />

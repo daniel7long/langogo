@@ -16,6 +16,7 @@ from fastapi.responses import HTMLResponse, Response
 
 import analytics
 import db
+import store
 from routers.admin import _check
 
 router = APIRouter(prefix="/admin/dashboard", tags=["admin"])
@@ -88,9 +89,12 @@ def overview(key: str = "", id: str = "", view: str = ""):
     cols = [("name_link", "Learner"), ("email", "Email"), ("langs", "Languages: level, current lesson (★ = now)"),
             ("minutes_today", "Min today"), ("minutes_week", "Min this week"), ("lessons_today", "Lessons today"),
             ("lessons_week", "Lessons this week"), ("lessons_total", "Lessons total"), ("level_test", "Level test (latest)"), ("avg_pronunciation", "Avg pronunciation"),
-            ("retries_total", "Retries"), ("low_words", "Low-score words"), ("last_seen", "Last seen"), ("joined", "Joined")]
+            ("retries_total", "Retries"), ("low_words", "Low-score words"),
+            ("freetalk_min_week", "Free Talk min this week"), ("freetalk_min_total", "Free Talk min total"),
+            ("freetalk_finished", "Free Talk dialogues done"), ("freetalk_avg_pronunciation", "Free Talk avg pronunciation"),
+            ("last_seen", "Last seen"), ("joined", "Joined")]
     exports = "".join(f'<a class=b href="/admin/dashboard/export?kind={x}&amp;key={k}">{x} CSV</a>'
-                      for x in ("summary", "daily", "weekly", "lessons", "retries", "leveltests"))
+                      for x in ("summary", "daily", "weekly", "lessons", "retries", "freetalk", "leveltests"))
     return _page("Langogo dashboard", f"""<h1>Langogo dashboard</h1>
 <p class=n>{len(rows)} learners. Private: contains personal data. {escape(_tz_note())} Time in the app is counted while the app is open and in front.</p>
 <a class=b href="/admin/dashboard?key={k}">&larr; Back to learner view</a> {exports}{_table(cols, rows, raw=("name_link",))}""")
@@ -102,7 +106,10 @@ def _detail(match, k):
     cards = "".join(f'<div class=card>{escape(lbl)}<b>{escape(str(v))}</b></div>' for lbl, v in [
         ("Minutes today", s["minutes_today"]), ("Minutes this week", s["minutes_week"]), ("Minutes total", s["minutes_total"]),
         ("Lessons today", s["lessons_today"]), ("Lessons this week", s["lessons_week"]), ("Lessons total", s["lessons_total"]),
-        ("Retries", s["retries_total"]), ("Low-score words", s["low_words"])])
+        ("Retries", s["retries_total"]), ("Low-score words", s["low_words"]),
+        ("Free Talk min today", s["freetalk_min_today"]), ("Free Talk min this week", s["freetalk_min_week"]),
+        ("Free Talk min total", s["freetalk_min_total"]), ("Free Talk dialogues finished", s["freetalk_finished"]),
+        ("Free Talk left early", s["freetalk_left_early"])])
     lt = _table([("at", "When"), ("type", "Test"), ("score", "Final score /100"), ("level", "CEFR"), ("questions_score", "Questions part"),
                  ("correct", "Correct"), ("speaking_score", "Speaking part"), ("start_lesson", "Placed at"), ("start_title", "Lesson")],
                 analytics.level_test_rows(st))
@@ -111,11 +118,12 @@ def _detail(match, k):
     daily = analytics.daily_rows(st, 30)
     for d in daily:
         d["langs"] = ", ".join(f"{l}: {round(sec / 60, 1)} min" for l, sec in d["by_lang"].items())
-    days = _table([("day", "Day"), ("minutes", "Minutes in app"), ("sessions", "Sessions"), ("lessons", "Lessons finished"), ("langs", "By language")], daily)
-    weeks = _table([("week", "Week starting (Mon)"), ("minutes", "Minutes"), ("lessons", "Lessons finished"),
-                    ("days_active", "Days active"), ("sessions", "Sessions")], analytics.weekly_rows(st))
+    days = _table([("day", "Day"), ("minutes", "Minutes in app"), ("freetalk_minutes", "of which Free Talk"), ("sessions", "Sessions"),
+                   ("lessons", "Lessons finished"), ("freetalks", "Free Talk dialogues finished"), ("langs", "By language")], daily)
+    weeks = _table([("week", "Week starting (Mon)"), ("minutes", "Minutes"), ("freetalk_minutes", "of which Free Talk"), ("lessons", "Lessons finished"),
+                    ("freetalks", "Free Talk dialogues finished"), ("days_active", "Days active"), ("sessions", "Sessions")], analytics.weekly_rows(st))
     ltab = _table([("at", "When"), ("lang", "Lang"), ("lesson_id", "Lesson"), ("title", "Title"), ("attempt", "Attempt #"),
-                   ("grade", "Grade"), ("pronunciation", "Pronunciation"), ("fluency", "Fluency"),
+                   ("part", "Part spoken"), ("grade", "Grade"), ("pronunciation", "Pronunciation"), ("fluency", "Fluency"),
                    ("completeness", "Completeness"), ("flowers", "Flowers")], list(reversed(analytics.lesson_rows(st))))
     retries = list(reversed(analytics.retry_rows(st)))
     for r in retries:
@@ -123,7 +131,7 @@ def _detail(match, k):
         r["change_txt"] = "" if r["change"] is None else f"{r['change']:+d}"
         bad = "still low" in r["status"] or r["status"] == "not retried"
         r["status_html"] = f'<span class="{"low" if bad else ("good" if r["status"].startswith("improved") else "")}">{escape(r["status"])}</span>'
-    rtab = _table([("at", "When"), ("lesson_id", "Lesson"), ("kind", "Kind"), ("word_html", "Practice item"), ("first", "First score"),
+    rtab = _table([("at", "When"), ("source", "Source"), ("lesson_id", "Lesson"), ("kind", "Kind"), ("word_html", "Practice item"), ("first", "First score"),
                    ("latest", "Latest score"), ("change_txt", "Change"), ("retries", "Retry times"), ("status_html", "Status")],
                   retries, raw=("word_html", "status_html"))
     log = list(reversed(st.get("retry_log", [])))[:200]
@@ -131,6 +139,10 @@ def _detail(match, k):
         t = analytics.to_local(e["at"])
         e["when"] = t.strftime("%Y-%m-%d %H:%M") if t else ""
     ltk = _table([("when", "When"), ("lesson_id", "Lesson"), ("text", "Item"), ("previous", "Before"), ("score", "After"), ("n", "Take #")], log)
+    ft = _table([("at", "When"), ("lang", "Lang"), ("topic", "Topic"), ("cefr", "Level talked at"), ("status", "Status"),
+                 ("minutes", "Minutes"), ("turns", "Turns"), ("hints_used", "Turns with hints"), ("grade", "Grade"),
+                 ("pronunciation", "Pronunciation"), ("fluency", "Fluency"), ("completeness", "Completeness"),
+                 ("flowers", "Flowers"), ("retry_takes", "Retry takes")], list(reversed(analytics.freetalk_rows(st))))
     who = escape(match["name"] or match["email"] or match["id"])
     seen = f" · last seen {escape(s['last_seen'])}" if s["last_seen"] else " · no time tracked yet"
     return f"""<h1>{who}</h1><p class=n>{escape(match["email"])} · joined {escape(match["joined"])}{seen}</p>{cards}
@@ -138,6 +150,7 @@ def _detail(match, k):
 <div class=panel><h2>Level test results</h2>{lt}</div>
 <div class=panel><h2>Per day (last 30 days)</h2>{days}</div>
 <div class=panel><h2>Per week</h2>{weeks}</div>
+<div class=panel><h2>Free Talk: every dialogue</h2><p class=n>"left early" = ended before {store.FREETALK_MIN_TURNS} turns, so no rating or flowers. Words to practise from a finished dialogue and their retries are in the retry tables below (Source = Free Talk).</p>{ft}</div>
 <div class=panel><h2>Lesson scores (every finished lesson)</h2>{ltab}</div>
 <div class=panel><h2>Retry data: first vs latest score of each practice item</h2><p class=n>Red = below {analytics.LOW_SCORE} on the first try.</p>{rtab}</div>
 <div class=panel><h2>Retry takes (newest 200)</h2>{ltk}</div>"""
@@ -161,7 +174,7 @@ def _shell(selected, k):
                   f'href="/admin/dashboard?id={quote(L["id"])}&amp;key={k}"><b>{escape(label)}</b><span>{escape(line)}</span>'
                   f'<span>{escape(L["_sum"]["last_seen"] or "no activity tracked yet")}</span></a>')
     exports = "".join(f'<a class=b href="/admin/dashboard/export?kind={x}&amp;key={k}">{x}</a>'
-                      for x in ("summary", "daily", "weekly", "lessons", "retries", "leveltests"))
+                      for x in ("summary", "daily", "weekly", "lessons", "retries", "freetalk", "leveltests"))
     side = f"""<div class=side><h1>Langogo</h1><p class=n>{len(people)} learners · {escape(_tz_note())}</p>
 <a class=b href="/admin/dashboard?view=table&amp;key={k}">All learners table</a>
 <input id=q placeholder="Search learners" oninput="for(const a of document.querySelectorAll('.who'))a.style.display=a.dataset.q.includes(this.value.toLowerCase())?'':'none'">
@@ -185,12 +198,14 @@ def export(kind: str = "summary", key: str = ""):
         st = L["state"]
         if kind == "daily":
             for d in analytics.daily_rows(st, 3650):
-                rows.append({**base, **{k: d[k] for k in ("day", "minutes", "sessions", "lessons")},
+                rows.append({**base, **{k: d[k] for k in ("day", "minutes", "freetalk_minutes", "sessions", "lessons", "freetalks")},
                              "by_language": "; ".join(f"{l}={round(sec / 60, 1)}" for l, sec in d["by_lang"].items())})
         elif kind == "weekly":
             rows += [{**base, **w} for w in analytics.weekly_rows(st)]
         elif kind == "lessons":
             rows += [{**base, **r} for r in analytics.lesson_rows(st)]
+        elif kind == "freetalk":
+            rows += [{**base, **r} for r in analytics.freetalk_rows(st)]
         elif kind == "leveltests":
             rows += [{**base, **r} for r in analytics.level_test_rows(st)]
         elif kind == "retries":

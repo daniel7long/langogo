@@ -44,8 +44,8 @@ export const removePhoto = () => request('/me/photo', { method: 'DELETE' });
 // Full web address of a picture the server returned (null when there is none).
 export const photoUri = (path) => (path ? `${BASE_URL}${path}` : null);
 // Tells the server the app is open (adds up the time spent). Never throws.
-export const pingUsage = (seconds, newSession = false) =>
-  post('/me/ping', { seconds, new_session: newSession }).catch(() => {});
+export const pingUsage = (seconds, newSession = false, area = null) =>
+  post('/me/ping', { seconds, new_session: newSession, area }).catch(() => {});
 export const deleteAccount = () => request('/me/account', { method: 'DELETE' });
 
 // Topics
@@ -87,15 +87,17 @@ async function audioForm(fields, recording) {
 // Uploads one recording (`{ uri, durationMs }` from the recorder) and returns its scores.
 // durationMs is how long the learner spent recording the line; the server keeps it for research only
 // (speech rate is never sent back to the app).
-export async function scoreTurn(lessonId, turnId, recording) {
+export async function scoreTurn(lessonId, turnId, recording, swap = false) {
   const form = await audioForm(
-    { turn_id: turnId, duration_ms: String(Math.round(recording.durationMs || 0)) },
+    { turn_id: turnId, duration_ms: String(Math.round(recording.durationMs || 0)), swap: swap ? 'true' : 'false' },
     recording
   );
   return postForm(`/lessons/${encodeURIComponent(lessonId)}/speak`, form);
 }
 // The server keeps the scores of your takes, so completing needs no body.
-export const completeLesson = (lessonId) => post(`/lessons/${encodeURIComponent(lessonId)}/complete`);
+// `swap` = the learner played the other speaker's part ("Switch parts").
+export const completeLesson = (lessonId, swap = false) =>
+  post(`/lessons/${encodeURIComponent(lessonId)}/complete${swap ? '?swap=true' : ''}`);
 
 // Free Talk: an open conversation with the AI partner about the learner's favorite topics.
 export const startFreeTalk = async (topicId) => {
@@ -104,13 +106,22 @@ export const startFreeTalk = async (topicId) => {
   return start;
 };
 // Sends the learner's recording and the conversation so far; returns { you, turn, hints, level }.
-export async function sendFreeTalkTurn({ topicId, history, turnNo, hintUsed, recording }) {
+export async function sendFreeTalkTurn({ topicId, sessionId, history, turnNo, hintUsed, recording }) {
   const form = await audioForm(
-    { topic_id: topicId, history: JSON.stringify(history), turn_no: String(turnNo), hint_used: hintUsed ? 'true' : 'false' },
+    {
+      topic_id: topicId,
+      session_id: sessionId || '',
+      history: JSON.stringify(history),
+      turn_no: String(turnNo),
+      hint_used: hintUsed ? 'true' : 'false',
+    },
     recording
   );
   return postForm('/freetalk/turn', form);
 }
+// Ends a dialogue. finished=false means the learner left early. `turns` = the scored turns (backup for a server restart).
+export const finishFreeTalk = ({ sessionId, topicId, seconds, hintsUsed, finished, turns }) =>
+  post('/freetalk/finish', { session_id: sessionId, topic_id: topicId, seconds, hints_used: hintsUsed, finished, turns });
 
 // Vocab Notes (words saved from the flashcards) and their review
 const enc = encodeURIComponent;

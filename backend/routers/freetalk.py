@@ -1,8 +1,10 @@
 """Free Talk: an open conversation with an AI partner about the learner's favorite topics.
 
     POST /freetalk/start   picks a topic, returns the partner's opening line, three hints and the level used
-    POST /freetalk/turn    receives the learner's recording, returns what they said, the partner's answer and
-                           three hints for the next turn
+    POST /freetalk/turn    receives the learner's recording, returns what they said, how they pronounced it, the
+                           partner's answer and three hints for the next turn
+    POST /freetalk/finish  ends the dialogue: with enough turns it makes a record (grade, scores, words to
+                           practise) and pays 25 flowers; a dialogue left early only goes into the Free Talk log
 
 The server keeps no conversation: the app sends the last turns with every request, so a restart of the server
 never breaks a chat. The learner's CEFR level comes from their course (see learner_cefr) and the partner adapts to
@@ -12,6 +14,7 @@ Without OPENAI_API_KEY it runs in a small demo mode so the screen can still be t
 import json
 import random
 import re
+import secrets
 import tempfile
 from pathlib import Path
 
@@ -22,7 +25,9 @@ import config
 import content
 import languages
 import llm
+import scoring
 import store
+import analytics
 
 router = APIRouter(prefix="/freetalk", tags=["freetalk"])
 
@@ -63,7 +68,7 @@ def learner_cefr(lang):
     except content.ContentError:
         cefr = None
     cefr = cefr or CEFR_BY_LEVEL.get(level, "B1")
-    recent = [r for r in store.STATE["records"] if r.get("lang") == lang][:3]
+    recent = [r for r in store.STATE["records"] if r.get("lang") == lang and r.get("kind") != "freetalk"][:3]
     grades = [store.GRADE_ORDER.index(r["grade"]) for r in recent if r.get("grade") in store.GRADE_ORDER]
     if len(grades) >= 2 and sum(grades) / len(grades) <= 1.0 and CEFR_ORDER.index(cefr) > 0:
         cefr = CEFR_ORDER[CEFR_ORDER.index(cefr) - 1]
@@ -137,6 +142,27 @@ def _messages(history):
     return out
 
 
+def _score_take(data, suffix, text, lang_id):
+    """Pronunciation of what the learner said (the recognised text is the reference). None when scoring is not possible,
+    so a scoring hiccup never stops the conversation."""
+    if not text or not any(ch.isalnum() for ch in text):
+        return None
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / f"score{suffix}"
+        path.write_bytes(data)
+        try:
+            return scoring.score_speech(path, text, lang_id)
+        except scoring.ScoringError:
+            return None
+
+
+def _scores_out(result):
+    if not result:
+        return None
+    return {"pronunciation": result["pronunciation"], "fluency": result["fluency"], "completeness": result["completeness"],
+            "words": [{"text": w["text"], "score": w["score"]} for w in result["words"]]}
+
+
 def _count_words(text, unit):
     if unit == "characters":
         return len(re.findall(r"\w", text))
@@ -166,7 +192,8 @@ def start(body: StartIn | None = None):
     topic, topics = _topic(topic_id)
     cefr = learner_cefr(lang["id"])
     base = {"language": lang["name"], "lang": lang["id"], "locale": lang["locale"], "topic": topic, "topics": topics,
-            "level": cefr, "demo": not llm.enabled()}
+            "level": cefr, "demo": not llm.enabled(), "session_id": secrets.token_hex(8),
+            "min_turns": store.FREETALK_MIN_TURNS, "reward": store.FREETALK_FLOWERS}
     if not llm.enabled():
         return {**base, "turn": _demo_turn(lang, topic, 1, True), "hints": DEMO_HINTS}
     try:
@@ -179,7 +206,7 @@ def start(body: StartIn | None = None):
 
 @router.post("/turn")
 async def turn(audio: UploadFile = File(...), topic_id: str = Form(...), history: str = Form("[]"),
-               turn_no: int = Form(1), hint_used: bool = Form(False)):
+               turn_no: int = Form(1), hint_used: bool = Form(False), session_id: str = Form("")):
     """One learner turn: transcribe the recording, then let the partner answer."""
     lang = languages.get(store.current_lang())
     topic, _ = _topic(topic_id)
@@ -199,13 +226,20 @@ async def turn(audio: UploadFile = File(...), topic_id: str = Form(...), history
     n = max(1, min(turn_no, 500)) + 1
     store.touch_streak(store.STATE["user"])
 
-    if not llm.enabled():
-        you = {"id": f"u{n - 1}", "speaker": "You", "role": "you", "text": "(Demo mode: your speech is not transcribed.)"}
-        return {"you": you, "turn": _demo_turn(lang, topic, n, False), "hints": DEMO_HINTS, "level": cefr, "demo": True}
-
     suffix = "." + ((audio.filename or "").rsplit(".", 1)[-1].lower() if "." in (audio.filename or "") else "webm")
     if not re.fullmatch(r"\.[a-z0-9]{2,4}", suffix):
         suffix = ".webm"
+    sid = re.sub(r"[^A-Za-z0-9]", "", session_id)[:32]
+
+    if not llm.enabled():
+        text = "(Demo mode: your speech is not transcribed.)"
+        you = {"id": f"u{n - 1}", "speaker": "You", "role": "you", "text": text}
+        result = _score_take(data, suffix, "demo", lang["id"]) if config.scoring_engine() == "demo" else None
+        if result and sid:
+            store.ATTEMPTS.setdefault(f"ft:{sid}", {})[you["id"]] = {"text": text, "result": result}
+        return {"you": you, "scores": _scores_out(result), "turn": _demo_turn(lang, topic, n, False),
+                "hints": DEMO_HINTS, "level": cefr, "demo": True}
+
     with tempfile.TemporaryDirectory() as tmp:
         path = Path(tmp) / f"talk{suffix}"
         path.write_bytes(data)
@@ -216,6 +250,7 @@ async def turn(audio: UploadFile = File(...), topic_id: str = Form(...), history
     if not heard:
         raise HTTPException(status_code=422, detail="I couldn't hear anything. Tap the mic and try again.")
 
+    result = _score_take(data, suffix, heard, lang["id"])
     words = _count_words(heard, lang["unit"])
     try:
         out = llm.chat_json(_system_prompt(lang, topic, cefr, words, hint_used, False),
@@ -224,4 +259,92 @@ async def turn(audio: UploadFile = File(...), topic_id: str = Form(...), history
     except llm.LLMError as e:
         raise HTTPException(status_code=e.status, detail=str(e))
     you = {"id": f"u{n - 1}", "speaker": "You", "role": "you", "text": heard}
-    return {"you": you, "turn": npc, "hints": _clean_hints(out.get("hints")), "level": cefr, "demo": False}
+    if result and sid:  # kept in memory until the dialogue ends (/freetalk/finish)
+        store.ATTEMPTS.setdefault(f"ft:{sid}", {})[you["id"]] = {"text": heard, "result": result}
+    return {"you": you, "scores": _scores_out(result), "turn": npc, "hints": _clean_hints(out.get("hints")),
+            "level": cefr, "demo": False}
+
+
+# ---- Ending a dialogue ----------------------------------------------------------------------------------
+class FinishIn(BaseModel):
+    session_id: str
+    topic_id: str | None = None
+    seconds: int = 0           # how long the dialogue lasted (the app measures it)
+    hints_used: int = 0        # turns in which the learner opened the example answers
+    finished: bool = True      # False = the learner left before the end (no rating, no flowers)
+    turns: list[dict] = []     # the scored turns as the app has them: used only if the server forgot them (restart)
+
+
+def _result_from_client(t):
+    """A scored turn sent back by the app, in the shape score_speech returns (only used after a server restart)."""
+    def num(v):
+        try:
+            return max(0, min(100, round(float(v))))
+        except (TypeError, ValueError):
+            return 0
+    words = [{"text": str(w.get("text", ""))[:60], "score": num(w.get("score")), "error": "None", "phonemes": []}
+             for w in (t.get("words") or [])[:80] if isinstance(w, dict)]
+    return {"engine": "azure", "pronunciation": num(t.get("pronunciation")), "fluency": num(t.get("fluency")),
+            "completeness": num(t.get("completeness")), "words": words}
+
+
+@router.post("/finish")
+def finish(body: FinishIn):
+    """End of a dialogue. With enough turns it becomes a record (shown on the same result screen as a lesson, with
+    words to retry) and pays store.FREETALK_FLOWERS. Called twice for the same dialogue it returns the same record."""
+    state = store.STATE
+    sid = re.sub(r"[^A-Za-z0-9]", "", body.session_id)[:32]
+    if not sid:
+        raise HTTPException(status_code=422, detail="Unknown dialogue.")
+    log = state.setdefault("freetalk_log", [])
+    done = next((e for e in log if e.get("id") == sid), None)
+    if done:
+        rec = next((r for r in state["records"] if r["id"] == done.get("record_id")), None)
+        return {"completed": bool(done.get("completed")), "record": rec, "turns": done.get("turns", 0),
+                "min_turns": store.FREETALK_MIN_TURNS, "flowers_earned": done.get("flowers", 0)}
+
+    lang_id = store.current_lang()
+    lang = languages.get(lang_id)
+    topic, _ = _topic(body.topic_id)
+    attempts = dict(store.ATTEMPTS.get(f"ft:{sid}", {}))
+    if not attempts and body.turns:
+        attempts = {f"c{i}": {"text": str(t.get("text", ""))[:600], "result": _result_from_client(t)}
+                    for i, t in enumerate(body.turns[:100]) if isinstance(t, dict)}
+    store.ATTEMPTS.pop(f"ft:{sid}", None)
+    n_turns = len(attempts)
+    seconds = max(0, min(int(body.seconds or 0), 3 * 3600))
+    counts = body.finished and n_turns >= store.FREETALK_MIN_TURNS
+    entry = {"id": sid, "at": analytics.now_iso(), "lang": lang_id, "topic": topic["name"], "cefr": learner_cefr(lang_id),
+             "seconds": seconds, "turns": n_turns, "hints_used": max(0, min(int(body.hints_used or 0), 500)),
+             "completed": bool(counts), "grade": "", "fluency": None, "pronunciation": None, "completeness": None,
+             "flowers": 0, "record_id": None}
+    out = {"completed": False, "record": None, "turns": n_turns, "min_turns": store.FREETALK_MIN_TURNS, "flowers_earned": 0}
+    if counts:
+        results = [a["result"] for a in attempts.values()]
+        fluency = round(sum(r["fluency"] for r in results) / len(results))
+        pronunciation = round(sum(r["pronunciation"] for r in results) / len(results))
+        completeness = round(sum(r["completeness"] for r in results) / len(results))
+        grade = store.grade_for((fluency + pronunciation) / 2)
+        user = state["user"]
+        earned = store.FREETALK_FLOWERS
+        user["flowers"] += earned
+        user["weekly_flowers"] += earned
+        store.touch_streak(user)
+        feedback = scoring.feedback_items([(a["text"], a["result"]) for a in attempts.values()])
+        record = {
+            "id": f"r{state['next_record']}", "at": entry["at"], "lang": lang_id, "language": lang["name"],
+            "kind": "freetalk", "lesson_id": "freetalk", "level": store.level_of(lang_id), "lesson_no": 0,
+            "title": f"Free Talk · {topic['name']}", "topic": topic["name"], "emoji": "💬",
+            "turns": n_turns, "seconds": seconds,
+            "grade": grade, "fluency": fluency, "pronunciation": pronunciation, "completeness": completeness,
+            "engine": "demo" if any(r.get("engine") == "demo" for r in results) else "azure",
+            "flowers_earned": earned, "unlocked_level": None,
+            "words": [{**w, "first_score": w.get("score")} for w in feedback],
+        }
+        state["next_record"] += 1
+        state["records"].insert(0, record)
+        entry.update(grade=grade, fluency=fluency, pronunciation=pronunciation, completeness=completeness,
+                     flowers=earned, record_id=record["id"])
+        out.update(completed=True, record=record, flowers_earned=earned)
+    analytics.log_freetalk(state, entry)
+    return out

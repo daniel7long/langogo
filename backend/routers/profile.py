@@ -100,12 +100,13 @@ def save_favorites(body: FavoritesIn):
 class PingIn(BaseModel):
     seconds: int = Field(30, ge=0, le=300)
     new_session: bool = False
+    area: str | None = None  # "freetalk" while the learner is in Free Talk
 
 
 @router.post("/me/ping")
 def ping(body: PingIn):
     """The app calls this every 30 seconds while it is open and in front: it adds up the time spent in the app."""
-    analytics.add_time(store.STATE, store.current_lang(), body.seconds, body.new_session)
+    analytics.add_time(store.STATE, store.current_lang(), body.seconds, body.new_session, body.area)
     return {"ok": True}
 
 

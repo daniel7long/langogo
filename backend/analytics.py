@@ -6,6 +6,9 @@ What is saved (inside each learner's state, see store.py):
   * every finished lesson is a record (state["records"]) with its time ("at"), scores and the practice words
     ("first_score" is the score of the word right after the lesson, "score" the latest one).
   * state["retry_log"]: one row per retry take: when, which word, the score before and after.
+  * Free Talk: day["freetalk_sec"] is the part of the time spent in Free Talk (the app says so in its ping), and
+    state["freetalk_log"] has one row per dialogue (finished or left early) with its scores. A finished dialogue is
+    also a record (kind "freetalk"), so its words to practise and their retries are tracked like a lesson's.
 
 Days and weeks follow the time zone in LANGOGO_TZ (default America/New_York). Weeks start on Monday.
 Everything here is read-only except add_time / log_retry.
@@ -20,6 +23,7 @@ import languages
 LOW_SCORE = 70       # a practice word below this counts as a "low score"
 MAX_PING = 90        # seconds one ping may add (a phone left open can't inflate the time)
 KEEP_RETRIES = 2000
+KEEP_FREETALK = 500
 
 
 def tz():
@@ -49,16 +53,24 @@ def week_start(d):
 
 
 # ---- Writing ---------------------------------------------------------------------------------------
-def add_time(state, lang, seconds, new_session=False):
+def add_time(state, lang, seconds, new_session=False, area=None):
     seconds = max(0, min(int(seconds), MAX_PING))
     days = state.setdefault("usage", {}).setdefault("days", {})
     day = days.setdefault(today().isoformat(), {"sec": 0, "sessions": 0, "by_lang": {}})
     day["sec"] += seconds
+    if area == "freetalk":
+        day["freetalk_sec"] = day.get("freetalk_sec", 0) + seconds
     day["by_lang"][lang] = day["by_lang"].get(lang, 0) + seconds
     if new_session:
         day["sessions"] += 1
     state["usage"]["last_seen"] = now_iso()
     return day
+
+
+def log_freetalk(state, row):
+    log = state.setdefault("freetalk_log", [])
+    log.append(row)
+    del log[:-KEEP_FREETALK]
 
 
 def log_retry(state, record, word, previous, score, number):
@@ -111,14 +123,15 @@ def progress(state):
 
 def lesson_rows(state):
     """Every finished lesson, oldest first, with its attempt number for that lesson."""
-    recs = sorted(state.get("records", []), key=lambda r: (r.get("at") or "", _record_no(r)))
+    recs = sorted((r for r in state.get("records", []) if r.get("kind") != "freetalk"),
+                  key=lambda r: (r.get("at") or "", _record_no(r)))
     count, rows = {}, []
     for r in recs:
         n = count[r["lesson_id"]] = count.get(r["lesson_id"], 0) + 1
         local = to_local(r.get("at"))
         rows.append({"at": local.strftime("%Y-%m-%d %H:%M") if local else "", "day": local.date().isoformat() if local else "",
                      "lang": r.get("lang", "fr"), "lesson_id": r["lesson_id"], "title": r.get("title", ""),
-                     "attempt": n, "grade": r.get("grade", ""), "fluency": r.get("fluency"),
+                     "attempt": n, "part": "other speaker" if r.get("swapped") else "main", "grade": r.get("grade", ""), "fluency": r.get("fluency"),
                      "pronunciation": r.get("pronunciation"), "completeness": r.get("completeness"),
                      "flowers": r.get("flowers_earned", 0)})
     return rows
@@ -147,11 +160,41 @@ def retry_rows(state):
                 if latest is not None and latest < LOW_SCORE:
                     status += ", still low"
             rows.append({"at": local.strftime("%Y-%m-%d %H:%M") if local else "", "lang": r.get("lang", "fr"),
+                         "source": "Free Talk" if r.get("kind") == "freetalk" else "Lesson",
                          "lesson_id": r["lesson_id"], "title": r.get("title", ""), "word": w.get("text", ""),
                          "kind": w.get("kind", "word"), "first": first, "latest": latest, "retries": n,
                          "change": (latest - first) if (latest is not None and first is not None) else None,
                          "low": low, "status": status})
     return rows
+
+
+def freetalk_rows(state):
+    """Every Free Talk dialogue, oldest first: time, turns, ratings and how many words were retried afterwards."""
+    takes = {}
+    for e in state.get("retry_log", []):
+        takes[e.get("record_id")] = takes.get(e.get("record_id"), 0) + 1
+    rows = []
+    for e in sorted(state.get("freetalk_log", []), key=lambda e: e.get("at") or ""):
+        local = to_local(e.get("at"))
+        rows.append({"at": local.strftime("%Y-%m-%d %H:%M") if local else "", "day": local.date().isoformat() if local else "",
+                     "lang": e.get("lang", ""), "topic": e.get("topic", ""), "cefr": e.get("cefr", ""),
+                     "status": "finished" if e.get("completed") else "left early",
+                     "minutes": round((e.get("seconds") or 0) / 60, 1), "turns": e.get("turns", 0),
+                     "hints_used": e.get("hints_used", 0), "grade": e.get("grade", ""),
+                     "pronunciation": e.get("pronunciation"), "fluency": e.get("fluency"),
+                     "completeness": e.get("completeness"), "flowers": e.get("flowers", 0),
+                     "retry_takes": takes.get(e.get("record_id"), 0) if e.get("record_id") else 0})
+    return rows
+
+
+def freetalk_minutes(state):
+    """(today, this week, total) minutes spent in Free Talk, from the pings."""
+    days = state.get("usage", {}).get("days", {})
+    t = today()
+    ws = week_start(t).isoformat()
+    sec = lambda keys: sum(days[k].get("freetalk_sec", 0) for k in keys)
+    return (round(sec([k for k in days if k == t.isoformat()]) / 60, 1),
+            round(sec([k for k in days if k >= ws]) / 60, 1), round(sec(list(days)) / 60, 1))
 
 
 def level_test_rows(state):
@@ -175,9 +218,15 @@ def daily_rows(state, days=30):
     for r in lesson_rows(state):
         if r["day"]:
             lessons[r["day"]] = lessons.get(r["day"], 0) + 1
-    keys = sorted(set(usage) | set(lessons), reverse=True)[:days]
+    freetalks = {}
+    for r in freetalk_rows(state):
+        if r["day"] and r["status"] == "finished":
+            freetalks[r["day"]] = freetalks.get(r["day"], 0) + 1
+    keys = sorted(set(usage) | set(lessons) | set(freetalks), reverse=True)[:days]
     return [{"day": d, "minutes": round(usage.get(d, {}).get("sec", 0) / 60, 1),
              "sessions": usage.get(d, {}).get("sessions", 0), "lessons": lessons.get(d, 0),
+             "freetalk_minutes": round(usage.get(d, {}).get("freetalk_sec", 0) / 60, 1),
+             "freetalks": freetalks.get(d, 0),
              "by_lang": usage.get(d, {}).get("by_lang", {})} for d in keys]
 
 
@@ -185,10 +234,13 @@ def weekly_rows(state):
     weeks = {}
     for d in daily_rows(state, days=3650):
         ws = week_start(date.fromisoformat(d["day"])).isoformat()
-        w = weeks.setdefault(ws, {"week": ws, "minutes": 0.0, "sessions": 0, "lessons": 0, "days_active": 0})
+        w = weeks.setdefault(ws, {"week": ws, "minutes": 0.0, "sessions": 0, "lessons": 0, "days_active": 0,
+                                                "freetalk_minutes": 0.0, "freetalks": 0})
         w["minutes"] = round(w["minutes"] + d["minutes"], 1)
         w["sessions"] += d["sessions"]
         w["lessons"] += d["lessons"]
+        w["freetalk_minutes"] = round(w["freetalk_minutes"] + d["freetalk_minutes"], 1)
+        w["freetalks"] += d["freetalks"]
         w["days_active"] += 1 if (d["minutes"] or d["lessons"]) else 0
     return sorted(weeks.values(), key=lambda w: w["week"], reverse=True)
 
@@ -204,7 +256,14 @@ def summary(state):
     scores = [r["pronunciation"] for r in lessons if r["pronunciation"] is not None]
     retries = retry_rows(state)
     lt = level_test_rows(state)
+    ft = freetalk_rows(state)
+    ft_today, ft_week, ft_total = freetalk_minutes(state)
+    ft_done = [r for r in ft if r["status"] == "finished"]
+    ft_p = [r["pronunciation"] for r in ft_done if r["pronunciation"] is not None]
     return {
+        "freetalk_min_today": ft_today, "freetalk_min_week": ft_week, "freetalk_min_total": ft_total,
+        "freetalk_finished": len(ft_done), "freetalk_left_early": len(ft) - len(ft_done),
+        "freetalk_avg_pronunciation": round(sum(ft_p) / len(ft_p)) if ft_p else "",
         "level_test": f"{lt[0]['score']} ({lt[0]['level']})" if lt else "",
         "minutes_today": td["minutes"] if td else 0, "minutes_week": round(sum(d["minutes"] for d in week), 1),
         "minutes_total": round(sum(d["minutes"] for d in days), 1),

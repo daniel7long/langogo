@@ -28,9 +28,9 @@ export default function RootLayout() {
   useEffect(() => {
     uiLangReady.then(() => setLangReady(true));
   }, []);
-  useUsagePing(!enabled || !!session);
   const router = useRouter();
   const segments = useSegments();
+  useUsagePing(!enabled || !!session, segments[0] === 'free-talk' ? 'freetalk' : null);
   const navState = useRootNavigationState();
 
   useEffect(() => {
