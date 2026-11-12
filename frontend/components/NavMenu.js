@@ -53,7 +53,8 @@ export default function NavMenu({ visible, onClose, language, active = 'Courses'
   const dressed = !!(me?.equipped?.outfit || me?.equipped?.frame);
   const onDark = wall ? wallTone(wall) === 'dark' : false;
   const ink = wall ? (onDark ? '#FFFFFF' : colors.text) : colors.text;
-  const accent = wall ? (onDark ? '#FFD9B8' : colors.primary) : colors.primary;
+  const accent = wall ? (onDark ? '#FFFFFF' : colors.primary) : colors.primary;
+  const shadow = wall && onDark ? { textShadowColor: 'rgba(0,0,0,0.55)', textShadowOffset: { width: 0, height: 1 }, textShadowRadius: 3 } : null;
 
   const go = (item) => {
     onClose();
@@ -78,34 +79,36 @@ export default function NavMenu({ visible, onClose, language, active = 'Courses'
                 <View style={StyleSheet.absoluteFill} pointerEvents="none">
                   <WallpaperArt id={wall} width={360} height={120} />
                 </View>
-                <View style={[StyleSheet.absoluteFill, { backgroundColor: onDark ? 'rgba(0,0,0,0.34)' : 'rgba(255,255,255,0.55)' }]} pointerEvents="none" />
+                <View style={[StyleSheet.absoluteFill, { backgroundColor: onDark ? 'rgba(0,0,0,0.42)' : 'rgba(255,255,255,0.55)' }]} pointerEvents="none" />
               </>
             ) : null}
             <Avatar name={me?.name} photoUrl={me?.photo_url} size={dressed ? 60 : 50} equipped={me?.equipped} />
             <View style={styles.nameCol}>
-              <Text style={[styles.userName, { color: ink }]} numberOfLines={1}>{me?.name || 'You'}</Text>
-              <Text style={[styles.eyebrow, { color: accent }]}>Learning</Text>
+              <Text style={[styles.userName, { color: ink }, shadow]} numberOfLines={1}>{me?.name || 'You'}</Text>
+              <Text style={[styles.eyebrow, { color: accent }, shadow]}>{me?.level ? `Level ${me.level}` : 'Learning'}</Text>
             </View>
-            <View style={styles.midCol}>
-              <Flag id={language.id} width={26} round />
-              <Text style={[styles.langName, { color: ink }]} numberOfLines={1}>{language.name}</Text>
-            </View>
-            <View style={styles.endCol}>
-              <View style={styles.flowerRow}>
-                <Ionicons name="flower" size={15} color={accent} />
-                <Text style={[styles.flowerNum, { color: ink }]}>{me ? me.flowers : '–'}</Text>
+            <View style={styles.rightBlock}>
+              <View style={styles.rightRow}>
+                <Flag id={language.id} width={26} round />
+                <View style={styles.flowerRow}>
+                  <Ionicons name="flower" size={16} color={accent} />
+                  <Text style={[styles.flowerNum, { color: ink }, shadow]}>{me ? me.flowers : '–'}</Text>
+                </View>
               </View>
-              <Pressable
-                onPress={() => {
-                  onClose();
-                  router.push({ pathname: '/language', params: { change: '1' } });
-                }}
-                hitSlop={10}
-                accessibilityRole="button"
-                accessibilityLabel="Change language"
-              >
-                <Text style={[styles.change, { color: accent }]}>Change</Text>
-              </Pressable>
+              <View style={styles.rightRow}>
+                <Text style={[styles.langName, { color: ink }, shadow]} numberOfLines={1}>{language.name}</Text>
+                <Pressable
+                  onPress={() => {
+                    onClose();
+                    router.push({ pathname: '/language', params: { change: '1' } });
+                  }}
+                  hitSlop={10}
+                  accessibilityRole="button"
+                  accessibilityLabel="Change language"
+                >
+                  <Text style={[styles.change, { color: accent }, shadow]}>Change</Text>
+                </Pressable>
+              </View>
             </View>
           </View>
         )}
@@ -170,8 +173,8 @@ const styles = StyleSheet.create({
     ...shadows.card(),
   },
   nameCol: { flex: 1, minWidth: 0 },
-  midCol: { alignItems: 'center', gap: 2, maxWidth: 74 },
-  endCol: { alignItems: 'flex-end', gap: 2 },
+  rightBlock: { gap: 6, alignItems: 'flex-end' },
+  rightRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end', gap: spacing.s12 },
   userName: { ...typography.label },
   flowerRow: { flexDirection: 'row', alignItems: 'center', gap: 3 },
   flowerNum: { ...typography.label },
