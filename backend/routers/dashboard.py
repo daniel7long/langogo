@@ -16,6 +16,8 @@ from fastapi.responses import HTMLResponse, Response
 
 import analytics
 import db
+import charity
+import rewards
 import store
 from routers.admin import _check
 
@@ -72,10 +74,75 @@ def _tz_note():
     return f"Days and weeks use the {analytics.tz().key if hasattr(analytics.tz(), 'key') else 'UTC'} time zone; weeks start on Monday."
 
 
+def _referral_rows(people):
+    """One row per learner who entered a friend's code: who invited them, did they finish lesson 1, was the 100-flower bonus paid."""
+    by_code = {rewards.code_of(L["id"]): L for L in people}
+    rows = []
+    for L in people:
+        ref = L["state"].get("referral")
+        if not ref:
+            continue
+        inviter = by_code.get(ref.get("by"))
+        paid = bool(inviter) and rewards.code_of(L["id"]) in (inviter["state"].get("rewards") or {}).get("friends", [])
+        rows.append({"at": (ref.get("at") or "")[:16].replace("T", " "), "friend": L["name"] or L["email"], "friend_email": L["email"],
+                     "invited_by": (inviter["name"] or inviter["email"]) if inviter else "(unknown code)",
+                     "invited_by_email": inviter["email"] if inviter else "", "code_used": ref.get("by", ""),
+                     "finished_lesson_1": "yes" if ref.get("done") else "not yet", "bonus_paid_100_flowers": "yes" if paid else "no"})
+    rows.sort(key=lambda r: r["at"], reverse=True)
+    return rows
+
+
+def _gifts_view(k, note=""):
+    """Charity quota (what you pre-paid), gifts to fulfil, and every referral."""
+    people = _learners()
+    st = charity.status()
+    forms = ""
+    for unit, label in charity.UNITS.items():
+        q = st[unit]
+        left = "no quota set (unlimited)" if q["remaining"] is None else f"{q['remaining']} left"
+        forms += f"""<form method=get action="/admin/dashboard/charity" class=panel>
+<input type=hidden name=key value="{escape(key_plain(k))}"><input type=hidden name=unit value="{unit}">
+<h2>{escape(label)}: {q['used']} given, {left}</h2>
+<p class=n>Partner <input name=partner value="{escape(q['partner'])}" placeholder="e.g. the organisation you buy from">
+ Link <input name=url value="{escape(q['url'])}" placeholder="https://..." size=34>
+ Pre-paid total <input name=prepaid type=number min=0 value="{'' if q['prepaid'] is None else q['prepaid']}" style="width:90px" required>
+ <button class=b type=submit>Save</button></p>
+<p class=n>"Pre-paid total" is everything you have bought so far, not just the newest batch. Learners use it up one by one; at 0 the gift shows "Back soon".</p></form>"""
+    fulfil = []
+    for L in people:
+        for r in analytics.redemption_rows(L["state"]):
+            if r["type"].startswith("impact"):
+                fulfil.append({"learner": L["name"] or L["email"], "email": L["email"], **r})
+    fulfil.sort(key=lambda r: r["at"], reverse=True)
+    ft = _table([("at", "When"), ("learner", "Learner"), ("email", "Email"), ("gift", "Gift"), ("flowers", "Flowers spent")], fulfil)
+    refs = _table([("at", "Entered code"), ("friend", "New learner"), ("friend_email", "Email"), ("invited_by", "Invited by"), ("invited_by_email", "Inviter email"),
+                   ("code_used", "Code"), ("finished_lesson_1", "Finished lesson 1"), ("bonus_paid_100_flowers", "100 flowers paid to inviter")], _referral_rows(people))
+    return f"""<h1>Gifts, charity quota and referrals</h1>{note}<p class=n><a href="/admin/dashboard?key={k}">&larr; Back to learners</a></p>
+{forms}<div class=panel><h2>Impact gifts redeemed ({len(fulfil)})</h2>{ft}</div>
+<div class=panel><h2>Referrals ({len(_referral_rows(people))})</h2>{refs}</div>"""
+
+
+def key_plain(k):
+    from urllib.parse import unquote
+    return unquote(k)
+
+
+@router.get("/charity")
+def charity_save(key: str = "", unit: str = "", partner: str = "", url: str = "", prepaid: int = 0):
+    _check(key)
+    k = quote(key)
+    if unit not in charity.UNITS:
+        return _page("Charity", _gifts_view(k, '<p class=low>Unknown gift.</p>'))
+    charity.set_unit(unit, partner, url, prepaid)
+    return _page("Charity", _gifts_view(k, f'<p class=good>Saved: {escape(charity.UNITS[unit])}.</p>'))
+
+
 @router.get("")
 def overview(key: str = "", id: str = "", view: str = ""):
     _check(key)
     k = quote(key)
+    if view == "gifts":
+        return _page("Gifts and referrals", f"<div class=main>{_gifts_view(k)}</div>", cls="app")
     if view != "table":
         return _shell(id, k)
     rows = []
@@ -94,7 +161,7 @@ def overview(key: str = "", id: str = "", view: str = ""):
             ("freetalk_finished", "Free Talk dialogues done"), ("freetalk_avg_pronunciation", "Free Talk avg pronunciation"),
             ("flowers", "Flowers now"), ("flowers_spent", "Flowers spent"), ("last_seen", "Last seen"), ("joined", "Joined")]
     exports = "".join(f'<a class=b href="/admin/dashboard/export?kind={x}&amp;key={k}">{x} CSV</a>'
-                      for x in ("summary", "daily", "weekly", "lessons", "retries", "freetalk", "flowers", "redemptions", "leveltests"))
+                      for x in ("summary", "daily", "weekly", "lessons", "retries", "freetalk", "flowers", "redemptions", "referrals", "leveltests"))
     fulfil = []
     for L in _learners():
         for r in analytics.redemption_rows(L["state"]):
@@ -153,6 +220,12 @@ def _detail(match, k):
                  ("flowers", "Flowers"), ("retry_takes", "Retry takes")], list(reversed(analytics.freetalk_rows(st))))
     fl = _table([("at", "When"), ("reason", "Earned for"), ("flowers", "Flowers")], list(reversed(analytics.flower_rows(st)))[:150])
     rd = _table([("at", "When"), ("gift", "Gift"), ("type", "Type"), ("flowers", "Flowers spent")], list(reversed(analytics.redemption_rows(st))))
+    code = rewards.code_of(match["id"])
+    mine = [r for r in _referral_rows(_learners()) if r["code_used"] == code]
+    ref = st.get("referral")
+    inv = next((r["invited_by"] for r in _referral_rows(_learners()) if r["friend_email"] == match["email"] and r["code_used"] == (ref or {}).get("by")), "")
+    rf = _table([("at", "Entered code"), ("friend", "Friend"), ("friend_email", "Email"), ("finished_lesson_1", "Finished lesson 1"),
+                 ("bonus_paid_100_flowers", "100 flowers paid")], mine)
     who = escape(match["name"] or match["email"] or match["id"])
     seen = f" · last seen {escape(s['last_seen'])}" if s["last_seen"] else " · no time tracked yet"
     return f"""<h1>{who}</h1><p class=n>{escape(match["email"])} · joined {escape(match["joined"])}{seen}</p>{cards}
@@ -161,6 +234,8 @@ def _detail(match, k):
 <div class=panel><h2>Per day (last 30 days)</h2>{days}</div>
 <div class=panel><h2>Per week</h2>{weeks}</div>
 <div class=panel><h2>Flowers: balance {st.get("user", {}).get("flowers", 0)}, spent {s["flowers_spent"]}</h2><h3>Gifts redeemed</h3>{rd}<h3>Earned (newest 150)</h3>{fl}</div>
+<div class=panel><h2>Referrals</h2><p class=n>Invite code: <b>{escape(code)}</b>. {("Invited by " + escape(inv) + (", finished lesson 1" if ref and ref.get("done") else ", has not finished lesson 1 yet") + ".") if ref else "Did not enter a friend's code."}
+ Friends who used this learner's code ({len(mine)}):</p>{rf}</div>
 <div class=panel><h2>Free Talk: every dialogue</h2><p class=n>"left early" = ended before {store.FREETALK_MIN_TURNS} turns, so no rating or flowers. Words to practise from a finished dialogue and their retries are in the retry tables below (Source = Free Talk).</p>{ft}</div>
 <div class=panel><h2>Lesson scores (every finished lesson)</h2>{ltab}</div>
 <div class=panel><h2>Retry data: first vs latest score of each practice item</h2><p class=n>Red = below {analytics.LOW_SCORE} on the first try.</p>{rtab}</div>
@@ -185,9 +260,10 @@ def _shell(selected, k):
                   f'href="/admin/dashboard?id={quote(L["id"])}&amp;key={k}"><b>{escape(label)}</b><span>{escape(line)}</span>'
                   f'<span>{escape(L["_sum"]["last_seen"] or "no activity tracked yet")}</span></a>')
     exports = "".join(f'<a class=b href="/admin/dashboard/export?kind={x}&amp;key={k}">{x}</a>'
-                      for x in ("summary", "daily", "weekly", "lessons", "retries", "freetalk", "flowers", "redemptions", "leveltests"))
+                      for x in ("summary", "daily", "weekly", "lessons", "retries", "freetalk", "flowers", "redemptions", "referrals", "leveltests"))
     side = f"""<div class=side><h1>Langogo</h1><p class=n>{len(people)} learners · {escape(_tz_note())}</p>
 <a class=b href="/admin/dashboard?view=table&amp;key={k}">All learners table</a>
+<a class=b href="/admin/dashboard?view=gifts&amp;key={k}">Gifts, charity &amp; referrals</a>
 <input id=q placeholder="Search learners" oninput="for(const a of document.querySelectorAll('.who'))a.style.display=a.dataset.q.includes(this.value.toLowerCase())?'':'none'">
 {items}<p class=n style="margin:14px 4px 4px">CSV downloads</p>{exports}</div>"""
     main = _detail(match, k) if match else "<p>No learners yet.</p>"
@@ -217,6 +293,10 @@ def export(kind: str = "summary", key: str = ""):
             rows += [{**base, **r} for r in analytics.lesson_rows(st)]
         elif kind == "flowers":
             rows += [{**base, **r} for r in analytics.flower_rows(st)]
+        elif kind == "referrals":
+            if not rows:
+                rows = _referral_rows(_learners())
+            break
         elif kind == "redemptions":
             rows += [{**base, **r} for r in analytics.redemption_rows(st)]
         elif kind == "freetalk":

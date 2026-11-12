@@ -1,11 +1,14 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Animated, Easing, Platform, Pressable, StyleSheet, View } from 'react-native';
 
 import Text from './AppText';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 
+import { getMe } from '../api/app';
+import Avatar from './Avatar';
 import Flag from './Flag';
+import { WallpaperArt, wallTone } from './GiftArt';
 import IconButton from './IconButton';
 import Logo from './Logo';
 import { colors, radius, shadows, spacing, typography } from '../theme';
@@ -27,12 +30,30 @@ const ITEMS = [
 export default function NavMenu({ visible, onClose, language, active = 'Courses' }) {
   const router = useRouter();
   const slide = useRef(new Animated.Value(0)).current;
+  const [me, setMe] = useState(null); // name, picture, flowers and what the learner wears (Gift Menu)
+
+  useEffect(() => {
+    if (!visible) return undefined;
+    let live = true;
+    getMe().then((m) => live && setMe(m)).catch(() => {});
+    return () => {
+      live = false;
+    };
+  }, [visible]);
 
   useEffect(() => {
     Animated.timing(slide, { toValue: visible ? 1 : 0, duration: visible ? 260 : 180, easing: Easing.out(Easing.cubic), useNativeDriver: NATIVE }).start();
   }, [visible, slide]);
 
   if (!visible) return null;
+
+  // What the learner wears in the Gift Menu: the picture gets its outfit and frame, the wallpaper fills the header, and the
+  // text switches between light and dark so it stays readable on it.
+  const wall = me?.equipped?.wallpaper;
+  const dressed = !!(me?.equipped?.outfit || me?.equipped?.frame);
+  const onDark = wall ? wallTone(wall) === 'dark' : false;
+  const ink = wall ? (onDark ? '#FFFFFF' : colors.text) : colors.text;
+  const accent = wall ? (onDark ? '#FFD9B8' : colors.primary) : colors.primary;
 
   const go = (item) => {
     onClose();
@@ -52,23 +73,40 @@ export default function NavMenu({ visible, onClose, language, active = 'Courses'
 
         {language && (
           <View style={styles.learning}>
-            <Flag id={language.id} width={52} round ring />
-            <View style={styles.learningText}>
-              <Text style={styles.eyebrow}>Learning</Text>
-              <Text style={styles.langName}>{language.name}</Text>
-              {!!language.native && <Text style={styles.langNative}>{language.native}</Text>}
+            {wall ? (
+              <>
+                <View style={StyleSheet.absoluteFill} pointerEvents="none">
+                  <WallpaperArt id={wall} width={360} height={120} />
+                </View>
+                <View style={[StyleSheet.absoluteFill, { backgroundColor: onDark ? 'rgba(0,0,0,0.34)' : 'rgba(255,255,255,0.55)' }]} pointerEvents="none" />
+              </>
+            ) : null}
+            <Avatar name={me?.name} photoUrl={me?.photo_url} size={dressed ? 60 : 50} equipped={me?.equipped} />
+            <View style={styles.nameCol}>
+              <Text style={[styles.userName, { color: ink }]} numberOfLines={1}>{me?.name || 'You'}</Text>
+              <Text style={[styles.eyebrow, { color: accent }]}>Learning</Text>
             </View>
-            <Pressable
-              onPress={() => {
-                onClose();
-                router.push({ pathname: '/language', params: { change: '1' } });
-              }}
-              hitSlop={10}
-              accessibilityRole="button"
-              accessibilityLabel="Change language"
-            >
-              <Text style={styles.change}>Change</Text>
-            </Pressable>
+            <View style={styles.midCol}>
+              <Flag id={language.id} width={26} round />
+              <Text style={[styles.langName, { color: ink }]} numberOfLines={1}>{language.name}</Text>
+            </View>
+            <View style={styles.endCol}>
+              <View style={styles.flowerRow}>
+                <Ionicons name="flower" size={15} color={accent} />
+                <Text style={[styles.flowerNum, { color: ink }]}>{me ? me.flowers : '–'}</Text>
+              </View>
+              <Pressable
+                onPress={() => {
+                  onClose();
+                  router.push({ pathname: '/language', params: { change: '1' } });
+                }}
+                hitSlop={10}
+                accessibilityRole="button"
+                accessibilityLabel="Change language"
+              >
+                <Text style={[styles.change, { color: accent }]}>Change</Text>
+              </Pressable>
+            </View>
           </View>
         )}
 
@@ -122,7 +160,8 @@ const styles = StyleSheet.create({
   learning: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: spacing.s12,
+    gap: spacing.sm,
+    overflow: 'hidden',
     padding: spacing.s12,
     borderRadius: radius.lg,
     backgroundColor: colors.surface,
@@ -130,10 +169,14 @@ const styles = StyleSheet.create({
     borderColor: colors.line,
     ...shadows.card(),
   },
-  learningText: { flex: 1 },
+  nameCol: { flex: 1, minWidth: 0 },
+  midCol: { alignItems: 'center', gap: 2, maxWidth: 74 },
+  endCol: { alignItems: 'flex-end', gap: 2 },
+  userName: { ...typography.label },
+  flowerRow: { flexDirection: 'row', alignItems: 'center', gap: 3 },
+  flowerNum: { ...typography.label },
   eyebrow: { ...typography.eyebrow, color: colors.primary },
-  langName: { ...typography.title, color: colors.text },
-  langNative: { ...typography.caption, color: colors.textMuted },
+  langName: { ...typography.caption, color: colors.text },
   change: { ...typography.labelSm, color: colors.primary },
   items: { marginTop: spacing.md, gap: spacing.xs, flex: 1 },
   item: { flexDirection: 'row', alignItems: 'center', gap: spacing.s12, minHeight: 56, paddingHorizontal: spacing.sm, borderRadius: radius.lg },

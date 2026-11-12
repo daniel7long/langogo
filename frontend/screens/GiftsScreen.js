@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Pressable, ScrollView, Share, StyleSheet, TextInput, View } from 'react-native';
+import { Linking, Pressable, ScrollView, Share, StyleSheet, TextInput, View } from 'react-native';
 
 import Text from '../components/AppText';
 import { Ionicons } from '@expo/vector-icons';
@@ -147,9 +147,33 @@ function GiftsView({ data: first, reload }) {
                   <Text style={styles.cardText}>{item.effect}</Text>
                 </View>
               </View>
+              {!!item.partner && (
+                <Pressable
+                  onPress={() => item.partner_url && Linking.openURL(item.partner_url).catch(() => {})}
+                  disabled={!item.partner_url}
+                  accessibilityRole={item.partner_url ? 'link' : 'text'}
+                >
+                  <Text style={styles.partner}>
+                    <Ionicons name="shield-checkmark-outline" size={14} color={colors.greenText} /> Given through {item.partner}
+                    {item.partner_url ? ' · learn more' : ''}
+                  </Text>
+                </Pressable>
+              )}
+              {item.community_total > 0 && (
+                <Text style={styles.community}>
+                  {item.unit === 'tree' ? '🌳' : '🍲'} Langogo learners have given {item.community_total} {item.unit}
+                  {item.community_total === 1 ? '' : 's'} so far.
+                </Text>
+              )}
               <PrimaryButton
-                label={data.flowers >= item.price ? `Redeem · ${item.price} flowers` : `${item.price - data.flowers} more flowers to go`}
-                disabled={busy || data.flowers < item.price}
+                label={
+                  item.available === false
+                    ? 'Back soon. More are on the way'
+                    : data.flowers >= item.price
+                      ? `Redeem · ${item.price} flowers`
+                      : `${item.price - data.flowers} more flowers to go`
+                }
+                disabled={busy || item.available === false || data.flowers < item.price}
                 onPress={() => redeem(item)}
               />
             </View>
@@ -300,6 +324,8 @@ const styles = StyleSheet.create({
   card: { backgroundColor: colors.surface, borderRadius: radius.lg, padding: spacing.md, gap: spacing.s12, borderWidth: 1, borderColor: colors.line, ...shadows.card() },
   cardTitle: { ...typography.title, color: colors.text },
   cardText: { ...typography.body, color: colors.textMuted },
+  partner: { ...typography.caption, color: colors.greenText },
+  community: { ...typography.caption, color: colors.textMuted },
   impactRow: { flexDirection: 'row', gap: spacing.s12, alignItems: 'flex-start' },
   impactEmoji: { fontSize: 40 },
   impactTotals: { flexDirection: 'row', gap: spacing.sm, alignItems: 'flex-start', backgroundColor: colors.coralBg, borderRadius: radius.md, padding: spacing.s12 },

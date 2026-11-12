@@ -102,6 +102,121 @@ function Outfit({ id }) {
           ))}
         </G>
       );
+    case 'outfit_glasses': // round glasses
+      return (
+        <G>
+          <Circle cx="36" cy="48" r="10.5" fill="#CFE9F5" fillOpacity="0.28" stroke="#2B2230" strokeWidth="2.6" />
+          <Circle cx="64" cy="48" r="10.5" fill="#CFE9F5" fillOpacity="0.28" stroke="#2B2230" strokeWidth="2.6" />
+          <Path d="M46 47 Q50 43.5 54 47" stroke="#2B2230" strokeWidth="2.4" fill="none" />
+          <Path d="M25.5 46 L12 41 M74.5 46 L88 41" stroke="#2B2230" strokeWidth="2.4" strokeLinecap="round" />
+          <Path d="M29 43 Q32 40.5 35 41" stroke="#FFF" strokeWidth="1.6" strokeLinecap="round" fill="none" opacity="0.9" />
+        </G>
+      );
+    case 'outfit_pin': // a rainbow heart pin
+      return (
+        <G>
+          <Circle cx="50" cy="88" r="10" fill="#FFF" stroke="#E4D8CB" strokeWidth="1.2" />
+          {['#E8472B', '#F4902B', '#F7D22E', '#4CAF63', '#3C8DDB', '#7E57C2'].map((c, i) => (
+            <Path key={c} d="M0 6 C-9 -1 -9 -9 -4 -9 C-1.5 -9 0 -7.5 0 -6 C0 -7.5 1.5 -9 4 -9 C9 -9 9 -1 0 6 Z" fill={c} transform={`translate(50 88.5) scale(${0.95 - i * 0.14})`} />
+          ))}
+        </G>
+      );
+    case 'outfit_shades': // dark sunglasses
+      return (
+        <G>
+          <Path d="M16 41 L84 41 L82 47 Q79 59 66 59 Q56 59 53 49 L47 49 Q44 59 34 59 Q21 59 18 47 Z" fill="#1B1B24" />
+          <Path d="M16 41 L7 37 M84 41 L93 37" stroke="#1B1B24" strokeWidth="3" strokeLinecap="round" />
+          <Path d="M24 47 L31 45 M60 47 L67 45" stroke="#FFF" strokeWidth="1.8" strokeLinecap="round" opacity="0.7" />
+        </G>
+      );
+    case 'outfit_headwrap': // a red headwrap with a knot, and gold hoops
+      return (
+        <G>
+          <Path d="M12 37 Q50 13 88 37 L88 47 Q50 25 12 47 Z" fill="#E03A4A" />
+          <Path d="M12 42 Q50 19 88 42 L88 44 Q50 21 12 44 Z" fill="#F4B63B" />
+          <Path d="M50 19 Q37 3 34 16 Q41 22 50 19 Z" fill="#E03A4A" />
+          <Path d="M50 19 Q63 3 66 16 Q59 22 50 19 Z" fill="#C92C3A" />
+          <Circle cx="50" cy="19" r="3.2" fill="#B82434" />
+          <Circle cx="10" cy="64" r="5.5" fill="none" stroke="#F4B63B" strokeWidth="2.2" />
+          <Circle cx="90" cy="64" r="5.5" fill="none" stroke="#F4B63B" strokeWidth="2.2" />
+        </G>
+      );
+    case 'outfit_buns': // hair in two space buns
+      return (
+        <G>
+          <Path d="M15 42 Q50 6 85 42 Q83 28 70 19 Q50 11 30 19 Q17 28 15 42 Z" fill="#6B3F26" />
+          <Circle cx="23" cy="17" r="11.5" fill="#6B3F26" />
+          <Circle cx="77" cy="17" r="11.5" fill="#6B3F26" />
+          <Circle cx="23" cy="17" r="11.5" fill="none" stroke="#85542F" strokeWidth="1.4" strokeDasharray="3 3" />
+          <Circle cx="77" cy="17" r="11.5" fill="none" stroke="#85542F" strokeWidth="1.4" strokeDasharray="3 3" />
+          <Circle cx="29" cy="26" r="3.4" fill="#F4902B" />
+          <Circle cx="71" cy="26" r="3.4" fill="#F4902B" />
+        </G>
+      );
+    case 'outfit_mohawk': // a purple mohawk
+      return (
+        <G>
+          <Defs>
+            <LinearGradient id="mohawk" x1="0" y1="0" x2="0" y2="1">
+              <Stop offset="0" stopColor="#B07CFF" />
+              <Stop offset="1" stopColor="#6E3FCB" />
+            </LinearGradient>
+          </Defs>
+          <Path d="M35 19 L33 8 L42 14 L44 1 L50 11 L56 1 L58 14 L67 8 L65 19 Q50 9 35 19 Z" fill="url(#mohawk)" />
+          <Path d="M34 21 Q50 10 66 21 L64 25 Q50 16 36 25 Z" fill="#6E3FCB" />
+        </G>
+      );
+    case 'outfit_afro': // big curly hair
+      return (
+        <G>
+          <Path d="M13 54 A37.5 37.5 0 0 1 87 54" stroke="#4A2B1B" strokeWidth="6" fill="none" />
+          {range(9).map((i) => {
+            const [x, y] = POLAR(50, 54, 45, 193 + i * 19.4);
+            return <Circle key={i} cx={x} cy={y} r="10.5" fill="#4A2B1B" />;
+          })}
+          {range(5).map((i) => {
+            const [x, y] = POLAR(50, 54, 46, 215 + i * 27.5);
+            return <Circle key={`h${i}`} cx={x} cy={y} r="3" fill="#6A4129" />;
+          })}
+        </G>
+      );
+    case 'outfit_bucket': // a purple bucket hat with a gold band
+      return (
+        <G>
+          <Path d="M27 36 Q25 8 50 8 Q75 8 73 36 Z" fill="#7C4DDB" />
+          <Path d="M26 33 Q50 41 74 33 L74.5 28 Q50 36 25.5 28 Z" fill="#F4B63B" />
+          <Ellipse cx="50" cy="37" rx="42" ry="8.5" fill="#5E36B8" />
+          <Path d="M10 37 Q50 50 90 37" stroke="#4B2A98" strokeWidth="2" fill="none" />
+        </G>
+      );
+    case 'outfit_hood': // a deep blue hood and cloth mask
+      return (
+        <G>
+          <Path
+            fillRule="evenodd"
+            d="M50 -3 C14 -3 -3 26 2 62 L8 101 L92 101 L98 62 C103 26 86 -3 50 -3 Z M13 50 a37 37 0 1 0 74 0 a37 37 0 1 0 -74 0 Z"
+            fill="#2F5DA8"
+          />
+          <Circle cx="50" cy="50" r="37.5" fill="none" stroke="#14284F" strokeWidth="2.2" />
+          <Path d="M17 61 Q50 84 83 61 Q82 80 66 88 Q50 93 34 88 Q18 80 17 61 Z" fill="#3F76CC" />
+          <Path d="M24 68 Q50 86 76 68" stroke="#14284F" strokeWidth="1.6" fill="none" opacity="0.7" />
+          <Path d="M20 16 Q10 40 14 70" stroke="#6C9BE0" strokeWidth="2" fill="none" opacity="0.7" />
+        </G>
+      );
+    case 'outfit_astro': // a space helmet with headphones
+      return (
+        <G>
+          <Rect x="0" y="37" width="9" height="26" rx="4.5" fill="#F06FB4" />
+          <Rect x="91" y="37" width="9" height="26" rx="4.5" fill="#F06FB4" />
+          <Circle cx="50" cy="50" r="43" fill="#BDE6FF" fillOpacity="0.16" />
+          <Circle cx="50" cy="50" r="43" fill="none" stroke="#EEF3F8" strokeWidth="4.5" />
+          <Circle cx="50" cy="50" r="40.4" fill="none" stroke="#9AA9BC" strokeWidth="1.1" />
+          <Path d="M20 32 Q26 18 40 12" stroke="#FFF" strokeWidth="5" strokeLinecap="round" fill="none" opacity="0.75" />
+          <Path d="M17 76 Q50 95 83 76 L86 86 Q50 102 14 86 Z" fill="#DDE3EA" />
+          <Circle cx="35" cy="91" r="2.2" fill="#E8472B" />
+          <Circle cx="65" cy="91" r="2.2" fill="#3C8DDB" />
+        </G>
+      );
     default:
       return null;
   }
@@ -426,6 +541,10 @@ function Wall({ id }) {
       return <Rect width="160" height="90" fill="#EEE" />;
   }
 }
+
+// Wallpapers that are dark overall get light text on top (the drawer header and the Profile banner use this).
+const LIGHT_WALLS = new Set(['wall_pop']);
+export const wallTone = (id) => (LIGHT_WALLS.has(id) ? 'light' : 'dark');
 
 export function WallpaperArt({ id, width = 160, height = 90 }) {
   return (

@@ -52,6 +52,11 @@ _TABLES = [
            updated_at TEXT
        )""",
     "CREATE INDEX IF NOT EXISTS photos_uid ON photos (uid)",
+    """CREATE TABLE IF NOT EXISTS settings (
+           key TEXT PRIMARY KEY,
+           value TEXT NOT NULL,
+           updated_at TEXT
+       )""",
 ]
 
 
@@ -95,6 +100,7 @@ def _make_tables(con, postgres):
         # security is on. Switched on with no policy, only this server (the owner) can read or write them.
         con.execute("ALTER TABLE users ENABLE ROW LEVEL SECURITY")
         con.execute("ALTER TABLE speech_log ENABLE ROW LEVEL SECURITY")
+        con.execute("ALTER TABLE settings ENABLE ROW LEVEL SECURITY")
     else:
         columns = {row[1] for row in con.execute("PRAGMA table_info(users)")}
         if "attempts" not in columns:  # a database made by an older version
@@ -287,3 +293,20 @@ def speech_rows(lang=None):
     else:
         rows = _run(lambda con: con.execute("SELECT entry FROM speech_log ORDER BY at").fetchall())
     return [e for e in (_loads(r[0], None) for r in rows) if e]
+
+
+# ---- Owner settings (e.g. the prepaid charity quota, see charity.py) -------------------------------------
+def get_setting(key):
+    row = _run(lambda con: con.execute(_q("SELECT value FROM settings WHERE key = ?"), (key,)).fetchone())
+    return _loads(row[0], {}) if row else {}
+
+
+def set_setting(key, value):
+    text = json.dumps(value, ensure_ascii=False, default=str)
+
+    def work(con):
+        con.execute(_q("""INSERT INTO settings (key, value, updated_at) VALUES (?, ?, ?)
+                          ON CONFLICT(key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at"""),
+                    (key, text, _now()))
+        con.commit()
+    _run(work)

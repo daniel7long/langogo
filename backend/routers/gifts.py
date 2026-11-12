@@ -9,6 +9,7 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
 import analytics
+import charity
 import db
 import gifts_catalog as catalog
 import rewards
@@ -38,8 +39,12 @@ def get_gifts():
     paid = rewards.claim_friends(state, my_code)  # friends who finished lesson 1 since last time
     user = state["user"]
     shop = []
+    quota = charity.status()
     for item_id, it in catalog.ITEMS.items():
         row = {"id": item_id, **it, "owned": item_id in g["owned"]}
+        if it["kind"] == "impact":
+            q = quota[it["unit"]]
+            row.update(partner=q["partner"], partner_url=q["url"], available=q["available"], community_total=q["used"])
         row["equipped"] = it["kind"] == "style" and g["equipped"].get(it["slot"]) == item_id
         shop.append(row)
     totals = _impact_totals(g)
@@ -65,6 +70,9 @@ def redeem(body: RedeemIn):
     if item is None:
         raise HTTPException(status_code=404, detail="That gift doesn't exist.")
     user = state["user"]
+    if item["kind"] == "impact" and not charity.status()[item["unit"]]["available"]:
+        raise HTTPException(status_code=409, detail=f"All the {item['unit']}s we have set aside are taken for now. "
+                                                    "More are coming soon, and your flowers are safe.")
     if item["kind"] == "style" and body.item_id in g["owned"]:
         raise HTTPException(status_code=409, detail="You already own this.")
     if user["flowers"] < item["price"]:
