@@ -88,15 +88,17 @@ export default function NavMenu({ visible, onClose, language, active = 'Courses'
               <Text style={[styles.eyebrow, { color: accent }, shadow]}>{me?.level ? `Level ${me.level}` : 'Learning'}</Text>
             </View>
             <View style={styles.rightBlock}>
-              <View style={styles.rightRow}>
-                <Flag id={language.id} width={26} round />
-                <View style={styles.flowerRow}>
+              <View style={styles.col}>
+                <View style={styles.topCell}>
+                  <Flag id={language.id} width={26} round />
+                </View>
+                <Text style={[styles.langName, { color: ink }, shadow]} numberOfLines={1}>{language.name}</Text>
+              </View>
+              <View style={styles.col}>
+                <View style={[styles.topCell, styles.flowerRow]}>
                   <Ionicons name="flower" size={16} color={accent} />
                   <Text style={[styles.flowerNum, { color: ink }, shadow]}>{me ? me.flowers : '–'}</Text>
                 </View>
-              </View>
-              <View style={styles.rightRow}>
-                <Text style={[styles.langName, { color: ink }, shadow]} numberOfLines={1}>{language.name}</Text>
                 <Pressable
                   onPress={() => {
                     onClose();
@@ -173,8 +175,9 @@ const styles = StyleSheet.create({
     ...shadows.card(),
   },
   nameCol: { flex: 1, minWidth: 0 },
-  rightBlock: { gap: 6, alignItems: 'flex-end' },
-  rightRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end', gap: spacing.s12 },
+  rightBlock: { flexDirection: 'row', alignItems: 'flex-start', gap: spacing.s12 },
+  col: { alignItems: 'center', gap: 4 },
+  topCell: { height: 26, alignItems: 'center', justifyContent: 'center' },
   userName: { ...typography.label },
   flowerRow: { flexDirection: 'row', alignItems: 'center', gap: 3 },
   flowerNum: { ...typography.label },
