@@ -11,6 +11,7 @@ import auth
 import content
 import db
 import languages
+import rewards
 import speech_log
 import store
 
@@ -48,7 +49,8 @@ def get_me():
             "favorites": store.STATE["favorites"], "unlimited": user["plan"] is not None,
             "email": user.get("email"), "research_consent": bool(user.get("research_consent")),
             "accounts": auth.enabled(),
-            "photo_url": f"/photos/{user['photo_token']}" if user.get("photo_token") else None}
+            "photo_url": f"/photos/{user['photo_token']}" if user.get("photo_token") else None,
+            "equipped": store.STATE.get("gifts", {}).get("equipped", {})}
 
 
 @router.get("/languages")
@@ -107,6 +109,7 @@ class PingIn(BaseModel):
 def ping(body: PingIn):
     """The app calls this every 30 seconds while it is open and in front: it adds up the time spent in the app."""
     analytics.add_time(store.STATE, store.current_lang(), body.seconds, body.new_session, body.area)
+    rewards.maybe_daily(store.STATE)  # "first practice of the day" is paid once 5 minutes are reached
     return {"ok": True}
 
 

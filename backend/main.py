@@ -10,7 +10,7 @@ import content
 import db
 import store
 from paths import STATIC_DIR
-from routers import admin, courses, dashboard, freetalk, notes, profile, records, share, tests, topics
+from routers import admin, courses, dashboard, freetalk, gifts, notes, profile, records, share, tests, topics
 
 app = FastAPI(title="Langogo API")
 
@@ -63,6 +63,7 @@ app.add_middleware(
 
 app.include_router(admin.router)
 app.include_router(dashboard.router)
+app.include_router(gifts.router)
 app.include_router(tests.router)
 app.include_router(profile.router)
 app.include_router(topics.router)

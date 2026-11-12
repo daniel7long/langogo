@@ -17,7 +17,7 @@ import useAsync from '../hooks/useAsync';
 import { goHub } from '../utils/nav';
 import { colors, radius, spacing, typography } from '../theme';
 
-// F3S5: scores for one finished lesson and its words to retry (5 flowers per retry).
+// F3S5: scores for one finished lesson and its words to retry (3 flowers per improved retry).
 export default function RetryScreen() {
   const router = useRouter();
   const params = useLocalSearchParams();
@@ -48,7 +48,7 @@ export default function RetryScreen() {
                 </View>
               </View>
 
-              <Text style={styles.earn}>Earn 5 flowers for each retry!</Text>
+              <Text style={styles.earn}>Earn 3 flowers when you beat your last score!</Text>
               <View style={styles.words}>
                 {record.words.length === 0 && <Text style={styles.empty}>Nothing to retry.</Text>}
                 {record.words.map((w) => (

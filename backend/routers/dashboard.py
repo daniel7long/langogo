@@ -83,7 +83,7 @@ def overview(key: str = "", id: str = "", view: str = ""):
         s = analytics.summary(L["state"])
         prog = analytics.progress(L["state"])
         langs = "; ".join(f"{p['language']}: L{p['level']} lesson {p['lesson']}" + (" ★" if p["current"] else "") for p in prog) or "-"
-        rows.append({**L, **s, "langs": langs,
+        rows.append({**L, **s, "langs": langs, "flowers": L["state"].get("user", {}).get("flowers", 0),
                      "name_link": f'<a href="/admin/dashboard/learner?id={quote(L["id"])}&amp;key={k}">{escape(L["name"] or L["email"] or L["id"][:8])}</a>'})
     rows.sort(key=lambda r: r.get("last_seen") or "", reverse=True)
     cols = [("name_link", "Learner"), ("email", "Email"), ("langs", "Languages: level, current lesson (★ = now)"),
@@ -92,12 +92,20 @@ def overview(key: str = "", id: str = "", view: str = ""):
             ("retries_total", "Retries"), ("low_words", "Low-score words"),
             ("freetalk_min_week", "Free Talk min this week"), ("freetalk_min_total", "Free Talk min total"),
             ("freetalk_finished", "Free Talk dialogues done"), ("freetalk_avg_pronunciation", "Free Talk avg pronunciation"),
-            ("last_seen", "Last seen"), ("joined", "Joined")]
+            ("flowers", "Flowers now"), ("flowers_spent", "Flowers spent"), ("last_seen", "Last seen"), ("joined", "Joined")]
     exports = "".join(f'<a class=b href="/admin/dashboard/export?kind={x}&amp;key={k}">{x} CSV</a>'
-                      for x in ("summary", "daily", "weekly", "lessons", "retries", "freetalk", "leveltests"))
+                      for x in ("summary", "daily", "weekly", "lessons", "retries", "freetalk", "flowers", "redemptions", "leveltests"))
+    fulfil = []
+    for L in _learners():
+        for r in analytics.redemption_rows(L["state"]):
+            if r["type"].startswith("impact"):
+                fulfil.append({"learner": L["name"] or L["email"], "email": L["email"], **r})
+    fulfil.sort(key=lambda r: r["at"], reverse=True)
+    gifts_tab = _table([("at", "When"), ("learner", "Learner"), ("email", "Email"), ("gift", "Gift to give"), ("flowers", "Flowers spent")], fulfil)
     return _page("Langogo dashboard", f"""<h1>Langogo dashboard</h1>
 <p class=n>{len(rows)} learners. Private: contains personal data. {escape(_tz_note())} Time in the app is counted while the app is open and in front.</p>
-<a class=b href="/admin/dashboard?key={k}">&larr; Back to learner view</a> {exports}{_table(cols, rows, raw=("name_link",))}""")
+<a class=b href="/admin/dashboard?key={k}">&larr; Back to learner view</a> {exports}{_table(cols, rows, raw=("name_link",))}
+<h2>Gift redemptions to fulfil (plant a tree / donate a meal)</h2><p class=n>Each costs you about $1. The app only records the request.</p>{gifts_tab}""")
 
 
 def _detail(match, k):
@@ -143,6 +151,8 @@ def _detail(match, k):
                  ("minutes", "Minutes"), ("turns", "Turns"), ("hints_used", "Turns with hints"), ("grade", "Grade"),
                  ("pronunciation", "Pronunciation"), ("fluency", "Fluency"), ("completeness", "Completeness"),
                  ("flowers", "Flowers"), ("retry_takes", "Retry takes")], list(reversed(analytics.freetalk_rows(st))))
+    fl = _table([("at", "When"), ("reason", "Earned for"), ("flowers", "Flowers")], list(reversed(analytics.flower_rows(st)))[:150])
+    rd = _table([("at", "When"), ("gift", "Gift"), ("type", "Type"), ("flowers", "Flowers spent")], list(reversed(analytics.redemption_rows(st))))
     who = escape(match["name"] or match["email"] or match["id"])
     seen = f" · last seen {escape(s['last_seen'])}" if s["last_seen"] else " · no time tracked yet"
     return f"""<h1>{who}</h1><p class=n>{escape(match["email"])} · joined {escape(match["joined"])}{seen}</p>{cards}
@@ -150,6 +160,7 @@ def _detail(match, k):
 <div class=panel><h2>Level test results</h2>{lt}</div>
 <div class=panel><h2>Per day (last 30 days)</h2>{days}</div>
 <div class=panel><h2>Per week</h2>{weeks}</div>
+<div class=panel><h2>Flowers: balance {st.get("user", {}).get("flowers", 0)}, spent {s["flowers_spent"]}</h2><h3>Gifts redeemed</h3>{rd}<h3>Earned (newest 150)</h3>{fl}</div>
 <div class=panel><h2>Free Talk: every dialogue</h2><p class=n>"left early" = ended before {store.FREETALK_MIN_TURNS} turns, so no rating or flowers. Words to practise from a finished dialogue and their retries are in the retry tables below (Source = Free Talk).</p>{ft}</div>
 <div class=panel><h2>Lesson scores (every finished lesson)</h2>{ltab}</div>
 <div class=panel><h2>Retry data: first vs latest score of each practice item</h2><p class=n>Red = below {analytics.LOW_SCORE} on the first try.</p>{rtab}</div>
@@ -174,7 +185,7 @@ def _shell(selected, k):
                   f'href="/admin/dashboard?id={quote(L["id"])}&amp;key={k}"><b>{escape(label)}</b><span>{escape(line)}</span>'
                   f'<span>{escape(L["_sum"]["last_seen"] or "no activity tracked yet")}</span></a>')
     exports = "".join(f'<a class=b href="/admin/dashboard/export?kind={x}&amp;key={k}">{x}</a>'
-                      for x in ("summary", "daily", "weekly", "lessons", "retries", "freetalk", "leveltests"))
+                      for x in ("summary", "daily", "weekly", "lessons", "retries", "freetalk", "flowers", "redemptions", "leveltests"))
     side = f"""<div class=side><h1>Langogo</h1><p class=n>{len(people)} learners · {escape(_tz_note())}</p>
 <a class=b href="/admin/dashboard?view=table&amp;key={k}">All learners table</a>
 <input id=q placeholder="Search learners" oninput="for(const a of document.querySelectorAll('.who'))a.style.display=a.dataset.q.includes(this.value.toLowerCase())?'':'none'">
@@ -204,6 +215,10 @@ def export(kind: str = "summary", key: str = ""):
             rows += [{**base, **w} for w in analytics.weekly_rows(st)]
         elif kind == "lessons":
             rows += [{**base, **r} for r in analytics.lesson_rows(st)]
+        elif kind == "flowers":
+            rows += [{**base, **r} for r in analytics.flower_rows(st)]
+        elif kind == "redemptions":
+            rows += [{**base, **r} for r in analytics.redemption_rows(st)]
         elif kind == "freetalk":
             rows += [{**base, **r} for r in analytics.freetalk_rows(st)]
         elif kind == "leveltests":

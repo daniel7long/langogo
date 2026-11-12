@@ -4,6 +4,7 @@ import time
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
 import analytics
+import rewards
 import scoring
 import store
 from paths import RECORDINGS_DIR
@@ -65,7 +66,8 @@ async def retry_word(record_id: str, word_id: str = Form(...), audio: UploadFile
     analytics.log_retry(store.STATE, record, word, previous, pronunciation, store.STATE["retries"][key])
 
     user = store.STATE["user"]
-    user["flowers"] += store.RETRY_REWARD
-    user["weekly_flowers"] += store.RETRY_REWARD
+    # 3 flowers when the new take beats the last one (up to 3 times a day, see rewards.py)
+    earned = rewards.award(store.STATE, "retry") if (previous is None or pronunciation > previous) else 0
+    earned += rewards.practiced(store.STATE)
     return {"word_id": word_id, "pronunciation": pronunciation, "previous": previous, "tip": tip,
-            "engine": result["engine"], "flowers_earned": store.RETRY_REWARD, "flowers": user["flowers"]}
+            "engine": result["engine"], "flowers_earned": earned, "flowers": user["flowers"]}

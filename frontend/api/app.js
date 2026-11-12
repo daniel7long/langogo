@@ -54,6 +54,12 @@ export const getFavoriteChoices = () => request('/topics/favorites');
 export const getTopicLessons = (id) => request(`/topics/${encodeURIComponent(id)}/lessons`);
 export const unlockTopic = (id) => post(`/topics/${encodeURIComponent(id)}/unlock`);
 
+// Gift Menu: how flowers are earned, what they can buy, redeeming, wearing, inviting friends
+export const getGifts = () => request('/gifts');
+export const redeemGift = (itemId) => post('/gifts/redeem', { item_id: itemId });
+export const equipGift = (slot, itemId) => post('/gifts/equip', { slot, item_id: itemId });
+export const enterFriendCode = (code) => post('/gifts/referral', { code });
+
 // Subscription (demo: no real payment)
 export const getPlans = () => request('/subscription/plans');
 export const subscribe = (plan) => post('/subscription', { plan });

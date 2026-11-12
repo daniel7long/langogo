@@ -18,6 +18,7 @@ const ITEMS = [
   { label: 'Free Talk', icon: 'chatbubbles-outline', path: '/free-talk' },
   { label: 'Vocab Notes', icon: 'journal-outline', path: '/vocab-notes' },
   { label: 'My Community', icon: 'people-outline', path: '/community' },
+  { label: 'Gift Menu', icon: 'gift-outline', path: '/gifts' },
   { label: 'Settings', icon: 'settings-outline', path: '/settings' },
 ];
 

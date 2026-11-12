@@ -187,6 +187,27 @@ def freetalk_rows(state):
     return rows
 
 
+def flower_rows(state):
+    """Every payment of flowers (what for, how many), oldest first."""
+    rows = []
+    for e in state.get("flower_log", []):
+        local = to_local(e.get("at"))
+        rows.append({"at": local.strftime("%Y-%m-%d %H:%M") if local else "", "day": local.date().isoformat() if local else "",
+                     "reason": e.get("kind", ""), "flowers": e.get("amount", 0)})
+    return rows
+
+
+def redemption_rows(state):
+    """Everything the learner spent flowers on (Gift Menu), oldest first. Impact gifts (tree, meal) are the ones to fulfil."""
+    rows = []
+    for e in state.get("spend_log", []):
+        local = to_local(e.get("at"))
+        impact = e.get("item_id", "").startswith("impact_")
+        rows.append({"at": local.strftime("%Y-%m-%d %H:%M") if local else "", "gift": e.get("name", ""),
+                     "type": "impact (to fulfil)" if impact else "style", "flowers": e.get("price", 0), "lang": e.get("lang", "")})
+    return rows
+
+
 def freetalk_minutes(state):
     """(today, this week, total) minutes spent in Free Talk, from the pings."""
     days = state.get("usage", {}).get("days", {})
@@ -260,7 +281,9 @@ def summary(state):
     ft_today, ft_week, ft_total = freetalk_minutes(state)
     ft_done = [r for r in ft if r["status"] == "finished"]
     ft_p = [r["pronunciation"] for r in ft_done if r["pronunciation"] is not None]
+    spent = sum(r["flowers"] for r in redemption_rows(state))
     return {
+        "flowers_spent": spent,
         "freetalk_min_today": ft_today, "freetalk_min_week": ft_week, "freetalk_min_total": ft_total,
         "freetalk_finished": len(ft_done), "freetalk_left_early": len(ft) - len(ft_done),
         "freetalk_avg_pronunciation": round(sum(ft_p) / len(ft_p)) if ft_p else "",

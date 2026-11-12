@@ -8,6 +8,7 @@ import { useRouter } from 'expo-router';
 
 import { getMe, getNotes, getRecords, getTopics, removePhoto, uploadPhoto } from '../api/app';
 import Avatar from '../components/Avatar';
+import { WallpaperArt } from '../components/GiftArt';
 import AsyncState from '../components/AsyncState';
 import PrimaryButton from '../components/PrimaryButton';
 import RecordRow from '../components/RecordRow';
@@ -112,14 +113,19 @@ function ProfileView({ me, topics, records, notes }) {
   return (
     <View style={styles.page}>
     <ScrollView style={styles.flex} contentContainerStyle={styles.scroll}>
-      <View style={styles.identity}>
+      <View style={[styles.identity, me.equipped?.wallpaper && styles.identityWall]}>
+        {me.equipped?.wallpaper ? (
+          <View style={StyleSheet.absoluteFill} pointerEvents="none">
+            <WallpaperArt id={me.equipped.wallpaper} width={600} height={260} />
+          </View>
+        ) : null}
         <Pressable onPress={choosePhoto} disabled={busy} accessibilityRole="button" accessibilityLabel="Change profile picture" style={styles.avatarWrap}>
-          <Avatar name={me.name} photoUrl={photoUrl} size={88} />
+          <Avatar name={me.name} photoUrl={photoUrl} size={me.equipped?.frame || me.equipped?.outfit ? 112 : 88} equipped={me.equipped} />
           <View style={styles.camera}>
             <Ionicons name="camera" size={14} color={colors.onPrimary} />
           </View>
         </Pressable>
-        <Text style={styles.name}>{me.name}</Text>
+        <Text style={[styles.name, me.equipped?.wallpaper && styles.nameOnWall]}>{me.name}</Text>
         <View style={styles.photoLinks}>
           <Pressable onPress={choosePhoto} disabled={busy} accessibilityRole="button">
             <Text style={styles.link}>{busy ? 'Saving…' : photoUrl ? 'Change photo' : 'Add photo'}</Text>
@@ -206,10 +212,12 @@ const styles = StyleSheet.create({
   notesSub: { ...typography.caption, color: colors.textMuted },
   scroll: { padding: spacing.md, gap: spacing.md },
   identity: { alignItems: 'center', gap: spacing.sm },
+  identityWall: { overflow: 'hidden', borderRadius: radius.lg, paddingVertical: spacing.md },
   avatarWrap: { width: 88, height: 88 },
   camera: { position: 'absolute', right: 0, bottom: 0, width: 28, height: 28, borderRadius: 14, backgroundColor: colors.primary, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: colors.card },
   photoLinks: { flexDirection: 'row', gap: spacing.md },
   name: { ...typography.title, color: colors.text },
+  nameOnWall: { backgroundColor: 'rgba(255,255,255,0.88)', paddingHorizontal: spacing.md, paddingVertical: 4, borderRadius: radius.full, overflow: 'hidden' },
   stats: { flexDirection: 'row', backgroundColor: colors.card, borderRadius: radius.lg, paddingVertical: spacing.s12 },
   stat: { flex: 1, alignItems: 'center', gap: spacing.xs },
   statLabel: { ...typography.caption, color: colors.textMuted },

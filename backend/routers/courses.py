@@ -4,6 +4,7 @@ import time
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
 import content
+import rewards
 import scoring
 import speech_log
 import analytics
@@ -115,7 +116,6 @@ def complete_lesson(lesson_id: str, swap: bool = False):
     # Flowers and level-ups are only given the first time a lesson is completed.
     lang = lesson["lang"]
     first_time = lesson_id not in state["completed"]
-    earned = min(store.GRADE_FLOWERS[grade], lesson["max_flowers"]) if first_time else 0
     unlocked_level = None
     if first_time:
         state["completed"].append(lesson_id)
@@ -129,8 +129,15 @@ def complete_lesson(lesson_id: str, swap: bool = False):
             store.catch_up_levels(state)  # skip levels that are already finished (e.g. after a "match" test moved the learner back)
             unlocked_level = store.level_of(lang)
 
-    user["flowers"] += earned
-    user["weekly_flowers"] += earned
+    # Flowers (see rewards.py): 15 for a lesson, at most 2 lessons a day, inside the 100-a-day cap. Practising the other
+    # role of a lesson you already finished pays as well; the limits keep it fair.
+    earned = rewards.award(state, "lesson")
+    limit_hit = earned == 0
+    earned += rewards.award(state, "new_language", key=lang)  # one-time bonus the first time a language is practised
+    earned += rewards.practiced(state)
+    ref = state.get("referral")
+    if ref and not ref.get("done") and first_time and len(state["completed"]) == 1:
+        ref["done"] = True  # the friend who invited this learner is paid when they next open the Gift Menu
     store.touch_streak(user)
     # What to practise comes from what the learner really said: the weakest words and phrase.
     feedback = scoring.feedback_items([(attempts[t]["text"], attempts[t]["result"]) for t in user_turns])
@@ -153,6 +160,7 @@ def complete_lesson(lesson_id: str, swap: bool = False):
         "engine": engine,
         "swapped": bool(swap),  # the learner practised the other speaker's part
         "flowers_earned": earned,
+        "flowers_limit_reached": limit_hit,  # today's lesson or daily flower limit was already used up
         "unlocked_level": unlocked_level,
         "words": [{**w, "first_score": w.get("score")} for w in (feedback or [dict(w) for w in lesson["practice_words"]])],
     }

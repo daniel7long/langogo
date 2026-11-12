@@ -4,7 +4,7 @@
     POST /freetalk/turn    receives the learner's recording, returns what they said, how they pronounced it, the
                            partner's answer and three hints for the next turn
     POST /freetalk/finish  ends the dialogue: with enough turns it makes a record (grade, scores, words to
-                           practise) and pays 25 flowers; a dialogue left early only goes into the Free Talk log
+                           practise) and pays 10 flowers when it lasted 5+ minutes; a dialogue left early only goes into the Free Talk log
 
 The server keeps no conversation: the app sends the last turns with every request, so a restart of the server
 never breaks a chat. The learner's CEFR level comes from their course (see learner_cefr) and the partner adapts to
@@ -25,6 +25,7 @@ import config
 import content
 import languages
 import llm
+import rewards
 import scoring
 import store
 import analytics
@@ -193,7 +194,8 @@ def start(body: StartIn | None = None):
     cefr = learner_cefr(lang["id"])
     base = {"language": lang["name"], "lang": lang["id"], "locale": lang["locale"], "topic": topic, "topics": topics,
             "level": cefr, "demo": not llm.enabled(), "session_id": secrets.token_hex(8),
-            "min_turns": store.FREETALK_MIN_TURNS, "reward": store.FREETALK_FLOWERS}
+            "min_turns": store.FREETALK_MIN_TURNS, "reward": rewards.RULES["freetalk"]["flowers"],
+            "reward_seconds": rewards.FREETALK_SECONDS}
     if not llm.enabled():
         return {**base, "turn": _demo_turn(lang, topic, 1, True), "hints": DEMO_HINTS}
     try:
@@ -326,9 +328,9 @@ def finish(body: FinishIn):
         completeness = round(sum(r["completeness"] for r in results) / len(results))
         grade = store.grade_for((fluency + pronunciation) / 2)
         user = state["user"]
-        earned = store.FREETALK_FLOWERS
-        user["flowers"] += earned
-        user["weekly_flowers"] += earned
+        # 10 flowers for a session of 5+ minutes (2 a day, inside the daily cap); a shorter one is rated but pays nothing.
+        earned = rewards.award(state, "freetalk") if seconds >= rewards.FREETALK_SECONDS else 0
+        earned += rewards.practiced(state)
         store.touch_streak(user)
         feedback = scoring.feedback_items([(a["text"], a["result"]) for a in attempts.values()])
         record = {

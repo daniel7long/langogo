@@ -110,11 +110,21 @@ function CompleteView({ record, board }) {
             {record.topic} · {record.turns} turns{record.seconds ? ` · ${Math.max(1, Math.round(record.seconds / 60))} min` : ''}
           </Text>
         )}
-        <View style={styles.rewardRow}>
-          <Ionicons name="flower-outline" size={18} color={colors.primary} />
-          <CountUp to={record.flowers_earned} prefix="+" style={styles.reward} />
-          <Text style={styles.reward}> flowers</Text>
-        </View>
+        {record.flowers_earned > 0 ? (
+          <View style={styles.rewardRow}>
+            <Ionicons name="flower-outline" size={18} color={colors.primary} />
+            <CountUp to={record.flowers_earned} prefix="+" style={styles.reward} />
+            <Text style={styles.reward}> flowers</Text>
+          </View>
+        ) : (
+          <Text style={styles.talkSub}>
+            {talk
+              ? 'Talk for 5 or more minutes next time to earn flowers.'
+              : record.flowers_limit_reached
+                ? "You've reached today's flower limit for lessons. More tomorrow!"
+                : ''}
+          </Text>
+        )}
         {!!record.unlocked_level && (
           <FadeIn delay={900} style={styles.unlock}>
             <Ionicons name="lock-open-outline" size={16} color={colors.onPrimary} />

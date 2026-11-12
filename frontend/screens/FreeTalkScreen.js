@@ -96,7 +96,14 @@ function TalkView({ start, onTopic }) {
   const [ending, setEnding] = useState(false);
   const showTranslation = choice ?? settings.show_translation;
   const MIN_TURNS = start.min_turns ?? 5; // a dialogue needs this many of your turns to get a rating and the flowers
-  const REWARD = start.reward ?? 25;
+  const REWARD = start.reward ?? 10; // flowers for a dialogue of at least NEED_SEC seconds
+  const NEED_SEC = start.reward_seconds ?? 300;
+  const [elapsed, setElapsed] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setElapsed(Math.round((Date.now() - startedAt.current) / 1000)), 5000);
+    return () => clearInterval(id);
+  }, []);
+  const longEnough = elapsed >= NEED_SEC;
 
   const phaseRef = useRef('playing');
   const alive = useRef(true);
@@ -305,8 +312,10 @@ function TalkView({ start, onTopic }) {
     const ok = await confirm(
       enough ? 'End this dialogue?' : 'Leave this dialogue?',
       enough
-        ? `You've said ${spoken} turns. You'll get ${REWARD} flowers and your ratings.`
-        : `You've said ${spoken} of ${MIN_TURNS} turns. A dialogue needs ${MIN_TURNS} turns to get ratings and ${REWARD} flowers, so leaving now earns nothing. Keep talking a little longer?`,
+        ? longEnough
+          ? `You've said ${spoken} turns. You'll get ${REWARD} flowers and your ratings.`
+          : `You've said ${spoken} turns. You'll get your ratings. Talk for 5 minutes in total to earn ${REWARD} flowers too.`
+        : `You've said ${spoken} of ${MIN_TURNS} turns. A dialogue needs ${MIN_TURNS} turns to get ratings, so leaving now earns nothing. Keep talking a little longer?`,
       enough ? 'End and see my rating' : 'Leave anyway',
       'Keep talking'
     );
@@ -364,7 +373,7 @@ function TalkView({ start, onTopic }) {
 
   return (
     <>
-      <LessonTopBar progress={Math.min(spoken / MIN_TURNS, 1)} reward={REWARD} confirmClose={false} onClose={requestEnd} />
+      <LessonTopBar progress={Math.min(spoken / MIN_TURNS, 1) * 0.5 + Math.min(elapsed / NEED_SEC, 1) * 0.5} reward={REWARD} confirmClose={false} onClose={requestEnd} />
 
       <View style={styles.head}>
         <View style={styles.avatar}>
@@ -379,7 +388,11 @@ function TalkView({ start, onTopic }) {
 
       <View style={styles.endRow}>
         <Text style={styles.endInfo}>
-          {enough ? `Ready for your rating · +${REWARD} flowers` : `${spoken} of ${MIN_TURNS} turns · finish the dialogue to earn ${REWARD} flowers`}
+          {enough
+            ? longEnough
+              ? `Ready for your rating · +${REWARD} flowers`
+              : `Rating ready · keep talking for 5 minutes to earn +${REWARD} flowers`
+            : `${spoken} of ${MIN_TURNS} turns for your rating · ${REWARD} flowers for 5+ minutes`}
         </Text>
         <Pressable
           onPress={requestEnd}
