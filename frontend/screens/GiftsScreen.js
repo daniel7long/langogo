@@ -190,6 +190,23 @@ function GiftsView({ data: first, reload }) {
               />
             </View>
           ))}
+          {(data.given || []).length > 0 && (
+            <View style={styles.card}>
+              <Text style={styles.cardTitle}>Your gifts</Text>
+              {data.given.map((g) => (
+                <View key={g.id} style={styles.givenRow}>
+                  <Text style={styles.givenText}>
+                    {g.unit === 'tree' ? '🌳' : '🍲'} {g.name} · {String(g.at).slice(0, 10)}
+                  </Text>
+                  <Pressable onPress={() => setShareGift({ id: g.id, unit: g.unit })} accessibilityRole="button" accessibilityLabel={`Share ${g.name}`} hitSlop={8}>
+                    <Text style={styles.givenShare}>
+                      <Ionicons name="share-social-outline" size={14} color={colors.primary} /> Share
+                    </Text>
+                  </Pressable>
+                </View>
+              ))}
+            </View>
+          )}
           <View style={styles.impactTotals}>
             <Ionicons name="heart" size={18} color={colors.coral} />
             <Text style={styles.cardText}>
@@ -336,6 +353,9 @@ const styles = StyleSheet.create({
   cardTitle: { ...typography.title, color: colors.text },
   cardText: { ...typography.body, color: colors.textMuted },
   partner: { ...typography.caption, color: colors.greenText },
+  givenRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: spacing.sm },
+  givenText: { ...typography.body, color: colors.text, flex: 1 },
+  givenShare: { ...typography.labelSm, color: colors.primary },
   community: { ...typography.caption, color: colors.textMuted },
   impactRow: { flexDirection: 'row', gap: spacing.s12, alignItems: 'flex-start' },
   impactEmoji: { fontSize: 40 },

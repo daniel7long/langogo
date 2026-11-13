@@ -53,6 +53,7 @@ def get_gifts():
         "flowers": user["flowers"], "earned_today": rewards.earned_today(state),
         "friend_bonus_paid_now": paid,
         "rules": rewards.rules_out(state), "shop": shop, "equipped": g["equipped"],
+        "given": [{"id": r["id"], "unit": r["unit"], "name": r["name"], "at": r["at"]} for r in reversed(g["redeemed"])][:10],
         "impact": {**totals, "co2_kg_per_year": totals["trees"] * catalog.IMPACT["impact_tree"]["co2_kg_per_year"]},
         "invite": {"code": my_code, "referred_by": bool(state.get("referral")), **rewards.friends_summary(state, my_code)},
         "name": user.get("name"), "photo_url": f"/photos/{user['photo_token']}" if user.get("photo_token") else None,
