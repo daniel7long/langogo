@@ -27,7 +27,8 @@ def _lesson_or_404(lesson_id: str):
         raise HTTPException(status_code=404, detail="This lesson's content isn't available yet.")
     if lesson["level"] > store.level_of(lesson["lang"]):
         raise HTTPException(status_code=403, detail="This lesson is still locked.")
-    return lesson
+    # The flowers shown at the top of a lesson are what finishing it pays now (rewards.py), not the old per-lesson number in the content files.
+    return {**lesson, "max_flowers": rewards.RULES["lesson"]["flowers"]}
 
 
 def _extension(upload: UploadFile) -> str:
