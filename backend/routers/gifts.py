@@ -128,7 +128,7 @@ def referral(body: ReferralIn):
         raise HTTPException(status_code=409, detail="You already entered a friend's code.")
     if code == mine:
         raise HTTPException(status_code=422, detail="That is your own code. Share it with a friend instead.")
-    if state["completed"]:
+    if rewards.has_done_lesson(state):
         raise HTTPException(status_code=422, detail="A friend's code can only be added before your first lesson.")
     if not any(rewards.code_of(uid) == code for uid, *_ in db.all_states()):
         raise HTTPException(status_code=404, detail="We couldn't find that code. Check it and try again.")

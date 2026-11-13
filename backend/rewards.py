@@ -148,6 +148,12 @@ def maybe_weekly(state):
 
 
 # ---- Friends --------------------------------------------------------------------------------------------
+def has_done_lesson(state):
+    """True once the learner has really finished a lesson. (state["completed"] is not used: a level test marks lessons as done
+    when it places the learner higher, even though they have not practised yet.)"""
+    return any(r.get("lesson_id") and r.get("kind") != "freetalk" for r in state.get("records", []))
+
+
 def code_of(uid):
     """The invite code of a learner (the same short key their share links use)."""
     return hashlib.sha256(uid.encode()).hexdigest()[:12]

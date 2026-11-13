@@ -135,7 +135,7 @@ def complete_lesson(lesson_id: str, swap: bool = False):
     earned += rewards.award(state, "new_language", key=lang)  # one-time bonus the first time a language is practised
     earned += rewards.practiced(state)
     ref = state.get("referral")
-    if ref and not ref.get("done") and first_time and len(state["completed"]) == 1:
+    if ref and not ref.get("done") and not rewards.has_done_lesson(state):  # this is their first real lesson (the record is added below)
         ref["done"] = True  # the friend who invited this learner is paid when they next open the Gift Menu
     store.touch_streak(user)
     # What to practise comes from what the learner really said: the weakest words and phrase.
