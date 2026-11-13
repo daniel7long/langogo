@@ -1,0 +1,257 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "influența",
+   "ipa": "/inˈfluentsa/",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sincer, da. Cred că are o influența uriașă asupra felului în care ne vedem pe noi înșine.",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "intimitatea",
+   "ipa": "/intimiˈtatea/",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sunt de acord. Dar intimitatea? Companiile adună atât de multe date despre noi.",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "se răspândesc",
+   "ipa": "/se rəspɨnˈdesk/",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aceasta este principala mea îngrijorare. Știrile înșelătoare se răspândesc mult mai repede decât faptele.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "înșelătoare",
+   "ipa": "/ɨnʃeləˈtoare/",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aceasta este principala mea îngrijorare. Știrile înșelătoare se răspândesc mult mai repede decât faptele.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "reglementeze",
+   "ipa": "/reɡlemenˈteze/",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Parțial. Cred că guvernele ar trebui să le reglementeze mai strict, atâta timp cât libertatea de exprimare este protejată.",
+     "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "dependenți",
+   "ipa": "/depenˈdents/",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Unii oameni recunosc chiar că sunt dependenți de telefon.",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Am citit că oamenii petrec patru ore pe zi pe rețelele sociale. Te îngrijorează asta?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sincer, da. Cred că are o influența uriașă asupra felului în care ne vedem pe noi înșine.",
+   "glosses": [
+    {
+     "text": "influența",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "În ce fel? Mulți spun că pur și simplu îi ajută să rămână în legătură.",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Așa este, dar compararea vieții tale cu imagini perfecte de pe internet poate afecta stima de sine.",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Adevărat. Și informațiile pe care le citim acolo?",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aceasta este principala mea îngrijorare. Știrile înșelătoare se răspândesc mult mai repede decât faptele.",
+   "glosses": [
+    {
+     "text": "se răspândesc",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "înșelătoare",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Crezi că platformele ar trebui să fie responsabile pentru asta?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Parțial. Cred că guvernele ar trebui să le reglementeze mai strict, atâta timp cât libertatea de exprimare este protejată.",
+   "glosses": [
+    {
+     "text": "reglementeze",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Reglementarea este dificilă. Cine decide ce este adevărat?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ai dreptate. Poate soluția este educația: să-i învățăm pe oameni să-și verifice sursele.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Sunt de acord. Dar intimitatea? Companiile adună atât de multe date despre noi.",
+   "glosses": [
+    {
+     "text": "intimitatea",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Și pe mine mă îngrijorează. Majoritatea utilizatorilor nu citesc niciodată termenii și condițiile înainte să le accepte.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Unii oameni recunosc chiar că sunt dependenți de telefon.",
+   "glosses": [
+    {
+     "text": "dependenți",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Eu nu aș merge atât de departe, dar observ că îl verific în mod automat.",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Deci ai renunța vreodată complet la rețelele sociale?",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Probabil că nu, dar încerc să-mi limitez timpul, și deja face o diferență.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

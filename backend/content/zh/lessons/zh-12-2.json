@@ -1,0 +1,257 @@
+{
+ "emoji": "🏡",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "房贷",
+   "ipa": "fángdài",
+   "pos": "n.",
+   "meaning": "a mortgage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "问题是房贷。现在的利率太高了。",
+     "en": "The problem is the mortgage. The interest rates are so high right now."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "投资",
+   "ipa": "tóuzī",
+   "pos": "n.",
+   "meaning": "an investment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "那么买房可能是个不错的投资，如果你负担得起的话。",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "房东",
+   "ipa": "fángdōng",
+   "pos": "n.",
+   "meaning": "a landlord",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "这点说得对。租房的话，房东负责维修。",
+     "en": "That is a good point. With rent, the landlord pays for repairs."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "灵活性",
+   "ipa": "línghuóxìng",
+   "pos": "adj.",
+   "meaning": "flexible",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "没错，而且如果你换工作，租房的灵活性也更大。",
+     "en": "Exactly, and renting is also more flexible if you change jobs."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "负担得起",
+   "ipa": "fùdān de qǐ",
+   "pos": "v.",
+   "meaning": "to afford",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "那么买房可能是个不错的投资，如果你负担得起的话。",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "房产",
+   "ipa": "fángchǎn",
+   "pos": "n.",
+   "meaning": "property",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "算过，会比我的房租稍微高一点，但那样房产就是我的了。",
+     "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "我厌倦了交房租。你觉得我应该买套公寓吗？",
+   "glosses": [],
+   "id": "t1",
+   "en": "I am tired of paying rent. Do you think I should buy an apartment instead?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "这取决于你的计划。你会在这个城市待多久？",
+   "glosses": [],
+   "id": "t2",
+   "en": "It depends on your plans. How long will you stay in this city?"
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "我想至少十年，也许更久。",
+   "glosses": [],
+   "id": "t3",
+   "en": "At least ten years, I think. Maybe more."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "那么买房可能是个不错的投资，如果你负担得起的话。",
+   "glosses": [
+    {
+     "text": "投资",
+     "pos": "n.",
+     "meaning": "an investment"
+    },
+    {
+     "text": "负担得起",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t4",
+   "en": "Then buying could be a good investment, if you can afford it."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "问题是房贷。现在的利率太高了。",
+   "glosses": [
+    {
+     "text": "房贷",
+     "pos": "n.",
+     "meaning": "a mortgage"
+    }
+   ],
+   "id": "t5",
+   "en": "The problem is the mortgage. The interest rates are so high right now."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "没错。你算过每月要还多少吗？",
+   "glosses": [],
+   "id": "t6",
+   "en": "True. Have you calculated what the monthly payments would be?"
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "算过，会比我的房租稍微高一点，但那样房产就是我的了。",
+   "glosses": [
+    {
+     "text": "房产",
+     "pos": "n.",
+     "meaning": "property"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "而且你还得把维修、税费和保险加到成本里。",
+   "glosses": [],
+   "id": "t8",
+   "en": "And you must add repairs, taxes and insurance to the cost."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "这点说得对。租房的话，房东负责维修。",
+   "glosses": [
+    {
+     "text": "房东",
+     "pos": "n.",
+     "meaning": "a landlord"
+    }
+   ],
+   "id": "t9",
+   "en": "That is a good point. With rent, the landlord pays for repairs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "没错，而且如果你换工作，租房的灵活性也更大。",
+   "glosses": [
+    {
+     "text": "灵活性",
+     "pos": "adj.",
+     "meaning": "flexible"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly, and renting is also more flexible if you change jobs."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "但我觉得我每个月都在白白浪费钱。",
+   "glosses": [],
+   "id": "t11",
+   "en": "But I feel I am throwing money away every month."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "并不是。你付的钱换来了住的地方，也换来了搬家的自由。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not really. You are paying for a place to live and for the freedom to move."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "我以前从没这样想过。",
+   "glosses": [],
+   "id": "t13",
+   "en": "I had never thought about it like that."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "在纸上比较一下十五年的两种方案，再咨询一下理财顾问。",
+   "glosses": [],
+   "id": "t14",
+   "en": "Compare both options on paper over fifteen years, and ask a financial adviser."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "好主意。做决定之前我先预约。",
+   "glosses": [],
+   "id": "t15",
+   "en": "Good idea. I will make an appointment before I decide."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "明智。这么大的决定，绝不能仓促。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wise. Such a big decision should never be taken in a hurry."
+  }
+ ],
+ "practice_words": []
+}

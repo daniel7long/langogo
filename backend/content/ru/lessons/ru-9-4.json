@@ -1,0 +1,234 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "диеты",
+   "ipa": "diéty",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Лучше всего начать со сбалансированной диеты. Ты ешь много овощей?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "овощей",
+   "ipa": "óvoshchej",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Лучше всего начать со сбалансированной диеты. Ты ешь много овощей?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "сахара",
+   "ipa": "sákhara",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Это звучит трудно. А как насчёт сахара? Я обожаю торты и газировку.",
+     "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "избегать",
+   "ipa": "izbegát'",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Тебе стоит избегать слишком большого количества сахара, но не обязательно отказываться совсем.",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "порции",
+   "ipa": "pórtsii",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Постарайся есть как минимум две порции овощей за каждый приём пищи.",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "сбалансированной",
+   "ipa": "sbalansírovannoj",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Лучше всего начать со сбалансированной диеты. Ты ешь много овощей?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Я хочу питаться лучше, но не знаю, с чего начать.",
+   "glosses": [],
+   "id": "t1",
+   "en": "I want to eat better, but I do not know where to start."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Лучше всего начать со сбалансированной диеты. Ты ешь много овощей?",
+   "glosses": [
+    {
+     "text": "диеты",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "овощей",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "сбалансированной",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Не очень. В основном ем пасту и фастфуд.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Not really. I mostly eat pasta and fast food."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Постарайся есть как минимум две порции овощей за каждый приём пищи.",
+   "glosses": [
+    {
+     "text": "овощей",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "порции",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": "Try to have at least two portions of vegetables with every meal."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Это звучит трудно. А как насчёт сахара? Я обожаю торты и газировку.",
+   "glosses": [
+    {
+     "text": "сахара",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Тебе стоит избегать слишком большого количества сахара, но не обязательно отказываться совсем.",
+   "glosses": [
+    {
+     "text": "сахара",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "избегать",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": "You should avoid too much sugar, but you do not have to stop completely."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Что можно пить вместо газировки?",
+   "glosses": [],
+   "id": "t7",
+   "en": "What can I drink instead of soft drinks?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Воду, чай или воду с долькой лимона.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Water, tea, or water with a slice of lemon."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "А что ты ешь на завтрак?",
+   "glosses": [],
+   "id": "t9",
+   "en": "And what do you eat for breakfast?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Обычно йогурт с фруктами или яйца с хлебом.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Usually yogurt with fruit, or eggs with bread."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Это просто. Может быть, я смогу больше готовить дома.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is simple. Maybe I can cook more at home."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да! Готовить дома дешевле и полезнее.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes! Cooking at home is cheaper and healthier."
+  }
+ ],
+ "practice_words": []
+}

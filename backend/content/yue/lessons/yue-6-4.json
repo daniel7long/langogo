@@ -1,0 +1,187 @@
+{
+ "emoji": "🏖️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "暑假",
+   "ipa": "cyu2 gaa3",
+   "pos": "n.",
+   "meaning": "a holiday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你暑假有冇咩計劃呀？",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "沙灘",
+   "ipa": "saa1 taan1",
+   "pos": "n.",
+   "meaning": "the beach",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "有呀！我想去沙灘玩一個星期。",
+     "en": "Yes! I want to go to the beach for one week."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "訂",
+   "ipa": "deng6",
+   "pos": "v.",
+   "meaning": "to book",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "好呀。你訂咗酒店未？",
+     "en": "Wonderful. Did you already book the hotel?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "計劃",
+   "ipa": "gai3 waak6",
+   "pos": "n.",
+   "meaning": "a plan",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你暑假有冇咩計劃呀？",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "天氣",
+   "ipa": "tin1 hei3",
+   "pos": "n.",
+   "meaning": "the weather",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "重未。我今晚睇睇天氣就訂。",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "執",
+   "ipa": "zap1",
+   "pos": "v.",
+   "meaning": "to pack",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "多謝！今個週末我會做個計劃，執好行李。",
+     "en": "Thanks! I will make a plan and pack my bag this weekend."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "你暑假有冇咩計劃呀？",
+   "glosses": [
+    {
+     "text": "暑假",
+     "pos": "n.",
+     "meaning": "a holiday"
+    },
+    {
+     "text": "計劃",
+     "pos": "n.",
+     "meaning": "a plan"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have plans for your summer vacation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有呀！我想去沙灘玩一個星期。",
+   "glosses": [
+    {
+     "text": "沙灘",
+     "pos": "n.",
+     "meaning": "the beach"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes! I want to go to the beach for one week."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "好呀。你訂咗酒店未？",
+   "glosses": [
+    {
+     "text": "訂",
+     "pos": "v.",
+     "meaning": "to book"
+    }
+   ],
+   "id": "t3",
+   "en": "Wonderful. Did you already book the hotel?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "重未。我今晚睇睇天氣就訂。",
+   "glosses": [
+    {
+     "text": "訂",
+     "pos": "v.",
+     "meaning": "to book"
+    },
+    {
+     "text": "天氣",
+     "pos": "n.",
+     "meaning": "the weather"
+    }
+   ],
+   "id": "t4",
+   "en": "Not yet. I will book it tonight, when I check the weather."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "好主意。唔好唔記得帶防曬霜同帽。",
+   "glosses": [],
+   "id": "t5",
+   "en": "Good idea. Do not forget to pack sunscreen and a hat."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "多謝！今個週末我會做個計劃，執好行李。",
+   "glosses": [
+    {
+     "text": "計劃",
+     "pos": "n.",
+     "meaning": "a plan"
+    },
+    {
+     "text": "執",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t6",
+   "en": "Thanks! I will make a plan and pack my bag this weekend."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,181 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "invito",
+   "ipa": "/inˈviːto/",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Che bell'invito! Sì, mi piacerebbe tanto venire.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "venire",
+   "ipa": "/veˈniːre/",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Che bell'invito! Sì, mi piacerebbe tanto venire.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "una festa",
+   "ipa": "/ˈuna ˈfɛsta/",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ciao! Sabato è il mio compleanno e faccio una festa. Puoi venire?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "portare",
+   "ipa": "/porˈtaːre/",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Devo portare qualcosa da mangiare o da bere?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "compleanno",
+   "ipa": "/kompleˈanno/",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ciao! Sabato è il mio compleanno e faccio una festa. Puoi venire?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "regalo",
+   "ipa": "/un reˈɡaːlo/",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Porta solo il buonumore. E forse un piccolo regalo per me, ah ah.",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Ciao! Sabato è il mio compleanno e faccio una festa. Puoi venire?",
+   "glosses": [
+    {
+     "text": "venire",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "una festa",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "compleanno",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Che bell'invito! Sì, mi piacerebbe tanto venire.",
+   "glosses": [
+    {
+     "text": "invito",
+     "pos": "n.",
+     "meaning": "an invitation"
+    },
+    {
+     "text": "venire",
+     "pos": "v.",
+     "meaning": "to come"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Fantastico! Comincia alle sette di sera a casa mia.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Devo portare qualcosa da mangiare o da bere?",
+   "glosses": [
+    {
+     "text": "portare",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Porta solo il buonumore. E forse un piccolo regalo per me, ah ah.",
+   "glosses": [
+    {
+     "text": "regalo",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Certo! Allora ci vediamo sabato.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

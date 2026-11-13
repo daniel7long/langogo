@@ -1,0 +1,258 @@
+{
+ "emoji": "🗣️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "fluente",
+   "ipa": "/fluˈẽ.tʃi/",
+   "pos": "adj.",
+   "meaning": "fluent",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Há quanto tempo você está aprendendo este idioma? Você parece bem fluente.",
+     "en": "How long have you been learning this language? You sound quite fluent."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "sotaque",
+   "ipa": "/soˈta.ki/",
+   "pos": "n.",
+   "meaning": "an accent",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Fiz, passei seis meses lá, e o meu sotaque melhorou muito.",
+     "en": "Yes, I spent six months there, and my accent improved enormously."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "vocabulário",
+   "ipa": "/vo.kabuˈla.ɾju/",
+   "pos": "n.",
+   "meaning": "vocabulary",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "E o vocabulário? Eu esqueço rápido as palavras novas.",
+     "en": "What about vocabulary? I forget new words quickly."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "erros",
+   "ipa": "/ˈe.ʁus/",
+   "pos": "n.",
+   "meaning": "a mistake",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Parei de ter medo de cometer erros e comecei a falar todos os dias.",
+     "en": "I stopped being afraid of making mistakes and started speaking every day."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "imersão",
+   "ipa": "/i.meʁˈsɐ̃w̃/",
+   "pos": "n.",
+   "meaning": "immersion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Você fez algum tipo de imersão, como morar no exterior?",
+     "en": "Did you do any kind of immersion, like living abroad?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "falante nativo",
+   "ipa": "/faˈlɐ̃.tʃi naˈtʃi.vu/",
+   "pos": "phr.",
+   "meaning": "a native speaker",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Não, mas você precisa de contato regular com um falante nativo, pessoalmente ou on-line.",
+     "en": "No, but you need regular contact with a native speaker, in person or online."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Há quanto tempo você está aprendendo este idioma? Você parece bem fluente.",
+   "glosses": [
+    {
+     "text": "fluente",
+     "pos": "adj.",
+     "meaning": "fluent"
+    }
+   ],
+   "id": "t1",
+   "en": "How long have you been learning this language? You sound quite fluent."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Obrigado! Há uns três anos, mas só fiquei confiante no ano passado.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Thank you! About three years, but I only became confident last year."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "O que mudou no ano passado?",
+   "glosses": [],
+   "id": "t3",
+   "en": "What changed last year?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Parei de ter medo de cometer erros e comecei a falar todos os dias.",
+   "glosses": [
+    {
+     "text": "erros",
+     "pos": "n.",
+     "meaning": "a mistake"
+    }
+   ],
+   "id": "t4",
+   "en": "I stopped being afraid of making mistakes and started speaking every day."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Acho que essa é a parte mais difícil para muitos estudantes.",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is the hardest part for many learners, I think."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Com certeza. Ninguém aprende a falar só lendo regras de gramática.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Definitely. Nobody learns to speak by only reading grammar rules."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Você fez algum tipo de imersão, como morar no exterior?",
+   "glosses": [
+    {
+     "text": "imersão",
+     "pos": "n.",
+     "meaning": "immersion"
+    }
+   ],
+   "id": "t7",
+   "en": "Did you do any kind of immersion, like living abroad?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Fiz, passei seis meses lá, e o meu sotaque melhorou muito.",
+   "glosses": [
+    {
+     "text": "sotaque",
+     "pos": "n.",
+     "meaning": "an accent"
+    }
+   ],
+   "id": "t8",
+   "en": "Yes, I spent six months there, and my accent improved enormously."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "É verdade que é preciso morar no país para aprender bem um idioma?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Is it true that you must live in the country to learn a language well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Não, mas você precisa de contato regular com um falante nativo, pessoalmente ou on-line.",
+   "glosses": [
+    {
+     "text": "falante nativo",
+     "pos": "phr.",
+     "meaning": "a native speaker"
+    }
+   ],
+   "id": "t10",
+   "en": "No, but you need regular contact with a native speaker, in person or online."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "E o vocabulário? Eu esqueço rápido as palavras novas.",
+   "glosses": [
+    {
+     "text": "vocabulário",
+     "pos": "n.",
+     "meaning": "vocabulary"
+    }
+   ],
+   "id": "t11",
+   "en": "What about vocabulary? I forget new words quickly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Faço revisões curtas todos os dias e uso as palavras novas em frases reais.",
+   "glosses": [],
+   "id": "t12",
+   "en": "I do short reviews every day, and I use new words in real sentences."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Faz sentido. Você já sentiu que não estava evoluindo?",
+   "glosses": [],
+   "id": "t13",
+   "en": "That makes sense. Do you ever feel that you are not improving?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Muitas vezes. Quando isso acontece, eu mudo o método, por exemplo assistindo a séries sem legendas.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Often. When that happens I change the method, for example by watching series without subtitles."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Eu deveria tentar. Parece divertido.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I should try that. It sounds like fun."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "É mesmo, e treina o ouvido. Tenha paciência e aproveite o processo.",
+   "glosses": [],
+   "id": "t16",
+   "en": "It is, and it trains your ear. Be patient, and enjoy the process."
+  }
+ ],
+ "practice_words": []
+}

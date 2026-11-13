@@ -1,0 +1,182 @@
+{
+ "emoji": "🎸",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "취미",
+   "ipa": "chwimi",
+   "pos": "n.",
+   "meaning": "a hobby",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "정말? 멋진 취미네. 나는 수영을 더 좋아해요.",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "여가 시간",
+   "ipa": "yeoga sigan",
+   "pos": "phr.",
+   "meaning": "free time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "여가 시간에 뭐 하는 걸 좋아해?",
+     "en": "What do you like to do in your free time?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "쳐요",
+   "ipa": "chyeoyo",
+   "pos": "v.",
+   "meaning": "to play",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "책 읽는 걸 좋아하고, 일요일에는 자주 테니스를 쳐요.",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "자주",
+   "ipa": "jaju",
+   "pos": "adv.",
+   "meaning": "often",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "책 읽는 걸 좋아하고, 일요일에는 자주 테니스를 쳐요.",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "더 좋아해요",
+   "ipa": "deo joahaeyo",
+   "pos": "v.",
+   "meaning": "to prefer",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "정말? 멋진 취미네. 나는 수영을 더 좋아해요.",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "수영장",
+   "ipa": "suyeongjang",
+   "pos": "n.",
+   "meaning": "a pool",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "수영장에서 해, 아니면 바다에서 해?",
+     "en": "Do you swim in a pool or in the sea?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "여가 시간에 뭐 하는 걸 좋아해?",
+   "glosses": [
+    {
+     "text": "여가 시간",
+     "pos": "phr.",
+     "meaning": "free time"
+    }
+   ],
+   "id": "t1",
+   "en": "What do you like to do in your free time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "책 읽는 걸 좋아하고, 일요일에는 자주 테니스를 쳐요.",
+   "glosses": [
+    {
+     "text": "쳐요",
+     "pos": "v.",
+     "meaning": "to play"
+    },
+    {
+     "text": "자주",
+     "pos": "adv.",
+     "meaning": "often"
+    }
+   ],
+   "id": "t2",
+   "en": "I love reading, and I often play tennis on Sundays."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "정말? 멋진 취미네. 나는 수영을 더 좋아해요.",
+   "glosses": [
+    {
+     "text": "취미",
+     "pos": "n.",
+     "meaning": "a hobby"
+    },
+    {
+     "text": "더 좋아해요",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t3",
+   "en": "Really? That is a great hobby. I prefer swimming."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "수영장에서 해, 아니면 바다에서 해?",
+   "glosses": [
+    {
+     "text": "수영장",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t4",
+   "en": "Do you swim in a pool or in the sea?"
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "대부분 수영장에서 해요. 우리 집에서 가깝거든요.",
+   "glosses": [
+    {
+     "text": "수영장",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t5",
+   "en": "Mostly in a pool, because it is close to my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "언젠가 같이 운동하면 좋겠다.",
+   "glosses": [],
+   "id": "t6",
+   "en": "We could do some sport together one day."
+  }
+ ],
+ "practice_words": []
+}

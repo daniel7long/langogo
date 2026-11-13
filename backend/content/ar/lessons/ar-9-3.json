@@ -1,0 +1,242 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "اشتراك",
+   "ipa": "ishtirāk",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "كم يكلف الاشتراك في الشهر؟",
+     "en": "How much does the membership cost for a month?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "مدرب",
+   "ipa": "mudarrib",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "بالطبع. سيريك مدربنا كيف تعمل كل الأجهزة.",
+     "en": "Of course. Our trainer will show you how everything works."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "هدف",
+   "ipa": "hadaf",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "رائع. ما هدفك الرئيسي: خسارة الوزن أم أن تصبح أقوى؟",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "أتمرن",
+   "ipa": "atamarran",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "نعم، أريد أن أبدأ أتمرن بانتظام.",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "حصص",
+   "ipa": "ḥiṣaṣ",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "إذن أنصحك بثلاث حصص في الأسبوع مع مدرب في البداية.",
+     "en": "Then I recommend three sessions a week with a trainer at the beginning."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "أقوى",
+   "ipa": "aqwā",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "رائع. ما هدفك الرئيسي: خسارة الوزن أم أن تصبح أقوى؟",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "أهلا بك في النادي الرياضي! هل أنت مهتم بالاشتراك؟",
+   "glosses": [
+    {
+     "text": "اشتراك",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، أريد أن أبدأ أتمرن بانتظام.",
+   "glosses": [
+    {
+     "text": "أتمرن",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "رائع. ما هدفك الرئيسي: خسارة الوزن أم أن تصبح أقوى؟",
+   "glosses": [
+    {
+     "text": "هدف",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "أقوى",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أريد أن أصبح أقوى وأن يكون عندي طاقة أكبر خلال النهار.",
+   "glosses": [
+    {
+     "text": "أقوى",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "إذن أنصحك بثلاث حصص في الأسبوع مع مدرب في البداية.",
+   "glosses": [
+    {
+     "text": "مدرب",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "حصص",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "كم يكلف الاشتراك في الشهر؟",
+   "glosses": [
+    {
+     "text": "اشتراك",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "خمسة وثلاثون في الشهر، والحصة الأولى مجانية.",
+   "glosses": [],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هذا معقول. هل أستطيع تجربة الأجهزة اليوم؟",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "بالطبع. سيريك مدربنا كيف تعمل كل الأجهزة.",
+   "glosses": [
+    {
+     "text": "مدرب",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هل يجب أن أحضر منشفتي الخاصة؟",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "نعم، من فضلك أحضر منشفة وزجاجة ماء.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ممتاز. سأسجل الآن.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

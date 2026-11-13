@@ -1,0 +1,267 @@
+{
+ "emoji": "🚌",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "ट्रैफ़िक",
+   "ipa": "traifik",
+   "pos": "n.",
+   "meaning": "traffic",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "मुझे लगता है कि यह साहसी विचार है, लेकिन इससे प्रदूषण और ट्रैफ़िक काफ़ी घट सकता है।",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "प्रदूषण",
+   "ipa": "pradooshan",
+   "pos": "n.",
+   "meaning": "pollution",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "मुझे लगता है कि यह साहसी विचार है, लेकिन इससे प्रदूषण और ट्रैफ़िक काफ़ी घट सकता है।",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "भरोसेमंद",
+   "ipa": "bharosemand",
+   "pos": "adj.",
+   "meaning": "reliable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "पहले सार्वजनिक परिवहन सुधरना चाहिए। हमारी बसें शायद ही कभी भरोसेमंद होती हैं।",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "किराया",
+   "ipa": "kiraya",
+   "pos": "n.",
+   "meaning": "a fare",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "और कई बच्चों वाले परिवारों के लिए किराया महँगा है।",
+     "en": "And the fares are expensive for families with several children."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "सुविधाजनक",
+   "ipa": "suvidhaajanak",
+   "pos": "adj.",
+   "meaning": "convenient",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "पर कारें इतनी सुविधाजनक हैं। मैं जब चाहूँ जहाँ चाहूँ जा सकता हूँ।",
+     "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "सार्वजनिक परिवहन",
+   "ipa": "saarvajanik parivahan",
+   "pos": "n.",
+   "meaning": "public transport",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "पहले सार्वजनिक परिवहन सुधरना चाहिए। हमारी बसें शायद ही कभी भरोसेमंद होती हैं।",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "हमारा शहर केंद्र में कारों पर रोक लगाना चाहता है। तुम क्या सोचते हो?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Our city wants to ban cars from the center. What do you think?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मुझे लगता है कि यह साहसी विचार है, लेकिन इससे प्रदूषण और ट्रैफ़िक काफ़ी घट सकता है।",
+   "glosses": [
+    {
+     "text": "ट्रैफ़िक",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "प्रदूषण",
+     "pos": "n.",
+     "meaning": "pollution"
+    }
+   ],
+   "id": "t2",
+   "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "पर जो लोग कार पर निर्भर हैं, जैसे डिलीवरी ड्राइवर, उनका क्या?",
+   "glosses": [],
+   "id": "t3",
+   "en": "But what about people who depend on their cars, like delivery drivers?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "उन्हें विशेष परमिट मिल सकते हैं, ताकि योजना स्थानीय व्यापार को नुकसान न पहुँचाए।",
+   "glosses": [],
+   "id": "t4",
+   "en": "They could receive special permits, so the plan would not hurt local businesses."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "पहले सार्वजनिक परिवहन सुधरना चाहिए। हमारी बसें शायद ही कभी भरोसेमंद होती हैं।",
+   "glosses": [
+    {
+     "text": "भरोसेमंद",
+     "pos": "adj.",
+     "meaning": "reliable"
+    },
+    {
+     "text": "सार्वजनिक परिवहन",
+     "pos": "n.",
+     "meaning": "public transport"
+    }
+   ],
+   "id": "t5",
+   "en": "Public transport would have to improve first. Our buses are rarely reliable."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बिल्कुल। बार-बार और समय पर सेवाएँ नहीं होंगी तो योजना विफल हो जाएगी।",
+   "glosses": [],
+   "id": "t6",
+   "en": "Exactly. Without frequent and punctual services, the plan will fail."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "और कई बच्चों वाले परिवारों के लिए किराया महँगा है।",
+   "glosses": [
+    {
+     "text": "किराया",
+     "pos": "n.",
+     "meaning": "a fare"
+    }
+   ],
+   "id": "t7",
+   "en": "And the fares are expensive for families with several children."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "एक सस्ता मासिक पास ज़्यादा लोगों को कार घर पर छोड़ने के लिए प्रोत्साहित करेगा।",
+   "glosses": [],
+   "id": "t8",
+   "en": "A cheaper monthly pass would encourage more people to leave their cars at home."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "पर कारें इतनी सुविधाजनक हैं। मैं जब चाहूँ जहाँ चाहूँ जा सकता हूँ।",
+   "glosses": [
+    {
+     "text": "सुविधाजनक",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t9",
+   "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सुविधाजनक हैं, हाँ, लेकिन तुम ट्रैफ़िक में समय भी गँवाते हो और पार्किंग पर बहुत खर्च करते हो।",
+   "glosses": [
+    {
+     "text": "ट्रैफ़िक",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "सुविधाजनक",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t10",
+   "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "यह सच है। मैं रोज़ लगभग एक घंटा पार्किंग की जगह ढूँढ़ने में बिताता हूँ।",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is true. I spend nearly an hour a day looking for a place to park."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "कुछ शहर दिखाते हैं कि साइकिल लेन बहुत अच्छी तरह काम कर सकती हैं।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Some cities show that cycling lanes can work very well."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "शायद, लेकिन हमारी सर्दियाँ उनकी सर्दियों से ज़्यादा कठोर हैं।",
+   "glosses": [],
+   "id": "t13",
+   "en": "Perhaps, but our winters are harsher than theirs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सही है, इसीलिए शायद समाधानों का मिश्रण ज़रूरी है।",
+   "glosses": [],
+   "id": "t14",
+   "en": "Fair enough, which is why a mix of solutions is probably necessary."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "अगर ट्रेनें और बसें सुधरें तो मैं योजना का समर्थन कर सकता हूँ।",
+   "glosses": [],
+   "id": "t15",
+   "en": "I might support the plan if the trains and buses improve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "यही सही शर्त होगी। बदलाव तब सबसे अच्छा काम करता है जब लोगों के पास विकल्प हों।",
+   "glosses": [],
+   "id": "t16",
+   "en": "That would be the right condition. Change works best when people have alternatives."
+  }
+ ],
+ "practice_words": []
+}

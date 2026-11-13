@@ -1,0 +1,176 @@
+{
+ "emoji": "🛋️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "周末",
+   "ipa": "zhōumò",
+   "pos": "n.",
+   "meaning": "the weekend",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你周末过得怎么样？",
+     "en": "How was your weekend?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "看望",
+   "ipa": "kànwàng",
+   "pos": "v.",
+   "meaning": "to visit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "很棒！星期六我去看望了爷爷奶奶。",
+     "en": "It was great! On Saturday I visited my grandparents."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "做饭",
+   "ipa": "zuòfàn",
+   "pos": "v.",
+   "meaning": "to cook",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我们一起做饭，吃了一顿丰盛的午饭，然后看了一部电影。",
+     "en": "We cooked a big lunch together, and then we watched a movie."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "电影",
+   "ipa": "diànyǐng",
+   "pos": "n.",
+   "meaning": "a film",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我们一起做饭，吃了一顿丰盛的午饭，然后看了一部电影。",
+     "en": "We cooked a big lunch together, and then we watched a movie."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "累",
+   "ipa": "lèi",
+   "pos": "adj.",
+   "meaning": "tired",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我很累，所以整天都在家休息。",
+     "en": "I was tired, so I rested at home all day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "休息",
+   "ipa": "xiūxi",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我很累，所以整天都在家休息。",
+     "en": "I was tired, so I rested at home all day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "你周末过得怎么样？",
+   "glosses": [
+    {
+     "text": "周末",
+     "pos": "n.",
+     "meaning": "the weekend"
+    }
+   ],
+   "id": "t1",
+   "en": "How was your weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "很棒！星期六我去看望了爷爷奶奶。",
+   "glosses": [
+    {
+     "text": "看望",
+     "pos": "v.",
+     "meaning": "to visit"
+    }
+   ],
+   "id": "t2",
+   "en": "It was great! On Saturday I visited my grandparents."
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "真好！你们在那里做了什么？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Nice! What did you do there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我们一起做饭，吃了一顿丰盛的午饭，然后看了一部电影。",
+   "glosses": [
+    {
+     "text": "做饭",
+     "pos": "v.",
+     "meaning": "to cook"
+    },
+    {
+     "text": "电影",
+     "pos": "n.",
+     "meaning": "a film"
+    }
+   ],
+   "id": "t4",
+   "en": "We cooked a big lunch together, and then we watched a movie."
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "听起来很温馨。那星期天呢？",
+   "glosses": [],
+   "id": "t5",
+   "en": "Sounds lovely. And on Sunday?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我很累，所以整天都在家休息。",
+   "glosses": [
+    {
+     "text": "累",
+     "pos": "adj.",
+     "meaning": "tired"
+    },
+    {
+     "text": "休息",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t6",
+   "en": "I was tired, so I rested at home all day."
+  }
+ ],
+ "practice_words": []
+}

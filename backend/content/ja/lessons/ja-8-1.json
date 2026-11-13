@@ -1,0 +1,226 @@
+{
+ "emoji": "🗺️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "旅行",
+   "ipa": "ryokoo",
+   "pos": "n.",
+   "meaning": "a trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "旅行から帰ってきたばかりだよね？全部聞かせて！",
+     "en": "You just came back from a trip, right? Tell me everything!"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "迷って",
+   "ipa": "mayotte",
+   "pos": "phr.",
+   "meaning": "to get lost",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "首都から始めたけど、初日に古い街並みで迷ってしまったんだ。",
+     "en": "I started in the capital, but on the first day I got lost in the old streets."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "忘れられない",
+   "ipa": "wasurerarenai",
+   "pos": "adj.",
+   "meaning": "unforgettable",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "うん、海外で十日間過ごしたんだ。忘れられない旅だったよ。",
+     "en": "Yes, I spent ten days abroad. It was unforgettable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "地元の人",
+   "ipa": "jimoto no hito",
+   "pos": "n.",
+   "meaning": "a local",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "親切な地元の人が道を教えてくれて、コーヒーにまで誘ってくれたんだ。",
+     "en": "A friendly local showed me the way and even invited me for coffee."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "景色",
+   "ipa": "keshiki",
+   "pos": "n.",
+   "meaning": "the view",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "丘から見た夕日だよ。景色が信じられないほどだった。",
+     "en": "Watching the sunset from a hill. The view was incredible."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "おすすめ",
+   "ipa": "osusume",
+   "pos": "v.",
+   "meaning": "to recommend",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "その国をほかの人にもおすすめする？",
+     "en": "Would you recommend the country to other people?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "旅行から帰ってきたばかりだよね？全部聞かせて！",
+   "glosses": [
+    {
+     "text": "旅行",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t1",
+   "en": "You just came back from a trip, right? Tell me everything!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "うん、海外で十日間過ごしたんだ。忘れられない旅だったよ。",
+   "glosses": [
+    {
+     "text": "忘れられない",
+     "pos": "adj.",
+     "meaning": "unforgettable"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I spent ten days abroad. It was unforgettable."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "わあ！最初はどこに行ったの？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow! Where did you go first?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "首都から始めたけど、初日に古い街並みで迷ってしまったんだ。",
+   "glosses": [
+    {
+     "text": "迷って",
+     "pos": "phr.",
+     "meaning": "to get lost"
+    }
+   ],
+   "id": "t4",
+   "en": "I started in the capital, but on the first day I got lost in the old streets."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "あらら！どうやって道を見つけたの？",
+   "glosses": [],
+   "id": "t5",
+   "en": "Oh no! How did you find your way?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "親切な地元の人が道を教えてくれて、コーヒーにまで誘ってくれたんだ。",
+   "glosses": [
+    {
+     "text": "地元の人",
+     "pos": "n.",
+     "meaning": "a local"
+    }
+   ],
+   "id": "t6",
+   "en": "A friendly local showed me the way and even invited me for coffee."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "すてきだね。旅で一番きれいだった瞬間は？",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is lovely. What was the best moment of the trip?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "丘から見た夕日だよ。景色が信じられないほどだった。",
+   "glosses": [
+    {
+     "text": "景色",
+     "pos": "n.",
+     "meaning": "the view"
+    }
+   ],
+   "id": "t8",
+   "en": "Watching the sunset from a hill. The view was incredible."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "その国をほかの人にもおすすめする？",
+   "glosses": [
+    {
+     "text": "おすすめ",
+     "pos": "v.",
+     "meaning": "to recommend"
+    }
+   ],
+   "id": "t9",
+   "en": "Would you recommend the country to other people?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "もちろん。できれば明日にでも戻りたいくらい。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Absolutely. I would go back tomorrow if I could."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "じゃあ、写真を見せてよ！",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then show me your photos, please!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "いいよ。五百枚以上撮ったんだ。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Of course. I took more than five hundred pictures."
+  }
+ ],
+ "practice_words": []
+}

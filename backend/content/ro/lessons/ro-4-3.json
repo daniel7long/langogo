@@ -1,0 +1,192 @@
+{
+ "emoji": "🏨",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "o rezervare",
+   "ipa": "/o rezerˈvare/",
+   "pos": "n.",
+   "meaning": "a reservation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Bună ziua, bine ați venit la hotel. Aveți o rezervare?",
+     "en": "Hello, welcome to the hotel. Do you have a reservation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "o cameră",
+   "ipa": "/o ˈkamerə/",
+   "pos": "n.",
+   "meaning": "a room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da, o cameră pentru două nopți, pe numele meu.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "nopți",
+   "ipa": "/nopts/",
+   "pos": "n.",
+   "meaning": "a night",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da, o cameră pentru două nopți, pe numele meu.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "micul dejun",
+   "ipa": "/ˈmikul deˈʒun/",
+   "pos": "n.",
+   "meaning": "breakfast",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Minunat. Este inclus micul dejun?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "inclus",
+   "ipa": "/inˈklus/",
+   "pos": "adj.",
+   "meaning": "included",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Minunat. Este inclus micul dejun?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "cheia",
+   "ipa": "/ˈkeja/",
+   "pos": "n.",
+   "meaning": "the key",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da, micul dejun este inclus, de la șapte la zece. Iată cheia dumneavoastră.",
+     "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Bună ziua, bine ați venit la hotel. Aveți o rezervare?",
+   "glosses": [
+    {
+     "text": "o rezervare",
+     "pos": "n.",
+     "meaning": "a reservation"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, welcome to the hotel. Do you have a reservation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, o cameră pentru două nopți, pe numele meu.",
+   "glosses": [
+    {
+     "text": "o cameră",
+     "pos": "n.",
+     "meaning": "a room"
+    },
+    {
+     "text": "nopți",
+     "pos": "n.",
+     "meaning": "a night"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a room for two nights, under my name."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Da, iat-o. O cameră single cu vedere spre grădină.",
+   "glosses": [
+    {
+     "text": "O cameră",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t3",
+   "en": "Yes, here it is. A single room with a view of the garden."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Minunat. Este inclus micul dejun?",
+   "glosses": [
+    {
+     "text": "micul dejun",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "inclus",
+     "pos": "adj.",
+     "meaning": "included"
+    }
+   ],
+   "id": "t4",
+   "en": "Wonderful. Is breakfast included?"
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Da, micul dejun este inclus, de la șapte la zece. Iată cheia dumneavoastră.",
+   "glosses": [
+    {
+     "text": "micul dejun",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "inclus",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "cheia",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mulțumesc. Care este numărul camerei?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. What is the room number?"
+  }
+ ],
+ "practice_words": []
+}

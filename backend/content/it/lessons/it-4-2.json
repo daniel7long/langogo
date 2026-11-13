@@ -1,0 +1,182 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "il biglietto",
+   "ipa": "/il biʎˈʎetto/",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Capisco. Quanto costa il biglietto?",
+     "en": "I understand. How much is the ticket?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "binario",
+   "ipa": "/il biˈnaːrjo/",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Certo. Il prossimo treno parte alle nove dal binario quattro.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "parte",
+   "ipa": "/ˈparte/",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Certo. Il prossimo treno parte alle nove dal binario quattro.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "andata e ritorno",
+   "ipa": "/anˈdaːta e riˈtorno/",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Vorrei un biglietto di andata e ritorno per la capitale, per favore.",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "in orario",
+   "ipa": "/in oˈraːrjo/",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "È in orario oggi?",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "cambiare treno",
+   "ipa": "/kamˈbjaːre ˈtrɛːno/",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sì, è in orario. Ma deve cambiare treno nella città successiva.",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Buongiorno. Come posso aiutarla?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Vorrei un biglietto di andata e ritorno per la capitale, per favore.",
+   "glosses": [
+    {
+     "text": "andata e ritorno",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Certo. Il prossimo treno parte alle nove dal binario quattro.",
+   "glosses": [
+    {
+     "text": "binario",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "parte",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "È in orario oggi?",
+   "glosses": [
+    {
+     "text": "in orario",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Sì, è in orario. Ma deve cambiare treno nella città successiva.",
+   "glosses": [
+    {
+     "text": "in orario",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "cambiare treno",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Capisco. Quanto costa il biglietto?",
+   "glosses": [
+    {
+     "text": "il biglietto",
+     "pos": "n.",
+     "meaning": "a ticket"
+    }
+   ],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

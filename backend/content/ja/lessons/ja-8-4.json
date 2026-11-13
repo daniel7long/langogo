@@ -1,0 +1,254 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "便",
+   "ipa": "bin",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "ホテルと明日の朝の便をご用意できます。",
+     "en": "We can offer you a hotel and a flight tomorrow morning."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "欠航",
+   "ipa": "kekkoo",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "三百四便にご搭乗のお客様、申し訳ございませんが、この便は欠航となりました。",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "乗り継ぎ",
+   "ipa": "noritsugi",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "すみません、何があったんですか。このあと大事な乗り継ぎがあるんです。",
+     "en": "Excuse me, what happened? I have an important connection later today."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "遅れ",
+   "ipa": "okure",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "機体に技術的な問題がありました。遅れについてお詫び申し上げます。",
+     "en": "There was a technical problem with the plane. We apologize for the delay."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "変更",
+   "ipa": "henkoo",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "今日中のほかの便に変更してもらえますか。",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "補償",
+   "ipa": "hoshoo",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "今夜発ちたいです。ご迷惑に対する補償はありますか。",
+     "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "三百四便にご搭乗のお客様、申し訳ございませんが、この便は欠航となりました。",
+   "glosses": [
+    {
+     "text": "便",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "欠航",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "すみません、何があったんですか。このあと大事な乗り継ぎがあるんです。",
+   "glosses": [
+    {
+     "text": "乗り継ぎ",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": "Excuse me, what happened? I have an important connection later today."
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "機体に技術的な問題がありました。遅れについてお詫び申し上げます。",
+   "glosses": [
+    {
+     "text": "遅れ",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": "There was a technical problem with the plane. We apologize for the delay."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "今日中のほかの便に変更してもらえますか。",
+   "glosses": [
+    {
+     "text": "便",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "変更",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": "Can you rebook me on another flight today?"
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "夜八時の便があります。空席があるか確認します。",
+   "glosses": [
+    {
+     "text": "便",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t5",
+   "en": "There is a flight at eight tonight. Let me check if there are seats."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "お願いします。なければ、どんな選択肢がありますか。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Please do. If not, what are my options?"
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "ホテルと明日の朝の便をご用意できます。",
+   "glosses": [
+    {
+     "text": "便",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t7",
+   "en": "We can offer you a hotel and a flight tomorrow morning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "今夜発ちたいです。ご迷惑に対する補償はありますか。",
+   "glosses": [
+    {
+     "text": "補償",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "はい、補償を受ける権利がございます。用紙をお渡しします。",
+   "glosses": [
+    {
+     "text": "補償",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t9",
+   "en": "Yes, you have the right to compensation, and I will give you the form."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ありがとうございます。食事券はもらえますか。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Thank you. Do I also receive a meal voucher?"
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "はい、こちらがレストランの食事券です。八時の便でございます。",
+   "glosses": [
+    {
+     "text": "便",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t11",
+   "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "完璧です、問題が解決しました。本当に助かります。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Great, that solves my problem. I really appreciate your help."
+  }
+ ],
+ "practice_words": []
+}

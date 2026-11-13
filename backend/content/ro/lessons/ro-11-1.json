@@ -1,0 +1,256 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "intriga",
+   "ipa": "/inˈtriɡa/",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Încă nu. Am citit o recenzie care spunea că intriga e puțin previzibilă.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "interpretarea",
+   "ipa": "/interpreˈtarea/",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Interesant. Ce părere ai despre interpretarea rolului principal?",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "regizorul",
+   "ipa": "/redʒiˈzorul/",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Dar regizorul? Mi-a plăcut mult filmul lui anterior.",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "recenzie",
+   "ipa": "/reˈtsenzie/",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Încă nu. Am citit o recenzie care spunea că intriga e puțin previzibilă.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "previzibilă",
+   "ipa": "/previˈzibilə/",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Încă nu. Am citit o recenzie care spunea că intriga e puțin previzibilă.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "coloanei sonore",
+   "ipa": "/koˈloanej soˈnore/",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aici funcționează, mai ales datorită coloanei sonore. Adaugă atât de multă emoție.",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Am văzut aseară noul film despre care vorbește toată lumea. L-ai văzut?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Încă nu. Am citit o recenzie care spunea că intriga e puțin previzibilă.",
+   "glosses": [
+    {
+     "text": "intriga",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "recenzie",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "previzibilă",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Sincer, prima jumătate este, dar finalul m-a surprins complet.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Interesant. Ce părere ai despre interpretarea rolului principal?",
+   "glosses": [
+    {
+     "text": "interpretarea",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Remarcabilă. Actrița a făcut personajul să pară real și complex.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Dar regizorul? Mi-a plăcut mult filmul lui anterior.",
+   "glosses": [
+    {
+     "text": "regizorul",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Își păstrează stilul obișnuit, cu cadre lungi și foarte puține dialoguri.",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Asta poate fi frumos sau plictisitor, în funcție de poveste.",
+   "glosses": [],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Aici funcționează, mai ales datorită coloanei sonore. Adaugă atât de multă emoție.",
+   "glosses": [
+    {
+     "text": "coloanei sonore",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ai spune că merită văzut la cinema?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Cu siguranță. Imaginile și sunetul au nevoie de un ecran mare.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Atunci mă duc weekendul acesta, chiar dacă criticii nu sunt de acord.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Criticii și publicul rareori sunt de acord, așa că decide singur.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Adevărat. Pe care l-ai nota mai bine, acest film sau precedentul?",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Pe precedentul, dar doar puțin. Acestuia i-aș da patru stele din cinci.",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bun de știut. Mai vorbim despre el după ce îl văd.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,248 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "keanggotaan",
+   "ipa": "/kəaŋgoˈtaan/",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Berapa biaya keanggotaan per bulan?",
+     "en": "How much does the membership cost for a month?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "pelatih",
+   "ipa": "/pəˈlatih/",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tentu. Pelatih kami akan menunjukkan cara kerja semuanya.",
+     "en": "Of course. Our trainer will show you how everything works."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "tujuan",
+   "ipa": "/tuˈdʒuan/",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Bagus. Apa tujuan utama Anda: menurunkan berat badan atau menjadi lebih kuat?",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "berolahraga",
+   "ipa": "/bəɾɔlaɦˈɾaga/",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ya, saya ingin mulai berolahraga secara teratur.",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "sesi",
+   "ipa": "/ˈsɛsi/",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tiga puluh lima per bulan, dan sesi pertama gratis.",
+     "en": "It is thirty-five a month, and the first session is free."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "lebih kuat",
+   "ipa": "/ˈləbi ˈkuat/",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Saya ingin menjadi lebih kuat dan punya lebih banyak energi sepanjang hari.",
+     "en": "I want to get stronger and have more energy during the day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Selamat datang di pusat kebugaran! Apakah Anda tertarik dengan keanggotaan?",
+   "glosses": [
+    {
+     "text": "keanggotaan",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya, saya ingin mulai berolahraga secara teratur.",
+   "glosses": [
+    {
+     "text": "berolahraga",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Bagus. Apa tujuan utama Anda: menurunkan berat badan atau menjadi lebih kuat?",
+   "glosses": [
+    {
+     "text": "tujuan",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "lebih kuat",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Saya ingin menjadi lebih kuat dan punya lebih banyak energi sepanjang hari.",
+   "glosses": [
+    {
+     "text": "lebih kuat",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Kalau begitu, saya sarankan tiga sesi seminggu dengan seorang pelatih di awal.",
+   "glosses": [
+    {
+     "text": "pelatih",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "sesi",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Berapa biaya keanggotaan per bulan?",
+   "glosses": [
+    {
+     "text": "keanggotaan",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Tiga puluh lima per bulan, dan sesi pertama gratis.",
+   "glosses": [
+    {
+     "text": "sesi",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Kedengarannya masuk akal. Bolehkah saya mencoba alatnya hari ini?",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Tentu. Pelatih kami akan menunjukkan cara kerja semuanya.",
+   "glosses": [
+    {
+     "text": "Pelatih",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Apakah saya perlu membawa handuk sendiri?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Ya, tolong bawa handuk dan sebotol air.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sempurna. Saya akan mendaftar sekarang juga.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

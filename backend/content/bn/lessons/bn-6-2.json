@@ -1,0 +1,182 @@
+{
+ "emoji": "🎸",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "শখ",
+   "ipa": "shokh",
+   "pos": "n.",
+   "meaning": "a hobby",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "সত্যি? এটা চমৎকার শখ। আমি সাঁতার বেশি পছন্দ করি।",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "অবসর সময়",
+   "ipa": "obosor shomoy",
+   "pos": "phr.",
+   "meaning": "free time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "তুমি অবসর সময়ে কী করতে পছন্দ করো?",
+     "en": "What do you like to do in your free time?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "খেলি",
+   "ipa": "kheli",
+   "pos": "v.",
+   "meaning": "to play",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আমি পড়তে খুব ভালোবাসি, আর রবিবার প্রায়ই টেনিস খেলি।",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "প্রায়ই",
+   "ipa": "prayoi",
+   "pos": "adv.",
+   "meaning": "often",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আমি পড়তে খুব ভালোবাসি, আর রবিবার প্রায়ই টেনিস খেলি।",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "বেশি পছন্দ করি",
+   "ipa": "beshi pochondo kori",
+   "pos": "v.",
+   "meaning": "to prefer",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "সত্যি? এটা চমৎকার শখ। আমি সাঁতার বেশি পছন্দ করি।",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "সুইমিং পুল",
+   "ipa": "suiming pul",
+   "pos": "n.",
+   "meaning": "a pool",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "তুমি কি সুইমিং পুলে সাঁতার কাটো, নাকি সমুদ্রে?",
+     "en": "Do you swim in a pool or in the sea?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "তুমি অবসর সময়ে কী করতে পছন্দ করো?",
+   "glosses": [
+    {
+     "text": "অবসর সময়",
+     "pos": "phr.",
+     "meaning": "free time"
+    }
+   ],
+   "id": "t1",
+   "en": "What do you like to do in your free time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি পড়তে খুব ভালোবাসি, আর রবিবার প্রায়ই টেনিস খেলি।",
+   "glosses": [
+    {
+     "text": "খেলি",
+     "pos": "v.",
+     "meaning": "to play"
+    },
+    {
+     "text": "প্রায়ই",
+     "pos": "adv.",
+     "meaning": "often"
+    }
+   ],
+   "id": "t2",
+   "en": "I love reading, and I often play tennis on Sundays."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "সত্যি? এটা চমৎকার শখ। আমি সাঁতার বেশি পছন্দ করি।",
+   "glosses": [
+    {
+     "text": "শখ",
+     "pos": "n.",
+     "meaning": "a hobby"
+    },
+    {
+     "text": "বেশি পছন্দ করি",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t3",
+   "en": "Really? That is a great hobby. I prefer swimming."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "তুমি কি সুইমিং পুলে সাঁতার কাটো, নাকি সমুদ্রে?",
+   "glosses": [
+    {
+     "text": "সুইমিং পুল",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t4",
+   "en": "Do you swim in a pool or in the sea?"
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "বেশিরভাগ সময় সুইমিং পুলে, কারণ সেটা আমার বাড়ির কাছে।",
+   "glosses": [
+    {
+     "text": "সুইমিং পুল",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t5",
+   "en": "Mostly in a pool, because it is close to my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "কোনো একদিন আমরা একসঙ্গে খেলাধুলা করতে পারি।",
+   "glosses": [],
+   "id": "t6",
+   "en": "We could do some sport together one day."
+  }
+ ],
+ "practice_words": []
+}

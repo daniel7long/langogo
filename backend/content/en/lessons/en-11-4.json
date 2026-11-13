@@ -1,0 +1,258 @@
+{
+ "emoji": "🗣️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "fluent",
+   "ipa": "/ˈfluənt/",
+   "pos": "adj.",
+   "meaning": "fluent",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "How long have you been learning this language? You sound quite fluent.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "accent",
+   "ipa": "/ˈækˌsɛnt/",
+   "pos": "n.",
+   "meaning": "an accent",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Yes, I spent six months there, and my accent improved enormously.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "vocabulary",
+   "ipa": "/voʊˈkæbjəˌlɛɹi/",
+   "pos": "n.",
+   "meaning": "vocabulary",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "What about vocabulary? I forget new words quickly.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "mistakes",
+   "ipa": "/mɪˈsteɪks/",
+   "pos": "n.",
+   "meaning": "a mistake",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I stopped being afraid of making mistakes and started speaking every day.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "immersion",
+   "ipa": "/ɪˈmɝʒən/",
+   "pos": "n.",
+   "meaning": "immersion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Did you do any kind of immersion, like living abroad?",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "native speaker",
+   "ipa": "/ˈneɪɾɪv ˈspikɚ/",
+   "pos": "phr.",
+   "meaning": "a native speaker",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "No, but you need regular contact with a native speaker, in person or online.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "How long have you been learning this language? You sound quite fluent.",
+   "glosses": [
+    {
+     "text": "fluent",
+     "pos": "adj.",
+     "meaning": "fluent"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Thank you! About three years, but I only became confident last year.",
+   "glosses": [],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "What changed last year?",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I stopped being afraid of making mistakes and started speaking every day.",
+   "glosses": [
+    {
+     "text": "mistakes",
+     "pos": "n.",
+     "meaning": "a mistake"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "That is the hardest part for many learners, I think.",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Definitely. Nobody learns to speak by only reading grammar rules.",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Did you do any kind of immersion, like living abroad?",
+   "glosses": [
+    {
+     "text": "immersion",
+     "pos": "n.",
+     "meaning": "immersion"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, I spent six months there, and my accent improved enormously.",
+   "glosses": [
+    {
+     "text": "accent",
+     "pos": "n.",
+     "meaning": "an accent"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Is it true that you must live in the country to learn a language well?",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "No, but you need regular contact with a native speaker, in person or online.",
+   "glosses": [
+    {
+     "text": "native speaker",
+     "pos": "phr.",
+     "meaning": "a native speaker"
+    }
+   ],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "What about vocabulary? I forget new words quickly.",
+   "glosses": [
+    {
+     "text": "vocabulary",
+     "pos": "n.",
+     "meaning": "vocabulary"
+    }
+   ],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I do short reviews every day, and I use new words in real sentences.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "That makes sense. Do you ever feel that you are not improving?",
+   "glosses": [],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Often. When that happens I change the method, for example by watching series without subtitles.",
+   "glosses": [],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "I should try that. It sounds like fun.",
+   "glosses": [],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "It is, and it trains your ear. Be patient, and enjoy the process.",
+   "glosses": [],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

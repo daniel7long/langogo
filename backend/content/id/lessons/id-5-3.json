@@ -1,0 +1,181 @@
+{
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "paket",
+   "ipa": "/ˈpakət/",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Saya ingin mengirim paket ini ke Kanada, tolong.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "perangko",
+   "ipa": "/pəˈɾaŋko/",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sekitar seminggu. Totalnya sembilan belas euro, termasuk perangko.",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "mengirim",
+   "ipa": "/məŋˈiɾim/",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Saya ingin mengirim paket ini ke Kanada, tolong.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "alamat",
+   "ipa": "/aˈlamat/",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Saya cek dulu beratnya. Dua kilo. Silakan tulis alamat di sini.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "beratnya",
+   "ipa": "/bəˈɾatɲa/",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Saya cek dulu beratnya. Dua kilo. Silakan tulis alamat di sini.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "seminggu",
+   "ipa": "/səˈmiŋgu/",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sekitar seminggu. Totalnya sembilan belas euro, termasuk perangko.",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Halo. Ada yang bisa saya bantu?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Saya ingin mengirim paket ini ke Kanada, tolong.",
+   "glosses": [
+    {
+     "text": "paket",
+     "pos": "n.",
+     "meaning": "a parcel"
+    },
+    {
+     "text": "mengirim",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like to send this parcel to Canada, please."
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Saya cek dulu beratnya. Dua kilo. Silakan tulis alamat di sini.",
+   "glosses": [
+    {
+     "text": "alamat",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "beratnya",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": "Let me check the weight. It is two kilos. Please write the address here."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sudah. Berapa lama sampainya? Saya juga butuh tiga perangko untuk kartu pos.",
+   "glosses": [
+    {
+     "text": "perangko",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": "Done. How long will it take? Also, I need three stamps for postcards."
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Sekitar seminggu. Totalnya sembilan belas euro, termasuk perangko.",
+   "glosses": [
+    {
+     "text": "perangko",
+     "pos": "n.",
+     "meaning": "a stamp"
+    },
+    {
+     "text": "seminggu",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": "About a week. The total is nineteen euros, with the stamps."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Baik. Ini kartu saya.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. Here is my card."
+  }
+ ],
+ "practice_words": []
+}

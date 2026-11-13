@@ -1,0 +1,187 @@
+{
+ "emoji": "👕",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "사이즈",
+   "ipa": "saijeu",
+   "pos": "n.",
+   "meaning": "a size",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "재킷을 찾고 있어요. 중간 사이즈를 입어 봐도 돼요?",
+     "en": "I am looking for a jacket. Can I try on a medium size?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "입어",
+   "ipa": "ibeo",
+   "pos": "v.",
+   "meaning": "to try on",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "재킷을 찾고 있어요. 중간 사이즈를 입어 봐도 돼요?",
+     "en": "I am looking for a jacket. Can I try on a medium size?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "탈의실",
+   "ipa": "taruisil",
+   "pos": "n.",
+   "meaning": "the fitting room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "물론이죠. 탈의실은 안쪽에 있어요.",
+     "en": "Of course. The fitting room is at the back."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "너무 커요",
+   "ipa": "neomu keoyo",
+   "pos": "phr.",
+   "meaning": "too big",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "조금 너무 커요. 더 작은 사이즈나 더 싼 것이 있어요?",
+     "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "더 싼",
+   "ipa": "deo ssan",
+   "pos": "adj.",
+   "meaning": "cheaper",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "조금 너무 커요. 더 작은 사이즈나 더 싼 것이 있어요?",
+     "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "계산",
+   "ipa": "gyesan",
+   "pos": "v.",
+   "meaning": "to pay",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "좋아요, 이걸로 할게요. 어디서 계산해요?",
+     "en": "Perfect, I will take it. Where can I pay?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "어서 오세요! 특별히 찾으시는 게 있어요?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello! Are you looking for something special?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "재킷을 찾고 있어요. 중간 사이즈를 입어 봐도 돼요?",
+   "glosses": [
+    {
+     "text": "사이즈",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "입어",
+     "pos": "v.",
+     "meaning": "to try on"
+    }
+   ],
+   "id": "t2",
+   "en": "I am looking for a jacket. Can I try on a medium size?"
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "물론이죠. 탈의실은 안쪽에 있어요.",
+   "glosses": [
+    {
+     "text": "탈의실",
+     "pos": "n.",
+     "meaning": "the fitting room"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The fitting room is at the back."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "조금 너무 커요. 더 작은 사이즈나 더 싼 것이 있어요?",
+   "glosses": [
+    {
+     "text": "사이즈",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "너무 커요",
+     "pos": "phr.",
+     "meaning": "too big"
+    },
+    {
+     "text": "더 싼",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t4",
+   "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "여기 작은 사이즈가 있어요. 이번 주에 세일이라서 더 싸요.",
+   "glosses": [
+    {
+     "text": "사이즈",
+     "pos": "n.",
+     "meaning": "a size"
+    }
+   ],
+   "id": "t5",
+   "en": "Here is a small one. It is on sale this week, so it is cheaper."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "좋아요, 이걸로 할게요. 어디서 계산해요?",
+   "glosses": [
+    {
+     "text": "계산",
+     "pos": "v.",
+     "meaning": "to pay"
+    }
+   ],
+   "id": "t6",
+   "en": "Perfect, I will take it. Where can I pay?"
+  }
+ ],
+ "practice_words": []
+}

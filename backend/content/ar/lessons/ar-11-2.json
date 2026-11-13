@@ -1,0 +1,280 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "عنوان",
+   "ipa": "ʿunwān",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "ذكي. أنا قرأت العنوان فقط وغضبت بالفعل.",
+     "en": "Smart. I only read the title and I was already angry."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "صحفي",
+   "ipa": "ṣaḥafī",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أقارن بين عدة مصادر، لأن حتى الصحفيين الجيدين قد يكونون متحيزين.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "مصدر",
+   "ipa": "maṣdar",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أوافقك. سأحاول قراءة مصدرين على الأقل من الآن فصاعدا.",
+     "en": "I agree. I will try to read at least two sources from now on."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "متحيزين",
+   "ipa": "mutaḥayyizīn",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أقارن بين عدة مصادر، لأن حتى الصحفيين الجيدين قد يكونون متحيزين.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "نتحقق",
+   "ipa": "nataḥaqqaq",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أبحث عن الأدلة، وخبراء مسمين، وهل يمكن أن نتحقق من الحقائق.",
+     "en": "I look for evidence, named experts, and whether the facts can be verified."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "رأي",
+   "ipa": "raʾy",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "نعم، لكنني أريد أن أقرأ أكثر قبل أن أكون رأيا.",
+     "en": "I did, but I want to read more before forming an opinion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "هل رأيت عنوان هذا الصباح عن قانون الضرائب الجديد؟",
+   "glosses": [
+    {
+     "text": "عنوان",
+     "pos": "n.",
+     "meaning": "a headline"
+    },
+    {
+     "text": "رأي",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t1",
+   "en": "Did you see this morning's headline about the new tax law?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، لكنني أريد أن أقرأ أكثر قبل أن أكون رأيا.",
+   "glosses": [
+    {
+     "text": "رأي",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": "I did, but I want to read more before forming an opinion."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "ذكي. أنا قرأت العنوان فقط وغضبت بالفعل.",
+   "glosses": [
+    {
+     "text": "عنوان",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t3",
+   "en": "Smart. I only read the title and I was already angry."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هكذا تعمل العناوين تماما. صُممت لجذب الانتباه.",
+   "glosses": [],
+   "id": "t4",
+   "en": "That is exactly how headlines work. They are designed to attract attention."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "أي مصادر أخبار تثق بها؟",
+   "glosses": [],
+   "id": "t5",
+   "en": "Which news sources do you trust?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أقارن بين عدة مصادر، لأن حتى الصحفيين الجيدين قد يكونون متحيزين.",
+   "glosses": [
+    {
+     "text": "صحفي",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "متحيزين",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": "I compare several, because even good journalists can be biased."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "كيف تقرر أيها أدق؟",
+   "glosses": [],
+   "id": "t7",
+   "en": "How do you decide which one is more accurate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أبحث عن الأدلة، وخبراء مسمين، وهل يمكن أن نتحقق من الحقائق.",
+   "glosses": [
+    {
+     "text": "نتحقق",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": "I look for evidence, named experts, and whether the facts can be verified."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "هذا يتطلب جهدا كبيرا لشيء أفعله في خمس دقائق.",
+   "glosses": [],
+   "id": "t9",
+   "en": "That takes a lot of effort for something I do in five minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "صحيح، لكن أن تكون مطلعا جيدا جزء من كونك مواطنا مسؤولا.",
+   "glosses": [],
+   "id": "t10",
+   "en": "True, but being well informed is part of being a responsible citizen."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "وماذا عن مقالات الرأي؟ أليست مجرد وجهات نظر شخصية؟",
+   "glosses": [
+    {
+     "text": "رأي",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t11",
+   "en": "What about opinion articles? Are they not just personal views?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هي كذلك، وهذا جيد، ما دامت موسومة بوضوح على أنها رأي.",
+   "glosses": [
+    {
+     "text": "رأي",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t12",
+   "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "كثيرون لا يلاحظون الفرق، مع ذلك.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many people do not notice the difference, though."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "لهذا تهم التربية الإعلامية في المدارس كثيرا.",
+   "glosses": [],
+   "id": "t14",
+   "en": "That is why media education in schools matters so much."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "أوافقك. سأحاول قراءة مصدرين على الأقل من الآن فصاعدا.",
+   "glosses": [
+    {
+     "text": "مصدر",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": "I agree. I will try to read at least two sources from now on."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "جيد. ولا تشارك المقالات إلا بعد أن تتحقق منها بنفسك.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good. And share articles only after you have checked them yourself."
+  }
+ ],
+ "practice_words": []
+}

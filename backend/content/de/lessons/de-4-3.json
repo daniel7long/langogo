@@ -1,0 +1,186 @@
+{
+ "emoji": "🏨",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "eine Reservierung",
+   "ipa": "/ˈaɪ̯nə ʁezɛʁˈviːʁʊŋ/",
+   "pos": "n.",
+   "meaning": "a reservation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Guten Tag, willkommen im Hotel. Haben Sie eine Reservierung?",
+     "en": "Hello, welcome to the hotel. Do you have a reservation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ein Zimmer",
+   "ipa": "/aɪ̯n ˈtsɪmɐ/",
+   "pos": "n.",
+   "meaning": "a room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ja, ein Zimmer für zwei Nächte, auf meinen Namen.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "Nächte",
+   "ipa": "/ˈnɛçtə/",
+   "pos": "n.",
+   "meaning": "a night",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ja, ein Zimmer für zwei Nächte, auf meinen Namen.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "das Frühstück",
+   "ipa": "/das ˈfʁyːʃtʏk/",
+   "pos": "n.",
+   "meaning": "breakfast",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Wunderbar. Ist das Frühstück inbegriffen?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "inbegriffen",
+   "ipa": "/ˈɪnbəˌɡʁɪfn̩/",
+   "pos": "adj.",
+   "meaning": "included",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Wunderbar. Ist das Frühstück inbegriffen?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "Schlüssel",
+   "ipa": "/ˈʃlʏsl̩/",
+   "pos": "n.",
+   "meaning": "the key",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ja, das Frühstück ist inbegriffen, von sieben bis zehn Uhr. Hier ist Ihr Schlüssel.",
+     "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Guten Tag, willkommen im Hotel. Haben Sie eine Reservierung?",
+   "glosses": [
+    {
+     "text": "eine Reservierung",
+     "pos": "n.",
+     "meaning": "a reservation"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, welcome to the hotel. Do you have a reservation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ja, ein Zimmer für zwei Nächte, auf meinen Namen.",
+   "glosses": [
+    {
+     "text": "ein Zimmer",
+     "pos": "n.",
+     "meaning": "a room"
+    },
+    {
+     "text": "Nächte",
+     "pos": "n.",
+     "meaning": "a night"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a room for two nights, under my name."
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Ja, hier ist es. Ein Einzelzimmer mit Blick auf den Garten.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Yes, here it is. A single room with a view of the garden."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Wunderbar. Ist das Frühstück inbegriffen?",
+   "glosses": [
+    {
+     "text": "das Frühstück",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "inbegriffen",
+     "pos": "adj.",
+     "meaning": "included"
+    }
+   ],
+   "id": "t4",
+   "en": "Wonderful. Is breakfast included?"
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Ja, das Frühstück ist inbegriffen, von sieben bis zehn Uhr. Hier ist Ihr Schlüssel.",
+   "glosses": [
+    {
+     "text": "das Frühstück",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "inbegriffen",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "Schlüssel",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Danke. Wie lautet die Zimmernummer?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. What is the room number?"
+  }
+ ],
+ "practice_words": []
+}

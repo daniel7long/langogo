@@ -1,0 +1,275 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "প্রতিক্রিয়া",
+   "ipa": "protikriya",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "একমত। আমি কি আগামী সপ্তাহে তোমার উপস্থাপনার ওপর প্রতিক্রিয়া দেব?",
+     "en": "Agreed. Would you like me to give you feedback on yours next week?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "পরামর্শ",
+   "ipa": "poramorsho",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আমার একটি পরামর্শ আছে: বিশেষ করে শুরুতে আরও ধীরে বলার চেষ্টা করো।",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "সমালোচনা",
+   "ipa": "shomalochona",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আর কিছু? দয়া করে সৎ থেকো। আমি সমালোচনা সহ্য করতে পারি।",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "নির্দিষ্ট",
+   "ipa": "nirdishto",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "এটা সহায়ক। তুমি কি আরও নির্দিষ্ট করে বলতে পারো কোন স্লাইডগুলো?",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "অগ্রগতি",
+   "ipa": "oggrogoti",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "মোটেও না। তোমার আগের উপস্থাপনার পর থেকে তুমি সত্যিই অগ্রগতি করেছ।",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "অনুপ্রাণিত",
+   "ipa": "onuprapito",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "এটা আমাকে অনুশীলন চালিয়ে যেতে সত্যিই অনুপ্রাণিত করে।",
+     "en": "That really motivates me to keep practicing."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "তোমার কি কয়েক মিনিট সময় আছে? আমি আমার উপস্থাপনা নিয়ে প্রতিক্রিয়া চাই।",
+   "glosses": [
+    {
+     "text": "প্রতিক্রিয়া",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "অবশ্যই। প্রথমে, কাঠামো স্পষ্ট ছিল আর তোমার উদাহরণগুলো আকর্ষণীয় ছিল।",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "ধন্যবাদ। আর আমি কী উন্নত করতে পারি?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমার একটি পরামর্শ আছে: বিশেষ করে শুরুতে আরও ধীরে বলার চেষ্টা করো।",
+   "glosses": [
+    {
+     "text": "পরামর্শ",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "আমি সত্যিই নার্ভাস ছিলাম। এটা কি সত্যিই বোঝা যাচ্ছিল?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "একটু, কিন্তু ঠিক করা সহজ। মূল পয়েন্টগুলোর মাঝে ছোট বিরতি সাহায্য করবে।",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "আর কিছু? দয়া করে সৎ থেকো। আমি সমালোচনা সহ্য করতে পারি।",
+   "glosses": [
+    {
+     "text": "সমালোচনা",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "শেষ স্লাইডগুলোতে অনেক বেশি লেখা ছিল, তাই শ্রোতারা শোনার বদলে পড়তে শুরু করল।",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "এটা সহায়ক। তুমি কি আরও নির্দিষ্ট করে বলতে পারো কোন স্লাইডগুলো?",
+   "glosses": [
+    {
+     "text": "নির্দিষ্ট",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আট আর নয় নম্বর। এর বদলে একটি ছবি আর একটি বাক্য ব্যবহার করো।",
+   "glosses": [],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "আমি তা-ই করব। সত্যি বলতে, আমি ভয় পাচ্ছিলাম যে এটা খারাপ গেছে।",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "মোটেও না। তোমার আগের উপস্থাপনার পর থেকে তুমি সত্যিই অগ্রগতি করেছ।",
+   "glosses": [
+    {
+     "text": "অগ্রগতি",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "এটা আমাকে অনুশীলন চালিয়ে যেতে সত্যিই অনুপ্রাণিত করে।",
+   "glosses": [
+    {
+     "text": "অনুপ্রাণিত",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ভালো। গঠনমূলক প্রতিক্রিয়ায় মানুষ অনুপ্রাণিত হওয়া উচিত, নিরুৎসাহিত নয়।",
+   "glosses": [
+    {
+     "text": "প্রতিক্রিয়া",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "অনুপ্রাণিত",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "একমত। আমি কি আগামী সপ্তাহে তোমার উপস্থাপনার ওপর প্রতিক্রিয়া দেব?",
+   "glosses": [
+    {
+     "text": "প্রতিক্রিয়া",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি কৃতজ্ঞ থাকব। খোলা মন নিয়ে নেওয়ার জন্য ধন্যবাদ।",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

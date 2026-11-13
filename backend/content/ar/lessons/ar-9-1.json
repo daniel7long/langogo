@@ -1,0 +1,237 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "أعراض",
+   "ipa": "aʿrāḍ",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "هل عندك أعراض أخرى، مثل ألم في الصدر؟",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "حمى",
+   "ipa": "ḥummā",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "عندي حمى وسعال شديد منذ ثلاثة أيام.",
+     "en": "I have had a fever and a bad cough for three days."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ألم",
+   "ipa": "alam",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "هل عندك أعراض أخرى، مثل ألم في الصدر؟",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ترتاح",
+   "ipa": "tartāḥ",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "لا، هي مجرد نزلة برد قوية. يجب أن ترتاح خمسة أيام على الأقل.",
+     "en": "No, it is just a strong flu. You need to rest for at least five days."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "أتعافى",
+   "ipa": "ataʿāfā",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "كم من الوقت أحتاج حتى أتعافى تماما؟",
+     "en": "How long will it take to recover completely?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "موعدا آخر",
+   "ipa": "mawʿidan āḫar",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "حوالي أسبوع. عد لتأخذ موعدا آخر إذا ساءت حالتك.",
+     "en": "About a week. Come back for another appointment if it gets worse."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "مرحبا، تفضل بالجلوس. ما الذي جاء بك اليوم؟",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello, please sit down. What brings you here today?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "عندي حمى وسعال شديد منذ ثلاثة أيام.",
+   "glosses": [
+    {
+     "text": "حمى",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a fever and a bad cough for three days."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "هل عندك أعراض أخرى، مثل ألم في الصدر؟",
+   "glosses": [
+    {
+     "text": "أعراض",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "ألم",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": "Do you have any other symptoms, like pain in your chest?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "لا يوجد ألم، لكنني أشعر بضعف شديد ولا أنام جيدا.",
+   "glosses": [
+    {
+     "text": "ألم",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t4",
+   "en": "No pain, but I feel very weak and I cannot sleep well."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "دعني أستمع إلى رئتيك. تنفس بعمق من فضلك.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Let me listen to your lungs. Please breathe deeply."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هل هو شيء خطير يا دكتور؟",
+   "glosses": [],
+   "id": "t6",
+   "en": "Is it something serious, doctor?"
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "لا، هي مجرد نزلة برد قوية. يجب أن ترتاح خمسة أيام على الأقل.",
+   "glosses": [
+    {
+     "text": "ترتاح",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": "No, it is just a strong flu. You need to rest for at least five days."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هل أتناول دواء؟",
+   "glosses": [],
+   "id": "t8",
+   "en": "Should I take any medicine?"
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "سأعطيك وصفة للحمى. واشرب الكثير من الماء أيضا.",
+   "glosses": [
+    {
+     "text": "حمى",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t9",
+   "en": "I will give you a prescription for the fever. Drink a lot of water, too."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "كم من الوقت أحتاج حتى أتعافى تماما؟",
+   "glosses": [
+    {
+     "text": "أتعافى",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": "How long will it take to recover completely?"
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "حوالي أسبوع. عد لتأخذ موعدا آخر إذا ساءت حالتك.",
+   "glosses": [
+    {
+     "text": "موعدا آخر",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": "About a week. Come back for another appointment if it gets worse."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "شكرا يا دكتور. سأتبع نصائحك.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you, doctor. I will follow your advice."
+  }
+ ],
+ "practice_words": []
+}

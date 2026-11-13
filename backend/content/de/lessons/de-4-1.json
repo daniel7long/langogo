@@ -1,0 +1,187 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "der Bahnhof",
+   "ipa": "/deːɐ̯ ˈbaːnhoːf/",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ja, bitte. Wo ist der Bahnhof? Ist er weit?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "links oder rechts abbiegen",
+   "ipa": "/lɪŋks ˈoːdɐ ʁɛçts ˈapbiːɡn̩/",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Und dann? Muss ich links oder rechts abbiegen?",
+     "en": "And then? Do I turn left or right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "geradeaus",
+   "ipa": "/ɡəˈʁaːdəˌaʊ̯s/",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Nein, er ist nicht weit. Gehen Sie zwei Straßen geradeaus.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "weit",
+   "ipa": "/vaɪ̯t/",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ja, bitte. Wo ist der Bahnhof? Ist er weit?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "der Ecke",
+   "ipa": "/deːɐ̯ ˈɛkə/",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Biegen Sie an der Ecke links ab. Der Bahnhof ist neben der Bank.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "einen Stadtplan",
+   "ipa": "/ˈaɪ̯nən ˈʃtatˌplaːn/",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Vielen Dank! Ich habe einen Stadtplan auf dem Handy, also ist es leicht.",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Entschuldigung, kann ich Ihnen helfen? Sie sehen verloren aus.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ja, bitte. Wo ist der Bahnhof? Ist er weit?",
+   "glosses": [
+    {
+     "text": "der Bahnhof",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "weit",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Nein, er ist nicht weit. Gehen Sie zwei Straßen geradeaus.",
+   "glosses": [
+    {
+     "text": "geradeaus",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "weit",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Und dann? Muss ich links oder rechts abbiegen?",
+   "glosses": [
+    {
+     "text": "links oder rechts abbiegen",
+     "pos": "phr.",
+     "meaning": "turn left"
+    }
+   ],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Biegen Sie an der Ecke links ab. Der Bahnhof ist neben der Bank.",
+   "glosses": [
+    {
+     "text": "Der Bahnhof",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "der Ecke",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Vielen Dank! Ich habe einen Stadtplan auf dem Handy, also ist es leicht.",
+   "glosses": [
+    {
+     "text": "einen Stadtplan",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

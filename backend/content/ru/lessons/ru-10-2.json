@@ -1,0 +1,258 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "удалённую работу",
+   "ipa": "udaljónnuju rabótu",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Моя компания рассматривает возможность сделать удалённую работу постоянной. Что ты думаешь?",
+     "en": "My company is considering making remote work permanent. What is your opinion?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "производительность",
+   "ipa": "proizvoditel'nost'",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "А производительность не страдает, когда люди дома?",
+     "en": "But does productivity not suffer when people are at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "гибкости",
+   "ipa": "gíbkosti",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Я за, главным образом из-за гибкости, которую она даёт сотрудникам.",
+     "en": "I am in favor, mainly because of the flexibility it gives employees."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "изоляции",
+   "ipa": "izoljátsii",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "А как насчёт изоляции? Мне не хватает болтовни с коллегами у кофемашины.",
+     "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "дорога на работу",
+   "ipa": "doróga na rabótu",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Дорога на работу худшая часть, должен признать. Я теряю по два часа в день.",
+     "en": "The commute is the worst part, I must admit. I lose two hours a day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "совмещать",
+   "ipa": "sovmeshchát'",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Значит, вопрос в том, как совмещать работу и личную жизнь.",
+     "en": "So the question is how to balance work and private life."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Моя компания рассматривает возможность сделать удалённую работу постоянной. Что ты думаешь?",
+   "glosses": [
+    {
+     "text": "удалённую работу",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": "My company is considering making remote work permanent. What is your opinion?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я за, главным образом из-за гибкости, которую она даёт сотрудникам.",
+   "glosses": [
+    {
+     "text": "гибкости",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": "I am in favor, mainly because of the flexibility it gives employees."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "А производительность не страдает, когда люди дома?",
+   "glosses": [
+    {
+     "text": "производительность",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": "But does productivity not suffer when people are at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Исследования говорят об обратном для многих профессий, хотя это зависит от человека.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Studies suggest the opposite for many jobs, though it depends on the person."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Мне трудно сосредоточиться дома из-за всех отвлекающих факторов.",
+   "glosses": [],
+   "id": "t5",
+   "en": "I find it hard to concentrate at home, with all the distractions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Справедливое замечание. Хорошее рабочее место сильно меняет дело.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is a fair point. A proper workspace makes a big difference."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "А как насчёт изоляции? Мне не хватает болтовни с коллегами у кофемашины.",
+   "glosses": [
+    {
+     "text": "изоляции",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Мне тоже, если честно. Поэтому я считаю, что лучше всего работает гибридная модель.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Me too, to be honest. That is why I think a hybrid model works best."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Два или три дня в офисе, может быть?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Two or three days in the office, perhaps?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Именно. Ты сохраняешь живое общение и при этом избегаешь ежедневной дороги на работу.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Exactly. You keep the human contact and still avoid the daily commute."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Дорога на работу худшая часть, должен признать. Я теряю по два часа в день.",
+   "glosses": [
+    {
+     "text": "Дорога на работу",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": "The commute is the worst part, I must admit. I lose two hours a day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Представь, что ты мог бы сделать с этим временем: спорт, семья, сон.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Imagine what you could do with that time: sport, family, sleep."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Конечно, это и лучше для окружающей среды.",
+   "glosses": [],
+   "id": "t13",
+   "en": "It is also better for the environment, of course."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Верно, хотя отопление дома весь день тоже расходует энергию.",
+   "glosses": [],
+   "id": "t14",
+   "en": "True, although heating a home all day uses energy, too."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Значит, вопрос в том, как совмещать работу и личную жизнь.",
+   "glosses": [
+    {
+     "text": "совмещать",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": "So the question is how to balance work and private life."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Верно. Чёткий рабочий график необходим, иначе никогда по-настоящему не отключишься.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Right. Clear working hours are essential, otherwise you never really switch off."
+  }
+ ],
+ "practice_words": []
+}

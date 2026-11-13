@@ -1,0 +1,242 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "会员卡",
+   "ipa": "huìyuánkǎ",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "会员卡一个月多少钱？",
+     "en": "How much does the membership cost for a month?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "教练",
+   "ipa": "jiàoliàn",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "那我建议开始时每周上三节教练课程。",
+     "en": "Then I recommend three sessions a week with a trainer at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "目标",
+   "ipa": "mùbiāo",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "太好了。您的主要目标是什么：减肥，还是变得更强壮？",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "锻炼",
+   "ipa": "duànliàn",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "是的，我想开始规律地锻炼。",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "课程",
+   "ipa": "kèchéng",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "那我建议开始时每周上三节教练课程。",
+     "en": "Then I recommend three sessions a week with a trainer at the beginning."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "更强壮",
+   "ipa": "gèng qiángzhuàng",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我想变得更强壮，白天也有更多精力。",
+     "en": "I want to get stronger and have more energy during the day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "欢迎来到健身房！您对办会员卡感兴趣吗？",
+   "glosses": [
+    {
+     "text": "会员卡",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "是的，我想开始规律地锻炼。",
+   "glosses": [
+    {
+     "text": "锻炼",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "太好了。您的主要目标是什么：减肥，还是变得更强壮？",
+   "glosses": [
+    {
+     "text": "目标",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "更强壮",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我想变得更强壮，白天也有更多精力。",
+   "glosses": [
+    {
+     "text": "更强壮",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "那我建议开始时每周上三节教练课程。",
+   "glosses": [
+    {
+     "text": "教练",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "课程",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "会员卡一个月多少钱？",
+   "glosses": [
+    {
+     "text": "会员卡",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "一个月三十五，而且第一节课是免费的。",
+   "glosses": [],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "听起来合理。我今天可以试试器械吗？",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "当然。我们的教练会向您演示怎么使用。",
+   "glosses": [
+    {
+     "text": "教练",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我需要自带毛巾吗？",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "需要，请带一条毛巾和一瓶水。",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "太好了。我现在就报名。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

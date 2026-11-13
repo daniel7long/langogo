@@ -1,0 +1,264 @@
+{
+ "emoji": "🖼️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "展覽",
+   "ipa": "zin2 laam5",
+   "pos": "n.",
+   "meaning": "an exhibition",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你覺得個展覽點樣？你好似好鍾意。",
+     "en": "What did you think of the exhibition? You seemed to enjoy it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "策展人",
+   "ipa": "caak3 zin2 jan4",
+   "pos": "n.",
+   "meaning": "a curator",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "好鍾意。策展人好用心咁揀咗啲展品。",
+     "en": "Very much. The curator chose the pieces very carefully."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "傑作",
+   "ipa": "git6 zok3",
+   "pos": "n.",
+   "meaning": "a masterpiece",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "最後一個展廳嗰幅大畫。佢被視為一件傑作。",
+     "en": "The large painting in the last room. It is considered a masterpiece."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "文化遺產",
+   "ipa": "man4 fa3 wai4 caan2",
+   "pos": "n.",
+   "meaning": "heritage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "但係維護文化遺產需要好多錢。",
+     "en": "But maintaining cultural heritage costs a lot of money."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "詮釋",
+   "ipa": "cyun4 sik1",
+   "pos": "n.",
+   "meaning": "interpretation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "藝術可以有唔同嘅詮釋，呢個正係博物館令人興奮嘅地方。",
+     "en": "Art is open to interpretation, which is what makes museums exciting."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "語音導賞",
+   "ipa": "jyu5 jam1 dou6 soeng2",
+   "pos": "n.",
+   "meaning": "an audio guide",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "樂意。今次我會預先下載語音導賞。",
+     "en": "Gladly. This time I will download the audio guide in advance."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "你覺得個展覽點樣？你好似好鍾意。",
+   "glosses": [
+    {
+     "text": "展覽",
+     "pos": "n.",
+     "meaning": "an exhibition"
+    }
+   ],
+   "id": "t1",
+   "en": "What did you think of the exhibition? You seemed to enjoy it."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "好鍾意。策展人好用心咁揀咗啲展品。",
+   "glosses": [
+    {
+     "text": "策展人",
+     "pos": "n.",
+     "meaning": "a curator"
+    }
+   ],
+   "id": "t2",
+   "en": "Very much. The curator chose the pieces very carefully."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "我同意。邊件作品令你印象最深？",
+   "glosses": [],
+   "id": "t3",
+   "en": "I agree. Which work impressed you most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "最後一個展廳嗰幅大畫。佢被視為一件傑作。",
+   "glosses": [
+    {
+     "text": "傑作",
+     "pos": "n.",
+     "meaning": "a masterpiece"
+    }
+   ],
+   "id": "t4",
+   "en": "The large painting in the last room. It is considered a masterpiece."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "你覺得點解佢咁出名？",
+   "glosses": [],
+   "id": "t5",
+   "en": "Why do you think it is so famous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "可能因為佢用好真實嘅方式展現普通人。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Perhaps because it shows ordinary people in a very honest way."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "有趣。我聽咗語音導賞，佢俾咗完全唔同嘅解釋。",
+   "glosses": [
+    {
+     "text": "語音導賞",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t7",
+   "en": "Interesting. I listened to the audio guide, and it gave a very different explanation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "藝術可以有唔同嘅詮釋，呢個正係博物館令人興奮嘅地方。",
+   "glosses": [
+    {
+     "text": "詮釋",
+     "pos": "n.",
+     "meaning": "interpretation"
+    }
+   ],
+   "id": "t8",
+   "en": "Art is open to interpretation, which is what makes museums exciting."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "係。有啲人話博物館唔應該咁貴。",
+   "glosses": [],
+   "id": "t9",
+   "en": "True. Some people say museums should not be so expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我覺得入場費應該平，因為文化屬於每一個人。",
+   "glosses": [],
+   "id": "t10",
+   "en": "I think entry should be cheap, because culture belongs to everyone."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "但係維護文化遺產需要好多錢。",
+   "glosses": [
+    {
+     "text": "文化遺產",
+     "pos": "n.",
+     "meaning": "heritage"
+    }
+   ],
+   "id": "t11",
+   "en": "But maintaining cultural heritage costs a lot of money."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "呢個係有道理嘅論點。或者每個月設幾日免費日可以折衷。",
+   "glosses": [],
+   "id": "t12",
+   "en": "That is a valid point. Perhaps free days each month could be a compromise."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "好多城市已經咁做，博物館就變得好擠迫。",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many cities already do that, and the museums become very crowded."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "不過人多係好兆頭：說明人哋重視藝術。",
+   "glosses": [],
+   "id": "t14",
+   "en": "Crowds are a good sign, though: they show that people value art."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "有道理。我哋下個週末去現代藝術博物館好嗎？",
+   "glosses": [],
+   "id": "t15",
+   "en": "Fair enough. Shall we visit the modern art museum next weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "樂意。今次我會預先下載語音導賞。",
+   "glosses": [
+    {
+     "text": "語音導賞",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t16",
+   "en": "Gladly. This time I will download the audio guide in advance."
+  }
+ ],
+ "practice_words": []
+}

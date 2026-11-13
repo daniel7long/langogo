@@ -1,0 +1,238 @@
+{
+ "emoji": "💼",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "面試",
+   "ipa": "min6 si3",
+   "pos": "n.",
+   "meaning": "an interview",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "早晨，多謝你嚟面試。",
+     "en": "Good morning, and thank you for coming to the interview."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "經驗",
+   "ipa": "ging1 jim6",
+   "pos": "n.",
+   "meaning": "experience",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "請你簡單介紹一下自己同你嘅經驗。",
+     "en": "Please tell me a little about yourself and your experience."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "應徵",
+   "ipa": "jing3 zing1",
+   "pos": "v.",
+   "meaning": "to apply",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "好有趣。你點解會應徵呢個職位？",
+     "en": "Interesting. Why did you apply for this position?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "團隊",
+   "ipa": "tyun4 deoi2",
+   "pos": "n.",
+   "meaning": "a team",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "你鍾意一個人做嘢，定係喺團隊入面做？",
+     "en": "Do you prefer working alone or as part of a team?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "優點",
+   "ipa": "jau1 dim2",
+   "pos": "n.",
+   "meaning": "a strength",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "你覺得自己最大嘅優點係咩？",
+     "en": "What would you say is your greatest strength?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "薪水",
+   "ipa": "san1 seoi2",
+   "pos": "n.",
+   "meaning": "a salary",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "有，可唔可以講下薪水同工作時間？",
+     "en": "Yes, could you tell me about the salary and the working hours?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "早晨，多謝你嚟面試。",
+   "glosses": [
+    {
+     "text": "面試",
+     "pos": "n.",
+     "meaning": "an interview"
+    }
+   ],
+   "id": "t1",
+   "en": "Good morning, and thank you for coming to the interview."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "早晨。多謝你邀請我。",
+   "glosses": [],
+   "id": "t2",
+   "en": "Good morning. Thank you for inviting me."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "請你簡單介紹一下自己同你嘅經驗。",
+   "glosses": [
+    {
+     "text": "經驗",
+     "pos": "n.",
+     "meaning": "experience"
+    }
+   ],
+   "id": "t3",
+   "en": "Please tell me a little about yourself and your experience."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我讀商科，喺市場部做咗三年。",
+   "glosses": [],
+   "id": "t4",
+   "en": "I studied business, and I have worked in marketing for three years."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "好有趣。你點解會應徵呢個職位？",
+   "glosses": [
+    {
+     "text": "應徵",
+     "pos": "v.",
+     "meaning": "to apply"
+    }
+   ],
+   "id": "t5",
+   "en": "Interesting. Why did you apply for this position?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我鍾意貴公司嘅項目，亦都想喺更大嘅團隊學嘢。",
+   "glosses": [
+    {
+     "text": "團隊",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t6",
+   "en": "I like your company's projects, and I want to learn in a bigger team."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "你覺得自己最大嘅優點係咩？",
+   "glosses": [
+    {
+     "text": "優點",
+     "pos": "n.",
+     "meaning": "a strength"
+    }
+   ],
+   "id": "t7",
+   "en": "What would you say is your greatest strength?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我做嘢有條理，而且有壓力嘅時候都可以保持冷靜。",
+   "glosses": [],
+   "id": "t8",
+   "en": "I am organized, and I stay calm when there is pressure."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "你鍾意一個人做嘢，定係喺團隊入面做？",
+   "glosses": [
+    {
+     "text": "團隊",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t9",
+   "en": "Do you prefer working alone or as part of a team?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "兩樣我都鍾意，不過我喺團隊入面做得最好。",
+   "glosses": [
+    {
+     "text": "團隊",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t10",
+   "en": "I enjoy both, but I do my best work in a team."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "好。我哋下個星期會聯絡你。你仲有咩問題嗎？",
+   "glosses": [],
+   "id": "t11",
+   "en": "Good. We will contact you next week. Do you have any questions?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有，可唔可以講下薪水同工作時間？",
+   "glosses": [
+    {
+     "text": "薪水",
+     "pos": "n.",
+     "meaning": "a salary"
+    }
+   ],
+   "id": "t12",
+   "en": "Yes, could you tell me about the salary and the working hours?"
+  }
+ ],
+ "practice_words": []
+}

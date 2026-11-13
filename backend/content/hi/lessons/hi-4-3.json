@@ -1,0 +1,198 @@
+{
+ "emoji": "🏨",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "आरक्षण",
+   "ipa": "aarakshan",
+   "pos": "n.",
+   "meaning": "a reservation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "नमस्ते, होटल में आपका स्वागत है। क्या आपका आरक्षण है?",
+     "en": "Hello, welcome to the hotel. Do you have a reservation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "कमरा",
+   "ipa": "kamra",
+   "pos": "n.",
+   "meaning": "a room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "धन्यवाद। कमरा नंबर क्या है?",
+     "en": "Thank you. What is the room number?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "रातों",
+   "ipa": "raaton",
+   "pos": "n.",
+   "meaning": "a night",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "जी हाँ, मेरे नाम से दो रातों के लिए एक कमरा है।",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "नाश्ता",
+   "ipa": "naashta",
+   "pos": "n.",
+   "meaning": "breakfast",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "बहुत बढ़िया। क्या नाश्ता शामिल है?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "शामिल",
+   "ipa": "shaamil",
+   "pos": "adj.",
+   "meaning": "included",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "बहुत बढ़िया। क्या नाश्ता शामिल है?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "चाबी",
+   "ipa": "chaabi",
+   "pos": "n.",
+   "meaning": "the key",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "जी हाँ, नाश्ता शामिल है, सात से दस बजे तक। यह आपकी चाबी है।",
+     "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "नमस्ते, होटल में आपका स्वागत है। क्या आपका आरक्षण है?",
+   "glosses": [
+    {
+     "text": "आरक्षण",
+     "pos": "n.",
+     "meaning": "a reservation"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, welcome to the hotel. Do you have a reservation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जी हाँ, मेरे नाम से दो रातों के लिए एक कमरा है।",
+   "glosses": [
+    {
+     "text": "कमरा",
+     "pos": "n.",
+     "meaning": "a room"
+    },
+    {
+     "text": "रातों",
+     "pos": "n.",
+     "meaning": "a night"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a room for two nights, under my name."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "जी, यह रहा। बगीचे के नज़ारे वाला एक सिंगल कमरा।",
+   "glosses": [
+    {
+     "text": "कमरा",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t3",
+   "en": "Yes, here it is. A single room with a view of the garden."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बहुत बढ़िया। क्या नाश्ता शामिल है?",
+   "glosses": [
+    {
+     "text": "नाश्ता",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "शामिल",
+     "pos": "adj.",
+     "meaning": "included"
+    }
+   ],
+   "id": "t4",
+   "en": "Wonderful. Is breakfast included?"
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "जी हाँ, नाश्ता शामिल है, सात से दस बजे तक। यह आपकी चाबी है।",
+   "glosses": [
+    {
+     "text": "नाश्ता",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "शामिल",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "चाबी",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "धन्यवाद। कमरा नंबर क्या है?",
+   "glosses": [
+    {
+     "text": "कमरा",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you. What is the room number?"
+  }
+ ],
+ "practice_words": []
+}

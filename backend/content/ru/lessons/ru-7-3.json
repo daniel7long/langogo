@@ -1,0 +1,231 @@
+{
+ "emoji": "📊",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "совещание",
+   "ipa": "soveshchánije",
+   "pos": "n.",
+   "meaning": "a meeting",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Давайте начнём совещание. У всех есть повестка дня, верно?",
+     "en": "Let us start the meeting. Everyone has the agenda, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "повестка дня",
+   "ipa": "povéstka dnja",
+   "pos": "n.",
+   "meaning": "an agenda",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Давайте начнём совещание. У всех есть повестка дня, верно?",
+     "en": "Let us start the meeting. Everyone has the agenda, right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "проект",
+   "ipa": "proékt",
+   "pos": "n.",
+   "meaning": "a project",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Верно. Как идёт проект на данный момент?",
+     "en": "Correct. How is the project going so far?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "предлагаю",
+   "ipa": "predlagáju",
+   "pos": "v.",
+   "meaning": "to suggest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Предлагаю добавить в команду одного человека на этой неделе.",
+     "en": "I suggest that we add one person to the team this week."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "согласны",
+   "ipa": "soglásny",
+   "pos": "v.",
+   "meaning": "to agree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Это возможно. Все согласны?",
+     "en": "That is a possibility. Does everybody agree?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "отчёт",
+   "ipa": "otchjót",
+   "pos": "n.",
+   "meaning": "a report",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Я согласен и могу написать отчёт об изменениях.",
+     "en": "I agree, and I can write the report about the changes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Давайте начнём совещание. У всех есть повестка дня, верно?",
+   "glosses": [
+    {
+     "text": "совещание",
+     "pos": "n.",
+     "meaning": "a meeting"
+    },
+    {
+     "text": "повестка дня",
+     "pos": "n.",
+     "meaning": "an agenda"
+    }
+   ],
+   "id": "t1",
+   "en": "Let us start the meeting. Everyone has the agenda, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, у меня она есть. Первый пункт, новый проект.",
+   "glosses": [
+    {
+     "text": "проект",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I have it. The first point is the new project."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Верно. Как идёт проект на данный момент?",
+   "glosses": [
+    {
+     "text": "проект",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t3",
+   "en": "Correct. How is the project going so far?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Хорошо, но мы отстаём от графика на два дня.",
+   "glosses": [],
+   "id": "t4",
+   "en": "It is going well, but we are two days behind schedule."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Что вы предлагаете с этим сделать?",
+   "glosses": [],
+   "id": "t5",
+   "en": "What do you suggest we do about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Предлагаю добавить в команду одного человека на этой неделе.",
+   "glosses": [
+    {
+     "text": "Предлагаю",
+     "pos": "v.",
+     "meaning": "to suggest"
+    }
+   ],
+   "id": "t6",
+   "en": "I suggest that we add one person to the team this week."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Это возможно. Все согласны?",
+   "glosses": [
+    {
+     "text": "согласны",
+     "pos": "v.",
+     "meaning": "to agree"
+    }
+   ],
+   "id": "t7",
+   "en": "That is a possibility. Does everybody agree?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я согласен и могу написать отчёт об изменениях.",
+   "glosses": [
+    {
+     "text": "отчёт",
+     "pos": "n.",
+     "meaning": "a report"
+    }
+   ],
+   "id": "t8",
+   "en": "I agree, and I can write the report about the changes."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Спасибо. Пришлите его мне, пожалуйста, до пятницы.",
+   "glosses": [],
+   "id": "t9",
+   "en": "Thank you. Please send it to me by Friday."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Без проблем. Отправлю в четверг после обеда.",
+   "glosses": [],
+   "id": "t10",
+   "en": "No problem. I will send it on Thursday afternoon."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Отлично. Есть ли что-то ещё, прежде чем мы закончим?",
+   "glosses": [],
+   "id": "t11",
+   "en": "Perfect. Is there anything else before we finish?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Только одно: можем ли мы снова встретиться в следующий понедельник?",
+   "glosses": [],
+   "id": "t12",
+   "en": "Just one thing: could we meet again next Monday?"
+  }
+ ],
+ "practice_words": []
+}

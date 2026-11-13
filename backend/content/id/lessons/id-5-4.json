@@ -1,0 +1,192 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "apartemen",
+   "ipa": "/apaɾˈtəmən/",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Halo, Anda tertarik dengan apartemen ini, bukan?",
+     "en": "Hello, you are interested in the apartment, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "sewa",
+   "ipa": "/ˈsəwa/",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ya. Berapa sewanya sebulan?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "sebulan",
+   "ipa": "/səˈbulan/",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ya. Berapa sewanya sebulan?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "berperabot",
+   "ipa": "/bəɾpəˈɾabɔt/",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Delapan ratus sebulan, dan apartemennya berperabot.",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "uang jaminan",
+   "ipa": "/ˈuaŋ ˈdʒaminan/",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Kedengarannya bagus. Apakah saya harus membayar uang jaminan?",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "kontrak",
+   "ipa": "/ˈkɔntɾak/",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ya, satu bulan sebagai uang jaminan. Kita tanda tangani kontrak besok.",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Halo, Anda tertarik dengan apartemen ini, bukan?",
+   "glosses": [
+    {
+     "text": "apartemen",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya. Berapa sewanya sebulan?",
+   "glosses": [
+    {
+     "text": "sewa",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "sebulan",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Delapan ratus sebulan, dan apartemennya berperabot.",
+   "glosses": [
+    {
+     "text": "apartemen",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "sebulan",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "berperabot",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Kedengarannya bagus. Apakah saya harus membayar uang jaminan?",
+   "glosses": [
+    {
+     "text": "uang jaminan",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Ya, satu bulan sebagai uang jaminan. Kita tanda tangani kontrak besok.",
+   "glosses": [
+    {
+     "text": "uang jaminan",
+     "pos": "n.",
+     "meaning": "a deposit"
+    },
+    {
+     "text": "kontrak",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bagus. Bolehkah saya melihat dapurnya lagi sebelum memutuskan?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,232 @@
+{
+ "emoji": "🗺️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "旅行",
+   "ipa": "lǚxíng",
+   "pos": "n.",
+   "meaning": "a trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "真好。旅行中最美的时刻是什么？",
+     "en": "That is lovely. What was the best moment of the trip?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "迷路",
+   "ipa": "mílù",
+   "pos": "phr.",
+   "meaning": "to get lost",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我先去了首都，但第一天就在老街里迷路了。",
+     "en": "I started in the capital, but on the first day I got lost in the old streets."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "难忘",
+   "ipa": "nánwàng",
+   "pos": "adj.",
+   "meaning": "unforgettable",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "对，我在国外待了十天。真是难忘。",
+     "en": "Yes, I spent ten days abroad. It was unforgettable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "当地人",
+   "ipa": "dāngdìrén",
+   "pos": "n.",
+   "meaning": "a local",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "一位友好的当地人给我指了路，还请我喝了咖啡。",
+     "en": "A friendly local showed me the way and even invited me for coffee."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "风景",
+   "ipa": "fēngjǐng",
+   "pos": "n.",
+   "meaning": "the view",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "在山坡上看日落。那里的风景太美了。",
+     "en": "Watching the sunset from a hill. The view was incredible."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "推荐",
+   "ipa": "tuījiàn",
+   "pos": "v.",
+   "meaning": "to recommend",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "你会把这个国家推荐给别人吗？",
+     "en": "Would you recommend the country to other people?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "你刚旅行回来，对吗？快跟我说说！",
+   "glosses": [
+    {
+     "text": "旅行",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t1",
+   "en": "You just came back from a trip, right? Tell me everything!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "对，我在国外待了十天。真是难忘。",
+   "glosses": [
+    {
+     "text": "难忘",
+     "pos": "adj.",
+     "meaning": "unforgettable"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I spent ten days abroad. It was unforgettable."
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "哇！你先去了哪里？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow! Where did you go first?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我先去了首都，但第一天就在老街里迷路了。",
+   "glosses": [
+    {
+     "text": "迷路",
+     "pos": "phr.",
+     "meaning": "to get lost"
+    }
+   ],
+   "id": "t4",
+   "en": "I started in the capital, but on the first day I got lost in the old streets."
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "哎呀！你是怎么找到路的？",
+   "glosses": [],
+   "id": "t5",
+   "en": "Oh no! How did you find your way?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "一位友好的当地人给我指了路，还请我喝了咖啡。",
+   "glosses": [
+    {
+     "text": "当地人",
+     "pos": "n.",
+     "meaning": "a local"
+    }
+   ],
+   "id": "t6",
+   "en": "A friendly local showed me the way and even invited me for coffee."
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "真好。旅行中最美的时刻是什么？",
+   "glosses": [
+    {
+     "text": "旅行",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t7",
+   "en": "That is lovely. What was the best moment of the trip?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "在山坡上看日落。那里的风景太美了。",
+   "glosses": [
+    {
+     "text": "风景",
+     "pos": "n.",
+     "meaning": "the view"
+    }
+   ],
+   "id": "t8",
+   "en": "Watching the sunset from a hill. The view was incredible."
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "你会把这个国家推荐给别人吗？",
+   "glosses": [
+    {
+     "text": "推荐",
+     "pos": "v.",
+     "meaning": "to recommend"
+    }
+   ],
+   "id": "t9",
+   "en": "Would you recommend the country to other people?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "当然。如果可以，我明天就想回去。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Absolutely. I would go back tomorrow if I could."
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "那就给我看看照片吧！",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then show me your photos, please!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "好啊。我拍了五百多张照片。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Of course. I took more than five hundred pictures."
+  }
+ ],
+ "practice_words": []
+}

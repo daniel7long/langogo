@@ -1,0 +1,281 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "頭條",
+   "ipa": "tau4 tiu4",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你有冇睇到今朝關於新稅法嘅頭條？",
+     "en": "Did you see this morning's headline about the new tax law?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "記者",
+   "ipa": "gei3 ze2",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我會比較幾個，因為即使係好嘅記者都可能有偏見。",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "來源",
+   "ipa": "loi4 jyun4",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你信邊啲新聞來源？",
+     "en": "Which news sources do you trust?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "偏見",
+   "ipa": "pin1 gin3",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我會比較幾個，因為即使係好嘅記者都可能有偏見。",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "核實",
+   "ipa": "hat6 sat6",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "好。而且分享文章之前，要自己先核實。",
+     "en": "Good. And share articles only after you have checked them yourself."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "意見",
+   "ipa": "ji3 gin3",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "係，而且冇問題，只要清楚標明係意見。",
+     "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "你有冇睇到今朝關於新稅法嘅頭條？",
+   "glosses": [
+    {
+     "text": "頭條",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t1",
+   "en": "Did you see this morning's headline about the new tax law?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "睇到，不過我想多睇啲再形成自己嘅意見。",
+   "glosses": [
+    {
+     "text": "意見",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": "I did, but I want to read more before forming an opinion."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "聰明。我淨係睇咗標題就已經嬲咗。",
+   "glosses": [],
+   "id": "t3",
+   "en": "Smart. I only read the title and I was already angry."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "頭條就係咁運作。佢哋係為咗吸引注意力而設計。",
+   "glosses": [
+    {
+     "text": "頭條",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t4",
+   "en": "That is exactly how headlines work. They are designed to attract attention."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "你信邊啲新聞來源？",
+   "glosses": [
+    {
+     "text": "來源",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t5",
+   "en": "Which news sources do you trust?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我會比較幾個，因為即使係好嘅記者都可能有偏見。",
+   "glosses": [
+    {
+     "text": "記者",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "偏見",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": "I compare several, because even good journalists can be biased."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "你點樣決定邊個更準確？",
+   "glosses": [],
+   "id": "t7",
+   "en": "How do you decide which one is more accurate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我搵證據、有名有姓嘅專家，同埋啲事實可唔可以核實。",
+   "glosses": [
+    {
+     "text": "核實",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": "I look for evidence, named experts, and whether the facts can be verified."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "呢啲嘢我五分鐘就做完，要花咁多力。",
+   "glosses": [],
+   "id": "t9",
+   "en": "That takes a lot of effort for something I do in five minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "係，但係消息靈通係做一個負責任公民嘅一部分。",
+   "glosses": [],
+   "id": "t10",
+   "en": "True, but being well informed is part of being a responsible citizen."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "咁評論文章呢？佢哋唔係淨係個人睇法咩？",
+   "glosses": [],
+   "id": "t11",
+   "en": "What about opinion articles? Are they not just personal views?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "係，而且冇問題，只要清楚標明係意見。",
+   "glosses": [
+    {
+     "text": "意見",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t12",
+   "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "不過好多人都留意唔到當中嘅分別。",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many people do not notice the difference, though."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "所以學校嘅媒體教育先至咁重要。",
+   "glosses": [],
+   "id": "t14",
+   "en": "That is why media education in schools matters so much."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "我同意。由而家開始我會盡量至少睇兩個來源。",
+   "glosses": [
+    {
+     "text": "來源",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": "I agree. I will try to read at least two sources from now on."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "好。而且分享文章之前，要自己先核實。",
+   "glosses": [
+    {
+     "text": "核實",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t16",
+   "en": "Good. And share articles only after you have checked them yourself."
+  }
+ ],
+ "practice_words": []
+}

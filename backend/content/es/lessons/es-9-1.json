@@ -1,0 +1,237 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "síntomas",
+   "ipa": "/ˈsin.to.mas/",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "¿Tiene otros síntomas, como dolor en el pecho?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "fiebre",
+   "ipa": "/ˈfje.βɾe/",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tengo fiebre y una tos fuerte desde hace tres días.",
+     "en": "I have had a fever and a bad cough for three days."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "dolor",
+   "ipa": "/do.ˈloɾ/",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "¿Tiene otros síntomas, como dolor en el pecho?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "descansar",
+   "ipa": "/des.kan.ˈsaɾ/",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "No, es solo una gripe fuerte. Necesita descansar al menos cinco días.",
+     "en": "No, it is just a strong flu. You need to rest for at least five days."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "recuperarme",
+   "ipa": "/re.ku.pe.ˈɾaɾ.me/",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "¿Cuánto tardaré en recuperarme del todo?",
+     "en": "How long will it take to recover completely?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "otra cita",
+   "ipa": "/ˈo.tɾa ˈsi.ta/",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Una semana más o menos. Vuelva para otra cita si empeora.",
+     "en": "About a week. Come back for another appointment if it gets worse."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "Hola, siéntese, por favor. ¿Qué le trae por aquí hoy?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello, please sit down. What brings you here today?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tengo fiebre y una tos fuerte desde hace tres días.",
+   "glosses": [
+    {
+     "text": "fiebre",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a fever and a bad cough for three days."
+  },
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "¿Tiene otros síntomas, como dolor en el pecho?",
+   "glosses": [
+    {
+     "text": "síntomas",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "dolor",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": "Do you have any other symptoms, like pain in your chest?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "No hay dolor, pero me siento muy débil y no puedo dormir bien.",
+   "glosses": [
+    {
+     "text": "dolor",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t4",
+   "en": "No pain, but I feel very weak and I cannot sleep well."
+  },
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "Déjeme escuchar sus pulmones. Respire hondo, por favor.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Let me listen to your lungs. Please breathe deeply."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¿Es algo grave, doctor?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Is it something serious, doctor?"
+  },
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "No, es solo una gripe fuerte. Necesita descansar al menos cinco días.",
+   "glosses": [
+    {
+     "text": "descansar",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": "No, it is just a strong flu. You need to rest for at least five days."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¿Debo tomar algún medicamento?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Should I take any medicine?"
+  },
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "Le daré una receta para la fiebre. Beba también mucha agua.",
+   "glosses": [
+    {
+     "text": "fiebre",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t9",
+   "en": "I will give you a prescription for the fever. Drink a lot of water, too."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¿Cuánto tardaré en recuperarme del todo?",
+   "glosses": [
+    {
+     "text": "recuperarme",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": "How long will it take to recover completely?"
+  },
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "Una semana más o menos. Vuelva para otra cita si empeora.",
+   "glosses": [
+    {
+     "text": "otra cita",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": "About a week. Come back for another appointment if it gets worse."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Gracias, doctor. Seguiré sus consejos.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you, doctor. I will follow your advice."
+  }
+ ],
+ "practice_words": []
+}

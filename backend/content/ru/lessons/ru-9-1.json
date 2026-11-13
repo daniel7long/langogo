@@ -1,0 +1,225 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "симптомы",
+   "ipa": "simptómy",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Есть ли другие симптомы, например, боли в груди?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "температура",
+   "ipa": "temperatúra",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "У меня температура и сильный кашель уже три дня.",
+     "en": "I have had a fever and a bad cough for three days."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "боли",
+   "ipa": "boli",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Есть ли другие симптомы, например, боли в груди?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "отдохнуть",
+   "ipa": "otdokhnút'",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Нет, это просто сильный грипп. Вам нужно отдохнуть не менее пяти дней.",
+     "en": "No, it is just a strong flu. You need to rest for at least five days."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "восстановиться",
+   "ipa": "vosstanovít'sja",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Сколько времени мне нужно, чтобы полностью восстановиться?",
+     "en": "How long will it take to recover completely?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "приём",
+   "ipa": "priyóm",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Примерно неделю. Приходите на повторный приём, если станет хуже.",
+     "en": "About a week. Come back for another appointment if it gets worse."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Здравствуйте, садитесь, пожалуйста. Что привело вас сегодня?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello, please sit down. What brings you here today?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "У меня температура и сильный кашель уже три дня.",
+   "glosses": [
+    {
+     "text": "температура",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a fever and a bad cough for three days."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Есть ли другие симптомы, например, боли в груди?",
+   "glosses": [
+    {
+     "text": "симптомы",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "боли",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": "Do you have any other symptoms, like pain in your chest?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Болей нет, но я чувствую сильную слабость и плохо сплю.",
+   "glosses": [],
+   "id": "t4",
+   "en": "No pain, but I feel very weak and I cannot sleep well."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Давайте послушаем лёгкие. Глубоко подышите, пожалуйста.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Let me listen to your lungs. Please breathe deeply."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Это что-то серьёзное, доктор?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Is it something serious, doctor?"
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Нет, это просто сильный грипп. Вам нужно отдохнуть не менее пяти дней.",
+   "glosses": [
+    {
+     "text": "отдохнуть",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": "No, it is just a strong flu. You need to rest for at least five days."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Нужно ли что-то принимать?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Should I take any medicine?"
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Я выпишу рецепт от температуры. И пейте побольше воды.",
+   "glosses": [],
+   "id": "t9",
+   "en": "I will give you a prescription for the fever. Drink a lot of water, too."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Сколько времени мне нужно, чтобы полностью восстановиться?",
+   "glosses": [
+    {
+     "text": "восстановиться",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": "How long will it take to recover completely?"
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Примерно неделю. Приходите на повторный приём, если станет хуже.",
+   "glosses": [
+    {
+     "text": "приём",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": "About a week. Come back for another appointment if it gets worse."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Спасибо, доктор. Я буду следовать вашим советам.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you, doctor. I will follow your advice."
+  }
+ ],
+ "practice_words": []
+}

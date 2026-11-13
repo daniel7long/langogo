@@ -1,0 +1,186 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "स्टेशन",
+   "ipa": "steshan",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "जी हाँ, कृपया। स्टेशन कहाँ है? क्या वह दूर है?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "बाएँ मुड़िए",
+   "ipa": "baen mudie",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "मोड़ पर बाएँ मुड़िए। स्टेशन बैंक के बगल में है।",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "सीधे",
+   "ipa": "seedhe",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "नहीं, दूर नहीं है। सीधे दो सड़कें आगे जाइए।",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "दूर",
+   "ipa": "door",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "नहीं, दूर नहीं है। सीधे दो सड़कें आगे जाइए।",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "मोड़",
+   "ipa": "mod",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "मोड़ पर बाएँ मुड़िए। स्टेशन बैंक के बगल में है।",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "नक्शा",
+   "ipa": "naksha",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "बहुत धन्यवाद! मेरे फ़ोन में नक्शा है, इसलिए आसान होगा।",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "माफ़ कीजिए, क्या मैं आपकी मदद कर सकता हूँ? आप रास्ता भूले हुए लग रहे हैं।",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जी हाँ, कृपया। स्टेशन कहाँ है? क्या वह दूर है?",
+   "glosses": [
+    {
+     "text": "स्टेशन",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "दूर",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "नहीं, दूर नहीं है। सीधे दो सड़कें आगे जाइए।",
+   "glosses": [
+    {
+     "text": "सीधे",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "दूर",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "फिर? क्या मैं बाएँ मुड़ूँ या दाएँ?",
+   "glosses": [],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "मोड़ पर बाएँ मुड़िए। स्टेशन बैंक के बगल में है।",
+   "glosses": [
+    {
+     "text": "स्टेशन",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "बाएँ मुड़िए",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "मोड़",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बहुत धन्यवाद! मेरे फ़ोन में नक्शा है, इसलिए आसान होगा।",
+   "glosses": [
+    {
+     "text": "नक्शा",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

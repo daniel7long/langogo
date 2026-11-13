@@ -1,0 +1,257 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "sampah",
+   "ipa": "/ˈsampah/",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ya, aku berusaha mengurangi sampah, jadi aku berhenti membeli botol plastik.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "mendaur ulang",
+   "ipa": "/mənˈdaur ˈulaŋ/",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Itu awal yang bagus. Apakah kamu mendaur ulang semuanya di rumah?",
+     "en": "That is a good start. Do you recycle everything at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "emisi",
+   "ipa": "/əˈmisi/",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Bagaimana dengan transportasi? Mobil menghasilkan banyak emisi.",
+     "en": "What about transport? Cars produce a lot of emissions."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "terbarukan",
+   "ipa": "/təɾbaˈɾukan/",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aku setuju. Energi terbarukan adalah tempat perubahan terbesar harus terjadi.",
+     "en": "I agree. Renewable energy is where the biggest change must happen."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "berkelanjutan",
+   "ipa": "/bəɾkəlanˈdʒutan/",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Beberapa orang masih bilang produk yang berkelanjutan terlalu mahal.",
+     "en": "Some people still say sustainable products are too expensive."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "mengurangi",
+   "ipa": "/məŋuˈɾaŋi/",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ya, aku berusaha mengurangi sampah, jadi aku berhenti membeli botol plastik.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Apakah kamu mengubah kebiasaan akhir-akhir ini untuk melindungi lingkungan?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Have you changed any habits recently to protect the environment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya, aku berusaha mengurangi sampah, jadi aku berhenti membeli botol plastik.",
+   "glosses": [
+    {
+     "text": "sampah",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "mengurangi",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Itu awal yang bagus. Apakah kamu mendaur ulang semuanya di rumah?",
+   "glosses": [
+    {
+     "text": "mendaur ulang",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": "That is a good start. Do you recycle everything at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Semua yang bisa. Kertas, kaca, plastik, bahkan sisa makanan untuk kompos.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Everything I can. Paper, glass, plastic and even food scraps for compost."
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Mengesankan. Aku seharusnya berbuat lebih banyak, tetapi itu memakan waktu.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Impressive. I should do more, but it takes so much time."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Lama-lama jadi otomatis setelah beberapa minggu, sungguh.",
+   "glosses": [],
+   "id": "t6",
+   "en": "It becomes automatic after a few weeks, honestly."
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Bagaimana dengan transportasi? Mobil menghasilkan banyak emisi.",
+   "glosses": [
+    {
+     "text": "emisi",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": "What about transport? Cars produce a lot of emissions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku bersepeda ke tempat kerja hampir setiap hari dan naik kereta untuk perjalanan jauh.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I cycle to work most days, and I use trains for long trips."
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Menurutmu, apakah tindakan individu benar-benar berarti?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you think individual actions really matter, though?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Berarti, tetapi perusahaan dan pemerintah harus bertindak dalam skala yang lebih besar.",
+   "glosses": [],
+   "id": "t10",
+   "en": "They do, but companies and governments must act on a bigger scale."
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Aku setuju. Energi terbarukan adalah tempat perubahan terbesar harus terjadi.",
+   "glosses": [
+    {
+     "text": "terbarukan",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. Renewable energy is where the biggest change must happen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tepat. Tenaga surya dan angin makin murah setiap tahun.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Exactly. Solar and wind power are becoming cheaper every year."
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Beberapa orang masih bilang produk yang berkelanjutan terlalu mahal.",
+   "glosses": [
+    {
+     "text": "berkelanjutan",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people still say sustainable products are too expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Dalam jangka pendek mungkin, tetapi produk itu lebih awet dan menghemat uang nantinya.",
+   "glosses": [],
+   "id": "t14",
+   "en": "In the short term, maybe, but they last longer and save money later."
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Kamu meyakinkanku. Aku akan mulai dengan tempat kompos.",
+   "glosses": [],
+   "id": "t15",
+   "en": "You have convinced me. I will start with a compost bin."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bagus sekali. Langkah kecil lebih baik daripada menunggu solusi yang sempurna.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wonderful. Small steps are better than waiting for a perfect solution."
+  }
+ ],
+ "practice_words": []
+}

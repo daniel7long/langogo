@@ -25,7 +25,7 @@ import { colors, radius, shadows, spacing, typography } from '../theme';
 const MAX_RECORD_MS = 30000;
 const MIN_RECORD_MS = 600;
 
-// The last step of the level test: read one French sentence aloud. It is scored like a dialogue line
+// The last step of the level test: read one sentence aloud. It is scored like a dialogue line
 // (pronunciation and fluency) and there is no retry: when you stop, the recording is sent and you see your result.
 export default function LevelSpeakScreen() {
   const router = useRouter();
@@ -37,7 +37,7 @@ export default function LevelSpeakScreen() {
     <Screen>
       <AsyncState state={state} skeleton={<ListSkeleton rows={3} />} onBack={() => router.replace('/level-test')}>
         {(test) => (
-          <MicGate language="French">
+          <MicGate language={test.language || 'French'}>
             <SpeakStep testId={id} speaking={test.speaking} />
           </MicGate>
         )}

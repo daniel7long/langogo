@@ -36,7 +36,7 @@ export default function OnboardingScreen() {
 function Welcome({ me }) {
   const router = useRouter();
   const lang = me.language ?? 'fr';
-  const hasTest = lang === 'fr';
+  const hasTest = true; // every language has a level test
   return (
     <>
       <View style={styles.top}>

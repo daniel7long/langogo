@@ -1,0 +1,192 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "아파트",
+   "ipa": "apateu",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "안녕하세요, 이 아파트에 관심이 있으신 거죠?",
+     "en": "Hello, you are interested in the apartment, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "월세",
+   "ipa": "wolse",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네. 월세는 한 달에 얼마예요?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "한 달",
+   "ipa": "han dal",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네. 월세는 한 달에 얼마예요?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "가구가 있어요",
+   "ipa": "gagu-ga isseoyo",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "한 달에 팔백이고, 가구가 있어요.",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "보증금",
+   "ipa": "bojeunggeum",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "좋네요. 보증금을 내야 해요?",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "계약서",
+   "ipa": "gyeyakseo",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네, 한 달 치를 보증금으로 내세요. 계약서는 내일 써요.",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "안녕하세요, 이 아파트에 관심이 있으신 거죠?",
+   "glosses": [
+    {
+     "text": "아파트",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "네. 월세는 한 달에 얼마예요?",
+   "glosses": [
+    {
+     "text": "월세",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "한 달",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "한 달에 팔백이고, 가구가 있어요.",
+   "glosses": [
+    {
+     "text": "한 달",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "가구가 있어요",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "좋네요. 보증금을 내야 해요?",
+   "glosses": [
+    {
+     "text": "보증금",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "네, 한 달 치를 보증금으로 내세요. 계약서는 내일 써요.",
+   "glosses": [
+    {
+     "text": "한 달",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "보증금",
+     "pos": "n.",
+     "meaning": "a deposit"
+    },
+    {
+     "text": "계약서",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "좋아요. 결정하기 전에 부엌을 한 번 더 봐도 될까요?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

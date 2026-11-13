@@ -1,0 +1,237 @@
+{
+ "emoji": "🗺️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "رحلة",
+   "ipa": "riḥla",
+   "pos": "n.",
+   "meaning": "a trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "جميل. ما أجمل لحظة في الرحلة؟",
+     "en": "That is lovely. What was the best moment of the trip?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ضعت",
+   "ipa": "ḍiʿt",
+   "pos": "phr.",
+   "meaning": "to get lost",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "بدأت بالعاصمة، لكنني ضعت في اليوم الأول في الشوارع القديمة.",
+     "en": "I started in the capital, but on the first day I got lost in the old streets."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "لا تُنسى",
+   "ipa": "lā tunsā",
+   "pos": "adj.",
+   "meaning": "unforgettable",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "نعم، قضيت عشرة أيام في الخارج. كانت رحلة لا تُنسى.",
+     "en": "Yes, I spent ten days abroad. It was unforgettable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "أحد السكان المحليين",
+   "ipa": "aḥad as-sukkān al-maḥalliyyīn",
+   "pos": "n.",
+   "meaning": "a local",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "أحد السكان المحليين اللطفاء دلني على الطريق، وحتى دعاني إلى قهوة.",
+     "en": "A friendly local showed me the way and even invited me for coffee."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "المنظر",
+   "ipa": "al-manẓar",
+   "pos": "n.",
+   "meaning": "the view",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "غروب الشمس من فوق تل. كان المنظر لا يصدق.",
+     "en": "Watching the sunset from a hill. The view was incredible."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "توصي",
+   "ipa": "tūṣī",
+   "pos": "v.",
+   "meaning": "to recommend",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "هل توصي بالبلد لآخرين أيضا؟",
+     "en": "Would you recommend the country to other people?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "لقد عدت للتو من رحلة، أليس كذلك؟ أخبرني بكل شيء!",
+   "glosses": [
+    {
+     "text": "رحلة",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t1",
+   "en": "You just came back from a trip, right? Tell me everything!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، قضيت عشرة أيام في الخارج. كانت رحلة لا تُنسى.",
+   "glosses": [
+    {
+     "text": "رحلة",
+     "pos": "n.",
+     "meaning": "a trip"
+    },
+    {
+     "text": "لا تُنسى",
+     "pos": "adj.",
+     "meaning": "unforgettable"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I spent ten days abroad. It was unforgettable."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "رائع! إلى أين ذهبت أولا؟",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow! Where did you go first?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بدأت بالعاصمة، لكنني ضعت في اليوم الأول في الشوارع القديمة.",
+   "glosses": [
+    {
+     "text": "ضعت",
+     "pos": "phr.",
+     "meaning": "to get lost"
+    }
+   ],
+   "id": "t4",
+   "en": "I started in the capital, but on the first day I got lost in the old streets."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "يا إلهي! كيف وجدت طريقك؟",
+   "glosses": [],
+   "id": "t5",
+   "en": "Oh no! How did you find your way?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أحد السكان المحليين اللطفاء دلني على الطريق، وحتى دعاني إلى قهوة.",
+   "glosses": [
+    {
+     "text": "أحد السكان المحليين",
+     "pos": "n.",
+     "meaning": "a local"
+    }
+   ],
+   "id": "t6",
+   "en": "A friendly local showed me the way and even invited me for coffee."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "جميل. ما أجمل لحظة في الرحلة؟",
+   "glosses": [
+    {
+     "text": "رحلة",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t7",
+   "en": "That is lovely. What was the best moment of the trip?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "غروب الشمس من فوق تل. كان المنظر لا يصدق.",
+   "glosses": [
+    {
+     "text": "المنظر",
+     "pos": "n.",
+     "meaning": "the view"
+    }
+   ],
+   "id": "t8",
+   "en": "Watching the sunset from a hill. The view was incredible."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "هل توصي بالبلد لآخرين أيضا؟",
+   "glosses": [
+    {
+     "text": "توصي",
+     "pos": "v.",
+     "meaning": "to recommend"
+    }
+   ],
+   "id": "t9",
+   "en": "Would you recommend the country to other people?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بالتأكيد. كنت سأعود غدا لو استطعت.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Absolutely. I would go back tomorrow if I could."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "إذن أرني الصور، من فضلك!",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then show me your photos, please!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بالطبع. التقطت أكثر من خمسمئة صورة.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Of course. I took more than five hundred pictures."
+  }
+ ],
+ "practice_words": []
+}

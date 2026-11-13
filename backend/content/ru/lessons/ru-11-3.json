@@ -1,0 +1,264 @@
+{
+ "emoji": "🖼️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "выставка",
+   "ipa": "výstavka",
+   "pos": "n.",
+   "meaning": "an exhibition",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Как тебе выставка? Казалось, тебе понравилось.",
+     "en": "What did you think of the exhibition? You seemed to enjoy it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "куратор",
+   "ipa": "kurátor",
+   "pos": "n.",
+   "meaning": "a curator",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Очень. Куратор очень тщательно выбрал экспонаты.",
+     "en": "Very much. The curator chose the pieces very carefully."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "шедевром",
+   "ipa": "shedévrom",
+   "pos": "n.",
+   "meaning": "a masterpiece",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Большая картина в последнем зале. Её считают шедевром.",
+     "en": "The large painting in the last room. It is considered a masterpiece."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "наследия",
+   "ipa": "naslédija",
+   "pos": "n.",
+   "meaning": "heritage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Но содержание культурного наследия стоит больших денег.",
+     "en": "But maintaining cultural heritage costs a lot of money."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "толкования",
+   "ipa": "tolkovánija",
+   "pos": "n.",
+   "meaning": "interpretation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Искусство открыто для толкования, и именно это делает музеи такими увлекательными.",
+     "en": "Art is open to interpretation, which is what makes museums exciting."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "аудиогид",
+   "ipa": "audiogíd",
+   "pos": "n.",
+   "meaning": "an audio guide",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "С удовольствием. На этот раз я скачаю аудиогид заранее.",
+     "en": "Gladly. This time I will download the audio guide in advance."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Как тебе выставка? Казалось, тебе понравилось.",
+   "glosses": [
+    {
+     "text": "выставка",
+     "pos": "n.",
+     "meaning": "an exhibition"
+    }
+   ],
+   "id": "t1",
+   "en": "What did you think of the exhibition? You seemed to enjoy it."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Очень. Куратор очень тщательно выбрал экспонаты.",
+   "glosses": [
+    {
+     "text": "Куратор",
+     "pos": "n.",
+     "meaning": "a curator"
+    }
+   ],
+   "id": "t2",
+   "en": "Very much. The curator chose the pieces very carefully."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Согласна. Какая работа впечатлила тебя больше всего?",
+   "glosses": [],
+   "id": "t3",
+   "en": "I agree. Which work impressed you most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Большая картина в последнем зале. Её считают шедевром.",
+   "glosses": [
+    {
+     "text": "шедевром",
+     "pos": "n.",
+     "meaning": "a masterpiece"
+    }
+   ],
+   "id": "t4",
+   "en": "The large painting in the last room. It is considered a masterpiece."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Как думаешь, почему она так известна?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Why do you think it is so famous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Возможно, потому что она очень искренне показывает обычных людей.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Perhaps because it shows ordinary people in a very honest way."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Интересно. Я слушала аудиогид, и он дал совсем другое объяснение.",
+   "glosses": [
+    {
+     "text": "аудиогид",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t7",
+   "en": "Interesting. I listened to the audio guide, and it gave a very different explanation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Искусство открыто для толкования, и именно это делает музеи такими увлекательными.",
+   "glosses": [
+    {
+     "text": "толкования",
+     "pos": "n.",
+     "meaning": "interpretation"
+    }
+   ],
+   "id": "t8",
+   "en": "Art is open to interpretation, which is what makes museums exciting."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Верно. Некоторые говорят, что музеи не должны быть такими дорогими.",
+   "glosses": [],
+   "id": "t9",
+   "en": "True. Some people say museums should not be so expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я считаю, что вход должен быть дешёвым, потому что культура принадлежит всем.",
+   "glosses": [],
+   "id": "t10",
+   "en": "I think entry should be cheap, because culture belongs to everyone."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Но содержание культурного наследия стоит больших денег.",
+   "glosses": [
+    {
+     "text": "наследия",
+     "pos": "n.",
+     "meaning": "heritage"
+    }
+   ],
+   "id": "t11",
+   "en": "But maintaining cultural heritage costs a lot of money."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Это веский довод. Может быть, компромиссом стали бы бесплатные дни каждый месяц.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That is a valid point. Perhaps free days each month could be a compromise."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Многие города уже так делают, и музеи становятся очень многолюдными.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many cities already do that, and the museums become very crowded."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Однако толпы это хороший знак: они показывают, что люди ценят искусство.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Crowds are a good sign, though: they show that people value art."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Справедливо. Сходим в музей современного искусства в следующие выходные?",
+   "glosses": [],
+   "id": "t15",
+   "en": "Fair enough. Shall we visit the modern art museum next weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "С удовольствием. На этот раз я скачаю аудиогид заранее.",
+   "glosses": [
+    {
+     "text": "аудиогид",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t16",
+   "en": "Gladly. This time I will download the audio guide in advance."
+  }
+ ],
+ "practice_words": []
+}

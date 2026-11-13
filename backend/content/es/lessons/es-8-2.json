@@ -1,0 +1,225 @@
+{
+ "emoji": "🛎️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "una queja",
+   "ipa": "/ˈu.na ˈke.xa/",
+   "pos": "n.",
+   "meaning": "a complaint",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Buenas noches. Tengo una queja sobre mi habitación.",
+     "en": "Good evening. I have a complaint about my room."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ruidosa",
+   "ipa": "/rwiˈðo.sa/",
+   "pos": "adj.",
+   "meaning": "noisy",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "El aire acondicionado está estropeado y la habitación de al lado es muy ruidosa.",
+     "en": "The air conditioning is broken, and the room next door is very noisy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "estropeado",
+   "ipa": "/es.tɾo.peˈa.ðo/",
+   "pos": "adj.",
+   "meaning": "broken",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "El aire acondicionado está estropeado y la habitación de al lado es muy ruidosa.",
+     "en": "The air conditioning is broken, and the room next door is very noisy."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "arreglar",
+   "ipa": "/a.re.ˈɣlaɾ/",
+   "pos": "v.",
+   "meaning": "to fix",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Le pido disculpas. Enviaré a alguien a arreglar el aire acondicionado enseguida.",
+     "en": "I apologize. I will send someone to fix the air conditioning right away."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "el director",
+   "ipa": "/el di.ɾek.ˈtoɾ/",
+   "pos": "n.",
+   "meaning": "the manager",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Si no, quisiera hablar con el director.",
+     "en": "If not, I would like to speak to the manager."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "un reembolso",
+   "ipa": "/un re.em.ˈbol.so/",
+   "pos": "n.",
+   "meaning": "a refund",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Bien. ¿Y podría tener un reembolso por esta noche por las molestias?",
+     "en": "Good. And could I have a refund for tonight because of the trouble?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Pablo",
+   "role": "npc",
+   "text": "Buenas noches. ¿En qué puedo ayudarle?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good evening. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Buenas noches. Tengo una queja sobre mi habitación.",
+   "glosses": [
+    {
+     "text": "una queja",
+     "pos": "n.",
+     "meaning": "a complaint"
+    }
+   ],
+   "id": "t2",
+   "en": "Good evening. I have a complaint about my room."
+  },
+  {
+   "speaker": "Pablo",
+   "role": "npc",
+   "text": "Lamento oírlo. ¿Cuál es el problema?",
+   "glosses": [],
+   "id": "t3",
+   "en": "I am sorry to hear that. What is the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "El aire acondicionado está estropeado y la habitación de al lado es muy ruidosa.",
+   "glosses": [
+    {
+     "text": "ruidosa",
+     "pos": "adj.",
+     "meaning": "noisy"
+    },
+    {
+     "text": "estropeado",
+     "pos": "adj.",
+     "meaning": "broken"
+    }
+   ],
+   "id": "t4",
+   "en": "The air conditioning is broken, and the room next door is very noisy."
+  },
+  {
+   "speaker": "Pablo",
+   "role": "npc",
+   "text": "Le pido disculpas. Enviaré a alguien a arreglar el aire acondicionado enseguida.",
+   "glosses": [
+    {
+     "text": "arreglar",
+     "pos": "v.",
+     "meaning": "to fix"
+    }
+   ],
+   "id": "t5",
+   "en": "I apologize. I will send someone to fix the air conditioning right away."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Gracias, pero cuando reservé pedí una habitación tranquila.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you, but I asked for a quiet room when I booked."
+  },
+  {
+   "speaker": "Pablo",
+   "role": "npc",
+   "text": "Tiene razón. Déjeme ver si tenemos otra habitación disponible.",
+   "glosses": [],
+   "id": "t7",
+   "en": "You are right. Let me check if we have another room available."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Si no, quisiera hablar con el director.",
+   "glosses": [
+    {
+     "text": "el director",
+     "pos": "n.",
+     "meaning": "the manager"
+    }
+   ],
+   "id": "t8",
+   "en": "If not, I would like to speak to the manager."
+  },
+  {
+   "speaker": "Pablo",
+   "role": "npc",
+   "text": "Entiendo. Tenemos una habitación tranquila en el cuarto piso.",
+   "glosses": [],
+   "id": "t9",
+   "en": "I understand. We have a quiet room on the fourth floor."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bien. ¿Y podría tener un reembolso por esta noche por las molestias?",
+   "glosses": [
+    {
+     "text": "un reembolso",
+     "pos": "n.",
+     "meaning": "a refund"
+    }
+   ],
+   "id": "t10",
+   "en": "Good. And could I have a refund for tonight because of the trouble?"
+  },
+  {
+   "speaker": "Pablo",
+   "role": "npc",
+   "text": "Puedo ofrecerle un veinte por ciento de descuento. ¿Le parece aceptable?",
+   "glosses": [],
+   "id": "t11",
+   "en": "I can give you a twenty percent discount. Would that be acceptable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sí, es justo. Gracias por resolver el problema.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes, that is fair. Thank you for solving the problem."
+  }
+ ],
+ "practice_words": []
+}

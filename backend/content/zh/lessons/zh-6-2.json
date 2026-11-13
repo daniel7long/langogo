@@ -1,0 +1,182 @@
+{
+ "emoji": "🎸",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "爱好",
+   "ipa": "àihào",
+   "pos": "n.",
+   "meaning": "a hobby",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "真的吗？这是个很好的爱好。我更喜欢游泳。",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "空闲时间",
+   "ipa": "kòngxián shíjiān",
+   "pos": "phr.",
+   "meaning": "free time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你空闲时间喜欢做什么？",
+     "en": "What do you like to do in your free time?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "打",
+   "ipa": "dǎ",
+   "pos": "v.",
+   "meaning": "to play",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我喜欢读书，星期天经常打网球。",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "经常",
+   "ipa": "jīngcháng",
+   "pos": "adv.",
+   "meaning": "often",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我喜欢读书，星期天经常打网球。",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "更喜欢",
+   "ipa": "gèng xǐhuan",
+   "pos": "v.",
+   "meaning": "to prefer",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "真的吗？这是个很好的爱好。我更喜欢游泳。",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "游泳池",
+   "ipa": "yóuyǒngchí",
+   "pos": "n.",
+   "meaning": "a pool",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你是在游泳池游，还是在海里游？",
+     "en": "Do you swim in a pool or in the sea?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "你空闲时间喜欢做什么？",
+   "glosses": [
+    {
+     "text": "空闲时间",
+     "pos": "phr.",
+     "meaning": "free time"
+    }
+   ],
+   "id": "t1",
+   "en": "What do you like to do in your free time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我喜欢读书，星期天经常打网球。",
+   "glosses": [
+    {
+     "text": "打",
+     "pos": "v.",
+     "meaning": "to play"
+    },
+    {
+     "text": "经常",
+     "pos": "adv.",
+     "meaning": "often"
+    }
+   ],
+   "id": "t2",
+   "en": "I love reading, and I often play tennis on Sundays."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "真的吗？这是个很好的爱好。我更喜欢游泳。",
+   "glosses": [
+    {
+     "text": "爱好",
+     "pos": "n.",
+     "meaning": "a hobby"
+    },
+    {
+     "text": "更喜欢",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t3",
+   "en": "Really? That is a great hobby. I prefer swimming."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "你是在游泳池游，还是在海里游？",
+   "glosses": [
+    {
+     "text": "游泳池",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t4",
+   "en": "Do you swim in a pool or in the sea?"
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "大多在游泳池，因为离我家很近。",
+   "glosses": [
+    {
+     "text": "游泳池",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t5",
+   "en": "Mostly in a pool, because it is close to my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我们哪天可以一起运动。",
+   "glosses": [],
+   "id": "t6",
+   "en": "We could do some sport together one day."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,225 @@
+{
+ "emoji": "🛎️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "投訴",
+   "ipa": "tau4 sou3",
+   "pos": "n.",
+   "meaning": "a complaint",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "晚安。我要投訴我間房。",
+     "en": "Good evening. I have a complaint about my room."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "嘈",
+   "ipa": "cou4",
+   "pos": "adj.",
+   "meaning": "noisy",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "冷氣壞咗，而且隔離房好嘈。",
+     "en": "The air conditioning is broken, and the room next door is very noisy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "壞咗",
+   "ipa": "waai6 zo2",
+   "pos": "adj.",
+   "meaning": "broken",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "冷氣壞咗，而且隔離房好嘈。",
+     "en": "The air conditioning is broken, and the room next door is very noisy."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "修理",
+   "ipa": "sau1 lei5",
+   "pos": "v.",
+   "meaning": "to fix",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "好對唔住。我即刻叫人嚟修理冷氣。",
+     "en": "I apologize. I will send someone to fix the air conditioning right away."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "經理",
+   "ipa": "ging1 lei5",
+   "pos": "n.",
+   "meaning": "the manager",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "如果冇，我想同經理傾。",
+     "en": "If not, I would like to speak to the manager."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "退款",
+   "ipa": "teoi3 fun2",
+   "pos": "n.",
+   "meaning": "a refund",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "好。另外，因為呢啲麻煩，今晚可以退款嗎？",
+     "en": "Good. And could I have a refund for tonight because of the trouble?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "晚安。有咩可以幫到你？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good evening. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "晚安。我要投訴我間房。",
+   "glosses": [
+    {
+     "text": "投訴",
+     "pos": "n.",
+     "meaning": "a complaint"
+    }
+   ],
+   "id": "t2",
+   "en": "Good evening. I have a complaint about my room."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "好抱歉聽到呢個。咩問題呀？",
+   "glosses": [],
+   "id": "t3",
+   "en": "I am sorry to hear that. What is the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "冷氣壞咗，而且隔離房好嘈。",
+   "glosses": [
+    {
+     "text": "嘈",
+     "pos": "adj.",
+     "meaning": "noisy"
+    },
+    {
+     "text": "壞咗",
+     "pos": "adj.",
+     "meaning": "broken"
+    }
+   ],
+   "id": "t4",
+   "en": "The air conditioning is broken, and the room next door is very noisy."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "好對唔住。我即刻叫人嚟修理冷氣。",
+   "glosses": [
+    {
+     "text": "修理",
+     "pos": "v.",
+     "meaning": "to fix"
+    }
+   ],
+   "id": "t5",
+   "en": "I apologize. I will send someone to fix the air conditioning right away."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "多謝，不過我訂房嗰時要求過安靜嘅房。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you, but I asked for a quiet room when I booked."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "你講得啱。我睇下有冇其他空房。",
+   "glosses": [],
+   "id": "t7",
+   "en": "You are right. Let me check if we have another room available."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "如果冇，我想同經理傾。",
+   "glosses": [
+    {
+     "text": "經理",
+     "pos": "n.",
+     "meaning": "the manager"
+    }
+   ],
+   "id": "t8",
+   "en": "If not, I would like to speak to the manager."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "我明白。四樓有一間安靜嘅房。",
+   "glosses": [],
+   "id": "t9",
+   "en": "I understand. We have a quiet room on the fourth floor."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "好。另外，因為呢啲麻煩，今晚可以退款嗎？",
+   "glosses": [
+    {
+     "text": "退款",
+     "pos": "n.",
+     "meaning": "a refund"
+    }
+   ],
+   "id": "t10",
+   "en": "Good. And could I have a refund for tonight because of the trouble?"
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "我可以俾你八折。咁可以接受嗎？",
+   "glosses": [],
+   "id": "t11",
+   "en": "I can give you a twenty percent discount. Would that be acceptable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "可以，好公道。多謝你解決呢個問題。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes, that is fair. Thank you for solving the problem."
+  }
+ ],
+ "practice_words": []
+}

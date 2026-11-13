@@ -1,0 +1,176 @@
+{
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "두통",
+   "ipa": "dutong",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "어제부터 두통이 있고 목도 아파요.",
+     "en": "I have had a headache and a sore throat since yesterday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "약",
+   "ipa": "yak",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "혹시 알레르기가 있는 약이 있어요?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "처방전",
+   "ipa": "cheobangjeon",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "아니요, 없어요. 처방전이 필요해요?",
+     "en": "No, I am not allergic. Do I need a prescription?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "하루에 두 번",
+   "ipa": "harue du beon",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "이건 필요 없어요. 하루에 두 번, 식후에 한 알씩 드세요.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "드세요",
+   "ipa": "deuseyo",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "이건 필요 없어요. 하루에 두 번, 식후에 한 알씩 드세요.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "알레르기",
+   "ipa": "allereugi",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "혹시 알레르기가 있는 약이 있어요?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "안녕하세요. 어디가 불편하세요?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. What seems to be the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "어제부터 두통이 있고 목도 아파요.",
+   "glosses": [
+    {
+     "text": "두통",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a headache and a sore throat since yesterday."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "혹시 알레르기가 있는 약이 있어요?",
+   "glosses": [
+    {
+     "text": "약",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "알레르기",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t3",
+   "en": "Are you allergic to any medicine?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "아니요, 없어요. 처방전이 필요해요?",
+   "glosses": [
+    {
+     "text": "처방전",
+     "pos": "n.",
+     "meaning": "a prescription"
+    }
+   ],
+   "id": "t4",
+   "en": "No, I am not allergic. Do I need a prescription?"
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "이건 필요 없어요. 하루에 두 번, 식후에 한 알씩 드세요.",
+   "glosses": [
+    {
+     "text": "하루에 두 번",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "드세요",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": "Not for this. Take one tablet twice a day, after meals."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "감사합니다. 첫 번째 알은 오늘 저녁에 먹을게요.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. I will take the first one this evening."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,192 @@
+{
+ "emoji": "🏨",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "una prenotazione",
+   "ipa": "/ˈuna prenotatˈtsjoːne/",
+   "pos": "n.",
+   "meaning": "a reservation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Buongiorno, benvenuto in albergo. Ha una prenotazione?",
+     "en": "Hello, welcome to the hotel. Do you have a reservation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "una camera",
+   "ipa": "/ˈuna ˈkaːmera/",
+   "pos": "n.",
+   "meaning": "a room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sì, una camera per due notti, a nome mio.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "notti",
+   "ipa": "/ˈnɔtti/",
+   "pos": "n.",
+   "meaning": "a night",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sì, una camera per due notti, a nome mio.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "la colazione",
+   "ipa": "/la kolatˈtsjoːne/",
+   "pos": "n.",
+   "meaning": "breakfast",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Meraviglioso. La colazione è inclusa?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "inclusa",
+   "ipa": "/inˈkluːza/",
+   "pos": "adj.",
+   "meaning": "included",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Meraviglioso. La colazione è inclusa?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "la chiave",
+   "ipa": "/la ˈkjaːve/",
+   "pos": "n.",
+   "meaning": "the key",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sì, la colazione è inclusa, dalle sette alle dieci. Ecco la chiave.",
+     "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Buongiorno, benvenuto in albergo. Ha una prenotazione?",
+   "glosses": [
+    {
+     "text": "una prenotazione",
+     "pos": "n.",
+     "meaning": "a reservation"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, welcome to the hotel. Do you have a reservation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sì, una camera per due notti, a nome mio.",
+   "glosses": [
+    {
+     "text": "una camera",
+     "pos": "n.",
+     "meaning": "a room"
+    },
+    {
+     "text": "notti",
+     "pos": "n.",
+     "meaning": "a night"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a room for two nights, under my name."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Sì, ecco qui. Una camera singola con vista sul giardino.",
+   "glosses": [
+    {
+     "text": "Una camera",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t3",
+   "en": "Yes, here it is. A single room with a view of the garden."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Meraviglioso. La colazione è inclusa?",
+   "glosses": [
+    {
+     "text": "La colazione",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "inclusa",
+     "pos": "adj.",
+     "meaning": "included"
+    }
+   ],
+   "id": "t4",
+   "en": "Wonderful. Is breakfast included?"
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Sì, la colazione è inclusa, dalle sette alle dieci. Ecco la chiave.",
+   "glosses": [
+    {
+     "text": "la colazione",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "inclusa",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "la chiave",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Grazie. Qual è il numero della camera?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. What is the room number?"
+  }
+ ],
+ "practice_words": []
+}

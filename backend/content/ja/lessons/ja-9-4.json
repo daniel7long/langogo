@@ -1,0 +1,234 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "食事",
+   "ipa": "shokuji",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "バランスの良い食事が一番の始まりだよ。野菜はたくさん食べてる？",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "野菜",
+   "ipa": "yasai",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "毎食、野菜を少なくとも二皿食べるようにしてみて。",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "砂糖",
+   "ipa": "satoo",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "難しそうだね。砂糖はどう？ケーキとジュースが大好きなんだ。",
+     "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "避けた",
+   "ipa": "saketa",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "砂糖のとりすぎは避けたほうがいいけど、完全にやめる必要はないよ。",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "皿",
+   "ipa": "sara",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "毎食、野菜を少なくとも二皿食べるようにしてみて。",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "バランス",
+   "ipa": "baransu",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "バランスの良い食事が一番の始まりだよ。野菜はたくさん食べてる？",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "もっと健康的に食べたいけど、どこから始めたらいいかわからなくて。",
+   "glosses": [],
+   "id": "t1",
+   "en": "I want to eat better, but I do not know where to start."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "バランスの良い食事が一番の始まりだよ。野菜はたくさん食べてる？",
+   "glosses": [
+    {
+     "text": "食事",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "野菜",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "バランス",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "あまり食べてないな。ほとんどパスタとファストフードだよ。",
+   "glosses": [],
+   "id": "t3",
+   "en": "Not really. I mostly eat pasta and fast food."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "毎食、野菜を少なくとも二皿食べるようにしてみて。",
+   "glosses": [
+    {
+     "text": "野菜",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "皿",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": "Try to have at least two portions of vegetables with every meal."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "難しそうだね。砂糖はどう？ケーキとジュースが大好きなんだ。",
+   "glosses": [
+    {
+     "text": "砂糖",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "砂糖のとりすぎは避けたほうがいいけど、完全にやめる必要はないよ。",
+   "glosses": [
+    {
+     "text": "砂糖",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "避けた",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": "You should avoid too much sugar, but you do not have to stop completely."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "ジュースの代わりに何を飲めばいい？",
+   "glosses": [],
+   "id": "t7",
+   "en": "What can I drink instead of soft drinks?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "水かお茶、またはレモンのスライスを入れた水がいいね。",
+   "glosses": [],
+   "id": "t8",
+   "en": "Water, tea, or water with a slice of lemon."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "朝ごはんは何を食べてるの？",
+   "glosses": [],
+   "id": "t9",
+   "en": "And what do you eat for breakfast?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "たいていフルーツ入りのヨーグルトか、卵とパンだよ。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Usually yogurt with fruit, or eggs with bread."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "それは簡単だね。もっと家で料理できるかも。",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is simple. Maybe I can cook more at home."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "そうだよ！家で料理するほうが安くて健康的だよ。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes! Cooking at home is cheaper and healthier."
+  }
+ ],
+ "practice_words": []
+}

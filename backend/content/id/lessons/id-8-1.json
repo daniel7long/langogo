@@ -1,0 +1,237 @@
+{
+ "emoji": "🗺️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "perjalanan",
+   "ipa": "/pəɾdʒaˈlanan/",
+   "pos": "n.",
+   "meaning": "a trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Indah sekali. Apa momen terbaik dari perjalanan itu?",
+     "en": "That is lovely. What was the best moment of the trip?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "tersesat",
+   "ipa": "/təɾˈsəsat/",
+   "pos": "phr.",
+   "meaning": "to get lost",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Aku mulai dari ibu kota, tetapi di hari pertama aku tersesat di jalan-jalan tua.",
+     "en": "I started in the capital, but on the first day I got lost in the old streets."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "tak terlupakan",
+   "ipa": "/tak təɾlupaˈkan/",
+   "pos": "adj.",
+   "meaning": "unforgettable",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ya, aku menghabiskan sepuluh hari di luar negeri. Perjalanannya tak terlupakan.",
+     "en": "Yes, I spent ten days abroad. It was unforgettable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "warga setempat",
+   "ipa": "/ˈwaɾga səmˈpat/",
+   "pos": "n.",
+   "meaning": "a local",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Seorang warga setempat yang ramah menunjukkan jalan dan bahkan mengajakku minum kopi.",
+     "en": "A friendly local showed me the way and even invited me for coffee."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "pemandangan",
+   "ipa": "/pəmanˈdaŋan/",
+   "pos": "n.",
+   "meaning": "the view",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Menonton matahari terbenam dari atas bukit. Pemandangannya luar biasa.",
+     "en": "Watching the sunset from a hill. The view was incredible."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "merekomendasikan",
+   "ipa": "/məɾəkɔmɛndasiˈkan/",
+   "pos": "v.",
+   "meaning": "to recommend",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Apakah kamu akan merekomendasikan negara itu kepada orang lain?",
+     "en": "Would you recommend the country to other people?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Kamu baru saja pulang dari perjalanan, kan? Ceritakan semuanya!",
+   "glosses": [
+    {
+     "text": "perjalanan",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t1",
+   "en": "You just came back from a trip, right? Tell me everything!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya, aku menghabiskan sepuluh hari di luar negeri. Perjalanannya tak terlupakan.",
+   "glosses": [
+    {
+     "text": "Perjalanan",
+     "pos": "n.",
+     "meaning": "a trip"
+    },
+    {
+     "text": "tak terlupakan",
+     "pos": "adj.",
+     "meaning": "unforgettable"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I spent ten days abroad. It was unforgettable."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Wah! Ke mana kamu pergi pertama kali?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow! Where did you go first?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku mulai dari ibu kota, tetapi di hari pertama aku tersesat di jalan-jalan tua.",
+   "glosses": [
+    {
+     "text": "tersesat",
+     "pos": "phr.",
+     "meaning": "to get lost"
+    }
+   ],
+   "id": "t4",
+   "en": "I started in the capital, but on the first day I got lost in the old streets."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Aduh! Bagaimana kamu menemukan jalan?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Oh no! How did you find your way?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Seorang warga setempat yang ramah menunjukkan jalan dan bahkan mengajakku minum kopi.",
+   "glosses": [
+    {
+     "text": "warga setempat",
+     "pos": "n.",
+     "meaning": "a local"
+    }
+   ],
+   "id": "t6",
+   "en": "A friendly local showed me the way and even invited me for coffee."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Indah sekali. Apa momen terbaik dari perjalanan itu?",
+   "glosses": [
+    {
+     "text": "perjalanan",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t7",
+   "en": "That is lovely. What was the best moment of the trip?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Menonton matahari terbenam dari atas bukit. Pemandangannya luar biasa.",
+   "glosses": [
+    {
+     "text": "Pemandangan",
+     "pos": "n.",
+     "meaning": "the view"
+    }
+   ],
+   "id": "t8",
+   "en": "Watching the sunset from a hill. The view was incredible."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Apakah kamu akan merekomendasikan negara itu kepada orang lain?",
+   "glosses": [
+    {
+     "text": "merekomendasikan",
+     "pos": "v.",
+     "meaning": "to recommend"
+    }
+   ],
+   "id": "t9",
+   "en": "Would you recommend the country to other people?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tentu saja. Aku akan kembali besok kalau bisa.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Absolutely. I would go back tomorrow if I could."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Kalau begitu, tunjukkan foto-fotomu, ya!",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then show me your photos, please!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tentu. Aku mengambil lebih dari lima ratus foto.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Of course. I took more than five hundred pictures."
+  }
+ ],
+ "practice_words": []
+}

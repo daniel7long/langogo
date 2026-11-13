@@ -1,0 +1,236 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "una cuota",
+   "ipa": "/ˈu.na ˈkwo.ta/",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "¡Bienvenido al gimnasio! ¿Le interesa una cuota de socio?",
+     "en": "Welcome to the gym! Are you interested in a membership?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "entrenador",
+   "ipa": "/en.tɾe.na.ˈðoɾ/",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Por supuesto. Nuestro entrenador le enseñará cómo funciona todo.",
+     "en": "Of course. Our trainer will show you how everything works."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "objetivo",
+   "ipa": "/oβ.xe.ˈti.βo/",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Estupendo. ¿Cuál es su objetivo principal: perder peso o ser más fuerte?",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "hacer ejercicio",
+   "ipa": "/a.ˈseɾ e.xeɾ.ˈsi.sjo/",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sí, me gustaría empezar a hacer ejercicio con regularidad.",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "sesiones",
+   "ipa": "/se.ˈsjo.nes/",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Entonces le recomiendo tres sesiones a la semana con un entrenador al principio.",
+     "en": "Then I recommend three sessions a week with a trainer at the beginning."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "más fuerte",
+   "ipa": "/mas ˈfweɾ.te/",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Quiero ser más fuerte y tener más energía durante el día.",
+     "en": "I want to get stronger and have more energy during the day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "¡Bienvenido al gimnasio! ¿Le interesa una cuota de socio?",
+   "glosses": [
+    {
+     "text": "una cuota",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sí, me gustaría empezar a hacer ejercicio con regularidad.",
+   "glosses": [
+    {
+     "text": "hacer ejercicio",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Estupendo. ¿Cuál es su objetivo principal: perder peso o ser más fuerte?",
+   "glosses": [
+    {
+     "text": "objetivo",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "más fuerte",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Quiero ser más fuerte y tener más energía durante el día.",
+   "glosses": [
+    {
+     "text": "más fuerte",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Entonces le recomiendo tres sesiones a la semana con un entrenador al principio.",
+   "glosses": [
+    {
+     "text": "entrenador",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "sesiones",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¿Cuánto cuesta la cuota al mes?",
+   "glosses": [],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Son treinta y cinco al mes, y la primera sesión es gratis.",
+   "glosses": [],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Me parece razonable. ¿Puedo probar las máquinas hoy?",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Por supuesto. Nuestro entrenador le enseñará cómo funciona todo.",
+   "glosses": [
+    {
+     "text": "entrenador",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¿Necesito traer mi propia toalla?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Sí, por favor, traiga una toalla y una botella de agua.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Perfecto. Me apunto ahora mismo.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,82 @@
+{
+  "speaking_sentence": "El próximo sábado vamos a visitar un pequeño museo con nuestros amigos.",
+  "questions": [
+    {
+      "id": "q1",
+      "points": 10,
+      "correct": "a",
+      "prompt": "Completa la frase: Yo ___ un gato.",
+      "options": {
+        "a": "tengo",
+        "b": "soy",
+        "c": "estoy"
+      }
+    },
+    {
+      "id": "q2",
+      "points": 10,
+      "correct": "b",
+      "prompt": "Ayer nosotros ___ al cine.",
+      "options": {
+        "a": "vamos",
+        "b": "fuimos",
+        "c": "iremos"
+      }
+    },
+    {
+      "id": "q3",
+      "points": 12,
+      "correct": "c",
+      "prompt": "Ella ___ pan en la panadería.",
+      "options": {
+        "a": "compras",
+        "b": "compramos",
+        "c": "compra"
+      }
+    },
+    {
+      "id": "q4",
+      "points": 14,
+      "correct": "a",
+      "prompt": "Si tuviera más tiempo, ___ más a menudo.",
+      "options": {
+        "a": "viajaría",
+        "b": "viajaré",
+        "c": "viajaba"
+      }
+    },
+    {
+      "id": "q5",
+      "points": 16,
+      "correct": "c",
+      "prompt": "No creo que ella ___ la verdad sobre el accidente.",
+      "options": {
+        "a": "sabe",
+        "b": "sabrá",
+        "c": "sepa"
+      }
+    },
+    {
+      "id": "q6",
+      "points": 18,
+      "correct": "b",
+      "prompt": "Si me hubieras avisado ayer, ___ a buscarte a la estación.",
+      "options": {
+        "a": "iría",
+        "b": "habría ido",
+        "c": "fui"
+      }
+    },
+    {
+      "id": "q7",
+      "points": 20,
+      "correct": "a",
+      "prompt": "Sea cual ___ el motivo de su ausencia, debemos respetar su decisión.",
+      "options": {
+        "a": "sea",
+        "b": "es",
+        "c": "será"
+      }
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+ "emoji": "🏡",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "ипотеке",
+   "ipa": "ipotéke",
+   "pos": "n.",
+   "meaning": "a mortgage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Проблема в ипотеке. Процентные ставки сейчас очень высоки.",
+     "en": "The problem is the mortgage. The interest rates are so high right now."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "инвестицией",
+   "ipa": "investítsiyej",
+   "pos": "n.",
+   "meaning": "an investment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Тогда покупка может быть хорошей инвестицией, если ты можешь себе позволить.",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "арендодатель",
+   "ipa": "arendodátel'",
+   "pos": "n.",
+   "meaning": "a landlord",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Хороший довод. При аренде ремонт оплачивает арендодатель.",
+     "en": "That is a good point. With rent, the landlord pays for repairs."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "гибкая",
+   "ipa": "gíbkaja",
+   "pos": "adj.",
+   "meaning": "flexible",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Именно, а аренда ещё и гибкая, если ты меняешь работу.",
+     "en": "Exactly, and renting is also more flexible if you change jobs."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "позволить",
+   "ipa": "pozvólit'",
+   "pos": "v.",
+   "meaning": "to afford",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Тогда покупка может быть хорошей инвестицией, если ты можешь себе позволить.",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "недвижимость",
+   "ipa": "nedvízhimost'",
+   "pos": "n.",
+   "meaning": "property",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Да, они были бы немного выше моей арендной платы, но зато недвижимость была бы моей.",
+     "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Мне надоело платить за аренду. Как думаешь, мне стоит купить квартиру?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I am tired of paying rent. Do you think I should buy an apartment instead?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Зависит от твоих планов. Как долго ты пробудешь в этом городе?",
+   "glosses": [],
+   "id": "t2",
+   "en": "It depends on your plans. How long will you stay in this city?"
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Думаю, как минимум десять лет. Возможно, дольше.",
+   "glosses": [],
+   "id": "t3",
+   "en": "At least ten years, I think. Maybe more."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Тогда покупка может быть хорошей инвестицией, если ты можешь себе позволить.",
+   "glosses": [
+    {
+     "text": "инвестицией",
+     "pos": "n.",
+     "meaning": "an investment"
+    },
+    {
+     "text": "позволить",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t4",
+   "en": "Then buying could be a good investment, if you can afford it."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Проблема в ипотеке. Процентные ставки сейчас очень высоки.",
+   "glosses": [
+    {
+     "text": "ипотеке",
+     "pos": "n.",
+     "meaning": "a mortgage"
+    }
+   ],
+   "id": "t5",
+   "en": "The problem is the mortgage. The interest rates are so high right now."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Верно. Ты считал, какими были бы ежемесячные платежи?",
+   "glosses": [],
+   "id": "t6",
+   "en": "True. Have you calculated what the monthly payments would be?"
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Да, они были бы немного выше моей арендной платы, но зато недвижимость была бы моей.",
+   "glosses": [
+    {
+     "text": "недвижимость",
+     "pos": "n.",
+     "meaning": "property"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "И к стоимости нужно добавить ремонт, налоги и страховку.",
+   "glosses": [],
+   "id": "t8",
+   "en": "And you must add repairs, taxes and insurance to the cost."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Хороший довод. При аренде ремонт оплачивает арендодатель.",
+   "glosses": [
+    {
+     "text": "арендодатель",
+     "pos": "n.",
+     "meaning": "a landlord"
+    }
+   ],
+   "id": "t9",
+   "en": "That is a good point. With rent, the landlord pays for repairs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Именно, а аренда ещё и гибкая, если ты меняешь работу.",
+   "glosses": [
+    {
+     "text": "гибкая",
+     "pos": "adj.",
+     "meaning": "flexible"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly, and renting is also more flexible if you change jobs."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Но мне кажется, что я каждый месяц выбрасываю деньги на ветер.",
+   "glosses": [],
+   "id": "t11",
+   "en": "But I feel I am throwing money away every month."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Не совсем. Ты платишь за место для жизни и за свободу переезжать.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not really. You are paying for a place to live and for the freedom to move."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Я никогда не думал об этом так.",
+   "glosses": [],
+   "id": "t13",
+   "en": "I had never thought about it like that."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Сравни оба варианта на бумаге за пятнадцать лет и спроси финансового консультанта.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Compare both options on paper over fifteen years, and ask a financial adviser."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Хорошая идея. Запишусь на приём, прежде чем решать.",
+   "glosses": [],
+   "id": "t15",
+   "en": "Good idea. I will make an appointment before I decide."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Разумно. Такое важное решение нельзя принимать в спешке.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wise. Such a big decision should never be taken in a hurry."
+  }
+ ],
+ "practice_words": []
+}

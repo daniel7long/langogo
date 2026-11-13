@@ -1,0 +1,257 @@
+{
+ "emoji": "🏡",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "按揭",
+   "ipa": "on3 kit3",
+   "pos": "n.",
+   "meaning": "a mortgage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "問題係按揭。而家嘅利率太高喇。",
+     "en": "The problem is the mortgage. The interest rates are so high right now."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "投資",
+   "ipa": "tau4 zi1",
+   "pos": "n.",
+   "meaning": "an investment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "咁買樓可能係個唔錯嘅投資，如果你負擔得起嘅話。",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "業主",
+   "ipa": "jip6 zyu2",
+   "pos": "n.",
+   "meaning": "a landlord",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "呢點講得啱。租樓嘅話，維修係業主負責。",
+     "en": "That is a good point. With rent, the landlord pays for repairs."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "靈活",
+   "ipa": "ling4 wut6",
+   "pos": "adj.",
+   "meaning": "flexible",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "啱，而且如果你轉工，租樓更靈活。",
+     "en": "Exactly, and renting is also more flexible if you change jobs."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "負擔得起",
+   "ipa": "fu6 daam1 dak1 hei2",
+   "pos": "v.",
+   "meaning": "to afford",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "咁買樓可能係個唔錯嘅投資，如果你負擔得起嘅話。",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "物業",
+   "ipa": "mat6 jip6",
+   "pos": "n.",
+   "meaning": "property",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "計過，會比我嘅租金高少少，但係咁個物業就係我嘅喇。",
+     "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "我厭倦咗交租。你覺得我應該買層樓嗎？",
+   "glosses": [],
+   "id": "t1",
+   "en": "I am tired of paying rent. Do you think I should buy an apartment instead?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "要睇你嘅計劃。你會喺呢個城市住幾耐？",
+   "glosses": [],
+   "id": "t2",
+   "en": "It depends on your plans. How long will you stay in this city?"
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "我諗至少十年，可能更耐。",
+   "glosses": [],
+   "id": "t3",
+   "en": "At least ten years, I think. Maybe more."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "咁買樓可能係個唔錯嘅投資，如果你負擔得起嘅話。",
+   "glosses": [
+    {
+     "text": "投資",
+     "pos": "n.",
+     "meaning": "an investment"
+    },
+    {
+     "text": "負擔得起",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t4",
+   "en": "Then buying could be a good investment, if you can afford it."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "問題係按揭。而家嘅利率太高喇。",
+   "glosses": [
+    {
+     "text": "按揭",
+     "pos": "n.",
+     "meaning": "a mortgage"
+    }
+   ],
+   "id": "t5",
+   "en": "The problem is the mortgage. The interest rates are so high right now."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "係呀。你有冇計過每個月要供幾多？",
+   "glosses": [],
+   "id": "t6",
+   "en": "True. Have you calculated what the monthly payments would be?"
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "計過，會比我嘅租金高少少，但係咁個物業就係我嘅喇。",
+   "glosses": [
+    {
+     "text": "物業",
+     "pos": "n.",
+     "meaning": "property"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "而且你仲要將維修、稅項同保險加落成本入面。",
+   "glosses": [],
+   "id": "t8",
+   "en": "And you must add repairs, taxes and insurance to the cost."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "呢點講得啱。租樓嘅話，維修係業主負責。",
+   "glosses": [
+    {
+     "text": "業主",
+     "pos": "n.",
+     "meaning": "a landlord"
+    }
+   ],
+   "id": "t9",
+   "en": "That is a good point. With rent, the landlord pays for repairs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "啱，而且如果你轉工，租樓更靈活。",
+   "glosses": [
+    {
+     "text": "靈活",
+     "pos": "adj.",
+     "meaning": "flexible"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly, and renting is also more flexible if you change jobs."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "但係我覺得我每個月都喺度白白浪費錢。",
+   "glosses": [],
+   "id": "t11",
+   "en": "But I feel I am throwing money away every month."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "唔係喎。你俾錢係為咗有地方住，同埋有搬屋嘅自由。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not really. You are paying for a place to live and for the freedom to move."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "我從來冇咁諗過。",
+   "glosses": [],
+   "id": "t13",
+   "en": "I had never thought about it like that."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "喺紙上比較兩個方案十五年嘅情況，再問下理財顧問。",
+   "glosses": [],
+   "id": "t14",
+   "en": "Compare both options on paper over fifteen years, and ask a financial adviser."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "好主意。決定之前我會先預約。",
+   "glosses": [],
+   "id": "t15",
+   "en": "Good idea. I will make an appointment before I decide."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "明智。咁大嘅決定絕對唔可以倉卒。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wise. Such a big decision should never be taken in a hurry."
+  }
+ ],
+ "practice_words": []
+}

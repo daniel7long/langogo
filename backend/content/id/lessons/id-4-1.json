@@ -1,0 +1,192 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "stasiun",
+   "ipa": "/staˈsiun/",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ya, tolong. Di mana stasiun? Apakah jauh?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "belok kiri",
+   "ipa": "/ˈbɔlɔk ˈkiri/",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Lalu? Saya belok kiri atau kanan?",
+     "en": "And then? Do I turn left or right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "lurus",
+   "ipa": "/ˈluɾus/",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Tidak, tidak jauh. Jalan lurus saja sejauh dua jalan.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "jauh",
+   "ipa": "/ˈdʒauh/",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ya, tolong. Di mana stasiun? Apakah jauh?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "pojok",
+   "ipa": "/ˈpɔdʒɔk/",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Belok kiri di pojok. Stasiunnya ada di sebelah bank.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "peta",
+   "ipa": "/ˈpəta/",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Terima kasih! Saya punya peta di ponsel, jadi akan mudah.",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Permisi, ada yang bisa saya bantu? Anda tampak tersesat.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya, tolong. Di mana stasiun? Apakah jauh?",
+   "glosses": [
+    {
+     "text": "stasiun",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "jauh",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Tidak, tidak jauh. Jalan lurus saja sejauh dua jalan.",
+   "glosses": [
+    {
+     "text": "lurus",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "jauh",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Lalu? Saya belok kiri atau kanan?",
+   "glosses": [
+    {
+     "text": "belok kiri",
+     "pos": "phr.",
+     "meaning": "turn left"
+    }
+   ],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Belok kiri di pojok. Stasiunnya ada di sebelah bank.",
+   "glosses": [
+    {
+     "text": "Stasiun",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "Belok kiri",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "pojok",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Terima kasih! Saya punya peta di ponsel, jadi akan mudah.",
+   "glosses": [
+    {
+     "text": "peta",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

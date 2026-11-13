@@ -1,0 +1,263 @@
+{
+ "emoji": "🏡",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "o financiamento",
+   "ipa": "/u fi.nɐ̃.siaˈmẽ.tu/",
+   "pos": "n.",
+   "meaning": "a mortgage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "O problema é o financiamento. Os juros estão muito altos agora.",
+     "en": "The problem is the mortgage. The interest rates are so high right now."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "investimento",
+   "ipa": "/ĩ.vis.tʃiˈmẽ.tu/",
+   "pos": "n.",
+   "meaning": "an investment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Então comprar pode ser um bom investimento, se você puder arcar com os custos.",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "o proprietário",
+   "ipa": "/u pɾo.pɾi.eˈta.ɾju/",
+   "pos": "n.",
+   "meaning": "a landlord",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Bom argumento. Com aluguel, o proprietário paga os reparos.",
+     "en": "That is a good point. With rent, the landlord pays for repairs."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "flexível",
+   "ipa": "/fleˈksi.vew/",
+   "pos": "adj.",
+   "meaning": "flexible",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Exato, e alugar também é mais flexível se você mudar de emprego.",
+     "en": "Exactly, and renting is also more flexible if you change jobs."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "arcar",
+   "ipa": "/aʁˈkaʁ/",
+   "pos": "v.",
+   "meaning": "to afford",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Boa ideia. Vou marcar uma consulta antes de decidir.",
+     "en": "Good idea. I will make an appointment before I decide."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "o imóvel",
+   "ipa": "/u iˈmɔ.vew/",
+   "pos": "n.",
+   "meaning": "property",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Já, seriam um pouco maiores que o meu aluguel, mas o imóvel seria meu.",
+     "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Estou cansado de pagar aluguel. Você acha que eu deveria comprar um apartamento?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I am tired of paying rent. Do you think I should buy an apartment instead?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Depende dos seus planos. Por quanto tempo você vai ficar nesta cidade?",
+   "glosses": [],
+   "id": "t2",
+   "en": "It depends on your plans. How long will you stay in this city?"
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Pelo menos dez anos, acho. Talvez mais.",
+   "glosses": [],
+   "id": "t3",
+   "en": "At least ten years, I think. Maybe more."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Então comprar pode ser um bom investimento, se você puder arcar com os custos.",
+   "glosses": [
+    {
+     "text": "investimento",
+     "pos": "n.",
+     "meaning": "an investment"
+    },
+    {
+     "text": "arcar",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t4",
+   "en": "Then buying could be a good investment, if you can afford it."
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "O problema é o financiamento. Os juros estão muito altos agora.",
+   "glosses": [
+    {
+     "text": "o financiamento",
+     "pos": "n.",
+     "meaning": "a mortgage"
+    }
+   ],
+   "id": "t5",
+   "en": "The problem is the mortgage. The interest rates are so high right now."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "É verdade. Você já calculou quanto seriam as parcelas mensais?",
+   "glosses": [],
+   "id": "t6",
+   "en": "True. Have you calculated what the monthly payments would be?"
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Já, seriam um pouco maiores que o meu aluguel, mas o imóvel seria meu.",
+   "glosses": [
+    {
+     "text": "o imóvel",
+     "pos": "n.",
+     "meaning": "property"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "E você precisa somar ao custo os reparos, os impostos e o seguro.",
+   "glosses": [],
+   "id": "t8",
+   "en": "And you must add repairs, taxes and insurance to the cost."
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Bom argumento. Com aluguel, o proprietário paga os reparos.",
+   "glosses": [
+    {
+     "text": "o proprietário",
+     "pos": "n.",
+     "meaning": "a landlord"
+    }
+   ],
+   "id": "t9",
+   "en": "That is a good point. With rent, the landlord pays for repairs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exato, e alugar também é mais flexível se você mudar de emprego.",
+   "glosses": [
+    {
+     "text": "flexível",
+     "pos": "adj.",
+     "meaning": "flexible"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly, and renting is also more flexible if you change jobs."
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Mas sinto que estou jogando dinheiro fora todo mês.",
+   "glosses": [],
+   "id": "t11",
+   "en": "But I feel I am throwing money away every month."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Não exatamente. Você paga por um lugar para morar e pela liberdade de se mudar.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not really. You are paying for a place to live and for the freedom to move."
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Eu nunca tinha pensado nisso assim.",
+   "glosses": [],
+   "id": "t13",
+   "en": "I had never thought about it like that."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Compare as duas opções no papel ao longo de quinze anos e consulte um consultor financeiro.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Compare both options on paper over fifteen years, and ask a financial adviser."
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Boa ideia. Vou marcar uma consulta antes de decidir.",
+   "glosses": [
+    {
+     "text": "arcar",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t15",
+   "en": "Good idea. I will make an appointment before I decide."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sensato. Uma decisão tão grande nunca deve ser tomada com pressa.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wise. Such a big decision should never be taken in a hurry."
+  }
+ ],
+ "practice_words": []
+}

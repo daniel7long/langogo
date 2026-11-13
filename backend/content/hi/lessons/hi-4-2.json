@@ -1,0 +1,187 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "टिकट",
+   "ipa": "tikat",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "समझ गया। टिकट कितने का है?",
+     "en": "I understand. How much is the ticket?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "प्लेटफ़ॉर्म",
+   "ipa": "pletform",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ज़रूर। अगली ट्रेन नौ बजे चार नंबर प्लेटफ़ॉर्म से रवाना होगी।",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "रवाना",
+   "ipa": "ravana",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ज़रूर। अगली ट्रेन नौ बजे चार नंबर प्लेटफ़ॉर्म से रवाना होगी।",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "आने-जाने का",
+   "ipa": "aane-jaane ka",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "मुझे राजधानी तक का आने-जाने का टिकट चाहिए, कृपया।",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "समय पर",
+   "ipa": "samay par",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "क्या वह आज समय पर है?",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "ट्रेन बदलनी",
+   "ipa": "tren badalni",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "जी हाँ, समय पर है। लेकिन आपको अगले शहर में ट्रेन बदलनी होगी।",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "सुप्रभात। मैं आपकी क्या मदद कर सकता हूँ?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मुझे राजधानी तक का आने-जाने का टिकट चाहिए, कृपया।",
+   "glosses": [
+    {
+     "text": "टिकट",
+     "pos": "n.",
+     "meaning": "a ticket"
+    },
+    {
+     "text": "आने-जाने का",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "ज़रूर। अगली ट्रेन नौ बजे चार नंबर प्लेटफ़ॉर्म से रवाना होगी।",
+   "glosses": [
+    {
+     "text": "प्लेटफ़ॉर्म",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "रवाना",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "क्या वह आज समय पर है?",
+   "glosses": [
+    {
+     "text": "समय पर",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "जी हाँ, समय पर है। लेकिन आपको अगले शहर में ट्रेन बदलनी होगी।",
+   "glosses": [
+    {
+     "text": "समय पर",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "ट्रेन बदलनी",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "समझ गया। टिकट कितने का है?",
+   "glosses": [
+    {
+     "text": "टिकट",
+     "pos": "n.",
+     "meaning": "a ticket"
+    }
+   ],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

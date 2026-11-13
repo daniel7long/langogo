@@ -1,227 +1,187 @@
 {
-  "emoji": "🏨",
-  "max_flowers": 35,
-  "cefr": "A2",
-  "vocab": [
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "passport",
+   "ipa": "/ˈpæsˌpɔɹt/",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "v1",
-      "word": "reservation",
-      "ipa": "/ˌrezərˈveɪʃn/",
-      "pos": "n.",
-      "meaning": "a plan that keeps a room or table for you",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "I have a reservation."
-        },
-        {
-          "target": "The reservation is for two nights."
-        }
-      ]
-    },
-    {
-      "id": "v2",
-      "word": "room",
-      "ipa": "/ruːm/",
-      "pos": "n.",
-      "meaning": "a part of a building with walls",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "I need a room for two."
-        },
-        {
-          "target": "The room has a big bed."
-        }
-      ]
-    },
-    {
-      "id": "v3",
-      "word": "night",
-      "ipa": "/naɪt/",
-      "pos": "n.",
-      "meaning": "the time when it is dark",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "We stay for three nights."
-        },
-        {
-          "target": "One night costs 80 dollars."
-        }
-      ]
-    },
-    {
-      "id": "v4",
-      "word": "key",
-      "ipa": "/kiː/",
-      "pos": "n.",
-      "meaning": "something you use to open a door",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "Here is your key."
-        },
-        {
-          "target": "I lost my key."
-        }
-      ]
-    },
-    {
-      "id": "v5",
-      "word": "available",
-      "ipa": "/əˈveɪləbl/",
-      "pos": "adj.",
-      "meaning": "free to use or buy",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "Is a room available?"
-        },
-        {
-          "target": "That table is not available."
-        }
-      ]
-    },
-    {
-      "id": "v6",
-      "word": "included",
-      "ipa": "/ɪnˈkluːdɪd/",
-      "pos": "adj.",
-      "meaning": "part of the price",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "Breakfast is included."
-        },
-        {
-          "target": "Is tax included?"
-        }
-      ]
-    },
-    {
-      "id": "v7",
-      "word": "stay",
-      "ipa": "/steɪ/",
-      "pos": "v.",
-      "meaning": "to be in a place for some time",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "I stay at a hotel."
-        },
-        {
-          "target": "How long will you stay?"
-        }
-      ]
+     "target": "Good afternoon. Your passport, please. Are you going to check in a suitcase?",
+     "en": ""
     }
-  ],
-  "dialogue": [
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "suitcase",
+   "ipa": "/ˈsutˌkeɪs/",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "t1",
-      "speaker": "Receptionist",
-      "role": "npc",
-      "text": "Welcome! Do you have a reservation?",
-      "glosses": [
-        {
-          "text": "reservation",
-          "pos": "n.",
-          "meaning": "a plan that keeps a room or table for you"
-        }
-      ],
-      "en": "Hello! Did you ask us to keep a room?"
-    },
-    {
-      "id": "t2",
-      "speaker": "You",
-      "role": "you",
-      "text": "Yes, a room for two nights under Lee.",
-      "glosses": [
-        {
-          "text": "room",
-          "pos": "n.",
-          "meaning": "a part of a building with walls"
-        }
-      ],
-      "en": "Yes, a room for two nights for Lee."
-    },
-    {
-      "id": "t3",
-      "speaker": "Receptionist",
-      "role": "npc",
-      "text": "Yes, I see it. Breakfast is included.",
-      "glosses": [
-        {
-          "text": "included",
-          "pos": "adj.",
-          "meaning": "part of the price"
-        }
-      ],
-      "en": "Yes, I found it. The first meal is part of the price."
-    },
-    {
-      "id": "t4",
-      "speaker": "You",
-      "role": "you",
-      "text": "Great. Is the room available now?",
-      "glosses": [
-        {
-          "text": "room",
-          "pos": "n.",
-          "meaning": "a part of a building with walls"
-        },
-        {
-          "text": "available",
-          "pos": "adj.",
-          "meaning": "free to use or buy"
-        }
-      ],
-      "en": "Good. Can I use the room now?"
-    },
-    {
-      "id": "t5",
-      "speaker": "Receptionist",
-      "role": "npc",
-      "text": "Yes, it is. Here is your key. It is room 305.",
-      "glosses": [
-        {
-          "text": "room",
-          "pos": "n.",
-          "meaning": "a part of a building with walls"
-        },
-        {
-          "text": "key",
-          "pos": "n.",
-          "meaning": "something you use to open a door"
-        }
-      ],
-      "en": "Yes. This is your key. It is room 305."
-    },
-    {
-      "id": "t6",
-      "speaker": "You",
-      "role": "you",
-      "text": "Thank you. We will stay here for two nights.",
-      "glosses": [
-        {
-          "text": "stay",
-          "pos": "v.",
-          "meaning": "to be in a place for some time"
-        }
-      ],
-      "en": "Thanks. We will be here for two nights."
+     "target": "Yes, one suitcase. It is not heavy.",
+     "en": ""
     }
-  ],
-  "practice_words": [
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "boarding pass",
+   "ipa": "/ˈbɔɹdɪŋ pæs/",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "w1",
-      "text": "reservation",
-      "tip": "Say rez-er-VAY-shun: stress the third part"
+     "target": "Here is your boarding pass. Your gate is number twelve.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "gate",
+   "ipa": "/ɡeɪt/",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "That is fine. I will wait near the gate.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "check in",
+   "ipa": "/tʃɛk ɪn/",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Good afternoon. Your passport, please. Are you going to check in a suitcase?",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "delayed",
+   "ipa": "/dɪˈleɪd/",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "In forty minutes. But your flight is delayed by twenty minutes.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Good afternoon. Your passport, please. Are you going to check in a suitcase?",
+   "glosses": [
+    {
+     "text": "passport",
+     "pos": "n.",
+     "meaning": "a passport"
     },
     {
-      "id": "w2",
-      "text": "available",
-      "tip": "Say uh-VAY-luh-bul: stress the second part"
+     "text": "suitcase",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "check in",
+     "pos": "v.",
+     "meaning": "to check in"
     }
-  ]
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, one suitcase. It is not heavy.",
+   "glosses": [
+    {
+     "text": "suitcase",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Here is your boarding pass. Your gate is number twelve.",
+   "glosses": [
+    {
+     "text": "boarding pass",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    },
+    {
+     "text": "gate",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Thank you. What time does boarding start?",
+   "glosses": [],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "In forty minutes. But your flight is delayed by twenty minutes.",
+   "glosses": [
+    {
+     "text": "delayed",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That is fine. I will wait near the gate.",
+   "glosses": [
+    {
+     "text": "gate",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  }
+ ],
+ "practice_words": []
 }

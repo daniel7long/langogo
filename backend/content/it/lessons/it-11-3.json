@@ -1,0 +1,264 @@
+{
+ "emoji": "🖼️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "la mostra",
+   "ipa": "/la ˈmostra/",
+   "pos": "n.",
+   "meaning": "an exhibition",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Che cosa hai pensato della mostra? Sembrava che ti piacesse.",
+     "en": "What did you think of the exhibition? You seemed to enjoy it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "il curatore",
+   "ipa": "/il kuraˈtoːre/",
+   "pos": "n.",
+   "meaning": "a curator",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Moltissimo. Il curatore ha scelto le opere con molta cura.",
+     "en": "Very much. The curator chose the pieces very carefully."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "un capolavoro",
+   "ipa": "/un kapoˈlaːvoro/",
+   "pos": "n.",
+   "meaning": "a masterpiece",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Il grande quadro dell'ultima sala. È considerato un capolavoro.",
+     "en": "The large painting in the last room. It is considered a masterpiece."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "patrimonio",
+   "ipa": "/patriˈmɔːnjo/",
+   "pos": "n.",
+   "meaning": "heritage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ma mantenere il patrimonio culturale costa molto denaro.",
+     "en": "But maintaining cultural heritage costs a lot of money."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "interpretazione",
+   "ipa": "/interpretatˈtsjoːne/",
+   "pos": "n.",
+   "meaning": "interpretation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "L'arte è aperta all'interpretazione, ed è questo che rende i musei entusiasmanti.",
+     "en": "Art is open to interpretation, which is what makes museums exciting."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "l'audioguida",
+   "ipa": "/laudjoˈɡwiːda/",
+   "pos": "n.",
+   "meaning": "an audio guide",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Volentieri. Stavolta scaricherò l'audioguida in anticipo.",
+     "en": "Gladly. This time I will download the audio guide in advance."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Che cosa hai pensato della mostra? Sembrava che ti piacesse.",
+   "glosses": [
+    {
+     "text": "la mostra",
+     "pos": "n.",
+     "meaning": "an exhibition"
+    }
+   ],
+   "id": "t1",
+   "en": "What did you think of the exhibition? You seemed to enjoy it."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Moltissimo. Il curatore ha scelto le opere con molta cura.",
+   "glosses": [
+    {
+     "text": "Il curatore",
+     "pos": "n.",
+     "meaning": "a curator"
+    }
+   ],
+   "id": "t2",
+   "en": "Very much. The curator chose the pieces very carefully."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Sono d'accordo. Quale opera ti ha colpito di più?",
+   "glosses": [],
+   "id": "t3",
+   "en": "I agree. Which work impressed you most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Il grande quadro dell'ultima sala. È considerato un capolavoro.",
+   "glosses": [
+    {
+     "text": "un capolavoro",
+     "pos": "n.",
+     "meaning": "a masterpiece"
+    }
+   ],
+   "id": "t4",
+   "en": "The large painting in the last room. It is considered a masterpiece."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Perché pensi che sia così famoso?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Why do you think it is so famous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Forse perché mostra persone comuni in modo molto sincero.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Perhaps because it shows ordinary people in a very honest way."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Interessante. Io ho ascoltato l'audioguida e dava una spiegazione molto diversa.",
+   "glosses": [
+    {
+     "text": "l'audioguida",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t7",
+   "en": "Interesting. I listened to the audio guide, and it gave a very different explanation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "L'arte è aperta all'interpretazione, ed è questo che rende i musei entusiasmanti.",
+   "glosses": [
+    {
+     "text": "interpretazione",
+     "pos": "n.",
+     "meaning": "interpretation"
+    }
+   ],
+   "id": "t8",
+   "en": "Art is open to interpretation, which is what makes museums exciting."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Vero. Alcuni dicono che i musei non dovrebbero essere così cari.",
+   "glosses": [],
+   "id": "t9",
+   "en": "True. Some people say museums should not be so expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Penso che l'ingresso dovrebbe costare poco, perché la cultura appartiene a tutti.",
+   "glosses": [],
+   "id": "t10",
+   "en": "I think entry should be cheap, because culture belongs to everyone."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Ma mantenere il patrimonio culturale costa molto denaro.",
+   "glosses": [
+    {
+     "text": "patrimonio",
+     "pos": "n.",
+     "meaning": "heritage"
+    }
+   ],
+   "id": "t11",
+   "en": "But maintaining cultural heritage costs a lot of money."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "È un punto valido. Forse giorni gratuiti ogni mese sarebbero un compromesso.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That is a valid point. Perhaps free days each month could be a compromise."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Molte città lo fanno già, e i musei diventano affollatissimi.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many cities already do that, and the museums become very crowded."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ma la folla è un buon segno: dimostra che le persone apprezzano l'arte.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Crowds are a good sign, though: they show that people value art."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Giusto. Visitiamo il museo d'arte moderna il prossimo fine settimana?",
+   "glosses": [],
+   "id": "t15",
+   "en": "Fair enough. Shall we visit the modern art museum next weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Volentieri. Stavolta scaricherò l'audioguida in anticipo.",
+   "glosses": [
+    {
+     "text": "l'audioguida",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t16",
+   "en": "Gladly. This time I will download the audio guide in advance."
+  }
+ ],
+ "practice_words": []
+}

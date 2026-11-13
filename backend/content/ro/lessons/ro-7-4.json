@@ -1,0 +1,225 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "o zi liberă",
+   "ipa": "/o zi ˈliberə/",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Da. Aș vrea să cer o zi liberă vinerea viitoare.",
+     "en": "Yes. I would like to ask for a day off next Friday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "urgent",
+   "ipa": "/urˈdʒent/",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Este ceva urgent?",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "să mă înlocuiască",
+   "ipa": "/sə mə ɨnloˈkuiaskə/",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Colega mea poate să mă înlocuiască, iar eu voi pregăti totul din timp.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "din timp",
+   "ipa": "/din timp/",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Colega mea poate să mă înlocuiască, iar eu voi pregăti totul din timp.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "o favoare",
+   "ipa": "/o faˈvoare/",
+   "pos": "n.",
+   "meaning": "a favor",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Încă nu. Am vrut să vorbesc mai întâi cu tine, ca o favoare.",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "înțelegător",
+   "ipa": "/intseleˈɡətor/",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Desigur, mulțumesc că ești atât de înțelegător.",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Salut, ai un minut? Pari îngrijorat.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da. Aș vrea să cer o zi liberă vinerea viitoare.",
+   "glosses": [
+    {
+     "text": "o zi liberă",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Este ceva urgent?",
+   "glosses": [
+    {
+     "text": "urgent",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Puțin. Trebuie să merg la nunta vărului meu într-un alt oraș.",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Înțeleg. Cine poate prelua munca ta în ziua aceea?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Colega mea poate să mă înlocuiască, iar eu voi pregăti totul din timp.",
+   "glosses": [
+    {
+     "text": "să mă înlocuiască",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "din timp",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Asta ajută. Ai întrebat-o deja?",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Încă nu. Am vrut să vorbesc mai întâi cu tine, ca o favoare.",
+   "glosses": [
+    {
+     "text": "o favoare",
+     "pos": "n.",
+     "meaning": "a favor"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Înțeleg. Poți să-ți iei ziua, dar termină raportul înainte să pleci.",
+   "glosses": [],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Desigur, mulțumesc că ești atât de înțelegător.",
+   "glosses": [
+    {
+     "text": "înțelegător",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Fără probleme. Distracție plăcută la nuntă!",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mulțumesc mult. Îți voi aduce o bucată de tort.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,181 @@
+{
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "パスポート",
+   "ipa": "pasupooto",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "こんにちは。パスポートをお願いします。スーツケースを預けますか。",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "スーツケース",
+   "ipa": "suutsukeesu",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "こんにちは。パスポートをお願いします。スーツケースを預けますか。",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "搭乗券",
+   "ipa": "toojooken",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "こちらが搭乗券です。ゲートは十二番です。",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ゲート",
+   "ipa": "geeto",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "わかりました。ゲートの近くで待ちます。",
+     "en": "That is fine. I will wait near the gate."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "預けます",
+   "ipa": "azukemasu",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "こんにちは。パスポートをお願いします。スーツケースを預けますか。",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "遅れて",
+   "ipa": "okurete",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "四十分後です。ただ、お客様の便は二十分遅れています。",
+     "en": "In forty minutes. But your flight is delayed by twenty minutes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "こんにちは。パスポートをお願いします。スーツケースを預けますか。",
+   "glosses": [
+    {
+     "text": "パスポート",
+     "pos": "n.",
+     "meaning": "a passport"
+    },
+    {
+     "text": "スーツケース",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "預けます",
+     "pos": "v.",
+     "meaning": "to check in"
+    }
+   ],
+   "id": "t1",
+   "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "はい、一つです。重くありません。",
+   "glosses": [],
+   "id": "t2",
+   "en": "Yes, one suitcase. It is not heavy."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "こちらが搭乗券です。ゲートは十二番です。",
+   "glosses": [
+    {
+     "text": "搭乗券",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    },
+    {
+     "text": "ゲート",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t3",
+   "en": "Here is your boarding pass. Your gate is number twelve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ありがとうございます。搭乗は何時からですか。",
+   "glosses": [],
+   "id": "t4",
+   "en": "Thank you. What time does boarding start?"
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "四十分後です。ただ、お客様の便は二十分遅れています。",
+   "glosses": [
+    {
+     "text": "遅れて",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": "In forty minutes. But your flight is delayed by twenty minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "わかりました。ゲートの近くで待ちます。",
+   "glosses": [
+    {
+     "text": "ゲート",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. I will wait near the gate."
+  }
+ ],
+ "practice_words": []
+}

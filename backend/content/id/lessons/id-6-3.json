@@ -1,0 +1,176 @@
+{
+ "emoji": "🛋️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "akhir pekan",
+   "ipa": "/ˈakhiɾ pəˈkan/",
+   "pos": "n.",
+   "meaning": "the weekend",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Bagaimana akhir pekanmu?",
+     "en": "How was your weekend?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "mengunjungi",
+   "ipa": "/məŋunˈdʒuŋi/",
+   "pos": "v.",
+   "meaning": "to visit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Menyenangkan sekali! Hari Sabtu aku mengunjungi kakek dan nenekku.",
+     "en": "It was great! On Saturday I visited my grandparents."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "memasak",
+   "ipa": "/məmˈasak/",
+   "pos": "v.",
+   "meaning": "to cook",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Kami memasak makan siang besar bersama, lalu menonton film.",
+     "en": "We cooked a big lunch together, and then we watched a movie."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "film",
+   "ipa": "/ˈfilm/",
+   "pos": "n.",
+   "meaning": "a film",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Kami memasak makan siang besar bersama, lalu menonton film.",
+     "en": "We cooked a big lunch together, and then we watched a movie."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "lelah",
+   "ipa": "/ˈləlah/",
+   "pos": "adj.",
+   "meaning": "tired",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Aku lelah, jadi aku beristirahat di rumah seharian.",
+     "en": "I was tired, so I rested at home all day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "beristirahat",
+   "ipa": "/bəɾistiɾaˈhat/",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Aku lelah, jadi aku beristirahat di rumah seharian.",
+     "en": "I was tired, so I rested at home all day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Bagaimana akhir pekanmu?",
+   "glosses": [
+    {
+     "text": "akhir pekan",
+     "pos": "n.",
+     "meaning": "the weekend"
+    }
+   ],
+   "id": "t1",
+   "en": "How was your weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Menyenangkan sekali! Hari Sabtu aku mengunjungi kakek dan nenekku.",
+   "glosses": [
+    {
+     "text": "mengunjungi",
+     "pos": "v.",
+     "meaning": "to visit"
+    }
+   ],
+   "id": "t2",
+   "en": "It was great! On Saturday I visited my grandparents."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Wah, bagus! Apa yang kalian lakukan di sana?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Nice! What did you do there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Kami memasak makan siang besar bersama, lalu menonton film.",
+   "glosses": [
+    {
+     "text": "memasak",
+     "pos": "v.",
+     "meaning": "to cook"
+    },
+    {
+     "text": "film",
+     "pos": "n.",
+     "meaning": "a film"
+    }
+   ],
+   "id": "t4",
+   "en": "We cooked a big lunch together, and then we watched a movie."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Kedengarannya menyenangkan. Bagaimana dengan hari Minggu?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Sounds lovely. And on Sunday?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku lelah, jadi aku beristirahat di rumah seharian.",
+   "glosses": [
+    {
+     "text": "lelah",
+     "pos": "adj.",
+     "meaning": "tired"
+    },
+    {
+     "text": "beristirahat",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t6",
+   "en": "I was tired, so I rested at home all day."
+  }
+ ],
+ "practice_words": []
+}

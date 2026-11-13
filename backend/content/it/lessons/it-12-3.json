@@ -1,0 +1,258 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "carriera",
+   "ipa": "/karˈrjɛːra/",
+   "pos": "n.",
+   "meaning": "a career",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sto pensando di cambiare carriera. Voglio lasciare la contabilità e diventare designer.",
+     "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Lascerai",
+   "ipa": "/laʃʃeˈrai/",
+   "pos": "v.",
+   "meaning": "to quit",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Lascerai subito il lavoro?",
+     "en": "Are you going to quit your job straight away?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "competenze",
+   "ipa": "/kompeˈtɛntse/",
+   "pos": "n.",
+   "meaning": "a skill",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Quali competenze devi imparare?",
+     "en": "What skills do you need to learn?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "un grosso rischio",
+   "ipa": "/un ˈɡrɔsso ˈriskjo/",
+   "pos": "n.",
+   "meaning": "a risk",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "No, sarebbe un grosso rischio. Prima studierò la sera.",
+     "en": "No, that would be a big risk. I will study in the evenings first."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "mentore",
+   "ipa": "/menˈtoːre/",
+   "pos": "n.",
+   "meaning": "a mentor",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sì, un ex compagno di classe ora è il mio mentore e mi dà pareri sinceri.",
+     "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "riqualificarsi",
+   "ipa": "/rikwalifiˈkarsi/",
+   "pos": "v.",
+   "meaning": "to retrain",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "È costoso riqualificarsi?",
+     "en": "Is it expensive to retrain?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Ultimamente sei così entusiasta. Che cosa succede?",
+   "glosses": [],
+   "id": "t1",
+   "en": "You look so excited lately. What is going on?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sto pensando di cambiare carriera. Voglio lasciare la contabilità e diventare designer.",
+   "glosses": [
+    {
+     "text": "carriera",
+     "pos": "n.",
+     "meaning": "a career"
+    }
+   ],
+   "id": "t2",
+   "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Wow, che cambiamento! Che cosa ti ha fatto decidere?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow, that is quite a change! What made you decide?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mi sono reso conto che non mi sento più motivato e voglio che il mio lavoro sia creativo.",
+   "glosses": [],
+   "id": "t4",
+   "en": "I realized that I no longer feel motivated, and I want my work to be creative."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Lascerai subito il lavoro?",
+   "glosses": [
+    {
+     "text": "Lascerai",
+     "pos": "v.",
+     "meaning": "to quit"
+    }
+   ],
+   "id": "t5",
+   "en": "Are you going to quit your job straight away?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "No, sarebbe un grosso rischio. Prima studierò la sera.",
+   "glosses": [
+    {
+     "text": "un grosso rischio",
+     "pos": "n.",
+     "meaning": "a risk"
+    }
+   ],
+   "id": "t6",
+   "en": "No, that would be a big risk. I will study in the evenings first."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Quali competenze devi imparare?",
+   "glosses": [
+    {
+     "text": "competenze",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t7",
+   "en": "What skills do you need to learn?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Soprattutto software di design e comunicazione, ma ho già una buona capacità organizzativa.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Mainly design software and communication, but I already have good organizational skills."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "È un vantaggio. Conosci qualcuno del settore?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is an advantage. Do you know anyone in that field?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sì, un ex compagno di classe ora è il mio mentore e mi dà pareri sinceri.",
+   "glosses": [
+    {
+     "text": "mentore",
+     "pos": "n.",
+     "meaning": "a mentor"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "È costoso riqualificarsi?",
+   "glosses": [
+    {
+     "text": "riqualificarsi",
+     "pos": "v.",
+     "meaning": "to retrain"
+    }
+   ],
+   "id": "t11",
+   "en": "Is it expensive to retrain?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Non troppo. Ho trovato un corso online che costa meno dell'abbonamento mensile a una palestra.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not too much. I found an online course that costs less than a monthly gym membership."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "E la tua famiglia che cosa ne pensa?",
+   "glosses": [],
+   "id": "t13",
+   "en": "And what does your family think about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sono preoccupati, ma mi sostengono, purché abbia un piano.",
+   "glosses": [],
+   "id": "t14",
+   "en": "They are worried, but they support me, as long as I have a plan."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Ammiro il tuo coraggio. Molte persone non fanno mai il primo passo.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I admire your courage. Many people never take the first step."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Grazie. Anche se andrà male, avrò imparato qualcosa di nuovo.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Thank you. Even if it fails, I will have learned something new."
+  }
+ ],
+ "practice_words": []
+}

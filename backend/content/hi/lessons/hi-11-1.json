@@ -1,0 +1,262 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "कहानी",
+   "ipa": "kahaani",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "कहानी के आधार पर यह सुंदर हो सकता है, या उबाऊ भी।",
+     "en": "That can be beautiful, or boring, depending on the story."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "अभिनय",
+   "ipa": "abhinay",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "दिलचस्प। मुख्य अभिनेत्री के अभिनय के बारे में तुम्हारी क्या राय है?",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "निर्देशक",
+   "ipa": "nirdeshak",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "और निर्देशक? मुझे उसका पिछला काम बहुत पसंद आया था।",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "समीक्षा",
+   "ipa": "sameeksha",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "अभी नहीं। मैंने एक समीक्षा पढ़ी जिसमें कहा था कि कहानी थोड़ी अनुमान लगाने लायक है।",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "अनुमान",
+   "ipa": "anumaan",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "अभी नहीं। मैंने एक समीक्षा पढ़ी जिसमें कहा था कि कहानी थोड़ी अनुमान लगाने लायक है।",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "संगीत",
+   "ipa": "sangeet",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "यहाँ यह काम करता है, खासकर संगीत की वजह से। यह बहुत भावना जोड़ता है।",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "कल रात मैंने वह नई फ़िल्म देखी जिसके बारे में सब बात कर रहे हैं। क्या तुमने देखी?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अभी नहीं। मैंने एक समीक्षा पढ़ी जिसमें कहा था कि कहानी थोड़ी अनुमान लगाने लायक है।",
+   "glosses": [
+    {
+     "text": "कहानी",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "समीक्षा",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "अनुमान",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "सच कहूँ तो पहला हिस्सा ऐसा है, लेकिन अंत ने मुझे पूरी तरह चौंका दिया।",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "दिलचस्प। मुख्य अभिनेत्री के अभिनय के बारे में तुम्हारी क्या राय है?",
+   "glosses": [
+    {
+     "text": "अभिनय",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "शानदार। अभिनेत्री ने अपने किरदार को असली और जटिल महसूस कराया।",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "और निर्देशक? मुझे उसका पिछला काम बहुत पसंद आया था।",
+   "glosses": [
+    {
+     "text": "निर्देशक",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "वह अपनी सामान्य शैली रखता है, लंबे शॉट और बहुत कम संवाद के साथ।",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "कहानी के आधार पर यह सुंदर हो सकता है, या उबाऊ भी।",
+   "glosses": [
+    {
+     "text": "कहानी",
+     "pos": "n.",
+     "meaning": "a plot"
+    }
+   ],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "यहाँ यह काम करता है, खासकर संगीत की वजह से। यह बहुत भावना जोड़ता है।",
+   "glosses": [
+    {
+     "text": "संगीत",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "क्या तुम कहोगे कि फ़िल्म सिनेमा में देखने लायक है?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "बिल्कुल। चित्रों और ध्वनि के लिए बड़ी स्क्रीन चाहिए।",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "तो मैं इस सप्ताहांत जाऊँगा, भले ही समीक्षक असहमत हों।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "समीक्षक और दर्शक शायद ही कभी सहमत होते हैं, इसलिए अपनी राय खुद बनाओ।",
+   "glosses": [],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सही। तुम किसे ज़्यादा रेट करोगे, इस फ़िल्म को या उसकी पिछली को?",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "पिछली को, लेकिन बस थोड़ा-सा। मैं इसे पाँच में से चार सितारे दूँगा।",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अच्छा है। देखने के बाद इस पर फिर चर्चा करेंगे।",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

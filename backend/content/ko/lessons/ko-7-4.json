@@ -1,0 +1,237 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "휴가",
+   "ipa": "hyuga",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "응. 다음 주 금요일에 휴가를 내고 싶어.",
+     "en": "Yes. I would like to ask for a day off next Friday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "급한",
+   "ipa": "geuphan",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "급한 일이야?",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "대신",
+   "ipa": "daesin",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "알겠어. 그날 누가 네 일을 대신해 줄 수 있어?",
+     "en": "I see. Who can cover your work that day?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "미리",
+   "ipa": "miri",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "동료가 대신해 줄 수 있고, 나는 모든 걸 미리 준비해 놓을게.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "부탁",
+   "ipa": "butak",
+   "pos": "n.",
+   "meaning": "a favor",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "아직. 먼저 너랑 얘기하고 싶었어, 부탁하는 거라서.",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "이해",
+   "ipa": "ihae",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "물론이지, 이해해 줘서 고마워.",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "안녕, 잠깐 시간 돼? 걱정스러워 보이는데.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "응. 다음 주 금요일에 휴가를 내고 싶어.",
+   "glosses": [
+    {
+     "text": "휴가",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "급한 일이야?",
+   "glosses": [
+    {
+     "text": "급한",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "조금. 사촌 결혼식 때문에 다른 도시에 가야 해.",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "알겠어. 그날 누가 네 일을 대신해 줄 수 있어?",
+   "glosses": [
+    {
+     "text": "대신",
+     "pos": "v.",
+     "meaning": "to replace"
+    }
+   ],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "동료가 대신해 줄 수 있고, 나는 모든 걸 미리 준비해 놓을게.",
+   "glosses": [
+    {
+     "text": "대신",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "미리",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "도움이 되겠네. 벌써 그 사람한테 물어봤어?",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "아직. 먼저 너랑 얘기하고 싶었어, 부탁하는 거라서.",
+   "glosses": [
+    {
+     "text": "부탁",
+     "pos": "n.",
+     "meaning": "a favor"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "이해했어. 쉬어도 되지만, 가기 전에 보고서는 끝내 줘.",
+   "glosses": [
+    {
+     "text": "이해",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "물론이지, 이해해 줘서 고마워.",
+   "glosses": [
+    {
+     "text": "이해",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "별말씀을. 결혼식에서 즐거운 시간 보내!",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "정말 고마워. 케이크 한 조각 가져다줄게.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

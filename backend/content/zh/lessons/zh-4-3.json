@@ -1,0 +1,192 @@
+{
+ "emoji": "🏨",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "预订",
+   "ipa": "yùdìng",
+   "pos": "n.",
+   "meaning": "a reservation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你好，欢迎光临。您有预订吗？",
+     "en": "Hello, welcome to the hotel. Do you have a reservation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "房间",
+   "ipa": "fángjiān",
+   "pos": "n.",
+   "meaning": "a room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "谢谢。房间号是多少？",
+     "en": "Thank you. What is the room number?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "晚",
+   "ipa": "wǎn",
+   "pos": "n.",
+   "meaning": "a night",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "有，用我的名字订了两晚的房间。",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "早餐",
+   "ipa": "zǎocān",
+   "pos": "n.",
+   "meaning": "breakfast",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "太好了。早餐包含在内吗？",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "包含",
+   "ipa": "bāohán",
+   "pos": "adj.",
+   "meaning": "included",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "太好了。早餐包含在内吗？",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "钥匙",
+   "ipa": "yàoshi",
+   "pos": "n.",
+   "meaning": "the key",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "包含，早餐时间是七点到十点。这是您的钥匙。",
+     "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "你好，欢迎光临。您有预订吗？",
+   "glosses": [
+    {
+     "text": "预订",
+     "pos": "n.",
+     "meaning": "a reservation"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, welcome to the hotel. Do you have a reservation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有，用我的名字订了两晚的房间。",
+   "glosses": [
+    {
+     "text": "房间",
+     "pos": "n.",
+     "meaning": "a room"
+    },
+    {
+     "text": "晚",
+     "pos": "n.",
+     "meaning": "a night"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a room for two nights, under my name."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "找到了。是一间可以看到花园的单人房。",
+   "glosses": [],
+   "id": "t3",
+   "en": "Yes, here it is. A single room with a view of the garden."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "太好了。早餐包含在内吗？",
+   "glosses": [
+    {
+     "text": "早餐",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "包含",
+     "pos": "adj.",
+     "meaning": "included"
+    }
+   ],
+   "id": "t4",
+   "en": "Wonderful. Is breakfast included?"
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "包含，早餐时间是七点到十点。这是您的钥匙。",
+   "glosses": [
+    {
+     "text": "早餐",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "包含",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "钥匙",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "谢谢。房间号是多少？",
+   "glosses": [
+    {
+     "text": "房间",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you. What is the room number?"
+  }
+ ],
+ "practice_words": []
+}

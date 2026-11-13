@@ -1,0 +1,187 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "билет",
+   "ipa": "bilét",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Понятно. Сколько стоит билет?",
+     "en": "I understand. How much is the ticket?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "платформы",
+   "ipa": "platfórmy",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Конечно. Следующий поезд отправляется в девять часов с четвёртой платформы.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "отправляется",
+   "ipa": "otpravljájetsja",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Конечно. Следующий поезд отправляется в девять часов с четвёртой платформы.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "и обратно",
+   "ipa": "i obrátno",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Мне нужен билет в столицу и обратно, пожалуйста.",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "вовремя",
+   "ipa": "vovrémja",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Сегодня он идёт вовремя?",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "сделать пересадку",
+   "ipa": "sdélat' peresádku",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Да, вовремя. Но вам нужно сделать пересадку в следующем городе.",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Доброе утро. Чем могу помочь?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Мне нужен билет в столицу и обратно, пожалуйста.",
+   "glosses": [
+    {
+     "text": "билет",
+     "pos": "n.",
+     "meaning": "a ticket"
+    },
+    {
+     "text": "и обратно",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Конечно. Следующий поезд отправляется в девять часов с четвёртой платформы.",
+   "glosses": [
+    {
+     "text": "платформы",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "отправляется",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Сегодня он идёт вовремя?",
+   "glosses": [
+    {
+     "text": "вовремя",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Да, вовремя. Но вам нужно сделать пересадку в следующем городе.",
+   "glosses": [
+    {
+     "text": "вовремя",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "сделать пересадку",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Понятно. Сколько стоит билет?",
+   "glosses": [
+    {
+     "text": "билет",
+     "pos": "n.",
+     "meaning": "a ticket"
+    }
+   ],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

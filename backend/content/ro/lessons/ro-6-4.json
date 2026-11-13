@@ -1,0 +1,177 @@
+{
+ "emoji": "🏖️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "vacanța",
+   "ipa": "/vaˈkantsa/",
+   "pos": "n.",
+   "meaning": "a holiday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ai planuri pentru vacanța de vară?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "plajă",
+   "ipa": "/ˈplaʒə/",
+   "pos": "n.",
+   "meaning": "the beach",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da! Vreau să merg o săptămână la plajă.",
+     "en": "Yes! I want to go to the beach for one week."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ai rezervat",
+   "ipa": "/aj rezerˈvat/",
+   "pos": "v.",
+   "meaning": "to book",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Minunat. Ai rezervat deja hotelul?",
+     "en": "Wonderful. Did you already book the hotel?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "planuri",
+   "ipa": "/ˈplanuri/",
+   "pos": "n.",
+   "meaning": "a plan",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ai planuri pentru vacanța de vară?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "vremea",
+   "ipa": "/ˈvremea/",
+   "pos": "n.",
+   "meaning": "the weather",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Încă nu. Îl voi rezerva diseară, când verific vremea.",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "pregăti valiza",
+   "ipa": "/preɡəˈti vaˈliza/",
+   "pos": "v.",
+   "meaning": "to pack",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Mulțumesc! Voi face un plan și voi pregăti valiza în acest weekend.",
+     "en": "Thanks! I will make a plan and pack my bag this weekend."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Ai planuri pentru vacanța de vară?",
+   "glosses": [
+    {
+     "text": "vacanța",
+     "pos": "n.",
+     "meaning": "a holiday"
+    },
+    {
+     "text": "planuri",
+     "pos": "n.",
+     "meaning": "a plan"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have plans for your summer vacation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da! Vreau să merg o săptămână la plajă.",
+   "glosses": [
+    {
+     "text": "plajă",
+     "pos": "n.",
+     "meaning": "the beach"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes! I want to go to the beach for one week."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Minunat. Ai rezervat deja hotelul?",
+   "glosses": [
+    {
+     "text": "Ai rezervat",
+     "pos": "v.",
+     "meaning": "to book"
+    }
+   ],
+   "id": "t3",
+   "en": "Wonderful. Did you already book the hotel?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Încă nu. Îl voi rezerva diseară, când verific vremea.",
+   "glosses": [
+    {
+     "text": "vremea",
+     "pos": "n.",
+     "meaning": "the weather"
+    }
+   ],
+   "id": "t4",
+   "en": "Not yet. I will book it tonight, when I check the weather."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Idee bună. Nu uita să iei cremă de soare și o pălărie.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Good idea. Do not forget to pack sunscreen and a hat."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mulțumesc! Voi face un plan și voi pregăti valiza în acest weekend.",
+   "glosses": [
+    {
+     "text": "pregăti valiza",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t6",
+   "en": "Thanks! I will make a plan and pack my bag this weekend."
+  }
+ ],
+ "practice_words": []
+}

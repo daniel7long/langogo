@@ -1,0 +1,181 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "초대",
+   "ipa": "chodae",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "정말 멋진 초대네! 응, 꼭 가고 싶어.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "올",
+   "ipa": "ol",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "안녕! 토요일이 내 생일이라서 파티를 할 거야. 올 수 있어?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "파티",
+   "ipa": "pati",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "안녕! 토요일이 내 생일이라서 파티를 할 거야. 올 수 있어?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "가져",
+   "ipa": "gajyeo",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "먹을 것이나 마실 것을 가져 갈까?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "생일",
+   "ipa": "saengil",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "안녕! 토요일이 내 생일이라서 파티를 할 거야. 올 수 있어?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "선물",
+   "ipa": "seonmul",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "좋은 기분만 가져와. 그리고 어쩌면 나한테 줄 작은 선물도, 하하.",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "안녕! 토요일이 내 생일이라서 파티를 할 거야. 올 수 있어?",
+   "glosses": [
+    {
+     "text": "올",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "파티",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "생일",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "정말 멋진 초대네! 응, 꼭 가고 싶어.",
+   "glosses": [
+    {
+     "text": "초대",
+     "pos": "n.",
+     "meaning": "an invitation"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "잘됐다! 저녁 일곱 시에 우리 집에서 시작해.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "먹을 것이나 마실 것을 가져 갈까?",
+   "glosses": [
+    {
+     "text": "가져",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "좋은 기분만 가져와. 그리고 어쩌면 나한테 줄 작은 선물도, 하하.",
+   "glosses": [
+    {
+     "text": "가져",
+     "pos": "v.",
+     "meaning": "to bring"
+    },
+    {
+     "text": "선물",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "물론이지! 그럼 토요일에 보자.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

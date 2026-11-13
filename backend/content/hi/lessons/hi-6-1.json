@@ -1,0 +1,196 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "निमंत्रण",
+   "ipa": "nimantran",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "कितना प्यारा निमंत्रण! हाँ, मैं ज़रूर आना चाहूँगा।",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "आ",
+   "ipa": "aa",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "क्या मैं खाने या पीने की कोई चीज़ लेकर आऊँ?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "पार्टी",
+   "ipa": "paarti",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "नमस्ते! शनिवार को मेरा जन्मदिन है और मैं पार्टी दे रहा हूँ। क्या तुम आ सकते हो?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "लेकर",
+   "ipa": "lekar",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "क्या मैं खाने या पीने की कोई चीज़ लेकर आऊँ?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "जन्मदिन",
+   "ipa": "janmdin",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "नमस्ते! शनिवार को मेरा जन्मदिन है और मैं पार्टी दे रहा हूँ। क्या तुम आ सकते हो?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "उपहार",
+   "ipa": "uphaar",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "बस अच्छा मूड लेकर आओ। और शायद मेरे लिए एक छोटा उपहार, हा हा।",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "नमस्ते! शनिवार को मेरा जन्मदिन है और मैं पार्टी दे रहा हूँ। क्या तुम आ सकते हो?",
+   "glosses": [
+    {
+     "text": "आ",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "पार्टी",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "जन्मदिन",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "कितना प्यारा निमंत्रण! हाँ, मैं ज़रूर आना चाहूँगा।",
+   "glosses": [
+    {
+     "text": "निमंत्रण",
+     "pos": "n.",
+     "meaning": "an invitation"
+    },
+    {
+     "text": "आ",
+     "pos": "v.",
+     "meaning": "to come"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "बढ़िया! शाम सात बजे मेरे घर पर शुरू होगी।",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "क्या मैं खाने या पीने की कोई चीज़ लेकर आऊँ?",
+   "glosses": [
+    {
+     "text": "आ",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "लेकर",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "बस अच्छा मूड लेकर आओ। और शायद मेरे लिए एक छोटा उपहार, हा हा।",
+   "glosses": [
+    {
+     "text": "आ",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "लेकर",
+     "pos": "v.",
+     "meaning": "to bring"
+    },
+    {
+     "text": "उपहार",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बिल्कुल! तो शनिवार को मिलते हैं।",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

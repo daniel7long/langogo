@@ -1,0 +1,231 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "магистра",
+   "ipa": "magístra",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Я учусь на магистра дизайна, и мне это очень нравится.",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "предмет",
+   "ipa": "predmét",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Звучит непросто. Какой предмет твой любимый?",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "экзамены",
+   "ipa": "ekzámeny",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Мой любимый предмет, методы исследования, хотя экзамены трудные.",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "заканчиваешь",
+   "ipa": "zakánchivajesh'",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Когда ты заканчиваешь?",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "сроки",
+   "ipa": "sróki",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "В следующем году, если уложусь во все сроки и сдам все курсы.",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "стипендия",
+   "ipa": "stipéndija",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "На дневном. У меня есть стипендия, поэтому я могу сосредоточиться на учёбе.",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Итак, что ты изучаешь сейчас?",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я учусь на магистра дизайна, и мне это очень нравится.",
+   "glosses": [
+    {
+     "text": "магистра",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Звучит непросто. Какой предмет твой любимый?",
+   "glosses": [
+    {
+     "text": "предмет",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Мой любимый предмет, методы исследования, хотя экзамены трудные.",
+   "glosses": [
+    {
+     "text": "предмет",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "экзамены",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Когда ты заканчиваешь?",
+   "glosses": [
+    {
+     "text": "заканчиваешь",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "В следующем году, если уложусь во все сроки и сдам все курсы.",
+   "glosses": [
+    {
+     "text": "сроки",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Ты работаешь или учишься на дневном?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "На дневном. У меня есть стипендия, поэтому я могу сосредоточиться на учёбе.",
+   "glosses": [
+    {
+     "text": "стипендия",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Ты уже знаешь, чем хочешь заниматься потом?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Не совсем, но я хотел бы работать в технологической компании.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Хороший план. Уверен, ты что-нибудь найдёшь.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Спасибо! Учиться тяжело, но я многому учусь.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

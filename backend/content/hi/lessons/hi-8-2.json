@@ -1,0 +1,230 @@
+{
+ "emoji": "🛎️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "शिकायत",
+   "ipa": "shikaayat",
+   "pos": "n.",
+   "meaning": "a complaint",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "शुभ संध्या। मुझे अपने कमरे के बारे में शिकायत है।",
+     "en": "Good evening. I have a complaint about my room."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "शोर",
+   "ipa": "shor",
+   "pos": "adj.",
+   "meaning": "noisy",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "एयर कंडीशनर खराब है, और बगल का कमरा बहुत शोर वाला है।",
+     "en": "The air conditioning is broken, and the room next door is very noisy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "खराब",
+   "ipa": "kharaab",
+   "pos": "adj.",
+   "meaning": "broken",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "एयर कंडीशनर खराब है, और बगल का कमरा बहुत शोर वाला है।",
+     "en": "The air conditioning is broken, and the room next door is very noisy."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ठीक",
+   "ipa": "theek",
+   "pos": "v.",
+   "meaning": "to fix",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "माफ़ कीजिए। मैं तुरंत किसी को एयर कंडीशनर ठीक करने भेजता हूँ।",
+     "en": "I apologize. I will send someone to fix the air conditioning right away."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "मैनेजर",
+   "ipa": "mainejar",
+   "pos": "n.",
+   "meaning": "the manager",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "अगर नहीं है, तो मैं मैनेजर से बात करना चाहूँगा।",
+     "en": "If not, I would like to speak to the manager."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "रिफ़ंड",
+   "ipa": "rifand",
+   "pos": "n.",
+   "meaning": "a refund",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "ठीक है। और असुविधा के कारण क्या मुझे इस रात का रिफ़ंड मिल सकता है?",
+     "en": "Good. And could I have a refund for tonight because of the trouble?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "शुभ संध्या। मैं आपकी क्या मदद कर सकता हूँ?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good evening. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "शुभ संध्या। मुझे अपने कमरे के बारे में शिकायत है।",
+   "glosses": [
+    {
+     "text": "शिकायत",
+     "pos": "n.",
+     "meaning": "a complaint"
+    }
+   ],
+   "id": "t2",
+   "en": "Good evening. I have a complaint about my room."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "यह सुनकर खेद है। क्या समस्या है?",
+   "glosses": [],
+   "id": "t3",
+   "en": "I am sorry to hear that. What is the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "एयर कंडीशनर खराब है, और बगल का कमरा बहुत शोर वाला है।",
+   "glosses": [
+    {
+     "text": "शोर",
+     "pos": "adj.",
+     "meaning": "noisy"
+    },
+    {
+     "text": "खराब",
+     "pos": "adj.",
+     "meaning": "broken"
+    }
+   ],
+   "id": "t4",
+   "en": "The air conditioning is broken, and the room next door is very noisy."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "माफ़ कीजिए। मैं तुरंत किसी को एयर कंडीशनर ठीक करने भेजता हूँ।",
+   "glosses": [
+    {
+     "text": "ठीक",
+     "pos": "v.",
+     "meaning": "to fix"
+    }
+   ],
+   "id": "t5",
+   "en": "I apologize. I will send someone to fix the air conditioning right away."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "धन्यवाद, लेकिन बुकिंग के समय मैंने शांत कमरा माँगा था।",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you, but I asked for a quiet room when I booked."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "आप सही हैं। मैं देखता हूँ कि क्या हमारे पास कोई और कमरा खाली है।",
+   "glosses": [],
+   "id": "t7",
+   "en": "You are right. Let me check if we have another room available."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अगर नहीं है, तो मैं मैनेजर से बात करना चाहूँगा।",
+   "glosses": [
+    {
+     "text": "मैनेजर",
+     "pos": "n.",
+     "meaning": "the manager"
+    }
+   ],
+   "id": "t8",
+   "en": "If not, I would like to speak to the manager."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "समझ गया। चौथी मंज़िल पर एक शांत कमरा है।",
+   "glosses": [],
+   "id": "t9",
+   "en": "I understand. We have a quiet room on the fourth floor."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ठीक है। और असुविधा के कारण क्या मुझे इस रात का रिफ़ंड मिल सकता है?",
+   "glosses": [
+    {
+     "text": "ठीक",
+     "pos": "v.",
+     "meaning": "to fix"
+    },
+    {
+     "text": "रिफ़ंड",
+     "pos": "n.",
+     "meaning": "a refund"
+    }
+   ],
+   "id": "t10",
+   "en": "Good. And could I have a refund for tonight because of the trouble?"
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "मैं आपको बीस प्रतिशत की छूट दे सकता हूँ। क्या यह मंज़ूर है?",
+   "glosses": [],
+   "id": "t11",
+   "en": "I can give you a twenty percent discount. Would that be acceptable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जी हाँ, यह उचित है। समस्या सुलझाने के लिए धन्यवाद।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes, that is fair. Thank you for solving the problem."
+  }
+ ],
+ "practice_words": []
+}

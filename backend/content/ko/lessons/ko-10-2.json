@@ -1,0 +1,264 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "재택근무",
+   "ipa": "jaetaekgeunmu",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "우리 회사가 재택근무를 영구적으로 하는 걸 검토하고 있어. 어떻게 생각해?",
+     "en": "My company is considering making remote work permanent. What is your opinion?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "생산성",
+   "ipa": "saengsanseong",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "하지만 집에 있으면 생산성이 떨어지지 않아?",
+     "en": "But does productivity not suffer when people are at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "유연성",
+   "ipa": "yuyeonseong",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "나는 찬성이야. 주로 직원들에게 주는 유연성 때문에.",
+     "en": "I am in favor, mainly because of the flexibility it gives employees."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "고립",
+   "ipa": "gorip",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "그럼 고립은? 커피 머신 앞에서 동료들과 수다 떨던 게 그리워.",
+     "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "출퇴근",
+   "ipa": "chultoegeun",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "출퇴근은 정말 최악이야. 하루에 두 시간이나 낭비해.",
+     "en": "The commute is the worst part, I must admit. I lose two hours a day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "균형을 맞추",
+   "ipa": "gyunhyeong-eul matchu",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "그러니까 문제는 일과 사생활의 균형을 맞추는 방법이네.",
+     "en": "So the question is how to balance work and private life."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "우리 회사가 재택근무를 영구적으로 하는 걸 검토하고 있어. 어떻게 생각해?",
+   "glosses": [
+    {
+     "text": "재택근무",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": "My company is considering making remote work permanent. What is your opinion?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "나는 찬성이야. 주로 직원들에게 주는 유연성 때문에.",
+   "glosses": [
+    {
+     "text": "유연성",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": "I am in favor, mainly because of the flexibility it gives employees."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "하지만 집에 있으면 생산성이 떨어지지 않아?",
+   "glosses": [
+    {
+     "text": "생산성",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": "But does productivity not suffer when people are at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "많은 직종에서는 반대라는 연구가 있어, 물론 사람에 따라 다르지만.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Studies suggest the opposite for many jobs, though it depends on the person."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "나는 집에서는 방해 요소가 많아서 집중하기 어려워.",
+   "glosses": [],
+   "id": "t5",
+   "en": "I find it hard to concentrate at home, with all the distractions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞는 말이야. 제대로 된 작업 공간이 있으면 큰 차이가 나.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is a fair point. A proper workspace makes a big difference."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "그럼 고립은? 커피 머신 앞에서 동료들과 수다 떨던 게 그리워.",
+   "glosses": [
+    {
+     "text": "고립",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "솔직히 나도 그래. 그래서 하이브리드 방식이 제일 좋다고 생각해.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Me too, to be honest. That is why I think a hybrid model works best."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "일주일에 이삼 일만 사무실에 나오는 식으로?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Two or three days in the office, perhaps?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아. 사람들과의 접촉은 유지하면서 매일의 출퇴근은 피할 수 있어.",
+   "glosses": [
+    {
+     "text": "출퇴근",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly. You keep the human contact and still avoid the daily commute."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "출퇴근은 정말 최악이야. 하루에 두 시간이나 낭비해.",
+   "glosses": [
+    {
+     "text": "출퇴근",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": "The commute is the worst part, I must admit. I lose two hours a day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그 시간에 뭘 할 수 있을지 상상해 봐. 운동, 가족, 수면.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Imagine what you could do with that time: sport, family, sleep."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "물론 환경에도 더 좋고.",
+   "glosses": [],
+   "id": "t13",
+   "en": "It is also better for the environment, of course."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아, 다만 하루 종일 집을 난방하는 것도 에너지를 쓰긴 해.",
+   "glosses": [],
+   "id": "t14",
+   "en": "True, although heating a home all day uses energy, too."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "그러니까 문제는 일과 사생활의 균형을 맞추는 방법이네.",
+   "glosses": [
+    {
+     "text": "균형을 맞추",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": "So the question is how to balance work and private life."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그래. 근무 시간을 분명히 정해야 해, 안 그러면 진짜로 퇴근한 느낌이 안 들어.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Right. Clear working hours are essential, otherwise you never really switch off."
+  }
+ ],
+ "practice_words": []
+}

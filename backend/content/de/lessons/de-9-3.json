@@ -1,0 +1,236 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "eine Mitgliedschaft",
+   "ipa": "/ˈaɪ̯nə ˈmɪtɡliːtʃaft/",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Willkommen im Fitnessstudio! Interessieren Sie sich für eine Mitgliedschaft?",
+     "en": "Welcome to the gym! Are you interested in a membership?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Trainer",
+   "ipa": "/ˈtʁɛːnɐ/",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Natürlich. Unser Trainer zeigt Ihnen, wie alles funktioniert.",
+     "en": "Of course. Our trainer will show you how everything works."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "Ziel",
+   "ipa": "/tsiːl/",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Schön. Was ist Ihr Hauptziel: abnehmen oder stärker werden?",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "trainieren",
+   "ipa": "/tʁɛˈniːʁən/",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ja, ich möchte regelmäßig anfangen zu trainieren.",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Einheiten",
+   "ipa": "/ˈaɪ̯nhaɪ̯tn̩/",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Dann empfehle ich Ihnen am Anfang drei Einheiten pro Woche mit einem Trainer.",
+     "en": "Then I recommend three sessions a week with a trainer at the beginning."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "stärker",
+   "ipa": "/ˈʃtɛʁkɐ/",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ich möchte stärker werden und tagsüber mehr Energie haben.",
+     "en": "I want to get stronger and have more energy during the day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Willkommen im Fitnessstudio! Interessieren Sie sich für eine Mitgliedschaft?",
+   "glosses": [
+    {
+     "text": "eine Mitgliedschaft",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ja, ich möchte regelmäßig anfangen zu trainieren.",
+   "glosses": [
+    {
+     "text": "trainieren",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Schön. Was ist Ihr Hauptziel: abnehmen oder stärker werden?",
+   "glosses": [
+    {
+     "text": "ziel",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "stärker",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ich möchte stärker werden und tagsüber mehr Energie haben.",
+   "glosses": [
+    {
+     "text": "stärker",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Dann empfehle ich Ihnen am Anfang drei Einheiten pro Woche mit einem Trainer.",
+   "glosses": [
+    {
+     "text": "Trainer",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "Einheiten",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Wie viel kostet die Mitgliedschaft im Monat?",
+   "glosses": [],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Fünfunddreißig im Monat, und die erste Einheit ist kostenlos.",
+   "glosses": [],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Das klingt vernünftig. Kann ich heute die Geräte ausprobieren?",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Natürlich. Unser Trainer zeigt Ihnen, wie alles funktioniert.",
+   "glosses": [
+    {
+     "text": "Trainer",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Muss ich mein eigenes Handtuch mitbringen?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Ja, bitte bringen Sie ein Handtuch und eine Flasche Wasser mit.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Perfekt. Ich melde mich gleich an.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

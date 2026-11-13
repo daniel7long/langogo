@@ -1,0 +1,256 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "あらすじ",
+   "ipa": "arasuji",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "まだなんだ。あらすじがちょっと予想できるっていうレビューを読んだよ。",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "演技",
+   "ipa": "engi",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "おもしろいね。主演の演技はどうだった？",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "監督",
+   "ipa": "kantoku",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "監督はどう？前の作品がすごく好きだったんだ。",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "レビュー",
+   "ipa": "rebyuu",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "まだなんだ。あらすじがちょっと予想できるっていうレビューを読んだよ。",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "予想できる",
+   "ipa": "yosoo dekiru",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "まだなんだ。あらすじがちょっと予想できるっていうレビューを読んだよ。",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "音楽",
+   "ipa": "ongaku",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "今回は、特に音楽のおかげでうまくいっているよ。すごく感情が加わるんだ。",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "昨日の夜、みんなが話題にしている新しい映画を見たよ。見た？",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "まだなんだ。あらすじがちょっと予想できるっていうレビューを読んだよ。",
+   "glosses": [
+    {
+     "text": "あらすじ",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "レビュー",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "予想できる",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "正直、前半はそうだけど、結末には完全に驚かされたよ。",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "おもしろいね。主演の演技はどうだった？",
+   "glosses": [
+    {
+     "text": "演技",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "傑出していたよ。女優が役をリアルで複雑に感じさせていた。",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "監督はどう？前の作品がすごく好きだったんだ。",
+   "glosses": [
+    {
+     "text": "監督",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "いつものスタイルを保っていて、長回しが多くて台詞がとても少ないよ。",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "物語しだいで、美しくもなるし退屈にもなるね。",
+   "glosses": [],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "今回は、特に音楽のおかげでうまくいっているよ。すごく感情が加わるんだ。",
+   "glosses": [
+    {
+     "text": "音楽",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "この映画は映画館で見る価値があると思う？",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "間違いなくあるよ。映像と音には大きなスクリーンが必要だから。",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "じゃあ今週末に行くよ。批評家の意見は分かれているけどね。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "批評家と観客はめったに意見が一致しないから、自分で判断して。",
+   "glosses": [],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "そうだね。この映画と前の作品、どっちを高く評価する？",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "前の作品だけど、ほんの少しだけ。この作品は五つ星のうち四つかな。",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "わかった。見たあとでまた話そう。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

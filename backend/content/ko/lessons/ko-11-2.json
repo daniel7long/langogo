@@ -1,0 +1,287 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "헤드라인",
+   "ipa": "hedeulain",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "새 세법에 대한 오늘 아침 헤드라인 봤어?",
+     "en": "Did you see this morning's headline about the new tax law?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "기자",
+   "ipa": "gija",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "여러 곳을 비교해, 좋은 기자라도 편향될 수 있으니까.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "출처",
+   "ipa": "chulcheo",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "어떤 뉴스 출처를 믿어?",
+     "en": "Which news sources do you trust?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "편향",
+   "ipa": "pyeonhyang",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "여러 곳을 비교해, 좋은 기자라도 편향될 수 있으니까.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "사실 확인",
+   "ipa": "sasil hwagin",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "증거와 실명 전문가를 찾고, 사실 확인이 되는지 봐.",
+     "en": "I look for evidence, named experts, and whether the facts can be verified."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "의견",
+   "ipa": "uigyeon",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "의견 기사는 어때? 그냥 개인적인 견해 아니야?",
+     "en": "What about opinion articles? Are they not just personal views?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "새 세법에 대한 오늘 아침 헤드라인 봤어?",
+   "glosses": [
+    {
+     "text": "헤드라인",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t1",
+   "en": "Did you see this morning's headline about the new tax law?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "봤어, 하지만 의견을 갖기 전에 더 읽어 보고 싶어.",
+   "glosses": [
+    {
+     "text": "의견",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": "I did, but I want to read more before forming an opinion."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "똑똑하네. 나는 제목만 읽고도 이미 화가 났어.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Smart. I only read the title and I was already angry."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "바로 헤드라인이 작동하는 방식이야. 주목을 끌려고 만들어졌거든.",
+   "glosses": [
+    {
+     "text": "헤드라인",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t4",
+   "en": "That is exactly how headlines work. They are designed to attract attention."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "어떤 뉴스 출처를 믿어?",
+   "glosses": [
+    {
+     "text": "출처",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t5",
+   "en": "Which news sources do you trust?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "여러 곳을 비교해, 좋은 기자라도 편향될 수 있으니까.",
+   "glosses": [
+    {
+     "text": "기자",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "편향",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": "I compare several, because even good journalists can be biased."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "어느 쪽이 더 정확한지는 어떻게 정해?",
+   "glosses": [],
+   "id": "t7",
+   "en": "How do you decide which one is more accurate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "증거와 실명 전문가를 찾고, 사실 확인이 되는지 봐.",
+   "glosses": [
+    {
+     "text": "사실 확인",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": "I look for evidence, named experts, and whether the facts can be verified."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "내가 오 분 만에 하는 일치고는 노력이 너무 많이 들어.",
+   "glosses": [],
+   "id": "t9",
+   "en": "That takes a lot of effort for something I do in five minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아, 하지만 잘 아는 것도 책임 있는 시민이 되는 일의 일부야.",
+   "glosses": [],
+   "id": "t10",
+   "en": "True, but being well informed is part of being a responsible citizen."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "의견 기사는 어때? 그냥 개인적인 견해 아니야?",
+   "glosses": [
+    {
+     "text": "의견",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t11",
+   "en": "What about opinion articles? Are they not just personal views?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아, 그리고 그건 괜찮아, 분명히 의견이라고 표시되어 있다면.",
+   "glosses": [
+    {
+     "text": "의견",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t12",
+   "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "하지만 그 차이를 모르는 사람이 많아.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many people do not notice the difference, though."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그래서 학교의 미디어 교육이 그렇게 중요한 거야.",
+   "glosses": [],
+   "id": "t14",
+   "en": "That is why media education in schools matters so much."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "동의해. 이제부터는 적어도 두 곳의 출처를 읽어 볼게.",
+   "glosses": [
+    {
+     "text": "출처",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": "I agree. I will try to read at least two sources from now on."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "좋아. 그리고 기사는 직접 사실 확인을 한 다음에만 공유해.",
+   "glosses": [
+    {
+     "text": "사실 확인",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t16",
+   "en": "Good. And share articles only after you have checked them yourself."
+  }
+ ],
+ "practice_words": []
+}

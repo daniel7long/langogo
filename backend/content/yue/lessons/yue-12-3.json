@@ -1,0 +1,258 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "職業",
+   "ipa": "zik1 jip6",
+   "pos": "n.",
+   "meaning": "a career",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我諗緊轉職業。我想離開會計行業，變成設計師。",
+     "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "辭職",
+   "ipa": "ci4 zik1",
+   "pos": "v.",
+   "meaning": "to quit",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你打算即刻辭職嗎？",
+     "en": "Are you going to quit your job straight away?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "技能",
+   "ipa": "gei6 nang4",
+   "pos": "n.",
+   "meaning": "a skill",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你需要學咩技能？",
+     "en": "What skills do you need to learn?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "風險",
+   "ipa": "fung1 him2",
+   "pos": "n.",
+   "meaning": "a risk",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "唔係，咁風險太大。我會先喺晚上讀書。",
+     "en": "No, that would be a big risk. I will study in the evenings first."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "導師",
+   "ipa": "dou6 si1",
+   "pos": "n.",
+   "meaning": "a mentor",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "有，我以前嘅同學而家係我嘅導師，佢會俾坦白嘅意見我。",
+     "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "轉行學習",
+   "ipa": "zyun3 hong4 hok6 zaap6",
+   "pos": "v.",
+   "meaning": "to retrain",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "轉行學習貴唔貴？",
+     "en": "Is it expensive to retrain?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "你呢排好興奮噃。發生咩事呀？",
+   "glosses": [],
+   "id": "t1",
+   "en": "You look so excited lately. What is going on?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我諗緊轉職業。我想離開會計行業，變成設計師。",
+   "glosses": [
+    {
+     "text": "職業",
+     "pos": "n.",
+     "meaning": "a career"
+    }
+   ],
+   "id": "t2",
+   "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "嘩，轉變好大喎！係咩令你決定咁做？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow, that is quite a change! What made you decide?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我意識到自己唔再有動力，而且我想份工有創意。",
+   "glosses": [],
+   "id": "t4",
+   "en": "I realized that I no longer feel motivated, and I want my work to be creative."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "你打算即刻辭職嗎？",
+   "glosses": [
+    {
+     "text": "辭職",
+     "pos": "v.",
+     "meaning": "to quit"
+    }
+   ],
+   "id": "t5",
+   "en": "Are you going to quit your job straight away?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "唔係，咁風險太大。我會先喺晚上讀書。",
+   "glosses": [
+    {
+     "text": "風險",
+     "pos": "n.",
+     "meaning": "a risk"
+    }
+   ],
+   "id": "t6",
+   "en": "No, that would be a big risk. I will study in the evenings first."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "你需要學咩技能？",
+   "glosses": [
+    {
+     "text": "技能",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t7",
+   "en": "What skills do you need to learn?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "主要係設計軟件同溝通，不過我已經有幾好嘅組織能力。",
+   "glosses": [],
+   "id": "t8",
+   "en": "Mainly design software and communication, but I already have good organizational skills."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "呢個係優勢。你喺呢個領域有冇認識人？",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is an advantage. Do you know anyone in that field?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有，我以前嘅同學而家係我嘅導師，佢會俾坦白嘅意見我。",
+   "glosses": [
+    {
+     "text": "導師",
+     "pos": "n.",
+     "meaning": "a mentor"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "轉行學習貴唔貴？",
+   "glosses": [
+    {
+     "text": "轉行學習",
+     "pos": "v.",
+     "meaning": "to retrain"
+    }
+   ],
+   "id": "t11",
+   "en": "Is it expensive to retrain?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "唔係好貴。我搵到一個網上課程，費用比一個月嘅健身室會員卡仲平。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not too much. I found an online course that costs less than a monthly gym membership."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "你家人點睇？",
+   "glosses": [],
+   "id": "t13",
+   "en": "And what does your family think about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "佢哋好擔心，但係只要我有計劃，佢哋就支持我。",
+   "glosses": [],
+   "id": "t14",
+   "en": "They are worried, but they support me, as long as I have a plan."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "我佩服你嘅勇氣。好多人從來都唔踏出第一步。",
+   "glosses": [],
+   "id": "t15",
+   "en": "I admire your courage. Many people never take the first step."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "多謝。即使失敗，我都會學到新嘢。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Thank you. Even if it fails, I will have learned something new."
+  }
+ ],
+ "practice_words": []
+}

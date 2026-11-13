@@ -65,6 +65,204 @@
           "title": "Favorite dishes"
         }
       ]
+    },
+    {
+      "level": 4,
+      "title": "Getting Around",
+      "lessons": [
+        {
+          "id": "it-4-1",
+          "title": "Asking for directions"
+        },
+        {
+          "id": "it-4-2",
+          "title": "Taking the train"
+        },
+        {
+          "id": "it-4-3",
+          "title": "Booking a hotel room"
+        },
+        {
+          "id": "it-4-4",
+          "title": "At the airport"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Shopping and Services",
+      "lessons": [
+        {
+          "id": "it-5-1",
+          "title": "Buying clothes"
+        },
+        {
+          "id": "it-5-2",
+          "title": "At the pharmacy"
+        },
+        {
+          "id": "it-5-3",
+          "title": "At the post office"
+        },
+        {
+          "id": "it-5-4",
+          "title": "Renting an apartment"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Social Life",
+      "lessons": [
+        {
+          "id": "it-6-1",
+          "title": "Inviting a friend"
+        },
+        {
+          "id": "it-6-2",
+          "title": "Talking about hobbies"
+        },
+        {
+          "id": "it-6-3",
+          "title": "Telling about the weekend"
+        },
+        {
+          "id": "it-6-4",
+          "title": "Planning a vacation"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "title": "Work and Study",
+      "lessons": [
+        {
+          "id": "it-7-1",
+          "title": "A job interview"
+        },
+        {
+          "id": "it-7-2",
+          "title": "Talking about your studies"
+        },
+        {
+          "id": "it-7-3",
+          "title": "A meeting at work"
+        },
+        {
+          "id": "it-7-4",
+          "title": "Asking for a day off"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "title": "Travel and Experiences",
+      "lessons": [
+        {
+          "id": "it-8-1",
+          "title": "Telling a travel story"
+        },
+        {
+          "id": "it-8-2",
+          "title": "A hotel complaint"
+        },
+        {
+          "id": "it-8-3",
+          "title": "Renting a car"
+        },
+        {
+          "id": "it-8-4",
+          "title": "A cancelled flight"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "title": "Health and Well-being",
+      "lessons": [
+        {
+          "id": "it-9-1",
+          "title": "At the doctor's"
+        },
+        {
+          "id": "it-9-2",
+          "title": "Stress and sleep"
+        },
+        {
+          "id": "it-9-3",
+          "title": "Joining a gym"
+        },
+        {
+          "id": "it-9-4",
+          "title": "Healthy eating advice"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "title": "Society and Ideas",
+      "lessons": [
+        {
+          "id": "it-10-1",
+          "title": "The social media debate"
+        },
+        {
+          "id": "it-10-2",
+          "title": "Working from home"
+        },
+        {
+          "id": "it-10-3",
+          "title": "Environmental habits"
+        },
+        {
+          "id": "it-10-4",
+          "title": "Public transport and cars"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "title": "Culture and Media",
+      "lessons": [
+        {
+          "id": "it-11-1",
+          "title": "Reviewing a movie"
+        },
+        {
+          "id": "it-11-2",
+          "title": "News and opinions"
+        },
+        {
+          "id": "it-11-3",
+          "title": "A museum visit"
+        },
+        {
+          "id": "it-11-4",
+          "title": "Learning languages"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "title": "Life Decisions",
+      "lessons": [
+        {
+          "id": "it-12-1",
+          "title": "Moving abroad"
+        },
+        {
+          "id": "it-12-2",
+          "title": "Renting or buying"
+        },
+        {
+          "id": "it-12-3",
+          "title": "Changing careers"
+        },
+        {
+          "id": "it-12-4",
+          "title": "Giving constructive feedback"
+        }
+      ]
     }
   ]
 }

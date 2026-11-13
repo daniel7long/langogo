@@ -1,0 +1,248 @@
+{
+ "emoji": "😴",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "stres",
+   "ipa": "/ˈstɾɛs/",
+   "pos": "n.",
+   "meaning": "stress",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Jujur saja, aku sangat stres dan tidurku buruk.",
+     "en": "Honestly, I am under a lot of stress and I sleep badly."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "kelelahan",
+   "ipa": "/kəlɛlaˈhan/",
+   "pos": "adj.",
+   "meaning": "exhausted",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Belakangan ini kamu tampak kelelahan. Apakah semuanya baik-baik saja?",
+     "en": "You look exhausted lately. Is everything all right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "kebiasaan",
+   "ipa": "/kəbiaˈsaan/",
+   "pos": "n.",
+   "meaning": "a habit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Beri waktu dua minggu. Kebiasaan butuh waktu untuk berubah.",
+     "en": "Give it two weeks. Habits take time to change."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "bersantai",
+   "ipa": "/bəɾsanˈtai/",
+   "pos": "v.",
+   "meaning": "to relax",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Aku tahu, tetapi sulit bersantai setelah hari yang panjang.",
+     "en": "I know, but it is difficult to relax after a long day."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "meningkatkan",
+   "ipa": "/məniŋkatˈkan/",
+   "pos": "v.",
+   "meaning": "to improve",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Selain itu, berjalan kaki sebentar setelah bekerja bisa meningkatkan suasana hatimu.",
+     "en": "Also, a short walk after work can improve your mood a lot."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "tidur",
+   "ipa": "/ˈtidu̯ɾ/",
+   "pos": "v.",
+   "meaning": "to sleep",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Biasanya kamu tidur jam berapa?",
+     "en": "What time do you usually go to bed?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Belakangan ini kamu tampak kelelahan. Apakah semuanya baik-baik saja?",
+   "glosses": [
+    {
+     "text": "kelelahan",
+     "pos": "adj.",
+     "meaning": "exhausted"
+    }
+   ],
+   "id": "t1",
+   "en": "You look exhausted lately. Is everything all right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Jujur saja, aku sangat stres dan tidurku buruk.",
+   "glosses": [
+    {
+     "text": "stres",
+     "pos": "n.",
+     "meaning": "stress"
+    },
+    {
+     "text": "tidur",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, I am under a lot of stress and I sleep badly."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Biasanya kamu tidur jam berapa?",
+   "glosses": [
+    {
+     "text": "tidur",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t3",
+   "en": "What time do you usually go to bed?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sering kali lewat tengah malam, karena aku memeriksa ponsel berjam-jam.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Often after midnight, because I check my phone for hours."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Itu kebiasaan buruk. Coba matikan layar satu jam sebelum tidur.",
+   "glosses": [
+    {
+     "text": "kebiasaan",
+     "pos": "n.",
+     "meaning": "a habit"
+    },
+    {
+     "text": "tidur",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t5",
+   "en": "That is a bad habit. Try to turn off your screen an hour before bed."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku tahu, tetapi sulit bersantai setelah hari yang panjang.",
+   "glosses": [
+    {
+     "text": "bersantai",
+     "pos": "v.",
+     "meaning": "to relax"
+    }
+   ],
+   "id": "t6",
+   "en": "I know, but it is difficult to relax after a long day."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Kenapa kamu tidak membaca buku atau mendengarkan musik yang tenang?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Why don't you read a book or listen to calm music?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Itu ide bagus. Aku dulu melakukannya waktu masih mahasiswa.",
+   "glosses": [],
+   "id": "t8",
+   "en": "That is a good idea. I used to do that when I was a student."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Selain itu, berjalan kaki sebentar setelah bekerja bisa meningkatkan suasana hatimu.",
+   "glosses": [
+    {
+     "text": "meningkatkan",
+     "pos": "v.",
+     "meaning": "to improve"
+    }
+   ],
+   "id": "t9",
+   "en": "Also, a short walk after work can improve your mood a lot."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Akan kucoba. Semoga aku bisa tidur lebih nyenyak minggu ini.",
+   "glosses": [
+    {
+     "text": "tidur",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t10",
+   "en": "I will try it. I hope I can sleep better this week."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Beri waktu dua minggu. Kebiasaan butuh waktu untuk berubah.",
+   "glosses": [
+    {
+     "text": "Kebiasaan",
+     "pos": "n.",
+     "meaning": "a habit"
+    }
+   ],
+   "id": "t11",
+   "en": "Give it two weeks. Habits take time to change."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Terima kasih atas sarannya. Aku sudah merasa lebih baik hanya dengan membicarakannya.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks for the advice. I feel better just talking about it."
+  }
+ ],
+ "practice_words": []
+}

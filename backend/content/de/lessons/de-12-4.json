@@ -1,0 +1,275 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "Feedback",
+   "ipa": "/ˈfiːtbɛk/",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Einverstanden. Soll ich dir nächste Woche ein Feedback zu deiner geben?",
+     "en": "Agreed. Would you like me to give you feedback on yours next week?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "einen Vorschlag",
+   "ipa": "/ˈaɪ̯nən ˈfoːɐ̯ʃlaːk/",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ich habe einen Vorschlag: Versuch, langsamer zu sprechen, besonders am Anfang.",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "Kritik",
+   "ipa": "/kʁiˈtiːk/",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Noch etwas? Sei bitte ehrlich. Ich kann Kritik vertragen.",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "konkreter",
+   "ipa": "/kɔnˈkʁeːtɐ/",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Das hilft mir. Könntest du konkreter sagen, welche Folien?",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Fortschritte",
+   "ipa": "/ˈfɔʁtʃʁɪtə/",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Überhaupt nicht. Du hast seit deiner letzten Präsentation echte Fortschritte gemacht.",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "motiviert",
+   "ipa": "/motiˈviːɐ̯t/",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Das motiviert mich sehr, weiter zu üben.",
+     "en": "That really motivates me to keep practicing."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Hast du ein paar Minuten? Ich hätte gern ein Feedback zu meiner Präsentation.",
+   "glosses": [
+    {
+     "text": "Feedback",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Klar. Zuerst einmal war die Struktur klar, und deine Beispiele waren interessant.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Danke. Und was könnte ich verbessern?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ich habe einen Vorschlag: Versuch, langsamer zu sprechen, besonders am Anfang.",
+   "glosses": [
+    {
+     "text": "einen Vorschlag",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Ich war wirklich nervös. War das deutlich zu merken?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ein bisschen, aber das lässt sich leicht beheben. Eine kurze Pause zwischen den Hauptpunkten würde helfen.",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Noch etwas? Sei bitte ehrlich. Ich kann Kritik vertragen.",
+   "glosses": [
+    {
+     "text": "Kritik",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Die letzten Folien hatten zu viel Text, deshalb hat das Publikum angefangen zu lesen, statt zuzuhören.",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Das hilft mir. Könntest du konkreter sagen, welche Folien?",
+   "glosses": [
+    {
+     "text": "konkreter",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Folie acht und neun. Nimm stattdessen ein Bild und einen Satz.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Das mache ich. Ehrlich gesagt hatte ich Angst, dass es schlecht gelaufen war.",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Überhaupt nicht. Du hast seit deiner letzten Präsentation echte Fortschritte gemacht.",
+   "glosses": [
+    {
+     "text": "Fortschritte",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Das motiviert mich sehr, weiter zu üben.",
+   "glosses": [
+    {
+     "text": "motiviert",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Gut. Konstruktives Feedback sollte Menschen motiviert machen, nicht entmutigen.",
+   "glosses": [
+    {
+     "text": "Feedback",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "motiviert",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Einverstanden. Soll ich dir nächste Woche ein Feedback zu deiner geben?",
+   "glosses": [
+    {
+     "text": "Feedback",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Dafür wäre ich dankbar. Danke, dass du dafür offen bist.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

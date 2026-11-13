@@ -1,0 +1,231 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "водительские права",
+   "ipa": "vodítel'skije práva",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Да, маленькая машина на пять дней. Вот мои водительские права.",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "страховку",
+   "ipa": "strakhóvku",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Спасибо. Хотите дополнительную страховку? Она покрывает любые повреждения.",
+     "en": "Thank you. Would you like extra insurance? It covers any damage."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "залог",
+   "ipa": "zalóg",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Восемь долларов в день. Нам также нужен залог в двести долларов.",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "навигатор",
+   "ipa": "navigátor",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Хорошо. В машине есть навигатор?",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "бак",
+   "ipa": "bak",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Да. Бак сейчас полный, и вам нужно вернуть его полным.",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "вернуть",
+   "ipa": "vernút'",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Понятно. Где мне вернуть машину в конце?",
+     "en": "Understood. Where do I return the car at the end?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Добрый день. У вас есть бронь на автомобиль?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, маленькая машина на пять дней. Вот мои водительские права.",
+   "glosses": [
+    {
+     "text": "водительские права",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Спасибо. Хотите дополнительную страховку? Она покрывает любые повреждения.",
+   "glosses": [
+    {
+     "text": "страховку",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, пожалуйста. Сколько стоит страховка в день?",
+   "glosses": [],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Восемь долларов в день. Нам также нужен залог в двести долларов.",
+   "glosses": [
+    {
+     "text": "залог",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Хорошо. В машине есть навигатор?",
+   "glosses": [
+    {
+     "text": "навигатор",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Да. Бак сейчас полный, и вам нужно вернуть его полным.",
+   "glosses": [
+    {
+     "text": "Бак",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "вернуть",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Понятно. Где мне вернуть машину в конце?",
+   "glosses": [
+    {
+     "text": "вернуть",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Здесь, в этом же офисе, до шести вечера в последний день.",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "А что, если я немного опоздаю?",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Тогда мы возьмём плату ещё за один день, так что позвоните нам, пожалуйста.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Хорошо, что знаю. Спасибо за помощь.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

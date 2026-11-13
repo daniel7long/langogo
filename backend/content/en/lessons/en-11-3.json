@@ -1,0 +1,264 @@
+{
+ "emoji": "🖼️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "exhibition",
+   "ipa": "/ˌɛksəˈbɪʃən/",
+   "pos": "n.",
+   "meaning": "an exhibition",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "What did you think of the exhibition? You seemed to enjoy it.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "curator",
+   "ipa": "/ˈkjʊɹeɪɾɚ/",
+   "pos": "n.",
+   "meaning": "a curator",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Very much. The curator chose the pieces very carefully.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "masterpiece",
+   "ipa": "/ˈmæstɚˌpis/",
+   "pos": "n.",
+   "meaning": "a masterpiece",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "The large painting in the last room. It is considered a masterpiece.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "heritage",
+   "ipa": "/ˈhɛɹɪtɪdʒ/",
+   "pos": "n.",
+   "meaning": "heritage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "But maintaining cultural heritage costs a lot of money.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "interpretation",
+   "ipa": "/ɪnˌtɝpɹɪˈteɪʃən/",
+   "pos": "n.",
+   "meaning": "interpretation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Art is open to interpretation, which is what makes museums exciting.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "audio guide",
+   "ipa": "/ˈɔdioʊ ɡaɪd/",
+   "pos": "n.",
+   "meaning": "an audio guide",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Gladly. This time I will download the audio guide in advance.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "What did you think of the exhibition? You seemed to enjoy it.",
+   "glosses": [
+    {
+     "text": "exhibition",
+     "pos": "n.",
+     "meaning": "an exhibition"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Very much. The curator chose the pieces very carefully.",
+   "glosses": [
+    {
+     "text": "curator",
+     "pos": "n.",
+     "meaning": "a curator"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "I agree. Which work impressed you most?",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "The large painting in the last room. It is considered a masterpiece.",
+   "glosses": [
+    {
+     "text": "masterpiece",
+     "pos": "n.",
+     "meaning": "a masterpiece"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Why do you think it is so famous?",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Perhaps because it shows ordinary people in a very honest way.",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Interesting. I listened to the audio guide, and it gave a very different explanation.",
+   "glosses": [
+    {
+     "text": "audio guide",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Art is open to interpretation, which is what makes museums exciting.",
+   "glosses": [
+    {
+     "text": "interpretation",
+     "pos": "n.",
+     "meaning": "interpretation"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "True. Some people say museums should not be so expensive.",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I think entry should be cheap, because culture belongs to everyone.",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "But maintaining cultural heritage costs a lot of money.",
+   "glosses": [
+    {
+     "text": "heritage",
+     "pos": "n.",
+     "meaning": "heritage"
+    }
+   ],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That is a valid point. Perhaps free days each month could be a compromise.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Many cities already do that, and the museums become very crowded.",
+   "glosses": [],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Crowds are a good sign, though: they show that people value art.",
+   "glosses": [],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Fair enough. Shall we visit the modern art museum next weekend?",
+   "glosses": [],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Gladly. This time I will download the audio guide in advance.",
+   "glosses": [
+    {
+     "text": "audio guide",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

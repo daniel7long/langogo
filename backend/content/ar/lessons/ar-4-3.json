@@ -1,0 +1,198 @@
+{
+ "emoji": "🏨",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "حجز",
+   "ipa": "ḥajz",
+   "pos": "n.",
+   "meaning": "a reservation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "مرحبا بك في الفندق. هل لديك حجز؟",
+     "en": "Hello, welcome to the hotel. Do you have a reservation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "غرفة",
+   "ipa": "ġurfa",
+   "pos": "n.",
+   "meaning": "a room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "شكرا. ما رقم الغرفة؟",
+     "en": "Thank you. What is the room number?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ليلتين",
+   "ipa": "laylatayn",
+   "pos": "n.",
+   "meaning": "a night",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "نعم، غرفة لمدة ليلتين باسمي.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "الإفطار",
+   "ipa": "al-iftār",
+   "pos": "n.",
+   "meaning": "breakfast",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "رائع. هل الإفطار مشمول؟",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "مشمول",
+   "ipa": "mašmūl",
+   "pos": "adj.",
+   "meaning": "included",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "رائع. هل الإفطار مشمول؟",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "المفتاح",
+   "ipa": "al-miftāḥ",
+   "pos": "n.",
+   "meaning": "the key",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "نعم، الإفطار مشمول من السابعة حتى العاشرة. وهذا هو المفتاح.",
+     "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "مرحبا بك في الفندق. هل لديك حجز؟",
+   "glosses": [
+    {
+     "text": "حجز",
+     "pos": "n.",
+     "meaning": "a reservation"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, welcome to the hotel. Do you have a reservation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، غرفة لمدة ليلتين باسمي.",
+   "glosses": [
+    {
+     "text": "غرفة",
+     "pos": "n.",
+     "meaning": "a room"
+    },
+    {
+     "text": "ليلتين",
+     "pos": "n.",
+     "meaning": "a night"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a room for two nights, under my name."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "نعم، ها هو. غرفة فردية تطل على الحديقة.",
+   "glosses": [
+    {
+     "text": "غرفة",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t3",
+   "en": "Yes, here it is. A single room with a view of the garden."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "رائع. هل الإفطار مشمول؟",
+   "glosses": [
+    {
+     "text": "الإفطار",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "مشمول",
+     "pos": "adj.",
+     "meaning": "included"
+    }
+   ],
+   "id": "t4",
+   "en": "Wonderful. Is breakfast included?"
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "نعم، الإفطار مشمول من السابعة حتى العاشرة. وهذا هو المفتاح.",
+   "glosses": [
+    {
+     "text": "الإفطار",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "مشمول",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "المفتاح",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "شكرا. ما رقم الغرفة؟",
+   "glosses": [
+    {
+     "text": "غرفة",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you. What is the room number?"
+  }
+ ],
+ "practice_words": []
+}

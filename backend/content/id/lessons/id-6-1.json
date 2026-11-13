@@ -1,0 +1,181 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "undangan",
+   "ipa": "/ʊnˈdaŋan/",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Undangan yang indah sekali! Ya, aku senang sekali bisa datang.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "datang",
+   "ipa": "/ˈdataŋ/",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Undangan yang indah sekali! Ya, aku senang sekali bisa datang.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "pesta",
+   "ipa": "/ˈpɛsta/",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Hai! Hari Sabtu aku ulang tahun dan mau mengadakan pesta. Kamu bisa datang?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "membawa",
+   "ipa": "/məmˈbawa/",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Apakah aku harus membawa sesuatu untuk dimakan atau diminum?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "ulang tahun",
+   "ipa": "/ˈulaŋ ˈtahun/",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Hai! Hari Sabtu aku ulang tahun dan mau mengadakan pesta. Kamu bisa datang?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "hadiah",
+   "ipa": "/haˈdiah/",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Bawa saja suasana hati yang baik. Dan mungkin hadiah kecil untukku, hehe.",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Hai! Hari Sabtu aku ulang tahun dan mau mengadakan pesta. Kamu bisa datang?",
+   "glosses": [
+    {
+     "text": "datang",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "pesta",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "ulang tahun",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Undangan yang indah sekali! Ya, aku senang sekali bisa datang.",
+   "glosses": [
+    {
+     "text": "Undangan",
+     "pos": "n.",
+     "meaning": "an invitation"
+    },
+    {
+     "text": "datang",
+     "pos": "v.",
+     "meaning": "to come"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Bagus! Mulai pukul tujuh malam di rumahku.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Apakah aku harus membawa sesuatu untuk dimakan atau diminum?",
+   "glosses": [
+    {
+     "text": "membawa",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Bawa saja suasana hati yang baik. Dan mungkin hadiah kecil untukku, hehe.",
+   "glosses": [
+    {
+     "text": "hadiah",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tentu saja! Kalau begitu, sampai jumpa hari Sabtu.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

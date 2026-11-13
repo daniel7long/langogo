@@ -1,0 +1,181 @@
+{
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "este paquete",
+   "ipa": "/ˈes.te paˈke.te/",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Quisiera enviar este paquete a Canadá, por favor.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "sellos",
+   "ipa": "/ˈse.ʝos/",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Listo. ¿Cuánto tardará? Además, necesito tres sellos para postales.",
+     "en": "Done. How long will it take? Also, I need three stamps for postcards."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "enviar",
+   "ipa": "/emˈbjaɾ/",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Quisiera enviar este paquete a Canadá, por favor.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "la dirección",
+   "ipa": "/la di.ɾek.ˈsjon/",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Déjeme ver el peso. Son dos kilos. Escriba aquí la dirección, por favor.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "el peso",
+   "ipa": "/el ˈpe.so/",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Déjeme ver el peso. Son dos kilos. Escriba aquí la dirección, por favor.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "una semana",
+   "ipa": "/ˈu.na seˈma.na/",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Más o menos una semana. El total es de diecinueve euros, con los sellos.",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Hola. ¿En qué puedo ayudarle?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Quisiera enviar este paquete a Canadá, por favor.",
+   "glosses": [
+    {
+     "text": "este paquete",
+     "pos": "n.",
+     "meaning": "a parcel"
+    },
+    {
+     "text": "enviar",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like to send this parcel to Canada, please."
+  },
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Déjeme ver el peso. Son dos kilos. Escriba aquí la dirección, por favor.",
+   "glosses": [
+    {
+     "text": "la dirección",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "el peso",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": "Let me check the weight. It is two kilos. Please write the address here."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Listo. ¿Cuánto tardará? Además, necesito tres sellos para postales.",
+   "glosses": [
+    {
+     "text": "sellos",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": "Done. How long will it take? Also, I need three stamps for postcards."
+  },
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Más o menos una semana. El total es de diecinueve euros, con los sellos.",
+   "glosses": [
+    {
+     "text": "sellos",
+     "pos": "n.",
+     "meaning": "a stamp"
+    },
+    {
+     "text": "una semana",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": "About a week. The total is nineteen euros, with the stamps."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Está bien. Aquí tiene mi tarjeta.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. Here is my card."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,231 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "mestrado",
+   "ipa": "/mesˈtɾa.du/",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Estou fazendo mestrado em design e gosto muito.",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "matéria",
+   "ipa": "/maˈtɛ.ɾja/",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Parece puxado. Qual é a sua matéria favorita?",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "as provas",
+   "ipa": "/as ˈpɾɔ.vas/",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Minha matéria favorita é métodos de pesquisa, embora as provas sejam difíceis.",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "se forma",
+   "ipa": "/si ˈfɔʁ.ma/",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Quando você se forma?",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "prazo",
+   "ipa": "/ˈpɾa.zu/",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "No ano que vem, se eu cumprir todos os prazos e passar nas disciplinas.",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "uma bolsa",
+   "ipa": "/ˈu.ma ˈbow.sa/",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Em tempo integral. Tenho uma bolsa, então posso me concentrar nos estudos.",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Então, o que você está estudando agora?",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Estou fazendo mestrado em design e gosto muito.",
+   "glosses": [
+    {
+     "text": "mestrado",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Parece puxado. Qual é a sua matéria favorita?",
+   "glosses": [
+    {
+     "text": "matéria",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Minha matéria favorita é métodos de pesquisa, embora as provas sejam difíceis.",
+   "glosses": [
+    {
+     "text": "matéria",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "as provas",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Quando você se forma?",
+   "glosses": [
+    {
+     "text": "se forma",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "No ano que vem, se eu cumprir todos os prazos e passar nas disciplinas.",
+   "glosses": [
+    {
+     "text": "prazo",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Você trabalha ou estuda em tempo integral?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Em tempo integral. Tenho uma bolsa, então posso me concentrar nos estudos.",
+   "glosses": [
+    {
+     "text": "uma bolsa",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Você já sabe o que quer fazer depois?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Não exatamente, mas eu gostaria de trabalhar em uma empresa de tecnologia.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "É um bom plano. Tenho certeza de que você vai encontrar algo.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Obrigado! Estudar é difícil, mas estou aprendendo muito.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,176 @@
+{
+ "emoji": "🛋️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "週末",
+   "ipa": "zau1 mut6",
+   "pos": "n.",
+   "meaning": "the weekend",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你個週末過得點呀？",
+     "en": "How was your weekend?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "探",
+   "ipa": "taam3",
+   "pos": "v.",
+   "meaning": "to visit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "好正呀！星期六我去探公公婆婆。",
+     "en": "It was great! On Saturday I visited my grandparents."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "煮飯",
+   "ipa": "zyu2 faan6",
+   "pos": "v.",
+   "meaning": "to cook",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我哋一齊煮飯，食咗一頓豐富嘅午餐，之後睇咗套電影。",
+     "en": "We cooked a big lunch together, and then we watched a movie."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "電影",
+   "ipa": "din6 jing2",
+   "pos": "n.",
+   "meaning": "a film",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我哋一齊煮飯，食咗一頓豐富嘅午餐，之後睇咗套電影。",
+     "en": "We cooked a big lunch together, and then we watched a movie."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "攰",
+   "ipa": "gui6",
+   "pos": "adj.",
+   "meaning": "tired",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我好攰，所以成日喺屋企休息。",
+     "en": "I was tired, so I rested at home all day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "休息",
+   "ipa": "jau1 sik1",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我好攰，所以成日喺屋企休息。",
+     "en": "I was tired, so I rested at home all day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "你個週末過得點呀？",
+   "glosses": [
+    {
+     "text": "週末",
+     "pos": "n.",
+     "meaning": "the weekend"
+    }
+   ],
+   "id": "t1",
+   "en": "How was your weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "好正呀！星期六我去探公公婆婆。",
+   "glosses": [
+    {
+     "text": "探",
+     "pos": "v.",
+     "meaning": "to visit"
+    }
+   ],
+   "id": "t2",
+   "en": "It was great! On Saturday I visited my grandparents."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "好呀！你哋喺嗰度做咗啲咩？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Nice! What did you do there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我哋一齊煮飯，食咗一頓豐富嘅午餐，之後睇咗套電影。",
+   "glosses": [
+    {
+     "text": "煮飯",
+     "pos": "v.",
+     "meaning": "to cook"
+    },
+    {
+     "text": "電影",
+     "pos": "n.",
+     "meaning": "a film"
+    }
+   ],
+   "id": "t4",
+   "en": "We cooked a big lunch together, and then we watched a movie."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "聽落好溫馨。咁星期日呢？",
+   "glosses": [],
+   "id": "t5",
+   "en": "Sounds lovely. And on Sunday?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我好攰，所以成日喺屋企休息。",
+   "glosses": [
+    {
+     "text": "攰",
+     "pos": "adj.",
+     "meaning": "tired"
+    },
+    {
+     "text": "休息",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t6",
+   "en": "I was tired, so I rested at home all day."
+  }
+ ],
+ "practice_words": []
+}

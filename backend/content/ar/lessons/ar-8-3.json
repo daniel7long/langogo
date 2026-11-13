@@ -1,0 +1,225 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "رخصة القيادة",
+   "ipa": "ruḫṣat al-qiyāda",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "نعم، سيارة صغيرة لخمسة أيام. هذه رخصة القيادة الخاصة بي.",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "تأمينا إضافيا",
+   "ipa": "taʾmīnan iḍāfiyyan",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "شكرا. هل تريد تأمينا إضافيا؟ إنه يغطي أي ضرر.",
+     "en": "Thank you. Would you like extra insurance? It covers any damage."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "وديعة",
+   "ipa": "wadīʿa",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "ثمانية دولارات في اليوم. ونحتاج أيضا إلى وديعة بمئتي دولار.",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "نظام تحديد المواقع",
+   "ipa": "niẓām taḥdīd al-mawāqiʿ",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "لا بأس. هل في السيارة نظام تحديد المواقع؟",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "الخزان",
+   "ipa": "al-ḫazzān",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "نعم. الخزان ممتلئ الآن، ويجب أن تعيدها وهو ممتلئ.",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "تعيدها",
+   "ipa": "tuʿīduhā",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "نعم. الخزان ممتلئ الآن، ويجب أن تعيدها وهو ممتلئ.",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "مرحبا. هل عندك حجز لسيارة؟",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، سيارة صغيرة لخمسة أيام. هذه رخصة القيادة الخاصة بي.",
+   "glosses": [
+    {
+     "text": "رخصة القيادة",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "شكرا. هل تريد تأمينا إضافيا؟ إنه يغطي أي ضرر.",
+   "glosses": [
+    {
+     "text": "تأمينا إضافيا",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، من فضلك. كم يكلف التأمين في اليوم؟",
+   "glosses": [],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "ثمانية دولارات في اليوم. ونحتاج أيضا إلى وديعة بمئتي دولار.",
+   "glosses": [
+    {
+     "text": "وديعة",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "لا بأس. هل في السيارة نظام تحديد المواقع؟",
+   "glosses": [
+    {
+     "text": "نظام تحديد المواقع",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "نعم. الخزان ممتلئ الآن، ويجب أن تعيدها وهو ممتلئ.",
+   "glosses": [
+    {
+     "text": "الخزان",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "تعيدها",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "فهمت. أين أعيد السيارة في النهاية؟",
+   "glosses": [],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "هنا في المكتب نفسه، قبل السادسة مساء في اليوم الأخير.",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ماذا يحدث إذا تأخرت قليلا؟",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "حينها نحاسبك على يوم إضافي، لذا اتصل بنا من فضلك.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "جيد أن أعرف. شكرا على مساعدتك.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

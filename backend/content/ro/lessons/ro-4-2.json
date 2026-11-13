@@ -1,0 +1,187 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "bilet",
+   "ipa": "/biˈlet/",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Înțeleg. Cât costă biletul?",
+     "en": "I understand. How much is the ticket?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "peron",
+   "ipa": "/peˈron/",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Desigur. Următorul tren pleacă la ora nouă de pe peronul patru.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "pleacă",
+   "ipa": "/ˈpleakə/",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Desigur. Următorul tren pleacă la ora nouă de pe peronul patru.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "dus-întors",
+   "ipa": "/ˈdus ɨnˈtors/",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Aș dori un bilet dus-întors până în capitală, vă rog.",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "la timp",
+   "ipa": "/la timp/",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Este la timp astăzi?",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "să schimbați trenul",
+   "ipa": "/sə skimˈbats ˈtrenul/",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da, este la timp. Dar trebuie să schimbați trenul în orașul următor.",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Bună dimineața. Cu ce vă pot ajuta?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aș dori un bilet dus-întors până în capitală, vă rog.",
+   "glosses": [
+    {
+     "text": "bilet",
+     "pos": "n.",
+     "meaning": "a ticket"
+    },
+    {
+     "text": "dus-întors",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Desigur. Următorul tren pleacă la ora nouă de pe peronul patru.",
+   "glosses": [
+    {
+     "text": "peron",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "pleacă",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Este la timp astăzi?",
+   "glosses": [
+    {
+     "text": "la timp",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Da, este la timp. Dar trebuie să schimbați trenul în orașul următor.",
+   "glosses": [
+    {
+     "text": "la timp",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "să schimbați trenul",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Înțeleg. Cât costă biletul?",
+   "glosses": [
+    {
+     "text": "bilet",
+     "pos": "n.",
+     "meaning": "a ticket"
+    }
+   ],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,257 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "আবর্জনা",
+   "ipa": "aborjona",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "হ্যাঁ, আমি আবর্জনা কমানোর চেষ্টা করি, তাই প্লাস্টিকের বোতল কেনা বন্ধ করেছি।",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "পুনর্ব্যবহার",
+   "ipa": "punorbyabohar",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "এটা ভালো শুরু। তুমি কি বাড়িতে সবকিছুর পুনর্ব্যবহার করো?",
+     "en": "That is a good start. Do you recycle everything at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "নির্গমন",
+   "ipa": "nirgomon",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "যাতায়াতের কী হবে? গাড়ি অনেক নির্গমন ঘটায়।",
+     "en": "What about transport? Cars produce a lot of emissions."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "নবায়নযোগ্য",
+   "ipa": "nobayonjogyo",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আমি একমত। সবচেয়ে বড় পরিবর্তন নবায়নযোগ্য শক্তিতেই হতে হবে।",
+     "en": "I agree. Renewable energy is where the biggest change must happen."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "টেকসই",
+   "ipa": "tekshoi",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "কেউ কেউ এখনও বলে টেকসই পণ্য অনেক দামি।",
+     "en": "Some people still say sustainable products are too expensive."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "কমানোর",
+   "ipa": "komanor",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "হ্যাঁ, আমি আবর্জনা কমানোর চেষ্টা করি, তাই প্লাস্টিকের বোতল কেনা বন্ধ করেছি।",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "পরিবেশ রক্ষার জন্য তুমি কি সম্প্রতি কোনো অভ্যাস বদলেছ?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Have you changed any habits recently to protect the environment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, আমি আবর্জনা কমানোর চেষ্টা করি, তাই প্লাস্টিকের বোতল কেনা বন্ধ করেছি।",
+   "glosses": [
+    {
+     "text": "আবর্জনা",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "কমানোর",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "এটা ভালো শুরু। তুমি কি বাড়িতে সবকিছুর পুনর্ব্যবহার করো?",
+   "glosses": [
+    {
+     "text": "পুনর্ব্যবহার",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": "That is a good start. Do you recycle everything at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "যা সম্ভব সবই। কাগজ, কাচ, প্লাস্টিক, এমনকি খাবারের উচ্ছিষ্ট সারের জন্য।",
+   "glosses": [],
+   "id": "t4",
+   "en": "Everything I can. Paper, glass, plastic and even food scraps for compost."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "চমৎকার। আমার আরও করা উচিত, কিন্তু অনেক সময় লাগে।",
+   "glosses": [],
+   "id": "t5",
+   "en": "Impressive. I should do more, but it takes so much time."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সত্যি বলতে, কয়েক সপ্তাহ পরে এটা আপনাআপনি হয়ে যায়।",
+   "glosses": [],
+   "id": "t6",
+   "en": "It becomes automatic after a few weeks, honestly."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "যাতায়াতের কী হবে? গাড়ি অনেক নির্গমন ঘটায়।",
+   "glosses": [
+    {
+     "text": "নির্গমন",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": "What about transport? Cars produce a lot of emissions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি বেশিরভাগ দিন সাইকেলে অফিসে যাই, আর দূরের যাত্রায় ট্রেন ব্যবহার করি।",
+   "glosses": [],
+   "id": "t8",
+   "en": "I cycle to work most days, and I use trains for long trips."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "কিন্তু তোমার কি মনে হয় ব্যক্তিগত পদক্ষেপ সত্যিই গুরুত্বপূর্ণ?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you think individual actions really matter, though?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, কিন্তু কোম্পানি আর সরকারকে আরও বড় পরিসরে কাজ করতে হবে।",
+   "glosses": [],
+   "id": "t10",
+   "en": "They do, but companies and governments must act on a bigger scale."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "আমি একমত। সবচেয়ে বড় পরিবর্তন নবায়নযোগ্য শক্তিতেই হতে হবে।",
+   "glosses": [
+    {
+     "text": "নবায়নযোগ্য",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. Renewable energy is where the biggest change must happen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক। সৌর আর বায়ু শক্তি প্রতি বছর সস্তা হচ্ছে।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Exactly. Solar and wind power are becoming cheaper every year."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "কেউ কেউ এখনও বলে টেকসই পণ্য অনেক দামি।",
+   "glosses": [
+    {
+     "text": "টেকসই",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people still say sustainable products are too expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "স্বল্পমেয়াদে হয়তো, কিন্তু সেগুলো বেশি টেকে আর পরে টাকা বাঁচায়।",
+   "glosses": [],
+   "id": "t14",
+   "en": "In the short term, maybe, but they last longer and save money later."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "তুমি আমাকে রাজি করিয়েছ। আমি একটি কম্পোস্ট বিন দিয়ে শুরু করব।",
+   "glosses": [],
+   "id": "t15",
+   "en": "You have convinced me. I will start with a compost bin."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "চমৎকার। নিখুঁত সমাধানের অপেক্ষায় থাকার চেয়ে ছোট পদক্ষেপই ভালো।",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wonderful. Small steps are better than waiting for a perfect solution."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,186 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "নিমন্ত্রণ",
+   "ipa": "nimontron",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "কী সুন্দর নিমন্ত্রণ! হ্যাঁ, আমি অবশ্যই আসতে চাই।",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "আসতে",
+   "ipa": "ashte",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "কী সুন্দর নিমন্ত্রণ! হ্যাঁ, আমি অবশ্যই আসতে চাই।",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "পার্টি",
+   "ipa": "parti",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "নমস্কার! শনিবার আমার জন্মদিন আর আমি পার্টি দিচ্ছি। তুমি কি আসতে পারবে?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "নিয়ে",
+   "ipa": "niye",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আমি কি খাবার বা পানীয় কিছু নিয়ে আসব?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "জন্মদিন",
+   "ipa": "jonmodin",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "নমস্কার! শনিবার আমার জন্মদিন আর আমি পার্টি দিচ্ছি। তুমি কি আসতে পারবে?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "উপহার",
+   "ipa": "upohar",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "শুধু ভালো মেজাজ নিয়ে এসো। আর হয়তো আমার জন্য ছোট্ট একটা উপহার, হা হা।",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "নমস্কার! শনিবার আমার জন্মদিন আর আমি পার্টি দিচ্ছি। তুমি কি আসতে পারবে?",
+   "glosses": [
+    {
+     "text": "আসতে",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "পার্টি",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "জন্মদিন",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "কী সুন্দর নিমন্ত্রণ! হ্যাঁ, আমি অবশ্যই আসতে চাই।",
+   "glosses": [
+    {
+     "text": "নিমন্ত্রণ",
+     "pos": "n.",
+     "meaning": "an invitation"
+    },
+    {
+     "text": "আসতে",
+     "pos": "v.",
+     "meaning": "to come"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "দারুণ! সন্ধ্যা সাতটায় আমার বাড়িতে শুরু।",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি কি খাবার বা পানীয় কিছু নিয়ে আসব?",
+   "glosses": [
+    {
+     "text": "নিয়ে",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "শুধু ভালো মেজাজ নিয়ে এসো। আর হয়তো আমার জন্য ছোট্ট একটা উপহার, হা হা।",
+   "glosses": [
+    {
+     "text": "নিয়ে",
+     "pos": "v.",
+     "meaning": "to bring"
+    },
+    {
+     "text": "উপহার",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "অবশ্যই! তাহলে শনিবার দেখা হবে।",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

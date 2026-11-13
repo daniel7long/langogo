@@ -1,0 +1,238 @@
+{
+ "emoji": "💼",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "Vorstellungsgespräch",
+   "ipa": "/ˈfoːɐ̯ʃtɛlʊŋsɡəˌʃpʁɛːç/",
+   "pos": "n.",
+   "meaning": "an interview",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Guten Morgen, und danke, dass Sie zum Vorstellungsgespräch gekommen sind.",
+     "en": "Good morning, and thank you for coming to the interview."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Erfahrung",
+   "ipa": "/ɛɐ̯ˈfaːʁʊŋ/",
+   "pos": "n.",
+   "meaning": "experience",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Erzählen Sie mir bitte etwas über sich und Ihre Erfahrung.",
+     "en": "Please tell me a little about yourself and your experience."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "beworben",
+   "ipa": "/bəˈvɔʁbn̩/",
+   "pos": "v.",
+   "meaning": "to apply",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Interessant. Warum haben Sie sich auf diese Stelle beworben?",
+     "en": "Interesting. Why did you apply for this position?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "Team",
+   "ipa": "/tiːm/",
+   "pos": "n.",
+   "meaning": "a team",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Arbeiten Sie lieber allein oder im Team?",
+     "en": "Do you prefer working alone or as part of a team?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Stärke",
+   "ipa": "/ˈʃtɛʁkə/",
+   "pos": "n.",
+   "meaning": "a strength",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Was würden Sie als Ihre größte Stärke bezeichnen?",
+     "en": "What would you say is your greatest strength?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "das Gehalt",
+   "ipa": "/das ɡəˈhalt/",
+   "pos": "n.",
+   "meaning": "a salary",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ja, könnten Sie mir etwas über das Gehalt und die Arbeitszeiten sagen?",
+     "en": "Yes, could you tell me about the salary and the working hours?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Guten Morgen, und danke, dass Sie zum Vorstellungsgespräch gekommen sind.",
+   "glosses": [
+    {
+     "text": "Vorstellungsgespräch",
+     "pos": "n.",
+     "meaning": "an interview"
+    }
+   ],
+   "id": "t1",
+   "en": "Good morning, and thank you for coming to the interview."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Guten Morgen. Danke für die Einladung.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Good morning. Thank you for inviting me."
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Erzählen Sie mir bitte etwas über sich und Ihre Erfahrung.",
+   "glosses": [
+    {
+     "text": "Erfahrung",
+     "pos": "n.",
+     "meaning": "experience"
+    }
+   ],
+   "id": "t3",
+   "en": "Please tell me a little about yourself and your experience."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ich habe Betriebswirtschaft studiert und arbeite seit drei Jahren im Marketing.",
+   "glosses": [],
+   "id": "t4",
+   "en": "I studied business, and I have worked in marketing for three years."
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Interessant. Warum haben Sie sich auf diese Stelle beworben?",
+   "glosses": [
+    {
+     "text": "beworben",
+     "pos": "v.",
+     "meaning": "to apply"
+    }
+   ],
+   "id": "t5",
+   "en": "Interesting. Why did you apply for this position?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mir gefallen die Projekte Ihres Unternehmens, und ich möchte in einem größeren Team lernen.",
+   "glosses": [
+    {
+     "text": "Team",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t6",
+   "en": "I like your company's projects, and I want to learn in a bigger team."
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Was würden Sie als Ihre größte Stärke bezeichnen?",
+   "glosses": [
+    {
+     "text": "Stärke",
+     "pos": "n.",
+     "meaning": "a strength"
+    }
+   ],
+   "id": "t7",
+   "en": "What would you say is your greatest strength?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ich bin organisiert und bleibe ruhig, wenn Druck herrscht.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I am organized, and I stay calm when there is pressure."
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Arbeiten Sie lieber allein oder im Team?",
+   "glosses": [
+    {
+     "text": "Team",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t9",
+   "en": "Do you prefer working alone or as part of a team?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Beides gefällt mir, aber im Team arbeite ich am besten.",
+   "glosses": [
+    {
+     "text": "Team",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t10",
+   "en": "I enjoy both, but I do my best work in a team."
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Gut. Wir melden uns nächste Woche bei Ihnen. Haben Sie noch Fragen?",
+   "glosses": [],
+   "id": "t11",
+   "en": "Good. We will contact you next week. Do you have any questions?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ja, könnten Sie mir etwas über das Gehalt und die Arbeitszeiten sagen?",
+   "glosses": [
+    {
+     "text": "das Gehalt",
+     "pos": "n.",
+     "meaning": "a salary"
+    }
+   ],
+   "id": "t12",
+   "en": "Yes, could you tell me about the salary and the working hours?"
+  }
+ ],
+ "practice_words": []
+}

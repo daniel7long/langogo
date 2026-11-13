@@ -1,0 +1,264 @@
+{
+ "emoji": "🖼️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "전시회",
+   "ipa": "jeonsihoe",
+   "pos": "n.",
+   "meaning": "an exhibition",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "전시회 어땠어? 즐거워 보이던데.",
+     "en": "What did you think of the exhibition? You seemed to enjoy it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "큐레이터",
+   "ipa": "kyureiteo",
+   "pos": "n.",
+   "meaning": "a curator",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "아주 좋았어. 큐레이터가 작품을 아주 신중하게 골랐더라.",
+     "en": "Very much. The curator chose the pieces very carefully."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "걸작",
+   "ipa": "geoljak",
+   "pos": "n.",
+   "meaning": "a masterpiece",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "마지막 방에 있는 큰 그림. 걸작으로 여겨진대.",
+     "en": "The large painting in the last room. It is considered a masterpiece."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "문화유산",
+   "ipa": "munhwayusan",
+   "pos": "n.",
+   "meaning": "heritage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "하지만 문화유산을 유지하는 데는 돈이 많이 들어.",
+     "en": "But maintaining cultural heritage costs a lot of money."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "해석",
+   "ipa": "haeseok",
+   "pos": "n.",
+   "meaning": "interpretation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "예술은 해석이 열려 있어서 미술관이 흥미로운 거지.",
+     "en": "Art is open to interpretation, which is what makes museums exciting."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "오디오 가이드",
+   "ipa": "odio gaideu",
+   "pos": "n.",
+   "meaning": "an audio guide",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "기꺼이. 이번에는 오디오 가이드를 미리 다운로드해 둘게.",
+     "en": "Gladly. This time I will download the audio guide in advance."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "전시회 어땠어? 즐거워 보이던데.",
+   "glosses": [
+    {
+     "text": "전시회",
+     "pos": "n.",
+     "meaning": "an exhibition"
+    }
+   ],
+   "id": "t1",
+   "en": "What did you think of the exhibition? You seemed to enjoy it."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "아주 좋았어. 큐레이터가 작품을 아주 신중하게 골랐더라.",
+   "glosses": [
+    {
+     "text": "큐레이터",
+     "pos": "n.",
+     "meaning": "a curator"
+    }
+   ],
+   "id": "t2",
+   "en": "Very much. The curator chose the pieces very carefully."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "동의해. 어떤 작품이 가장 인상 깊었어?",
+   "glosses": [],
+   "id": "t3",
+   "en": "I agree. Which work impressed you most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "마지막 방에 있는 큰 그림. 걸작으로 여겨진대.",
+   "glosses": [
+    {
+     "text": "걸작",
+     "pos": "n.",
+     "meaning": "a masterpiece"
+    }
+   ],
+   "id": "t4",
+   "en": "The large painting in the last room. It is considered a masterpiece."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "왜 그렇게 유명하다고 생각해?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Why do you think it is so famous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "평범한 사람들을 아주 솔직하게 보여 주기 때문일 거야.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Perhaps because it shows ordinary people in a very honest way."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "흥미롭다. 나는 오디오 가이드를 들었는데 완전히 다른 설명을 하더라.",
+   "glosses": [
+    {
+     "text": "오디오 가이드",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t7",
+   "en": "Interesting. I listened to the audio guide, and it gave a very different explanation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "예술은 해석이 열려 있어서 미술관이 흥미로운 거지.",
+   "glosses": [
+    {
+     "text": "해석",
+     "pos": "n.",
+     "meaning": "interpretation"
+    }
+   ],
+   "id": "t8",
+   "en": "Art is open to interpretation, which is what makes museums exciting."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "맞아. 어떤 사람들은 미술관이 그렇게 비싸면 안 된다고 해.",
+   "glosses": [],
+   "id": "t9",
+   "en": "True. Some people say museums should not be so expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "나는 입장료가 싸야 한다고 생각해, 문화는 모두의 것이니까.",
+   "glosses": [],
+   "id": "t10",
+   "en": "I think entry should be cheap, because culture belongs to everyone."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "하지만 문화유산을 유지하는 데는 돈이 많이 들어.",
+   "glosses": [
+    {
+     "text": "문화유산",
+     "pos": "n.",
+     "meaning": "heritage"
+    }
+   ],
+   "id": "t11",
+   "en": "But maintaining cultural heritage costs a lot of money."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "타당한 지적이야. 매달 무료 입장일을 두면 타협이 될 수도 있어.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That is a valid point. Perhaps free days each month could be a compromise."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "많은 도시가 이미 그러는데, 그러면 미술관이 매우 붐벼.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many cities already do that, and the museums become very crowded."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그래도 붐비는 건 좋은 신호야. 사람들이 예술을 소중히 여긴다는 뜻이니까.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Crowds are a good sign, though: they show that people value art."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "맞는 말이야. 다음 주말에 현대 미술관에 갈까?",
+   "glosses": [],
+   "id": "t15",
+   "en": "Fair enough. Shall we visit the modern art museum next weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "기꺼이. 이번에는 오디오 가이드를 미리 다운로드해 둘게.",
+   "glosses": [
+    {
+     "text": "오디오 가이드",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t16",
+   "en": "Gladly. This time I will download the audio guide in advance."
+  }
+ ],
+ "practice_words": []
+}

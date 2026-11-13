@@ -1,0 +1,257 @@
+{
+ "emoji": "🏡",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "mortgage",
+   "ipa": "/ˈmɔɹɡɪdʒ/",
+   "pos": "n.",
+   "meaning": "a mortgage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "The problem is the mortgage. The interest rates are so high right now.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "investment",
+   "ipa": "/ɪnˈvɛstmənt/",
+   "pos": "n.",
+   "meaning": "an investment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Then buying could be a good investment, if you can afford it.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "landlord",
+   "ipa": "/ˈlændˌlɔɹd/",
+   "pos": "n.",
+   "meaning": "a landlord",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "That is a good point. With rent, the landlord pays for repairs.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "flexible",
+   "ipa": "/ˈflɛksəbəl/",
+   "pos": "adj.",
+   "meaning": "flexible",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Exactly, and renting is also more flexible if you change jobs.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "afford",
+   "ipa": "/əˈfɔɹd/",
+   "pos": "v.",
+   "meaning": "to afford",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Then buying could be a good investment, if you can afford it.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "property",
+   "ipa": "/ˈpɹɑpɚɾi/",
+   "pos": "n.",
+   "meaning": "property",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Yes, they would be slightly higher than my rent, but then the property would be mine.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "I am tired of paying rent. Do you think I should buy an apartment instead?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "It depends on your plans. How long will you stay in this city?",
+   "glosses": [],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "At least ten years, I think. Maybe more.",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Then buying could be a good investment, if you can afford it.",
+   "glosses": [
+    {
+     "text": "investment",
+     "pos": "n.",
+     "meaning": "an investment"
+    },
+    {
+     "text": "afford",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "The problem is the mortgage. The interest rates are so high right now.",
+   "glosses": [
+    {
+     "text": "mortgage",
+     "pos": "n.",
+     "meaning": "a mortgage"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "True. Have you calculated what the monthly payments would be?",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Yes, they would be slightly higher than my rent, but then the property would be mine.",
+   "glosses": [
+    {
+     "text": "property",
+     "pos": "n.",
+     "meaning": "property"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "And you must add repairs, taxes and insurance to the cost.",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "That is a good point. With rent, the landlord pays for repairs.",
+   "glosses": [
+    {
+     "text": "landlord",
+     "pos": "n.",
+     "meaning": "a landlord"
+    }
+   ],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exactly, and renting is also more flexible if you change jobs.",
+   "glosses": [
+    {
+     "text": "flexible",
+     "pos": "adj.",
+     "meaning": "flexible"
+    }
+   ],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "But I feel I am throwing money away every month.",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Not really. You are paying for a place to live and for the freedom to move.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "I had never thought about it like that.",
+   "glosses": [],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Compare both options on paper over fifteen years, and ask a financial adviser.",
+   "glosses": [],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Good idea. I will make an appointment before I decide.",
+   "glosses": [],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Wise. Such a big decision should never be taken in a hurry.",
+   "glosses": [],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,182 @@
+{
+ "emoji": "🎸",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "un hobby",
+   "ipa": "/un ˈhobi/",
+   "pos": "n.",
+   "meaning": "a hobby",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Serios? Este un hobby minunat. Eu prefer să înot.",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "timpul liber",
+   "ipa": "/ˈtimpul ˈliber/",
+   "pos": "phr.",
+   "meaning": "free time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ce îți place să faci în timpul liber?",
+     "en": "What do you like to do in your free time?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "joc",
+   "ipa": "/ʒok/",
+   "pos": "v.",
+   "meaning": "to play",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Îmi place foarte mult să citesc și joc des tenis duminica.",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "des",
+   "ipa": "/des/",
+   "pos": "adv.",
+   "meaning": "often",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Îmi place foarte mult să citesc și joc des tenis duminica.",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "prefer",
+   "ipa": "/preˈfer/",
+   "pos": "v.",
+   "meaning": "to prefer",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Serios? Este un hobby minunat. Eu prefer să înot.",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "o piscină",
+   "ipa": "/o pisˈtʃinə/",
+   "pos": "n.",
+   "meaning": "a pool",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Înoți într-o piscină sau în mare?",
+     "en": "Do you swim in a pool or in the sea?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Ce îți place să faci în timpul liber?",
+   "glosses": [
+    {
+     "text": "timpul liber",
+     "pos": "phr.",
+     "meaning": "free time"
+    }
+   ],
+   "id": "t1",
+   "en": "What do you like to do in your free time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Îmi place foarte mult să citesc și joc des tenis duminica.",
+   "glosses": [
+    {
+     "text": "joc",
+     "pos": "v.",
+     "meaning": "to play"
+    },
+    {
+     "text": "des",
+     "pos": "adv.",
+     "meaning": "often"
+    }
+   ],
+   "id": "t2",
+   "en": "I love reading, and I often play tennis on Sundays."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Serios? Este un hobby minunat. Eu prefer să înot.",
+   "glosses": [
+    {
+     "text": "un hobby",
+     "pos": "n.",
+     "meaning": "a hobby"
+    },
+    {
+     "text": "prefer",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t3",
+   "en": "Really? That is a great hobby. I prefer swimming."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Înoți într-o piscină sau în mare?",
+   "glosses": [
+    {
+     "text": "o piscină",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t4",
+   "en": "Do you swim in a pool or in the sea?"
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "De cele mai multe ori într-o piscină, pentru că este aproape de casa mea.",
+   "glosses": [
+    {
+     "text": "o piscină",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t5",
+   "en": "Mostly in a pool, because it is close to my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Am putea face sport împreună într-o zi.",
+   "glosses": [],
+   "id": "t6",
+   "en": "We could do some sport together one day."
+  }
+ ],
+ "practice_words": []
+}

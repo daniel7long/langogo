@@ -1,0 +1,181 @@
+{
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "este pacote",
+   "ipa": "/ˈes.tʃi paˈkɔ.tʃi/",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Eu queria enviar este pacote para o Canadá, por favor.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "selos",
+   "ipa": "/ˈse.lus/",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Mais ou menos uma semana. O total é de dezenove euros, com os selos.",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "enviar",
+   "ipa": "/ẽ.viˈaʁ/",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Eu queria enviar este pacote para o Canadá, por favor.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "o endereço",
+   "ipa": "/u ẽ.deˈɾe.su/",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Vou ver o peso. São dois quilos. Escreva o endereço aqui, por favor.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "o peso",
+   "ipa": "/u ˈpe.zu/",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Vou ver o peso. São dois quilos. Escreva o endereço aqui, por favor.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "uma semana",
+   "ipa": "/ˈu.ma seˈmɐ̃.na/",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Mais ou menos uma semana. O total é de dezenove euros, com os selos.",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Olá. Em que posso ajudar?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Eu queria enviar este pacote para o Canadá, por favor.",
+   "glosses": [
+    {
+     "text": "este pacote",
+     "pos": "n.",
+     "meaning": "a parcel"
+    },
+    {
+     "text": "enviar",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like to send this parcel to Canada, please."
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Vou ver o peso. São dois quilos. Escreva o endereço aqui, por favor.",
+   "glosses": [
+    {
+     "text": "o endereço",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "o peso",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": "Let me check the weight. It is two kilos. Please write the address here."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Pronto. Quanto tempo vai demorar? Além disso, preciso de três selos para cartões-postais.",
+   "glosses": [
+    {
+     "text": "selos",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": "Done. How long will it take? Also, I need three stamps for postcards."
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Mais ou menos uma semana. O total é de dezenove euros, com os selos.",
+   "glosses": [
+    {
+     "text": "selos",
+     "pos": "n.",
+     "meaning": "a stamp"
+    },
+    {
+     "text": "uma semana",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": "About a week. The total is nineteen euros, with the stamps."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Está bem. Aqui está o meu cartão.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. Here is my card."
+  }
+ ],
+ "practice_words": []
+}

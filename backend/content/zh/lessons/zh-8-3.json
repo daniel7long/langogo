@@ -1,0 +1,237 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "驾照",
+   "ipa": "jiàzhào",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "是的，一辆小车，租五天。这是我的驾照。",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "保险",
+   "ipa": "bǎoxiǎn",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "需要。保险一天多少钱？",
+     "en": "Yes, please. How much is the insurance per day?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "押金",
+   "ipa": "yājīn",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "一天八美元。我们还需要两百美元的押金。",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "导航",
+   "ipa": "dǎoháng",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "可以。车上有导航吗？",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "油箱",
+   "ipa": "yóuxiāng",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "有。油箱现在是满的，您还车时也要加满。",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "还车",
+   "ipa": "huán chē",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "明白了。最后我在哪里还车？",
+     "en": "Understood. Where do I return the car at the end?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "你好。您预订了车吗？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "是的，一辆小车，租五天。这是我的驾照。",
+   "glosses": [
+    {
+     "text": "驾照",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "谢谢。您需要额外的保险吗？它涵盖任何损坏。",
+   "glosses": [
+    {
+     "text": "保险",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "需要。保险一天多少钱？",
+   "glosses": [
+    {
+     "text": "保险",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "一天八美元。我们还需要两百美元的押金。",
+   "glosses": [
+    {
+     "text": "押金",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "可以。车上有导航吗？",
+   "glosses": [
+    {
+     "text": "导航",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "有。油箱现在是满的，您还车时也要加满。",
+   "glosses": [
+    {
+     "text": "油箱",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "还车",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "明白了。最后我在哪里还车？",
+   "glosses": [
+    {
+     "text": "还车",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "就在这个办公室，最后一天晚上六点以前。",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "如果我晚了一点会怎么样？",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "那我们会多收一天的费用，所以请给我们打电话。",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "知道了。谢谢您的帮助。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

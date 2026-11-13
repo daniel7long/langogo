@@ -1,0 +1,263 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "प्रभाव",
+   "ipa": "prabhaav",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "सच कहूँ तो, हाँ। मुझे लगता है कि हम खुद को कैसे देखते हैं, उस पर इसका बहुत बड़ा प्रभाव है।",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "निजता",
+   "ipa": "nijata",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "मैं सहमत हूँ। निजता के बारे में क्या? कंपनियाँ हमारे बारे में बहुत डेटा इकट्ठा करती हैं।",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "फैलती",
+   "ipa": "phailti",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "वही मेरी मुख्य चिंता है। भ्रामक खबरें तथ्यों से कहीं तेज़ फैलती हैं।",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "भ्रामक",
+   "ipa": "bhraamak",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "वही मेरी मुख्य चिंता है। भ्रामक खबरें तथ्यों से कहीं तेज़ फैलती हैं।",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "नियमन",
+   "ipa": "niyaman",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "नियमन मुश्किल है। यह कौन तय करे कि क्या सच है?",
+     "en": "Regulation is tricky. Who decides what is true?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "आदी",
+   "ipa": "aadi",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "कुछ लोग तो यह भी मानते हैं कि वे अपने फ़ोन के आदी हैं।",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "मैंने पढ़ा कि लोग सोशल मीडिया पर रोज़ चार घंटे बिताते हैं। क्या तुम्हें यह चिंताजनक लगता है?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सच कहूँ तो, हाँ। मुझे लगता है कि हम खुद को कैसे देखते हैं, उस पर इसका बहुत बड़ा प्रभाव है।",
+   "glosses": [
+    {
+     "text": "प्रभाव",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "किस तरह? बहुत से लोग कहते हैं कि इससे बस जुड़े रहने में मदद मिलती है।",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मिलती है, लेकिन अपनी ज़िंदगी की तुलना इंटरनेट की परफ़ेक्ट तस्वीरों से करना आत्मसम्मान को नुकसान पहुँचा सकता है।",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "सही है। और वहाँ जो जानकारी हम पढ़ते हैं, उसके बारे में क्या?",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "वही मेरी मुख्य चिंता है। भ्रामक खबरें तथ्यों से कहीं तेज़ फैलती हैं।",
+   "glosses": [
+    {
+     "text": "फैलती",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "भ्रामक",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "क्या तुम्हें लगता है कि प्लेटफ़ॉर्म को इसकी ज़िम्मेदारी लेनी चाहिए?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "कुछ हद तक। मेरा मानना है कि सरकारों को उनका और सख़्त नियमन करना चाहिए, बशर्ते अभिव्यक्ति की आज़ादी सुरक्षित रहे।",
+   "glosses": [
+    {
+     "text": "नियमन",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "नियमन मुश्किल है। यह कौन तय करे कि क्या सच है?",
+   "glosses": [
+    {
+     "text": "नियमन",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सही बात है। शायद समाधान शिक्षा है: लोगों को स्रोत जाँचना सिखाना।",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "मैं सहमत हूँ। निजता के बारे में क्या? कंपनियाँ हमारे बारे में बहुत डेटा इकट्ठा करती हैं।",
+   "glosses": [
+    {
+     "text": "निजता",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मुझे यह भी चिंतित करता है। ज़्यादातर उपयोगकर्ता स्वीकार करने से पहले शर्तें कभी नहीं पढ़ते।",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "कुछ लोग तो यह भी मानते हैं कि वे अपने फ़ोन के आदी हैं।",
+   "glosses": [
+    {
+     "text": "आदी",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं इतना आगे नहीं जाऊँगा, लेकिन मैं देखता हूँ कि मैं अपने आप फ़ोन देखने लगता हूँ।",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "तो क्या तुम कभी सोशल मीडिया पूरी तरह छोड़ दोगे?",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "शायद नहीं, लेकिन मैं अपना समय सीमित करने की कोशिश कर रहा हूँ, और इससे पहले ही फ़र्क पड़ा है।",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,267 @@
+{
+ "emoji": "🚌",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "الازدحام",
+   "ipa": "az-zihām",
+   "pos": "n.",
+   "meaning": "traffic",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أعتقد أنها فكرة جريئة، لكنها قد تقلل التلوث والازدحام كثيرا.",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "التلوث",
+   "ipa": "at-talawwuṯ",
+   "pos": "n.",
+   "meaning": "pollution",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أعتقد أنها فكرة جريئة، لكنها قد تقلل التلوث والازدحام كثيرا.",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "موثوقة",
+   "ipa": "mawṯūqa",
+   "pos": "adj.",
+   "meaning": "reliable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "يجب أن يتحسن النقل العام أولا. حافلاتنا نادرا ما تكون موثوقة.",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "الأجرة",
+   "ipa": "al-ujra",
+   "pos": "n.",
+   "meaning": "a fare",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "والأجرة باهظة للعائلات التي لديها عدة أطفال.",
+     "en": "And the fares are expensive for families with several children."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "مريحة",
+   "ipa": "murīḥa",
+   "pos": "adj.",
+   "meaning": "convenient",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "لكن السيارات مريحة جدا. أستطيع الذهاب إلى أي مكان متى أريد.",
+     "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "النقل العام",
+   "ipa": "an-naql al-ʿāmm",
+   "pos": "n.",
+   "meaning": "public transport",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "يجب أن يتحسن النقل العام أولا. حافلاتنا نادرا ما تكون موثوقة.",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "مدينتنا تريد منع السيارات من وسط المدينة. ما رأيك؟",
+   "glosses": [],
+   "id": "t1",
+   "en": "Our city wants to ban cars from the center. What do you think?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أعتقد أنها فكرة جريئة، لكنها قد تقلل التلوث والازدحام كثيرا.",
+   "glosses": [
+    {
+     "text": "الازدحام",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "التلوث",
+     "pos": "n.",
+     "meaning": "pollution"
+    }
+   ],
+   "id": "t2",
+   "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "لكن ماذا عن الناس الذين يعتمدون على سياراتهم، مثل سائقي التوصيل؟",
+   "glosses": [],
+   "id": "t3",
+   "en": "But what about people who depend on their cars, like delivery drivers?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "يمكن أن يحصلوا على تصاريح خاصة، فلا تضر الخطة بالأعمال المحلية.",
+   "glosses": [],
+   "id": "t4",
+   "en": "They could receive special permits, so the plan would not hurt local businesses."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "يجب أن يتحسن النقل العام أولا. حافلاتنا نادرا ما تكون موثوقة.",
+   "glosses": [
+    {
+     "text": "موثوقة",
+     "pos": "adj.",
+     "meaning": "reliable"
+    },
+    {
+     "text": "النقل العام",
+     "pos": "n.",
+     "meaning": "public transport"
+    }
+   ],
+   "id": "t5",
+   "en": "Public transport would have to improve first. Our buses are rarely reliable."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بالضبط. بدون خدمات متكررة ودقيقة، ستفشل الخطة.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Exactly. Without frequent and punctual services, the plan will fail."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "والأجرة باهظة للعائلات التي لديها عدة أطفال.",
+   "glosses": [
+    {
+     "text": "الأجرة",
+     "pos": "n.",
+     "meaning": "a fare"
+    }
+   ],
+   "id": "t7",
+   "en": "And the fares are expensive for families with several children."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "اشتراك شهري أرخص سيشجع المزيد من الناس على ترك سياراتهم في البيت.",
+   "glosses": [],
+   "id": "t8",
+   "en": "A cheaper monthly pass would encourage more people to leave their cars at home."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "لكن السيارات مريحة جدا. أستطيع الذهاب إلى أي مكان متى أريد.",
+   "glosses": [
+    {
+     "text": "مريحة",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t9",
+   "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "مريحة، نعم، لكنك تضيع الوقت في الازدحام وتنفق الكثير على موقف السيارات.",
+   "glosses": [
+    {
+     "text": "الازدحام",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "مريحة",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t10",
+   "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "هذا صحيح. أقضي قرابة ساعة يوميا في البحث عن مكان لركن السيارة.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is true. I spend nearly an hour a day looking for a place to park."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بعض المدن أثبتت أن مسارات الدراجات يمكن أن تعمل جيدا.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Some cities show that cycling lanes can work very well."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "ربما، لكن شتاءنا أقسى من شتائهم.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Perhaps, but our winters are harsher than theirs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "عادل، ولهذا ربما نحتاج إلى مزيج من الحلول.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Fair enough, which is why a mix of solutions is probably necessary."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "قد أدعم الخطة إذا تحسنت القطارات والحافلات.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I might support the plan if the trains and buses improve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "سيكون هذا هو الشرط الصحيح. التغيير ينجح أكثر عندما يملك الناس بدائل.",
+   "glosses": [],
+   "id": "t16",
+   "en": "That would be the right condition. Change works best when people have alternatives."
+  }
+ ],
+ "practice_words": []
+}

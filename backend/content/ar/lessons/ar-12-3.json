@@ -1,0 +1,264 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "مسيرتي المهنية",
+   "ipa": "masīratī al-mihniyya",
+   "pos": "n.",
+   "meaning": "a career",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أفكر في تغيير مسيرتي المهنية. أريد ترك المحاسبة وأن أصبح مصمما.",
+     "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ستستقيل",
+   "ipa": "sa-tastaqīl",
+   "pos": "v.",
+   "meaning": "to quit",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "هل ستستقيل من وظيفتك فورا؟",
+     "en": "Are you going to quit your job straight away?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "مهارات",
+   "ipa": "mahārāt",
+   "pos": "n.",
+   "meaning": "a skill",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "ما المهارات التي تحتاج إلى تعلمها؟",
+     "en": "What skills do you need to learn?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "مخاطرة",
+   "ipa": "muḫāṭara",
+   "pos": "n.",
+   "meaning": "a risk",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "لا، فهذه مخاطرة كبيرة. سأدرس في المساء أولا.",
+     "en": "No, that would be a big risk. I will study in the evenings first."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "مرشد",
+   "ipa": "muršid",
+   "pos": "n.",
+   "meaning": "a mentor",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "نعم، زميلة دراسة سابقة هي مرشدتي الآن، وتعطيني ملاحظات صريحة.",
+     "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "أعيد تدريب",
+   "ipa": "uʿīd tadrīb",
+   "pos": "v.",
+   "meaning": "to retrain",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "هل من المكلف أن أعيد تدريب نفسي؟",
+     "en": "Is it expensive to retrain?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "تبدو متحمسا جدا مؤخرا. ماذا يحدث؟",
+   "glosses": [],
+   "id": "t1",
+   "en": "You look so excited lately. What is going on?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أفكر في تغيير مسيرتي المهنية. أريد ترك المحاسبة وأن أصبح مصمما.",
+   "glosses": [
+    {
+     "text": "مسيرتي المهنية",
+     "pos": "n.",
+     "meaning": "a career"
+    }
+   ],
+   "id": "t2",
+   "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "واو، هذا تغيير كبير! ما الذي جعلك تقرر؟",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow, that is quite a change! What made you decide?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أدركت أنني لم أعد متحمسا، وأريد أن يكون عملي إبداعيا.",
+   "glosses": [],
+   "id": "t4",
+   "en": "I realized that I no longer feel motivated, and I want my work to be creative."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "هل ستستقيل من وظيفتك فورا؟",
+   "glosses": [
+    {
+     "text": "ستستقيل",
+     "pos": "v.",
+     "meaning": "to quit"
+    }
+   ],
+   "id": "t5",
+   "en": "Are you going to quit your job straight away?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "لا، فهذه مخاطرة كبيرة. سأدرس في المساء أولا.",
+   "glosses": [
+    {
+     "text": "مخاطرة",
+     "pos": "n.",
+     "meaning": "a risk"
+    }
+   ],
+   "id": "t6",
+   "en": "No, that would be a big risk. I will study in the evenings first."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "ما المهارات التي تحتاج إلى تعلمها؟",
+   "glosses": [
+    {
+     "text": "مهارات",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t7",
+   "en": "What skills do you need to learn?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أساسا برامج التصميم والتواصل، لكن عندي مهارات تنظيم جيدة بالفعل.",
+   "glosses": [
+    {
+     "text": "مهارات",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t8",
+   "en": "Mainly design software and communication, but I already have good organizational skills."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "هذه ميزة. هل تعرف أحدا في هذا المجال؟",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is an advantage. Do you know anyone in that field?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، زميلة دراسة سابقة هي مرشدتي الآن، وتعطيني ملاحظات صريحة.",
+   "glosses": [
+    {
+     "text": "مرشد",
+     "pos": "n.",
+     "meaning": "a mentor"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "هل من المكلف أن أعيد تدريب نفسي؟",
+   "glosses": [
+    {
+     "text": "أعيد تدريب",
+     "pos": "v.",
+     "meaning": "to retrain"
+    }
+   ],
+   "id": "t11",
+   "en": "Is it expensive to retrain?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ليس كثيرا. وجدت دورة عبر الإنترنت تكلف أقل من اشتراك شهري في النادي.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not too much. I found an online course that costs less than a monthly gym membership."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "وماذا تظن عائلتك؟",
+   "glosses": [],
+   "id": "t13",
+   "en": "And what does your family think about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "إنهم قلقون، لكنهم يدعمونني ما دامت عندي خطة.",
+   "glosses": [],
+   "id": "t14",
+   "en": "They are worried, but they support me, as long as I have a plan."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "أعجب بشجاعتك. كثيرون لا يخطون الخطوة الأولى أبدا.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I admire your courage. Many people never take the first step."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "شكرا. حتى لو فشلت، سأكون قد تعلمت شيئا جديدا.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Thank you. Even if it fails, I will have learned something new."
+  }
+ ],
+ "practice_words": []
+}

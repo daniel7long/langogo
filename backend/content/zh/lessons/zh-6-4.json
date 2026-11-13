@@ -1,0 +1,187 @@
+{
+ "emoji": "🏖️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "暑假",
+   "ipa": "shǔjià",
+   "pos": "n.",
+   "meaning": "a holiday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你暑假有什么计划吗？",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "海滩",
+   "ipa": "hǎitān",
+   "pos": "n.",
+   "meaning": "the beach",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "有！我想去海滩玩一个星期。",
+     "en": "Yes! I want to go to the beach for one week."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "订",
+   "ipa": "dìng",
+   "pos": "v.",
+   "meaning": "to book",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "太棒了。你已经订好酒店了吗？",
+     "en": "Wonderful. Did you already book the hotel?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "计划",
+   "ipa": "jìhuà",
+   "pos": "n.",
+   "meaning": "a plan",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你暑假有什么计划吗？",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "天气",
+   "ipa": "tiānqì",
+   "pos": "n.",
+   "meaning": "the weather",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "还没有。我今晚看看天气，然后订。",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "收拾",
+   "ipa": "shōushi",
+   "pos": "v.",
+   "meaning": "to pack",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "谢谢！这个周末我会做好计划，收拾好行李。",
+     "en": "Thanks! I will make a plan and pack my bag this weekend."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "你暑假有什么计划吗？",
+   "glosses": [
+    {
+     "text": "暑假",
+     "pos": "n.",
+     "meaning": "a holiday"
+    },
+    {
+     "text": "计划",
+     "pos": "n.",
+     "meaning": "a plan"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have plans for your summer vacation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有！我想去海滩玩一个星期。",
+   "glosses": [
+    {
+     "text": "海滩",
+     "pos": "n.",
+     "meaning": "the beach"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes! I want to go to the beach for one week."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "太棒了。你已经订好酒店了吗？",
+   "glosses": [
+    {
+     "text": "订",
+     "pos": "v.",
+     "meaning": "to book"
+    }
+   ],
+   "id": "t3",
+   "en": "Wonderful. Did you already book the hotel?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "还没有。我今晚看看天气，然后订。",
+   "glosses": [
+    {
+     "text": "订",
+     "pos": "v.",
+     "meaning": "to book"
+    },
+    {
+     "text": "天气",
+     "pos": "n.",
+     "meaning": "the weather"
+    }
+   ],
+   "id": "t4",
+   "en": "Not yet. I will book it tonight, when I check the weather."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "好主意。别忘了带防晒霜和帽子。",
+   "glosses": [],
+   "id": "t5",
+   "en": "Good idea. Do not forget to pack sunscreen and a hat."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "谢谢！这个周末我会做好计划，收拾好行李。",
+   "glosses": [
+    {
+     "text": "计划",
+     "pos": "n.",
+     "meaning": "a plan"
+    },
+    {
+     "text": "收拾",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t6",
+   "en": "Thanks! I will make a plan and pack my bag this weekend."
+  }
+ ],
+ "practice_words": []
+}

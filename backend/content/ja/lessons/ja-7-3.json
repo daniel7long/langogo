@@ -1,0 +1,236 @@
+{
+ "emoji": "📊",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "会議",
+   "ipa": "kaigi",
+   "pos": "n.",
+   "meaning": "a meeting",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "会議を始めましょう。皆さん、議題はお持ちですよね。",
+     "en": "Let us start the meeting. Everyone has the agenda, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "議題",
+   "ipa": "gidai",
+   "pos": "n.",
+   "meaning": "an agenda",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "会議を始めましょう。皆さん、議題はお持ちですよね。",
+     "en": "Let us start the meeting. Everyone has the agenda, right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "プロジェクト",
+   "ipa": "purojekuto",
+   "pos": "n.",
+   "meaning": "a project",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "はい、あります。最初の項目は新しいプロジェクトです。",
+     "en": "Yes, I have it. The first point is the new project."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "提案",
+   "ipa": "teian",
+   "pos": "v.",
+   "meaning": "to suggest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "今週、チームにもう一人加えることを提案します。",
+     "en": "I suggest that we add one person to the team this week."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "賛成",
+   "ipa": "sansei",
+   "pos": "v.",
+   "meaning": "to agree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "それは一つの方法ですね。皆さん賛成ですか。",
+     "en": "That is a possibility. Does everybody agree?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "報告書",
+   "ipa": "hookokusho",
+   "pos": "n.",
+   "meaning": "a report",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "賛成です。変更点についての報告書は私が書けます。",
+     "en": "I agree, and I can write the report about the changes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "会議を始めましょう。皆さん、議題はお持ちですよね。",
+   "glosses": [
+    {
+     "text": "会議",
+     "pos": "n.",
+     "meaning": "a meeting"
+    },
+    {
+     "text": "議題",
+     "pos": "n.",
+     "meaning": "an agenda"
+    }
+   ],
+   "id": "t1",
+   "en": "Let us start the meeting. Everyone has the agenda, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "はい、あります。最初の項目は新しいプロジェクトです。",
+   "glosses": [
+    {
+     "text": "プロジェクト",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I have it. The first point is the new project."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "そうですね。これまでのところ、プロジェクトの進み具合はどうですか。",
+   "glosses": [
+    {
+     "text": "プロジェクト",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t3",
+   "en": "Correct. How is the project going so far?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "順調ですが、予定より二日遅れています。",
+   "glosses": [],
+   "id": "t4",
+   "en": "It is going well, but we are two days behind schedule."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "それについてどうしたらいいと思いますか。",
+   "glosses": [],
+   "id": "t5",
+   "en": "What do you suggest we do about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "今週、チームにもう一人加えることを提案します。",
+   "glosses": [
+    {
+     "text": "提案",
+     "pos": "v.",
+     "meaning": "to suggest"
+    }
+   ],
+   "id": "t6",
+   "en": "I suggest that we add one person to the team this week."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "それは一つの方法ですね。皆さん賛成ですか。",
+   "glosses": [
+    {
+     "text": "賛成",
+     "pos": "v.",
+     "meaning": "to agree"
+    }
+   ],
+   "id": "t7",
+   "en": "That is a possibility. Does everybody agree?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "賛成です。変更点についての報告書は私が書けます。",
+   "glosses": [
+    {
+     "text": "賛成",
+     "pos": "v.",
+     "meaning": "to agree"
+    },
+    {
+     "text": "報告書",
+     "pos": "n.",
+     "meaning": "a report"
+    }
+   ],
+   "id": "t8",
+   "en": "I agree, and I can write the report about the changes."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "ありがとう。金曜日までに送ってください。",
+   "glosses": [],
+   "id": "t9",
+   "en": "Thank you. Please send it to me by Friday."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "問題ありません。木曜日の午後に送ります。",
+   "glosses": [],
+   "id": "t10",
+   "en": "No problem. I will send it on Thursday afternoon."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "完璧です。終わる前に、ほかに何かありますか。",
+   "glosses": [],
+   "id": "t11",
+   "en": "Perfect. Is there anything else before we finish?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "一つだけ、来週の月曜日にもう一度集まれますか。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Just one thing: could we meet again next Monday?"
+  }
+ ],
+ "practice_words": []
+}

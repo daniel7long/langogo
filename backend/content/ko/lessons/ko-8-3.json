@@ -1,0 +1,237 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "운전면허증",
+   "ipa": "unjeonmyeonheojeung",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "네, 작은 차로 오 일간 부탁드려요. 여기 제 운전면허증이에요.",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "보험",
+   "ipa": "boheom",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "네, 부탁드려요. 보험료는 하루에 얼마예요?",
+     "en": "Yes, please. How much is the insurance per day?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "보증금",
+   "ipa": "bojeunggeum",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "하루에 팔 달러예요. 보증금도 이백 달러가 필요해요.",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "내비게이션",
+   "ipa": "naebigeisyeon",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "괜찮아요. 차에 내비게이션이 있나요?",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "연료 탱크",
+   "ipa": "yeonnyo taengkeu",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "네. 연료 탱크는 지금 가득 차 있으니, 가득 채워서 반납해 주세요.",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "반납",
+   "ipa": "bannap",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "알겠습니다. 마지막에 차는 어디서 반납하나요?",
+     "en": "Understood. Where do I return the car at the end?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "안녕하세요. 차량 예약을 하셨나요?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "네, 작은 차로 오 일간 부탁드려요. 여기 제 운전면허증이에요.",
+   "glosses": [
+    {
+     "text": "운전면허증",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "감사합니다. 추가 보험을 원하세요? 모든 손상을 보장해 드려요.",
+   "glosses": [
+    {
+     "text": "보험",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "네, 부탁드려요. 보험료는 하루에 얼마예요?",
+   "glosses": [
+    {
+     "text": "보험",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "하루에 팔 달러예요. 보증금도 이백 달러가 필요해요.",
+   "glosses": [
+    {
+     "text": "보증금",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "괜찮아요. 차에 내비게이션이 있나요?",
+   "glosses": [
+    {
+     "text": "내비게이션",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "네. 연료 탱크는 지금 가득 차 있으니, 가득 채워서 반납해 주세요.",
+   "glosses": [
+    {
+     "text": "연료 탱크",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "반납",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "알겠습니다. 마지막에 차는 어디서 반납하나요?",
+   "glosses": [
+    {
+     "text": "반납",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "여기 같은 사무실에서, 마지막 날 저녁 여섯 시 전에 해 주세요.",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "조금 늦으면 어떻게 되나요?",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "그러면 하루 요금이 더 청구되니, 연락 주세요.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "알아 두면 좋겠네요. 도와주셔서 감사합니다.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

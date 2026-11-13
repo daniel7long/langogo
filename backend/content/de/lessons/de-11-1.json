@@ -1,0 +1,268 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "die Handlung",
+   "ipa": "/diː ˈhandlʊŋ/",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Noch nicht. Ich habe eine Kritik gelesen, in der stand, die Handlung sei ziemlich vorhersehbar.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Leistung",
+   "ipa": "/ˈlaɪ̯stʊŋ/",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Interessant. Was hältst du von der Leistung der Hauptdarstellerin?",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "Regisseur",
+   "ipa": "/ʁeʒɪˈsøːɐ̯/",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Und der Regisseur? Ich habe seine früheren Filme geliebt.",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "Kritik",
+   "ipa": "/kʁiˈtiːk/",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Dann gehe ich dieses Wochenende hin, auch wenn die Kritiker uneinig sind.",
+     "en": "Then I will go this weekend, even though critics disagree."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "vorhersehbar",
+   "ipa": "/ˈfoːɐ̯heːɐ̯ˌzeːbaːɐ̯/",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Noch nicht. Ich habe eine Kritik gelesen, in der stand, die Handlung sei ziemlich vorhersehbar.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "Filmmusik",
+   "ipa": "/ˈfɪlmmuˌziːk/",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Hier funktioniert es, besonders wegen der Filmmusik. Sie verleiht dem Ganzen so viel Gefühl.",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Ich habe gestern Abend den neuen Film gesehen, über den alle reden. Hast du ihn schon gesehen?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Noch nicht. Ich habe eine Kritik gelesen, in der stand, die Handlung sei ziemlich vorhersehbar.",
+   "glosses": [
+    {
+     "text": "die Handlung",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "Kritik",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "vorhersehbar",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Ehrlich gesagt, die erste Hälfte ist es, aber das Ende hat mich völlig überrascht.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Interessant. Was hältst du von der Leistung der Hauptdarstellerin?",
+   "glosses": [
+    {
+     "text": "Leistung",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Hervorragend. Die Schauspielerin hat ihre Figur echt und vielschichtig wirken lassen.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Und der Regisseur? Ich habe seine früheren Filme geliebt.",
+   "glosses": [
+    {
+     "text": "Regisseur",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Er bleibt seinem üblichen Stil treu, mit langen Einstellungen und sehr wenig Dialog.",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Das kann wunderschön oder langweilig sein, je nach Geschichte.",
+   "glosses": [],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Hier funktioniert es, besonders wegen der Filmmusik. Sie verleiht dem Ganzen so viel Gefühl.",
+   "glosses": [
+    {
+     "text": "Filmmusik",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Würdest du sagen, dass sich der Film im Kino lohnt?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Auf jeden Fall. Die Bilder und der Ton brauchen eine große Leinwand.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Dann gehe ich dieses Wochenende hin, auch wenn die Kritiker uneinig sind.",
+   "glosses": [
+    {
+     "text": "Kritik",
+     "pos": "n.",
+     "meaning": "a review"
+    }
+   ],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Kritiker und Publikum sind sich selten einig, also bilde dir deine eigene Meinung.",
+   "glosses": [
+    {
+     "text": "Kritik",
+     "pos": "n.",
+     "meaning": "a review"
+    }
+   ],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Stimmt. Welchen würdest du besser bewerten, diesen Film oder seinen letzten?",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Seinen letzten, aber nur knapp. Diesem würde ich vier von fünf Sternen geben.",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Gut zu wissen. Lass uns noch einmal darüber sprechen, nachdem ich ihn gesehen habe.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

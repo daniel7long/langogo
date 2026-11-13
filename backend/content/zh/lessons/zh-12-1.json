@@ -1,0 +1,258 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "搬到",
+   "ipa": "bān dào",
+   "pos": "v.",
+   "meaning": "to relocate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我听说你在考虑搬到另一个国家。是真的吗？",
+     "en": "I heard you are thinking about relocating to another country. Is that true?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "签证",
+   "ipa": "qiānzhèng",
+   "pos": "n.",
+   "meaning": "a visa",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "非常紧张。我需要办签证，还得远程找房子。",
+     "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "文化冲击",
+   "ipa": "wénhuà chōngjī",
+   "pos": "phr.",
+   "meaning": "culture shock",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "很多外派人员说头几个月最难，因为文化冲击。",
+     "en": "Many expats say the first months are the hardest because of culture shock."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "适应",
+   "ipa": "shìyìng",
+   "pos": "v.",
+   "meaning": "to adapt",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "会，我已经开始了，这会帮我更快适应。",
+     "en": "Yes, I have already started, and it will help me adapt faster."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "想家",
+   "ipa": "xiǎngjiā",
+   "pos": "adj.",
+   "meaning": "homesick",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "要离开家人和朋友。我想一开始我会很想家。",
+     "en": "Leaving my family and friends. I think I will feel homesick at first."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "机会",
+   "ipa": "jīhuì",
+   "pos": "n.",
+   "meaning": "an opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "是的，我收到了国外的工作邀请，这是个很好的机会。",
+     "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "我听说你在考虑搬到另一个国家。是真的吗？",
+   "glosses": [
+    {
+     "text": "搬到",
+     "pos": "v.",
+     "meaning": "to relocate"
+    }
+   ],
+   "id": "t1",
+   "en": "I heard you are thinking about relocating to another country. Is that true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "是的，我收到了国外的工作邀请，这是个很好的机会。",
+   "glosses": [
+    {
+     "text": "机会",
+     "pos": "n.",
+     "meaning": "an opportunity"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "恭喜你！不过这是个大决定。你紧张吗？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Congratulations! But that is a big decision. Are you nervous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "非常紧张。我需要办签证，还得远程找房子。",
+   "glosses": [
+    {
+     "text": "签证",
+     "pos": "n.",
+     "meaning": "a visa"
+    }
+   ],
+   "id": "t4",
+   "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "你最担心什么？",
+   "glosses": [],
+   "id": "t5",
+   "en": "What worries you the most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "要离开家人和朋友。我想一开始我会很想家。",
+   "glosses": [
+    {
+     "text": "想家",
+     "pos": "adj.",
+     "meaning": "homesick"
+    }
+   ],
+   "id": "t6",
+   "en": "Leaving my family and friends. I think I will feel homesick at first."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "很多外派人员说头几个月最难，因为文化冲击。",
+   "glosses": [
+    {
+     "text": "文化冲击",
+     "pos": "phr.",
+     "meaning": "culture shock"
+    }
+   ],
+   "id": "t7",
+   "en": "Many expats say the first months are the hardest because of culture shock."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我也听说过，所以我在出发前努力了解当地习俗。",
+   "glosses": [],
+   "id": "t8",
+   "en": "I have heard that, so I am trying to learn about local customs before I go."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "这很明智。你也会学这门语言吗？",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is wise. Will you learn the language as well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "会，我已经开始了，这会帮我更快适应。",
+   "glosses": [
+    {
+     "text": "适应",
+     "pos": "v.",
+     "meaning": "to adapt"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, I have already started, and it will help me adapt faster."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "如果你不喜欢那里怎么办？",
+   "glosses": [],
+   "id": "t11",
+   "en": "What if you do not like it there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "那我一年以后可以回来。我不把它看成最终的决定。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I can come back after a year. I do not see it as a final decision."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "这是个健康的态度。合同可以解除，但经验会留下来。",
+   "glosses": [],
+   "id": "t13",
+   "en": "That is a healthy attitude. Contracts can be broken, but experience stays."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "没错。即使很艰难，我也会对自己有很多了解。",
+   "glosses": [],
+   "id": "t14",
+   "en": "Exactly. Even if it is difficult, I will learn a lot about myself."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "请保持联系，把一切都告诉我们。",
+   "glosses": [],
+   "id": "t15",
+   "en": "Please keep in touch and tell us everything."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我保证。等我安顿好了，你们都可以来看我。",
+   "glosses": [],
+   "id": "t16",
+   "en": "I promise. You can all visit me once I am settled in."
+  }
+ ],
+ "practice_words": []
+}

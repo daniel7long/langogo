@@ -1,0 +1,254 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "volo",
+   "ipa": "/ˈvoːlo/",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Potete cambiare il mio volo con un altro oggi?",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "cancellato",
+   "ipa": "/kantʃelˈlaːto/",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Passeggeri del volo 304, mi dispiace informarvi che il vostro volo è stato cancellato.",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "una coincidenza",
+   "ipa": "/ˈuna kointʃiˈdɛntsa/",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mi scusi, cos'è successo? Ho una coincidenza importante più tardi.",
+     "en": "Excuse me, what happened? I have an important connection later today."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "il ritardo",
+   "ipa": "/il riˈtardo/",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "C'è stato un problema tecnico all'aereo. Ci scusiamo per il ritardo.",
+     "en": "There was a technical problem with the plane. We apologize for the delay."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "cambiare il mio volo",
+   "ipa": "/kamˈbjaːre il mio ˈvoːlo/",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Potete cambiare il mio volo con un altro oggi?",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "un risarcimento",
+   "ipa": "/un risartʃiˈmento/",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sì, lei ha diritto a un risarcimento e le darò il modulo.",
+     "en": "Yes, you have the right to compensation, and I will give you the form."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Passeggeri del volo 304, mi dispiace informarvi che il vostro volo è stato cancellato.",
+   "glosses": [
+    {
+     "text": "volo",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "cancellato",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mi scusi, cos'è successo? Ho una coincidenza importante più tardi.",
+   "glosses": [
+    {
+     "text": "una coincidenza",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": "Excuse me, what happened? I have an important connection later today."
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "C'è stato un problema tecnico all'aereo. Ci scusiamo per il ritardo.",
+   "glosses": [
+    {
+     "text": "il ritardo",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": "There was a technical problem with the plane. We apologize for the delay."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Potete cambiare il mio volo con un altro oggi?",
+   "glosses": [
+    {
+     "text": "volo",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "cambiare il mio volo",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": "Can you rebook me on another flight today?"
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "C'è un volo alle otto di stasera. Controllo se ci sono posti.",
+   "glosses": [
+    {
+     "text": "volo",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t5",
+   "en": "There is a flight at eight tonight. Let me check if there are seats."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Per favore. Se non ci sono, quali sono le mie opzioni?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Please do. If not, what are my options?"
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Possiamo offrirle un albergo e un volo domani mattina.",
+   "glosses": [
+    {
+     "text": "volo",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t7",
+   "en": "We can offer you a hotel and a flight tomorrow morning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Preferirei partire stasera. C'è un risarcimento per il disagio?",
+   "glosses": [
+    {
+     "text": "un risarcimento",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Sì, lei ha diritto a un risarcimento e le darò il modulo.",
+   "glosses": [
+    {
+     "text": "un risarcimento",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t9",
+   "en": "Yes, you have the right to compensation, and I will give you the form."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Grazie. Ricevo anche un buono pasto?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Thank you. Do I also receive a meal voucher?"
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Sì, ecco un buono per il ristorante. È sul volo delle otto.",
+   "glosses": [
+    {
+     "text": "volo",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t11",
+   "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ottimo, questo risolve il mio problema. La ringrazio molto per l'aiuto.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Great, that solves my problem. I really appreciate your help."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,257 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "influence",
+   "ipa": "/ˈɪnfluəns/",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Honestly, yes. I think it has a huge influence on how we see ourselves.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "privacy",
+   "ipa": "/ˈpɹaɪvəsi/",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I agree. What about privacy? Companies collect so much data about us.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "spreads",
+   "ipa": "/spɹɛdz/",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "That is my main concern. Misleading news spreads much faster than facts.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "Misleading",
+   "ipa": "/mɪsˈlidɪŋ/",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "That is my main concern. Misleading news spreads much faster than facts.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "regulate",
+   "ipa": "/ˈɹɛɡjəˌleɪt/",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "addicted",
+   "ipa": "/əˈdɪktɪd/",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Some people even admit they are addicted to their phones.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "I read that people spend four hours a day on social media. Do you find that worrying?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Honestly, yes. I think it has a huge influence on how we see ourselves.",
+   "glosses": [
+    {
+     "text": "influence",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "In what way? Many people say it simply helps them stay connected.",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "It does, but comparing your life with perfect images online can damage self-esteem.",
+   "glosses": [],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "That is true. And what about the information we read there?",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That is my main concern. Misleading news spreads much faster than facts.",
+   "glosses": [
+    {
+     "text": "spreads",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "Misleading",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Do you think the platforms should be responsible for that?",
+   "glosses": [],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected.",
+   "glosses": [
+    {
+     "text": "regulate",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Regulation is tricky. Who decides what is true?",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Fair point. Maybe the solution is education: teaching people to check their sources.",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "I agree. What about privacy? Companies collect so much data about us.",
+   "glosses": [
+    {
+     "text": "privacy",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That worries me too. Most users never read the terms and conditions before accepting them.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Some people even admit they are addicted to their phones.",
+   "glosses": [
+    {
+     "text": "addicted",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I would not go that far, but I do notice that I check mine automatically.",
+   "glosses": [],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "So would you ever quit social media entirely?",
+   "glosses": [],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Probably not, but I am trying to limit my time, and it already makes a difference.",
+   "glosses": [],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

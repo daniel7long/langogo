@@ -1,0 +1,257 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "отходы",
+   "ipa": "otkhódy",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Да, я стараюсь сократить отходы, поэтому перестал покупать пластиковые бутылки.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "перерабатываешь",
+   "ipa": "pererabátyvajesh'",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Это хорошее начало. Ты перерабатываешь всё дома?",
+     "en": "That is a good start. Do you recycle everything at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "выбросов",
+   "ipa": "výbrosov",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "А что насчёт транспорта? Машины дают много выбросов.",
+     "en": "What about transport? Cars produce a lot of emissions."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "возобновляемой",
+   "ipa": "vozobnovljájemoj",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Согласен. Самые большие перемены должны произойти в возобновляемой энергетике.",
+     "en": "I agree. Renewable energy is where the biggest change must happen."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "устойчивые",
+   "ipa": "ustójchivyje",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Некоторые до сих пор говорят, что устойчивые товары слишком дорогие.",
+     "en": "Some people still say sustainable products are too expensive."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "сократить",
+   "ipa": "sokratít'",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Да, я стараюсь сократить отходы, поэтому перестал покупать пластиковые бутылки.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Ты менял какие-нибудь привычки в последнее время, чтобы защитить окружающую среду?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Have you changed any habits recently to protect the environment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, я стараюсь сократить отходы, поэтому перестал покупать пластиковые бутылки.",
+   "glosses": [
+    {
+     "text": "отходы",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "сократить",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Это хорошее начало. Ты перерабатываешь всё дома?",
+   "glosses": [
+    {
+     "text": "перерабатываешь",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": "That is a good start. Do you recycle everything at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Всё, что могу. Бумагу, стекло, пластик и даже остатки еды на компост.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Everything I can. Paper, glass, plastic and even food scraps for compost."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Впечатляет. Мне стоило бы делать больше, но на это уходит столько времени.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Impressive. I should do more, but it takes so much time."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Честно говоря, через несколько недель это становится автоматическим.",
+   "glosses": [],
+   "id": "t6",
+   "en": "It becomes automatic after a few weeks, honestly."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "А что насчёт транспорта? Машины дают много выбросов.",
+   "glosses": [
+    {
+     "text": "выбросов",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": "What about transport? Cars produce a lot of emissions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я езжу на работу на велосипеде почти каждый день, а в дальние поездки езжу на поездах.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I cycle to work most days, and I use trains for long trips."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Но как думаешь, действия отдельных людей действительно что-то значат?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you think individual actions really matter, though?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Значат, но компании и государства должны действовать в большем масштабе.",
+   "glosses": [],
+   "id": "t10",
+   "en": "They do, but companies and governments must act on a bigger scale."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Согласен. Самые большие перемены должны произойти в возобновляемой энергетике.",
+   "glosses": [
+    {
+     "text": "возобновляемой",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. Renewable energy is where the biggest change must happen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Именно. Солнечная и ветровая энергия дешевеют с каждым годом.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Exactly. Solar and wind power are becoming cheaper every year."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Некоторые до сих пор говорят, что устойчивые товары слишком дорогие.",
+   "glosses": [
+    {
+     "text": "устойчивые",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people still say sustainable products are too expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "В краткосрочной перспективе, возможно, но они служат дольше и экономят деньги потом.",
+   "glosses": [],
+   "id": "t14",
+   "en": "In the short term, maybe, but they last longer and save money later."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Ты меня убедил. Начну с компостного ведра.",
+   "glosses": [],
+   "id": "t15",
+   "en": "You have convinced me. I will start with a compost bin."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Замечательно. Маленькие шаги лучше, чем ждать идеального решения.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wonderful. Small steps are better than waiting for a perfect solution."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,202 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "單位",
+   "ipa": "daan1 wai2",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "每個月八百，而且單位有傢俬。",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "租金",
+   "ipa": "zou1 gam1",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "係呀。租金每個月幾多錢？",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "個月",
+   "ipa": "go3 jyut6",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "係呀。租金每個月幾多錢？",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "有傢俬",
+   "ipa": "jau5 gaa1 si1",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "每個月八百，而且單位有傢俬。",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "按金",
+   "ipa": "on3 gam1",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "聽落唔錯。我使唔使俾按金？",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "合約",
+   "ipa": "hap6 joek3",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "使，一個月租金做按金。我哋聽日簽合約。",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "你好，你對呢個單位有興趣，係嗎？",
+   "glosses": [
+    {
+     "text": "單位",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "係呀。租金每個月幾多錢？",
+   "glosses": [
+    {
+     "text": "租金",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "個月",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "每個月八百，而且單位有傢俬。",
+   "glosses": [
+    {
+     "text": "單位",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "個月",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "有傢俬",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "聽落唔錯。我使唔使俾按金？",
+   "glosses": [
+    {
+     "text": "按金",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "使，一個月租金做按金。我哋聽日簽合約。",
+   "glosses": [
+    {
+     "text": "租金",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "個月",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "按金",
+     "pos": "n.",
+     "meaning": "a deposit"
+    },
+    {
+     "text": "合約",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "好呀。決定之前，我可以再睇一次廚房嗎？",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

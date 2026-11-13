@@ -1,0 +1,256 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "줄거리",
+   "ipa": "julgeori",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "아직. 줄거리가 좀 예측이 된다는 리뷰를 읽었어.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "연기",
+   "ipa": "yeongi",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "흥미롭네. 주연 연기는 어땠어?",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "감독",
+   "ipa": "gamdok",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "감독은 어때? 전작을 정말 좋아했거든.",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "리뷰",
+   "ipa": "ribyu",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "아직. 줄거리가 좀 예측이 된다는 리뷰를 읽었어.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "예측",
+   "ipa": "yecheuk",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "아직. 줄거리가 좀 예측이 된다는 리뷰를 읽었어.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "음악",
+   "ipa": "eumak",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "이번에는 특히 음악 덕분에 잘 어울려. 감정이 정말 많이 더해져.",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "어젯밤에 다들 얘기하는 그 새 영화를 봤어. 너는 봤어?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "아직. 줄거리가 좀 예측이 된다는 리뷰를 읽었어.",
+   "glosses": [
+    {
+     "text": "줄거리",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "리뷰",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "예측",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "솔직히 전반부는 그런데, 결말은 완전히 놀라웠어.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "흥미롭네. 주연 연기는 어땠어?",
+   "glosses": [
+    {
+     "text": "연기",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "뛰어났어. 여배우가 인물을 현실적이고 복합적으로 느끼게 했어.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "감독은 어때? 전작을 정말 좋아했거든.",
+   "glosses": [
+    {
+     "text": "감독",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "특유의 스타일을 유지해. 롱테이크가 많고 대사가 거의 없어.",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "이야기에 따라 아름다울 수도, 지루할 수도 있지.",
+   "glosses": [],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "이번에는 특히 음악 덕분에 잘 어울려. 감정이 정말 많이 더해져.",
+   "glosses": [
+    {
+     "text": "음악",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "영화관에서 볼 만한 가치가 있다고 해?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "당연하지. 영상과 소리는 큰 스크린이 필요해.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그럼 이번 주말에 갈래, 평론가들 의견이 갈리긴 하지만.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "평론가와 관객은 좀처럼 의견이 일치하지 않으니 직접 판단해.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아. 이 영화와 전작 중에 어느 쪽을 더 높게 평가해?",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "전작이지만 아주 약간만. 이 영화에는 오 점 만점에 사 점을 줄게.",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "알겠어. 내가 보고 나서 다시 얘기하자.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

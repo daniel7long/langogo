@@ -1,0 +1,198 @@
+{
+ "emoji": "🏨",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "বুকিং",
+   "ipa": "buking",
+   "pos": "n.",
+   "meaning": "a reservation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "নমস্কার, হোটেলে স্বাগতম। আপনার কি বুকিং আছে?",
+     "en": "Hello, welcome to the hotel. Do you have a reservation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ঘর",
+   "ipa": "ghor",
+   "pos": "n.",
+   "meaning": "a room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ধন্যবাদ। ঘরের নম্বর কত?",
+     "en": "Thank you. What is the room number?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "রাত",
+   "ipa": "raat",
+   "pos": "n.",
+   "meaning": "a night",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "হ্যাঁ, আমার নামে দুই রাতের জন্য একটি ঘর।",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "সকালের নাস্তা",
+   "ipa": "shokaler nasta",
+   "pos": "n.",
+   "meaning": "breakfast",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "চমৎকার। সকালের নাস্তা কি অন্তর্ভুক্ত?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "অন্তর্ভুক্ত",
+   "ipa": "ontorbhukto",
+   "pos": "adj.",
+   "meaning": "included",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "চমৎকার। সকালের নাস্তা কি অন্তর্ভুক্ত?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "চাবি",
+   "ipa": "chabi",
+   "pos": "n.",
+   "meaning": "the key",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "হ্যাঁ, সকালের নাস্তা অন্তর্ভুক্ত, সাতটা থেকে দশটা পর্যন্ত। এই নিন আপনার চাবি।",
+     "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "নমস্কার, হোটেলে স্বাগতম। আপনার কি বুকিং আছে?",
+   "glosses": [
+    {
+     "text": "বুকিং",
+     "pos": "n.",
+     "meaning": "a reservation"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, welcome to the hotel. Do you have a reservation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, আমার নামে দুই রাতের জন্য একটি ঘর।",
+   "glosses": [
+    {
+     "text": "ঘর",
+     "pos": "n.",
+     "meaning": "a room"
+    },
+    {
+     "text": "রাত",
+     "pos": "n.",
+     "meaning": "a night"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a room for two nights, under my name."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "হ্যাঁ, এই যে। বাগানের দৃশ্যওয়ালা একটি একক ঘর।",
+   "glosses": [
+    {
+     "text": "ঘর",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t3",
+   "en": "Yes, here it is. A single room with a view of the garden."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "চমৎকার। সকালের নাস্তা কি অন্তর্ভুক্ত?",
+   "glosses": [
+    {
+     "text": "সকালের নাস্তা",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "অন্তর্ভুক্ত",
+     "pos": "adj.",
+     "meaning": "included"
+    }
+   ],
+   "id": "t4",
+   "en": "Wonderful. Is breakfast included?"
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "হ্যাঁ, সকালের নাস্তা অন্তর্ভুক্ত, সাতটা থেকে দশটা পর্যন্ত। এই নিন আপনার চাবি।",
+   "glosses": [
+    {
+     "text": "সকালের নাস্তা",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "অন্তর্ভুক্ত",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "চাবি",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ধন্যবাদ। ঘরের নম্বর কত?",
+   "glosses": [
+    {
+     "text": "ঘর",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you. What is the room number?"
+  }
+ ],
+ "practice_words": []
+}

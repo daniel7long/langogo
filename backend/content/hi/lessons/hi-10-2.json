@@ -1,0 +1,264 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "घर से काम",
+   "ipa": "ghar se kaam",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "मेरी कंपनी घर से काम को स्थायी बनाने पर विचार कर रही है। तुम क्या सोचते हो?",
+     "en": "My company is considering making remote work permanent. What is your opinion?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "उत्पादकता",
+   "ipa": "utpaadakata",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "लेकिन क्या लोगों के घर पर होने से उत्पादकता नहीं घटती?",
+     "en": "But does productivity not suffer when people are at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "लचीलेपन",
+   "ipa": "lacheelepan",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "मैं पक्ष में हूँ, मुख्य रूप से उस लचीलेपन के कारण जो यह कर्मचारियों को देता है।",
+     "en": "I am in favor, mainly because of the flexibility it gives employees."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "अकेलापन",
+   "ipa": "akelaapan",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "और अकेलापन? मुझे कॉफ़ी मशीन पर सहकर्मियों से गपशप की कमी खलती है।",
+     "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "आने-जाने",
+   "ipa": "aane-jaane",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "बिल्कुल। इंसानी संपर्क बना रहता है और रोज़ का आने-जाने का झंझट भी बचता है।",
+     "en": "Exactly. You keep the human contact and still avoid the daily commute."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "संतुलन",
+   "ipa": "santulan",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "तो सवाल यह है कि काम और निजी ज़िंदगी में संतुलन कैसे बनाएँ।",
+     "en": "So the question is how to balance work and private life."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "मेरी कंपनी घर से काम को स्थायी बनाने पर विचार कर रही है। तुम क्या सोचते हो?",
+   "glosses": [
+    {
+     "text": "घर से काम",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": "My company is considering making remote work permanent. What is your opinion?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं पक्ष में हूँ, मुख्य रूप से उस लचीलेपन के कारण जो यह कर्मचारियों को देता है।",
+   "glosses": [
+    {
+     "text": "लचीलेपन",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": "I am in favor, mainly because of the flexibility it gives employees."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "लेकिन क्या लोगों के घर पर होने से उत्पादकता नहीं घटती?",
+   "glosses": [
+    {
+     "text": "उत्पादकता",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": "But does productivity not suffer when people are at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "कई नौकरियों के लिए अध्ययन उलटा बताते हैं, हालाँकि यह व्यक्ति पर निर्भर करता है।",
+   "glosses": [],
+   "id": "t4",
+   "en": "Studies suggest the opposite for many jobs, though it depends on the person."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "मुझे घर पर ध्यान लगाना मुश्किल लगता है, इतने विघ्न होते हैं।",
+   "glosses": [],
+   "id": "t5",
+   "en": "I find it hard to concentrate at home, with all the distractions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "यह सही बात है। एक उचित कार्यस्थान बहुत फ़र्क डालता है।",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is a fair point. A proper workspace makes a big difference."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "और अकेलापन? मुझे कॉफ़ी मशीन पर सहकर्मियों से गपशप की कमी खलती है।",
+   "glosses": [
+    {
+     "text": "अकेलापन",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सच कहूँ तो मुझे भी। इसीलिए मुझे लगता है कि हाइब्रिड मॉडल सबसे अच्छा है।",
+   "glosses": [],
+   "id": "t8",
+   "en": "Me too, to be honest. That is why I think a hybrid model works best."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "शायद हफ़्ते में दो या तीन दिन दफ़्तर में?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Two or three days in the office, perhaps?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बिल्कुल। इंसानी संपर्क बना रहता है और रोज़ का आने-जाने का झंझट भी बचता है।",
+   "glosses": [
+    {
+     "text": "आने-जाने",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly. You keep the human contact and still avoid the daily commute."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "आने-जाने का समय सबसे बुरा हिस्सा है, मुझे मानना पड़ेगा। मैं रोज़ दो घंटे गँवाता हूँ।",
+   "glosses": [
+    {
+     "text": "आने-जाने",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": "The commute is the worst part, I must admit. I lose two hours a day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सोचो उस समय में तुम क्या कर सकते हो: खेल, परिवार, नींद।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Imagine what you could do with that time: sport, family, sleep."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "यह पर्यावरण के लिए भी बेहतर है, बेशक।",
+   "glosses": [],
+   "id": "t13",
+   "en": "It is also better for the environment, of course."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सही है, हालाँकि पूरे दिन घर गर्म रखने में भी ऊर्जा लगती है।",
+   "glosses": [],
+   "id": "t14",
+   "en": "True, although heating a home all day uses energy, too."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "तो सवाल यह है कि काम और निजी ज़िंदगी में संतुलन कैसे बनाएँ।",
+   "glosses": [
+    {
+     "text": "संतुलन",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": "So the question is how to balance work and private life."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सही। साफ़ काम के घंटे ज़रूरी हैं, वरना आप कभी सचमुच काम से अलग नहीं हो पाते।",
+   "glosses": [],
+   "id": "t16",
+   "en": "Right. Clear working hours are essential, otherwise you never really switch off."
+  }
+ ],
+ "practice_words": []
+}

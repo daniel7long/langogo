@@ -1,0 +1,281 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "judul berita",
+   "ipa": "/ˈdʒudul bəˈɾita/",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Begitulah cara kerja judul berita. Judul dibuat untuk menarik perhatian.",
+     "en": "That is exactly how headlines work. They are designed to attract attention."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "wartawan",
+   "ipa": "/waɾˈtawan/",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aku membandingkan beberapa, karena wartawan yang baik pun bisa bias.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "sumber",
+   "ipa": "/ˈsumbəɾ/",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sumber berita mana yang kamu percayai?",
+     "en": "Which news sources do you trust?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "bias",
+   "ipa": "/ˈbias/",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aku membandingkan beberapa, karena wartawan yang baik pun bisa bias.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "diverifikasi",
+   "ipa": "/divɛɾifikaˈsi/",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aku mencari bukti, pakar yang disebut namanya, dan apakah fakta itu bisa diverifikasi.",
+     "en": "I look for evidence, named experts, and whether the facts can be verified."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "opini",
+   "ipa": "/ɔˈpini/",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ya, tetapi aku ingin membaca lebih banyak sebelum membentuk opini.",
+     "en": "I did, but I want to read more before forming an opinion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Apakah kamu melihat judul berita tadi pagi tentang undang-undang pajak baru?",
+   "glosses": [
+    {
+     "text": "judul berita",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t1",
+   "en": "Did you see this morning's headline about the new tax law?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya, tetapi aku ingin membaca lebih banyak sebelum membentuk opini.",
+   "glosses": [
+    {
+     "text": "opini",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": "I did, but I want to read more before forming an opinion."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Pintar. Aku hanya membaca judulnya dan sudah marah.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Smart. I only read the title and I was already angry."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Begitulah cara kerja judul berita. Judul dibuat untuk menarik perhatian.",
+   "glosses": [
+    {
+     "text": "judul berita",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t4",
+   "en": "That is exactly how headlines work. They are designed to attract attention."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Sumber berita mana yang kamu percayai?",
+   "glosses": [
+    {
+     "text": "Sumber",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t5",
+   "en": "Which news sources do you trust?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku membandingkan beberapa, karena wartawan yang baik pun bisa bias.",
+   "glosses": [
+    {
+     "text": "wartawan",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "bias",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": "I compare several, because even good journalists can be biased."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Bagaimana kamu memutuskan mana yang lebih akurat?",
+   "glosses": [],
+   "id": "t7",
+   "en": "How do you decide which one is more accurate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku mencari bukti, pakar yang disebut namanya, dan apakah fakta itu bisa diverifikasi.",
+   "glosses": [
+    {
+     "text": "diverifikasi",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": "I look for evidence, named experts, and whether the facts can be verified."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Itu butuh banyak usaha untuk sesuatu yang kulakukan dalam lima menit.",
+   "glosses": [],
+   "id": "t9",
+   "en": "That takes a lot of effort for something I do in five minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Benar, tetapi menjadi terinformasi dengan baik adalah bagian dari menjadi warga yang bertanggung jawab.",
+   "glosses": [],
+   "id": "t10",
+   "en": "True, but being well informed is part of being a responsible citizen."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Bagaimana dengan artikel opini? Bukankah itu hanya pandangan pribadi?",
+   "glosses": [
+    {
+     "text": "opini",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t11",
+   "en": "What about opinion articles? Are they not just personal views?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Memang, dan itu tidak apa-apa, selama jelas diberi label sebagai opini.",
+   "glosses": [
+    {
+     "text": "opini",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t12",
+   "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Banyak orang tidak menyadari perbedaannya, meskipun begitu.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many people do not notice the difference, though."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Itulah sebabnya pendidikan media di sekolah sangat penting.",
+   "glosses": [],
+   "id": "t14",
+   "en": "That is why media education in schools matters so much."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Aku setuju. Mulai sekarang aku akan berusaha membaca setidaknya dua sumber.",
+   "glosses": [
+    {
+     "text": "sumber",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": "I agree. I will try to read at least two sources from now on."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bagus. Dan bagikan artikel hanya setelah kamu memeriksanya sendiri.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good. And share articles only after you have checked them yourself."
+  }
+ ],
+ "practice_words": []
+}

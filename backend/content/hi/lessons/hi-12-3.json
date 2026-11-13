@@ -1,0 +1,264 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "करियर",
+   "ipa": "kariyar",
+   "pos": "n.",
+   "meaning": "a career",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "मैं अपना करियर बदलने की सोच रहा हूँ। मैं अकाउंटिंग छोड़कर डिज़ाइनर बनना चाहता हूँ।",
+     "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "छोड़ने",
+   "ipa": "chhodne",
+   "pos": "v.",
+   "meaning": "to quit",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "क्या तुम तुरंत नौकरी छोड़ने वाले हो?",
+     "en": "Are you going to quit your job straight away?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "कौशल",
+   "ipa": "kaushal",
+   "pos": "n.",
+   "meaning": "a skill",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "तुम्हें कौन-से कौशल सीखने होंगे?",
+     "en": "What skills do you need to learn?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "जोखिम",
+   "ipa": "jokhim",
+   "pos": "n.",
+   "meaning": "a risk",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "नहीं, यह बड़ा जोखिम होगा। मैं पहले शाम को पढ़ाई करूँगा।",
+     "en": "No, that would be a big risk. I will study in the evenings first."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "मार्गदर्शक",
+   "ipa": "maargadarshak",
+   "pos": "n.",
+   "meaning": "a mentor",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "हाँ, एक पुरानी सहपाठी अब मेरी मार्गदर्शक है, और वह मुझे ईमानदार प्रतिक्रिया देती है।",
+     "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "दोबारा प्रशिक्षण",
+   "ipa": "dobaara prashikshan",
+   "pos": "v.",
+   "meaning": "to retrain",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "क्या दोबारा प्रशिक्षण महँगा है?",
+     "en": "Is it expensive to retrain?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "तुम आजकल बहुत उत्साहित लग रहे हो। क्या चल रहा है?",
+   "glosses": [],
+   "id": "t1",
+   "en": "You look so excited lately. What is going on?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं अपना करियर बदलने की सोच रहा हूँ। मैं अकाउंटिंग छोड़कर डिज़ाइनर बनना चाहता हूँ।",
+   "glosses": [
+    {
+     "text": "करियर",
+     "pos": "n.",
+     "meaning": "a career"
+    }
+   ],
+   "id": "t2",
+   "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "वाह, यह बड़ा बदलाव है! तुमने ऐसा क्यों तय किया?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow, that is quite a change! What made you decide?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मुझे एहसास हुआ कि अब मुझमें प्रेरणा नहीं है, और मैं चाहता हूँ कि मेरा काम रचनात्मक हो।",
+   "glosses": [],
+   "id": "t4",
+   "en": "I realized that I no longer feel motivated, and I want my work to be creative."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "क्या तुम तुरंत नौकरी छोड़ने वाले हो?",
+   "glosses": [
+    {
+     "text": "छोड़ने",
+     "pos": "v.",
+     "meaning": "to quit"
+    }
+   ],
+   "id": "t5",
+   "en": "Are you going to quit your job straight away?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "नहीं, यह बड़ा जोखिम होगा। मैं पहले शाम को पढ़ाई करूँगा।",
+   "glosses": [
+    {
+     "text": "जोखिम",
+     "pos": "n.",
+     "meaning": "a risk"
+    }
+   ],
+   "id": "t6",
+   "en": "No, that would be a big risk. I will study in the evenings first."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "तुम्हें कौन-से कौशल सीखने होंगे?",
+   "glosses": [
+    {
+     "text": "कौशल",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t7",
+   "en": "What skills do you need to learn?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मुख्यतः डिज़ाइन सॉफ़्टवेयर और संचार, लेकिन मेरे पास संगठन के अच्छे कौशल पहले से हैं।",
+   "glosses": [
+    {
+     "text": "कौशल",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t8",
+   "en": "Mainly design software and communication, but I already have good organizational skills."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "यह फ़ायदा है। क्या तुम उस क्षेत्र में किसी को जानते हो?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is an advantage. Do you know anyone in that field?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "हाँ, एक पुरानी सहपाठी अब मेरी मार्गदर्शक है, और वह मुझे ईमानदार प्रतिक्रिया देती है।",
+   "glosses": [
+    {
+     "text": "मार्गदर्शक",
+     "pos": "n.",
+     "meaning": "a mentor"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "क्या दोबारा प्रशिक्षण महँगा है?",
+   "glosses": [
+    {
+     "text": "दोबारा प्रशिक्षण",
+     "pos": "v.",
+     "meaning": "to retrain"
+    }
+   ],
+   "id": "t11",
+   "en": "Is it expensive to retrain?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बहुत नहीं। मुझे एक ऑनलाइन कोर्स मिला जो एक महीने की जिम सदस्यता से भी सस्ता है।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not too much. I found an online course that costs less than a monthly gym membership."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "और तुम्हारा परिवार इस बारे में क्या सोचता है?",
+   "glosses": [],
+   "id": "t13",
+   "en": "And what does your family think about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "वे चिंतित हैं, लेकिन जब तक मेरे पास योजना है वे मेरा साथ देते हैं।",
+   "glosses": [],
+   "id": "t14",
+   "en": "They are worried, but they support me, as long as I have a plan."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "मैं तुम्हारे साहस की सराहना करता हूँ। बहुत से लोग पहला कदम कभी नहीं उठाते।",
+   "glosses": [],
+   "id": "t15",
+   "en": "I admire your courage. Many people never take the first step."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "धन्यवाद। असफल भी हुआ, तो मैंने कुछ नया सीखा होगा।",
+   "glosses": [],
+   "id": "t16",
+   "en": "Thank you. Even if it fails, I will have learned something new."
+  }
+ ],
+ "practice_words": []
+}

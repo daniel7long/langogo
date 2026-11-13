@@ -1,0 +1,264 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "карьеру",
+   "ipa": "kar'jéru",
+   "pos": "n.",
+   "meaning": "a career",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Я думаю сменить карьеру. Хочу уйти из бухгалтерии и стать дизайнером.",
+     "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "уволиться",
+   "ipa": "uvolít'sja",
+   "pos": "v.",
+   "meaning": "to quit",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ты собираешься сразу уволиться?",
+     "en": "Are you going to quit your job straight away?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "навыки",
+   "ipa": "návyki",
+   "pos": "n.",
+   "meaning": "a skill",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Какие навыки тебе нужно освоить?",
+     "en": "What skills do you need to learn?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "риск",
+   "ipa": "risk",
+   "pos": "n.",
+   "meaning": "a risk",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Нет, это был бы большой риск. Сначала я буду учиться по вечерам.",
+     "en": "No, that would be a big risk. I will study in the evenings first."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "наставник",
+   "ipa": "nastávnik",
+   "pos": "n.",
+   "meaning": "a mentor",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Да, бывшая одноклассница теперь мой наставник и даёт мне честную обратную связь.",
+     "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "переучиться",
+   "ipa": "pereuchít'sja",
+   "pos": "v.",
+   "meaning": "to retrain",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Дорого ли переучиться?",
+     "en": "Is it expensive to retrain?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "В последнее время ты выглядишь таким воодушевлённым. Что происходит?",
+   "glosses": [],
+   "id": "t1",
+   "en": "You look so excited lately. What is going on?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я думаю сменить карьеру. Хочу уйти из бухгалтерии и стать дизайнером.",
+   "glosses": [
+    {
+     "text": "карьеру",
+     "pos": "n.",
+     "meaning": "a career"
+    }
+   ],
+   "id": "t2",
+   "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Ого, это серьёзная перемена! Что тебя на это подтолкнуло?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow, that is quite a change! What made you decide?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я понял, что больше не чувствую мотивации, и хочу, чтобы моя работа была творческой.",
+   "glosses": [],
+   "id": "t4",
+   "en": "I realized that I no longer feel motivated, and I want my work to be creative."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Ты собираешься сразу уволиться?",
+   "glosses": [
+    {
+     "text": "уволиться",
+     "pos": "v.",
+     "meaning": "to quit"
+    }
+   ],
+   "id": "t5",
+   "en": "Are you going to quit your job straight away?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Нет, это был бы большой риск. Сначала я буду учиться по вечерам.",
+   "glosses": [
+    {
+     "text": "риск",
+     "pos": "n.",
+     "meaning": "a risk"
+    }
+   ],
+   "id": "t6",
+   "en": "No, that would be a big risk. I will study in the evenings first."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Какие навыки тебе нужно освоить?",
+   "glosses": [
+    {
+     "text": "навыки",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t7",
+   "en": "What skills do you need to learn?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "В основном программы для дизайна и коммуникацию, но организаторские навыки у меня уже хорошие.",
+   "glosses": [
+    {
+     "text": "навыки",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t8",
+   "en": "Mainly design software and communication, but I already have good organizational skills."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Это преимущество. Ты знаешь кого-нибудь в этой сфере?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is an advantage. Do you know anyone in that field?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, бывшая одноклассница теперь мой наставник и даёт мне честную обратную связь.",
+   "glosses": [
+    {
+     "text": "наставник",
+     "pos": "n.",
+     "meaning": "a mentor"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Дорого ли переучиться?",
+   "glosses": [
+    {
+     "text": "переучиться",
+     "pos": "v.",
+     "meaning": "to retrain"
+    }
+   ],
+   "id": "t11",
+   "en": "Is it expensive to retrain?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Не слишком. Я нашёл онлайн-курс, который стоит меньше месячного абонемента в спортзал.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not too much. I found an online course that costs less than a monthly gym membership."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "А что об этом думает твоя семья?",
+   "glosses": [],
+   "id": "t13",
+   "en": "And what does your family think about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Они переживают, но поддерживают меня, пока у меня есть план.",
+   "glosses": [],
+   "id": "t14",
+   "en": "They are worried, but they support me, as long as I have a plan."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Я восхищаюсь твоей смелостью. Многие никогда не делают первый шаг.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I admire your courage. Many people never take the first step."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Спасибо. Даже если не получится, я узнаю что-то новое.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Thank you. Even if it fails, I will have learned something new."
+  }
+ ],
+ "practice_words": []
+}

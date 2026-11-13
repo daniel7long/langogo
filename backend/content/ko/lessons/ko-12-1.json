@@ -1,0 +1,258 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "이사",
+   "ipa": "isa",
+   "pos": "v.",
+   "meaning": "to relocate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "다른 나라로 이사할 생각이라고 들었어. 사실이야?",
+     "en": "I heard you are thinking about relocating to another country. Is that true?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "비자",
+   "ipa": "bija",
+   "pos": "n.",
+   "meaning": "a visa",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "엄청. 비자가 필요하고, 멀리서 집도 구해야 해.",
+     "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "문화 충격",
+   "ipa": "munhwa chunggyeok",
+   "pos": "phr.",
+   "meaning": "culture shock",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "많은 외국 거주자들이 처음 몇 달이 문화 충격 때문에 가장 힘들다고 해.",
+     "en": "Many expats say the first months are the hardest because of culture shock."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "적응",
+   "ipa": "jeogeung",
+   "pos": "v.",
+   "meaning": "to adapt",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "응, 이미 시작했고 더 빨리 적응하는 데 도움이 될 거야.",
+     "en": "Yes, I have already started, and it will help me adapt faster."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "향수병",
+   "ipa": "hyangsubyeong",
+   "pos": "adj.",
+   "meaning": "homesick",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "가족과 친구들을 떠나는 거. 처음에는 향수병에 걸릴 것 같아.",
+     "en": "Leaving my family and friends. I think I will feel homesick at first."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "기회",
+   "ipa": "gihoe",
+   "pos": "n.",
+   "meaning": "an opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "응, 해외에서 일자리 제안을 받았는데 큰 기회야.",
+     "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "다른 나라로 이사할 생각이라고 들었어. 사실이야?",
+   "glosses": [
+    {
+     "text": "이사",
+     "pos": "v.",
+     "meaning": "to relocate"
+    }
+   ],
+   "id": "t1",
+   "en": "I heard you are thinking about relocating to another country. Is that true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "응, 해외에서 일자리 제안을 받았는데 큰 기회야.",
+   "glosses": [
+    {
+     "text": "기회",
+     "pos": "n.",
+     "meaning": "an opportunity"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "축하해! 하지만 큰 결정이네. 긴장돼?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Congratulations! But that is a big decision. Are you nervous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "엄청. 비자가 필요하고, 멀리서 집도 구해야 해.",
+   "glosses": [
+    {
+     "text": "비자",
+     "pos": "n.",
+     "meaning": "a visa"
+    }
+   ],
+   "id": "t4",
+   "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "가장 걱정되는 게 뭐야?",
+   "glosses": [],
+   "id": "t5",
+   "en": "What worries you the most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "가족과 친구들을 떠나는 거. 처음에는 향수병에 걸릴 것 같아.",
+   "glosses": [
+    {
+     "text": "향수병",
+     "pos": "adj.",
+     "meaning": "homesick"
+    }
+   ],
+   "id": "t6",
+   "en": "Leaving my family and friends. I think I will feel homesick at first."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "많은 외국 거주자들이 처음 몇 달이 문화 충격 때문에 가장 힘들다고 해.",
+   "glosses": [
+    {
+     "text": "문화 충격",
+     "pos": "phr.",
+     "meaning": "culture shock"
+    }
+   ],
+   "id": "t7",
+   "en": "Many expats say the first months are the hardest because of culture shock."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "나도 들었어서 가기 전에 현지 관습을 배우려고 노력하고 있어.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I have heard that, so I am trying to learn about local customs before I go."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "현명하네. 언어도 배울 거야?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is wise. Will you learn the language as well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "응, 이미 시작했고 더 빨리 적응하는 데 도움이 될 거야.",
+   "glosses": [
+    {
+     "text": "적응",
+     "pos": "v.",
+     "meaning": "to adapt"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, I have already started, and it will help me adapt faster."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "거기가 마음에 안 들면 어떡해?",
+   "glosses": [],
+   "id": "t11",
+   "en": "What if you do not like it there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그럼 일 년 뒤에 돌아올 수 있어. 최종 결정이라고 생각하지 않아.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I can come back after a year. I do not see it as a final decision."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "건강한 태도네. 계약은 깰 수 있지만 경험은 남으니까.",
+   "glosses": [],
+   "id": "t13",
+   "en": "That is a healthy attitude. Contracts can be broken, but experience stays."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아. 힘들더라도 나 자신에 대해 많이 배울 거야.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Exactly. Even if it is difficult, I will learn a lot about myself."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "계속 연락하고 모든 걸 얘기해 줘.",
+   "glosses": [],
+   "id": "t15",
+   "en": "Please keep in touch and tell us everything."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "약속할게. 내가 자리 잡으면 다들 놀러 와.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I promise. You can all visit me once I am settled in."
+  }
+ ],
+ "practice_words": []
+}

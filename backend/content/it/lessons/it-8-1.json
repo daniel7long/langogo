@@ -1,0 +1,226 @@
+{
+ "emoji": "🗺️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "un viaggio",
+   "ipa": "/un ˈvjaddʒo/",
+   "pos": "n.",
+   "meaning": "a trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sei appena tornato da un viaggio, vero? Raccontami tutto!",
+     "en": "You just came back from a trip, right? Tell me everything!"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "mi sono perso",
+   "ipa": "/mi ˈsoːno ˈpɛrso/",
+   "pos": "phr.",
+   "meaning": "to get lost",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ho cominciato dalla capitale, ma il primo giorno mi sono perso nelle vie antiche.",
+     "en": "I started in the capital, but on the first day I got lost in the old streets."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "indimenticabile",
+   "ipa": "/indimentiˈkaːbile/",
+   "pos": "adj.",
+   "meaning": "unforgettable",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sì, ho passato dieci giorni all'estero. È stato indimenticabile.",
+     "en": "Yes, I spent ten days abroad. It was unforgettable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "un abitante del posto",
+   "ipa": "/un abiˈtante del ˈpɔsto/",
+   "pos": "n.",
+   "meaning": "a local",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Un abitante del posto, gentilissimo, mi ha indicato la strada e mi ha perfino invitato a prendere un caffè.",
+     "en": "A friendly local showed me the way and even invited me for coffee."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "la vista",
+   "ipa": "/la ˈvista/",
+   "pos": "n.",
+   "meaning": "the view",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Guardare il tramonto da una collina. La vista era incredibile.",
+     "en": "Watching the sunset from a hill. The view was incredible."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "consiglieresti",
+   "ipa": "/konsiʎʎereˈsti/",
+   "pos": "v.",
+   "meaning": "to recommend",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Consiglieresti il paese ad altre persone?",
+     "en": "Would you recommend the country to other people?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Sei appena tornato da un viaggio, vero? Raccontami tutto!",
+   "glosses": [
+    {
+     "text": "un viaggio",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t1",
+   "en": "You just came back from a trip, right? Tell me everything!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sì, ho passato dieci giorni all'estero. È stato indimenticabile.",
+   "glosses": [
+    {
+     "text": "indimenticabile",
+     "pos": "adj.",
+     "meaning": "unforgettable"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I spent ten days abroad. It was unforgettable."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Che bello! Dove sei andato per primo?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow! Where did you go first?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ho cominciato dalla capitale, ma il primo giorno mi sono perso nelle vie antiche.",
+   "glosses": [
+    {
+     "text": "mi sono perso",
+     "pos": "phr.",
+     "meaning": "to get lost"
+    }
+   ],
+   "id": "t4",
+   "en": "I started in the capital, but on the first day I got lost in the old streets."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Oh no! Come hai ritrovato la strada?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Oh no! How did you find your way?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Un abitante del posto, gentilissimo, mi ha indicato la strada e mi ha perfino invitato a prendere un caffè.",
+   "glosses": [
+    {
+     "text": "Un abitante del posto",
+     "pos": "n.",
+     "meaning": "a local"
+    }
+   ],
+   "id": "t6",
+   "en": "A friendly local showed me the way and even invited me for coffee."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Che bello. Qual è stato il momento migliore del viaggio?",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is lovely. What was the best moment of the trip?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Guardare il tramonto da una collina. La vista era incredibile.",
+   "glosses": [
+    {
+     "text": "La vista",
+     "pos": "n.",
+     "meaning": "the view"
+    }
+   ],
+   "id": "t8",
+   "en": "Watching the sunset from a hill. The view was incredible."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Consiglieresti il paese ad altre persone?",
+   "glosses": [
+    {
+     "text": "Consiglieresti",
+     "pos": "v.",
+     "meaning": "to recommend"
+    }
+   ],
+   "id": "t9",
+   "en": "Would you recommend the country to other people?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Assolutamente. Tornerei domani stesso, se potessi.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Absolutely. I would go back tomorrow if I could."
+  },
+  {
+   "speaker": "Sara",
+   "role": "npc",
+   "text": "Allora mostrami le tue foto, per favore!",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then show me your photos, please!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Certo. Ho scattato più di cinquecento foto.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Of course. I took more than five hundred pictures."
+  }
+ ],
+ "practice_words": []
+}

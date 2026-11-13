@@ -1,0 +1,181 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "دعوة",
+   "ipa": "daʿwa",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "يا لها من دعوة جميلة! نعم، يسعدني أن آتي.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "تأتي",
+   "ipa": "taʾtī",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "أهلا! يوم السبت عيد ميلادي، وسأقيم حفلة. هل تستطيع أن تأتي؟",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "حفلة",
+   "ipa": "ḥafla",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "أهلا! يوم السبت عيد ميلادي، وسأقيم حفلة. هل تستطيع أن تأتي؟",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "أحضر",
+   "ipa": "uḥḍir",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "هل أحضر شيئا للأكل أو الشرب؟",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "عيد ميلادي",
+   "ipa": "ʿīd mīlādī",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "أهلا! يوم السبت عيد ميلادي، وسأقيم حفلة. هل تستطيع أن تأتي؟",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "هدية",
+   "ipa": "hadiyya",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "أحضر مزاجا جيدا فقط. وربما هدية صغيرة لي، ها ها.",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "أهلا! يوم السبت عيد ميلادي، وسأقيم حفلة. هل تستطيع أن تأتي؟",
+   "glosses": [
+    {
+     "text": "تأتي",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "حفلة",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "عيد ميلادي",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "يا لها من دعوة جميلة! نعم، يسعدني أن آتي.",
+   "glosses": [
+    {
+     "text": "دعوة",
+     "pos": "n.",
+     "meaning": "an invitation"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "رائع! تبدأ في السابعة مساء في بيتي.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هل أحضر شيئا للأكل أو الشرب؟",
+   "glosses": [
+    {
+     "text": "أحضر",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "أحضر مزاجا جيدا فقط. وربما هدية صغيرة لي، ها ها.",
+   "glosses": [
+    {
+     "text": "أحضر",
+     "pos": "v.",
+     "meaning": "to bring"
+    },
+    {
+     "text": "هدية",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بالطبع! إلى اللقاء يوم السبت إذن.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

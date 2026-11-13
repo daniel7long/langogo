@@ -1,0 +1,258 @@
+{
+ "emoji": "🗣️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "流利",
+   "ipa": "liúlì",
+   "pos": "adj.",
+   "meaning": "fluent",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你学这门语言多久了？你说得相当流利。",
+     "en": "How long have you been learning this language? You sound quite fluent."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "口音",
+   "ipa": "kǒuyīn",
+   "pos": "n.",
+   "meaning": "an accent",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "有，我在那里待了六个月，我的口音有了很大的改善。",
+     "en": "Yes, I spent six months there, and my accent improved enormously."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "词汇",
+   "ipa": "cíhuì",
+   "pos": "n.",
+   "meaning": "vocabulary",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "那词汇呢？我记新单词很快就忘了。",
+     "en": "What about vocabulary? I forget new words quickly."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "错误",
+   "ipa": "cuòwù",
+   "pos": "n.",
+   "meaning": "a mistake",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我不再害怕犯错误，开始每天开口说。",
+     "en": "I stopped being afraid of making mistakes and started speaking every day."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "沉浸",
+   "ipa": "chénjìn",
+   "pos": "n.",
+   "meaning": "immersion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你有没有做过沉浸式学习，比如在国外生活？",
+     "en": "Did you do any kind of immersion, like living abroad?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "母语者",
+   "ipa": "mǔyǔzhě",
+   "pos": "phr.",
+   "meaning": "a native speaker",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "不是，但你需要经常和母语者接触，面对面或者在线都可以。",
+     "en": "No, but you need regular contact with a native speaker, in person or online."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "你学这门语言多久了？你说得相当流利。",
+   "glosses": [
+    {
+     "text": "流利",
+     "pos": "adj.",
+     "meaning": "fluent"
+    }
+   ],
+   "id": "t1",
+   "en": "How long have you been learning this language? You sound quite fluent."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "谢谢！大约三年，不过去年我才开始有信心。",
+   "glosses": [],
+   "id": "t2",
+   "en": "Thank you! About three years, but I only became confident last year."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "去年发生了什么变化？",
+   "glosses": [],
+   "id": "t3",
+   "en": "What changed last year?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我不再害怕犯错误，开始每天开口说。",
+   "glosses": [
+    {
+     "text": "错误",
+     "pos": "n.",
+     "meaning": "a mistake"
+    }
+   ],
+   "id": "t4",
+   "en": "I stopped being afraid of making mistakes and started speaking every day."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "我觉得这对很多学习者来说是最难的部分。",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is the hardest part for many learners, I think."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "确实。没有人只靠读语法规则就学会说话。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Definitely. Nobody learns to speak by only reading grammar rules."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "你有没有做过沉浸式学习，比如在国外生活？",
+   "glosses": [
+    {
+     "text": "沉浸",
+     "pos": "n.",
+     "meaning": "immersion"
+    }
+   ],
+   "id": "t7",
+   "en": "Did you do any kind of immersion, like living abroad?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有，我在那里待了六个月，我的口音有了很大的改善。",
+   "glosses": [
+    {
+     "text": "口音",
+     "pos": "n.",
+     "meaning": "an accent"
+    }
+   ],
+   "id": "t8",
+   "en": "Yes, I spent six months there, and my accent improved enormously."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "真的必须住在那个国家才能学好一门语言吗？",
+   "glosses": [],
+   "id": "t9",
+   "en": "Is it true that you must live in the country to learn a language well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "不是，但你需要经常和母语者接触，面对面或者在线都可以。",
+   "glosses": [
+    {
+     "text": "母语者",
+     "pos": "phr.",
+     "meaning": "a native speaker"
+    }
+   ],
+   "id": "t10",
+   "en": "No, but you need regular contact with a native speaker, in person or online."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "那词汇呢？我记新单词很快就忘了。",
+   "glosses": [
+    {
+     "text": "词汇",
+     "pos": "n.",
+     "meaning": "vocabulary"
+    }
+   ],
+   "id": "t11",
+   "en": "What about vocabulary? I forget new words quickly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我每天做简短的复习，并且把新单词用在真实的句子里。",
+   "glosses": [],
+   "id": "t12",
+   "en": "I do short reviews every day, and I use new words in real sentences."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "有道理。你有没有觉得自己没有进步？",
+   "glosses": [],
+   "id": "t13",
+   "en": "That makes sense. Do you ever feel that you are not improving?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "经常。这时候我就换方法，比如看没有字幕的剧。",
+   "glosses": [],
+   "id": "t14",
+   "en": "Often. When that happens I change the method, for example by watching series without subtitles."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "我应该试试。听起来很有趣。",
+   "glosses": [],
+   "id": "t15",
+   "en": "I should try that. It sounds like fun."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "是的，而且能训练听力。要有耐心，享受这个过程。",
+   "glosses": [],
+   "id": "t16",
+   "en": "It is, and it trains your ear. Be patient, and enjoy the process."
+  }
+ ],
+ "practice_words": []
+}

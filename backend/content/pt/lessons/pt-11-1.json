@@ -1,0 +1,256 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "o enredo",
+   "ipa": "/u ẽˈʁe.du/",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ainda não. Li uma crítica que dizia que o enredo era um pouco previsível.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "a atuação",
+   "ipa": "/a a.tuaˈsɐ̃w̃/",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Interessante. O que você achou da atuação da protagonista?",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "o diretor",
+   "ipa": "/u dʒi.ɾeˈtoʁ/",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "E o diretor? Eu adorei o trabalho anterior dele.",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "uma crítica",
+   "ipa": "/ˈu.ma ˈkɾi.tʃi.ka/",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ainda não. Li uma crítica que dizia que o enredo era um pouco previsível.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "previsível",
+   "ipa": "/pɾe.viˈzi.vew/",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ainda não. Li uma crítica que dizia que o enredo era um pouco previsível.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "a trilha sonora",
+   "ipa": "/a ˈtɾi.ʎa soˈno.ɾa/",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aqui funciona, principalmente por causa da trilha sonora. Ela acrescenta muita emoção.",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Ontem à noite eu vi aquele filme novo de que todo mundo está falando. Você já viu?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ainda não. Li uma crítica que dizia que o enredo era um pouco previsível.",
+   "glosses": [
+    {
+     "text": "o enredo",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "uma crítica",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "previsível",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Sinceramente, a primeira metade é, mas o final me surpreendeu totalmente.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Interessante. O que você achou da atuação da protagonista?",
+   "glosses": [
+    {
+     "text": "a atuação",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Excelente. A atriz fez a personagem parecer real e complexa.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "E o diretor? Eu adorei o trabalho anterior dele.",
+   "glosses": [
+    {
+     "text": "o diretor",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Ele mantém o estilo de sempre, com planos longos e pouquíssimo diálogo.",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Isso pode ser lindo ou entediante, dependendo da história.",
+   "glosses": [],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Aqui funciona, principalmente por causa da trilha sonora. Ela acrescenta muita emoção.",
+   "glosses": [
+    {
+     "text": "a trilha sonora",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Você diria que vale a pena ver o filme no cinema?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Sem dúvida. As imagens e o som pedem uma tela grande.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Então vou neste fim de semana, mesmo que os críticos discordem.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Os críticos e o público raramente concordam, então forme a sua própria opinião.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Verdade. Qual você avaliaria melhor, este filme ou o último dele?",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "O último, mas só por pouco. Eu daria quatro estrelas de cinco a este.",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bom saber. Vamos conversar de novo depois que eu assistir.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

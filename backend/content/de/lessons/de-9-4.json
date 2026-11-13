@@ -1,0 +1,234 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "Ernährung",
+   "ipa": "/ɛɐ̯ˈnɛːʁʊŋ/",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Eine ausgewogene Ernährung ist der beste Anfang. Isst du viel Gemüse?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Gemüse",
+   "ipa": "/ɡəˈmyːzə/",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Eine ausgewogene Ernährung ist der beste Anfang. Isst du viel Gemüse?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "Zucker",
+   "ipa": "/ˈtsʊkɐ/",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Das klingt schwer. Und was ist mit Zucker? Ich liebe Kuchen und Limonade.",
+     "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "vermeiden",
+   "ipa": "/fɛɐ̯ˈmaɪ̯dn̩/",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Du solltest zu viel Zucker vermeiden, aber du musst nicht ganz darauf verzichten.",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Portionen",
+   "ipa": "/pɔʁˈtsi̯oːnən/",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Versuch, bei jeder Mahlzeit mindestens zwei Portionen Gemüse zu essen.",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "ausgewogene",
+   "ipa": "/ˈaʊ̯sɡəˌvoːɡənə/",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Eine ausgewogene Ernährung ist der beste Anfang. Isst du viel Gemüse?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Ich möchte mich besser ernähren, aber ich weiß nicht, wo ich anfangen soll.",
+   "glosses": [],
+   "id": "t1",
+   "en": "I want to eat better, but I do not know where to start."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Eine ausgewogene Ernährung ist der beste Anfang. Isst du viel Gemüse?",
+   "glosses": [
+    {
+     "text": "Ernährung",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "Gemüse",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "ausgewogene",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Eigentlich nicht. Ich esse hauptsächlich Nudeln und Fast Food.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Not really. I mostly eat pasta and fast food."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Versuch, bei jeder Mahlzeit mindestens zwei Portionen Gemüse zu essen.",
+   "glosses": [
+    {
+     "text": "Gemüse",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "Portionen",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": "Try to have at least two portions of vegetables with every meal."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Das klingt schwer. Und was ist mit Zucker? Ich liebe Kuchen und Limonade.",
+   "glosses": [
+    {
+     "text": "Zucker",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Du solltest zu viel Zucker vermeiden, aber du musst nicht ganz darauf verzichten.",
+   "glosses": [
+    {
+     "text": "Zucker",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "vermeiden",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": "You should avoid too much sugar, but you do not have to stop completely."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Was kann ich statt Limonade trinken?",
+   "glosses": [],
+   "id": "t7",
+   "en": "What can I drink instead of soft drinks?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Wasser, Tee oder Wasser mit einer Zitronenscheibe.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Water, tea, or water with a slice of lemon."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Und was isst du zum Frühstück?",
+   "glosses": [],
+   "id": "t9",
+   "en": "And what do you eat for breakfast?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Meistens Joghurt mit Obst oder Eier mit Brot.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Usually yogurt with fruit, or eggs with bread."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Das ist einfach. Vielleicht kann ich mehr zu Hause kochen.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is simple. Maybe I can cook more at home."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ja! Zu Hause zu kochen ist billiger und gesünder.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes! Cooking at home is cheaper and healthier."
+  }
+ ],
+ "practice_words": []
+}

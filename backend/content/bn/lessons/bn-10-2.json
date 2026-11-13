@@ -1,0 +1,264 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "বাড়ি থেকে কাজ",
+   "ipa": "bari theke kaj",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আমার কোম্পানি বাড়ি থেকে কাজকে স্থায়ী করার কথা ভাবছে। তুমি কী মনে করো?",
+     "en": "My company is considering making remote work permanent. What is your opinion?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "উৎপাদনশীলতা",
+   "ipa": "utpadonshilota",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "কিন্তু মানুষ বাড়িতে থাকলে কি উৎপাদনশীলতা কমে না?",
+     "en": "But does productivity not suffer when people are at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "নমনীয়তা",
+   "ipa": "nomoniyota",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আমি পক্ষে, প্রধানত কর্মীদের যে নমনীয়তা এটা দেয় তার জন্য।",
+     "en": "I am in favor, mainly because of the flexibility it gives employees."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "একাকিত্ব",
+   "ipa": "ekakitto",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আর একাকিত্ব? কফি মেশিনের পাশে সহকর্মীদের সঙ্গে আড্ডা আমি মিস করি।",
+     "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "যাতায়াত",
+   "ipa": "jatayat",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "ঠিক তা-ই। মানুষের সঙ্গে যোগাযোগ থাকে আর প্রতিদিনের যাতায়াতও এড়ানো যায়।",
+     "en": "Exactly. You keep the human contact and still avoid the daily commute."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "ভারসাম্য",
+   "ipa": "bharshamyo",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "তাহলে প্রশ্ন হলো কাজ আর ব্যক্তিগত জীবনের মধ্যে কীভাবে ভারসাম্য রাখা যায়।",
+     "en": "So the question is how to balance work and private life."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "আমার কোম্পানি বাড়ি থেকে কাজকে স্থায়ী করার কথা ভাবছে। তুমি কী মনে করো?",
+   "glosses": [
+    {
+     "text": "বাড়ি থেকে কাজ",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": "My company is considering making remote work permanent. What is your opinion?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি পক্ষে, প্রধানত কর্মীদের যে নমনীয়তা এটা দেয় তার জন্য।",
+   "glosses": [
+    {
+     "text": "নমনীয়তা",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": "I am in favor, mainly because of the flexibility it gives employees."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "কিন্তু মানুষ বাড়িতে থাকলে কি উৎপাদনশীলতা কমে না?",
+   "glosses": [
+    {
+     "text": "উৎপাদনশীলতা",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": "But does productivity not suffer when people are at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "অনেক কাজের ক্ষেত্রে গবেষণা উল্টোটা বলে, যদিও এটা মানুষের ওপর নির্ভর করে।",
+   "glosses": [],
+   "id": "t4",
+   "en": "Studies suggest the opposite for many jobs, though it depends on the person."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "আমার বাড়িতে মনোযোগ দেওয়া কঠিন লাগে, এত বিক্ষেপ থাকে।",
+   "glosses": [],
+   "id": "t5",
+   "en": "I find it hard to concentrate at home, with all the distractions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "এটা ঠিক কথা। একটি উপযুক্ত কাজের জায়গা বিরাট পার্থক্য আনে।",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is a fair point. A proper workspace makes a big difference."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "আর একাকিত্ব? কফি মেশিনের পাশে সহকর্মীদের সঙ্গে আড্ডা আমি মিস করি।",
+   "glosses": [
+    {
+     "text": "একাকিত্ব",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সত্যি বলতে আমিও। সে কারণেই আমার মনে হয় হাইব্রিড মডেলই সবচেয়ে ভালো।",
+   "glosses": [],
+   "id": "t8",
+   "en": "Me too, to be honest. That is why I think a hybrid model works best."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "হয়তো সপ্তাহে দুই বা তিন দিন অফিসে?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Two or three days in the office, perhaps?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক তা-ই। মানুষের সঙ্গে যোগাযোগ থাকে আর প্রতিদিনের যাতায়াতও এড়ানো যায়।",
+   "glosses": [
+    {
+     "text": "যাতায়াত",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly. You keep the human contact and still avoid the daily commute."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "যাতায়াত সবচেয়ে খারাপ অংশ, আমাকে স্বীকার করতেই হবে। আমি রোজ দুই ঘণ্টা হারাই।",
+   "glosses": [
+    {
+     "text": "যাতায়াত",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": "The commute is the worst part, I must admit. I lose two hours a day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ভাবো সেই সময়ে তুমি কী করতে পারতে: খেলাধুলা, পরিবার, ঘুম।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Imagine what you could do with that time: sport, family, sleep."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "অবশ্যই এটা পরিবেশের জন্যও ভালো।",
+   "glosses": [],
+   "id": "t13",
+   "en": "It is also better for the environment, of course."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক, যদিও সারাদিন বাড়ি গরম রাখতেও শক্তি খরচ হয়।",
+   "glosses": [],
+   "id": "t14",
+   "en": "True, although heating a home all day uses energy, too."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "তাহলে প্রশ্ন হলো কাজ আর ব্যক্তিগত জীবনের মধ্যে কীভাবে ভারসাম্য রাখা যায়।",
+   "glosses": [
+    {
+     "text": "ভারসাম্য",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": "So the question is how to balance work and private life."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক। স্পষ্ট কাজের সময় জরুরি, নইলে তুমি কখনও সত্যিকারের অর্থে কাজ থেকে বেরোতে পারো না।",
+   "glosses": [],
+   "id": "t16",
+   "en": "Right. Clear working hours are essential, otherwise you never really switch off."
+  }
+ ],
+ "practice_words": []
+}

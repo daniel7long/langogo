@@ -1,0 +1,267 @@
+{
+ "emoji": "🚌",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "যানজট",
+   "ipa": "janjot",
+   "pos": "n.",
+   "meaning": "traffic",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "সুবিধাজনক, হ্যাঁ, কিন্তু তুমি যানজটে সময় হারাও আর পার্কিংয়ে অনেক খরচ করো।",
+     "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "দূষণ",
+   "ipa": "dushon",
+   "pos": "n.",
+   "meaning": "pollution",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আমার মনে হয় এটা সাহসী ধারণা, কিন্তু এতে দূষণ আর যানজট উল্লেখযোগ্যভাবে কমতে পারে।",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "নির্ভরযোগ্য",
+   "ipa": "nirbhorjogyo",
+   "pos": "adj.",
+   "meaning": "reliable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আগে গণপরিবহনের উন্নতি হতে হবে। আমাদের বাস খুব কমই নির্ভরযোগ্য।",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ভাড়া",
+   "ipa": "bhara",
+   "pos": "n.",
+   "meaning": "a fare",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আর অনেক সন্তানওয়ালা পরিবারের জন্য ভাড়া ব্যয়বহুল।",
+     "en": "And the fares are expensive for families with several children."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "সুবিধাজনক",
+   "ipa": "shubidhajonok",
+   "pos": "adj.",
+   "meaning": "convenient",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "কিন্তু গাড়ি খুব সুবিধাজনক। আমি যখন খুশি যেখানে খুশি যেতে পারি।",
+     "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "গণপরিবহন",
+   "ipa": "gonoporibahon",
+   "pos": "n.",
+   "meaning": "public transport",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আগে গণপরিবহনের উন্নতি হতে হবে। আমাদের বাস খুব কমই নির্ভরযোগ্য।",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "আমাদের শহর কেন্দ্রে গাড়ি নিষিদ্ধ করতে চায়। তুমি কী মনে করো?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Our city wants to ban cars from the center. What do you think?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমার মনে হয় এটা সাহসী ধারণা, কিন্তু এতে দূষণ আর যানজট উল্লেখযোগ্যভাবে কমতে পারে।",
+   "glosses": [
+    {
+     "text": "যানজট",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "দূষণ",
+     "pos": "n.",
+     "meaning": "pollution"
+    }
+   ],
+   "id": "t2",
+   "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "কিন্তু যারা গাড়ির ওপর নির্ভর করে, যেমন ডেলিভারি চালকদের কী হবে?",
+   "glosses": [],
+   "id": "t3",
+   "en": "But what about people who depend on their cars, like delivery drivers?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "তারা বিশেষ অনুমতিপত্র পেতে পারে, যাতে পরিকল্পনা স্থানীয় ব্যবসার ক্ষতি না করে।",
+   "glosses": [],
+   "id": "t4",
+   "en": "They could receive special permits, so the plan would not hurt local businesses."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "আগে গণপরিবহনের উন্নতি হতে হবে। আমাদের বাস খুব কমই নির্ভরযোগ্য।",
+   "glosses": [
+    {
+     "text": "নির্ভরযোগ্য",
+     "pos": "adj.",
+     "meaning": "reliable"
+    },
+    {
+     "text": "গণপরিবহন",
+     "pos": "n.",
+     "meaning": "public transport"
+    }
+   ],
+   "id": "t5",
+   "en": "Public transport would have to improve first. Our buses are rarely reliable."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক। ঘন ঘন আর সময়মতো সেবা না থাকলে পরিকল্পনা ব্যর্থ হবে।",
+   "glosses": [],
+   "id": "t6",
+   "en": "Exactly. Without frequent and punctual services, the plan will fail."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "আর অনেক সন্তানওয়ালা পরিবারের জন্য ভাড়া ব্যয়বহুল।",
+   "glosses": [
+    {
+     "text": "ভাড়া",
+     "pos": "n.",
+     "meaning": "a fare"
+    }
+   ],
+   "id": "t7",
+   "en": "And the fares are expensive for families with several children."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "একটি সস্তা মাসিক পাস আরও মানুষকে গাড়ি বাড়িতে রেখে যেতে উৎসাহ দেবে।",
+   "glosses": [],
+   "id": "t8",
+   "en": "A cheaper monthly pass would encourage more people to leave their cars at home."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "কিন্তু গাড়ি খুব সুবিধাজনক। আমি যখন খুশি যেখানে খুশি যেতে পারি।",
+   "glosses": [
+    {
+     "text": "সুবিধাজনক",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t9",
+   "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সুবিধাজনক, হ্যাঁ, কিন্তু তুমি যানজটে সময় হারাও আর পার্কিংয়ে অনেক খরচ করো।",
+   "glosses": [
+    {
+     "text": "যানজট",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "সুবিধাজনক",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t10",
+   "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "এটা সত্যি। আমি রোজ প্রায় এক ঘণ্টা পার্কিংয়ের জায়গা খুঁজতে কাটাই।",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is true. I spend nearly an hour a day looking for a place to park."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "কিছু শহর দেখিয়েছে যে সাইকেল লেন খুব ভালো কাজ করতে পারে।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Some cities show that cycling lanes can work very well."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "হয়তো, কিন্তু আমাদের শীত তাদের চেয়ে কঠোর।",
+   "glosses": [],
+   "id": "t13",
+   "en": "Perhaps, but our winters are harsher than theirs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক, সেজন্যই সম্ভবত সমাধানের মিশ্রণ দরকার।",
+   "glosses": [],
+   "id": "t14",
+   "en": "Fair enough, which is why a mix of solutions is probably necessary."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "ট্রেন আর বাসের উন্নতি হলে আমি পরিকল্পনাটি সমর্থন করতে পারি।",
+   "glosses": [],
+   "id": "t15",
+   "en": "I might support the plan if the trains and buses improve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সেটাই সঠিক শর্ত হবে। মানুষের বিকল্প থাকলে পরিবর্তন সবচেয়ে ভালো কাজ করে।",
+   "glosses": [],
+   "id": "t16",
+   "en": "That would be the right condition. Change works best when people have alternatives."
+  }
+ ],
+ "practice_words": []
+}

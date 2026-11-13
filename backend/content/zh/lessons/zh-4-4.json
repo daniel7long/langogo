@@ -1,0 +1,187 @@
+{
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "护照",
+   "ipa": "hùzhào",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "下午好。请出示护照。您要托运行李箱吗？",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "行李箱",
+   "ipa": "xínglixiāng",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "要，一个行李箱。不重。",
+     "en": "Yes, one suitcase. It is not heavy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "登机牌",
+   "ipa": "dēngjīpái",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "这是您的登机牌。您的登机口是十二号。",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "登机口",
+   "ipa": "dēngjīkǒu",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "没关系。我在登机口附近等。",
+     "en": "That is fine. I will wait near the gate."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "托运",
+   "ipa": "tuōyùn",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "下午好。请出示护照。您要托运行李箱吗？",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "延误",
+   "ipa": "yánwù",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "四十分钟以后。不过您的航班延误了二十分钟。",
+     "en": "In forty minutes. But your flight is delayed by twenty minutes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "下午好。请出示护照。您要托运行李箱吗？",
+   "glosses": [
+    {
+     "text": "护照",
+     "pos": "n.",
+     "meaning": "a passport"
+    },
+    {
+     "text": "行李箱",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "托运",
+     "pos": "v.",
+     "meaning": "to check in"
+    }
+   ],
+   "id": "t1",
+   "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "要，一个行李箱。不重。",
+   "glosses": [
+    {
+     "text": "行李箱",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, one suitcase. It is not heavy."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "这是您的登机牌。您的登机口是十二号。",
+   "glosses": [
+    {
+     "text": "登机牌",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    },
+    {
+     "text": "登机口",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t3",
+   "en": "Here is your boarding pass. Your gate is number twelve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "谢谢。几点开始登机？",
+   "glosses": [],
+   "id": "t4",
+   "en": "Thank you. What time does boarding start?"
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "四十分钟以后。不过您的航班延误了二十分钟。",
+   "glosses": [
+    {
+     "text": "延误",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": "In forty minutes. But your flight is delayed by twenty minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "没关系。我在登机口附近等。",
+   "glosses": [
+    {
+     "text": "登机口",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. I will wait near the gate."
+  }
+ ],
+ "practice_words": []
+}

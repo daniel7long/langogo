@@ -1,0 +1,192 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "gara",
+   "ipa": "/ˈɡara/",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da, vă rog. Unde este gara? Este departe?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "la stânga",
+   "ipa": "/la ˈstɨnɡa/",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Și apoi? Cotesc la stânga sau la dreapta?",
+     "en": "And then? Do I turn left or right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "drept înainte",
+   "ipa": "/ˈdrept ɨnaˈinte/",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Nu, nu este departe. Mergeți drept înainte două străzi.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "departe",
+   "ipa": "/deˈparte/",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da, vă rog. Unde este gara? Este departe?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "colț",
+   "ipa": "/kolts/",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Cotiți la stânga la colț. Gara este lângă bancă.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "o hartă",
+   "ipa": "/o ˈharte/",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Mulțumesc mult! Am o hartă pe telefon, așa că va fi ușor.",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Scuzați-mă, vă pot ajuta? Păreți pierdut.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, vă rog. Unde este gara? Este departe?",
+   "glosses": [
+    {
+     "text": "gara",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "departe",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Nu, nu este departe. Mergeți drept înainte două străzi.",
+   "glosses": [
+    {
+     "text": "drept înainte",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "departe",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Și apoi? Cotesc la stânga sau la dreapta?",
+   "glosses": [
+    {
+     "text": "la stânga",
+     "pos": "phr.",
+     "meaning": "turn left"
+    }
+   ],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Cotiți la stânga la colț. Gara este lângă bancă.",
+   "glosses": [
+    {
+     "text": "Gara",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "la stânga",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "colț",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mulțumesc mult! Am o hartă pe telefon, așa că va fi ușor.",
+   "glosses": [
+    {
+     "text": "o hartă",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,192 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "マンション",
+   "ipa": "manshon",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "こんにちは、こちらのマンションにご興味がおありですよね。",
+     "en": "Hello, you are interested in the apartment, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "家賃",
+   "ipa": "yachin",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "はい。家賃は一か月いくらですか。",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "一か月",
+   "ipa": "ikkagetsu",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "一か月八百で、家具付きです。",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "家具付き",
+   "ipa": "kagu tsuki",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "一か月八百で、家具付きです。",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "敷金",
+   "ipa": "shikikin",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "いいですね。敷金は払う必要がありますか。",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "契約",
+   "ipa": "keiyaku",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "はい、敷金は一か月分です。契約は明日です。",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "こんにちは、こちらのマンションにご興味がおありですよね。",
+   "glosses": [
+    {
+     "text": "マンション",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "はい。家賃は一か月いくらですか。",
+   "glosses": [
+    {
+     "text": "家賃",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "一か月",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "一か月八百で、家具付きです。",
+   "glosses": [
+    {
+     "text": "一か月",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "家具付き",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "いいですね。敷金は払う必要がありますか。",
+   "glosses": [
+    {
+     "text": "敷金",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "はい、敷金は一か月分です。契約は明日です。",
+   "glosses": [
+    {
+     "text": "一か月",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "敷金",
+     "pos": "n.",
+     "meaning": "a deposit"
+    },
+    {
+     "text": "契約",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "わかりました。決める前にもう一度キッチンを見てもいいですか。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

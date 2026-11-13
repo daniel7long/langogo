@@ -1,0 +1,203 @@
+{
+ "emoji": "🏨",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "бронь",
+   "ipa": "brón'",
+   "pos": "n.",
+   "meaning": "a reservation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Здравствуйте, добро пожаловать в отель. У вас есть бронь?",
+     "en": "Hello, welcome to the hotel. Do you have a reservation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "номер",
+   "ipa": "nómer",
+   "pos": "n.",
+   "meaning": "a room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Спасибо. Какой номер комнаты?",
+     "en": "Thank you. What is the room number?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ночи",
+   "ipa": "nóchi",
+   "pos": "n.",
+   "meaning": "a night",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Да, номер на две ночи, на моё имя.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "завтрак",
+   "ipa": "závtrak",
+   "pos": "n.",
+   "meaning": "breakfast",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Прекрасно. Завтрак включён?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "включён",
+   "ipa": "vkljuchón",
+   "pos": "adj.",
+   "meaning": "included",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Прекрасно. Завтрак включён?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "ключ",
+   "ipa": "kljuch",
+   "pos": "n.",
+   "meaning": "the key",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Прекрасно. Завтрак включён?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Здравствуйте, добро пожаловать в отель. У вас есть бронь?",
+   "glosses": [
+    {
+     "text": "бронь",
+     "pos": "n.",
+     "meaning": "a reservation"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, welcome to the hotel. Do you have a reservation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, номер на две ночи, на моё имя.",
+   "glosses": [
+    {
+     "text": "номер",
+     "pos": "n.",
+     "meaning": "a room"
+    },
+    {
+     "text": "ночи",
+     "pos": "n.",
+     "meaning": "a night"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a room for two nights, under my name."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Да, вот она. Одноместный номер с видом на сад.",
+   "glosses": [
+    {
+     "text": "номер",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t3",
+   "en": "Yes, here it is. A single room with a view of the garden."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Прекрасно. Завтрак включён?",
+   "glosses": [
+    {
+     "text": "Завтрак",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "включён",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "ключ",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t4",
+   "en": "Wonderful. Is breakfast included?"
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Да, завтрак включён, с семи до десяти. Вот ваш ключ.",
+   "glosses": [
+    {
+     "text": "завтрак",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "включён",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "ключ",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Спасибо. Какой номер комнаты?",
+   "glosses": [
+    {
+     "text": "номер",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you. What is the room number?"
+  }
+ ],
+ "practice_words": []
+}

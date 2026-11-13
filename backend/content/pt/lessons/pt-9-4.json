@@ -1,0 +1,234 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "uma dieta",
+   "ipa": "/ˈu.ma ˈdʒjɛ.ta/",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Uma dieta equilibrada é a melhor forma de começar. Você come muitos legumes?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "legumes",
+   "ipa": "/leˈgu.mis/",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tente comer pelo menos duas porções de legumes em cada refeição.",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "açúcar",
+   "ipa": "/aˈsu.kaʁ/",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Isso parece difícil. E o açúcar? Eu adoro bolos e refrigerantes.",
+     "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "evitar",
+   "ipa": "/e.viˈtaʁ/",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Você deve evitar o excesso de açúcar, mas não precisa parar completamente.",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "porções",
+   "ipa": "/poʁˈsõjs/",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tente comer pelo menos duas porções de legumes em cada refeição.",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "equilibrada",
+   "ipa": "/e.ki.liˈbɾa.da/",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Uma dieta equilibrada é a melhor forma de começar. Você come muitos legumes?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Quero comer melhor, mas não sei por onde começar.",
+   "glosses": [],
+   "id": "t1",
+   "en": "I want to eat better, but I do not know where to start."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Uma dieta equilibrada é a melhor forma de começar. Você come muitos legumes?",
+   "glosses": [
+    {
+     "text": "Uma dieta",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "legumes",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "equilibrada",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Na verdade, não. Eu como principalmente macarrão e fast-food.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Not really. I mostly eat pasta and fast food."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tente comer pelo menos duas porções de legumes em cada refeição.",
+   "glosses": [
+    {
+     "text": "legumes",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "porções",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": "Try to have at least two portions of vegetables with every meal."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Isso parece difícil. E o açúcar? Eu adoro bolos e refrigerantes.",
+   "glosses": [
+    {
+     "text": "açúcar",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Você deve evitar o excesso de açúcar, mas não precisa parar completamente.",
+   "glosses": [
+    {
+     "text": "açúcar",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "evitar",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": "You should avoid too much sugar, but you do not have to stop completely."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "O que posso beber no lugar de refrigerante?",
+   "glosses": [],
+   "id": "t7",
+   "en": "What can I drink instead of soft drinks?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Água, chá ou água com uma rodela de limão.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Water, tea, or water with a slice of lemon."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "E o que você come no café da manhã?",
+   "glosses": [],
+   "id": "t9",
+   "en": "And what do you eat for breakfast?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Normalmente iogurte com frutas, ou ovos com pão.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Usually yogurt with fruit, or eggs with bread."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Isso é simples. Talvez eu possa cozinhar mais em casa.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is simple. Maybe I can cook more at home."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sim! Cozinhar em casa é mais barato e mais saudável.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes! Cooking at home is cheaper and healthier."
+  }
+ ],
+ "practice_words": []
+}

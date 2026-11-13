@@ -1,0 +1,267 @@
+{
+ "emoji": "🚌",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "교통체증",
+   "ipa": "gyotongchejeung",
+   "pos": "n.",
+   "meaning": "traffic",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "대담한 생각이지만, 오염과 교통체증을 크게 줄일 수 있을 거야.",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "오염",
+   "ipa": "oyeom",
+   "pos": "n.",
+   "meaning": "pollution",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "대담한 생각이지만, 오염과 교통체증을 크게 줄일 수 있을 거야.",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "믿을 수 있",
+   "ipa": "mideul su iss",
+   "pos": "adj.",
+   "meaning": "reliable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "먼저 대중교통이 개선되어야 해. 우리 버스는 믿을 수 있는 경우가 드물잖아.",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "요금",
+   "ipa": "yogeum",
+   "pos": "n.",
+   "meaning": "a fare",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "그리고 아이가 여럿인 가정에는 요금이 비싸.",
+     "en": "And the fares are expensive for families with several children."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "편리",
+   "ipa": "pyeolli",
+   "pos": "adj.",
+   "meaning": "convenient",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "하지만 차는 정말 편리해. 원하는 때 어디든 갈 수 있으니까.",
+     "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "대중교통",
+   "ipa": "daejunggyotong",
+   "pos": "n.",
+   "meaning": "public transport",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "먼저 대중교통이 개선되어야 해. 우리 버스는 믿을 수 있는 경우가 드물잖아.",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "우리 시에서 도심에 차량을 금지하려고 해. 어떻게 생각해?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Our city wants to ban cars from the center. What do you think?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "대담한 생각이지만, 오염과 교통체증을 크게 줄일 수 있을 거야.",
+   "glosses": [
+    {
+     "text": "교통체증",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "오염",
+     "pos": "n.",
+     "meaning": "pollution"
+    }
+   ],
+   "id": "t2",
+   "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "하지만 배달 기사처럼 차에 의존하는 사람들은?",
+   "glosses": [],
+   "id": "t3",
+   "en": "But what about people who depend on their cars, like delivery drivers?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "특별 허가증을 받을 수 있게 하면 지역 상점들이 피해를 보지 않을 거야.",
+   "glosses": [],
+   "id": "t4",
+   "en": "They could receive special permits, so the plan would not hurt local businesses."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "먼저 대중교통이 개선되어야 해. 우리 버스는 믿을 수 있는 경우가 드물잖아.",
+   "glosses": [
+    {
+     "text": "믿을 수 있",
+     "pos": "adj.",
+     "meaning": "reliable"
+    },
+    {
+     "text": "대중교통",
+     "pos": "n.",
+     "meaning": "public transport"
+    }
+   ],
+   "id": "t5",
+   "en": "Public transport would have to improve first. Our buses are rarely reliable."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아. 자주 오고 정확한 서비스가 없으면 이 계획은 실패할 거야.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Exactly. Without frequent and punctual services, the plan will fail."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "그리고 아이가 여럿인 가정에는 요금이 비싸.",
+   "glosses": [
+    {
+     "text": "요금",
+     "pos": "n.",
+     "meaning": "a fare"
+    }
+   ],
+   "id": "t7",
+   "en": "And the fares are expensive for families with several children."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "더 싼 월 정기권이 있으면 더 많은 사람이 차를 집에 두게 될 거야.",
+   "glosses": [],
+   "id": "t8",
+   "en": "A cheaper monthly pass would encourage more people to leave their cars at home."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "하지만 차는 정말 편리해. 원하는 때 어디든 갈 수 있으니까.",
+   "glosses": [
+    {
+     "text": "편리",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t9",
+   "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "편리하긴 하지만, 교통체증에서 시간을 잃고 주차에도 돈을 많이 쓰잖아.",
+   "glosses": [
+    {
+     "text": "교통체증",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "편리",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t10",
+   "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "그건 맞아. 매일 주차할 자리를 찾는 데 거의 한 시간이 걸려.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is true. I spend nearly an hour a day looking for a place to park."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "자전거 도로가 아주 잘 작동하는 도시들도 있어.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Some cities show that cycling lanes can work very well."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "그럴 수도 있지만, 우리 겨울은 그곳보다 더 혹독해.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Perhaps, but our winters are harsher than theirs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아, 그러니까 여러 해결책을 섞는 게 필요하겠지.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Fair enough, which is why a mix of solutions is probably necessary."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "기차와 버스가 개선된다면 그 계획을 지지할 수도 있어.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I might support the plan if the trains and buses improve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그게 올바른 조건이야. 사람들에게 대안이 있을 때 변화가 가장 잘 돼.",
+   "glosses": [],
+   "id": "t16",
+   "en": "That would be the right condition. Change works best when people have alternatives."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,217 +1,187 @@
 {
-  "emoji": "💼",
-  "max_flowers": 35,
-  "cefr": "B1",
-  "vocab": [
+ "emoji": "👕",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "size",
+   "ipa": "/saɪz/",
+   "pos": "n.",
+   "meaning": "a size",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "v1",
-      "word": "experience",
-      "ipa": "/ɪkˈspɪriəns/",
-      "pos": "n.",
-      "meaning": "the things you have done in past jobs",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I have two years of experience."
-        },
-        {
-          "target": "She has a lot of experience."
-        }
-      ]
-    },
-    {
-      "id": "v2",
-      "word": "skill",
-      "ipa": "/skɪl/",
-      "pos": "n.",
-      "meaning": "something you can do well",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "Speaking is a useful skill."
-        },
-        {
-          "target": "What skills do you have?"
-        }
-      ]
-    },
-    {
-      "id": "v3",
-      "word": "team",
-      "ipa": "/tiːm/",
-      "pos": "n.",
-      "meaning": "a group of people who work together",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I like working in a team."
-        },
-        {
-          "target": "Our team is small."
-        }
-      ]
-    },
-    {
-      "id": "v4",
-      "word": "apply",
-      "ipa": "/əˈplaɪ/",
-      "pos": "v.",
-      "meaning": "to ask for a job in a formal way",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I apply for a job online."
-        },
-        {
-          "target": "Why did you apply?"
-        }
-      ]
-    },
-    {
-      "id": "v5",
-      "word": "strength",
-      "ipa": "/streŋkθ/",
-      "pos": "n.",
-      "meaning": "a good quality that you have",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "My strength is learning fast."
-        },
-        {
-          "target": "Name one strength."
-        }
-      ]
-    },
-    {
-      "id": "v6",
-      "word": "salary",
-      "ipa": "/ˈsæləri/",
-      "pos": "n.",
-      "meaning": "the money you get each month for work",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "The salary is good."
-        },
-        {
-          "target": "What salary do you want?"
-        }
-      ]
-    },
-    {
-      "id": "v7",
-      "word": "hire",
-      "ipa": "/haɪr/",
-      "pos": "v.",
-      "meaning": "to give someone a job",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "We hire two people."
-        },
-        {
-          "target": "They hired her last week."
-        }
-      ]
+     "target": "I am looking for a jacket. Can I try on a medium size?",
+     "en": ""
     }
-  ],
-  "dialogue": [
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "try on",
+   "ipa": "/tɹaɪ ɑn/",
+   "pos": "v.",
+   "meaning": "to try on",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "t1",
-      "speaker": "Interviewer",
-      "role": "npc",
-      "text": "Thank you for coming. Why did you apply for this job?",
-      "glosses": [
-        {
-          "text": "apply",
-          "pos": "v.",
-          "meaning": "to ask for a job in a formal way"
-        }
-      ],
-      "en": "Thanks for being here. Why did you ask for this work?"
-    },
-    {
-      "id": "t2",
-      "speaker": "You",
-      "role": "you",
-      "text": "I like the company, and I have three years of experience in this field.",
-      "glosses": [
-        {
-          "text": "experience",
-          "pos": "n.",
-          "meaning": "the things you have done in past jobs"
-        }
-      ],
-      "en": "I like the company, and I worked three years in this area."
-    },
-    {
-      "id": "t3",
-      "speaker": "Interviewer",
-      "role": "npc",
-      "text": "Good. What is your biggest strength?",
-      "glosses": [
-        {
-          "text": "strength",
-          "pos": "n.",
-          "meaning": "a good quality that you have"
-        }
-      ],
-      "en": "Good. What good quality do you have most?"
-    },
-    {
-      "id": "t4",
-      "speaker": "You",
-      "role": "you",
-      "text": "I learn fast, and I work well in a team.",
-      "glosses": [
-        {
-          "text": "team",
-          "pos": "n.",
-          "meaning": "a group of people who work together"
-        }
-      ],
-      "en": "I understand new things quickly, and I work well with others."
-    },
-    {
-      "id": "t5",
-      "speaker": "Interviewer",
-      "role": "npc",
-      "text": "Great. We will contact you next week about the salary.",
-      "glosses": [
-        {
-          "text": "salary",
-          "pos": "n.",
-          "meaning": "the money you get each month for work"
-        }
-      ],
-      "en": "Good. We will write to you next week about the money."
-    },
-    {
-      "id": "t6",
-      "speaker": "You",
-      "role": "you",
-      "text": "Thank you. I hope you will hire me!",
-      "glosses": [
-        {
-          "text": "hire",
-          "pos": "v.",
-          "meaning": "to give someone a job"
-        }
-      ],
-      "en": "Thanks. I hope you give me the job!"
+     "target": "I am looking for a jacket. Can I try on a medium size?",
+     "en": ""
     }
-  ],
-  "practice_words": [
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "fitting room",
+   "ipa": "/ˈfɪtɪŋ ɹum/",
+   "pos": "n.",
+   "meaning": "the fitting room",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "w1",
-      "text": "strength",
-      "tip": "Say 'strengkth': the end has a 'th' sound"
+     "target": "Of course. The fitting room is at the back.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "too big",
+   "ipa": "/tu bɪɡ/",
+   "pos": "phr.",
+   "meaning": "too big",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "It is a little too big. Do you have a smaller size, or something cheaper?",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "cheaper",
+   "ipa": "/ˈtʃipɚ/",
+   "pos": "adj.",
+   "meaning": "cheaper",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Here is a small one. It is on sale this week, so it is cheaper.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "pay",
+   "ipa": "/peɪ/",
+   "pos": "v.",
+   "meaning": "to pay",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Perfect, I will take it. Where can I pay?",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Hello! Are you looking for something special?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I am looking for a jacket. Can I try on a medium size?",
+   "glosses": [
+    {
+     "text": "size",
+     "pos": "n.",
+     "meaning": "a size"
     },
     {
-      "id": "w2",
-      "text": "experience",
-      "tip": "Say ik-SPEER-ee-unce: stress the second part"
+     "text": "try on",
+     "pos": "v.",
+     "meaning": "to try on"
     }
-  ]
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Of course. The fitting room is at the back.",
+   "glosses": [
+    {
+     "text": "fitting room",
+     "pos": "n.",
+     "meaning": "the fitting room"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "It is a little too big. Do you have a smaller size, or something cheaper?",
+   "glosses": [
+    {
+     "text": "size",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "too big",
+     "pos": "phr.",
+     "meaning": "too big"
+    },
+    {
+     "text": "cheaper",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Here is a small one. It is on sale this week, so it is cheaper.",
+   "glosses": [
+    {
+     "text": "cheaper",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Perfect, I will take it. Where can I pay?",
+   "glosses": [
+    {
+     "text": "pay",
+     "pos": "v.",
+     "meaning": "to pay"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  }
+ ],
+ "practice_words": []
 }

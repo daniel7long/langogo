@@ -1,0 +1,254 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "ফ্লাইট",
+   "ipa": "flait",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আমরা আপনাকে একটি হোটেল আর কাল সকালের ফ্লাইট দিতে পারি।",
+     "en": "We can offer you a hotel and a flight tomorrow morning."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "বাতিল",
+   "ipa": "batil",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "তিনশো চার নম্বর ফ্লাইটের যাত্রীরা, দুঃখের সঙ্গে জানাচ্ছি যে আপনাদের ফ্লাইট বাতিল হয়েছে।",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "সংযোগ",
+   "ipa": "songjog",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "মাফ করবেন, কী হয়েছে? পরে আমার একটি গুরুত্বপূর্ণ সংযোগ আছে।",
+     "en": "Excuse me, what happened? I have an important connection later today."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "বিলম্ব",
+   "ipa": "bilomyo",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "বিমানে একটি প্রযুক্তিগত সমস্যা ছিল। বিলম্বের জন্য আমরা দুঃখিত।",
+     "en": "There was a technical problem with the plane. We apologize for the delay."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "আবার বুক",
+   "ipa": "abar buk",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আপনি কি আজ অন্য ফ্লাইটে আমাকে আবার বুক করে দিতে পারবেন?",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "ক্ষতিপূরণ",
+   "ipa": "khotipuron",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আমি আজ রাতেই যেতে চাই। অসুবিধার জন্য কোনো ক্ষতিপূরণ আছে কি?",
+     "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "তিনশো চার নম্বর ফ্লাইটের যাত্রীরা, দুঃখের সঙ্গে জানাচ্ছি যে আপনাদের ফ্লাইট বাতিল হয়েছে।",
+   "glosses": [
+    {
+     "text": "ফ্লাইট",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "বাতিল",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "মাফ করবেন, কী হয়েছে? পরে আমার একটি গুরুত্বপূর্ণ সংযোগ আছে।",
+   "glosses": [
+    {
+     "text": "সংযোগ",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": "Excuse me, what happened? I have an important connection later today."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "বিমানে একটি প্রযুক্তিগত সমস্যা ছিল। বিলম্বের জন্য আমরা দুঃখিত।",
+   "glosses": [
+    {
+     "text": "বিলম্ব",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": "There was a technical problem with the plane. We apologize for the delay."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আপনি কি আজ অন্য ফ্লাইটে আমাকে আবার বুক করে দিতে পারবেন?",
+   "glosses": [
+    {
+     "text": "ফ্লাইট",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "আবার বুক",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": "Can you rebook me on another flight today?"
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "সন্ধ্যা আটটায় একটি ফ্লাইট আছে। আমি দেখছি আসন আছে কি না।",
+   "glosses": [
+    {
+     "text": "ফ্লাইট",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t5",
+   "en": "There is a flight at eight tonight. Let me check if there are seats."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "দয়া করে দেখুন। না থাকলে, আমার কী বিকল্প আছে?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Please do. If not, what are my options?"
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "আমরা আপনাকে একটি হোটেল আর কাল সকালের ফ্লাইট দিতে পারি।",
+   "glosses": [
+    {
+     "text": "ফ্লাইট",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t7",
+   "en": "We can offer you a hotel and a flight tomorrow morning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি আজ রাতেই যেতে চাই। অসুবিধার জন্য কোনো ক্ষতিপূরণ আছে কি?",
+   "glosses": [
+    {
+     "text": "ক্ষতিপূরণ",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "হ্যাঁ, আপনি ক্ষতিপূরণ পাওয়ার অধিকারী, আর আমি আপনাকে ফর্ম দেব।",
+   "glosses": [
+    {
+     "text": "ক্ষতিপূরণ",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t9",
+   "en": "Yes, you have the right to compensation, and I will give you the form."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ধন্যবাদ। আমি কি খাবারের কুপনও পাব?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Thank you. Do I also receive a meal voucher?"
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "হ্যাঁ, এই নিন রেস্তোরাঁর কুপন। আপনি আটটার ফ্লাইটে আছেন।",
+   "glosses": [
+    {
+     "text": "ফ্লাইট",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t11",
+   "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "চমৎকার, এতে আমার সমস্যার সমাধান হলো। আপনার সাহায্যের জন্য অনেক কৃতজ্ঞ।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Great, that solves my problem. I really appreciate your help."
+  }
+ ],
+ "practice_words": []
+}

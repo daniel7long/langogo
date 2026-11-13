@@ -1,0 +1,181 @@
+{
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "包裹",
+   "ipa": "baau1 gwo2",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我想寄呢個包裹去加拿大，唔該。",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "郵票",
+   "ipa": "jau4 piu3",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "大約一個星期。連郵票一共十九歐元。",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "寄",
+   "ipa": "gei3",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我想寄呢個包裹去加拿大，唔該。",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "地址",
+   "ipa": "dei6 zi2",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "等我秤一秤重量。兩公斤。請喺度寫低地址。",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "重量",
+   "ipa": "zung6 loeng6",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "等我秤一秤重量。兩公斤。請喺度寫低地址。",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "一個星期",
+   "ipa": "jat1 go3 sing1 kei4",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "大約一個星期。連郵票一共十九歐元。",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "你好，有咩可以幫到你？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我想寄呢個包裹去加拿大，唔該。",
+   "glosses": [
+    {
+     "text": "包裹",
+     "pos": "n.",
+     "meaning": "a parcel"
+    },
+    {
+     "text": "寄",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like to send this parcel to Canada, please."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "等我秤一秤重量。兩公斤。請喺度寫低地址。",
+   "glosses": [
+    {
+     "text": "地址",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "重量",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": "Let me check the weight. It is two kilos. Please write the address here."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "寫好喇。要幾耐呀？我仲要三張明信片嘅郵票。",
+   "glosses": [
+    {
+     "text": "郵票",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": "Done. How long will it take? Also, I need three stamps for postcards."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "大約一個星期。連郵票一共十九歐元。",
+   "glosses": [
+    {
+     "text": "郵票",
+     "pos": "n.",
+     "meaning": "a stamp"
+    },
+    {
+     "text": "一個星期",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": "About a week. The total is nineteen euros, with the stamps."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "好。呢張係我嘅卡。",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. Here is my card."
+  }
+ ],
+ "practice_words": []
+}

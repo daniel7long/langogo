@@ -1,0 +1,226 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "يوم إجازة",
+   "ipa": "yawm ijāza",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "نعم. أريد أن أطلب يوم إجازة يوم الجمعة القادم.",
+     "en": "Yes. I would like to ask for a day off next Friday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "عاجل",
+   "ipa": "ʿājil",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "هل هو أمر عاجل؟",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "يحل محلك",
+   "ipa": "yaḥill maḥallak",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "أفهم. من يستطيع أن يحل محلك في ذلك اليوم؟",
+     "en": "I see. Who can cover your work that day?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "مسبقا",
+   "ipa": "musbaqan",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "زميلتي تستطيع ذلك، وسأجهز كل شيء مسبقا.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "معروف",
+   "ipa": "maʿrūf",
+   "pos": "n.",
+   "meaning": "a favor",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "ليس بعد. أردت أن أتحدث معك أولا، كمعروف.",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "تفهمك",
+   "ipa": "tafahhumak",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "بالطبع، شكرا على تفهمك.",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "مرحبا، هل عندك دقيقة؟ تبدو قلقا.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم. أريد أن أطلب يوم إجازة يوم الجمعة القادم.",
+   "glosses": [
+    {
+     "text": "يوم إجازة",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "هل هو أمر عاجل؟",
+   "glosses": [
+    {
+     "text": "عاجل",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "قليلا. يجب أن أذهب إلى حفل زفاف ابن عمي في مدينة أخرى.",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "أفهم. من يستطيع أن يحل محلك في ذلك اليوم؟",
+   "glosses": [
+    {
+     "text": "يحل محلك",
+     "pos": "v.",
+     "meaning": "to replace"
+    }
+   ],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "زميلتي تستطيع ذلك، وسأجهز كل شيء مسبقا.",
+   "glosses": [
+    {
+     "text": "مسبقا",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "هذا يساعد. هل سألتها بالفعل؟",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ليس بعد. أردت أن أتحدث معك أولا، كمعروف.",
+   "glosses": [
+    {
+     "text": "معروف",
+     "pos": "n.",
+     "meaning": "a favor"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "فهمت. يمكنك أن تأخذ يومك، لكن أنهِ التقرير قبل أن تغادر.",
+   "glosses": [],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بالطبع، شكرا على تفهمك.",
+   "glosses": [
+    {
+     "text": "تفهمك",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "لا شكر على واجب. استمتع بحفل الزفاف!",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "شكرا جزيلا. سأحضر لك قطعة من الكعكة.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

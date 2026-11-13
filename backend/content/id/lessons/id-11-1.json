@@ -1,0 +1,256 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "alur cerita",
+   "ipa": "/ˈalur t͡ʃəˈɾita/",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Belum. Aku membaca ulasan yang bilang alur ceritanya agak mudah ditebak.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "akting",
+   "ipa": "/ˈaktiŋ/",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Menarik. Bagaimana menurutmu akting pemeran utamanya?",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "sutradara",
+   "ipa": "/sutɾaˈdaɾa/",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Dan sutradaranya? Aku menyukai karya-karyanya sebelumnya.",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ulasan",
+   "ipa": "/uˈlasan/",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Belum. Aku membaca ulasan yang bilang alur ceritanya agak mudah ditebak.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "mudah ditebak",
+   "ipa": "/ˈmudah ditəˈbak/",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Belum. Aku membaca ulasan yang bilang alur ceritanya agak mudah ditebak.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "musik latar",
+   "ipa": "/ˈmusik ˈlataɾ/",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Di sini berhasil, terutama karena musik latarnya. Musiknya menambah banyak emosi.",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Tadi malam aku menonton film baru yang dibicarakan semua orang. Kamu sudah menontonnya?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Belum. Aku membaca ulasan yang bilang alur ceritanya agak mudah ditebak.",
+   "glosses": [
+    {
+     "text": "alur cerita",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "ulasan",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "mudah ditebak",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Jujur saja, paruh pertamanya begitu, tetapi akhirnya benar-benar mengejutkanku.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Menarik. Bagaimana menurutmu akting pemeran utamanya?",
+   "glosses": [
+    {
+     "text": "akting",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Luar biasa. Aktrisnya membuat tokohnya terasa nyata dan kompleks.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Dan sutradaranya? Aku menyukai karya-karyanya sebelumnya.",
+   "glosses": [
+    {
+     "text": "sutradara",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Dia mempertahankan gayanya yang biasa, dengan pengambilan gambar panjang dan sedikit dialog.",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Itu bisa indah, atau membosankan, tergantung ceritanya.",
+   "glosses": [],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Di sini berhasil, terutama karena musik latarnya. Musiknya menambah banyak emosi.",
+   "glosses": [
+    {
+     "text": "musik latar",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Menurutmu, apakah film itu layak ditonton di bioskop?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Pasti. Gambar dan suaranya butuh layar besar.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Kalau begitu aku akan pergi akhir pekan ini, meskipun para kritikus tidak sepakat.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Kritikus dan penonton jarang sependapat, jadi tentukan sendiri pendapatmu.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Benar. Mana yang akan kamu beri nilai lebih tinggi, film ini atau film terakhirnya?",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Film terakhirnya, tetapi hanya sedikit. Film ini kuberi empat bintang dari lima.",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Baik untuk diketahui. Mari kita bahas lagi setelah aku menontonnya.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

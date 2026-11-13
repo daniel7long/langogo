@@ -1,0 +1,242 @@
+{
+ "emoji": "📊",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "সভা",
+   "ipa": "shobha",
+   "pos": "n.",
+   "meaning": "a meeting",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "চলুন সভা শুরু করি। সবার কাছে কার্যসূচি আছে, তাই না?",
+     "en": "Let us start the meeting. Everyone has the agenda, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "কার্যসূচি",
+   "ipa": "karjoshuchi",
+   "pos": "n.",
+   "meaning": "an agenda",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "চলুন সভা শুরু করি। সবার কাছে কার্যসূচি আছে, তাই না?",
+     "en": "Let us start the meeting. Everyone has the agenda, right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "প্রকল্প",
+   "ipa": "prokolpo",
+   "pos": "n.",
+   "meaning": "a project",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "ঠিক। এখন পর্যন্ত প্রকল্প কেমন চলছে?",
+     "en": "Correct. How is the project going so far?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "প্রস্তাব",
+   "ipa": "prostab",
+   "pos": "v.",
+   "meaning": "to suggest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "এ ব্যাপারে আপনারা কী করার প্রস্তাব দেন?",
+     "en": "What do you suggest we do about it?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "একমত",
+   "ipa": "ekomot",
+   "pos": "v.",
+   "meaning": "to agree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "এটা একটা সম্ভাবনা। সবাই কি একমত?",
+     "en": "That is a possibility. Does everybody agree?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "প্রতিবেদন",
+   "ipa": "protibedon",
+   "pos": "n.",
+   "meaning": "a report",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আমি একমত, আর পরিবর্তনগুলো নিয়ে প্রতিবেদন আমি লিখতে পারি।",
+     "en": "I agree, and I can write the report about the changes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "চলুন সভা শুরু করি। সবার কাছে কার্যসূচি আছে, তাই না?",
+   "glosses": [
+    {
+     "text": "সভা",
+     "pos": "n.",
+     "meaning": "a meeting"
+    },
+    {
+     "text": "কার্যসূচি",
+     "pos": "n.",
+     "meaning": "an agenda"
+    }
+   ],
+   "id": "t1",
+   "en": "Let us start the meeting. Everyone has the agenda, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, আমার কাছে আছে। প্রথম বিষয় নতুন প্রকল্প।",
+   "glosses": [
+    {
+     "text": "প্রকল্প",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I have it. The first point is the new project."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "ঠিক। এখন পর্যন্ত প্রকল্প কেমন চলছে?",
+   "glosses": [
+    {
+     "text": "প্রকল্প",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t3",
+   "en": "Correct. How is the project going so far?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ভালোই চলছে, কিন্তু আমরা সময়সূচির দুই দিন পিছিয়ে আছি।",
+   "glosses": [],
+   "id": "t4",
+   "en": "It is going well, but we are two days behind schedule."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "এ ব্যাপারে আপনারা কী করার প্রস্তাব দেন?",
+   "glosses": [
+    {
+     "text": "প্রস্তাব",
+     "pos": "v.",
+     "meaning": "to suggest"
+    }
+   ],
+   "id": "t5",
+   "en": "What do you suggest we do about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি প্রস্তাব করি এই সপ্তাহে দলে আরও একজনকে যোগ করা হোক।",
+   "glosses": [
+    {
+     "text": "প্রস্তাব",
+     "pos": "v.",
+     "meaning": "to suggest"
+    }
+   ],
+   "id": "t6",
+   "en": "I suggest that we add one person to the team this week."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "এটা একটা সম্ভাবনা। সবাই কি একমত?",
+   "glosses": [
+    {
+     "text": "একমত",
+     "pos": "v.",
+     "meaning": "to agree"
+    }
+   ],
+   "id": "t7",
+   "en": "That is a possibility. Does everybody agree?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি একমত, আর পরিবর্তনগুলো নিয়ে প্রতিবেদন আমি লিখতে পারি।",
+   "glosses": [
+    {
+     "text": "একমত",
+     "pos": "v.",
+     "meaning": "to agree"
+    },
+    {
+     "text": "প্রতিবেদন",
+     "pos": "n.",
+     "meaning": "a report"
+    }
+   ],
+   "id": "t8",
+   "en": "I agree, and I can write the report about the changes."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "ধন্যবাদ। দয়া করে শুক্রবারের মধ্যে আমাকে পাঠিয়ে দিন।",
+   "glosses": [],
+   "id": "t9",
+   "en": "Thank you. Please send it to me by Friday."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "কোনো সমস্যা নেই। আমি বৃহস্পতিবার বিকেলে পাঠিয়ে দেব।",
+   "glosses": [],
+   "id": "t10",
+   "en": "No problem. I will send it on Thursday afternoon."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "চমৎকার। শেষ করার আগে আর কিছু আছে?",
+   "glosses": [],
+   "id": "t11",
+   "en": "Perfect. Is there anything else before we finish?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "শুধু একটা কথা: আমরা কি আগামী সোমবার আবার বসতে পারি?",
+   "glosses": [],
+   "id": "t12",
+   "en": "Just one thing: could we meet again next Monday?"
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,234 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "飲食",
+   "ipa": "jam2 sik6",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "均衡嘅飲食係最好嘅開始。你食唔食好多蔬菜？",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "蔬菜",
+   "ipa": "so1 coi3",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "試下每餐至少食兩份蔬菜。",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "糖",
+   "ipa": "tong4",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "你應該避免食太多糖，不過唔使完全戒。",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "避免",
+   "ipa": "bei6 min5",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "你應該避免食太多糖，不過唔使完全戒。",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "份",
+   "ipa": "fan6",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "試下每餐至少食兩份蔬菜。",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "均衡",
+   "ipa": "gwan1 hang4",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "均衡嘅飲食係最好嘅開始。你食唔食好多蔬菜？",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "我想食得健康啲，但係唔知從邊度開始。",
+   "glosses": [],
+   "id": "t1",
+   "en": "I want to eat better, but I do not know where to start."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "均衡嘅飲食係最好嘅開始。你食唔食好多蔬菜？",
+   "glosses": [
+    {
+     "text": "飲食",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "蔬菜",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "均衡",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "唔係好多。我主要食意粉同快餐。",
+   "glosses": [],
+   "id": "t3",
+   "en": "Not really. I mostly eat pasta and fast food."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "試下每餐至少食兩份蔬菜。",
+   "glosses": [
+    {
+     "text": "蔬菜",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "份",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": "Try to have at least two portions of vegetables with every meal."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "聽落好難。咁糖呢？我好鍾意蛋糕同汽水。",
+   "glosses": [
+    {
+     "text": "糖",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "你應該避免食太多糖，不過唔使完全戒。",
+   "glosses": [
+    {
+     "text": "糖",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "避免",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": "You should avoid too much sugar, but you do not have to stop completely."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "我可以飲啲咩代替汽水？",
+   "glosses": [],
+   "id": "t7",
+   "en": "What can I drink instead of soft drinks?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "水、茶，或者加一片檸檬嘅水。",
+   "glosses": [],
+   "id": "t8",
+   "en": "Water, tea, or water with a slice of lemon."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "咁你朝早食咩？",
+   "glosses": [],
+   "id": "t9",
+   "en": "And what do you eat for breakfast?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "通常係生果乳酪，或者雞蛋同麵包。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Usually yogurt with fruit, or eggs with bread."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "好簡單。或者我可以多啲喺屋企煮飯。",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is simple. Maybe I can cook more at home."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "係呀！喺屋企煮飯平啲，健康啲。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes! Cooking at home is cheaper and healthier."
+  }
+ ],
+ "practice_words": []
+}

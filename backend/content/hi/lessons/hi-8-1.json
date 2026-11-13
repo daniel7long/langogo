@@ -1,0 +1,232 @@
+{
+ "emoji": "🗺️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "यात्रा",
+   "ipa": "yaatra",
+   "pos": "n.",
+   "meaning": "a trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "कितना अच्छा। यात्रा का सबसे सुंदर पल कौन-सा था?",
+     "en": "That is lovely. What was the best moment of the trip?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "खो गया",
+   "ipa": "kho gaya",
+   "pos": "phr.",
+   "meaning": "to get lost",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "मैंने राजधानी से शुरुआत की, लेकिन पहले ही दिन पुरानी गलियों में खो गया।",
+     "en": "I started in the capital, but on the first day I got lost in the old streets."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "अविस्मरणीय",
+   "ipa": "avismaraneeya",
+   "pos": "adj.",
+   "meaning": "unforgettable",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "हाँ, मैंने विदेश में दस दिन बिताए। यह अविस्मरणीय थी।",
+     "en": "Yes, I spent ten days abroad. It was unforgettable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "स्थानीय व्यक्ति",
+   "ipa": "sthaaneey vyakti",
+   "pos": "n.",
+   "meaning": "a local",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "एक मिलनसार स्थानीय व्यक्ति ने रास्ता दिखाया और मुझे कॉफ़ी के लिए भी बुलाया।",
+     "en": "A friendly local showed me the way and even invited me for coffee."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "नज़ारा",
+   "ipa": "nazaara",
+   "pos": "n.",
+   "meaning": "the view",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "पहाड़ी से सूर्यास्त। नज़ारा अविश्वसनीय था।",
+     "en": "Watching the sunset from a hill. The view was incredible."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "सिफ़ारिश",
+   "ipa": "sifaarish",
+   "pos": "v.",
+   "meaning": "to recommend",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "क्या तुम इस देश की सिफ़ारिश दूसरों से भी करोगे?",
+     "en": "Would you recommend the country to other people?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "तुम अभी-अभी यात्रा से लौटे हो न? मुझे सब कुछ बताओ!",
+   "glosses": [
+    {
+     "text": "यात्रा",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t1",
+   "en": "You just came back from a trip, right? Tell me everything!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "हाँ, मैंने विदेश में दस दिन बिताए। यह अविस्मरणीय थी।",
+   "glosses": [
+    {
+     "text": "अविस्मरणीय",
+     "pos": "adj.",
+     "meaning": "unforgettable"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I spent ten days abroad. It was unforgettable."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "वाह! तुम सबसे पहले कहाँ गए?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow! Where did you go first?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैंने राजधानी से शुरुआत की, लेकिन पहले ही दिन पुरानी गलियों में खो गया।",
+   "glosses": [
+    {
+     "text": "खो गया",
+     "pos": "phr.",
+     "meaning": "to get lost"
+    }
+   ],
+   "id": "t4",
+   "en": "I started in the capital, but on the first day I got lost in the old streets."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "अरे! तुम्हें रास्ता कैसे मिला?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Oh no! How did you find your way?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "एक मिलनसार स्थानीय व्यक्ति ने रास्ता दिखाया और मुझे कॉफ़ी के लिए भी बुलाया।",
+   "glosses": [
+    {
+     "text": "स्थानीय व्यक्ति",
+     "pos": "n.",
+     "meaning": "a local"
+    }
+   ],
+   "id": "t6",
+   "en": "A friendly local showed me the way and even invited me for coffee."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "कितना अच्छा। यात्रा का सबसे सुंदर पल कौन-सा था?",
+   "glosses": [
+    {
+     "text": "यात्रा",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t7",
+   "en": "That is lovely. What was the best moment of the trip?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "पहाड़ी से सूर्यास्त। नज़ारा अविश्वसनीय था।",
+   "glosses": [
+    {
+     "text": "नज़ारा",
+     "pos": "n.",
+     "meaning": "the view"
+    }
+   ],
+   "id": "t8",
+   "en": "Watching the sunset from a hill. The view was incredible."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "क्या तुम इस देश की सिफ़ारिश दूसरों से भी करोगे?",
+   "glosses": [
+    {
+     "text": "सिफ़ारिश",
+     "pos": "v.",
+     "meaning": "to recommend"
+    }
+   ],
+   "id": "t9",
+   "en": "Would you recommend the country to other people?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बिल्कुल। अगर हो सके तो मैं कल ही वापस चला जाऊँ।",
+   "glosses": [],
+   "id": "t10",
+   "en": "Absolutely. I would go back tomorrow if I could."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "तो मुझे तस्वीरें दिखाओ, प्लीज़!",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then show me your photos, please!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ज़रूर। मैंने पाँच सौ से ज़्यादा तस्वीरें खींची हैं।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Of course. I took more than five hundred pictures."
+  }
+ ],
+ "practice_words": []
+}

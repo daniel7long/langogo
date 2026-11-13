@@ -1,0 +1,192 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "火車站",
+   "ipa": "fo2 ce1 zaam6",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "喺轉角向左轉。火車站喺銀行隔離。",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "向左轉",
+   "ipa": "hoeng3 zo2 zyun3",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "之後呢？我要向左轉定向右轉？",
+     "en": "And then? Do I turn left or right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "一直行",
+   "ipa": "jat1 zik6 haang4",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "唔遠。一直行，過兩條街就到。",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "遠",
+   "ipa": "jyun5",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "唔遠。一直行，過兩條街就到。",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "轉角",
+   "ipa": "zyun3 gok3",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "喺轉角向左轉。火車站喺銀行隔離。",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "地圖",
+   "ipa": "dei6 tou4",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "多謝你！我部手機有地圖，所以好易搵。",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "唔好意思，使唔使幫手？你好似蕩失路。",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "係呀，唔該。火車站喺邊度？遠唔遠㗎？",
+   "glosses": [
+    {
+     "text": "火車站",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "遠",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "唔遠。一直行，過兩條街就到。",
+   "glosses": [
+    {
+     "text": "一直行",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "遠",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "之後呢？我要向左轉定向右轉？",
+   "glosses": [
+    {
+     "text": "向左轉",
+     "pos": "phr.",
+     "meaning": "turn left"
+    }
+   ],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "喺轉角向左轉。火車站喺銀行隔離。",
+   "glosses": [
+    {
+     "text": "火車站",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "向左轉",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "轉角",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "多謝你！我部手機有地圖，所以好易搵。",
+   "glosses": [
+    {
+     "text": "地圖",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

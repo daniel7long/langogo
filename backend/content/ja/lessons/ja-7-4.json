@@ -1,0 +1,225 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "休み",
+   "ipa": "yasumi",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "うん。来週の金曜日にお休みをもらいたいんだ。",
+     "en": "Yes. I would like to ask for a day off next Friday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "急ぎ",
+   "ipa": "isogi",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "何か急ぎの用事？",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "代わって",
+   "ipa": "kawatte",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "同僚が代わってくれるし、僕も前もってすべて準備しておくよ。",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "前もって",
+   "ipa": "maemotte",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "同僚が代わってくれるし、僕も前もってすべて準備しておくよ。",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "お願い",
+   "ipa": "onegai",
+   "pos": "n.",
+   "meaning": "a favor",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "まだなんだ。まず君に相談したくて、お願いとして話しているんだ。",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "理解",
+   "ipa": "rikai",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "もちろん。理解してくれてありがとう。",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "やあ、ちょっといい？心配そうな顔をしているけど。",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "うん。来週の金曜日にお休みをもらいたいんだ。",
+   "glosses": [
+    {
+     "text": "休み",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "何か急ぎの用事？",
+   "glosses": [
+    {
+     "text": "急ぎ",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "少しね。いとこの結婚式で別の街に行かなきゃいけなくて。",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "わかった。その日、誰が君の仕事を引き継げる？",
+   "glosses": [],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "同僚が代わってくれるし、僕も前もってすべて準備しておくよ。",
+   "glosses": [
+    {
+     "text": "代わって",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "前もって",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "それなら助かるね。もう彼女には聞いたの？",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "まだなんだ。まず君に相談したくて、お願いとして話しているんだ。",
+   "glosses": [
+    {
+     "text": "お願い",
+     "pos": "n.",
+     "meaning": "a favor"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "なるほど。休んでいいけど、行く前に報告書を仕上げてね。",
+   "glosses": [],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "もちろん。理解してくれてありがとう。",
+   "glosses": [
+    {
+     "text": "理解",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "どういたしまして。結婚式、楽しんできてね！",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ありがとう。ケーキを一切れ持って帰るよ。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,257 @@
+{
+ "emoji": "🏡",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "die Hypothek",
+   "ipa": "/diː hypoˈteːk/",
+   "pos": "n.",
+   "meaning": "a mortgage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Das Problem ist die Hypothek. Die Zinsen sind gerade so hoch.",
+     "en": "The problem is the mortgage. The interest rates are so high right now."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Investition",
+   "ipa": "/ɪnvɛstiˈtsi̯oːn/",
+   "pos": "n.",
+   "meaning": "an investment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Dann könnte Kaufen eine gute Investition sein, wenn du es dir leisten kannst.",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "Vermieter",
+   "ipa": "/fɛɐ̯ˈmiːtɐ/",
+   "pos": "n.",
+   "meaning": "a landlord",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Guter Punkt. Bei einer Mietwohnung zahlt der Vermieter die Reparaturen.",
+     "en": "That is a good point. With rent, the landlord pays for repairs."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "flexibler",
+   "ipa": "/ˈflɛksɪblɐ/",
+   "pos": "adj.",
+   "meaning": "flexible",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Genau, und Mieten ist auch flexibler, wenn du den Job wechselst.",
+     "en": "Exactly, and renting is also more flexible if you change jobs."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "leisten",
+   "ipa": "/ˈlaɪ̯stn̩/",
+   "pos": "v.",
+   "meaning": "to afford",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Dann könnte Kaufen eine gute Investition sein, wenn du es dir leisten kannst.",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "Immobilie",
+   "ipa": "/ɪmoˈbiːli̯ə/",
+   "pos": "n.",
+   "meaning": "property",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ja, sie wären etwas höher als meine Miete, aber die Immobilie wäre dann mein.",
+     "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Ich habe es satt, Miete zu zahlen. Meinst du, ich sollte lieber eine Wohnung kaufen?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I am tired of paying rent. Do you think I should buy an apartment instead?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Das hängt von deinen Plänen ab. Wie lange bleibst du in dieser Stadt?",
+   "glosses": [],
+   "id": "t2",
+   "en": "It depends on your plans. How long will you stay in this city?"
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Mindestens zehn Jahre, denke ich. Vielleicht länger.",
+   "glosses": [],
+   "id": "t3",
+   "en": "At least ten years, I think. Maybe more."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Dann könnte Kaufen eine gute Investition sein, wenn du es dir leisten kannst.",
+   "glosses": [
+    {
+     "text": "Investition",
+     "pos": "n.",
+     "meaning": "an investment"
+    },
+    {
+     "text": "leisten",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t4",
+   "en": "Then buying could be a good investment, if you can afford it."
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Das Problem ist die Hypothek. Die Zinsen sind gerade so hoch.",
+   "glosses": [
+    {
+     "text": "die Hypothek",
+     "pos": "n.",
+     "meaning": "a mortgage"
+    }
+   ],
+   "id": "t5",
+   "en": "The problem is the mortgage. The interest rates are so high right now."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Stimmt. Hast du ausgerechnet, wie hoch die monatlichen Raten wären?",
+   "glosses": [],
+   "id": "t6",
+   "en": "True. Have you calculated what the monthly payments would be?"
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Ja, sie wären etwas höher als meine Miete, aber die Immobilie wäre dann mein.",
+   "glosses": [
+    {
+     "text": "Immobilie",
+     "pos": "n.",
+     "meaning": "property"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Und du musst Reparaturen, Steuern und Versicherung zu den Kosten hinzurechnen.",
+   "glosses": [],
+   "id": "t8",
+   "en": "And you must add repairs, taxes and insurance to the cost."
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Guter Punkt. Bei einer Mietwohnung zahlt der Vermieter die Reparaturen.",
+   "glosses": [
+    {
+     "text": "Vermieter",
+     "pos": "n.",
+     "meaning": "a landlord"
+    }
+   ],
+   "id": "t9",
+   "en": "That is a good point. With rent, the landlord pays for repairs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Genau, und Mieten ist auch flexibler, wenn du den Job wechselst.",
+   "glosses": [
+    {
+     "text": "flexibler",
+     "pos": "adj.",
+     "meaning": "flexible"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly, and renting is also more flexible if you change jobs."
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Aber ich habe das Gefühl, jeden Monat Geld zum Fenster hinauszuwerfen.",
+   "glosses": [],
+   "id": "t11",
+   "en": "But I feel I am throwing money away every month."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nicht wirklich. Du zahlst für einen Ort zum Wohnen und für die Freiheit, umzuziehen.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not really. You are paying for a place to live and for the freedom to move."
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "So habe ich das noch nie gesehen.",
+   "glosses": [],
+   "id": "t13",
+   "en": "I had never thought about it like that."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Vergleiche beide Möglichkeiten auf dem Papier über fünfzehn Jahre und frag einen Finanzberater.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Compare both options on paper over fifteen years, and ask a financial adviser."
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Gute Idee. Ich vereinbare einen Termin, bevor ich mich entscheide.",
+   "glosses": [],
+   "id": "t15",
+   "en": "Good idea. I will make an appointment before I decide."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Klug. So eine große Entscheidung sollte man nie überstürzen.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wise. Such a big decision should never be taken in a hurry."
+  }
+ ],
+ "practice_words": []
+}

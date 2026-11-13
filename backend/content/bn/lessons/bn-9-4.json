@@ -1,0 +1,240 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "খাদ্যাভ্যাস",
+   "ipa": "khaddyabhyash",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "সুষম খাদ্যাভ্যাস সবচেয়ে ভালো শুরু। তুমি কি অনেক সবজি খাও?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "সবজি",
+   "ipa": "shobji",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "প্রতিটি বেলায় অন্তত দুই ভাগ সবজি খাওয়ার চেষ্টা করো।",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "চিনি",
+   "ipa": "chini",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "তোমার অতিরিক্ত চিনি এড়িয়ে চলা উচিত, কিন্তু পুরোপুরি ছাড়তে হবে না।",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "এড়িয়ে",
+   "ipa": "eriye",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "তোমার অতিরিক্ত চিনি এড়িয়ে চলা উচিত, কিন্তু পুরোপুরি ছাড়তে হবে না।",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "ভাগ",
+   "ipa": "bhag",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "খুব একটা না। আমি বেশিরভাগ পাস্তা আর ফাস্ট ফুড খাই।",
+     "en": "Not really. I mostly eat pasta and fast food."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "সুষম",
+   "ipa": "shushom",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "সুষম খাদ্যাভ্যাস সবচেয়ে ভালো শুরু। তুমি কি অনেক সবজি খাও?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "আমি আরও ভালো খেতে চাই, কিন্তু কোথা থেকে শুরু করব জানি না।",
+   "glosses": [],
+   "id": "t1",
+   "en": "I want to eat better, but I do not know where to start."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সুষম খাদ্যাভ্যাস সবচেয়ে ভালো শুরু। তুমি কি অনেক সবজি খাও?",
+   "glosses": [
+    {
+     "text": "খাদ্যাভ্যাস",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "সবজি",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "সুষম",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "খুব একটা না। আমি বেশিরভাগ পাস্তা আর ফাস্ট ফুড খাই।",
+   "glosses": [
+    {
+     "text": "ভাগ",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t3",
+   "en": "Not really. I mostly eat pasta and fast food."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "প্রতিটি বেলায় অন্তত দুই ভাগ সবজি খাওয়ার চেষ্টা করো।",
+   "glosses": [
+    {
+     "text": "সবজি",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "ভাগ",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": "Try to have at least two portions of vegetables with every meal."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "এটা কঠিন শোনাচ্ছে। চিনির কী হবে? আমি কেক আর কোমল পানীয় খুব ভালোবাসি।",
+   "glosses": [
+    {
+     "text": "চিনি",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "তোমার অতিরিক্ত চিনি এড়িয়ে চলা উচিত, কিন্তু পুরোপুরি ছাড়তে হবে না।",
+   "glosses": [
+    {
+     "text": "চিনি",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "এড়িয়ে",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": "You should avoid too much sugar, but you do not have to stop completely."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "কোমল পানীয়ের বদলে আমি কী পান করতে পারি?",
+   "glosses": [],
+   "id": "t7",
+   "en": "What can I drink instead of soft drinks?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "পানি, চা, বা এক টুকরো লেবুসহ পানি।",
+   "glosses": [],
+   "id": "t8",
+   "en": "Water, tea, or water with a slice of lemon."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "আর সকালে তুমি কী খাও?",
+   "glosses": [],
+   "id": "t9",
+   "en": "And what do you eat for breakfast?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সাধারণত ফল দিয়ে দই, বা পাউরুটির সঙ্গে ডিম।",
+   "glosses": [],
+   "id": "t10",
+   "en": "Usually yogurt with fruit, or eggs with bread."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "এটা সহজ। হয়তো আমি বাড়িতে আরও বেশি রান্না করতে পারি।",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is simple. Maybe I can cook more at home."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ! বাড়িতে রান্না করা সস্তাও আর স্বাস্থ্যকরও।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes! Cooking at home is cheaper and healthier."
+  }
+ ],
+ "practice_words": []
+}

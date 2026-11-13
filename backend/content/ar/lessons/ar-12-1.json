@@ -1,0 +1,258 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "الانتقال",
+   "ipa": "al-intiqāl",
+   "pos": "v.",
+   "meaning": "to relocate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "سمعت أنك تفكر في الانتقال إلى بلد آخر. هل هذا صحيح؟",
+     "en": "I heard you are thinking about relocating to another country. Is that true?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "تأشيرة",
+   "ipa": "taʾšīra",
+   "pos": "n.",
+   "meaning": "a visa",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "جدا. سأحتاج إلى تأشيرة، ويجب أن أجد شقة عن بعد.",
+     "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "صدمة ثقافية",
+   "ipa": "ṣadma ṯaqāfiyya",
+   "pos": "phr.",
+   "meaning": "culture shock",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "يقول كثير من المغتربين إن الأشهر الأولى هي الأصعب بسبب صدمة ثقافية.",
+     "en": "Many expats say the first months are the hardest because of culture shock."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "أتكيف",
+   "ipa": "atakayyaf",
+   "pos": "v.",
+   "meaning": "to adapt",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "نعم، بدأت بالفعل، وسيساعدني ذلك على أن أتكيف أسرع.",
+     "en": "Yes, I have already started, and it will help me adapt faster."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "الحنين",
+   "ipa": "al-ḥanīn",
+   "pos": "adj.",
+   "meaning": "homesick",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "ترك عائلتي وأصدقائي. أظن أنني سأشعر بالحنين في البداية.",
+     "en": "Leaving my family and friends. I think I will feel homesick at first."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "فرصة",
+   "ipa": "furṣa",
+   "pos": "n.",
+   "meaning": "an opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "نعم، تلقيت عرض عمل في الخارج، وهي فرصة رائعة.",
+     "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "سمعت أنك تفكر في الانتقال إلى بلد آخر. هل هذا صحيح؟",
+   "glosses": [
+    {
+     "text": "الانتقال",
+     "pos": "v.",
+     "meaning": "to relocate"
+    }
+   ],
+   "id": "t1",
+   "en": "I heard you are thinking about relocating to another country. Is that true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، تلقيت عرض عمل في الخارج، وهي فرصة رائعة.",
+   "glosses": [
+    {
+     "text": "فرصة",
+     "pos": "n.",
+     "meaning": "an opportunity"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "مبروك! لكنه قرار كبير. هل أنت متوتر؟",
+   "glosses": [],
+   "id": "t3",
+   "en": "Congratulations! But that is a big decision. Are you nervous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "جدا. سأحتاج إلى تأشيرة، ويجب أن أجد شقة عن بعد.",
+   "glosses": [
+    {
+     "text": "تأشيرة",
+     "pos": "n.",
+     "meaning": "a visa"
+    }
+   ],
+   "id": "t4",
+   "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "ما الذي يقلقك أكثر؟",
+   "glosses": [],
+   "id": "t5",
+   "en": "What worries you the most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ترك عائلتي وأصدقائي. أظن أنني سأشعر بالحنين في البداية.",
+   "glosses": [
+    {
+     "text": "الحنين",
+     "pos": "adj.",
+     "meaning": "homesick"
+    }
+   ],
+   "id": "t6",
+   "en": "Leaving my family and friends. I think I will feel homesick at first."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "يقول كثير من المغتربين إن الأشهر الأولى هي الأصعب بسبب صدمة ثقافية.",
+   "glosses": [
+    {
+     "text": "صدمة ثقافية",
+     "pos": "phr.",
+     "meaning": "culture shock"
+    }
+   ],
+   "id": "t7",
+   "en": "Many expats say the first months are the hardest because of culture shock."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "سمعت ذلك، لذلك أحاول التعرف على العادات المحلية قبل أن أسافر.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I have heard that, so I am trying to learn about local customs before I go."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "هذا حكيم. هل ستتعلم اللغة أيضا؟",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is wise. Will you learn the language as well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، بدأت بالفعل، وسيساعدني ذلك على أن أتكيف أسرع.",
+   "glosses": [
+    {
+     "text": "أتكيف",
+     "pos": "v.",
+     "meaning": "to adapt"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, I have already started, and it will help me adapt faster."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "وماذا لو لم يعجبك المكان هناك؟",
+   "glosses": [],
+   "id": "t11",
+   "en": "What if you do not like it there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "حينها يمكنني العودة بعد سنة. لا أراه قرارا نهائيا.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I can come back after a year. I do not see it as a final decision."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "هذا موقف صحي. العقود يمكن فسخها، لكن التجربة تبقى.",
+   "glosses": [],
+   "id": "t13",
+   "en": "That is a healthy attitude. Contracts can be broken, but experience stays."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بالضبط. حتى لو كان صعبا، سأتعلم الكثير عن نفسي.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Exactly. Even if it is difficult, I will learn a lot about myself."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "أرجو أن تبقى على اتصال وتخبرنا بكل شيء.",
+   "glosses": [],
+   "id": "t15",
+   "en": "Please keep in touch and tell us everything."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أعدك. يمكنكم جميعا زيارتي عندما أستقر.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I promise. You can all visit me once I am settled in."
+  }
+ ],
+ "practice_words": []
+}

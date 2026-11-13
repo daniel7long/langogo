@@ -1,0 +1,281 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "headline",
+   "ipa": "/ˈhɛdˌlaɪn/",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Did you see this morning's headline about the new tax law?",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "journalists",
+   "ipa": "/ˈdʒɝnəlɪsts/",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I compare several, because even good journalists can be biased.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "sources",
+   "ipa": "/ˈsɔɹsɪz/",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Which news sources do you trust?",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "biased",
+   "ipa": "/ˈbaɪəst/",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I compare several, because even good journalists can be biased.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "verified",
+   "ipa": "/ˈvɛɹəˌfaɪd/",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I look for evidence, named experts, and whether the facts can be verified.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "opinion",
+   "ipa": "/əˈpɪnjən/",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I did, but I want to read more before forming an opinion.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Did you see this morning's headline about the new tax law?",
+   "glosses": [
+    {
+     "text": "headline",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I did, but I want to read more before forming an opinion.",
+   "glosses": [
+    {
+     "text": "opinion",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Smart. I only read the title and I was already angry.",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That is exactly how headlines work. They are designed to attract attention.",
+   "glosses": [
+    {
+     "text": "headline",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Which news sources do you trust?",
+   "glosses": [
+    {
+     "text": "sources",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I compare several, because even good journalists can be biased.",
+   "glosses": [
+    {
+     "text": "journalists",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "biased",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "How do you decide which one is more accurate?",
+   "glosses": [],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I look for evidence, named experts, and whether the facts can be verified.",
+   "glosses": [
+    {
+     "text": "verified",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "That takes a lot of effort for something I do in five minutes.",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "True, but being well informed is part of being a responsible citizen.",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "What about opinion articles? Are they not just personal views?",
+   "glosses": [
+    {
+     "text": "opinion",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "They are, and that is fine, as long as they are clearly labeled as opinions.",
+   "glosses": [
+    {
+     "text": "opinion",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Many people do not notice the difference, though.",
+   "glosses": [],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That is why media education in schools matters so much.",
+   "glosses": [],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "I agree. I will try to read at least two sources from now on.",
+   "glosses": [
+    {
+     "text": "sources",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Good. And share articles only after you have checked them yourself.",
+   "glosses": [],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

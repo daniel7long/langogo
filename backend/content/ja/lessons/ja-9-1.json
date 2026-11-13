@@ -1,0 +1,237 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "症状",
+   "ipa": "shoojoo",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "ほかの症状はありますか。たとえば胸の痛みなど。",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "熱",
+   "ipa": "netsu",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "三日前から熱があって、ひどい咳が出ます。",
+     "en": "I have had a fever and a bad cough for three days."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "痛み",
+   "ipa": "itami",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "ほかの症状はありますか。たとえば胸の痛みなど。",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "休んで",
+   "ipa": "yasunde",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "いいえ、強い風邪です。少なくとも五日間は休んでください。",
+     "en": "No, it is just a strong flu. You need to rest for at least five days."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "回復",
+   "ipa": "kaifuku",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "完全に回復するまでどのくらいかかりますか。",
+     "en": "How long will it take to recover completely?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "再診",
+   "ipa": "saishin",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "一週間くらいです。悪くなったら再診に来てください。",
+     "en": "About a week. Come back for another appointment if it gets worse."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "こんにちは、おかけください。今日はどうされましたか。",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello, please sit down. What brings you here today?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "三日前から熱があって、ひどい咳が出ます。",
+   "glosses": [
+    {
+     "text": "熱",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a fever and a bad cough for three days."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "ほかの症状はありますか。たとえば胸の痛みなど。",
+   "glosses": [
+    {
+     "text": "症状",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "痛み",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": "Do you have any other symptoms, like pain in your chest?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "痛みはありませんが、とてもだるくて、よく眠れません。",
+   "glosses": [
+    {
+     "text": "痛み",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t4",
+   "en": "No pain, but I feel very weak and I cannot sleep well."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "肺の音を聞いてみましょう。深く息を吸ってください。",
+   "glosses": [],
+   "id": "t5",
+   "en": "Let me listen to your lungs. Please breathe deeply."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "先生、重い病気でしょうか。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Is it something serious, doctor?"
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "いいえ、強い風邪です。少なくとも五日間は休んでください。",
+   "glosses": [
+    {
+     "text": "休んで",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": "No, it is just a strong flu. You need to rest for at least five days."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "薬は飲んだほうがいいですか。",
+   "glosses": [],
+   "id": "t8",
+   "en": "Should I take any medicine?"
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "熱を下げる処方箋を出します。水もたくさん飲んでください。",
+   "glosses": [
+    {
+     "text": "熱",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t9",
+   "en": "I will give you a prescription for the fever. Drink a lot of water, too."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "完全に回復するまでどのくらいかかりますか。",
+   "glosses": [
+    {
+     "text": "回復",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": "How long will it take to recover completely?"
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "一週間くらいです。悪くなったら再診に来てください。",
+   "glosses": [
+    {
+     "text": "再診",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": "About a week. Come back for another appointment if it gets worse."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ありがとうございます、先生。指示に従います。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you, doctor. I will follow your advice."
+  }
+ ],
+ "practice_words": []
+}

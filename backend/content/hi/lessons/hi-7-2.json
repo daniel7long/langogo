@@ -1,0 +1,231 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "डिग्री",
+   "ipa": "digri",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "मैं डिज़ाइन में मास्टर्स डिग्री कर रहा हूँ, और मुझे बहुत पसंद है।",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "विषय",
+   "ipa": "vishay",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "सुनने में कठिन लगता है। तुम्हारा पसंदीदा विषय कौन-सा है?",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "परीक्षाएँ",
+   "ipa": "pareekshaen",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "मेरा पसंदीदा विषय शोध-विधियाँ है, हालाँकि परीक्षाएँ मुश्किल हैं।",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "स्नातक",
+   "ipa": "snatak",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "तुम कब स्नातक होगे?",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "समय-सीमा",
+   "ipa": "samay-seema",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "अगले साल, अगर मैं हर समय-सीमा पूरी कर लूँ और अपने कोर्स पास कर लूँ।",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "छात्रवृत्ति",
+   "ipa": "chhatravritti",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "पूरे समय पढ़ाई। मुझे छात्रवृत्ति मिली है, इसलिए मैं पढ़ाई पर ध्यान दे सकता हूँ।",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "तो, तुम इस समय क्या पढ़ रहे हो?",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं डिज़ाइन में मास्टर्स डिग्री कर रहा हूँ, और मुझे बहुत पसंद है।",
+   "glosses": [
+    {
+     "text": "डिग्री",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "सुनने में कठिन लगता है। तुम्हारा पसंदीदा विषय कौन-सा है?",
+   "glosses": [
+    {
+     "text": "विषय",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मेरा पसंदीदा विषय शोध-विधियाँ है, हालाँकि परीक्षाएँ मुश्किल हैं।",
+   "glosses": [
+    {
+     "text": "विषय",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "परीक्षाएँ",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "तुम कब स्नातक होगे?",
+   "glosses": [
+    {
+     "text": "स्नातक",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अगले साल, अगर मैं हर समय-सीमा पूरी कर लूँ और अपने कोर्स पास कर लूँ।",
+   "glosses": [
+    {
+     "text": "समय-सीमा",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "क्या तुम काम करते हो या पूरे समय पढ़ाई करते हो?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "पूरे समय पढ़ाई। मुझे छात्रवृत्ति मिली है, इसलिए मैं पढ़ाई पर ध्यान दे सकता हूँ।",
+   "glosses": [
+    {
+     "text": "छात्रवृत्ति",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "क्या तुम्हें पता है कि उसके बाद क्या करना चाहते हो?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ठीक-ठीक नहीं, लेकिन मैं किसी टेक्नोलॉजी कंपनी में काम करना चाहूँगा।",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "यह अच्छी योजना है। मुझे यकीन है तुम्हें कुछ मिल जाएगा।",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "धन्यवाद! पढ़ाई कठिन है, लेकिन मैं बहुत कुछ सीख रहा हूँ।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

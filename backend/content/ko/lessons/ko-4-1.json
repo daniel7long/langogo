@@ -1,0 +1,187 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "역",
+   "ipa": "yeok",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네, 부탁드려요. 역이 어디예요? 멀어요?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "왼쪽으로",
+   "ipa": "oenjjogeuro",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "그다음에는요? 왼쪽으로 가요, 오른쪽으로 가요?",
+     "en": "And then? Do I turn left or right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "쭉",
+   "ipa": "jjuk",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "아니요, 멀지 않아요. 쭉 가서 두 번째 길까지 가세요.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "멀어요",
+   "ipa": "meoreoyo",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네, 부탁드려요. 역이 어디예요? 멀어요?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "모퉁이",
+   "ipa": "motungi",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "모퉁이에서 왼쪽으로 도세요. 역은 은행 옆에 있어요.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "지도",
+   "ipa": "jido",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "정말 감사합니다! 휴대폰에 지도가 있어서 쉽게 찾을 수 있어요.",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "실례합니다, 도와 드릴까요? 길을 잃으신 것 같아요.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "네, 부탁드려요. 역이 어디예요? 멀어요?",
+   "glosses": [
+    {
+     "text": "역",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "멀어요",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "아니요, 멀지 않아요. 쭉 가서 두 번째 길까지 가세요.",
+   "glosses": [
+    {
+     "text": "쭉",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그다음에는요? 왼쪽으로 가요, 오른쪽으로 가요?",
+   "glosses": [
+    {
+     "text": "왼쪽으로",
+     "pos": "phr.",
+     "meaning": "turn left"
+    }
+   ],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "모퉁이에서 왼쪽으로 도세요. 역은 은행 옆에 있어요.",
+   "glosses": [
+    {
+     "text": "역",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "왼쪽으로",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "모퉁이",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "정말 감사합니다! 휴대폰에 지도가 있어서 쉽게 찾을 수 있어요.",
+   "glosses": [
+    {
+     "text": "지도",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

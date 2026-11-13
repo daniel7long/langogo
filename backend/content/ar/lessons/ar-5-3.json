@@ -1,0 +1,181 @@
+{
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "طرد",
+   "ipa": "ṭard",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "أريد أن أرسل هذا الطرد إلى كندا، من فضلك.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "طوابع",
+   "ipa": "ṭawābiʿ",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "حوالي أسبوع. المجموع تسعة عشر يورو مع الطوابع.",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "أرسل",
+   "ipa": "arsil",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "أريد أن أرسل هذا الطرد إلى كندا، من فضلك.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "العنوان",
+   "ipa": "al-ʿunwān",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "دعني أتأكد من الوزن. إنه كيلوان. اكتب العنوان هنا من فضلك.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "الوزن",
+   "ipa": "al-wazn",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "دعني أتأكد من الوزن. إنه كيلوان. اكتب العنوان هنا من فضلك.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "أسبوع",
+   "ipa": "usbūʿ",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "حوالي أسبوع. المجموع تسعة عشر يورو مع الطوابع.",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "مرحبا. كيف أستطيع مساعدتك؟",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أريد أن أرسل هذا الطرد إلى كندا، من فضلك.",
+   "glosses": [
+    {
+     "text": "طرد",
+     "pos": "n.",
+     "meaning": "a parcel"
+    },
+    {
+     "text": "أرسل",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like to send this parcel to Canada, please."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "دعني أتأكد من الوزن. إنه كيلوان. اكتب العنوان هنا من فضلك.",
+   "glosses": [
+    {
+     "text": "العنوان",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "الوزن",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": "Let me check the weight. It is two kilos. Please write the address here."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "انتهيت. كم يستغرق؟ وأحتاج أيضا إلى ثلاثة طوابع للبطاقات البريدية.",
+   "glosses": [
+    {
+     "text": "طوابع",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": "Done. How long will it take? Also, I need three stamps for postcards."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "حوالي أسبوع. المجموع تسعة عشر يورو مع الطوابع.",
+   "glosses": [
+    {
+     "text": "طوابع",
+     "pos": "n.",
+     "meaning": "a stamp"
+    },
+    {
+     "text": "أسبوع",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": "About a week. The total is nineteen euros, with the stamps."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "لا بأس. هذه بطاقتي.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. Here is my card."
+  }
+ ],
+ "practice_words": []
+}

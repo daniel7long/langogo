@@ -1,0 +1,237 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "driving license",
+   "ipa": "/ˈdɹaɪvɪŋ ˈlaɪsəns/",
+   "pos": "n.",
+   "meaning": "a driving license",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Yes, a small car for five days. Here is my driving license.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "insurance",
+   "ipa": "/ɪnˈʃʊɹəns/",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Yes, please. How much is the insurance per day?",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "deposit",
+   "ipa": "/dɪˈpɑzɪt/",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Eight dollars a day. We also need a deposit of two hundred dollars.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "GPS",
+   "ipa": "/dʒi pi ɛs/",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "That is fine. Does the car come with a GPS?",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "tank",
+   "ipa": "/tæŋk/",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Yes, it does. The tank is full now, and you should return it full.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "return",
+   "ipa": "/ɹɪˈtɝn/",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Understood. Where do I return the car at the end?",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Hello. Do you have a reservation for a car?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, a small car for five days. Here is my driving license.",
+   "glosses": [
+    {
+     "text": "driving license",
+     "pos": "n.",
+     "meaning": "a driving license"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Thank you. Would you like extra insurance? It covers any damage.",
+   "glosses": [
+    {
+     "text": "insurance",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, please. How much is the insurance per day?",
+   "glosses": [
+    {
+     "text": "insurance",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Eight dollars a day. We also need a deposit of two hundred dollars.",
+   "glosses": [
+    {
+     "text": "deposit",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That is fine. Does the car come with a GPS?",
+   "glosses": [
+    {
+     "text": "GPS",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Yes, it does. The tank is full now, and you should return it full.",
+   "glosses": [
+    {
+     "text": "tank",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "return",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Understood. Where do I return the car at the end?",
+   "glosses": [
+    {
+     "text": "return",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Here, at the same office, before six in the evening on the last day.",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "What happens if I am a little late?",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Then we charge you for an extra day, so please call us.",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Good to know. Thank you for your help.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

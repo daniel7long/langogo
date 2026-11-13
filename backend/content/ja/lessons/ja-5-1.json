@@ -1,0 +1,197 @@
+{
+ "emoji": "👕",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "サイズ",
+   "ipa": "saizu",
+   "pos": "n.",
+   "meaning": "a size",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ジャケットを探しています。Mサイズを試着してもいいですか。",
+     "en": "I am looking for a jacket. Can I try on a medium size?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "試着",
+   "ipa": "shichaku",
+   "pos": "v.",
+   "meaning": "to try on",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "もちろんです。試着室は奥にあります。",
+     "en": "Of course. The fitting room is at the back."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "試着室",
+   "ipa": "shichakushitsu",
+   "pos": "n.",
+   "meaning": "the fitting room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "もちろんです。試着室は奥にあります。",
+     "en": "Of course. The fitting room is at the back."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "大きすぎ",
+   "ipa": "ookisugi",
+   "pos": "phr.",
+   "meaning": "too big",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "少し大きすぎます。もっと小さいサイズか、もっと安いものはありますか。",
+     "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "安い",
+   "ipa": "yasui",
+   "pos": "adj.",
+   "meaning": "cheaper",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "こちらはSサイズです。今週はセール中なので、もっと安いですよ。",
+     "en": "Here is a small one. It is on sale this week, so it is cheaper."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "払い",
+   "ipa": "harai",
+   "pos": "v.",
+   "meaning": "to pay",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ぴったりです、これにします。どこで払いますか。",
+     "en": "Perfect, I will take it. Where can I pay?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "いらっしゃいませ！何かお探しですか。",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello! Are you looking for something special?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ジャケットを探しています。Mサイズを試着してもいいですか。",
+   "glosses": [
+    {
+     "text": "サイズ",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "試着",
+     "pos": "v.",
+     "meaning": "to try on"
+    }
+   ],
+   "id": "t2",
+   "en": "I am looking for a jacket. Can I try on a medium size?"
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "もちろんです。試着室は奥にあります。",
+   "glosses": [
+    {
+     "text": "試着",
+     "pos": "v.",
+     "meaning": "to try on"
+    },
+    {
+     "text": "試着室",
+     "pos": "n.",
+     "meaning": "the fitting room"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The fitting room is at the back."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "少し大きすぎます。もっと小さいサイズか、もっと安いものはありますか。",
+   "glosses": [
+    {
+     "text": "サイズ",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "大きすぎ",
+     "pos": "phr.",
+     "meaning": "too big"
+    },
+    {
+     "text": "安い",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t4",
+   "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "こちらはSサイズです。今週はセール中なので、もっと安いですよ。",
+   "glosses": [
+    {
+     "text": "サイズ",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "安い",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t5",
+   "en": "Here is a small one. It is on sale this week, so it is cheaper."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ぴったりです、これにします。どこで払いますか。",
+   "glosses": [
+    {
+     "text": "払い",
+     "pos": "v.",
+     "meaning": "to pay"
+    }
+   ],
+   "id": "t6",
+   "en": "Perfect, I will take it. Where can I pay?"
+  }
+ ],
+ "practice_words": []
+}

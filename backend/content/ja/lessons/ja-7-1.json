@@ -1,0 +1,238 @@
+{
+ "emoji": "💼",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "面接",
+   "ipa": "mensetsu",
+   "pos": "n.",
+   "meaning": "an interview",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "おはようございます。本日は面接に来ていただき、ありがとうございます。",
+     "en": "Good morning, and thank you for coming to the interview."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "経験",
+   "ipa": "keiken",
+   "pos": "n.",
+   "meaning": "experience",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "まず、ご自身とこれまでの経験について少し教えてください。",
+     "en": "Please tell me a little about yourself and your experience."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "応募",
+   "ipa": "oubo",
+   "pos": "v.",
+   "meaning": "to apply",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "興味深いですね。なぜこのポジションに応募されたのですか。",
+     "en": "Interesting. Why did you apply for this position?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "チーム",
+   "ipa": "chiimu",
+   "pos": "n.",
+   "meaning": "a team",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "どちらも好きですが、チームで一番力を発揮できます。",
+     "en": "I enjoy both, but I do my best work in a team."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "強み",
+   "ipa": "tsuyomi",
+   "pos": "n.",
+   "meaning": "a strength",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "ご自身の一番の強みは何だと思いますか。",
+     "en": "What would you say is your greatest strength?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "給料",
+   "ipa": "kyuuryoo",
+   "pos": "n.",
+   "meaning": "a salary",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "はい、給料と勤務時間について教えていただけますか。",
+     "en": "Yes, could you tell me about the salary and the working hours?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "おはようございます。本日は面接に来ていただき、ありがとうございます。",
+   "glosses": [
+    {
+     "text": "面接",
+     "pos": "n.",
+     "meaning": "an interview"
+    }
+   ],
+   "id": "t1",
+   "en": "Good morning, and thank you for coming to the interview."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "おはようございます。お招きいただき、ありがとうございます。",
+   "glosses": [],
+   "id": "t2",
+   "en": "Good morning. Thank you for inviting me."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "まず、ご自身とこれまでの経験について少し教えてください。",
+   "glosses": [
+    {
+     "text": "経験",
+     "pos": "n.",
+     "meaning": "experience"
+    }
+   ],
+   "id": "t3",
+   "en": "Please tell me a little about yourself and your experience."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "経営を学び、三年間マーケティングの仕事をしてきました。",
+   "glosses": [],
+   "id": "t4",
+   "en": "I studied business, and I have worked in marketing for three years."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "興味深いですね。なぜこのポジションに応募されたのですか。",
+   "glosses": [
+    {
+     "text": "応募",
+     "pos": "v.",
+     "meaning": "to apply"
+    }
+   ],
+   "id": "t5",
+   "en": "Interesting. Why did you apply for this position?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "御社のプロジェクトが好きで、より大きなチームで学びたいと思いました。",
+   "glosses": [
+    {
+     "text": "チーム",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t6",
+   "en": "I like your company's projects, and I want to learn in a bigger team."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "ご自身の一番の強みは何だと思いますか。",
+   "glosses": [
+    {
+     "text": "強み",
+     "pos": "n.",
+     "meaning": "a strength"
+    }
+   ],
+   "id": "t7",
+   "en": "What would you say is your greatest strength?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "整理整頓が得意で、プレッシャーがあっても落ち着いていられます。",
+   "glosses": [],
+   "id": "t8",
+   "en": "I am organized, and I stay calm when there is pressure."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "一人で働くのが好きですか、それともチームで働くのが好きですか。",
+   "glosses": [
+    {
+     "text": "チーム",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t9",
+   "en": "Do you prefer working alone or as part of a team?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "どちらも好きですが、チームで一番力を発揮できます。",
+   "glosses": [
+    {
+     "text": "チーム",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t10",
+   "en": "I enjoy both, but I do my best work in a team."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "わかりました。来週ご連絡します。何か質問はありますか。",
+   "glosses": [],
+   "id": "t11",
+   "en": "Good. We will contact you next week. Do you have any questions?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "はい、給料と勤務時間について教えていただけますか。",
+   "glosses": [
+    {
+     "text": "給料",
+     "pos": "n.",
+     "meaning": "a salary"
+    }
+   ],
+   "id": "t12",
+   "en": "Yes, could you tell me about the salary and the working hours?"
+  }
+ ],
+ "practice_words": []
+}

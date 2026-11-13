@@ -1,0 +1,182 @@
+{
+ "emoji": "🎸",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "хобби",
+   "ipa": "khóbbi",
+   "pos": "n.",
+   "meaning": "a hobby",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Правда? Это отличное хобби. Я предпочитаю плавать.",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "свободное время",
+   "ipa": "svobódnoje vrémja",
+   "pos": "phr.",
+   "meaning": "free time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Что ты любишь делать в свободное время?",
+     "en": "What do you like to do in your free time?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "играю",
+   "ipa": "igráju",
+   "pos": "v.",
+   "meaning": "to play",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Я люблю читать, а по воскресеньям часто играю в теннис.",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "часто",
+   "ipa": "chásto",
+   "pos": "adv.",
+   "meaning": "often",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Я люблю читать, а по воскресеньям часто играю в теннис.",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "предпочитаю",
+   "ipa": "predpochitáju",
+   "pos": "v.",
+   "meaning": "to prefer",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Правда? Это отличное хобби. Я предпочитаю плавать.",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "бассейне",
+   "ipa": "basséjne",
+   "pos": "n.",
+   "meaning": "a pool",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ты плаваешь в бассейне или в море?",
+     "en": "Do you swim in a pool or in the sea?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Что ты любишь делать в свободное время?",
+   "glosses": [
+    {
+     "text": "свободное время",
+     "pos": "phr.",
+     "meaning": "free time"
+    }
+   ],
+   "id": "t1",
+   "en": "What do you like to do in your free time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я люблю читать, а по воскресеньям часто играю в теннис.",
+   "glosses": [
+    {
+     "text": "играю",
+     "pos": "v.",
+     "meaning": "to play"
+    },
+    {
+     "text": "часто",
+     "pos": "adv.",
+     "meaning": "often"
+    }
+   ],
+   "id": "t2",
+   "en": "I love reading, and I often play tennis on Sundays."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Правда? Это отличное хобби. Я предпочитаю плавать.",
+   "glosses": [
+    {
+     "text": "хобби",
+     "pos": "n.",
+     "meaning": "a hobby"
+    },
+    {
+     "text": "предпочитаю",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t3",
+   "en": "Really? That is a great hobby. I prefer swimming."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ты плаваешь в бассейне или в море?",
+   "glosses": [
+    {
+     "text": "бассейне",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t4",
+   "en": "Do you swim in a pool or in the sea?"
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "В основном в бассейне, потому что он рядом с моим домом.",
+   "glosses": [
+    {
+     "text": "бассейне",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t5",
+   "en": "Mostly in a pool, because it is close to my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Когда-нибудь мы могли бы вместе заняться спортом.",
+   "glosses": [],
+   "id": "t6",
+   "en": "We could do some sport together one day."
+  }
+ ],
+ "practice_words": []
+}

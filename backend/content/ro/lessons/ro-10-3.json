@@ -1,0 +1,257 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "deșeurile",
+   "ipa": "/deˈʃeurile/",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Da, încerc să reduc deșeurile, așa că am renunțat să mai cumpăr sticle de plastic.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Reciclezi",
+   "ipa": "/retʃiˈklez/",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "E un început bun. Reciclezi totul acasă?",
+     "en": "That is a good start. Do you recycle everything at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "emisii",
+   "ipa": "/eˈmisii/",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Dar transportul? Mașinile produc multe emisii.",
+     "en": "What about transport? Cars produce a lot of emissions."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "regenerabilă",
+   "ipa": "/reɡeneˈrabilə/",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sunt de acord. Energia regenerabilă este locul unde trebuie să se întâmple cea mai mare schimbare.",
+     "en": "I agree. Renewable energy is where the biggest change must happen."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "durabile",
+   "ipa": "/duˈrabile/",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Unii oameni încă spun că produsele durabile sunt prea scumpe.",
+     "en": "Some people still say sustainable products are too expensive."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "reduc",
+   "ipa": "/reˈduk/",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Da, încerc să reduc deșeurile, așa că am renunțat să mai cumpăr sticle de plastic.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Ți-ai schimbat vreun obicei recent ca să protejezi mediul?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Have you changed any habits recently to protect the environment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, încerc să reduc deșeurile, așa că am renunțat să mai cumpăr sticle de plastic.",
+   "glosses": [
+    {
+     "text": "deșeurile",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "reduc",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "E un început bun. Reciclezi totul acasă?",
+   "glosses": [
+    {
+     "text": "Reciclezi",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": "That is a good start. Do you recycle everything at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tot ce pot. Hârtie, sticlă, plastic și chiar resturi de mâncare pentru compost.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Everything I can. Paper, glass, plastic and even food scraps for compost."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Impresionant. Ar trebui să fac mai mult, dar durează atât de mult.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Impressive. I should do more, but it takes so much time."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Devine automat după câteva săptămâni, sincer.",
+   "glosses": [],
+   "id": "t6",
+   "en": "It becomes automatic after a few weeks, honestly."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Dar transportul? Mașinile produc multe emisii.",
+   "glosses": [
+    {
+     "text": "emisii",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": "What about transport? Cars produce a lot of emissions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Merg cu bicicleta la serviciu aproape în fiecare zi și iau trenul pentru călătorii lungi.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I cycle to work most days, and I use trains for long trips."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Crezi că acțiunile individuale contează cu adevărat?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you think individual actions really matter, though?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Contează, dar companiile și guvernele trebuie să acționeze la o scară mai mare.",
+   "glosses": [],
+   "id": "t10",
+   "en": "They do, but companies and governments must act on a bigger scale."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Sunt de acord. Energia regenerabilă este locul unde trebuie să se întâmple cea mai mare schimbare.",
+   "glosses": [
+    {
+     "text": "regenerabilă",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. Renewable energy is where the biggest change must happen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exact. Energia solară și cea eoliană devin mai ieftine în fiecare an.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Exactly. Solar and wind power are becoming cheaper every year."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Unii oameni încă spun că produsele durabile sunt prea scumpe.",
+   "glosses": [
+    {
+     "text": "durabile",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people still say sustainable products are too expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Pe termen scurt, poate, dar țin mai mult și economisesc bani mai târziu.",
+   "glosses": [],
+   "id": "t14",
+   "en": "In the short term, maybe, but they last longer and save money later."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "M-ai convins. Voi începe cu un recipient pentru compost.",
+   "glosses": [],
+   "id": "t15",
+   "en": "You have convinced me. I will start with a compost bin."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Minunat. Pașii mici sunt mai buni decât să aștepți soluția perfectă.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wonderful. Small steps are better than waiting for a perfect solution."
+  }
+ ],
+ "practice_words": []
+}

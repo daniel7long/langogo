@@ -1,0 +1,257 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "waste",
+   "ipa": "/weɪst/",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Yes, I try to reduce waste, so I stopped buying plastic bottles.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "recycle",
+   "ipa": "/ɹiˈsaɪkəl/",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "That is a good start. Do you recycle everything at home?",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "emissions",
+   "ipa": "/ɪˈmɪʃənz/",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "What about transport? Cars produce a lot of emissions.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "Renewable",
+   "ipa": "/ɹɪˈnuəbəl/",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I agree. Renewable energy is where the biggest change must happen.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "sustainable",
+   "ipa": "/səˈsteɪnəbəl/",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Some people still say sustainable products are too expensive.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "reduce",
+   "ipa": "/ɹɪˈdus/",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Yes, I try to reduce waste, so I stopped buying plastic bottles.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Have you changed any habits recently to protect the environment?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, I try to reduce waste, so I stopped buying plastic bottles.",
+   "glosses": [
+    {
+     "text": "waste",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "reduce",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "That is a good start. Do you recycle everything at home?",
+   "glosses": [
+    {
+     "text": "recycle",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Everything I can. Paper, glass, plastic and even food scraps for compost.",
+   "glosses": [],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Impressive. I should do more, but it takes so much time.",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "It becomes automatic after a few weeks, honestly.",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "What about transport? Cars produce a lot of emissions.",
+   "glosses": [
+    {
+     "text": "emissions",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I cycle to work most days, and I use trains for long trips.",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Do you think individual actions really matter, though?",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "They do, but companies and governments must act on a bigger scale.",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "I agree. Renewable energy is where the biggest change must happen.",
+   "glosses": [
+    {
+     "text": "Renewable",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exactly. Solar and wind power are becoming cheaper every year.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Some people still say sustainable products are too expensive.",
+   "glosses": [
+    {
+     "text": "sustainable",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "In the short term, maybe, but they last longer and save money later.",
+   "glosses": [],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "You have convinced me. I will start with a compost bin.",
+   "glosses": [],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Wonderful. Small steps are better than waiting for a perfect solution.",
+   "glosses": [],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

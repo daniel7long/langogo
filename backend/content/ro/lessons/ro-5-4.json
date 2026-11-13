@@ -1,0 +1,187 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "apartamentul",
+   "ipa": "/apartaˈmentul/",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Bună ziua, vă interesează apartamentul, nu-i așa?",
+     "en": "Hello, you are interested in the apartment, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "chiria",
+   "ipa": "/kiˈria/",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da. Cât este chiria pe lună?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "pe lună",
+   "ipa": "/pe ˈlunə/",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da. Cât este chiria pe lună?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "mobilat",
+   "ipa": "/mobiˈlat/",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Este opt sute pe lună, iar apartamentul este mobilat.",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "o garanție",
+   "ipa": "/o ɡaranˈtsie/",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sună bine. Trebuie să plătesc o garanție?",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "contractul",
+   "ipa": "/konˈtraktul/",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da, o lună ca garanție. Semnăm contractul mâine.",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Bună ziua, vă interesează apartamentul, nu-i așa?",
+   "glosses": [
+    {
+     "text": "apartamentul",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da. Cât este chiria pe lună?",
+   "glosses": [
+    {
+     "text": "chiria",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "pe lună",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Este opt sute pe lună, iar apartamentul este mobilat.",
+   "glosses": [
+    {
+     "text": "apartamentul",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "pe lună",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "mobilat",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sună bine. Trebuie să plătesc o garanție?",
+   "glosses": [
+    {
+     "text": "o garanție",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Da, o lună ca garanție. Semnăm contractul mâine.",
+   "glosses": [
+    {
+     "text": "contractul",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Foarte bine. Pot să mai văd o dată bucătăria înainte să mă hotărăsc?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

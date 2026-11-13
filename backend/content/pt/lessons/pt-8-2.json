@@ -1,0 +1,225 @@
+{
+ "emoji": "🛎️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "uma reclamação",
+   "ipa": "/ˈu.ma ʁe.kla.maˈsɐ̃w̃/",
+   "pos": "n.",
+   "meaning": "a complaint",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Boa noite. Tenho uma reclamação sobre o meu quarto.",
+     "en": "Good evening. I have a complaint about my room."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "barulhento",
+   "ipa": "/ba.ɾuˈʎẽ.tu/",
+   "pos": "adj.",
+   "meaning": "noisy",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "O ar-condicionado está quebrado, e o quarto ao lado é muito barulhento.",
+     "en": "The air conditioning is broken, and the room next door is very noisy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "quebrado",
+   "ipa": "/keˈbɾa.du/",
+   "pos": "adj.",
+   "meaning": "broken",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "O ar-condicionado está quebrado, e o quarto ao lado é muito barulhento.",
+     "en": "The air conditioning is broken, and the room next door is very noisy."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "consertar",
+   "ipa": "/kõ.seʁˈtaʁ/",
+   "pos": "v.",
+   "meaning": "to fix",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Peço desculpas. Vou mandar alguém consertar o ar-condicionado agora mesmo.",
+     "en": "I apologize. I will send someone to fix the air conditioning right away."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "o gerente",
+   "ipa": "/u ʒeˈɾẽ.tʃi/",
+   "pos": "n.",
+   "meaning": "the manager",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Se não tiverem, eu gostaria de falar com o gerente.",
+     "en": "If not, I would like to speak to the manager."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "um reembolso",
+   "ipa": "/ũ ʁe.ẽˈbow.su/",
+   "pos": "n.",
+   "meaning": "a refund",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ótimo. E eu poderia receber um reembolso desta noite pelo transtorno?",
+     "en": "Good. And could I have a refund for tonight because of the trouble?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Boa noite. Em que posso ajudar?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good evening. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Boa noite. Tenho uma reclamação sobre o meu quarto.",
+   "glosses": [
+    {
+     "text": "uma reclamação",
+     "pos": "n.",
+     "meaning": "a complaint"
+    }
+   ],
+   "id": "t2",
+   "en": "Good evening. I have a complaint about my room."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Sinto muito por isso. Qual é o problema?",
+   "glosses": [],
+   "id": "t3",
+   "en": "I am sorry to hear that. What is the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "O ar-condicionado está quebrado, e o quarto ao lado é muito barulhento.",
+   "glosses": [
+    {
+     "text": "barulhento",
+     "pos": "adj.",
+     "meaning": "noisy"
+    },
+    {
+     "text": "quebrado",
+     "pos": "adj.",
+     "meaning": "broken"
+    }
+   ],
+   "id": "t4",
+   "en": "The air conditioning is broken, and the room next door is very noisy."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Peço desculpas. Vou mandar alguém consertar o ar-condicionado agora mesmo.",
+   "glosses": [
+    {
+     "text": "consertar",
+     "pos": "v.",
+     "meaning": "to fix"
+    }
+   ],
+   "id": "t5",
+   "en": "I apologize. I will send someone to fix the air conditioning right away."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Obrigado, mas eu pedi um quarto silencioso quando fiz a reserva.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you, but I asked for a quiet room when I booked."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "O senhor tem razão. Deixe-me ver se temos outro quarto disponível.",
+   "glosses": [],
+   "id": "t7",
+   "en": "You are right. Let me check if we have another room available."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Se não tiverem, eu gostaria de falar com o gerente.",
+   "glosses": [
+    {
+     "text": "o gerente",
+     "pos": "n.",
+     "meaning": "the manager"
+    }
+   ],
+   "id": "t8",
+   "en": "If not, I would like to speak to the manager."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Entendo. Temos um quarto silencioso no quarto andar.",
+   "glosses": [],
+   "id": "t9",
+   "en": "I understand. We have a quiet room on the fourth floor."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ótimo. E eu poderia receber um reembolso desta noite pelo transtorno?",
+   "glosses": [
+    {
+     "text": "um reembolso",
+     "pos": "n.",
+     "meaning": "a refund"
+    }
+   ],
+   "id": "t10",
+   "en": "Good. And could I have a refund for tonight because of the trouble?"
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Posso oferecer um desconto de vinte por cento. Seria aceitável?",
+   "glosses": [],
+   "id": "t11",
+   "en": "I can give you a twenty percent discount. Would that be acceptable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sim, é justo. Obrigado por resolver o problema.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes, that is fair. Thank you for solving the problem."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,210 +1,187 @@
 {
-  "emoji": "🎓",
-  "max_flowers": 35,
-  "cefr": "B1",
-  "vocab": [
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "headache",
+   "ipa": "/ˈhɛdˌeɪk/",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "v1",
-      "word": "subject",
-      "ipa": "/ˈsʌbdʒɪkt/",
-      "pos": "n.",
-      "meaning": "an area of study, like math or art",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "My favorite subject is history."
-        },
-        {
-          "target": "What subject do you study?"
-        }
-      ]
-    },
-    {
-      "id": "v2",
-      "word": "degree",
-      "ipa": "/dɪˈɡriː/",
-      "pos": "n.",
-      "meaning": "a title you get after finishing university",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "She has a degree in law."
-        },
-        {
-          "target": "I want a master's degree."
-        }
-      ]
-    },
-    {
-      "id": "v3",
-      "word": "research",
-      "ipa": "/ˈriːsɜːrtʃ/",
-      "pos": "n.",
-      "meaning": "careful study to find new facts",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I do research on language."
-        },
-        {
-          "target": "The research takes time."
-        }
-      ]
-    },
-    {
-      "id": "v4",
-      "word": "deadline",
-      "ipa": "/ˈdedlaɪn/",
-      "pos": "n.",
-      "meaning": "the last day to finish something",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "The deadline is Friday."
-        },
-        {
-          "target": "I missed the deadline."
-        }
-      ]
-    },
-    {
-      "id": "v5",
-      "word": "assignment",
-      "ipa": "/əˈsaɪnmənt/",
-      "pos": "n.",
-      "meaning": "a piece of work from a teacher",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "The assignment is long."
-        },
-        {
-          "target": "I finished my assignment."
-        }
-      ]
-    },
-    {
-      "id": "v6",
-      "word": "professor",
-      "ipa": "/prəˈfesər/",
-      "pos": "n.",
-      "meaning": "a teacher at a university",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "My professor is kind."
-        },
-        {
-          "target": "Ask the professor."
-        }
-      ]
-    },
-    {
-      "id": "v7",
-      "word": "graduate",
-      "ipa": "/ˈɡrædʒueɪt/",
-      "pos": "v.",
-      "meaning": "to finish your studies at a school",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I graduate next year."
-        },
-        {
-          "target": "He graduated in May."
-        }
-      ]
+     "target": "I have had a headache and a sore throat since yesterday.",
+     "en": ""
     }
-  ],
-  "dialogue": [
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "medicine",
+   "ipa": "/ˈmɛdɪsɪn/",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "t1",
-      "speaker": "Classmate",
-      "role": "npc",
-      "text": "What do you study at university?",
-      "glosses": [],
-      "en": "What subject do you learn at the university?"
-    },
-    {
-      "id": "t2",
-      "speaker": "You",
-      "role": "you",
-      "text": "I study linguistics. I want a master's degree next year.",
-      "glosses": [
-        {
-          "text": "degree",
-          "pos": "n.",
-          "meaning": "a title you get after finishing university"
-        }
-      ],
-      "en": "I learn about language. I want a higher title next year."
-    },
-    {
-      "id": "t3",
-      "speaker": "Classmate",
-      "role": "npc",
-      "text": "Nice! Do you have any assignments this week?",
-      "glosses": [],
-      "en": "Good! Do you have homework this week?"
-    },
-    {
-      "id": "t4",
-      "speaker": "You",
-      "role": "you",
-      "text": "Yes, a research paper. The deadline is Friday.",
-      "glosses": [
-        {
-          "text": "research",
-          "pos": "n.",
-          "meaning": "careful study to find new facts"
-        },
-        {
-          "text": "deadline",
-          "pos": "n.",
-          "meaning": "the last day to finish something"
-        }
-      ],
-      "en": "Yes, a long paper. The last day is Friday."
-    },
-    {
-      "id": "t5",
-      "speaker": "Classmate",
-      "role": "npc",
-      "text": "Did you ask your professor for help?",
-      "glosses": [
-        {
-          "text": "professor",
-          "pos": "n.",
-          "meaning": "a teacher at a university"
-        }
-      ],
-      "en": "Did you ask your teacher to help?"
-    },
-    {
-      "id": "t6",
-      "speaker": "You",
-      "role": "you",
-      "text": "I did. I will graduate in May, so I must work hard.",
-      "glosses": [
-        {
-          "text": "graduate",
-          "pos": "v.",
-          "meaning": "to finish your studies at a school"
-        }
-      ],
-      "en": "Yes. I finish school in May, so I must try hard."
+     "target": "Are you allergic to any medicine?",
+     "en": ""
     }
-  ],
-  "practice_words": [
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "prescription",
+   "ipa": "/pɹɪˈskɹɪpʃən/",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "w1",
-      "text": "research",
-      "tip": "Say REE-search: stress the first part"
+     "target": "No, I am not allergic. Do I need a prescription?",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "twice a day",
+   "ipa": "/twaɪs ə deɪ/",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Not for this. Take one tablet twice a day, after meals.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Take",
+   "ipa": "/teɪk/",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Thank you. I will take the first one this evening.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "allergic",
+   "ipa": "/əˈlɝdʒɪk/",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Are you allergic to any medicine?",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Good morning. What seems to be the problem?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I have had a headache and a sore throat since yesterday.",
+   "glosses": [
+    {
+     "text": "headache",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Are you allergic to any medicine?",
+   "glosses": [
+    {
+     "text": "medicine",
+     "pos": "n.",
+     "meaning": "medicine"
     },
     {
-      "id": "w2",
-      "text": "degree",
-      "tip": "Say di-GREE: stress the second part"
+     "text": "allergic",
+     "pos": "adj.",
+     "meaning": "allergic"
     }
-  ]
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "No, I am not allergic. Do I need a prescription?",
+   "glosses": [
+    {
+     "text": "prescription",
+     "pos": "n.",
+     "meaning": "a prescription"
+    },
+    {
+     "text": "allergic",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Not for this. Take one tablet twice a day, after meals.",
+   "glosses": [
+    {
+     "text": "twice a day",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "Take",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Thank you. I will take the first one this evening.",
+   "glosses": [
+    {
+     "text": "take",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  }
+ ],
+ "practice_words": []
 }

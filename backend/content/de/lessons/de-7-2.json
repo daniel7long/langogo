@@ -1,0 +1,231 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "Master",
+   "ipa": "/ˈmastɐ/",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ich mache einen Master in Design, und er gefällt mir sehr.",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Fach",
+   "ipa": "/fax/",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Das klingt anspruchsvoll. Welches Fach ist dein Lieblingsfach?",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "die Prüfungen",
+   "ipa": "/diː ˈpʁyːfʊŋən/",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mein Lieblingsfach ist Forschungsmethoden, obwohl die Prüfungen schwer sind.",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "Abschluss",
+   "ipa": "/ˈapʃlʊs/",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Wann machst du deinen Abschluss?",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Abgabetermine",
+   "ipa": "/ˈapɡaːbəˌtɛʁmiːnə/",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Nächstes Jahr, wenn ich alle Abgabetermine einhalte und meine Kurse bestehe.",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "Stipendium",
+   "ipa": "/ʃtiˈpɛndiʊm/",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "In Vollzeit. Ich habe ein Stipendium, also kann ich mich auf mein Studium konzentrieren.",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jonas",
+   "role": "npc",
+   "text": "Also, was studierst du im Moment?",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ich mache einen Master in Design, und er gefällt mir sehr.",
+   "glosses": [
+    {
+     "text": "Master",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Jonas",
+   "role": "npc",
+   "text": "Das klingt anspruchsvoll. Welches Fach ist dein Lieblingsfach?",
+   "glosses": [
+    {
+     "text": "Fach",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mein Lieblingsfach ist Forschungsmethoden, obwohl die Prüfungen schwer sind.",
+   "glosses": [
+    {
+     "text": "fach",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "die Prüfungen",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Jonas",
+   "role": "npc",
+   "text": "Wann machst du deinen Abschluss?",
+   "glosses": [
+    {
+     "text": "Abschluss",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nächstes Jahr, wenn ich alle Abgabetermine einhalte und meine Kurse bestehe.",
+   "glosses": [
+    {
+     "text": "Abgabetermine",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Jonas",
+   "role": "npc",
+   "text": "Arbeitest du oder studierst du in Vollzeit?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "In Vollzeit. Ich habe ein Stipendium, also kann ich mich auf mein Studium konzentrieren.",
+   "glosses": [
+    {
+     "text": "Stipendium",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Jonas",
+   "role": "npc",
+   "text": "Weißt du schon, was du danach machen willst?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nicht genau, aber ich würde gern in einem Technologieunternehmen arbeiten.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Jonas",
+   "role": "npc",
+   "text": "Das ist ein guter Plan. Ich bin sicher, dass du etwas finden wirst.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Danke! Studieren ist hart, aber ich lerne viel.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

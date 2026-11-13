@@ -1,0 +1,231 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "un master",
+   "ipa": "/un ˈmaster/",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Fac un master în design și îmi place foarte mult.",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "materia",
+   "ipa": "/maˈteria/",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sună solicitant. Care este materia ta preferată?",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "examenele",
+   "ipa": "/ekzaˈmenele/",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Materia mea preferată este metodele de cercetare, deși examenele sunt grele.",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "termini",
+   "ipa": "/ˈtermini/",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Când termini?",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "termenele-limită",
+   "ipa": "/ˈtermenele ˈlimitə/",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Anul viitor, dacă respect toate termenele-limită și trec cursurile.",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "o bursă",
+   "ipa": "/o ˈbursə/",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Cu normă întreagă. Am o bursă, așa că mă pot concentra pe studii.",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Deci, ce studiezi în prezent?",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Fac un master în design și îmi place foarte mult.",
+   "glosses": [
+    {
+     "text": "un master",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Sună solicitant. Care este materia ta preferată?",
+   "glosses": [
+    {
+     "text": "materia",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Materia mea preferată este metodele de cercetare, deși examenele sunt grele.",
+   "glosses": [
+    {
+     "text": "Materia",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "examenele",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Când termini?",
+   "glosses": [
+    {
+     "text": "termini",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Anul viitor, dacă respect toate termenele-limită și trec cursurile.",
+   "glosses": [
+    {
+     "text": "termenele-limită",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Lucrezi sau studiezi cu normă întreagă?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Cu normă întreagă. Am o bursă, așa că mă pot concentra pe studii.",
+   "glosses": [
+    {
+     "text": "o bursă",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Știi deja ce vrei să faci după aceea?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nu exact, dar mi-ar plăcea să lucrez într-o companie de tehnologie.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Este un plan bun. Sunt sigur că vei găsi ceva.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mulțumesc! Studiul este greu, dar învăț foarte multe.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

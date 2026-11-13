@@ -1,0 +1,238 @@
+{
+ "emoji": "💼",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "면접",
+   "ipa": "myeonjeop",
+   "pos": "n.",
+   "meaning": "an interview",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "안녕하세요, 면접에 와 주셔서 감사합니다.",
+     "en": "Good morning, and thank you for coming to the interview."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "경력",
+   "ipa": "gyeongnyeok",
+   "pos": "n.",
+   "meaning": "experience",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "본인에 대해, 그리고 경력에 대해 간단히 말씀해 주세요.",
+     "en": "Please tell me a little about yourself and your experience."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "지원",
+   "ipa": "jiwon",
+   "pos": "v.",
+   "meaning": "to apply",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "흥미롭네요. 왜 이 직책에 지원하셨어요?",
+     "en": "Interesting. Why did you apply for this position?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "팀",
+   "ipa": "tim",
+   "pos": "n.",
+   "meaning": "a team",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "둘 다 좋아하지만, 팀에서 가장 잘합니다.",
+     "en": "I enjoy both, but I do my best work in a team."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "강점",
+   "ipa": "gangjeom",
+   "pos": "n.",
+   "meaning": "a strength",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "본인의 가장 큰 강점은 무엇이라고 생각하세요?",
+     "en": "What would you say is your greatest strength?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "급여",
+   "ipa": "geubyeo",
+   "pos": "n.",
+   "meaning": "a salary",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "네, 급여와 근무 시간에 대해 말씀해 주실 수 있나요?",
+     "en": "Yes, could you tell me about the salary and the working hours?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "안녕하세요, 면접에 와 주셔서 감사합니다.",
+   "glosses": [
+    {
+     "text": "면접",
+     "pos": "n.",
+     "meaning": "an interview"
+    }
+   ],
+   "id": "t1",
+   "en": "Good morning, and thank you for coming to the interview."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "안녕하세요. 초대해 주셔서 감사합니다.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Good morning. Thank you for inviting me."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "본인에 대해, 그리고 경력에 대해 간단히 말씀해 주세요.",
+   "glosses": [
+    {
+     "text": "경력",
+     "pos": "n.",
+     "meaning": "experience"
+    }
+   ],
+   "id": "t3",
+   "en": "Please tell me a little about yourself and your experience."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "경영학을 공부했고, 마케팅 분야에서 삼 년 동안 일했습니다.",
+   "glosses": [],
+   "id": "t4",
+   "en": "I studied business, and I have worked in marketing for three years."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "흥미롭네요. 왜 이 직책에 지원하셨어요?",
+   "glosses": [
+    {
+     "text": "지원",
+     "pos": "v.",
+     "meaning": "to apply"
+    }
+   ],
+   "id": "t5",
+   "en": "Interesting. Why did you apply for this position?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "회사의 프로젝트가 마음에 들고, 더 큰 팀에서 배우고 싶습니다.",
+   "glosses": [
+    {
+     "text": "팀",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t6",
+   "en": "I like your company's projects, and I want to learn in a bigger team."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "본인의 가장 큰 강점은 무엇이라고 생각하세요?",
+   "glosses": [
+    {
+     "text": "강점",
+     "pos": "n.",
+     "meaning": "a strength"
+    }
+   ],
+   "id": "t7",
+   "en": "What would you say is your greatest strength?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "저는 체계적이고, 압박이 있을 때도 침착합니다.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I am organized, and I stay calm when there is pressure."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "혼자 일하는 걸 선호하세요, 아니면 팀으로 일하는 걸 선호하세요?",
+   "glosses": [
+    {
+     "text": "팀",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t9",
+   "en": "Do you prefer working alone or as part of a team?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "둘 다 좋아하지만, 팀에서 가장 잘합니다.",
+   "glosses": [
+    {
+     "text": "팀",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t10",
+   "en": "I enjoy both, but I do my best work in a team."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "좋습니다. 다음 주에 연락드리겠습니다. 질문 있으세요?",
+   "glosses": [],
+   "id": "t11",
+   "en": "Good. We will contact you next week. Do you have any questions?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "네, 급여와 근무 시간에 대해 말씀해 주실 수 있나요?",
+   "glosses": [
+    {
+     "text": "급여",
+     "pos": "n.",
+     "meaning": "a salary"
+    }
+   ],
+   "id": "t12",
+   "en": "Yes, could you tell me about the salary and the working hours?"
+  }
+ ],
+ "practice_words": []
+}

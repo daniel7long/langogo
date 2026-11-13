@@ -1,0 +1,186 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "la estación",
+   "ipa": "/la es.taˈsjon/",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sí, por favor. ¿Dónde está la estación? ¿Está lejos?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "gire a la izquierda",
+   "ipa": "/ˈxi.ɾe a la isˈkjeɾ.da/",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Gire a la izquierda en la esquina. La estación está al lado del banco.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "todo recto",
+   "ipa": "/ˈto.ðo ˈre.kto/",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "No, no está lejos. Siga todo recto dos calles.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "lejos",
+   "ipa": "/ˈle.xos/",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "No, no está lejos. Siga todo recto dos calles.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "la esquina",
+   "ipa": "/la esˈki.na/",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Gire a la izquierda en la esquina. La estación está al lado del banco.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "un mapa",
+   "ipa": "/un ˈma.pa/",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¡Gracias! Tengo un mapa en el móvil, así que será fácil.",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Disculpe, ¿puedo ayudarle? Parece perdido.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sí, por favor. ¿Dónde está la estación? ¿Está lejos?",
+   "glosses": [
+    {
+     "text": "la estación",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "lejos",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "No, no está lejos. Siga todo recto dos calles.",
+   "glosses": [
+    {
+     "text": "todo recto",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "lejos",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¿Y después? ¿Giro a la izquierda o a la derecha?",
+   "glosses": [],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Gire a la izquierda en la esquina. La estación está al lado del banco.",
+   "glosses": [
+    {
+     "text": "La estación",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "Gire a la izquierda",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "la esquina",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¡Gracias! Tengo un mapa en el móvil, así que será fácil.",
+   "glosses": [
+    {
+     "text": "un mapa",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

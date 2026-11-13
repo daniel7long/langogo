@@ -1,0 +1,248 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "उड़ान",
+   "ipa": "udaan",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "हम आपको होटल और कल सुबह की उड़ान दे सकते हैं।",
+     "en": "We can offer you a hotel and a flight tomorrow morning."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "रद्द",
+   "ipa": "radd",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "उड़ान तीन सौ चार के यात्रियों, हमें खेद है कि आपकी उड़ान रद्द कर दी गई है।",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "कनेक्शन",
+   "ipa": "kaneksan",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "माफ़ कीजिए, क्या हुआ? मेरा बाद में एक ज़रूरी कनेक्शन है।",
+     "en": "Excuse me, what happened? I have an important connection later today."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "देरी",
+   "ipa": "deri",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "विमान में तकनीकी खराबी थी। देरी के लिए हम क्षमा चाहते हैं।",
+     "en": "There was a technical problem with the plane. We apologize for the delay."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "दोबारा बुक",
+   "ipa": "dobaara buk",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "क्या आप मुझे आज किसी दूसरी उड़ान में दोबारा बुक कर सकते हैं?",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "मुआवज़ा",
+   "ipa": "muaavza",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "मैं आज रात जाना पसंद करूँगा। क्या असुविधा के लिए कोई मुआवज़ा है?",
+     "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "उड़ान तीन सौ चार के यात्रियों, हमें खेद है कि आपकी उड़ान रद्द कर दी गई है।",
+   "glosses": [
+    {
+     "text": "उड़ान",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "रद्द",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "माफ़ कीजिए, क्या हुआ? मेरा बाद में एक ज़रूरी कनेक्शन है।",
+   "glosses": [
+    {
+     "text": "कनेक्शन",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": "Excuse me, what happened? I have an important connection later today."
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "विमान में तकनीकी खराबी थी। देरी के लिए हम क्षमा चाहते हैं।",
+   "glosses": [
+    {
+     "text": "देरी",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": "There was a technical problem with the plane. We apologize for the delay."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "क्या आप मुझे आज किसी दूसरी उड़ान में दोबारा बुक कर सकते हैं?",
+   "glosses": [
+    {
+     "text": "उड़ान",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "दोबारा बुक",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": "Can you rebook me on another flight today?"
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "शाम आठ बजे एक उड़ान है। मैं देखता हूँ कि सीटें बची हैं या नहीं।",
+   "glosses": [
+    {
+     "text": "उड़ान",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t5",
+   "en": "There is a flight at eight tonight. Let me check if there are seats."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "कृपया देखिए। अगर नहीं, तो मेरे पास क्या विकल्प हैं?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Please do. If not, what are my options?"
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "हम आपको होटल और कल सुबह की उड़ान दे सकते हैं।",
+   "glosses": [
+    {
+     "text": "उड़ान",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t7",
+   "en": "We can offer you a hotel and a flight tomorrow morning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं आज रात जाना पसंद करूँगा। क्या असुविधा के लिए कोई मुआवज़ा है?",
+   "glosses": [
+    {
+     "text": "मुआवज़ा",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "जी हाँ, आप मुआवज़े के हकदार हैं, और मैं आपको फ़ॉर्म दूँगा।",
+   "glosses": [],
+   "id": "t9",
+   "en": "Yes, you have the right to compensation, and I will give you the form."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "धन्यवाद। क्या मुझे खाने का कूपन भी मिलेगा?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Thank you. Do I also receive a meal voucher?"
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "जी हाँ, यह रेस्तराँ का कूपन है। आप आठ बजे वाली उड़ान में हैं।",
+   "glosses": [
+    {
+     "text": "उड़ान",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t11",
+   "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बहुत बढ़िया, इससे मेरी समस्या हल हो गई। आपकी मदद की बहुत कद्र है।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Great, that solves my problem. I really appreciate your help."
+  }
+ ],
+ "practice_words": []
+}

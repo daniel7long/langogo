@@ -1,0 +1,187 @@
+{
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "il passaporto",
+   "ipa": "/il passaˈpɔrto/",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Buon pomeriggio. Il passaporto, per favore. Deve imbarcare una valigia?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "una valigia",
+   "ipa": "/ˈuna vaˈliːdʒa/",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sì, una valigia. Non è pesante.",
+     "en": "Yes, one suitcase. It is not heavy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "carta d'imbarco",
+   "ipa": "/la ˈkarta dimˈbarko/",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ecco la sua carta d'imbarco. Il suo gate è il numero dodici.",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "gate",
+   "ipa": "/il ɡeit/",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Va bene. Aspetterò vicino al gate.",
+     "en": "That is fine. I will wait near the gate."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "imbarcare",
+   "ipa": "/imbarˈkaːre/",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Buon pomeriggio. Il passaporto, per favore. Deve imbarcare una valigia?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "in ritardo",
+   "ipa": "/in riˈtardo/",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Fra quaranta minuti. Ma il suo volo è in ritardo di venti minuti.",
+     "en": "In forty minutes. But your flight is delayed by twenty minutes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "Buon pomeriggio. Il passaporto, per favore. Deve imbarcare una valigia?",
+   "glosses": [
+    {
+     "text": "Il passaporto",
+     "pos": "n.",
+     "meaning": "a passport"
+    },
+    {
+     "text": "una valigia",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "imbarcare",
+     "pos": "v.",
+     "meaning": "to check in"
+    }
+   ],
+   "id": "t1",
+   "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sì, una valigia. Non è pesante.",
+   "glosses": [
+    {
+     "text": "una valigia",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, one suitcase. It is not heavy."
+  },
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "Ecco la sua carta d'imbarco. Il suo gate è il numero dodici.",
+   "glosses": [
+    {
+     "text": "carta d'imbarco",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    },
+    {
+     "text": "gate",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t3",
+   "en": "Here is your boarding pass. Your gate is number twelve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Grazie. A che ora inizia l'imbarco?",
+   "glosses": [],
+   "id": "t4",
+   "en": "Thank you. What time does boarding start?"
+  },
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "Fra quaranta minuti. Ma il suo volo è in ritardo di venti minuti.",
+   "glosses": [
+    {
+     "text": "in ritardo",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": "In forty minutes. But your flight is delayed by twenty minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Va bene. Aspetterò vicino al gate.",
+   "glosses": [
+    {
+     "text": "gate",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. I will wait near the gate."
+  }
+ ],
+ "practice_words": []
+}

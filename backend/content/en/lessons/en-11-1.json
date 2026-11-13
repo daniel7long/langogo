@@ -1,0 +1,256 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "plot",
+   "ipa": "/plɑt/",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Not yet. I read a review that said the plot was a bit predictable.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "performance",
+   "ipa": "/pɚˈfɔɹməns/",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Interesting. What did you think of the lead performance?",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "director",
+   "ipa": "/dɪˈɹɛktɚ/",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "And the director? I loved his previous work.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "review",
+   "ipa": "/ɹɪˈvju/",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Not yet. I read a review that said the plot was a bit predictable.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "predictable",
+   "ipa": "/pɹɪˈdɪktəbəl/",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Not yet. I read a review that said the plot was a bit predictable.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "soundtrack",
+   "ipa": "/ˈsaʊndˌtɹæk/",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Here it works, especially because of the soundtrack. It adds so much emotion.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "I saw that new movie everyone is talking about last night. Have you seen it?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Not yet. I read a review that said the plot was a bit predictable.",
+   "glosses": [
+    {
+     "text": "plot",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "review",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "predictable",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Honestly, the first half is, but the ending completely surprised me.",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Interesting. What did you think of the lead performance?",
+   "glosses": [
+    {
+     "text": "performance",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Outstanding. The actress made her character feel real and complex.",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "And the director? I loved his previous work.",
+   "glosses": [
+    {
+     "text": "director",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "He keeps his usual style, with long shots and very little dialogue.",
+   "glosses": [],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That can be beautiful, or boring, depending on the story.",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Here it works, especially because of the soundtrack. It adds so much emotion.",
+   "glosses": [
+    {
+     "text": "soundtrack",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Would you say the movie is worth watching in the movie theater?",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Definitely. The images and the sound need a big screen.",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Then I will go this weekend, even though critics disagree.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Critics and audiences rarely agree, so make up your own mind.",
+   "glosses": [],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "True. Which would you rate higher, this movie or his last one?",
+   "glosses": [],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "His last one, but only slightly. I would give this one four stars out of five.",
+   "glosses": [],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Good to know. Let us discuss it again after I have seen it.",
+   "glosses": [],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

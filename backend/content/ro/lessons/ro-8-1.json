@@ -1,0 +1,226 @@
+{
+ "emoji": "🗺️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "o călătorie",
+   "ipa": "/o kələˈtorie/",
+   "pos": "n.",
+   "meaning": "a trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tocmai te-ai întors dintr-o călătorie, nu-i așa? Spune-mi tot!",
+     "en": "You just came back from a trip, right? Tell me everything!"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "m-am rătăcit",
+   "ipa": "/mam rətəˈtʃit/",
+   "pos": "phr.",
+   "meaning": "to get lost",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Am început cu capitala, dar în prima zi m-am rătăcit pe străzile vechi.",
+     "en": "I started in the capital, but on the first day I got lost in the old streets."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "de neuitat",
+   "ipa": "/de neuiˈtat/",
+   "pos": "adj.",
+   "meaning": "unforgettable",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Da, am petrecut zece zile în străinătate. A fost de neuitat.",
+     "en": "Yes, I spent ten days abroad. It was unforgettable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "un localnic",
+   "ipa": "/un lokalˈnik/",
+   "pos": "n.",
+   "meaning": "a local",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Un localnic prietenos mi-a arătat drumul și m-a invitat chiar la o cafea.",
+     "en": "A friendly local showed me the way and even invited me for coffee."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "priveliștea",
+   "ipa": "/priveˈliʃtea/",
+   "pos": "n.",
+   "meaning": "the view",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Apusul văzut de pe un deal. Priveliștea era incredibilă.",
+     "en": "Watching the sunset from a hill. The view was incredible."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "ai recomanda",
+   "ipa": "/aj rekoˈmanda/",
+   "pos": "v.",
+   "meaning": "to recommend",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ai recomanda țara și altor oameni?",
+     "en": "Would you recommend the country to other people?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Tocmai te-ai întors dintr-o călătorie, nu-i așa? Spune-mi tot!",
+   "glosses": [
+    {
+     "text": "o călătorie",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t1",
+   "en": "You just came back from a trip, right? Tell me everything!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, am petrecut zece zile în străinătate. A fost de neuitat.",
+   "glosses": [
+    {
+     "text": "de neuitat",
+     "pos": "adj.",
+     "meaning": "unforgettable"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I spent ten days abroad. It was unforgettable."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Wow! Unde ai mers mai întâi?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow! Where did you go first?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Am început cu capitala, dar în prima zi m-am rătăcit pe străzile vechi.",
+   "glosses": [
+    {
+     "text": "m-am rătăcit",
+     "pos": "phr.",
+     "meaning": "to get lost"
+    }
+   ],
+   "id": "t4",
+   "en": "I started in the capital, but on the first day I got lost in the old streets."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Vai! Cum ai găsit drumul?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Oh no! How did you find your way?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Un localnic prietenos mi-a arătat drumul și m-a invitat chiar la o cafea.",
+   "glosses": [
+    {
+     "text": "Un localnic",
+     "pos": "n.",
+     "meaning": "a local"
+    }
+   ],
+   "id": "t6",
+   "en": "A friendly local showed me the way and even invited me for coffee."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Ce frumos. Care a fost cel mai frumos moment al călătoriei?",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is lovely. What was the best moment of the trip?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Apusul văzut de pe un deal. Priveliștea era incredibilă.",
+   "glosses": [
+    {
+     "text": "Priveliștea",
+     "pos": "n.",
+     "meaning": "the view"
+    }
+   ],
+   "id": "t8",
+   "en": "Watching the sunset from a hill. The view was incredible."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Ai recomanda țara și altor oameni?",
+   "glosses": [
+    {
+     "text": "Ai recomanda",
+     "pos": "v.",
+     "meaning": "to recommend"
+    }
+   ],
+   "id": "t9",
+   "en": "Would you recommend the country to other people?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Absolut. M-aș întoarce mâine, dacă aș putea.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Absolutely. I would go back tomorrow if I could."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Atunci arată-mi fotografiile, te rog!",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then show me your photos, please!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sigur. Am făcut mai mult de cinci sute de poze.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Of course. I took more than five hundred pictures."
+  }
+ ],
+ "practice_words": []
+}

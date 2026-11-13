@@ -1,0 +1,257 @@
+{
+ "emoji": "🏡",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "होम लोन",
+   "ipa": "hom lon",
+   "pos": "n.",
+   "meaning": "a mortgage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "समस्या होम लोन की है। अभी ब्याज दरें बहुत ऊँची हैं।",
+     "en": "The problem is the mortgage. The interest rates are so high right now."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "निवेश",
+   "ipa": "nivesh",
+   "pos": "n.",
+   "meaning": "an investment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "तब खरीदना अच्छा निवेश हो सकता है, अगर तुम खरीद सकते हो।",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "मकान मालिक",
+   "ipa": "makaan maalik",
+   "pos": "n.",
+   "meaning": "a landlord",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "अच्छी बात है। किराये पर मकान मालिक मरम्मत का खर्च उठाता है।",
+     "en": "That is a good point. With rent, the landlord pays for repairs."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "लचीला",
+   "ipa": "lacheela",
+   "pos": "adj.",
+   "meaning": "flexible",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "बिल्कुल, और अगर तुम नौकरी बदलो तो किराये पर रहना ज़्यादा लचीला भी है।",
+     "en": "Exactly, and renting is also more flexible if you change jobs."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "खरीद सकते",
+   "ipa": "khareed sakte",
+   "pos": "v.",
+   "meaning": "to afford",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "तब खरीदना अच्छा निवेश हो सकता है, अगर तुम खरीद सकते हो।",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "संपत्ति",
+   "ipa": "sampatti",
+   "pos": "n.",
+   "meaning": "property",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "हाँ, वे मेरे किराये से थोड़ी ज़्यादा होंगी, लेकिन तब संपत्ति मेरी होगी।",
+     "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "मैं किराया देते-देते थक गया हूँ। क्या तुम्हें लगता है कि मुझे इसके बजाय फ़्लैट खरीदना चाहिए?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I am tired of paying rent. Do you think I should buy an apartment instead?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "यह तुम्हारी योजनाओं पर निर्भर है। तुम इस शहर में कितने समय रहोगे?",
+   "glosses": [],
+   "id": "t2",
+   "en": "It depends on your plans. How long will you stay in this city?"
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "कम से कम दस साल, मुझे लगता है। शायद इससे ज़्यादा।",
+   "glosses": [],
+   "id": "t3",
+   "en": "At least ten years, I think. Maybe more."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "तब खरीदना अच्छा निवेश हो सकता है, अगर तुम खरीद सकते हो।",
+   "glosses": [
+    {
+     "text": "निवेश",
+     "pos": "n.",
+     "meaning": "an investment"
+    },
+    {
+     "text": "खरीद सकते",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t4",
+   "en": "Then buying could be a good investment, if you can afford it."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "समस्या होम लोन की है। अभी ब्याज दरें बहुत ऊँची हैं।",
+   "glosses": [
+    {
+     "text": "होम लोन",
+     "pos": "n.",
+     "meaning": "a mortgage"
+    }
+   ],
+   "id": "t5",
+   "en": "The problem is the mortgage. The interest rates are so high right now."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सही है। क्या तुमने हिसाब लगाया कि मासिक किस्तें कितनी होंगी?",
+   "glosses": [],
+   "id": "t6",
+   "en": "True. Have you calculated what the monthly payments would be?"
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "हाँ, वे मेरे किराये से थोड़ी ज़्यादा होंगी, लेकिन तब संपत्ति मेरी होगी।",
+   "glosses": [
+    {
+     "text": "संपत्ति",
+     "pos": "n.",
+     "meaning": "property"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "और तुम्हें लागत में मरम्मत, कर और बीमा भी जोड़ना होगा।",
+   "glosses": [],
+   "id": "t8",
+   "en": "And you must add repairs, taxes and insurance to the cost."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "अच्छी बात है। किराये पर मकान मालिक मरम्मत का खर्च उठाता है।",
+   "glosses": [
+    {
+     "text": "मकान मालिक",
+     "pos": "n.",
+     "meaning": "a landlord"
+    }
+   ],
+   "id": "t9",
+   "en": "That is a good point. With rent, the landlord pays for repairs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बिल्कुल, और अगर तुम नौकरी बदलो तो किराये पर रहना ज़्यादा लचीला भी है।",
+   "glosses": [
+    {
+     "text": "लचीला",
+     "pos": "adj.",
+     "meaning": "flexible"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly, and renting is also more flexible if you change jobs."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "पर मुझे लगता है कि मैं हर महीने पैसे बर्बाद कर रहा हूँ।",
+   "glosses": [],
+   "id": "t11",
+   "en": "But I feel I am throwing money away every month."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ऐसा नहीं है। तुम रहने की जगह और कहीं भी जाने की आज़ादी के लिए भुगतान कर रहे हो।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not really. You are paying for a place to live and for the freedom to move."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "मैंने कभी इस तरह नहीं सोचा था।",
+   "glosses": [],
+   "id": "t13",
+   "en": "I had never thought about it like that."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "पंद्रह साल के लिए दोनों विकल्पों की कागज़ पर तुलना करो, और किसी वित्तीय सलाहकार से पूछो।",
+   "glosses": [],
+   "id": "t14",
+   "en": "Compare both options on paper over fifteen years, and ask a financial adviser."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "अच्छा विचार है। फ़ैसला करने से पहले मैं समय लूँगा।",
+   "glosses": [],
+   "id": "t15",
+   "en": "Good idea. I will make an appointment before I decide."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "समझदारी है। इतना बड़ा फ़ैसला जल्दबाज़ी में नहीं लेना चाहिए।",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wise. Such a big decision should never be taken in a hurry."
+  }
+ ],
+ "practice_words": []
+}

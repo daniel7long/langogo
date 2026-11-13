@@ -1,0 +1,237 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "zborul",
+   "ipa": "/ˈzborul/",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Da, iată un tichet pentru restaurant. Sunteți pe zborul de la ora opt.",
+     "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "anulat",
+   "ipa": "/anuˈlat/",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Pasageri ai zborului 304, regret să vă anunț că zborul dumneavoastră a fost anulat.",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "o legătură",
+   "ipa": "/o leɡəˈturə/",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Scuzați-mă, ce s-a întâmplat? Am o legătură importantă mai târziu.",
+     "en": "Excuse me, what happened? I have an important connection later today."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "întârziere",
+   "ipa": "/ɨntɨrziˈere/",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "A fost o problemă tehnică la avion. Ne cerem scuze pentru întârziere.",
+     "en": "There was a technical problem with the plane. We apologize for the delay."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "să mă reprogramați",
+   "ipa": "/sə mə reproɡraˈmats/",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Puteți să mă reprogramați pe alt zbor astăzi?",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "o compensație",
+   "ipa": "/o kompenˈsatsie/",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Da, aveți dreptul la o compensație și vă voi da formularul.",
+     "en": "Yes, you have the right to compensation, and I will give you the form."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Pasageri ai zborului 304, regret să vă anunț că zborul dumneavoastră a fost anulat.",
+   "glosses": [
+    {
+     "text": "zborul",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "anulat",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Scuzați-mă, ce s-a întâmplat? Am o legătură importantă mai târziu.",
+   "glosses": [
+    {
+     "text": "o legătură",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": "Excuse me, what happened? I have an important connection later today."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "A fost o problemă tehnică la avion. Ne cerem scuze pentru întârziere.",
+   "glosses": [
+    {
+     "text": "întârziere",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": "There was a technical problem with the plane. We apologize for the delay."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Puteți să mă reprogramați pe alt zbor astăzi?",
+   "glosses": [
+    {
+     "text": "să mă reprogramați",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": "Can you rebook me on another flight today?"
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Există un zbor la ora opt seara. Verific dacă mai sunt locuri.",
+   "glosses": [],
+   "id": "t5",
+   "en": "There is a flight at eight tonight. Let me check if there are seats."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Vă rog. Dacă nu, ce opțiuni am?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Please do. If not, what are my options?"
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Vă putem oferi un hotel și un zbor mâine dimineață.",
+   "glosses": [],
+   "id": "t7",
+   "en": "We can offer you a hotel and a flight tomorrow morning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aș prefera să călătoresc diseară. Există o compensație pentru neplăcerile create?",
+   "glosses": [
+    {
+     "text": "o compensație",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Da, aveți dreptul la o compensație și vă voi da formularul.",
+   "glosses": [
+    {
+     "text": "o compensație",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t9",
+   "en": "Yes, you have the right to compensation, and I will give you the form."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mulțumesc. Primesc și un tichet de masă?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Thank you. Do I also receive a meal voucher?"
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Da, iată un tichet pentru restaurant. Sunteți pe zborul de la ora opt.",
+   "glosses": [
+    {
+     "text": "zborul",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t11",
+   "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Perfect, asta îmi rezolvă problema. Vă apreciez foarte mult ajutorul.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Great, that solves my problem. I really appreciate your help."
+  }
+ ],
+ "practice_words": []
+}

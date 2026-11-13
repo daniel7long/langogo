@@ -1,0 +1,231 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "رحلتكم",
+   "ipa": "riḥlatukum",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "أيها المسافرون على الرحلة ثلاثمئة وأربعة، نأسف لإبلاغكم أن رحلتكم ألغيت.",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ألغيت",
+   "ipa": "ulġiyat",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "أيها المسافرون على الرحلة ثلاثمئة وأربعة، نأسف لإبلاغكم أن رحلتكم ألغيت.",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "اتصال",
+   "ipa": "ittiṣāl",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "المعذرة، ماذا حدث؟ عندي اتصال مهم في وقت لاحق.",
+     "en": "Excuse me, what happened? I have an important connection later today."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "التأخير",
+   "ipa": "at-taʾḫīr",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "كانت هناك مشكلة تقنية في الطائرة. نعتذر عن التأخير.",
+     "en": "There was a technical problem with the plane. We apologize for the delay."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "تحجز لي",
+   "ipa": "taḥjiz lī",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "هل يمكنك أن تحجز لي على رحلة أخرى اليوم؟",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "تعويض",
+   "ipa": "taʿwīḍ",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "أفضل أن أسافر الليلة. هل هناك تعويض عن الإزعاج؟",
+     "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "أيها المسافرون على الرحلة ثلاثمئة وأربعة، نأسف لإبلاغكم أن رحلتكم ألغيت.",
+   "glosses": [
+    {
+     "text": "رحلتكم",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "ألغيت",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "المعذرة، ماذا حدث؟ عندي اتصال مهم في وقت لاحق.",
+   "glosses": [
+    {
+     "text": "اتصال",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": "Excuse me, what happened? I have an important connection later today."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "كانت هناك مشكلة تقنية في الطائرة. نعتذر عن التأخير.",
+   "glosses": [
+    {
+     "text": "التأخير",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": "There was a technical problem with the plane. We apologize for the delay."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هل يمكنك أن تحجز لي على رحلة أخرى اليوم؟",
+   "glosses": [
+    {
+     "text": "تحجز لي",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": "Can you rebook me on another flight today?"
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "هناك رحلة في الثامنة مساء. سأتحقق إن كانت هناك مقاعد.",
+   "glosses": [],
+   "id": "t5",
+   "en": "There is a flight at eight tonight. Let me check if there are seats."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "من فضلك. إن لم يكن، ما الخيارات المتاحة لي؟",
+   "glosses": [],
+   "id": "t6",
+   "en": "Please do. If not, what are my options?"
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "يمكننا أن نقدم لك فندقا ورحلة غدا صباحا.",
+   "glosses": [],
+   "id": "t7",
+   "en": "We can offer you a hotel and a flight tomorrow morning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أفضل أن أسافر الليلة. هل هناك تعويض عن الإزعاج؟",
+   "glosses": [
+    {
+     "text": "تعويض",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "نعم، يحق لك الحصول على تعويض، وسأعطيك الاستمارة.",
+   "glosses": [
+    {
+     "text": "تعويض",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t9",
+   "en": "Yes, you have the right to compensation, and I will give you the form."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "شكرا. هل أحصل على قسيمة طعام أيضا؟",
+   "glosses": [],
+   "id": "t10",
+   "en": "Thank you. Do I also receive a meal voucher?"
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "نعم، هذه قسيمة للمطعم. أنت على رحلة الساعة الثامنة.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ممتاز، هذا يحل مشكلتي. أقدر مساعدتك كثيرا.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Great, that solves my problem. I really appreciate your help."
+  }
+ ],
+ "practice_words": []
+}

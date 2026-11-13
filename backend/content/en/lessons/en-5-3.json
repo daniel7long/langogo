@@ -1,216 +1,181 @@
 {
-  "emoji": "📊",
-  "max_flowers": 35,
-  "cefr": "B1",
-  "vocab": [
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "parcel",
+   "ipa": "/ˈpɑɹsəl/",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "v1",
-      "word": "presentation",
-      "ipa": "/ˌpreznˈteɪʃn/",
-      "pos": "n.",
-      "meaning": "a talk that shows ideas to a group",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "My presentation is at ten."
-        },
-        {
-          "target": "The presentation was short."
-        }
-      ]
-    },
-    {
-      "id": "v2",
-      "word": "slide",
-      "ipa": "/slaɪd/",
-      "pos": "n.",
-      "meaning": "one page of a presentation",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "This slide shows the results."
-        },
-        {
-          "target": "I have ten slides."
-        }
-      ]
-    },
-    {
-      "id": "v3",
-      "word": "topic",
-      "ipa": "/ˈtɑːpɪk/",
-      "pos": "n.",
-      "meaning": "the subject you talk about",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "Today's topic is health."
-        },
-        {
-          "target": "Choose a topic."
-        }
-      ]
-    },
-    {
-      "id": "v4",
-      "word": "explain",
-      "ipa": "/ɪkˈspleɪn/",
-      "pos": "v.",
-      "meaning": "to make something clear",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "Let me explain the plan."
-        },
-        {
-          "target": "Can you explain this?"
-        }
-      ]
-    },
-    {
-      "id": "v5",
-      "word": "audience",
-      "ipa": "/ˈɔːdiəns/",
-      "pos": "n.",
-      "meaning": "the people who listen or watch",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "The audience is large."
-        },
-        {
-          "target": "Look at the audience."
-        }
-      ]
-    },
-    {
-      "id": "v6",
-      "word": "question",
-      "ipa": "/ˈkwestʃən/",
-      "pos": "n.",
-      "meaning": "something you ask to get an answer",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I have a question."
-        },
-        {
-          "target": "Any questions?"
-        }
-      ]
-    },
-    {
-      "id": "v7",
-      "word": "conclusion",
-      "ipa": "/kənˈkluːʒn/",
-      "pos": "n.",
-      "meaning": "the final part",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "In conclusion, we need more time."
-        },
-        {
-          "target": "The conclusion is clear."
-        }
-      ]
+     "target": "I would like to send this parcel to Canada, please.",
+     "en": ""
     }
-  ],
-  "dialogue": [
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "stamps",
+   "ipa": "/stæmps/",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "t1",
-      "speaker": "Host",
-      "role": "npc",
-      "text": "Good morning, everyone. Today my topic is healthy food.",
-      "glosses": [
-        {
-          "text": "topic",
-          "pos": "n.",
-          "meaning": "the subject you talk about"
-        }
-      ],
-      "en": "Hello all. Today I will talk about food that is good for you."
-    },
-    {
-      "id": "t2",
-      "speaker": "You",
-      "role": "you",
-      "text": "First, I will explain why this topic is important.",
-      "glosses": [
-        {
-          "text": "topic",
-          "pos": "n.",
-          "meaning": "the subject you talk about"
-        },
-        {
-          "text": "explain",
-          "pos": "v.",
-          "meaning": "to make something clear"
-        }
-      ],
-      "en": "First, I will make clear why this subject matters."
-    },
-    {
-      "id": "t3",
-      "speaker": "Host",
-      "role": "npc",
-      "text": "This slide shows the results of our survey.",
-      "glosses": [
-        {
-          "text": "slide",
-          "pos": "n.",
-          "meaning": "one page of a presentation"
-        }
-      ],
-      "en": "This page shows what we learned from our questions."
-    },
-    {
-      "id": "t4",
-      "speaker": "You",
-      "role": "you",
-      "text": "In conclusion, people should eat more vegetables.",
-      "glosses": [
-        {
-          "text": "conclusion",
-          "pos": "n.",
-          "meaning": "the final part"
-        }
-      ],
-      "en": "To finish, people should eat more vegetables."
-    },
-    {
-      "id": "t5",
-      "speaker": "Host",
-      "role": "npc",
-      "text": "Thank you for listening. Are there any questions?",
-      "glosses": [],
-      "en": "Thanks for hearing me. Do you want to ask something?"
-    },
-    {
-      "id": "t6",
-      "speaker": "You",
-      "role": "you",
-      "text": "Yes, I have one question about the survey.",
-      "glosses": [
-        {
-          "text": "question",
-          "pos": "n.",
-          "meaning": "something you ask to get an answer"
-        }
-      ],
-      "en": "Yes, I want to ask one thing about the survey."
+     "target": "About a week. The total is nineteen euros, with the stamps.",
+     "en": ""
     }
-  ],
-  "practice_words": [
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "send",
+   "ipa": "/sɛnd/",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "w1",
-      "text": "presentation",
-      "tip": "Say prez-en-TAY-shun: stress the third part"
+     "target": "I would like to send this parcel to Canada, please.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "address",
+   "ipa": "/ˈæˌdɹɛs/",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Let me check the weight. It is two kilos. Please write the address here.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "weight",
+   "ipa": "/weɪt/",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Let me check the weight. It is two kilos. Please write the address here.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "a week",
+   "ipa": "/ə wik/",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "About a week. The total is nineteen euros, with the stamps.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Hello. How can I help you?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I would like to send this parcel to Canada, please.",
+   "glosses": [
+    {
+     "text": "parcel",
+     "pos": "n.",
+     "meaning": "a parcel"
     },
     {
-      "id": "w2",
-      "text": "audience",
-      "tip": "Say AW-dee-ense: stress the first part"
+     "text": "send",
+     "pos": "v.",
+     "meaning": "to send"
     }
-  ]
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Let me check the weight. It is two kilos. Please write the address here.",
+   "glosses": [
+    {
+     "text": "address",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "weight",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Done. How long will it take? Also, I need three stamps for postcards.",
+   "glosses": [
+    {
+     "text": "stamps",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "About a week. The total is nineteen euros, with the stamps.",
+   "glosses": [
+    {
+     "text": "stamps",
+     "pos": "n.",
+     "meaning": "a stamp"
+    },
+    {
+     "text": "a week",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That is fine. Here is my card.",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  }
+ ],
+ "practice_words": []
 }

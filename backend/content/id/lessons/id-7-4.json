@@ -1,0 +1,225 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "cuti",
+   "ipa": "/ˈt͡ʃuti/",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ya. Aku ingin meminta cuti satu hari pada hari Jumat depan.",
+     "en": "Yes. I would like to ask for a day off next Friday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "mendesak",
+   "ipa": "/mənˈdəsak/",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Apakah ini sesuatu yang mendesak?",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "menggantikan",
+   "ipa": "/məŋgantiˈkan/",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Rekanku bisa menggantikanku, dan aku akan menyiapkan semuanya sebelumnya.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "sebelumnya",
+   "ipa": "/səbəˈlumɲa/",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Rekanku bisa menggantikanku, dan aku akan menyiapkan semuanya sebelumnya.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "bantuan",
+   "ipa": "/banˈtuan/",
+   "pos": "n.",
+   "meaning": "a favour",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Belum. Aku ingin bicara denganmu dulu, sebagai bantuan.",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "pengertian",
+   "ipa": "/pəŋəɾˈtian/",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tentu, terima kasih atas pengertianmu.",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Hai, kamu punya waktu sebentar? Kamu tampak cemas.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya. Aku ingin meminta cuti satu hari pada hari Jumat depan.",
+   "glosses": [
+    {
+     "text": "cuti",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Apakah ini sesuatu yang mendesak?",
+   "glosses": [
+    {
+     "text": "mendesak",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sedikit. Aku harus pergi ke pernikahan sepupuku di kota lain.",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Aku mengerti. Siapa yang bisa menangani pekerjaanmu hari itu?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Rekanku bisa menggantikanku, dan aku akan menyiapkan semuanya sebelumnya.",
+   "glosses": [
+    {
+     "text": "menggantikan",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "sebelumnya",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Itu membantu. Apakah kamu sudah memintanya?",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Belum. Aku ingin bicara denganmu dulu, sebagai bantuan.",
+   "glosses": [
+    {
+     "text": "bantuan",
+     "pos": "n.",
+     "meaning": "a favour"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Aku paham. Kamu boleh mengambil hari itu, tetapi selesaikan laporannya sebelum pergi.",
+   "glosses": [],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tentu, terima kasih atas pengertianmu.",
+   "glosses": [
+    {
+     "text": "pengertian",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Tidak masalah. Selamat menikmati pernikahannya!",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Terima kasih banyak. Aku akan membawakanmu sepotong kue.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

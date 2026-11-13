@@ -1,0 +1,231 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "ডিগ্রি",
+   "ipa": "digri",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আমি ডিজাইনে মাস্টার্স ডিগ্রি করছি, আর আমার খুব ভালো লাগছে।",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "বিষয়",
+   "ipa": "bishoy",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "শুনতে কঠিন মনে হচ্ছে। তোমার প্রিয় বিষয় কোনটি?",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "পরীক্ষা",
+   "ipa": "porikkha",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আমার প্রিয় বিষয় গবেষণা পদ্ধতি, যদিও পরীক্ষাগুলো কঠিন।",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "স্নাতক",
+   "ipa": "snatok",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "তুমি কখন স্নাতক হবে?",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "সময়সীমা",
+   "ipa": "shomoyshima",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আগামী বছর, যদি আমি প্রতিটি সময়সীমা রাখতে পারি আর কোর্সগুলো পাস করি।",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "বৃত্তি",
+   "ipa": "britti",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "পূর্ণ সময়। আমি বৃত্তি পাই, তাই পড়াশোনায় মনোযোগ দিতে পারি।",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "তাহলে, তুমি এখন কী পড়ছ?",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি ডিজাইনে মাস্টার্স ডিগ্রি করছি, আর আমার খুব ভালো লাগছে।",
+   "glosses": [
+    {
+     "text": "ডিগ্রি",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "শুনতে কঠিন মনে হচ্ছে। তোমার প্রিয় বিষয় কোনটি?",
+   "glosses": [
+    {
+     "text": "বিষয়",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমার প্রিয় বিষয় গবেষণা পদ্ধতি, যদিও পরীক্ষাগুলো কঠিন।",
+   "glosses": [
+    {
+     "text": "বিষয়",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "পরীক্ষা",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "তুমি কখন স্নাতক হবে?",
+   "glosses": [
+    {
+     "text": "স্নাতক",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আগামী বছর, যদি আমি প্রতিটি সময়সীমা রাখতে পারি আর কোর্সগুলো পাস করি।",
+   "glosses": [
+    {
+     "text": "সময়সীমা",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "তুমি কি কাজ করো, নাকি পূর্ণ সময় পড়াশোনা করো?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "পূর্ণ সময়। আমি বৃত্তি পাই, তাই পড়াশোনায় মনোযোগ দিতে পারি।",
+   "glosses": [
+    {
+     "text": "বৃত্তি",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "এরপর কী করতে চাও সেটা কি তুমি ইতিমধ্যে জানো?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক জানি না, তবে আমি একটি প্রযুক্তি কোম্পানিতে কাজ করতে চাই।",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "এটা ভালো পরিকল্পনা। আমি নিশ্চিত তুমি কিছু একটা পাবে।",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ধন্যবাদ! পড়াশোনা কঠিন, কিন্তু আমি অনেক কিছু শিখছি।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

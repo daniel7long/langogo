@@ -1,0 +1,242 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "會員卡",
+   "ipa": "wui6 jyun4 kaat1",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "會員卡一個月幾多錢？",
+     "en": "How much does the membership cost for a month?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "教練",
+   "ipa": "gaau3 lin6",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "當然得。我哋嘅教練會示範點樣用。",
+     "en": "Of course. Our trainer will show you how everything works."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "目標",
+   "ipa": "muk6 biu1",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "好呀。你最主要嘅目標係咩：減肥，定係變得更強壯？",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "做運動",
+   "ipa": "zou6 wan6 dung6",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "有，我想開始有規律咁做運動。",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "課堂",
+   "ipa": "fo3 tong4",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "咁我建議一開始每個星期同教練上三堂課堂。",
+     "en": "Then I recommend three sessions a week with a trainer at the beginning."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "更強壯",
+   "ipa": "gang3 koeng4 zong3",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我想變得更強壯，日頭都有多啲精力。",
+     "en": "I want to get stronger and have more energy during the day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "歡迎嚟到健身室！你有冇興趣辦會員卡呀？",
+   "glosses": [
+    {
+     "text": "會員卡",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有，我想開始有規律咁做運動。",
+   "glosses": [
+    {
+     "text": "做運動",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "好呀。你最主要嘅目標係咩：減肥，定係變得更強壯？",
+   "glosses": [
+    {
+     "text": "目標",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "更強壯",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我想變得更強壯，日頭都有多啲精力。",
+   "glosses": [
+    {
+     "text": "更強壯",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "咁我建議一開始每個星期同教練上三堂課堂。",
+   "glosses": [
+    {
+     "text": "教練",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "課堂",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "會員卡一個月幾多錢？",
+   "glosses": [
+    {
+     "text": "會員卡",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "一個月三十五，而且第一堂免費。",
+   "glosses": [],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "聽落合理。我今日可以試下啲器材嗎？",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "當然得。我哋嘅教練會示範點樣用。",
+   "glosses": [
+    {
+     "text": "教練",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我使唔使自己帶毛巾？",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "使，請帶一條毛巾同一樽水。",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "好。我而家就報名。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

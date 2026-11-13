@@ -1,0 +1,181 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "uma passagem",
+   "ipa": "/ˈu.ma paˈsa.ʒẽj/",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Eu queria uma passagem de ida e volta para a capital, por favor.",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "a plataforma",
+   "ipa": "/a plaˈta.fɔʁ.ma/",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Claro. O próximo trem sai às nove, da plataforma quatro.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "sai",
+   "ipa": "/saj/",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Claro. O próximo trem sai às nove, da plataforma quatro.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ida e volta",
+   "ipa": "/ˈi.da i ˈvɔw.ta/",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Eu queria uma passagem de ida e volta para a capital, por favor.",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "no horário",
+   "ipa": "/nu oˈɾa.ɾju/",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ele está no horário hoje?",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "trocar de trem",
+   "ipa": "/tɾoˈkaʁ dʒi tɾẽj/",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sim, está no horário. Mas o senhor precisa trocar de trem na próxima cidade.",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Bom dia. Em que posso ajudar?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Eu queria uma passagem de ida e volta para a capital, por favor.",
+   "glosses": [
+    {
+     "text": "uma passagem",
+     "pos": "n.",
+     "meaning": "a ticket"
+    },
+    {
+     "text": "ida e volta",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Claro. O próximo trem sai às nove, da plataforma quatro.",
+   "glosses": [
+    {
+     "text": "a plataforma",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "sai",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ele está no horário hoje?",
+   "glosses": [
+    {
+     "text": "no horário",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Sim, está no horário. Mas o senhor precisa trocar de trem na próxima cidade.",
+   "glosses": [
+    {
+     "text": "no horário",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "trocar de trem",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Entendi. Quanto custa a passagem?",
+   "glosses": [],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

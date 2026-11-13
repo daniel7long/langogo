@@ -1,0 +1,187 @@
+{
+ "emoji": "👕",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "размер",
+   "ipa": "razmér",
+   "pos": "n.",
+   "meaning": "a size",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Я ищу куртку. Можно примерить средний размер?",
+     "en": "I am looking for a jacket. Can I try on a medium size?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "примерить",
+   "ipa": "primérit'",
+   "pos": "v.",
+   "meaning": "to try on",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Я ищу куртку. Можно примерить средний размер?",
+     "en": "I am looking for a jacket. Can I try on a medium size?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "примерочная",
+   "ipa": "primérochnaja",
+   "pos": "n.",
+   "meaning": "the fitting room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Конечно. Примерочная в глубине магазина.",
+     "en": "Of course. The fitting room is at the back."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "велика",
+   "ipa": "veliká",
+   "pos": "phr.",
+   "meaning": "too big",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Она мне немного велика. У вас есть размер поменьше или что-нибудь дешевле?",
+     "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "дешевле",
+   "ipa": "deshévle",
+   "pos": "adj.",
+   "meaning": "cheaper",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Вот маленький. На этой неделе на него скидка, поэтому он дешевле.",
+     "en": "Here is a small one. It is on sale this week, so it is cheaper."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "заплатить",
+   "ipa": "zaplatít'",
+   "pos": "v.",
+   "meaning": "to pay",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Отлично, я возьму. Где можно заплатить?",
+     "en": "Perfect, I will take it. Where can I pay?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Здравствуйте! Вы ищете что-то особенное?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello! Are you looking for something special?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я ищу куртку. Можно примерить средний размер?",
+   "glosses": [
+    {
+     "text": "размер",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "примерить",
+     "pos": "v.",
+     "meaning": "to try on"
+    }
+   ],
+   "id": "t2",
+   "en": "I am looking for a jacket. Can I try on a medium size?"
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Конечно. Примерочная в глубине магазина.",
+   "glosses": [
+    {
+     "text": "Примерочная",
+     "pos": "n.",
+     "meaning": "the fitting room"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The fitting room is at the back."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Она мне немного велика. У вас есть размер поменьше или что-нибудь дешевле?",
+   "glosses": [
+    {
+     "text": "размер",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "велика",
+     "pos": "phr.",
+     "meaning": "too big"
+    },
+    {
+     "text": "дешевле",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t4",
+   "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Вот маленький. На этой неделе на него скидка, поэтому он дешевле.",
+   "glosses": [
+    {
+     "text": "дешевле",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t5",
+   "en": "Here is a small one. It is on sale this week, so it is cheaper."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Отлично, я возьму. Где можно заплатить?",
+   "glosses": [
+    {
+     "text": "заплатить",
+     "pos": "v.",
+     "meaning": "to pay"
+    }
+   ],
+   "id": "t6",
+   "en": "Perfect, I will take it. Where can I pay?"
+  }
+ ],
+ "practice_words": []
+}

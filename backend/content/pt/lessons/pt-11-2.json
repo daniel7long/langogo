@@ -1,0 +1,263 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "a manchete",
+   "ipa": "/a mɐ̃ˈʃɛ.tʃi/",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Você viu a manchete de hoje cedo sobre a nova lei de impostos?",
+     "en": "Did you see this morning's headline about the new tax law?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "jornalistas",
+   "ipa": "/ʒoʁ.naˈlis.tas/",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Eu comparo várias, porque até bons jornalistas podem ser tendenciosos.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "fontes",
+   "ipa": "/ˈfõ.tʃis/",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Em que fontes de notícia você confia?",
+     "en": "Which news sources do you trust?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "tendenciosos",
+   "ipa": "/tẽ.dẽˈsjo.zus/",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Eu comparo várias, porque até bons jornalistas podem ser tendenciosos.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "verificados",
+   "ipa": "/ve.ɾi.fiˈka.dus/",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Procuro provas, especialistas identificados e se os fatos podem ser verificados.",
+     "en": "I look for evidence, named experts, and whether the facts can be verified."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "uma opinião",
+   "ipa": "/ˈu.ma o.piˈnjɐ̃w̃/",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Vi, mas quero ler mais antes de formar uma opinião.",
+     "en": "I did, but I want to read more before forming an opinion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Você viu a manchete de hoje cedo sobre a nova lei de impostos?",
+   "glosses": [
+    {
+     "text": "a manchete",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t1",
+   "en": "Did you see this morning's headline about the new tax law?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Vi, mas quero ler mais antes de formar uma opinião.",
+   "glosses": [
+    {
+     "text": "uma opinião",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": "I did, but I want to read more before forming an opinion."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Esperto. Eu li só o título e já fiquei com raiva.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Smart. I only read the title and I was already angry."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "É exatamente assim que as manchetes funcionam. Elas são feitas para chamar a atenção.",
+   "glosses": [],
+   "id": "t4",
+   "en": "That is exactly how headlines work. They are designed to attract attention."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Em que fontes de notícia você confia?",
+   "glosses": [
+    {
+     "text": "fontes",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t5",
+   "en": "Which news sources do you trust?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Eu comparo várias, porque até bons jornalistas podem ser tendenciosos.",
+   "glosses": [
+    {
+     "text": "jornalistas",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "tendenciosos",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": "I compare several, because even good journalists can be biased."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Como você decide qual é a mais precisa?",
+   "glosses": [],
+   "id": "t7",
+   "en": "How do you decide which one is more accurate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Procuro provas, especialistas identificados e se os fatos podem ser verificados.",
+   "glosses": [
+    {
+     "text": "verificados",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": "I look for evidence, named experts, and whether the facts can be verified."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Isso dá muito trabalho para algo que eu faço em cinco minutos.",
+   "glosses": [],
+   "id": "t9",
+   "en": "That takes a lot of effort for something I do in five minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "É verdade, mas estar bem informado faz parte de ser um cidadão responsável.",
+   "glosses": [],
+   "id": "t10",
+   "en": "True, but being well informed is part of being a responsible citizen."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "E os artigos de opinião? Não são só pontos de vista pessoais?",
+   "glosses": [],
+   "id": "t11",
+   "en": "What about opinion articles? Are they not just personal views?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "São, e tudo bem, desde que estejam claramente identificados como opinião.",
+   "glosses": [],
+   "id": "t12",
+   "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Muita gente não percebe a diferença, porém.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many people do not notice the difference, though."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Por isso a educação midiática nas escolas é tão importante.",
+   "glosses": [],
+   "id": "t14",
+   "en": "That is why media education in schools matters so much."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Concordo. Vou tentar ler pelo menos duas fontes de agora em diante.",
+   "glosses": [
+    {
+     "text": "fontes",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": "I agree. I will try to read at least two sources from now on."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ótimo. E compartilhe artigos só depois de conferir você mesmo.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good. And share articles only after you have checked them yourself."
+  }
+ ],
+ "practice_words": []
+}

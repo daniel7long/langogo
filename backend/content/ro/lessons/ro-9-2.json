@@ -1,0 +1,243 @@
+{
+ "emoji": "😴",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "stres",
+   "ipa": "/stres/",
+   "pos": "n.",
+   "meaning": "stress",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sincer, am mult stres și nu pot să dorm bine.",
+     "en": "Honestly, I am under a lot of stress and I sleep badly."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "epuizat",
+   "ipa": "/epuiˈzat/",
+   "pos": "adj.",
+   "meaning": "exhausted",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Pari epuizat în ultima vreme. Totul e în regulă?",
+     "en": "You look exhausted lately. Is everything all right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "obicei",
+   "ipa": "/oˈbitʃej/",
+   "pos": "n.",
+   "meaning": "a habit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "La ce oră te culci de obicei?",
+     "en": "What time do you usually go to bed?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "să mă relaxez",
+   "ipa": "/sə mə relakˈsez/",
+   "pos": "v.",
+   "meaning": "to relax",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Știu, dar mi-e greu să mă relaxez după o zi lungă.",
+     "en": "I know, but it is difficult to relax after a long day."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "să îmbunătățească",
+   "ipa": "/sə ɨmbunəˈtətsaskə/",
+   "pos": "v.",
+   "meaning": "to improve",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "De asemenea, o plimbare scurtă după serviciu poate să îmbunătățească mult starea ta de spirit.",
+     "en": "Also, a short walk after work can improve your mood a lot."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "să dorm",
+   "ipa": "/sə dorm/",
+   "pos": "v.",
+   "meaning": "to sleep",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sincer, am mult stres și nu pot să dorm bine.",
+     "en": "Honestly, I am under a lot of stress and I sleep badly."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Pari epuizat în ultima vreme. Totul e în regulă?",
+   "glosses": [
+    {
+     "text": "epuizat",
+     "pos": "adj.",
+     "meaning": "exhausted"
+    }
+   ],
+   "id": "t1",
+   "en": "You look exhausted lately. Is everything all right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sincer, am mult stres și nu pot să dorm bine.",
+   "glosses": [
+    {
+     "text": "stres",
+     "pos": "n.",
+     "meaning": "stress"
+    },
+    {
+     "text": "să dorm",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, I am under a lot of stress and I sleep badly."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "La ce oră te culci de obicei?",
+   "glosses": [
+    {
+     "text": "obicei",
+     "pos": "n.",
+     "meaning": "a habit"
+    }
+   ],
+   "id": "t3",
+   "en": "What time do you usually go to bed?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Adesea după miezul nopții, pentru că mă uit ore întregi la telefon.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Often after midnight, because I check my phone for hours."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Este un obicei prost. Încearcă să oprești ecranul cu o oră înainte de culcare.",
+   "glosses": [
+    {
+     "text": "obicei",
+     "pos": "n.",
+     "meaning": "a habit"
+    }
+   ],
+   "id": "t5",
+   "en": "That is a bad habit. Try to turn off your screen an hour before bed."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Știu, dar mi-e greu să mă relaxez după o zi lungă.",
+   "glosses": [
+    {
+     "text": "să mă relaxez",
+     "pos": "v.",
+     "meaning": "to relax"
+    }
+   ],
+   "id": "t6",
+   "en": "I know, but it is difficult to relax after a long day."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "De ce nu citești o carte sau nu asculți muzică liniștită?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Why don't you read a book or listen to calm music?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "E o idee bună. Făceam asta când eram student.",
+   "glosses": [],
+   "id": "t8",
+   "en": "That is a good idea. I used to do that when I was a student."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "De asemenea, o plimbare scurtă după serviciu poate să îmbunătățească mult starea ta de spirit.",
+   "glosses": [
+    {
+     "text": "să îmbunătățească",
+     "pos": "v.",
+     "meaning": "to improve"
+    }
+   ],
+   "id": "t9",
+   "en": "Also, a short walk after work can improve your mood a lot."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "O voi încerca. Sper să pot să dorm mai bine săptămâna aceasta.",
+   "glosses": [
+    {
+     "text": "să dorm",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t10",
+   "en": "I will try it. I hope I can sleep better this week."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Dă-i două săptămâni. Obiceiurile au nevoie de timp ca să se schimbe.",
+   "glosses": [
+    {
+     "text": "Obicei",
+     "pos": "n.",
+     "meaning": "a habit"
+    }
+   ],
+   "id": "t11",
+   "en": "Give it two weeks. Habits take time to change."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mulțumesc pentru sfat. Mă simt mai bine doar vorbind despre asta.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks for the advice. I feel better just talking about it."
+  }
+ ],
+ "practice_words": []
+}

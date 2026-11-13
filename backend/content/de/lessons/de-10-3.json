@@ -1,0 +1,257 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "Abfall",
+   "ipa": "/ˈapfal/",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ja, ich versuche, Abfall zu reduzieren, deshalb kaufe ich keine Plastikflaschen mehr.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "recycelst",
+   "ipa": "/ʁiˈsaɪ̯kl̩st/",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Das ist ein guter Anfang. Recycelst du zu Hause alles?",
+     "en": "That is a good start. Do you recycle everything at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "Emissionen",
+   "ipa": "/emɪˈsi̯oːnən/",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Und was ist mit dem Verkehr? Autos verursachen viele Emissionen.",
+     "en": "What about transport? Cars produce a lot of emissions."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "erneuerbare",
+   "ipa": "/ɛɐ̯ˈnɔɪ̯ɐbaːʁə/",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Da stimme ich zu. Erneuerbare Energie ist der Bereich, in dem sich am meisten ändern muss.",
+     "en": "I agree. Renewable energy is where the biggest change must happen."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "nachhaltige",
+   "ipa": "/ˈnaːxˌhaltɪɡə/",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Manche sagen immer noch, nachhaltige Produkte seien zu teuer.",
+     "en": "Some people still say sustainable products are too expensive."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "reduzieren",
+   "ipa": "/ʁeduˈtsiːʁən/",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ja, ich versuche, Abfall zu reduzieren, deshalb kaufe ich keine Plastikflaschen mehr.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Hast du in letzter Zeit Gewohnheiten geändert, um die Umwelt zu schützen?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Have you changed any habits recently to protect the environment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ja, ich versuche, Abfall zu reduzieren, deshalb kaufe ich keine Plastikflaschen mehr.",
+   "glosses": [
+    {
+     "text": "Abfall",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "reduzieren",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Das ist ein guter Anfang. Recycelst du zu Hause alles?",
+   "glosses": [
+    {
+     "text": "Recycelst",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": "That is a good start. Do you recycle everything at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Alles, was ich kann. Papier, Glas, Plastik und sogar Essensreste für den Kompost.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Everything I can. Paper, glass, plastic and even food scraps for compost."
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Beeindruckend. Ich sollte mehr tun, aber es kostet so viel Zeit.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Impressive. I should do more, but it takes so much time."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nach ein paar Wochen wird es ehrlich gesagt automatisch.",
+   "glosses": [],
+   "id": "t6",
+   "en": "It becomes automatic after a few weeks, honestly."
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Und was ist mit dem Verkehr? Autos verursachen viele Emissionen.",
+   "glosses": [
+    {
+     "text": "Emissionen",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": "What about transport? Cars produce a lot of emissions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ich fahre fast jeden Tag mit dem Fahrrad zur Arbeit und nehme für lange Strecken den Zug.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I cycle to work most days, and I use trains for long trips."
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Glaubst du, dass das Handeln einzelner Menschen wirklich etwas bewirkt?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you think individual actions really matter, though?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ja, aber Unternehmen und Regierungen müssen in größerem Maßstab handeln.",
+   "glosses": [],
+   "id": "t10",
+   "en": "They do, but companies and governments must act on a bigger scale."
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Da stimme ich zu. Erneuerbare Energie ist der Bereich, in dem sich am meisten ändern muss.",
+   "glosses": [
+    {
+     "text": "Erneuerbare",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. Renewable energy is where the biggest change must happen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Genau. Solar- und Windenergie werden jedes Jahr billiger.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Exactly. Solar and wind power are becoming cheaper every year."
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Manche sagen immer noch, nachhaltige Produkte seien zu teuer.",
+   "glosses": [
+    {
+     "text": "nachhaltige",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people still say sustainable products are too expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Kurzfristig vielleicht, aber sie halten länger und sparen später Geld.",
+   "glosses": [],
+   "id": "t14",
+   "en": "In the short term, maybe, but they last longer and save money later."
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Du hast mich überzeugt. Ich fange mit einem Komposteimer an.",
+   "glosses": [],
+   "id": "t15",
+   "en": "You have convinced me. I will start with a compost bin."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Wunderbar. Kleine Schritte sind besser, als auf eine perfekte Lösung zu warten.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wonderful. Small steps are better than waiting for a perfect solution."
+  }
+ ],
+ "practice_words": []
+}

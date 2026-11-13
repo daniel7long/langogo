@@ -1,0 +1,231 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "छुट्टी",
+   "ipa": "chhutti",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "हाँ। मैं अगले शुक्रवार को छुट्टी माँगना चाहता हूँ।",
+     "en": "Yes. I would like to ask for a day off next Friday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ज़रूरी",
+   "ipa": "zaroori",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "क्या कुछ ज़रूरी है?",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "मेरी जगह",
+   "ipa": "meri jagah",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "मेरी सहकर्मी मेरी जगह ले सकती है, और मैं सब कुछ पहले से तैयार कर दूँगा।",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "पहले से",
+   "ipa": "pahle se",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "मेरी सहकर्मी मेरी जगह ले सकती है, और मैं सब कुछ पहले से तैयार कर दूँगा।",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "एहसान",
+   "ipa": "ehsaan",
+   "pos": "n.",
+   "meaning": "a favor",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "अभी नहीं। मैं पहले तुमसे बात करना चाहता था, एक एहसान की तरह।",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "समझने",
+   "ipa": "samajhne",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "बिल्कुल, मुझे समझने के लिए धन्यवाद।",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "अरे, क्या तुम्हारे पास एक मिनट है? तुम चिंतित दिख रहे हो।",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "हाँ। मैं अगले शुक्रवार को छुट्टी माँगना चाहता हूँ।",
+   "glosses": [
+    {
+     "text": "छुट्टी",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "क्या कुछ ज़रूरी है?",
+   "glosses": [
+    {
+     "text": "ज़रूरी",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "थोड़ा। मुझे अपने चचेरे भाई की शादी के लिए दूसरे शहर जाना है।",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "समझ गया। उस दिन तुम्हारी जगह कौन काम संभाल सकता है?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मेरी सहकर्मी मेरी जगह ले सकती है, और मैं सब कुछ पहले से तैयार कर दूँगा।",
+   "glosses": [
+    {
+     "text": "मेरी जगह",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "पहले से",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "यह ठीक रहेगा। क्या तुमने उससे पूछा?",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अभी नहीं। मैं पहले तुमसे बात करना चाहता था, एक एहसान की तरह।",
+   "glosses": [
+    {
+     "text": "एहसान",
+     "pos": "n.",
+     "meaning": "a favor"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "ठीक है। तुम छुट्टी ले सकते हो, लेकिन जाने से पहले रिपोर्ट पूरी कर देना।",
+   "glosses": [
+    {
+     "text": "छुट्टी",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बिल्कुल, मुझे समझने के लिए धन्यवाद।",
+   "glosses": [
+    {
+     "text": "समझने",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "कोई बात नहीं। शादी में मज़े करना!",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बहुत धन्यवाद। मैं तुम्हारे लिए केक का एक टुकड़ा लाऊँगा।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

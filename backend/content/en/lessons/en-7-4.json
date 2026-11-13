@@ -1,0 +1,225 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "a day off",
+   "ipa": "/ə deɪ ɔf/",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Yes. I would like to ask for a day off next Friday.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "urgent",
+   "ipa": "/ˈɝdʒənt/",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Is it something urgent?",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "replace",
+   "ipa": "/ɹɪˈpleɪs/",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "My colleague can replace me, and I will prepare everything in advance.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "in advance",
+   "ipa": "/ɪn ədˈvæns/",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "My colleague can replace me, and I will prepare everything in advance.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "favor",
+   "ipa": "/ˈfeɪvɚ/",
+   "pos": "n.",
+   "meaning": "a favor",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Not yet. I wanted to speak with you first, as a favor.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "understanding",
+   "ipa": "/ˌʌndɚˈstændɪŋ/",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Of course, thank you for being so understanding.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Hi, do you have a minute? You look worried.",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes. I would like to ask for a day off next Friday.",
+   "glosses": [
+    {
+     "text": "a day off",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Is it something urgent?",
+   "glosses": [
+    {
+     "text": "urgent",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "A little. I must go to my cousin's wedding in another city.",
+   "glosses": [],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "I see. Who can cover your work that day?",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "My colleague can replace me, and I will prepare everything in advance.",
+   "glosses": [
+    {
+     "text": "replace",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "in advance",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "That is helpful. Have you asked her already?",
+   "glosses": [],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Not yet. I wanted to speak with you first, as a favor.",
+   "glosses": [
+    {
+     "text": "favor",
+     "pos": "n.",
+     "meaning": "a favor"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "I understand. You may take the day, but finish the report before you leave.",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Of course, thank you for being so understanding.",
+   "glosses": [
+    {
+     "text": "understanding",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "No problem. Enjoy the wedding!",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Thank you very much. I will bring you some cake.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

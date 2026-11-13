@@ -1,0 +1,257 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "تأثير",
+   "ipa": "taʾṯīr",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "بصراحة، بلى. أعتقد أن لها تأثيرا كبيرا على طريقة رؤيتنا لأنفسنا.",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "الخصوصية",
+   "ipa": "al-ḫuṣūṣiyya",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أوافقك. وماذا عن الخصوصية؟ الشركات تجمع الكثير من البيانات عنا.",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "تنتشر",
+   "ipa": "tantašir",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "هذا هو قلقي الرئيسي. الأخبار المضللة تنتشر أسرع بكثير من الحقائق.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "مضللة",
+   "ipa": "muḍallila",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "هذا هو قلقي الرئيسي. الأخبار المضللة تنتشر أسرع بكثير من الحقائق.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "تنظمها",
+   "ipa": "tunaẓẓimuhā",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "جزئيا. أعتقد أن الحكومات يجب أن تنظمها بصرامة أكبر، شرط حماية حرية التعبير.",
+     "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "مدمنون",
+   "ipa": "mudmin",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "بعض الناس يعترفون حتى بأنهم مدمنون على هواتفهم.",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "قرأت أن الناس يقضون أربع ساعات يوميا على وسائل التواصل الاجتماعي. ألا تجد ذلك مقلقا؟",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بصراحة، بلى. أعتقد أن لها تأثيرا كبيرا على طريقة رؤيتنا لأنفسنا.",
+   "glosses": [
+    {
+     "text": "تأثير",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "بأي شكل؟ كثيرون يقولون إنها تساعدهم ببساطة على البقاء على اتصال.",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هذا صحيح، لكن مقارنة حياتك بالصور المثالية على الإنترنت قد تضر بثقتك بنفسك.",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "هذا صحيح. وماذا عن المعلومات التي نقرؤها هناك؟",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هذا هو قلقي الرئيسي. الأخبار المضللة تنتشر أسرع بكثير من الحقائق.",
+   "glosses": [
+    {
+     "text": "تنتشر",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "مضللة",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "هل تعتقد أن المنصات يجب أن تتحمل المسؤولية عن ذلك؟",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "جزئيا. أعتقد أن الحكومات يجب أن تنظمها بصرامة أكبر، شرط حماية حرية التعبير.",
+   "glosses": [
+    {
+     "text": "تنظمها",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "التنظيم مسألة صعبة. من يقرر ما هو الصحيح؟",
+   "glosses": [],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نقطة عادلة. ربما يكون الحل في التعليم: تعليم الناس التحقق من مصادرهم.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "أوافقك. وماذا عن الخصوصية؟ الشركات تجمع الكثير من البيانات عنا.",
+   "glosses": [
+    {
+     "text": "الخصوصية",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هذا يقلقني أيضا. معظم المستخدمين لا يقرؤون الشروط والأحكام قبل أن يقبلوها.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "بعض الناس يعترفون حتى بأنهم مدمنون على هواتفهم.",
+   "glosses": [
+    {
+     "text": "مدمنون",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "لن أذهب إلى هذا الحد، لكنني ألاحظ أنني أتفقد هاتفي بشكل تلقائي.",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "هل ستترك وسائل التواصل الاجتماعي تماما يوما ما؟",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "على الأرجح لا، لكنني أحاول تقليل وقتي عليها، وقد أحدث ذلك فرقا فعلا.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

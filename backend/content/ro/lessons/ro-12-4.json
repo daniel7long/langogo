@@ -1,0 +1,269 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "feedback",
+   "ipa": "/ˈfidbek/",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "De acord. Vrei să-ți dau feedback la a ta săptămâna viitoare?",
+     "en": "Agreed. Would you like me to give you feedback on yours next week?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "o sugestie",
+   "ipa": "/o suˈdʒestie/",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Am o sugestie: încearcă să vorbești mai rar, mai ales la început.",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "critici",
+   "ipa": "/ˈkrititʃ/",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Altceva? Te rog să fii sincer. Pot să accept critici.",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "concret",
+   "ipa": "/konˈkret/",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Mă ajută. Ai putea fi mai concret despre care diapozitive?",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "progrese",
+   "ipa": "/proˈɡrese/",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Deloc. Ai făcut progrese reale de la ultima ta prezentare.",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "motiveze",
+   "ipa": "/motiˈveze/",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Bine. Feedback-ul constructiv ar trebui să motiveze oamenii, nu să-i descurajeze.",
+     "en": "Good. Constructive feedback should motivate people, not discourage them."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Ai câteva minute? Aș vrea niște feedback despre prezentarea mea.",
+   "glosses": [
+    {
+     "text": "feedback",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sigur. În primul rând, structura a fost clară, iar exemplele tale au fost interesante.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Mulțumesc. Și ce aș putea îmbunătăți?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Am o sugestie: încearcă să vorbești mai rar, mai ales la început.",
+   "glosses": [
+    {
+     "text": "o sugestie",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Chiar eram emoționat. Se vedea cu adevărat?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Puțin, dar se remediază ușor. O scurtă pauză între ideile principale ar ajuta.",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Altceva? Te rog să fii sincer. Pot să accept critici.",
+   "glosses": [
+    {
+     "text": "critici",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ultimele diapozitive aveau prea mult text, așa că publicul a început să citească în loc să asculte.",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Mă ajută. Ai putea fi mai concret despre care diapozitive?",
+   "glosses": [
+    {
+     "text": "concret",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Opt și nouă. Folosește o imagine și o propoziție în loc.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Voi face asta. Sincer, mă temeam că a ieșit prost.",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Deloc. Ai făcut progrese reale de la ultima ta prezentare.",
+   "glosses": [
+    {
+     "text": "progrese",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Asta mă motivează cu adevărat să continui să exersez.",
+   "glosses": [],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bine. Feedback-ul constructiv ar trebui să motiveze oamenii, nu să-i descurajeze.",
+   "glosses": [
+    {
+     "text": "Feedback",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "motiveze",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "De acord. Vrei să-ți dau feedback la a ta săptămâna viitoare?",
+   "glosses": [
+    {
+     "text": "feedback",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aș fi recunoscător. Mulțumesc că ești deschis.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,225 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "einen freien Tag",
+   "ipa": "/ˈaɪ̯nən ˈfʁaɪ̯ən taːk/",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ja. Ich möchte nächsten Freitag einen freien Tag beantragen.",
+     "en": "Yes. I would like to ask for a day off next Friday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "dringend",
+   "ipa": "/ˈdʁɪŋənt/",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ist es etwas Dringendes?",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "vertreten",
+   "ipa": "/fɛɐ̯ˈtʁeːtn̩/",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Meine Kollegin kann mich vertreten, und ich bereite alles im Voraus vor.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "im Voraus",
+   "ipa": "/ɪm foˈʁaʊ̯s/",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Meine Kollegin kann mich vertreten, und ich bereite alles im Voraus vor.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "einen Gefallen",
+   "ipa": "/ˈaɪ̯nən ɡəˈfalən/",
+   "pos": "n.",
+   "meaning": "a favour",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Noch nicht. Ich wollte zuerst mit dir sprechen, als einen Gefallen.",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "verständnisvoll",
+   "ipa": "/fɛɐ̯ˈʃtɛntnɪsˌfɔl/",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Natürlich, danke, dass du so verständnisvoll bist.",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Hallo, hast du eine Minute? Du siehst besorgt aus.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ja. Ich möchte nächsten Freitag einen freien Tag beantragen.",
+   "glosses": [
+    {
+     "text": "einen freien Tag",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Ist es etwas Dringendes?",
+   "glosses": [
+    {
+     "text": "Dringend",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ein bisschen. Ich muss zur Hochzeit meines Cousins in eine andere Stadt.",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Verstehe. Wer kann deine Arbeit an dem Tag übernehmen?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Meine Kollegin kann mich vertreten, und ich bereite alles im Voraus vor.",
+   "glosses": [
+    {
+     "text": "vertreten",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "im Voraus",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Das hilft. Hast du sie schon gefragt?",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Noch nicht. Ich wollte zuerst mit dir sprechen, als einen Gefallen.",
+   "glosses": [
+    {
+     "text": "einen Gefallen",
+     "pos": "n.",
+     "meaning": "a favour"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Ich verstehe. Du kannst dir den Tag nehmen, aber beende den Bericht vor deiner Abreise.",
+   "glosses": [],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Natürlich, danke, dass du so verständnisvoll bist.",
+   "glosses": [
+    {
+     "text": "verständnisvoll",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Max",
+   "role": "npc",
+   "text": "Kein Problem. Viel Spaß bei der Hochzeit!",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Vielen Dank. Ich bringe dir ein Stück Kuchen mit.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

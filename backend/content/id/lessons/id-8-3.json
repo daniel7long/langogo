@@ -1,0 +1,237 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "SIM",
+   "ipa": "/sim/",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ya, mobil kecil untuk lima hari. Ini SIM saya.",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "asuransi",
+   "ipa": "/asuˈɾansi/",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ya, tolong. Berapa biaya asuransinya per hari?",
+     "en": "Yes, please. How much is the insurance per day?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "uang jaminan",
+   "ipa": "/ˈuaŋ ˈdʒaminan/",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Delapan dolar per hari. Kami juga butuh uang jaminan dua ratus dolar.",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "GPS",
+   "ipa": "/dʒi pi ɛs/",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tidak masalah. Apakah mobilnya dilengkapi GPS?",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "tangki",
+   "ipa": "/ˈtaŋki/",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ya. Tangkinya penuh sekarang, dan Anda harus mengembalikannya dalam keadaan penuh.",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "mengembalikan",
+   "ipa": "/məŋəmbaliˈkan/",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mengerti. Di mana saya mengembalikan mobilnya nanti?",
+     "en": "Understood. Where do I return the car at the end?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Halo. Apakah Anda punya reservasi mobil?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya, mobil kecil untuk lima hari. Ini SIM saya.",
+   "glosses": [
+    {
+     "text": "SIM",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Terima kasih. Apakah Anda mau asuransi tambahan? Asuransi ini menanggung kerusakan apa pun.",
+   "glosses": [
+    {
+     "text": "asuransi",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya, tolong. Berapa biaya asuransinya per hari?",
+   "glosses": [
+    {
+     "text": "asuransi",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Delapan dolar per hari. Kami juga butuh uang jaminan dua ratus dolar.",
+   "glosses": [
+    {
+     "text": "uang jaminan",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tidak masalah. Apakah mobilnya dilengkapi GPS?",
+   "glosses": [
+    {
+     "text": "GPS",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Ya. Tangkinya penuh sekarang, dan Anda harus mengembalikannya dalam keadaan penuh.",
+   "glosses": [
+    {
+     "text": "Tangki",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "mengembalikan",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mengerti. Di mana saya mengembalikan mobilnya nanti?",
+   "glosses": [
+    {
+     "text": "mengembalikan",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Di sini, di kantor yang sama, sebelum pukul enam sore pada hari terakhir.",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Apa yang terjadi kalau saya terlambat sedikit?",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Maka kami menagih satu hari tambahan, jadi tolong hubungi kami.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Baik untuk diketahui. Terima kasih atas bantuannya.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,231 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "ड्राइविंग लाइसेंस",
+   "ipa": "draiving laisens",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "जी हाँ, पाँच दिन के लिए एक छोटी गाड़ी। यह मेरा ड्राइविंग लाइसेंस है।",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "बीमा",
+   "ipa": "beema",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "जी हाँ, कृपया। बीमा रोज़ का कितना है?",
+     "en": "Yes, please. How much is the insurance per day?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "जमा राशि",
+   "ipa": "jama raashi",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "रोज़ आठ डॉलर। हमें दो सौ डॉलर की जमा राशि भी चाहिए।",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "जीपीएस",
+   "ipa": "jeepies",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "ठीक है। क्या गाड़ी में जीपीएस है?",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "टंकी",
+   "ipa": "tanki",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "जी हाँ। टंकी अभी भरी हुई है और आपको इसे भरा हुआ ही लौटाना होगा।",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "लौटाना",
+   "ipa": "lautaana",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "जी हाँ। टंकी अभी भरी हुई है और आपको इसे भरा हुआ ही लौटाना होगा।",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "नमस्ते। क्या आपने गाड़ी बुक की है?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जी हाँ, पाँच दिन के लिए एक छोटी गाड़ी। यह मेरा ड्राइविंग लाइसेंस है।",
+   "glosses": [
+    {
+     "text": "ड्राइविंग लाइसेंस",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "धन्यवाद। क्या आप अतिरिक्त बीमा लेना चाहेंगे? यह हर नुकसान को कवर करता है।",
+   "glosses": [
+    {
+     "text": "बीमा",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जी हाँ, कृपया। बीमा रोज़ का कितना है?",
+   "glosses": [
+    {
+     "text": "बीमा",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "रोज़ आठ डॉलर। हमें दो सौ डॉलर की जमा राशि भी चाहिए।",
+   "glosses": [
+    {
+     "text": "जमा राशि",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ठीक है। क्या गाड़ी में जीपीएस है?",
+   "glosses": [
+    {
+     "text": "जीपीएस",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "जी हाँ। टंकी अभी भरी हुई है और आपको इसे भरा हुआ ही लौटाना होगा।",
+   "glosses": [
+    {
+     "text": "टंकी",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "लौटाना",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "समझ गया। अंत में गाड़ी कहाँ लौटाऊँ?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "यहीं इसी दफ़्तर में, आख़िरी दिन शाम छह बजे से पहले।",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अगर मुझे थोड़ी देर हो जाए तो क्या होगा?",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "तब हम एक दिन का और शुल्क लेंगे, इसलिए कृपया हमें फ़ोन कर दीजिए।",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जानकर अच्छा लगा। मदद के लिए धन्यवाद।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,231 @@
+{
+ "emoji": "😴",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "तनाव",
+   "ipa": "tanaav",
+   "pos": "n.",
+   "meaning": "stress",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "सच कहूँ तो, मुझे बहुत तनाव है और मैं ठीक से सो नहीं पाता।",
+     "en": "Honestly, I am under a lot of stress and I sleep badly."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "थके हुए",
+   "ipa": "thake hue",
+   "pos": "adj.",
+   "meaning": "exhausted",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "तुम आजकल बहुत थके हुए लग रहे हो। सब ठीक है?",
+     "en": "You look exhausted lately. Is everything all right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "आदत",
+   "ipa": "aadat",
+   "pos": "n.",
+   "meaning": "a habit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "इसे दो हफ़्ते दो। आदतें बदलने में समय लगता है।",
+     "en": "Give it two weeks. Habits take time to change."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "आराम करना",
+   "ipa": "aaraam karna",
+   "pos": "v.",
+   "meaning": "to relax",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "जानता हूँ, लेकिन लंबे दिन के बाद आराम करना मुश्किल होता है।",
+     "en": "I know, but it is difficult to relax after a long day."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "सुधार",
+   "ipa": "sudhaar",
+   "pos": "v.",
+   "meaning": "to improve",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "इसके अलावा, काम के बाद थोड़ी सैर से मूड में बहुत सुधार हो सकता है।",
+     "en": "Also, a short walk after work can improve your mood a lot."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "सोने",
+   "ipa": "sone",
+   "pos": "v.",
+   "meaning": "to sleep",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "यह बुरी आदत है। सोने से एक घंटा पहले स्क्रीन बंद करने की कोशिश करो।",
+     "en": "That is a bad habit. Try to turn off your screen an hour before bed."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "तुम आजकल बहुत थके हुए लग रहे हो। सब ठीक है?",
+   "glosses": [
+    {
+     "text": "थके हुए",
+     "pos": "adj.",
+     "meaning": "exhausted"
+    }
+   ],
+   "id": "t1",
+   "en": "You look exhausted lately. Is everything all right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सच कहूँ तो, मुझे बहुत तनाव है और मैं ठीक से सो नहीं पाता।",
+   "glosses": [
+    {
+     "text": "तनाव",
+     "pos": "n.",
+     "meaning": "stress"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, I am under a lot of stress and I sleep badly."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "तुम आमतौर पर कितने बजे सोते हो?",
+   "glosses": [],
+   "id": "t3",
+   "en": "What time do you usually go to bed?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अक्सर आधी रात के बाद, क्योंकि मैं घंटों फ़ोन देखता रहता हूँ।",
+   "glosses": [],
+   "id": "t4",
+   "en": "Often after midnight, because I check my phone for hours."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "यह बुरी आदत है। सोने से एक घंटा पहले स्क्रीन बंद करने की कोशिश करो।",
+   "glosses": [
+    {
+     "text": "आदत",
+     "pos": "n.",
+     "meaning": "a habit"
+    },
+    {
+     "text": "सोने",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t5",
+   "en": "That is a bad habit. Try to turn off your screen an hour before bed."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जानता हूँ, लेकिन लंबे दिन के बाद आराम करना मुश्किल होता है।",
+   "glosses": [
+    {
+     "text": "आराम करना",
+     "pos": "v.",
+     "meaning": "to relax"
+    }
+   ],
+   "id": "t6",
+   "en": "I know, but it is difficult to relax after a long day."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "तुम कोई किताब क्यों नहीं पढ़ते या शांत संगीत क्यों नहीं सुनते?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Why don't you read a book or listen to calm music?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अच्छा विचार है। जब मैं विद्यार्थी था तब ऐसा करता था।",
+   "glosses": [],
+   "id": "t8",
+   "en": "That is a good idea. I used to do that when I was a student."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "इसके अलावा, काम के बाद थोड़ी सैर से मूड में बहुत सुधार हो सकता है।",
+   "glosses": [
+    {
+     "text": "सुधार",
+     "pos": "v.",
+     "meaning": "to improve"
+    }
+   ],
+   "id": "t9",
+   "en": "Also, a short walk after work can improve your mood a lot."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं कोशिश करूँगा। उम्मीद है इस हफ़्ते बेहतर सो पाऊँगा।",
+   "glosses": [],
+   "id": "t10",
+   "en": "I will try it. I hope I can sleep better this week."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "इसे दो हफ़्ते दो। आदतें बदलने में समय लगता है।",
+   "glosses": [
+    {
+     "text": "आदत",
+     "pos": "n.",
+     "meaning": "a habit"
+    }
+   ],
+   "id": "t11",
+   "en": "Give it two weeks. Habits take time to change."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सलाह के लिए धन्यवाद। बात करके ही बेहतर लग रहा है।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks for the advice. I feel better just talking about it."
+  }
+ ],
+ "practice_words": []
+}

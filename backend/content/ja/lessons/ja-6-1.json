@@ -1,0 +1,181 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "招待",
+   "ipa": "shootai",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "すてきな招待ありがとう！うん、ぜひ行きたい。",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "来られる",
+   "ipa": "korareru",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "こんにちは！土曜日は私の誕生日で、パーティーをするんだ。来られる？",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "パーティー",
+   "ipa": "paatii",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "こんにちは！土曜日は私の誕生日で、パーティーをするんだ。来られる？",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "持って",
+   "ipa": "motte",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "何か食べ物か飲み物を持って行こうか。",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "誕生日",
+   "ipa": "tanjoobi",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "こんにちは！土曜日は私の誕生日で、パーティーをするんだ。来られる？",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "プレゼント",
+   "ipa": "purezento",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "楽しい気分だけ持ってきて。あと、小さなプレゼントも、なんてね。",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "こんにちは！土曜日は私の誕生日で、パーティーをするんだ。来られる？",
+   "glosses": [
+    {
+     "text": "来られる",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "パーティー",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "誕生日",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "すてきな招待ありがとう！うん、ぜひ行きたい。",
+   "glosses": [
+    {
+     "text": "招待",
+     "pos": "n.",
+     "meaning": "an invitation"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "よかった！夜の七時から私の家で始まるよ。",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "何か食べ物か飲み物を持って行こうか。",
+   "glosses": [
+    {
+     "text": "持って",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "楽しい気分だけ持ってきて。あと、小さなプレゼントも、なんてね。",
+   "glosses": [
+    {
+     "text": "持って",
+     "pos": "v.",
+     "meaning": "to bring"
+    },
+    {
+     "text": "プレゼント",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "もちろん！じゃあ、土曜日に会おう。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

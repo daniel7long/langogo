@@ -1,0 +1,248 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "회원권",
+   "ipa": "hoewongwon",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "회원권은 한 달에 얼마예요?",
+     "en": "How much does the membership cost for a month?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "트레이너",
+   "ipa": "teureineo",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "물론이에요. 트레이너가 사용법을 보여 드릴 거예요.",
+     "en": "Of course. Our trainer will show you how everything works."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "목표",
+   "ipa": "mokpyo",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "좋아요. 주된 목표가 뭐예요? 살을 빼는 건가요, 아니면 더 강해지는 건가요?",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "운동",
+   "ipa": "undong",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "네, 규칙적으로 운동을 시작하고 싶어요.",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "세션",
+   "ipa": "sesyeon",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "한 달에 삼십오 달러이고, 첫 세션은 무료예요.",
+     "en": "It is thirty-five a month, and the first session is free."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "더 강해",
+   "ipa": "deo ganghae",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "더 강해지고 낮에도 에너지가 더 있었으면 해요.",
+     "en": "I want to get stronger and have more energy during the day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "헬스장에 오신 것을 환영합니다! 회원권에 관심 있으세요?",
+   "glosses": [
+    {
+     "text": "회원권",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "네, 규칙적으로 운동을 시작하고 싶어요.",
+   "glosses": [
+    {
+     "text": "운동",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "좋아요. 주된 목표가 뭐예요? 살을 빼는 건가요, 아니면 더 강해지는 건가요?",
+   "glosses": [
+    {
+     "text": "목표",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "더 강해",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "더 강해지고 낮에도 에너지가 더 있었으면 해요.",
+   "glosses": [
+    {
+     "text": "더 강해",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "그러면 처음에는 트레이너와 일주일에 세 번 세션을 추천해요.",
+   "glosses": [
+    {
+     "text": "트레이너",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "세션",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "회원권은 한 달에 얼마예요?",
+   "glosses": [
+    {
+     "text": "회원권",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "한 달에 삼십오 달러이고, 첫 세션은 무료예요.",
+   "glosses": [
+    {
+     "text": "세션",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "합리적이네요. 오늘 기구를 써 볼 수 있나요?",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "물론이에요. 트레이너가 사용법을 보여 드릴 거예요.",
+   "glosses": [
+    {
+     "text": "트레이너",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "수건을 직접 가져와야 하나요?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "네, 수건과 물병을 가져오세요.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "좋아요. 지금 바로 등록할게요.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,263 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "影響",
+   "ipa": "eikyoo",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "正直、思うよ。自分たちの見方にすごく大きな影響があると思う。",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "プライバシー",
+   "ipa": "puraibashii",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "同意するよ。プライバシーはどう？企業は私たちのデータをたくさん集めているよね。",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "広がり",
+   "ipa": "hirogari",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "それが一番の心配なんだ。誤解を招くニュースは、事実よりずっと速く広がりがちだよ。",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "誤解を招く",
+   "ipa": "gokai o maneku",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "それが一番の心配なんだ。誤解を招くニュースは、事実よりずっと速く広がりがちだよ。",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "規制",
+   "ipa": "kisei",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "規制は難しいよ。何が真実か、誰が決めるの？",
+     "en": "Regulation is tricky. Who decides what is true?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "依存",
+   "ipa": "izon",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "スマホに依存していると認める人さえいるよ。",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "SNSに一日四時間も使う人がいるって読んだよ。心配だと思わない？",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "正直、思うよ。自分たちの見方にすごく大きな影響があると思う。",
+   "glosses": [
+    {
+     "text": "影響",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "どんなふうに？多くの人は、つながりを保てるだけだって言うけど。",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "それはそうだけど、ネットの完璧な画像と自分の生活を比べると自尊心が傷つくこともあるよ。",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "確かに。そこで読む情報についてはどう？",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "それが一番の心配なんだ。誤解を招くニュースは、事実よりずっと速く広がりがちだよ。",
+   "glosses": [
+    {
+     "text": "広がり",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "誤解を招く",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "プラットフォームがそれに責任を持つべきだと思う？",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "部分的にはね。言論の自由が守られる限り、政府がもっと厳しく規制すべきだと思う。",
+   "glosses": [
+    {
+     "text": "規制",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "規制は難しいよ。何が真実か、誰が決めるの？",
+   "glosses": [
+    {
+     "text": "規制",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "いい指摘だね。解決策は教育かもしれない。情報源を確認することを教えるんだ。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "同意するよ。プライバシーはどう？企業は私たちのデータをたくさん集めているよね。",
+   "glosses": [
+    {
+     "text": "プライバシー",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "それも心配だよ。ほとんどの人は、同意する前に利用規約を読まないしね。",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "スマホに依存していると認める人さえいるよ。",
+   "glosses": [
+    {
+     "text": "依存",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "そこまでは言わないけど、無意識にスマホを確認している自分には気づくよ。",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "じゃあ、SNSを完全にやめることはある？",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "たぶんないけど、使う時間を制限しようとしていて、もう違いが出ているよ。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

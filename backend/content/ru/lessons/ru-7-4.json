@@ -1,0 +1,237 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "выходной",
+   "ipa": "vykhodnój",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Да. Я хотел бы попросить выходной в следующую пятницу.",
+     "en": "Yes. I would like to ask for a day off next Friday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "срочно",
+   "ipa": "sróchno",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Это что-то срочное?",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "заменить",
+   "ipa": "zamenít'",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Понимаю. Кто может заменить тебя в этот день?",
+     "en": "I see. Who can cover your work that day?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "заранее",
+   "ipa": "zaráneje",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Моя коллега может заменить меня, а я всё подготовлю заранее.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "одолжении",
+   "ipa": "odolzhéniji",
+   "pos": "n.",
+   "meaning": "a favor",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Пока нет. Я хотел сначала поговорить с тобой, как об одолжении.",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "с пониманием",
+   "ipa": "s ponimánijem",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Конечно, спасибо, что отнёсся с пониманием.",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Привет, у тебя есть минутка? Ты выглядишь обеспокоенным.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да. Я хотел бы попросить выходной в следующую пятницу.",
+   "glosses": [
+    {
+     "text": "выходной",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Это что-то срочное?",
+   "glosses": [
+    {
+     "text": "срочно",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Немного. Мне нужно поехать на свадьбу двоюродного брата в другой город.",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Понимаю. Кто может заменить тебя в этот день?",
+   "glosses": [
+    {
+     "text": "заменить",
+     "pos": "v.",
+     "meaning": "to replace"
+    }
+   ],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Моя коллега может заменить меня, а я всё подготовлю заранее.",
+   "glosses": [
+    {
+     "text": "заменить",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "заранее",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Это помогает. Ты уже спрашивал её?",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Пока нет. Я хотел сначала поговорить с тобой, как об одолжении.",
+   "glosses": [
+    {
+     "text": "одолжении",
+     "pos": "n.",
+     "meaning": "a favor"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Понятно. Можешь взять выходной, но закончи отчёт до отъезда.",
+   "glosses": [
+    {
+     "text": "выходной",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Конечно, спасибо, что отнёсся с пониманием.",
+   "glosses": [
+    {
+     "text": "с пониманием",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Не за что. Хорошо повеселиться на свадьбе!",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Большое спасибо. Я привезу тебе кусочек торта.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

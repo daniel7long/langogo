@@ -1,0 +1,256 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "কাহিনি",
+   "ipa": "kahini",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "এখনও না। আমি একটা সমালোচনা পড়েছি যেখানে বলা হয়েছে কাহিনি একটু অনুমানযোগ্য।",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "অভিনয়",
+   "ipa": "obhinoy",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আকর্ষণীয়। প্রধান চরিত্রের অভিনয় কেমন ছিল?",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "পরিচালক",
+   "ipa": "porichalok",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আর পরিচালক? আমি তাঁর আগের কাজ খুব পছন্দ করেছিলাম।",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "সমালোচনা",
+   "ipa": "shomalochona",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "এখনও না। আমি একটা সমালোচনা পড়েছি যেখানে বলা হয়েছে কাহিনি একটু অনুমানযোগ্য।",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "অনুমানযোগ্য",
+   "ipa": "onumanjogyo",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "এখনও না। আমি একটা সমালোচনা পড়েছি যেখানে বলা হয়েছে কাহিনি একটু অনুমানযোগ্য।",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "সংগীত",
+   "ipa": "shongit",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "এখানে কাজ করেছে, বিশেষ করে সংগীতের জন্য। এটা অনেক আবেগ যোগ করে।",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "গতরাতে আমি সেই নতুন সিনেমাটা দেখলাম যেটা নিয়ে সবাই কথা বলছে। তুমি কি দেখেছ?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "এখনও না। আমি একটা সমালোচনা পড়েছি যেখানে বলা হয়েছে কাহিনি একটু অনুমানযোগ্য।",
+   "glosses": [
+    {
+     "text": "কাহিনি",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "সমালোচনা",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "অনুমানযোগ্য",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "সত্যি বলতে, প্রথম অর্ধেক তা-ই, কিন্তু শেষটা আমাকে পুরোপুরি চমকে দিয়েছে।",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আকর্ষণীয়। প্রধান চরিত্রের অভিনয় কেমন ছিল?",
+   "glosses": [
+    {
+     "text": "অভিনয়",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "অসাধারণ। অভিনেত্রী চরিত্রটিকে বাস্তব আর জটিল করে তুলেছেন।",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আর পরিচালক? আমি তাঁর আগের কাজ খুব পছন্দ করেছিলাম।",
+   "glosses": [
+    {
+     "text": "পরিচালক",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "তিনি তাঁর সাধারণ ধরন বজায় রাখেন, লম্বা শট আর খুব কম সংলাপ নিয়ে।",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সেটা গল্পের ওপর নির্ভর করে সুন্দর বা বিরক্তিকর হতে পারে।",
+   "glosses": [],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "এখানে কাজ করেছে, বিশেষ করে সংগীতের জন্য। এটা অনেক আবেগ যোগ করে।",
+   "glosses": [
+    {
+     "text": "সংগীত",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "তুমি কি বলবে সিনেমাটা হলে দেখার মতো?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "অবশ্যই। ছবি আর শব্দের জন্য বড় পর্দা দরকার।",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "তাহলে আমি এই সপ্তাহান্তে যাব, যদিও সমালোচকেরা একমত নন।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "সমালোচক আর দর্শক খুব কমই একমত হয়, তাই নিজে বিচার করো।",
+   "glosses": [],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক। তুমি কোনটিকে বেশি রেটিং দেবে, এই সিনেমা না তাঁর আগেরটা?",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "আগেরটা, কিন্তু সামান্য একটু। আমি এটাকে পাঁচে চার তারকা দেব।",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "জেনে ভালো লাগল। আমি দেখার পর আবার আলোচনা করব।",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,187 @@
+{
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "paspor",
+   "ipa": "/ˈpaspɔɾ/",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Selamat siang. Paspor Anda, tolong. Apakah Anda akan check-in satu koper?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "koper",
+   "ipa": "/ˈkɔpəɾ/",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ya, satu koper. Tidak berat.",
+     "en": "Yes, one suitcase. It is not heavy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "boarding pass",
+   "ipa": "/ˈbɔɾdɪŋ pas/",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ini boarding pass Anda. Gerbang Anda nomor dua belas.",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "gerbang",
+   "ipa": "/ˈgɛɾbaŋ/",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Tidak apa-apa. Saya akan menunggu di dekat gerbang.",
+     "en": "That is fine. I will wait near the gate."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "check-in",
+   "ipa": "/ˈtʃɛk ɪn/",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Selamat siang. Paspor Anda, tolong. Apakah Anda akan check-in satu koper?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "terlambat",
+   "ipa": "/təɾˈlambat/",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Empat puluh menit lagi. Tetapi penerbangan Anda terlambat dua puluh menit.",
+     "en": "In forty minutes. But your flight is delayed by twenty minutes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Selamat siang. Paspor Anda, tolong. Apakah Anda akan check-in satu koper?",
+   "glosses": [
+    {
+     "text": "Paspor",
+     "pos": "n.",
+     "meaning": "a passport"
+    },
+    {
+     "text": "koper",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "check-in",
+     "pos": "v.",
+     "meaning": "to check in"
+    }
+   ],
+   "id": "t1",
+   "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya, satu koper. Tidak berat.",
+   "glosses": [
+    {
+     "text": "koper",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, one suitcase. It is not heavy."
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Ini boarding pass Anda. Gerbang Anda nomor dua belas.",
+   "glosses": [
+    {
+     "text": "boarding pass",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    },
+    {
+     "text": "Gerbang",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t3",
+   "en": "Here is your boarding pass. Your gate is number twelve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Terima kasih. Pukul berapa boarding dimulai?",
+   "glosses": [],
+   "id": "t4",
+   "en": "Thank you. What time does boarding start?"
+  },
+  {
+   "speaker": "Agus",
+   "role": "npc",
+   "text": "Empat puluh menit lagi. Tetapi penerbangan Anda terlambat dua puluh menit.",
+   "glosses": [
+    {
+     "text": "terlambat",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": "In forty minutes. But your flight is delayed by twenty minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tidak apa-apa. Saya akan menunggu di dekat gerbang.",
+   "glosses": [
+    {
+     "text": "gerbang",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. I will wait near the gate."
+  }
+ ],
+ "practice_words": []
+}

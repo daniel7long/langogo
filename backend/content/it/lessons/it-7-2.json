@@ -1,0 +1,231 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "una laurea magistrale",
+   "ipa": "/ˈuna laˈurea madʒisˈtraːle/",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sto facendo una laurea magistrale in design e mi piace molto.",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "materia",
+   "ipa": "/maˈtɛrja/",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sembra impegnativo. Qual è la tua materia preferita?",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "gli esami",
+   "ipa": "/ʎi eˈzaːmi/",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "La mia materia preferita è metodi di ricerca, anche se gli esami sono difficili.",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ti laurei",
+   "ipa": "/ti ˈlaurei/",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Quando ti laurei?",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "scadenze",
+   "ipa": "/skaˈdɛntse/",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "L'anno prossimo, se rispetto tutte le scadenze e supero i corsi.",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "una borsa di studio",
+   "ipa": "/ˈuna ˈborsa di ˈstuːdjo/",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "A tempo pieno. Ho una borsa di studio, così posso concentrarmi sugli studi.",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Allora, che cosa stai studiando in questo momento?",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sto facendo una laurea magistrale in design e mi piace molto.",
+   "glosses": [
+    {
+     "text": "una laurea magistrale",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Sembra impegnativo. Qual è la tua materia preferita?",
+   "glosses": [
+    {
+     "text": "materia",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "La mia materia preferita è metodi di ricerca, anche se gli esami sono difficili.",
+   "glosses": [
+    {
+     "text": "materia",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "gli esami",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Quando ti laurei?",
+   "glosses": [
+    {
+     "text": "ti laurei",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "L'anno prossimo, se rispetto tutte le scadenze e supero i corsi.",
+   "glosses": [
+    {
+     "text": "scadenze",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Lavori o studi a tempo pieno?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "A tempo pieno. Ho una borsa di studio, così posso concentrarmi sugli studi.",
+   "glosses": [
+    {
+     "text": "una borsa di studio",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Sai già che cosa vuoi fare dopo?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Non esattamente, ma mi piacerebbe lavorare in un'azienda tecnologica.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "È un buon piano. Sono sicuro che troverai qualcosa.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Grazie! Studiare è dura, ma sto imparando molto.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,232 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "學位",
+   "ipa": "hok6 wai2",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我讀緊設計碩士學位，我好鍾意。",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "科目",
+   "ipa": "fo1 muk6",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "聽落好有要求。你最鍾意邊個科目？",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "考試",
+   "ipa": "haau2 si3",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我最鍾意研究方法，雖然考試好難。",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "畢業",
+   "ipa": "bat1 jip6",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "你幾時畢業？",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "截止日期",
+   "ipa": "zit6 zi2 jat6 kei4",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "明年，如果我趕得切所有截止日期，同埋合格嘅話。",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "獎學金",
+   "ipa": "zoeng2 hok6 gam1",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "全職。我有獎學金，所以可以專心讀書。",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "咁你而家讀緊啲咩？",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我讀緊設計碩士學位，我好鍾意。",
+   "glosses": [
+    {
+     "text": "學位",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "聽落好有要求。你最鍾意邊個科目？",
+   "glosses": [
+    {
+     "text": "科目",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我最鍾意研究方法，雖然考試好難。",
+   "glosses": [
+    {
+     "text": "考試",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "你幾時畢業？",
+   "glosses": [
+    {
+     "text": "畢業",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "明年，如果我趕得切所有截止日期，同埋合格嘅話。",
+   "glosses": [
+    {
+     "text": "截止日期",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "你係全職讀書定係一邊做嘢一邊讀？",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "全職。我有獎學金，所以可以專心讀書。",
+   "glosses": [
+    {
+     "text": "獎學金",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "你知唔知畢業之後想做啲咩？",
+   "glosses": [
+    {
+     "text": "畢業",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "都未完全知，不過我想喺一間科技公司做嘢。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "係個好計劃。我相信你會搵到好嘅工作。",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "多謝！讀書好辛苦，但係我學到好多嘢。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

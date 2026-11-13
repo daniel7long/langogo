@@ -1,0 +1,257 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "влияют",
+   "ipa": "vlijájut",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Честно говоря, да. Думаю, они очень сильно влияют на то, как мы видим себя.",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "конфиденциальность",
+   "ipa": "konfidentsiál'nost'",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Согласен. А что с конфиденциальностью? Компании собирают о нас столько данных.",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "распространяются",
+   "ipa": "rasprostranjájutsja",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Это моя главная тревога. Новости, вводящие в заблуждение, распространяются гораздо быстрее фактов.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "вводящие в заблуждение",
+   "ipa": "vvodjáshchije v zabluzhdénije",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Это моя главная тревога. Новости, вводящие в заблуждение, распространяются гораздо быстрее фактов.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "регулировать",
+   "ipa": "regulírovat'",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Отчасти. Я считаю, что государства должны строже регулировать их, если при этом защищена свобода слова.",
+     "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "зависимы",
+   "ipa": "zavísimy",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Некоторые даже признают, что зависимы от телефона.",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Я читал, что люди проводят в соцсетях по четыре часа в день. Тебя это беспокоит?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Честно говоря, да. Думаю, они очень сильно влияют на то, как мы видим себя.",
+   "glosses": [
+    {
+     "text": "влияют",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "В каком смысле? Многие говорят, что соцсети просто помогают оставаться на связи.",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Помогают, но сравнивать свою жизнь с идеальными картинками в интернете может быть вредно для самооценки.",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Это правда. А что насчёт информации, которую мы там читаем?",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Это моя главная тревога. Новости, вводящие в заблуждение, распространяются гораздо быстрее фактов.",
+   "glosses": [
+    {
+     "text": "распространяются",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "вводящие в заблуждение",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Как думаешь, платформы должны нести за это ответственность?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Отчасти. Я считаю, что государства должны строже регулировать их, если при этом защищена свобода слова.",
+   "glosses": [
+    {
+     "text": "регулировать",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Регулирование это непросто. Кто решает, что правда?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Справедливо. Возможно, решение в образовании: учить людей проверять источники.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Согласен. А что с конфиденциальностью? Компании собирают о нас столько данных.",
+   "glosses": [
+    {
+     "text": "конфиденциальность",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Меня это тоже тревожит. Большинство пользователей никогда не читают условия, прежде чем принять их.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Некоторые даже признают, что зависимы от телефона.",
+   "glosses": [
+    {
+     "text": "зависимы",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я бы не заходил так далеко, но замечаю, что проверяю его автоматически.",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Так ты когда-нибудь совсем бросил бы соцсети?",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Вероятно, нет, но я пытаюсь ограничить время, и это уже меняет многое.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

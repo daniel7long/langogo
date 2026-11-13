@@ -1,0 +1,181 @@
+{
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "sakit kepala",
+   "ipa": "/ˈsakit kəˈpala/",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Saya sakit kepala dan sakit tenggorokan sejak kemarin.",
+     "en": "I have had a headache and a sore throat since yesterday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "obat",
+   "ipa": "/ˈɔbat/",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Apakah Anda alergi terhadap obat tertentu?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "resep",
+   "ipa": "/ˈɾəsɛp/",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Tidak, saya tidak alergi. Apakah saya perlu resep?",
+     "en": "No, I am not allergic. Do I need a prescription?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "dua kali sehari",
+   "ipa": "/ˈdua ˈkali səˈhaɾi/",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Untuk ini tidak. Minumlah satu tablet dua kali sehari, setelah makan.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Minumlah",
+   "ipa": "/miˈnumlah/",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Untuk ini tidak. Minumlah satu tablet dua kali sehari, setelah makan.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "alergi",
+   "ipa": "/aˈlɛɾgi/",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Apakah Anda alergi terhadap obat tertentu?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Selamat pagi. Apa keluhan Anda?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. What seems to be the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Saya sakit kepala dan sakit tenggorokan sejak kemarin.",
+   "glosses": [
+    {
+     "text": "sakit kepala",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a headache and a sore throat since yesterday."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Apakah Anda alergi terhadap obat tertentu?",
+   "glosses": [
+    {
+     "text": "obat",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "alergi",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t3",
+   "en": "Are you allergic to any medicine?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tidak, saya tidak alergi. Apakah saya perlu resep?",
+   "glosses": [
+    {
+     "text": "resep",
+     "pos": "n.",
+     "meaning": "a prescription"
+    },
+    {
+     "text": "alergi",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t4",
+   "en": "No, I am not allergic. Do I need a prescription?"
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Untuk ini tidak. Minumlah satu tablet dua kali sehari, setelah makan.",
+   "glosses": [
+    {
+     "text": "dua kali sehari",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "Minumlah",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": "Not for this. Take one tablet twice a day, after meals."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Terima kasih. Saya akan minum yang pertama malam ini.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. I will take the first one this evening."
+  }
+ ],
+ "practice_words": []
+}

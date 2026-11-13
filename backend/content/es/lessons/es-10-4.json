@@ -1,0 +1,267 @@
+{
+ "emoji": "🚌",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "el tráfico",
+   "ipa": "/el ˈtɾa.fi.ko/",
+   "pos": "n.",
+   "meaning": "traffic",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Cómodos, sí, pero también pierdes tiempo en el tráfico y gastas mucho en aparcamiento.",
+     "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "la contaminación",
+   "ipa": "/la kon.ta.mi.na.ˈsjon/",
+   "pos": "n.",
+   "meaning": "pollution",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Me parece una idea audaz, pero podría reducir la contaminación y el tráfico de forma notable.",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "fiables",
+   "ipa": "/ˈfja.βles/",
+   "pos": "adj.",
+   "meaning": "reliable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Antes tendría que mejorar el transporte público. Nuestros autobuses rara vez son fiables.",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "las tarifas",
+   "ipa": "/las ta.ˈɾi.fas/",
+   "pos": "n.",
+   "meaning": "a fare",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Y las tarifas son caras para las familias con varios hijos.",
+     "en": "And the fares are expensive for families with several children."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "cómodos",
+   "ipa": "/ˈko.mo.ðos/",
+   "pos": "adj.",
+   "meaning": "convenient",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aunque los coches son muy cómodos. Puedo ir a cualquier sitio cuando quiero.",
+     "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "transporte público",
+   "ipa": "/tɾans.ˈpoɾ.te ˈpu.βli.ko/",
+   "pos": "n.",
+   "meaning": "public transport",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Antes tendría que mejorar el transporte público. Nuestros autobuses rara vez son fiables.",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Nuestra ciudad quiere prohibir los coches en el centro. ¿Qué opinas?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Our city wants to ban cars from the center. What do you think?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Me parece una idea audaz, pero podría reducir la contaminación y el tráfico de forma notable.",
+   "glosses": [
+    {
+     "text": "el tráfico",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "la contaminación",
+     "pos": "n.",
+     "meaning": "pollution"
+    }
+   ],
+   "id": "t2",
+   "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "¿Pero qué pasa con la gente que depende del coche, como los repartidores?",
+   "glosses": [],
+   "id": "t3",
+   "en": "But what about people who depend on their cars, like delivery drivers?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Podrían recibir permisos especiales, para que el plan no perjudique a los negocios locales.",
+   "glosses": [],
+   "id": "t4",
+   "en": "They could receive special permits, so the plan would not hurt local businesses."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Antes tendría que mejorar el transporte público. Nuestros autobuses rara vez son fiables.",
+   "glosses": [
+    {
+     "text": "fiables",
+     "pos": "adj.",
+     "meaning": "reliable"
+    },
+    {
+     "text": "transporte público",
+     "pos": "n.",
+     "meaning": "public transport"
+    }
+   ],
+   "id": "t5",
+   "en": "Public transport would have to improve first. Our buses are rarely reliable."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exacto. Sin servicios frecuentes y puntuales, el plan fracasará.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Exactly. Without frequent and punctual services, the plan will fail."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Y las tarifas son caras para las familias con varios hijos.",
+   "glosses": [
+    {
+     "text": "las tarifas",
+     "pos": "n.",
+     "meaning": "a fare"
+    }
+   ],
+   "id": "t7",
+   "en": "And the fares are expensive for families with several children."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Un abono mensual más barato animaría a más gente a dejar el coche en casa.",
+   "glosses": [],
+   "id": "t8",
+   "en": "A cheaper monthly pass would encourage more people to leave their cars at home."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Aunque los coches son muy cómodos. Puedo ir a cualquier sitio cuando quiero.",
+   "glosses": [
+    {
+     "text": "cómodos",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t9",
+   "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Cómodos, sí, pero también pierdes tiempo en el tráfico y gastas mucho en aparcamiento.",
+   "glosses": [
+    {
+     "text": "el tráfico",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "Cómodos",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t10",
+   "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Es verdad. Paso casi una hora al día buscando dónde aparcar.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is true. I spend nearly an hour a day looking for a place to park."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Algunas ciudades demuestran que los carriles bici pueden funcionar muy bien.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Some cities show that cycling lanes can work very well."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Quizá, pero nuestros inviernos son más duros que los suyos.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Perhaps, but our winters are harsher than theirs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tienes razón, por eso probablemente haga falta una mezcla de soluciones.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Fair enough, which is why a mix of solutions is probably necessary."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Quizá apoye el plan si mejoran los trenes y los autobuses.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I might support the plan if the trains and buses improve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Esa sería la condición adecuada. El cambio funciona mejor cuando la gente tiene alternativas.",
+   "glosses": [],
+   "id": "t16",
+   "en": "That would be the right condition. Change works best when people have alternatives."
+  }
+ ],
+ "practice_words": []
+}

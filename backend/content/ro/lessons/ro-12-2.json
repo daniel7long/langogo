@@ -1,0 +1,257 @@
+{
+ "emoji": "🏡",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "creditul ipotecar",
+   "ipa": "/ˈkreditul ipoteˈkar/",
+   "pos": "n.",
+   "meaning": "a mortgage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Problema este creditul ipotecar. Dobânzile sunt atât de mari acum.",
+     "en": "The problem is the mortgage. The interest rates are so high right now."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "o investiție",
+   "ipa": "/o investiˈtsie/",
+   "pos": "n.",
+   "meaning": "an investment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Atunci cumpărarea ar putea fi o investiție bună, dacă îți permiți.",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "proprietarul",
+   "ipa": "/proprieˈtarul/",
+   "pos": "n.",
+   "meaning": "a landlord",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ai dreptate. La chirie, proprietarul plătește reparațiile.",
+     "en": "That is a good point. With rent, the landlord pays for repairs."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "flexibilă",
+   "ipa": "/fleksiˈbilə/",
+   "pos": "adj.",
+   "meaning": "flexible",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Exact, iar chiria este și mai flexibilă dacă îți schimbi locul de muncă.",
+     "en": "Exactly, and renting is also more flexible if you change jobs."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "îți permiți",
+   "ipa": "/ɨts perˈmits/",
+   "pos": "v.",
+   "meaning": "to afford",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Atunci cumpărarea ar putea fi o investiție bună, dacă îți permiți.",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "proprietatea",
+   "ipa": "/proprieˈtatea/",
+   "pos": "n.",
+   "meaning": "property",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Da, ar fi puțin mai mari decât chiria mea, dar atunci proprietatea ar fi a mea.",
+     "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "M-am săturat să plătesc chirie. Crezi că ar trebui să cumpăr un apartament?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I am tired of paying rent. Do you think I should buy an apartment instead?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Depinde de planurile tale. Cât timp vei rămâne în acest oraș?",
+   "glosses": [],
+   "id": "t2",
+   "en": "It depends on your plans. How long will you stay in this city?"
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Cel puțin zece ani, cred. Poate mai mult.",
+   "glosses": [],
+   "id": "t3",
+   "en": "At least ten years, I think. Maybe more."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Atunci cumpărarea ar putea fi o investiție bună, dacă îți permiți.",
+   "glosses": [
+    {
+     "text": "o investiție",
+     "pos": "n.",
+     "meaning": "an investment"
+    },
+    {
+     "text": "îți permiți",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t4",
+   "en": "Then buying could be a good investment, if you can afford it."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Problema este creditul ipotecar. Dobânzile sunt atât de mari acum.",
+   "glosses": [
+    {
+     "text": "creditul ipotecar",
+     "pos": "n.",
+     "meaning": "a mortgage"
+    }
+   ],
+   "id": "t5",
+   "en": "The problem is the mortgage. The interest rates are so high right now."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Adevărat. Ai calculat cât ar fi ratele lunare?",
+   "glosses": [],
+   "id": "t6",
+   "en": "True. Have you calculated what the monthly payments would be?"
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Da, ar fi puțin mai mari decât chiria mea, dar atunci proprietatea ar fi a mea.",
+   "glosses": [
+    {
+     "text": "proprietatea",
+     "pos": "n.",
+     "meaning": "property"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Și trebuie să adaugi la cost reparațiile, taxele și asigurarea.",
+   "glosses": [],
+   "id": "t8",
+   "en": "And you must add repairs, taxes and insurance to the cost."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Ai dreptate. La chirie, proprietarul plătește reparațiile.",
+   "glosses": [
+    {
+     "text": "proprietarul",
+     "pos": "n.",
+     "meaning": "a landlord"
+    }
+   ],
+   "id": "t9",
+   "en": "That is a good point. With rent, the landlord pays for repairs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exact, iar chiria este și mai flexibilă dacă îți schimbi locul de muncă.",
+   "glosses": [
+    {
+     "text": "flexibilă",
+     "pos": "adj.",
+     "meaning": "flexible"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly, and renting is also more flexible if you change jobs."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Dar simt că arunc bani în fiecare lună.",
+   "glosses": [],
+   "id": "t11",
+   "en": "But I feel I am throwing money away every month."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nu chiar. Plătești pentru un loc în care să locuiești și pentru libertatea de a te muta.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not really. You are paying for a place to live and for the freedom to move."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Nu mă gândisem niciodată așa.",
+   "glosses": [],
+   "id": "t13",
+   "en": "I had never thought about it like that."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Compară ambele variante pe hârtie pe cincisprezece ani și întreabă un consultant financiar.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Compare both options on paper over fifteen years, and ask a financial adviser."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Bună idee. Fac o programare înainte să decid.",
+   "glosses": [],
+   "id": "t15",
+   "en": "Good idea. I will make an appointment before I decide."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Înțelept. O decizie atât de mare nu trebuie luată în grabă.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wise. Such a big decision should never be taken in a hurry."
+  }
+ ],
+ "practice_words": []
+}

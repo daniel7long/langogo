@@ -1,0 +1,258 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "引っ越す",
+   "ipa": "hikkosu",
+   "pos": "v.",
+   "meaning": "to relocate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "別の国に引っ越すことを考えているって聞いたけど、本当？",
+     "en": "I heard you are thinking about relocating to another country. Is that true?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ビザ",
+   "ipa": "biza",
+   "pos": "n.",
+   "meaning": "a visa",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "すごくね。ビザが必要だし、離れたところから家も探さないといけないんだ。",
+     "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "カルチャーショック",
+   "ipa": "karuchaa shokku",
+   "pos": "phr.",
+   "meaning": "culture shock",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "多くの駐在員が、最初の数か月はカルチャーショックのせいで一番つらいって言うよ。",
+     "en": "Many expats say the first months are the hardest because of culture shock."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "適応",
+   "ipa": "tekioo",
+   "pos": "v.",
+   "meaning": "to adapt",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "うん、もう始めていて、早く適応するのに役立つと思う。",
+     "en": "Yes, I have already started, and it will help me adapt faster."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "ホームシック",
+   "ipa": "hoomushikku",
+   "pos": "adj.",
+   "meaning": "homesick",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "家族や友達と離れること。最初はホームシックになると思う。",
+     "en": "Leaving my family and friends. I think I will feel homesick at first."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "チャンス",
+   "ipa": "chansu",
+   "pos": "n.",
+   "meaning": "an opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "うん、海外で仕事のオファーをもらったんだ。すごいチャンスだよ。",
+     "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "別の国に引っ越すことを考えているって聞いたけど、本当？",
+   "glosses": [
+    {
+     "text": "引っ越す",
+     "pos": "v.",
+     "meaning": "to relocate"
+    }
+   ],
+   "id": "t1",
+   "en": "I heard you are thinking about relocating to another country. Is that true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "うん、海外で仕事のオファーをもらったんだ。すごいチャンスだよ。",
+   "glosses": [
+    {
+     "text": "チャンス",
+     "pos": "n.",
+     "meaning": "an opportunity"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "おめでとう！でも大きな決断だね。緊張してる？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Congratulations! But that is a big decision. Are you nervous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "すごくね。ビザが必要だし、離れたところから家も探さないといけないんだ。",
+   "glosses": [
+    {
+     "text": "ビザ",
+     "pos": "n.",
+     "meaning": "a visa"
+    }
+   ],
+   "id": "t4",
+   "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "一番心配なことは何？",
+   "glosses": [],
+   "id": "t5",
+   "en": "What worries you the most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "家族や友達と離れること。最初はホームシックになると思う。",
+   "glosses": [
+    {
+     "text": "ホームシック",
+     "pos": "adj.",
+     "meaning": "homesick"
+    }
+   ],
+   "id": "t6",
+   "en": "Leaving my family and friends. I think I will feel homesick at first."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "多くの駐在員が、最初の数か月はカルチャーショックのせいで一番つらいって言うよ。",
+   "glosses": [
+    {
+     "text": "カルチャーショック",
+     "pos": "phr.",
+     "meaning": "culture shock"
+    }
+   ],
+   "id": "t7",
+   "en": "Many expats say the first months are the hardest because of culture shock."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "聞いたことがあるから、出発前に現地の習慣を学んでいるところだよ。",
+   "glosses": [],
+   "id": "t8",
+   "en": "I have heard that, so I am trying to learn about local customs before I go."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "賢いね。言語も勉強するの？",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is wise. Will you learn the language as well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "うん、もう始めていて、早く適応するのに役立つと思う。",
+   "glosses": [
+    {
+     "text": "適応",
+     "pos": "v.",
+     "meaning": "to adapt"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, I have already started, and it will help me adapt faster."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "もしそこが気に入らなかったら？",
+   "glosses": [],
+   "id": "t11",
+   "en": "What if you do not like it there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "一年後に戻ってこられるよ。最終的な決断だとは考えていないんだ。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I can come back after a year. I do not see it as a final decision."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "健全な考え方だね。契約は解除できても、経験は残るから。",
+   "glosses": [],
+   "id": "t13",
+   "en": "That is a healthy attitude. Contracts can be broken, but experience stays."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "その通り。たとえ大変でも、自分について多くを学べるはずだよ。",
+   "glosses": [],
+   "id": "t14",
+   "en": "Exactly. Even if it is difficult, I will learn a lot about myself."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "ぜひ連絡を絶やさないで、全部教えてね。",
+   "glosses": [],
+   "id": "t15",
+   "en": "Please keep in touch and tell us everything."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "約束する。落ち着いたら、みんな遊びに来てね。",
+   "glosses": [],
+   "id": "t16",
+   "en": "I promise. You can all visit me once I am settled in."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,225 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "الماجستير",
+   "ipa": "al-mājistīr",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "أدرس الماجستير في التصميم، وأحبه كثيرا.",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "مادتي",
+   "ipa": "māddatī",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "مادتي المفضلة هي مناهج البحث، رغم أن الامتحانات صعبة.",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "الامتحانات",
+   "ipa": "al-imtiḥānāt",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "مادتي المفضلة هي مناهج البحث، رغم أن الامتحانات صعبة.",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "تتخرج",
+   "ipa": "tatakharraj",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "متى تتخرج؟",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "المواعيد النهائية",
+   "ipa": "al-mawāʿīd an-nihāʾiyya",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "السنة القادمة، إذا التزمت بكل المواعيد النهائية ونجحت في موادي.",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "منحة",
+   "ipa": "minḥa",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "بدوام كامل. عندي منحة، لذلك أستطيع التركيز على دراستي.",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "إذن، ماذا تدرس في الوقت الحالي؟",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أدرس الماجستير في التصميم، وأحبه كثيرا.",
+   "glosses": [
+    {
+     "text": "الماجستير",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "يبدو صعبا. ما مادتك المفضلة؟",
+   "glosses": [],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "مادتي المفضلة هي مناهج البحث، رغم أن الامتحانات صعبة.",
+   "glosses": [
+    {
+     "text": "مادتي",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "الامتحانات",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "متى تتخرج؟",
+   "glosses": [
+    {
+     "text": "تتخرج",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "السنة القادمة، إذا التزمت بكل المواعيد النهائية ونجحت في موادي.",
+   "glosses": [
+    {
+     "text": "المواعيد النهائية",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "هل تعمل أم تدرس بدوام كامل؟",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بدوام كامل. عندي منحة، لذلك أستطيع التركيز على دراستي.",
+   "glosses": [
+    {
+     "text": "منحة",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "هل تعرف بالفعل ماذا تريد أن تفعل بعد ذلك؟",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ليس تماما، لكن أحب أن أعمل في شركة تكنولوجيا.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "هذه خطة جيدة. أنا متأكد أنك ستجد شيئا.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "شكرا! الدراسة صعبة، لكنني أتعلم الكثير.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

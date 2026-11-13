@@ -1,0 +1,275 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "masukan",
+   "ipa": "/maˈsukan/",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Kamu punya beberapa menit? Aku ingin meminta masukan tentang presentasiku.",
+     "en": "Do you have a few minutes? I would like some feedback on my presentation."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "saran",
+   "ipa": "/ˈsaɾan/",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aku punya saran: coba bicara lebih lambat, terutama di awal.",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "kritik",
+   "ipa": "/ˈkɾitik/",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ada lagi? Tolong jujur. Aku bisa menerima kritik.",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "spesifik",
+   "ipa": "/spɛˈsifik/",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Itu membantu. Bisakah kamu lebih spesifik, slide yang mana?",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "kemajuan",
+   "ipa": "/kəmaˈdʒuan/",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sama sekali tidak. Kamu sudah membuat kemajuan nyata sejak presentasi terakhirmu.",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "memotivasi",
+   "ipa": "/məmɔtivaˈsi/",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Itu sangat memotivasi aku untuk terus berlatih.",
+     "en": "That really motivates me to keep practicing."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Kamu punya beberapa menit? Aku ingin meminta masukan tentang presentasiku.",
+   "glosses": [
+    {
+     "text": "masukan",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tentu. Pertama-tama, strukturnya jelas dan contoh-contohmu menarik.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Terima kasih. Lalu, apa yang bisa kuperbaiki?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku punya saran: coba bicara lebih lambat, terutama di awal.",
+   "glosses": [
+    {
+     "text": "saran",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Aku memang gugup. Apakah itu terlihat jelas?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sedikit, tetapi mudah diperbaiki. Jeda singkat di antara poin utama akan membantu.",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Ada lagi? Tolong jujur. Aku bisa menerima kritik.",
+   "glosses": [
+    {
+     "text": "kritik",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Slide terakhir memuat terlalu banyak teks, jadi hadirin mulai membaca alih-alih mendengarkan.",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Itu membantu. Bisakah kamu lebih spesifik, slide yang mana?",
+   "glosses": [
+    {
+     "text": "spesifik",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Slide delapan dan sembilan. Pakai satu gambar dan satu kalimat saja.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Akan kulakukan. Jujur, aku takut presentasiku berjalan buruk.",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sama sekali tidak. Kamu sudah membuat kemajuan nyata sejak presentasi terakhirmu.",
+   "glosses": [
+    {
+     "text": "kemajuan",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Itu sangat memotivasi aku untuk terus berlatih.",
+   "glosses": [
+    {
+     "text": "memotivasi",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bagus. Masukan yang membangun seharusnya memotivasi orang, bukan menyurutkan semangat mereka.",
+   "glosses": [
+    {
+     "text": "Masukan",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "memotivasi",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Setuju. Maukah kamu kalau minggu depan aku memberimu masukan tentang presentasimu?",
+   "glosses": [
+    {
+     "text": "masukan",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku akan berterima kasih. Terima kasih sudah terbuka soal ini.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

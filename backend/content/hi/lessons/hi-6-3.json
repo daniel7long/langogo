@@ -1,0 +1,176 @@
+{
+ "emoji": "🛋️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "सप्ताहांत",
+   "ipa": "saptahant",
+   "pos": "n.",
+   "meaning": "the weekend",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "तुम्हारा सप्ताहांत कैसा रहा?",
+     "en": "How was your weekend?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "मिलने",
+   "ipa": "milne",
+   "pos": "v.",
+   "meaning": "to visit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "बहुत बढ़िया! शनिवार को मैं अपने दादा-दादी से मिलने गई।",
+     "en": "It was great! On Saturday I visited my grandparents."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "पकाया",
+   "ipa": "pakaya",
+   "pos": "v.",
+   "meaning": "to cook",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "हमने मिलकर बड़ा दोपहर का खाना पकाया, और फिर एक फ़िल्म देखी।",
+     "en": "We cooked a big lunch together, and then we watched a movie."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "फ़िल्म",
+   "ipa": "film",
+   "pos": "n.",
+   "meaning": "a film",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "हमने मिलकर बड़ा दोपहर का खाना पकाया, और फिर एक फ़िल्म देखी।",
+     "en": "We cooked a big lunch together, and then we watched a movie."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "थकी",
+   "ipa": "thaki",
+   "pos": "adj.",
+   "meaning": "tired",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "मैं थकी हुई थी, इसलिए दिन भर घर पर आराम किया।",
+     "en": "I was tired, so I rested at home all day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "आराम",
+   "ipa": "aaraam",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "मैं थकी हुई थी, इसलिए दिन भर घर पर आराम किया।",
+     "en": "I was tired, so I rested at home all day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "तुम्हारा सप्ताहांत कैसा रहा?",
+   "glosses": [
+    {
+     "text": "सप्ताहांत",
+     "pos": "n.",
+     "meaning": "the weekend"
+    }
+   ],
+   "id": "t1",
+   "en": "How was your weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बहुत बढ़िया! शनिवार को मैं अपने दादा-दादी से मिलने गई।",
+   "glosses": [
+    {
+     "text": "मिलने",
+     "pos": "v.",
+     "meaning": "to visit"
+    }
+   ],
+   "id": "t2",
+   "en": "It was great! On Saturday I visited my grandparents."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "वाह! वहाँ तुमने क्या किया?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Nice! What did you do there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "हमने मिलकर बड़ा दोपहर का खाना पकाया, और फिर एक फ़िल्म देखी।",
+   "glosses": [
+    {
+     "text": "पकाया",
+     "pos": "v.",
+     "meaning": "to cook"
+    },
+    {
+     "text": "फ़िल्म",
+     "pos": "n.",
+     "meaning": "a film"
+    }
+   ],
+   "id": "t4",
+   "en": "We cooked a big lunch together, and then we watched a movie."
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "बहुत अच्छा लगा होगा। और रविवार को?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Sounds lovely. And on Sunday?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं थकी हुई थी, इसलिए दिन भर घर पर आराम किया।",
+   "glosses": [
+    {
+     "text": "थकी",
+     "pos": "adj.",
+     "meaning": "tired"
+    },
+    {
+     "text": "आराम",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t6",
+   "en": "I was tired, so I rested at home all day."
+  }
+ ],
+ "practice_words": []
+}

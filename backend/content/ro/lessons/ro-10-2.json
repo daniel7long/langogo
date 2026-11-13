@@ -1,0 +1,264 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "munca la distanță",
+   "ipa": "/ˈmunka la disˈtantsə/",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Compania mea se gândește să facă munca la distanță permanentă. Ce părere ai?",
+     "en": "My company is considering making remote work permanent. What is your opinion?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "productivitatea",
+   "ipa": "/produktiviˈtatea/",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Dar productivitatea nu scade când oamenii sunt acasă?",
+     "en": "But does productivity not suffer when people are at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "flexibilității",
+   "ipa": "/fleksibilitəˈtsij/",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sunt de acord, mai ales din cauza flexibilității pe care o oferă angajaților.",
+     "en": "I am in favor, mainly because of the flexibility it gives employees."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "izolarea",
+   "ipa": "/izoˈlarea/",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Dar izolarea? Îmi lipsesc discuțiile cu colegii la aparatul de cafea.",
+     "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "naveta",
+   "ipa": "/naˈveta/",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Exact. Păstrezi contactul uman și totuși eviți naveta zilnică.",
+     "en": "Exactly. You keep the human contact and still avoid the daily commute."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "să echilibrăm",
+   "ipa": "/sə ekilibˈrəm/",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Deci întrebarea este cum să echilibrăm munca și viața personală.",
+     "en": "So the question is how to balance work and private life."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Compania mea se gândește să facă munca la distanță permanentă. Ce părere ai?",
+   "glosses": [
+    {
+     "text": "munca la distanță",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": "My company is considering making remote work permanent. What is your opinion?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sunt de acord, mai ales din cauza flexibilității pe care o oferă angajaților.",
+   "glosses": [
+    {
+     "text": "flexibilității",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": "I am in favor, mainly because of the flexibility it gives employees."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Dar productivitatea nu scade când oamenii sunt acasă?",
+   "glosses": [
+    {
+     "text": "productivitatea",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": "But does productivity not suffer when people are at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Studiile arată contrariul pentru multe meserii, deși depinde de persoană.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Studies suggest the opposite for many jobs, though it depends on the person."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Mie îmi este greu să mă concentrez acasă, cu atâtea distracții.",
+   "glosses": [],
+   "id": "t5",
+   "en": "I find it hard to concentrate at home, with all the distractions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "E un argument corect. Un loc de muncă bine amenajat face o mare diferență.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is a fair point. A proper workspace makes a big difference."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Dar izolarea? Îmi lipsesc discuțiile cu colegii la aparatul de cafea.",
+   "glosses": [
+    {
+     "text": "izolarea",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Și mie, sincer. De aceea cred că un model hibrid este cel mai bun.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Me too, to be honest. That is why I think a hybrid model works best."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Două sau trei zile la birou, poate?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Two or three days in the office, perhaps?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exact. Păstrezi contactul uman și totuși eviți naveta zilnică.",
+   "glosses": [
+    {
+     "text": "naveta",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly. You keep the human contact and still avoid the daily commute."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Naveta este cea mai rea parte, trebuie să recunosc. Pierd două ore pe zi.",
+   "glosses": [
+    {
+     "text": "Naveta",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": "The commute is the worst part, I must admit. I lose two hours a day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Gândește-te ce ai putea face cu timpul acela: sport, familie, somn.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Imagine what you could do with that time: sport, family, sleep."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Este mai bine și pentru mediu, desigur.",
+   "glosses": [],
+   "id": "t13",
+   "en": "It is also better for the environment, of course."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Adevărat, deși încălzirea unei case toată ziua consumă și ea energie.",
+   "glosses": [],
+   "id": "t14",
+   "en": "True, although heating a home all day uses energy, too."
+  },
+  {
+   "speaker": "Andrei",
+   "role": "npc",
+   "text": "Deci întrebarea este cum să echilibrăm munca și viața personală.",
+   "glosses": [
+    {
+     "text": "să echilibrăm",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": "So the question is how to balance work and private life."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exact. Un program clar de lucru este esențial, altfel nu te deconectezi niciodată cu adevărat.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Right. Clear working hours are essential, otherwise you never really switch off."
+  }
+ ],
+ "practice_words": []
+}

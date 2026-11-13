@@ -1,0 +1,257 @@
+{
+ "emoji": "🏡",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "ローン",
+   "ipa": "roon",
+   "pos": "n.",
+   "meaning": "a mortgage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "問題はローンなんだ。今は金利がすごく高いから。",
+     "en": "The problem is the mortgage. The interest rates are so high right now."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "投資",
+   "ipa": "tooshi",
+   "pos": "n.",
+   "meaning": "an investment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "それなら買うのはいい投資かもしれないよ、買えるならね。",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "大家",
+   "ipa": "ooya",
+   "pos": "n.",
+   "meaning": "a landlord",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "いい指摘だね。賃貸なら、修理は大家さんが払ってくれるし。",
+     "en": "That is a good point. With rent, the landlord pays for repairs."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "柔軟",
+   "ipa": "juunan",
+   "pos": "adj.",
+   "meaning": "flexible",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "その通り。それに転職するなら賃貸のほうが柔軟だよ。",
+     "en": "Exactly, and renting is also more flexible if you change jobs."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "買える",
+   "ipa": "kaeru",
+   "pos": "v.",
+   "meaning": "to afford",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "それなら買うのはいい投資かもしれないよ、買えるならね。",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "不動産",
+   "ipa": "fudoosan",
+   "pos": "n.",
+   "meaning": "property",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "うん、家賃より少し高くなるけど、その代わり不動産は自分のものになる。",
+     "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "家賃を払うのに疲れたよ。代わりにマンションを買うべきだと思う？",
+   "glosses": [],
+   "id": "t1",
+   "en": "I am tired of paying rent. Do you think I should buy an apartment instead?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "計画しだいだね。この街にどのくらい住むつもり？",
+   "glosses": [],
+   "id": "t2",
+   "en": "It depends on your plans. How long will you stay in this city?"
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "少なくとも十年かな。もっと長いかもしれない。",
+   "glosses": [],
+   "id": "t3",
+   "en": "At least ten years, I think. Maybe more."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "それなら買うのはいい投資かもしれないよ、買えるならね。",
+   "glosses": [
+    {
+     "text": "投資",
+     "pos": "n.",
+     "meaning": "an investment"
+    },
+    {
+     "text": "買える",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t4",
+   "en": "Then buying could be a good investment, if you can afford it."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "問題はローンなんだ。今は金利がすごく高いから。",
+   "glosses": [
+    {
+     "text": "ローン",
+     "pos": "n.",
+     "meaning": "a mortgage"
+    }
+   ],
+   "id": "t5",
+   "en": "The problem is the mortgage. The interest rates are so high right now."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "そうだね。毎月の支払いがいくらになるか計算した？",
+   "glosses": [],
+   "id": "t6",
+   "en": "True. Have you calculated what the monthly payments would be?"
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "うん、家賃より少し高くなるけど、その代わり不動産は自分のものになる。",
+   "glosses": [
+    {
+     "text": "不動産",
+     "pos": "n.",
+     "meaning": "property"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "それに、修理や税金、保険も費用に加えないとね。",
+   "glosses": [],
+   "id": "t8",
+   "en": "And you must add repairs, taxes and insurance to the cost."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "いい指摘だね。賃貸なら、修理は大家さんが払ってくれるし。",
+   "glosses": [
+    {
+     "text": "大家",
+     "pos": "n.",
+     "meaning": "a landlord"
+    }
+   ],
+   "id": "t9",
+   "en": "That is a good point. With rent, the landlord pays for repairs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "その通り。それに転職するなら賃貸のほうが柔軟だよ。",
+   "glosses": [
+    {
+     "text": "柔軟",
+     "pos": "adj.",
+     "meaning": "flexible"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly, and renting is also more flexible if you change jobs."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "でも、毎月お金を捨てているように感じるんだ。",
+   "glosses": [],
+   "id": "t11",
+   "en": "But I feel I am throwing money away every month."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "そうでもないよ。住む場所と、引っ越す自由に対して払っているんだから。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not really. You are paying for a place to live and for the freedom to move."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "そんなふうに考えたことはなかったな。",
+   "glosses": [],
+   "id": "t13",
+   "en": "I had never thought about it like that."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "十五年間で両方を紙に書いて比べて、ファイナンシャルアドバイザーにも聞いてみて。",
+   "glosses": [],
+   "id": "t14",
+   "en": "Compare both options on paper over fifteen years, and ask a financial adviser."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "いい考えだね。決める前に予約を取るよ。",
+   "glosses": [],
+   "id": "t15",
+   "en": "Good idea. I will make an appointment before I decide."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "賢明だね。こんな大きな決断は、急いでするべきじゃないから。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wise. Such a big decision should never be taken in a hurry."
+  }
+ ],
+ "practice_words": []
+}

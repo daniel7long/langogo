@@ -1,0 +1,176 @@
+{
+ "emoji": "🏖️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "إجازة",
+   "ipa": "ijāza",
+   "pos": "n.",
+   "meaning": "a holiday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "هل عندك خطط لإجازة الصيف؟",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "الشاطئ",
+   "ipa": "aš-šāṭiʾ",
+   "pos": "n.",
+   "meaning": "the beach",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "نعم! أريد الذهاب إلى الشاطئ لمدة أسبوع.",
+     "en": "Yes! I want to go to the beach for one week."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "أحجز",
+   "ipa": "aḥjiz",
+   "pos": "v.",
+   "meaning": "to book",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ليس بعد. سأحجزه الليلة عندما أتحقق من الطقس.",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "خطة",
+   "ipa": "ḫiṭṭa",
+   "pos": "n.",
+   "meaning": "a plan",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "شكرا! سأضع خطة وأحزم حقيبتي في عطلة الأسبوع هذه.",
+     "en": "Thanks! I will make a plan and pack my bag this weekend."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "الطقس",
+   "ipa": "aṭ-ṭaqs",
+   "pos": "n.",
+   "meaning": "the weather",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ليس بعد. سأحجزه الليلة عندما أتحقق من الطقس.",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "أحزم",
+   "ipa": "aḥzim",
+   "pos": "v.",
+   "meaning": "to pack",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "شكرا! سأضع خطة وأحزم حقيبتي في عطلة الأسبوع هذه.",
+     "en": "Thanks! I will make a plan and pack my bag this weekend."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "هل عندك خطط لإجازة الصيف؟",
+   "glosses": [
+    {
+     "text": "إجازة",
+     "pos": "n.",
+     "meaning": "a holiday"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have plans for your summer vacation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم! أريد الذهاب إلى الشاطئ لمدة أسبوع.",
+   "glosses": [
+    {
+     "text": "الشاطئ",
+     "pos": "n.",
+     "meaning": "the beach"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes! I want to go to the beach for one week."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "رائع. هل حجزت الفندق بالفعل؟",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wonderful. Did you already book the hotel?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ليس بعد. سأحجزه الليلة عندما أتحقق من الطقس.",
+   "glosses": [
+    {
+     "text": "أحجز",
+     "pos": "v.",
+     "meaning": "to book"
+    },
+    {
+     "text": "الطقس",
+     "pos": "n.",
+     "meaning": "the weather"
+    }
+   ],
+   "id": "t4",
+   "en": "Not yet. I will book it tonight, when I check the weather."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "فكرة جيدة. لا تنس أن تحزم واقي الشمس وقبعة.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Good idea. Do not forget to pack sunscreen and a hat."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "شكرا! سأضع خطة وأحزم حقيبتي في عطلة الأسبوع هذه.",
+   "glosses": [
+    {
+     "text": "خطة",
+     "pos": "n.",
+     "meaning": "a plan"
+    },
+    {
+     "text": "أحزم",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t6",
+   "en": "Thanks! I will make a plan and pack my bag this weekend."
+  }
+ ],
+ "practice_words": []
+}

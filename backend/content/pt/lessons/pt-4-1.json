@@ -1,0 +1,186 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "a estação",
+   "ipa": "/a isˈta.sɐ̃w̃/",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sim, por favor. Onde fica a estação? É longe?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "vire à esquerda",
+   "ipa": "/ˈvi.ɾi a isˈkeʁ.da/",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Vire à esquerda na esquina. A estação fica ao lado do banco.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "em frente",
+   "ipa": "/ẽj ˈfɾẽ.tʃi/",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Não, não é longe. Siga em frente por duas ruas.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "longe",
+   "ipa": "/ˈlõ.ʒi/",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sim, por favor. Onde fica a estação? É longe?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "a esquina",
+   "ipa": "/a isˈki.na/",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Vire à esquerda na esquina. A estação fica ao lado do banco.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "um mapa",
+   "ipa": "/ũ ˈma.pa/",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Obrigado! Tenho um mapa no celular, então vai ser fácil.",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Com licença, posso ajudar? O senhor parece perdido.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sim, por favor. Onde fica a estação? É longe?",
+   "glosses": [
+    {
+     "text": "a estação",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "longe",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Não, não é longe. Siga em frente por duas ruas.",
+   "glosses": [
+    {
+     "text": "em frente",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "longe",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "E depois? Eu viro à esquerda ou à direita?",
+   "glosses": [],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Vire à esquerda na esquina. A estação fica ao lado do banco.",
+   "glosses": [
+    {
+     "text": "A estação",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "Vire à esquerda",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "a esquina",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Obrigado! Tenho um mapa no celular, então vai ser fácil.",
+   "glosses": [
+    {
+     "text": "um mapa",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

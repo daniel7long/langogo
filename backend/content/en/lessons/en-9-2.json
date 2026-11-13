@@ -1,0 +1,237 @@
+{
+ "emoji": "😴",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "stress",
+   "ipa": "/stɹɛs/",
+   "pos": "n.",
+   "meaning": "stress",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Honestly, I am under a lot of stress and I sleep badly.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "exhausted",
+   "ipa": "/ɪɡˈzɔstɪd/",
+   "pos": "adj.",
+   "meaning": "exhausted",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "You look exhausted lately. Is everything all right?",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "habit",
+   "ipa": "/ˈhæbɪt/",
+   "pos": "n.",
+   "meaning": "a habit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Give it two weeks. Habits take time to change.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "relax",
+   "ipa": "/ɹɪˈlæks/",
+   "pos": "v.",
+   "meaning": "to relax",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "I know, but it is difficult to relax after a long day.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "improve",
+   "ipa": "/ɪmˈpɹuv/",
+   "pos": "v.",
+   "meaning": "to improve",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Also, a short walk after work can improve your mood a lot.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "sleep",
+   "ipa": "/slip/",
+   "pos": "v.",
+   "meaning": "to sleep",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "I will try it. I hope I can sleep better this week.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "You look exhausted lately. Is everything all right?",
+   "glosses": [
+    {
+     "text": "exhausted",
+     "pos": "adj.",
+     "meaning": "exhausted"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Honestly, I am under a lot of stress and I sleep badly.",
+   "glosses": [
+    {
+     "text": "stress",
+     "pos": "n.",
+     "meaning": "stress"
+    },
+    {
+     "text": "sleep",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "What time do you usually go to bed?",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Often after midnight, because I check my phone for hours.",
+   "glosses": [],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "That is a bad habit. Try to turn off your screen an hour before bed.",
+   "glosses": [
+    {
+     "text": "habit",
+     "pos": "n.",
+     "meaning": "a habit"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I know, but it is difficult to relax after a long day.",
+   "glosses": [
+    {
+     "text": "relax",
+     "pos": "v.",
+     "meaning": "to relax"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Why don't you read a book or listen to calm music?",
+   "glosses": [],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That is a good idea. I used to do that when I was a student.",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Also, a short walk after work can improve your mood a lot.",
+   "glosses": [
+    {
+     "text": "improve",
+     "pos": "v.",
+     "meaning": "to improve"
+    }
+   ],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I will try it. I hope I can sleep better this week.",
+   "glosses": [
+    {
+     "text": "sleep",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Give it two weeks. Habits take time to change.",
+   "glosses": [
+    {
+     "text": "Habit",
+     "pos": "n.",
+     "meaning": "a habit"
+    }
+   ],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Thanks for the advice. I feel better just talking about it.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

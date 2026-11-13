@@ -1,0 +1,242 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "항공편",
+   "ipa": "hanggongpyeon",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "오늘 다른 항공편으로 변경해 주실 수 있나요?",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "취소",
+   "ipa": "chwiso",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "삼백사 편 승객 여러분, 죄송하지만 이 항공편이 취소되었음을 알려 드립니다.",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "환승",
+   "ipa": "hwanseung",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "실례합니다, 무슨 일이에요? 나중에 중요한 환승이 있는데요.",
+     "en": "Excuse me, what happened? I have an important connection later today."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "지연",
+   "ipa": "jiyeon",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "비행기에 기술적인 문제가 있었습니다. 지연에 대해 사과드립니다.",
+     "en": "There was a technical problem with the plane. We apologize for the delay."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "변경",
+   "ipa": "byeongyeong",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "오늘 다른 항공편으로 변경해 주실 수 있나요?",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "보상",
+   "ipa": "bosang",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "네, 보상을 받으실 권리가 있고, 양식을 드리겠습니다.",
+     "en": "Yes, you have the right to compensation, and I will give you the form."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "삼백사 편 승객 여러분, 죄송하지만 이 항공편이 취소되었음을 알려 드립니다.",
+   "glosses": [
+    {
+     "text": "항공편",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "취소",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "실례합니다, 무슨 일이에요? 나중에 중요한 환승이 있는데요.",
+   "glosses": [
+    {
+     "text": "환승",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": "Excuse me, what happened? I have an important connection later today."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "비행기에 기술적인 문제가 있었습니다. 지연에 대해 사과드립니다.",
+   "glosses": [
+    {
+     "text": "지연",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": "There was a technical problem with the plane. We apologize for the delay."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "오늘 다른 항공편으로 변경해 주실 수 있나요?",
+   "glosses": [
+    {
+     "text": "항공편",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "변경",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": "Can you rebook me on another flight today?"
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "저녁 여덟 시 비행기가 있습니다. 자리가 있는지 확인해 보겠습니다.",
+   "glosses": [],
+   "id": "t5",
+   "en": "There is a flight at eight tonight. Let me check if there are seats."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "부탁드려요. 없으면 어떤 선택지가 있나요?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Please do. If not, what are my options?"
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "호텔과 내일 아침 항공편을 제공해 드릴 수 있습니다.",
+   "glosses": [
+    {
+     "text": "항공편",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t7",
+   "en": "We can offer you a hotel and a flight tomorrow morning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "저는 오늘 밤에 가고 싶어요. 불편에 대한 보상이 있나요?",
+   "glosses": [
+    {
+     "text": "보상",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "네, 보상을 받으실 권리가 있고, 양식을 드리겠습니다.",
+   "glosses": [
+    {
+     "text": "보상",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t9",
+   "en": "Yes, you have the right to compensation, and I will give you the form."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "감사합니다. 식사 쿠폰도 받을 수 있나요?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Thank you. Do I also receive a meal voucher?"
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "네, 여기 식당 쿠폰입니다. 여덟 시 비행기에 타시게 됩니다.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "완벽해요, 제 문제가 해결됐어요. 도와주셔서 정말 감사해요.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Great, that solves my problem. I really appreciate your help."
+  }
+ ],
+ "practice_words": []
+}

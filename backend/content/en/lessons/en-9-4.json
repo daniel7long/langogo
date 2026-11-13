@@ -1,0 +1,234 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "diet",
+   "ipa": "/ˈdaɪət/",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "A balanced diet is the best way to start. Do you eat many vegetables?",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "vegetables",
+   "ipa": "/ˈvɛdʒtəbəlz/",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Try to have at least two portions of vegetables with every meal.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "sugar",
+   "ipa": "/ˈʃʊɡɚ/",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "That sounds hard. What about sugar? I love cakes and soft drinks.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "avoid",
+   "ipa": "/əˈvɔɪd/",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "You should avoid too much sugar, but you do not have to stop completely.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "portions",
+   "ipa": "/ˈpɔɹʃənz/",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Try to have at least two portions of vegetables with every meal.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "balanced",
+   "ipa": "/ˈbælənst/",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "A balanced diet is the best way to start. Do you eat many vegetables?",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "I want to eat better, but I do not know where to start.",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "A balanced diet is the best way to start. Do you eat many vegetables?",
+   "glosses": [
+    {
+     "text": "diet",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "vegetables",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "balanced",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Not really. I mostly eat pasta and fast food.",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Try to have at least two portions of vegetables with every meal.",
+   "glosses": [
+    {
+     "text": "vegetables",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "portions",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "That sounds hard. What about sugar? I love cakes and soft drinks.",
+   "glosses": [
+    {
+     "text": "sugar",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "You should avoid too much sugar, but you do not have to stop completely.",
+   "glosses": [
+    {
+     "text": "sugar",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "avoid",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "What can I drink instead of soft drinks?",
+   "glosses": [],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Water, tea, or water with a slice of lemon.",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "And what do you eat for breakfast?",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Usually yogurt with fruit, or eggs with bread.",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "That is simple. Maybe I can cook more at home.",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes! Cooking at home is cheaper and healthier.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

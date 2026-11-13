@@ -1,0 +1,187 @@
+{
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "паспорт",
+   "ipa": "pásport",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Добрый день. Ваш паспорт, пожалуйста. Вы сдаёте чемодан?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "чемодан",
+   "ipa": "chemodán",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Да, один чемодан. Он не тяжёлый.",
+     "en": "Yes, one suitcase. It is not heavy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "посадочный талон",
+   "ipa": "posádochnyj talón",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Вот ваш посадочный талон. Ваш выход номер двенадцать.",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "выход",
+   "ipa": "výkhod",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Хорошо. Я подожду у выхода.",
+     "en": "That is fine. I will wait near the gate."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "сдаёте",
+   "ipa": "sdajóte",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Добрый день. Ваш паспорт, пожалуйста. Вы сдаёте чемодан?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "задерживается",
+   "ipa": "zaderzhívajetsja",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Через сорок минут. Но ваш рейс задерживается на двадцать минут.",
+     "en": "In forty minutes. But your flight is delayed by twenty minutes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Добрый день. Ваш паспорт, пожалуйста. Вы сдаёте чемодан?",
+   "glosses": [
+    {
+     "text": "паспорт",
+     "pos": "n.",
+     "meaning": "a passport"
+    },
+    {
+     "text": "чемодан",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "сдаёте",
+     "pos": "v.",
+     "meaning": "to check in"
+    }
+   ],
+   "id": "t1",
+   "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, один чемодан. Он не тяжёлый.",
+   "glosses": [
+    {
+     "text": "чемодан",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, one suitcase. It is not heavy."
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Вот ваш посадочный талон. Ваш выход номер двенадцать.",
+   "glosses": [
+    {
+     "text": "посадочный талон",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    },
+    {
+     "text": "выход",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t3",
+   "en": "Here is your boarding pass. Your gate is number twelve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Спасибо. Во сколько начинается посадка?",
+   "glosses": [],
+   "id": "t4",
+   "en": "Thank you. What time does boarding start?"
+  },
+  {
+   "speaker": "Сергей",
+   "role": "npc",
+   "text": "Через сорок минут. Но ваш рейс задерживается на двадцать минут.",
+   "glosses": [
+    {
+     "text": "задерживается",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": "In forty minutes. But your flight is delayed by twenty minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Хорошо. Я подожду у выхода.",
+   "glosses": [
+    {
+     "text": "выход",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. I will wait near the gate."
+  }
+ ],
+ "practice_words": []
+}

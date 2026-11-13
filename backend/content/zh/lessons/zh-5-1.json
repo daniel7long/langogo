@@ -1,0 +1,182 @@
+{
+ "emoji": "👕",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "尺码",
+   "ipa": "chǐmǎ",
+   "pos": "n.",
+   "meaning": "a size",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "有点太大了。有小一点的尺码，或者更便宜的吗？",
+     "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "试穿",
+   "ipa": "shìchuān",
+   "pos": "v.",
+   "meaning": "to try on",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我想买一件夹克。我可以试穿中号吗？",
+     "en": "I am looking for a jacket. Can I try on a medium size?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "试衣间",
+   "ipa": "shìyījiān",
+   "pos": "n.",
+   "meaning": "the fitting room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "当然可以。试衣间在最里面。",
+     "en": "Of course. The fitting room is at the back."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "太大",
+   "ipa": "tài dà",
+   "pos": "phr.",
+   "meaning": "too big",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "有点太大了。有小一点的尺码，或者更便宜的吗？",
+     "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "便宜",
+   "ipa": "piányi",
+   "pos": "adj.",
+   "meaning": "cheaper",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "这是小号的。这周打折，所以更便宜。",
+     "en": "Here is a small one. It is on sale this week, so it is cheaper."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "付款",
+   "ipa": "fùkuǎn",
+   "pos": "v.",
+   "meaning": "to pay",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "太好了，我买这件。在哪里付款？",
+     "en": "Perfect, I will take it. Where can I pay?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "你好！您想找点什么？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello! Are you looking for something special?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我想买一件夹克。我可以试穿中号吗？",
+   "glosses": [
+    {
+     "text": "试穿",
+     "pos": "v.",
+     "meaning": "to try on"
+    }
+   ],
+   "id": "t2",
+   "en": "I am looking for a jacket. Can I try on a medium size?"
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "当然可以。试衣间在最里面。",
+   "glosses": [
+    {
+     "text": "试衣间",
+     "pos": "n.",
+     "meaning": "the fitting room"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The fitting room is at the back."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有点太大了。有小一点的尺码，或者更便宜的吗？",
+   "glosses": [
+    {
+     "text": "尺码",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "太大",
+     "pos": "phr.",
+     "meaning": "too big"
+    },
+    {
+     "text": "便宜",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t4",
+   "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+  },
+  {
+   "speaker": "Xiu",
+   "role": "npc",
+   "text": "这是小号的。这周打折，所以更便宜。",
+   "glosses": [
+    {
+     "text": "便宜",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t5",
+   "en": "Here is a small one. It is on sale this week, so it is cheaper."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "太好了，我买这件。在哪里付款？",
+   "glosses": [
+    {
+     "text": "付款",
+     "pos": "v.",
+     "meaning": "to pay"
+    }
+   ],
+   "id": "t6",
+   "en": "Perfect, I will take it. Where can I pay?"
+  }
+ ],
+ "practice_words": []
+}

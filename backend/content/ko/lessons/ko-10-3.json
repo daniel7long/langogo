@@ -1,0 +1,263 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "쓰레기",
+   "ipa": "sseulegi",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "응, 쓰레기를 줄이려고 해서 플라스틱 병을 사는 걸 그만뒀어.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "재활용",
+   "ipa": "jaehwalyong",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "좋은 시작이네. 집에서는 전부 재활용해?",
+     "en": "That is a good start. Do you recycle everything at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "배출",
+   "ipa": "baechul",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "교통은 어때? 자동차는 배출이 많잖아.",
+     "en": "What about transport? Cars produce a lot of emissions."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "재생 가능",
+   "ipa": "jaesaeng ganeung",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "동의해. 재생 가능 에너지에서 가장 큰 변화가 일어나야 해.",
+     "en": "I agree. Renewable energy is where the biggest change must happen."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "지속 가능",
+   "ipa": "jisok ganeung",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "어떤 사람들은 아직도 지속 가능 제품이 너무 비싸다고 말해.",
+     "en": "Some people still say sustainable products are too expensive."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "줄이",
+   "ipa": "juri",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "응, 쓰레기를 줄이려고 해서 플라스틱 병을 사는 걸 그만뒀어.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "최근에 환경을 보호하려고 바꾼 습관이 있어?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Have you changed any habits recently to protect the environment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "응, 쓰레기를 줄이려고 해서 플라스틱 병을 사는 걸 그만뒀어.",
+   "glosses": [
+    {
+     "text": "쓰레기",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "줄이",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "좋은 시작이네. 집에서는 전부 재활용해?",
+   "glosses": [
+    {
+     "text": "재활용",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": "That is a good start. Do you recycle everything at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "할 수 있는 건 다 해. 종이, 유리, 플라스틱, 심지어 음식물 쓰레기는 퇴비로 만들어.",
+   "glosses": [
+    {
+     "text": "쓰레기",
+     "pos": "n.",
+     "meaning": "waste"
+    }
+   ],
+   "id": "t4",
+   "en": "Everything I can. Paper, glass, plastic and even food scraps for compost."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "대단하다. 나도 더 해야 하는데, 시간이 너무 많이 걸려.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Impressive. I should do more, but it takes so much time."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "솔직히 몇 주 지나면 저절로 하게 돼.",
+   "glosses": [],
+   "id": "t6",
+   "en": "It becomes automatic after a few weeks, honestly."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "교통은 어때? 자동차는 배출이 많잖아.",
+   "glosses": [
+    {
+     "text": "배출",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": "What about transport? Cars produce a lot of emissions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "나는 거의 매일 자전거로 출근하고, 장거리 여행에는 기차를 타.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I cycle to work most days, and I use trains for long trips."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "그런데 개인의 행동이 정말 의미가 있다고 생각해?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you think individual actions really matter, though?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "의미가 있지만, 기업과 정부가 더 큰 규모로 움직여야 해.",
+   "glosses": [],
+   "id": "t10",
+   "en": "They do, but companies and governments must act on a bigger scale."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "동의해. 재생 가능 에너지에서 가장 큰 변화가 일어나야 해.",
+   "glosses": [
+    {
+     "text": "재생 가능",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. Renewable energy is where the biggest change must happen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아. 태양광과 풍력은 해마다 더 싸지고 있어.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Exactly. Solar and wind power are becoming cheaper every year."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "어떤 사람들은 아직도 지속 가능 제품이 너무 비싸다고 말해.",
+   "glosses": [
+    {
+     "text": "지속 가능",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people still say sustainable products are too expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "단기적으로는 그럴 수도 있지만, 더 오래 쓰고 나중에 돈도 아낄 수 있어.",
+   "glosses": [],
+   "id": "t14",
+   "en": "In the short term, maybe, but they last longer and save money later."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "네가 설득했어. 퇴비통부터 시작해 볼게.",
+   "glosses": [],
+   "id": "t15",
+   "en": "You have convinced me. I will start with a compost bin."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "훌륭해. 완벽한 해결책을 기다리는 것보다 작은 한 걸음이 나아.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wonderful. Small steps are better than waiting for a perfect solution."
+  }
+ ],
+ "practice_words": []
+}

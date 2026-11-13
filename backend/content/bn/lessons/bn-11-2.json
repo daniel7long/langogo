@@ -1,0 +1,293 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "শিরোনাম",
+   "ipa": "shironam",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "তুমি কি নতুন কর আইন নিয়ে আজ সকালের শিরোনামটা দেখেছ?",
+     "en": "Did you see this morning's headline about the new tax law?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "সাংবাদিক",
+   "ipa": "shangbadik",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আমি কয়েকটি তুলনা করি, কারণ ভালো সাংবাদিকেরাও পক্ষপাতদুষ্ট হতে পারেন।",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "সূত্র",
+   "ipa": "shutro",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "তুমি কোন খবরের সূত্রে ভরসা করো?",
+     "en": "Which news sources do you trust?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "পক্ষপাতদুষ্ট",
+   "ipa": "pokkhopatdushto",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আমি কয়েকটি তুলনা করি, কারণ ভালো সাংবাদিকেরাও পক্ষপাতদুষ্ট হতে পারেন।",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "যাচাই",
+   "ipa": "jachai",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "ভালো। আর নিজে যাচাই করার পরেই শুধু লেখা শেয়ার কোরো।",
+     "en": "Good. And share articles only after you have checked them yourself."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "মতামত",
+   "ipa": "motamot",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "দেখেছি, কিন্তু মতামত গড়ার আগে আমি আরও পড়তে চাই।",
+     "en": "I did, but I want to read more before forming an opinion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "তুমি কি নতুন কর আইন নিয়ে আজ সকালের শিরোনামটা দেখেছ?",
+   "glosses": [
+    {
+     "text": "শিরোনাম",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t1",
+   "en": "Did you see this morning's headline about the new tax law?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "দেখেছি, কিন্তু মতামত গড়ার আগে আমি আরও পড়তে চাই।",
+   "glosses": [
+    {
+     "text": "মতামত",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": "I did, but I want to read more before forming an opinion."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "বুদ্ধিমানের কাজ। আমি শুধু শিরোনামটা পড়েছি আর ইতিমধ্যে রেগে গেছি।",
+   "glosses": [
+    {
+     "text": "শিরোনাম",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t3",
+   "en": "Smart. I only read the title and I was already angry."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "শিরোনাম ঠিক এভাবেই কাজ করে। এগুলো মনোযোগ টানার জন্য বানানো।",
+   "glosses": [
+    {
+     "text": "শিরোনাম",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t4",
+   "en": "That is exactly how headlines work. They are designed to attract attention."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "তুমি কোন খবরের সূত্রে ভরসা করো?",
+   "glosses": [
+    {
+     "text": "সূত্র",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t5",
+   "en": "Which news sources do you trust?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি কয়েকটি তুলনা করি, কারণ ভালো সাংবাদিকেরাও পক্ষপাতদুষ্ট হতে পারেন।",
+   "glosses": [
+    {
+     "text": "সাংবাদিক",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "পক্ষপাতদুষ্ট",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": "I compare several, because even good journalists can be biased."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "কোনটি বেশি নির্ভুল তা তুমি কীভাবে ঠিক করো?",
+   "glosses": [],
+   "id": "t7",
+   "en": "How do you decide which one is more accurate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি প্রমাণ, নাম উল্লেখ করা বিশেষজ্ঞ, আর তথ্য যাচাই করা যায় কি না দেখি।",
+   "glosses": [
+    {
+     "text": "যাচাই",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": "I look for evidence, named experts, and whether the facts can be verified."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "পাঁচ মিনিটে করা কাজের জন্য এতে অনেক পরিশ্রম লাগে।",
+   "glosses": [],
+   "id": "t9",
+   "en": "That takes a lot of effort for something I do in five minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক, কিন্তু ভালোভাবে অবগত থাকা দায়িত্বশীল নাগরিক হওয়ার অংশ।",
+   "glosses": [],
+   "id": "t10",
+   "en": "True, but being well informed is part of being a responsible citizen."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "মতামতধর্মী লেখার কী হবে? সেগুলো কি শুধু ব্যক্তিগত দৃষ্টিভঙ্গি নয়?",
+   "glosses": [
+    {
+     "text": "মতামত",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t11",
+   "en": "What about opinion articles? Are they not just personal views?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সেগুলো তা-ই, আর সেটা ঠিক আছে, যতক্ষণ স্পষ্টভাবে মতামত হিসেবে চিহ্নিত থাকে।",
+   "glosses": [
+    {
+     "text": "মতামত",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t12",
+   "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "তবু অনেকে পার্থক্যটা খেয়াল করে না।",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many people do not notice the difference, though."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সেজন্যই স্কুলে মিডিয়া শিক্ষা এত গুরুত্বপূর্ণ।",
+   "glosses": [],
+   "id": "t14",
+   "en": "That is why media education in schools matters so much."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "আমি একমত। এখন থেকে আমি অন্তত দুটি সূত্র পড়ার চেষ্টা করব।",
+   "glosses": [
+    {
+     "text": "সূত্র",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": "I agree. I will try to read at least two sources from now on."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ভালো। আর নিজে যাচাই করার পরেই শুধু লেখা শেয়ার কোরো।",
+   "glosses": [
+    {
+     "text": "যাচাই",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t16",
+   "en": "Good. And share articles only after you have checked them yourself."
+  }
+ ],
+ "practice_words": []
+}

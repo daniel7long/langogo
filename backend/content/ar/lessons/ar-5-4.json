@@ -1,0 +1,197 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "شقة",
+   "ipa": "šaqqa",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ثمانمئة في الشهر، والشقة مفروشة.",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "الإيجار",
+   "ipa": "al-ījār",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "نعم. كم الإيجار في الشهر؟",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "شهر",
+   "ipa": "šahr",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "نعم. كم الإيجار في الشهر؟",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "مفروشة",
+   "ipa": "mafrūša",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ثمانمئة في الشهر، والشقة مفروشة.",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "تأمين",
+   "ipa": "taʾmīn",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "هذا جيد. هل يجب أن أدفع تأمينا؟",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "عقد",
+   "ipa": "ʿaqd",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "نعم، شهر واحد كتأمين. نوقع العقد غدا.",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "مرحبا، أنت مهتم بالشقة، أليس كذلك؟",
+   "glosses": [
+    {
+     "text": "شقة",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم. كم الإيجار في الشهر؟",
+   "glosses": [
+    {
+     "text": "الإيجار",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "شهر",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "ثمانمئة في الشهر، والشقة مفروشة.",
+   "glosses": [
+    {
+     "text": "شقة",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "شهر",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "مفروشة",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هذا جيد. هل يجب أن أدفع تأمينا؟",
+   "glosses": [
+    {
+     "text": "تأمين",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "نعم، شهر واحد كتأمين. نوقع العقد غدا.",
+   "glosses": [
+    {
+     "text": "شهر",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "تأمين",
+     "pos": "n.",
+     "meaning": "a deposit"
+    },
+    {
+     "text": "عقد",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ممتاز. هل أستطيع رؤية المطبخ مرة أخرى قبل أن أقرر؟",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

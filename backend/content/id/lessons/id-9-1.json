@@ -1,0 +1,237 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "gejala",
+   "ipa": "/ˈgədʒala/",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Apakah Anda punya gejala lain, seperti nyeri di dada?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "demam",
+   "ipa": "/dəˈmam/",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Saya demam dan batuk parah sudah tiga hari.",
+     "en": "I have had a fever and a bad cough for three days."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "nyeri",
+   "ipa": "/ˈɲəɾi/",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Apakah Anda punya gejala lain, seperti nyeri di dada?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "beristirahat",
+   "ipa": "/bəɾistiɾaˈhat/",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tidak, ini hanya flu berat. Anda perlu beristirahat paling sedikit lima hari.",
+     "en": "No, it is just a strong flu. You need to rest for at least five days."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "pulih",
+   "ipa": "/ˈpulih/",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Berapa lama sampai saya pulih sepenuhnya?",
+     "en": "How long will it take to recover completely?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "janji temu",
+   "ipa": "/ˈdʒandʒi ˈtəmu/",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sekitar seminggu. Datang lagi untuk janji temu berikutnya kalau memburuk.",
+     "en": "About a week. Come back for another appointment if it gets worse."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Halo, silakan duduk. Apa yang membawa Anda ke sini hari ini?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello, please sit down. What brings you here today?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Saya demam dan batuk parah sudah tiga hari.",
+   "glosses": [
+    {
+     "text": "demam",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a fever and a bad cough for three days."
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Apakah Anda punya gejala lain, seperti nyeri di dada?",
+   "glosses": [
+    {
+     "text": "gejala",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "nyeri",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": "Do you have any other symptoms, like pain in your chest?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tidak nyeri, tetapi saya merasa sangat lemas dan tidak bisa tidur nyenyak.",
+   "glosses": [
+    {
+     "text": "nyeri",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t4",
+   "en": "No pain, but I feel very weak and I cannot sleep well."
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Biar saya periksa paru-paru Anda. Tarik napas dalam-dalam, ya.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Let me listen to your lungs. Please breathe deeply."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Apakah ini serius, Dok?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Is it something serious, doctor?"
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Tidak, ini hanya flu berat. Anda perlu beristirahat paling sedikit lima hari.",
+   "glosses": [
+    {
+     "text": "beristirahat",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": "No, it is just a strong flu. You need to rest for at least five days."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Apakah saya harus minum obat?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Should I take any medicine?"
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Saya akan memberi resep untuk demamnya. Minumlah banyak air juga.",
+   "glosses": [
+    {
+     "text": "demam",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t9",
+   "en": "I will give you a prescription for the fever. Drink a lot of water, too."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Berapa lama sampai saya pulih sepenuhnya?",
+   "glosses": [
+    {
+     "text": "pulih",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": "How long will it take to recover completely?"
+  },
+  {
+   "speaker": "Sari",
+   "role": "npc",
+   "text": "Sekitar seminggu. Datang lagi untuk janji temu berikutnya kalau memburuk.",
+   "glosses": [
+    {
+     "text": "janji temu",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": "About a week. Come back for another appointment if it gets worse."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Terima kasih, Dok. Saya akan mengikuti saran Anda.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you, doctor. I will follow your advice."
+  }
+ ],
+ "practice_words": []
+}

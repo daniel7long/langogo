@@ -1,0 +1,187 @@
+{
+ "emoji": "🏖️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "휴가",
+   "ipa": "hyuga",
+   "pos": "n.",
+   "meaning": "a holiday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "여름휴가 계획 있어?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "해변",
+   "ipa": "haebyeon",
+   "pos": "n.",
+   "meaning": "the beach",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "응! 일주일 동안 해변에 가고 싶어.",
+     "en": "Yes! I want to go to the beach for one week."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "예약",
+   "ipa": "yeyak",
+   "pos": "v.",
+   "meaning": "to book",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "좋다. 호텔은 벌써 예약했어?",
+     "en": "Wonderful. Did you already book the hotel?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "계획",
+   "ipa": "gyehoek",
+   "pos": "n.",
+   "meaning": "a plan",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "여름휴가 계획 있어?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "날씨",
+   "ipa": "nalssi",
+   "pos": "n.",
+   "meaning": "the weather",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "아직. 오늘 밤에 날씨를 확인하고 예약할 거야.",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "짐",
+   "ipa": "jim",
+   "pos": "v.",
+   "meaning": "to pack",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "고마워! 이번 주말에 계획을 세우고 짐을 쌀 거야.",
+     "en": "Thanks! I will make a plan and pack my bag this weekend."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "여름휴가 계획 있어?",
+   "glosses": [
+    {
+     "text": "휴가",
+     "pos": "n.",
+     "meaning": "a holiday"
+    },
+    {
+     "text": "계획",
+     "pos": "n.",
+     "meaning": "a plan"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have plans for your summer vacation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "응! 일주일 동안 해변에 가고 싶어.",
+   "glosses": [
+    {
+     "text": "해변",
+     "pos": "n.",
+     "meaning": "the beach"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes! I want to go to the beach for one week."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "좋다. 호텔은 벌써 예약했어?",
+   "glosses": [
+    {
+     "text": "예약",
+     "pos": "v.",
+     "meaning": "to book"
+    }
+   ],
+   "id": "t3",
+   "en": "Wonderful. Did you already book the hotel?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "아직. 오늘 밤에 날씨를 확인하고 예약할 거야.",
+   "glosses": [
+    {
+     "text": "예약",
+     "pos": "v.",
+     "meaning": "to book"
+    },
+    {
+     "text": "날씨",
+     "pos": "n.",
+     "meaning": "the weather"
+    }
+   ],
+   "id": "t4",
+   "en": "Not yet. I will book it tonight, when I check the weather."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "좋은 생각이야. 선크림이랑 모자 챙기는 거 잊지 마.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Good idea. Do not forget to pack sunscreen and a hat."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "고마워! 이번 주말에 계획을 세우고 짐을 쌀 거야.",
+   "glosses": [
+    {
+     "text": "계획",
+     "pos": "n.",
+     "meaning": "a plan"
+    },
+    {
+     "text": "짐",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t6",
+   "en": "Thanks! I will make a plan and pack my bag this weekend."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,287 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "头条",
+   "ipa": "tóutiáo",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你看到今天早上关于新税法的头条了吗？",
+     "en": "Did you see this morning's headline about the new tax law?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "记者",
+   "ipa": "jìzhě",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我会比较好几个，因为即使是优秀的记者也可能有偏见。",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "来源",
+   "ipa": "láiyuán",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你相信哪些新闻来源？",
+     "en": "Which news sources do you trust?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "偏见",
+   "ipa": "piānjiàn",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我会比较好几个，因为即使是优秀的记者也可能有偏见。",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "核实",
+   "ipa": "héshí",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "很好。而且转发文章之前要自己先核实。",
+     "en": "Good. And share articles only after you have checked them yourself."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "观点",
+   "ipa": "guāndiǎn",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "那观点类文章呢？它们不就是个人看法吗？",
+     "en": "What about opinion articles? Are they not just personal views?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "你看到今天早上关于新税法的头条了吗？",
+   "glosses": [
+    {
+     "text": "头条",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t1",
+   "en": "Did you see this morning's headline about the new tax law?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "看到了，但我想多读一些再形成自己的观点。",
+   "glosses": [
+    {
+     "text": "观点",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": "I did, but I want to read more before forming an opinion."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "聪明。我只看了标题就已经生气了。",
+   "glosses": [],
+   "id": "t3",
+   "en": "Smart. I only read the title and I was already angry."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "头条就是这样运作的。它们是为了吸引注意力而设计的。",
+   "glosses": [
+    {
+     "text": "头条",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t4",
+   "en": "That is exactly how headlines work. They are designed to attract attention."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "你相信哪些新闻来源？",
+   "glosses": [
+    {
+     "text": "来源",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t5",
+   "en": "Which news sources do you trust?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我会比较好几个，因为即使是优秀的记者也可能有偏见。",
+   "glosses": [
+    {
+     "text": "记者",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "偏见",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": "I compare several, because even good journalists can be biased."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "你怎么判断哪一个更准确？",
+   "glosses": [],
+   "id": "t7",
+   "en": "How do you decide which one is more accurate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我找证据、有名有姓的专家，还有事实能不能核实。",
+   "glosses": [
+    {
+     "text": "核实",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": "I look for evidence, named experts, and whether the facts can be verified."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "对于我五分钟就做完的事来说，这太费劲了。",
+   "glosses": [],
+   "id": "t9",
+   "en": "That takes a lot of effort for something I do in five minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "没错，但消息灵通是做一个负责任的公民的一部分。",
+   "glosses": [],
+   "id": "t10",
+   "en": "True, but being well informed is part of being a responsible citizen."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "那观点类文章呢？它们不就是个人看法吗？",
+   "glosses": [
+    {
+     "text": "观点",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t11",
+   "en": "What about opinion articles? Are they not just personal views?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "是个人看法，这没问题，只要明确标明是观点就行。",
+   "glosses": [
+    {
+     "text": "观点",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t12",
+   "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "不过，很多人注意不到其中的区别。",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many people do not notice the difference, though."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "这就是学校里的媒体教育为什么这么重要。",
+   "glosses": [],
+   "id": "t14",
+   "en": "That is why media education in schools matters so much."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "我同意。从现在起我会尽量至少读两个来源。",
+   "glosses": [
+    {
+     "text": "来源",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": "I agree. I will try to read at least two sources from now on."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "很好。而且转发文章之前要自己先核实。",
+   "glosses": [
+    {
+     "text": "核实",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t16",
+   "en": "Good. And share articles only after you have checked them yourself."
+  }
+ ],
+ "practice_words": []
+}

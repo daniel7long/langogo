@@ -1,0 +1,181 @@
+{
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "পার্সেল",
+   "ipa": "parsel",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আমি এই পার্সেলটি কানাডায় পাঠাতে চাই।",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ডাকটিকিট",
+   "ipa": "dakTikit",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "প্রায় এক সপ্তাহ। ডাকটিকিটসহ মোট উনিশ ইউরো।",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "পাঠাতে",
+   "ipa": "pathate",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আমি এই পার্সেলটি কানাডায় পাঠাতে চাই।",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ঠিকানা",
+   "ipa": "thikana",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আমি ওজনটা দেখি। দুই কেজি। দয়া করে এখানে ঠিকানা লিখুন।",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "ওজন",
+   "ipa": "ojon",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আমি ওজনটা দেখি। দুই কেজি। দয়া করে এখানে ঠিকানা লিখুন।",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "সপ্তাহ",
+   "ipa": "shoptaho",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "প্রায় এক সপ্তাহ। ডাকটিকিটসহ মোট উনিশ ইউরো।",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "নমস্কার। আমি কীভাবে সাহায্য করতে পারি?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি এই পার্সেলটি কানাডায় পাঠাতে চাই।",
+   "glosses": [
+    {
+     "text": "পার্সেল",
+     "pos": "n.",
+     "meaning": "a parcel"
+    },
+    {
+     "text": "পাঠাতে",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like to send this parcel to Canada, please."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "আমি ওজনটা দেখি। দুই কেজি। দয়া করে এখানে ঠিকানা লিখুন।",
+   "glosses": [
+    {
+     "text": "ঠিকানা",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "ওজন",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": "Let me check the weight. It is two kilos. Please write the address here."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "লিখেছি। কত সময় লাগবে? আর পোস্টকার্ডের জন্য আমার তিনটি ডাকটিকিট লাগবে।",
+   "glosses": [
+    {
+     "text": "ডাকটিকিট",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": "Done. How long will it take? Also, I need three stamps for postcards."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "প্রায় এক সপ্তাহ। ডাকটিকিটসহ মোট উনিশ ইউরো।",
+   "glosses": [
+    {
+     "text": "ডাকটিকিট",
+     "pos": "n.",
+     "meaning": "a stamp"
+    },
+    {
+     "text": "সপ্তাহ",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": "About a week. The total is nineteen euros, with the stamps."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক আছে। এই আমার কার্ড।",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. Here is my card."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,231 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "運転免許証",
+   "ipa": "unten menkyoshoo",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "はい、小さい車を五日間お願いします。これが私の運転免許証です。",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "保険",
+   "ipa": "hoken",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "はい、お願いします。保険は一日いくらですか。",
+     "en": "Yes, please. How much is the insurance per day?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "保証金",
+   "ipa": "hoshookin",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "一日八ドルです。それと二百ドルの保証金も必要です。",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ナビ",
+   "ipa": "nabi",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "わかりました。車にナビはついていますか。",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "タンク",
+   "ipa": "tanku",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "はい。タンクは今満タンですので、満タンにして返してください。",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "返して",
+   "ipa": "kaeshite",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "はい。タンクは今満タンですので、満タンにして返してください。",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "こんにちは。車のご予約はありますか。",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "はい、小さい車を五日間お願いします。これが私の運転免許証です。",
+   "glosses": [
+    {
+     "text": "運転免許証",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "ありがとうございます。追加の保険はいかがですか。あらゆる損害をカバーします。",
+   "glosses": [
+    {
+     "text": "保険",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "はい、お願いします。保険は一日いくらですか。",
+   "glosses": [
+    {
+     "text": "保険",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "一日八ドルです。それと二百ドルの保証金も必要です。",
+   "glosses": [
+    {
+     "text": "保証金",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "わかりました。車にナビはついていますか。",
+   "glosses": [
+    {
+     "text": "ナビ",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "はい。タンクは今満タンですので、満タンにして返してください。",
+   "glosses": [
+    {
+     "text": "タンク",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "返して",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "了解しました。最後はどこで車を返せばいいですか。",
+   "glosses": [],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "こちらの同じ事務所で、最終日の夜六時までにお願いします。",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "少し遅れたらどうなりますか。",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "その場合はもう一日分の料金がかかりますので、ご連絡ください。",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "わかりました。ありがとうございました。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,187 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "টিকিট",
+   "ipa": "tikit",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "বুঝেছি। টিকিটের দাম কত?",
+     "en": "I understand. How much is the ticket?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "প্ল্যাটফর্ম",
+   "ipa": "platform",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "অবশ্যই। পরের ট্রেন নয়টায় চার নম্বর প্ল্যাটফর্ম থেকে ছাড়ে।",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ছাড়ে",
+   "ipa": "chhare",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "অবশ্যই। পরের ট্রেন নয়টায় চার নম্বর প্ল্যাটফর্ম থেকে ছাড়ে।",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "আসা-যাওয়ার",
+   "ipa": "aasha-jaoar",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আমার রাজধানীর একটি আসা-যাওয়ার টিকিট চাই, দয়া করে।",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "সময়মতো",
+   "ipa": "shomoymoto",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আজ কি সেটা সময়মতো চলছে?",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "ট্রেন বদলাতে",
+   "ipa": "tren bodlate",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "হ্যাঁ, সময়মতো চলছে। কিন্তু পরের শহরে আপনাকে ট্রেন বদলাতে হবে।",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "সুপ্রভাত। আমি কীভাবে সাহায্য করতে পারি?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমার রাজধানীর একটি আসা-যাওয়ার টিকিট চাই, দয়া করে।",
+   "glosses": [
+    {
+     "text": "টিকিট",
+     "pos": "n.",
+     "meaning": "a ticket"
+    },
+    {
+     "text": "আসা-যাওয়ার",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "অবশ্যই। পরের ট্রেন নয়টায় চার নম্বর প্ল্যাটফর্ম থেকে ছাড়ে।",
+   "glosses": [
+    {
+     "text": "প্ল্যাটফর্ম",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "ছাড়ে",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আজ কি সেটা সময়মতো চলছে?",
+   "glosses": [
+    {
+     "text": "সময়মতো",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "হ্যাঁ, সময়মতো চলছে। কিন্তু পরের শহরে আপনাকে ট্রেন বদলাতে হবে।",
+   "glosses": [
+    {
+     "text": "সময়মতো",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "ট্রেন বদলাতে",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "বুঝেছি। টিকিটের দাম কত?",
+   "glosses": [
+    {
+     "text": "টিকিট",
+     "pos": "n.",
+     "meaning": "a ticket"
+    }
+   ],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,237 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "উপসর্গ",
+   "ipa": "uposhorgo",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আর কোনো উপসর্গ আছে কি, যেমন বুকে ব্যথা?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "জ্বর",
+   "ipa": "jor",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "তিন দিন ধরে আমার জ্বর আর খুব কাশি হচ্ছে।",
+     "en": "I have had a fever and a bad cough for three days."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ব্যথা",
+   "ipa": "byatha",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আর কোনো উপসর্গ আছে কি, যেমন বুকে ব্যথা?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "বিশ্রাম",
+   "ipa": "bishram",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "না, এটা শুধু তীব্র ফ্লু। আপনাকে অন্তত পাঁচ দিন বিশ্রাম নিতে হবে।",
+     "en": "No, it is just a strong flu. You need to rest for at least five days."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "সুস্থ",
+   "ipa": "shustho",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "সম্পূর্ণ সুস্থ হতে আমার কতক্ষণ লাগবে?",
+     "en": "How long will it take to recover completely?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "আরেকটি অ্যাপয়েন্টমেন্ট",
+   "ipa": "arekti apoyentment",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "প্রায় এক সপ্তাহ। অবস্থা খারাপ হলে আরেকটি অ্যাপয়েন্টমেন্টের জন্য আসবেন।",
+     "en": "About a week. Come back for another appointment if it gets worse."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "নমস্কার, দয়া করে বসুন। আজ আপনি কী কারণে এসেছেন?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello, please sit down. What brings you here today?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "তিন দিন ধরে আমার জ্বর আর খুব কাশি হচ্ছে।",
+   "glosses": [
+    {
+     "text": "জ্বর",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a fever and a bad cough for three days."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "আর কোনো উপসর্গ আছে কি, যেমন বুকে ব্যথা?",
+   "glosses": [
+    {
+     "text": "উপসর্গ",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "ব্যথা",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": "Do you have any other symptoms, like pain in your chest?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ব্যথা নেই, কিন্তু আমি খুব দুর্বল বোধ করছি আর ভালো ঘুমাতে পারছি না।",
+   "glosses": [
+    {
+     "text": "ব্যথা",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t4",
+   "en": "No pain, but I feel very weak and I cannot sleep well."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "আমি আপনার ফুসফুস শুনি। দয়া করে গভীর শ্বাস নিন।",
+   "glosses": [],
+   "id": "t5",
+   "en": "Let me listen to your lungs. Please breathe deeply."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ডাক্তারবাবু, এটা কি গুরুতর?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Is it something serious, doctor?"
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "না, এটা শুধু তীব্র ফ্লু। আপনাকে অন্তত পাঁচ দিন বিশ্রাম নিতে হবে।",
+   "glosses": [
+    {
+     "text": "বিশ্রাম",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": "No, it is just a strong flu. You need to rest for at least five days."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমাকে কি কোনো ওষুধ খেতে হবে?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Should I take any medicine?"
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "আমি জ্বরের জন্য প্রেসক্রিপশন দিচ্ছি। প্রচুর পানিও পান করবেন।",
+   "glosses": [
+    {
+     "text": "জ্বর",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t9",
+   "en": "I will give you a prescription for the fever. Drink a lot of water, too."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সম্পূর্ণ সুস্থ হতে আমার কতক্ষণ লাগবে?",
+   "glosses": [
+    {
+     "text": "সুস্থ",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": "How long will it take to recover completely?"
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "প্রায় এক সপ্তাহ। অবস্থা খারাপ হলে আরেকটি অ্যাপয়েন্টমেন্টের জন্য আসবেন।",
+   "glosses": [
+    {
+     "text": "আরেকটি অ্যাপয়েন্টমেন্ট",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": "About a week. Come back for another appointment if it gets worse."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ধন্যবাদ, ডাক্তারবাবু। আমি আপনার পরামর্শ মেনে চলব।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you, doctor. I will follow your advice."
+  }
+ ],
+ "practice_words": []
+}

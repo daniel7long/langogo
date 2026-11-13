@@ -1,0 +1,197 @@
+{
+ "emoji": "🏨",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "예약",
+   "ipa": "yeyak",
+   "pos": "n.",
+   "meaning": "a reservation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네, 제 이름으로 이 박 방을 예약했어요.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "방",
+   "ipa": "bang",
+   "pos": "n.",
+   "meaning": "a room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "감사합니다. 방 번호가 어떻게 되나요?",
+     "en": "Thank you. What is the room number?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "박",
+   "ipa": "bak",
+   "pos": "n.",
+   "meaning": "a night",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네, 제 이름으로 이 박 방을 예약했어요.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "아침 식사",
+   "ipa": "achim siksa",
+   "pos": "n.",
+   "meaning": "breakfast",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "좋아요. 아침 식사가 포함되어 있나요?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "포함",
+   "ipa": "poham",
+   "pos": "adj.",
+   "meaning": "included",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "좋아요. 아침 식사가 포함되어 있나요?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "열쇠",
+   "ipa": "yeolsoe",
+   "pos": "n.",
+   "meaning": "the key",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네, 아침 식사는 포함이에요. 일곱 시부터 열 시까지예요. 여기 열쇠예요.",
+     "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "안녕하세요, 호텔에 오신 것을 환영합니다. 예약하셨어요?",
+   "glosses": [
+    {
+     "text": "예약",
+     "pos": "n.",
+     "meaning": "a reservation"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, welcome to the hotel. Do you have a reservation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "네, 제 이름으로 이 박 방을 예약했어요.",
+   "glosses": [
+    {
+     "text": "예약",
+     "pos": "n.",
+     "meaning": "a reservation"
+    },
+    {
+     "text": "방",
+     "pos": "n.",
+     "meaning": "a room"
+    },
+    {
+     "text": "박",
+     "pos": "n.",
+     "meaning": "a night"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a room for two nights, under my name."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "네, 여기 있네요. 정원이 보이는 일 인실이에요.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Yes, here it is. A single room with a view of the garden."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "좋아요. 아침 식사가 포함되어 있나요?",
+   "glosses": [
+    {
+     "text": "아침 식사",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "포함",
+     "pos": "adj.",
+     "meaning": "included"
+    }
+   ],
+   "id": "t4",
+   "en": "Wonderful. Is breakfast included?"
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "네, 아침 식사는 포함이에요. 일곱 시부터 열 시까지예요. 여기 열쇠예요.",
+   "glosses": [
+    {
+     "text": "아침 식사",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "포함",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "열쇠",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "감사합니다. 방 번호가 어떻게 되나요?",
+   "glosses": [
+    {
+     "text": "방",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you. What is the room number?"
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,231 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "ড্রাইভিং লাইসেন্স",
+   "ipa": "draibing laisens",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "হ্যাঁ, পাঁচ দিনের জন্য একটি ছোট গাড়ি। এই আমার ড্রাইভিং লাইসেন্স।",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "বিমা",
+   "ipa": "bima",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "হ্যাঁ, দয়া করে। বিমার দাম দিনে কত?",
+     "en": "Yes, please. How much is the insurance per day?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "জামানত",
+   "ipa": "jamanot",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "দিনে আট ডলার। আমাদের দুইশো ডলার জামানতও লাগবে।",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "জিপিএস",
+   "ipa": "jipies",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "ঠিক আছে। গাড়িতে কি জিপিএস আছে?",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "ট্যাংক",
+   "ipa": "tyank",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "হ্যাঁ। ট্যাংক এখন ভরা, আর আপনাকে ভরা অবস্থাতেই ফেরত দিতে হবে।",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "ফেরত দিতে",
+   "ipa": "ferot dite",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "হ্যাঁ। ট্যাংক এখন ভরা, আর আপনাকে ভরা অবস্থাতেই ফেরত দিতে হবে।",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "নমস্কার। আপনি কি গাড়ি বুক করেছেন?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, পাঁচ দিনের জন্য একটি ছোট গাড়ি। এই আমার ড্রাইভিং লাইসেন্স।",
+   "glosses": [
+    {
+     "text": "ড্রাইভিং লাইসেন্স",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "ধন্যবাদ। আপনি কি অতিরিক্ত বিমা নিতে চান? এটা যেকোনো ক্ষতি কভার করে।",
+   "glosses": [
+    {
+     "text": "বিমা",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, দয়া করে। বিমার দাম দিনে কত?",
+   "glosses": [
+    {
+     "text": "বিমা",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "দিনে আট ডলার। আমাদের দুইশো ডলার জামানতও লাগবে।",
+   "glosses": [
+    {
+     "text": "জামানত",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক আছে। গাড়িতে কি জিপিএস আছে?",
+   "glosses": [
+    {
+     "text": "জিপিএস",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "হ্যাঁ। ট্যাংক এখন ভরা, আর আপনাকে ভরা অবস্থাতেই ফেরত দিতে হবে।",
+   "glosses": [
+    {
+     "text": "ট্যাংক",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "ফেরত দিতে",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "বুঝেছি। শেষে আমি গাড়ি কোথায় ফেরত দেব?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "এখানে, এই একই অফিসে, শেষ দিনে সন্ধ্যা ছয়টার আগে।",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমার একটু দেরি হলে কী হবে?",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "তাহলে আমরা আরও একদিনের চার্জ নেব, তাই দয়া করে আমাদের ফোন করবেন।",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "জেনে ভালো হলো। সাহায্যের জন্য ধন্যবাদ।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

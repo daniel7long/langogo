@@ -1,0 +1,257 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "النفايات",
+   "ipa": "an-nifāyāt",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "نعم، أحاول أن أقلل النفايات، لذلك توقفت عن شراء الزجاجات البلاستيكية.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "تعيد تدوير",
+   "ipa": "tuʿīd tadwīr",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "هذه بداية جيدة. هل تعيد تدوير كل شيء في البيت؟",
+     "en": "That is a good start. Do you recycle everything at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "الانبعاثات",
+   "ipa": "al-inbiʿāṯāt",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "وماذا عن النقل؟ السيارات تنتج الكثير من الانبعاثات.",
+     "en": "What about transport? Cars produce a lot of emissions."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "المتجددة",
+   "ipa": "al-mutajaddida",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أوافقك. الطاقة المتجددة هي المكان الذي يجب أن يحدث فيه أكبر تغيير.",
+     "en": "I agree. Renewable energy is where the biggest change must happen."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "مستدامة",
+   "ipa": "mustadāma",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "بعض الناس ما زالوا يقولون إن المنتجات المستدامة باهظة الثمن.",
+     "en": "Some people still say sustainable products are too expensive."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "أقلل",
+   "ipa": "uqallil",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "نعم، أحاول أن أقلل النفايات، لذلك توقفت عن شراء الزجاجات البلاستيكية.",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "هل غيرت أي عادات مؤخرا لحماية البيئة؟",
+   "glosses": [],
+   "id": "t1",
+   "en": "Have you changed any habits recently to protect the environment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، أحاول أن أقلل النفايات، لذلك توقفت عن شراء الزجاجات البلاستيكية.",
+   "glosses": [
+    {
+     "text": "النفايات",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "أقلل",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "هذه بداية جيدة. هل تعيد تدوير كل شيء في البيت؟",
+   "glosses": [
+    {
+     "text": "تعيد تدوير",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": "That is a good start. Do you recycle everything at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "كل ما أستطيع. الورق والزجاج والبلاستيك وحتى بقايا الطعام للسماد.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Everything I can. Paper, glass, plastic and even food scraps for compost."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "مثير للإعجاب. يجب أن أفعل المزيد، لكن الأمر يستغرق وقتا طويلا.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Impressive. I should do more, but it takes so much time."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "يصبح تلقائيا بعد بضعة أسابيع، بصراحة.",
+   "glosses": [],
+   "id": "t6",
+   "en": "It becomes automatic after a few weeks, honestly."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "وماذا عن النقل؟ السيارات تنتج الكثير من الانبعاثات.",
+   "glosses": [
+    {
+     "text": "الانبعاثات",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": "What about transport? Cars produce a lot of emissions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أركب الدراجة إلى العمل معظم الأيام، وأستخدم القطار في الرحلات الطويلة.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I cycle to work most days, and I use trains for long trips."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "هل تعتقد أن الأفعال الفردية مهمة حقا؟",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you think individual actions really matter, though?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، لكن على الشركات والحكومات أن تتحرك على نطاق أوسع.",
+   "glosses": [],
+   "id": "t10",
+   "en": "They do, but companies and governments must act on a bigger scale."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "أوافقك. الطاقة المتجددة هي المكان الذي يجب أن يحدث فيه أكبر تغيير.",
+   "glosses": [
+    {
+     "text": "المتجددة",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. Renewable energy is where the biggest change must happen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بالضبط. الطاقة الشمسية وطاقة الرياح تصبحان أرخص كل عام.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Exactly. Solar and wind power are becoming cheaper every year."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "بعض الناس ما زالوا يقولون إن المنتجات المستدامة باهظة الثمن.",
+   "glosses": [
+    {
+     "text": "مستدامة",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people still say sustainable products are too expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "على المدى القصير ربما، لكنها تدوم أطول وتوفر المال لاحقا.",
+   "glosses": [],
+   "id": "t14",
+   "en": "In the short term, maybe, but they last longer and save money later."
+  },
+  {
+   "speaker": "Salma",
+   "role": "npc",
+   "text": "لقد أقنعتني. سأبدأ بحاوية للسماد.",
+   "glosses": [],
+   "id": "t15",
+   "en": "You have convinced me. I will start with a compost bin."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "رائع. الخطوات الصغيرة أفضل من انتظار حل مثالي.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wonderful. Small steps are better than waiting for a perfect solution."
+  }
+ ],
+ "practice_words": []
+}

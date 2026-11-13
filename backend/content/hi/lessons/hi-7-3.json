@@ -1,0 +1,242 @@
+{
+ "emoji": "📊",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "बैठक",
+   "ipa": "baithak",
+   "pos": "n.",
+   "meaning": "a meeting",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "चलिए बैठक शुरू करते हैं। सबके पास एजेंडा है, है न?",
+     "en": "Let us start the meeting. Everyone has the agenda, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "एजेंडा",
+   "ipa": "ejenda",
+   "pos": "n.",
+   "meaning": "an agenda",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "चलिए बैठक शुरू करते हैं। सबके पास एजेंडा है, है न?",
+     "en": "Let us start the meeting. Everyone has the agenda, right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "प्रोजेक्ट",
+   "ipa": "projekt",
+   "pos": "n.",
+   "meaning": "a project",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "सही। अब तक प्रोजेक्ट कैसा चल रहा है?",
+     "en": "Correct. How is the project going so far?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "सुझाव",
+   "ipa": "sujhaav",
+   "pos": "v.",
+   "meaning": "to suggest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "इस बारे में आप क्या सुझाव देते हैं?",
+     "en": "What do you suggest we do about it?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "सहमत",
+   "ipa": "sahmat",
+   "pos": "v.",
+   "meaning": "to agree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "यह एक संभावना है। क्या सब सहमत हैं?",
+     "en": "That is a possibility. Does everybody agree?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "रिपोर्ट",
+   "ipa": "riport",
+   "pos": "n.",
+   "meaning": "a report",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "मैं सहमत हूँ, और बदलावों के बारे में रिपोर्ट मैं लिख सकता हूँ।",
+     "en": "I agree, and I can write the report about the changes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "चलिए बैठक शुरू करते हैं। सबके पास एजेंडा है, है न?",
+   "glosses": [
+    {
+     "text": "बैठक",
+     "pos": "n.",
+     "meaning": "a meeting"
+    },
+    {
+     "text": "एजेंडा",
+     "pos": "n.",
+     "meaning": "an agenda"
+    }
+   ],
+   "id": "t1",
+   "en": "Let us start the meeting. Everyone has the agenda, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जी हाँ, मेरे पास है। पहला मुद्दा नया प्रोजेक्ट है।",
+   "glosses": [
+    {
+     "text": "प्रोजेक्ट",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I have it. The first point is the new project."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "सही। अब तक प्रोजेक्ट कैसा चल रहा है?",
+   "glosses": [
+    {
+     "text": "प्रोजेक्ट",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t3",
+   "en": "Correct. How is the project going so far?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अच्छा चल रहा है, लेकिन हम समय-सारणी से दो दिन पीछे हैं।",
+   "glosses": [],
+   "id": "t4",
+   "en": "It is going well, but we are two days behind schedule."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "इस बारे में आप क्या सुझाव देते हैं?",
+   "glosses": [
+    {
+     "text": "सुझाव",
+     "pos": "v.",
+     "meaning": "to suggest"
+    }
+   ],
+   "id": "t5",
+   "en": "What do you suggest we do about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मेरा सुझाव है कि इस हफ़्ते टीम में एक व्यक्ति और जोड़ा जाए।",
+   "glosses": [
+    {
+     "text": "सुझाव",
+     "pos": "v.",
+     "meaning": "to suggest"
+    }
+   ],
+   "id": "t6",
+   "en": "I suggest that we add one person to the team this week."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "यह एक संभावना है। क्या सब सहमत हैं?",
+   "glosses": [
+    {
+     "text": "सहमत",
+     "pos": "v.",
+     "meaning": "to agree"
+    }
+   ],
+   "id": "t7",
+   "en": "That is a possibility. Does everybody agree?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं सहमत हूँ, और बदलावों के बारे में रिपोर्ट मैं लिख सकता हूँ।",
+   "glosses": [
+    {
+     "text": "सहमत",
+     "pos": "v.",
+     "meaning": "to agree"
+    },
+    {
+     "text": "रिपोर्ट",
+     "pos": "n.",
+     "meaning": "a report"
+    }
+   ],
+   "id": "t8",
+   "en": "I agree, and I can write the report about the changes."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "धन्यवाद। कृपया इसे शुक्रवार तक मुझे भेज दीजिए।",
+   "glosses": [],
+   "id": "t9",
+   "en": "Thank you. Please send it to me by Friday."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "कोई समस्या नहीं। मैं इसे गुरुवार दोपहर को भेज दूँगा।",
+   "glosses": [],
+   "id": "t10",
+   "en": "No problem. I will send it on Thursday afternoon."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "बहुत बढ़िया। खत्म करने से पहले कुछ और है?",
+   "glosses": [],
+   "id": "t11",
+   "en": "Perfect. Is there anything else before we finish?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बस एक बात: क्या हम अगले सोमवार को फिर मिल सकते हैं?",
+   "glosses": [],
+   "id": "t12",
+   "en": "Just one thing: could we meet again next Monday?"
+  }
+ ],
+ "practice_words": []
+}

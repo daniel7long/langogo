@@ -1,0 +1,269 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "il titolo",
+   "ipa": "/il ˈtiːtolo/",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Furbo. Io ho letto solo il titolo e mi ero già arrabbiato.",
+     "en": "Smart. I only read the title and I was already angry."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "giornalisti",
+   "ipa": "/dʒornaˈlisti/",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ne confronto diverse, perché anche i buoni giornalisti possono essere di parte.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "fonti",
+   "ipa": "/ˈfonti/",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Di quali fonti di notizie ti fidi?",
+     "en": "Which news sources do you trust?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "di parte",
+   "ipa": "/di ˈparte/",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ne confronto diverse, perché anche i buoni giornalisti possono essere di parte.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "verificare",
+   "ipa": "/verifiˈkaːre/",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Cerco le prove, esperti con nome e cognome e se i fatti si possono verificare.",
+     "en": "I look for evidence, named experts, and whether the facts can be verified."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "un'opinione",
+   "ipa": "/unopiˈnjoːne/",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sì, ma voglio leggere di più prima di farmi un'opinione.",
+     "en": "I did, but I want to read more before forming an opinion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "Hai visto il titolo di stamattina sulla nuova legge fiscale?",
+   "glosses": [
+    {
+     "text": "il titolo",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t1",
+   "en": "Did you see this morning's headline about the new tax law?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sì, ma voglio leggere di più prima di farmi un'opinione.",
+   "glosses": [
+    {
+     "text": "un'opinione",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": "I did, but I want to read more before forming an opinion."
+  },
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "Furbo. Io ho letto solo il titolo e mi ero già arrabbiato.",
+   "glosses": [
+    {
+     "text": "il titolo",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t3",
+   "en": "Smart. I only read the title and I was already angry."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Proprio così funzionano i titoli. Sono fatti per attirare l'attenzione.",
+   "glosses": [],
+   "id": "t4",
+   "en": "That is exactly how headlines work. They are designed to attract attention."
+  },
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "Di quali fonti di notizie ti fidi?",
+   "glosses": [
+    {
+     "text": "fonti",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t5",
+   "en": "Which news sources do you trust?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ne confronto diverse, perché anche i buoni giornalisti possono essere di parte.",
+   "glosses": [
+    {
+     "text": "giornalisti",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "di parte",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": "I compare several, because even good journalists can be biased."
+  },
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "Come decidi quale sia la più accurata?",
+   "glosses": [],
+   "id": "t7",
+   "en": "How do you decide which one is more accurate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Cerco le prove, esperti con nome e cognome e se i fatti si possono verificare.",
+   "glosses": [
+    {
+     "text": "verificare",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": "I look for evidence, named experts, and whether the facts can be verified."
+  },
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "Richiede molto impegno per una cosa che io faccio in cinque minuti.",
+   "glosses": [],
+   "id": "t9",
+   "en": "That takes a lot of effort for something I do in five minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Vero, ma essere ben informati fa parte dell'essere cittadini responsabili.",
+   "glosses": [],
+   "id": "t10",
+   "en": "True, but being well informed is part of being a responsible citizen."
+  },
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "E gli articoli di opinione? Non sono solo punti di vista personali?",
+   "glosses": [],
+   "id": "t11",
+   "en": "What about opinion articles? Are they not just personal views?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Lo sono, e va bene, purché siano chiaramente indicati come opinioni.",
+   "glosses": [],
+   "id": "t12",
+   "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+  },
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "Molte persone però non notano la differenza.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many people do not notice the difference, though."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ecco perché l'educazione ai media nelle scuole è così importante.",
+   "glosses": [],
+   "id": "t14",
+   "en": "That is why media education in schools matters so much."
+  },
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "Sono d'accordo. Cercherò di leggere almeno due fonti d'ora in poi.",
+   "glosses": [
+    {
+     "text": "fonti",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": "I agree. I will try to read at least two sources from now on."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bene. E condividi gli articoli solo dopo averli controllati tu stesso.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good. And share articles only after you have checked them yourself."
+  }
+ ],
+ "practice_words": []
+}

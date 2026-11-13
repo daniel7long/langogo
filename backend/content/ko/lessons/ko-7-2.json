@@ -1,0 +1,242 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "학위",
+   "ipa": "hakwi",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "디자인 석사 학위 과정을 밟고 있는데, 정말 마음에 들어.",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "과목",
+   "ipa": "gwamok",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "힘들 것 같네. 어떤 과목을 제일 좋아해?",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "시험",
+   "ipa": "siheom",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "제일 좋아하는 과목은 연구 방법론인데, 시험은 어려워.",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "졸업",
+   "ipa": "joreop",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "언제 졸업해?",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "마감",
+   "ipa": "magam",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "내년에, 모든 마감을 지키고 과목을 통과하면.",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "장학금",
+   "ipa": "janghakgeum",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "전일제로 해. 장학금을 받아서 공부에 집중할 수 있어.",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "그래서 지금은 뭘 공부하고 있어?",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "디자인 석사 학위 과정을 밟고 있는데, 정말 마음에 들어.",
+   "glosses": [
+    {
+     "text": "학위",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "힘들 것 같네. 어떤 과목을 제일 좋아해?",
+   "glosses": [
+    {
+     "text": "과목",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "제일 좋아하는 과목은 연구 방법론인데, 시험은 어려워.",
+   "glosses": [
+    {
+     "text": "과목",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "시험",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "언제 졸업해?",
+   "glosses": [
+    {
+     "text": "졸업",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "내년에, 모든 마감을 지키고 과목을 통과하면.",
+   "glosses": [
+    {
+     "text": "과목",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "마감",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "일하면서 공부해, 아니면 전일제로 공부해?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "전일제로 해. 장학금을 받아서 공부에 집중할 수 있어.",
+   "glosses": [
+    {
+     "text": "장학금",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "졸업하고 나서 뭘 하고 싶은지 벌써 알아?",
+   "glosses": [
+    {
+     "text": "졸업",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "정확히는 아니지만, 기술 회사에서 일하고 싶어.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "좋은 계획이네. 분명 좋은 곳을 찾을 거야.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "고마워! 공부는 힘들지만, 많이 배우고 있어.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

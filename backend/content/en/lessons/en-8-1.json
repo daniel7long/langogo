@@ -1,0 +1,232 @@
+{
+ "emoji": "🗺️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "trip",
+   "ipa": "/tɹɪp/",
+   "pos": "n.",
+   "meaning": "a trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "That is lovely. What was the best moment of the trip?",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "got lost",
+   "ipa": "/ɡɑt lɔst/",
+   "pos": "phr.",
+   "meaning": "to get lost",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "I started in the capital, but on the first day I got lost in the old streets.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "unforgettable",
+   "ipa": "/ˌʌnfɚˈɡɛɾəbəl/",
+   "pos": "adj.",
+   "meaning": "unforgettable",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Yes, I spent ten days abroad. It was unforgettable.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "local",
+   "ipa": "/ˈloʊkəl/",
+   "pos": "n.",
+   "meaning": "a local",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "A friendly local showed me the way and even invited me for coffee.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "view",
+   "ipa": "/vju/",
+   "pos": "n.",
+   "meaning": "the view",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Watching the sunset from a hill. The view was incredible.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "recommend",
+   "ipa": "/ˌɹɛkəˈmɛnd/",
+   "pos": "v.",
+   "meaning": "to recommend",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Would you recommend the country to other people?",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "You just came back from a trip, right? Tell me everything!",
+   "glosses": [
+    {
+     "text": "trip",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, I spent ten days abroad. It was unforgettable.",
+   "glosses": [
+    {
+     "text": "unforgettable",
+     "pos": "adj.",
+     "meaning": "unforgettable"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Wow! Where did you go first?",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I started in the capital, but on the first day I got lost in the old streets.",
+   "glosses": [
+    {
+     "text": "got lost",
+     "pos": "phr.",
+     "meaning": "to get lost"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Oh no! How did you find your way?",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "A friendly local showed me the way and even invited me for coffee.",
+   "glosses": [
+    {
+     "text": "local",
+     "pos": "n.",
+     "meaning": "a local"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "That is lovely. What was the best moment of the trip?",
+   "glosses": [
+    {
+     "text": "trip",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Watching the sunset from a hill. The view was incredible.",
+   "glosses": [
+    {
+     "text": "view",
+     "pos": "n.",
+     "meaning": "the view"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Would you recommend the country to other people?",
+   "glosses": [
+    {
+     "text": "recommend",
+     "pos": "v.",
+     "meaning": "to recommend"
+    }
+   ],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Absolutely. I would go back tomorrow if I could.",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Then show me your photos, please!",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Of course. I took more than five hundred pictures.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,231 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "un máster",
+   "ipa": "/un ˈmas.teɾ/",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Estoy haciendo un máster en diseño y me gusta mucho.",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "asignatura",
+   "ipa": "/a.siɣ.naˈtu.ɾa/",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Suena exigente. ¿Cuál es tu asignatura favorita?",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "los exámenes",
+   "ipa": "/los ek.ˈsa.me.nes/",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mi asignatura favorita es métodos de investigación, aunque los exámenes son difíciles.",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "te gradúas",
+   "ipa": "/te ɡɾaˈðu.as/",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "¿Cuándo te gradúas?",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "fechas límite",
+   "ipa": "/ˈfe.tʃas ˈli.mi.te/",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "El año que viene, si cumplo todas las fechas límite y apruebo mis cursos.",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "una beca",
+   "ipa": "/ˈu.na ˈbe.ka/",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "A tiempo completo. Tengo una beca, así que puedo concentrarme en mis estudios.",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "Entonces, ¿qué estás estudiando ahora?",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Estoy haciendo un máster en diseño y me gusta mucho.",
+   "glosses": [
+    {
+     "text": "un máster",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "Suena exigente. ¿Cuál es tu asignatura favorita?",
+   "glosses": [
+    {
+     "text": "asignatura",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mi asignatura favorita es métodos de investigación, aunque los exámenes son difíciles.",
+   "glosses": [
+    {
+     "text": "asignatura",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "los exámenes",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "¿Cuándo te gradúas?",
+   "glosses": [
+    {
+     "text": "te gradúas",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "El año que viene, si cumplo todas las fechas límite y apruebo mis cursos.",
+   "glosses": [
+    {
+     "text": "fechas límite",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "¿Trabajas o estudias a tiempo completo?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "A tiempo completo. Tengo una beca, así que puedo concentrarme en mis estudios.",
+   "glosses": [
+    {
+     "text": "una beca",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "¿Ya sabes qué quieres hacer después?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "No exactamente, pero me gustaría trabajar en una empresa de tecnología.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "Es un buen plan. Seguro que encontrarás algo.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¡Gracias! Estudiar es duro, pero estoy aprendiendo mucho.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

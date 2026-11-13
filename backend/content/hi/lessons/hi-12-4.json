@@ -1,0 +1,275 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "प्रतिक्रिया",
+   "ipa": "pratikriya",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "सहमत। क्या मैं अगले हफ़्ते तुम्हारी प्रस्तुति पर प्रतिक्रिया दूँ?",
+     "en": "Agreed. Would you like me to give you feedback on yours next week?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "सुझाव",
+   "ipa": "sujhaav",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "मेरा एक सुझाव है: खासकर शुरू में थोड़ा धीरे बोलने की कोशिश करो।",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "आलोचना",
+   "ipa": "aalochana",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "और कुछ? कृपया ईमानदार रहो। मैं आलोचना सह सकता हूँ।",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "विशिष्ट",
+   "ipa": "vishisht",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "यह मददगार है। क्या तुम और विशिष्ट बता सकते हो कि कौन-सी स्लाइडें?",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "प्रगति",
+   "ipa": "pragati",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "बिल्कुल नहीं। तुमने पिछली प्रस्तुति से सचमुच प्रगति की है।",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "प्रेरित",
+   "ipa": "prerit",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "यह मुझे अभ्यास जारी रखने के लिए सचमुच प्रेरित करता है।",
+     "en": "That really motivates me to keep practicing."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "क्या तुम्हारे पास कुछ मिनट हैं? मुझे अपनी प्रस्तुति पर प्रतिक्रिया चाहिए।",
+   "glosses": [
+    {
+     "text": "प्रतिक्रिया",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बिल्कुल। सबसे पहले, ढाँचा स्पष्ट था और तुम्हारे उदाहरण दिलचस्प थे।",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "धन्यवाद। और मैं क्या सुधार सकता हूँ?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मेरा एक सुझाव है: खासकर शुरू में थोड़ा धीरे बोलने की कोशिश करो।",
+   "glosses": [
+    {
+     "text": "सुझाव",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "मैं सचमुच घबराया हुआ था। क्या यह साफ़ दिखा?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "थोड़ा, लेकिन ठीक करना आसान है। मुख्य बिंदुओं के बीच छोटा विराम मदद करेगा।",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "और कुछ? कृपया ईमानदार रहो। मैं आलोचना सह सकता हूँ।",
+   "glosses": [
+    {
+     "text": "आलोचना",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "आख़िरी स्लाइडों में बहुत ज़्यादा पाठ था, इसलिए श्रोता सुनने के बजाय पढ़ने लगे।",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "यह मददगार है। क्या तुम और विशिष्ट बता सकते हो कि कौन-सी स्लाइडें?",
+   "glosses": [
+    {
+     "text": "विशिष्ट",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "आठवीं और नौवीं। उनकी जगह एक चित्र और एक वाक्य इस्तेमाल करो।",
+   "glosses": [],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "मैं ऐसा करूँगा। सच कहूँ तो मुझे डर था कि यह खराब गया।",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बिल्कुल नहीं। तुमने पिछली प्रस्तुति से सचमुच प्रगति की है।",
+   "glosses": [
+    {
+     "text": "प्रगति",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "यह मुझे अभ्यास जारी रखने के लिए सचमुच प्रेरित करता है।",
+   "glosses": [
+    {
+     "text": "प्रेरित",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अच्छा। रचनात्मक प्रतिक्रिया लोगों को प्रेरित करनी चाहिए, हतोत्साहित नहीं।",
+   "glosses": [
+    {
+     "text": "प्रतिक्रिया",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "प्रेरित",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "सहमत। क्या मैं अगले हफ़्ते तुम्हारी प्रस्तुति पर प्रतिक्रिया दूँ?",
+   "glosses": [
+    {
+     "text": "प्रतिक्रिया",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं आभारी रहूँगा। खुले मन से लेने के लिए धन्यवाद।",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

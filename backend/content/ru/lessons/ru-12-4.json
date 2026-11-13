@@ -1,0 +1,263 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "обратная связь",
+   "ipa": "obrátnaja svjaz'",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Хорошо. Конструктивная обратная связь должна мотивировать людей, а не расхолаживать их.",
+     "en": "Good. Constructive feedback should motivate people, not discourage them."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "предложение",
+   "ipa": "predlozhénije",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "У меня есть предложение: постарайся говорить медленнее, особенно в начале.",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "критику",
+   "ipa": "kritiku",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Что-нибудь ещё? Пожалуйста, будь честен. Я могу принять критику.",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "конкретнее",
+   "ipa": "konkrétnee",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Это полезно. Не мог бы ты сказать конкретнее, какие это слайды?",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "прогресс",
+   "ipa": "progréss",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Вовсе нет. Ты сделал настоящий прогресс с прошлой презентации.",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "мотивировать",
+   "ipa": "motivírovat'",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Хорошо. Конструктивная обратная связь должна мотивировать людей, а не расхолаживать их.",
+     "en": "Good. Constructive feedback should motivate people, not discourage them."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "У тебя есть несколько минут? Я хотел бы получить обратную связь по своей презентации.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Конечно. Прежде всего, структура была чёткой, а твои примеры интересными.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Спасибо. А что я мог бы улучшить?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "У меня есть предложение: постарайся говорить медленнее, особенно в начале.",
+   "glosses": [
+    {
+     "text": "предложение",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Я действительно нервничал. Это правда было заметно?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Немного, но это легко исправить. Короткая пауза между главными мыслями помогла бы.",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Что-нибудь ещё? Пожалуйста, будь честен. Я могу принять критику.",
+   "glosses": [
+    {
+     "text": "критику",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "В заключительных слайдах было слишком много текста, поэтому аудитория стала читать вместо того, чтобы слушать.",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Это полезно. Не мог бы ты сказать конкретнее, какие это слайды?",
+   "glosses": [
+    {
+     "text": "конкретнее",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Восьмой и девятый. Используй вместо этого одну картинку и одно предложение.",
+   "glosses": [
+    {
+     "text": "предложение",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Так и сделаю. Если честно, я боялся, что всё прошло плохо.",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Вовсе нет. Ты сделал настоящий прогресс с прошлой презентации.",
+   "glosses": [
+    {
+     "text": "прогресс",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Это действительно мотивирует меня продолжать практиковаться.",
+   "glosses": [],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Хорошо. Конструктивная обратная связь должна мотивировать людей, а не расхолаживать их.",
+   "glosses": [
+    {
+     "text": "обратная связь",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "мотивировать",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Согласен. Хочешь, я дам тебе обратную связь по твоей на следующей неделе?",
+   "glosses": [],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Был бы благодарен. Спасибо, что ты открыт к этому.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

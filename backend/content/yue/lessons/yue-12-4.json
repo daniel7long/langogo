@@ -1,0 +1,275 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "回饋",
+   "ipa": "wui4 kwai6",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你有幾分鐘嗎？我想聽下你對我簡報嘅回饋。",
+     "en": "Do you have a few minutes? I would like some feedback on my presentation."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "提議",
+   "ipa": "tai4 ji5",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我有個提議：盡量講慢啲，特別係開頭。",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "批評",
+   "ipa": "pai1 ping4",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "仲有冇其他？請坦白講。我可以接受批評。",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "具體",
+   "ipa": "geoi6 tai2",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "呢個好有用。你可唔可以具體啲講係邊幾張？",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "進步",
+   "ipa": "zeon3 bou6",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "一啲都唔係。比起你上次嘅簡報，你有真正嘅進步。",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "激勵",
+   "ipa": "gik1 lai6",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "呢個真係激勵我繼續練習。",
+     "en": "That really motivates me to keep practicing."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "你有幾分鐘嗎？我想聽下你對我簡報嘅回饋。",
+   "glosses": [
+    {
+     "text": "回饋",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "當然。首先，結構好清晰，你嘅例子都好有趣。",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "多謝。咁我可以改進啲咩？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我有個提議：盡量講慢啲，特別係開頭。",
+   "glosses": [
+    {
+     "text": "提議",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "我真係好緊張。真係好明顯嗎？",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有少少，不過好易改。喺要點之間停頓一下會有幫助。",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "仲有冇其他？請坦白講。我可以接受批評。",
+   "glosses": [
+    {
+     "text": "批評",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "最後幾張投影片文字太多，所以觀眾開始讀而唔係聽。",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "呢個好有用。你可唔可以具體啲講係邊幾張？",
+   "glosses": [
+    {
+     "text": "具體",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "第八張同第九張。用一幅圖同一句嘢代替。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "我會咁做。老實講，我擔心自己講得好差。",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "一啲都唔係。比起你上次嘅簡報，你有真正嘅進步。",
+   "glosses": [
+    {
+     "text": "進步",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "呢個真係激勵我繼續練習。",
+   "glosses": [
+    {
+     "text": "激勵",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "好。有建設性嘅回饋應該激勵人，而唔係令人氣餒。",
+   "glosses": [
+    {
+     "text": "回饋",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "激勵",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "同意。下個星期要唔要我都俾啲回饋你嘅簡報？",
+   "glosses": [
+    {
+     "text": "回饋",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我會好感激。多謝你對此持開放態度。",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

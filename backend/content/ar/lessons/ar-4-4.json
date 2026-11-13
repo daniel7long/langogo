@@ -1,0 +1,182 @@
+{
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "جواز سفر",
+   "ipa": "jawāz safar",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "مساء الخير. جواز سفرك من فضلك. هل ستسجل حقيبة؟",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "حقيبة",
+   "ipa": "ḥaqība",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "نعم، حقيبة واحدة. إنها ليست ثقيلة.",
+     "en": "Yes, one suitcase. It is not heavy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "بطاقة الصعود",
+   "ipa": "biṭāqat aṣ-ṣuʿūd",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "هذه بطاقة الصعود. بوابتك رقم اثني عشر.",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "البوابة",
+   "ipa": "al-bawwāba",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "لا بأس. سأنتظر قرب البوابة.",
+     "en": "That is fine. I will wait near the gate."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "تسجل",
+   "ipa": "tusajjil",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "مساء الخير. جواز سفرك من فضلك. هل ستسجل حقيبة؟",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "متأخرة",
+   "ipa": "mutaʾaḫḫira",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "بعد أربعين دقيقة. لكن رحلتك متأخرة عشرين دقيقة.",
+     "en": "In forty minutes. But your flight is delayed by twenty minutes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "مساء الخير. جواز سفرك من فضلك. هل ستسجل حقيبة؟",
+   "glosses": [
+    {
+     "text": "جواز سفر",
+     "pos": "n.",
+     "meaning": "a passport"
+    },
+    {
+     "text": "حقيبة",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "تسجل",
+     "pos": "v.",
+     "meaning": "to check in"
+    }
+   ],
+   "id": "t1",
+   "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، حقيبة واحدة. إنها ليست ثقيلة.",
+   "glosses": [
+    {
+     "text": "حقيبة",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, one suitcase. It is not heavy."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "هذه بطاقة الصعود. بوابتك رقم اثني عشر.",
+   "glosses": [
+    {
+     "text": "بطاقة الصعود",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    }
+   ],
+   "id": "t3",
+   "en": "Here is your boarding pass. Your gate is number twelve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "شكرا. متى يبدأ الصعود إلى الطائرة؟",
+   "glosses": [],
+   "id": "t4",
+   "en": "Thank you. What time does boarding start?"
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "بعد أربعين دقيقة. لكن رحلتك متأخرة عشرين دقيقة.",
+   "glosses": [
+    {
+     "text": "متأخرة",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": "In forty minutes. But your flight is delayed by twenty minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "لا بأس. سأنتظر قرب البوابة.",
+   "glosses": [
+    {
+     "text": "البوابة",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. I will wait near the gate."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,192 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "স্টেশন",
+   "ipa": "steshon",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "মোড়ে বাঁ দিকে ঘুরুন। স্টেশন ব্যাংকের পাশে।",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "বাঁ দিকে",
+   "ipa": "baa dike",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "তারপর? আমি কি বাঁ দিকে যাব নাকি ডান দিকে?",
+     "en": "And then? Do I turn left or right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "সোজা",
+   "ipa": "soja",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "না, দূরে নয়। সোজা দুটো রাস্তা এগিয়ে যান।",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "দূরে",
+   "ipa": "dure",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "না, দূরে নয়। সোজা দুটো রাস্তা এগিয়ে যান।",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "মোড়",
+   "ipa": "mor",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "মোড়ে বাঁ দিকে ঘুরুন। স্টেশন ব্যাংকের পাশে।",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "মানচিত্র",
+   "ipa": "manchitro",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "অনেক ধন্যবাদ! আমার ফোনে মানচিত্র আছে, তাই সহজ হবে।",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "মাফ করবেন, আমি কি আপনাকে সাহায্য করতে পারি? আপনাকে পথ হারানো মনে হচ্ছে।",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, দয়া করে। স্টেশন কোথায়? সেটা কি দূরে?",
+   "glosses": [
+    {
+     "text": "স্টেশন",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "দূরে",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "না, দূরে নয়। সোজা দুটো রাস্তা এগিয়ে যান।",
+   "glosses": [
+    {
+     "text": "সোজা",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "দূরে",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "তারপর? আমি কি বাঁ দিকে যাব নাকি ডান দিকে?",
+   "glosses": [
+    {
+     "text": "বাঁ দিকে",
+     "pos": "phr.",
+     "meaning": "turn left"
+    }
+   ],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "মোড়ে বাঁ দিকে ঘুরুন। স্টেশন ব্যাংকের পাশে।",
+   "glosses": [
+    {
+     "text": "স্টেশন",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "বাঁ দিকে",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "মোড়",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "অনেক ধন্যবাদ! আমার ফোনে মানচিত্র আছে, তাই সহজ হবে।",
+   "glosses": [
+    {
+     "text": "মানচিত্র",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

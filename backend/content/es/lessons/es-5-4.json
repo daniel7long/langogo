@@ -1,0 +1,187 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "el piso",
+   "ipa": "/el ˈpi.so/",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Hola, le interesa el piso, ¿verdad?",
+     "en": "Hello, you are interested in the apartment, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "el alquiler",
+   "ipa": "/el al.kiˈleɾ/",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sí. ¿Cuánto es el alquiler al mes?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "al mes",
+   "ipa": "/al ˈmes/",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sí. ¿Cuánto es el alquiler al mes?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "amueblado",
+   "ipa": "/a.mwe.ˈβla.ðo/",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Son ochocientos al mes, y el piso está amueblado.",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "una fianza",
+   "ipa": "/ˈu.na ˈfjan.sa/",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Suena bien. ¿Tengo que pagar una fianza?",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "el contrato",
+   "ipa": "/el kon.ˈtɾa.to/",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sí, un mes de fianza. Firmamos el contrato mañana.",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "Hola, le interesa el piso, ¿verdad?",
+   "glosses": [
+    {
+     "text": "el piso",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sí. ¿Cuánto es el alquiler al mes?",
+   "glosses": [
+    {
+     "text": "el alquiler",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "al mes",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "Son ochocientos al mes, y el piso está amueblado.",
+   "glosses": [
+    {
+     "text": "el piso",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "al mes",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "amueblado",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Suena bien. ¿Tengo que pagar una fianza?",
+   "glosses": [
+    {
+     "text": "una fianza",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "Sí, un mes de fianza. Firmamos el contrato mañana.",
+   "glosses": [
+    {
+     "text": "el contrato",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Perfecto. ¿Puedo ver otra vez la cocina antes de decidir?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

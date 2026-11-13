@@ -1,0 +1,258 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "muți",
+   "ipa": "/muts/",
+   "pos": "v.",
+   "meaning": "to relocate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Am auzit că te gândești să te muți în altă țară. E adevărat?",
+     "en": "I heard you are thinking about relocating to another country. Is that true?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "viză",
+   "ipa": "/ˈvizə/",
+   "pos": "n.",
+   "meaning": "a visa",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Foarte. Voi avea nevoie de o viză și trebuie să găsesc un apartament de la distanță.",
+     "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "șocului cultural",
+   "ipa": "/ˈʃokuluj kulturˈal/",
+   "pos": "phr.",
+   "meaning": "culture shock",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Mulți expatriați spun că primele luni sunt cele mai grele din cauza șocului cultural.",
+     "en": "Many expats say the first months are the hardest because of culture shock."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "să mă adaptez",
+   "ipa": "/sə mə adapˈtez/",
+   "pos": "v.",
+   "meaning": "to adapt",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Da, am început deja, și mă va ajuta să mă adaptez mai repede.",
+     "en": "Yes, I have already started, and it will help me adapt faster."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "dor de casă",
+   "ipa": "/dor de ˈkasə/",
+   "pos": "adj.",
+   "meaning": "homesick",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Să las în urmă familia și prietenii. Cred că voi avea dor de casă la început.",
+     "en": "Leaving my family and friends. I think I will feel homesick at first."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "oportunitate",
+   "ipa": "/oportuniˈtate/",
+   "pos": "n.",
+   "meaning": "an opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Da, am primit o ofertă de muncă în străinătate și este o mare oportunitate.",
+     "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Am auzit că te gândești să te muți în altă țară. E adevărat?",
+   "glosses": [
+    {
+     "text": "muți",
+     "pos": "v.",
+     "meaning": "to relocate"
+    }
+   ],
+   "id": "t1",
+   "en": "I heard you are thinking about relocating to another country. Is that true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, am primit o ofertă de muncă în străinătate și este o mare oportunitate.",
+   "glosses": [
+    {
+     "text": "oportunitate",
+     "pos": "n.",
+     "meaning": "an opportunity"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Felicitări! Dar e o decizie mare. Ești emoționat?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Congratulations! But that is a big decision. Are you nervous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Foarte. Voi avea nevoie de o viză și trebuie să găsesc un apartament de la distanță.",
+   "glosses": [
+    {
+     "text": "viză",
+     "pos": "n.",
+     "meaning": "a visa"
+    }
+   ],
+   "id": "t4",
+   "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Ce te îngrijorează cel mai mult?",
+   "glosses": [],
+   "id": "t5",
+   "en": "What worries you the most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Să las în urmă familia și prietenii. Cred că voi avea dor de casă la început.",
+   "glosses": [
+    {
+     "text": "dor de casă",
+     "pos": "adj.",
+     "meaning": "homesick"
+    }
+   ],
+   "id": "t6",
+   "en": "Leaving my family and friends. I think I will feel homesick at first."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Mulți expatriați spun că primele luni sunt cele mai grele din cauza șocului cultural.",
+   "glosses": [
+    {
+     "text": "șocului cultural",
+     "pos": "phr.",
+     "meaning": "culture shock"
+    }
+   ],
+   "id": "t7",
+   "en": "Many expats say the first months are the hardest because of culture shock."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Am auzit asta, așa că încerc să aflu despre obiceiurile locale înainte să plec.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I have heard that, so I am trying to learn about local customs before I go."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "E înțelept. Vei învăța și limba?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is wise. Will you learn the language as well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, am început deja, și mă va ajuta să mă adaptez mai repede.",
+   "glosses": [
+    {
+     "text": "să mă adaptez",
+     "pos": "v.",
+     "meaning": "to adapt"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, I have already started, and it will help me adapt faster."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Și dacă nu-ți place acolo?",
+   "glosses": [],
+   "id": "t11",
+   "en": "What if you do not like it there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Atunci mă pot întoarce după un an. Nu o văd ca pe o decizie definitivă.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I can come back after a year. I do not see it as a final decision."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Este o atitudine sănătoasă. Contractele se pot rupe, dar experiența rămâne.",
+   "glosses": [],
+   "id": "t13",
+   "en": "That is a healthy attitude. Contracts can be broken, but experience stays."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exact. Chiar dacă va fi greu, voi învăța multe despre mine.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Exactly. Even if it is difficult, I will learn a lot about myself."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Te rog să ții legătura și să ne povestești tot.",
+   "glosses": [],
+   "id": "t15",
+   "en": "Please keep in touch and tell us everything."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Promit. Puteți veni cu toții în vizită după ce mă stabilesc.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I promise. You can all visit me once I am settled in."
+  }
+ ],
+ "practice_words": []
+}

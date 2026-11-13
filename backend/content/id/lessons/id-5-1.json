@@ -1,0 +1,192 @@
+{
+ "emoji": "👕",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "ukuran",
+   "ipa": "/ʊˈkuɾan/",
+   "pos": "n.",
+   "meaning": "a size",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Saya mencari jaket. Bolehkah saya mencoba ukuran sedang?",
+     "en": "I am looking for a jacket. Can I try on a medium size?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "mencoba",
+   "ipa": "/mənˈt͡ʃɔba/",
+   "pos": "v.",
+   "meaning": "to try on",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Saya mencari jaket. Bolehkah saya mencoba ukuran sedang?",
+     "en": "I am looking for a jacket. Can I try on a medium size?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ruang ganti",
+   "ipa": "/ˈruaŋ ˈganti/",
+   "pos": "n.",
+   "meaning": "the fitting room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Tentu. Ruang ganti ada di belakang.",
+     "en": "Of course. The fitting room is at the back."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "agak besar",
+   "ipa": "/ˈagak ˈbəsaɾ/",
+   "pos": "phr.",
+   "meaning": "too big",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ini agak besar. Apakah ada ukuran yang lebih kecil, atau yang lebih murah?",
+     "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "lebih murah",
+   "ipa": "/ˈləbi ˈmuɾah/",
+   "pos": "adj.",
+   "meaning": "cheaper",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ini ukuran kecil. Minggu ini sedang diskon, jadi lebih murah.",
+     "en": "Here is a small one. It is on sale this week, so it is cheaper."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "membayar",
+   "ipa": "/məmˈbaja/",
+   "pos": "v.",
+   "meaning": "to pay",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sempurna, saya ambil. Di mana saya bisa membayar?",
+     "en": "Perfect, I will take it. Where can I pay?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Halo! Apakah Anda mencari sesuatu yang istimewa?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello! Are you looking for something special?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Saya mencari jaket. Bolehkah saya mencoba ukuran sedang?",
+   "glosses": [
+    {
+     "text": "ukuran",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "mencoba",
+     "pos": "v.",
+     "meaning": "to try on"
+    }
+   ],
+   "id": "t2",
+   "en": "I am looking for a jacket. Can I try on a medium size?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Tentu. Ruang ganti ada di belakang.",
+   "glosses": [
+    {
+     "text": "Ruang ganti",
+     "pos": "n.",
+     "meaning": "the fitting room"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The fitting room is at the back."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ini agak besar. Apakah ada ukuran yang lebih kecil, atau yang lebih murah?",
+   "glosses": [
+    {
+     "text": "ukuran",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "agak besar",
+     "pos": "phr.",
+     "meaning": "too big"
+    },
+    {
+     "text": "lebih murah",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t4",
+   "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "Ini ukuran kecil. Minggu ini sedang diskon, jadi lebih murah.",
+   "glosses": [
+    {
+     "text": "ukuran",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "lebih murah",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t5",
+   "en": "Here is a small one. It is on sale this week, so it is cheaper."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sempurna, saya ambil. Di mana saya bisa membayar?",
+   "glosses": [
+    {
+     "text": "membayar",
+     "pos": "v.",
+     "meaning": "to pay"
+    }
+   ],
+   "id": "t6",
+   "en": "Perfect, I will take it. Where can I pay?"
+  }
+ ],
+ "practice_words": []
+}

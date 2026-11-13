@@ -1,0 +1,187 @@
+{
+ "emoji": "🎸",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "هواية",
+   "ipa": "hiwāya",
+   "pos": "n.",
+   "meaning": "a hobby",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "حقا؟ هذه هواية رائعة. أنا أفضل السباحة.",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "وقت الفراغ",
+   "ipa": "waqt al-farāġ",
+   "pos": "phr.",
+   "meaning": "free time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ماذا تحب أن تفعل في وقت الفراغ؟",
+     "en": "What do you like to do in your free time?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ألعب",
+   "ipa": "alʿab",
+   "pos": "v.",
+   "meaning": "to play",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "أحب القراءة، وغالبا ألعب التنس أيام الأحد.",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "غالبا",
+   "ipa": "ġāliban",
+   "pos": "adv.",
+   "meaning": "often",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "في المسبح غالبا، لأنه قريب من بيتي.",
+     "en": "Mostly in a pool, because it is close to my house."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "أفضل",
+   "ipa": "ufaḍḍil",
+   "pos": "v.",
+   "meaning": "to prefer",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "حقا؟ هذه هواية رائعة. أنا أفضل السباحة.",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "مسبح",
+   "ipa": "masbaḥ",
+   "pos": "n.",
+   "meaning": "a pool",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "هل تسبح في مسبح أم في البحر؟",
+     "en": "Do you swim in a pool or in the sea?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "ماذا تحب أن تفعل في وقت الفراغ؟",
+   "glosses": [
+    {
+     "text": "وقت الفراغ",
+     "pos": "phr.",
+     "meaning": "free time"
+    }
+   ],
+   "id": "t1",
+   "en": "What do you like to do in your free time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أحب القراءة، وغالبا ألعب التنس أيام الأحد.",
+   "glosses": [
+    {
+     "text": "ألعب",
+     "pos": "v.",
+     "meaning": "to play"
+    },
+    {
+     "text": "غالبا",
+     "pos": "adv.",
+     "meaning": "often"
+    }
+   ],
+   "id": "t2",
+   "en": "I love reading, and I often play tennis on Sundays."
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "حقا؟ هذه هواية رائعة. أنا أفضل السباحة.",
+   "glosses": [
+    {
+     "text": "هواية",
+     "pos": "n.",
+     "meaning": "a hobby"
+    },
+    {
+     "text": "أفضل",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t3",
+   "en": "Really? That is a great hobby. I prefer swimming."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هل تسبح في مسبح أم في البحر؟",
+   "glosses": [
+    {
+     "text": "مسبح",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t4",
+   "en": "Do you swim in a pool or in the sea?"
+  },
+  {
+   "speaker": "Youssef",
+   "role": "npc",
+   "text": "في المسبح غالبا، لأنه قريب من بيتي.",
+   "glosses": [
+    {
+     "text": "غالبا",
+     "pos": "adv.",
+     "meaning": "often"
+    },
+    {
+     "text": "مسبح",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t5",
+   "en": "Mostly in a pool, because it is close to my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "يمكننا أن نمارس الرياضة معا يوما ما.",
+   "glosses": [],
+   "id": "t6",
+   "en": "We could do some sport together one day."
+  }
+ ],
+ "practice_words": []
+}

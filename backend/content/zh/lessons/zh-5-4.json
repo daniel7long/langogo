@@ -1,0 +1,202 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "公寓",
+   "ipa": "gōngyù",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "每个月八百，而且公寓带家具。",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "房租",
+   "ipa": "fángzū",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "是的。房租每个月多少钱？",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "个月",
+   "ipa": "ge yuè",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "是的。房租每个月多少钱？",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "带家具",
+   "ipa": "dài jiājù",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "每个月八百，而且公寓带家具。",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "押金",
+   "ipa": "yājīn",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "听起来不错。我需要付押金吗？",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "合同",
+   "ipa": "hétong",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "需要，一个月房租作为押金。我们明天签合同。",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "你好，您对这套公寓感兴趣，对吗？",
+   "glosses": [
+    {
+     "text": "公寓",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "是的。房租每个月多少钱？",
+   "glosses": [
+    {
+     "text": "房租",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "个月",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "每个月八百，而且公寓带家具。",
+   "glosses": [
+    {
+     "text": "公寓",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "个月",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "带家具",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "听起来不错。我需要付押金吗？",
+   "glosses": [
+    {
+     "text": "押金",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "需要，一个月房租作为押金。我们明天签合同。",
+   "glosses": [
+    {
+     "text": "房租",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "个月",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "押金",
+     "pos": "n.",
+     "meaning": "a deposit"
+    },
+    {
+     "text": "合同",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "太好了。决定之前，我能再看一下厨房吗？",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

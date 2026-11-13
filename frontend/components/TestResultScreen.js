@@ -125,7 +125,7 @@ export default function TestResultScreen() {
         ) : (
           <Text style={styles.message}>
             <Text style={styles.highlight}>{result.recommended_minutes_per_day} minutes</Text> per day
-            {'\n'}You can become{'\n'}a master of French
+            {'\n'}You can become{'\n'}a master of {result.language || 'French'}
           </Text>
         )}
         {!!error && <Text style={styles.error}>{error}</Text>}

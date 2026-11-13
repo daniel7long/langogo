@@ -1,0 +1,264 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "kerja jarak jauh",
+   "ipa": "/ˈkəɾdʒa ˈdʒaɾak ˈdʒauh/",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Perusahaanku sedang mempertimbangkan untuk menjadikan kerja jarak jauh permanen. Bagaimana menurutmu?",
+     "en": "My company is considering making remote work permanent. What is your opinion?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "produktivitas",
+   "ipa": "/pɾɔduktiviˈtas/",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Tetapi apakah produktivitas tidak menurun saat orang berada di rumah?",
+     "en": "But does productivity not suffer when people are at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "fleksibilitas",
+   "ipa": "/flɛksibiliˈtas/",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aku setuju, terutama karena fleksibilitas yang diberikannya kepada karyawan.",
+     "en": "I am in favor, mainly because of the flexibility it gives employees."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "isolasi",
+   "ipa": "/isoˈlasi/",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Dan bagaimana dengan isolasi? Aku rindu mengobrol dengan rekan di dekat mesin kopi.",
+     "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "perjalanan pulang pergi",
+   "ipa": "/pəɾdʒaˈlanan ˈpulaŋ ˈpəɾgi/",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Perjalanan pulang pergi adalah bagian terburuk, harus kuakui. Aku kehilangan dua jam sehari.",
+     "en": "The commute is the worst part, I must admit. I lose two hours a day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "menyeimbangkan",
+   "ipa": "/məɲəimbaŋˈkan/",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Jadi pertanyaannya adalah bagaimana menyeimbangkan pekerjaan dan kehidupan pribadi.",
+     "en": "So the question is how to balance work and private life."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Perusahaanku sedang mempertimbangkan untuk menjadikan kerja jarak jauh permanen. Bagaimana menurutmu?",
+   "glosses": [
+    {
+     "text": "kerja jarak jauh",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": "My company is considering making remote work permanent. What is your opinion?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku setuju, terutama karena fleksibilitas yang diberikannya kepada karyawan.",
+   "glosses": [
+    {
+     "text": "fleksibilitas",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": "I am in favor, mainly because of the flexibility it gives employees."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Tetapi apakah produktivitas tidak menurun saat orang berada di rumah?",
+   "glosses": [
+    {
+     "text": "produktivitas",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": "But does productivity not suffer when people are at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Penelitian menunjukkan sebaliknya untuk banyak pekerjaan, meskipun tergantung orangnya.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Studies suggest the opposite for many jobs, though it depends on the person."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Aku sulit berkonsentrasi di rumah, dengan banyaknya gangguan.",
+   "glosses": [],
+   "id": "t5",
+   "en": "I find it hard to concentrate at home, with all the distractions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Itu poin yang adil. Ruang kerja yang layak membuat perbedaan besar.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is a fair point. A proper workspace makes a big difference."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Dan bagaimana dengan isolasi? Aku rindu mengobrol dengan rekan di dekat mesin kopi.",
+   "glosses": [
+    {
+     "text": "isolasi",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku juga, jujur saja. Itulah sebabnya kurasa model hibrida paling cocok.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Me too, to be honest. That is why I think a hybrid model works best."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Dua atau tiga hari di kantor, mungkin?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Two or three days in the office, perhaps?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tepat. Kamu tetap punya kontak manusia dan masih terhindar dari perjalanan pulang pergi setiap hari.",
+   "glosses": [
+    {
+     "text": "perjalanan pulang pergi",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly. You keep the human contact and still avoid the daily commute."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Perjalanan pulang pergi adalah bagian terburuk, harus kuakui. Aku kehilangan dua jam sehari.",
+   "glosses": [
+    {
+     "text": "Perjalanan pulang pergi",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": "The commute is the worst part, I must admit. I lose two hours a day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bayangkan apa yang bisa kamu lakukan dengan waktu itu: olahraga, keluarga, tidur.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Imagine what you could do with that time: sport, family, sleep."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Itu juga lebih baik untuk lingkungan, tentu saja.",
+   "glosses": [],
+   "id": "t13",
+   "en": "It is also better for the environment, of course."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Benar, meskipun memanaskan rumah sepanjang hari juga memakai energi.",
+   "glosses": [],
+   "id": "t14",
+   "en": "True, although heating a home all day uses energy, too."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Jadi pertanyaannya adalah bagaimana menyeimbangkan pekerjaan dan kehidupan pribadi.",
+   "glosses": [
+    {
+     "text": "menyeimbangkan",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": "So the question is how to balance work and private life."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Betul. Jam kerja yang jelas sangat penting, kalau tidak kamu tidak pernah benar-benar berhenti bekerja.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Right. Clear working hours are essential, otherwise you never really switch off."
+  }
+ ],
+ "practice_words": []
+}

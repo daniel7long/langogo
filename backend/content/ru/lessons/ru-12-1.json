@@ -1,0 +1,258 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "переехать",
+   "ipa": "pereyékhat'",
+   "pos": "v.",
+   "meaning": "to relocate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Я слышал, ты думаешь переехать в другую страну. Это правда?",
+     "en": "I heard you are thinking about relocating to another country. Is that true?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "виза",
+   "ipa": "víza",
+   "pos": "n.",
+   "meaning": "a visa",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Очень. Мне понадобится виза, и придётся искать квартиру на расстоянии.",
+     "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "культурного шока",
+   "ipa": "kul'túrnogo shóka",
+   "pos": "phr.",
+   "meaning": "culture shock",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Многие эмигранты говорят, что первые месяцы самые трудные из-за культурного шока.",
+     "en": "Many expats say the first months are the hardest because of culture shock."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "адаптироваться",
+   "ipa": "adaptírovat'sja",
+   "pos": "v.",
+   "meaning": "to adapt",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Да, я уже начал, и это поможет мне адаптироваться быстрее.",
+     "en": "Yes, I have already started, and it will help me adapt faster."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "тосковать",
+   "ipa": "toskovát'",
+   "pos": "adj.",
+   "meaning": "homesick",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Расставание с семьёй и друзьями. Думаю, сначала я буду тосковать по дому.",
+     "en": "Leaving my family and friends. I think I will feel homesick at first."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "возможность",
+   "ipa": "vozmózhnost'",
+   "pos": "n.",
+   "meaning": "an opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Да, я получил предложение о работе за границей, и это отличная возможность.",
+     "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Я слышал, ты думаешь переехать в другую страну. Это правда?",
+   "glosses": [
+    {
+     "text": "переехать",
+     "pos": "v.",
+     "meaning": "to relocate"
+    }
+   ],
+   "id": "t1",
+   "en": "I heard you are thinking about relocating to another country. Is that true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, я получил предложение о работе за границей, и это отличная возможность.",
+   "glosses": [
+    {
+     "text": "возможность",
+     "pos": "n.",
+     "meaning": "an opportunity"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Поздравляю! Но это серьёзное решение. Ты нервничаешь?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Congratulations! But that is a big decision. Are you nervous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Очень. Мне понадобится виза, и придётся искать квартиру на расстоянии.",
+   "glosses": [
+    {
+     "text": "виза",
+     "pos": "n.",
+     "meaning": "a visa"
+    }
+   ],
+   "id": "t4",
+   "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Что беспокоит тебя больше всего?",
+   "glosses": [],
+   "id": "t5",
+   "en": "What worries you the most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Расставание с семьёй и друзьями. Думаю, сначала я буду тосковать по дому.",
+   "glosses": [
+    {
+     "text": "тосковать",
+     "pos": "adj.",
+     "meaning": "homesick"
+    }
+   ],
+   "id": "t6",
+   "en": "Leaving my family and friends. I think I will feel homesick at first."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Многие эмигранты говорят, что первые месяцы самые трудные из-за культурного шока.",
+   "glosses": [
+    {
+     "text": "культурного шока",
+     "pos": "phr.",
+     "meaning": "culture shock"
+    }
+   ],
+   "id": "t7",
+   "en": "Many expats say the first months are the hardest because of culture shock."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я это слышал, поэтому стараюсь узнать о местных обычаях до отъезда.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I have heard that, so I am trying to learn about local customs before I go."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Это мудро. Ты будешь изучать и язык?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is wise. Will you learn the language as well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, я уже начал, и это поможет мне адаптироваться быстрее.",
+   "glosses": [
+    {
+     "text": "адаптироваться",
+     "pos": "v.",
+     "meaning": "to adapt"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, I have already started, and it will help me adapt faster."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "А если тебе там не понравится?",
+   "glosses": [],
+   "id": "t11",
+   "en": "What if you do not like it there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Тогда я смогу вернуться через год. Я не считаю это окончательным решением.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I can come back after a year. I do not see it as a final decision."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Это здоровый подход. Контракты можно расторгнуть, а опыт остаётся.",
+   "glosses": [],
+   "id": "t13",
+   "en": "That is a healthy attitude. Contracts can be broken, but experience stays."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Именно. Даже если будет трудно, я многое узнаю о себе.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Exactly. Even if it is difficult, I will learn a lot about myself."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Пожалуйста, оставайся на связи и рассказывай нам всё.",
+   "glosses": [],
+   "id": "t15",
+   "en": "Please keep in touch and tell us everything."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Обещаю. Вы все сможете навестить меня, когда я обустроюсь.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I promise. You can all visit me once I am settled in."
+  }
+ ],
+ "practice_words": []
+}

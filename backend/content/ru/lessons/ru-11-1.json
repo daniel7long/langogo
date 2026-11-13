@@ -1,0 +1,256 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "сюжет",
+   "ipa": "sjuzhét",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Пока нет. Я прочитал рецензию, где говорилось, что сюжет довольно предсказуем.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "игре",
+   "ipa": "ígre",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Интересно. Что ты думаешь об игре исполнительницы главной роли?",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "режиссёр",
+   "ipa": "rezhisjór",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "А режиссёр? Мне очень понравилась его предыдущая работа.",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "рецензию",
+   "ipa": "retsénziju",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Пока нет. Я прочитал рецензию, где говорилось, что сюжет довольно предсказуем.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "предсказуем",
+   "ipa": "predskazúem",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Пока нет. Я прочитал рецензию, где говорилось, что сюжет довольно предсказуем.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "саундтрек",
+   "ipa": "saundtrék",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Здесь это работает, особенно благодаря саундтреку. Он добавляет столько эмоций.",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Вчера вечером я посмотрел новый фильм, о котором все говорят. Ты его видел?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Пока нет. Я прочитал рецензию, где говорилось, что сюжет довольно предсказуем.",
+   "glosses": [
+    {
+     "text": "сюжет",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "рецензию",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "предсказуем",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Честно говоря, первая половина да, но концовка меня полностью удивила.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Интересно. Что ты думаешь об игре исполнительницы главной роли?",
+   "glosses": [
+    {
+     "text": "игре",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Выдающаяся. Актриса сделала своего персонажа живым и сложным.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "А режиссёр? Мне очень понравилась его предыдущая работа.",
+   "glosses": [
+    {
+     "text": "режиссёр",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Он сохраняет свой обычный стиль с долгими планами и очень небольшим количеством диалогов.",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Это может быть красиво или скучно, в зависимости от истории.",
+   "glosses": [],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Здесь это работает, особенно благодаря саундтреку. Он добавляет столько эмоций.",
+   "glosses": [
+    {
+     "text": "саундтрек",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ты бы сказал, что фильм стоит смотреть в кинотеатре?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Определённо. Изображению и звуку нужен большой экран.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Тогда пойду на этих выходных, хотя критики не согласны.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Критики и зрители редко соглашаются, так что решай сам.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Верно. Какой ты оценил бы выше, этот фильм или его прошлый?",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Прошлый, но лишь немного. Этому я поставил бы четыре звезды из пяти.",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Хорошо знать. Давай обсудим его ещё раз, когда я посмотрю.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

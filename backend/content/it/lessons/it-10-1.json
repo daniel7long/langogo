@@ -1,0 +1,257 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "influenza",
+   "ipa": "/inˈfluɛntsa/",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Onestamente sì. Penso che abbia un'enorme influenza su come vediamo noi stessi.",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "privacy",
+   "ipa": "/ˈpraivasi/",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sono d'accordo. E la privacy? Le aziende raccolgono moltissimi dati su di noi.",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "si diffondono",
+   "ipa": "/si difˈfondono/",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Questa è la mia preoccupazione principale. Le notizie fuorvianti si diffondono molto più in fretta dei fatti.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "notizie fuorvianti",
+   "ipa": "/noˈtittsje fuorˈvjanti/",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Questa è la mia preoccupazione principale. Le notizie fuorvianti si diffondono molto più in fretta dei fatti.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "regolamentarle",
+   "ipa": "/reɡolamenˈtarle/",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "In parte. Credo che i governi dovrebbero regolamentarle in modo più severo, purché sia tutelata la libertà di espressione.",
+     "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "dipendenti",
+   "ipa": "/dipenˈdɛnti/",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Alcune persone ammettono perfino di essere dipendenti dal telefono.",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Ho letto che le persone passano quattro ore al giorno sui social. Lo trovi preoccupante?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Onestamente sì. Penso che abbia un'enorme influenza su come vediamo noi stessi.",
+   "glosses": [
+    {
+     "text": "influenza",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "In che senso? Molti dicono che aiuti semplicemente a restare in contatto.",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "È vero, ma confrontare la propria vita con immagini perfette online può danneggiare l'autostima.",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "È vero. E le informazioni che leggiamo lì?",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Questa è la mia preoccupazione principale. Le notizie fuorvianti si diffondono molto più in fretta dei fatti.",
+   "glosses": [
+    {
+     "text": "si diffondono",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "notizie fuorvianti",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Pensi che le piattaforme dovrebbero esserne responsabili?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "In parte. Credo che i governi dovrebbero regolamentarle in modo più severo, purché sia tutelata la libertà di espressione.",
+   "glosses": [
+    {
+     "text": "regolamentarle",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "La regolamentazione è delicata. Chi decide cos'è vero?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Giusto. Forse la soluzione è l'educazione: insegnare alle persone a controllare le fonti.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Sono d'accordo. E la privacy? Le aziende raccolgono moltissimi dati su di noi.",
+   "glosses": [
+    {
+     "text": "privacy",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Preoccupa anche me. La maggior parte degli utenti non legge mai i termini e le condizioni prima di accettarli.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Alcune persone ammettono perfino di essere dipendenti dal telefono.",
+   "glosses": [
+    {
+     "text": "dipendenti",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Io non arriverei a tanto, ma noto che controllo il mio in modo automatico.",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Quindi lasceresti mai del tutto i social?",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Probabilmente no, ma sto cercando di limitare il mio tempo, e già si nota la differenza.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

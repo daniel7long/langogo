@@ -1,0 +1,187 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "표",
+   "ipa": "pyo",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "알겠습니다. 표는 얼마예요?",
+     "en": "I understand. How much is the ticket?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "승강장",
+   "ipa": "seunggangjang",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네. 다음 기차는 아홉 시에 사 번 승강장에서 출발해요.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "출발해요",
+   "ipa": "chulbalhaeyo",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네. 다음 기차는 아홉 시에 사 번 승강장에서 출발해요.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "왕복",
+   "ipa": "wangbok",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "수도까지 가는 왕복 표를 한 장 주세요.",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "정시",
+   "ipa": "jeongsi",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "오늘 정시에 가나요?",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "갈아타셔야",
+   "ipa": "garatasyeoya",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "네, 정시에 가요. 그런데 다음 도시에서 갈아타셔야 해요.",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "안녕하세요. 무엇을 도와 드릴까요?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "수도까지 가는 왕복 표를 한 장 주세요.",
+   "glosses": [
+    {
+     "text": "표",
+     "pos": "n.",
+     "meaning": "a ticket"
+    },
+    {
+     "text": "왕복",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "네. 다음 기차는 아홉 시에 사 번 승강장에서 출발해요.",
+   "glosses": [
+    {
+     "text": "승강장",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "출발해요",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "오늘 정시에 가나요?",
+   "glosses": [
+    {
+     "text": "정시",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Jiho",
+   "role": "npc",
+   "text": "네, 정시에 가요. 그런데 다음 도시에서 갈아타셔야 해요.",
+   "glosses": [
+    {
+     "text": "정시",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "갈아타셔야",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "알겠습니다. 표는 얼마예요?",
+   "glosses": [
+    {
+     "text": "표",
+     "pos": "n.",
+     "meaning": "a ticket"
+    }
+   ],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,275 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "反馈",
+   "ipa": "fǎnkuì",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "你有几分钟吗？我想听听你对我演讲的反馈。",
+     "en": "Do you have a few minutes? I would like some feedback on my presentation."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "建议",
+   "ipa": "jiànyì",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我有个建议：尽量说慢一点，尤其是开头。",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "批评",
+   "ipa": "pīpíng",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "还有别的吗？请坦诚说。我能接受批评。",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "具体",
+   "ipa": "jùtǐ",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "这很有帮助。你能具体说一下是哪几张吗？",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "进步",
+   "ipa": "jìnbù",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "一点也不。比起你上次的演讲，你有了真正的进步。",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "激励",
+   "ipa": "jīlì",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "这真的激励我继续练习。",
+     "en": "That really motivates me to keep practicing."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "你有几分钟吗？我想听听你对我演讲的反馈。",
+   "glosses": [
+    {
+     "text": "反馈",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "当然。首先，结构很清楚，你的例子也很有趣。",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "谢谢。那我可以改进什么？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我有个建议：尽量说慢一点，尤其是开头。",
+   "glosses": [
+    {
+     "text": "建议",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "我确实很紧张。真的很明显吗？",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有一点，但很容易改。在要点之间稍微停顿一下就会有帮助。",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "还有别的吗？请坦诚说。我能接受批评。",
+   "glosses": [
+    {
+     "text": "批评",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "最后几张幻灯片文字太多，所以观众开始读而不是听。",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "这很有帮助。你能具体说一下是哪几张吗？",
+   "glosses": [
+    {
+     "text": "具体",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "第八张和第九张。用一张图和一句话来代替。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "我会这么做的。说实话，我还担心讲得很糟糕。",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "一点也不。比起你上次的演讲，你有了真正的进步。",
+   "glosses": [
+    {
+     "text": "进步",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "这真的激励我继续练习。",
+   "glosses": [
+    {
+     "text": "激励",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "很好。建设性的反馈应该激励人，而不是让人泄气。",
+   "glosses": [
+    {
+     "text": "反馈",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "激励",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "同意。下周要不要我也给你的演讲提些反馈？",
+   "glosses": [
+    {
+     "text": "反馈",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我会很感激。谢谢你对此持开放态度。",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

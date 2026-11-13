@@ -1,0 +1,258 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "relocating",
+   "ipa": "/ɹiˈloʊˌkeɪɾɪŋ/",
+   "pos": "v.",
+   "meaning": "to relocate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I heard you are thinking about relocating to another country. Is that true?",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "visa",
+   "ipa": "/ˈvizə/",
+   "pos": "n.",
+   "meaning": "a visa",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Very. I will need a visa, and I have to find an apartment from a distance.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "culture shock",
+   "ipa": "/ˈkʌltʃɚ ʃɑk/",
+   "pos": "phr.",
+   "meaning": "culture shock",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Many expats say the first months are the hardest because of culture shock.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "adapt",
+   "ipa": "/əˈdæpt/",
+   "pos": "v.",
+   "meaning": "to adapt",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Yes, I have already started, and it will help me adapt faster.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "homesick",
+   "ipa": "/ˈhoʊmˌsɪk/",
+   "pos": "adj.",
+   "meaning": "homesick",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Leaving my family and friends. I think I will feel homesick at first.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "opportunity",
+   "ipa": "/ˌɑpɚˈtunɪɾi/",
+   "pos": "n.",
+   "meaning": "an opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Yes, I received a job offer abroad, and it is a great opportunity.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "I heard you are thinking about relocating to another country. Is that true?",
+   "glosses": [
+    {
+     "text": "relocating",
+     "pos": "v.",
+     "meaning": "to relocate"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, I received a job offer abroad, and it is a great opportunity.",
+   "glosses": [
+    {
+     "text": "opportunity",
+     "pos": "n.",
+     "meaning": "an opportunity"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Congratulations! But that is a big decision. Are you nervous?",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Very. I will need a visa, and I have to find an apartment from a distance.",
+   "glosses": [
+    {
+     "text": "visa",
+     "pos": "n.",
+     "meaning": "a visa"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "What worries you the most?",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Leaving my family and friends. I think I will feel homesick at first.",
+   "glosses": [
+    {
+     "text": "homesick",
+     "pos": "adj.",
+     "meaning": "homesick"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Many expats say the first months are the hardest because of culture shock.",
+   "glosses": [
+    {
+     "text": "culture shock",
+     "pos": "phr.",
+     "meaning": "culture shock"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I have heard that, so I am trying to learn about local customs before I go.",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "That is wise. Will you learn the language as well?",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, I have already started, and it will help me adapt faster.",
+   "glosses": [
+    {
+     "text": "adapt",
+     "pos": "v.",
+     "meaning": "to adapt"
+    }
+   ],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "What if you do not like it there?",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Then I can come back after a year. I do not see it as a final decision.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "That is a healthy attitude. Contracts can be broken, but experience stays.",
+   "glosses": [],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exactly. Even if it is difficult, I will learn a lot about myself.",
+   "glosses": [],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Please keep in touch and tell us everything.",
+   "glosses": [],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I promise. You can all visit me once I am settled in.",
+   "glosses": [],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

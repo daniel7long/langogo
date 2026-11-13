@@ -1,0 +1,181 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "invitación",
+   "ipa": "/im.bi.ta.ˈsjon/",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¡Qué invitación tan bonita! Sí, me encantaría venir.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "venir",
+   "ipa": "/beˈniɾ/",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¡Qué invitación tan bonita! Sí, me encantaría venir.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "una fiesta",
+   "ipa": "/ˈu.na ˈfjes.ta/",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¡Hola! El sábado es mi cumpleaños y voy a hacer una fiesta. ¿Puedes venir?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "traer",
+   "ipa": "/tɾaˈeɾ/",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¿Debo traer algo de comer o beber?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "cumpleaños",
+   "ipa": "/kum.pleˈa.ɲos/",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¡Hola! El sábado es mi cumpleaños y voy a hacer una fiesta. ¿Puedes venir?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "un regalo",
+   "ipa": "/un reˈɣa.lo/",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Solo trae buen humor. Y quizá un regalo pequeño para mí, ja, ja.",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "¡Hola! El sábado es mi cumpleaños y voy a hacer una fiesta. ¿Puedes venir?",
+   "glosses": [
+    {
+     "text": "venir",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "una fiesta",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "cumpleaños",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¡Qué invitación tan bonita! Sí, me encantaría venir.",
+   "glosses": [
+    {
+     "text": "invitación",
+     "pos": "n.",
+     "meaning": "an invitation"
+    },
+    {
+     "text": "venir",
+     "pos": "v.",
+     "meaning": "to come"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "¡Genial! Empieza a las siete de la tarde en mi casa.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¿Debo traer algo de comer o beber?",
+   "glosses": [
+    {
+     "text": "traer",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "Solo trae buen humor. Y quizá un regalo pequeño para mí, ja, ja.",
+   "glosses": [
+    {
+     "text": "un regalo",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¡Claro! Entonces nos vemos el sábado.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

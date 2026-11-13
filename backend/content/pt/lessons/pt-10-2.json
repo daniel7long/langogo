@@ -1,0 +1,264 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "trabalho remoto",
+   "ipa": "/tɾaˈba.ʎu ʁeˈmɔ.tu/",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "A minha empresa está pensando em tornar o trabalho remoto permanente. Qual é a sua opinião?",
+     "en": "My company is considering making remote work permanent. What is your opinion?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "produtividade",
+   "ipa": "/pɾo.du.tʃi.viˈda.dʒi/",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Mas a produtividade não cai quando as pessoas estão em casa?",
+     "en": "But does productivity not suffer when people are at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "flexibilidade",
+   "ipa": "/flek.si.bi.liˈda.dʒi/",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sou a favor, principalmente pela flexibilidade que ele dá aos funcionários.",
+     "en": "I am in favor, mainly because of the flexibility it gives employees."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "isolamento",
+   "ipa": "/i.zo.laˈmẽ.tu/",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "E o isolamento? Sinto falta de bater papo com os colegas perto da máquina de café.",
+     "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "deslocamento",
+   "ipa": "/dis.lo.kaˈmẽ.tu/",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "O deslocamento é a pior parte, preciso admitir. Perco duas horas por dia.",
+     "en": "The commute is the worst part, I must admit. I lose two hours a day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "conciliar",
+   "ipa": "/kõ.siˈljaɾ/",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Então a questão é como conciliar trabalho e vida pessoal.",
+     "en": "So the question is how to balance work and private life."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "A minha empresa está pensando em tornar o trabalho remoto permanente. Qual é a sua opinião?",
+   "glosses": [
+    {
+     "text": "trabalho remoto",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": "My company is considering making remote work permanent. What is your opinion?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sou a favor, principalmente pela flexibilidade que ele dá aos funcionários.",
+   "glosses": [
+    {
+     "text": "flexibilidade",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": "I am in favor, mainly because of the flexibility it gives employees."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Mas a produtividade não cai quando as pessoas estão em casa?",
+   "glosses": [
+    {
+     "text": "produtividade",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": "But does productivity not suffer when people are at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Estudos sugerem o contrário em muitas profissões, embora dependa da pessoa.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Studies suggest the opposite for many jobs, though it depends on the person."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Eu tenho dificuldade de me concentrar em casa, com tantas distrações.",
+   "glosses": [],
+   "id": "t5",
+   "en": "I find it hard to concentrate at home, with all the distractions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "É um bom argumento. Um espaço de trabalho adequado faz muita diferença.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is a fair point. A proper workspace makes a big difference."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "E o isolamento? Sinto falta de bater papo com os colegas perto da máquina de café.",
+   "glosses": [
+    {
+     "text": "isolamento",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Eu também, para ser sincero. Por isso acho que um modelo híbrido funciona melhor.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Me too, to be honest. That is why I think a hybrid model works best."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Dois ou três dias no escritório, talvez?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Two or three days in the office, perhaps?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exatamente. Você mantém o contato humano e ainda evita o deslocamento diário.",
+   "glosses": [
+    {
+     "text": "deslocamento",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly. You keep the human contact and still avoid the daily commute."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "O deslocamento é a pior parte, preciso admitir. Perco duas horas por dia.",
+   "glosses": [
+    {
+     "text": "deslocamento",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": "The commute is the worst part, I must admit. I lose two hours a day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Imagine o que você poderia fazer com esse tempo: esporte, família, sono.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Imagine what you could do with that time: sport, family, sleep."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Também é melhor para o meio ambiente, claro.",
+   "glosses": [],
+   "id": "t13",
+   "en": "It is also better for the environment, of course."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Verdade, embora aquecer uma casa o dia inteiro também gaste energia.",
+   "glosses": [],
+   "id": "t14",
+   "en": "True, although heating a home all day uses energy, too."
+  },
+  {
+   "speaker": "Pedro",
+   "role": "npc",
+   "text": "Então a questão é como conciliar trabalho e vida pessoal.",
+   "glosses": [
+    {
+     "text": "conciliar",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": "So the question is how to balance work and private life."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Isso. Horários claros são essenciais; senão você nunca desliga de verdade.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Right. Clear working hours are essential, otherwise you never really switch off."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,225 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "休假",
+   "ipa": "xiūjià",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "明白了。你可以休假，但走之前要把报告写完。",
+     "en": "I understand. You may take the day, but finish the report before you leave."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "紧急",
+   "ipa": "jǐnjí",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "是有什么紧急的事吗？",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "代替",
+   "ipa": "dàitì",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我同事可以代替我，而且我会提前把一切准备好。",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "提前",
+   "ipa": "tíqián",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我同事可以代替我，而且我会提前把一切准备好。",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "帮个忙",
+   "ipa": "bāng ge máng",
+   "pos": "n.",
+   "meaning": "a favor",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "还没有。我想先跟你谈谈，请你帮个忙。",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "理解",
+   "ipa": "lǐjiě",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "当然，谢谢你这么理解我。",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "嗨，你有时间吗？你看起来有点担心。",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有。我想请下周五的假。",
+   "glosses": [],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "是有什么紧急的事吗？",
+   "glosses": [
+    {
+     "text": "紧急",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有一点。我要去另一个城市参加表哥的婚礼。",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "我明白了。那天谁能接手你的工作？",
+   "glosses": [],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我同事可以代替我，而且我会提前把一切准备好。",
+   "glosses": [
+    {
+     "text": "代替",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "提前",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "这样就好。你已经问过她了吗？",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "还没有。我想先跟你谈谈，请你帮个忙。",
+   "glosses": [
+    {
+     "text": "帮个忙",
+     "pos": "n.",
+     "meaning": "a favor"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "明白了。你可以休假，但走之前要把报告写完。",
+   "glosses": [
+    {
+     "text": "休假",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "当然，谢谢你这么理解我。",
+   "glosses": [
+    {
+     "text": "理解",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Jun",
+   "role": "npc",
+   "text": "不客气。祝你在婚礼上玩得开心！",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "非常感谢。我会给你带一块蛋糕。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

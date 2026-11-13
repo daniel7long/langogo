@@ -1,0 +1,82 @@
+{
+  "speaking_sentence": "No próximo sábado, vamos visitar um pequeno museu com nossos amigos.",
+  "questions": [
+    {
+      "id": "q1",
+      "points": 10,
+      "correct": "a",
+      "prompt": "Complete a frase: Eu ___ um gato.",
+      "options": {
+        "a": "tenho",
+        "b": "sou",
+        "c": "estou"
+      }
+    },
+    {
+      "id": "q2",
+      "points": 10,
+      "correct": "b",
+      "prompt": "Ontem nós ___ ao cinema.",
+      "options": {
+        "a": "vamos",
+        "b": "fomos",
+        "c": "iremos"
+      }
+    },
+    {
+      "id": "q3",
+      "points": 12,
+      "correct": "c",
+      "prompt": "Ela ___ pão na padaria.",
+      "options": {
+        "a": "compras",
+        "b": "compramos",
+        "c": "compra"
+      }
+    },
+    {
+      "id": "q4",
+      "points": 14,
+      "correct": "a",
+      "prompt": "Se eu tivesse mais tempo, ___ com mais frequência.",
+      "options": {
+        "a": "viajaria",
+        "b": "viajarei",
+        "c": "viajava"
+      }
+    },
+    {
+      "id": "q5",
+      "points": 16,
+      "correct": "c",
+      "prompt": "Não acho que ela ___ a verdade sobre o acidente.",
+      "options": {
+        "a": "sabe",
+        "b": "saberá",
+        "c": "saiba"
+      }
+    },
+    {
+      "id": "q6",
+      "points": 18,
+      "correct": "b",
+      "prompt": "Se você tivesse me avisado ontem, eu ___ buscar você na estação.",
+      "options": {
+        "a": "iria",
+        "b": "teria ido",
+        "c": "fui"
+      }
+    },
+    {
+      "id": "q7",
+      "points": 20,
+      "correct": "a",
+      "prompt": "Seja qual ___ o motivo da ausência dele, devemos respeitar a decisão.",
+      "options": {
+        "a": "for",
+        "b": "é",
+        "c": "será"
+      }
+    }
+  ]
+}

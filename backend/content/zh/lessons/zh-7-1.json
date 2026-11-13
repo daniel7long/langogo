@@ -1,0 +1,238 @@
+{
+ "emoji": "💼",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "面试",
+   "ipa": "miànshì",
+   "pos": "n.",
+   "meaning": "an interview",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "早上好，感谢您来参加面试。",
+     "en": "Good morning, and thank you for coming to the interview."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "经验",
+   "ipa": "jīngyàn",
+   "pos": "n.",
+   "meaning": "experience",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "请简单介绍一下您自己和您的经验。",
+     "en": "Please tell me a little about yourself and your experience."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "应聘",
+   "ipa": "yìngpìn",
+   "pos": "v.",
+   "meaning": "to apply",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "很有意思。您为什么应聘这个职位？",
+     "en": "Interesting. Why did you apply for this position?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "团队",
+   "ipa": "tuánduì",
+   "pos": "n.",
+   "meaning": "a team",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "您喜欢一个人工作，还是在团队里工作？",
+     "en": "Do you prefer working alone or as part of a team?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "优点",
+   "ipa": "yōudiǎn",
+   "pos": "n.",
+   "meaning": "a strength",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "您觉得自己最大的优点是什么？",
+     "en": "What would you say is your greatest strength?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "薪水",
+   "ipa": "xīnshui",
+   "pos": "n.",
+   "meaning": "a salary",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "有，能请您介绍一下薪水和工作时间吗？",
+     "en": "Yes, could you tell me about the salary and the working hours?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "早上好，感谢您来参加面试。",
+   "glosses": [
+    {
+     "text": "面试",
+     "pos": "n.",
+     "meaning": "an interview"
+    }
+   ],
+   "id": "t1",
+   "en": "Good morning, and thank you for coming to the interview."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "早上好。谢谢您的邀请。",
+   "glosses": [],
+   "id": "t2",
+   "en": "Good morning. Thank you for inviting me."
+  },
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "请简单介绍一下您自己和您的经验。",
+   "glosses": [
+    {
+     "text": "经验",
+     "pos": "n.",
+     "meaning": "experience"
+    }
+   ],
+   "id": "t3",
+   "en": "Please tell me a little about yourself and your experience."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我学的是商科，已经在市场部门工作三年了。",
+   "glosses": [],
+   "id": "t4",
+   "en": "I studied business, and I have worked in marketing for three years."
+  },
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "很有意思。您为什么应聘这个职位？",
+   "glosses": [
+    {
+     "text": "应聘",
+     "pos": "v.",
+     "meaning": "to apply"
+    }
+   ],
+   "id": "t5",
+   "en": "Interesting. Why did you apply for this position?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我喜欢贵公司的项目，也想在更大的团队里学习。",
+   "glosses": [
+    {
+     "text": "团队",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t6",
+   "en": "I like your company's projects, and I want to learn in a bigger team."
+  },
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "您觉得自己最大的优点是什么？",
+   "glosses": [
+    {
+     "text": "优点",
+     "pos": "n.",
+     "meaning": "a strength"
+    }
+   ],
+   "id": "t7",
+   "en": "What would you say is your greatest strength?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我做事有条理，而且有压力的时候也能保持冷静。",
+   "glosses": [],
+   "id": "t8",
+   "en": "I am organized, and I stay calm when there is pressure."
+  },
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "您喜欢一个人工作，还是在团队里工作？",
+   "glosses": [
+    {
+     "text": "团队",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t9",
+   "en": "Do you prefer working alone or as part of a team?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "两种我都喜欢，但我在团队里表现最好。",
+   "glosses": [
+    {
+     "text": "团队",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t10",
+   "en": "I enjoy both, but I do my best work in a team."
+  },
+  {
+   "speaker": "Mei",
+   "role": "npc",
+   "text": "好的。我们下周会联系您。您还有什么问题吗？",
+   "glosses": [],
+   "id": "t11",
+   "en": "Good. We will contact you next week. Do you have any questions?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有，能请您介绍一下薪水和工作时间吗？",
+   "glosses": [
+    {
+     "text": "薪水",
+     "pos": "n.",
+     "meaning": "a salary"
+    }
+   ],
+   "id": "t12",
+   "en": "Yes, could you tell me about the salary and the working hours?"
+  }
+ ],
+ "practice_words": []
+}

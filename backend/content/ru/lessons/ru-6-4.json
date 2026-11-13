@@ -1,0 +1,177 @@
+{
+ "emoji": "🏖️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "отпуск",
+   "ipa": "ótpusk",
+   "pos": "n.",
+   "meaning": "a holiday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "У тебя есть планы на летний отпуск?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "пляж",
+   "ipa": "pljazh",
+   "pos": "n.",
+   "meaning": "the beach",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Да! Я хочу поехать на пляж на неделю.",
+     "en": "Yes! I want to go to the beach for one week."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "забронировала",
+   "ipa": "zabronírovala",
+   "pos": "v.",
+   "meaning": "to book",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Прекрасно. Ты уже забронировала отель?",
+     "en": "Wonderful. Did you already book the hotel?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "планы",
+   "ipa": "plány",
+   "pos": "n.",
+   "meaning": "a plan",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "У тебя есть планы на летний отпуск?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "погоду",
+   "ipa": "pogódu",
+   "pos": "n.",
+   "meaning": "the weather",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ещё нет. Забронирую сегодня вечером, когда проверю погоду.",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "соберу",
+   "ipa": "soberú",
+   "pos": "v.",
+   "meaning": "to pack",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Спасибо! В эти выходные я составлю план и соберу сумку.",
+     "en": "Thanks! I will make a plan and pack my bag this weekend."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "У тебя есть планы на летний отпуск?",
+   "glosses": [
+    {
+     "text": "отпуск",
+     "pos": "n.",
+     "meaning": "a holiday"
+    },
+    {
+     "text": "планы",
+     "pos": "n.",
+     "meaning": "a plan"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have plans for your summer vacation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да! Я хочу поехать на пляж на неделю.",
+   "glosses": [
+    {
+     "text": "пляж",
+     "pos": "n.",
+     "meaning": "the beach"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes! I want to go to the beach for one week."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Прекрасно. Ты уже забронировала отель?",
+   "glosses": [
+    {
+     "text": "забронировала",
+     "pos": "v.",
+     "meaning": "to book"
+    }
+   ],
+   "id": "t3",
+   "en": "Wonderful. Did you already book the hotel?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ещё нет. Забронирую сегодня вечером, когда проверю погоду.",
+   "glosses": [
+    {
+     "text": "погоду",
+     "pos": "n.",
+     "meaning": "the weather"
+    }
+   ],
+   "id": "t4",
+   "en": "Not yet. I will book it tonight, when I check the weather."
+  },
+  {
+   "speaker": "Иван",
+   "role": "npc",
+   "text": "Хорошая идея. Не забудь взять крем от солнца и шляпу.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Good idea. Do not forget to pack sunscreen and a hat."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Спасибо! В эти выходные я составлю план и соберу сумку.",
+   "glosses": [
+    {
+     "text": "соберу",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t6",
+   "en": "Thanks! I will make a plan and pack my bag this weekend."
+  }
+ ],
+ "practice_words": []
+}

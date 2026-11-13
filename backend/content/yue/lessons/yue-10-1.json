@@ -1,0 +1,263 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "影響",
+   "ipa": "jing2 hoeng2",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "老實講，係。我覺得佢對我哋點睇自己有好大嘅影響。",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "私隱",
+   "ipa": "si1 jan2",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我同意。咁私隱呢？公司收集咗好多關於我哋嘅數據。",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "傳播",
+   "ipa": "cyun4 bo3",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "呢個係我最擔心嘅地方。誤導嘅新聞傳播得比事實快好多。",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "誤導",
+   "ipa": "ng6 dou6",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "呢個係我最擔心嘅地方。誤導嘅新聞傳播得比事實快好多。",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "監管",
+   "ipa": "gaam1 gun2",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "監管好棘手。邊個決定咩係真？",
+     "en": "Regulation is tricky. Who decides what is true?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "上癮",
+   "ipa": "soeng5 jan5",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "有啲人甚至承認自己對手機上癮。",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "我睇到話人哋每日花四個鐘頭喺社交媒體度。你覺得擔心嗎？",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "老實講，係。我覺得佢對我哋點睇自己有好大嘅影響。",
+   "glosses": [
+    {
+     "text": "影響",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "點解咁講？好多人話佢只係幫人保持聯繫。",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "係咁講，但係將自己嘅生活同網上完美嘅相比較，可能會傷害自尊心。",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "啱。咁我哋喺嗰度睇到嘅資訊呢？",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "呢個係我最擔心嘅地方。誤導嘅新聞傳播得比事實快好多。",
+   "glosses": [
+    {
+     "text": "傳播",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "誤導",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "你認為平台應該為此負責嗎？",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "部分啦。我覺得政府應該更嚴格咁監管佢哋，只要言論自由受到保障。",
+   "glosses": [
+    {
+     "text": "監管",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "監管好棘手。邊個決定咩係真？",
+   "glosses": [
+    {
+     "text": "監管",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "講得啱。或者解決辦法係教育：教人哋核實資料來源。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "我同意。咁私隱呢？公司收集咗好多關於我哋嘅數據。",
+   "glosses": [
+    {
+     "text": "私隱",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我都擔心呢樣。大部分用戶接受條款之前從來都唔睇條款同細則。",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "有啲人甚至承認自己對手機上癮。",
+   "glosses": [
+    {
+     "text": "上癮",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我唔會講到咁嚴重，但係我發覺自己會自動自覺咁睇手機。",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "咁你會唔會徹底唔用社交媒體？",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "應該唔會，但係我嘗試限制時間，而且已經有分別。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

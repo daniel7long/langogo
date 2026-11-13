@@ -1,0 +1,267 @@
+{
+ "emoji": "🚌",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "塞車",
+   "ipa": "sak1 ce1",
+   "pos": "n.",
+   "meaning": "traffic",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我覺得係個大膽嘅主意，但係可以大幅減少污染同塞車。",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "污染",
+   "ipa": "wu1 jim5",
+   "pos": "n.",
+   "meaning": "pollution",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我覺得係個大膽嘅主意，但係可以大幅減少污染同塞車。",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "可靠",
+   "ipa": "ho2 kaau3",
+   "pos": "adj.",
+   "meaning": "reliable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "公共交通要先改善先得。我哋嘅巴士好少準時可靠。",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "車費",
+   "ipa": "ce1 fai3",
+   "pos": "n.",
+   "meaning": "a fare",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "而且對有幾個小朋友嘅家庭嚟講，車費好貴。",
+     "en": "And the fares are expensive for families with several children."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "方便",
+   "ipa": "fong1 bin6",
+   "pos": "adj.",
+   "meaning": "convenient",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "但係汽車太方便喇。我想去邊就去邊。",
+     "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "公共交通",
+   "ipa": "gung1 gung6 gaau1 tung1",
+   "pos": "n.",
+   "meaning": "public transport",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "公共交通要先改善先得。我哋嘅巴士好少準時可靠。",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "我哋個市想禁止汽車入市中心。你點睇？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Our city wants to ban cars from the center. What do you think?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我覺得係個大膽嘅主意，但係可以大幅減少污染同塞車。",
+   "glosses": [
+    {
+     "text": "塞車",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "污染",
+     "pos": "n.",
+     "meaning": "pollution"
+    }
+   ],
+   "id": "t2",
+   "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "但係依賴汽車嘅人呢，例如送貨員？",
+   "glosses": [],
+   "id": "t3",
+   "en": "But what about people who depend on their cars, like delivery drivers?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "佢哋可以攞到特別通行證，咁個計劃就唔會損害本地商戶。",
+   "glosses": [],
+   "id": "t4",
+   "en": "They could receive special permits, so the plan would not hurt local businesses."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "公共交通要先改善先得。我哋嘅巴士好少準時可靠。",
+   "glosses": [
+    {
+     "text": "可靠",
+     "pos": "adj.",
+     "meaning": "reliable"
+    },
+    {
+     "text": "公共交通",
+     "pos": "n.",
+     "meaning": "public transport"
+    }
+   ],
+   "id": "t5",
+   "en": "Public transport would have to improve first. Our buses are rarely reliable."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "啱。冇頻密同準時嘅服務，個計劃就會失敗。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Exactly. Without frequent and punctual services, the plan will fail."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "而且對有幾個小朋友嘅家庭嚟講，車費好貴。",
+   "glosses": [
+    {
+     "text": "車費",
+     "pos": "n.",
+     "meaning": "a fare"
+    }
+   ],
+   "id": "t7",
+   "en": "And the fares are expensive for families with several children."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "更平嘅月票會鼓勵更多人將車留喺屋企。",
+   "glosses": [],
+   "id": "t8",
+   "en": "A cheaper monthly pass would encourage more people to leave their cars at home."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "但係汽車太方便喇。我想去邊就去邊。",
+   "glosses": [
+    {
+     "text": "方便",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t9",
+   "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "方便係方便，但你都會浪費時間塞車，又要花好多錢泊車。",
+   "glosses": [
+    {
+     "text": "塞車",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "方便",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t10",
+   "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "呢句係真嘅。我每日差唔多要花一個鐘搵車位。",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is true. I spend nearly an hour a day looking for a place to park."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有啲城市證明咗單車徑可以行得好好。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Some cities show that cycling lanes can work very well."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "可能啦，但係我哋嘅冬天比佢哋嘅更冷。",
+   "glosses": [],
+   "id": "t13",
+   "en": "Perhaps, but our winters are harsher than theirs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "講得啱，所以可能需要多種方案結合。",
+   "glosses": [],
+   "id": "t14",
+   "en": "Fair enough, which is why a mix of solutions is probably necessary."
+  },
+  {
+   "speaker": "Jack",
+   "role": "npc",
+   "text": "如果火車同巴士改善咗，我可能會支持個計劃。",
+   "glosses": [],
+   "id": "t15",
+   "en": "I might support the plan if the trains and buses improve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "咁先係正確嘅條件。當人哋有其他選擇，改變先至最有效。",
+   "glosses": [],
+   "id": "t16",
+   "en": "That would be the right condition. Change works best when people have alternatives."
+  }
+ ],
+ "practice_words": []
+}

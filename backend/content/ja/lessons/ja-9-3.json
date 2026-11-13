@@ -1,0 +1,248 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "会員",
+   "ipa": "kaiin",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "会員の料金は一か月いくらですか。",
+     "en": "How much does the membership cost for a month?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "トレーナー",
+   "ipa": "toreenaa",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "もちろんです。トレーナーが使い方をご説明します。",
+     "en": "Of course. Our trainer will show you how everything works."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "目標",
+   "ipa": "mokuhyoo",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "すばらしいですね。主な目標は何ですか。体重を減らすことですか、それとも強くなることですか。",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "運動",
+   "ipa": "undoo",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "はい、定期的に運動を始めたいと思っています。",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "セッション",
+   "ipa": "sesshon",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "一か月三十五で、最初のセッションは無料です。",
+     "en": "It is thirty-five a month, and the first session is free."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "強く",
+   "ipa": "tsuyoku",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "もっと強くなって、日中の元気も増やしたいです。",
+     "en": "I want to get stronger and have more energy during the day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "ジムへようこそ！会員になることに興味はありますか。",
+   "glosses": [
+    {
+     "text": "会員",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "はい、定期的に運動を始めたいと思っています。",
+   "glosses": [
+    {
+     "text": "運動",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "すばらしいですね。主な目標は何ですか。体重を減らすことですか、それとも強くなることですか。",
+   "glosses": [
+    {
+     "text": "目標",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "強く",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "もっと強くなって、日中の元気も増やしたいです。",
+   "glosses": [
+    {
+     "text": "強く",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "では、最初はトレーナーとのセッションを週に三回おすすめします。",
+   "glosses": [
+    {
+     "text": "トレーナー",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "セッション",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "会員の料金は一か月いくらですか。",
+   "glosses": [
+    {
+     "text": "会員",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "一か月三十五で、最初のセッションは無料です。",
+   "glosses": [
+    {
+     "text": "セッション",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "手頃ですね。今日、器具を試せますか。",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "もちろんです。トレーナーが使い方をご説明します。",
+   "glosses": [
+    {
+     "text": "トレーナー",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "タオルは自分で持ってくる必要がありますか。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "はい、タオルと水のボトルをお持ちください。",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "完璧です。今すぐ申し込みます。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

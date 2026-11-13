@@ -1,0 +1,238 @@
+{
+ "emoji": "💼",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "собеседование",
+   "ipa": "sobesédovanije",
+   "pos": "n.",
+   "meaning": "an interview",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Доброе утро, и спасибо, что пришли на собеседование.",
+     "en": "Good morning, and thank you for coming to the interview."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "опыт",
+   "ipa": "ópyt",
+   "pos": "n.",
+   "meaning": "experience",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Расскажите, пожалуйста, немного о себе и о своём опыте.",
+     "en": "Please tell me a little about yourself and your experience."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "подали заявку",
+   "ipa": "pódali zayávku",
+   "pos": "v.",
+   "meaning": "to apply",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Интересно. Почему вы подали заявку на эту должность?",
+     "en": "Interesting. Why did you apply for this position?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "команде",
+   "ipa": "kománde",
+   "pos": "n.",
+   "meaning": "a team",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Вы предпочитаете работать один или в команде?",
+     "en": "Do you prefer working alone or as part of a team?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "сильной стороной",
+   "ipa": "síl'noj storonój",
+   "pos": "n.",
+   "meaning": "a strength",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Что вы назвали бы своей главной сильной стороной?",
+     "en": "What would you say is your greatest strength?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "зарплате",
+   "ipa": "zarpláte",
+   "pos": "n.",
+   "meaning": "a salary",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Да, не могли бы вы рассказать о зарплате и рабочем графике?",
+     "en": "Yes, could you tell me about the salary and the working hours?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Доброе утро, и спасибо, что пришли на собеседование.",
+   "glosses": [
+    {
+     "text": "собеседование",
+     "pos": "n.",
+     "meaning": "an interview"
+    }
+   ],
+   "id": "t1",
+   "en": "Good morning, and thank you for coming to the interview."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Доброе утро. Спасибо за приглашение.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Good morning. Thank you for inviting me."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Расскажите, пожалуйста, немного о себе и о своём опыте.",
+   "glosses": [
+    {
+     "text": "опыт",
+     "pos": "n.",
+     "meaning": "experience"
+    }
+   ],
+   "id": "t3",
+   "en": "Please tell me a little about yourself and your experience."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я изучал бизнес и три года работаю в маркетинге.",
+   "glosses": [],
+   "id": "t4",
+   "en": "I studied business, and I have worked in marketing for three years."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Интересно. Почему вы подали заявку на эту должность?",
+   "glosses": [
+    {
+     "text": "подали заявку",
+     "pos": "v.",
+     "meaning": "to apply"
+    }
+   ],
+   "id": "t5",
+   "en": "Interesting. Why did you apply for this position?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Мне нравятся проекты вашей компании, и я хочу учиться в более крупной команде.",
+   "glosses": [
+    {
+     "text": "команде",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t6",
+   "en": "I like your company's projects, and I want to learn in a bigger team."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Что вы назвали бы своей главной сильной стороной?",
+   "glosses": [
+    {
+     "text": "сильной стороной",
+     "pos": "n.",
+     "meaning": "a strength"
+    }
+   ],
+   "id": "t7",
+   "en": "What would you say is your greatest strength?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я организован и сохраняю спокойствие, когда есть давление.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I am organized, and I stay calm when there is pressure."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Вы предпочитаете работать один или в команде?",
+   "glosses": [
+    {
+     "text": "команде",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t9",
+   "en": "Do you prefer working alone or as part of a team?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Мне нравится и то и другое, но лучше всего я работаю в команде.",
+   "glosses": [
+    {
+     "text": "команде",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t10",
+   "en": "I enjoy both, but I do my best work in a team."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Хорошо. Мы свяжемся с вами на следующей неделе. У вас есть вопросы?",
+   "glosses": [],
+   "id": "t11",
+   "en": "Good. We will contact you next week. Do you have any questions?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, не могли бы вы рассказать о зарплате и рабочем графике?",
+   "glosses": [
+    {
+     "text": "зарплате",
+     "pos": "n.",
+     "meaning": "a salary"
+    }
+   ],
+   "id": "t12",
+   "en": "Yes, could you tell me about the salary and the working hours?"
+  }
+ ],
+ "practice_words": []
+}

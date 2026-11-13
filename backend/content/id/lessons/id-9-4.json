@@ -1,0 +1,234 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "pola makan",
+   "ipa": "/ˈpɔla ˈmakan/",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Pola makan yang seimbang adalah awal yang terbaik. Apakah kamu makan banyak sayuran?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "sayuran",
+   "ipa": "/saˈjuɾan/",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Cobalah makan setidaknya dua porsi sayuran pada setiap waktu makan.",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "gula",
+   "ipa": "/ˈgula/",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Kedengarannya sulit. Bagaimana dengan gula? Aku suka kue dan minuman bersoda.",
+     "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "menghindari",
+   "ipa": "/məŋhinˈdaɾi/",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Kamu sebaiknya menghindari terlalu banyak gula, tetapi tidak perlu berhenti total.",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "porsi",
+   "ipa": "/ˈpɔɾsi/",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Cobalah makan setidaknya dua porsi sayuran pada setiap waktu makan.",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "seimbang",
+   "ipa": "/səimˈbaŋ/",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Pola makan yang seimbang adalah awal yang terbaik. Apakah kamu makan banyak sayuran?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Aku ingin makan lebih sehat, tetapi tidak tahu harus mulai dari mana.",
+   "glosses": [],
+   "id": "t1",
+   "en": "I want to eat better, but I do not know where to start."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Pola makan yang seimbang adalah awal yang terbaik. Apakah kamu makan banyak sayuran?",
+   "glosses": [
+    {
+     "text": "Pola makan",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "sayuran",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "seimbang",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Tidak juga. Aku kebanyakan makan mi dan makanan cepat saji.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Not really. I mostly eat pasta and fast food."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Cobalah makan setidaknya dua porsi sayuran pada setiap waktu makan.",
+   "glosses": [
+    {
+     "text": "sayuran",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "porsi",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": "Try to have at least two portions of vegetables with every meal."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Kedengarannya sulit. Bagaimana dengan gula? Aku suka kue dan minuman bersoda.",
+   "glosses": [
+    {
+     "text": "gula",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Kamu sebaiknya menghindari terlalu banyak gula, tetapi tidak perlu berhenti total.",
+   "glosses": [
+    {
+     "text": "gula",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "menghindari",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": "You should avoid too much sugar, but you do not have to stop completely."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Apa yang bisa kuminum sebagai pengganti minuman bersoda?",
+   "glosses": [],
+   "id": "t7",
+   "en": "What can I drink instead of soft drinks?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Air putih, teh, atau air dengan seiris lemon.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Water, tea, or water with a slice of lemon."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Dan kamu biasanya sarapan apa?",
+   "glosses": [],
+   "id": "t9",
+   "en": "And what do you eat for breakfast?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Biasanya yogurt dengan buah, atau telur dengan roti.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Usually yogurt with fruit, or eggs with bread."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Itu sederhana. Mungkin aku bisa lebih sering memasak di rumah.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is simple. Maybe I can cook more at home."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya! Memasak di rumah lebih murah dan lebih sehat.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes! Cooking at home is cheaper and healthier."
+  }
+ ],
+ "practice_words": []
+}

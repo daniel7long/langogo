@@ -1,0 +1,237 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "symptoms",
+   "ipa": "/ˈsɪmptəmz/",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Do you have any other symptoms, like pain in your chest?",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "fever",
+   "ipa": "/ˈfivɚ/",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "I have had a fever and a bad cough for three days.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "pain",
+   "ipa": "/peɪn/",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "No pain, but I feel very weak and I cannot sleep well.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "rest",
+   "ipa": "/ɹɛst/",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "No, it is just a strong flu. You need to rest for at least five days.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "recover",
+   "ipa": "/ɹɪˈkʌvɚ/",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "How long will it take to recover completely?",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "appointment",
+   "ipa": "/əˈpɔɪntmənt/",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "About a week. Come back for another appointment if it gets worse.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Hello, please sit down. What brings you here today?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I have had a fever and a bad cough for three days.",
+   "glosses": [
+    {
+     "text": "fever",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Do you have any other symptoms, like pain in your chest?",
+   "glosses": [
+    {
+     "text": "symptoms",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "pain",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "No pain, but I feel very weak and I cannot sleep well.",
+   "glosses": [
+    {
+     "text": "pain",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Let me listen to your lungs. Please breathe deeply.",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Is it something serious, doctor?",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "No, it is just a strong flu. You need to rest for at least five days.",
+   "glosses": [
+    {
+     "text": "rest",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Should I take any medicine?",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "I will give you a prescription for the fever. Drink a lot of water, too.",
+   "glosses": [
+    {
+     "text": "fever",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "How long will it take to recover completely?",
+   "glosses": [
+    {
+     "text": "recover",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "About a week. Come back for another appointment if it gets worse.",
+   "glosses": [
+    {
+     "text": "appointment",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Thank you, doctor. I will follow your advice.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

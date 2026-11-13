@@ -1,215 +1,192 @@
 {
-  "emoji": "🧭",
-  "max_flowers": 35,
-  "cefr": "A2",
-  "vocab": [
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "the station",
+   "ipa": "/ðə ˈsteɪʃən/",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "v1",
-      "word": "straight",
-      "ipa": "/streɪt/",
-      "pos": "adv.",
-      "meaning": "in a line, without turning",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "Go straight for two blocks."
-        },
-        {
-          "target": "Walk straight ahead."
-        }
-      ]
-    },
-    {
-      "id": "v2",
-      "word": "turn left",
-      "ipa": "/tɜːrn left/",
-      "pos": "phr.",
-      "meaning": "to change direction toward the left side",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "Turn left at the bank."
-        },
-        {
-          "target": "Turn left, then go straight."
-        }
-      ]
-    },
-    {
-      "id": "v3",
-      "word": "turn right",
-      "ipa": "/tɜːrn raɪt/",
-      "pos": "phr.",
-      "meaning": "to change direction toward the right side",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "Turn right at the light."
-        },
-        {
-          "target": "Turn right after the park."
-        }
-      ]
-    },
-    {
-      "id": "v4",
-      "word": "corner",
-      "ipa": "/ˈkɔːrnər/",
-      "pos": "n.",
-      "meaning": "the place where two streets meet",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "The shop is on the corner."
-        },
-        {
-          "target": "Turn at the next corner."
-        }
-      ]
-    },
-    {
-      "id": "v5",
-      "word": "near",
-      "ipa": "/nɪr/",
-      "pos": "adj.",
-      "meaning": "not far away",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "The station is near here."
-        },
-        {
-          "target": "Is the bank near?"
-        }
-      ]
-    },
-    {
-      "id": "v6",
-      "word": "far",
-      "ipa": "/fɑːr/",
-      "pos": "adj.",
-      "meaning": "a long way away",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "It is not far."
-        },
-        {
-          "target": "Is the airport far?"
-        }
-      ]
-    },
-    {
-      "id": "v7",
-      "word": "map",
-      "ipa": "/mæp/",
-      "pos": "n.",
-      "meaning": "a drawing that shows places and roads",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "Look at the map."
-        },
-        {
-          "target": "I use a map on my phone."
-        }
-      ]
+     "target": "Yes, please. Where is the station? Is it far?",
+     "en": ""
     }
-  ],
-  "dialogue": [
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "turn left",
+   "ipa": "/tɝn lɛft/",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "t1",
-      "speaker": "Passerby",
-      "role": "npc",
-      "text": "Excuse me, where is the train station?",
-      "glosses": [],
-      "en": "Please tell me the way to the train station."
-    },
-    {
-      "id": "t2",
-      "speaker": "You",
-      "role": "you",
-      "text": "It is near here. Go straight for two blocks.",
-      "glosses": [
-        {
-          "text": "straight",
-          "pos": "adv.",
-          "meaning": "in a line, without turning"
-        },
-        {
-          "text": "near",
-          "pos": "adj.",
-          "meaning": "not far away"
-        }
-      ],
-      "en": "It is not far. Walk ahead for two blocks."
-    },
-    {
-      "id": "t3",
-      "speaker": "Passerby",
-      "role": "npc",
-      "text": "Then turn left at the corner.",
-      "glosses": [
-        {
-          "text": "turn left",
-          "pos": "phr.",
-          "meaning": "to change direction toward the left side"
-        },
-        {
-          "text": "corner",
-          "pos": "n.",
-          "meaning": "the place where two streets meet"
-        }
-      ],
-      "en": "After that, turn toward the left at the corner."
-    },
-    {
-      "id": "t4",
-      "speaker": "You",
-      "role": "you",
-      "text": "Is it far from there?",
-      "glosses": [
-        {
-          "text": "far",
-          "pos": "adj.",
-          "meaning": "a long way away"
-        }
-      ],
-      "en": "Is it a long way after that?"
-    },
-    {
-      "id": "t5",
-      "speaker": "Passerby",
-      "role": "npc",
-      "text": "No, it is on the right. You can see it on the map.",
-      "glosses": [
-        {
-          "text": "map",
-          "pos": "n.",
-          "meaning": "a drawing that shows places and roads"
-        }
-      ],
-      "en": "No, it is on your right side. The map shows it."
-    },
-    {
-      "id": "t6",
-      "speaker": "You",
-      "role": "you",
-      "text": "Thank you very much for your help!",
-      "glosses": [],
-      "en": "Thanks a lot for helping me!"
+     "target": "And then? Do I turn left or right?",
+     "en": ""
     }
-  ],
-  "practice_words": [
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "straight ahead",
+   "ipa": "/streɪt əˈhɛd/",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "w1",
-      "text": "straight",
-      "tip": "Say 'strayt' with a clear 'str' start"
+     "target": "No, it is not far. Go straight ahead for two streets.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "far",
+   "ipa": "/fɑɹ/",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Yes, please. Where is the station? Is it far?",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "the corner",
+   "ipa": "/ðə ˈkɔɹnɚ/",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Turn left at the corner. The station is next to the bank.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "a map",
+   "ipa": "/ə mæp/",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Thank you! I have a map on my phone, so it will be easy.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Excuse me, can I help you? You look lost.",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, please. Where is the station? Is it far?",
+   "glosses": [
+    {
+     "text": "the station",
+     "pos": "n.",
+     "meaning": "the station"
     },
     {
-      "id": "w2",
-      "text": "corner",
-      "tip": "Say KOR-ner with a soft 'r'"
+     "text": "far",
+     "pos": "adj.",
+     "meaning": "far"
     }
-  ]
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "No, it is not far. Go straight ahead for two streets.",
+   "glosses": [
+    {
+     "text": "straight ahead",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "far",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "And then? Do I turn left or right?",
+   "glosses": [
+    {
+     "text": "turn left",
+     "pos": "phr.",
+     "meaning": "turn left"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Turn left at the corner. The station is next to the bank.",
+   "glosses": [
+    {
+     "text": "The station",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "Turn left",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "the corner",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Thank you! I have a map on my phone, so it will be easy.",
+   "glosses": [
+    {
+     "text": "a map",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  }
+ ],
+ "practice_words": []
 }

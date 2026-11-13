@@ -1,227 +1,182 @@
 {
-  "emoji": "🎬",
-  "max_flowers": 35,
-  "cefr": "B1",
-  "vocab": [
+ "emoji": "🎸",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "hobby",
+   "ipa": "/ˈhɑbi/",
+   "pos": "n.",
+   "meaning": "a hobby",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "v1",
-      "word": "movie",
-      "ipa": "/ˈmuːvi/",
-      "pos": "n.",
-      "meaning": "a story shown on a screen",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "Let's watch a movie."
-        },
-        {
-          "target": "The movie was funny."
-        }
-      ]
-    },
-    {
-      "id": "v2",
-      "word": "novel",
-      "ipa": "/ˈnɑːvl/",
-      "pos": "n.",
-      "meaning": "a long book with a made-up story",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I read a novel."
-        },
-        {
-          "target": "This novel is exciting."
-        }
-      ]
-    },
-    {
-      "id": "v3",
-      "word": "plot",
-      "ipa": "/plɑːt/",
-      "pos": "n.",
-      "meaning": "the events of a story",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "The plot is easy to follow."
-        },
-        {
-          "target": "I liked the plot."
-        }
-      ]
-    },
-    {
-      "id": "v4",
-      "word": "character",
-      "ipa": "/ˈkærəktər/",
-      "pos": "n.",
-      "meaning": "a person in a story",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "My favorite character is brave."
-        },
-        {
-          "target": "The main character is a girl."
-        }
-      ]
-    },
-    {
-      "id": "v5",
-      "word": "ending",
-      "ipa": "/ˈendɪŋ/",
-      "pos": "n.",
-      "meaning": "the last part of a story",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "The ending was sad."
-        },
-        {
-          "target": "I did not like the ending."
-        }
-      ]
-    },
-    {
-      "id": "v6",
-      "word": "recommend",
-      "ipa": "/ˌrekəˈmend/",
-      "pos": "v.",
-      "meaning": "to say that something is good",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I recommend this book."
-        },
-        {
-          "target": "Can you recommend a movie?"
-        }
-      ]
-    },
-    {
-      "id": "v7",
-      "word": "boring",
-      "ipa": "/ˈbɔːrɪŋ/",
-      "pos": "adj.",
-      "meaning": "not interesting",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "The movie was boring."
-        },
-        {
-          "target": "Is the book boring?"
-        }
-      ]
+     "target": "Really? That is a great hobby. I prefer swimming.",
+     "en": ""
     }
-  ],
-  "dialogue": [
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "free time",
+   "ipa": "/fɹi taɪm/",
+   "pos": "phr.",
+   "meaning": "free time",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "t1",
-      "speaker": "Friend",
-      "role": "npc",
-      "text": "Did you see the new movie last night?",
-      "glosses": [
-        {
-          "text": "movie",
-          "pos": "n.",
-          "meaning": "a story shown on a screen"
-        }
-      ],
-      "en": "Did you watch the new movie yesterday evening?"
-    },
-    {
-      "id": "t2",
-      "speaker": "You",
-      "role": "you",
-      "text": "Yes, I did. The plot was exciting, and the characters were funny.",
-      "glosses": [
-        {
-          "text": "plot",
-          "pos": "n.",
-          "meaning": "the events of a story"
-        }
-      ],
-      "en": "Yes. The story was exciting, and the people in it were funny."
-    },
-    {
-      "id": "t3",
-      "speaker": "Friend",
-      "role": "npc",
-      "text": "Was the ending good? I hate sad endings.",
-      "glosses": [
-        {
-          "text": "ending",
-          "pos": "n.",
-          "meaning": "the last part of a story"
-        }
-      ],
-      "en": "Was the last part good? I do not like sad last parts."
-    },
-    {
-      "id": "t4",
-      "speaker": "You",
-      "role": "you",
-      "text": "The ending was happy. I recommend it.",
-      "glosses": [
-        {
-          "text": "ending",
-          "pos": "n.",
-          "meaning": "the last part of a story"
-        },
-        {
-          "text": "recommend",
-          "pos": "v.",
-          "meaning": "to say that something is good"
-        }
-      ],
-      "en": "The last part was happy. I say you should see it."
-    },
-    {
-      "id": "t5",
-      "speaker": "Friend",
-      "role": "npc",
-      "text": "Great! Can you also recommend a novel?",
-      "glosses": [
-        {
-          "text": "novel",
-          "pos": "n.",
-          "meaning": "a long book with a made-up story"
-        },
-        {
-          "text": "recommend",
-          "pos": "v.",
-          "meaning": "to say that something is good"
-        }
-      ],
-      "en": "Good! Can you also say a good book?"
-    },
-    {
-      "id": "t6",
-      "speaker": "You",
-      "role": "you",
-      "text": "Sure. Read this one. It is not boring at all.",
-      "glosses": [
-        {
-          "text": "boring",
-          "pos": "adj.",
-          "meaning": "not interesting"
-        }
-      ],
-      "en": "Of course. Read this one. It is never dull."
+     "target": "What do you like to do in your free time?",
+     "en": ""
     }
-  ],
-  "practice_words": [
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "play",
+   "ipa": "/pleɪ/",
+   "pos": "v.",
+   "meaning": "to play",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "w1",
-      "text": "character",
-      "tip": "Say KAIR-ik-ter: the 'ch' sounds like 'k'"
+     "target": "I love reading, and I often play tennis on Sundays.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "often",
+   "ipa": "/ˈɔfən/",
+   "pos": "adv.",
+   "meaning": "often",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "I love reading, and I often play tennis on Sundays.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "prefer",
+   "ipa": "/pɹɪˈfɝ/",
+   "pos": "v.",
+   "meaning": "to prefer",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Really? That is a great hobby. I prefer swimming.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "pool",
+   "ipa": "/pul/",
+   "pos": "n.",
+   "meaning": "a pool",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Do you swim in a pool or in the sea?",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "What do you like to do in your free time?",
+   "glosses": [
+    {
+     "text": "free time",
+     "pos": "phr.",
+     "meaning": "free time"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I love reading, and I often play tennis on Sundays.",
+   "glosses": [
+    {
+     "text": "play",
+     "pos": "v.",
+     "meaning": "to play"
     },
     {
-      "id": "w2",
-      "text": "plot",
-      "tip": "Say 'plot' with a short o sound"
+     "text": "often",
+     "pos": "adv.",
+     "meaning": "often"
     }
-  ]
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Really? That is a great hobby. I prefer swimming.",
+   "glosses": [
+    {
+     "text": "hobby",
+     "pos": "n.",
+     "meaning": "a hobby"
+    },
+    {
+     "text": "prefer",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Do you swim in a pool or in the sea?",
+   "glosses": [
+    {
+     "text": "pool",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Mostly in a pool, because it is close to my house.",
+   "glosses": [
+    {
+     "text": "pool",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "We could do some sport together one day.",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  }
+ ],
+ "practice_words": []
 }

@@ -1,0 +1,197 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "квартира",
+   "ipa": "kvartíra",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Восемьсот в месяц, и квартира с мебелью.",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "арендная плата",
+   "ipa": "aréndnaja pláta",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Да. Какая арендная плата в месяц?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "месяц",
+   "ipa": "mésjats",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Да. Какая арендная плата в месяц?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "с мебелью",
+   "ipa": "s mébel'ju",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Восемьсот в месяц, и квартира с мебелью.",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "залог",
+   "ipa": "zalóg",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Звучит хорошо. Нужно ли вносить залог?",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "договор",
+   "ipa": "dogovór",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Да, один месяц в качестве залога. Договор мы подпишем завтра.",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Здравствуйте, вас интересует квартира, верно?",
+   "glosses": [
+    {
+     "text": "квартира",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да. Какая арендная плата в месяц?",
+   "glosses": [
+    {
+     "text": "арендная плата",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "месяц",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Восемьсот в месяц, и квартира с мебелью.",
+   "glosses": [
+    {
+     "text": "квартира",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "месяц",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "с мебелью",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Звучит хорошо. Нужно ли вносить залог?",
+   "glosses": [
+    {
+     "text": "залог",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Да, один месяц в качестве залога. Договор мы подпишем завтра.",
+   "glosses": [
+    {
+     "text": "месяц",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "залог",
+     "pos": "n.",
+     "meaning": "a deposit"
+    },
+    {
+     "text": "Договор",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Отлично. Можно ещё раз посмотреть кухню, прежде чем я решу?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

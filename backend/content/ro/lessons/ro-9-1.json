@@ -1,0 +1,237 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "simptome",
+   "ipa": "/simpˈtome/",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Aveți și alte simptome, cum ar fi durere în piept?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "febră",
+   "ipa": "/ˈfebrə/",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Am febră și o tuse urâtă de trei zile.",
+     "en": "I have had a fever and a bad cough for three days."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "durere",
+   "ipa": "/duˈrere/",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Aveți și alte simptome, cum ar fi durere în piept?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "să vă odihniți",
+   "ipa": "/sə və odihˈnits/",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Nu, este doar o gripă puternică. Trebuie să vă odihniți cel puțin cinci zile.",
+     "en": "No, it is just a strong flu. You need to rest for at least five days."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "să mă refac",
+   "ipa": "/sə mə reˈfak/",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Cât timp îmi va lua să mă refac complet?",
+     "en": "How long will it take to recover completely?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "o altă programare",
+   "ipa": "/o ˈaltə proɡraˈmare/",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Cam o săptămână. Reveniți pentru o altă programare dacă se agravează.",
+     "en": "About a week. Come back for another appointment if it gets worse."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Bună ziua, luați loc, vă rog. Ce vă aduce astăzi aici?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello, please sit down. What brings you here today?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Am febră și o tuse urâtă de trei zile.",
+   "glosses": [
+    {
+     "text": "febră",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a fever and a bad cough for three days."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Aveți și alte simptome, cum ar fi durere în piept?",
+   "glosses": [
+    {
+     "text": "simptome",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "durere",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": "Do you have any other symptoms, like pain in your chest?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nicio durere, dar mă simt foarte slăbit și nu pot dormi bine.",
+   "glosses": [
+    {
+     "text": "durere",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t4",
+   "en": "No pain, but I feel very weak and I cannot sleep well."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Să vă ascult plămânii. Respirați adânc, vă rog.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Let me listen to your lungs. Please breathe deeply."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Este ceva grav, domnule doctor?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Is it something serious, doctor?"
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Nu, este doar o gripă puternică. Trebuie să vă odihniți cel puțin cinci zile.",
+   "glosses": [
+    {
+     "text": "să vă odihniți",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": "No, it is just a strong flu. You need to rest for at least five days."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Să iau vreun medicament?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Should I take any medicine?"
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Vă dau o rețetă pentru febră. Beți și multă apă.",
+   "glosses": [
+    {
+     "text": "febră",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t9",
+   "en": "I will give you a prescription for the fever. Drink a lot of water, too."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Cât timp îmi va lua să mă refac complet?",
+   "glosses": [
+    {
+     "text": "să mă refac",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": "How long will it take to recover completely?"
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Cam o săptămână. Reveniți pentru o altă programare dacă se agravează.",
+   "glosses": [
+    {
+     "text": "o altă programare",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": "About a week. Come back for another appointment if it gets worse."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mulțumesc, domnule doctor. Voi urma sfaturile dumneavoastră.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you, doctor. I will follow your advice."
+  }
+ ],
+ "practice_words": []
+}

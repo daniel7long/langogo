@@ -1,0 +1,232 @@
+{
+ "emoji": "🗺️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "ভ্রমণ",
+   "ipa": "bhromon",
+   "pos": "n.",
+   "meaning": "a trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "কী সুন্দর। ভ্রমণের সবচেয়ে সুন্দর মুহূর্ত কোনটা ছিল?",
+     "en": "That is lovely. What was the best moment of the trip?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "পথ হারিয়ে",
+   "ipa": "poth hariye",
+   "pos": "phr.",
+   "meaning": "to get lost",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আমি রাজধানী দিয়ে শুরু করেছিলাম, কিন্তু প্রথম দিনেই পুরোনো গলিতে পথ হারিয়ে ফেললাম।",
+     "en": "I started in the capital, but on the first day I got lost in the old streets."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "অবিস্মরণীয়",
+   "ipa": "obismoroniyo",
+   "pos": "adj.",
+   "meaning": "unforgettable",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "হ্যাঁ, আমি বিদেশে দশ দিন কাটিয়েছি। এটা অবিস্মরণীয় ছিল।",
+     "en": "Yes, I spent ten days abroad. It was unforgettable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "স্থানীয় একজন",
+   "ipa": "sthaniyo ekjon",
+   "pos": "n.",
+   "meaning": "a local",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "একজন বন্ধুসুলভ স্থানীয় একজন আমাকে পথ দেখাল, এমনকি কফির জন্যও ডাকল।",
+     "en": "A friendly local showed me the way and even invited me for coffee."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "দৃশ্য",
+   "ipa": "drishyo",
+   "pos": "n.",
+   "meaning": "the view",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "পাহাড় থেকে সূর্যাস্ত। দৃশ্যটা অবিশ্বাস্য ছিল।",
+     "en": "Watching the sunset from a hill. The view was incredible."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "সুপারিশ",
+   "ipa": "suparish",
+   "pos": "v.",
+   "meaning": "to recommend",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "তুমি কি দেশটির সুপারিশ অন্যদেরও করবে?",
+     "en": "Would you recommend the country to other people?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "তুমি তো এইমাত্র ভ্রমণ থেকে ফিরলে, তাই না? আমাকে সবকিছু বলো!",
+   "glosses": [
+    {
+     "text": "ভ্রমণ",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t1",
+   "en": "You just came back from a trip, right? Tell me everything!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, আমি বিদেশে দশ দিন কাটিয়েছি। এটা অবিস্মরণীয় ছিল।",
+   "glosses": [
+    {
+     "text": "অবিস্মরণীয়",
+     "pos": "adj.",
+     "meaning": "unforgettable"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I spent ten days abroad. It was unforgettable."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "বাহ! তুমি প্রথমে কোথায় গিয়েছিলে?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow! Where did you go first?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি রাজধানী দিয়ে শুরু করেছিলাম, কিন্তু প্রথম দিনেই পুরোনো গলিতে পথ হারিয়ে ফেললাম।",
+   "glosses": [
+    {
+     "text": "পথ হারিয়ে",
+     "pos": "phr.",
+     "meaning": "to get lost"
+    }
+   ],
+   "id": "t4",
+   "en": "I started in the capital, but on the first day I got lost in the old streets."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "ইশ! তুমি কীভাবে পথ খুঁজে পেলে?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Oh no! How did you find your way?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "একজন বন্ধুসুলভ স্থানীয় একজন আমাকে পথ দেখাল, এমনকি কফির জন্যও ডাকল।",
+   "glosses": [
+    {
+     "text": "স্থানীয় একজন",
+     "pos": "n.",
+     "meaning": "a local"
+    }
+   ],
+   "id": "t6",
+   "en": "A friendly local showed me the way and even invited me for coffee."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "কী সুন্দর। ভ্রমণের সবচেয়ে সুন্দর মুহূর্ত কোনটা ছিল?",
+   "glosses": [
+    {
+     "text": "ভ্রমণ",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t7",
+   "en": "That is lovely. What was the best moment of the trip?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "পাহাড় থেকে সূর্যাস্ত। দৃশ্যটা অবিশ্বাস্য ছিল।",
+   "glosses": [
+    {
+     "text": "দৃশ্য",
+     "pos": "n.",
+     "meaning": "the view"
+    }
+   ],
+   "id": "t8",
+   "en": "Watching the sunset from a hill. The view was incredible."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "তুমি কি দেশটির সুপারিশ অন্যদেরও করবে?",
+   "glosses": [
+    {
+     "text": "সুপারিশ",
+     "pos": "v.",
+     "meaning": "to recommend"
+    }
+   ],
+   "id": "t9",
+   "en": "Would you recommend the country to other people?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "অবশ্যই। পারলে আমি কালই ফিরে যেতাম।",
+   "glosses": [],
+   "id": "t10",
+   "en": "Absolutely. I would go back tomorrow if I could."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "তাহলে আমাকে ছবিগুলো দেখাও, প্লিজ!",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then show me your photos, please!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "অবশ্যই। আমি পাঁচশোর বেশি ছবি তুলেছি।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Of course. I took more than five hundred pictures."
+  }
+ ],
+ "practice_words": []
+}

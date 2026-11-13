@@ -1,0 +1,182 @@
+{
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "passaporte",
+   "ipa": "/pa.sa.ˈpɔʁ.tʃi/",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Boa tarde. Seu passaporte, por favor. O senhor vai despachar uma mala?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "uma mala",
+   "ipa": "/ˈu.ma ˈma.la/",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sim, uma mala. Ela não é pesada.",
+     "en": "Yes, one suitcase. It is not heavy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "cartão de embarque",
+   "ipa": "/kaʁˈtɐ̃w̃ dʒi ẽˈbaʁ.ki/",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Aqui está o seu cartão de embarque. O seu portão é o número doze.",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "o portão",
+   "ipa": "/u poʁˈtɐ̃w̃/",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Tudo bem. Vou esperar perto do portão.",
+     "en": "That is fine. I will wait near the gate."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "despachar",
+   "ipa": "/dʒis.paˈʃaʁ/",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Boa tarde. Seu passaporte, por favor. O senhor vai despachar uma mala?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "atrasado",
+   "ipa": "/a.tɾaˈza.du/",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Daqui a quarenta minutos. Mas o seu voo está atrasado vinte minutos.",
+     "en": "In forty minutes. But your flight is delayed by twenty minutes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Boa tarde. Seu passaporte, por favor. O senhor vai despachar uma mala?",
+   "glosses": [
+    {
+     "text": "passaporte",
+     "pos": "n.",
+     "meaning": "a passport"
+    },
+    {
+     "text": "uma mala",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "despachar",
+     "pos": "v.",
+     "meaning": "to check in"
+    }
+   ],
+   "id": "t1",
+   "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sim, uma mala. Ela não é pesada.",
+   "glosses": [
+    {
+     "text": "uma mala",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, one suitcase. It is not heavy."
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Aqui está o seu cartão de embarque. O seu portão é o número doze.",
+   "glosses": [
+    {
+     "text": "cartão de embarque",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    }
+   ],
+   "id": "t3",
+   "en": "Here is your boarding pass. Your gate is number twelve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Obrigado. A que horas começa o embarque?",
+   "glosses": [],
+   "id": "t4",
+   "en": "Thank you. What time does boarding start?"
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Daqui a quarenta minutos. Mas o seu voo está atrasado vinte minutos.",
+   "glosses": [
+    {
+     "text": "atrasado",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": "In forty minutes. But your flight is delayed by twenty minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tudo bem. Vou esperar perto do portão.",
+   "glosses": [
+    {
+     "text": "o portão",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. I will wait near the gate."
+  }
+ ],
+ "practice_words": []
+}

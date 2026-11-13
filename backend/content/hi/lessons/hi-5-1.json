@@ -1,0 +1,192 @@
+{
+ "emoji": "👕",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "साइज़",
+   "ipa": "saaiz",
+   "pos": "n.",
+   "meaning": "a size",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "यह छोटा साइज़ है। इस हफ़्ते इस पर छूट है, इसलिए यह सस्ती है।",
+     "en": "Here is a small one. It is on sale this week, so it is cheaper."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "पहनकर",
+   "ipa": "pahankar",
+   "pos": "v.",
+   "meaning": "to try on",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "मैं एक जैकेट ढूँढ़ रहा हूँ। क्या मैं मीडियम साइज़ पहनकर देख सकता हूँ?",
+     "en": "I am looking for a jacket. Can I try on a medium size?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ट्रायल रूम",
+   "ipa": "trial room",
+   "pos": "n.",
+   "meaning": "the fitting room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ज़रूर। ट्रायल रूम पीछे की तरफ़ है।",
+     "en": "Of course. The fitting room is at the back."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "बहुत बड़ी",
+   "ipa": "bahut badi",
+   "pos": "phr.",
+   "meaning": "too big",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "यह थोड़ी बहुत बड़ी है। क्या आपके पास छोटा साइज़ या कोई सस्ती चीज़ है?",
+     "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "सस्ती",
+   "ipa": "sasti",
+   "pos": "adj.",
+   "meaning": "cheaper",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "यह छोटा साइज़ है। इस हफ़्ते इस पर छूट है, इसलिए यह सस्ती है।",
+     "en": "Here is a small one. It is on sale this week, so it is cheaper."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "भुगतान",
+   "ipa": "bhugtaan",
+   "pos": "v.",
+   "meaning": "to pay",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "बढ़िया, मैं यही लूँगा। भुगतान कहाँ करना है?",
+     "en": "Perfect, I will take it. Where can I pay?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "नमस्ते! क्या आप कुछ खास ढूँढ़ रहे हैं?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello! Are you looking for something special?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं एक जैकेट ढूँढ़ रहा हूँ। क्या मैं मीडियम साइज़ पहनकर देख सकता हूँ?",
+   "glosses": [
+    {
+     "text": "साइज़",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "पहनकर",
+     "pos": "v.",
+     "meaning": "to try on"
+    }
+   ],
+   "id": "t2",
+   "en": "I am looking for a jacket. Can I try on a medium size?"
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "ज़रूर। ट्रायल रूम पीछे की तरफ़ है।",
+   "glosses": [
+    {
+     "text": "ट्रायल रूम",
+     "pos": "n.",
+     "meaning": "the fitting room"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The fitting room is at the back."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "यह थोड़ी बहुत बड़ी है। क्या आपके पास छोटा साइज़ या कोई सस्ती चीज़ है?",
+   "glosses": [
+    {
+     "text": "साइज़",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "बहुत बड़ी",
+     "pos": "phr.",
+     "meaning": "too big"
+    },
+    {
+     "text": "सस्ती",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t4",
+   "en": "It is a little too big. Do you have a smaller size, or something cheaper?"
+  },
+  {
+   "speaker": "Vikram",
+   "role": "npc",
+   "text": "यह छोटा साइज़ है। इस हफ़्ते इस पर छूट है, इसलिए यह सस्ती है।",
+   "glosses": [
+    {
+     "text": "साइज़",
+     "pos": "n.",
+     "meaning": "a size"
+    },
+    {
+     "text": "सस्ती",
+     "pos": "adj.",
+     "meaning": "cheaper"
+    }
+   ],
+   "id": "t5",
+   "en": "Here is a small one. It is on sale this week, so it is cheaper."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बढ़िया, मैं यही लूँगा। भुगतान कहाँ करना है?",
+   "glosses": [
+    {
+     "text": "भुगतान",
+     "pos": "v.",
+     "meaning": "to pay"
+    }
+   ],
+   "id": "t6",
+   "en": "Perfect, I will take it. Where can I pay?"
+  }
+ ],
+ "practice_words": []
+}

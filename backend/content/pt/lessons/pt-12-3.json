@@ -1,0 +1,258 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "de carreira",
+   "ipa": "/dʒi kaˈʁe.ɾa/",
+   "pos": "n.",
+   "meaning": "a career",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Estou pensando em mudar de carreira. Quero deixar a contabilidade e virar designer.",
+     "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "largar",
+   "ipa": "/laʁˈgaʁ/",
+   "pos": "v.",
+   "meaning": "to quit",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Você vai largar o emprego imediatamente?",
+     "en": "Are you going to quit your job straight away?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "habilidades",
+   "ipa": "/a.bi.liˈda.dʒis/",
+   "pos": "n.",
+   "meaning": "a skill",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Que habilidades você precisa aprender?",
+     "en": "What skills do you need to learn?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "um grande risco",
+   "ipa": "/ũ ˈgɾɐ̃.dʒi ˈʁis.ku/",
+   "pos": "n.",
+   "meaning": "a risk",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Não, seria um grande risco. Primeiro vou estudar à noite.",
+     "en": "No, that would be a big risk. I will study in the evenings first."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "mentor",
+   "ipa": "/mẽˈtoʁ/",
+   "pos": "n.",
+   "meaning": "a mentor",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Conheço, uma ex-colega de classe é a minha mentora agora, e ela me dá um retorno sincero.",
+     "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "se requalificar",
+   "ipa": "/si ʁe.kwa.li.fiˈkaʁ/",
+   "pos": "v.",
+   "meaning": "to retrain",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "É caro se requalificar?",
+     "en": "Is it expensive to retrain?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Você parece tão animado ultimamente. O que está acontecendo?",
+   "glosses": [],
+   "id": "t1",
+   "en": "You look so excited lately. What is going on?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Estou pensando em mudar de carreira. Quero deixar a contabilidade e virar designer.",
+   "glosses": [
+    {
+     "text": "de carreira",
+     "pos": "n.",
+     "meaning": "a career"
+    }
+   ],
+   "id": "t2",
+   "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Uau, que mudança! O que fez você decidir?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow, that is quite a change! What made you decide?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Percebi que não me sinto mais motivado, e quero que o meu trabalho seja criativo.",
+   "glosses": [],
+   "id": "t4",
+   "en": "I realized that I no longer feel motivated, and I want my work to be creative."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Você vai largar o emprego imediatamente?",
+   "glosses": [
+    {
+     "text": "largar",
+     "pos": "v.",
+     "meaning": "to quit"
+    }
+   ],
+   "id": "t5",
+   "en": "Are you going to quit your job straight away?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Não, seria um grande risco. Primeiro vou estudar à noite.",
+   "glosses": [
+    {
+     "text": "um grande risco",
+     "pos": "n.",
+     "meaning": "a risk"
+    }
+   ],
+   "id": "t6",
+   "en": "No, that would be a big risk. I will study in the evenings first."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Que habilidades você precisa aprender?",
+   "glosses": [
+    {
+     "text": "habilidades",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t7",
+   "en": "What skills do you need to learn?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Principalmente programas de design e comunicação, mas já tenho boa capacidade de organização.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Mainly design software and communication, but I already have good organizational skills."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Isso é uma vantagem. Você conhece alguém da área?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is an advantage. Do you know anyone in that field?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Conheço, uma ex-colega de classe é a minha mentora agora, e ela me dá um retorno sincero.",
+   "glosses": [
+    {
+     "text": "mentor",
+     "pos": "n.",
+     "meaning": "a mentor"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "É caro se requalificar?",
+   "glosses": [
+    {
+     "text": "se requalificar",
+     "pos": "v.",
+     "meaning": "to retrain"
+    }
+   ],
+   "id": "t11",
+   "en": "Is it expensive to retrain?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Não muito. Achei um curso on-line que custa menos que a mensalidade de uma academia.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not too much. I found an online course that costs less than a monthly gym membership."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "E o que a sua família acha disso?",
+   "glosses": [],
+   "id": "t13",
+   "en": "And what does your family think about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Eles estão preocupados, mas me apoiam, desde que eu tenha um plano.",
+   "glosses": [],
+   "id": "t14",
+   "en": "They are worried, but they support me, as long as I have a plan."
+  },
+  {
+   "speaker": "Camila",
+   "role": "npc",
+   "text": "Admiro a sua coragem. Muita gente nunca dá o primeiro passo.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I admire your courage. Many people never take the first step."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Obrigado. Mesmo que dê errado, terei aprendido algo novo.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Thank you. Even if it fails, I will have learned something new."
+  }
+ ],
+ "practice_words": []
+}

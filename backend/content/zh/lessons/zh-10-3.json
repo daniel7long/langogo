@@ -1,0 +1,268 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "垃圾",
+   "ipa": "lājī",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "改变过，我努力减少垃圾，所以不再买塑料瓶了。",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "回收",
+   "ipa": "huíshōu",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "这是个好的开始。你在家里什么都回收吗？",
+     "en": "That is a good start. Do you recycle everything at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "排放",
+   "ipa": "páifàng",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "那交通呢？汽车有很多排放。",
+     "en": "What about transport? Cars produce a lot of emissions."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "可再生",
+   "ipa": "kě zàishēng",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我同意。最大的变化必须发生在可再生能源上。",
+     "en": "I agree. Renewable energy is where the biggest change must happen."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "可持续",
+   "ipa": "kě chíxù",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "有些人还是说可持续的产品太贵了。",
+     "en": "Some people still say sustainable products are too expensive."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "减少",
+   "ipa": "jiǎnshǎo",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "改变过，我努力减少垃圾，所以不再买塑料瓶了。",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "你最近为了保护环境改变过什么习惯吗？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Have you changed any habits recently to protect the environment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "改变过，我努力减少垃圾，所以不再买塑料瓶了。",
+   "glosses": [
+    {
+     "text": "垃圾",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "减少",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "这是个好的开始。你在家里什么都回收吗？",
+   "glosses": [
+    {
+     "text": "回收",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": "That is a good start. Do you recycle everything at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "能回收的都回收。纸、玻璃、塑料，甚至厨余垃圾也拿去做堆肥。",
+   "glosses": [
+    {
+     "text": "垃圾",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "回收",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t4",
+   "en": "Everything I can. Paper, glass, plastic and even food scraps for compost."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "真让人佩服。我应该多做一些，但太花时间了。",
+   "glosses": [],
+   "id": "t5",
+   "en": "Impressive. I should do more, but it takes so much time."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "说实话，几个星期以后就会变成自然而然的事。",
+   "glosses": [],
+   "id": "t6",
+   "en": "It becomes automatic after a few weeks, honestly."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "那交通呢？汽车有很多排放。",
+   "glosses": [
+    {
+     "text": "排放",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": "What about transport? Cars produce a lot of emissions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我大多数时候骑自行车上班，长途旅行就坐火车。",
+   "glosses": [],
+   "id": "t8",
+   "en": "I cycle to work most days, and I use trains for long trips."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "但你觉得个人的行动真的有意义吗？",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you think individual actions really matter, though?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有意义，但公司和政府必须在更大的范围内采取行动。",
+   "glosses": [],
+   "id": "t10",
+   "en": "They do, but companies and governments must act on a bigger scale."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "我同意。最大的变化必须发生在可再生能源上。",
+   "glosses": [
+    {
+     "text": "可再生",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. Renewable energy is where the biggest change must happen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "没错。太阳能和风能每年都在变得更便宜。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Exactly. Solar and wind power are becoming cheaper every year."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "有些人还是说可持续的产品太贵了。",
+   "glosses": [
+    {
+     "text": "可持续",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people still say sustainable products are too expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "短期内也许是这样，但它们更耐用，以后能省钱。",
+   "glosses": [],
+   "id": "t14",
+   "en": "In the short term, maybe, but they last longer and save money later."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "你说服我了。我要从一个堆肥桶开始。",
+   "glosses": [],
+   "id": "t15",
+   "en": "You have convinced me. I will start with a compost bin."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "太好了。小步前进总比等待完美的解决方案要好。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wonderful. Small steps are better than waiting for a perfect solution."
+  }
+ ],
+ "practice_words": []
+}

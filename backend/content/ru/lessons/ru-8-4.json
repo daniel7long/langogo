@@ -1,0 +1,254 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "рейс",
+   "ipa": "rejs",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Мы можем предложить отель и рейс завтра утром.",
+     "en": "We can offer you a hotel and a flight tomorrow morning."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "отменён",
+   "ipa": "otmenjón",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Пассажиры рейса триста четыре, с сожалением сообщаем, что ваш рейс отменён.",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "пересадка",
+   "ipa": "peresádka",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Простите, что случилось? У меня позже важная пересадка.",
+     "en": "Excuse me, what happened? I have an important connection later today."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "задержку",
+   "ipa": "zaderzhku",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Произошла техническая неисправность самолёта. Приносим извинения за задержку.",
+     "en": "There was a technical problem with the plane. We apologize for the delay."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "перебронировать",
+   "ipa": "perebronírovat'",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Вы можете перебронировать меня на другой рейс сегодня?",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "компенсация",
+   "ipa": "kompensátsija",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Да, вам положена компенсация, и я дам вам бланк.",
+     "en": "Yes, you have the right to compensation, and I will give you the form."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Пассажиры рейса триста четыре, с сожалением сообщаем, что ваш рейс отменён.",
+   "glosses": [
+    {
+     "text": "рейс",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "отменён",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Простите, что случилось? У меня позже важная пересадка.",
+   "glosses": [
+    {
+     "text": "пересадка",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": "Excuse me, what happened? I have an important connection later today."
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Произошла техническая неисправность самолёта. Приносим извинения за задержку.",
+   "glosses": [
+    {
+     "text": "задержку",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": "There was a technical problem with the plane. We apologize for the delay."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Вы можете перебронировать меня на другой рейс сегодня?",
+   "glosses": [
+    {
+     "text": "рейс",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "перебронировать",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": "Can you rebook me on another flight today?"
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Есть рейс в восемь вечера. Проверю, остались ли места.",
+   "glosses": [
+    {
+     "text": "рейс",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t5",
+   "en": "There is a flight at eight tonight. Let me check if there are seats."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Пожалуйста. Если нет, какие у меня варианты?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Please do. If not, what are my options?"
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Мы можем предложить отель и рейс завтра утром.",
+   "glosses": [
+    {
+     "text": "рейс",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t7",
+   "en": "We can offer you a hotel and a flight tomorrow morning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я бы предпочёл улететь сегодня вечером. Есть ли компенсация за неудобства?",
+   "glosses": [
+    {
+     "text": "компенсация",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Да, вам положена компенсация, и я дам вам бланк.",
+   "glosses": [
+    {
+     "text": "компенсация",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t9",
+   "en": "Yes, you have the right to compensation, and I will give you the form."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Спасибо. Мне дадут талон на питание?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Thank you. Do I also receive a meal voucher?"
+  },
+  {
+   "speaker": "Дмитрий",
+   "role": "npc",
+   "text": "Да, вот талон в ресторан. Вы на рейсе в восемь часов.",
+   "glosses": [
+    {
+     "text": "рейс",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t11",
+   "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Отлично, это решает мою проблему. Очень ценю вашу помощь.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Great, that solves my problem. I really appreciate your help."
+  }
+ ],
+ "practice_words": []
+}

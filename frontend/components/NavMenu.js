@@ -17,7 +17,7 @@ const NATIVE = Platform.OS !== 'web';
 
 const ITEMS = [
   { label: 'Courses', icon: 'book-outline', path: '/courses' },
-  { label: 'Find My Level', icon: 'compass-outline', path: '/level-test', params: { purpose: 'match' }, only: 'fr' },
+  { label: 'Find My Level', icon: 'compass-outline', path: '/level-test', params: { purpose: 'match' } },
   { label: 'Free Talk', icon: 'chatbubbles-outline', path: '/free-talk' },
   { label: 'Vocab Notes', icon: 'journal-outline', path: '/vocab-notes' },
   { label: 'My Community', icon: 'people-outline', path: '/community' },

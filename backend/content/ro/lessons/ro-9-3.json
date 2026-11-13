@@ -1,0 +1,231 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "un abonament",
+   "ipa": "/un abonaˈment/",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Bine ați venit la sală! Vă interesează un abonament?",
+     "en": "Welcome to the gym! Are you interested in a membership?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "un antrenor",
+   "ipa": "/un antreˈnor/",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Atunci vă recomand trei ședințe pe săptămână cu un antrenor la început.",
+     "en": "Then I recommend three sessions a week with a trainer at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "scopul",
+   "ipa": "/ˈskopul/",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Minunat. Care este scopul dumneavoastră principal: să slăbiți sau să deveniți mai puternic?",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "să fac sport",
+   "ipa": "/sə fak sport/",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Da, aș vrea să încep să fac sport în mod regulat.",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "ședință",
+   "ipa": "/ˈʃedintsə/",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Costă treizeci și cinci pe lună, iar prima ședință este gratuită.",
+     "en": "It is thirty-five a month, and the first session is free."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "mai puternic",
+   "ipa": "/maj puˈternik/",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Vreau să fiu mai puternic și să am mai multă energie în timpul zilei.",
+     "en": "I want to get stronger and have more energy during the day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Bine ați venit la sală! Vă interesează un abonament?",
+   "glosses": [
+    {
+     "text": "un abonament",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, aș vrea să încep să fac sport în mod regulat.",
+   "glosses": [
+    {
+     "text": "să fac sport",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Minunat. Care este scopul dumneavoastră principal: să slăbiți sau să deveniți mai puternic?",
+   "glosses": [
+    {
+     "text": "scopul",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "mai puternic",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Vreau să fiu mai puternic și să am mai multă energie în timpul zilei.",
+   "glosses": [
+    {
+     "text": "mai puternic",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Atunci vă recomand trei ședințe pe săptămână cu un antrenor la început.",
+   "glosses": [
+    {
+     "text": "un antrenor",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Cât costă abonamentul pe o lună?",
+   "glosses": [],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Costă treizeci și cinci pe lună, iar prima ședință este gratuită.",
+   "glosses": [
+    {
+     "text": "ședință",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sună rezonabil. Pot să încerc aparatele astăzi?",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Desigur. Antrenorul nostru vă va arăta cum funcționează totul.",
+   "glosses": [],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Trebuie să-mi aduc propriul prosop?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Da, vă rog să aduceți un prosop și o sticlă de apă.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Perfect. Mă înscriu chiar acum.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

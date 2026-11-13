@@ -1,0 +1,242 @@
+{
+ "emoji": "📊",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "meeting",
+   "ipa": "/ˈmitɪŋ/",
+   "pos": "n.",
+   "meaning": "a meeting",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Let us start the meeting. Everyone has the agenda, right?",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "agenda",
+   "ipa": "/əˈdʒɛndə/",
+   "pos": "n.",
+   "meaning": "an agenda",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Let us start the meeting. Everyone has the agenda, right?",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "project",
+   "ipa": "/ˈpɹɑdʒɛkt/",
+   "pos": "n.",
+   "meaning": "a project",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Correct. How is the project going so far?",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "suggest",
+   "ipa": "/səɡˈdʒɛst/",
+   "pos": "v.",
+   "meaning": "to suggest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "What do you suggest we do about it?",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "agree",
+   "ipa": "/əˈɡɹi/",
+   "pos": "v.",
+   "meaning": "to agree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "That is a possibility. Does everybody agree?",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "report",
+   "ipa": "/ɹɪˈpɔɹt/",
+   "pos": "n.",
+   "meaning": "a report",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "I agree, and I can write the report about the changes.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Let us start the meeting. Everyone has the agenda, right?",
+   "glosses": [
+    {
+     "text": "meeting",
+     "pos": "n.",
+     "meaning": "a meeting"
+    },
+    {
+     "text": "agenda",
+     "pos": "n.",
+     "meaning": "an agenda"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, I have it. The first point is the new project.",
+   "glosses": [
+    {
+     "text": "project",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Correct. How is the project going so far?",
+   "glosses": [
+    {
+     "text": "project",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "It is going well, but we are two days behind schedule.",
+   "glosses": [],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "What do you suggest we do about it?",
+   "glosses": [
+    {
+     "text": "suggest",
+     "pos": "v.",
+     "meaning": "to suggest"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I suggest that we add one person to the team this week.",
+   "glosses": [
+    {
+     "text": "suggest",
+     "pos": "v.",
+     "meaning": "to suggest"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "That is a possibility. Does everybody agree?",
+   "glosses": [
+    {
+     "text": "agree",
+     "pos": "v.",
+     "meaning": "to agree"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I agree, and I can write the report about the changes.",
+   "glosses": [
+    {
+     "text": "agree",
+     "pos": "v.",
+     "meaning": "to agree"
+    },
+    {
+     "text": "report",
+     "pos": "n.",
+     "meaning": "a report"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Thank you. Please send it to me by Friday.",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "No problem. I will send it on Thursday afternoon.",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Perfect. Is there anything else before we finish?",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Just one thing: could we meet again next Monday?",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

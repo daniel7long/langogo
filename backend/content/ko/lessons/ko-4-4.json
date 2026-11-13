@@ -1,0 +1,181 @@
+{
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "여권",
+   "ipa": "yeogwon",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "안녕하세요. 여권 주세요. 가방을 부치실 거예요?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "가방",
+   "ipa": "gabang",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "안녕하세요. 여권 주세요. 가방을 부치실 거예요?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "탑승권",
+   "ipa": "tapseunggwon",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "여기 탑승권이에요. 게이트는 십이 번이에요.",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "게이트",
+   "ipa": "geiteu",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "괜찮아요. 게이트 근처에서 기다릴게요.",
+     "en": "That is fine. I will wait near the gate."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "부치",
+   "ipa": "buchi",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "안녕하세요. 여권 주세요. 가방을 부치실 거예요?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "지연",
+   "ipa": "jiyeon",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "사십 분 후예요. 그런데 손님 비행기는 이십 분 지연돼요.",
+     "en": "In forty minutes. But your flight is delayed by twenty minutes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "안녕하세요. 여권 주세요. 가방을 부치실 거예요?",
+   "glosses": [
+    {
+     "text": "여권",
+     "pos": "n.",
+     "meaning": "a passport"
+    },
+    {
+     "text": "가방",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "부치",
+     "pos": "v.",
+     "meaning": "to check in"
+    }
+   ],
+   "id": "t1",
+   "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "네, 하나예요. 무겁지 않아요.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Yes, one suitcase. It is not heavy."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "여기 탑승권이에요. 게이트는 십이 번이에요.",
+   "glosses": [
+    {
+     "text": "탑승권",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    },
+    {
+     "text": "게이트",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t3",
+   "en": "Here is your boarding pass. Your gate is number twelve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "감사합니다. 탑승은 몇 시에 시작해요?",
+   "glosses": [],
+   "id": "t4",
+   "en": "Thank you. What time does boarding start?"
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "사십 분 후예요. 그런데 손님 비행기는 이십 분 지연돼요.",
+   "glosses": [
+    {
+     "text": "지연",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": "In forty minutes. But your flight is delayed by twenty minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "괜찮아요. 게이트 근처에서 기다릴게요.",
+   "glosses": [
+    {
+     "text": "게이트",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. I will wait near the gate."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,257 @@
+{
+ "emoji": "🏡",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "주택 담보 대출",
+   "ipa": "jutaek dambo daechul",
+   "pos": "n.",
+   "meaning": "a mortgage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "문제는 주택 담보 대출이야. 지금은 금리가 너무 높아.",
+     "en": "The problem is the mortgage. The interest rates are so high right now."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "투자",
+   "ipa": "tuja",
+   "pos": "n.",
+   "meaning": "an investment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "그럼 살 여유가 된다면 사는 게 좋은 투자가 될 수 있어.",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "집주인",
+   "ipa": "jipjuin",
+   "pos": "n.",
+   "meaning": "a landlord",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "좋은 지적이야. 월세는 집주인이 수리비를 내 주니까.",
+     "en": "That is a good point. With rent, the landlord pays for repairs."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "유연",
+   "ipa": "yuyeon",
+   "pos": "adj.",
+   "meaning": "flexible",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "맞아, 그리고 직장을 옮기면 월세가 더 유연하기도 해.",
+     "en": "Exactly, and renting is also more flexible if you change jobs."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "살 여유",
+   "ipa": "sal yeoyu",
+   "pos": "v.",
+   "meaning": "to afford",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "그럼 살 여유가 된다면 사는 게 좋은 투자가 될 수 있어.",
+     "en": "Then buying could be a good investment, if you can afford it."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "부동산",
+   "ipa": "budongsan",
+   "pos": "n.",
+   "meaning": "property",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "응, 월세보다 조금 더 높겠지만 그래도 부동산은 내 것이 되잖아.",
+     "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "월세 내는 게 지겨워. 대신 아파트를 사야 할까?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I am tired of paying rent. Do you think I should buy an apartment instead?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "계획에 달려 있어. 이 도시에 얼마나 살 거야?",
+   "glosses": [],
+   "id": "t2",
+   "en": "It depends on your plans. How long will you stay in this city?"
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "적어도 십 년은 있을 것 같아. 더 길 수도 있고.",
+   "glosses": [],
+   "id": "t3",
+   "en": "At least ten years, I think. Maybe more."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그럼 살 여유가 된다면 사는 게 좋은 투자가 될 수 있어.",
+   "glosses": [
+    {
+     "text": "투자",
+     "pos": "n.",
+     "meaning": "an investment"
+    },
+    {
+     "text": "살 여유",
+     "pos": "v.",
+     "meaning": "to afford"
+    }
+   ],
+   "id": "t4",
+   "en": "Then buying could be a good investment, if you can afford it."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "문제는 주택 담보 대출이야. 지금은 금리가 너무 높아.",
+   "glosses": [
+    {
+     "text": "주택 담보 대출",
+     "pos": "n.",
+     "meaning": "a mortgage"
+    }
+   ],
+   "id": "t5",
+   "en": "The problem is the mortgage. The interest rates are so high right now."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아. 매달 얼마씩 내야 하는지 계산해 봤어?",
+   "glosses": [],
+   "id": "t6",
+   "en": "True. Have you calculated what the monthly payments would be?"
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "응, 월세보다 조금 더 높겠지만 그래도 부동산은 내 것이 되잖아.",
+   "glosses": [
+    {
+     "text": "부동산",
+     "pos": "n.",
+     "meaning": "property"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, they would be slightly higher than my rent, but then the property would be mine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그리고 수리비, 세금, 보험도 비용에 더해야 해.",
+   "glosses": [],
+   "id": "t8",
+   "en": "And you must add repairs, taxes and insurance to the cost."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "좋은 지적이야. 월세는 집주인이 수리비를 내 주니까.",
+   "glosses": [
+    {
+     "text": "집주인",
+     "pos": "n.",
+     "meaning": "a landlord"
+    }
+   ],
+   "id": "t9",
+   "en": "That is a good point. With rent, the landlord pays for repairs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "맞아, 그리고 직장을 옮기면 월세가 더 유연하기도 해.",
+   "glosses": [
+    {
+     "text": "유연",
+     "pos": "adj.",
+     "meaning": "flexible"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly, and renting is also more flexible if you change jobs."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "하지만 매달 돈을 버리는 느낌이야.",
+   "glosses": [],
+   "id": "t11",
+   "en": "But I feel I am throwing money away every month."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "꼭 그렇진 않아. 살 곳과 이사할 자유에 대해 내는 거니까.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not really. You are paying for a place to live and for the freedom to move."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "그렇게 생각해 본 적이 없었어.",
+   "glosses": [],
+   "id": "t13",
+   "en": "I had never thought about it like that."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "십오 년 치로 두 가지를 종이에 비교해 보고 재무 상담사한테 물어봐.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Compare both options on paper over fifteen years, and ask a financial adviser."
+  },
+  {
+   "speaker": "Joon",
+   "role": "npc",
+   "text": "좋은 생각이야. 결정하기 전에 상담 예약을 할게.",
+   "glosses": [],
+   "id": "t15",
+   "en": "Good idea. I will make an appointment before I decide."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "현명해. 이렇게 큰 결정은 서둘러서 하면 안 돼.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wise. Such a big decision should never be taken in a hurry."
+  }
+ ],
+ "practice_words": []
+}

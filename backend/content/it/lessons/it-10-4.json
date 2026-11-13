@@ -1,0 +1,262 @@
+{
+ "emoji": "🚌",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "il traffico",
+   "ipa": "/il ˈtraffiko/",
+   "pos": "n.",
+   "meaning": "traffic",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Penso che sia un'idea audace, ma potrebbe ridurre molto l'inquinamento e il traffico.",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "l'inquinamento",
+   "ipa": "/linkwinaˈmento/",
+   "pos": "n.",
+   "meaning": "pollution",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Penso che sia un'idea audace, ma potrebbe ridurre molto l'inquinamento e il traffico.",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "affidabili",
+   "ipa": "/affiˈdaːbili/",
+   "pos": "adj.",
+   "meaning": "reliable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Prima dovrebbe migliorare il trasporto pubblico. I nostri autobus sono raramente affidabili.",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "le tariffe",
+   "ipa": "/le taˈriffe/",
+   "pos": "n.",
+   "meaning": "a fare",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "E le tariffe sono care per le famiglie con diversi figli.",
+     "en": "And the fares are expensive for families with several children."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "comode",
+   "ipa": "/ˈkɔːmode/",
+   "pos": "adj.",
+   "meaning": "convenient",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Le auto però sono così comode. Posso andare ovunque quando voglio.",
+     "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "trasporto pubblico",
+   "ipa": "/trasˈpɔrto ˈpubbliko/",
+   "pos": "n.",
+   "meaning": "public transport",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Prima dovrebbe migliorare il trasporto pubblico. I nostri autobus sono raramente affidabili.",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "La nostra città vuole vietare le auto in centro. Che cosa ne pensi?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Our city wants to ban cars from the center. What do you think?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Penso che sia un'idea audace, ma potrebbe ridurre molto l'inquinamento e il traffico.",
+   "glosses": [
+    {
+     "text": "il traffico",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "l'inquinamento",
+     "pos": "n.",
+     "meaning": "pollution"
+    }
+   ],
+   "id": "t2",
+   "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+  },
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "Ma che dire delle persone che dipendono dall'auto, come i fattorini?",
+   "glosses": [],
+   "id": "t3",
+   "en": "But what about people who depend on their cars, like delivery drivers?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Potrebbero ricevere permessi speciali, così il piano non danneggerebbe le attività locali.",
+   "glosses": [],
+   "id": "t4",
+   "en": "They could receive special permits, so the plan would not hurt local businesses."
+  },
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "Prima dovrebbe migliorare il trasporto pubblico. I nostri autobus sono raramente affidabili.",
+   "glosses": [
+    {
+     "text": "affidabili",
+     "pos": "adj.",
+     "meaning": "reliable"
+    },
+    {
+     "text": "trasporto pubblico",
+     "pos": "n.",
+     "meaning": "public transport"
+    }
+   ],
+   "id": "t5",
+   "en": "Public transport would have to improve first. Our buses are rarely reliable."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Esatto. Senza servizi frequenti e puntuali, il piano fallirà.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Exactly. Without frequent and punctual services, the plan will fail."
+  },
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "E le tariffe sono care per le famiglie con diversi figli.",
+   "glosses": [
+    {
+     "text": "le tariffe",
+     "pos": "n.",
+     "meaning": "a fare"
+    }
+   ],
+   "id": "t7",
+   "en": "And the fares are expensive for families with several children."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Un abbonamento mensile più economico incoraggerebbe più persone a lasciare l'auto a casa.",
+   "glosses": [],
+   "id": "t8",
+   "en": "A cheaper monthly pass would encourage more people to leave their cars at home."
+  },
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "Le auto però sono così comode. Posso andare ovunque quando voglio.",
+   "glosses": [
+    {
+     "text": "comode",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t9",
+   "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Comode, sì, ma si perde anche tempo nel traffico e si spende molto in parcheggio.",
+   "glosses": [
+    {
+     "text": "Comode",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t10",
+   "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+  },
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "È vero. Passo quasi un'ora al giorno a cercare parcheggio.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is true. I spend nearly an hour a day looking for a place to park."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Alcune città mostrano che le piste ciclabili possono funzionare molto bene.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Some cities show that cycling lanes can work very well."
+  },
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "Forse, ma i nostri inverni sono più rigidi dei loro.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Perhaps, but our winters are harsher than theirs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Giusto, per questo probabilmente serve un insieme di soluzioni.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Fair enough, which is why a mix of solutions is probably necessary."
+  },
+  {
+   "speaker": "Luca",
+   "role": "npc",
+   "text": "Potrei sostenere il piano se i treni e gli autobus migliorassero.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I might support the plan if the trains and buses improve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sarebbe la condizione giusta. Il cambiamento funziona meglio quando le persone hanno delle alternative.",
+   "glosses": [],
+   "id": "t16",
+   "en": "That would be the right condition. Change works best when people have alternatives."
+  }
+ ],
+ "practice_words": []
+}

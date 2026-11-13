@@ -1,0 +1,186 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "邀请",
+   "ipa": "yāoqǐng",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "多好的邀请啊！能，我很想来。",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "来",
+   "ipa": "lái",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "多好的邀请啊！能，我很想来。",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "派对",
+   "ipa": "pàiduì",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "嗨！星期六是我的生日，我要办一个派对。你能来吗？",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "带",
+   "ipa": "dài",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我要带点吃的或喝的吗？",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "生日",
+   "ipa": "shēngrì",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "嗨！星期六是我的生日，我要办一个派对。你能来吗？",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "礼物",
+   "ipa": "lǐwù",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "带上好心情就行。也许再给我带个小礼物，哈哈。",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "嗨！星期六是我的生日，我要办一个派对。你能来吗？",
+   "glosses": [
+    {
+     "text": "来",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "派对",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "生日",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "多好的邀请啊！能，我很想来。",
+   "glosses": [
+    {
+     "text": "邀请",
+     "pos": "n.",
+     "meaning": "an invitation"
+    },
+    {
+     "text": "来",
+     "pos": "v.",
+     "meaning": "to come"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "太好了！晚上七点在我家开始。",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我要带点吃的或喝的吗？",
+   "glosses": [
+    {
+     "text": "带",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Lin",
+   "role": "npc",
+   "text": "带上好心情就行。也许再给我带个小礼物，哈哈。",
+   "glosses": [
+    {
+     "text": "带",
+     "pos": "v.",
+     "meaning": "to bring"
+    },
+    {
+     "text": "礼物",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "当然！那星期六见。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,181 @@
+{
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "सिरदर्द",
+   "ipa": "sirdard",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "कल से मुझे सिरदर्द है और गले में दर्द भी है।",
+     "en": "I have had a headache and a sore throat since yesterday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "दवा",
+   "ipa": "dawa",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "क्या आपको किसी दवा से एलर्जी है?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "पर्ची",
+   "ipa": "parchi",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "नहीं, मुझे एलर्जी नहीं है। क्या मुझे पर्ची चाहिए?",
+     "en": "No, I am not allergic. Do I need a prescription?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "दिन में दो बार",
+   "ipa": "din mein do baar",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "इसके लिए नहीं। दिन में दो बार, खाने के बाद एक गोली खाइए।",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "खाइए",
+   "ipa": "khaiye",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "इसके लिए नहीं। दिन में दो बार, खाने के बाद एक गोली खाइए।",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "एलर्जी",
+   "ipa": "elarji",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "क्या आपको किसी दवा से एलर्जी है?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "सुप्रभात। क्या परेशानी है?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. What seems to be the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "कल से मुझे सिरदर्द है और गले में दर्द भी है।",
+   "glosses": [
+    {
+     "text": "सिरदर्द",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a headache and a sore throat since yesterday."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "क्या आपको किसी दवा से एलर्जी है?",
+   "glosses": [
+    {
+     "text": "दवा",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "एलर्जी",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t3",
+   "en": "Are you allergic to any medicine?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "नहीं, मुझे एलर्जी नहीं है। क्या मुझे पर्ची चाहिए?",
+   "glosses": [
+    {
+     "text": "पर्ची",
+     "pos": "n.",
+     "meaning": "a prescription"
+    },
+    {
+     "text": "एलर्जी",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t4",
+   "en": "No, I am not allergic. Do I need a prescription?"
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "इसके लिए नहीं। दिन में दो बार, खाने के बाद एक गोली खाइए।",
+   "glosses": [
+    {
+     "text": "दिन में दो बार",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "खाइए",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": "Not for this. Take one tablet twice a day, after meals."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "धन्यवाद। मैं पहली गोली आज शाम को लूँगा।",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. I will take the first one this evening."
+  }
+ ],
+ "practice_words": []
+}

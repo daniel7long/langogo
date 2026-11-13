@@ -1,0 +1,187 @@
+{
+ "emoji": "🏖️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "liburan",
+   "ipa": "/liˈbuɾan/",
+   "pos": "n.",
+   "meaning": "a holiday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Apakah kamu punya rencana untuk liburan musim panas?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "pantai",
+   "ipa": "/ˈpantai/",
+   "pos": "n.",
+   "meaning": "the beach",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ya! Aku ingin pergi ke pantai selama seminggu.",
+     "en": "Yes! I want to go to the beach for one week."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "memesan",
+   "ipa": "/məmˈəsan/",
+   "pos": "v.",
+   "meaning": "to book",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Bagus sekali. Apakah kamu sudah memesan hotelnya?",
+     "en": "Wonderful. Did you already book the hotel?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "rencana",
+   "ipa": "/ɾənˈt͡ʃana/",
+   "pos": "n.",
+   "meaning": "a plan",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Apakah kamu punya rencana untuk liburan musim panas?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "cuaca",
+   "ipa": "/ˈt͡ʃuat͡ʃa/",
+   "pos": "n.",
+   "meaning": "the weather",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Belum. Aku akan memesannya malam ini, saat aku memeriksa cuaca.",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "mengemas",
+   "ipa": "/məŋˈəmas/",
+   "pos": "v.",
+   "meaning": "to pack",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Terima kasih! Aku akan membuat rencana dan mengemas tasku akhir pekan ini.",
+     "en": "Thanks! I will make a plan and pack my bag this weekend."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Apakah kamu punya rencana untuk liburan musim panas?",
+   "glosses": [
+    {
+     "text": "liburan",
+     "pos": "n.",
+     "meaning": "a holiday"
+    },
+    {
+     "text": "rencana",
+     "pos": "n.",
+     "meaning": "a plan"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have plans for your summer vacation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ya! Aku ingin pergi ke pantai selama seminggu.",
+   "glosses": [
+    {
+     "text": "pantai",
+     "pos": "n.",
+     "meaning": "the beach"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes! I want to go to the beach for one week."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Bagus sekali. Apakah kamu sudah memesan hotelnya?",
+   "glosses": [
+    {
+     "text": "memesan",
+     "pos": "v.",
+     "meaning": "to book"
+    }
+   ],
+   "id": "t3",
+   "en": "Wonderful. Did you already book the hotel?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Belum. Aku akan memesannya malam ini, saat aku memeriksa cuaca.",
+   "glosses": [
+    {
+     "text": "memesan",
+     "pos": "v.",
+     "meaning": "to book"
+    },
+    {
+     "text": "cuaca",
+     "pos": "n.",
+     "meaning": "the weather"
+    }
+   ],
+   "id": "t4",
+   "en": "Not yet. I will book it tonight, when I check the weather."
+  },
+  {
+   "speaker": "Andi",
+   "role": "npc",
+   "text": "Ide bagus. Jangan lupa membawa tabir surya dan topi.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Good idea. Do not forget to pack sunscreen and a hat."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Terima kasih! Aku akan membuat rencana dan mengemas tasku akhir pekan ini.",
+   "glosses": [
+    {
+     "text": "rencana",
+     "pos": "n.",
+     "meaning": "a plan"
+    },
+    {
+     "text": "mengemas",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t6",
+   "en": "Thanks! I will make a plan and pack my bag this weekend."
+  }
+ ],
+ "practice_words": []
+}

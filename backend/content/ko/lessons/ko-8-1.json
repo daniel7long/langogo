@@ -1,0 +1,237 @@
+{
+ "emoji": "🗺️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "여행",
+   "ipa": "yeohaeng",
+   "pos": "n.",
+   "meaning": "a trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "방금 여행에서 돌아왔지? 전부 얘기해 줘!",
+     "en": "You just came back from a trip, right? Tell me everything!"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "길을 잃",
+   "ipa": "gireul ir",
+   "pos": "phr.",
+   "meaning": "to get lost",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "수도에서 시작했는데, 첫날에 오래된 골목에서 길을 잃었어.",
+     "en": "I started in the capital, but on the first day I got lost in the old streets."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "잊을 수 없",
+   "ipa": "ijeul su eops",
+   "pos": "adj.",
+   "meaning": "unforgettable",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "응, 해외에서 열흘을 보냈어. 정말 잊을 수 없는 여행이었어.",
+     "en": "Yes, I spent ten days abroad. It was unforgettable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "현지인",
+   "ipa": "hyeonjiin",
+   "pos": "n.",
+   "meaning": "a local",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "친절한 현지인이 길을 알려 줬고, 커피까지 사 줬어.",
+     "en": "A friendly local showed me the way and even invited me for coffee."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "경치",
+   "ipa": "gyeongchi",
+   "pos": "n.",
+   "meaning": "the view",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "언덕에서 본 일몰이야. 경치가 믿을 수 없을 정도였어.",
+     "en": "Watching the sunset from a hill. The view was incredible."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "추천",
+   "ipa": "chucheon",
+   "pos": "v.",
+   "meaning": "to recommend",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "그 나라를 다른 사람들에게도 추천할래?",
+     "en": "Would you recommend the country to other people?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "방금 여행에서 돌아왔지? 전부 얘기해 줘!",
+   "glosses": [
+    {
+     "text": "여행",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t1",
+   "en": "You just came back from a trip, right? Tell me everything!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "응, 해외에서 열흘을 보냈어. 정말 잊을 수 없는 여행이었어.",
+   "glosses": [
+    {
+     "text": "여행",
+     "pos": "n.",
+     "meaning": "a trip"
+    },
+    {
+     "text": "잊을 수 없",
+     "pos": "adj.",
+     "meaning": "unforgettable"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I spent ten days abroad. It was unforgettable."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "와! 먼저 어디에 갔어?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow! Where did you go first?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "수도에서 시작했는데, 첫날에 오래된 골목에서 길을 잃었어.",
+   "glosses": [
+    {
+     "text": "길을 잃",
+     "pos": "phr.",
+     "meaning": "to get lost"
+    }
+   ],
+   "id": "t4",
+   "en": "I started in the capital, but on the first day I got lost in the old streets."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "어머! 어떻게 길을 찾았어?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Oh no! How did you find your way?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "친절한 현지인이 길을 알려 줬고, 커피까지 사 줬어.",
+   "glosses": [
+    {
+     "text": "현지인",
+     "pos": "n.",
+     "meaning": "a local"
+    }
+   ],
+   "id": "t6",
+   "en": "A friendly local showed me the way and even invited me for coffee."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "멋지다. 여행에서 가장 아름다운 순간은 언제였어?",
+   "glosses": [
+    {
+     "text": "여행",
+     "pos": "n.",
+     "meaning": "a trip"
+    }
+   ],
+   "id": "t7",
+   "en": "That is lovely. What was the best moment of the trip?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "언덕에서 본 일몰이야. 경치가 믿을 수 없을 정도였어.",
+   "glosses": [
+    {
+     "text": "경치",
+     "pos": "n.",
+     "meaning": "the view"
+    }
+   ],
+   "id": "t8",
+   "en": "Watching the sunset from a hill. The view was incredible."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "그 나라를 다른 사람들에게도 추천할래?",
+   "glosses": [
+    {
+     "text": "추천",
+     "pos": "v.",
+     "meaning": "to recommend"
+    }
+   ],
+   "id": "t9",
+   "en": "Would you recommend the country to other people?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "물론이지. 할 수만 있다면 내일 다시 돌아가고 싶어.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Absolutely. I would go back tomorrow if I could."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "그럼 사진 좀 보여 줘!",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then show me your photos, please!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그래. 오백 장이 넘게 찍었어.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Of course. I took more than five hundred pictures."
+  }
+ ],
+ "practice_words": []
+}

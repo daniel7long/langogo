@@ -1,0 +1,238 @@
+{
+ "emoji": "💼",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "interview",
+   "ipa": "/ˈɪntɚˌvju/",
+   "pos": "n.",
+   "meaning": "an interview",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Good morning, and thank you for coming to the interview.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "experience",
+   "ipa": "/ɪkˈspɪɹiəns/",
+   "pos": "n.",
+   "meaning": "experience",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Please tell me a little about yourself and your experience.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "apply",
+   "ipa": "/əˈplaɪ/",
+   "pos": "v.",
+   "meaning": "to apply",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Interesting. Why did you apply for this position?",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "team",
+   "ipa": "/tim/",
+   "pos": "n.",
+   "meaning": "a team",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "I enjoy both, but I do my best work in a team.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "strength",
+   "ipa": "/stɹɛŋkθ/",
+   "pos": "n.",
+   "meaning": "a strength",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "What would you say is your greatest strength?",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "salary",
+   "ipa": "/ˈsæləɹi/",
+   "pos": "n.",
+   "meaning": "a salary",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Yes, could you tell me about the salary and the working hours?",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Good morning, and thank you for coming to the interview.",
+   "glosses": [
+    {
+     "text": "interview",
+     "pos": "n.",
+     "meaning": "an interview"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Good morning. Thank you for inviting me.",
+   "glosses": [],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Please tell me a little about yourself and your experience.",
+   "glosses": [
+    {
+     "text": "experience",
+     "pos": "n.",
+     "meaning": "experience"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I studied business, and I have worked in marketing for three years.",
+   "glosses": [],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Interesting. Why did you apply for this position?",
+   "glosses": [
+    {
+     "text": "apply",
+     "pos": "v.",
+     "meaning": "to apply"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I like your company's projects, and I want to learn in a bigger team.",
+   "glosses": [
+    {
+     "text": "team",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "What would you say is your greatest strength?",
+   "glosses": [
+    {
+     "text": "strength",
+     "pos": "n.",
+     "meaning": "a strength"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I am organized, and I stay calm when there is pressure.",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Do you prefer working alone or as part of a team?",
+   "glosses": [
+    {
+     "text": "team",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I enjoy both, but I do my best work in a team.",
+   "glosses": [
+    {
+     "text": "team",
+     "pos": "n.",
+     "meaning": "a team"
+    }
+   ],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Good. We will contact you next week. Do you have any questions?",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, could you tell me about the salary and the working hours?",
+   "glosses": [
+    {
+     "text": "salary",
+     "pos": "n.",
+     "meaning": "a salary"
+    }
+   ],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

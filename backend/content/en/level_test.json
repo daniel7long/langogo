@@ -1,0 +1,82 @@
+{
+  "speaking_sentence": "Next Saturday, we are going to visit a small museum with our friends.",
+  "questions": [
+    {
+      "id": "q1",
+      "points": 10,
+      "correct": "a",
+      "prompt": "Complete the sentence: I ___ a cat.",
+      "options": {
+        "a": "have",
+        "b": "am",
+        "c": "do"
+      }
+    },
+    {
+      "id": "q2",
+      "points": 10,
+      "correct": "b",
+      "prompt": "Yesterday we ___ to the cinema.",
+      "options": {
+        "a": "go",
+        "b": "went",
+        "c": "have gone"
+      }
+    },
+    {
+      "id": "q3",
+      "points": 12,
+      "correct": "c",
+      "prompt": "She ___ bread at the bakery every morning.",
+      "options": {
+        "a": "buy",
+        "b": "buying",
+        "c": "buys"
+      }
+    },
+    {
+      "id": "q4",
+      "points": 14,
+      "correct": "a",
+      "prompt": "If I had more time, I ___ more often.",
+      "options": {
+        "a": "would travel",
+        "b": "will travel",
+        "c": "traveled"
+      }
+    },
+    {
+      "id": "q5",
+      "points": 16,
+      "correct": "c",
+      "prompt": "I don't think she ___ the truth about the accident.",
+      "options": {
+        "a": "knows",
+        "b": "will know",
+        "c": "knew"
+      }
+    },
+    {
+      "id": "q6",
+      "points": 18,
+      "correct": "b",
+      "prompt": "If you had told me yesterday, I ___ you from the station.",
+      "options": {
+        "a": "would pick up",
+        "b": "would have picked up",
+        "c": "picked up"
+      }
+    },
+    {
+      "id": "q7",
+      "points": 20,
+      "correct": "a",
+      "prompt": "Whatever the reason for his absence ___, we must respect his decision.",
+      "options": {
+        "a": "may be",
+        "b": "is",
+        "c": "will"
+      }
+    }
+  ]
+}

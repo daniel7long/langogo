@@ -1,0 +1,187 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "tiket",
+   "ipa": "/ˈtikət/",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Saya mengerti. Berapa harga tiketnya?",
+     "en": "I understand. How much is the ticket?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "peron",
+   "ipa": "/ˈpəɾɔn/",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Baik. Kereta berikutnya berangkat pukul sembilan dari peron empat.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "berangkat",
+   "ipa": "/bəˈɾaŋkat/",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Baik. Kereta berikutnya berangkat pukul sembilan dari peron empat.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "pulang pergi",
+   "ipa": "/ˈpulaŋ ˈpəɾgi/",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Saya mau tiket pulang pergi ke ibu kota, tolong.",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "tepat waktu",
+   "ipa": "/ˈtəpat ˈwaktu/",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Apakah kereta itu tepat waktu hari ini?",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "berganti kereta",
+   "ipa": "/bəɾˈgantɪ kəˈɾəta/",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ya, tepat waktu. Tetapi Anda harus berganti kereta di kota berikutnya.",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Selamat pagi. Ada yang bisa saya bantu?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Saya mau tiket pulang pergi ke ibu kota, tolong.",
+   "glosses": [
+    {
+     "text": "tiket",
+     "pos": "n.",
+     "meaning": "a ticket"
+    },
+    {
+     "text": "pulang pergi",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Baik. Kereta berikutnya berangkat pukul sembilan dari peron empat.",
+   "glosses": [
+    {
+     "text": "peron",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "berangkat",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Apakah kereta itu tepat waktu hari ini?",
+   "glosses": [
+    {
+     "text": "tepat waktu",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Ya, tepat waktu. Tetapi Anda harus berganti kereta di kota berikutnya.",
+   "glosses": [
+    {
+     "text": "tepat waktu",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "berganti kereta",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Saya mengerti. Berapa harga tiketnya?",
+   "glosses": [
+    {
+     "text": "tiket",
+     "pos": "n.",
+     "meaning": "a ticket"
+    }
+   ],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,202 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "ফ্ল্যাট",
+   "ipa": "flyat",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "মাসে আটশো, আর ফ্ল্যাটটি আসবাবসহ।",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ভাড়া",
+   "ipa": "bhara",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "হ্যাঁ। মাসে ভাড়া কত?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "মাসে",
+   "ipa": "mashe",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "হ্যাঁ। মাসে ভাড়া কত?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "আসবাবসহ",
+   "ipa": "ashbabsoho",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "মাসে আটশো, আর ফ্ল্যাটটি আসবাবসহ।",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "জামানত",
+   "ipa": "jamanot",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "শুনতে ভালো লাগছে। আমাকে কি জামানত দিতে হবে?",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "চুক্তি",
+   "ipa": "chukti",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "হ্যাঁ, এক মাসের ভাড়া জামানত হিসেবে। আমরা কাল চুক্তি সই করব।",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "নমস্কার, আপনি ফ্ল্যাটটিতে আগ্রহী, তাই না?",
+   "glosses": [
+    {
+     "text": "ফ্ল্যাট",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ। মাসে ভাড়া কত?",
+   "glosses": [
+    {
+     "text": "ভাড়া",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "মাসে",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "মাসে আটশো, আর ফ্ল্যাটটি আসবাবসহ।",
+   "glosses": [
+    {
+     "text": "ফ্ল্যাট",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "মাসে",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "আসবাবসহ",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "শুনতে ভালো লাগছে। আমাকে কি জামানত দিতে হবে?",
+   "glosses": [
+    {
+     "text": "জামানত",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Arjun",
+   "role": "npc",
+   "text": "হ্যাঁ, এক মাসের ভাড়া জামানত হিসেবে। আমরা কাল চুক্তি সই করব।",
+   "glosses": [
+    {
+     "text": "ভাড়া",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "মাসে",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "জামানত",
+     "pos": "n.",
+     "meaning": "a deposit"
+    },
+    {
+     "text": "চুক্তি",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "দারুণ। সিদ্ধান্ত নেওয়ার আগে আমি কি রান্নাঘরটা আবার দেখতে পারি?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,181 @@
+{
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "pașaportul",
+   "ipa": "/paʃaˈportul/",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Bună ziua. Pașaportul, vă rog. Doriți să predați un bagaj?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "un bagaj",
+   "ipa": "/un baˈɡaʒ/",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Da, un bagaj. Nu este greu.",
+     "en": "Yes, one suitcase. It is not heavy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "de îmbarcare",
+   "ipa": "/de ɨmbarˈkare/",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Iată cartea dumneavoastră de îmbarcare. Poarta este numărul doisprezece.",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "poarta",
+   "ipa": "/ˈpoarta/",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Iată cartea dumneavoastră de îmbarcare. Poarta este numărul doisprezece.",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "să predați",
+   "ipa": "/sə preˈdats/",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Bună ziua. Pașaportul, vă rog. Doriți să predați un bagaj?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "întârziat",
+   "ipa": "/ɨntɨrziˈat/",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "În patruzeci de minute. Dar zborul dumneavoastră este întârziat cu douăzeci de minute.",
+     "en": "In forty minutes. But your flight is delayed by twenty minutes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Bună ziua. Pașaportul, vă rog. Doriți să predați un bagaj?",
+   "glosses": [
+    {
+     "text": "Pașaportul",
+     "pos": "n.",
+     "meaning": "a passport"
+    },
+    {
+     "text": "un bagaj",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "să predați",
+     "pos": "v.",
+     "meaning": "to check in"
+    }
+   ],
+   "id": "t1",
+   "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, un bagaj. Nu este greu.",
+   "glosses": [
+    {
+     "text": "un bagaj",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, one suitcase. It is not heavy."
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "Iată cartea dumneavoastră de îmbarcare. Poarta este numărul doisprezece.",
+   "glosses": [
+    {
+     "text": "de îmbarcare",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    },
+    {
+     "text": "Poarta",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t3",
+   "en": "Here is your boarding pass. Your gate is number twelve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mulțumesc. La ce oră începe îmbarcarea?",
+   "glosses": [],
+   "id": "t4",
+   "en": "Thank you. What time does boarding start?"
+  },
+  {
+   "speaker": "Mihai",
+   "role": "npc",
+   "text": "În patruzeci de minute. Dar zborul dumneavoastră este întârziat cu douăzeci de minute.",
+   "glosses": [
+    {
+     "text": "întârziat",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": "In forty minutes. But your flight is delayed by twenty minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Este în regulă. Voi aștepta lângă poartă.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. I will wait near the gate."
+  }
+ ],
+ "practice_words": []
+}

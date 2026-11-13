@@ -1,0 +1,176 @@
+{
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "посылку",
+   "ipa": "posýlku",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Я хотел бы отправить эту посылку в Канаду, пожалуйста.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "марки",
+   "ipa": "márki",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Готово. Сколько она будет идти? Мне ещё нужны три марки для открыток.",
+     "en": "Done. How long will it take? Also, I need three stamps for postcards."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "отправить",
+   "ipa": "otprávit'",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Я хотел бы отправить эту посылку в Канаду, пожалуйста.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "адрес",
+   "ipa": "ádres",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Сейчас проверю вес. Два килограмма. Напишите, пожалуйста, адрес здесь.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "вес",
+   "ipa": "ves",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Сейчас проверю вес. Два килограмма. Напишите, пожалуйста, адрес здесь.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "неделю",
+   "ipa": "nedélju",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Примерно неделю. Итого девятнадцать евро вместе с марками.",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Здравствуйте. Чем могу помочь?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я хотел бы отправить эту посылку в Канаду, пожалуйста.",
+   "glosses": [
+    {
+     "text": "посылку",
+     "pos": "n.",
+     "meaning": "a parcel"
+    },
+    {
+     "text": "отправить",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like to send this parcel to Canada, please."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Сейчас проверю вес. Два килограмма. Напишите, пожалуйста, адрес здесь.",
+   "glosses": [
+    {
+     "text": "адрес",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "вес",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": "Let me check the weight. It is two kilos. Please write the address here."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Готово. Сколько она будет идти? Мне ещё нужны три марки для открыток.",
+   "glosses": [
+    {
+     "text": "марки",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": "Done. How long will it take? Also, I need three stamps for postcards."
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Примерно неделю. Итого девятнадцать евро вместе с марками.",
+   "glosses": [
+    {
+     "text": "неделю",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": "About a week. The total is nineteen euros, with the stamps."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Хорошо. Вот моя карта.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. Here is my card."
+  }
+ ],
+ "practice_words": []
+}

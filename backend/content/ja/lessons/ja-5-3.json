@@ -1,0 +1,181 @@
+{
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "小包",
+   "ipa": "kozutsumi",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "この小包をカナダに送りたいんですが。",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "切手",
+   "ipa": "kitte",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "約一週間です。切手代込みで十九ユーロです。",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "送り",
+   "ipa": "okuri",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "この小包をカナダに送りたいんですが。",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "住所",
+   "ipa": "juusho",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "重さを確認しますね。二キロです。ここに住所を書いてください。",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "重さ",
+   "ipa": "omosa",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "重さを確認しますね。二キロです。ここに住所を書いてください。",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "一週間",
+   "ipa": "isshuukan",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "約一週間です。切手代込みで十九ユーロです。",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "こんにちは。どうなさいましたか。",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "この小包をカナダに送りたいんですが。",
+   "glosses": [
+    {
+     "text": "小包",
+     "pos": "n.",
+     "meaning": "a parcel"
+    },
+    {
+     "text": "送り",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like to send this parcel to Canada, please."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "重さを確認しますね。二キロです。ここに住所を書いてください。",
+   "glosses": [
+    {
+     "text": "住所",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "重さ",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": "Let me check the weight. It is two kilos. Please write the address here."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "書きました。どのくらいかかりますか。あと、はがき用の切手を三枚ください。",
+   "glosses": [
+    {
+     "text": "切手",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": "Done. How long will it take? Also, I need three stamps for postcards."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "約一週間です。切手代込みで十九ユーロです。",
+   "glosses": [
+    {
+     "text": "切手",
+     "pos": "n.",
+     "meaning": "a stamp"
+    },
+    {
+     "text": "一週間",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": "About a week. The total is nineteen euros, with the stamps."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "わかりました。カードでお願いします。",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. Here is my card."
+  }
+ ],
+ "practice_words": []
+}

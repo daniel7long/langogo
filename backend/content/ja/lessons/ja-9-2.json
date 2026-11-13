@@ -1,0 +1,237 @@
+{
+ "emoji": "😴",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "ストレス",
+   "ipa": "sutoresu",
+   "pos": "n.",
+   "meaning": "stress",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "正直に言うと、ストレスがたまっていて、よく眠れないんだ。",
+     "en": "Honestly, I am under a lot of stress and I sleep badly."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "くたくた",
+   "ipa": "kutakuta",
+   "pos": "adj.",
+   "meaning": "exhausted",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "最近、くたくたに見えるよ。何も問題ない？",
+     "en": "You look exhausted lately. Is everything all right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "習慣",
+   "ipa": "shuukan",
+   "pos": "n.",
+   "meaning": "a habit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "それは悪い習慣だよ。寝る一時間前に画面を消してみて。",
+     "en": "That is a bad habit. Try to turn off your screen an hour before bed."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "リラックス",
+   "ipa": "rirakkusu",
+   "pos": "v.",
+   "meaning": "to relax",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "わかってるけど、長い一日のあとはリラックスするのが難しくて。",
+     "en": "I know, but it is difficult to relax after a long day."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "改善",
+   "ipa": "kaizen",
+   "pos": "v.",
+   "meaning": "to improve",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "それに、仕事のあとの短い散歩も気分の改善にすごく効くよ。",
+     "en": "Also, a short walk after work can improve your mood a lot."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "眠れ",
+   "ipa": "nemure",
+   "pos": "v.",
+   "meaning": "to sleep",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "やってみる。今週はもっとよく眠れるといいな。",
+     "en": "I will try it. I hope I can sleep better this week."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "最近、くたくたに見えるよ。何も問題ない？",
+   "glosses": [
+    {
+     "text": "くたくた",
+     "pos": "adj.",
+     "meaning": "exhausted"
+    }
+   ],
+   "id": "t1",
+   "en": "You look exhausted lately. Is everything all right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "正直に言うと、ストレスがたまっていて、よく眠れないんだ。",
+   "glosses": [
+    {
+     "text": "ストレス",
+     "pos": "n.",
+     "meaning": "stress"
+    },
+    {
+     "text": "眠れ",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, I am under a lot of stress and I sleep badly."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "普段は何時に寝るの？",
+   "glosses": [],
+   "id": "t3",
+   "en": "What time do you usually go to bed?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "夜中の十二時過ぎが多いかな。何時間もスマホを見ちゃうから。",
+   "glosses": [],
+   "id": "t4",
+   "en": "Often after midnight, because I check my phone for hours."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "それは悪い習慣だよ。寝る一時間前に画面を消してみて。",
+   "glosses": [
+    {
+     "text": "習慣",
+     "pos": "n.",
+     "meaning": "a habit"
+    }
+   ],
+   "id": "t5",
+   "en": "That is a bad habit. Try to turn off your screen an hour before bed."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "わかってるけど、長い一日のあとはリラックスするのが難しくて。",
+   "glosses": [
+    {
+     "text": "リラックス",
+     "pos": "v.",
+     "meaning": "to relax"
+    }
+   ],
+   "id": "t6",
+   "en": "I know, but it is difficult to relax after a long day."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "本を読んだり、静かな音楽を聴いたりしたら？",
+   "glosses": [],
+   "id": "t7",
+   "en": "Why don't you read a book or listen to calm music?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "いい考えだね。学生のころはよくそうしていたよ。",
+   "glosses": [],
+   "id": "t8",
+   "en": "That is a good idea. I used to do that when I was a student."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "それに、仕事のあとの短い散歩も気分の改善にすごく効くよ。",
+   "glosses": [
+    {
+     "text": "改善",
+     "pos": "v.",
+     "meaning": "to improve"
+    }
+   ],
+   "id": "t9",
+   "en": "Also, a short walk after work can improve your mood a lot."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "やってみる。今週はもっとよく眠れるといいな。",
+   "glosses": [
+    {
+     "text": "眠れ",
+     "pos": "v.",
+     "meaning": "to sleep"
+    }
+   ],
+   "id": "t10",
+   "en": "I will try it. I hope I can sleep better this week."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "二週間続けてみて。習慣が変わるには時間がかかるから。",
+   "glosses": [
+    {
+     "text": "習慣",
+     "pos": "n.",
+     "meaning": "a habit"
+    }
+   ],
+   "id": "t11",
+   "en": "Give it two weeks. Habits take time to change."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "アドバイスありがとう。話しただけで気分が楽になったよ。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks for the advice. I feel better just talking about it."
+  }
+ ],
+ "practice_words": []
+}

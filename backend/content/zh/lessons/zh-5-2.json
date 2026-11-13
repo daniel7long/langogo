@@ -1,0 +1,187 @@
+{
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "头痛",
+   "ipa": "tóutòng",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "从昨天开始我头痛，喉咙也疼。",
+     "en": "I have had a headache and a sore throat since yesterday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "药",
+   "ipa": "yào",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "您对什么药过敏吗？",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "处方",
+   "ipa": "chǔfāng",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "不过敏。我需要处方吗？",
+     "en": "No, I am not allergic. Do I need a prescription?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "一天两次",
+   "ipa": "yì tiān liǎng cì",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "这个不需要。一天两次，饭后吃一片。",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "吃",
+   "ipa": "chī",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "谢谢。我今天晚上吃第一片。",
+     "en": "Thank you. I will take the first one this evening."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "过敏",
+   "ipa": "guòmǐn",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "您对什么药过敏吗？",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "早上好。哪里不舒服？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. What seems to be the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "从昨天开始我头痛，喉咙也疼。",
+   "glosses": [
+    {
+     "text": "头痛",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a headache and a sore throat since yesterday."
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "您对什么药过敏吗？",
+   "glosses": [
+    {
+     "text": "药",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "过敏",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t3",
+   "en": "Are you allergic to any medicine?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "不过敏。我需要处方吗？",
+   "glosses": [
+    {
+     "text": "处方",
+     "pos": "n.",
+     "meaning": "a prescription"
+    },
+    {
+     "text": "过敏",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t4",
+   "en": "No, I am not allergic. Do I need a prescription?"
+  },
+  {
+   "speaker": "Hao",
+   "role": "npc",
+   "text": "这个不需要。一天两次，饭后吃一片。",
+   "glosses": [
+    {
+     "text": "一天两次",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "吃",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": "Not for this. Take one tablet twice a day, after meals."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "谢谢。我今天晚上吃第一片。",
+   "glosses": [
+    {
+     "text": "吃",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you. I will take the first one this evening."
+  }
+ ],
+ "practice_words": []
+}

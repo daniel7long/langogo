@@ -1,0 +1,225 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "permisul meu de conducere",
+   "ipa": "/perˈmisul meu de konˈduktʃere/",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Da, o mașină mică pentru cinci zile. Iată permisul meu de conducere.",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "asigurarea",
+   "ipa": "/asiɡuˈrarea/",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Da, vă rog. Cât costă asigurarea pe zi?",
+     "en": "Yes, please. How much is the insurance per day?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "o garanție",
+   "ipa": "/o ɡaranˈtsie/",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Opt dolari pe zi. Avem nevoie și de o garanție de două sute de dolari.",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "un GPS",
+   "ipa": "/un dʒi pi es/",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Este în regulă. Mașina vine cu un GPS?",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "rezervorul",
+   "ipa": "/rezerˈvorul/",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Da. Rezervorul este plin acum și trebuie să-l returnați plin.",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "să-l returnați",
+   "ipa": "/səl returˈnats/",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Da. Rezervorul este plin acum și trebuie să-l returnați plin.",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Bună ziua. Aveți o rezervare pentru o mașină?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, o mașină mică pentru cinci zile. Iată permisul meu de conducere.",
+   "glosses": [
+    {
+     "text": "permisul meu de conducere",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Mulțumesc. Doriți o asigurare suplimentară? Acoperă orice daună.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, vă rog. Cât costă asigurarea pe zi?",
+   "glosses": [
+    {
+     "text": "asigurarea",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Opt dolari pe zi. Avem nevoie și de o garanție de două sute de dolari.",
+   "glosses": [
+    {
+     "text": "o garanție",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Este în regulă. Mașina vine cu un GPS?",
+   "glosses": [
+    {
+     "text": "un GPS",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Da. Rezervorul este plin acum și trebuie să-l returnați plin.",
+   "glosses": [
+    {
+     "text": "Rezervorul",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "să-l returnați",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Am înțeles. Unde returnez mașina la sfârșit?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Aici, la același birou, înainte de ora șase seara în ultima zi.",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ce se întâmplă dacă întârzii puțin?",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Ioana",
+   "role": "npc",
+   "text": "Atunci vă taxăm o zi în plus, așa că vă rog să ne sunați.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bine de știut. Vă mulțumesc pentru ajutor.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,227 +1,186 @@
 {
-  "emoji": "💬",
-  "max_flowers": 35,
-  "cefr": "B1",
-  "vocab": [
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "invitation",
+   "ipa": "/ˌɪnvɪˈteɪʃən/",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "v1",
-      "word": "opinion",
-      "ipa": "/əˈpɪnjən/",
-      "pos": "n.",
-      "meaning": "what you think about something",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "In my opinion, it is good."
-        },
-        {
-          "target": "What is your opinion?"
-        }
-      ]
-    },
-    {
-      "id": "v2",
-      "word": "agree",
-      "ipa": "/əˈɡriː/",
-      "pos": "v.",
-      "meaning": "to have the same idea as someone",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I agree with you."
-        },
-        {
-          "target": "They agree on the plan."
-        }
-      ]
-    },
-    {
-      "id": "v3",
-      "word": "disagree",
-      "ipa": "/ˌdɪsəˈɡriː/",
-      "pos": "v.",
-      "meaning": "to have a different idea",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I disagree with that."
-        },
-        {
-          "target": "We disagree about food."
-        }
-      ]
-    },
-    {
-      "id": "v4",
-      "word": "believe",
-      "ipa": "/bɪˈliːv/",
-      "pos": "v.",
-      "meaning": "to think something is true",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "I believe you."
-        },
-        {
-          "target": "She believes in hard work."
-        }
-      ]
-    },
-    {
-      "id": "v5",
-      "word": "reason",
-      "ipa": "/ˈriːzn/",
-      "pos": "n.",
-      "meaning": "why something happens or is true",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "What is the reason?"
-        },
-        {
-          "target": "I have two reasons."
-        }
-      ]
-    },
-    {
-      "id": "v6",
-      "word": "maybe",
-      "ipa": "/ˈmeɪbi/",
-      "pos": "adv.",
-      "meaning": "possibly",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "Maybe it will rain."
-        },
-        {
-          "target": "Maybe you are right."
-        }
-      ]
-    },
-    {
-      "id": "v7",
-      "word": "example",
-      "ipa": "/ɪɡˈzæmpl/",
-      "pos": "n.",
-      "meaning": "something that shows what you mean",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "Give me an example."
-        },
-        {
-          "target": "For example, I walk to work."
-        }
-      ]
+     "target": "What a lovely invitation! Yes, I would love to come.",
+     "en": ""
     }
-  ],
-  "dialogue": [
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "come",
+   "ipa": "/kʌm/",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "t1",
-      "speaker": "Friend",
-      "role": "npc",
-      "text": "What is your opinion about working four days a week?",
-      "glosses": [
-        {
-          "text": "opinion",
-          "pos": "n.",
-          "meaning": "what you think about something"
-        }
-      ],
-      "en": "What do you think about working four days each week?"
-    },
-    {
-      "id": "t2",
-      "speaker": "You",
-      "role": "you",
-      "text": "I agree with it. I believe people are happier.",
-      "glosses": [
-        {
-          "text": "agree",
-          "pos": "v.",
-          "meaning": "to have the same idea as someone"
-        },
-        {
-          "text": "believe",
-          "pos": "v.",
-          "meaning": "to think something is true"
-        }
-      ],
-      "en": "I think it is good. I think people feel happier."
-    },
-    {
-      "id": "t3",
-      "speaker": "Friend",
-      "role": "npc",
-      "text": "That is one reason. Do you have another one?",
-      "glosses": [
-        {
-          "text": "reason",
-          "pos": "n.",
-          "meaning": "why something happens or is true"
-        }
-      ],
-      "en": "That is one cause. Is there another?"
-    },
-    {
-      "id": "t4",
-      "speaker": "You",
-      "role": "you",
-      "text": "Yes. For example, people have more time for family.",
-      "glosses": [
-        {
-          "text": "example",
-          "pos": "n.",
-          "meaning": "something that shows what you mean"
-        }
-      ],
-      "en": "Yes. For one, people have more time with their family."
-    },
-    {
-      "id": "t5",
-      "speaker": "Friend",
-      "role": "npc",
-      "text": "I disagree a little. Maybe some jobs need five days.",
-      "glosses": [
-        {
-          "text": "disagree",
-          "pos": "v.",
-          "meaning": "to have a different idea"
-        },
-        {
-          "text": "Maybe",
-          "pos": "adv.",
-          "meaning": "possibly"
-        }
-      ],
-      "en": "I do not fully think so. Possibly some jobs need five days."
-    },
-    {
-      "id": "t6",
-      "speaker": "You",
-      "role": "you",
-      "text": "That is true. Maybe we can find a good middle.",
-      "glosses": [
-        {
-          "text": "Maybe",
-          "pos": "adv.",
-          "meaning": "possibly"
-        }
-      ],
-      "en": "That is right. Possibly we can find a good balance."
+     "target": "What a lovely invitation! Yes, I would love to come.",
+     "en": ""
     }
-  ],
-  "practice_words": [
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "party",
+   "ipa": "/ˈpɑɹɾi/",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "w1",
-      "text": "believe",
-      "tip": "Say bi-LEEV: stress the second part"
+     "target": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "bring",
+   "ipa": "/bɹɪŋ/",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Should I bring something to eat or drink?",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "birthday",
+   "ipa": "/ˈbɝθˌdeɪ/",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "present",
+   "ipa": "/ˈpɹɛzənt/",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Just bring a good mood. And maybe a small present for me, ha ha.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?",
+   "glosses": [
+    {
+     "text": "come",
+     "pos": "v.",
+     "meaning": "to come"
     },
     {
-      "id": "w2",
-      "text": "opinion",
-      "tip": "Say uh-PIN-yun: stress the second part"
+     "text": "party",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "birthday",
+     "pos": "n.",
+     "meaning": "a birthday"
     }
-  ]
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "What a lovely invitation! Yes, I would love to come.",
+   "glosses": [
+    {
+     "text": "invitation",
+     "pos": "n.",
+     "meaning": "an invitation"
+    },
+    {
+     "text": "come",
+     "pos": "v.",
+     "meaning": "to come"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Great! It starts at seven in the evening at my house.",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Should I bring something to eat or drink?",
+   "glosses": [
+    {
+     "text": "bring",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Sarah",
+   "role": "npc",
+   "text": "Just bring a good mood. And maybe a small present for me, ha ha.",
+   "glosses": [
+    {
+     "text": "bring",
+     "pos": "v.",
+     "meaning": "to bring"
+    },
+    {
+     "text": "present",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Of course! See you on Saturday, then.",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  }
+ ],
+ "practice_words": []
 }

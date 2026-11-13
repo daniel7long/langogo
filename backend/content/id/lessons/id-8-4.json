@@ -1,0 +1,254 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "penerbangan",
+   "ipa": "/pənəɾbaŋˈan/",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Kami bisa menawarkan hotel dan penerbangan besok pagi.",
+     "en": "We can offer you a hotel and a flight tomorrow morning."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "dibatalkan",
+   "ipa": "/dibatalˈkan/",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Para penumpang penerbangan 304, dengan menyesal kami sampaikan bahwa penerbangan Anda dibatalkan.",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "koneksi",
+   "ipa": "/kɔˈnɛksi/",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Permisi, apa yang terjadi? Saya punya koneksi penting nanti.",
+     "en": "Excuse me, what happened? I have an important connection later today."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "keterlambatan",
+   "ipa": "/kətəɾlamˈbatan/",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ada masalah teknis pada pesawat. Kami mohon maaf atas keterlambatan ini.",
+     "en": "There was a technical problem with the plane. We apologize for the delay."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "jadwal ulang",
+   "ipa": "/ˈdʒadwal ˈulaŋ/",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Bisakah Anda menjadwal ulang saya ke penerbangan lain hari ini?",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "kompensasi",
+   "ipa": "/kɔmpənˈsasi/",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ya, Anda berhak mendapat kompensasi, dan saya akan memberi Anda formulirnya.",
+     "en": "Yes, you have the right to compensation, and I will give you the form."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Para penumpang penerbangan 304, dengan menyesal kami sampaikan bahwa penerbangan Anda dibatalkan.",
+   "glosses": [
+    {
+     "text": "penerbangan",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "dibatalkan",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Permisi, apa yang terjadi? Saya punya koneksi penting nanti.",
+   "glosses": [
+    {
+     "text": "koneksi",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": "Excuse me, what happened? I have an important connection later today."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Ada masalah teknis pada pesawat. Kami mohon maaf atas keterlambatan ini.",
+   "glosses": [
+    {
+     "text": "keterlambatan",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": "There was a technical problem with the plane. We apologize for the delay."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bisakah Anda menjadwal ulang saya ke penerbangan lain hari ini?",
+   "glosses": [
+    {
+     "text": "penerbangan",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "jadwal ulang",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": "Can you rebook me on another flight today?"
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Ada penerbangan pukul delapan malam ini. Biar saya periksa apakah masih ada kursi.",
+   "glosses": [
+    {
+     "text": "penerbangan",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t5",
+   "en": "There is a flight at eight tonight. Let me check if there are seats."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tolong periksa. Kalau tidak ada, apa pilihan saya?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Please do. If not, what are my options?"
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Kami bisa menawarkan hotel dan penerbangan besok pagi.",
+   "glosses": [
+    {
+     "text": "penerbangan",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t7",
+   "en": "We can offer you a hotel and a flight tomorrow morning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Saya lebih suka berangkat malam ini. Apakah ada kompensasi atas ketidaknyamanan ini?",
+   "glosses": [
+    {
+     "text": "kompensasi",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Ya, Anda berhak mendapat kompensasi, dan saya akan memberi Anda formulirnya.",
+   "glosses": [
+    {
+     "text": "kompensasi",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t9",
+   "en": "Yes, you have the right to compensation, and I will give you the form."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Terima kasih. Apakah saya juga mendapat voucher makan?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Thank you. Do I also receive a meal voucher?"
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Ya, ini voucher untuk restoran. Anda ada di penerbangan pukul delapan.",
+   "glosses": [
+    {
+     "text": "penerbangan",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t11",
+   "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bagus, itu menyelesaikan masalah saya. Saya sangat menghargai bantuan Anda.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Great, that solves my problem. I really appreciate your help."
+  }
+ ],
+ "practice_words": []
+}

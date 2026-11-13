@@ -1,0 +1,257 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "influência",
+   "ipa": "/ĩ.fluˈẽ.sja/",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sinceramente, acho. Penso que elas têm uma enorme influência sobre como nos vemos.",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "privacidade",
+   "ipa": "/pɾi.va.siˈda.dʒi/",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Concordo. E a privacidade? As empresas coletam muitos dados sobre nós.",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "se espalham",
+   "ipa": "/si isˈpa.ʎɐ̃w̃/",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Essa é a minha maior preocupação. Notícias enganosas se espalham muito mais rápido que os fatos.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "notícias enganosas",
+   "ipa": "/noˈtʃi.sjas ẽ.gaˈno.zas/",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Essa é a minha maior preocupação. Notícias enganosas se espalham muito mais rápido que os fatos.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "regulamentem",
+   "ipa": "/ʁe.gu.lamẽˈtẽj/",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Em parte. Acredito que os governos deveriam exigir que elas regulamentem melhor o conteúdo, desde que a liberdade de expressão seja protegida.",
+     "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "viciadas",
+   "ipa": "/viˈsja.das/",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Algumas pessoas até admitem que são viciadas no celular.",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Li que as pessoas passam quatro horas por dia nas redes sociais. Você acha isso preocupante?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sinceramente, acho. Penso que elas têm uma enorme influência sobre como nos vemos.",
+   "glosses": [
+    {
+     "text": "influência",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Em que sentido? Muita gente diz que isso simplesmente ajuda a manter contato.",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ajuda, mas se comparar com imagens perfeitas na internet pode prejudicar a autoestima.",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "É verdade. E a informação que lemos lá?",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Essa é a minha maior preocupação. Notícias enganosas se espalham muito mais rápido que os fatos.",
+   "glosses": [
+    {
+     "text": "se espalham",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "Notícias enganosas",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Você acha que as plataformas deveriam ser responsáveis por isso?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Em parte. Acredito que os governos deveriam exigir que elas regulamentem melhor o conteúdo, desde que a liberdade de expressão seja protegida.",
+   "glosses": [
+    {
+     "text": "regulamentem",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "A regulamentação é complicada. Quem decide o que é verdade?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Boa pergunta. Talvez a solução seja a educação: ensinar as pessoas a checar as fontes.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Concordo. E a privacidade? As empresas coletam muitos dados sobre nós.",
+   "glosses": [
+    {
+     "text": "privacidade",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Isso também me preocupa. A maioria dos usuários nunca lê os termos e condições antes de aceitar.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Algumas pessoas até admitem que são viciadas no celular.",
+   "glosses": [
+    {
+     "text": "viciadas",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Eu não iria tão longe, mas percebo que olho o meu de forma automática.",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Ana",
+   "role": "npc",
+   "text": "Então você largaria as redes sociais de vez algum dia?",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Provavelmente não, mas estou tentando limitar o meu tempo, e já faz diferença.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

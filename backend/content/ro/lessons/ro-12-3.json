@@ -1,0 +1,264 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "cariera",
+   "ipa": "/kariˈera/",
+   "pos": "n.",
+   "meaning": "a career",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Mă gândesc să-mi schimb cariera. Vreau să las contabilitatea și să devin designer.",
+     "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "renunța",
+   "ipa": "/renunˈtsa/",
+   "pos": "v.",
+   "meaning": "to quit",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Vei renunța la serviciu imediat?",
+     "en": "Are you going to quit your job straight away?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "abilități",
+   "ipa": "/abiliˈtəts/",
+   "pos": "n.",
+   "meaning": "a skill",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ce abilități trebuie să înveți?",
+     "en": "What skills do you need to learn?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "un risc",
+   "ipa": "/un risk/",
+   "pos": "n.",
+   "meaning": "a risk",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Nu, ar fi un risc mare. Voi studia mai întâi seara.",
+     "en": "No, that would be a big risk. I will study in the evenings first."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "mentor",
+   "ipa": "/menˈtor/",
+   "pos": "n.",
+   "meaning": "a mentor",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Da, un fost coleg de clasă este mentor acum și îmi dă feedback sincer.",
+     "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "recalifici",
+   "ipa": "/rekaliˈfitʃ/",
+   "pos": "v.",
+   "meaning": "to retrain",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Costă mult să te recalifici?",
+     "en": "Is it expensive to retrain?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Arăți atât de entuziasmat în ultima vreme. Ce se întâmplă?",
+   "glosses": [],
+   "id": "t1",
+   "en": "You look so excited lately. What is going on?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mă gândesc să-mi schimb cariera. Vreau să las contabilitatea și să devin designer.",
+   "glosses": [
+    {
+     "text": "cariera",
+     "pos": "n.",
+     "meaning": "a career"
+    }
+   ],
+   "id": "t2",
+   "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Wow, e o schimbare mare! Ce te-a făcut să te decizi?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow, that is quite a change! What made you decide?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mi-am dat seama că nu mai sunt motivat și vreau ca munca mea să fie creativă.",
+   "glosses": [],
+   "id": "t4",
+   "en": "I realized that I no longer feel motivated, and I want my work to be creative."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Vei renunța la serviciu imediat?",
+   "glosses": [
+    {
+     "text": "renunța",
+     "pos": "v.",
+     "meaning": "to quit"
+    }
+   ],
+   "id": "t5",
+   "en": "Are you going to quit your job straight away?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nu, ar fi un risc mare. Voi studia mai întâi seara.",
+   "glosses": [
+    {
+     "text": "un risc",
+     "pos": "n.",
+     "meaning": "a risk"
+    }
+   ],
+   "id": "t6",
+   "en": "No, that would be a big risk. I will study in the evenings first."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Ce abilități trebuie să înveți?",
+   "glosses": [
+    {
+     "text": "abilități",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t7",
+   "en": "What skills do you need to learn?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mai ales programe de design și comunicare, dar am deja bune abilități de organizare.",
+   "glosses": [
+    {
+     "text": "abilități",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t8",
+   "en": "Mainly design software and communication, but I already have good organizational skills."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "E un avantaj. Cunoști pe cineva din domeniul acela?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is an advantage. Do you know anyone in that field?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da, un fost coleg de clasă este mentor acum și îmi dă feedback sincer.",
+   "glosses": [
+    {
+     "text": "mentor",
+     "pos": "n.",
+     "meaning": "a mentor"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Costă mult să te recalifici?",
+   "glosses": [
+    {
+     "text": "recalifici",
+     "pos": "v.",
+     "meaning": "to retrain"
+    }
+   ],
+   "id": "t11",
+   "en": "Is it expensive to retrain?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nu prea. Am găsit un curs online care costă mai puțin decât un abonament lunar la sală.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not too much. I found an online course that costs less than a monthly gym membership."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Și ce spune familia ta despre asta?",
+   "glosses": [],
+   "id": "t13",
+   "en": "And what does your family think about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sunt îngrijorați, dar mă susțin, atâta timp cât am un plan.",
+   "glosses": [],
+   "id": "t14",
+   "en": "They are worried, but they support me, as long as I have a plan."
+  },
+  {
+   "speaker": "Elena",
+   "role": "npc",
+   "text": "Îți admir curajul. Mulți oameni nu fac niciodată primul pas.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I admire your courage. Many people never take the first step."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mulțumesc. Chiar dacă nu va ieși, voi fi învățat ceva nou.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Thank you. Even if it fails, I will have learned something new."
+  }
+ ],
+ "practice_words": []
+}

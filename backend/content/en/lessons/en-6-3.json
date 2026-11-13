@@ -1,222 +1,176 @@
 {
-  "emoji": "🌍",
-  "max_flowers": 35,
-  "cefr": "B1",
-  "vocab": [
+ "emoji": "🛋️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "weekend",
+   "ipa": "/ˈwikˌɛnd/",
+   "pos": "n.",
+   "meaning": "the weekend",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "v1",
-      "word": "environment",
-      "ipa": "/ɪnˈvaɪrənmənt/",
-      "pos": "n.",
-      "meaning": "the air, water and land around us",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "We must protect the environment."
-        },
-        {
-          "target": "The environment is changing."
-        }
-      ]
-    },
-    {
-      "id": "v2",
-      "word": "pollution",
-      "ipa": "/pəˈluːʃn/",
-      "pos": "n.",
-      "meaning": "dirty things in the air or water",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "Air pollution is a problem."
-        },
-        {
-          "target": "The river has pollution."
-        }
-      ]
-    },
-    {
-      "id": "v3",
-      "word": "recycle",
-      "ipa": "/riːˈsaɪkl/",
-      "pos": "v.",
-      "meaning": "to use things again in a new way",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "We recycle paper."
-        },
-        {
-          "target": "Do you recycle plastic?"
-        }
-      ]
-    },
-    {
-      "id": "v4",
-      "word": "waste",
-      "ipa": "/weɪst/",
-      "pos": "n.",
-      "meaning": "things we throw away",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "We make too much waste."
-        },
-        {
-          "target": "Do not waste water."
-        }
-      ]
-    },
-    {
-      "id": "v5",
-      "word": "energy",
-      "ipa": "/ˈenərdʒi/",
-      "pos": "n.",
-      "meaning": "power for light, heat or machines",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "Solar energy is clean."
-        },
-        {
-          "target": "Save energy at home."
-        }
-      ]
-    },
-    {
-      "id": "v6",
-      "word": "protect",
-      "ipa": "/prəˈtekt/",
-      "pos": "v.",
-      "meaning": "to keep safe from harm",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "We protect animals."
-        },
-        {
-          "target": "Trees protect the soil."
-        }
-      ]
-    },
-    {
-      "id": "v7",
-      "word": "future",
-      "ipa": "/ˈfjuːtʃər/",
-      "pos": "n.",
-      "meaning": "the time after now",
-      "cefr": "B1",
-      "examples": [
-        {
-          "target": "We want a clean future."
-        },
-        {
-          "target": "In the future, cars will be electric."
-        }
-      ]
+     "target": "How was your weekend?",
+     "en": ""
     }
-  ],
-  "dialogue": [
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "visited",
+   "ipa": "/ˈvɪzɪtɪd/",
+   "pos": "v.",
+   "meaning": "to visit",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "t1",
-      "speaker": "Teacher",
-      "role": "npc",
-      "text": "What can we do to protect the environment?",
-      "glosses": [
-        {
-          "text": "environment",
-          "pos": "n.",
-          "meaning": "the air, water and land around us"
-        },
-        {
-          "text": "protect",
-          "pos": "v.",
-          "meaning": "to keep safe from harm"
-        }
-      ],
-      "en": "How can we keep nature safe?"
-    },
-    {
-      "id": "t2",
-      "speaker": "You",
-      "role": "you",
-      "text": "We can recycle paper and plastic.",
-      "glosses": [
-        {
-          "text": "recycle",
-          "pos": "v.",
-          "meaning": "to use things again in a new way"
-        }
-      ],
-      "en": "We can use paper and plastic again."
-    },
-    {
-      "id": "t3",
-      "speaker": "Teacher",
-      "role": "npc",
-      "text": "Good idea. We also make too much waste.",
-      "glosses": [
-        {
-          "text": "waste",
-          "pos": "n.",
-          "meaning": "things we throw away"
-        }
-      ],
-      "en": "Good. We also throw away too many things."
-    },
-    {
-      "id": "t4",
-      "speaker": "You",
-      "role": "you",
-      "text": "Yes. I try to save energy at home.",
-      "glosses": [
-        {
-          "text": "energy",
-          "pos": "n.",
-          "meaning": "power for light, heat or machines"
-        }
-      ],
-      "en": "Yes. I try to use less power in my house."
-    },
-    {
-      "id": "t5",
-      "speaker": "Teacher",
-      "role": "npc",
-      "text": "Air pollution is another big problem in cities.",
-      "glosses": [
-        {
-          "text": "pollution",
-          "pos": "n.",
-          "meaning": "dirty things in the air or water"
-        }
-      ],
-      "en": "Dirty air is also a big problem in cities."
-    },
-    {
-      "id": "t6",
-      "speaker": "You",
-      "role": "you",
-      "text": "If we work together, the future will be better.",
-      "glosses": [
-        {
-          "text": "future",
-          "pos": "n.",
-          "meaning": "the time after now"
-        }
-      ],
-      "en": "If we work together, the days ahead will be better."
+     "target": "It was great! On Saturday I visited my grandparents.",
+     "en": ""
     }
-  ],
-  "practice_words": [
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "cooked",
+   "ipa": "/kʊkt/",
+   "pos": "v.",
+   "meaning": "to cook",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "w1",
-      "text": "environment",
-      "tip": "Say en-VY-run-ment: the middle sounds like 'eye'"
+     "target": "We cooked a big lunch together, and then we watched a movie.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "movie",
+   "ipa": "/fɪlm/",
+   "pos": "n.",
+   "meaning": "a movie",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "We cooked a big lunch together, and then we watched a movie.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "tired",
+   "ipa": "/taɪɚd/",
+   "pos": "adj.",
+   "meaning": "tired",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "I was tired, so I rested at home all day.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "rested",
+   "ipa": "/ˈɹɛstɪd/",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "I was tired, so I rested at home all day.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "How was your weekend?",
+   "glosses": [
+    {
+     "text": "weekend",
+     "pos": "n.",
+     "meaning": "the weekend"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "It was great! On Saturday I visited my grandparents.",
+   "glosses": [
+    {
+     "text": "visited",
+     "pos": "v.",
+     "meaning": "to visit"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Nice! What did you do there?",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "We cooked a big lunch together, and then we watched a movie.",
+   "glosses": [
+    {
+     "text": "cooked",
+     "pos": "v.",
+     "meaning": "to cook"
     },
     {
-      "id": "w2",
-      "text": "energy",
-      "tip": "Say EN-er-jee: stress the first part"
+     "text": "movie",
+     "pos": "n.",
+     "meaning": "a movie"
     }
-  ]
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Sounds lovely. And on Sunday?",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I was tired, so I rested at home all day.",
+   "glosses": [
+    {
+     "text": "tired",
+     "pos": "adj.",
+     "meaning": "tired"
+    },
+    {
+     "text": "rested",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  }
+ ],
+ "practice_words": []
 }

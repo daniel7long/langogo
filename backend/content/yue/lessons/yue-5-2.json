@@ -1,0 +1,192 @@
+{
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "頭痛",
+   "ipa": "tau4 tung3",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我由尋日開始頭痛，喉嚨又痛。",
+     "en": "I have had a headache and a sore throat since yesterday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "藥",
+   "ipa": "joek6",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你對啲藥有冇敏感㗎？",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "藥方",
+   "ipa": "joek6 fong1",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "冇敏感。我使唔使藥方呀？",
+     "en": "No, I am not allergic. Do I need a prescription?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "一日兩次",
+   "ipa": "jat1 jat6 loeng5 ci3",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "呢個唔使。一日兩次，飯後食一粒。",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "食",
+   "ipa": "sik6",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "多謝。我今晚食第一粒。",
+     "en": "Thank you. I will take the first one this evening."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "敏感",
+   "ipa": "man5 gam2",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "你對啲藥有冇敏感㗎？",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "早晨。有咩唔舒服呀？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. What seems to be the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我由尋日開始頭痛，喉嚨又痛。",
+   "glosses": [
+    {
+     "text": "頭痛",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a headache and a sore throat since yesterday."
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "你對啲藥有冇敏感㗎？",
+   "glosses": [
+    {
+     "text": "藥",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "敏感",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t3",
+   "en": "Are you allergic to any medicine?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "冇敏感。我使唔使藥方呀？",
+   "glosses": [
+    {
+     "text": "藥",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "藥方",
+     "pos": "n.",
+     "meaning": "a prescription"
+    },
+    {
+     "text": "敏感",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t4",
+   "en": "No, I am not allergic. Do I need a prescription?"
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "呢個唔使。一日兩次，飯後食一粒。",
+   "glosses": [
+    {
+     "text": "一日兩次",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "食",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": "Not for this. Take one tablet twice a day, after meals."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "多謝。我今晚食第一粒。",
+   "glosses": [
+    {
+     "text": "食",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you. I will take the first one this evening."
+  }
+ ],
+ "practice_words": []
+}

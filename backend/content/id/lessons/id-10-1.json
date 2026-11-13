@@ -1,0 +1,257 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "pengaruh",
+   "ipa": "/pəŋˈgaɾuh/",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Jujur saja, ya. Kurasa media sosial punya pengaruh besar pada cara kita memandang diri sendiri.",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "privasi",
+   "ipa": "/pɾiˈvasi/",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aku setuju. Bagaimana dengan privasi? Perusahaan mengumpulkan begitu banyak data tentang kita.",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "menyebar",
+   "ipa": "/məɲəˈbaɾ/",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Itu kekhawatiran utamaku. Berita yang menyesatkan menyebar jauh lebih cepat daripada fakta.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "menyesatkan",
+   "ipa": "/məɲəsatˈkan/",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Itu kekhawatiran utamaku. Berita yang menyesatkan menyebar jauh lebih cepat daripada fakta.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "mengatur",
+   "ipa": "/məŋˈatuɾ/",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sebagian. Aku percaya pemerintah harus mengatur mereka dengan lebih ketat, selama kebebasan berpendapat tetap dilindungi.",
+     "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "kecanduan",
+   "ipa": "/kət͡ʃanˈduan/",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Beberapa orang bahkan mengaku kecanduan ponsel mereka.",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Aku membaca bahwa orang menghabiskan empat jam sehari di media sosial. Menurutmu itu mengkhawatirkan?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Jujur saja, ya. Kurasa media sosial punya pengaruh besar pada cara kita memandang diri sendiri.",
+   "glosses": [
+    {
+     "text": "pengaruh",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Dalam hal apa? Banyak orang bilang itu hanya membantu mereka tetap terhubung.",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Memang, tetapi membandingkan hidup kita dengan gambar yang sempurna di internet bisa merusak harga diri.",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Itu benar. Lalu bagaimana dengan informasi yang kita baca di sana?",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Itu kekhawatiran utamaku. Berita yang menyesatkan menyebar jauh lebih cepat daripada fakta.",
+   "glosses": [
+    {
+     "text": "menyebar",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "menyesatkan",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Menurutmu, apakah platform harus bertanggung jawab atas hal itu?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sebagian. Aku percaya pemerintah harus mengatur mereka dengan lebih ketat, selama kebebasan berpendapat tetap dilindungi.",
+   "glosses": [
+    {
+     "text": "mengatur",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Pengaturan itu rumit. Siapa yang menentukan apa yang benar?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Pertanyaan bagus. Mungkin solusinya adalah pendidikan: mengajari orang memeriksa sumber mereka.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Aku setuju. Bagaimana dengan privasi? Perusahaan mengumpulkan begitu banyak data tentang kita.",
+   "glosses": [
+    {
+     "text": "privasi",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Itu juga mengkhawatirkanku. Kebanyakan pengguna tidak pernah membaca syarat dan ketentuan sebelum menyetujuinya.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Beberapa orang bahkan mengaku kecanduan ponsel mereka.",
+   "glosses": [
+    {
+     "text": "kecanduan",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku tidak sampai sejauh itu, tetapi aku sadar aku memeriksa ponselku secara otomatis.",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Dewi",
+   "role": "npc",
+   "text": "Jadi, apakah kamu akan pernah berhenti total dari media sosial?",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mungkin tidak, tetapi aku berusaha membatasi waktuku, dan itu sudah membuat perbedaan.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

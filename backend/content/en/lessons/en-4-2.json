@@ -1,232 +1,187 @@
 {
-  "emoji": "🚌",
-  "max_flowers": 35,
-  "cefr": "A2",
-  "vocab": [
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "ticket",
+   "ipa": "/ˈtɪkɪt/",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "v1",
-      "word": "bus",
-      "ipa": "/bʌs/",
-      "pos": "n.",
-      "meaning": "a big vehicle that carries many people",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "I take the bus to work."
-        },
-        {
-          "target": "The bus is full."
-        }
-      ]
-    },
-    {
-      "id": "v2",
-      "word": "ticket",
-      "ipa": "/ˈtɪkɪt/",
-      "pos": "n.",
-      "meaning": "a paper or card that lets you travel",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "I buy a ticket."
-        },
-        {
-          "target": "Here is your ticket."
-        }
-      ]
-    },
-    {
-      "id": "v3",
-      "word": "stop",
-      "ipa": "/stɑːp/",
-      "pos": "n.",
-      "meaning": "a place where a bus stops",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "This is my stop."
-        },
-        {
-          "target": "The next stop is the museum."
-        }
-      ]
-    },
-    {
-      "id": "v4",
-      "word": "next",
-      "ipa": "/nekst/",
-      "pos": "adj.",
-      "meaning": "coming right after this one",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "Get off at the next stop."
-        },
-        {
-          "target": "The next bus is at six."
-        }
-      ]
-    },
-    {
-      "id": "v5",
-      "word": "get off",
-      "ipa": "/ɡet ɔːf/",
-      "pos": "phr. v.",
-      "meaning": "to leave a bus, train or plane",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "I get off at the park."
-        },
-        {
-          "target": "Where do you get off?"
-        }
-      ]
-    },
-    {
-      "id": "v6",
-      "word": "arrive",
-      "ipa": "/əˈraɪv/",
-      "pos": "v.",
-      "meaning": "to reach a place",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "The bus arrives at nine."
-        },
-        {
-          "target": "We arrive soon."
-        }
-      ]
-    },
-    {
-      "id": "v7",
-      "word": "every",
-      "ipa": "/ˈevri/",
-      "pos": "adj.",
-      "meaning": "each one of a group",
-      "cefr": "A2",
-      "examples": [
-        {
-          "target": "A bus comes every ten minutes."
-        },
-        {
-          "target": "I ride every day."
-        }
-      ]
+     "target": "I understand. How much is the ticket?",
+     "en": ""
     }
-  ],
-  "dialogue": [
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "platform",
+   "ipa": "/ˈplætˌfɔɹm/",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "t1",
-      "speaker": "Driver",
-      "role": "npc",
-      "text": "Excuse me, does this bus go to the museum?",
-      "glosses": [
-        {
-          "text": "bus",
-          "pos": "n.",
-          "meaning": "a big vehicle that carries many people"
-        }
-      ],
-      "en": "Please, will this bus take me to the museum?"
-    },
-    {
-      "id": "t2",
-      "speaker": "You",
-      "role": "you",
-      "text": "Yes. Buy a ticket here. It is two dollars.",
-      "glosses": [
-        {
-          "text": "ticket",
-          "pos": "n.",
-          "meaning": "a paper or card that lets you travel"
-        }
-      ],
-      "en": "Yes. Get your paper to travel here. It costs $2."
-    },
-    {
-      "id": "t3",
-      "speaker": "Driver",
-      "role": "npc",
-      "text": "Here you are. When does it arrive?",
-      "glosses": [
-        {
-          "text": "arrive",
-          "pos": "v.",
-          "meaning": "to reach a place"
-        }
-      ],
-      "en": "This is the money. At what time does it reach the place?"
-    },
-    {
-      "id": "t4",
-      "speaker": "You",
-      "role": "you",
-      "text": "It arrives in twenty minutes. Get off at the next stop after the bank.",
-      "glosses": [
-        {
-          "text": "stop",
-          "pos": "n.",
-          "meaning": "a place where a bus stops"
-        },
-        {
-          "text": "next",
-          "pos": "adj.",
-          "meaning": "coming right after this one"
-        },
-        {
-          "text": "Get off",
-          "pos": "phr. v.",
-          "meaning": "to leave a bus, train or plane"
-        }
-      ],
-      "en": "It reaches it in 20 minutes. Leave at the stop after the bank."
-    },
-    {
-      "id": "t5",
-      "speaker": "Driver",
-      "role": "npc",
-      "text": "Thank you. How often does the bus come?",
-      "glosses": [
-        {
-          "text": "bus",
-          "pos": "n.",
-          "meaning": "a big vehicle that carries many people"
-        }
-      ],
-      "en": "Thanks. How many times does the bus come?"
-    },
-    {
-      "id": "t6",
-      "speaker": "You",
-      "role": "you",
-      "text": "A bus comes every ten minutes.",
-      "glosses": [
-        {
-          "text": "bus",
-          "pos": "n.",
-          "meaning": "a big vehicle that carries many people"
-        },
-        {
-          "text": "every",
-          "pos": "adj.",
-          "meaning": "each one of a group"
-        }
-      ],
-      "en": "Each ten minutes there is a bus."
+     "target": "Of course. The next train leaves at nine o'clock from platform four.",
+     "en": ""
     }
-  ],
-  "practice_words": [
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "leaves",
+   "ipa": "/livz/",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
     {
-      "id": "w1",
-      "text": "ticket",
-      "tip": "Say TIK-it with a short 'i' twice"
+     "target": "Of course. The next train leaves at nine o'clock from platform four.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "a return ticket",
+   "ipa": "/ə ɹɪˈtɝn ˈtɪkɪt/",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "I would like a return ticket to the capital, please.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "on time",
+   "ipa": "/ɑn taɪm/",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Is it on time today?",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "change trains",
+   "ipa": "/tʃeɪndʒ tɹeɪnz/",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Yes, it is on time. But you must change trains in the next city.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Good morning. How can I help you?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I would like a return ticket to the capital, please.",
+   "glosses": [
+    {
+     "text": "ticket",
+     "pos": "n.",
+     "meaning": "a ticket"
     },
     {
-      "id": "w2",
-      "text": "arrive",
-      "tip": "Say uh-RIVE: stress the second part"
+     "text": "a return ticket",
+     "pos": "phr.",
+     "meaning": "a return ticket"
     }
-  ]
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Of course. The next train leaves at nine o'clock from platform four.",
+   "glosses": [
+    {
+     "text": "platform",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "leaves",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Is it on time today?",
+   "glosses": [
+    {
+     "text": "on time",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Yes, it is on time. But you must change trains in the next city.",
+   "glosses": [
+    {
+     "text": "on time",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "change trains",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I understand. How much is the ticket?",
+   "glosses": [
+    {
+     "text": "ticket",
+     "pos": "n.",
+     "meaning": "a ticket"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  }
+ ],
+ "practice_words": []
 }

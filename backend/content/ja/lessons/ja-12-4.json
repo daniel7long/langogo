@@ -1,0 +1,275 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "フィードバック",
+   "ipa": "fiidobakku",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "同感だよ。来週、あなたの分も私がフィードバックしようか？",
+     "en": "Agreed. Would you like me to give you feedback on yours next week?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "提案",
+   "ipa": "teian",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "一つ提案があるよ。特に最初は、もっとゆっくり話してみて。",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "批判",
+   "ipa": "hihan",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "ほかには？正直に言ってほしい。批判は受け止められるから。",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "具体的",
+   "ipa": "gutaiteki",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "参考になるよ。どのスライドか、もっと具体的に教えてくれる？",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "進歩",
+   "ipa": "shinpo",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "全然そんなことないよ。前回のプレゼンから本当に進歩したよ。",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "やる気",
+   "ipa": "yaruki",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "それを聞くと、練習を続けるやる気が湧くよ。",
+     "en": "That really motivates me to keep practicing."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "少し時間ある？私のプレゼンについてフィードバックがほしいんだけど。",
+   "glosses": [
+    {
+     "text": "フィードバック",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "もちろん。まず、構成が明確で、例もおもしろかったよ。",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "ありがとう。それで、何を改善できるかな？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "一つ提案があるよ。特に最初は、もっとゆっくり話してみて。",
+   "glosses": [
+    {
+     "text": "提案",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "確かに緊張していたんだ。そんなに目立っていた？",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "少しね。でも直すのは簡単だよ。要点の間に短い間を置くと助けになるよ。",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "ほかには？正直に言ってほしい。批判は受け止められるから。",
+   "glosses": [
+    {
+     "text": "批判",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "最後のスライドは文字が多すぎて、聴衆が聞かずに読み始めていたよ。",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "参考になるよ。どのスライドか、もっと具体的に教えてくれる？",
+   "glosses": [
+    {
+     "text": "具体的",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "八枚目と九枚目。代わりに画像一枚と一文にしてみて。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "そうするよ。正直、うまくいかなかったんじゃないかって心配だったんだ。",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "全然そんなことないよ。前回のプレゼンから本当に進歩したよ。",
+   "glosses": [
+    {
+     "text": "進歩",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "それを聞くと、練習を続けるやる気が湧くよ。",
+   "glosses": [
+    {
+     "text": "やる気",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "よかった。建設的なフィードバックは、人のやる気を引き出すもので、落ち込ませるものじゃないから。",
+   "glosses": [
+    {
+     "text": "フィードバック",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "やる気",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "同感だよ。来週、あなたの分も私がフィードバックしようか？",
+   "glosses": [
+    {
+     "text": "フィードバック",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ありがたいな。率直に受け止めてくれてありがとう。",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

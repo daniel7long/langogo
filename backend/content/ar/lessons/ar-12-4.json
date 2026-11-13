@@ -1,0 +1,263 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "الملاحظات",
+   "ipa": "al-mulāḥaẓāt",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "هل عندك بضع دقائق؟ أريد بعض الملاحظات على عرضي التقديمي.",
+     "en": "Do you have a few minutes? I would like some feedback on my presentation."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "اقتراح",
+   "ipa": "iqtirāḥ",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "عندي اقتراح: حاول أن تتحدث ببطء أكثر، خاصة في البداية.",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "النقد",
+   "ipa": "an-naqd",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أي شيء آخر؟ كن صريحا من فضلك. أستطيع تقبل النقد.",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "محددا",
+   "ipa": "muḥaddadan",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "هذا مفيد. هل يمكنك أن تكون محددا أكثر عن أي الشرائح؟",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "تقدم",
+   "ipa": "taqaddum",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أبدا. لقد حققت تقدما حقيقيا منذ عرضك الأخير.",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "تحفز",
+   "ipa": "tuḥaffiz",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "جيد. يجب أن تحفز الملاحظات البناءة الناس، لا أن تثبط عزيمتهم.",
+     "en": "Good. Constructive feedback should motivate people, not discourage them."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "هل عندك بضع دقائق؟ أريد بعض الملاحظات على عرضي التقديمي.",
+   "glosses": [
+    {
+     "text": "الملاحظات",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بالطبع. أولا، كان الهيكل واضحا وأمثلتك مثيرة للاهتمام.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "شكرا. وماذا يمكنني أن أحسن؟",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "عندي اقتراح: حاول أن تتحدث ببطء أكثر، خاصة في البداية.",
+   "glosses": [
+    {
+     "text": "اقتراح",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "شعرت بالتوتر فعلا. هل كان ذلك ملحوظا حقا؟",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "قليلا، لكن إصلاحه سهل. وقفة قصيرة بين النقاط الرئيسية ستساعد.",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "أي شيء آخر؟ كن صريحا من فضلك. أستطيع تقبل النقد.",
+   "glosses": [
+    {
+     "text": "النقد",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "الشرائح الأخيرة كانت تحتوي على نص كثير، فبدأ الجمهور يقرأ بدلا من أن يستمع.",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "هذا مفيد. هل يمكنك أن تكون محددا أكثر عن أي الشرائح؟",
+   "glosses": [
+    {
+     "text": "محددا",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "الشريحتان الثامنة والتاسعة. استخدم صورة واحدة وجملة واحدة بدلا منهما.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "سأفعل ذلك. بصراحة، كنت خائفا أن يكون العرض سيئا.",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أبدا. لقد حققت تقدما حقيقيا منذ عرضك الأخير.",
+   "glosses": [
+    {
+     "text": "تقدم",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "هذا يحفزني فعلا على مواصلة التدريب.",
+   "glosses": [],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "جيد. يجب أن تحفز الملاحظات البناءة الناس، لا أن تثبط عزيمتهم.",
+   "glosses": [
+    {
+     "text": "الملاحظات",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "تحفز",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "أوافقك. هل تريد أن أعطيك ملاحظات على عرضك الأسبوع القادم؟",
+   "glosses": [],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "سأكون ممتنا. شكرا لانفتاحك على ذلك.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

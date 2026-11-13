@@ -1,0 +1,231 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "ছুটি",
+   "ipa": "chhuti",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "হ্যাঁ। আমি আগামী শুক্রবার একদিনের ছুটি চাই।",
+     "en": "Yes. I would like to ask for a day off next Friday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "জরুরি",
+   "ipa": "joruri",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "কিছু জরুরি ব্যাপার?",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "আমার জায়গায়",
+   "ipa": "amar jayegay",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আমার সহকর্মী আমার জায়গায় থাকতে পারবে, আর আমি সব আগে থেকে তৈরি করে রাখব।",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "আগে থেকে",
+   "ipa": "age theke",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আমার সহকর্মী আমার জায়গায় থাকতে পারবে, আর আমি সব আগে থেকে তৈরি করে রাখব।",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "উপকার",
+   "ipa": "upokar",
+   "pos": "n.",
+   "meaning": "a favor",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "এখনও না। আমি আগে তোমার সঙ্গে কথা বলতে চেয়েছিলাম, একটা উপকার হিসেবে।",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "বোঝার",
+   "ipa": "bojhar",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "অবশ্যই, আমাকে বোঝার জন্য ধন্যবাদ।",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "আরে, তোমার কি এক মিনিট সময় আছে? তোমাকে চিন্তিত দেখাচ্ছে।",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ। আমি আগামী শুক্রবার একদিনের ছুটি চাই।",
+   "glosses": [
+    {
+     "text": "ছুটি",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "কিছু জরুরি ব্যাপার?",
+   "glosses": [
+    {
+     "text": "জরুরি",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "একটু। আমার মামাতো ভাইয়ের বিয়েতে অন্য শহরে যেতে হবে।",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "বুঝেছি। সেদিন তোমার কাজ কে সামলাতে পারবে?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমার সহকর্মী আমার জায়গায় থাকতে পারবে, আর আমি সব আগে থেকে তৈরি করে রাখব।",
+   "glosses": [
+    {
+     "text": "আমার জায়গায়",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "আগে থেকে",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "এতে সুবিধা হবে। তুমি কি ওকে জিজ্ঞেস করেছ?",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "এখনও না। আমি আগে তোমার সঙ্গে কথা বলতে চেয়েছিলাম, একটা উপকার হিসেবে।",
+   "glosses": [
+    {
+     "text": "উপকার",
+     "pos": "n.",
+     "meaning": "a favor"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "ঠিক আছে। তুমি ছুটি নিতে পারো, কিন্তু যাওয়ার আগে প্রতিবেদনটা শেষ করে দিয়ো।",
+   "glosses": [
+    {
+     "text": "ছুটি",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "অবশ্যই, আমাকে বোঝার জন্য ধন্যবাদ।",
+   "glosses": [
+    {
+     "text": "বোঝার",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Sourav",
+   "role": "npc",
+   "text": "কোনো ব্যাপার না। বিয়েতে ভালো সময় কাটিয়ো!",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "অনেক ধন্যবাদ। আমি তোমার জন্য কেকের একটা টুকরো আনব।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

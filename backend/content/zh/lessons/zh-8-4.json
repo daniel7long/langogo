@@ -1,0 +1,259 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "航班",
+   "ipa": "hángbān",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我们可以安排酒店和明天早上的航班。",
+     "en": "We can offer you a hotel and a flight tomorrow morning."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "取消",
+   "ipa": "qǔxiāo",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "各位乘坐三零四号航班的旅客，很遗憾通知您，您的航班已被取消。",
+     "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "转机",
+   "ipa": "zhuǎnjī",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "对不起，发生了什么？我稍后还有重要的转机。",
+     "en": "Excuse me, what happened? I have an important connection later today."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "延迟",
+   "ipa": "yánchí",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "飞机出现了技术故障。对于延迟我们深表歉意。",
+     "en": "There was a technical problem with the plane. We apologize for the delay."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "改签",
+   "ipa": "gǎiqiān",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "你们能帮我改签到今天的另一个航班吗？",
+     "en": "Can you rebook me on another flight today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "赔偿",
+   "ipa": "péicháng",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "有，您有权获得赔偿，我会给您表格。",
+     "en": "Yes, you have the right to compensation, and I will give you the form."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "各位乘坐三零四号航班的旅客，很遗憾通知您，您的航班已被取消。",
+   "glosses": [
+    {
+     "text": "航班",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "取消",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": "Passengers for flight 304, I am sorry to say your flight has been cancelled."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "对不起，发生了什么？我稍后还有重要的转机。",
+   "glosses": [
+    {
+     "text": "转机",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": "Excuse me, what happened? I have an important connection later today."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "飞机出现了技术故障。对于延迟我们深表歉意。",
+   "glosses": [
+    {
+     "text": "延迟",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": "There was a technical problem with the plane. We apologize for the delay."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "你们能帮我改签到今天的另一个航班吗？",
+   "glosses": [
+    {
+     "text": "航班",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "改签",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": "Can you rebook me on another flight today?"
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "晚上八点有一个航班。我看看还有没有座位。",
+   "glosses": [
+    {
+     "text": "航班",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t5",
+   "en": "There is a flight at eight tonight. Let me check if there are seats."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "麻烦你。如果没有，我有什么选择？",
+   "glosses": [],
+   "id": "t6",
+   "en": "Please do. If not, what are my options?"
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "我们可以安排酒店和明天早上的航班。",
+   "glosses": [
+    {
+     "text": "航班",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t7",
+   "en": "We can offer you a hotel and a flight tomorrow morning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我更想今晚走。对于造成的不便，有赔偿吗？",
+   "glosses": [
+    {
+     "text": "赔偿",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": "I would prefer to travel tonight. Is there compensation for the inconvenience?"
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "有，您有权获得赔偿，我会给您表格。",
+   "glosses": [
+    {
+     "text": "赔偿",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t9",
+   "en": "Yes, you have the right to compensation, and I will give you the form."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "谢谢。我可以领餐券吗？",
+   "glosses": [],
+   "id": "t10",
+   "en": "Thank you. Do I also receive a meal voucher?"
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "可以，这是一张餐厅用的餐券。您改签的是八点的航班。",
+   "glosses": [
+    {
+     "text": "航班",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "改签",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t11",
+   "en": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "太好了，这解决了我的问题。非常感谢您的帮助。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Great, that solves my problem. I really appreciate your help."
+  }
+ ],
+ "practice_words": []
+}

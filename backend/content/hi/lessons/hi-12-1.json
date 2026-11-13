@@ -1,0 +1,258 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "स्थानांतरित",
+   "ipa": "sthaanaantarit",
+   "pos": "v.",
+   "meaning": "to relocate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "मैंने सुना कि तुम किसी दूसरे देश में स्थानांतरित होने की सोच रहे हो। क्या यह सच है?",
+     "en": "I heard you are thinking about relocating to another country. Is that true?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "वीज़ा",
+   "ipa": "veeza",
+   "pos": "n.",
+   "meaning": "a visa",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "बहुत। मुझे वीज़ा चाहिए होगा, और दूर से फ़्लैट ढूँढ़ना होगा।",
+     "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "कल्चर शॉक",
+   "ipa": "kalchar shok",
+   "pos": "phr.",
+   "meaning": "culture shock",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "कई प्रवासी कहते हैं कि पहले महीने कल्चर शॉक की वजह से सबसे कठिन होते हैं।",
+     "en": "Many expats say the first months are the hardest because of culture shock."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ढलने",
+   "ipa": "dhalne",
+   "pos": "v.",
+   "meaning": "to adapt",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "हाँ, मैंने शुरू कर दी है, और इससे वहाँ ढलने में मुझे आसानी होगी।",
+     "en": "Yes, I have already started, and it will help me adapt faster."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "घर की याद",
+   "ipa": "ghar ki yaad",
+   "pos": "adj.",
+   "meaning": "homesick",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "परिवार और दोस्तों को छोड़ने की। मुझे लगता है शुरू में घर की याद आएगी।",
+     "en": "Leaving my family and friends. I think I will feel homesick at first."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "अवसर",
+   "ipa": "avsar",
+   "pos": "n.",
+   "meaning": "an opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "हाँ, मुझे विदेश में नौकरी का प्रस्ताव मिला है, और यह एक बड़ा अवसर है।",
+     "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "मैंने सुना कि तुम किसी दूसरे देश में स्थानांतरित होने की सोच रहे हो। क्या यह सच है?",
+   "glosses": [
+    {
+     "text": "स्थानांतरित",
+     "pos": "v.",
+     "meaning": "to relocate"
+    }
+   ],
+   "id": "t1",
+   "en": "I heard you are thinking about relocating to another country. Is that true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "हाँ, मुझे विदेश में नौकरी का प्रस्ताव मिला है, और यह एक बड़ा अवसर है।",
+   "glosses": [
+    {
+     "text": "अवसर",
+     "pos": "n.",
+     "meaning": "an opportunity"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "बधाई हो! लेकिन यह बड़ा फ़ैसला है। क्या तुम घबराए हुए हो?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Congratulations! But that is a big decision. Are you nervous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बहुत। मुझे वीज़ा चाहिए होगा, और दूर से फ़्लैट ढूँढ़ना होगा।",
+   "glosses": [
+    {
+     "text": "वीज़ा",
+     "pos": "n.",
+     "meaning": "a visa"
+    }
+   ],
+   "id": "t4",
+   "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "तुम्हें सबसे ज़्यादा किस बात की चिंता है?",
+   "glosses": [],
+   "id": "t5",
+   "en": "What worries you the most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "परिवार और दोस्तों को छोड़ने की। मुझे लगता है शुरू में घर की याद आएगी।",
+   "glosses": [
+    {
+     "text": "घर की याद",
+     "pos": "adj.",
+     "meaning": "homesick"
+    }
+   ],
+   "id": "t6",
+   "en": "Leaving my family and friends. I think I will feel homesick at first."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "कई प्रवासी कहते हैं कि पहले महीने कल्चर शॉक की वजह से सबसे कठिन होते हैं।",
+   "glosses": [
+    {
+     "text": "कल्चर शॉक",
+     "pos": "phr.",
+     "meaning": "culture shock"
+    }
+   ],
+   "id": "t7",
+   "en": "Many expats say the first months are the hardest because of culture shock."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैंने भी सुना है, इसलिए जाने से पहले मैं वहाँ के रीति-रिवाज़ सीखने की कोशिश कर रहा हूँ।",
+   "glosses": [],
+   "id": "t8",
+   "en": "I have heard that, so I am trying to learn about local customs before I go."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "यह समझदारी है। क्या तुम भाषा भी सीखोगे?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is wise. Will you learn the language as well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "हाँ, मैंने शुरू कर दी है, और इससे वहाँ ढलने में मुझे आसानी होगी।",
+   "glosses": [
+    {
+     "text": "ढलने",
+     "pos": "v.",
+     "meaning": "to adapt"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, I have already started, and it will help me adapt faster."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "अगर तुम्हें वहाँ अच्छा न लगे तो?",
+   "glosses": [],
+   "id": "t11",
+   "en": "What if you do not like it there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "तब मैं एक साल बाद लौट सकता हूँ। मैं इसे अंतिम फ़ैसला नहीं मानता।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I can come back after a year. I do not see it as a final decision."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "यह स्वस्थ सोच है। अनुबंध तोड़े जा सकते हैं, लेकिन अनुभव रह जाता है।",
+   "glosses": [],
+   "id": "t13",
+   "en": "That is a healthy attitude. Contracts can be broken, but experience stays."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बिल्कुल। मुश्किल हो तब भी, मैं अपने बारे में बहुत कुछ सीखूँगा।",
+   "glosses": [],
+   "id": "t14",
+   "en": "Exactly. Even if it is difficult, I will learn a lot about myself."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "कृपया संपर्क में रहना और हमें सब कुछ बताना।",
+   "glosses": [],
+   "id": "t15",
+   "en": "Please keep in touch and tell us everything."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "वादा करता हूँ। जब मैं बस जाऊँगा तो तुम सब मुझसे मिलने आ सकते हो।",
+   "glosses": [],
+   "id": "t16",
+   "en": "I promise. You can all visit me once I am settled in."
+  }
+ ],
+ "practice_words": []
+}

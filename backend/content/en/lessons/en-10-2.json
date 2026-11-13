@@ -1,0 +1,264 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "remote work",
+   "ipa": "/ɹɪˈmoʊt wɝk/",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "My company is considering making remote work permanent. What is your opinion?",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "productivity",
+   "ipa": "/ˌpɹoʊdʌkˈtɪvɪɾi/",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "But does productivity not suffer when people are at home?",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "flexibility",
+   "ipa": "/ˌflɛksəˈbɪlɪɾi/",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I am in favor, mainly because of the flexibility it gives employees.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "isolation",
+   "ipa": "/ˌaɪsəˈleɪʃən/",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "And what about isolation? I miss chatting with colleagues at the coffee machine.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "commute",
+   "ipa": "/kəˈmjut/",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "The commute is the worst part, I must admit. I lose two hours a day.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "balance",
+   "ipa": "/ˈbæləns/",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "So the question is how to balance work and private life.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "My company is considering making remote work permanent. What is your opinion?",
+   "glosses": [
+    {
+     "text": "remote work",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I am in favor, mainly because of the flexibility it gives employees.",
+   "glosses": [
+    {
+     "text": "flexibility",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "But does productivity not suffer when people are at home?",
+   "glosses": [
+    {
+     "text": "productivity",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Studies suggest the opposite for many jobs, though it depends on the person.",
+   "glosses": [],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "I find it hard to concentrate at home, with all the distractions.",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That is a fair point. A proper workspace makes a big difference.",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "And what about isolation? I miss chatting with colleagues at the coffee machine.",
+   "glosses": [
+    {
+     "text": "isolation",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Me too, to be honest. That is why I think a hybrid model works best.",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Two or three days in the office, perhaps?",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exactly. You keep the human contact and still avoid the daily commute.",
+   "glosses": [
+    {
+     "text": "commute",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "The commute is the worst part, I must admit. I lose two hours a day.",
+   "glosses": [
+    {
+     "text": "commute",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Imagine what you could do with that time: sport, family, sleep.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "It is also better for the environment, of course.",
+   "glosses": [],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "True, although heating a home all day uses energy, too.",
+   "glosses": [],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "So the question is how to balance work and private life.",
+   "glosses": [
+    {
+     "text": "balance",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Right. Clear working hours are essential, otherwise you never really switch off.",
+   "glosses": [],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

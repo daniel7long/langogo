@@ -1,0 +1,181 @@
+{
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "dor de cabeça",
+   "ipa": "/doʁ dʒi kaˈbe.sa/",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Estou com dor de cabeça e dor de garganta desde ontem.",
+     "en": "I have had a headache and a sore throat since yesterday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "remédio",
+   "ipa": "/ʁeˈmɛ.dʒju/",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "O senhor é alérgico a algum remédio?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "receita",
+   "ipa": "/ʁeˈsej.ta/",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Não, não sou alérgico. Eu preciso de receita?",
+     "en": "No, I am not allergic. Do I need a prescription?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "duas vezes por dia",
+   "ipa": "/ˈdu.as ˈve.zis puʁ ˈdʒi.a/",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Para isso, não. Tome um comprimido duas vezes por dia, depois das refeições.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Tome",
+   "ipa": "/ˈto.mi/",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Para isso, não. Tome um comprimido duas vezes por dia, depois das refeições.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "alérgico",
+   "ipa": "/aˈlɛʁ.ʒi.ku/",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "O senhor é alérgico a algum remédio?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Bom dia. Qual é o problema?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. What seems to be the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Estou com dor de cabeça e dor de garganta desde ontem.",
+   "glosses": [
+    {
+     "text": "dor de cabeça",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a headache and a sore throat since yesterday."
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "O senhor é alérgico a algum remédio?",
+   "glosses": [
+    {
+     "text": "remédio",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "alérgico",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t3",
+   "en": "Are you allergic to any medicine?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Não, não sou alérgico. Eu preciso de receita?",
+   "glosses": [
+    {
+     "text": "receita",
+     "pos": "n.",
+     "meaning": "a prescription"
+    },
+    {
+     "text": "alérgico",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t4",
+   "en": "No, I am not allergic. Do I need a prescription?"
+  },
+  {
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Para isso, não. Tome um comprimido duas vezes por dia, depois das refeições.",
+   "glosses": [
+    {
+     "text": "duas vezes por dia",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "Tome",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": "Not for this. Take one tablet twice a day, after meals."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Obrigado. Vou tomar o primeiro hoje à noite.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. I will take the first one this evening."
+  }
+ ],
+ "practice_words": []
+}

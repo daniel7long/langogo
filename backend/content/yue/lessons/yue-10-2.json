@@ -1,0 +1,264 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "遙距工作",
+   "ipa": "jiu4 geoi6 gung1 zok3",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我哋公司考慮將遙距工作變成長期制度。你點睇？",
+     "en": "My company is considering making remote work permanent. What is your opinion?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "效率",
+   "ipa": "haau6 leot6",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "但係人哋喺屋企，效率唔會下降咩？",
+     "en": "But does productivity not suffer when people are at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "彈性",
+   "ipa": "daan6 sing3",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我贊成，主要因為佢俾員工嘅彈性。",
+     "en": "I am in favor, mainly because of the flexibility it gives employees."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "孤立",
+   "ipa": "gu1 laap6",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "咁孤立感呢？我好掛住喺咖啡機隔離同同事吹水。",
+     "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "通勤",
+   "ipa": "tung1 kan4",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "我必須承認，通勤係最慘嘅部分。我每日浪費兩個鐘。",
+     "en": "The commute is the worst part, I must admit. I lose two hours a day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "平衡",
+   "ipa": "ping4 hang4",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "咁問題就係點樣平衡工作同私人生活。",
+     "en": "So the question is how to balance work and private life."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "我哋公司考慮將遙距工作變成長期制度。你點睇？",
+   "glosses": [
+    {
+     "text": "遙距工作",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": "My company is considering making remote work permanent. What is your opinion?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我贊成，主要因為佢俾員工嘅彈性。",
+   "glosses": [
+    {
+     "text": "彈性",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": "I am in favor, mainly because of the flexibility it gives employees."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "但係人哋喺屋企，效率唔會下降咩？",
+   "glosses": [
+    {
+     "text": "效率",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": "But does productivity not suffer when people are at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "研究顯示好多工作情況正好相反，不過要睇個人。",
+   "glosses": [],
+   "id": "t4",
+   "en": "Studies suggest the opposite for many jobs, though it depends on the person."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "我喺屋企好難集中，有太多嘢令人分心。",
+   "glosses": [],
+   "id": "t5",
+   "en": "I find it hard to concentrate at home, with all the distractions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有道理。一個合適嘅工作空間會有好大分別。",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is a fair point. A proper workspace makes a big difference."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "咁孤立感呢？我好掛住喺咖啡機隔離同同事吹水。",
+   "glosses": [
+    {
+     "text": "孤立",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "老實講我都係。所以我覺得混合模式最好。",
+   "glosses": [],
+   "id": "t8",
+   "en": "Me too, to be honest. That is why I think a hybrid model works best."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "或者每個星期兩三日返公司？",
+   "glosses": [],
+   "id": "t9",
+   "en": "Two or three days in the office, perhaps?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "啱。咁就保留到人與人之間嘅接觸，又避免到每日通勤。",
+   "glosses": [
+    {
+     "text": "通勤",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly. You keep the human contact and still avoid the daily commute."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "我必須承認，通勤係最慘嘅部分。我每日浪費兩個鐘。",
+   "glosses": [
+    {
+     "text": "通勤",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": "The commute is the worst part, I must admit. I lose two hours a day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "諗下你可以用呢段時間做啲咩：運動、陪家人、瞓覺。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Imagine what you could do with that time: sport, family, sleep."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "當然，對環境都更好。",
+   "glosses": [],
+   "id": "t13",
+   "en": "It is also better for the environment, of course."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "係，不過喺屋企成日開暖氣都會消耗能源。",
+   "glosses": [],
+   "id": "t14",
+   "en": "True, although heating a home all day uses energy, too."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "咁問題就係點樣平衡工作同私人生活。",
+   "glosses": [
+    {
+     "text": "平衡",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": "So the question is how to balance work and private life."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "對。清楚嘅工作時間好重要，否則你永遠都唔會真正放低工作。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Right. Clear working hours are essential, otherwise you never really switch off."
+  }
+ ],
+ "practice_words": []
+}

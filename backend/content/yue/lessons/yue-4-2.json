@@ -1,0 +1,182 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "車票",
+   "ipa": "ce1 piu3",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "明白。車票幾多錢？",
+     "en": "I understand. How much is the ticket?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "月台",
+   "ipa": "jyut6 toi4",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "好呀。下一班火車九點喺四號月台開。",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "開",
+   "ipa": "hoi1",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "好呀。下一班火車九點喺四號月台開。",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "來回票",
+   "ipa": "loi4 wui4 piu3",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "我想買一張去首都嘅來回票，唔該。",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "準時",
+   "ipa": "zeon2 si4",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "今日準唔準時㗎？",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "轉車",
+   "ipa": "zyun3 ce1",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "準時。不過你要喺下一個城市轉車。",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "早晨。有咩可以幫到你？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我想買一張去首都嘅來回票，唔該。",
+   "glosses": [
+    {
+     "text": "來回票",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "好呀。下一班火車九點喺四號月台開。",
+   "glosses": [
+    {
+     "text": "月台",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "開",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "今日準唔準時㗎？",
+   "glosses": [
+    {
+     "text": "準時",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Ken",
+   "role": "npc",
+   "text": "準時。不過你要喺下一個城市轉車。",
+   "glosses": [
+    {
+     "text": "準時",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "轉車",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "明白。車票幾多錢？",
+   "glosses": [
+    {
+     "text": "車票",
+     "pos": "n.",
+     "meaning": "a ticket"
+    }
+   ],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

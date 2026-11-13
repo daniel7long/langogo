@@ -1,0 +1,263 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "die Schlagzeile",
+   "ipa": "/diː ˈʃlaːkˌtsaɪ̯lə/",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Hast du die Schlagzeile von heute Morgen über das neue Steuergesetz gesehen?",
+     "en": "Did you see this morning's headline about the new tax law?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Journalisten",
+   "ipa": "/ʒʊʁnaˈlɪstn̩/",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ich vergleiche mehrere, denn auch gute Journalisten können voreingenommen sein.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "Quellen",
+   "ipa": "/ˈkvɛlən/",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Welchen Nachrichtenquellen vertraust du?",
+     "en": "Which news sources do you trust?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "voreingenommen",
+   "ipa": "/ˈfoːɐ̯ˌʔaɪ̯nɡəˌnɔmən/",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ich vergleiche mehrere, denn auch gute Journalisten können voreingenommen sein.",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "überprüfen",
+   "ipa": "/yːbɐˈpʁyːfn̩/",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ich suche nach Belegen, genannten Experten und danach, ob sich die Fakten überprüfen lassen.",
+     "en": "I look for evidence, named experts, and whether the facts can be verified."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "eine Meinung",
+   "ipa": "/ˈaɪ̯nə ˈmaɪ̯nʊŋ/",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ja, aber ich möchte mehr lesen, bevor ich mir eine Meinung bilde.",
+     "en": "I did, but I want to read more before forming an opinion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Hast du die Schlagzeile von heute Morgen über das neue Steuergesetz gesehen?",
+   "glosses": [
+    {
+     "text": "die Schlagzeile",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t1",
+   "en": "Did you see this morning's headline about the new tax law?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ja, aber ich möchte mehr lesen, bevor ich mir eine Meinung bilde.",
+   "glosses": [
+    {
+     "text": "eine Meinung",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": "I did, but I want to read more before forming an opinion."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Klug. Ich habe nur den Titel gelesen und war schon wütend.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Smart. I only read the title and I was already angry."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Genau so funktionieren Schlagzeilen. Sie sind dafür gemacht, Aufmerksamkeit zu erregen.",
+   "glosses": [],
+   "id": "t4",
+   "en": "That is exactly how headlines work. They are designed to attract attention."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Welchen Nachrichtenquellen vertraust du?",
+   "glosses": [
+    {
+     "text": "quellen",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t5",
+   "en": "Which news sources do you trust?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ich vergleiche mehrere, denn auch gute Journalisten können voreingenommen sein.",
+   "glosses": [
+    {
+     "text": "Journalisten",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "voreingenommen",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": "I compare several, because even good journalists can be biased."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Wie entscheidest du, welche am genauesten ist?",
+   "glosses": [],
+   "id": "t7",
+   "en": "How do you decide which one is more accurate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ich suche nach Belegen, genannten Experten und danach, ob sich die Fakten überprüfen lassen.",
+   "glosses": [
+    {
+     "text": "überprüfen",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": "I look for evidence, named experts, and whether the facts can be verified."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Das ist viel Aufwand für etwas, das ich in fünf Minuten erledige.",
+   "glosses": [],
+   "id": "t9",
+   "en": "That takes a lot of effort for something I do in five minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Stimmt, aber gut informiert zu sein gehört dazu, wenn man ein verantwortungsbewusster Bürger sein will.",
+   "glosses": [],
+   "id": "t10",
+   "en": "True, but being well informed is part of being a responsible citizen."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Und was ist mit Meinungsartikeln? Sind das nicht nur persönliche Ansichten?",
+   "glosses": [],
+   "id": "t11",
+   "en": "What about opinion articles? Are they not just personal views?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Das sind sie, und das ist in Ordnung, solange sie klar als Meinungen gekennzeichnet sind.",
+   "glosses": [],
+   "id": "t12",
+   "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Viele Leute bemerken den Unterschied aber nicht.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many people do not notice the difference, though."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Deshalb ist Medienbildung in den Schulen so wichtig.",
+   "glosses": [],
+   "id": "t14",
+   "en": "That is why media education in schools matters so much."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Da stimme ich zu. Ich werde von jetzt an versuchen, mindestens zwei Quellen zu lesen.",
+   "glosses": [
+    {
+     "text": "Quellen",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": "I agree. I will try to read at least two sources from now on."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Gut. Und teile Artikel erst, nachdem du sie selbst geprüft hast.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good. And share articles only after you have checked them yourself."
+  }
+ ],
+ "practice_words": []
+}

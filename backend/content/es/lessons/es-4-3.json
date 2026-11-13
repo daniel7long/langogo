@@ -1,0 +1,192 @@
+{
+ "emoji": "🏨",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "una reserva",
+   "ipa": "/ˈu.na reˈseɾ.βa/",
+   "pos": "n.",
+   "meaning": "a reservation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Hola, bienvenido al hotel. ¿Tiene una reserva?",
+     "en": "Hello, welcome to the hotel. Do you have a reservation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "una habitación",
+   "ipa": "/ˈu.na a.βi.taˈsjon/",
+   "pos": "n.",
+   "meaning": "a room",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sí, una habitación para dos noches, a mi nombre.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "noches",
+   "ipa": "/ˈno.tʃes/",
+   "pos": "n.",
+   "meaning": "a night",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sí, una habitación para dos noches, a mi nombre.",
+     "en": "Yes, a room for two nights, under my name."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "el desayuno",
+   "ipa": "/el de.saˈʝu.no/",
+   "pos": "n.",
+   "meaning": "breakfast",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Maravilloso. ¿El desayuno está incluido?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "incluido",
+   "ipa": "/in.kluˈi.ðo/",
+   "pos": "adj.",
+   "meaning": "included",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Maravilloso. ¿El desayuno está incluido?",
+     "en": "Wonderful. Is breakfast included?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "su llave",
+   "ipa": "/su ˈʝa.βe/",
+   "pos": "n.",
+   "meaning": "the key",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sí, el desayuno está incluido, de siete a diez. Aquí tiene su llave.",
+     "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "Hola, bienvenido al hotel. ¿Tiene una reserva?",
+   "glosses": [
+    {
+     "text": "una reserva",
+     "pos": "n.",
+     "meaning": "a reservation"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, welcome to the hotel. Do you have a reservation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sí, una habitación para dos noches, a mi nombre.",
+   "glosses": [
+    {
+     "text": "una habitación",
+     "pos": "n.",
+     "meaning": "a room"
+    },
+    {
+     "text": "noches",
+     "pos": "n.",
+     "meaning": "a night"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a room for two nights, under my name."
+  },
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "Sí, aquí está. Una habitación individual con vistas al jardín.",
+   "glosses": [
+    {
+     "text": "Una habitación",
+     "pos": "n.",
+     "meaning": "a room"
+    }
+   ],
+   "id": "t3",
+   "en": "Yes, here it is. A single room with a view of the garden."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Maravilloso. ¿El desayuno está incluido?",
+   "glosses": [
+    {
+     "text": "El desayuno",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "incluido",
+     "pos": "adj.",
+     "meaning": "included"
+    }
+   ],
+   "id": "t4",
+   "en": "Wonderful. Is breakfast included?"
+  },
+  {
+   "speaker": "Marta",
+   "role": "npc",
+   "text": "Sí, el desayuno está incluido, de siete a diez. Aquí tiene su llave.",
+   "glosses": [
+    {
+     "text": "el desayuno",
+     "pos": "n.",
+     "meaning": "breakfast"
+    },
+    {
+     "text": "incluido",
+     "pos": "adj.",
+     "meaning": "included"
+    },
+    {
+     "text": "su llave",
+     "pos": "n.",
+     "meaning": "the key"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, breakfast is included, from seven to ten. Here is your key."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Gracias. ¿Cuál es el número de la habitación?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. What is the room number?"
+  }
+ ],
+ "practice_words": []
+}

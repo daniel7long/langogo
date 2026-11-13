@@ -1,0 +1,176 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "Einladung",
+   "ipa": "/ˈaɪ̯nlaːdʊŋ/",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Was für eine schöne Einladung! Ja, sehr gern.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "kommen",
+   "ipa": "/ˈkɔmən/",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Hallo! Am Samstag habe ich Geburtstag und gebe eine Party. Kannst du kommen?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "eine Party",
+   "ipa": "/ˈaɪ̯nə ˈpaːɐ̯ti/",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Hallo! Am Samstag habe ich Geburtstag und gebe eine Party. Kannst du kommen?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "mitbringen",
+   "ipa": "/ˈmɪtˌbʁɪŋən/",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Soll ich etwas zu essen oder zu trinken mitbringen?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Geburtstag",
+   "ipa": "/ɡəˈbuːɐ̯tsˌtaːk/",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Hallo! Am Samstag habe ich Geburtstag und gebe eine Party. Kannst du kommen?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "Geschenk",
+   "ipa": "/ɡəˈʃɛŋk/",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Bring einfach gute Laune mit. Und vielleicht ein kleines Geschenk für mich, hihi.",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Hallo! Am Samstag habe ich Geburtstag und gebe eine Party. Kannst du kommen?",
+   "glosses": [
+    {
+     "text": "kommen",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "eine Party",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "Geburtstag",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Was für eine schöne Einladung! Ja, sehr gern.",
+   "glosses": [
+    {
+     "text": "Einladung",
+     "pos": "n.",
+     "meaning": "an invitation"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Super! Es beginnt um sieben Uhr abends bei mir zu Hause.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Soll ich etwas zu essen oder zu trinken mitbringen?",
+   "glosses": [
+    {
+     "text": "mitbringen",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Lena",
+   "role": "npc",
+   "text": "Bring einfach gute Laune mit. Und vielleicht ein kleines Geschenk für mich, hihi.",
+   "glosses": [
+    {
+     "text": "Geschenk",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Natürlich! Dann sehen wir uns am Samstag.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

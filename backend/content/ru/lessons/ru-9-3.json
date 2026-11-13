@@ -1,0 +1,242 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "абонемент",
+   "ipa": "abonemént",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Сколько стоит абонемент на месяц?",
+     "en": "How much does the membership cost for a month?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "тренер",
+   "ipa": "trener",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Конечно. Наш тренер покажет вам, как всё работает.",
+     "en": "Of course. Our trainer will show you how everything works."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "цель",
+   "ipa": "tsel'",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Отлично. Какая у вас главная цель: похудеть или стать сильнее?",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "заниматься спортом",
+   "ipa": "zanimát'sja spórtom",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Да, я хотел бы начать регулярно заниматься спортом.",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "занятия",
+   "ipa": "zanjátija",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Тогда рекомендую три занятия в неделю с тренером в начале.",
+     "en": "Then I recommend three sessions a week with a trainer at the beginning."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "сильнее",
+   "ipa": "sil'néje",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Я хочу стать сильнее и иметь больше энергии в течение дня.",
+     "en": "I want to get stronger and have more energy during the day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Добро пожаловать в спортзал! Вас интересует абонемент?",
+   "glosses": [
+    {
+     "text": "абонемент",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, я хотел бы начать регулярно заниматься спортом.",
+   "glosses": [
+    {
+     "text": "заниматься спортом",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Отлично. Какая у вас главная цель: похудеть или стать сильнее?",
+   "glosses": [
+    {
+     "text": "цель",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "сильнее",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Я хочу стать сильнее и иметь больше энергии в течение дня.",
+   "glosses": [
+    {
+     "text": "сильнее",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Тогда рекомендую три занятия в неделю с тренером в начале.",
+   "glosses": [
+    {
+     "text": "тренер",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "занятия",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Сколько стоит абонемент на месяц?",
+   "glosses": [
+    {
+     "text": "абонемент",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Тридцать пять в месяц, а первое занятие бесплатное.",
+   "glosses": [],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Звучит разумно. Могу ли я попробовать тренажёры сегодня?",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Конечно. Наш тренер покажет вам, как всё работает.",
+   "glosses": [
+    {
+     "text": "тренер",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Нужно ли приносить своё полотенце?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Елена",
+   "role": "npc",
+   "text": "Да, принесите, пожалуйста, полотенце и бутылку воды.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Прекрасно. Я запишусь прямо сейчас.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

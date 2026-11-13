@@ -1,0 +1,182 @@
+{
+ "emoji": "🎸",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "hobby",
+   "ipa": "/ˈɔ.bi/",
+   "pos": "n.",
+   "meaning": "a hobby",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sério? Que ótimo hobby. Eu prefiro nadar.",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "tempo livre",
+   "ipa": "/ˈtẽ.pu ˈli.vɾi/",
+   "pos": "phr.",
+   "meaning": "free time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "O que você gosta de fazer no seu tempo livre?",
+     "en": "What do you like to do in your free time?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "jogo",
+   "ipa": "/ˈʒo.gu/",
+   "pos": "v.",
+   "meaning": "to play",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Eu adoro ler, e jogo tênis nos domingos com frequência.",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "com frequência",
+   "ipa": "/kõ fɾeˈkwẽ.sja/",
+   "pos": "adv.",
+   "meaning": "often",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Eu adoro ler, e jogo tênis nos domingos com frequência.",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "prefiro",
+   "ipa": "/pɾeˈfi.ɾu/",
+   "pos": "v.",
+   "meaning": "to prefer",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sério? Que ótimo hobby. Eu prefiro nadar.",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "uma piscina",
+   "ipa": "/ˈu.ma piˈsi.na/",
+   "pos": "n.",
+   "meaning": "a pool",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Você nada em uma piscina ou no mar?",
+     "en": "Do you swim in a pool or in the sea?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "O que você gosta de fazer no seu tempo livre?",
+   "glosses": [
+    {
+     "text": "tempo livre",
+     "pos": "phr.",
+     "meaning": "free time"
+    }
+   ],
+   "id": "t1",
+   "en": "What do you like to do in your free time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Eu adoro ler, e jogo tênis nos domingos com frequência.",
+   "glosses": [
+    {
+     "text": "jogo",
+     "pos": "v.",
+     "meaning": "to play"
+    },
+    {
+     "text": "com frequência",
+     "pos": "adv.",
+     "meaning": "often"
+    }
+   ],
+   "id": "t2",
+   "en": "I love reading, and I often play tennis on Sundays."
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Sério? Que ótimo hobby. Eu prefiro nadar.",
+   "glosses": [
+    {
+     "text": "hobby",
+     "pos": "n.",
+     "meaning": "a hobby"
+    },
+    {
+     "text": "prefiro",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t3",
+   "en": "Really? That is a great hobby. I prefer swimming."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Você nada em uma piscina ou no mar?",
+   "glosses": [
+    {
+     "text": "uma piscina",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t4",
+   "en": "Do you swim in a pool or in the sea?"
+  },
+  {
+   "speaker": "Rafael",
+   "role": "npc",
+   "text": "Quase sempre em uma piscina, porque fica perto da minha casa.",
+   "glosses": [
+    {
+     "text": "uma piscina",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t5",
+   "en": "Mostly in a pool, because it is close to my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "A gente poderia praticar esporte juntos um dia.",
+   "glosses": [],
+   "id": "t6",
+   "en": "We could do some sport together one day."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,231 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "症狀",
+   "ipa": "zing3 zong6",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "仲有冇其他症狀，例如胸口痛楚？",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "發燒",
+   "ipa": "faat3 siu1",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我發燒，仲咳得好犀利，已經三日。",
+     "en": "I have had a fever and a bad cough for three days."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "痛楚",
+   "ipa": "tung3 co2",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "仲有冇其他症狀，例如胸口痛楚？",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "休息",
+   "ipa": "jau1 sik1",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "唔嚴重，只係重感冒。你至少要休息五日。",
+     "en": "No, it is just a strong flu. You need to rest for at least five days."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "康復",
+   "ipa": "hong1 fuk6",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我要幾耐先可以完全康復？",
+     "en": "How long will it take to recover completely?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "覆診",
+   "ipa": "fuk1 can2",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "大約一個星期。如果嚴重咗，請返嚟覆診。",
+     "en": "About a week. Come back for another appointment if it gets worse."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Amy",
+   "role": "npc",
+   "text": "你好，請坐。今日咩事呀？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello, please sit down. What brings you here today?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我發燒，仲咳得好犀利，已經三日。",
+   "glosses": [
+    {
+     "text": "發燒",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a fever and a bad cough for three days."
+  },
+  {
+   "speaker": "Amy",
+   "role": "npc",
+   "text": "仲有冇其他症狀，例如胸口痛楚？",
+   "glosses": [
+    {
+     "text": "症狀",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "痛楚",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": "Do you have any other symptoms, like pain in your chest?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "冇痛楚，不過我覺得好虛弱，又瞓唔好。",
+   "glosses": [
+    {
+     "text": "痛楚",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t4",
+   "en": "No pain, but I feel very weak and I cannot sleep well."
+  },
+  {
+   "speaker": "Amy",
+   "role": "npc",
+   "text": "等我聽下你嘅肺。請深呼吸。",
+   "glosses": [],
+   "id": "t5",
+   "en": "Let me listen to your lungs. Please breathe deeply."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "醫生，嚴唔嚴重？",
+   "glosses": [],
+   "id": "t6",
+   "en": "Is it something serious, doctor?"
+  },
+  {
+   "speaker": "Amy",
+   "role": "npc",
+   "text": "唔嚴重，只係重感冒。你至少要休息五日。",
+   "glosses": [
+    {
+     "text": "休息",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": "No, it is just a strong flu. You need to rest for at least five days."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我要食藥嗎？",
+   "glosses": [],
+   "id": "t8",
+   "en": "Should I take any medicine?"
+  },
+  {
+   "speaker": "Amy",
+   "role": "npc",
+   "text": "我開退燒嘅藥方俾你。仲要飲多啲水。",
+   "glosses": [],
+   "id": "t9",
+   "en": "I will give you a prescription for the fever. Drink a lot of water, too."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我要幾耐先可以完全康復？",
+   "glosses": [
+    {
+     "text": "康復",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": "How long will it take to recover completely?"
+  },
+  {
+   "speaker": "Amy",
+   "role": "npc",
+   "text": "大約一個星期。如果嚴重咗，請返嚟覆診。",
+   "glosses": [
+    {
+     "text": "覆診",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": "About a week. Come back for another appointment if it gets worse."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "多謝醫生。我會跟你嘅建議。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you, doctor. I will follow your advice."
+  }
+ ],
+ "practice_words": []
+}

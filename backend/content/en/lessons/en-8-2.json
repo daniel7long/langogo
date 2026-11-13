@@ -1,0 +1,225 @@
+{
+ "emoji": "🛎️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "complaint",
+   "ipa": "/kəmˈpleɪnt/",
+   "pos": "n.",
+   "meaning": "a complaint",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Good evening. I have a complaint about my room.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "noisy",
+   "ipa": "/ˈnɔɪzi/",
+   "pos": "adj.",
+   "meaning": "noisy",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "The air conditioning is broken, and the room next door is very noisy.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "broken",
+   "ipa": "/ˈbɹoʊkən/",
+   "pos": "adj.",
+   "meaning": "broken",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "The air conditioning is broken, and the room next door is very noisy.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "fix",
+   "ipa": "/fɪks/",
+   "pos": "v.",
+   "meaning": "to fix",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "I apologize. I will send someone to fix the air conditioning right away.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "manager",
+   "ipa": "/ˈmænɪdʒɚ/",
+   "pos": "n.",
+   "meaning": "the manager",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "If not, I would like to speak to the manager.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "refund",
+   "ipa": "/ˈɹiˌfʌnd/",
+   "pos": "n.",
+   "meaning": "a refund",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Good. And could I have a refund for tonight because of the trouble?",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Good evening. How can I help you?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Good evening. I have a complaint about my room.",
+   "glosses": [
+    {
+     "text": "complaint",
+     "pos": "n.",
+     "meaning": "a complaint"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "I am sorry to hear that. What is the problem?",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "The air conditioning is broken, and the room next door is very noisy.",
+   "glosses": [
+    {
+     "text": "noisy",
+     "pos": "adj.",
+     "meaning": "noisy"
+    },
+    {
+     "text": "broken",
+     "pos": "adj.",
+     "meaning": "broken"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "I apologize. I will send someone to fix the air conditioning right away.",
+   "glosses": [
+    {
+     "text": "fix",
+     "pos": "v.",
+     "meaning": "to fix"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Thank you, but I asked for a quiet room when I booked.",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "You are right. Let me check if we have another room available.",
+   "glosses": [],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "If not, I would like to speak to the manager.",
+   "glosses": [
+    {
+     "text": "manager",
+     "pos": "n.",
+     "meaning": "the manager"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "I understand. We have a quiet room on the fourth floor.",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Good. And could I have a refund for tonight because of the trouble?",
+   "glosses": [
+    {
+     "text": "refund",
+     "pos": "n.",
+     "meaning": "a refund"
+    }
+   ],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "I can give you a twenty percent discount. Would that be acceptable?",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, that is fair. Thank you for solving the problem.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

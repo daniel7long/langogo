@@ -1,0 +1,193 @@
+{
+ "emoji": "🏖️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "छुट्टी",
+   "ipa": "chhutti",
+   "pos": "n.",
+   "meaning": "a holiday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "क्या तुम्हारी गर्मी की छुट्टी की कोई योजना है?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "समुद्र तट",
+   "ipa": "samudra tat",
+   "pos": "n.",
+   "meaning": "the beach",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "हाँ! मैं एक हफ़्ते के लिए समुद्र तट पर जाना चाहती हूँ।",
+     "en": "Yes! I want to go to the beach for one week."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "बुक",
+   "ipa": "buk",
+   "pos": "v.",
+   "meaning": "to book",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "अभी नहीं। आज रात मौसम देखकर बुक करूँगी।",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "योजना",
+   "ipa": "yojana",
+   "pos": "n.",
+   "meaning": "a plan",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "क्या तुम्हारी गर्मी की छुट्टी की कोई योजना है?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "मौसम",
+   "ipa": "mausam",
+   "pos": "n.",
+   "meaning": "the weather",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "अभी नहीं। आज रात मौसम देखकर बुक करूँगी।",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "पैक",
+   "ipa": "paik",
+   "pos": "v.",
+   "meaning": "to pack",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "अच्छा विचार है। सनस्क्रीन और टोपी पैक करना मत भूलना।",
+     "en": "Good idea. Do not forget to pack sunscreen and a hat."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "क्या तुम्हारी गर्मी की छुट्टी की कोई योजना है?",
+   "glosses": [
+    {
+     "text": "छुट्टी",
+     "pos": "n.",
+     "meaning": "a holiday"
+    },
+    {
+     "text": "योजना",
+     "pos": "n.",
+     "meaning": "a plan"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have plans for your summer vacation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "हाँ! मैं एक हफ़्ते के लिए समुद्र तट पर जाना चाहती हूँ।",
+   "glosses": [
+    {
+     "text": "समुद्र तट",
+     "pos": "n.",
+     "meaning": "the beach"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes! I want to go to the beach for one week."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "बहुत बढ़िया। क्या तुमने होटल पहले ही बुक कर लिया?",
+   "glosses": [
+    {
+     "text": "बुक",
+     "pos": "v.",
+     "meaning": "to book"
+    }
+   ],
+   "id": "t3",
+   "en": "Wonderful. Did you already book the hotel?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अभी नहीं। आज रात मौसम देखकर बुक करूँगी।",
+   "glosses": [
+    {
+     "text": "बुक",
+     "pos": "v.",
+     "meaning": "to book"
+    },
+    {
+     "text": "मौसम",
+     "pos": "n.",
+     "meaning": "the weather"
+    }
+   ],
+   "id": "t4",
+   "en": "Not yet. I will book it tonight, when I check the weather."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "अच्छा विचार है। सनस्क्रीन और टोपी पैक करना मत भूलना।",
+   "glosses": [
+    {
+     "text": "पैक",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t5",
+   "en": "Good idea. Do not forget to pack sunscreen and a hat."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "धन्यवाद! इस सप्ताहांत मैं योजना बनाऊँगी और बैग पैक करूँगी।",
+   "glosses": [
+    {
+     "text": "योजना",
+     "pos": "n.",
+     "meaning": "a plan"
+    },
+    {
+     "text": "पैक",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t6",
+   "en": "Thanks! I will make a plan and pack my bag this weekend."
+  }
+ ],
+ "practice_words": []
+}

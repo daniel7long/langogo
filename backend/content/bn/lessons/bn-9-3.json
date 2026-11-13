@@ -1,0 +1,248 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "সদস্যপদ",
+   "ipa": "shodoshyopod",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "মাসে সদস্যপদের দাম কত?",
+     "en": "How much does the membership cost for a month?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "প্রশিক্ষক",
+   "ipa": "proshikkhok",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "অবশ্যই। আমাদের প্রশিক্ষক আপনাকে দেখাবেন সব কীভাবে কাজ করে।",
+     "en": "Of course. Our trainer will show you how everything works."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "লক্ষ্য",
+   "ipa": "lokkho",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "চমৎকার। আপনার প্রধান লক্ষ্য কী: ওজন কমানো, নাকি আরও শক্তিশালী হওয়া?",
+     "en": "Great. What is your main goal: losing weight, or getting stronger?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ব্যায়াম",
+   "ipa": "byayam",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "হ্যাঁ, আমি নিয়মিত ব্যায়াম শুরু করতে চাই।",
+     "en": "Yes, I would like to start exercising regularly."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "সেশন",
+   "ipa": "seshon",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "মাসে পঁয়ত্রিশ, আর প্রথম সেশন বিনামূল্যে।",
+     "en": "It is thirty-five a month, and the first session is free."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "আরও শক্তিশালী",
+   "ipa": "aro shoktishali",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "আমি আরও শক্তিশালী হতে চাই আর দিনের বেলায় আরও শক্তি পেতে চাই।",
+     "en": "I want to get stronger and have more energy during the day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "জিমে স্বাগতম! আপনি কি সদস্যপদ নিতে আগ্রহী?",
+   "glosses": [
+    {
+     "text": "সদস্যপদ",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": "Welcome to the gym! Are you interested in a membership?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, আমি নিয়মিত ব্যায়াম শুরু করতে চাই।",
+   "glosses": [
+    {
+     "text": "ব্যায়াম",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I would like to start exercising regularly."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "চমৎকার। আপনার প্রধান লক্ষ্য কী: ওজন কমানো, নাকি আরও শক্তিশালী হওয়া?",
+   "glosses": [
+    {
+     "text": "লক্ষ্য",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "আরও শক্তিশালী",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": "Great. What is your main goal: losing weight, or getting stronger?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি আরও শক্তিশালী হতে চাই আর দিনের বেলায় আরও শক্তি পেতে চাই।",
+   "glosses": [
+    {
+     "text": "আরও শক্তিশালী",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": "I want to get stronger and have more energy during the day."
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "তাহলে আমি শুরুতে প্রশিক্ষকের সঙ্গে সপ্তাহে তিনটি সেশন সুপারিশ করি।",
+   "glosses": [
+    {
+     "text": "প্রশিক্ষক",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "সেশন",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": "Then I recommend three sessions a week with a trainer at the beginning."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "মাসে সদস্যপদের দাম কত?",
+   "glosses": [
+    {
+     "text": "সদস্যপদ",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t6",
+   "en": "How much does the membership cost for a month?"
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "মাসে পঁয়ত্রিশ, আর প্রথম সেশন বিনামূল্যে।",
+   "glosses": [
+    {
+     "text": "সেশন",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t7",
+   "en": "It is thirty-five a month, and the first session is free."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "এটা যুক্তিসংগত। আমি কি আজ যন্ত্রপাতি চেষ্টা করে দেখতে পারি?",
+   "glosses": [],
+   "id": "t8",
+   "en": "That sounds reasonable. Can I try the equipment today?"
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "অবশ্যই। আমাদের প্রশিক্ষক আপনাকে দেখাবেন সব কীভাবে কাজ করে।",
+   "glosses": [
+    {
+     "text": "প্রশিক্ষক",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": "Of course. Our trainer will show you how everything works."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমাকে কি নিজের তোয়ালে আনতে হবে?",
+   "glosses": [],
+   "id": "t10",
+   "en": "Do I need to bring my own towel?"
+  },
+  {
+   "speaker": "Tania",
+   "role": "npc",
+   "text": "হ্যাঁ, দয়া করে একটি তোয়ালে আর এক বোতল পানি আনবেন।",
+   "glosses": [],
+   "id": "t11",
+   "en": "Yes, please bring a towel and a bottle of water."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "দারুণ। আমি এখনই নাম লেখাচ্ছি।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Perfect. I will sign up right now."
+  }
+ ],
+ "practice_words": []
+}

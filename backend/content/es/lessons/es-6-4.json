@@ -1,0 +1,177 @@
+{
+ "emoji": "🏖️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "vacaciones",
+   "ipa": "/ba.kaˈsjo.nes/",
+   "pos": "n.",
+   "meaning": "a holiday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¿Tienes planes para tus vacaciones de verano?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "la playa",
+   "ipa": "/la ˈpla.ʝa/",
+   "pos": "n.",
+   "meaning": "the beach",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¡Sí! Quiero ir a la playa una semana.",
+     "en": "Yes! I want to go to the beach for one week."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "reservaste",
+   "ipa": "/re.seɾˈβas.te/",
+   "pos": "v.",
+   "meaning": "to book",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Maravilloso. ¿Ya reservaste el hotel?",
+     "en": "Wonderful. Did you already book the hotel?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "planes",
+   "ipa": "/ˈpla.nes/",
+   "pos": "n.",
+   "meaning": "a plan",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¿Tienes planes para tus vacaciones de verano?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "el tiempo",
+   "ipa": "/el ˈtjem.po/",
+   "pos": "n.",
+   "meaning": "the weather",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Todavía no. Lo reservaré esta noche, cuando mire el tiempo.",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "prepararé la maleta",
+   "ipa": "/pɾe.pa.ɾaˈɾe la maˈle.ta/",
+   "pos": "v.",
+   "meaning": "to pack",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¡Gracias! Haré un plan y prepararé la maleta este fin de semana.",
+     "en": "Thanks! I will make a plan and pack my bag this weekend."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Pablo",
+   "role": "npc",
+   "text": "¿Tienes planes para tus vacaciones de verano?",
+   "glosses": [
+    {
+     "text": "vacaciones",
+     "pos": "n.",
+     "meaning": "a holiday"
+    },
+    {
+     "text": "planes",
+     "pos": "n.",
+     "meaning": "a plan"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have plans for your summer vacation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¡Sí! Quiero ir a la playa una semana.",
+   "glosses": [
+    {
+     "text": "la playa",
+     "pos": "n.",
+     "meaning": "the beach"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes! I want to go to the beach for one week."
+  },
+  {
+   "speaker": "Pablo",
+   "role": "npc",
+   "text": "Maravilloso. ¿Ya reservaste el hotel?",
+   "glosses": [
+    {
+     "text": "reservaste",
+     "pos": "v.",
+     "meaning": "to book"
+    }
+   ],
+   "id": "t3",
+   "en": "Wonderful. Did you already book the hotel?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Todavía no. Lo reservaré esta noche, cuando mire el tiempo.",
+   "glosses": [
+    {
+     "text": "el tiempo",
+     "pos": "n.",
+     "meaning": "the weather"
+    }
+   ],
+   "id": "t4",
+   "en": "Not yet. I will book it tonight, when I check the weather."
+  },
+  {
+   "speaker": "Pablo",
+   "role": "npc",
+   "text": "Buena idea. No olvides llevar crema solar y un sombrero.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Good idea. Do not forget to pack sunscreen and a hat."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¡Gracias! Haré un plan y prepararé la maleta este fin de semana.",
+   "glosses": [
+    {
+     "text": "prepararé la maleta",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t6",
+   "en": "Thanks! I will make a plan and pack my bag this weekend."
+  }
+ ],
+ "practice_words": []
+}

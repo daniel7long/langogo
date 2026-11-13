@@ -1,0 +1,263 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "경력을 바꾸",
+   "ipa": "gyeongnyeogeul bakku",
+   "pos": "n.",
+   "meaning": "a career",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "경력을 바꾸려고 생각 중이야. 회계를 그만두고 디자이너가 되고 싶어.",
+     "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "그만두",
+   "ipa": "geumandu",
+   "pos": "v.",
+   "meaning": "to quit",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "경력을 바꾸려고 생각 중이야. 회계를 그만두고 디자이너가 되고 싶어.",
+     "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "기술",
+   "ipa": "gisul",
+   "pos": "n.",
+   "meaning": "a skill",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "어떤 기술을 배워야 해?",
+     "en": "What skills do you need to learn?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "위험",
+   "ipa": "wiheom",
+   "pos": "n.",
+   "meaning": "a risk",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "아니, 그건 큰 위험이야. 먼저 저녁에 공부할 거야.",
+     "en": "No, that would be a big risk. I will study in the evenings first."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "멘토",
+   "ipa": "mento",
+   "pos": "n.",
+   "meaning": "a mentor",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "응, 예전 반 친구가 지금 내 멘토이고 솔직한 피드백을 줘.",
+     "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "다시 배우",
+   "ipa": "dasi baeu",
+   "pos": "v.",
+   "meaning": "to retrain",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "다시 배우는 데 돈이 많이 들어?",
+     "en": "Is it expensive to retrain?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "요즘 정말 신나 보여. 무슨 일이야?",
+   "glosses": [],
+   "id": "t1",
+   "en": "You look so excited lately. What is going on?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "경력을 바꾸려고 생각 중이야. 회계를 그만두고 디자이너가 되고 싶어.",
+   "glosses": [
+    {
+     "text": "경력을 바꾸",
+     "pos": "n.",
+     "meaning": "a career"
+    },
+    {
+     "text": "그만두",
+     "pos": "v.",
+     "meaning": "to quit"
+    }
+   ],
+   "id": "t2",
+   "en": "I am thinking of changing careers. I want to leave accounting and become a designer."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "와, 큰 변화네! 뭐 때문에 결심했어?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Wow, that is quite a change! What made you decide?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "더 이상 동기부여가 안 된다는 걸 깨달았고, 일이 창의적이었으면 해.",
+   "glosses": [],
+   "id": "t4",
+   "en": "I realized that I no longer feel motivated, and I want my work to be creative."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "바로 직장을 그만둘 거야?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Are you going to quit your job straight away?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "아니, 그건 큰 위험이야. 먼저 저녁에 공부할 거야.",
+   "glosses": [
+    {
+     "text": "위험",
+     "pos": "n.",
+     "meaning": "a risk"
+    }
+   ],
+   "id": "t6",
+   "en": "No, that would be a big risk. I will study in the evenings first."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "어떤 기술을 배워야 해?",
+   "glosses": [
+    {
+     "text": "기술",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t7",
+   "en": "What skills do you need to learn?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "주로 디자인 소프트웨어와 의사소통인데, 정리하는 기술은 이미 좋아.",
+   "glosses": [
+    {
+     "text": "기술",
+     "pos": "n.",
+     "meaning": "a skill"
+    }
+   ],
+   "id": "t8",
+   "en": "Mainly design software and communication, but I already have good organizational skills."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "그건 장점이네. 그 분야에 아는 사람 있어?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is an advantage. Do you know anyone in that field?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "응, 예전 반 친구가 지금 내 멘토이고 솔직한 피드백을 줘.",
+   "glosses": [
+    {
+     "text": "멘토",
+     "pos": "n.",
+     "meaning": "a mentor"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, a former classmate is my mentor now, and she gives me honest feedback."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "다시 배우는 데 돈이 많이 들어?",
+   "glosses": [
+    {
+     "text": "다시 배우",
+     "pos": "v.",
+     "meaning": "to retrain"
+    }
+   ],
+   "id": "t11",
+   "en": "Is it expensive to retrain?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그렇진 않아. 한 달 헬스장 회원권보다 싼 온라인 강좌를 찾았어.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Not too much. I found an online course that costs less than a monthly gym membership."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "가족은 어떻게 생각해?",
+   "glosses": [],
+   "id": "t13",
+   "en": "And what does your family think about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "걱정하지만, 내게 계획이 있는 한 응원해 줘.",
+   "glosses": [],
+   "id": "t14",
+   "en": "They are worried, but they support me, as long as I have a plan."
+  },
+  {
+   "speaker": "Hana",
+   "role": "npc",
+   "text": "네 용기가 존경스러워. 많은 사람이 첫걸음을 떼지 못해.",
+   "glosses": [],
+   "id": "t15",
+   "en": "I admire your courage. Many people never take the first step."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "고마워. 실패하더라도 새로운 걸 배우게 될 거야.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Thank you. Even if it fails, I will have learned something new."
+  }
+ ],
+ "practice_words": []
+}

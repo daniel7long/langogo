@@ -1,0 +1,231 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "degree",
+   "ipa": "/dɪˈɡɹi/",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "I am doing a master's degree in design, and I really like it.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "subject",
+   "ipa": "/ˈsʌbdʒɪkt/",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "That sounds demanding. Which subject is your favorite?",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "exams",
+   "ipa": "/ɪɡˈzæmz/",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "My favorite subject is research methods, although the exams are difficult.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "graduate",
+   "ipa": "/ˈɡɹædʒuˌeɪt/",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "When do you graduate?",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "deadline",
+   "ipa": "/ˈdɛdˌlaɪn/",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Next year, if I meet every deadline and pass my courses.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "scholarship",
+   "ipa": "/ˈskɑlɚˌʃɪp/",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Full time. I have a scholarship, so I can focus on my studies.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "So, what are you studying at the moment?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I am doing a master's degree in design, and I really like it.",
+   "glosses": [
+    {
+     "text": "degree",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "That sounds demanding. Which subject is your favorite?",
+   "glosses": [
+    {
+     "text": "subject",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "My favorite subject is research methods, although the exams are difficult.",
+   "glosses": [
+    {
+     "text": "subject",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "exams",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "When do you graduate?",
+   "glosses": [
+    {
+     "text": "graduate",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Next year, if I meet every deadline and pass my courses.",
+   "glosses": [
+    {
+     "text": "deadline",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Do you work or study full time?",
+   "glosses": [],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Full time. I have a scholarship, so I can focus on my studies.",
+   "glosses": [
+    {
+     "text": "scholarship",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Do you already know what you want to do afterwards?",
+   "glosses": [],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Not exactly, but I would like to work in a technology company.",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "That is a good plan. I am sure you will find something.",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Thanks! Studying is hard, but I am learning a lot.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,197 @@
+{
+ "emoji": "🎸",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "趣味",
+   "ipa": "shumi",
+   "pos": "n.",
+   "meaning": "a hobby",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "本当？すてきな趣味だね。私は泳ぐのが好き。",
+     "en": "Really? That is a great hobby. I prefer swimming."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "自由な時間",
+   "ipa": "jiyuu na jikan",
+   "pos": "phr.",
+   "meaning": "free time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "自由な時間には何をするのが好き？",
+     "en": "What do you like to do in your free time?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "する",
+   "ipa": "suru",
+   "pos": "v.",
+   "meaning": "to play",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "自由な時間には何をするのが好き？",
+     "en": "What do you like to do in your free time?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "よく",
+   "ipa": "yoku",
+   "pos": "adv.",
+   "meaning": "often",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "読書が大好きで、日曜日はよくテニスをするよ。",
+     "en": "I love reading, and I often play tennis on Sundays."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "好き",
+   "ipa": "suki",
+   "pos": "v.",
+   "meaning": "to prefer",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "自由な時間には何をするのが好き？",
+     "en": "What do you like to do in your free time?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "プール",
+   "ipa": "puuru",
+   "pos": "n.",
+   "meaning": "a pool",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "プールで泳ぐの？それとも海？",
+     "en": "Do you swim in a pool or in the sea?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "自由な時間には何をするのが好き？",
+   "glosses": [
+    {
+     "text": "自由な時間",
+     "pos": "phr.",
+     "meaning": "free time"
+    },
+    {
+     "text": "する",
+     "pos": "v.",
+     "meaning": "to play"
+    },
+    {
+     "text": "好き",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t1",
+   "en": "What do you like to do in your free time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "読書が大好きで、日曜日はよくテニスをするよ。",
+   "glosses": [
+    {
+     "text": "する",
+     "pos": "v.",
+     "meaning": "to play"
+    },
+    {
+     "text": "よく",
+     "pos": "adv.",
+     "meaning": "often"
+    },
+    {
+     "text": "好き",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t2",
+   "en": "I love reading, and I often play tennis on Sundays."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "本当？すてきな趣味だね。私は泳ぐのが好き。",
+   "glosses": [
+    {
+     "text": "趣味",
+     "pos": "n.",
+     "meaning": "a hobby"
+    },
+    {
+     "text": "好き",
+     "pos": "v.",
+     "meaning": "to prefer"
+    }
+   ],
+   "id": "t3",
+   "en": "Really? That is a great hobby. I prefer swimming."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "プールで泳ぐの？それとも海？",
+   "glosses": [
+    {
+     "text": "プール",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t4",
+   "en": "Do you swim in a pool or in the sea?"
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "ほとんどプールだよ。家から近いから。",
+   "glosses": [
+    {
+     "text": "プール",
+     "pos": "n.",
+     "meaning": "a pool"
+    }
+   ],
+   "id": "t5",
+   "en": "Mostly in a pool, because it is close to my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "いつか一緒にスポーツをしようよ。",
+   "glosses": [],
+   "id": "t6",
+   "en": "We could do some sport together one day."
+  }
+ ],
+ "practice_words": []
+}

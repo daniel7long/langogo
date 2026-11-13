@@ -1,0 +1,237 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "लक्षण",
+   "ipa": "lakshan",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "क्या कोई और लक्षण हैं, जैसे सीने में दर्द?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "बुखार",
+   "ipa": "bukhaar",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "मुझे तीन दिन से बुखार है और बहुत खाँसी आ रही है।",
+     "en": "I have had a fever and a bad cough for three days."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "दर्द",
+   "ipa": "dard",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "क्या कोई और लक्षण हैं, जैसे सीने में दर्द?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "आराम",
+   "ipa": "aaraam",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "नहीं, यह बस तेज़ फ़्लू है। आपको कम से कम पाँच दिन आराम करना होगा।",
+     "en": "No, it is just a strong flu. You need to rest for at least five days."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "ठीक होने",
+   "ipa": "theek hone",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "पूरी तरह ठीक होने में कितना समय लगेगा?",
+     "en": "How long will it take to recover completely?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "अपॉइंटमेंट",
+   "ipa": "apoinatment",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "लगभग एक हफ़्ता। हालत बिगड़े तो दूसरे अपॉइंटमेंट के लिए आइए।",
+     "en": "About a week. Come back for another appointment if it gets worse."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "नमस्ते, कृपया बैठिए। आज आपको यहाँ क्या लाया?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello, please sit down. What brings you here today?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मुझे तीन दिन से बुखार है और बहुत खाँसी आ रही है।",
+   "glosses": [
+    {
+     "text": "बुखार",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a fever and a bad cough for three days."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "क्या कोई और लक्षण हैं, जैसे सीने में दर्द?",
+   "glosses": [
+    {
+     "text": "लक्षण",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "दर्द",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": "Do you have any other symptoms, like pain in your chest?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "दर्द नहीं है, लेकिन मुझे बहुत कमज़ोरी लग रही है और ठीक से नींद नहीं आती।",
+   "glosses": [
+    {
+     "text": "दर्द",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t4",
+   "en": "No pain, but I feel very weak and I cannot sleep well."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "मैं आपके फेफड़े सुनता हूँ। कृपया गहरी साँस लीजिए।",
+   "glosses": [],
+   "id": "t5",
+   "en": "Let me listen to your lungs. Please breathe deeply."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "डॉक्टर साहब, क्या यह गंभीर है?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Is it something serious, doctor?"
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "नहीं, यह बस तेज़ फ़्लू है। आपको कम से कम पाँच दिन आराम करना होगा।",
+   "glosses": [
+    {
+     "text": "आराम",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": "No, it is just a strong flu. You need to rest for at least five days."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "क्या मुझे कोई दवा लेनी होगी?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Should I take any medicine?"
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "मैं बुखार के लिए पर्ची दे रहा हूँ। पानी भी खूब पीजिए।",
+   "glosses": [
+    {
+     "text": "बुखार",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t9",
+   "en": "I will give you a prescription for the fever. Drink a lot of water, too."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "पूरी तरह ठीक होने में कितना समय लगेगा?",
+   "glosses": [
+    {
+     "text": "ठीक होने",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": "How long will it take to recover completely?"
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "लगभग एक हफ़्ता। हालत बिगड़े तो दूसरे अपॉइंटमेंट के लिए आइए।",
+   "glosses": [
+    {
+     "text": "अपॉइंटमेंट",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": "About a week. Come back for another appointment if it gets worse."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "धन्यवाद, डॉक्टर साहब। मैं आपकी सलाह मानूँगा।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you, doctor. I will follow your advice."
+  }
+ ],
+ "practice_words": []
+}

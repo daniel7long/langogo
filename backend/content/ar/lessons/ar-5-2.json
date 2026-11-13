@@ -1,0 +1,192 @@
+{
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "صداع",
+   "ipa": "ṣudāʿ",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "عندي صداع وألم في الحلق منذ أمس.",
+     "en": "I have had a headache and a sore throat since yesterday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "دواء",
+   "ipa": "dawāʾ",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "هل عندك حساسية من أي دواء؟",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "وصفة طبية",
+   "ipa": "waṣfa ṭibbiyya",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "لا، ليس عندي حساسية. هل أحتاج إلى وصفة طبية؟",
+     "en": "No, I am not allergic. Do I need a prescription?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "مرتين في اليوم",
+   "ipa": "marratayn fī l-yawm",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ليس لهذا الدواء. تناول قرصا واحدا مرتين في اليوم بعد الأكل.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "تناول",
+   "ipa": "tanāwal",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "شكرا. سأتناول القرص الأول هذا المساء.",
+     "en": "Thank you. I will take the first one this evening."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "حساسية",
+   "ipa": "ḥassāsiyya",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "هل عندك حساسية من أي دواء؟",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "صباح الخير. ما المشكلة؟",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. What seems to be the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "عندي صداع وألم في الحلق منذ أمس.",
+   "glosses": [
+    {
+     "text": "صداع",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a headache and a sore throat since yesterday."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "هل عندك حساسية من أي دواء؟",
+   "glosses": [
+    {
+     "text": "دواء",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "حساسية",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t3",
+   "en": "Are you allergic to any medicine?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "لا، ليس عندي حساسية. هل أحتاج إلى وصفة طبية؟",
+   "glosses": [
+    {
+     "text": "وصفة طبية",
+     "pos": "n.",
+     "meaning": "a prescription"
+    },
+    {
+     "text": "حساسية",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t4",
+   "en": "No, I am not allergic. Do I need a prescription?"
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "ليس لهذا الدواء. تناول قرصا واحدا مرتين في اليوم بعد الأكل.",
+   "glosses": [
+    {
+     "text": "دواء",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "مرتين في اليوم",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "تناول",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": "Not for this. Take one tablet twice a day, after meals."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "شكرا. سأتناول القرص الأول هذا المساء.",
+   "glosses": [
+    {
+     "text": "تناول",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you. I will take the first one this evening."
+  }
+ ],
+ "practice_words": []
+}

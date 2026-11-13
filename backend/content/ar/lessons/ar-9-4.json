@@ -1,0 +1,234 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "حمية",
+   "ipa": "ḥimya",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "الأفضل أن تبدأ بحمية متوازنة. هل تأكل كثيرا من الخضروات؟",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "الخضروات",
+   "ipa": "al-ḫuḍrawāt",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "حاول أن تأكل حصتين على الأقل من الخضروات في كل وجبة.",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "السكر",
+   "ipa": "as-sukkar",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "يجب أن تتجنب الكثير من السكر، لكن لا يلزم أن تتوقف تماما.",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "تتجنب",
+   "ipa": "tatajannab",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "يجب أن تتجنب الكثير من السكر، لكن لا يلزم أن تتوقف تماما.",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "حصتين",
+   "ipa": "ḥiṣṣatayn",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "حاول أن تأكل حصتين على الأقل من الخضروات في كل وجبة.",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "متوازنة",
+   "ipa": "mutawāzina",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "الأفضل أن تبدأ بحمية متوازنة. هل تأكل كثيرا من الخضروات؟",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "أريد أن آكل بشكل أفضل، لكنني لا أعرف من أين أبدأ.",
+   "glosses": [],
+   "id": "t1",
+   "en": "I want to eat better, but I do not know where to start."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "الأفضل أن تبدأ بحمية متوازنة. هل تأكل كثيرا من الخضروات؟",
+   "glosses": [
+    {
+     "text": "حمية",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "الخضروات",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "متوازنة",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "ليس حقا. أكل في الغالب المعكرونة والوجبات السريعة.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Not really. I mostly eat pasta and fast food."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "حاول أن تأكل حصتين على الأقل من الخضروات في كل وجبة.",
+   "glosses": [
+    {
+     "text": "الخضروات",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "حصتين",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": "Try to have at least two portions of vegetables with every meal."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "يبدو هذا صعبا. وماذا عن السكر؟ أحب الكعك والمشروبات الغازية.",
+   "glosses": [
+    {
+     "text": "السكر",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "يجب أن تتجنب الكثير من السكر، لكن لا يلزم أن تتوقف تماما.",
+   "glosses": [
+    {
+     "text": "السكر",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "تتجنب",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": "You should avoid too much sugar, but you do not have to stop completely."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "ماذا أشرب بدلا من المشروبات الغازية؟",
+   "glosses": [],
+   "id": "t7",
+   "en": "What can I drink instead of soft drinks?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "الماء أو الشاي، أو الماء مع شريحة ليمون.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Water, tea, or water with a slice of lemon."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "وماذا تأكل في الفطور؟",
+   "glosses": [],
+   "id": "t9",
+   "en": "And what do you eat for breakfast?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "عادة زبادي مع فاكهة، أو بيض مع خبز.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Usually yogurt with fruit, or eggs with bread."
+  },
+  {
+   "speaker": "Karim",
+   "role": "npc",
+   "text": "هذا بسيط. ربما أستطيع أن أطبخ أكثر في البيت.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is simple. Maybe I can cook more at home."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم! الطبخ في البيت أرخص وأصح.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes! Cooking at home is cheaper and healthier."
+  }
+ ],
+ "practice_words": []
+}

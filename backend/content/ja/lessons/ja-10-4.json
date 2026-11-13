@@ -1,0 +1,267 @@
+{
+ "emoji": "🚌",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "渋滞",
+   "ipa": "juutai",
+   "pos": "n.",
+   "meaning": "traffic",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "便利だけど、渋滞で時間を失うし、駐車場にもお金がかかるよね。",
+     "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "汚染",
+   "ipa": "osen",
+   "pos": "n.",
+   "meaning": "pollution",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "大胆な案だと思うけど、汚染と渋滞をかなり減らせるかもしれないね。",
+     "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "信頼できる",
+   "ipa": "shinrai dekiru",
+   "pos": "adj.",
+   "meaning": "reliable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "まず公共交通を改善しないと。うちのバスは、めったに信頼できるものじゃないからね。",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "運賃",
+   "ipa": "unchin",
+   "pos": "n.",
+   "meaning": "a fare",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "それに、子どもが何人もいる家庭には運賃が高いよ。",
+     "en": "And the fares are expensive for families with several children."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "便利",
+   "ipa": "benri",
+   "pos": "adj.",
+   "meaning": "convenient",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "でも車は便利だよ。いつでもどこでも行けるから。",
+     "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "公共交通",
+   "ipa": "kookyoo kootsuu",
+   "pos": "n.",
+   "meaning": "public transport",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "まず公共交通を改善しないと。うちのバスは、めったに信頼できるものじゃないからね。",
+     "en": "Public transport would have to improve first. Our buses are rarely reliable."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "市が中心部での車の通行を禁止しようとしているよ。どう思う？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Our city wants to ban cars from the center. What do you think?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "大胆な案だと思うけど、汚染と渋滞をかなり減らせるかもしれないね。",
+   "glosses": [
+    {
+     "text": "渋滞",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "汚染",
+     "pos": "n.",
+     "meaning": "pollution"
+    }
+   ],
+   "id": "t2",
+   "en": "I think it is a bold idea, but it could reduce pollution and traffic significantly."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "でも、配達の運転手みたいに車に頼っている人たちはどうなるの？",
+   "glosses": [],
+   "id": "t3",
+   "en": "But what about people who depend on their cars, like delivery drivers?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "特別な許可証を出せば、地元の店を傷つけずに済むと思うよ。",
+   "glosses": [],
+   "id": "t4",
+   "en": "They could receive special permits, so the plan would not hurt local businesses."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "まず公共交通を改善しないと。うちのバスは、めったに信頼できるものじゃないからね。",
+   "glosses": [
+    {
+     "text": "信頼できる",
+     "pos": "adj.",
+     "meaning": "reliable"
+    },
+    {
+     "text": "公共交通",
+     "pos": "n.",
+     "meaning": "public transport"
+    }
+   ],
+   "id": "t5",
+   "en": "Public transport would have to improve first. Our buses are rarely reliable."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "その通り。頻繁で時間通りの運行がなければ、計画は失敗するよ。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Exactly. Without frequent and punctual services, the plan will fail."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "それに、子どもが何人もいる家庭には運賃が高いよ。",
+   "glosses": [
+    {
+     "text": "運賃",
+     "pos": "n.",
+     "meaning": "a fare"
+    }
+   ],
+   "id": "t7",
+   "en": "And the fares are expensive for families with several children."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "もっと安い定期券があれば、車を家に置いておく人が増えるかもね。",
+   "glosses": [],
+   "id": "t8",
+   "en": "A cheaper monthly pass would encourage more people to leave their cars at home."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "でも車は便利だよ。いつでもどこでも行けるから。",
+   "glosses": [
+    {
+     "text": "便利",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t9",
+   "en": "Cars are so convenient, though. I can go anywhere whenever I want."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "便利だけど、渋滞で時間を失うし、駐車場にもお金がかかるよね。",
+   "glosses": [
+    {
+     "text": "渋滞",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "便利",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t10",
+   "en": "Convenient, yes, but you also lose time in traffic and spend a lot on parking."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "それは本当だね。毎日、駐車スペースを探すのにほぼ一時間もかかっているよ。",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is true. I spend nearly an hour a day looking for a place to park."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "自転車専用道がうまく機能している都市もあるよ。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Some cities show that cycling lanes can work very well."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "そうかもしれないけど、うちの冬は彼らのところより厳しいから。",
+   "glosses": [],
+   "id": "t13",
+   "en": "Perhaps, but our winters are harsher than theirs."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "なるほど、だから複数の解決策を組み合わせる必要があるんだろうね。",
+   "glosses": [],
+   "id": "t14",
+   "en": "Fair enough, which is why a mix of solutions is probably necessary."
+  },
+  {
+   "speaker": "Ren",
+   "role": "npc",
+   "text": "電車やバスが改善されるなら、その計画を支持してもいいかな。",
+   "glosses": [],
+   "id": "t15",
+   "en": "I might support the plan if the trains and buses improve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "それが正しい条件だね。人々に代わりの手段があれば、変化はうまくいくよ。",
+   "glosses": [],
+   "id": "t16",
+   "en": "That would be the right condition. Change works best when people have alternatives."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,181 @@
+{
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "মাথাব্যথা",
+   "ipa": "mathabyatha",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "গতকাল থেকে আমার মাথাব্যথা আর গলাব্যথা।",
+     "en": "I have had a headache and a sore throat since yesterday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ওষুধ",
+   "ipa": "oshudh",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আপনার কি কোনো ওষুধে অ্যালার্জি আছে?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "প্রেসক্রিপশন",
+   "ipa": "preskripshon",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "না, আমার অ্যালার্জি নেই। আমার কি প্রেসক্রিপশন লাগবে?",
+     "en": "No, I am not allergic. Do I need a prescription?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "দিনে দুবার",
+   "ipa": "dine duibar",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "এর জন্য নয়। দিনে দুবার, খাবারের পর একটি করে বড়ি খান।",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "খান",
+   "ipa": "khan",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "এর জন্য নয়। দিনে দুবার, খাবারের পর একটি করে বড়ি খান।",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "অ্যালার্জি",
+   "ipa": "alarji",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "আপনার কি কোনো ওষুধে অ্যালার্জি আছে?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "সুপ্রভাত। কী সমস্যা?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. What seems to be the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "গতকাল থেকে আমার মাথাব্যথা আর গলাব্যথা।",
+   "glosses": [
+    {
+     "text": "মাথাব্যথা",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a headache and a sore throat since yesterday."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "আপনার কি কোনো ওষুধে অ্যালার্জি আছে?",
+   "glosses": [
+    {
+     "text": "ওষুধ",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "অ্যালার্জি",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t3",
+   "en": "Are you allergic to any medicine?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "না, আমার অ্যালার্জি নেই। আমার কি প্রেসক্রিপশন লাগবে?",
+   "glosses": [
+    {
+     "text": "প্রেসক্রিপশন",
+     "pos": "n.",
+     "meaning": "a prescription"
+    },
+    {
+     "text": "অ্যালার্জি",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t4",
+   "en": "No, I am not allergic. Do I need a prescription?"
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "এর জন্য নয়। দিনে দুবার, খাবারের পর একটি করে বড়ি খান।",
+   "glosses": [
+    {
+     "text": "দিনে দুবার",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "খান",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": "Not for this. Take one tablet twice a day, after meals."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ধন্যবাদ। আমি প্রথম বড়িটা আজ সন্ধ্যায় খাব।",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. I will take the first one this evening."
+  }
+ ],
+ "practice_words": []
+}

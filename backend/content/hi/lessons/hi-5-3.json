@@ -1,0 +1,176 @@
+{
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "पार्सल",
+   "ipa": "parsal",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "मैं यह पार्सल कनाडा भेजना चाहता हूँ।",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "डाक-टिकट",
+   "ipa": "daak-tikat",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "लिख दिया। इसमें कितना समय लगेगा? मुझे पोस्टकार्ड के लिए तीन डाक-टिकट भी चाहिए।",
+     "en": "Done. How long will it take? Also, I need three stamps for postcards."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "भेजना",
+   "ipa": "bhejna",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "मैं यह पार्सल कनाडा भेजना चाहता हूँ।",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "पता",
+   "ipa": "pata",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "मैं वज़न देखता हूँ। यह दो किलो है। कृपया यहाँ पता लिखिए।",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "वज़न",
+   "ipa": "wazan",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "मैं वज़न देखता हूँ। यह दो किलो है। कृपया यहाँ पता लिखिए।",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "हफ़्ता",
+   "ipa": "hafta",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "लगभग एक हफ़्ता। टिकटों के साथ कुल उन्नीस यूरो हुए।",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "नमस्ते। मैं आपकी क्या मदद कर सकता हूँ?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं यह पार्सल कनाडा भेजना चाहता हूँ।",
+   "glosses": [
+    {
+     "text": "पार्सल",
+     "pos": "n.",
+     "meaning": "a parcel"
+    },
+    {
+     "text": "भेजना",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like to send this parcel to Canada, please."
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "मैं वज़न देखता हूँ। यह दो किलो है। कृपया यहाँ पता लिखिए।",
+   "glosses": [
+    {
+     "text": "पता",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "वज़न",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": "Let me check the weight. It is two kilos. Please write the address here."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "लिख दिया। इसमें कितना समय लगेगा? मुझे पोस्टकार्ड के लिए तीन डाक-टिकट भी चाहिए।",
+   "glosses": [
+    {
+     "text": "डाक-टिकट",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": "Done. How long will it take? Also, I need three stamps for postcards."
+  },
+  {
+   "speaker": "Aarav",
+   "role": "npc",
+   "text": "लगभग एक हफ़्ता। टिकटों के साथ कुल उन्नीस यूरो हुए।",
+   "glosses": [
+    {
+     "text": "हफ़्ता",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": "About a week. The total is nineteen euros, with the stamps."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ठीक है। यह मेरा कार्ड है।",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. Here is my card."
+  }
+ ],
+ "practice_words": []
+}

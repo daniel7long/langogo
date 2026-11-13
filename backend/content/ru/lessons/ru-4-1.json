@@ -1,0 +1,192 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "вокзал",
+   "ipa": "vagzál",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Да, пожалуйста. Где вокзал? Это далеко?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "налево",
+   "ipa": "naléva",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "А потом? Мне повернуть налево или направо?",
+     "en": "And then? Do I turn left or right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "прямо",
+   "ipa": "prjámo",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Нет, недалеко. Идите прямо две улицы.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "далеко",
+   "ipa": "dalekó",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Нет, недалеко. Идите прямо две улицы.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "углу",
+   "ipa": "uglú",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Поверните налево на углу. Вокзал рядом с банком.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "карта",
+   "ipa": "kárta",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Большое спасибо! У меня в телефоне есть карта, так что будет легко.",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Извините, вам помочь? Вы выглядите потерянным.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Да, пожалуйста. Где вокзал? Это далеко?",
+   "glosses": [
+    {
+     "text": "вокзал",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "далеко",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Нет, недалеко. Идите прямо две улицы.",
+   "glosses": [
+    {
+     "text": "прямо",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "далеко",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "А потом? Мне повернуть налево или направо?",
+   "glosses": [
+    {
+     "text": "налево",
+     "pos": "phr.",
+     "meaning": "turn left"
+    }
+   ],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Анна",
+   "role": "npc",
+   "text": "Поверните налево на углу. Вокзал рядом с банком.",
+   "glosses": [
+    {
+     "text": "Вокзал",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "налево",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "углу",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Большое спасибо! У меня в телефоне есть карта, так что будет легко.",
+   "glosses": [
+    {
+     "text": "карта",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

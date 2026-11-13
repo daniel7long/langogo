@@ -1,0 +1,264 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "リモートワーク",
+   "ipa": "rimooto waaku",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "うちの会社がリモートワークを恒久的にすることを検討しているんだ。どう思う？",
+     "en": "My company is considering making remote work permanent. What is your opinion?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "生産性",
+   "ipa": "seisansei",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "でも、家だと生産性が下がらない？",
+     "en": "But does productivity not suffer when people are at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "柔軟性",
+   "ipa": "juunansei",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "賛成だよ。主に社員にとっての柔軟性が大きいから。",
+     "en": "I am in favor, mainly because of the flexibility it gives employees."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "孤立",
+   "ipa": "koritsu",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "それに孤立はどう？コーヒーマシンの前での同僚との雑談が恋しいんだ。",
+     "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "通勤",
+   "ipa": "tsuukin",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "通勤は一番ひどい部分だよね。毎日二時間も無駄にしているよ。",
+     "en": "The commute is the worst part, I must admit. I lose two hours a day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "バランス",
+   "ipa": "baransu",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "だから、仕事と私生活のバランスをどう取るかが問題だね。",
+     "en": "So the question is how to balance work and private life."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "うちの会社がリモートワークを恒久的にすることを検討しているんだ。どう思う？",
+   "glosses": [
+    {
+     "text": "リモートワーク",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": "My company is considering making remote work permanent. What is your opinion?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "賛成だよ。主に社員にとっての柔軟性が大きいから。",
+   "glosses": [
+    {
+     "text": "柔軟性",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": "I am in favor, mainly because of the flexibility it gives employees."
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "でも、家だと生産性が下がらない？",
+   "glosses": [
+    {
+     "text": "生産性",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": "But does productivity not suffer when people are at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "多くの仕事では逆だという研究があるよ。ただ、人によるけどね。",
+   "glosses": [],
+   "id": "t4",
+   "en": "Studies suggest the opposite for many jobs, though it depends on the person."
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "僕は家だと気が散ることが多くて、集中しにくいんだ。",
+   "glosses": [],
+   "id": "t5",
+   "en": "I find it hard to concentrate at home, with all the distractions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "それは確かに言えるね。ちゃんとした作業スペースがあると全然違うよ。",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is a fair point. A proper workspace makes a big difference."
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "それに孤立はどう？コーヒーマシンの前での同僚との雑談が恋しいんだ。",
+   "glosses": [
+    {
+     "text": "孤立",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "正直、私もだよ。だから、ハイブリッドが一番いいと思う。",
+   "glosses": [],
+   "id": "t8",
+   "en": "Me too, to be honest. That is why I think a hybrid model works best."
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "週に二、三日出社するとか？",
+   "glosses": [],
+   "id": "t9",
+   "en": "Two or three days in the office, perhaps?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "その通り。人との触れ合いも残るし、毎日の通勤も避けられるでしょ。",
+   "glosses": [
+    {
+     "text": "通勤",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly. You keep the human contact and still avoid the daily commute."
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "通勤は一番ひどい部分だよね。毎日二時間も無駄にしているよ。",
+   "glosses": [
+    {
+     "text": "通勤",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": "The commute is the worst part, I must admit. I lose two hours a day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "その時間で何ができるか想像してみて。運動、家族、睡眠とか。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Imagine what you could do with that time: sport, family, sleep."
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "もちろん、環境にもいいしね。",
+   "glosses": [],
+   "id": "t13",
+   "en": "It is also better for the environment, of course."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "そうだね、ただ一日中家を暖めるのもエネルギーを使うけど。",
+   "glosses": [],
+   "id": "t14",
+   "en": "True, although heating a home all day uses energy, too."
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "だから、仕事と私生活のバランスをどう取るかが問題だね。",
+   "glosses": [
+    {
+     "text": "バランス",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": "So the question is how to balance work and private life."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "そう。勤務時間をはっきり決めないと、本当の意味で切り替えられないから。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Right. Clear working hours are essential, otherwise you never really switch off."
+  }
+ ],
+ "practice_words": []
+}

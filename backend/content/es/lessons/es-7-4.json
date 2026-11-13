@@ -1,0 +1,225 @@
+{
+ "emoji": "📅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "un día libre",
+   "ipa": "/un ˈdi.a ˈli.βɾe/",
+   "pos": "phr.",
+   "meaning": "a day off",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sí. Quisiera pedir un día libre el próximo viernes.",
+     "en": "Yes. I would like to ask for a day off next Friday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "urgente",
+   "ipa": "/uɾˈxen.te/",
+   "pos": "adj.",
+   "meaning": "urgent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "¿Es algo urgente?",
+     "en": "Is it something urgent?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "sustituir",
+   "ipa": "/sus.ti.tuˈiɾ/",
+   "pos": "v.",
+   "meaning": "to replace",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mi compañera puede sustituirme y lo dejaré todo preparado con antelación.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "con antelación",
+   "ipa": "/kon an.te.la.ˈsjon/",
+   "pos": "phr.",
+   "meaning": "in advance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mi compañera puede sustituirme y lo dejaré todo preparado con antelación.",
+     "en": "My colleague can replace me, and I will prepare everything in advance."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "un favor",
+   "ipa": "/un faˈβoɾ/",
+   "pos": "n.",
+   "meaning": "a favor",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Todavía no. Quería hablar primero contigo, como un favor.",
+     "en": "Not yet. I wanted to speak with you first, as a favor."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "comprensivo",
+   "ipa": "/kom.pɾen.ˈsi.βo/",
+   "pos": "v.",
+   "meaning": "to understand",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Por supuesto, gracias por ser tan comprensivo.",
+     "en": "Of course, thank you for being so understanding."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Hola, ¿tienes un minuto? Pareces preocupado.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hi, do you have a minute? You look worried."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sí. Quisiera pedir un día libre el próximo viernes.",
+   "glosses": [
+    {
+     "text": "un día libre",
+     "pos": "phr.",
+     "meaning": "a day off"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. I would like to ask for a day off next Friday."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "¿Es algo urgente?",
+   "glosses": [
+    {
+     "text": "urgente",
+     "pos": "adj.",
+     "meaning": "urgent"
+    }
+   ],
+   "id": "t3",
+   "en": "Is it something urgent?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Un poco. Tengo que ir a la boda de mi primo a otra ciudad.",
+   "glosses": [],
+   "id": "t4",
+   "en": "A little. I must go to my cousin's wedding in another city."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Ya veo. ¿Quién puede cubrir tu trabajo ese día?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I see. Who can cover your work that day?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mi compañera puede sustituirme y lo dejaré todo preparado con antelación.",
+   "glosses": [
+    {
+     "text": "sustituir",
+     "pos": "v.",
+     "meaning": "to replace"
+    },
+    {
+     "text": "con antelación",
+     "pos": "phr.",
+     "meaning": "in advance"
+    }
+   ],
+   "id": "t6",
+   "en": "My colleague can replace me, and I will prepare everything in advance."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Eso ayuda. ¿Ya se lo has pedido?",
+   "glosses": [],
+   "id": "t7",
+   "en": "That is helpful. Have you asked her already?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Todavía no. Quería hablar primero contigo, como un favor.",
+   "glosses": [
+    {
+     "text": "un favor",
+     "pos": "n.",
+     "meaning": "a favor"
+    }
+   ],
+   "id": "t8",
+   "en": "Not yet. I wanted to speak with you first, as a favor."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "Lo entiendo. Puedes tomarte el día, pero termina el informe antes de irte.",
+   "glosses": [],
+   "id": "t9",
+   "en": "I understand. You may take the day, but finish the report before you leave."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Por supuesto, gracias por ser tan comprensivo.",
+   "glosses": [
+    {
+     "text": "comprensivo",
+     "pos": "v.",
+     "meaning": "to understand"
+    }
+   ],
+   "id": "t10",
+   "en": "Of course, thank you for being so understanding."
+  },
+  {
+   "speaker": "Diego",
+   "role": "npc",
+   "text": "No hay de qué. ¡Disfruta de la boda!",
+   "glosses": [],
+   "id": "t11",
+   "en": "No problem. Enjoy the wedding!"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Muchas gracias. Te traeré un poco de pastel.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you very much. I will bring you some cake."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,237 @@
+{
+ "emoji": "🩺",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "증상",
+   "ipa": "jeungsang",
+   "pos": "n.",
+   "meaning": "a symptom",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "가슴 통증 같은 다른 증상은 있으세요?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "열",
+   "ipa": "yeol",
+   "pos": "n.",
+   "meaning": "a fever",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "삼 일째 열이 나고 기침이 심해요.",
+     "en": "I have had a fever and a bad cough for three days."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "통증",
+   "ipa": "tongjeung",
+   "pos": "n.",
+   "meaning": "pain",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "가슴 통증 같은 다른 증상은 있으세요?",
+     "en": "Do you have any other symptoms, like pain in your chest?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "쉬셔",
+   "ipa": "swisyeo",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "아니요, 독감이 심한 거예요. 적어도 오 일은 쉬셔야 해요.",
+     "en": "No, it is just a strong flu. You need to rest for at least five days."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "회복",
+   "ipa": "hoebok",
+   "pos": "v.",
+   "meaning": "to recover",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "완전히 회복하려면 얼마나 걸릴까요?",
+     "en": "How long will it take to recover completely?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "재진",
+   "ipa": "jaejin",
+   "pos": "n.",
+   "meaning": "an appointment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "약 일주일이요. 더 나빠지면 재진을 받으러 오세요.",
+     "en": "About a week. Come back for another appointment if it gets worse."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "안녕하세요, 앉으세요. 오늘은 어떻게 오셨어요?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello, please sit down. What brings you here today?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "삼 일째 열이 나고 기침이 심해요.",
+   "glosses": [
+    {
+     "text": "열",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a fever and a bad cough for three days."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "가슴 통증 같은 다른 증상은 있으세요?",
+   "glosses": [
+    {
+     "text": "증상",
+     "pos": "n.",
+     "meaning": "a symptom"
+    },
+    {
+     "text": "통증",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t3",
+   "en": "Do you have any other symptoms, like pain in your chest?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "통증은 없는데, 몹시 기운이 없고 잠을 잘 못 자요.",
+   "glosses": [
+    {
+     "text": "통증",
+     "pos": "n.",
+     "meaning": "pain"
+    }
+   ],
+   "id": "t4",
+   "en": "No pain, but I feel very weak and I cannot sleep well."
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "폐 소리를 들어 볼게요. 숨을 깊이 들이마셔 보세요.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Let me listen to your lungs. Please breathe deeply."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "선생님, 심각한 건가요?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Is it something serious, doctor?"
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "아니요, 독감이 심한 거예요. 적어도 오 일은 쉬셔야 해요.",
+   "glosses": [
+    {
+     "text": "쉬셔",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t7",
+   "en": "No, it is just a strong flu. You need to rest for at least five days."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "약을 먹어야 하나요?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Should I take any medicine?"
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "열을 내리는 처방전을 드릴게요. 물도 많이 드세요.",
+   "glosses": [
+    {
+     "text": "열",
+     "pos": "n.",
+     "meaning": "a fever"
+    }
+   ],
+   "id": "t9",
+   "en": "I will give you a prescription for the fever. Drink a lot of water, too."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "완전히 회복하려면 얼마나 걸릴까요?",
+   "glosses": [
+    {
+     "text": "회복",
+     "pos": "v.",
+     "meaning": "to recover"
+    }
+   ],
+   "id": "t10",
+   "en": "How long will it take to recover completely?"
+  },
+  {
+   "speaker": "Soyeon",
+   "role": "npc",
+   "text": "약 일주일이요. 더 나빠지면 재진을 받으러 오세요.",
+   "glosses": [
+    {
+     "text": "재진",
+     "pos": "n.",
+     "meaning": "an appointment"
+    }
+   ],
+   "id": "t11",
+   "en": "About a week. Come back for another appointment if it gets worse."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "감사합니다, 선생님. 말씀대로 하겠습니다.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thank you, doctor. I will follow your advice."
+  }
+ ],
+ "practice_words": []
+}

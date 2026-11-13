@@ -1,0 +1,258 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "trasferirti",
+   "ipa": "/trasferˈirti/",
+   "pos": "v.",
+   "meaning": "to relocate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Ho sentito che stai pensando di trasferirti in un altro paese. È vero?",
+     "en": "I heard you are thinking about relocating to another country. Is that true?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "un visto",
+   "ipa": "/un ˈvisto/",
+   "pos": "n.",
+   "meaning": "a visa",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Molto. Mi servirà un visto e devo trovare un appartamento a distanza.",
+     "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "shock culturale",
+   "ipa": "/ʃɔk kulturˈaːle/",
+   "pos": "phr.",
+   "meaning": "culture shock",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Molti espatriati dicono che i primi mesi sono i più difficili a causa dello shock culturale.",
+     "en": "Many expats say the first months are the hardest because of culture shock."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "adattarmi",
+   "ipa": "/adatˈtarmi/",
+   "pos": "v.",
+   "meaning": "to adapt",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sì, ho già cominciato e mi aiuterà ad adattarmi più in fretta.",
+     "en": "Yes, I have already started, and it will help me adapt faster."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "nostalgia",
+   "ipa": "/nostalˈdʒiːa/",
+   "pos": "adj.",
+   "meaning": "homesick",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Lasciare la mia famiglia e i miei amici. Penso che all'inizio avrò nostalgia.",
+     "en": "Leaving my family and friends. I think I will feel homesick at first."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "opportunità",
+   "ipa": "/opportuniˈta/",
+   "pos": "n.",
+   "meaning": "an opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Sì, ho ricevuto un'offerta di lavoro all'estero ed è una grande opportunità.",
+     "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Ho sentito che stai pensando di trasferirti in un altro paese. È vero?",
+   "glosses": [
+    {
+     "text": "trasferirti",
+     "pos": "v.",
+     "meaning": "to relocate"
+    }
+   ],
+   "id": "t1",
+   "en": "I heard you are thinking about relocating to another country. Is that true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sì, ho ricevuto un'offerta di lavoro all'estero ed è una grande opportunità.",
+   "glosses": [
+    {
+     "text": "opportunità",
+     "pos": "n.",
+     "meaning": "an opportunity"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Congratulazioni! Ma è una decisione importante. Sei nervoso?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Congratulations! But that is a big decision. Are you nervous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Molto. Mi servirà un visto e devo trovare un appartamento a distanza.",
+   "glosses": [
+    {
+     "text": "un visto",
+     "pos": "n.",
+     "meaning": "a visa"
+    }
+   ],
+   "id": "t4",
+   "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Che cosa ti preoccupa di più?",
+   "glosses": [],
+   "id": "t5",
+   "en": "What worries you the most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Lasciare la mia famiglia e i miei amici. Penso che all'inizio avrò nostalgia.",
+   "glosses": [
+    {
+     "text": "nostalgia",
+     "pos": "adj.",
+     "meaning": "homesick"
+    }
+   ],
+   "id": "t6",
+   "en": "Leaving my family and friends. I think I will feel homesick at first."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Molti espatriati dicono che i primi mesi sono i più difficili a causa dello shock culturale.",
+   "glosses": [
+    {
+     "text": "shock culturale",
+     "pos": "phr.",
+     "meaning": "culture shock"
+    }
+   ],
+   "id": "t7",
+   "en": "Many expats say the first months are the hardest because of culture shock."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "L'ho sentito dire, quindi cerco di informarmi sulle usanze locali prima di partire.",
+   "glosses": [],
+   "id": "t8",
+   "en": "I have heard that, so I am trying to learn about local customs before I go."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "È saggio. Imparerai anche la lingua?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is wise. Will you learn the language as well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sì, ho già cominciato e mi aiuterà ad adattarmi più in fretta.",
+   "glosses": [
+    {
+     "text": "adattarmi",
+     "pos": "v.",
+     "meaning": "to adapt"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, I have already started, and it will help me adapt faster."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "E se non ti piace stare lì?",
+   "glosses": [],
+   "id": "t11",
+   "en": "What if you do not like it there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Allora posso tornare dopo un anno. Non lo vedo come una decisione definitiva.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I can come back after a year. I do not see it as a final decision."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "È un atteggiamento sano. I contratti si possono rompere, ma l'esperienza resta.",
+   "glosses": [],
+   "id": "t13",
+   "en": "That is a healthy attitude. Contracts can be broken, but experience stays."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Esatto. Anche se sarà difficile, imparerò molto su me stesso.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Exactly. Even if it is difficult, I will learn a lot about myself."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Per favore, resta in contatto e raccontaci tutto.",
+   "glosses": [],
+   "id": "t15",
+   "en": "Please keep in touch and tell us everything."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Lo prometto. Potrete venire tutti a trovarmi quando mi sarò sistemato.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I promise. You can all visit me once I am settled in."
+  }
+ ],
+ "practice_words": []
+}

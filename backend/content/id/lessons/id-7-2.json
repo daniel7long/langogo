@@ -1,0 +1,241 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "gelar magister",
+   "ipa": "/ˈgəlaɾ maˈgistəɾ/",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Aku sedang mengambil gelar magister di bidang desain, dan aku sangat menyukainya.",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "mata kuliah",
+   "ipa": "/ˈmata kuˈliah/",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Kedengarannya berat. Mata kuliah apa yang jadi favoritmu?",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ujian",
+   "ipa": "/ˈudʒian/",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mata kuliah favoritku adalah metode penelitian, meskipun ujiannya sulit.",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "lulus",
+   "ipa": "/ˈlulus/",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Kapan kamu lulus?",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "batas waktu",
+   "ipa": "/ˈbatas ˈwaktu/",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tahun depan, kalau aku memenuhi semua batas waktu dan lulus semua mata kuliah.",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "beasiswa",
+   "ipa": "/beaˈsiswa/",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Kuliah penuh waktu. Aku punya beasiswa, jadi aku bisa fokus pada studiku.",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Jadi, apa yang sedang kamu pelajari sekarang?",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Aku sedang mengambil gelar magister di bidang desain, dan aku sangat menyukainya.",
+   "glosses": [
+    {
+     "text": "gelar magister",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Kedengarannya berat. Mata kuliah apa yang jadi favoritmu?",
+   "glosses": [
+    {
+     "text": "Mata kuliah",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mata kuliah favoritku adalah metode penelitian, meskipun ujiannya sulit.",
+   "glosses": [
+    {
+     "text": "Mata kuliah",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "ujian",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Kapan kamu lulus?",
+   "glosses": [
+    {
+     "text": "lulus",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Tahun depan, kalau aku memenuhi semua batas waktu dan lulus semua mata kuliah.",
+   "glosses": [
+    {
+     "text": "mata kuliah",
+     "pos": "n.",
+     "meaning": "a subject"
+    },
+    {
+     "text": "lulus",
+     "pos": "v.",
+     "meaning": "to graduate"
+    },
+    {
+     "text": "batas waktu",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Apakah kamu bekerja atau kuliah penuh waktu?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Kuliah penuh waktu. Aku punya beasiswa, jadi aku bisa fokus pada studiku.",
+   "glosses": [
+    {
+     "text": "beasiswa",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Apakah kamu sudah tahu apa yang ingin kamu lakukan setelahnya?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Belum persis, tetapi aku ingin bekerja di perusahaan teknologi.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Budi",
+   "role": "npc",
+   "text": "Itu rencana yang bagus. Aku yakin kamu akan menemukan sesuatu.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Terima kasih! Belajar itu berat, tetapi aku banyak belajar.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

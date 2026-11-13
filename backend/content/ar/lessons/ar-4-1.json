@@ -1,0 +1,192 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "المحطة",
+   "ipa": "al-maḥaṭṭa",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "نعم، من فضلك. أين المحطة؟ هل هي بعيدة؟",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "يسارا",
+   "ipa": "yasāran",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "وبعد ذلك؟ هل أنعطف يسارا أم يمينا؟",
+     "en": "And then? Do I turn left or right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "مباشرة",
+   "ipa": "mubāšaratan",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "لا، ليست بعيدة. امش مباشرة مسافة شارعين.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "بعيدة",
+   "ipa": "baʿīda",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "نعم، من فضلك. أين المحطة؟ هل هي بعيدة؟",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "الزاوية",
+   "ipa": "az-zāwiya",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "انعطف يسارا عند الزاوية. المحطة بجانب البنك.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "خريطة",
+   "ipa": "ḫarīṭa",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "شكرا جزيلا! عندي خريطة على هاتفي، لذلك سيكون الأمر سهلا.",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "المعذرة، هل أستطيع مساعدتك؟ يبدو أنك ضللت الطريق.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "نعم، من فضلك. أين المحطة؟ هل هي بعيدة؟",
+   "glosses": [
+    {
+     "text": "المحطة",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "بعيدة",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "لا، ليست بعيدة. امش مباشرة مسافة شارعين.",
+   "glosses": [
+    {
+     "text": "مباشرة",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "بعيدة",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "وبعد ذلك؟ هل أنعطف يسارا أم يمينا؟",
+   "glosses": [
+    {
+     "text": "يسارا",
+     "pos": "phr.",
+     "meaning": "turn left"
+    }
+   ],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "انعطف يسارا عند الزاوية. المحطة بجانب البنك.",
+   "glosses": [
+    {
+     "text": "المحطة",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "يسارا",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "الزاوية",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "شكرا جزيلا! عندي خريطة على هاتفي، لذلك سيكون الأمر سهلا.",
+   "glosses": [
+    {
+     "text": "خريطة",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

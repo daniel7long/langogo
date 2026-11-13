@@ -1,0 +1,229 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "आहार",
+   "ipa": "aahaar",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "संतुलित आहार सबसे अच्छी शुरुआत है। क्या तुम बहुत सब्ज़ियाँ खाते हो?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "सब्ज़ियाँ",
+   "ipa": "sabziyaan",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "संतुलित आहार सबसे अच्छी शुरुआत है। क्या तुम बहुत सब्ज़ियाँ खाते हो?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "चीनी",
+   "ipa": "cheeni",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "तुम्हें बहुत ज़्यादा चीनी से बचना चाहिए, लेकिन पूरी तरह छोड़ना ज़रूरी नहीं।",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "बचना",
+   "ipa": "bachna",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "तुम्हें बहुत ज़्यादा चीनी से बचना चाहिए, लेकिन पूरी तरह छोड़ना ज़रूरी नहीं।",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "हिस्से",
+   "ipa": "hisse",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "हर खाने में सब्ज़ियों के कम से कम दो हिस्से खाने की कोशिश करो।",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "संतुलित",
+   "ipa": "santulit",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "संतुलित आहार सबसे अच्छी शुरुआत है। क्या तुम बहुत सब्ज़ियाँ खाते हो?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "मैं बेहतर खाना चाहता हूँ, लेकिन पता नहीं कहाँ से शुरू करूँ।",
+   "glosses": [],
+   "id": "t1",
+   "en": "I want to eat better, but I do not know where to start."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "संतुलित आहार सबसे अच्छी शुरुआत है। क्या तुम बहुत सब्ज़ियाँ खाते हो?",
+   "glosses": [
+    {
+     "text": "आहार",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "सब्ज़ियाँ",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "संतुलित",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "ज़्यादा नहीं। मैं ज़्यादातर पास्ता और फ़ास्ट फ़ूड खाता हूँ।",
+   "glosses": [],
+   "id": "t3",
+   "en": "Not really. I mostly eat pasta and fast food."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "हर खाने में सब्ज़ियों के कम से कम दो हिस्से खाने की कोशिश करो।",
+   "glosses": [
+    {
+     "text": "हिस्से",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": "Try to have at least two portions of vegetables with every meal."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "यह कठिन लगता है। चीनी के बारे में क्या? मुझे केक और कोल्ड ड्रिंक बहुत पसंद हैं।",
+   "glosses": [
+    {
+     "text": "चीनी",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "तुम्हें बहुत ज़्यादा चीनी से बचना चाहिए, लेकिन पूरी तरह छोड़ना ज़रूरी नहीं।",
+   "glosses": [
+    {
+     "text": "चीनी",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "बचना",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": "You should avoid too much sugar, but you do not have to stop completely."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "कोल्ड ड्रिंक की जगह मैं क्या पी सकता हूँ?",
+   "glosses": [],
+   "id": "t7",
+   "en": "What can I drink instead of soft drinks?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "पानी, चाय, या नींबू के टुकड़े वाला पानी।",
+   "glosses": [],
+   "id": "t8",
+   "en": "Water, tea, or water with a slice of lemon."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "और तुम नाश्ते में क्या खाते हो?",
+   "glosses": [],
+   "id": "t9",
+   "en": "And what do you eat for breakfast?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "आमतौर पर फलों के साथ दही, या ब्रेड के साथ अंडे।",
+   "glosses": [],
+   "id": "t10",
+   "en": "Usually yogurt with fruit, or eggs with bread."
+  },
+  {
+   "speaker": "Meera",
+   "role": "npc",
+   "text": "यह आसान है। शायद मैं घर पर ज़्यादा पका सकता हूँ।",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is simple. Maybe I can cook more at home."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "हाँ! घर पर पकाना सस्ता भी है और सेहतमंद भी।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes! Cooking at home is cheaper and healthier."
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,263 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "প্রভাব",
+   "ipa": "probhab",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "সত্যি বলতে, হ্যাঁ। আমার মনে হয় আমরা নিজেদের কীভাবে দেখি, তার ওপর এর বিশাল প্রভাব আছে।",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "গোপনীয়তা",
+   "ipa": "goponiyota",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আমি একমত। গোপনীয়তার কী হবে? কোম্পানিগুলো আমাদের সম্পর্কে অনেক তথ্য জমায়।",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "ছড়ায়",
+   "ipa": "chhorai",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "সেটাই আমার প্রধান দুশ্চিন্তা। বিভ্রান্তিকর খবর তথ্যের চেয়ে অনেক দ্রুত ছড়ায়।",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "বিভ্রান্তিকর",
+   "ipa": "bibhrantikor",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "সেটাই আমার প্রধান দুশ্চিন্তা। বিভ্রান্তিকর খবর তথ্যের চেয়ে অনেক দ্রুত ছড়ায়।",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "নিয়ন্ত্রণ",
+   "ipa": "niyontron",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "নিয়ন্ত্রণ জটিল। কে ঠিক করবে কোনটা সত্য?",
+     "en": "Regulation is tricky. Who decides what is true?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "আসক্ত",
+   "ipa": "ashokto",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "কেউ কেউ এমনকি স্বীকার করে যে তারা ফোনে আসক্ত।",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "আমি পড়লাম যে মানুষ প্রতিদিন চার ঘণ্টা সোশ্যাল মিডিয়ায় কাটায়। তোমার কি এটা উদ্বেগজনক মনে হয়?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সত্যি বলতে, হ্যাঁ। আমার মনে হয় আমরা নিজেদের কীভাবে দেখি, তার ওপর এর বিশাল প্রভাব আছে।",
+   "glosses": [
+    {
+     "text": "প্রভাব",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "কোন দিক থেকে? অনেকে বলে এটা শুধু যোগাযোগ রাখতে সাহায্য করে।",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "করে, কিন্তু নিজের জীবনকে অনলাইনের নিখুঁত ছবির সঙ্গে তুলনা করলে আত্মসম্মানের ক্ষতি হতে পারে।",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "ঠিক। আর সেখানে আমরা যে তথ্য পড়ি, তার কী হবে?",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সেটাই আমার প্রধান দুশ্চিন্তা। বিভ্রান্তিকর খবর তথ্যের চেয়ে অনেক দ্রুত ছড়ায়।",
+   "glosses": [
+    {
+     "text": "ছড়ায়",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "বিভ্রান্তিকর",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "তোমার কি মনে হয় প্ল্যাটফর্মগুলোর এর দায়িত্ব নেওয়া উচিত?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আংশিকভাবে। আমি মনে করি মতপ্রকাশের স্বাধীনতা রক্ষা হলে সরকারের আরও কঠোরভাবে এগুলোর নিয়ন্ত্রণ করা উচিত।",
+   "glosses": [
+    {
+     "text": "নিয়ন্ত্রণ",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "নিয়ন্ত্রণ জটিল। কে ঠিক করবে কোনটা সত্য?",
+   "glosses": [
+    {
+     "text": "নিয়ন্ত্রণ",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ভালো কথা। হয়তো সমাধান শিক্ষা: মানুষকে উৎস যাচাই করতে শেখানো।",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "আমি একমত। গোপনীয়তার কী হবে? কোম্পানিগুলো আমাদের সম্পর্কে অনেক তথ্য জমায়।",
+   "glosses": [
+    {
+     "text": "গোপনীয়তা",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "এটা আমাকেও চিন্তিত করে। বেশিরভাগ ব্যবহারকারী মেনে নেওয়ার আগে শর্তাবলি পড়েই না।",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "কেউ কেউ এমনকি স্বীকার করে যে তারা ফোনে আসক্ত।",
+   "glosses": [
+    {
+     "text": "আসক্ত",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি অতদূর যাব না, তবে লক্ষ করি যে আমি নিজে থেকেই ফোন দেখতে থাকি।",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "তাহলে তুমি কি কখনও সোশ্যাল মিডিয়া পুরোপুরি ছেড়ে দেবে?",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সম্ভবত না, কিন্তু আমি সময় সীমিত করার চেষ্টা করছি, আর এতে ইতিমধ্যে পার্থক্য হয়েছে।",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

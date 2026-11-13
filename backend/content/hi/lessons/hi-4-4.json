@@ -1,0 +1,187 @@
+{
+ "emoji": "✈️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "पासपोर्ट",
+   "ipa": "pasport",
+   "pos": "n.",
+   "meaning": "a passport",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "नमस्ते। आपका पासपोर्ट, कृपया। क्या आप सूटकेस जमा करेंगे?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "सूटकेस",
+   "ipa": "sootkes",
+   "pos": "n.",
+   "meaning": "a suitcase",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "जी हाँ, एक सूटकेस। वह भारी नहीं है।",
+     "en": "Yes, one suitcase. It is not heavy."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "बोर्डिंग पास",
+   "ipa": "bording paas",
+   "pos": "n.",
+   "meaning": "a boarding pass",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "यह आपका बोर्डिंग पास है। आपका गेट नंबर बारह है।",
+     "en": "Here is your boarding pass. Your gate is number twelve."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "गेट",
+   "ipa": "get",
+   "pos": "n.",
+   "meaning": "the gate",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ठीक है। मैं गेट के पास इंतज़ार करूँगा।",
+     "en": "That is fine. I will wait near the gate."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "जमा",
+   "ipa": "jama",
+   "pos": "v.",
+   "meaning": "to check in",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "नमस्ते। आपका पासपोर्ट, कृपया। क्या आप सूटकेस जमा करेंगे?",
+     "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "देरी",
+   "ipa": "deri",
+   "pos": "adj.",
+   "meaning": "delayed",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "चालीस मिनट में। लेकिन आपकी उड़ान में बीस मिनट की देरी है।",
+     "en": "In forty minutes. But your flight is delayed by twenty minutes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "नमस्ते। आपका पासपोर्ट, कृपया। क्या आप सूटकेस जमा करेंगे?",
+   "glosses": [
+    {
+     "text": "पासपोर्ट",
+     "pos": "n.",
+     "meaning": "a passport"
+    },
+    {
+     "text": "सूटकेस",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    },
+    {
+     "text": "जमा",
+     "pos": "v.",
+     "meaning": "to check in"
+    }
+   ],
+   "id": "t1",
+   "en": "Good afternoon. Your passport, please. Are you going to check in a suitcase?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जी हाँ, एक सूटकेस। वह भारी नहीं है।",
+   "glosses": [
+    {
+     "text": "सूटकेस",
+     "pos": "n.",
+     "meaning": "a suitcase"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, one suitcase. It is not heavy."
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "यह आपका बोर्डिंग पास है। आपका गेट नंबर बारह है।",
+   "glosses": [
+    {
+     "text": "बोर्डिंग पास",
+     "pos": "n.",
+     "meaning": "a boarding pass"
+    },
+    {
+     "text": "गेट",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t3",
+   "en": "Here is your boarding pass. Your gate is number twelve."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "धन्यवाद। बोर्डिंग कितने बजे शुरू होगी?",
+   "glosses": [],
+   "id": "t4",
+   "en": "Thank you. What time does boarding start?"
+  },
+  {
+   "speaker": "Anika",
+   "role": "npc",
+   "text": "चालीस मिनट में। लेकिन आपकी उड़ान में बीस मिनट की देरी है।",
+   "glosses": [
+    {
+     "text": "देरी",
+     "pos": "adj.",
+     "meaning": "delayed"
+    }
+   ],
+   "id": "t5",
+   "en": "In forty minutes. But your flight is delayed by twenty minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ठीक है। मैं गेट के पास इंतज़ार करूँगा।",
+   "glosses": [
+    {
+     "text": "गेट",
+     "pos": "n.",
+     "meaning": "the gate"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. I will wait near the gate."
+  }
+ ],
+ "practice_words": []
+}

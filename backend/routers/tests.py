@@ -8,6 +8,7 @@ from pydantic import BaseModel, Field
 
 import content
 import analytics
+import languages
 import scoring
 import store
 from routers.courses import MAX_AUDIO_BYTES, MIN_AUDIO_BYTES, _extension
@@ -51,6 +52,22 @@ LEVELS = [(23, "A1"), (45, "A2"), (67, "B1"), (89, "B2"), (101, "C1")]
 # The speaking step: read this sentence aloud (11 words). It is scored like a dialogue line.
 # The sentence lives in content/fr/level_test.json so generate_tts.py also makes its voice recording.
 SPEAKING_SENTENCE = json.loads((content.CONTENT_DIR / "fr" / "level_test.json").read_text(encoding="utf-8"))["speaking_sentence"]
+
+
+def bank(lang):
+    """(questions, by_id, speaking sentence) of a language's level test. French keeps its questions in this file;
+    every other language has them in content/<id>/level_test.json ({"speaking_sentence", "questions": [{id, points,
+    correct, prompt, options: {a, b, c}}]}), 7 questions whose points add up to 100."""
+    if lang == "fr":
+        return QUESTIONS, BY_ID, SPEAKING_SENTENCE
+    path = content.CONTENT_DIR / lang / "level_test.json"
+    if not path.is_file():
+        raise HTTPException(status_code=404, detail="There is no level test for this language yet.")
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    qs = raw.get("questions") or []
+    if not qs or not raw.get("speaking_sentence"):
+        raise HTTPException(status_code=404, detail="There is no level test for this language yet.")
+    return qs, {q["id"]: q for q in qs}, raw["speaking_sentence"]
 SPEAKING_INSTRUCTIONS = "Tap Listen to hear the sentence, then read it aloud, clearly and at your own pace. You have one try."
 # The final score counts the questions 70% and the speaking 30%.
 WEIGHT_QUESTIONS, WEIGHT_SPEAKING = 0.7, 0.3
@@ -78,6 +95,7 @@ class SpeakingOut(BaseModel):
 
 class TestOut(BaseModel):
     title: str
+    language: str = "French"
     time_limit_minutes: int
     questions: list[QuestionOut]
     speaking: SpeakingOut
@@ -119,6 +137,7 @@ class ResultOut(BaseModel):
     start_lesson_id: str
     start_lesson_title: str
     purpose: str = "placement"
+    language: str = "French"       # the language the test was taken in
     applied: bool = True            # "match" tests: has the learner switched to the suggested lesson yet?
     current_level: int | None = None   # "match" tests: where the learner is now
     current_lesson_no: int | None = None
@@ -149,7 +168,11 @@ def level_for(score: int) -> str:
 # 70 at Level 7 Lesson 2 and 98-100 at Level 9 Lesson 4. It never moves a learner backwards.
 # Placement only uses the original 9 levels (36 lessons). Levels 10 and up are extra B1/B2/C1 practice that a learner
 # reaches by progressing, so adding them does not change which lesson a score starts at.
-PLACEMENT_MAX_LEVEL = 9
+PLACEMENT_MAX_LEVEL = 9  # French only: the other languages have 12 levels (A1 to B2) and a score spreads over all of them
+
+
+def _max_level(lang):
+    return PLACEMENT_MAX_LEVEL if lang == "fr" else None
 
 
 def _ladder(lang, max_level=None):
@@ -170,7 +193,7 @@ def place_learner(lang, score):
     """Moves the learner to the lesson their score earns and returns that lesson. Lessons before it in the same
     level are marked as done; earlier levels count as done automatically."""
     ladder = _ladder(lang)  # the whole course, used to find where the learner is now
-    scale = _ladder(lang, PLACEMENT_MAX_LEVEL) or ladder  # the part of the course a score maps onto
+    scale = _ladder(lang, _max_level(lang)) or ladder  # the part of the course a score maps onto
     target = scale[placement_index(score, len(scale))]
     state = store.STATE
     done = set(state["completed"])
@@ -194,7 +217,7 @@ def _current_spot(lang):
 
 
 def _match_target(lang, score):
-    scale = _ladder(lang, PLACEMENT_MAX_LEVEL) or _ladder(lang)
+    scale = _ladder(lang, _max_level(lang)) or _ladder(lang)
     return scale[placement_index(score, len(scale))]
 
 
@@ -216,8 +239,13 @@ def _move_to(lang, target):
 # --- Endpoints ---------------------------------------------------------------
 @router.get("/french", response_model=TestOut)
 def get_french_test():
+    """The level test of the language the learner is studying (the path says "french" for historical reasons)."""
+    lang = store.current_lang()
+    questions, _, sentence = bank(lang)
+    name = languages.get(lang)["name"]
     return TestOut(
-        title="French Level Test",
+        language=name,
+        title=f"{name} Level Test",
         time_limit_minutes=1,
         questions=[
             QuestionOut(
@@ -225,19 +253,21 @@ def get_french_test():
                 prompt=q["prompt"],
                 options=[Option(id=k, text=v) for k, v in q["options"].items()],
             )
-            for q in QUESTIONS
+            for q in questions
         ],
-        speaking=SpeakingOut(instructions=SPEAKING_INSTRUCTIONS, sentence=SPEAKING_SENTENCE),
+        speaking=SpeakingOut(instructions=SPEAKING_INSTRUCTIONS, sentence=sentence),
     )
 
 
 @router.post("/french/submit", response_model=SubmitOut)
 def submit_french_test(body: SubmitIn):
+    lang = store.current_lang()
+    questions, by_id, _ = bank(lang)
     seen = set()
     score = correct_count = 0
 
     for ans in body.answers:
-        q = BY_ID.get(ans.question_id)
+        q = by_id.get(ans.question_id)
         if q is None:
             raise HTTPException(status_code=422, detail=f"Unknown question: {ans.question_id}")
         if ans.question_id in seen:
@@ -252,16 +282,18 @@ def submit_french_test(body: SubmitIn):
 
     # Unanswered questions simply score 0.
     record = {"id": uuid4().hex, "at": analytics.now_iso(), "purpose": body.purpose, "stage": "speaking", "completion_score": score,
-              "correct_count": correct_count, "total_questions": len(QUESTIONS)}
+              "correct_count": correct_count, "total_questions": len(questions), "lang": lang}
     _remember(record)
     return SubmitOut(id=record["id"], completion_score=score, correct_count=correct_count,
-                     total_questions=len(QUESTIONS))
+                     total_questions=len(questions))
 
 
 def _result_out(record):
+    lang = record.get("lang", "fr")
     out = ResultOut(**{k: record[k] for k in ResultOut.model_fields if k in record})
+    out.language = languages.get(lang)["name"]
     if out.purpose == "match":
-        here = _current_spot("fr")
+        here = _current_spot(lang)
         out.current_level, out.current_lesson_no, out.current_lesson_title = here["level"], here["no"], here["title"]
         out.same_place = here["id"] == out.start_lesson_id
     return out
@@ -289,7 +321,8 @@ async def speak_french_test(test_id: str, duration_ms: int | None = Form(None), 
     path = folder / f"{re.sub(r'[^A-Za-z0-9_-]', '_', test_id)}-{int(time.time() * 1000)}.{_extension(audio)}"
     path.write_bytes(data)
     try:
-        result = scoring.score_speech(path, SPEAKING_SENTENCE, "fr")
+        lang = record.get("lang", "fr")
+        result = scoring.score_speech(path, bank(lang)[2], lang)
     except scoring.ScoringError as e:
         raise HTTPException(status_code=e.status, detail=str(e))
 
@@ -298,10 +331,10 @@ async def speak_french_test(test_id: str, duration_ms: int | None = Form(None), 
     final = round(WEIGHT_QUESTIONS * record["completion_score"] + WEIGHT_SPEAKING * speech_score)
     level = level_for(final)
     if record.get("purpose") == "match":
-        lesson = _match_target("fr", final)  # only a suggestion: nothing moves until the learner agrees
+        lesson = _match_target(lang, final)  # only a suggestion: nothing moves until the learner agrees
         record["applied"] = False
     else:
-        lesson = place_learner("fr", final)
+        lesson = place_learner(lang, final)
     record.update({
         "stage": "done", "speech_score": speech_score, "score": final, "max_score": 100, "level": level,
         "recommended_minutes_per_day": MINUTES_PER_DAY[level],
@@ -319,10 +352,11 @@ def apply_match(test_id: str):
     if record is None or record.get("stage") != "done" or record.get("purpose") != "match":
         raise HTTPException(status_code=404, detail="Test not found.")
     if not record.get("applied"):
-        target = next((l for l in _ladder("fr") if l["id"] == record["start_lesson_id"]), None)
+        lang = record.get("lang", "fr")
+        target = next((l for l in _ladder(lang) if l["id"] == record["start_lesson_id"]), None)
         if target is None:
             raise HTTPException(status_code=404, detail="That lesson is not available any more.")
-        _move_to("fr", target)
+        _move_to(lang, target)
         record["applied"] = True
         _remember(record)
     return _result_out(record)

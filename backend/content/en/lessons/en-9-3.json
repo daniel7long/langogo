@@ -1,0 +1,248 @@
+{
+ "emoji": "🏋️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "membership",
+   "ipa": "/ˈmɛmbɚˌʃɪp/",
+   "pos": "n.",
+   "meaning": "a membership",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "How much does the membership cost for a month?",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "trainer",
+   "ipa": "/ˈtɹeɪnɚ/",
+   "pos": "n.",
+   "meaning": "a trainer",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Of course. Our trainer will show you how everything works.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "goal",
+   "ipa": "/ɡoʊl/",
+   "pos": "n.",
+   "meaning": "a goal",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Great. What is your main goal: losing weight, or getting stronger?",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "exercising",
+   "ipa": "/ˈɛksɚˌsaɪzɪŋ/",
+   "pos": "v.",
+   "meaning": "to exercise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Yes, I would like to start exercising regularly.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "session",
+   "ipa": "/ˈsɛʃən/",
+   "pos": "n.",
+   "meaning": "a session",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "It is thirty-five a month, and the first session is free.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "stronger",
+   "ipa": "/ˈstɹɔŋɡɚ/",
+   "pos": "adj.",
+   "meaning": "stronger",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "I want to get stronger and have more energy during the day.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Welcome to the gym! Are you interested in a membership?",
+   "glosses": [
+    {
+     "text": "membership",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Yes, I would like to start exercising regularly.",
+   "glosses": [
+    {
+     "text": "exercising",
+     "pos": "v.",
+     "meaning": "to exercise"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Great. What is your main goal: losing weight, or getting stronger?",
+   "glosses": [
+    {
+     "text": "goal",
+     "pos": "n.",
+     "meaning": "a goal"
+    },
+    {
+     "text": "stronger",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I want to get stronger and have more energy during the day.",
+   "glosses": [
+    {
+     "text": "stronger",
+     "pos": "adj.",
+     "meaning": "stronger"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Then I recommend three sessions a week with a trainer at the beginning.",
+   "glosses": [
+    {
+     "text": "trainer",
+     "pos": "n.",
+     "meaning": "a trainer"
+    },
+    {
+     "text": "session",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "How much does the membership cost for a month?",
+   "glosses": [
+    {
+     "text": "membership",
+     "pos": "n.",
+     "meaning": "a membership"
+    }
+   ],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "It is thirty-five a month, and the first session is free.",
+   "glosses": [
+    {
+     "text": "session",
+     "pos": "n.",
+     "meaning": "a session"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That sounds reasonable. Can I try the equipment today?",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Of course. Our trainer will show you how everything works.",
+   "glosses": [
+    {
+     "text": "trainer",
+     "pos": "n.",
+     "meaning": "a trainer"
+    }
+   ],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Do I need to bring my own towel?",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Olivia",
+   "role": "npc",
+   "text": "Yes, please bring a towel and a bottle of water.",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Perfect. I will sign up right now.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

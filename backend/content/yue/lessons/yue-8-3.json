@@ -1,0 +1,237 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "駕駛執照",
+   "ipa": "gaa3 sai2 zap1 ziu3",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "有，一架細車，租五日。呢張係我嘅駕駛執照。",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "保險",
+   "ipa": "bou2 him2",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "要，唔該。保險一日幾多錢？",
+     "en": "Yes, please. How much is the insurance per day?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "按金",
+   "ipa": "on3 gam1",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "一日八美元。我哋仲需要兩百美元嘅按金。",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "導航",
+   "ipa": "dou6 hong4",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "得。架車有冇導航？",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "油缸",
+   "ipa": "jau4 gong1",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "有。油缸而家係滿嘅，你還車嗰時都要加滿。",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "還車",
+   "ipa": "waan4 ce1",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "明白。最後我喺邊度還車？",
+     "en": "Understood. Where do I return the car at the end?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "你好。你有冇訂車呀？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有，一架細車，租五日。呢張係我嘅駕駛執照。",
+   "glosses": [
+    {
+     "text": "駕駛執照",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "多謝。你要唔要額外嘅保險？可以保任何損壞。",
+   "glosses": [
+    {
+     "text": "保險",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "要，唔該。保險一日幾多錢？",
+   "glosses": [
+    {
+     "text": "保險",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "一日八美元。我哋仲需要兩百美元嘅按金。",
+   "glosses": [
+    {
+     "text": "按金",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "得。架車有冇導航？",
+   "glosses": [
+    {
+     "text": "導航",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "有。油缸而家係滿嘅，你還車嗰時都要加滿。",
+   "glosses": [
+    {
+     "text": "油缸",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "還車",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "明白。最後我喺邊度還車？",
+   "glosses": [
+    {
+     "text": "還車",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "就喺呢間辦公室，最後一日晚上六點前。",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "如果我遲少少會點？",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Mary",
+   "role": "npc",
+   "text": "咁我哋會多收一日嘅費用，所以請打俾我哋。",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "好，知道喇。多謝你幫手。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

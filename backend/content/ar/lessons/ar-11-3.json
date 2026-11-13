@@ -1,0 +1,269 @@
+{
+ "emoji": "🖼️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "معرض",
+   "ipa": "maʿriḍ",
+   "pos": "n.",
+   "meaning": "an exhibition",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "ما رأيك في المعرض؟ بدوت مستمتعا.",
+     "en": "What did you think of the exhibition? You seemed to enjoy it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "القيّم",
+   "ipa": "al-qayyim",
+   "pos": "n.",
+   "meaning": "a curator",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "كثيرا. القيّم اختار القطع بعناية شديدة.",
+     "en": "Very much. The curator chose the pieces very carefully."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "تحفة فنية",
+   "ipa": "tuḥfa fanniyya",
+   "pos": "n.",
+   "meaning": "a masterpiece",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "اللوحة الكبيرة في القاعة الأخيرة. تعد تحفة فنية.",
+     "en": "The large painting in the last room. It is considered a masterpiece."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "التراث",
+   "ipa": "at-turāṯ",
+   "pos": "n.",
+   "meaning": "heritage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "لكن الحفاظ على التراث الثقافي يكلف الكثير من المال.",
+     "en": "But maintaining cultural heritage costs a lot of money."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "تفسير",
+   "ipa": "tafsīr",
+   "pos": "n.",
+   "meaning": "interpretation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "الفن مفتوح للتفسير، وهذا ما يجعل المتاحف مثيرة.",
+     "en": "Art is open to interpretation, which is what makes museums exciting."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "المرشد الصوتي",
+   "ipa": "al-muršid aṣ-ṣawtī",
+   "pos": "n.",
+   "meaning": "an audio guide",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "بكل سرور. هذه المرة سأنزل المرشد الصوتي مسبقا.",
+     "en": "Gladly. This time I will download the audio guide in advance."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "ما رأيك في المعرض؟ بدوت مستمتعا.",
+   "glosses": [
+    {
+     "text": "معرض",
+     "pos": "n.",
+     "meaning": "an exhibition"
+    }
+   ],
+   "id": "t1",
+   "en": "What did you think of the exhibition? You seemed to enjoy it."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "كثيرا. القيّم اختار القطع بعناية شديدة.",
+   "glosses": [
+    {
+     "text": "القيّم",
+     "pos": "n.",
+     "meaning": "a curator"
+    }
+   ],
+   "id": "t2",
+   "en": "Very much. The curator chose the pieces very carefully."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "أوافقك. أي عمل أثر فيك أكثر؟",
+   "glosses": [],
+   "id": "t3",
+   "en": "I agree. Which work impressed you most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "اللوحة الكبيرة في القاعة الأخيرة. تعد تحفة فنية.",
+   "glosses": [
+    {
+     "text": "تحفة فنية",
+     "pos": "n.",
+     "meaning": "a masterpiece"
+    }
+   ],
+   "id": "t4",
+   "en": "The large painting in the last room. It is considered a masterpiece."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "لماذا تعتقد أنها مشهورة إلى هذا الحد؟",
+   "glosses": [],
+   "id": "t5",
+   "en": "Why do you think it is so famous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ربما لأنها تظهر الناس العاديين بطريقة صادقة جدا.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Perhaps because it shows ordinary people in a very honest way."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "مثير للاهتمام. استمعت إلى المرشد الصوتي، وقدم تفسيرا مختلفا تماما.",
+   "glosses": [
+    {
+     "text": "تفسير",
+     "pos": "n.",
+     "meaning": "interpretation"
+    },
+    {
+     "text": "المرشد الصوتي",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t7",
+   "en": "Interesting. I listened to the audio guide, and it gave a very different explanation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "الفن مفتوح للتفسير، وهذا ما يجعل المتاحف مثيرة.",
+   "glosses": [
+    {
+     "text": "تفسير",
+     "pos": "n.",
+     "meaning": "interpretation"
+    }
+   ],
+   "id": "t8",
+   "en": "Art is open to interpretation, which is what makes museums exciting."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "صحيح. يقول بعض الناس إن المتاحف لا يجب أن تكون باهظة.",
+   "glosses": [],
+   "id": "t9",
+   "en": "True. Some people say museums should not be so expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أعتقد أن الدخول يجب أن يكون رخيصا، لأن الثقافة ملك للجميع.",
+   "glosses": [],
+   "id": "t10",
+   "en": "I think entry should be cheap, because culture belongs to everyone."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "لكن الحفاظ على التراث الثقافي يكلف الكثير من المال.",
+   "glosses": [
+    {
+     "text": "التراث",
+     "pos": "n.",
+     "meaning": "heritage"
+    }
+   ],
+   "id": "t11",
+   "en": "But maintaining cultural heritage costs a lot of money."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هذه نقطة صحيحة. ربما تكون أيام مجانية كل شهر حلا وسطا.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That is a valid point. Perhaps free days each month could be a compromise."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "كثير من المدن تفعل ذلك بالفعل، وتصبح المتاحف مزدحمة جدا.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many cities already do that, and the museums become very crowded."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "الازدحام علامة جيدة مع ذلك: إنه يظهر أن الناس يقدرون الفن.",
+   "glosses": [],
+   "id": "t14",
+   "en": "Crowds are a good sign, though: they show that people value art."
+  },
+  {
+   "speaker": "Layla",
+   "role": "npc",
+   "text": "عادل. هل نزور متحف الفن الحديث في عطلة الأسبوع القادمة؟",
+   "glosses": [],
+   "id": "t15",
+   "en": "Fair enough. Shall we visit the modern art museum next weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بكل سرور. هذه المرة سأنزل المرشد الصوتي مسبقا.",
+   "glosses": [
+    {
+     "text": "المرشد الصوتي",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t16",
+   "en": "Gladly. This time I will download the audio guide in advance."
+  }
+ ],
+ "practice_words": []
+}

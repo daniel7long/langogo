@@ -1,0 +1,186 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "la stazione",
+   "ipa": "/la staˈtsjoːne/",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sì, grazie. Dov'è la stazione? È lontana?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "giri a sinistra",
+   "ipa": "/ˈdʒiri a siˈnistra/",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Giri a sinistra all'angolo. La stazione è accanto alla banca.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "sempre dritto",
+   "ipa": "/ˈsɛmpre ˈdritto/",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "No, non è lontana. Vada sempre dritto per due strade.",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "lontana",
+   "ipa": "/lonˈtaːna/",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sì, grazie. Dov'è la stazione? È lontana?",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "l'angolo",
+   "ipa": "/ˈlaŋɡolo/",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Giri a sinistra all'angolo. La stazione è accanto alla banca.",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "una mappa",
+   "ipa": "/ˈuna ˈmappa/",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Grazie mille! Ho una mappa sul telefono, quindi sarà facile.",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Mi scusi, posso aiutarla? Sembra perso.",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sì, grazie. Dov'è la stazione? È lontana?",
+   "glosses": [
+    {
+     "text": "la stazione",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "lontana",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "No, non è lontana. Vada sempre dritto per due strade.",
+   "glosses": [
+    {
+     "text": "sempre dritto",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    },
+    {
+     "text": "lontana",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "E poi? Giro a sinistra o a destra?",
+   "glosses": [],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Giulia",
+   "role": "npc",
+   "text": "Giri a sinistra all'angolo. La stazione è accanto alla banca.",
+   "glosses": [
+    {
+     "text": "La stazione",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "Giri a sinistra",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "l'angolo",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Grazie mille! Ho una mappa sul telefono, quindi sarà facile.",
+   "glosses": [
+    {
+     "text": "una mappa",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

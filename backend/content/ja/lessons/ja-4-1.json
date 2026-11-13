@@ -1,0 +1,181 @@
+{
+ "emoji": "🧭",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "駅",
+   "ipa": "eki",
+   "pos": "n.",
+   "meaning": "the station",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "角を左に曲がってください。駅は銀行の隣です。",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "左に曲がって",
+   "ipa": "hidari ni magatte",
+   "pos": "phr.",
+   "meaning": "turn left",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "角を左に曲がってください。駅は銀行の隣です。",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "まっすぐ",
+   "ipa": "massugu",
+   "pos": "phr.",
+   "meaning": "straight ahead",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "いいえ、遠くないですよ。まっすぐ二つ目の通りまで行ってください。",
+     "en": "No, it is not far. Go straight ahead for two streets."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "遠い",
+   "ipa": "tooi",
+   "pos": "adj.",
+   "meaning": "far",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "はい、お願いします。駅はどこですか。遠いですか。",
+     "en": "Yes, please. Where is the station? Is it far?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "角",
+   "ipa": "kado",
+   "pos": "n.",
+   "meaning": "the corner",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "角を左に曲がってください。駅は銀行の隣です。",
+     "en": "Turn left at the corner. The station is next to the bank."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "地図",
+   "ipa": "chizu",
+   "pos": "n.",
+   "meaning": "a map",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ありがとうございます！携帯に地図があるので、簡単に行けます。",
+     "en": "Thank you! I have a map on my phone, so it will be easy."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "すみません、お手伝いしましょうか。道に迷っているようですね。",
+   "glosses": [],
+   "id": "t1",
+   "en": "Excuse me, can I help you? You look lost."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "はい、お願いします。駅はどこですか。遠いですか。",
+   "glosses": [
+    {
+     "text": "駅",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "遠い",
+     "pos": "adj.",
+     "meaning": "far"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, please. Where is the station? Is it far?"
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "いいえ、遠くないですよ。まっすぐ二つ目の通りまで行ってください。",
+   "glosses": [
+    {
+     "text": "まっすぐ",
+     "pos": "phr.",
+     "meaning": "straight ahead"
+    }
+   ],
+   "id": "t3",
+   "en": "No, it is not far. Go straight ahead for two streets."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "それから？左ですか、右ですか。",
+   "glosses": [],
+   "id": "t4",
+   "en": "And then? Do I turn left or right?"
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "角を左に曲がってください。駅は銀行の隣です。",
+   "glosses": [
+    {
+     "text": "駅",
+     "pos": "n.",
+     "meaning": "the station"
+    },
+    {
+     "text": "左に曲がって",
+     "pos": "phr.",
+     "meaning": "turn left"
+    },
+    {
+     "text": "角",
+     "pos": "n.",
+     "meaning": "the corner"
+    }
+   ],
+   "id": "t5",
+   "en": "Turn left at the corner. The station is next to the bank."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ありがとうございます！携帯に地図があるので、簡単に行けます。",
+   "glosses": [
+    {
+     "text": "地図",
+     "pos": "n.",
+     "meaning": "a map"
+    }
+   ],
+   "id": "t6",
+   "en": "Thank you! I have a map on my phone, so it will be easy."
+  }
+ ],
+ "practice_words": []
+}

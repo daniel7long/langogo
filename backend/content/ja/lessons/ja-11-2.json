@@ -1,0 +1,287 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "見出し",
+   "ipa": "midashi",
+   "pos": "n.",
+   "meaning": "a headline",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "新しい税法についての今朝の見出し、見た？",
+     "en": "Did you see this morning's headline about the new tax law?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "記者",
+   "ipa": "kisha",
+   "pos": "n.",
+   "meaning": "a journalist",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "いくつか比べているよ。優れた記者でも偏っていることがあるから。",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "情報源",
+   "ipa": "joohoogen",
+   "pos": "n.",
+   "meaning": "a source",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "どの情報源のニュースを信頼している？",
+     "en": "Which news sources do you trust?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "偏って",
+   "ipa": "katayotte",
+   "pos": "adj.",
+   "meaning": "biased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "いくつか比べているよ。優れた記者でも偏っていることがあるから。",
+     "en": "I compare several, because even good journalists can be biased."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "確認",
+   "ipa": "kakunin",
+   "pos": "v.",
+   "meaning": "to verify",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "いいね。記事を共有するのは、自分で確認してからにしてね。",
+     "en": "Good. And share articles only after you have checked them yourself."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "意見",
+   "ipa": "iken",
+   "pos": "n.",
+   "meaning": "an opinion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "見たよ。でも意見を持つ前にもっと読みたいな。",
+     "en": "I did, but I want to read more before forming an opinion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "新しい税法についての今朝の見出し、見た？",
+   "glosses": [
+    {
+     "text": "見出し",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t1",
+   "en": "Did you see this morning's headline about the new tax law?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "見たよ。でも意見を持つ前にもっと読みたいな。",
+   "glosses": [
+    {
+     "text": "意見",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t2",
+   "en": "I did, but I want to read more before forming an opinion."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "賢いね。僕はタイトルだけ読んで、もう腹が立ったよ。",
+   "glosses": [],
+   "id": "t3",
+   "en": "Smart. I only read the title and I was already angry."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "まさに見出しの仕組みだね。注目を引くために作られているから。",
+   "glosses": [
+    {
+     "text": "見出し",
+     "pos": "n.",
+     "meaning": "a headline"
+    }
+   ],
+   "id": "t4",
+   "en": "That is exactly how headlines work. They are designed to attract attention."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "どの情報源のニュースを信頼している？",
+   "glosses": [
+    {
+     "text": "情報源",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t5",
+   "en": "Which news sources do you trust?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "いくつか比べているよ。優れた記者でも偏っていることがあるから。",
+   "glosses": [
+    {
+     "text": "記者",
+     "pos": "n.",
+     "meaning": "a journalist"
+    },
+    {
+     "text": "偏って",
+     "pos": "adj.",
+     "meaning": "biased"
+    }
+   ],
+   "id": "t6",
+   "en": "I compare several, because even good journalists can be biased."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "どれがより正確かはどうやって決めるの？",
+   "glosses": [],
+   "id": "t7",
+   "en": "How do you decide which one is more accurate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "証拠や名前の出ている専門家、そして事実を確認できるかを見るよ。",
+   "glosses": [
+    {
+     "text": "確認",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t8",
+   "en": "I look for evidence, named experts, and whether the facts can be verified."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "五分でやることにしては、すごく手間がかかるね。",
+   "glosses": [],
+   "id": "t9",
+   "en": "That takes a lot of effort for something I do in five minutes."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "そうだけど、よく知っていることは責任ある市民であることの一部だよ。",
+   "glosses": [],
+   "id": "t10",
+   "en": "True, but being well informed is part of being a responsible citizen."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "意見記事はどう？ただの個人的な見方じゃないの？",
+   "glosses": [
+    {
+     "text": "意見",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t11",
+   "en": "What about opinion articles? Are they not just personal views?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "そうだし、それでいいんだ。意見だとはっきり表示されている限りはね。",
+   "glosses": [
+    {
+     "text": "意見",
+     "pos": "n.",
+     "meaning": "an opinion"
+    }
+   ],
+   "id": "t12",
+   "en": "They are, and that is fine, as long as they are clearly labeled as opinions."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "でも、その違いに気づかない人も多いよ。",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many people do not notice the difference, though."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "だから学校でのメディア教育がとても大事なんだ。",
+   "glosses": [],
+   "id": "t14",
+   "en": "That is why media education in schools matters so much."
+  },
+  {
+   "speaker": "Sota",
+   "role": "npc",
+   "text": "同感だよ。これからは少なくとも二つの情報源を読むようにするよ。",
+   "glosses": [
+    {
+     "text": "情報源",
+     "pos": "n.",
+     "meaning": "a source"
+    }
+   ],
+   "id": "t15",
+   "en": "I agree. I will try to read at least two sources from now on."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "いいね。記事を共有するのは、自分で確認してからにしてね。",
+   "glosses": [
+    {
+     "text": "確認",
+     "pos": "v.",
+     "meaning": "to verify"
+    }
+   ],
+   "id": "t16",
+   "en": "Good. And share articles only after you have checked them yourself."
+  }
+ ],
+ "practice_words": []
+}

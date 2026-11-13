@@ -1,0 +1,256 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "الحبكة",
+   "ipa": "al-ḥabka",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "ليس بعد. قرأت مراجعة تقول إن الحبكة متوقعة قليلا.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "أداء",
+   "ipa": "adāʾ",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "مثير للاهتمام. ما رأيك في أداء الممثلة الرئيسية؟",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "المخرج",
+   "ipa": "al-muḫrij",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "وماذا عن المخرج؟ أحببت أعماله السابقة كثيرا.",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "مراجعة",
+   "ipa": "murājaʿa",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "ليس بعد. قرأت مراجعة تقول إن الحبكة متوقعة قليلا.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "متوقعة",
+   "ipa": "mutawaqqiʿa",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "ليس بعد. قرأت مراجعة تقول إن الحبكة متوقعة قليلا.",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "الموسيقى التصويرية",
+   "ipa": "al-mūsīqā at-taṣwīriyya",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "هنا ينجح، خاصة بسبب الموسيقى التصويرية. تضيف الكثير من العاطفة.",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "شاهدت أمس الفيلم الجديد الذي يتحدث عنه الجميع. هل شاهدته؟",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ليس بعد. قرأت مراجعة تقول إن الحبكة متوقعة قليلا.",
+   "glosses": [
+    {
+     "text": "الحبكة",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "مراجعة",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "متوقعة",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "بصراحة، النصف الأول كذلك، لكن النهاية فاجأتني تماما.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "مثير للاهتمام. ما رأيك في أداء الممثلة الرئيسية؟",
+   "glosses": [
+    {
+     "text": "أداء",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "رائع. جعلت الممثلة شخصيتها تبدو حقيقية ومعقدة.",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "وماذا عن المخرج؟ أحببت أعماله السابقة كثيرا.",
+   "glosses": [
+    {
+     "text": "المخرج",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "يحافظ على أسلوبه المعتاد بلقطات طويلة وحوار قليل جدا.",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "يمكن أن يكون ذلك جميلا أو مملا، حسب القصة.",
+   "glosses": [],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "هنا ينجح، خاصة بسبب الموسيقى التصويرية. تضيف الكثير من العاطفة.",
+   "glosses": [
+    {
+     "text": "الموسيقى التصويرية",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هل تقول إن الفيلم يستحق المشاهدة في السينما؟",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "بالتأكيد. الصور والصوت تحتاج إلى شاشة كبيرة.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "إذن سأذهب في عطلة الأسبوع، رغم أن النقاد يختلفون.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "النقاد والجمهور نادرا ما يتفقون، لذلك كون رأيك بنفسك.",
+   "glosses": [],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "صحيح. أيهما ستقيمه أعلى، هذا الفيلم أم الفيلم السابق؟",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Huda",
+   "role": "npc",
+   "text": "السابق، لكن بفارق بسيط فقط. سأعطي هذا أربع نجوم من خمس.",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "جيد أن أعرف. لنناقشه مرة أخرى بعد أن أشاهده.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

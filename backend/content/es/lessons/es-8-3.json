@@ -1,0 +1,225 @@
+{
+ "emoji": "🚗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "carné de conducir",
+   "ipa": "/kaɾ.ˈne de kon.du.ˈsiɾ/",
+   "pos": "n.",
+   "meaning": "a driving licence",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sí, un coche pequeño para cinco días. Aquí tiene mi carné de conducir.",
+     "en": "Yes, a small car for five days. Here is my driving license."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "el seguro",
+   "ipa": "/el seˈɣu.ɾo/",
+   "pos": "n.",
+   "meaning": "insurance",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sí, por favor. ¿Cuánto cuesta el seguro por día?",
+     "en": "Yes, please. How much is the insurance per day?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "una fianza",
+   "ipa": "/ˈu.na ˈfjan.sa/",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ocho dólares al día. También necesitamos una fianza de doscientos dólares.",
+     "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "un GPS",
+   "ipa": "/un xe.pe.ˈe.se/",
+   "pos": "n.",
+   "meaning": "a GPS",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Está bien. ¿El coche viene con un GPS?",
+     "en": "That is fine. Does the car come with a GPS?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "el depósito",
+   "ipa": "/el de.ˈpo.si.to/",
+   "pos": "n.",
+   "meaning": "the tank",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sí. El depósito está lleno ahora y debe devolverlo lleno.",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "devolverlo",
+   "ipa": "/de.βol.ˈβeɾ.lo/",
+   "pos": "v.",
+   "meaning": "to return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sí. El depósito está lleno ahora y debe devolverlo lleno.",
+     "en": "Yes, it does. The tank is full now, and you should return it full."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Hola. ¿Tiene una reserva para un coche?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. Do you have a reservation for a car?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sí, un coche pequeño para cinco días. Aquí tiene mi carné de conducir.",
+   "glosses": [
+    {
+     "text": "carné de conducir",
+     "pos": "n.",
+     "meaning": "a driving licence"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, a small car for five days. Here is my driving license."
+  },
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Gracias. ¿Quiere un seguro adicional? Cubre cualquier daño.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. Would you like extra insurance? It covers any damage."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sí, por favor. ¿Cuánto cuesta el seguro por día?",
+   "glosses": [
+    {
+     "text": "el seguro",
+     "pos": "n.",
+     "meaning": "insurance"
+    }
+   ],
+   "id": "t4",
+   "en": "Yes, please. How much is the insurance per day?"
+  },
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Ocho dólares al día. También necesitamos una fianza de doscientos dólares.",
+   "glosses": [
+    {
+     "text": "una fianza",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t5",
+   "en": "Eight dollars a day. We also need a deposit of two hundred dollars."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Está bien. ¿El coche viene con un GPS?",
+   "glosses": [
+    {
+     "text": "un GPS",
+     "pos": "n.",
+     "meaning": "a GPS"
+    }
+   ],
+   "id": "t6",
+   "en": "That is fine. Does the car come with a GPS?"
+  },
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Sí. El depósito está lleno ahora y debe devolverlo lleno.",
+   "glosses": [
+    {
+     "text": "El depósito",
+     "pos": "n.",
+     "meaning": "the tank"
+    },
+    {
+     "text": "devolverlo",
+     "pos": "v.",
+     "meaning": "to return"
+    }
+   ],
+   "id": "t7",
+   "en": "Yes, it does. The tank is full now, and you should return it full."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Entendido. ¿Dónde devuelvo el coche al final?",
+   "glosses": [],
+   "id": "t8",
+   "en": "Understood. Where do I return the car at the end?"
+  },
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Aquí, en la misma oficina, antes de las seis de la tarde del último día.",
+   "glosses": [],
+   "id": "t9",
+   "en": "Here, at the same office, before six in the evening on the last day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¿Qué pasa si llego un poco tarde?",
+   "glosses": [],
+   "id": "t10",
+   "en": "What happens if I am a little late?"
+  },
+  {
+   "speaker": "Lucía",
+   "role": "npc",
+   "text": "Entonces le cobramos un día más, así que por favor llámenos.",
+   "glosses": [],
+   "id": "t11",
+   "en": "Then we charge you for an extra day, so please call us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Bueno saberlo. Gracias por su ayuda.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Good to know. Thank you for your help."
+  }
+ ],
+ "practice_words": []
+}

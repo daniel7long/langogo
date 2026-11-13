@@ -1,0 +1,263 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "ごみ",
+   "ipa": "gomi",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "うん、ごみを減らすようにして、ペットボトルを買うのをやめたよ。",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "リサイクル",
+   "ipa": "risaikuru",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "いい始まりだね。家では全部リサイクルしてる？",
+     "en": "That is a good start. Do you recycle everything at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "排出",
+   "ipa": "haishutsu",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "交通はどう？車は排出がすごく多いよね。",
+     "en": "What about transport? Cars produce a lot of emissions."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "再生可能",
+   "ipa": "saisei kanoo",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "同意するよ。最も大きな変化は再生可能エネルギーで起きるべきだね。",
+     "en": "I agree. Renewable energy is where the biggest change must happen."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "持続可能",
+   "ipa": "jizoku kanoo",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "持続可能な製品は高すぎると言う人がまだいるけどね。",
+     "en": "Some people still say sustainable products are too expensive."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "減らす",
+   "ipa": "herasu",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "うん、ごみを減らすようにして、ペットボトルを買うのをやめたよ。",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "最近、環境を守るために習慣を変えたことはある？",
+   "glosses": [],
+   "id": "t1",
+   "en": "Have you changed any habits recently to protect the environment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "うん、ごみを減らすようにして、ペットボトルを買うのをやめたよ。",
+   "glosses": [
+    {
+     "text": "ごみ",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "減らす",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "いい始まりだね。家では全部リサイクルしてる？",
+   "glosses": [
+    {
+     "text": "リサイクル",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": "That is a good start. Do you recycle everything at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "できるものはすべてね。紙、ガラス、プラスチック、生ごみは堆肥にもしてるよ。",
+   "glosses": [
+    {
+     "text": "ごみ",
+     "pos": "n.",
+     "meaning": "waste"
+    }
+   ],
+   "id": "t4",
+   "en": "Everything I can. Paper, glass, plastic and even food scraps for compost."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "すごいね。もっとやるべきだけど、すごく時間がかかるんだよね。",
+   "glosses": [],
+   "id": "t5",
+   "en": "Impressive. I should do more, but it takes so much time."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "正直、数週間もすれば自然にできるようになるよ。",
+   "glosses": [],
+   "id": "t6",
+   "en": "It becomes automatic after a few weeks, honestly."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "交通はどう？車は排出がすごく多いよね。",
+   "glosses": [
+    {
+     "text": "排出",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": "What about transport? Cars produce a lot of emissions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ほとんどの日は自転車で通勤して、長距離は電車を使ってるよ。",
+   "glosses": [],
+   "id": "t8",
+   "en": "I cycle to work most days, and I use trains for long trips."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "でも、個人の行動は本当に意味があると思う？",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you think individual actions really matter, though?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "あるよ。でも企業や政府がもっと大きな規模で動く必要があるね。",
+   "glosses": [],
+   "id": "t10",
+   "en": "They do, but companies and governments must act on a bigger scale."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "同意するよ。最も大きな変化は再生可能エネルギーで起きるべきだね。",
+   "glosses": [
+    {
+     "text": "再生可能",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. Renewable energy is where the biggest change must happen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "その通り。太陽光や風力は毎年安くなっているよ。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Exactly. Solar and wind power are becoming cheaper every year."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "持続可能な製品は高すぎると言う人がまだいるけどね。",
+   "glosses": [
+    {
+     "text": "持続可能",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people still say sustainable products are too expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "短期的にはそうかもしれないけど、長持ちして後でお金も節約できるよ。",
+   "glosses": [],
+   "id": "t14",
+   "en": "In the short term, maybe, but they last longer and save money later."
+  },
+  {
+   "speaker": "Sakura",
+   "role": "npc",
+   "text": "納得したよ。まずはコンポストから始めてみる。",
+   "glosses": [],
+   "id": "t15",
+   "en": "You have convinced me. I will start with a compost bin."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "すばらしい。完璧な解決策を待つより、小さな一歩のほうがずっといいよ。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wonderful. Small steps are better than waiting for a perfect solution."
+  }
+ ],
+ "practice_words": []
+}

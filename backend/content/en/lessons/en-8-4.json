@@ -1,0 +1,254 @@
+{
+ "emoji": "🛫",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "flight",
+   "ipa": "/flaɪt/",
+   "pos": "n.",
+   "meaning": "a flight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Can you rebook me on another flight today?",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "cancelled",
+   "ipa": "/ˈkænsəld/",
+   "pos": "adj.",
+   "meaning": "cancelled",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Passengers for flight 304, I am sorry to say your flight has been cancelled.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "connection",
+   "ipa": "/kəˈnɛkʃən/",
+   "pos": "n.",
+   "meaning": "a connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Excuse me, what happened? I have an important connection later today.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "delay",
+   "ipa": "/dɪˈleɪ/",
+   "pos": "n.",
+   "meaning": "a delay",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "There was a technical problem with the plane. We apologize for the delay.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "rebook",
+   "ipa": "/ɹiˈbʊk/",
+   "pos": "v.",
+   "meaning": "to rebook",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Can you rebook me on another flight today?",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "compensation",
+   "ipa": "/ˌkɑmpənˈseɪʃən/",
+   "pos": "n.",
+   "meaning": "compensation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Yes, you have the right to compensation, and I will give you the form.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Passengers for flight 304, I am sorry to say your flight has been cancelled.",
+   "glosses": [
+    {
+     "text": "flight",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "cancelled",
+     "pos": "adj.",
+     "meaning": "cancelled"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Excuse me, what happened? I have an important connection later today.",
+   "glosses": [
+    {
+     "text": "connection",
+     "pos": "n.",
+     "meaning": "a connection"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "There was a technical problem with the plane. We apologize for the delay.",
+   "glosses": [
+    {
+     "text": "delay",
+     "pos": "n.",
+     "meaning": "a delay"
+    }
+   ],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Can you rebook me on another flight today?",
+   "glosses": [
+    {
+     "text": "flight",
+     "pos": "n.",
+     "meaning": "a flight"
+    },
+    {
+     "text": "rebook",
+     "pos": "v.",
+     "meaning": "to rebook"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "There is a flight at eight tonight. Let me check if there are seats.",
+   "glosses": [
+    {
+     "text": "flight",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Please do. If not, what are my options?",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "We can offer you a hotel and a flight tomorrow morning.",
+   "glosses": [
+    {
+     "text": "flight",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I would prefer to travel tonight. Is there compensation for the inconvenience?",
+   "glosses": [
+    {
+     "text": "compensation",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Yes, you have the right to compensation, and I will give you the form.",
+   "glosses": [
+    {
+     "text": "compensation",
+     "pos": "n.",
+     "meaning": "compensation"
+    }
+   ],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Thank you. Do I also receive a meal voucher?",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Tom",
+   "role": "npc",
+   "text": "Yes, here is a voucher for the restaurant. You are on the eight o'clock flight.",
+   "glosses": [
+    {
+     "text": "flight",
+     "pos": "n.",
+     "meaning": "a flight"
+    }
+   ],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Great, that solves my problem. I really appreciate your help.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

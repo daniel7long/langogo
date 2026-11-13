@@ -1,0 +1,268 @@
+{
+ "emoji": "🎬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "情節",
+   "ipa": "cing4 zit3",
+   "pos": "n.",
+   "meaning": "a plot",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "重未。我睇到一篇影評，話情節有啲可預測。",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "演出",
+   "ipa": "jin2 ceot1",
+   "pos": "n.",
+   "meaning": "a performance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "有趣。你覺得女主角嘅演出點樣？",
+     "en": "Interesting. What did you think of the lead performance?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "導演",
+   "ipa": "dou6 jin2",
+   "pos": "n.",
+   "meaning": "a director",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "咁導演呢？我好鍾意佢之前嘅作品。",
+     "en": "And the director? I loved his previous work."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "影評",
+   "ipa": "jing2 ping4",
+   "pos": "n.",
+   "meaning": "a review",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "重未。我睇到一篇影評，話情節有啲可預測。",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "可預測",
+   "ipa": "ho2 jyu6 cak1",
+   "pos": "adj.",
+   "meaning": "predictable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "重未。我睇到一篇影評，話情節有啲可預測。",
+     "en": "Not yet. I read a review that said the plot was a bit predictable."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "配樂",
+   "ipa": "pui3 ngok6",
+   "pos": "n.",
+   "meaning": "a soundtrack",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "喺度行得通，尤其係因為配樂。佢加咗好多感情。",
+     "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "琴晚我睇咗大家都喺度講嗰套新電影。你睇咗未？",
+   "glosses": [],
+   "id": "t1",
+   "en": "I saw that new movie everyone is talking about last night. Have you seen it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "重未。我睇到一篇影評，話情節有啲可預測。",
+   "glosses": [
+    {
+     "text": "情節",
+     "pos": "n.",
+     "meaning": "a plot"
+    },
+    {
+     "text": "影評",
+     "pos": "n.",
+     "meaning": "a review"
+    },
+    {
+     "text": "可預測",
+     "pos": "adj.",
+     "meaning": "predictable"
+    }
+   ],
+   "id": "t2",
+   "en": "Not yet. I read a review that said the plot was a bit predictable."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "老實講，前半部分係咁，但係結局完全出乎我意料。",
+   "glosses": [],
+   "id": "t3",
+   "en": "Honestly, the first half is, but the ending completely surprised me."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "有趣。你覺得女主角嘅演出點樣？",
+   "glosses": [
+    {
+     "text": "演出",
+     "pos": "n.",
+     "meaning": "a performance"
+    }
+   ],
+   "id": "t4",
+   "en": "Interesting. What did you think of the lead performance?"
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "好出色。女演員令個角色好真實同複雜。",
+   "glosses": [],
+   "id": "t5",
+   "en": "Outstanding. The actress made her character feel real and complex."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "咁導演呢？我好鍾意佢之前嘅作品。",
+   "glosses": [
+    {
+     "text": "導演",
+     "pos": "n.",
+     "meaning": "a director"
+    }
+   ],
+   "id": "t6",
+   "en": "And the director? I loved his previous work."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "佢保持一貫風格，長鏡頭多，對白好少。",
+   "glosses": [],
+   "id": "t7",
+   "en": "He keeps his usual style, with long shots and very little dialogue."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "睇個故事，可以好靚，亦可以好悶。",
+   "glosses": [],
+   "id": "t8",
+   "en": "That can be beautiful, or boring, depending on the story."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "喺度行得通，尤其係因為配樂。佢加咗好多感情。",
+   "glosses": [
+    {
+     "text": "配樂",
+     "pos": "n.",
+     "meaning": "a soundtrack"
+    }
+   ],
+   "id": "t9",
+   "en": "Here it works, especially because of the soundtrack. It adds so much emotion."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "你覺得套戲值唔值得去戲院睇？",
+   "glosses": [],
+   "id": "t10",
+   "en": "Would you say the movie is worth watching in the movie theater?"
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "絕對值得。畫面同聲音需要大銀幕。",
+   "glosses": [],
+   "id": "t11",
+   "en": "Definitely. The images and the sound need a big screen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "咁我今個週末去睇，雖然影評人意見唔一致。",
+   "glosses": [
+    {
+     "text": "影評",
+     "pos": "n.",
+     "meaning": "a review"
+    }
+   ],
+   "id": "t12",
+   "en": "Then I will go this weekend, even though critics disagree."
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "影評人同觀眾好少意見一致，所以要自己判斷。",
+   "glosses": [
+    {
+     "text": "影評",
+     "pos": "n.",
+     "meaning": "a review"
+    }
+   ],
+   "id": "t13",
+   "en": "Critics and audiences rarely agree, so make up your own mind."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "係。你覺得呢套同佢上一套邊套評分更高？",
+   "glosses": [],
+   "id": "t14",
+   "en": "True. Which would you rate higher, this movie or his last one?"
+  },
+  {
+   "speaker": "Betty",
+   "role": "npc",
+   "text": "上一套，不過只係高少少。我會俾呢套五粒星入面四粒。",
+   "glosses": [],
+   "id": "t15",
+   "en": "His last one, but only slightly. I would give this one four stars out of five."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "知道喇。我睇完之後再傾。",
+   "glosses": [],
+   "id": "t16",
+   "en": "Good to know. Let us discuss it again after I have seen it."
+  }
+ ],
+ "practice_words": []
+}

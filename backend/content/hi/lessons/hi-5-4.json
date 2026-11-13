@@ -1,0 +1,202 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "फ़्लैट",
+   "ipa": "flait",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "नमस्ते, आपको यह फ़्लैट पसंद आया, है न?",
+     "en": "Hello, you are interested in the apartment, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "किराया",
+   "ipa": "kiraya",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "जी हाँ। किराया महीने का कितना है?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "महीने",
+   "ipa": "mahine",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "जी हाँ। किराया महीने का कितना है?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "सजा हुआ",
+   "ipa": "saja hua",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "महीने का आठ सौ है, और फ़्लैट पूरा सजा हुआ है।",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "जमानत",
+   "ipa": "zamanat",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "अच्छा लग रहा है। क्या मुझे जमानत देनी होगी?",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "अनुबंध",
+   "ipa": "anubandh",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "जी हाँ, एक महीने का किराया जमानत के रूप में। अनुबंध हम कल करेंगे।",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "नमस्ते, आपको यह फ़्लैट पसंद आया, है न?",
+   "glosses": [
+    {
+     "text": "फ़्लैट",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जी हाँ। किराया महीने का कितना है?",
+   "glosses": [
+    {
+     "text": "किराया",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "महीने",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "महीने का आठ सौ है, और फ़्लैट पूरा सजा हुआ है।",
+   "glosses": [
+    {
+     "text": "फ़्लैट",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "महीने",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "सजा हुआ",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "अच्छा लग रहा है। क्या मुझे जमानत देनी होगी?",
+   "glosses": [
+    {
+     "text": "जमानत",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Priya",
+   "role": "npc",
+   "text": "जी हाँ, एक महीने का किराया जमानत के रूप में। अनुबंध हम कल करेंगे।",
+   "glosses": [
+    {
+     "text": "किराया",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "महीने",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "जमानत",
+     "pos": "n.",
+     "meaning": "a deposit"
+    },
+    {
+     "text": "अनुबंध",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बहुत बढ़िया। फ़ैसला करने से पहले क्या मैं रसोई दोबारा देख सकता हूँ?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

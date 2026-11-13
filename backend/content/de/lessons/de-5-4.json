@@ -1,0 +1,187 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "Wohnung",
+   "ipa": "/ˈvoːnʊŋ/",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Guten Tag, Sie interessieren sich für die Wohnung, richtig?",
+     "en": "Hello, you are interested in the apartment, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "die Miete",
+   "ipa": "/diː ˈmiːtə/",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ja. Wie hoch ist die Miete im Monat?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "im Monat",
+   "ipa": "/ɪm ˈmoːnat/",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ja. Wie hoch ist die Miete im Monat?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "möbliert",
+   "ipa": "/møˈbliːɐ̯t/",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sie beträgt achthundert im Monat, und die Wohnung ist möbliert.",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "eine Kaution",
+   "ipa": "/ˈaɪ̯nə kaʊ̯ˈtsi̯oːn/",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Das klingt gut. Muss ich eine Kaution zahlen?",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "den Vertrag",
+   "ipa": "/deːn fɛɐ̯ˈtʁaːk/",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ja, eine Monatsmiete als Kaution. Den Vertrag unterschreiben wir morgen.",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jonas",
+   "role": "npc",
+   "text": "Guten Tag, Sie interessieren sich für die Wohnung, richtig?",
+   "glosses": [
+    {
+     "text": "Wohnung",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ja. Wie hoch ist die Miete im Monat?",
+   "glosses": [
+    {
+     "text": "die Miete",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "im Monat",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Jonas",
+   "role": "npc",
+   "text": "Sie beträgt achthundert im Monat, und die Wohnung ist möbliert.",
+   "glosses": [
+    {
+     "text": "Wohnung",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "im Monat",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "möbliert",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Das klingt gut. Muss ich eine Kaution zahlen?",
+   "glosses": [
+    {
+     "text": "eine Kaution",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Jonas",
+   "role": "npc",
+   "text": "Ja, eine Monatsmiete als Kaution. Den Vertrag unterschreiben wir morgen.",
+   "glosses": [
+    {
+     "text": "Den Vertrag",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Super. Kann ich die Küche noch einmal sehen, bevor ich mich entscheide?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

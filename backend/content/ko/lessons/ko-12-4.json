@@ -1,0 +1,275 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "피드백",
+   "ipa": "pideubaek",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "잠깐 시간 있어? 내 발표에 대해 피드백을 받고 싶어.",
+     "en": "Do you have a few minutes? I would like some feedback on my presentation."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "제안",
+   "ipa": "jean",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "제안이 하나 있어. 특히 처음에는 좀 더 천천히 말해 봐.",
+     "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "비판",
+   "ipa": "bipan",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "또 있어? 솔직하게 말해 줘. 비판은 받아들일 수 있어.",
+     "en": "Anything else? Please be honest. I can take criticism."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "구체적",
+   "ipa": "guchejeok",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "도움이 되네. 어느 슬라이드인지 좀 더 구체적으로 말해 줄 수 있어?",
+     "en": "That is helpful. Could you be more specific about which slides?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "진전",
+   "ipa": "jinjeon",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "전혀. 지난번 발표보다 정말 진전이 있었어.",
+     "en": "Not at all. You have made real progress since your last presentation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "동기를 부여",
+   "ipa": "donggireul buyeo",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "그 말에 계속 연습할 동기를 부여받아.",
+     "en": "That really motivates me to keep practicing."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "잠깐 시간 있어? 내 발표에 대해 피드백을 받고 싶어.",
+   "glosses": [
+    {
+     "text": "피드백",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have a few minutes? I would like some feedback on my presentation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "물론이지. 먼저, 구성이 명확했고 네 예시들이 흥미로웠어.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Of course. First of all, the structure was clear and your examples were interesting."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "고마워. 그럼 뭘 개선할 수 있을까?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Thank you. And what could I improve?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "제안이 하나 있어. 특히 처음에는 좀 더 천천히 말해 봐.",
+   "glosses": [
+    {
+     "text": "제안",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": "I have a suggestion: try to speak more slowly, especially at the beginning."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "사실 긴장했어. 정말 티가 났어?",
+   "glosses": [],
+   "id": "t5",
+   "en": "I did feel nervous. Was it really noticeable?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "조금, 하지만 고치기 쉬워. 주요 요점 사이에 짧게 쉬면 도움이 될 거야.",
+   "glosses": [],
+   "id": "t6",
+   "en": "A little, but it is easy to fix. A short pause between the main points would help."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "또 있어? 솔직하게 말해 줘. 비판은 받아들일 수 있어.",
+   "glosses": [
+    {
+     "text": "비판",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": "Anything else? Please be honest. I can take criticism."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "마지막 슬라이드에 글이 너무 많아서 청중이 듣는 대신 읽기 시작했어.",
+   "glosses": [],
+   "id": "t8",
+   "en": "The final slides had too much text, so the audience started reading instead of listening."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "도움이 되네. 어느 슬라이드인지 좀 더 구체적으로 말해 줄 수 있어?",
+   "glosses": [
+    {
+     "text": "구체적",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": "That is helpful. Could you be more specific about which slides?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "여덟 번째와 아홉 번째. 대신 이미지 하나와 문장 하나를 써 봐.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Slides eight and nine. Use one image and one sentence instead."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "그렇게 할게. 솔직히 잘못됐을까 봐 걱정했어.",
+   "glosses": [],
+   "id": "t11",
+   "en": "I will do that. Honestly, I was afraid it had gone badly."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "전혀. 지난번 발표보다 정말 진전이 있었어.",
+   "glosses": [
+    {
+     "text": "진전",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": "Not at all. You have made real progress since your last presentation."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "그 말에 계속 연습할 동기를 부여받아.",
+   "glosses": [
+    {
+     "text": "동기를 부여",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t13",
+   "en": "That really motivates me to keep practicing."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "좋아. 건설적인 피드백은 사람들에게 동기를 부여해야지, 낙담시키면 안 돼.",
+   "glosses": [
+    {
+     "text": "피드백",
+     "pos": "n.",
+     "meaning": "feedback"
+    },
+    {
+     "text": "동기를 부여",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t14",
+   "en": "Good. Constructive feedback should motivate people, not discourage them."
+  },
+  {
+   "speaker": "Minho",
+   "role": "npc",
+   "text": "동의해. 다음 주에 내가 네 발표에 대해서도 피드백을 줄까?",
+   "glosses": [
+    {
+     "text": "피드백",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t15",
+   "en": "Agreed. Would you like me to give you feedback on yours next week?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "고마울 거야. 열린 마음으로 받아 줘서 고마워.",
+   "glosses": [],
+   "id": "t16",
+   "en": "I would be grateful. Thank you for being open to it."
+  }
+ ],
+ "practice_words": []
+}

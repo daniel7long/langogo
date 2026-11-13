@@ -1,0 +1,181 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "un billete",
+   "ipa": "/un biˈʝe.te/",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Quisiera un billete de ida y vuelta a la capital, por favor.",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "el andén",
+   "ipa": "/el anˈden/",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Claro. El próximo tren sale a las nueve, desde el andén cuatro.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "sale",
+   "ipa": "/ˈsa.le/",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Claro. El próximo tren sale a las nueve, desde el andén cuatro.",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ida y vuelta",
+   "ipa": "/ˈi.ða i ˈβwel.ta/",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Quisiera un billete de ida y vuelta a la capital, por favor.",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "a la hora",
+   "ipa": "/a la ˈo.ɾa/",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "¿Va a la hora hoy?",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "cambiar de tren",
+   "ipa": "/kamˈbjaɾ de ˈtɾen/",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sí, va a la hora. Pero tiene que cambiar de tren en la ciudad siguiente.",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "Buenos días. ¿En qué puedo ayudarle?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Quisiera un billete de ida y vuelta a la capital, por favor.",
+   "glosses": [
+    {
+     "text": "un billete",
+     "pos": "n.",
+     "meaning": "a ticket"
+    },
+    {
+     "text": "ida y vuelta",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "Claro. El próximo tren sale a las nueve, desde el andén cuatro.",
+   "glosses": [
+    {
+     "text": "el andén",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "sale",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "¿Va a la hora hoy?",
+   "glosses": [
+    {
+     "text": "a la hora",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Carlos",
+   "role": "npc",
+   "text": "Sí, va a la hora. Pero tiene que cambiar de tren en la ciudad siguiente.",
+   "glosses": [
+    {
+     "text": "a la hora",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "cambiar de tren",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Entiendo. ¿Cuánto cuesta el billete?",
+   "glosses": [],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

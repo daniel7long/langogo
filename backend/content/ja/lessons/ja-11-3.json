@@ -1,0 +1,264 @@
+{
+ "emoji": "🖼️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "展覧会",
+   "ipa": "tenrankai",
+   "pos": "n.",
+   "meaning": "an exhibition",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "展覧会はどうだった？楽しんでいたみたいだね。",
+     "en": "What did you think of the exhibition? You seemed to enjoy it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "学芸員",
+   "ipa": "gakugei-in",
+   "pos": "n.",
+   "meaning": "a curator",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "とても。学芸員が作品をすごく丁寧に選んでいたよ。",
+     "en": "Very much. The curator chose the pieces very carefully."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "傑作",
+   "ipa": "kessaku",
+   "pos": "n.",
+   "meaning": "a masterpiece",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "最後の部屋の大きな絵。傑作だと言われているんだ。",
+     "en": "The large painting in the last room. It is considered a masterpiece."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "文化遺産",
+   "ipa": "bunka isan",
+   "pos": "n.",
+   "meaning": "heritage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "でも、文化遺産を維持するにはたくさんお金がかかるよ。",
+     "en": "But maintaining cultural heritage costs a lot of money."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "解釈",
+   "ipa": "kaishaku",
+   "pos": "n.",
+   "meaning": "interpretation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "芸術は解釈が自由だから、それが美術館のわくわくするところだよね。",
+     "en": "Art is open to interpretation, which is what makes museums exciting."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "音声ガイド",
+   "ipa": "onsei gaido",
+   "pos": "n.",
+   "meaning": "an audio guide",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "喜んで。今度は事前に音声ガイドをダウンロードしておくよ。",
+     "en": "Gladly. This time I will download the audio guide in advance."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "展覧会はどうだった？楽しんでいたみたいだね。",
+   "glosses": [
+    {
+     "text": "展覧会",
+     "pos": "n.",
+     "meaning": "an exhibition"
+    }
+   ],
+   "id": "t1",
+   "en": "What did you think of the exhibition? You seemed to enjoy it."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "とても。学芸員が作品をすごく丁寧に選んでいたよ。",
+   "glosses": [
+    {
+     "text": "学芸員",
+     "pos": "n.",
+     "meaning": "a curator"
+    }
+   ],
+   "id": "t2",
+   "en": "Very much. The curator chose the pieces very carefully."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "同感だよ。どの作品が一番印象に残った？",
+   "glosses": [],
+   "id": "t3",
+   "en": "I agree. Which work impressed you most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "最後の部屋の大きな絵。傑作だと言われているんだ。",
+   "glosses": [
+    {
+     "text": "傑作",
+     "pos": "n.",
+     "meaning": "a masterpiece"
+    }
+   ],
+   "id": "t4",
+   "en": "The large painting in the last room. It is considered a masterpiece."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "どうしてそんなに有名なんだと思う？",
+   "glosses": [],
+   "id": "t5",
+   "en": "Why do you think it is so famous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "普通の人々をとても正直に描いているからかもしれないね。",
+   "glosses": [],
+   "id": "t6",
+   "en": "Perhaps because it shows ordinary people in a very honest way."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "おもしろいね。音声ガイドを聞いたら、全然違う説明だったよ。",
+   "glosses": [
+    {
+     "text": "音声ガイド",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t7",
+   "en": "Interesting. I listened to the audio guide, and it gave a very different explanation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "芸術は解釈が自由だから、それが美術館のわくわくするところだよね。",
+   "glosses": [
+    {
+     "text": "解釈",
+     "pos": "n.",
+     "meaning": "interpretation"
+    }
+   ],
+   "id": "t8",
+   "en": "Art is open to interpretation, which is what makes museums exciting."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "そうだね。美術館はそんなに高くあるべきじゃないという人もいるよ。",
+   "glosses": [],
+   "id": "t9",
+   "en": "True. Some people say museums should not be so expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "入場料は安くあるべきだと思う。文化はみんなのものだから。",
+   "glosses": [],
+   "id": "t10",
+   "en": "I think entry should be cheap, because culture belongs to everyone."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "でも、文化遺産を維持するにはたくさんお金がかかるよ。",
+   "glosses": [
+    {
+     "text": "文化遺産",
+     "pos": "n.",
+     "meaning": "heritage"
+    }
+   ],
+   "id": "t11",
+   "en": "But maintaining cultural heritage costs a lot of money."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "それは正しい指摘だね。毎月の無料日が妥協案になるかもしれない。",
+   "glosses": [],
+   "id": "t12",
+   "en": "That is a valid point. Perhaps free days each month could be a compromise."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "多くの都市がすでにやっているけど、美術館はすごく混むよ。",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many cities already do that, and the museums become very crowded."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "でも混雑はいい兆候だよ。人々が芸術を大切にしている証拠だから。",
+   "glosses": [],
+   "id": "t14",
+   "en": "Crowds are a good sign, though: they show that people value art."
+  },
+  {
+   "speaker": "Yuki",
+   "role": "npc",
+   "text": "もっともだね。来週末、現代美術館に行かない？",
+   "glosses": [],
+   "id": "t15",
+   "en": "Fair enough. Shall we visit the modern art museum next weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "喜んで。今度は事前に音声ガイドをダウンロードしておくよ。",
+   "glosses": [
+    {
+     "text": "音声ガイド",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t16",
+   "en": "Gladly. This time I will download the audio guide in advance."
+  }
+ ],
+ "practice_words": []
+}

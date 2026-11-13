@@ -1,0 +1,187 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "切符",
+   "ipa": "kippu",
+   "pos": "n.",
+   "meaning": "a ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "わかりました。切符はいくらですか。",
+     "en": "I understand. How much is the ticket?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ホーム",
+   "ipa": "hoomu",
+   "pos": "n.",
+   "meaning": "a platform",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "かしこまりました。次の電車は九時に四番ホームから出ます。",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "出ます",
+   "ipa": "demasu",
+   "pos": "v.",
+   "meaning": "to leave",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "かしこまりました。次の電車は九時に四番ホームから出ます。",
+     "en": "Of course. The next train leaves at nine o'clock from platform four."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "往復",
+   "ipa": "oofuku",
+   "pos": "phr.",
+   "meaning": "a return ticket",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "首都までの往復の切符をお願いします。",
+     "en": "I would like a return ticket to the capital, please."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "時間通り",
+   "ipa": "jikan doori",
+   "pos": "phr.",
+   "meaning": "on time",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "今日は時間通りですか。",
+     "en": "Is it on time today?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "乗り換えて",
+   "ipa": "norikaete",
+   "pos": "phr.",
+   "meaning": "change trains",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "はい、時間通りです。ただ、次の駅で乗り換えてください。",
+     "en": "Yes, it is on time. But you must change trains in the next city."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "おはようございます。どうなさいましたか。",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "首都までの往復の切符をお願いします。",
+   "glosses": [
+    {
+     "text": "切符",
+     "pos": "n.",
+     "meaning": "a ticket"
+    },
+    {
+     "text": "往復",
+     "pos": "phr.",
+     "meaning": "a return ticket"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like a return ticket to the capital, please."
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "かしこまりました。次の電車は九時に四番ホームから出ます。",
+   "glosses": [
+    {
+     "text": "ホーム",
+     "pos": "n.",
+     "meaning": "a platform"
+    },
+    {
+     "text": "出ます",
+     "pos": "v.",
+     "meaning": "to leave"
+    }
+   ],
+   "id": "t3",
+   "en": "Of course. The next train leaves at nine o'clock from platform four."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "今日は時間通りですか。",
+   "glosses": [
+    {
+     "text": "時間通り",
+     "pos": "phr.",
+     "meaning": "on time"
+    }
+   ],
+   "id": "t4",
+   "en": "Is it on time today?"
+  },
+  {
+   "speaker": "Haruto",
+   "role": "npc",
+   "text": "はい、時間通りです。ただ、次の駅で乗り換えてください。",
+   "glosses": [
+    {
+     "text": "時間通り",
+     "pos": "phr.",
+     "meaning": "on time"
+    },
+    {
+     "text": "乗り換えて",
+     "pos": "phr.",
+     "meaning": "change trains"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, it is on time. But you must change trains in the next city."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "わかりました。切符はいくらですか。",
+   "glosses": [
+    {
+     "text": "切符",
+     "pos": "n.",
+     "meaning": "a ticket"
+    }
+   ],
+   "id": "t6",
+   "en": "I understand. How much is the ticket?"
+  }
+ ],
+ "practice_words": []
+}

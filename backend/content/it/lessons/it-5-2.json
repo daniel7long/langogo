@@ -1,0 +1,181 @@
+{
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "mal di testa",
+   "ipa": "/mal di ˈtɛsta/",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ho mal di testa e mal di gola da ieri.",
+     "en": "I have had a headache and a sore throat since yesterday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "medicina",
+   "ipa": "/mediˈtʃiːna/",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "È allergico a qualche medicina?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "una ricetta",
+   "ipa": "/ˈuna riˈtʃɛtta/",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "No, non sono allergico. Ho bisogno di una ricetta?",
+     "en": "No, I am not allergic. Do I need a prescription?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "due volte al giorno",
+   "ipa": "/ˈdue ˈvolte al ˈdʒorno/",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Per questo no. Prenda una compressa due volte al giorno, dopo i pasti.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Prenda",
+   "ipa": "/ˈprɛnda/",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Per questo no. Prenda una compressa due volte al giorno, dopo i pasti.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "allergico",
+   "ipa": "/alˈlɛrdʒiko/",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "È allergico a qualche medicina?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "Buongiorno. Qual è il problema?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. What seems to be the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ho mal di testa e mal di gola da ieri.",
+   "glosses": [
+    {
+     "text": "mal di testa",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a headache and a sore throat since yesterday."
+  },
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "È allergico a qualche medicina?",
+   "glosses": [
+    {
+     "text": "medicina",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "allergico",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t3",
+   "en": "Are you allergic to any medicine?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "No, non sono allergico. Ho bisogno di una ricetta?",
+   "glosses": [
+    {
+     "text": "una ricetta",
+     "pos": "n.",
+     "meaning": "a prescription"
+    },
+    {
+     "text": "allergico",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t4",
+   "en": "No, I am not allergic. Do I need a prescription?"
+  },
+  {
+   "speaker": "Matteo",
+   "role": "npc",
+   "text": "Per questo no. Prenda una compressa due volte al giorno, dopo i pasti.",
+   "glosses": [
+    {
+     "text": "due volte al giorno",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "Prenda",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": "Not for this. Take one tablet twice a day, after meals."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Grazie. Prenderò la prima stasera.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. I will take the first one this evening."
+  }
+ ],
+ "practice_words": []
+}

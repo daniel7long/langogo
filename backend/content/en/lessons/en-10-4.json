@@ -1,0 +1,267 @@
+{
+ "emoji": "🚌",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "traffic",
+   "ipa": "/ˈtɹæfɪk/",
+   "pos": "n.",
+   "meaning": "traffic",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Convenient, yes, but you also lose time in traffic and spend a lot on parking.",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "pollution",
+   "ipa": "/pəˈluʃən/",
+   "pos": "n.",
+   "meaning": "pollution",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I think it is a bold idea, but it could reduce pollution and traffic significantly.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "reliable",
+   "ipa": "/ɹɪˈlaɪəbəl/",
+   "pos": "adj.",
+   "meaning": "reliable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Public transport would have to improve first. Our buses are rarely reliable.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "fares",
+   "ipa": "/fɛɹz/",
+   "pos": "n.",
+   "meaning": "a fare",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "And the fares are expensive for families with several children.",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "convenient",
+   "ipa": "/kənˈvinjənt/",
+   "pos": "adj.",
+   "meaning": "convenient",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Cars are so convenient, though. I can go anywhere whenever I want.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "Public transport",
+   "ipa": "/ˈpʌblɪk ˈtɹænspɔɹt/",
+   "pos": "n.",
+   "meaning": "public transport",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Public transport would have to improve first. Our buses are rarely reliable.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Our city wants to ban cars from the center. What do you think?",
+   "glosses": [],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I think it is a bold idea, but it could reduce pollution and traffic significantly.",
+   "glosses": [
+    {
+     "text": "traffic",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "pollution",
+     "pos": "n.",
+     "meaning": "pollution"
+    }
+   ],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "But what about people who depend on their cars, like delivery drivers?",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "They could receive special permits, so the plan would not hurt local businesses.",
+   "glosses": [],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Public transport would have to improve first. Our buses are rarely reliable.",
+   "glosses": [
+    {
+     "text": "reliable",
+     "pos": "adj.",
+     "meaning": "reliable"
+    },
+    {
+     "text": "Public transport",
+     "pos": "n.",
+     "meaning": "public transport"
+    }
+   ],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Exactly. Without frequent and punctual services, the plan will fail.",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "And the fares are expensive for families with several children.",
+   "glosses": [
+    {
+     "text": "fares",
+     "pos": "n.",
+     "meaning": "a fare"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "A cheaper monthly pass would encourage more people to leave their cars at home.",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Cars are so convenient, though. I can go anywhere whenever I want.",
+   "glosses": [
+    {
+     "text": "convenient",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Convenient, yes, but you also lose time in traffic and spend a lot on parking.",
+   "glosses": [
+    {
+     "text": "traffic",
+     "pos": "n.",
+     "meaning": "traffic"
+    },
+    {
+     "text": "Convenient",
+     "pos": "adj.",
+     "meaning": "convenient"
+    }
+   ],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "That is true. I spend nearly an hour a day looking for a place to park.",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Some cities show that cycling lanes can work very well.",
+   "glosses": [],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "Perhaps, but our winters are harsher than theirs.",
+   "glosses": [],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Fair enough, which is why a mix of solutions is probably necessary.",
+   "glosses": [],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "Mark",
+   "role": "npc",
+   "text": "I might support the plan if the trains and buses improve.",
+   "glosses": [],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "That would be the right condition. Change works best when people have alternatives.",
+   "glosses": [],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

@@ -1,0 +1,176 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "приглашение",
+   "ipa": "priglashénije",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Какое прекрасное приглашение! Да, с удовольствием приду.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "приду",
+   "ipa": "pridú",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Какое прекрасное приглашение! Да, с удовольствием приду.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "вечеринку",
+   "ipa": "vecherínku",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Привет! В субботу у меня день рождения, и я устраиваю вечеринку. Ты придёшь?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "принести",
+   "ipa": "prinestí",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Мне принести что-нибудь поесть или попить?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "день рождения",
+   "ipa": "den' rozhdénija",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Привет! В субботу у меня день рождения, и я устраиваю вечеринку. Ты придёшь?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "подарок",
+   "ipa": "podárok",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Просто принеси хорошее настроение. И, может быть, небольшой подарок для меня, ха-ха.",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Привет! В субботу у меня день рождения, и я устраиваю вечеринку. Ты придёшь?",
+   "glosses": [
+    {
+     "text": "вечеринку",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "день рождения",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Какое прекрасное приглашение! Да, с удовольствием приду.",
+   "glosses": [
+    {
+     "text": "приглашение",
+     "pos": "n.",
+     "meaning": "an invitation"
+    },
+    {
+     "text": "приду",
+     "pos": "v.",
+     "meaning": "to come"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Отлично! Начало в семь вечера у меня дома.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Мне принести что-нибудь поесть или попить?",
+   "glosses": [
+    {
+     "text": "принести",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Мария",
+   "role": "npc",
+   "text": "Просто принеси хорошее настроение. И, может быть, небольшой подарок для меня, ха-ха.",
+   "glosses": [
+    {
+     "text": "подарок",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Конечно! Тогда увидимся в субботу.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

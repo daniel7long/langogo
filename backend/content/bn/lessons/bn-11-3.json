@@ -1,0 +1,269 @@
+{
+ "emoji": "🖼️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "প্রদর্শনী",
+   "ipa": "prodorshoni",
+   "pos": "n.",
+   "meaning": "an exhibition",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "প্রদর্শনীটা কেমন লাগল? তোমাকে উপভোগ করতে দেখাচ্ছিল।",
+     "en": "What did you think of the exhibition? You seemed to enjoy it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "কিউরেটর",
+   "ipa": "kiuretor",
+   "pos": "n.",
+   "meaning": "a curator",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "খুব। কিউরেটর খুব যত্ন করে শিল্পকর্মগুলো বেছেছেন।",
+     "en": "Very much. The curator chose the pieces very carefully."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "অসামান্য শিল্পকর্ম",
+   "ipa": "oshamanyo shilpokormo",
+   "pos": "n.",
+   "meaning": "a masterpiece",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "শেষ ঘরের বড় ছবিটা। এটাকে অসামান্য শিল্পকর্ম মনে করা হয়।",
+     "en": "The large painting in the last room. It is considered a masterpiece."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ঐতিহ্য",
+   "ipa": "oitijyo",
+   "pos": "n.",
+   "meaning": "heritage",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "কিন্তু সাংস্কৃতিক ঐতিহ্য রক্ষা করতে অনেক টাকা লাগে।",
+     "en": "But maintaining cultural heritage costs a lot of money."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "ব্যাখ্যা",
+   "ipa": "byakkha",
+   "pos": "n.",
+   "meaning": "interpretation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আকর্ষণীয়। আমি অডিও গাইড শুনেছি, আর এটা একেবারে ভিন্ন ব্যাখ্যা দিল।",
+     "en": "Interesting. I listened to the audio guide, and it gave a very different explanation."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "অডিও গাইড",
+   "ipa": "odio gaid",
+   "pos": "n.",
+   "meaning": "an audio guide",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "সানন্দে। এবার আমি আগে থেকেই অডিও গাইড ডাউনলোড করে রাখব।",
+     "en": "Gladly. This time I will download the audio guide in advance."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "প্রদর্শনীটা কেমন লাগল? তোমাকে উপভোগ করতে দেখাচ্ছিল।",
+   "glosses": [
+    {
+     "text": "প্রদর্শনী",
+     "pos": "n.",
+     "meaning": "an exhibition"
+    }
+   ],
+   "id": "t1",
+   "en": "What did you think of the exhibition? You seemed to enjoy it."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "খুব। কিউরেটর খুব যত্ন করে শিল্পকর্মগুলো বেছেছেন।",
+   "glosses": [
+    {
+     "text": "কিউরেটর",
+     "pos": "n.",
+     "meaning": "a curator"
+    }
+   ],
+   "id": "t2",
+   "en": "Very much. The curator chose the pieces very carefully."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "আমি একমত। কোন কাজটি তোমাকে সবচেয়ে বেশি প্রভাবিত করল?",
+   "glosses": [],
+   "id": "t3",
+   "en": "I agree. Which work impressed you most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "শেষ ঘরের বড় ছবিটা। এটাকে অসামান্য শিল্পকর্ম মনে করা হয়।",
+   "glosses": [
+    {
+     "text": "অসামান্য শিল্পকর্ম",
+     "pos": "n.",
+     "meaning": "a masterpiece"
+    }
+   ],
+   "id": "t4",
+   "en": "The large painting in the last room. It is considered a masterpiece."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "তোমার কী মনে হয় এটা কেন এত বিখ্যাত?",
+   "glosses": [],
+   "id": "t5",
+   "en": "Why do you think it is so famous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হয়তো কারণ এটা সাধারণ মানুষকে খুব সৎভাবে দেখায়।",
+   "glosses": [],
+   "id": "t6",
+   "en": "Perhaps because it shows ordinary people in a very honest way."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "আকর্ষণীয়। আমি অডিও গাইড শুনেছি, আর এটা একেবারে ভিন্ন ব্যাখ্যা দিল।",
+   "glosses": [
+    {
+     "text": "ব্যাখ্যা",
+     "pos": "n.",
+     "meaning": "interpretation"
+    },
+    {
+     "text": "অডিও গাইড",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t7",
+   "en": "Interesting. I listened to the audio guide, and it gave a very different explanation."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "শিল্প ব্যাখ্যার জন্য উন্মুক্ত, আর সেটাই জাদুঘরগুলোকে রোমাঞ্চকর করে।",
+   "glosses": [
+    {
+     "text": "ব্যাখ্যা",
+     "pos": "n.",
+     "meaning": "interpretation"
+    }
+   ],
+   "id": "t8",
+   "en": "Art is open to interpretation, which is what makes museums exciting."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "ঠিক। কেউ কেউ বলে জাদুঘর এত ব্যয়বহুল হওয়া উচিত নয়।",
+   "glosses": [],
+   "id": "t9",
+   "en": "True. Some people say museums should not be so expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি মনে করি প্রবেশমূল্য সস্তা হওয়া উচিত, কারণ সংস্কৃতি সবার।",
+   "glosses": [],
+   "id": "t10",
+   "en": "I think entry should be cheap, because culture belongs to everyone."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "কিন্তু সাংস্কৃতিক ঐতিহ্য রক্ষা করতে অনেক টাকা লাগে।",
+   "glosses": [
+    {
+     "text": "ঐতিহ্য",
+     "pos": "n.",
+     "meaning": "heritage"
+    }
+   ],
+   "id": "t11",
+   "en": "But maintaining cultural heritage costs a lot of money."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "এটা বৈধ যুক্তি। হয়তো প্রতি মাসে বিনামূল্যের দিন একটি আপস হতে পারে।",
+   "glosses": [],
+   "id": "t12",
+   "en": "That is a valid point. Perhaps free days each month could be a compromise."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "অনেক শহর ইতিমধ্যে তা-ই করে, আর জাদুঘরগুলো খুব ভিড় হয়ে যায়।",
+   "glosses": [],
+   "id": "t13",
+   "en": "Many cities already do that, and the museums become very crowded."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "তবু ভিড় ভালো লক্ষণ: এটা দেখায় মানুষ শিল্পকে মূল্য দেয়।",
+   "glosses": [],
+   "id": "t14",
+   "en": "Crowds are a good sign, though: they show that people value art."
+  },
+  {
+   "speaker": "Rina",
+   "role": "npc",
+   "text": "ঠিক বলেছ। আমরা কি আগামী সপ্তাহান্তে আধুনিক শিল্প জাদুঘরে যাব?",
+   "glosses": [],
+   "id": "t15",
+   "en": "Fair enough. Shall we visit the modern art museum next weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "সানন্দে। এবার আমি আগে থেকেই অডিও গাইড ডাউনলোড করে রাখব।",
+   "glosses": [
+    {
+     "text": "অডিও গাইড",
+     "pos": "n.",
+     "meaning": "an audio guide"
+    }
+   ],
+   "id": "t16",
+   "en": "Gladly. This time I will download the audio guide in advance."
+  }
+ ],
+ "practice_words": []
+}

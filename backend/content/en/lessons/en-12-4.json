@@ -1,0 +1,270 @@
+{
+ "emoji": "💬",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "feedback",
+   "ipa": "/ˈfidˌbæk/",
+   "pos": "n.",
+   "meaning": "feedback",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Agreed. Would you like me to give you feedback on yours next week?",
+     "en": ""
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "suggestion",
+   "ipa": "/səɡˈdʒɛstʃən/",
+   "pos": "n.",
+   "meaning": "a suggestion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "I have a suggestion: try to speak more slowly, especially at the beginning.",
+     "en": ""
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "criticism",
+   "ipa": "/ˈkɹɪɾəˌsɪzəm/",
+   "pos": "n.",
+   "meaning": "criticism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Anything else? Please be honest. I can take criticism.",
+     "en": ""
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "specific",
+   "ipa": "/spɪˈsɪfɪk/",
+   "pos": "adj.",
+   "meaning": "specific",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "That is helpful. Could you be more specific about which slides?",
+     "en": ""
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "progress",
+   "ipa": "/ˈpɹɑɡɹɛs/",
+   "pos": "n.",
+   "meaning": "progress",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Not at all. You have made real progress since your last presentation.",
+     "en": ""
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "motivates",
+   "ipa": "/ˈmoʊɾɪˌveɪts/",
+   "pos": "v.",
+   "meaning": "to motivate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "That really motivates me to keep practicing.",
+     "en": ""
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Do you have a few minutes? I would like some feedback on my presentation.",
+   "glosses": [
+    {
+     "text": "feedback",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t1",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Of course. First of all, the structure was clear and your examples were interesting.",
+   "glosses": [],
+   "id": "t2",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Thank you. And what could I improve?",
+   "glosses": [],
+   "id": "t3",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I have a suggestion: try to speak more slowly, especially at the beginning.",
+   "glosses": [
+    {
+     "text": "suggestion",
+     "pos": "n.",
+     "meaning": "a suggestion"
+    }
+   ],
+   "id": "t4",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "I did feel nervous. Was it really noticeable?",
+   "glosses": [],
+   "id": "t5",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "A little, but it is easy to fix. A short pause between the main points would help.",
+   "glosses": [],
+   "id": "t6",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Anything else? Please be honest. I can take criticism.",
+   "glosses": [
+    {
+     "text": "criticism",
+     "pos": "n.",
+     "meaning": "criticism"
+    }
+   ],
+   "id": "t7",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "The final slides had too much text, so the audience started reading instead of listening.",
+   "glosses": [],
+   "id": "t8",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "That is helpful. Could you be more specific about which slides?",
+   "glosses": [
+    {
+     "text": "specific",
+     "pos": "adj.",
+     "meaning": "specific"
+    }
+   ],
+   "id": "t9",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Slides eight and nine. Use one image and one sentence instead.",
+   "glosses": [],
+   "id": "t10",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "I will do that. Honestly, I was afraid it had gone badly.",
+   "glosses": [],
+   "id": "t11",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Not at all. You have made real progress since your last presentation.",
+   "glosses": [
+    {
+     "text": "progress",
+     "pos": "n.",
+     "meaning": "progress"
+    }
+   ],
+   "id": "t12",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "That really motivates me to keep practicing.",
+   "glosses": [
+    {
+     "text": "motivates",
+     "pos": "v.",
+     "meaning": "to motivate"
+    }
+   ],
+   "id": "t13",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Good. Constructive feedback should motivate people, not discourage them.",
+   "glosses": [
+    {
+     "text": "feedback",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t14",
+   "en": ""
+  },
+  {
+   "speaker": "James",
+   "role": "npc",
+   "text": "Agreed. Would you like me to give you feedback on yours next week?",
+   "glosses": [
+    {
+     "text": "feedback",
+     "pos": "n.",
+     "meaning": "feedback"
+    }
+   ],
+   "id": "t15",
+   "en": ""
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "I would be grateful. Thank you for being open to it.",
+   "glosses": [],
+   "id": "t16",
+   "en": ""
+  }
+ ],
+ "practice_words": []
+}

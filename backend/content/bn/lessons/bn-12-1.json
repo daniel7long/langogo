@@ -1,0 +1,258 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "স্থানান্তরিত",
+   "ipa": "sthanantorito",
+   "pos": "v.",
+   "meaning": "to relocate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "আমি শুনলাম তুমি অন্য দেশে স্থানান্তরিত হওয়ার কথা ভাবছ। এটা কি সত্যি?",
+     "en": "I heard you are thinking about relocating to another country. Is that true?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ভিসা",
+   "ipa": "bhisa",
+   "pos": "n.",
+   "meaning": "a visa",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "খুব। আমার ভিসা লাগবে, আর দূর থেকে একটি ফ্ল্যাট খুঁজতে হবে।",
+     "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "সাংস্কৃতিক ধাক্কা",
+   "ipa": "shangskritik dhakka",
+   "pos": "phr.",
+   "meaning": "culture shock",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "অনেক প্রবাসী বলেন প্রথম মাসগুলো সাংস্কৃতিক ধাক্কার কারণে সবচেয়ে কঠিন।",
+     "en": "Many expats say the first months are the hardest because of culture shock."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "মানিয়ে নিতে",
+   "ipa": "maniye nite",
+   "pos": "v.",
+   "meaning": "to adapt",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "হ্যাঁ, আমি ইতিমধ্যে শুরু করেছি, আর এটা আমাকে দ্রুত মানিয়ে নিতে সাহায্য করবে।",
+     "en": "Yes, I have already started, and it will help me adapt faster."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "বাড়ির জন্য মন খারাপ",
+   "ipa": "barir jonyo mon kharap",
+   "pos": "adj.",
+   "meaning": "homesick",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "পরিবার আর বন্ধুদের ছেড়ে যাওয়া। আমার মনে হয় শুরুতে বাড়ির জন্য মন খারাপ হবে।",
+     "en": "Leaving my family and friends. I think I will feel homesick at first."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "সুযোগ",
+   "ipa": "shujog",
+   "pos": "n.",
+   "meaning": "an opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "হ্যাঁ, আমি বিদেশে চাকরির প্রস্তাব পেয়েছি, আর এটা দারুণ সুযোগ।",
+     "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "আমি শুনলাম তুমি অন্য দেশে স্থানান্তরিত হওয়ার কথা ভাবছ। এটা কি সত্যি?",
+   "glosses": [
+    {
+     "text": "স্থানান্তরিত",
+     "pos": "v.",
+     "meaning": "to relocate"
+    }
+   ],
+   "id": "t1",
+   "en": "I heard you are thinking about relocating to another country. Is that true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, আমি বিদেশে চাকরির প্রস্তাব পেয়েছি, আর এটা দারুণ সুযোগ।",
+   "glosses": [
+    {
+     "text": "সুযোগ",
+     "pos": "n.",
+     "meaning": "an opportunity"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I received a job offer abroad, and it is a great opportunity."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "অভিনন্দন! কিন্তু এটা বড় সিদ্ধান্ত। তুমি কি নার্ভাস?",
+   "glosses": [],
+   "id": "t3",
+   "en": "Congratulations! But that is a big decision. Are you nervous?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "খুব। আমার ভিসা লাগবে, আর দূর থেকে একটি ফ্ল্যাট খুঁজতে হবে।",
+   "glosses": [
+    {
+     "text": "ভিসা",
+     "pos": "n.",
+     "meaning": "a visa"
+    }
+   ],
+   "id": "t4",
+   "en": "Very. I will need a visa, and I have to find an apartment from a distance."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "কোন বিষয়ে তুমি সবচেয়ে বেশি চিন্তিত?",
+   "glosses": [],
+   "id": "t5",
+   "en": "What worries you the most?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "পরিবার আর বন্ধুদের ছেড়ে যাওয়া। আমার মনে হয় শুরুতে বাড়ির জন্য মন খারাপ হবে।",
+   "glosses": [
+    {
+     "text": "বাড়ির জন্য মন খারাপ",
+     "pos": "adj.",
+     "meaning": "homesick"
+    }
+   ],
+   "id": "t6",
+   "en": "Leaving my family and friends. I think I will feel homesick at first."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "অনেক প্রবাসী বলেন প্রথম মাসগুলো সাংস্কৃতিক ধাক্কার কারণে সবচেয়ে কঠিন।",
+   "glosses": [
+    {
+     "text": "সাংস্কৃতিক ধাক্কা",
+     "pos": "phr.",
+     "meaning": "culture shock"
+    }
+   ],
+   "id": "t7",
+   "en": "Many expats say the first months are the hardest because of culture shock."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "আমি তা শুনেছি, তাই যাওয়ার আগে স্থানীয় রীতিনীতি জানার চেষ্টা করছি।",
+   "glosses": [],
+   "id": "t8",
+   "en": "I have heard that, so I am trying to learn about local customs before I go."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "এটা বুদ্ধিমানের কাজ। তুমি কি ভাষাও শিখবে?",
+   "glosses": [],
+   "id": "t9",
+   "en": "That is wise. Will you learn the language as well?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ, আমি ইতিমধ্যে শুরু করেছি, আর এটা আমাকে দ্রুত মানিয়ে নিতে সাহায্য করবে।",
+   "glosses": [
+    {
+     "text": "মানিয়ে নিতে",
+     "pos": "v.",
+     "meaning": "to adapt"
+    }
+   ],
+   "id": "t10",
+   "en": "Yes, I have already started, and it will help me adapt faster."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "আর যদি তোমার সেখানে ভালো না লাগে?",
+   "glosses": [],
+   "id": "t11",
+   "en": "What if you do not like it there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "তাহলে এক বছর পর ফিরে আসতে পারি। আমি এটাকে চূড়ান্ত সিদ্ধান্ত মনে করি না।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Then I can come back after a year. I do not see it as a final decision."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "এটা সুস্থ মনোভাব। চুক্তি ভাঙা যায়, কিন্তু অভিজ্ঞতা থেকে যায়।",
+   "glosses": [],
+   "id": "t13",
+   "en": "That is a healthy attitude. Contracts can be broken, but experience stays."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ঠিক। কঠিন হলেও আমি নিজের সম্পর্কে অনেক কিছু শিখব।",
+   "glosses": [],
+   "id": "t14",
+   "en": "Exactly. Even if it is difficult, I will learn a lot about myself."
+  },
+  {
+   "speaker": "Mitu",
+   "role": "npc",
+   "text": "অনুগ্রহ করে যোগাযোগ রেখো আর আমাদের সবকিছু বোলো।",
+   "glosses": [],
+   "id": "t15",
+   "en": "Please keep in touch and tell us everything."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "কথা দিচ্ছি। আমি থিতু হলে তোমরা সবাই আমার সঙ্গে দেখা করতে আসতে পারো।",
+   "glosses": [],
+   "id": "t16",
+   "en": "I promise. You can all visit me once I am settled in."
+  }
+ ],
+ "practice_words": []
+}

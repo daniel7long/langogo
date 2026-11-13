@@ -1,0 +1,181 @@
+{
+ "emoji": "💊",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "Kopfschmerzen",
+   "ipa": "/ˈkɔpfˌʃmɛʁtsn̩/",
+   "pos": "n.",
+   "meaning": "a headache",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ich habe seit gestern Kopfschmerzen und Halsschmerzen.",
+     "en": "I have had a headache and a sore throat since yesterday."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Medikament",
+   "ipa": "/medikaˈmɛnt/",
+   "pos": "n.",
+   "meaning": "medicine",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sind Sie gegen ein Medikament allergisch?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "Rezept",
+   "ipa": "/ʁeˈtsɛpt/",
+   "pos": "n.",
+   "meaning": "a prescription",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Nein, ich bin nicht allergisch. Brauche ich ein Rezept?",
+     "en": "No, I am not allergic. Do I need a prescription?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "zweimal täglich",
+   "ipa": "/ˈtsvaɪ̯maːl ˈtɛːklɪç/",
+   "pos": "phr.",
+   "meaning": "twice a day",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Dafür nicht. Nehmen Sie zweimal täglich eine Tablette, nach dem Essen.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "Nehmen Sie",
+   "ipa": "/ˈneːmən ziː/",
+   "pos": "v.",
+   "meaning": "to take",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Dafür nicht. Nehmen Sie zweimal täglich eine Tablette, nach dem Essen.",
+     "en": "Not for this. Take one tablet twice a day, after meals."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "allergisch",
+   "ipa": "/aˈlɛʁɡɪʃ/",
+   "pos": "adj.",
+   "meaning": "allergic",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sind Sie gegen ein Medikament allergisch?",
+     "en": "Are you allergic to any medicine?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Guten Morgen. Was ist das Problem?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Good morning. What seems to be the problem?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ich habe seit gestern Kopfschmerzen und Halsschmerzen.",
+   "glosses": [
+    {
+     "text": "Kopfschmerzen",
+     "pos": "n.",
+     "meaning": "a headache"
+    }
+   ],
+   "id": "t2",
+   "en": "I have had a headache and a sore throat since yesterday."
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Sind Sie gegen ein Medikament allergisch?",
+   "glosses": [
+    {
+     "text": "Medikament",
+     "pos": "n.",
+     "meaning": "medicine"
+    },
+    {
+     "text": "allergisch",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t3",
+   "en": "Are you allergic to any medicine?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nein, ich bin nicht allergisch. Brauche ich ein Rezept?",
+   "glosses": [
+    {
+     "text": "Rezept",
+     "pos": "n.",
+     "meaning": "a prescription"
+    },
+    {
+     "text": "allergisch",
+     "pos": "adj.",
+     "meaning": "allergic"
+    }
+   ],
+   "id": "t4",
+   "en": "No, I am not allergic. Do I need a prescription?"
+  },
+  {
+   "speaker": "Felix",
+   "role": "npc",
+   "text": "Dafür nicht. Nehmen Sie zweimal täglich eine Tablette, nach dem Essen.",
+   "glosses": [
+    {
+     "text": "zweimal täglich",
+     "pos": "phr.",
+     "meaning": "twice a day"
+    },
+    {
+     "text": "Nehmen Sie",
+     "pos": "v.",
+     "meaning": "to take"
+    }
+   ],
+   "id": "t5",
+   "en": "Not for this. Take one tablet twice a day, after meals."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Danke. Die erste nehme ich heute Abend.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Thank you. I will take the first one this evening."
+  }
+ ],
+ "practice_words": []
+}

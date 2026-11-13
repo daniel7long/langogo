@@ -1,0 +1,181 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "convite",
+   "ipa": "/kõˈvi.tʃi/",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Que convite lindo! Sim, eu adoraria vir.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "vir",
+   "ipa": "/viʁ/",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Que convite lindo! Sim, eu adoraria vir.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "uma festa",
+   "ipa": "/ˈu.ma ˈfɛs.ta/",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Oi! Sábado é o meu aniversário e vou fazer uma festa. Você pode vir?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "trazer",
+   "ipa": "/tɾaˈzeʁ/",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Devo trazer alguma coisa para comer ou beber?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "aniversário",
+   "ipa": "/a.ni.veʁˈsa.ɾju/",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Oi! Sábado é o meu aniversário e vou fazer uma festa. Você pode vir?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "um presente",
+   "ipa": "/ũ pɾeˈzẽ.tʃi/",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Só traga bom humor. E talvez um presente pequeno para mim, rá, rá.",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Júlia",
+   "role": "npc",
+   "text": "Oi! Sábado é o meu aniversário e vou fazer uma festa. Você pode vir?",
+   "glosses": [
+    {
+     "text": "vir",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "uma festa",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "aniversário",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Que convite lindo! Sim, eu adoraria vir.",
+   "glosses": [
+    {
+     "text": "convite",
+     "pos": "n.",
+     "meaning": "an invitation"
+    },
+    {
+     "text": "vir",
+     "pos": "v.",
+     "meaning": "to come"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Júlia",
+   "role": "npc",
+   "text": "Que bom! Começa às sete da noite, na minha casa.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Devo trazer alguma coisa para comer ou beber?",
+   "glosses": [
+    {
+     "text": "trazer",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Júlia",
+   "role": "npc",
+   "text": "Só traga bom humor. E talvez um presente pequeno para mim, rá, rá.",
+   "glosses": [
+    {
+     "text": "um presente",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Claro! Então nos vemos no sábado.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}

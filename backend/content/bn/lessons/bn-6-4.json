@@ -1,0 +1,187 @@
+{
+ "emoji": "🏖️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "ছুটি",
+   "ipa": "chhuti",
+   "pos": "n.",
+   "meaning": "a holiday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "তোমার গরমের ছুটির কোনো পরিকল্পনা আছে?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "সমুদ্রসৈকত",
+   "ipa": "shomudroshoikot",
+   "pos": "n.",
+   "meaning": "the beach",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "হ্যাঁ! আমি এক সপ্তাহের জন্য সমুদ্রসৈকতে যেতে চাই।",
+     "en": "Yes! I want to go to the beach for one week."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "বুক",
+   "ipa": "buk",
+   "pos": "v.",
+   "meaning": "to book",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "চমৎকার। তুমি কি হোটেল আগেই বুক করেছ?",
+     "en": "Wonderful. Did you already book the hotel?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "পরিকল্পনা",
+   "ipa": "porikolpona",
+   "pos": "n.",
+   "meaning": "a plan",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "তোমার গরমের ছুটির কোনো পরিকল্পনা আছে?",
+     "en": "Do you have plans for your summer vacation?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "আবহাওয়া",
+   "ipa": "abohawa",
+   "pos": "n.",
+   "meaning": "the weather",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "এখনও না। আজ রাতে আবহাওয়া দেখে বুক করব।",
+     "en": "Not yet. I will book it tonight, when I check the weather."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "গুছিয়ে",
+   "ipa": "guchhiye",
+   "pos": "v.",
+   "meaning": "to pack",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "ধন্যবাদ! এই সপ্তাহান্তে আমি পরিকল্পনা করব আর ব্যাগ গুছিয়ে নেব।",
+     "en": "Thanks! I will make a plan and pack my bag this weekend."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "তোমার গরমের ছুটির কোনো পরিকল্পনা আছে?",
+   "glosses": [
+    {
+     "text": "ছুটি",
+     "pos": "n.",
+     "meaning": "a holiday"
+    },
+    {
+     "text": "পরিকল্পনা",
+     "pos": "n.",
+     "meaning": "a plan"
+    }
+   ],
+   "id": "t1",
+   "en": "Do you have plans for your summer vacation?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "হ্যাঁ! আমি এক সপ্তাহের জন্য সমুদ্রসৈকতে যেতে চাই।",
+   "glosses": [
+    {
+     "text": "সমুদ্রসৈকত",
+     "pos": "n.",
+     "meaning": "the beach"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes! I want to go to the beach for one week."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "চমৎকার। তুমি কি হোটেল আগেই বুক করেছ?",
+   "glosses": [
+    {
+     "text": "বুক",
+     "pos": "v.",
+     "meaning": "to book"
+    }
+   ],
+   "id": "t3",
+   "en": "Wonderful. Did you already book the hotel?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "এখনও না। আজ রাতে আবহাওয়া দেখে বুক করব।",
+   "glosses": [
+    {
+     "text": "বুক",
+     "pos": "v.",
+     "meaning": "to book"
+    },
+    {
+     "text": "আবহাওয়া",
+     "pos": "n.",
+     "meaning": "the weather"
+    }
+   ],
+   "id": "t4",
+   "en": "Not yet. I will book it tonight, when I check the weather."
+  },
+  {
+   "speaker": "Rahim",
+   "role": "npc",
+   "text": "ভালো ধারণা। সানস্ক্রিন আর টুপি নিতে ভুলো না।",
+   "glosses": [],
+   "id": "t5",
+   "en": "Good idea. Do not forget to pack sunscreen and a hat."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "ধন্যবাদ! এই সপ্তাহান্তে আমি পরিকল্পনা করব আর ব্যাগ গুছিয়ে নেব।",
+   "glosses": [
+    {
+     "text": "পরিকল্পনা",
+     "pos": "n.",
+     "meaning": "a plan"
+    },
+    {
+     "text": "গুছিয়ে",
+     "pos": "v.",
+     "meaning": "to pack"
+    }
+   ],
+   "id": "t6",
+   "en": "Thanks! I will make a plan and pack my bag this weekend."
+  }
+ ],
+ "practice_words": []
+}

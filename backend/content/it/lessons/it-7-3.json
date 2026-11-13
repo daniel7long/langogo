@@ -1,0 +1,230 @@
+{
+ "emoji": "📊",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "la riunione",
+   "ipa": "/la riuˈnjoːne/",
+   "pos": "n.",
+   "meaning": "a meeting",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Iniziamo la riunione. Tutti hanno l'ordine del giorno, vero?",
+     "en": "Let us start the meeting. Everyone has the agenda, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "ordine del giorno",
+   "ipa": "/ˈordine del ˈdʒorno/",
+   "pos": "n.",
+   "meaning": "an agenda",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Iniziamo la riunione. Tutti hanno l'ordine del giorno, vero?",
+     "en": "Let us start the meeting. Everyone has the agenda, right?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "il progetto",
+   "ipa": "/il proˈdʒɛtto/",
+   "pos": "n.",
+   "meaning": "a project",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Esatto. Come sta andando il progetto finora?",
+     "en": "Correct. How is the project going so far?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "propongo",
+   "ipa": "/proˈpoŋɡo/",
+   "pos": "v.",
+   "meaning": "to suggest",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Propongo di aggiungere una persona alla squadra questa settimana.",
+     "en": "I suggest that we add one person to the team this week."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "d'accordo",
+   "ipa": "/dakˈkordo/",
+   "pos": "v.",
+   "meaning": "to agree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "È una possibilità. Siete tutti d'accordo?",
+     "en": "That is a possibility. Does everybody agree?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "la relazione",
+   "ipa": "/la relatˈtsjoːne/",
+   "pos": "n.",
+   "meaning": "a report",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Io sono d'accordo, e posso scrivere la relazione sui cambiamenti.",
+     "en": "I agree, and I can write the report about the changes."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Iniziamo la riunione. Tutti hanno l'ordine del giorno, vero?",
+   "glosses": [
+    {
+     "text": "la riunione",
+     "pos": "n.",
+     "meaning": "a meeting"
+    },
+    {
+     "text": "ordine del giorno",
+     "pos": "n.",
+     "meaning": "an agenda"
+    }
+   ],
+   "id": "t1",
+   "en": "Let us start the meeting. Everyone has the agenda, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sì, ce l'ho. Il primo punto è il nuovo progetto.",
+   "glosses": [],
+   "id": "t2",
+   "en": "Yes, I have it. The first point is the new project."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Esatto. Come sta andando il progetto finora?",
+   "glosses": [
+    {
+     "text": "il progetto",
+     "pos": "n.",
+     "meaning": "a project"
+    }
+   ],
+   "id": "t3",
+   "en": "Correct. How is the project going so far?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Va bene, ma siamo in ritardo di due giorni rispetto al programma.",
+   "glosses": [],
+   "id": "t4",
+   "en": "It is going well, but we are two days behind schedule."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Che cosa propone di fare al riguardo?",
+   "glosses": [],
+   "id": "t5",
+   "en": "What do you suggest we do about it?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Propongo di aggiungere una persona alla squadra questa settimana.",
+   "glosses": [
+    {
+     "text": "Propongo",
+     "pos": "v.",
+     "meaning": "to suggest"
+    }
+   ],
+   "id": "t6",
+   "en": "I suggest that we add one person to the team this week."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "È una possibilità. Siete tutti d'accordo?",
+   "glosses": [
+    {
+     "text": "d'accordo",
+     "pos": "v.",
+     "meaning": "to agree"
+    }
+   ],
+   "id": "t7",
+   "en": "That is a possibility. Does everybody agree?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Io sono d'accordo, e posso scrivere la relazione sui cambiamenti.",
+   "glosses": [
+    {
+     "text": "d'accordo",
+     "pos": "v.",
+     "meaning": "to agree"
+    },
+    {
+     "text": "la relazione",
+     "pos": "n.",
+     "meaning": "a report"
+    }
+   ],
+   "id": "t8",
+   "en": "I agree, and I can write the report about the changes."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Grazie. Me la mandi entro venerdì, per favore.",
+   "glosses": [],
+   "id": "t9",
+   "en": "Thank you. Please send it to me by Friday."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Nessun problema. La invierò giovedì pomeriggio.",
+   "glosses": [],
+   "id": "t10",
+   "en": "No problem. I will send it on Thursday afternoon."
+  },
+  {
+   "speaker": "Chiara",
+   "role": "npc",
+   "text": "Perfetto. C'è altro prima di finire?",
+   "glosses": [],
+   "id": "t11",
+   "en": "Perfect. Is there anything else before we finish?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Solo una cosa: potremmo rivederci lunedì prossimo?",
+   "glosses": [],
+   "id": "t12",
+   "en": "Just one thing: could we meet again next Monday?"
+  }
+ ],
+ "practice_words": []
+}

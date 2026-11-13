@@ -1,0 +1,263 @@
+{
+ "emoji": "📱",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "영향",
+   "ipa": "yeonghyang",
+   "pos": "n.",
+   "meaning": "influence",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "솔직히 그래. 우리가 스스로를 보는 방식에 큰 영향을 준다고 생각해.",
+     "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "개인정보",
+   "ipa": "gaeinjeongbo",
+   "pos": "n.",
+   "meaning": "privacy",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "동의해. 개인정보는 어때? 회사들이 우리에 대한 데이터를 너무 많이 모으잖아.",
+     "en": "I agree. What about privacy? Companies collect so much data about us."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "퍼지",
+   "ipa": "peoji",
+   "pos": "v.",
+   "meaning": "to spread",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "그게 가장 큰 걱정이야. 오해를 부르는 뉴스는 사실보다 훨씬 빨리 퍼지거든.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "오해를 부르",
+   "ipa": "ohaereul bureu",
+   "pos": "adj.",
+   "meaning": "misleading",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "그게 가장 큰 걱정이야. 오해를 부르는 뉴스는 사실보다 훨씬 빨리 퍼지거든.",
+     "en": "That is my main concern. Misleading news spreads much faster than facts."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "규제",
+   "ipa": "gyuje",
+   "pos": "v.",
+   "meaning": "to regulate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "규제는 까다로워. 무엇이 사실인지 누가 정해?",
+     "en": "Regulation is tricky. Who decides what is true?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "중독",
+   "ipa": "jungdok",
+   "pos": "adj.",
+   "meaning": "addicted",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "심지어 휴대폰에 중독됐다고 인정하는 사람도 있어.",
+     "en": "Some people even admit they are addicted to their phones."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "사람들이 하루에 네 시간씩 소셜 미디어에 쓴다고 읽었어. 걱정스럽지 않아?",
+   "glosses": [],
+   "id": "t1",
+   "en": "I read that people spend four hours a day on social media. Do you find that worrying?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "솔직히 그래. 우리가 스스로를 보는 방식에 큰 영향을 준다고 생각해.",
+   "glosses": [
+    {
+     "text": "영향",
+     "pos": "n.",
+     "meaning": "influence"
+    }
+   ],
+   "id": "t2",
+   "en": "Honestly, yes. I think it has a huge influence on how we see ourselves."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "어떤 면에서? 많은 사람들은 그냥 연결을 유지하는 데 도움이 된다고 하던데.",
+   "glosses": [],
+   "id": "t3",
+   "en": "In what way? Many people say it simply helps them stay connected."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그렇긴 한데, 내 삶을 온라인의 완벽한 이미지와 비교하면 자존감이 상할 수 있어.",
+   "glosses": [],
+   "id": "t4",
+   "en": "It does, but comparing your life with perfect images online can damage self-esteem."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "맞아. 그럼 거기서 읽는 정보는 어때?",
+   "glosses": [],
+   "id": "t5",
+   "en": "That is true. And what about the information we read there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그게 가장 큰 걱정이야. 오해를 부르는 뉴스는 사실보다 훨씬 빨리 퍼지거든.",
+   "glosses": [
+    {
+     "text": "퍼지",
+     "pos": "v.",
+     "meaning": "to spread"
+    },
+    {
+     "text": "오해를 부르",
+     "pos": "adj.",
+     "meaning": "misleading"
+    }
+   ],
+   "id": "t6",
+   "en": "That is my main concern. Misleading news spreads much faster than facts."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "플랫폼이 그것에 책임을 져야 한다고 생각해?",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you think the platforms should be responsible for that?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "일부는. 표현의 자유가 보호된다면 정부가 더 엄격하게 규제해야 한다고 봐.",
+   "glosses": [
+    {
+     "text": "규제",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t8",
+   "en": "Partly. I believe governments should regulate them more strictly, as long as freedom of speech is protected."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "규제는 까다로워. 무엇이 사실인지 누가 정해?",
+   "glosses": [
+    {
+     "text": "규제",
+     "pos": "v.",
+     "meaning": "to regulate"
+    }
+   ],
+   "id": "t9",
+   "en": "Regulation is tricky. Who decides what is true?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "좋은 지적이야. 해결책은 교육일지도 몰라. 출처를 확인하는 법을 가르치는 거지.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Fair point. Maybe the solution is education: teaching people to check their sources."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "동의해. 개인정보는 어때? 회사들이 우리에 대한 데이터를 너무 많이 모으잖아.",
+   "glosses": [
+    {
+     "text": "개인정보",
+     "pos": "n.",
+     "meaning": "privacy"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. What about privacy? Companies collect so much data about us."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "그것도 걱정돼. 대부분의 사용자는 동의하기 전에 약관을 읽지 않아.",
+   "glosses": [],
+   "id": "t12",
+   "en": "That worries me too. Most users never read the terms and conditions before accepting them."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "심지어 휴대폰에 중독됐다고 인정하는 사람도 있어.",
+   "glosses": [
+    {
+     "text": "중독",
+     "pos": "adj.",
+     "meaning": "addicted"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people even admit they are addicted to their phones."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "나는 그 정도까지는 아니지만, 무의식적으로 확인하는 건 알아차려.",
+   "glosses": [],
+   "id": "t14",
+   "en": "I would not go that far, but I do notice that I check mine automatically."
+  },
+  {
+   "speaker": "Minji",
+   "role": "npc",
+   "text": "그럼 소셜 미디어를 완전히 끊을 일이 있을까?",
+   "glosses": [],
+   "id": "t15",
+   "en": "So would you ever quit social media entirely?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "아마 없겠지만, 시간을 제한하려고 노력하고 있고 벌써 차이가 나.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Probably not, but I am trying to limit my time, and it already makes a difference."
+  }
+ ],
+ "practice_words": []
+}

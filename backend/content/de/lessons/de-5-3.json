@@ -1,0 +1,181 @@
+{
+ "emoji": "📮",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "Paket",
+   "ipa": "/paˈkeːt/",
+   "pos": "n.",
+   "meaning": "a parcel",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ich möchte dieses Paket nach Kanada schicken, bitte.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "Briefmarken",
+   "ipa": "/ˈbʁiːfˌmaʁkn̩/",
+   "pos": "n.",
+   "meaning": "a stamp",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ungefähr eine Woche. Mit den Briefmarken macht es neunzehn Euro.",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "schicken",
+   "ipa": "/ˈʃɪkn̩/",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ich möchte dieses Paket nach Kanada schicken, bitte.",
+     "en": "I would like to send this parcel to Canada, please."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "die Adresse",
+   "ipa": "/diː aˈdʁɛsə/",
+   "pos": "n.",
+   "meaning": "the address",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ich prüfe das Gewicht. Es sind zwei Kilo. Bitte schreiben Sie hier die Adresse auf.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "das Gewicht",
+   "ipa": "/das ɡəˈvɪçt/",
+   "pos": "n.",
+   "meaning": "the weight",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ich prüfe das Gewicht. Es sind zwei Kilo. Bitte schreiben Sie hier die Adresse auf.",
+     "en": "Let me check the weight. It is two kilos. Please write the address here."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "eine Woche",
+   "ipa": "/ˈaɪ̯nə ˈvɔxə/",
+   "pos": "n.",
+   "meaning": "a week",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ungefähr eine Woche. Mit den Briefmarken macht es neunzehn Euro.",
+     "en": "About a week. The total is nineteen euros, with the stamps."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Guten Tag. Wie kann ich Ihnen helfen?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Hello. How can I help you?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ich möchte dieses Paket nach Kanada schicken, bitte.",
+   "glosses": [
+    {
+     "text": "Paket",
+     "pos": "n.",
+     "meaning": "a parcel"
+    },
+    {
+     "text": "schicken",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "id": "t2",
+   "en": "I would like to send this parcel to Canada, please."
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Ich prüfe das Gewicht. Es sind zwei Kilo. Bitte schreiben Sie hier die Adresse auf.",
+   "glosses": [
+    {
+     "text": "die Adresse",
+     "pos": "n.",
+     "meaning": "the address"
+    },
+    {
+     "text": "das Gewicht",
+     "pos": "n.",
+     "meaning": "the weight"
+    }
+   ],
+   "id": "t3",
+   "en": "Let me check the weight. It is two kilos. Please write the address here."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Fertig. Wie lange dauert es? Außerdem brauche ich drei Briefmarken für Postkarten.",
+   "glosses": [
+    {
+     "text": "Briefmarken",
+     "pos": "n.",
+     "meaning": "a stamp"
+    }
+   ],
+   "id": "t4",
+   "en": "Done. How long will it take? Also, I need three stamps for postcards."
+  },
+  {
+   "speaker": "Anna",
+   "role": "npc",
+   "text": "Ungefähr eine Woche. Mit den Briefmarken macht es neunzehn Euro.",
+   "glosses": [
+    {
+     "text": "Briefmarken",
+     "pos": "n.",
+     "meaning": "a stamp"
+    },
+    {
+     "text": "eine Woche",
+     "pos": "n.",
+     "meaning": "a week"
+    }
+   ],
+   "id": "t5",
+   "en": "About a week. The total is nineteen euros, with the stamps."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Das ist in Ordnung. Hier ist meine Karte.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is fine. Here is my card."
+  }
+ ],
+ "practice_words": []
+}

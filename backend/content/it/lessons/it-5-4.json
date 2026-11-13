@@ -1,0 +1,187 @@
+{
+ "emoji": "🔑",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "l'appartamento",
+   "ipa": "/lappartaˈmento/",
+   "pos": "n.",
+   "meaning": "a flat",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Buongiorno, è interessato all'appartamento, vero?",
+     "en": "Hello, you are interested in the apartment, right?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "l'affitto",
+   "ipa": "/lafˈfitto/",
+   "pos": "n.",
+   "meaning": "the rent",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sì. Quant'è l'affitto al mese?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "al mese",
+   "ipa": "/al ˈmeːze/",
+   "pos": "n.",
+   "meaning": "a month",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sì. Quant'è l'affitto al mese?",
+     "en": "Yes. How much is the rent per month?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "ammobiliato",
+   "ipa": "/ammobiˈljaːto/",
+   "pos": "adj.",
+   "meaning": "furnished",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sono ottocento al mese, e l'appartamento è ammobiliato.",
+     "en": "It is eight hundred a month, and the apartment is furnished."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "una cauzione",
+   "ipa": "/ˈuna kautˈtsjoːne/",
+   "pos": "n.",
+   "meaning": "a deposit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Mi sembra bene. Devo pagare una cauzione?",
+     "en": "That sounds good. Do I have to pay a deposit?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "il contratto",
+   "ipa": "/il konˈtratto/",
+   "pos": "n.",
+   "meaning": "a contract",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Sì, un mese di cauzione. Firmiamo il contratto domani.",
+     "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Buongiorno, è interessato all'appartamento, vero?",
+   "glosses": [
+    {
+     "text": "l'appartamento",
+     "pos": "n.",
+     "meaning": "a flat"
+    }
+   ],
+   "id": "t1",
+   "en": "Hello, you are interested in the apartment, right?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Sì. Quant'è l'affitto al mese?",
+   "glosses": [
+    {
+     "text": "l'affitto",
+     "pos": "n.",
+     "meaning": "the rent"
+    },
+    {
+     "text": "al mese",
+     "pos": "n.",
+     "meaning": "a month"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes. How much is the rent per month?"
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Sono ottocento al mese, e l'appartamento è ammobiliato.",
+   "glosses": [
+    {
+     "text": "l'appartamento",
+     "pos": "n.",
+     "meaning": "a flat"
+    },
+    {
+     "text": "al mese",
+     "pos": "n.",
+     "meaning": "a month"
+    },
+    {
+     "text": "ammobiliato",
+     "pos": "adj.",
+     "meaning": "furnished"
+    }
+   ],
+   "id": "t3",
+   "en": "It is eight hundred a month, and the apartment is furnished."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Mi sembra bene. Devo pagare una cauzione?",
+   "glosses": [
+    {
+     "text": "una cauzione",
+     "pos": "n.",
+     "meaning": "a deposit"
+    }
+   ],
+   "id": "t4",
+   "en": "That sounds good. Do I have to pay a deposit?"
+  },
+  {
+   "speaker": "Marco",
+   "role": "npc",
+   "text": "Sì, un mese di cauzione. Firmiamo il contratto domani.",
+   "glosses": [
+    {
+     "text": "il contratto",
+     "pos": "n.",
+     "meaning": "a contract"
+    }
+   ],
+   "id": "t5",
+   "en": "Yes, one month as a deposit. We sign the contract tomorrow."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ottimo. Posso rivedere la cucina prima di decidere?",
+   "glosses": [],
+   "id": "t6",
+   "en": "Great. Can I see the kitchen again before I decide?"
+  }
+ ],
+ "practice_words": []
+}

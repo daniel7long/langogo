@@ -1,0 +1,176 @@
+{
+ "emoji": "🛋️",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "週末",
+   "ipa": "shuumatsu",
+   "pos": "n.",
+   "meaning": "the weekend",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "週末はどうだった？",
+     "en": "How was your weekend?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "訪ね",
+   "ipa": "tazune",
+   "pos": "v.",
+   "meaning": "to visit",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "最高だったよ！土曜日はおじいちゃんとおばあちゃんを訪ねたんだ。",
+     "en": "It was great! On Saturday I visited my grandparents."
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "料理",
+   "ipa": "ryoori",
+   "pos": "v.",
+   "meaning": "to cook",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "みんなで大きなお昼ごはんを料理して、それから映画を見たよ。",
+     "en": "We cooked a big lunch together, and then we watched a movie."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "映画",
+   "ipa": "eiga",
+   "pos": "n.",
+   "meaning": "a film",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "みんなで大きなお昼ごはんを料理して、それから映画を見たよ。",
+     "en": "We cooked a big lunch together, and then we watched a movie."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "疲れて",
+   "ipa": "tsukarete",
+   "pos": "adj.",
+   "meaning": "tired",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "疲れていたから、一日中家で休みました。",
+     "en": "I was tired, so I rested at home all day."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "休み",
+   "ipa": "yasumi",
+   "pos": "v.",
+   "meaning": "to rest",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "疲れていたから、一日中家で休みました。",
+     "en": "I was tired, so I rested at home all day."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "週末はどうだった？",
+   "glosses": [
+    {
+     "text": "週末",
+     "pos": "n.",
+     "meaning": "the weekend"
+    }
+   ],
+   "id": "t1",
+   "en": "How was your weekend?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "最高だったよ！土曜日はおじいちゃんとおばあちゃんを訪ねたんだ。",
+   "glosses": [
+    {
+     "text": "訪ね",
+     "pos": "v.",
+     "meaning": "to visit"
+    }
+   ],
+   "id": "t2",
+   "en": "It was great! On Saturday I visited my grandparents."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "いいね！そこで何をしたの？",
+   "glosses": [],
+   "id": "t3",
+   "en": "Nice! What did you do there?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "みんなで大きなお昼ごはんを料理して、それから映画を見たよ。",
+   "glosses": [
+    {
+     "text": "料理",
+     "pos": "v.",
+     "meaning": "to cook"
+    },
+    {
+     "text": "映画",
+     "pos": "n.",
+     "meaning": "a film"
+    }
+   ],
+   "id": "t4",
+   "en": "We cooked a big lunch together, and then we watched a movie."
+  },
+  {
+   "speaker": "Aoi",
+   "role": "npc",
+   "text": "すてきだね。日曜日は？",
+   "glosses": [],
+   "id": "t5",
+   "en": "Sounds lovely. And on Sunday?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "疲れていたから、一日中家で休みました。",
+   "glosses": [
+    {
+     "text": "疲れて",
+     "pos": "adj.",
+     "meaning": "tired"
+    },
+    {
+     "text": "休み",
+     "pos": "v.",
+     "meaning": "to rest"
+    }
+   ],
+   "id": "t6",
+   "en": "I was tired, so I rested at home all day."
+  }
+ ],
+ "practice_words": []
+}

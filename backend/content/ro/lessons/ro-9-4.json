@@ -1,0 +1,234 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "o dietă",
+   "ipa": "/o diˈetə/",
+   "pos": "n.",
+   "meaning": "a diet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "O dietă echilibrată este cel mai bun început. Mănânci multe legume?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "legume",
+   "ipa": "/leˈɡume/",
+   "pos": "n.",
+   "meaning": "vegetables",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "O dietă echilibrată este cel mai bun început. Mănânci multe legume?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "zahăr",
+   "ipa": "/ˈzahər/",
+   "pos": "n.",
+   "meaning": "sugar",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Sună greu. Dar zahărul? Îmi plac prăjiturile și băuturile dulci.",
+     "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "să eviți",
+   "ipa": "/sə eˈvits/",
+   "pos": "v.",
+   "meaning": "to avoid",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ar trebui să eviți prea mult zahăr, dar nu trebuie să renunți complet.",
+     "en": "You should avoid too much sugar, but you do not have to stop completely."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "porții",
+   "ipa": "/ˈportsii/",
+   "pos": "n.",
+   "meaning": "a portion",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Încearcă să mănânci cel puțin două porții de legume la fiecare masă.",
+     "en": "Try to have at least two portions of vegetables with every meal."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "echilibrată",
+   "ipa": "/ekilibˈratə/",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "O dietă echilibrată este cel mai bun început. Mănânci multe legume?",
+     "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Vreau să mănânc mai sănătos, dar nu știu de unde să încep.",
+   "glosses": [],
+   "id": "t1",
+   "en": "I want to eat better, but I do not know where to start."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "O dietă echilibrată este cel mai bun început. Mănânci multe legume?",
+   "glosses": [
+    {
+     "text": "O dietă",
+     "pos": "n.",
+     "meaning": "a diet"
+    },
+    {
+     "text": "legume",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "echilibrată",
+     "pos": "adj.",
+     "meaning": "balanced"
+    }
+   ],
+   "id": "t2",
+   "en": "A balanced diet is the best way to start. Do you eat many vegetables?"
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Nu prea. Mănânc mai ales paste și fast-food.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Not really. I mostly eat pasta and fast food."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Încearcă să mănânci cel puțin două porții de legume la fiecare masă.",
+   "glosses": [
+    {
+     "text": "legume",
+     "pos": "n.",
+     "meaning": "vegetables"
+    },
+    {
+     "text": "porții",
+     "pos": "n.",
+     "meaning": "a portion"
+    }
+   ],
+   "id": "t4",
+   "en": "Try to have at least two portions of vegetables with every meal."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Sună greu. Dar zahărul? Îmi plac prăjiturile și băuturile dulci.",
+   "glosses": [
+    {
+     "text": "zahăr",
+     "pos": "n.",
+     "meaning": "sugar"
+    }
+   ],
+   "id": "t5",
+   "en": "That sounds hard. What about sugar? I love cakes and soft drinks."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ar trebui să eviți prea mult zahăr, dar nu trebuie să renunți complet.",
+   "glosses": [
+    {
+     "text": "zahăr",
+     "pos": "n.",
+     "meaning": "sugar"
+    },
+    {
+     "text": "să eviți",
+     "pos": "v.",
+     "meaning": "to avoid"
+    }
+   ],
+   "id": "t6",
+   "en": "You should avoid too much sugar, but you do not have to stop completely."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Ce pot să beau în loc de băuturi dulci?",
+   "glosses": [],
+   "id": "t7",
+   "en": "What can I drink instead of soft drinks?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Apă, ceai sau apă cu o felie de lămâie.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Water, tea, or water with a slice of lemon."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Și ce mănânci la micul dejun?",
+   "glosses": [],
+   "id": "t9",
+   "en": "And what do you eat for breakfast?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "De obicei iaurt cu fructe sau ouă cu pâine.",
+   "glosses": [],
+   "id": "t10",
+   "en": "Usually yogurt with fruit, or eggs with bread."
+  },
+  {
+   "speaker": "Radu",
+   "role": "npc",
+   "text": "Este simplu. Poate pot să gătesc mai mult acasă.",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is simple. Maybe I can cook more at home."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Da! Gătitul acasă este mai ieftin și mai sănătos.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Yes! Cooking at home is cheaper and healthier."
+  }
+ ],
+ "practice_words": []
+}

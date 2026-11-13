@@ -1,0 +1,232 @@
+{
+ "emoji": "🎓",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "word": "学位",
+   "ipa": "xuéwèi",
+   "pos": "n.",
+   "meaning": "a degree",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我在读设计硕士学位，我很喜欢。",
+     "en": "I am doing a master's degree in design, and I really like it."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "科目",
+   "ipa": "kēmù",
+   "pos": "n.",
+   "meaning": "a subject",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "听起来要求很高。你最喜欢哪个科目？",
+     "en": "That sounds demanding. Which subject is your favorite?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "考试",
+   "ipa": "kǎoshì",
+   "pos": "n.",
+   "meaning": "an exam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "我最喜欢研究方法，虽然考试很难。",
+     "en": "My favorite subject is research methods, although the exams are difficult."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "毕业",
+   "ipa": "bìyè",
+   "pos": "v.",
+   "meaning": "to graduate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "你什么时候毕业？",
+     "en": "When do you graduate?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "截止日期",
+   "ipa": "jiézhǐ rìqī",
+   "pos": "n.",
+   "meaning": "a deadline",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "明年，如果我赶上所有截止日期并且通过所有课程的话。",
+     "en": "Next year, if I meet every deadline and pass my courses."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "奖学金",
+   "ipa": "jiǎngxuéjīn",
+   "pos": "n.",
+   "meaning": "a scholarship",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "全职。我有奖学金，所以可以专心学习。",
+     "en": "Full time. I have a scholarship, so I can focus on my studies."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "那么，你现在在学什么？",
+   "glosses": [],
+   "id": "t1",
+   "en": "So, what are you studying at the moment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我在读设计硕士学位，我很喜欢。",
+   "glosses": [
+    {
+     "text": "学位",
+     "pos": "n.",
+     "meaning": "a degree"
+    }
+   ],
+   "id": "t2",
+   "en": "I am doing a master's degree in design, and I really like it."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "听起来要求很高。你最喜欢哪个科目？",
+   "glosses": [
+    {
+     "text": "科目",
+     "pos": "n.",
+     "meaning": "a subject"
+    }
+   ],
+   "id": "t3",
+   "en": "That sounds demanding. Which subject is your favorite?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "我最喜欢研究方法，虽然考试很难。",
+   "glosses": [
+    {
+     "text": "考试",
+     "pos": "n.",
+     "meaning": "an exam"
+    }
+   ],
+   "id": "t4",
+   "en": "My favorite subject is research methods, although the exams are difficult."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "你什么时候毕业？",
+   "glosses": [
+    {
+     "text": "毕业",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t5",
+   "en": "When do you graduate?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "明年，如果我赶上所有截止日期并且通过所有课程的话。",
+   "glosses": [
+    {
+     "text": "截止日期",
+     "pos": "n.",
+     "meaning": "a deadline"
+    }
+   ],
+   "id": "t6",
+   "en": "Next year, if I meet every deadline and pass my courses."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "你是全职学习还是边工作边学习？",
+   "glosses": [],
+   "id": "t7",
+   "en": "Do you work or study full time?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "全职。我有奖学金，所以可以专心学习。",
+   "glosses": [
+    {
+     "text": "奖学金",
+     "pos": "n.",
+     "meaning": "a scholarship"
+    }
+   ],
+   "id": "t8",
+   "en": "Full time. I have a scholarship, so I can focus on my studies."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "你已经知道毕业以后想做什么了吗？",
+   "glosses": [
+    {
+     "text": "毕业",
+     "pos": "v.",
+     "meaning": "to graduate"
+    }
+   ],
+   "id": "t9",
+   "en": "Do you already know what you want to do afterwards?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "还不完全清楚，但我想在一家科技公司工作。",
+   "glosses": [],
+   "id": "t10",
+   "en": "Not exactly, but I would like to work in a technology company."
+  },
+  {
+   "speaker": "Wei",
+   "role": "npc",
+   "text": "这是个好计划。我相信你会找到合适的工作。",
+   "glosses": [],
+   "id": "t11",
+   "en": "That is a good plan. I am sure you will find something."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "谢谢！学习很辛苦，但我学到了很多。",
+   "glosses": [],
+   "id": "t12",
+   "en": "Thanks! Studying is hard, but I am learning a lot."
+  }
+ ],
+ "practice_words": []
+}

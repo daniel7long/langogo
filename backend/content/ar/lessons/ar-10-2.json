@@ -1,0 +1,264 @@
+{
+ "emoji": "🏠",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "العمل عن بعد",
+   "ipa": "al-ʿamal ʿan buʿd",
+   "pos": "n.",
+   "meaning": "remote work",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "شركتي تفكر في جعل العمل عن بعد دائما. ما رأيك؟",
+     "en": "My company is considering making remote work permanent. What is your opinion?"
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "الإنتاجية",
+   "ipa": "al-intājiyya",
+   "pos": "n.",
+   "meaning": "productivity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "لكن ألا تتأثر الإنتاجية عندما يكون الناس في البيت؟",
+     "en": "But does productivity not suffer when people are at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "المرونة",
+   "ipa": "al-murūna",
+   "pos": "n.",
+   "meaning": "flexibility",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "أنا مؤيد، خاصة بسبب المرونة التي يمنحها للموظفين.",
+     "en": "I am in favor, mainly because of the flexibility it gives employees."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "العزلة",
+   "ipa": "al-ʿuzla",
+   "pos": "n.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "وماذا عن العزلة؟ أفتقد الدردشة مع الزملاء عند آلة القهوة.",
+     "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "التنقل اليومي",
+   "ipa": "at-tanaqqul al-yawmī",
+   "pos": "n.",
+   "meaning": "a commute",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "بالضبط. تحتفظ بالتواصل البشري وتتجنب التنقل اليومي.",
+     "en": "Exactly. You keep the human contact and still avoid the daily commute."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "نوازن",
+   "ipa": "nuwāzin",
+   "pos": "v.",
+   "meaning": "to balance",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "إذن السؤال هو كيف نوازن بين العمل والحياة الخاصة.",
+     "en": "So the question is how to balance work and private life."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "شركتي تفكر في جعل العمل عن بعد دائما. ما رأيك؟",
+   "glosses": [
+    {
+     "text": "العمل عن بعد",
+     "pos": "n.",
+     "meaning": "remote work"
+    }
+   ],
+   "id": "t1",
+   "en": "My company is considering making remote work permanent. What is your opinion?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "أنا مؤيد، خاصة بسبب المرونة التي يمنحها للموظفين.",
+   "glosses": [
+    {
+     "text": "المرونة",
+     "pos": "n.",
+     "meaning": "flexibility"
+    }
+   ],
+   "id": "t2",
+   "en": "I am in favor, mainly because of the flexibility it gives employees."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "لكن ألا تتأثر الإنتاجية عندما يكون الناس في البيت؟",
+   "glosses": [
+    {
+     "text": "الإنتاجية",
+     "pos": "n.",
+     "meaning": "productivity"
+    }
+   ],
+   "id": "t3",
+   "en": "But does productivity not suffer when people are at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "تشير الدراسات إلى العكس في كثير من الوظائف، لكن الأمر يعتمد على الشخص.",
+   "glosses": [],
+   "id": "t4",
+   "en": "Studies suggest the opposite for many jobs, though it depends on the person."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "أجد صعوبة في التركيز في البيت بسبب كل المشتتات.",
+   "glosses": [],
+   "id": "t5",
+   "en": "I find it hard to concentrate at home, with all the distractions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "هذه نقطة وجيهة. مساحة عمل مناسبة تحدث فرقا كبيرا.",
+   "glosses": [],
+   "id": "t6",
+   "en": "That is a fair point. A proper workspace makes a big difference."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "وماذا عن العزلة؟ أفتقد الدردشة مع الزملاء عند آلة القهوة.",
+   "glosses": [
+    {
+     "text": "العزلة",
+     "pos": "n.",
+     "meaning": "isolation"
+    }
+   ],
+   "id": "t7",
+   "en": "And what about isolation? I miss chatting with colleagues at the coffee machine."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "وأنا أيضا، بصراحة. لهذا أعتقد أن النموذج الهجين هو الأفضل.",
+   "glosses": [],
+   "id": "t8",
+   "en": "Me too, to be honest. That is why I think a hybrid model works best."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "يومين أو ثلاثة في المكتب ربما؟",
+   "glosses": [],
+   "id": "t9",
+   "en": "Two or three days in the office, perhaps?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "بالضبط. تحتفظ بالتواصل البشري وتتجنب التنقل اليومي.",
+   "glosses": [
+    {
+     "text": "التنقل اليومي",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t10",
+   "en": "Exactly. You keep the human contact and still avoid the daily commute."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "التنقل اليومي هو أسوأ جزء، يجب أن أعترف. أضيع ساعتين في اليوم.",
+   "glosses": [
+    {
+     "text": "التنقل اليومي",
+     "pos": "n.",
+     "meaning": "a commute"
+    }
+   ],
+   "id": "t11",
+   "en": "The commute is the worst part, I must admit. I lose two hours a day."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "تخيل ماذا يمكنك أن تفعل بذلك الوقت: الرياضة والعائلة والنوم.",
+   "glosses": [],
+   "id": "t12",
+   "en": "Imagine what you could do with that time: sport, family, sleep."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "وهو أفضل للبيئة أيضا، بالطبع.",
+   "glosses": [],
+   "id": "t13",
+   "en": "It is also better for the environment, of course."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "صحيح، رغم أن تدفئة البيت طوال اليوم تستهلك الطاقة أيضا.",
+   "glosses": [],
+   "id": "t14",
+   "en": "True, although heating a home all day uses energy, too."
+  },
+  {
+   "speaker": "Omar",
+   "role": "npc",
+   "text": "إذن السؤال هو كيف نوازن بين العمل والحياة الخاصة.",
+   "glosses": [
+    {
+     "text": "نوازن",
+     "pos": "v.",
+     "meaning": "to balance"
+    }
+   ],
+   "id": "t15",
+   "en": "So the question is how to balance work and private life."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "صحيح. ساعات العمل الواضحة ضرورية، وإلا لن تنفصل عن العمل أبدا.",
+   "glosses": [],
+   "id": "t16",
+   "en": "Right. Clear working hours are essential, otherwise you never really switch off."
+  }
+ ],
+ "practice_words": []
+}

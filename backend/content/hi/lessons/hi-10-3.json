@@ -1,0 +1,257 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "word": "कचरा",
+   "ipa": "kachra",
+   "pos": "n.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "हाँ, मैं कचरा कम करने की कोशिश करता हूँ, इसलिए मैंने प्लास्टिक की बोतलें खरीदना बंद कर दिया।",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "रीसायकल",
+   "ipa": "reesaaikal",
+   "pos": "v.",
+   "meaning": "to recycle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "यह अच्छी शुरुआत है। क्या तुम घर पर सब कुछ रीसायकल करते हो?",
+     "en": "That is a good start. Do you recycle everything at home?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "उत्सर्जन",
+   "ipa": "utsarjan",
+   "pos": "n.",
+   "meaning": "emissions",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "परिवहन के बारे में क्या? कारें बहुत उत्सर्जन करती हैं।",
+     "en": "What about transport? Cars produce a lot of emissions."
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "नवीकरणीय",
+   "ipa": "naveekaraneeya",
+   "pos": "adj.",
+   "meaning": "renewable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "मैं सहमत हूँ। नवीकरणीय ऊर्जा वह जगह है जहाँ सबसे बड़ा बदलाव होना चाहिए।",
+     "en": "I agree. Renewable energy is where the biggest change must happen."
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "टिकाऊ",
+   "ipa": "tikaau",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "कुछ लोग अब भी कहते हैं कि टिकाऊ उत्पाद बहुत महँगे हैं।",
+     "en": "Some people still say sustainable products are too expensive."
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "कम करने",
+   "ipa": "kam karne",
+   "pos": "v.",
+   "meaning": "to reduce",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "हाँ, मैं कचरा कम करने की कोशिश करता हूँ, इसलिए मैंने प्लास्टिक की बोतलें खरीदना बंद कर दिया।",
+     "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "क्या तुमने हाल में पर्यावरण बचाने के लिए कोई आदत बदली है?",
+   "glosses": [],
+   "id": "t1",
+   "en": "Have you changed any habits recently to protect the environment?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "हाँ, मैं कचरा कम करने की कोशिश करता हूँ, इसलिए मैंने प्लास्टिक की बोतलें खरीदना बंद कर दिया।",
+   "glosses": [
+    {
+     "text": "कचरा",
+     "pos": "n.",
+     "meaning": "waste"
+    },
+    {
+     "text": "कम करने",
+     "pos": "v.",
+     "meaning": "to reduce"
+    }
+   ],
+   "id": "t2",
+   "en": "Yes, I try to reduce waste, so I stopped buying plastic bottles."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "यह अच्छी शुरुआत है। क्या तुम घर पर सब कुछ रीसायकल करते हो?",
+   "glosses": [
+    {
+     "text": "रीसायकल",
+     "pos": "v.",
+     "meaning": "to recycle"
+    }
+   ],
+   "id": "t3",
+   "en": "That is a good start. Do you recycle everything at home?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "जो भी संभव हो। कागज़, काँच, प्लास्टिक और यहाँ तक कि खाने का बचा हिस्सा खाद के लिए।",
+   "glosses": [],
+   "id": "t4",
+   "en": "Everything I can. Paper, glass, plastic and even food scraps for compost."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "प्रभावशाली। मुझे और करना चाहिए, पर इसमें बहुत समय लगता है।",
+   "glosses": [],
+   "id": "t5",
+   "en": "Impressive. I should do more, but it takes so much time."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "सच कहूँ तो कुछ हफ़्तों में यह अपने आप होने लगता है।",
+   "glosses": [],
+   "id": "t6",
+   "en": "It becomes automatic after a few weeks, honestly."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "परिवहन के बारे में क्या? कारें बहुत उत्सर्जन करती हैं।",
+   "glosses": [
+    {
+     "text": "उत्सर्जन",
+     "pos": "n.",
+     "meaning": "emissions"
+    }
+   ],
+   "id": "t7",
+   "en": "What about transport? Cars produce a lot of emissions."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "मैं ज़्यादातर दिन साइकिल से दफ़्तर जाता हूँ, और लंबी यात्राओं के लिए ट्रेन लेता हूँ।",
+   "glosses": [],
+   "id": "t8",
+   "en": "I cycle to work most days, and I use trains for long trips."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "क्या तुम्हें लगता है कि व्यक्तिगत कार्य सचमुच मायने रखते हैं?",
+   "glosses": [],
+   "id": "t9",
+   "en": "Do you think individual actions really matter, though?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "रखते हैं, लेकिन कंपनियों और सरकारों को बड़े स्तर पर काम करना होगा।",
+   "glosses": [],
+   "id": "t10",
+   "en": "They do, but companies and governments must act on a bigger scale."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "मैं सहमत हूँ। नवीकरणीय ऊर्जा वह जगह है जहाँ सबसे बड़ा बदलाव होना चाहिए।",
+   "glosses": [
+    {
+     "text": "नवीकरणीय",
+     "pos": "adj.",
+     "meaning": "renewable"
+    }
+   ],
+   "id": "t11",
+   "en": "I agree. Renewable energy is where the biggest change must happen."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "बिल्कुल। सौर और पवन ऊर्जा हर साल सस्ती होती जा रही हैं।",
+   "glosses": [],
+   "id": "t12",
+   "en": "Exactly. Solar and wind power are becoming cheaper every year."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "कुछ लोग अब भी कहते हैं कि टिकाऊ उत्पाद बहुत महँगे हैं।",
+   "glosses": [
+    {
+     "text": "टिकाऊ",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "id": "t13",
+   "en": "Some people still say sustainable products are too expensive."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "कम समय में शायद, लेकिन वे ज़्यादा चलते हैं और बाद में पैसे बचाते हैं।",
+   "glosses": [],
+   "id": "t14",
+   "en": "In the short term, maybe, but they last longer and save money later."
+  },
+  {
+   "speaker": "Rohan",
+   "role": "npc",
+   "text": "तुमने मुझे मना लिया। मैं खाद के डिब्बे से शुरुआत करूँगा।",
+   "glosses": [],
+   "id": "t15",
+   "en": "You have convinced me. I will start with a compost bin."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "शानदार। छोटे कदम एक आदर्श समाधान के इंतज़ार से बेहतर हैं।",
+   "glosses": [],
+   "id": "t16",
+   "en": "Wonderful. Small steps are better than waiting for a perfect solution."
+  }
+ ],
+ "practice_words": []
+}

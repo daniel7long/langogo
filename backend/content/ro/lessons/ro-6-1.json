@@ -1,0 +1,176 @@
+{
+ "emoji": "🎉",
+ "max_flowers": 50,
+ "cefr": "A2",
+ "vocab": [
+  {
+   "word": "invitație",
+   "ipa": "/invitaˈtsie/",
+   "pos": "n.",
+   "meaning": "an invitation",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Ce invitație frumoasă! Da, aș veni cu mare drag.",
+     "en": "What a lovely invitation! Yes, I would love to come."
+    }
+   ],
+   "id": "v1"
+  },
+  {
+   "word": "să vii",
+   "ipa": "/sə vij/",
+   "pos": "v.",
+   "meaning": "to come",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Salut! Sâmbătă este ziua mea și dau o petrecere. Poți să vii?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v2"
+  },
+  {
+   "word": "o petrecere",
+   "ipa": "/o petreˈtʃere/",
+   "pos": "n.",
+   "meaning": "a party",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Salut! Sâmbătă este ziua mea și dau o petrecere. Poți să vii?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v3"
+  },
+  {
+   "word": "să aduc",
+   "ipa": "/sə aˈduk/",
+   "pos": "v.",
+   "meaning": "to bring",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Trebuie să aduc ceva de mâncare sau de băut?",
+     "en": "Should I bring something to eat or drink?"
+    }
+   ],
+   "id": "v4"
+  },
+  {
+   "word": "ziua mea",
+   "ipa": "/ˈzjwa mea/",
+   "pos": "n.",
+   "meaning": "a birthday",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Salut! Sâmbătă este ziua mea și dau o petrecere. Poți să vii?",
+     "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+    }
+   ],
+   "id": "v5"
+  },
+  {
+   "word": "un cadou",
+   "ipa": "/un kaˈdou/",
+   "pos": "n.",
+   "meaning": "a present",
+   "cefr": "A2",
+   "examples": [
+    {
+     "target": "Adu doar voie bună. Și poate un cadou mic pentru mine, ha, ha.",
+     "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+    }
+   ],
+   "id": "v6"
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Salut! Sâmbătă este ziua mea și dau o petrecere. Poți să vii?",
+   "glosses": [
+    {
+     "text": "să vii",
+     "pos": "v.",
+     "meaning": "to come"
+    },
+    {
+     "text": "o petrecere",
+     "pos": "n.",
+     "meaning": "a party"
+    },
+    {
+     "text": "ziua mea",
+     "pos": "n.",
+     "meaning": "a birthday"
+    }
+   ],
+   "id": "t1",
+   "en": "Hi! It is my birthday on Saturday, and I am having a party. Can you come?"
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Ce invitație frumoasă! Da, aș veni cu mare drag.",
+   "glosses": [
+    {
+     "text": "invitație",
+     "pos": "n.",
+     "meaning": "an invitation"
+    }
+   ],
+   "id": "t2",
+   "en": "What a lovely invitation! Yes, I would love to come."
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Grozav! Începe la ora șapte seara, la mine acasă.",
+   "glosses": [],
+   "id": "t3",
+   "en": "Great! It starts at seven in the evening at my house."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Trebuie să aduc ceva de mâncare sau de băut?",
+   "glosses": [
+    {
+     "text": "să aduc",
+     "pos": "v.",
+     "meaning": "to bring"
+    }
+   ],
+   "id": "t4",
+   "en": "Should I bring something to eat or drink?"
+  },
+  {
+   "speaker": "Maria",
+   "role": "npc",
+   "text": "Adu doar voie bună. Și poate un cadou mic pentru mine, ha, ha.",
+   "glosses": [
+    {
+     "text": "un cadou",
+     "pos": "n.",
+     "meaning": "a present"
+    }
+   ],
+   "id": "t5",
+   "en": "Just bring a good mood. And maybe a small present for me, ha ha."
+  },
+  {
+   "speaker": "You",
+   "role": "you",
+   "text": "Desigur! Atunci ne vedem sâmbătă.",
+   "glosses": [],
+   "id": "t6",
+   "en": "Of course! See you on Saturday, then."
+  }
+ ],
+ "practice_words": []
+}
