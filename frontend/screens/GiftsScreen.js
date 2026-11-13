@@ -107,7 +107,7 @@ function GiftsView({ data: first, reload }) {
   const shareCode = async () => {
     const message =
       `Hi! 👋 Come practise speaking with me on Langogo, a calm, low-pressure app where every little bit of speaking counts. ` +
-      `When you sign up, enter my friend code: ${data.invite.code}\n\nStart here: https://langogo-v3.vercel.app`;
+      `After you sign up, open Gift Menu and enter my friend code: ${data.invite.code}\n\nStart here: https://langogo-v3.vercel.app`;
     if (Platform.OS === 'web') {
       try {
         await navigator.clipboard.writeText(message);
