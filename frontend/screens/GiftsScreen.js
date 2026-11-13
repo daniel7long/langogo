@@ -10,7 +10,6 @@ import Avatar from '../components/Avatar';
 import Chip from '../components/Chip';
 import { GiftThumb, WallpaperArt } from '../components/GiftArt';
 import PrimaryButton from '../components/PrimaryButton';
-import ProgressBar from '../components/ProgressBar';
 import Screen from '../components/Screen';
 import SecondaryButton from '../components/SecondaryButton';
 import TopBar from '../components/TopBar';
@@ -121,10 +120,7 @@ function GiftsView({ data: first, reload }) {
           <Text style={styles.balanceNumber}>{data.flowers}</Text>
           <Text style={styles.balanceLabel}>flowers</Text>
         </View>
-        <ProgressBar progress={data.earned_today / data.daily_cap} height={8} />
-        <Text style={styles.capText}>
-          Earned today: {data.earned_today} of {data.daily_cap}
-        </Text>
+        <Text style={styles.capText}>Earned today: {data.earned_today}</Text>
       </View>
 
       <View style={styles.tabs}>
@@ -251,14 +247,13 @@ function GiftsView({ data: first, reload }) {
                 <View style={styles.flex}>
                   <Text style={styles.ruleLabel}>{r.label}</Text>
                   <Text style={styles.ruleSub}>
-                    {r.per === 'language' ? 'One time per language' : r.per === 'total' ? `${r.used} of ${r.limit} friends` : `${r.used} of ${r.limit} ${PER[r.per]}`}
+                    {r.per === 'each' ? 'Every time' : r.per === 'language' ? 'One time per language' : r.per === 'total' ? `${r.used} of ${r.limit} friends` : `${r.used} of ${r.limit} ${PER[r.per]}`}
                   </Text>
                 </View>
                 <Flowers n={`+${r.flowers}`} />
               </View>
             ))}
           </View>
-          <Text style={styles.fine}>You can earn up to {data.daily_cap} flowers a day. Friend bonuses don't count toward that limit.</Text>
 
           <View style={styles.card}>
             <Text style={styles.cardTitle}>Invite a friend</Text>

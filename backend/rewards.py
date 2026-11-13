@@ -1,6 +1,8 @@
-"""How flowers are earned (the "Earning flowers" table of the Gift Menu spec) and the daily cap.
+"""How flowers are earned (the "Earning flowers" table of the Gift Menu spec). There is no daily cap, and lessons, retries
+and Free Talk pay every time. Only the first practice of the day, the weekly goal, the new-language bonus (once per language)
+and the friend bonus (5 friends) are limited.
 
-Every payment goes through award(): it checks the limit of the rule, the daily cap, updates the learner's balance and
+Every payment goes through award(): it checks the limit of the rule, updates the learner's balance and
 writes one line to state["flower_log"] (shown on the dashboard).
 
 state["rewards"] keeps the counters:
@@ -14,17 +16,17 @@ import hashlib
 import analytics
 import db
 
-DAILY_CAP = 100  # flowers per day, from every rule except the friend bonus
+DAILY_CAP = None  # no daily cap (set a number here to bring one back: flowers per day from every rule except the friend bonus)
 PRACTICE_SECONDS = 5 * 60  # "5+ min"
 WEEKLY_PRACTICE_DAYS = 3
 FREETALK_SECONDS = 5 * 60
 
-# kind: flowers, limit, period ("day", "week", "language" = once per language, "total"), label shown to the learner
+# kind: flowers, limit, period ("each" = every time, no limit; "day", "week", "language" = once per language, "total"), label shown to the learner
 RULES = {
     "daily_practice": {"flowers": 5, "limit": 1, "per": "day", "label": "First practice of the day (5+ min)"},
-    "lesson": {"flowers": 15, "limit": 2, "per": "day", "label": "Complete a lesson"},
-    "retry": {"flowers": 3, "limit": 3, "per": "day", "label": "Retry and improve a score"},
-    "freetalk": {"flowers": 10, "limit": 2, "per": "day", "label": "Free Talk session (5+ min)"},
+    "lesson": {"flowers": 15, "limit": None, "per": "each", "label": "Complete a lesson"},
+    "retry": {"flowers": 3, "limit": None, "per": "each", "label": "Retry and improve a score"},
+    "freetalk": {"flowers": 10, "limit": None, "per": "each", "label": "Free Talk session (5+ min)"},
     "weekly_goal": {"flowers": 30, "limit": 1, "per": "week", "label": "Weekly goal (practice on 3 days)"},
     "new_language": {"flowers": 10, "limit": 1, "per": "language", "label": "First time trying a new language"},
     "friend": {"flowers": 100, "limit": 5, "per": "total", "label": "Friend joins and finishes lesson 1"},
@@ -64,7 +66,7 @@ def earned_today(state):
 def used(state, kind):
     """How many times the rule has paid in its current period (today / this week / ever)."""
     rule, r = RULES[kind], _data(state)
-    if rule["per"] == "day":
+    if rule["per"] in ("day", "each"):
         return _day(state)["counts"].get(kind, 0)
     if rule["per"] == "week":
         return r["weeks"].get(_week_key(), {}).get(kind, 0)
@@ -86,11 +88,11 @@ def award(state, kind, key=None):
     if rule["per"] == "total" and len(r["friends"]) >= rule["limit"]:
         return 0
     amount = rule["flowers"]
-    if kind not in NOT_CAPPED:
+    if DAILY_CAP and kind not in NOT_CAPPED:
         amount = min(amount, DAILY_CAP - day["earned"])
     if amount <= 0:
-        return 0  # the daily cap is reached: the limit is not used up, so it can still pay tomorrow
-    if rule["per"] == "day":
+        return 0  # the daily cap (if one is set) is reached: the limit is not used up, so it can still pay tomorrow
+    if rule["per"] in ("day", "each"):
         day["counts"][kind] = day["counts"].get(kind, 0) + 1
     elif rule["per"] == "week":
         w = r["weeks"].setdefault(_week_key(), {})
@@ -181,5 +183,5 @@ def rules_out(state):
     out = []
     for kind, rule in RULES.items():
         out.append({"kind": kind, "label": rule["label"], "flowers": rule["flowers"], "limit": rule["limit"],
-                    "per": rule["per"], "used": min(used(state, kind), rule["limit"])})
+                    "per": rule["per"], "used": used(state, kind) if rule["limit"] is None else min(used(state, kind), rule["limit"])})
     return out

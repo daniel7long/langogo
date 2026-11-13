@@ -118,11 +118,7 @@ function CompleteView({ record, board }) {
           </View>
         ) : (
           <Text style={styles.talkSub}>
-            {talk
-              ? 'Talk for 5 or more minutes next time to earn flowers.'
-              : record.flowers_limit_reached
-                ? "You've reached today's flower limit for lessons. More tomorrow!"
-                : ''}
+            {talk ? 'Talk for 5 or more minutes next time to earn flowers.' : ''}
           </Text>
         )}
         {!!record.unlocked_level && (

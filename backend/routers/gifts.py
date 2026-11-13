@@ -49,7 +49,7 @@ def get_gifts():
         shop.append(row)
     totals = _impact_totals(g)
     return {
-        "flowers": user["flowers"], "earned_today": rewards.earned_today(state), "daily_cap": rewards.DAILY_CAP,
+        "flowers": user["flowers"], "earned_today": rewards.earned_today(state),
         "friend_bonus_paid_now": paid,
         "rules": rewards.rules_out(state), "shop": shop, "equipped": g["equipped"],
         "impact": {**totals, "co2_kg_per_year": totals["trees"] * catalog.IMPACT["impact_tree"]["co2_kg_per_year"]},

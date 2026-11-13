@@ -129,10 +129,9 @@ def complete_lesson(lesson_id: str, swap: bool = False):
             store.catch_up_levels(state)  # skip levels that are already finished (e.g. after a "match" test moved the learner back)
             unlocked_level = store.level_of(lang)
 
-    # Flowers (see rewards.py): 15 for a lesson, at most 2 lessons a day, inside the 100-a-day cap. Practising the other
-    # role of a lesson you already finished pays as well; the limits keep it fair.
+    # Flowers (see rewards.py): 15 for every lesson completed, with no daily limit. Practising the other
+    # role of a lesson you already finished pays as well.
     earned = rewards.award(state, "lesson")
-    limit_hit = earned == 0
     earned += rewards.award(state, "new_language", key=lang)  # one-time bonus the first time a language is practised
     earned += rewards.practiced(state)
     ref = state.get("referral")
@@ -160,7 +159,6 @@ def complete_lesson(lesson_id: str, swap: bool = False):
         "engine": engine,
         "swapped": bool(swap),  # the learner practised the other speaker's part
         "flowers_earned": earned,
-        "flowers_limit_reached": limit_hit,  # today's lesson or daily flower limit was already used up
         "unlocked_level": unlocked_level,
         "words": [{**w, "first_score": w.get("score")} for w in (feedback or [dict(w) for w in lesson["practice_words"]])],
     }
