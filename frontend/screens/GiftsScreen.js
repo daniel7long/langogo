@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Linking, Pressable, ScrollView, Share, StyleSheet, TextInput, View } from 'react-native';
+import { Linking, Platform, Pressable, ScrollView, Share, StyleSheet, TextInput, View } from 'react-native';
 
 import Text from '../components/AppText';
 import { Ionicons } from '@expo/vector-icons';
@@ -103,8 +103,20 @@ function GiftsView({ data: first, reload }) {
   const shown = { ...data.equipped, ...(pick ? { [pick.slot]: pick.id } : {}) };
   const need = pick ? Math.max(0, pick.price - data.flowers) : 0;
 
+  // "Copy this code": puts a friendly invitation with the code on the clipboard (web), or opens the share sheet with it (phone).
   const shareCode = async () => {
-    const message = `Join me on Langogo, the low-pressure speaking practice app! When you sign up, enter my friend code: ${data.invite.code}`;
+    const message =
+      `Hi! 👋 Come practise speaking with me on Langogo, a calm, low-pressure app where every little bit of speaking counts. ` +
+      `When you sign up, enter my friend code: ${data.invite.code}\n\nStart here: https://langogo-v3.vercel.app`;
+    if (Platform.OS === 'web') {
+      try {
+        await navigator.clipboard.writeText(message);
+        notify('Copied!', 'Your code and a welcome message are copied. Paste them to a friend.');
+      } catch {
+        notify('Copy this message', message);
+      }
+      return;
+    }
     try {
       await Share.share({ message });
     } catch {
@@ -263,7 +275,7 @@ function GiftsView({ data: first, reload }) {
             <View style={styles.codeBox}>
               <Text style={styles.code} selectable>{data.invite.code}</Text>
             </View>
-            <PrimaryButton label="Share my code" icon="share-outline" onPress={shareCode} />
+            <PrimaryButton label="Copy this code" icon="copy-outline" onPress={shareCode} />
             <Text style={styles.fine}>
               {data.invite.joined} joined · {data.invite.finished_lesson_1} finished lesson 1 · {data.invite.paid} of {data.invite.max} bonuses received
             </Text>
