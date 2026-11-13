@@ -8,6 +8,7 @@ import { enterFriendCode, equipGift, getGifts, redeemGift } from '../api/app';
 import AsyncState from '../components/AsyncState';
 import Avatar from '../components/Avatar';
 import Chip from '../components/Chip';
+import GiftShareSheet from '../components/GiftShareSheet';
 import { GiftThumb, WallpaperArt } from '../components/GiftArt';
 import PrimaryButton from '../components/PrimaryButton';
 import Screen from '../components/Screen';
@@ -56,6 +57,7 @@ function GiftsView({ data: first, reload }) {
   const [slot, setSlot] = useState('outfit');
   const [pick, setPick] = useState(null); // the style item being tried on
   const [busy, setBusy] = useState(false);
+  const [shareGift, setShareGift] = useState(null); // a tree / meal just given: { id, unit, message }
 
   const refresh = async () => {
     try {
@@ -89,7 +91,8 @@ function GiftsView({ data: first, reload }) {
       );
       if (!ok) return;
       const res = await redeemGift(item.id);
-      notify(item.kind === 'impact' ? 'Thank you!' : 'It is yours!', res.message);
+      if (item.kind === 'impact') setShareGift({ id: res.gift_id, unit: res.unit, message: res.message });
+      else notify('It is yours!', res.message);
       await refresh();
     });
 
@@ -126,6 +129,7 @@ function GiftsView({ data: first, reload }) {
 
   return (
     <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
+      <GiftShareSheet gift={shareGift} onClose={() => setShareGift(null)} />
       <View style={styles.balance}>
         <View style={styles.balanceTop}>
           <Ionicons name="flower" size={26} color={colors.primary} />

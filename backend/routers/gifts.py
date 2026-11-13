@@ -10,6 +10,7 @@ from pydantic import BaseModel
 
 import analytics
 import charity
+import os
 import db
 import gifts_catalog as catalog
 import rewards
@@ -90,7 +91,7 @@ def redeem(body: RedeemIn):
     log = state.setdefault("spend_log", [])
     log.append(row)
     del log[:-300]
-    return {"message": message, "flowers": user["flowers"], "equipped": g["equipped"],
+    return {"message": message, "gift_id": row["id"], "unit": item.get("unit"), "flowers": user["flowers"], "equipped": g["equipped"],
             "impact": {**_impact_totals(g), "co2_kg_per_year": _impact_totals(g)["trees"] * catalog.IMPACT["impact_tree"]["co2_kg_per_year"]}}
 
 
@@ -134,3 +135,30 @@ def referral(body: ReferralIn):
         raise HTTPException(status_code=404, detail="We couldn't find that code. Check it and try again.")
     state["referral"] = {"by": code, "at": analytics.now_iso(), "done": False}
     return {"ok": True}
+
+
+# ---- Sharing a tree or a meal (the poster + link the app hands to Facebook, Instagram, LinkedIn and X)
+PUBLIC_URL = os.getenv("LANGOGO_PUBLIC_URL", "http://localhost:8000").rstrip("/")
+DEFAULT_PARTNER = {"tree": "Ecologi", "meal": "ShareTheMeal"}
+
+
+def share_texts(unit, partner=""):
+    """(title, description) for a shared tree / meal. Used by the app and by the public preview page (routers/share.py)."""
+    partner = partner or DEFAULT_PARTNER.get(unit, "")
+    if unit == "tree":
+        return ("I planted a tree by practising speaking!",
+                f"Every flower I earned on Langogo became a real tree, planted through {partner}. About 20 kg of CO₂ absorbed every year.")
+    return ("I donated a meal by practising speaking!",
+            f"Every flower I earned on Langogo became a meal for a person facing hunger, given through {partner}.")
+
+
+@router.get("/share/{gift_id}")
+def share_gift(gift_id: str):
+    g = _gifts(store.STATE)
+    row = next((r for r in g["redeemed"] if r["id"] == gift_id), None)
+    if row is None or row["unit"] not in ("tree", "meal"):
+        raise HTTPException(status_code=404, detail="Gift not found.")
+    title, description = share_texts(row["unit"], charity.status()[row["unit"]]["partner"])
+    token = f"{rewards.code_of(store.current().uid)}.{gift_id}"
+    return {"title": title, "text": f"{title} {description}", "url": f"{PUBLIC_URL}/share/gift/{token}",
+            "image": f"{PUBLIC_URL}/static/share-{row['unit']}.png", "hashtags": ["Langogo", "GiveBack"], "unit": row["unit"]}

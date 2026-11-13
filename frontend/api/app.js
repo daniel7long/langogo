@@ -150,6 +150,7 @@ export const getReviewSession = async ({ mode = 'cards', scope = 'due', group, l
 };
 
 // Sharing a lesson result
+export const getGiftShare = (giftId) => request(`/gifts/share/${enc(giftId)}`);
 export const getSharePayload = (recordId) => request(`/share/${enc(recordId)}/payload`);
 
 // Records

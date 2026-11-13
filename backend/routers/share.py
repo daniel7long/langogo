@@ -64,6 +64,47 @@ def share_payload(record_id: str):
     }
 
 
+@router.get("/gift/{token}", response_class=HTMLResponse)
+def gift_page(token: str):
+    """The public preview page of a shared tree / meal (Facebook and LinkedIn read its Open Graph tags)."""
+    from routers import gifts as gift_routes  # imported here: gifts.py also imports this module's settings
+    import charity
+    key, _, gift_id = token.rpartition(".")
+    state = (db.state_by_share_key(key) if key else None) or {}
+    row = next((r for r in (state.get("gifts") or {}).get("redeemed", []) if r.get("id") == gift_id), None)
+    if row is None or row.get("unit") not in ("tree", "meal"):
+        raise HTTPException(status_code=404, detail="Not found")
+    title, description = gift_routes.share_texts(row["unit"], charity.status()[row["unit"]]["partner"])
+    url, image = f"{PUBLIC_URL}/share/gift/{token}", f"{PUBLIC_URL}/static/share-{row['unit']}.png"
+    t, d, u, i, app = (escape(x, quote=True) for x in (title, description, url, image, APP_URL))
+    return f"""<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{t}</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Langogo">
+<meta property="og:title" content="{t}">
+<meta property="og:description" content="{d}">
+<meta property="og:url" content="{u}">
+<meta property="og:image" content="{i}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{t}">
+<meta name="twitter:description" content="{d}">
+<meta name="twitter:image" content="{i}">
+<style>body{{font-family:system-ui,sans-serif;background:#FFF0E3;color:#1A1A1A;display:flex;min-height:100vh;
+align-items:center;justify-content:center;margin:0}}main{{text-align:center;padding:24px;max-width:480px}}img{{width:100%;border-radius:16px}}
+a{{display:inline-block;margin-top:16px;background:#F47A20;color:#fff;padding:12px 24px;border-radius:999px;
+text-decoration:none;font-weight:600}}</style>
+</head><body><main>
+<img src="{i}" alt="{t}">
+<h1>{t}</h1><p>{d}</p>
+<a href="{app}">Try Langogo</a>
+</main></body></html>"""
+
+
 @router.get("/{record_id}", response_class=HTMLResponse)
 def share_page(record_id: str):
     record = _record_or_404(record_id, public=True)
