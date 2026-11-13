@@ -9,6 +9,7 @@ from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel
 
 import analytics
+import hashlib
 import charity
 import os
 import db
@@ -143,14 +144,46 @@ def referral(body: ReferralIn):
 DEFAULT_PARTNER = {"tree": "Ecologi", "meal": "ShareTheMeal"}
 
 
-def share_texts(unit, partner=""):
-    """(title, description) for a shared tree / meal. Used by the app and by the public preview page (routers/share.py)."""
+# Six wordings per kind. Each says what really happened: the learner's flowers helped fund a tree / meal through the partner.
+# {lang} is the language they practise, {partner} the charity partner.
+_TREE_COPY = [
+    ("I helped plant a tree by practising {lang}.", "My Langogo flowers went to {partner} to plant a real tree."),
+    ("My {lang} practice helped a new tree take root.", "Flowers earned on Langogo, trees planted through {partner}."),
+    ("I contributed to planting a tree, one {lang} lesson at a time.", "A tree can absorb around 20 kg of CO₂ every year."),
+    ("Speaking {lang} helped me give back to the planet.", "My Langogo flowers helped plant a tree through {partner}."),
+    ("Every {lang} sentence I practised helped plant a tree.", "Planted through {partner}, funded by my Langogo flowers."),
+    ("I contributed to a tree planted through {partner}.", "Practising {lang} on Langogo, one flower at a time."),
+]
+_MEAL_COPY = [
+    ("My {lang} practice helped provide a meal.", "Flowers earned on Langogo, given through {partner}."),
+    ("I helped put a meal on someone's table.", "I practised {lang} on Langogo; my flowers went to {partner}."),
+    ("I contributed to a meal for someone facing hunger.", "Practising {lang} on Langogo, giving through {partner}."),
+    ("Speaking {lang} helped share a meal with someone in need.", "My Langogo flowers were given through {partner}."),
+    ("Every {lang} lesson helped me share a meal.", "Funded by my Langogo flowers, given through {partner}."),
+    ("I helped feed someone by practising {lang}.", "A meal given through {partner} with my Langogo flowers."),
+]
+SCENES = 6
+
+
+def share_variant(state, share_key, gift_id, unit):
+    """Which of the six pictures / wordings this gift gets. Consecutive gifts of one kind always differ."""
+    rows = [r for r in ((state.get("gifts") or {}).get("redeemed") or []) if r.get("unit") == unit]
+    idx = next((i for i, r in enumerate(rows) if r.get("id") == gift_id), 0)
+    offset = int(hashlib.sha256((share_key or "").encode()).hexdigest()[:8], 16)
+    return (offset + idx) % SCENES
+
+
+def share_texts(unit, partner="", language="", variant=0):
+    """(headline, description) for a shared tree / meal. Used by the app and by the public preview page (routers/share.py)."""
     partner = partner or DEFAULT_PARTNER.get(unit, "")
-    if unit == "tree":
-        return ("I planted a tree by practising speaking!",
-                f"Every flower I earned on Langogo became a real tree, planted through {partner}. About 20 kg of CO₂ absorbed every year.")
-    return ("I donated a meal by practising speaking!",
-            f"Every flower I earned on Langogo became a meal for a person facing hunger, given through {partner}.")
+    lang = language or "a new language"
+    copy = (_TREE_COPY if unit == "tree" else _MEAL_COPY)[variant % SCENES]
+    return copy[0].format(lang=lang, partner=partner), copy[1].format(lang=lang, partner=partner)
+
+
+def _language_name(state):
+    import languages
+    return languages.get((state.get("user") or {}).get("language"))["name"]
 
 
 @router.get("/share/{gift_id}")
@@ -159,8 +192,11 @@ def share_gift(gift_id: str, request: Request):
     row = next((r for r in g["redeemed"] if r["id"] == gift_id), None)
     if row is None or row["unit"] not in ("tree", "meal"):
         raise HTTPException(status_code=404, detail="Gift not found.")
-    title, description = share_texts(row["unit"], charity.status()[row["unit"]]["partner"])
-    token = f"{rewards.code_of(store.current().uid)}.{gift_id}"
+    state = store.STATE
+    key = rewards.code_of(store.current().uid)
+    variant = share_variant(state, key, gift_id, row["unit"])
+    title, description = share_texts(row["unit"], charity.status()[row["unit"]]["partner"], _language_name(state), variant)
+    token = f"{key}.{gift_id}"
     base = public_url(request)
-    return {"title": title, "text": f"{title} {description}", "url": f"{base}/share/gift/{token}",
-            "image": f"{base}/static/share-{row['unit']}.png", "hashtags": ["Langogo", "GiveBack"], "unit": row["unit"]}
+    return {"title": title, "headline": title, "sub": description, "text": f"{title} {description}", "url": f"{base}/share/gift/{token}",
+            "image": f"{base}/static/scenes/{row['unit']}-{variant}.png", "hashtags": ["Langogo", "GiveBack"], "unit": row["unit"], "variant": variant}

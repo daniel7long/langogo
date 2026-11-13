@@ -75,9 +75,10 @@ def gift_page(token: str, request: Request):
     row = next((r for r in (state.get("gifts") or {}).get("redeemed", []) if r.get("id") == gift_id), None)
     if row is None or row.get("unit") not in ("tree", "meal"):
         raise HTTPException(status_code=404, detail="Not found")
-    title, description = gift_routes.share_texts(row["unit"], charity.status()[row["unit"]]["partner"])
+    variant = gift_routes.share_variant(state, key, gift_id, row["unit"])
+    title, description = gift_routes.share_texts(row["unit"], charity.status()[row["unit"]]["partner"], gift_routes._language_name(state), variant)
     base = public_url(request)
-    url, image = f"{base}/share/gift/{token}", f"{base}/static/share-{row['unit']}.png"
+    url, image = f"{base}/share/gift/{token}", f"{base}/static/scenes/{row['unit']}-{variant}.png"
     t, d, u, i, app = (escape(x, quote=True) for x in (title, description, url, image, APP_URL))
     return f"""<!doctype html>
 <html lang="en"><head>

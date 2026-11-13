@@ -62,7 +62,7 @@ export default function GiftShareSheet({ gift, onClose }) {
           </View>
           {!!gift?.message && <Text style={styles.message}>{gift.message}</Text>}
 
-          <GiftPoster unit={gift?.unit || payload?.unit || 'tree'} />
+          <GiftPoster unit={payload?.unit || gift?.unit || 'tree'} variant={payload?.variant || 0} headline={payload?.headline} sub={payload?.sub} />
 
           {error ? (
             <Text style={styles.error}>{error}</Text>
@@ -81,8 +81,8 @@ export default function GiftShareSheet({ gift, onClose }) {
                 ))}
               </View>
               <SecondaryButton label="Copy text" icon="copy-outline" onPress={copy} />
-              <Pressable onPress={() => Linking.openURL(`${BASE_URL}/static/share-${payload.unit}.png`).catch(() => {})} accessibilityRole="link" hitSlop={8}>
-                <Text style={styles.link}>Open the poster to save it (for Instagram stories and posts)</Text>
+              <Pressable onPress={() => Linking.openURL(`${payload.image}`).catch(() => {})} accessibilityRole="link" hitSlop={8}>
+                <Text style={styles.link}>Open the picture to save it (for Instagram stories and posts)</Text>
               </Pressable>
             </>
           )}
