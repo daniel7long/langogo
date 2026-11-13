@@ -193,7 +193,7 @@ def flower_rows(state):
     for e in state.get("flower_log", []):
         local = to_local(e.get("at"))
         rows.append({"at": local.strftime("%Y-%m-%d %H:%M") if local else "", "day": local.date().isoformat() if local else "",
-                     "reason": e.get("kind", ""), "flowers": e.get("amount", 0)})
+                     "reason": e.get("kind", "") + (f": {e['key']}" if e.get("kind") == "admin" and e.get("key") else ""), "flowers": e.get("amount", 0)})
     return rows
 
 

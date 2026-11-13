@@ -175,7 +175,7 @@ def overview(key: str = "", id: str = "", view: str = ""):
 <h2>Gift redemptions to fulfil (plant a tree / donate a meal)</h2><p class=n>Each costs you about $1. The app only records the request.</p>{gifts_tab}""")
 
 
-def _detail(match, k):
+def _detail(match, k, note=""):
     st = match["state"]
     s = analytics.summary(st)
     cards = "".join(f'<div class=card>{escape(lbl)}<b>{escape(str(v))}</b></div>' for lbl, v in [
@@ -220,6 +220,15 @@ def _detail(match, k):
                  ("flowers", "Flowers"), ("retry_takes", "Retry takes")], list(reversed(analytics.freetalk_rows(st))))
     fl = _table([("at", "When"), ("reason", "Earned for"), ("flowers", "Flowers")], list(reversed(analytics.flower_rows(st)))[:150])
     rd = _table([("at", "When"), ("gift", "Gift"), ("type", "Type"), ("flowers", "Flowers spent")], list(reversed(analytics.redemption_rows(st))))
+    balance = st.get("user", {}).get("flowers", 0)
+    adjust = f"""<form method=get action="/admin/dashboard/flowers" class=panel>
+<input type=hidden name=key value="{escape(key_plain(k))}"><input type=hidden name=id value="{escape(match['id'])}">
+<h2>Flowers: {balance} now (you can change it)</h2>
+<p class=n><select name=mode><option value=set>Set balance to</option><option value=add>Add (use a minus to remove)</option></select>
+ <input name=amount type=number required style="width:110px" placeholder="e.g. 100">
+ Note <input name=note placeholder="why (shown in the Earned list)" size=30>
+ <button class=b type=submit>Save</button></p>
+<p class=n>Changes show in the learner's app straight away and appear in the Earned list as "admin". They do not count toward the weekly leaderboard.</p></form>"""
     code = rewards.code_of(match["id"])
     mine = [r for r in _referral_rows(_learners()) if r["code_used"] == code]
     ref = st.get("referral")
@@ -228,7 +237,7 @@ def _detail(match, k):
                  ("bonus_paid_100_flowers", "100 flowers paid")], mine)
     who = escape(match["name"] or match["email"] or match["id"])
     seen = f" · last seen {escape(s['last_seen'])}" if s["last_seen"] else " · no time tracked yet"
-    return f"""<h1>{who}</h1><p class=n>{escape(match["email"])} · joined {escape(match["joined"])}{seen}</p>{cards}
+    return f"""<h1>{who}</h1><p class=n>{escape(match["email"])} · joined {escape(match["joined"])}{seen}</p>{note}{adjust}{cards}
 <div class=panel><h2>Languages: level and current lesson</h2>{prog}</div>
 <div class=panel><h2>Level test results</h2>{lt}</div>
 <div class=panel><h2>Per day (last 30 days)</h2>{days}</div>
@@ -242,7 +251,7 @@ def _detail(match, k):
 <div class=panel><h2>Retry takes (newest 200)</h2>{ltk}</div>"""
 
 
-def _shell(selected, k):
+def _shell(selected, k, note=""):
     """Left: the learners. Right: the one picked."""
     people = _learners()
     for L in people:
@@ -266,8 +275,38 @@ def _shell(selected, k):
 <a class=b href="/admin/dashboard?view=gifts&amp;key={k}">Gifts, charity &amp; referrals</a>
 <input id=q placeholder="Search learners" oninput="for(const a of document.querySelectorAll('.who'))a.style.display=a.dataset.q.includes(this.value.toLowerCase())?'':'none'">
 {items}<p class=n style="margin:14px 4px 4px">CSV downloads</p>{exports}</div>"""
-    main = _detail(match, k) if match else "<p>No learners yet.</p>"
+    main = _detail(match, k, note) if match else "<p>No learners yet.</p>"
     return _page("Langogo dashboard", f'<div class=shell>{side}<div class=main>{main}</div></div>', cls="app")
+
+
+@router.get("/flowers")
+def change_flowers(key: str = "", id: str = "", mode: str = "set", amount: int = 0, note: str = ""):
+    """Admin: set a learner's flower balance, or add / remove flowers. Recorded in their Earned list as "admin"."""
+    _check(key)
+    k = quote(key)
+    sessions = store._SESSIONS
+    session = sessions.get(id)  # a learner who is online has their state in memory: change that one, or their next save would undo it
+    if session is not None:
+        state, email = session.state, session.email
+    else:
+        state, attempts = db.load_full(id)
+        email = None
+        if state is None:
+            return _shell(id, k, '<p class=low>Learner not found.</p>')
+    user = state.setdefault("user", {})
+    before = int(user.get("flowers", 0))
+    after = max(0, amount if mode == "set" else before + amount)
+    delta = after - before
+    user["flowers"] = after
+    if delta:
+        log = state.setdefault("flower_log", [])
+        log.append({"at": analytics.now_iso(), "kind": "admin", "amount": delta, "key": note.strip()[:80] or None})
+        del log[:-rewards.KEEP_LOG]
+    if session is not None:
+        store._write(session)
+    else:
+        db.save(id, state, email, rewards.code_of(id), attempts)
+    return _shell(id, k, f'<p class=good>Flowers changed from {before} to {after}.</p>')
 
 
 @router.get("/learner")
