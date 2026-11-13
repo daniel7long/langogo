@@ -5,7 +5,7 @@
     POST /gifts/equip      wear or take off a style item {slot, item_id | null}
     POST /gifts/referral   "a friend invited me": {code}. The friend gets 100 flowers when this learner finishes lesson 1
 """
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel
 
 import analytics
@@ -15,6 +15,7 @@ import db
 import gifts_catalog as catalog
 import rewards
 import store
+from urls import public_url
 
 router = APIRouter(prefix="/gifts", tags=["gifts"])
 SLOTS = ("outfit", "frame", "wallpaper")
@@ -139,7 +140,6 @@ def referral(body: ReferralIn):
 
 
 # ---- Sharing a tree or a meal (the poster + link the app hands to Facebook, Instagram, LinkedIn and X)
-PUBLIC_URL = os.getenv("LANGOGO_PUBLIC_URL", "http://localhost:8000").rstrip("/")
 DEFAULT_PARTNER = {"tree": "Ecologi", "meal": "ShareTheMeal"}
 
 
@@ -154,12 +154,13 @@ def share_texts(unit, partner=""):
 
 
 @router.get("/share/{gift_id}")
-def share_gift(gift_id: str):
+def share_gift(gift_id: str, request: Request):
     g = _gifts(store.STATE)
     row = next((r for r in g["redeemed"] if r["id"] == gift_id), None)
     if row is None or row["unit"] not in ("tree", "meal"):
         raise HTTPException(status_code=404, detail="Gift not found.")
     title, description = share_texts(row["unit"], charity.status()[row["unit"]]["partner"])
     token = f"{rewards.code_of(store.current().uid)}.{gift_id}"
-    return {"title": title, "text": f"{title} {description}", "url": f"{PUBLIC_URL}/share/gift/{token}",
-            "image": f"{PUBLIC_URL}/static/share-{row['unit']}.png", "hashtags": ["Langogo", "GiveBack"], "unit": row["unit"]}
+    base = public_url(request)
+    return {"title": title, "text": f"{title} {description}", "url": f"{base}/share/gift/{token}",
+            "image": f"{base}/static/share-{row['unit']}.png", "hashtags": ["Langogo", "GiveBack"], "unit": row["unit"]}

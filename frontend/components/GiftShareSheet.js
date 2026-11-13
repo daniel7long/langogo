@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Image, Linking, Modal, Pressable, StyleSheet, View } from 'react-native';
+import { ActivityIndicator, Linking, Modal, Pressable, StyleSheet, View } from 'react-native';
 
 import Text from './AppText';
 import { Ionicons } from '@expo/vector-icons';
 
 import { getGiftShare } from '../api/app';
+import { BASE_URL } from '../api/client';
+import GiftPoster from './GiftPoster';
 import IconButton from './IconButton';
 import SecondaryButton from './SecondaryButton';
 import { notify } from '../utils/dialog';
@@ -60,13 +62,14 @@ export default function GiftShareSheet({ gift, onClose }) {
           </View>
           {!!gift?.message && <Text style={styles.message}>{gift.message}</Text>}
 
+          <GiftPoster unit={gift?.unit || payload?.unit || 'tree'} />
+
           {error ? (
             <Text style={styles.error}>{error}</Text>
           ) : !payload ? (
             <ActivityIndicator color={colors.primary} style={styles.loading} />
           ) : (
             <>
-              <Image source={{ uri: payload.image }} style={styles.poster} resizeMode="cover" accessibilityLabel="Your sharing poster" />
               <View style={styles.targets}>
                 {SHARE_TARGETS.map((t) => (
                   <Pressable key={t.id} onPress={() => pick(t.id)} style={styles.target} accessibilityRole="button" accessibilityLabel={`Share on ${t.label}`}>
@@ -78,7 +81,7 @@ export default function GiftShareSheet({ gift, onClose }) {
                 ))}
               </View>
               <SecondaryButton label="Copy text" icon="copy-outline" onPress={copy} />
-              <Pressable onPress={() => Linking.openURL(payload.image).catch(() => {})} accessibilityRole="link" hitSlop={8}>
+              <Pressable onPress={() => Linking.openURL(`${BASE_URL}/static/share-${payload.unit}.png`).catch(() => {})} accessibilityRole="link" hitSlop={8}>
                 <Text style={styles.link}>Open the poster to save it (for Instagram stories and posts)</Text>
               </Pressable>
             </>
@@ -108,7 +111,6 @@ const styles = StyleSheet.create({
   eyebrow: { ...typography.eyebrow, color: colors.primary },
   title: { ...typography.headline, color: colors.text },
   message: { ...typography.body, color: colors.textMuted },
-  poster: { width: '100%', aspectRatio: 1200 / 630, borderRadius: radius.lg, backgroundColor: colors.card },
   targets: { flexDirection: 'row', justifyContent: 'space-around' },
   target: { alignItems: 'center', gap: 6, minWidth: 68 },
   targetIcon: { width: 56, height: 56, borderRadius: 28, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.line, ...shadows.card() },

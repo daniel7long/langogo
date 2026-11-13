@@ -11,11 +11,12 @@ Set these before deploying (see the share steps in the update notes):
 import os
 from html import escape
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import HTMLResponse
 
 import db
 import store
+from urls import public_url
 
 router = APIRouter(prefix="/share", tags=["share"])
 
@@ -53,19 +54,19 @@ def _texts(record):
 
 
 @router.get("/{record_id}/payload")
-def share_payload(record_id: str):
+def share_payload(record_id: str, request: Request):
     record = _record_or_404(record_id)
     title, description = _texts(record)
     return {
         "title": title,
         "text": f"{title} {description}",
-        "url": f"{PUBLIC_URL}/share/{_share_token(record['id'])}",
+        "url": f"{public_url(request)}/share/{_share_token(record['id'])}",
         "hashtags": ["Langogo", f"Learn{record.get('language', 'French')}"],
     }
 
 
 @router.get("/gift/{token}", response_class=HTMLResponse)
-def gift_page(token: str):
+def gift_page(token: str, request: Request):
     """The public preview page of a shared tree / meal (Facebook and LinkedIn read its Open Graph tags)."""
     from routers import gifts as gift_routes  # imported here: gifts.py also imports this module's settings
     import charity
@@ -75,7 +76,8 @@ def gift_page(token: str):
     if row is None or row.get("unit") not in ("tree", "meal"):
         raise HTTPException(status_code=404, detail="Not found")
     title, description = gift_routes.share_texts(row["unit"], charity.status()[row["unit"]]["partner"])
-    url, image = f"{PUBLIC_URL}/share/gift/{token}", f"{PUBLIC_URL}/static/share-{row['unit']}.png"
+    base = public_url(request)
+    url, image = f"{base}/share/gift/{token}", f"{base}/static/share-{row['unit']}.png"
     t, d, u, i, app = (escape(x, quote=True) for x in (title, description, url, image, APP_URL))
     return f"""<!doctype html>
 <html lang="en"><head>
@@ -106,11 +108,12 @@ text-decoration:none;font-weight:600}}</style>
 
 
 @router.get("/{record_id}", response_class=HTMLResponse)
-def share_page(record_id: str):
+def share_page(record_id: str, request: Request):
     record = _record_or_404(record_id, public=True)
     title, description = _texts(record)
-    url = f"{PUBLIC_URL}/share/{record_id}"
-    image = f"{PUBLIC_URL}/static/share-card.png"
+    base = public_url(request)
+    url = f"{base}/share/{record_id}"
+    image = f"{base}/static/share-card.png"
     t, d, u, i, app = (escape(x, quote=True) for x in (title, description, url, image, APP_URL))
     return f"""<!doctype html>
 <html lang="en"><head>
