@@ -208,6 +208,22 @@ def activate(uid, email=None, name=None):
     return session
 
 
+def update_learner(uid, change):
+    """Changes the saved state of another learner (for example to pay a bonus) and saves it.
+    If that learner is online their live state is changed, so a later save never undoes it."""
+    session = _SESSIONS.get(uid)
+    if session is None:
+        saved, attempts = db.load_full(uid)
+        if saved is None:
+            return False
+        state = _complete(saved)
+        session = Session(uid, None, state)
+        session.attempts = attempts
+    change(session.state)
+    _write(session)
+    return True
+
+
 def current():
     return _current.get() or activate("dev")
 

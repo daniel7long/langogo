@@ -124,7 +124,7 @@ class ReferralIn(BaseModel):
 
 @router.post("/referral")
 def referral(body: ReferralIn):
-    """A new learner enters the code of the friend who invited them (only before their first lesson)."""
+    """A new learner enters the code of the friend who invited them (at any time)."""
     state = store.STATE
     mine = rewards.code_of(store.current().uid)
     code = body.code.strip().lower()
@@ -132,12 +132,16 @@ def referral(body: ReferralIn):
         raise HTTPException(status_code=409, detail="You already entered a friend's code.")
     if code == mine:
         raise HTTPException(status_code=422, detail="That is your own code. Share it with a friend instead.")
-    if rewards.has_done_lesson(state):
-        raise HTTPException(status_code=422, detail="A friend's code can only be added before your first lesson.")
     if not any(rewards.code_of(uid) == code for uid, *_ in db.all_states()):
         raise HTTPException(status_code=404, detail="We couldn't find that code. Check it and try again.")
-    state["referral"] = {"by": code, "at": analytics.now_iso(), "done": False}
-    return {"ok": True}
+    already = rewards.has_done_lesson(state)  # entered after the first lesson: the friend is paid right away
+    state["referral"] = {"by": code, "at": analytics.now_iso(), "done": already}
+    if already:
+        try:
+            rewards.pay_inviter(store.current().uid, state)
+        except Exception as e:  # noqa: BLE001
+            print(f"WARNING: friend bonus not paid yet: {e}", flush=True)
+    return {"ok": True, "already_finished": already}
 
 
 # ---- Sharing a tree or a meal (the poster + link the app hands to Facebook, Instagram, LinkedIn and X)

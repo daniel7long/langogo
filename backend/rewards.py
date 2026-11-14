@@ -174,6 +174,29 @@ def claim_friends(state, my_code):
     return paid
 
 
+def pay_inviter(invitee_uid, invitee_state):
+    """Pays the 100-flower bonus straight away to the learner whose code this learner entered.
+    Called when the invited learner finishes their first lesson (or enters the code after they already have).
+    The inviter's flowers are updated even if they are not online. Safe to call twice: it pays once."""
+    import store
+    ref = invitee_state.get("referral") or {}
+    if not ref.get("by") or ref.get("paid"):
+        return 0
+    friend = code_of(invitee_uid)
+    inviter_uid = next((uid for uid, *_ in db.all_states() if code_of(uid) == ref["by"]), None)
+    if not inviter_uid or inviter_uid == invitee_uid:
+        return 0
+    got = []
+
+    def pay(state):
+        if friend not in _data(state)["friends"]:
+            got.append(award(state, "friend", key=friend))
+
+    store.update_learner(inviter_uid, pay)
+    ref["paid"] = True  # also when the inviter was already at the 5-friend limit: nothing more to pay
+    return sum(got)
+
+
 def friends_summary(state, my_code):
     joined = done = 0
     for uid, _email, _created, _updated, other in db.all_states():

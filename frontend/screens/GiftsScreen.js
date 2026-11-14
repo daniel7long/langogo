@@ -308,7 +308,7 @@ function GiftsView({ data: first, reload }) {
   );
 }
 
-// "A friend invited me": only shown before the first lesson.
+// "A friend invited me": can be entered at any time.
 function FriendCode({ onDone }) {
   const [code, setCode] = useState('');
   const [busy, setBusy] = useState(false);
@@ -316,8 +316,8 @@ function FriendCode({ onDone }) {
     if (!code.trim()) return;
     setBusy(true);
     try {
-      await enterFriendCode(code);
-      notify('Thank you!', 'Your friend will get their flowers when you finish lesson 1.');
+      const res = await enterFriendCode(code);
+      notify('Thank you!', res && res.already_finished ? 'Your friend has received their 100 flowers.' : 'Your friend will automatically get 100 flowers when you finish your first lesson.');
       onDone();
     } catch (e) {
       notify("That code didn't work", e.message);

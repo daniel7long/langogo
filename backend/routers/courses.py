@@ -137,7 +137,11 @@ def complete_lesson(lesson_id: str, swap: bool = False):
     earned += rewards.practiced(state)
     ref = state.get("referral")
     if ref and not ref.get("done") and not rewards.has_done_lesson(state):  # this is their first real lesson (the record is added below)
-        ref["done"] = True  # the friend who invited this learner is paid when they next open the Gift Menu
+        ref["done"] = True
+        try:  # the friend who invited this learner gets their 100 flowers now
+            rewards.pay_inviter(store.current().uid, state)
+        except Exception as e:  # noqa: BLE001  never block finishing a lesson because of the bonus
+            print(f"WARNING: friend bonus not paid yet: {e}", flush=True)
     store.touch_streak(user)
     # What to practise comes from what the learner really said: the weakest words and phrase.
     feedback = scoring.feedback_items([(attempts[t]["text"], attempts[t]["result"]) for t in user_turns])
