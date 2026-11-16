@@ -28,6 +28,18 @@ IMPACT = {
     },
 }
 
+# A real gift card that costs the project real money ($10 each). Fulfilled by hand like the impact gifts, limited by the
+# prepaid stock you enter on the dashboard (unit "coffee"), and one per learner per calendar month.
+REWARD = {
+    "reward_coffee": {
+        "kind": "reward", "unit": "coffee", "name": "Coffee Card ($10)", "price": 1000, "emoji": "☕",
+        "blurb": "A real coffee gift card with a $10 balance.",
+        "effect": "You get the card code right here in the app, straight away. One card per learner each month.",
+        "thanks": "Enjoy! Your $10 Coffee Card code is in Your gifts below. Tap Copy and use it at the shop.",
+        "monthly_limit": 1,
+    },
+}
+
 # slot: outfit (worn on the avatar), frame (a ring around it), wallpaper (the picture behind your profile).
 STYLE = [
     ("outfit", "outfit_bandana", "Sea Captain's Bandana", 50, "Ready for an adventure on the open sea."),
@@ -68,5 +80,6 @@ STYLE = [
 RARITY = {50: "Everyday", 60: "Everyday", 80: "Popular", 100: "Favourite", 120: "Rare", 150: "Rare", 180: "Epic", 200: "Legendary"}
 
 ITEMS = dict(IMPACT)
+ITEMS.update(REWARD)
 for slot, item_id, name, price, blurb in STYLE:
     ITEMS[item_id] = {"kind": "style", "slot": slot, "name": name, "price": price, "blurb": blurb, "rarity": RARITY[price]}

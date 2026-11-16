@@ -8,7 +8,8 @@ If you have not entered a quota for a gift yet, it is not limited (so the app ke
 import db
 
 KEY = "charity"
-UNITS = {"tree": "Plant a tree", "meal": "Donate a meal"}
+CODE_UNITS = ("coffee",)  # gifts that hand out a real code from giftcodes.py
+UNITS = {"tree": "Plant a tree", "meal": "Donate a meal", "coffee": "Coffee Card ($10)"}
 
 
 def config():
@@ -37,12 +38,16 @@ def used_counts():
 
 def status():
     """Per unit: partner, link, prepaid, used, remaining (None = no quota set, unlimited) and whether it can be redeemed now."""
+    import giftcodes
     cfg, used = config(), used_counts()
     out = {}
     for unit in UNITS:
         c = cfg[unit]
         prepaid = c.get("prepaid")
         remaining = None if prepaid is None else max(0, prepaid - used[unit])
+        if unit in CODE_UNITS:  # real codes: the stock is the unused codes in the pool
+            k = giftcodes.counts(unit)
+            prepaid, used[unit], remaining = k["total"], k["given"], k["remaining"]
         out[unit] = {"partner": c.get("partner", ""), "url": c.get("url", ""), "note": c.get("note", ""), "prepaid": prepaid,
                      "used": used[unit], "remaining": remaining, "available": remaining is None or remaining > 0}
     return out

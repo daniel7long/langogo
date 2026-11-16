@@ -78,13 +78,13 @@ function GiftsView({ data: first, reload }) {
   };
 
   const items = data.shop;
-  const impact = items.filter((i) => i.kind === 'impact');
+  const impact = items.filter((i) => i.kind === 'impact' || i.kind === 'reward');
   const style = items.filter((i) => i.kind === 'style' && i.slot === slot);
 
   const redeem = (item) =>
     run(async () => {
       const ok = await confirm(
-        item.kind === 'impact' ? `${item.name}?` : `Get ${item.name}?`,
+        item.kind === 'style' ? `Get ${item.name}?` : `${item.name}?`,
         `This costs ${item.price} flowers. You have ${data.flowers}.`,
         'Redeem',
         'Not now'
@@ -93,6 +93,7 @@ function GiftsView({ data: first, reload }) {
       const res = await redeemGift(item.id);
       if (item.kind === 'impact') setShareGift({ id: res.gift_id, unit: res.unit, message: res.message });
       else notify('It is yours!', res.message);
+      if (item.kind === 'reward') setTab('impact');
       await refresh();
     });
 
@@ -105,6 +106,20 @@ function GiftsView({ data: first, reload }) {
   // What the preview shows: what you wear now, with the picked item tried on.
   const shown = { ...data.equipped, ...(pick ? { [pick.slot]: pick.id } : {}) };
   const need = pick ? Math.max(0, pick.price - data.flowers) : 0;
+
+  // Copies a gift card code (web clipboard, or the share sheet on a phone).
+  const copyText = async (text) => {
+    try {
+      if (Platform.OS === 'web') {
+        await navigator.clipboard.writeText(text);
+        notify('Copied!', 'The code is copied. Paste it where you pay.');
+      } else {
+        await Share.share({ message: text });
+      }
+    } catch {
+      notify('Your code', text);
+    }
+  };
 
   // "Copy this code": puts a friendly invitation with the code on the clipboard (web), or opens the share sheet with it (phone).
   const shareCode = async () => {
@@ -171,7 +186,7 @@ function GiftsView({ data: first, reload }) {
                   </Text>
                 </Pressable>
               )}
-              {item.community_total > 0 && (
+              {item.kind === 'impact' && item.community_total > 0 && (
                 <Text style={styles.community}>
                   {item.unit === 'tree' ? '🌳' : '🍲'} Langogo learners have given {item.community_total} {item.unit}
                   {item.community_total === 1 ? '' : 's'} so far.
@@ -196,13 +211,14 @@ function GiftsView({ data: first, reload }) {
               {data.given.map((g) => (
                 <View key={g.id} style={styles.givenRow}>
                   <Text style={styles.givenText}>
-                    {g.unit === 'tree' ? '🌳' : '🍲'} {g.name} · {String(g.at).slice(0, 10)}
+                    {g.unit === 'tree' ? '🌳' : g.unit === 'coffee' ? '☕' : '🍲'} {g.name} · {String(g.at).slice(0, 10)}
+                    {g.code ? `\n${g.code}` : ''}
                   </Text>
-                  <Pressable onPress={() => setShareGift({ id: g.id, unit: g.unit })} accessibilityRole="button" accessibilityLabel={`Share ${g.name}`} hitSlop={8}>
+                  {g.unit === 'coffee' ? (g.code ? <Pressable onPress={() => copyText(g.code)} accessibilityRole="button" accessibilityLabel="Copy code" hitSlop={8}><Text style={styles.givenShare}><Ionicons name="copy-outline" size={14} color={colors.primary} /> Copy</Text></Pressable> : null) : <Pressable onPress={() => setShareGift({ id: g.id, unit: g.unit })} accessibilityRole="button" accessibilityLabel={`Share ${g.name}`} hitSlop={8}>
                     <Text style={styles.givenShare}>
                       <Ionicons name="share-social-outline" size={14} color={colors.primary} /> Share
                     </Text>
-                  </Pressable>
+                  </Pressable>}
                 </View>
               ))}
             </View>

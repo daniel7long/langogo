@@ -11,6 +11,7 @@ from pydantic import BaseModel
 import analytics
 import hashlib
 import charity
+import giftcodes
 import os
 import db
 import gifts_catalog as catalog
@@ -45,7 +46,7 @@ def get_gifts():
     quota = charity.status()
     for item_id, it in catalog.ITEMS.items():
         row = {"id": item_id, **it, "owned": item_id in g["owned"]}
-        if it["kind"] == "impact":
+        if it["kind"] in ("impact", "reward"):
             q = quota[it["unit"]]
             row.update(partner=q["partner"], partner_url=q["url"], available=q["available"], community_total=q["used"])
         row["equipped"] = it["kind"] == "style" and g["equipped"].get(it["slot"]) == item_id
@@ -55,7 +56,7 @@ def get_gifts():
         "flowers": user["flowers"], "earned_today": rewards.earned_today(state),
         "friend_bonus_paid_now": paid,
         "rules": rewards.rules_out(state), "shop": shop, "equipped": g["equipped"],
-        "given": [{"id": r["id"], "unit": r["unit"], "name": r["name"], "at": r["at"]} for r in reversed(g["redeemed"])][:10],
+        "given": [{"id": r["id"], "unit": r["unit"], "name": r["name"], "at": r["at"], "code": r.get("code")} for r in reversed(g["redeemed"])][:10],
         "impact": {**totals, "co2_kg_per_year": totals["trees"] * catalog.IMPACT["impact_tree"]["co2_kg_per_year"]},
         "invite": {"code": my_code, "referred_by": bool(state.get("referral")), **rewards.friends_summary(state, my_code)},
         "name": user.get("name"), "photo_url": f"/photos/{user['photo_token']}" if user.get("photo_token") else None,
@@ -74,16 +75,30 @@ def redeem(body: RedeemIn):
     if item is None:
         raise HTTPException(status_code=404, detail="That gift doesn't exist.")
     user = state["user"]
-    if item["kind"] == "impact" and not charity.status()[item["unit"]]["available"]:
+    if item["kind"] in ("impact", "reward") and not charity.status()[item["unit"]]["available"]:
         raise HTTPException(status_code=409, detail=f"All the {item['unit']}s we have set aside are taken for now. "
                                                     "More are coming soon, and your flowers are safe.")
+    if item.get("monthly_limit"):
+        month = analytics.now_iso()[:7]
+        if sum(1 for r in g["redeemed"] if r["item_id"] == body.item_id and str(r["at"])[:7] == month) >= item["monthly_limit"]:
+            raise HTTPException(status_code=409, detail="You already got this one this month. You can redeem another next month, and your flowers are safe.")
     if item["kind"] == "style" and body.item_id in g["owned"]:
         raise HTTPException(status_code=409, detail="You already own this.")
     if user["flowers"] < item["price"]:
         raise HTTPException(status_code=402, detail=f"You need {item['price']} flowers and have {user['flowers']}.")
+    if item["kind"] == "reward" and giftcodes.given_today(item["unit"]) >= giftcodes.DAILY_CAP:
+        raise HTTPException(status_code=409, detail="Today's coffee cards are all taken. Try again tomorrow, and your flowers are safe.")
     user["flowers"] -= item["price"]
     row = {"id": f"g{len(g['redeemed']) + 1}", "at": analytics.now_iso(), "item_id": body.item_id, "name": item["name"],
-           "price": item["price"], "unit": item.get("unit", item.get("slot")), "lang": store.current_lang()}
+           "price": item["price"], "unit": item.get("unit", item.get("slot")), "lang": store.current_lang(),
+           "email": store.current().email or ""}
+    if item["kind"] == "reward":
+        code = giftcodes.take(item["unit"], store.current().uid, store.current().email or "", row["id"])
+        if code is None:
+            user["flowers"] += item["price"]
+            raise HTTPException(status_code=409, detail="All the coffee cards we have set aside are taken for now. "
+                                                        "More are coming soon, and your flowers are safe.")
+        row["code"] = code
     if item["kind"] == "style":
         g["owned"].append(body.item_id)
         g["equipped"][item["slot"]] = body.item_id  # wear it straight away
@@ -94,7 +109,7 @@ def redeem(body: RedeemIn):
     log = state.setdefault("spend_log", [])
     log.append(row)
     del log[:-300]
-    return {"message": message, "gift_id": row["id"], "unit": item.get("unit"), "flowers": user["flowers"], "equipped": g["equipped"],
+    return {"message": message, "gift_id": row["id"], "unit": item.get("unit"), "code": row.get("code"), "flowers": user["flowers"], "equipped": g["equipped"],
             "impact": {**_impact_totals(g), "co2_kg_per_year": _impact_totals(g)["trees"] * catalog.IMPACT["impact_tree"]["co2_kg_per_year"]}}
 
 

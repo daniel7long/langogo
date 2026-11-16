@@ -202,7 +202,7 @@ def redemption_rows(state):
     rows = []
     for e in state.get("spend_log", []):
         local = to_local(e.get("at"))
-        impact = e.get("item_id", "").startswith("impact_")
+        impact = e.get("item_id", "").startswith(("impact_", "reward_"))
         rows.append({"at": local.strftime("%Y-%m-%d %H:%M") if local else "", "gift": e.get("name", ""),
                      "type": "impact (to fulfil)" if impact else "style", "flowers": e.get("price", 0), "lang": e.get("lang", "")})
     return rows

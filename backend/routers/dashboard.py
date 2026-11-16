@@ -17,6 +17,7 @@ from fastapi.responses import HTMLResponse, Response
 import analytics
 import db
 import charity
+import giftcodes
 import rewards
 import store
 from routers.admin import _check
@@ -98,6 +99,8 @@ def _gifts_view(k, note=""):
     st = charity.status()
     forms = ""
     for unit, label in charity.UNITS.items():
+        if unit in charity.CODE_UNITS:
+            continue
         q = st[unit]
         left = "no quota set (unlimited)" if q["remaining"] is None else f"{q['remaining']} left"
         forms += f"""<form method=get action="/admin/dashboard/charity" class=panel>
@@ -108,6 +111,16 @@ def _gifts_view(k, note=""):
  Pre-paid total <input name=prepaid type=number min=0 value="{'' if q['prepaid'] is None else q['prepaid']}" style="width:90px" required>
  <button class=b type=submit>Save</button></p>
 <p class=n>"Pre-paid total" is everything you have bought so far, not just the newest batch. Learners use it up one by one; at 0 the gift shows "Back soon".</p></form>"""
+    kc = giftcodes.counts("coffee")
+    code_rows = [{"code": c["code"], "state": "void" if c.get("void") and not c.get("to") else ("given" if c.get("to") else "unused"),
+                  "to": c.get("email", ""), "at": (c.get("at") or "")[:16].replace("T", " ")} for c in giftcodes.rows("coffee")]
+    forms += f"""<form method=get action="/admin/dashboard/codes" class=panel>
+<input type=hidden name=key value="{escape(key_plain(k))}">
+<h2>Coffee Card codes: {kc['remaining']} unused, {kc['given']} given{f", {kc['void']} void" if kc['void'] else ""}</h2>
+<p class=n>Paste new codes or claim links, one per line, then Add. Each learner who redeems gets the next unused one in the app (at most {giftcodes.DAILY_CAP} a day).</p>
+<p><textarea name=codes rows=4 cols=60 placeholder="one code per line"></textarea> <button class=b type=submit>Add codes</button></p>
+<p class=n>To cancel a code that doesn't work, paste it here and press Void (it must be unused): <input name=void size=30> <button class=b type=submit name=do value=void>Void</button></p>
+{_table([("code", "Code"), ("state", "State"), ("to", "Given to"), ("at", "When")], code_rows)}</form>"""
     fulfil = []
     for L in people:
         for r in analytics.redemption_rows(L["state"]):
@@ -125,6 +138,18 @@ def _gifts_view(k, note=""):
 def key_plain(k):
     from urllib.parse import unquote
     return unquote(k)
+
+
+@router.get("/codes")
+def codes_save(key: str = "", codes: str = "", void: str = "", do: str = ""):
+    _check(key)
+    k = quote(key)
+    if do == "void" and void.strip():
+        giftcodes.void("coffee", void.strip())
+        note = '<p class=good>Code voided.</p>'
+    else:
+        note = f'<p class=good>Added {giftcodes.add("coffee", codes)} new code(s).</p>'
+    return _page("Coffee codes", _gifts_view(k, note))
 
 
 @router.get("/charity")
