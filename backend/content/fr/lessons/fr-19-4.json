@@ -1,0 +1,237 @@
+{
+ "emoji": "🎂",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "organiser",
+   "ipa": "/ɔʁ.ga.ni.ze/",
+   "pos": "v.",
+   "meaning": "to organize",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tu sais que l'anniversaire de Paul approche ? On devrait organiser quelque chose.",
+     "en": "You know Paul's birthday is coming up? We should organize something."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "inviter",
+   "ipa": "/ɛ̃.vi.te/",
+   "pos": "v.",
+   "meaning": "to invite",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Parfait. Je m'occupe d'inviter les amis par message, en secret.",
+     "en": "Perfect. I'll take care of inviting friends by message, in secret."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "surprise",
+   "ipa": "/yn syʁ.pʁiz/",
+   "pos": "n.f.",
+   "meaning": "surprise",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Bonne idée ! Une fête surprise, peut-être ? Il adore les surprises.",
+     "en": "Good idea! A surprise party, maybe? He loves surprises."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "gâteau",
+   "ipa": "/œ̃ ga.to/",
+   "pos": "n.m.",
+   "meaning": "cake",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Moi, je m'occupe du gâteau. Je connais une pâtisserie excellente.",
+     "en": "As for me, I'll take care of the cake. I know an excellent pastry shop."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "la décoration",
+   "ipa": "/la de.kɔ.ʁa.sjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "decoration",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Et pour la décoration, j'ai déjà des ballons et des guirlandes à la maison.",
+     "en": "And for the decoration, I already have balloons and garlands at home."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "un cadeau",
+   "ipa": "/œ̃ ka.do/",
+   "pos": "n.m.",
+   "meaning": "gift",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Super. Il nous faut aussi un cadeau. Qu'est-ce qu'il aimerait ?",
+     "en": "Great. We also need a gift. What would he like?"
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Camille",
+   "role": "npc",
+   "text": "Tu sais que l'anniversaire de Paul approche ? On devrait organiser quelque chose.",
+   "glosses": [
+    {
+     "text": "organiser",
+     "pos": "v.",
+     "meaning": "to organize"
+    }
+   ],
+   "en": "You know Paul's birthday is coming up? We should organize something."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bonne idée ! Une fête surprise, peut-être ? Il adore les surprises.",
+   "glosses": [
+    {
+     "text": "surprise",
+     "pos": "n.f.",
+     "meaning": "surprise"
+    }
+   ],
+   "en": "Good idea! A surprise party, maybe? He loves surprises."
+  },
+  {
+   "id": "t3",
+   "speaker": "Camille",
+   "role": "npc",
+   "text": "Oui, mais où ? Mon appartement est trop petit pour vingt personnes.",
+   "glosses": [],
+   "en": "Yes, but where? My apartment is too small for twenty people."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "On pourrait louer la salle de l'association. Elle est grande et pas chère.",
+   "glosses": [],
+   "en": "We could rent the association's hall. It's big and not expensive."
+  },
+  {
+   "id": "t5",
+   "speaker": "Camille",
+   "role": "npc",
+   "text": "Parfait. Je m'occupe d'inviter les amis par message, en secret.",
+   "glosses": [
+    {
+     "text": "inviter",
+     "pos": "v.",
+     "meaning": "to invite"
+    }
+   ],
+   "en": "Perfect. I'll take care of inviting friends by message, in secret."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Moi, je m'occupe du gâteau. Je connais une pâtisserie excellente.",
+   "glosses": [
+    {
+     "text": "gâteau",
+     "pos": "n.m.",
+     "meaning": "cake"
+    }
+   ],
+   "en": "As for me, I'll take care of the cake. I know an excellent pastry shop."
+  },
+  {
+   "id": "t7",
+   "speaker": "Camille",
+   "role": "npc",
+   "text": "Et pour la décoration, j'ai déjà des ballons et des guirlandes à la maison.",
+   "glosses": [
+    {
+     "text": "la décoration",
+     "pos": "n.f.",
+     "meaning": "decoration"
+    }
+   ],
+   "en": "And for the decoration, I already have balloons and garlands at home."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Super. Il nous faut aussi un cadeau. Qu'est-ce qu'il aimerait ?",
+   "glosses": [
+    {
+     "text": "un cadeau",
+     "pos": "n.m.",
+     "meaning": "gift"
+    }
+   ],
+   "en": "Great. We also need a gift. What would he like?"
+  },
+  {
+   "id": "t9",
+   "speaker": "Camille",
+   "role": "npc",
+   "text": "Il dit toujours qu'il veut apprendre la guitare. On pourrait lui offrir des cours.",
+   "glosses": [],
+   "en": "He always says he wants to learn guitar. We could give him lessons."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Excellente idée ! Chacun donne vingt euros et ça suffira largement.",
+   "glosses": [],
+   "en": "Excellent idea! Everyone gives twenty euros and that will be plenty."
+  },
+  {
+   "id": "t11",
+   "speaker": "Camille",
+   "role": "npc",
+   "text": "Reste à savoir comment le faire venir sans qu'il se doute de rien.",
+   "glosses": [],
+   "en": "It remains to find out how to get him there without him suspecting anything."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Laisse-moi faire. Je lui dirai qu'on dîne au restaurant, juste nous trois.",
+   "glosses": [],
+   "en": "Leave it to me. I'll tell him we're having dinner at a restaurant, just the three of us."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "organiser",
+   "tip": "Say ɔʁ.ga.ni.ze"
+  },
+  {
+   "id": "w2",
+   "text": "inviter",
+   "tip": "Say ɛ̃.vi.te"
+  }
+ ]
+}

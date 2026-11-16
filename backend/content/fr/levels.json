@@ -395,6 +395,138 @@
           "title": "Plurilingualism and identity"
         }
       ]
+    },
+    {
+      "level": 19,
+      "title": "Home and City Life",
+      "lessons": [
+        {
+          "id": "fr-19-1",
+          "title": "Choosing a neighborhood"
+        },
+        {
+          "id": "fr-19-2",
+          "title": "Taking a taxi"
+        },
+        {
+          "id": "fr-19-3",
+          "title": "At the post office"
+        },
+        {
+          "id": "fr-19-4",
+          "title": "Planning a birthday party"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "title": "Technology and Daily Habits",
+      "lessons": [
+        {
+          "id": "fr-20-1",
+          "title": "Fixing a phone"
+        },
+        {
+          "id": "fr-20-2",
+          "title": "Online shopping and returns"
+        },
+        {
+          "id": "fr-20-3",
+          "title": "Booking a train ticket online"
+        },
+        {
+          "id": "fr-20-4",
+          "title": "Talking about a podcast"
+        }
+      ]
+    },
+    {
+      "level": 21,
+      "title": "Friends and Feelings",
+      "lessons": [
+        {
+          "id": "fr-21-1",
+          "title": "Giving advice to a friend"
+        },
+        {
+          "id": "fr-21-2",
+          "title": "Making up after an argument"
+        },
+        {
+          "id": "fr-21-3",
+          "title": "A childhood memory"
+        },
+        {
+          "id": "fr-21-4",
+          "title": "Declining an invitation"
+        }
+      ]
+    },
+    {
+      "level": 22,
+      "title": "Work and Ideas",
+      "lessons": [
+        {
+          "id": "fr-22-1",
+          "title": "Presenting a start-up idea"
+        },
+        {
+          "id": "fr-22-2",
+          "title": "Handling a customer complaint"
+        },
+        {
+          "id": "fr-22-3",
+          "title": "Asking for feedback and a raise"
+        },
+        {
+          "id": "fr-22-4",
+          "title": "Organizing a conference"
+        }
+      ]
+    },
+    {
+      "level": 23,
+      "title": "Society and Environment",
+      "lessons": [
+        {
+          "id": "fr-23-1",
+          "title": "Recycling and waste"
+        },
+        {
+          "id": "fr-23-2",
+          "title": "City life or country life"
+        },
+        {
+          "id": "fr-23-3",
+          "title": "Overtourism"
+        },
+        {
+          "id": "fr-23-4",
+          "title": "Healthy eating and food waste"
+        }
+      ]
+    },
+    {
+      "level": 24,
+      "title": "Opinions and Debate",
+      "lessons": [
+        {
+          "id": "fr-24-1",
+          "title": "The school system"
+        },
+        {
+          "id": "fr-24-2",
+          "title": "Life as an expat"
+        },
+        {
+          "id": "fr-24-3",
+          "title": "Summarizing an article"
+        },
+        {
+          "id": "fr-24-4",
+          "title": "A farewell speech"
+        }
+      ]
     }
   ]
 }

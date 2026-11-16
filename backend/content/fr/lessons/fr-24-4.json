@@ -1,0 +1,273 @@
+{
+ "emoji": "🥂",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "discours",
+   "ipa": "/œ̃ dis.kuʁ/",
+   "pos": "n.m.",
+   "meaning": "speech",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Merci. Je n'avais pas préparé de discours, mais je veux d'abord remercier toute l'équipe.",
+     "en": "Thank you. I hadn't prepared a speech, but I first want to thank the whole team."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "remercier",
+   "ipa": "/ʁə.mɛʁ.sje/",
+   "pos": "v.",
+   "meaning": "to thank",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Merci. Je n'avais pas préparé de discours, mais je veux d'abord remercier toute l'équipe.",
+     "en": "Thank you. I hadn't prepared a speech, but I first want to thank the whole team."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "souvenir",
+   "ipa": "/œ̃ suv.niʁ/",
+   "pos": "n.m.",
+   "meaning": "memory",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Quel est ton plus beau souvenir de toutes ces années ?",
+     "en": "What's your best memory of all these years?"
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "départ",
+   "ipa": "/œ̃ de.paʁ/",
+   "pos": "n.m.",
+   "meaning": "departure",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Chers collègues, chers amis, merci d'être venus ce soir pour mon départ.",
+     "en": "Dear colleagues, dear friends, thank you for coming tonight for my departure."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "levons nos verres",
+   "ipa": "/lə.vɔ̃ no vɛʁ/",
+   "pos": "phr.",
+   "meaning": "let's raise our glasses",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Alors, levons nos verres ! Pour Marie, pour ses prochaines aventures et pour notre amitié !",
+     "en": "So, let's raise our glasses! To Marie, to her next adventures and to our friendship!"
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "aventure",
+   "ipa": "/yn‿a.vɑ̃.tyʁ/",
+   "pos": "n.f.",
+   "meaning": "adventure",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Partir est difficile, mais je sens que le moment est venu de vivre une nouvelle aventure.",
+     "en": "Leaving is hard, but I feel the time has come to live a new adventure."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Chers collègues, chers amis, merci d'être venus ce soir pour mon départ.",
+   "glosses": [
+    {
+     "text": "départ",
+     "pos": "n.m.",
+     "meaning": "departure"
+    }
+   ],
+   "en": "Dear colleagues, dear friends, thank you for coming tonight for my departure."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Prenez le temps de dire quelques mots, Marie. Nous t'écoutons tous avec émotion.",
+   "glosses": [],
+   "en": "Take the time to say a few words, Marie. We're all listening to you with emotion."
+  },
+  {
+   "id": "t3",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Merci. Je n'avais pas préparé de discours, mais je veux d'abord remercier toute l'équipe.",
+   "glosses": [
+    {
+     "text": "discours",
+     "pos": "n.m.",
+     "meaning": "speech"
+    },
+    {
+     "text": "remercier",
+     "pos": "v.",
+     "meaning": "to thank"
+    }
+   ],
+   "en": "Thank you. I hadn't prepared a speech, but I first want to thank the whole team."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Il y a douze ans, je suis arrivée ici, un peu perdue, avec beaucoup de questions.",
+   "glosses": [],
+   "en": "Twelve years ago, I arrived here, a bit lost, with many questions."
+  },
+  {
+   "id": "t5",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Tu t'es vite imposée, et tu as formé beaucoup d'entre nous. On te doit énormément.",
+   "glosses": [],
+   "en": "You established yourself quickly, and you trained many of us. We owe you a great deal."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Vous êtes trop gentils. Ce que je retiendrai, ce ne sont pas les dossiers, mais les rires dans les couloirs.",
+   "glosses": [],
+   "en": "You're too kind. What I'll remember isn't the files, but the laughter in the corridors."
+  },
+  {
+   "id": "t7",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Quel est ton plus beau souvenir de toutes ces années ?",
+   "glosses": [
+    {
+     "text": "souvenir",
+     "pos": "n.m.",
+     "meaning": "memory"
+    }
+   ],
+   "en": "What's your best memory of all these years?"
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Sans doute le lancement du projet Horizon, quand nous avons travaillé trois nuits d'affilée.",
+   "glosses": [],
+   "en": "Probably the launch of Project Horizon, when we worked three nights in a row."
+  },
+  {
+   "id": "t9",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "On a failli tout abandonner, mais l'équipe a tenu bon. J'en ai encore des frissons.",
+   "glosses": [],
+   "en": "We nearly gave everything up, but the team held on. It still gives me goosebumps."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Partir est difficile, mais je sens que le moment est venu de vivre une nouvelle aventure.",
+   "glosses": [
+    {
+     "text": "aventure",
+     "pos": "n.f.",
+     "meaning": "adventure"
+    }
+   ],
+   "en": "Leaving is hard, but I feel the time has come to live a new adventure."
+  },
+  {
+   "id": "t11",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Tu vas nous manquer, mais nous sommes heureux de te voir réaliser ton rêve de voyager.",
+   "glosses": [],
+   "en": "We'll miss you, but we're happy to see you fulfil your dream of traveling."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je n'oublierai jamais ce que vous m'avez appris, chacun à votre manière.",
+   "glosses": [],
+   "en": "I'll never forget what you've taught me, each in your own way."
+  },
+  {
+   "id": "t13",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Gardons le contact, d'accord ? Les réseaux sociaux ont au moins cet avantage.",
+   "glosses": [],
+   "en": "Let's keep in touch, all right? Social media has at least that advantage."
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bien sûr. Mon adresse ne changera pas, et ma porte restera ouverte à chacun d'entre vous.",
+   "glosses": [],
+   "en": "Of course. My address won't change, and my door will remain open to every one of you."
+  },
+  {
+   "id": "t15",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Alors, levons nos verres ! Pour Marie, pour ses prochaines aventures et pour notre amitié !",
+   "glosses": [
+    {
+     "text": "levons nos verres",
+     "pos": "phr.",
+     "meaning": "let's raise our glasses"
+    },
+    {
+     "text": "aventure",
+     "pos": "n.f.",
+     "meaning": "adventure"
+    }
+   ],
+   "en": "So, let's raise our glasses! To Marie, to her next adventures and to our friendship!"
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci du fond du cœur. À vous tous, à l'équipe, à l'avenir ! Santé !",
+   "glosses": [],
+   "en": "Thank you from the bottom of my heart. To all of you, to the team, to the future! Cheers!"
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "discours",
+   "tip": "Say œ̃ dis.kuʁ"
+  },
+  {
+   "id": "w2",
+   "text": "remercier",
+   "tip": "Say ʁə.mɛʁ.sje"
+  }
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "emoji": "📞",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "une réclamation",
+   "ipa": "/yn ʁe.kla.ma.sjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "complaint",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Bonjour. J'appelle pour une réclamation. Mon abonnement internet est coupé depuis cinq jours.",
+     "en": "Hello. I'm calling with a complaint. My internet subscription has been cut off for five days."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "désagrément",
+   "ipa": "/œ̃ de.za.gʁe.mɑ̃/",
+   "pos": "n.m.",
+   "meaning": "inconvenience",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Je suis sincèrement désolé pour ce désagrément. Puis-je avoir votre numéro de client ?",
+     "en": "I'm sincerely sorry for this inconvenience. May I have your customer number?"
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "geste commercial",
+   "ipa": "/œ̃ ʒɛst kɔ.mɛʁ.sjal/",
+   "pos": "n.m.",
+   "meaning": "goodwill gesture",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Cette semaine ne sera pas facturée. Et en guise de geste commercial, nous vous offrons un mois gratuit.",
+     "en": "This week won't be billed. And as a goodwill gesture, we're offering you a free month."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "un délai",
+   "ipa": "/œ̃ de.lɛ/",
+   "pos": "n.m.",
+   "meaning": "deadline, delay",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Aujourd'hui ? Lors de mon dernier appel, on m'avait promis un délai de quarante-huit heures.",
+     "en": "Today? During my last call, I was promised a forty-eight hour deadline."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "facturée",
+   "ipa": "/fak.ty.ʁe/",
+   "pos": "p.p.",
+   "meaning": "billed",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Cette semaine ne sera pas facturée. Et en guise de geste commercial, nous vous offrons un mois gratuit.",
+     "en": "This week won't be billed. And as a goodwill gesture, we're offering you a free month."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "un dédommagement",
+   "ipa": "/œ̃ de.dɔ.maʒ.mɑ̃/",
+   "pos": "n.m.",
+   "meaning": "compensation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "C'est un dédommagement raisonnable. Je voudrais tout de même une confirmation écrite de ces engagements.",
+     "en": "That's reasonable compensation. I'd still like written confirmation of these commitments."
+    }
+   ]
+  },
+  {
+   "id": "v7",
+   "word": "résoudre",
+   "ipa": "/ʁe.zudʁ/",
+   "pos": "v.",
+   "meaning": "to resolve",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Je comprends parfaitement. Je vais faire tout mon possible pour résoudre le problème aujourd'hui même.",
+     "en": "I understand perfectly. I'll do everything possible to resolve the problem today."
+    }
+   ]
+  },
+  {
+   "id": "v8",
+   "word": "un interlocuteur",
+   "ipa": "/œ̃n‿ɛ̃.tɛʁ.lɔ.ky.tœʁ/",
+   "pos": "n.m.",
+   "meaning": "contact person",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Vous la recevrez par courriel dans l'heure. Je vous donne aussi mon nom, pour que vous ayez un interlocuteur direct.",
+     "en": "You'll receive it by email within the hour. I'm also giving you my name, so you have a direct contact person."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Cliente",
+   "role": "npc",
+   "text": "Service clientèle, bonjour. Que puis-je faire pour vous aujourd'hui ?",
+   "glosses": [],
+   "en": "Customer service, hello. What can I do for you today?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bonjour. J'appelle pour une réclamation. Mon abonnement internet est coupé depuis cinq jours.",
+   "glosses": [
+    {
+     "text": "une réclamation",
+     "pos": "n.f.",
+     "meaning": "complaint"
+    }
+   ],
+   "en": "Hello. I'm calling with a complaint. My internet subscription has been cut off for five days."
+  },
+  {
+   "id": "t3",
+   "speaker": "Cliente",
+   "role": "npc",
+   "text": "Je suis sincèrement désolé pour ce désagrément. Puis-je avoir votre numéro de client ?",
+   "glosses": [
+    {
+     "text": "désagrément",
+     "pos": "n.m.",
+     "meaning": "inconvenience"
+    }
+   ],
+   "en": "I'm sincerely sorry for this inconvenience. May I have your customer number?"
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bien sûr, c'est le 7 4 9 2 1. J'ai déjà appelé trois fois, et personne ne m'a rappelée.",
+   "glosses": [],
+   "en": "Of course, it's 7 4 9 2 1. I've already called three times, and nobody called me back."
+  },
+  {
+   "id": "t5",
+   "speaker": "Cliente",
+   "role": "npc",
+   "text": "Je vois votre dossier. Un technicien devait passer lundi, mais le rendez-vous a été annulé par erreur.",
+   "glosses": [],
+   "en": "I can see your file. A technician was supposed to come on Monday, but the appointment was cancelled by mistake."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est inadmissible. Je travaille à domicile, donc cette panne me coûte de l'argent.",
+   "glosses": [],
+   "en": "That's unacceptable. I work from home, so this outage costs me money."
+  },
+  {
+   "id": "t7",
+   "speaker": "Cliente",
+   "role": "npc",
+   "text": "Je comprends parfaitement. Je vais faire tout mon possible pour résoudre le problème aujourd'hui même.",
+   "glosses": [
+    {
+     "text": "résoudre",
+     "pos": "v.",
+     "meaning": "to resolve"
+    }
+   ],
+   "en": "I understand perfectly. I'll do everything possible to resolve the problem today."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Aujourd'hui ? Lors de mon dernier appel, on m'avait promis un délai de quarante-huit heures.",
+   "glosses": [
+    {
+     "text": "un délai",
+     "pos": "n.m.",
+     "meaning": "deadline, delay"
+    }
+   ],
+   "en": "Today? During my last call, I was promised a forty-eight hour deadline."
+  },
+  {
+   "id": "t9",
+   "speaker": "Cliente",
+   "role": "npc",
+   "text": "Vous avez raison, et ce retard est de notre faute. Je vous propose un rendez-vous demain à huit heures.",
+   "glosses": [],
+   "en": "You're right, and this delay is our fault. I'm offering you an appointment tomorrow at eight a.m."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Très bien. Mais qu'en est-il de la facture ? Je ne veux pas être facturée pour un service que je n'ai pas eu.",
+   "glosses": [
+    {
+     "text": "facturée",
+     "pos": "p.p.",
+     "meaning": "billed"
+    }
+   ],
+   "en": "Very well. But what about the bill? I don't want to be billed for a service I didn't get."
+  },
+  {
+   "id": "t11",
+   "speaker": "Cliente",
+   "role": "npc",
+   "text": "Cette semaine ne sera pas facturée. Et en guise de geste commercial, nous vous offrons un mois gratuit.",
+   "glosses": [
+    {
+     "text": "geste commercial",
+     "pos": "n.m.",
+     "meaning": "goodwill gesture"
+    },
+    {
+     "text": "facturée",
+     "pos": "p.p.",
+     "meaning": "billed"
+    }
+   ],
+   "en": "This week won't be billed. And as a goodwill gesture, we're offering you a free month."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est un dédommagement raisonnable. Je voudrais tout de même une confirmation écrite de ces engagements.",
+   "glosses": [
+    {
+     "text": "un dédommagement",
+     "pos": "n.m.",
+     "meaning": "compensation"
+    }
+   ],
+   "en": "That's reasonable compensation. I'd still like written confirmation of these commitments."
+  },
+  {
+   "id": "t13",
+   "speaker": "Cliente",
+   "role": "npc",
+   "text": "Vous la recevrez par courriel dans l'heure. Je vous donne aussi mon nom, pour que vous ayez un interlocuteur direct.",
+   "glosses": [
+    {
+     "text": "un interlocuteur",
+     "pos": "n.m.",
+     "meaning": "contact person"
+    }
+   ],
+   "en": "You'll receive it by email within the hour. I'm also giving you my name, so you have a direct contact person."
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci, c'est très aimable. Si le technicien ne vient pas demain, je résilierai mon contrat.",
+   "glosses": [],
+   "en": "Thank you, that's very kind. If the technician doesn't come tomorrow, I'll cancel my contract."
+  },
+  {
+   "id": "t15",
+   "speaker": "Cliente",
+   "role": "npc",
+   "text": "Je comprends. Il viendra, je m'en porte garant. Encore toutes mes excuses, madame, et bonne journée.",
+   "glosses": [],
+   "en": "I understand. He'll come, I vouch for it. Once again my apologies, madam, and have a good day."
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci. J'attendrai sa visite demain, et je vous rappellerai en cas de problème.",
+   "glosses": [],
+   "en": "Thank you. I'll wait for his visit tomorrow, and I'll call you back if there's a problem."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "une réclamation",
+   "tip": "Say yn ʁe.kla.ma.sjɔ̃"
+  },
+  {
+   "id": "w2",
+   "text": "désagrément",
+   "tip": "Say œ̃ de.za.gʁe.mɑ̃"
+  }
+ ]
+}

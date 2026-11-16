@@ -1,0 +1,268 @@
+{
+ "emoji": "🥗",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "alimentation",
+   "ipa": "/la.li.mɑ̃.ta.sjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "diet, food",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Bonjour docteur. Je voudrais changer mon alimentation, mais je ne sais pas par où commencer.",
+     "en": "Hello doctor. I'd like to change my diet, but I don't know where to start."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "équilibré",
+   "ipa": "/e.ki.li.bʁe/",
+   "pos": "adj.",
+   "meaning": "balanced",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Je vois. Ce n'est pas très équilibré, et les plats préparés contiennent souvent trop d'additifs et de sel.",
+     "en": "I see. That's not very balanced, and ready meals often contain too many additives and too much salt."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "le gaspillage",
+   "ipa": "/lə gas.pi.jaʒ/",
+   "pos": "n.m.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Vous pourriez préparer vos repas le dimanche pour toute la semaine. Cela évite le gaspillage aussi.",
+     "en": "You could prepare your meals on Sunday for the whole week. That also avoids waste."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "de saison",
+   "ipa": "/də sɛ.zɔ̃/",
+   "pos": "adj. phr.",
+   "meaning": "seasonal",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Justement. Achetez moins mais mieux, et privilégiez les produits de saison, qui sont plus frais et moins chers.",
+     "en": "Exactly. Buy less but better, and favor seasonal produce, which is fresher and cheaper."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "additif",
+   "ipa": "/œ̃n‿a.di.tif/",
+   "pos": "n.m.",
+   "meaning": "additive",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Je vois. Ce n'est pas très équilibré, et les plats préparés contiennent souvent trop d'additifs et de sel.",
+     "en": "I see. That's not very balanced, and ready meals often contain too many additives and too much salt."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "la date limite",
+   "ipa": "/la dat li.mit/",
+   "pos": "n.f.",
+   "meaning": "expiry date",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Et comment savoir si un produit est encore bon ? La date limite m'embrouille toujours.",
+     "en": "And how do I know if a product is still good? The expiry date always confuses me."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Nutritionniste",
+   "role": "npc",
+   "text": "Bonjour docteur. Je voudrais changer mon alimentation, mais je ne sais pas par où commencer.",
+   "glosses": [
+    {
+     "text": "alimentation",
+     "pos": "n.f.",
+     "meaning": "diet, food"
+    }
+   ],
+   "en": "Hello doctor. I'd like to change my diet, but I don't know where to start."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Très bien. Décrivez-moi un peu vos habitudes. Que mangez-vous en général dans la journée ?",
+   "glosses": [],
+   "en": "Very good. Tell me a bit about your habits. What do you generally eat during the day?"
+  },
+  {
+   "id": "t3",
+   "speaker": "Nutritionniste",
+   "role": "npc",
+   "text": "Le matin, juste un café. À midi, un sandwich, et le soir, souvent des plats préparés.",
+   "glosses": [],
+   "en": "In the morning, just a coffee. At noon, a sandwich, and in the evening, often ready meals."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je vois. Ce n'est pas très équilibré, et les plats préparés contiennent souvent trop d'additifs et de sel.",
+   "glosses": [
+    {
+     "text": "équilibré",
+     "pos": "adj.",
+     "meaning": "balanced"
+    },
+    {
+     "text": "additif",
+     "pos": "n.m.",
+     "meaning": "additive"
+    }
+   ],
+   "en": "I see. That's not very balanced, and ready meals often contain too many additives and too much salt."
+  },
+  {
+   "id": "t5",
+   "speaker": "Nutritionniste",
+   "role": "npc",
+   "text": "Je n'ai pas le temps de cuisiner, j'ai des horaires chargés.",
+   "glosses": [],
+   "en": "I don't have time to cook, I have a heavy schedule."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Vous pourriez préparer vos repas le dimanche pour toute la semaine. Cela évite le gaspillage aussi.",
+   "glosses": [
+    {
+     "text": "le gaspillage",
+     "pos": "n.m.",
+     "meaning": "waste"
+    }
+   ],
+   "en": "You could prepare your meals on Sunday for the whole week. That also avoids waste."
+  },
+  {
+   "id": "t7",
+   "speaker": "Nutritionniste",
+   "role": "npc",
+   "text": "Ah oui ? Je jette beaucoup de nourriture, surtout des légumes qui pourrissent au frigo.",
+   "glosses": [],
+   "en": "Oh yes? I throw away a lot of food, especially vegetables that rot in the fridge."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Justement. Achetez moins mais mieux, et privilégiez les produits de saison, qui sont plus frais et moins chers.",
+   "glosses": [
+    {
+     "text": "de saison",
+     "pos": "adj. phr.",
+     "meaning": "seasonal"
+    }
+   ],
+   "en": "Exactly. Buy less but better, and favor seasonal produce, which is fresher and cheaper."
+  },
+  {
+   "id": "t9",
+   "speaker": "Nutritionniste",
+   "role": "npc",
+   "text": "Et comment savoir si un produit est encore bon ? La date limite m'embrouille toujours.",
+   "glosses": [
+    {
+     "text": "La date limite",
+     "pos": "n.f.",
+     "meaning": "expiry date"
+    }
+   ],
+   "en": "And how do I know if a product is still good? The expiry date always confuses me."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Il y a deux mentions : « à consommer jusqu'au » est strict, « à consommer de préférence avant » est indicatif.",
+   "glosses": [],
+   "en": "There are two labels: \"use by\" is strict, \"best before\" is indicative."
+  },
+  {
+   "id": "t11",
+   "speaker": "Nutritionniste",
+   "role": "npc",
+   "text": "Je ne savais pas. J'ai sûrement jeté des yaourts parfaitement mangeables.",
+   "glosses": [],
+   "en": "I didn't know. I've surely thrown away perfectly edible yogurts."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est très courant. Ajoutez aussi des fruits et des légumes à chaque repas, et buvez de l'eau.",
+   "glosses": [],
+   "en": "It's very common. Also add fruit and vegetables to every meal, and drink water."
+  },
+  {
+   "id": "t13",
+   "speaker": "Nutritionniste",
+   "role": "npc",
+   "text": "Je peux essayer. Pensez-vous que je puisse perdre quelques kilos en changeant simplement mes habitudes ?",
+   "glosses": [],
+   "en": "I can try. Do you think I could lose a few kilos just by changing my habits?"
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Probablement, mais l'objectif n'est pas seulement de maigrir : c'est de vous sentir mieux dans votre corps.",
+   "glosses": [],
+   "en": "Probably, but the goal isn't just to lose weight: it's to feel better in your body."
+  },
+  {
+   "id": "t15",
+   "speaker": "Nutritionniste",
+   "role": "npc",
+   "text": "C'est vrai. Je commence dès cette semaine, avec un plan de repas simple.",
+   "glosses": [],
+   "en": "True. I'm starting this week, with a simple meal plan."
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Parfait. Revenez me voir dans un mois et nous ferons le point ensemble.",
+   "glosses": [],
+   "en": "Perfect. Come see me again in a month and we'll take stock together."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "alimentation",
+   "tip": "Say la.li.mɑ̃.ta.sjɔ̃"
+  },
+  {
+   "id": "w2",
+   "text": "équilibré",
+   "tip": "Say e.ki.li.bʁe"
+  }
+ ]
+}

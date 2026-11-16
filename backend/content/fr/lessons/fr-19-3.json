@@ -1,0 +1,248 @@
+{
+ "emoji": "📮",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "colis",
+   "ipa": "/œ̃ kɔ.li/",
+   "pos": "n.m.",
+   "meaning": "parcel",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Oui, bien sûr. Gardez le reçu pour suivre votre colis en ligne.",
+     "en": "Yes, of course. Keep the receipt to track your parcel online."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "envoyer",
+   "ipa": "/ɑ̃.vwa.je/",
+   "pos": "v.",
+   "meaning": "to send",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Bonjour, je voudrais envoyer ce colis en Belgique, s'il vous plaît.",
+     "en": "Hello, I'd like to send this parcel to Belgium, please."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "un timbre",
+   "ipa": "/œ̃ tɛ̃bʁ/",
+   "pos": "n.m.",
+   "meaning": "stamp",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "C'est fait. J'ai aussi besoin d'un timbre pour une carte postale.",
+     "en": "Done. I also need a stamp for a postcard."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "recommandé",
+   "ipa": "/ʁə.kɔ.mɑ̃.de/",
+   "pos": "adj.",
+   "meaning": "registered",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Alors je prends le rapide, en recommandé, pour avoir un suivi.",
+     "en": "Then I'll take the fast one, registered, to have tracking."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "destinataire",
+   "ipa": "/lə dɛs.ti.na.tɛʁ/",
+   "pos": "n.m.",
+   "meaning": "recipient",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Très bien. Écrivez l'adresse du destinataire sur cette étiquette.",
+     "en": "Very good. Write the recipient's address on this label."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "le poids",
+   "ipa": "/lə pwa/",
+   "pos": "n.m.",
+   "meaning": "weight",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Bien sûr. Posez-le sur la balance pour que je vérifie le poids.",
+     "en": "Of course. Put it on the scale so I can check the weight."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Employé",
+   "role": "npc",
+   "text": "Bonjour, je voudrais envoyer ce colis en Belgique, s'il vous plaît.",
+   "glosses": [
+    {
+     "text": "colis",
+     "pos": "n.m.",
+     "meaning": "parcel"
+    },
+    {
+     "text": "envoyer",
+     "pos": "v.",
+     "meaning": "to send"
+    }
+   ],
+   "en": "Hello, I'd like to send this parcel to Belgium, please."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bien sûr. Posez-le sur la balance pour que je vérifie le poids.",
+   "glosses": [
+    {
+     "text": "le poids",
+     "pos": "n.m.",
+     "meaning": "weight"
+    }
+   ],
+   "en": "Of course. Put it on the scale so I can check the weight."
+  },
+  {
+   "id": "t3",
+   "speaker": "Employé",
+   "role": "npc",
+   "text": "Voilà. Il y a des livres dedans, donc il doit être assez lourd.",
+   "glosses": [],
+   "en": "There you go. There are books in it, so it must be quite heavy."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Deux kilos trois cents. Vous voulez un envoi rapide ou économique ?",
+   "glosses": [],
+   "en": "Two kilos three hundred. Do you want fast or economy shipping?"
+  },
+  {
+   "id": "t5",
+   "speaker": "Employé",
+   "role": "npc",
+   "text": "Quelle est la différence ? Je voudrais qu'il arrive avant vendredi.",
+   "glosses": [],
+   "en": "What's the difference? I'd like it to arrive before Friday."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Le rapide arrive en deux jours. L'économique prend une semaine.",
+   "glosses": [],
+   "en": "The fast one arrives in two days. The economy one takes a week."
+  },
+  {
+   "id": "t7",
+   "speaker": "Employé",
+   "role": "npc",
+   "text": "Alors je prends le rapide, en recommandé, pour avoir un suivi.",
+   "glosses": [
+    {
+     "text": "recommandé",
+     "pos": "adj.",
+     "meaning": "registered"
+    }
+   ],
+   "en": "Then I'll take the fast one, registered, to have tracking."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Très bien. Écrivez l'adresse du destinataire sur cette étiquette.",
+   "glosses": [
+    {
+     "text": "destinataire",
+     "pos": "n.m.",
+     "meaning": "recipient"
+    }
+   ],
+   "en": "Very good. Write the recipient's address on this label."
+  },
+  {
+   "id": "t9",
+   "speaker": "Employé",
+   "role": "npc",
+   "text": "C'est fait. J'ai aussi besoin d'un timbre pour une carte postale.",
+   "glosses": [
+    {
+     "text": "un timbre",
+     "pos": "n.m.",
+     "meaning": "stamp"
+    }
+   ],
+   "en": "Done. I also need a stamp for a postcard."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Voilà, un timbre pour l'Europe. Cela fait vingt-deux euros en tout.",
+   "glosses": [
+    {
+     "text": "un timbre",
+     "pos": "n.m.",
+     "meaning": "stamp"
+    }
+   ],
+   "en": "Here you go, a stamp for Europe. That makes twenty-two euros in total."
+  },
+  {
+   "id": "t11",
+   "speaker": "Employé",
+   "role": "npc",
+   "text": "Je peux payer par carte ? Je n'ai pas assez d'espèces.",
+   "glosses": [],
+   "en": "Can I pay by card? I don't have enough cash."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, bien sûr. Gardez le reçu pour suivre votre colis en ligne.",
+   "glosses": [
+    {
+     "text": "colis",
+     "pos": "n.m.",
+     "meaning": "parcel"
+    }
+   ],
+   "en": "Yes, of course. Keep the receipt to track your parcel online."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "colis",
+   "tip": "Say œ̃ kɔ.li"
+  },
+  {
+   "id": "w2",
+   "text": "envoyer",
+   "tip": "Say ɑ̃.vwa.je"
+  }
+ ]
+}

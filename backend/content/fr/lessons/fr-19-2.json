@@ -1,0 +1,236 @@
+{
+ "emoji": "🚕",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "course",
+   "ipa": "/yn kuʁs/",
+   "pos": "n.f.",
+   "meaning": "ride, fare",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Nous y sommes. La course fait trente-cinq euros.",
+     "en": "Here we are. The fare is thirty-five euros."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "le trajet",
+   "ipa": "/lə tʁa.ʒɛ/",
+   "pos": "n.m.",
+   "meaning": "the trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Merci. Combien de temps dure le trajet, à votre avis ?",
+     "en": "Thank you. How long does the trip take, in your opinion?"
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "un embouteillage",
+   "ipa": "/œ̃n‿ɑ̃.bu.tɛ.jaʒ/",
+   "pos": "n.m.",
+   "meaning": "traffic jam",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Normalement quarante minutes, mais il y a un embouteillage sur l'autoroute.",
+     "en": "Normally forty minutes, but there's a traffic jam on the highway."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "le coffre",
+   "ipa": "/lə kɔfʁ/",
+   "pos": "n.m.",
+   "meaning": "trunk",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "D'accord. Je mets vos valises dans le coffre.",
+     "en": "All right. I'll put your suitcases in the trunk."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "la monnaie",
+   "ipa": "/la mɔ.nɛ/",
+   "pos": "n.f.",
+   "meaning": "change",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Voici quarante euros. Gardez la monnaie, et pourriez-vous me donner un reçu ?",
+     "en": "Here's forty euros. Keep the change, and could you give me a receipt?"
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "un reçu",
+   "ipa": "/œ̃ ʁə.sy/",
+   "pos": "n.m.",
+   "meaning": "receipt",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Voici quarante euros. Gardez la monnaie, et pourriez-vous me donner un reçu ?",
+     "en": "Here's forty euros. Keep the change, and could you give me a receipt?"
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Chauffeur",
+   "role": "npc",
+   "text": "Bonjour madame, où allez-vous ?",
+   "glosses": [],
+   "en": "Hello madam, where are you going?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "À l'aéroport, s'il vous plaît. Mon vol est à dix-sept heures.",
+   "glosses": [],
+   "en": "To the airport, please. My flight is at five p.m."
+  },
+  {
+   "id": "t3",
+   "speaker": "Chauffeur",
+   "role": "npc",
+   "text": "D'accord. Je mets vos valises dans le coffre.",
+   "glosses": [
+    {
+     "text": "le coffre",
+     "pos": "n.m.",
+     "meaning": "trunk"
+    }
+   ],
+   "en": "All right. I'll put your suitcases in the trunk."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci. Combien de temps dure le trajet, à votre avis ?",
+   "glosses": [
+    {
+     "text": "le trajet",
+     "pos": "n.m.",
+     "meaning": "the trip"
+    }
+   ],
+   "en": "Thank you. How long does the trip take, in your opinion?"
+  },
+  {
+   "id": "t5",
+   "speaker": "Chauffeur",
+   "role": "npc",
+   "text": "Normalement quarante minutes, mais il y a un embouteillage sur l'autoroute.",
+   "glosses": [
+    {
+     "text": "un embouteillage",
+     "pos": "n.m.",
+     "meaning": "traffic jam"
+    }
+   ],
+   "en": "Normally forty minutes, but there's a traffic jam on the highway."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Ah non ! Pouvez-vous prendre un autre chemin ? Je ne veux pas rater mon vol.",
+   "glosses": [],
+   "en": "Oh no! Can you take another route? I don't want to miss my flight."
+  },
+  {
+   "id": "t7",
+   "speaker": "Chauffeur",
+   "role": "npc",
+   "text": "Je vais passer par la nationale. Ça devrait aller plus vite.",
+   "glosses": [],
+   "en": "I'll go by the main road. It should be faster."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Très bien, je vous fais confiance. Vous connaissez bien la ville ?",
+   "glosses": [],
+   "en": "Very good, I trust you. Do you know the city well?"
+  },
+  {
+   "id": "t9",
+   "speaker": "Chauffeur",
+   "role": "npc",
+   "text": "Je conduis depuis vingt ans, alors oui, je la connais par cœur.",
+   "glosses": [],
+   "en": "I've been driving for twenty years, so yes, I know it by heart."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Nous y sommes. La course fait trente-cinq euros.",
+   "glosses": [
+    {
+     "text": "course",
+     "pos": "n.f.",
+     "meaning": "ride, fare"
+    }
+   ],
+   "en": "Here we are. The fare is thirty-five euros."
+  },
+  {
+   "id": "t11",
+   "speaker": "Chauffeur",
+   "role": "npc",
+   "text": "Voici quarante euros. Gardez la monnaie, et pourriez-vous me donner un reçu ?",
+   "glosses": [
+    {
+     "text": "la monnaie",
+     "pos": "n.f.",
+     "meaning": "change"
+    },
+    {
+     "text": "un reçu",
+     "pos": "n.m.",
+     "meaning": "receipt"
+    }
+   ],
+   "en": "Here's forty euros. Keep the change, and could you give me a receipt?"
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bien sûr, le voici. Bon voyage, madame !",
+   "glosses": [],
+   "en": "Of course, here it is. Have a good trip, madam!"
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "course",
+   "tip": "Say yn kuʁs"
+  },
+  {
+   "id": "w2",
+   "text": "le trajet",
+   "tip": "Say lə tʁa.ʒɛ"
+  }
+ ]
+}

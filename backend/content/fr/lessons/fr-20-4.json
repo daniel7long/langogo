@@ -1,0 +1,237 @@
+{
+ "emoji": "🎧",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "un podcast",
+   "ipa": "/œ̃ pɔd.kast/",
+   "pos": "n.m.",
+   "meaning": "podcast",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Un podcast sur l'histoire. Je l'écoute tous les matins, c'est devenu une habitude.",
+     "en": "A history podcast. I listen to it every morning, it's become a habit."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "un épisode",
+   "ipa": "/œ̃n‿e.pi.zɔd/",
+   "pos": "n.m.",
+   "meaning": "episode",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Ça dure combien de temps, un épisode ? Je n'ai pas beaucoup de temps libre.",
+     "en": "How long is an episode? I don't have much free time."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "abonner",
+   "ipa": "/sa.bɔ.ne/",
+   "pos": "v.",
+   "meaning": "to subscribe",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Super. Comment je fais pour m'abonner ? Il faut payer quelque chose ?",
+     "en": "Great. How do I subscribe? Do I have to pay anything?"
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "animateur",
+   "ipa": "/œ̃n‿a.ni.ma.tœʁ/",
+   "pos": "n.m.",
+   "meaning": "host",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "De la vie quotidienne au Moyen Âge. L'animateur raconte très bien, avec humour.",
+     "en": "About everyday life in the Middle Ages. The host tells it very well, with humor."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "sujet",
+   "ipa": "/œ̃ sy.ʒɛ/",
+   "pos": "n.m.",
+   "meaning": "topic",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Pas du tout ! Il y a des podcasts sur tous les sujets : science, cuisine, cinéma.",
+     "en": "Not at all! There are podcasts on every topic: science, cooking, cinema."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "écouter",
+   "ipa": "/e.ku.te/",
+   "pos": "v.",
+   "meaning": "to listen",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Intéressant. Je pourrais écouter des podcasts en français pour progresser, non ?",
+     "en": "Interesting. I could listen to podcasts in French to improve, right?"
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Qu'est-ce que tu écoutes dans le métro ? Tu as toujours des écouteurs.",
+   "glosses": [],
+   "en": "What do you listen to on the metro? You always have earphones in."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Un podcast sur l'histoire. Je l'écoute tous les matins, c'est devenu une habitude.",
+   "glosses": [
+    {
+     "text": "Un podcast",
+     "pos": "n.m.",
+     "meaning": "podcast"
+    }
+   ],
+   "en": "A history podcast. I listen to it every morning, it's become a habit."
+  },
+  {
+   "id": "t3",
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Ah bon ? Je pensais que les podcasts, c'était surtout pour les sportifs.",
+   "glosses": [],
+   "en": "Really? I thought podcasts were mostly for athletes."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Pas du tout ! Il y a des podcasts sur tous les sujets : science, cuisine, cinéma.",
+   "glosses": [
+    {
+     "text": "sujet",
+     "pos": "n.m.",
+     "meaning": "topic"
+    }
+   ],
+   "en": "Not at all! There are podcasts on every topic: science, cooking, cinema."
+  },
+  {
+   "id": "t5",
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Celui-là, il parle de quoi dans le dernier épisode ?",
+   "glosses": [],
+   "en": "This one, what does it talk about in the latest episode?"
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "De la vie quotidienne au Moyen Âge. L'animateur raconte très bien, avec humour.",
+   "glosses": [
+    {
+     "text": "animateur",
+     "pos": "n.m.",
+     "meaning": "host"
+    }
+   ],
+   "en": "About everyday life in the Middle Ages. The host tells it very well, with humor."
+  },
+  {
+   "id": "t7",
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Ça dure combien de temps, un épisode ? Je n'ai pas beaucoup de temps libre.",
+   "glosses": [
+    {
+     "text": "un épisode",
+     "pos": "n.m.",
+     "meaning": "episode"
+    }
+   ],
+   "en": "How long is an episode? I don't have much free time."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Vingt minutes environ. C'est juste le trajet entre chez moi et le travail.",
+   "glosses": [],
+   "en": "About twenty minutes. It's just the commute between my home and work."
+  },
+  {
+   "id": "t9",
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Intéressant. Je pourrais écouter des podcasts en français pour progresser, non ?",
+   "glosses": [
+    {
+     "text": "écouter",
+     "pos": "v.",
+     "meaning": "to listen"
+    }
+   ],
+   "en": "Interesting. I could listen to podcasts in French to improve, right?"
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bien sûr ! Je te conseille d'abord ceux avec une transcription.",
+   "glosses": [],
+   "en": "Of course! I advise you to start with the ones with a transcript."
+  },
+  {
+   "id": "t11",
+   "speaker": "Lucas",
+   "role": "npc",
+   "text": "Super. Comment je fais pour m'abonner ? Il faut payer quelque chose ?",
+   "glosses": [
+    {
+     "text": "abonner",
+     "pos": "v.",
+     "meaning": "to subscribe"
+    }
+   ],
+   "en": "Great. How do I subscribe? Do I have to pay anything?"
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Non, c'est gratuit. Tu cliques sur le bouton et les nouveaux épisodes arrivent seuls.",
+   "glosses": [],
+   "en": "No, it's free. You click the button and new episodes arrive on their own."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "un podcast",
+   "tip": "Say œ̃ pɔd.kast"
+  },
+  {
+   "id": "w2",
+   "text": "un épisode",
+   "tip": "Say œ̃n‿e.pi.zɔd"
+  }
+ ]
+}

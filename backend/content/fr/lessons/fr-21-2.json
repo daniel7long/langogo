@@ -1,0 +1,242 @@
+{
+ "emoji": "🤝",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "se dispute",
+   "ipa": "/sə dis.pyt/",
+   "pos": "v.",
+   "meaning": "(we) argue (se disputer)",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "On se dispute rarement, alors c'est dur pour nous deux.",
+     "en": "We rarely argue, so it's hard for both of us."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "excuser",
+   "ipa": "/sɛk.sky.ze/",
+   "pos": "v.",
+   "meaning": "to apologize",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Je sais. Je voulais d'abord m'excuser pour ce que j'ai dit hier soir.",
+     "en": "I know. I first wanted to apologize for what I said last night."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "une erreur",
+   "ipa": "/yn‿e.ʁœʁ/",
+   "pos": "n.f.",
+   "meaning": "mistake",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "C'était une erreur, et je le regrette sincèrement. Je n'aurais pas dû.",
+     "en": "It was a mistake, and I truly regret it. I shouldn't have."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "pardonner",
+   "ipa": "/paʁ.dɔ.ne/",
+   "pos": "v.",
+   "meaning": "to forgive",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Promis. Pour me faire pardonner, je t'invite à déjeuner.",
+     "en": "Promise. To make up for it, I'm inviting you to lunch."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "en colère",
+   "ipa": "/ɑ̃ kɔ.lɛʁ/",
+   "pos": "adj. phr.",
+   "meaning": "angry",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Si tu veux. Mais je suis encore un peu en colère, tu sais.",
+     "en": "If you want. But I'm still a bit angry, you know."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "sincère",
+   "ipa": "/sɛ̃.sɛʁ/",
+   "pos": "adj.",
+   "meaning": "sincere",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "C'était une erreur, et je le regrette sincèrement. Je n'aurais pas dû.",
+     "en": "It was a mistake, and I truly regret it. I shouldn't have."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Thomas",
+   "role": "npc",
+   "text": "Salut Léa. Je peux te parler deux minutes ? J'aimerais m'expliquer.",
+   "glosses": [],
+   "en": "Hi Léa. Can I talk to you for two minutes? I'd like to explain myself."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Si tu veux. Mais je suis encore un peu en colère, tu sais.",
+   "glosses": [
+    {
+     "text": "en colère",
+     "pos": "adj. phr.",
+     "meaning": "angry"
+    }
+   ],
+   "en": "If you want. But I'm still a bit angry, you know."
+  },
+  {
+   "id": "t3",
+   "speaker": "Thomas",
+   "role": "npc",
+   "text": "Je sais. Je voulais d'abord m'excuser pour ce que j'ai dit hier soir.",
+   "glosses": [
+    {
+     "text": "excuser",
+     "pos": "v.",
+     "meaning": "to apologize"
+    }
+   ],
+   "en": "I know. I first wanted to apologize for what I said last night."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Tu m'as vraiment blessée. Devant tous nos amis, en plus.",
+   "glosses": [],
+   "en": "You really hurt me. In front of all our friends, too."
+  },
+  {
+   "id": "t5",
+   "speaker": "Thomas",
+   "role": "npc",
+   "text": "C'était une erreur, et je le regrette sincèrement. Je n'aurais pas dû.",
+   "glosses": [
+    {
+     "text": "une erreur",
+     "pos": "n.f.",
+     "meaning": "mistake"
+    },
+    {
+     "text": "sincère",
+     "pos": "adj.",
+     "meaning": "sincere"
+    }
+   ],
+   "en": "It was a mistake, and I truly regret it. I shouldn't have."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Pourquoi tu as réagi comme ça ? Ce n'est pas ton genre.",
+   "glosses": [],
+   "en": "Why did you react like that? It's not like you."
+  },
+  {
+   "id": "t7",
+   "speaker": "Thomas",
+   "role": "npc",
+   "text": "J'étais fatigué et inquiet pour mon examen. Ce n'est pas une excuse, mais voilà.",
+   "glosses": [],
+   "en": "I was tired and worried about my exam. That's not an excuse, but there it is."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je comprends mieux, merci de me le dire. Moi aussi, j'ai peut-être exagéré.",
+   "glosses": [],
+   "en": "I understand better, thank you for telling me. I may have overdone it too."
+  },
+  {
+   "id": "t9",
+   "speaker": "Thomas",
+   "role": "npc",
+   "text": "On se dispute rarement, alors c'est dur pour nous deux.",
+   "glosses": [
+    {
+     "text": "se dispute",
+     "pos": "v.",
+     "meaning": "(we) argue (se disputer)"
+    }
+   ],
+   "en": "We rarely argue, so it's hard for both of us."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est vrai. Je suis sincère quand je dis que notre amitié compte beaucoup.",
+   "glosses": [
+    {
+     "text": "sincère",
+     "pos": "adj.",
+     "meaning": "sincere"
+    }
+   ],
+   "en": "That's true. I'm sincere when I say our friendship matters a lot."
+  },
+  {
+   "id": "t11",
+   "speaker": "Thomas",
+   "role": "npc",
+   "text": "D'accord, je te pardonne. Mais promets-moi de me parler la prochaine fois.",
+   "glosses": [],
+   "en": "All right, I forgive you. But promise me you'll talk to me next time."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Promis. Pour me faire pardonner, je t'invite à déjeuner.",
+   "glosses": [
+    {
+     "text": "pardonner",
+     "pos": "v.",
+     "meaning": "to forgive"
+    }
+   ],
+   "en": "Promise. To make up for it, I'm inviting you to lunch."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "se dispute",
+   "tip": "Say sə dis.pyt"
+  },
+  {
+   "id": "w2",
+   "text": "excuser",
+   "tip": "Say sɛk.sky.ze"
+  }
+ ]
+}

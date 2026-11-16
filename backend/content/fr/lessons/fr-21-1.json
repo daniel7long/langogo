@@ -1,0 +1,237 @@
+{
+ "emoji": "💬",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "un conseil",
+   "ipa": "/œ̃ kɔ̃.sɛj/",
+   "pos": "n.m.",
+   "meaning": "piece of advice",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Qu'est-ce que tu ferais à ma place ? J'ai besoin d'un conseil.",
+     "en": "What would you do in my place? I need advice."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "à ta place",
+   "ipa": "/a ta plas/",
+   "pos": "adv. phr.",
+   "meaning": "in your place",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "À ta place, j'écrirais les avantages et les inconvénients sur une feuille.",
+     "en": "In your place, I would write the pros and cons on a sheet of paper."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "hésites",
+   "ipa": "/e.zit/",
+   "pos": "v.",
+   "meaning": "you hesitate (hésiter)",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mais c'est une bonne nouvelle, non ? Pourquoi hésites-tu ?",
+     "en": "But that's good news, isn't it? Why are you hesitating?"
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "stressé",
+   "ipa": "/stʁe.se/",
+   "pos": "adj.",
+   "meaning": "stressed",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Je suis très stressé. On m'a proposé un poste dans une autre ville.",
+     "en": "I'm very stressed. I've been offered a job in another city."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "décision",
+   "ipa": "/yn de.si.zjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "decision",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Je comprends. C'est une grande décision, et il faut y réfléchir calmement.",
+     "en": "I understand. It's a big decision, and you have to think it over calmly."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "détendre",
+   "ipa": "/sə de.tɑ̃dʁ/",
+   "pos": "v.",
+   "meaning": "to relax",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Et ce soir, essaie de te détendre. Allons au cinéma, c'est moi qui invite.",
+     "en": "And tonight, try to relax. Let's go to the cinema, my treat."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Inès",
+   "role": "npc",
+   "text": "Tu n'as pas l'air bien. Qu'est-ce qui se passe ?",
+   "glosses": [],
+   "en": "You don't look well. What's going on?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je suis très stressé. On m'a proposé un poste dans une autre ville.",
+   "glosses": [
+    {
+     "text": "stressé",
+     "pos": "adj.",
+     "meaning": "stressed"
+    }
+   ],
+   "en": "I'm very stressed. I've been offered a job in another city."
+  },
+  {
+   "id": "t3",
+   "speaker": "Inès",
+   "role": "npc",
+   "text": "Mais c'est une bonne nouvelle, non ? Pourquoi hésites-tu ?",
+   "glosses": [
+    {
+     "text": "hésites",
+     "pos": "v.",
+     "meaning": "you hesitate (hésiter)"
+    }
+   ],
+   "en": "But that's good news, isn't it? Why are you hesitating?"
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je ne veux pas quitter mes amis, ni ma famille. Je me sens perdu.",
+   "glosses": [],
+   "en": "I don't want to leave my friends or my family. I feel lost."
+  },
+  {
+   "id": "t5",
+   "speaker": "Inès",
+   "role": "npc",
+   "text": "Je comprends. C'est une grande décision, et il faut y réfléchir calmement.",
+   "glosses": [
+    {
+     "text": "décision",
+     "pos": "n.f.",
+     "meaning": "decision"
+    }
+   ],
+   "en": "I understand. It's a big decision, and you have to think it over calmly."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Qu'est-ce que tu ferais à ma place ? J'ai besoin d'un conseil.",
+   "glosses": [
+    {
+     "text": "un conseil",
+     "pos": "n.m.",
+     "meaning": "piece of advice"
+    }
+   ],
+   "en": "What would you do in my place? I need advice."
+  },
+  {
+   "id": "t7",
+   "speaker": "Inès",
+   "role": "npc",
+   "text": "À ta place, j'écrirais les avantages et les inconvénients sur une feuille.",
+   "glosses": [
+    {
+     "text": "À ta place",
+     "pos": "adv. phr.",
+     "meaning": "in your place"
+    }
+   ],
+   "en": "In your place, I would write the pros and cons on a sheet of paper."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Pas bête. Et si je dis oui, je pourrai toujours revenir plus tard.",
+   "glosses": [],
+   "en": "Not bad. And if I say yes, I can always come back later."
+  },
+  {
+   "id": "t9",
+   "speaker": "Inès",
+   "role": "npc",
+   "text": "Exactement. Et on peut se voir par visioconférence tous les week-ends.",
+   "glosses": [],
+   "en": "Exactly. And we can see each other by video call every weekend."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Tu as raison. Je vais prendre deux jours pour y penser, et je te dis.",
+   "glosses": [],
+   "en": "You're right. I'll take two days to think about it, and I'll let you know."
+  },
+  {
+   "id": "t11",
+   "speaker": "Inès",
+   "role": "npc",
+   "text": "Et ce soir, essaie de te détendre. Allons au cinéma, c'est moi qui invite.",
+   "glosses": [
+    {
+     "text": "détendre",
+     "pos": "v.",
+     "meaning": "to relax"
+    }
+   ],
+   "en": "And tonight, try to relax. Let's go to the cinema, my treat."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci, tu es vraiment une amie en or. Je me sens déjà mieux.",
+   "glosses": [],
+   "en": "Thanks, you're a real friend. I already feel better."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "un conseil",
+   "tip": "Say œ̃ kɔ̃.sɛj"
+  },
+  {
+   "id": "w2",
+   "text": "à ta place",
+   "tip": "Say a ta plas"
+  }
+ ]
+}

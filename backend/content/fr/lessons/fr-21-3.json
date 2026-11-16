@@ -1,0 +1,241 @@
+{
+ "emoji": "🧒",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "enfance",
+   "ipa": "/lɑ̃.fɑ̃s/",
+   "pos": "n.f.",
+   "meaning": "childhood",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mamie, raconte-moi un souvenir de ton enfance, s'il te plaît.",
+     "en": "Granny, tell me a memory from your childhood, please."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "un souvenir",
+   "ipa": "/œ̃ suv.niʁ/",
+   "pos": "n.m.",
+   "meaning": "memory",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mamie, raconte-moi un souvenir de ton enfance, s'il te plaît.",
+     "en": "Granny, tell me a memory from your childhood, please."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "autrefois",
+   "ipa": "/o.tʁə.fwa/",
+   "pos": "adv.",
+   "meaning": "in the past",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Avec plaisir. Autrefois, j'habitais dans un petit village près de la mer.",
+     "en": "With pleasure. In the past, I lived in a small village near the sea."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "village",
+   "ipa": "/œ̃ vi.laʒ/",
+   "pos": "n.m.",
+   "meaning": "village",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Moi aussi. On pourrait visiter ton village ensemble cet été ?",
+     "en": "Me too. Could we visit your village together this summer?"
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "cour",
+   "ipa": "/yn kuʁ/",
+   "pos": "n.f.",
+   "meaning": "yard",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Oui, une seule classe pour tous les enfants. On jouait dans la cour tous les jours.",
+     "en": "Yes, a single class for all the children. We played in the yard every day."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "nostalgique",
+   "ipa": "/nɔs.tal.ʒik/",
+   "pos": "adj.",
+   "meaning": "nostalgic",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tu as l'air un peu nostalgique en racontant ça.",
+     "en": "You look a little nostalgic telling this."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Mamie",
+   "role": "npc",
+   "text": "Mamie, raconte-moi un souvenir de ton enfance, s'il te plaît.",
+   "glosses": [
+    {
+     "text": "enfance",
+     "pos": "n.f.",
+     "meaning": "childhood"
+    },
+    {
+     "text": "un souvenir",
+     "pos": "n.m.",
+     "meaning": "memory"
+    }
+   ],
+   "en": "Granny, tell me a memory from your childhood, please."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Avec plaisir. Autrefois, j'habitais dans un petit village près de la mer.",
+   "glosses": [
+    {
+     "text": "Autrefois",
+     "pos": "adv.",
+     "meaning": "in the past"
+    },
+    {
+     "text": "village",
+     "pos": "n.m.",
+     "meaning": "village"
+    }
+   ],
+   "en": "With pleasure. In the past, I lived in a small village near the sea."
+  },
+  {
+   "id": "t3",
+   "speaker": "Mamie",
+   "role": "npc",
+   "text": "Comment c'était, ta vie là-bas ? Il y avait une école ?",
+   "glosses": [],
+   "en": "What was your life like there? Was there a school?"
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, une seule classe pour tous les enfants. On jouait dans la cour tous les jours.",
+   "glosses": [
+    {
+     "text": "cour",
+     "pos": "n.f.",
+     "meaning": "yard"
+    }
+   ],
+   "en": "Yes, a single class for all the children. We played in the yard every day."
+  },
+  {
+   "id": "t5",
+   "speaker": "Mamie",
+   "role": "npc",
+   "text": "À quoi vous jouiez ? Vous n'aviez pas de téléphones ni de tablettes.",
+   "glosses": [],
+   "en": "What did you play? You had no phones or tablets."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "On jouait à la marelle et on construisait des cabanes dans les arbres.",
+   "glosses": [],
+   "en": "We played hopscotch and built huts in the trees."
+  },
+  {
+   "id": "t7",
+   "speaker": "Mamie",
+   "role": "npc",
+   "text": "Ça avait l'air magnifique. Et le dimanche, que faisiez-vous ?",
+   "glosses": [],
+   "en": "It sounds wonderful. And on Sundays, what did you do?"
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Toute la famille mangeait chez mes grands-parents. Ma grand-mère faisait de la tarte aux pommes.",
+   "glosses": [],
+   "en": "The whole family ate at my grandparents' place. My grandmother made apple pie."
+  },
+  {
+   "id": "t9",
+   "speaker": "Mamie",
+   "role": "npc",
+   "text": "Tu as l'air un peu nostalgique en racontant ça.",
+   "glosses": [
+    {
+     "text": "nostalgique",
+     "pos": "adj.",
+     "meaning": "nostalgic"
+    }
+   ],
+   "en": "You look a little nostalgic telling this."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est vrai, ces années me manquent parfois. Mais j'aime partager ces histoires avec toi.",
+   "glosses": [],
+   "en": "It's true, I sometimes miss those years. But I like sharing these stories with you."
+  },
+  {
+   "id": "t11",
+   "speaker": "Mamie",
+   "role": "npc",
+   "text": "Moi aussi. On pourrait visiter ton village ensemble cet été ?",
+   "glosses": [
+    {
+     "text": "village",
+     "pos": "n.m.",
+     "meaning": "village"
+    }
+   ],
+   "en": "Me too. Could we visit your village together this summer?"
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Quelle belle idée ! Je te montrerai la maison où j'ai grandi.",
+   "glosses": [],
+   "en": "What a lovely idea! I'll show you the house where I grew up."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "enfance",
+   "tip": "Say lɑ̃.fɑ̃s"
+  },
+  {
+   "id": "w2",
+   "text": "un souvenir",
+   "tip": "Say œ̃ suv.niʁ"
+  }
+ ]
+}
