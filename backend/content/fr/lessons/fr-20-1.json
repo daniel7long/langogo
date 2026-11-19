@@ -1,0 +1,237 @@
+{
+ "emoji": "📱",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "l'écran",
+   "ipa": "/le.kʁɑ̃/",
+   "pos": "n.m.",
+   "meaning": "screen",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Mon téléphone est tombé hier et l'écran est complètement cassé.",
+     "en": "My phone fell yesterday and the screen is completely broken."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "réparer",
+   "ipa": "/ʁe.pa.ʁe/",
+   "pos": "v.",
+   "meaning": "to repair",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Pouvez-vous le réparer aujourd'hui ? J'en ai besoin pour mon travail.",
+     "en": "Can you repair it today? I need it for my work."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "la batterie",
+   "ipa": "/la ba.tʁi/",
+   "pos": "n.f.",
+   "meaning": "battery",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "D'accord. Et la batterie ? Elle ne tient plus que quelques heures.",
+     "en": "All right. And the battery? It only lasts a few hours now."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "un devis",
+   "ipa": "/œ̃ də.vi/",
+   "pos": "n.m.",
+   "meaning": "quote, estimate",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Je peux le faire en deux heures. Je vous fais un devis d'abord.",
+     "en": "I can do it in two hours. I'll give you a quote first."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "garantie",
+   "ipa": "/la ga.ʁɑ̃.ti/",
+   "pos": "n.f.",
+   "meaning": "warranty",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Combien ça coûte ? Il est encore sous garantie, je crois.",
+     "en": "How much does it cost? It's still under warranty, I think."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "une sauvegarde",
+   "ipa": "/yn sov.gaʁd/",
+   "pos": "n.f.",
+   "meaning": "backup",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Alors faisons les deux. Mais d'abord, j'aimerais faire une sauvegarde.",
+     "en": "Then let's do both. But first, I'd like to make a backup."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Technicien",
+   "role": "npc",
+   "text": "Bonjour, que puis-je faire pour vous ?",
+   "glosses": [],
+   "en": "Hello, what can I do for you?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Mon téléphone est tombé hier et l'écran est complètement cassé.",
+   "glosses": [
+    {
+     "text": "l'écran",
+     "pos": "n.m.",
+     "meaning": "screen"
+    }
+   ],
+   "en": "My phone fell yesterday and the screen is completely broken."
+  },
+  {
+   "id": "t3",
+   "speaker": "Technicien",
+   "role": "npc",
+   "text": "Voyons ça. Oui, la vitre est brisée, mais le téléphone s'allume encore.",
+   "glosses": [],
+   "en": "Let's see. Yes, the glass is shattered, but the phone still turns on."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Pouvez-vous le réparer aujourd'hui ? J'en ai besoin pour mon travail.",
+   "glosses": [
+    {
+     "text": "réparer",
+     "pos": "v.",
+     "meaning": "to repair"
+    }
+   ],
+   "en": "Can you repair it today? I need it for my work."
+  },
+  {
+   "id": "t5",
+   "speaker": "Technicien",
+   "role": "npc",
+   "text": "Je peux le faire en deux heures. Je vous fais un devis d'abord.",
+   "glosses": [
+    {
+     "text": "un devis",
+     "pos": "n.m.",
+     "meaning": "quote, estimate"
+    }
+   ],
+   "en": "I can do it in two hours. I'll give you a quote first."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Combien ça coûte ? Il est encore sous garantie, je crois.",
+   "glosses": [
+    {
+     "text": "garantie",
+     "pos": "n.f.",
+     "meaning": "warranty"
+    }
+   ],
+   "en": "How much does it cost? It's still under warranty, I think."
+  },
+  {
+   "id": "t7",
+   "speaker": "Technicien",
+   "role": "npc",
+   "text": "Pas pour un choc, malheureusement. Le remplacement coûte quatre-vingts euros.",
+   "glosses": [],
+   "en": "Not for a shock, unfortunately. The replacement costs eighty euros."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "D'accord. Et la batterie ? Elle ne tient plus que quelques heures.",
+   "glosses": [
+    {
+     "text": "la batterie",
+     "pos": "n.f.",
+     "meaning": "battery"
+    }
+   ],
+   "en": "All right. And the battery? It only lasts a few hours now."
+  },
+  {
+   "id": "t9",
+   "speaker": "Technicien",
+   "role": "npc",
+   "text": "On peut la changer en même temps. Vous économiserez le déplacement.",
+   "glosses": [],
+   "en": "We can change it at the same time. You'll save yourself another trip."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Alors faisons les deux. Mais d'abord, j'aimerais faire une sauvegarde.",
+   "glosses": [
+    {
+     "text": "une sauvegarde",
+     "pos": "n.f.",
+     "meaning": "backup"
+    }
+   ],
+   "en": "Then let's do both. But first, I'd like to make a backup."
+  },
+  {
+   "id": "t11",
+   "speaker": "Technicien",
+   "role": "npc",
+   "text": "Pas de souci, je m'en occupe avant de commencer la réparation.",
+   "glosses": [],
+   "en": "No problem, I'll take care of it before starting the repair."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci beaucoup. Je reviens vers dix-sept heures.",
+   "glosses": [],
+   "en": "Thank you very much. I'll be back around five p.m."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "l'écran",
+   "tip": "Say le.kʁɑ̃"
+  },
+  {
+   "id": "w2",
+   "text": "réparer",
+   "tip": "Say ʁe.pa.ʁe"
+  }
+ ]
+}

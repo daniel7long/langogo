@@ -1,0 +1,237 @@
+{
+ "emoji": "🚆",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "un aller-retour",
+   "ipa": "/œ̃n‿a.le ʁə.tuʁ/",
+   "pos": "n.m.",
+   "meaning": "round trip",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Pas encore. Je regarde sur le site en ce moment. Je cherche un aller-retour.",
+     "en": "Not yet. I'm looking at the site right now. I'm looking for a round trip."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "tarif",
+   "ipa": "/œ̃ ta.ʁif/",
+   "pos": "n.m.",
+   "meaning": "fare",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Prends un train tôt le matin, les tarifs sont souvent plus bas.",
+     "en": "Take an early-morning train, the fares are often lower."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "réduction",
+   "ipa": "/yn ʁe.dyk.sjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "discount",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Tu as une carte de réduction ? Elle te donne trente pour cent de moins.",
+     "en": "Do you have a discount card? It gives you thirty percent off."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "une correspondance",
+   "ipa": "/yn kɔ.ʁɛs.pɔ̃.dɑ̃s/",
+   "pos": "n.f.",
+   "meaning": "connection",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Y a-t-il une correspondance ? Je déteste courir avec mes valises.",
+     "en": "Is there a connection? I hate running with my suitcases."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "place",
+   "ipa": "/la plas/",
+   "pos": "n.f.",
+   "meaning": "seat",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Parfait. Je choisis une place côté fenêtre, près de la voiture-bar.",
+     "en": "Perfect. I'll pick a window seat, near the café car."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "annuler",
+   "ipa": "/a.ny.le/",
+   "pos": "v.",
+   "meaning": "to cancel",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "N'oublie pas de vérifier si le billet est échangeable ou si on peut l'annuler.",
+     "en": "Don't forget to check whether the ticket is exchangeable or can be cancelled."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Tu as réservé tes billets pour Lyon ? Le week-end approche !",
+   "glosses": [],
+   "en": "Have you booked your tickets to Lyon? The weekend is coming up!"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Pas encore. Je regarde sur le site en ce moment. Je cherche un aller-retour.",
+   "glosses": [
+    {
+     "text": "un aller-retour",
+     "pos": "n.m.",
+     "meaning": "round trip"
+    }
+   ],
+   "en": "Not yet. I'm looking at the site right now. I'm looking for a round trip."
+  },
+  {
+   "id": "t3",
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Prends un train tôt le matin, les tarifs sont souvent plus bas.",
+   "glosses": [
+    {
+     "text": "tarif",
+     "pos": "n.m.",
+     "meaning": "fare"
+    }
+   ],
+   "en": "Take an early-morning train, the fares are often lower."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Tu as raison. Il y en a un à six heures cinquante pour soixante-cinq euros.",
+   "glosses": [],
+   "en": "You're right. There's one at six fifty for sixty-five euros."
+  },
+  {
+   "id": "t5",
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Tu as une carte de réduction ? Elle te donne trente pour cent de moins.",
+   "glosses": [
+    {
+     "text": "réduction",
+     "pos": "n.f.",
+     "meaning": "discount"
+    }
+   ],
+   "en": "Do you have a discount card? It gives you thirty percent off."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, je l'ai ! Avec ça, le billet revient à quarante-cinq euros.",
+   "glosses": [],
+   "en": "Yes, I have it! With that, the ticket comes to forty-five euros."
+  },
+  {
+   "id": "t7",
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Y a-t-il une correspondance ? Je déteste courir avec mes valises.",
+   "glosses": [
+    {
+     "text": "une correspondance",
+     "pos": "n.f.",
+     "meaning": "connection"
+    }
+   ],
+   "en": "Is there a connection? I hate running with my suitcases."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Non, c'est un train direct. Il arrive à Lyon en deux heures.",
+   "glosses": [],
+   "en": "No, it's a direct train. It arrives in Lyon in two hours."
+  },
+  {
+   "id": "t9",
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Parfait. Je choisis une place côté fenêtre, près de la voiture-bar.",
+   "glosses": [
+    {
+     "text": "place",
+     "pos": "n.f.",
+     "meaning": "seat"
+    }
+   ],
+   "en": "Perfect. I'll pick a window seat, near the café car."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "N'oublie pas de vérifier si le billet est échangeable ou si on peut l'annuler.",
+   "glosses": [
+    {
+     "text": "annuler",
+     "pos": "v.",
+     "meaning": "to cancel"
+    }
+   ],
+   "en": "Don't forget to check whether the ticket is exchangeable or can be cancelled."
+  },
+  {
+   "id": "t11",
+   "speaker": "Sophie",
+   "role": "npc",
+   "text": "Bonne remarque. Je prends l'option flexible, ça ne coûte que cinq euros de plus.",
+   "glosses": [],
+   "en": "Good point. I'll take the flexible option, it only costs five euros more."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Voilà, c'est payé. Je reçois le billet sur mon téléphone. À samedi !",
+   "glosses": [],
+   "en": "There, it's paid. I'm getting the ticket on my phone. See you Saturday!"
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "un aller-retour",
+   "tip": "Say œ̃n‿a.le ʁə.tuʁ"
+  },
+  {
+   "id": "w2",
+   "text": "tarif",
+   "tip": "Say œ̃ ta.ʁif"
+  }
+ ]
+}

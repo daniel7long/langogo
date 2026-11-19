@@ -1,0 +1,235 @@
+{
+ "emoji": "🙅",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "invitation",
+   "ipa": "/yn‿ɛ̃.vi.ta.sjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "invitation",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Merci pour l'invitation, ça me fait vraiment plaisir. Je regarde mon agenda.",
+     "en": "Thanks for the invitation, I'm really happy. Let me check my calendar."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "malheureusement",
+   "ipa": "/ma.lœ.ʁøz.mɑ̃/",
+   "pos": "adv.",
+   "meaning": "unfortunately",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Malheureusement, je ne suis pas disponible samedi. J'ai un empêchement.",
+     "en": "Unfortunately, I'm not available on Saturday. I have a prior commitment."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "disponible",
+   "ipa": "/dis.pɔ.nibl/",
+   "pos": "adj.",
+   "meaning": "available",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Malheureusement, je ne suis pas disponible samedi. J'ai un empêchement.",
+     "en": "Unfortunately, I'm not available on Saturday. I have a prior commitment."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "un empêchement",
+   "ipa": "/œ̃n‿ɑ̃.pɛʃ.mɑ̃/",
+   "pos": "n.m.",
+   "meaning": "obstacle, prior commitment",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Malheureusement, je ne suis pas disponible samedi. J'ai un empêchement.",
+     "en": "Unfortunately, I'm not available on Saturday. I have a prior commitment."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "remettre",
+   "ipa": "/ʁə.mɛtʁ/",
+   "pos": "v.",
+   "meaning": "to postpone",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Dommage ! C'est quelque chose d'important ? Tu peux le remettre ?",
+     "en": "Too bad! Is it something important? Can you postpone it?"
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "la prochaine fois",
+   "ipa": "/la pʁɔ.ʃɛn fwa/",
+   "pos": "n.f. phr.",
+   "meaning": "next time",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Très bien. Ce n'est que partie remise, on se rattrapera la prochaine fois.",
+     "en": "Very well. It's only postponed, we'll catch up next time."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Julien",
+   "role": "npc",
+   "text": "Salut Nora ! Samedi soir, on fait un dîner chez moi. Tu viens ?",
+   "glosses": [],
+   "en": "Hi Nora! Saturday night we're having dinner at my place. Are you coming?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci pour l'invitation, ça me fait vraiment plaisir. Je regarde mon agenda.",
+   "glosses": [
+    {
+     "text": "invitation",
+     "pos": "n.f.",
+     "meaning": "invitation"
+    }
+   ],
+   "en": "Thanks for the invitation, I'm really happy. Let me check my calendar."
+  },
+  {
+   "id": "t3",
+   "speaker": "Julien",
+   "role": "npc",
+   "text": "Pas de problème. On sera une dizaine, des amis de la fac pour la plupart.",
+   "glosses": [],
+   "en": "No problem. There will be about ten of us, mostly friends from college."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Malheureusement, je ne suis pas disponible samedi. J'ai un empêchement.",
+   "glosses": [
+    {
+     "text": "Malheureusement",
+     "pos": "adv.",
+     "meaning": "unfortunately"
+    },
+    {
+     "text": "disponible",
+     "pos": "adj.",
+     "meaning": "available"
+    },
+    {
+     "text": "un empêchement",
+     "pos": "n.m.",
+     "meaning": "obstacle, prior commitment"
+    }
+   ],
+   "en": "Unfortunately, I'm not available on Saturday. I have a prior commitment."
+  },
+  {
+   "id": "t5",
+   "speaker": "Julien",
+   "role": "npc",
+   "text": "Dommage ! C'est quelque chose d'important ? Tu peux le remettre ?",
+   "glosses": [
+    {
+     "text": "remettre",
+     "pos": "v.",
+     "meaning": "to postpone"
+    }
+   ],
+   "en": "Too bad! Is it something important? Can you postpone it?"
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Non, c'est le mariage d'un cousin, je ne peux pas le manquer.",
+   "glosses": [],
+   "en": "No, it's a cousin's wedding, I can't miss it."
+  },
+  {
+   "id": "t7",
+   "speaker": "Julien",
+   "role": "npc",
+   "text": "Ah, je comprends tout à fait. Ça se passe où, le mariage ?",
+   "glosses": [],
+   "en": "Ah, I completely understand. Where is the wedding?"
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "À Bordeaux. Je prends le train vendredi soir et je rentre dimanche.",
+   "glosses": [],
+   "en": "In Bordeaux. I'm taking the train Friday night and coming back Sunday."
+  },
+  {
+   "id": "t9",
+   "speaker": "Julien",
+   "role": "npc",
+   "text": "Alors on pourrait se voir dimanche soir, pour un petit verre ?",
+   "glosses": [],
+   "en": "Then we could see each other Sunday night, for a little drink?"
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Avec plaisir, si je ne suis pas trop fatiguée. Je te confirme dimanche.",
+   "glosses": [],
+   "en": "With pleasure, if I'm not too tired. I'll confirm on Sunday."
+  },
+  {
+   "id": "t11",
+   "speaker": "Julien",
+   "role": "npc",
+   "text": "Très bien. Ce n'est que partie remise, on se rattrapera la prochaine fois.",
+   "glosses": [
+    {
+     "text": "la prochaine fois",
+     "pos": "n.f. phr.",
+     "meaning": "next time"
+    }
+   ],
+   "en": "Very well. It's only postponed, we'll catch up next time."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci de ta compréhension. Amuse-toi bien samedi, et salue tout le monde de ma part !",
+   "glosses": [],
+   "en": "Thanks for understanding. Have a good time Saturday, and say hi to everyone for me!"
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "invitation",
+   "tip": "Say yn‿ɛ̃.vi.ta.sjɔ̃"
+  },
+  {
+   "id": "w2",
+   "text": "malheureusement",
+   "tip": "Say ma.lœ.ʁøz.mɑ̃"
+  }
+ ]
+}

@@ -1,0 +1,274 @@
+{
+ "emoji": "🏙️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "la campagne",
+   "ipa": "/la kɑ̃.paɲ/",
+   "pos": "n.f.",
+   "meaning": "countryside",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Alors, c'est décidé : vous quittez Paris pour vous installer à la campagne ?",
+     "en": "So, it's decided: you're leaving Paris to settle in the countryside?"
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "le bruit",
+   "ipa": "/lə bʁɥi/",
+   "pos": "n.m.",
+   "meaning": "noise",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Moi, j'en ai assez. Le bruit, la pollution et les loyers exorbitants me fatiguent.",
+     "en": "As for me, I've had enough. The noise, the pollution and the exorbitant rents wear me out."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "nuisances",
+   "ipa": "/le nɥi.zɑ̃s/",
+   "pos": "n.f.pl.",
+   "meaning": "nuisances",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Les citadins romantisent souvent la campagne. Il y a aussi des nuisances, comme les tracteurs ou les coqs !",
+     "en": "City dwellers often romanticize the countryside. There are also nuisances, like tractors or roosters!"
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "l'isolement",
+   "ipa": "/li.zɔl.mɑ̃/",
+   "pos": "n.m.",
+   "meaning": "isolation",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Tu ne crains pas l'isolement ? Les transports en commun doivent y être rares.",
+     "en": "Aren't you afraid of isolation? Public transport must be scarce there."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "l'agitation",
+   "ipa": "/la.ʒi.ta.sjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "hustle and bustle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Je vous envie un peu, mais moi, je ne pourrais pas vivre sans l'agitation de la ville.",
+     "en": "I envy you a bit, but I couldn't live without the city's hustle and bustle."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "s'épanouir",
+   "ipa": "/se.pa.nu.iʁ/",
+   "pos": "v.",
+   "meaning": "to flourish",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Tu marques un point. Personnellement, je pense qu'on peut s'épanouir dans les deux, selon sa personnalité.",
+     "en": "You've got a point. Personally, I think one can flourish in both, depending on one's personality."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Clara",
+   "role": "npc",
+   "text": "Alors, c'est décidé : vous quittez Paris pour vous installer à la campagne ?",
+   "glosses": [
+    {
+     "text": "la campagne",
+     "pos": "n.f.",
+     "meaning": "countryside"
+    }
+   ],
+   "en": "So, it's decided: you're leaving Paris to settle in the countryside?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, nous avons trouvé une maison dans un village de la Drôme. J'ai hâte de partir.",
+   "glosses": [],
+   "en": "Yes, we found a house in a village in the Drôme. I can't wait to leave."
+  },
+  {
+   "id": "t3",
+   "speaker": "Clara",
+   "role": "npc",
+   "text": "Je vous envie un peu, mais moi, je ne pourrais pas vivre sans l'agitation de la ville.",
+   "glosses": [
+    {
+     "text": "l'agitation",
+     "pos": "n.f.",
+     "meaning": "hustle and bustle"
+    }
+   ],
+   "en": "I envy you a bit, but I couldn't live without the city's hustle and bustle."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Moi, j'en ai assez. Le bruit, la pollution et les loyers exorbitants me fatiguent.",
+   "glosses": [
+    {
+     "text": "Le bruit",
+     "pos": "n.m.",
+     "meaning": "noise"
+    }
+   ],
+   "en": "As for me, I've had enough. The noise, the pollution and the exorbitant rents wear me out."
+  },
+  {
+   "id": "t5",
+   "speaker": "Clara",
+   "role": "npc",
+   "text": "Je comprends, mais tu perds tout : les cinémas, les restaurants, les amis à deux pas.",
+   "glosses": [],
+   "en": "I understand, but you lose everything: cinemas, restaurants, friends right around the corner."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est vrai, mais je gagne du calme, de l'espace et un jardin pour les enfants.",
+   "glosses": [],
+   "en": "True, but I gain calm, space and a garden for the children."
+  },
+  {
+   "id": "t7",
+   "speaker": "Clara",
+   "role": "npc",
+   "text": "Tu ne crains pas l'isolement ? Les transports en commun doivent y être rares.",
+   "glosses": [
+    {
+     "text": "l'isolement",
+     "pos": "n.m.",
+     "meaning": "isolation"
+    }
+   ],
+   "en": "Aren't you afraid of isolation? Public transport must be scarce there."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Si, et nous aurons besoin de deux voitures. C'est l'inconvénient principal.",
+   "glosses": [],
+   "en": "Yes, and we'll need two cars. That's the main drawback."
+  },
+  {
+   "id": "t9",
+   "speaker": "Clara",
+   "role": "npc",
+   "text": "Et le travail ? Tu continueras à travailler à distance, j'imagine.",
+   "glosses": [],
+   "en": "And work? You'll keep working remotely, I imagine."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, grâce au télétravail, c'est possible. Mon entreprise accepte deux jours au bureau seulement.",
+   "glosses": [],
+   "en": "Yes, thanks to remote work, it's possible. My company only requires two days at the office."
+  },
+  {
+   "id": "t11",
+   "speaker": "Clara",
+   "role": "npc",
+   "text": "Les citadins romantisent souvent la campagne. Il y a aussi des nuisances, comme les tracteurs ou les coqs !",
+   "glosses": [
+    {
+     "text": "la campagne",
+     "pos": "n.f.",
+     "meaning": "countryside"
+    },
+    {
+     "text": "nuisances",
+     "pos": "n.f.pl.",
+     "meaning": "nuisances"
+    }
+   ],
+   "en": "City dwellers often romanticize the countryside. There are also nuisances, like tractors or roosters!"
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je sais, mais je préfère entendre un coq que des klaxons toute la journée.",
+   "glosses": [],
+   "en": "I know, but I'd rather hear a rooster than car horns all day."
+  },
+  {
+   "id": "t13",
+   "speaker": "Clara",
+   "role": "npc",
+   "text": "Tu marques un point. Personnellement, je pense qu'on peut s'épanouir dans les deux, selon sa personnalité.",
+   "glosses": [
+    {
+     "text": "s'épanouir",
+     "pos": "v.",
+     "meaning": "to flourish"
+    }
+   ],
+   "en": "You've got a point. Personally, I think one can flourish in both, depending on one's personality."
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Exactement. Je veux simplement essayer. Si ça ne marche pas, on reviendra en ville.",
+   "glosses": [],
+   "en": "Exactly. I just want to try. If it doesn't work, we'll come back to the city."
+  },
+  {
+   "id": "t15",
+   "speaker": "Clara",
+   "role": "npc",
+   "text": "Alors je te souhaite bonne chance. Et j'espère que tu m'inviteras pour un week-end vert !",
+   "glosses": [],
+   "en": "Then I wish you good luck. And I hope you'll invite me for a green weekend!"
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bien sûr ! Ma maison sera toujours ouverte, et tu verras le ciel étoilé comme jamais.",
+   "glosses": [],
+   "en": "Of course! My house will always be open, and you'll see the starry sky like never before."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "la campagne",
+   "tip": "Say la kɑ̃.paɲ"
+  },
+  {
+   "id": "w2",
+   "text": "le bruit",
+   "tip": "Say lə bʁɥi"
+  }
+ ]
+}

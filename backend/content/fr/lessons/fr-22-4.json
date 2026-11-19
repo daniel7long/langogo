@@ -1,0 +1,320 @@
+{
+ "emoji": "🎤",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "intervenant",
+   "ipa": "/œ̃n‿ɛ̃.tɛʁ.və.nɑ̃/",
+   "pos": "n.m.",
+   "meaning": "speaker",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "C'est encourageant. Avons-nous confirmé tous les intervenants ? Il m'en manque deux.",
+     "en": "That's encouraging. Have we confirmed all the speakers? I'm missing two."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "inscription",
+   "ipa": "/yn‿ɛ̃s.kʁip.sjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "registration",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Côté inscriptions, nous en sommes à trois cents personnes. Nous visons cinq cents.",
+     "en": "Regarding registrations, we're at three hundred people. We're aiming for five hundred."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "budget",
+   "ipa": "/œ̃ by.dʒɛ/",
+   "pos": "n.m.",
+   "meaning": "budget",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Le palais des congrès est disponible, mais il est beaucoup plus cher. Cela dépasserait notre budget.",
+     "en": "The convention center is available, but it's much more expensive. That would exceed our budget."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "programme",
+   "ipa": "/œ̃ pʁɔ.gʁam/",
+   "pos": "n.m.",
+   "meaning": "program",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Parfait. Passons au programme. Je propose d'ouvrir par une table ronde plutôt qu'un discours.",
+     "en": "Perfect. Let's move on to the program. I suggest opening with a round table rather than a speech."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "salle",
+   "ipa": "/yn sal/",
+   "pos": "n.f.",
+   "meaning": "room, hall",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Je suis d'accord. Et pour la salle, l'amphithéâtre est trop petit pour cinq cents personnes.",
+     "en": "I agree. And as for the room, the lecture hall is too small for five hundred people."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "un sponsor",
+   "ipa": "/œ̃ spɔ̃.sɔʁ/",
+   "pos": "n.m.",
+   "meaning": "sponsor",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Peut-être qu'un sponsor accepterait de prendre en charge une partie des frais en échange de visibilité.",
+     "en": "Maybe a sponsor would agree to cover part of the costs in exchange for visibility."
+    }
+   ]
+  },
+  {
+   "id": "v7",
+   "word": "prévoir",
+   "ipa": "/pʁe.vwaʁ/",
+   "pos": "v.",
+   "meaning": "to plan for",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Bonne idée, ça dynamise la matinée. Mais il faut prévoir des pauses plus longues pour le réseautage.",
+     "en": "Good idea, it energizes the morning. But we need to plan longer breaks for networking."
+    }
+   ]
+  },
+  {
+   "id": "v8",
+   "word": "confirmé",
+   "ipa": "/kɔ̃.fiʁ.me/",
+   "pos": "p.p.",
+   "meaning": "confirmed",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "C'est encourageant. Avons-nous confirmé tous les intervenants ? Il m'en manque deux.",
+     "en": "That's encouraging. Have we confirmed all the speakers? I'm missing two."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Responsable",
+   "role": "npc",
+   "text": "Bonjour à tous. Faisons le point sur la préparation de la conférence du mois prochain.",
+   "glosses": [],
+   "en": "Hello everyone. Let's take stock of the preparation for next month's conference."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Côté inscriptions, nous en sommes à trois cents personnes. Nous visons cinq cents.",
+   "glosses": [
+    {
+     "text": "inscription",
+     "pos": "n.f.",
+     "meaning": "registration"
+    }
+   ],
+   "en": "Regarding registrations, we're at three hundred people. We're aiming for five hundred."
+  },
+  {
+   "id": "t3",
+   "speaker": "Responsable",
+   "role": "npc",
+   "text": "C'est encourageant. Avons-nous confirmé tous les intervenants ? Il m'en manque deux.",
+   "glosses": [
+    {
+     "text": "intervenant",
+     "pos": "n.m.",
+     "meaning": "speaker"
+    },
+    {
+     "text": "confirmé",
+     "pos": "p.p.",
+     "meaning": "confirmed"
+    }
+   ],
+   "en": "That's encouraging. Have we confirmed all the speakers? I'm missing two."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Le professeur Garnier a accepté hier, mais la chercheuse de Montréal n'a pas encore répondu.",
+   "glosses": [],
+   "en": "Professor Garnier accepted yesterday, but the researcher from Montreal hasn't replied yet."
+  },
+  {
+   "id": "t5",
+   "speaker": "Responsable",
+   "role": "npc",
+   "text": "Relançons-la aujourd'hui. Sinon, je connais un expert qui pourrait la remplacer au pied levé.",
+   "glosses": [],
+   "en": "Let's follow up with her today. Otherwise, I know an expert who could replace her at the last minute."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Parfait. Passons au programme. Je propose d'ouvrir par une table ronde plutôt qu'un discours.",
+   "glosses": [
+    {
+     "text": "programme",
+     "pos": "n.m.",
+     "meaning": "program"
+    }
+   ],
+   "en": "Perfect. Let's move on to the program. I suggest opening with a round table rather than a speech."
+  },
+  {
+   "id": "t7",
+   "speaker": "Responsable",
+   "role": "npc",
+   "text": "Bonne idée, ça dynamise la matinée. Mais il faut prévoir des pauses plus longues pour le réseautage.",
+   "glosses": [
+    {
+     "text": "prévoir",
+     "pos": "v.",
+     "meaning": "to plan for"
+    }
+   ],
+   "en": "Good idea, it energizes the morning. But we need to plan longer breaks for networking."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je suis d'accord. Et pour la salle, l'amphithéâtre est trop petit pour cinq cents personnes.",
+   "glosses": [
+    {
+     "text": "salle",
+     "pos": "n.f.",
+     "meaning": "room, hall"
+    }
+   ],
+   "en": "I agree. And as for the room, the lecture hall is too small for five hundred people."
+  },
+  {
+   "id": "t9",
+   "speaker": "Responsable",
+   "role": "npc",
+   "text": "Le palais des congrès est disponible, mais il est beaucoup plus cher. Cela dépasserait notre budget.",
+   "glosses": [
+    {
+     "text": "budget",
+     "pos": "n.m.",
+     "meaning": "budget"
+    }
+   ],
+   "en": "The convention center is available, but it's much more expensive. That would exceed our budget."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Peut-être qu'un sponsor accepterait de prendre en charge une partie des frais en échange de visibilité.",
+   "glosses": [
+    {
+     "text": "un sponsor",
+     "pos": "n.m.",
+     "meaning": "sponsor"
+    }
+   ],
+   "en": "Maybe a sponsor would agree to cover part of the costs in exchange for visibility."
+  },
+  {
+   "id": "t11",
+   "speaker": "Responsable",
+   "role": "npc",
+   "text": "J'ai déjà contacté deux entreprises locales. L'une d'elles semble très intéressée.",
+   "glosses": [],
+   "en": "I've already contacted two local companies. One of them seems very interested."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Excellent. Pouvez-vous obtenir une réponse écrite d'ici vendredi ? Nous devons réserver la salle rapidement.",
+   "glosses": [
+    {
+     "text": "salle",
+     "pos": "n.f.",
+     "meaning": "room, hall"
+    }
+   ],
+   "en": "Excellent. Can you get a written answer by Friday? We have to book the room quickly."
+  },
+  {
+   "id": "t13",
+   "speaker": "Responsable",
+   "role": "npc",
+   "text": "Je m'en occupe dès ce soir. Et pour le traiteur, on prend la même équipe que l'an dernier ?",
+   "glosses": [],
+   "en": "I'll take care of it tonight. And for the caterer, do we take the same team as last year?"
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, ils étaient parfaits. Je demande un devis pour cinq cents personnes et je vous le transmets.",
+   "glosses": [],
+   "en": "Yes, they were perfect. I'll ask for a quote for five hundred people and pass it on to you."
+  },
+  {
+   "id": "t15",
+   "speaker": "Responsable",
+   "role": "npc",
+   "text": "Très bien. On se retrouve jeudi pour valider le programme définitif. Merci à tous pour votre travail.",
+   "glosses": [
+    {
+     "text": "programme",
+     "pos": "n.m.",
+     "meaning": "program"
+    }
+   ],
+   "en": "Very good. We'll meet again Thursday to validate the final program. Thank you all for your work."
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci à vous. Je vous envoie le compte rendu de la réunion dès ce soir.",
+   "glosses": [],
+   "en": "Thank you. I'll send you the meeting minutes tonight."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "intervenant",
+   "tip": "Say œ̃n‿ɛ̃.tɛʁ.və.nɑ̃"
+  },
+  {
+   "id": "w2",
+   "text": "inscription",
+   "tip": "Say yn‿ɛ̃s.kʁip.sjɔ̃"
+  }
+ ]
+}

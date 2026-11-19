@@ -1,0 +1,269 @@
+{
+ "emoji": "🌍",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "installer",
+   "ipa": "/sɛ̃.sta.le/",
+   "pos": "v.",
+   "meaning": "to settle",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Au début, c'était dur. Je devais m'installer, trouver un appartement et ouvrir un compte bancaire.",
+     "en": "At first it was hard. I had to settle in, find an apartment and open a bank account."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "le dépaysement",
+   "ipa": "/lə de.pe.iz.mɑ̃/",
+   "pos": "n.m.",
+   "meaning": "change of scenery",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Et le dépaysement ? Le Québec n'est pas si loin culturellement, pourtant.",
+     "en": "And the change of scenery? Quebec isn't that far culturally, though."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "intégrer",
+   "ipa": "/sɛ̃.te.gʁe/",
+   "pos": "v.",
+   "meaning": "to integrate",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Tu as réussi à t'intégrer facilement ? Tu as des amis québécois ?",
+     "en": "Did you manage to integrate easily? Do you have Quebecois friends?"
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "accent",
+   "ipa": "/œ̃n‿ak.sɑ̃/",
+   "pos": "n.m.",
+   "meaning": "accent",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Les gens comprennent ton accent ? Ils te prennent pour un Français de France ?",
+     "en": "Do people understand your accent? Do they take you for a Frenchman from France?"
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "le mal du pays",
+   "ipa": "/lə mal dy pe.i/",
+   "pos": "n.m.",
+   "meaning": "homesickness",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Et le mal du pays, il existe vraiment ? Tu penses souvent à la France ?",
+     "en": "And homesickness, does it really exist? Do you often think of France?"
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "décalage",
+   "ipa": "/œ̃ de.ka.laʒ/",
+   "pos": "n.m.",
+   "meaning": "gap, mismatch",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "C'est ce que je croyais ! Mais il y a un vrai décalage : l'humour, les relations de travail, les expressions.",
+     "en": "That's what I thought! But there is a real gap: the humor, work relationships, the expressions."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Amie",
+   "role": "npc",
+   "text": "Ça fait deux ans que tu vis à Montréal. Comment s'est passée ton installation ?",
+   "glosses": [],
+   "en": "You've been living in Montreal for two years. How did your move go?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Au début, c'était dur. Je devais m'installer, trouver un appartement et ouvrir un compte bancaire.",
+   "glosses": [
+    {
+     "text": "installer",
+     "pos": "v.",
+     "meaning": "to settle"
+    }
+   ],
+   "en": "At first it was hard. I had to settle in, find an apartment and open a bank account."
+  },
+  {
+   "id": "t3",
+   "speaker": "Amie",
+   "role": "npc",
+   "text": "Et le dépaysement ? Le Québec n'est pas si loin culturellement, pourtant.",
+   "glosses": [
+    {
+     "text": "le dépaysement",
+     "pos": "n.m.",
+     "meaning": "change of scenery"
+    }
+   ],
+   "en": "And the change of scenery? Quebec isn't that far culturally, though."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est ce que je croyais ! Mais il y a un vrai décalage : l'humour, les relations de travail, les expressions.",
+   "glosses": [
+    {
+     "text": "décalage",
+     "pos": "n.m.",
+     "meaning": "gap, mismatch"
+    }
+   ],
+   "en": "That's what I thought! But there is a real gap: the humor, work relationships, the expressions."
+  },
+  {
+   "id": "t5",
+   "speaker": "Amie",
+   "role": "npc",
+   "text": "Les gens comprennent ton accent ? Ils te prennent pour un Français de France ?",
+   "glosses": [
+    {
+     "text": "accent",
+     "pos": "n.m.",
+     "meaning": "accent"
+    }
+   ],
+   "en": "Do people understand your accent? Do they take you for a Frenchman from France?"
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, et ils adorent m'en parler. Certains me demandent même de dire « croissant » plusieurs fois !",
+   "glosses": [],
+   "en": "Yes, and they love talking to me about it. Some even ask me to say \"croissant\" several times!"
+  },
+  {
+   "id": "t7",
+   "speaker": "Amie",
+   "role": "npc",
+   "text": "Tu as réussi à t'intégrer facilement ? Tu as des amis québécois ?",
+   "glosses": [
+    {
+     "text": "intégrer",
+     "pos": "v.",
+     "meaning": "to integrate"
+    }
+   ],
+   "en": "Did you manage to integrate easily? Do you have Quebecois friends?"
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, grâce à mon club de volley. Le sport rapproche les gens plus vite que n'importe quel cours de langue.",
+   "glosses": [],
+   "en": "Yes, thanks to my volleyball club. Sport brings people together faster than any language class."
+  },
+  {
+   "id": "t9",
+   "speaker": "Amie",
+   "role": "npc",
+   "text": "Et le mal du pays, il existe vraiment ? Tu penses souvent à la France ?",
+   "glosses": [
+    {
+     "text": "le mal du pays",
+     "pos": "n.m.",
+     "meaning": "homesickness"
+    }
+   ],
+   "en": "And homesickness, does it really exist? Do you often think of France?"
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bien sûr, surtout pendant les fêtes. Alors on se retrouve entre expatriés pour cuisiner des plats de chez nous.",
+   "glosses": [],
+   "en": "Of course, especially during the holidays. So we get together as expats to cook dishes from home."
+  },
+  {
+   "id": "t11",
+   "speaker": "Amie",
+   "role": "npc",
+   "text": "Si c'était à refaire, tu partirais quand même ?",
+   "glosses": [],
+   "en": "If you had to do it again, would you still leave?"
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Sans hésiter. J'ai appris à me débrouiller seul, et j'ai changé ma façon de voir les choses.",
+   "glosses": [],
+   "en": "Without hesitation. I learned to manage alone, and I changed how I see things."
+  },
+  {
+   "id": "t13",
+   "speaker": "Amie",
+   "role": "npc",
+   "text": "Tu envisages de rester définitivement, ou de rentrer un jour ?",
+   "glosses": [],
+   "en": "Are you planning to stay permanently, or to come back one day?"
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je ne sais pas encore. Pour l'instant, je me sens chez moi des deux côtés de l'Atlantique.",
+   "glosses": [],
+   "en": "I don't know yet. For now, I feel at home on both sides of the Atlantic."
+  },
+  {
+   "id": "t15",
+   "speaker": "Amie",
+   "role": "npc",
+   "text": "C'est une belle réponse. Je suis fière de toi, et tu nous manques beaucoup ici.",
+   "glosses": [],
+   "en": "That's a lovely answer. I'm proud of you, and we miss you a lot here."
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Vous me manquez aussi. Venez me voir cet été, je vous ferai visiter toute la région !",
+   "glosses": [],
+   "en": "I miss you too. Come see me this summer, I'll show you around the whole region!"
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "installer",
+   "tip": "Say sɛ̃.sta.le"
+  },
+  {
+   "id": "w2",
+   "text": "le dépaysement",
+   "tip": "Say lə de.pe.iz.mɑ̃"
+  }
+ ]
+}

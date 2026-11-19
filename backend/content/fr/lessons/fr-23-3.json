@@ -1,0 +1,284 @@
+{
+ "emoji": "🧳",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "le tourisme de masse",
+   "ipa": "/lə tu.ʁism də mas/",
+   "pos": "n.m.",
+   "meaning": "mass tourism",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "C'est un vrai défi. Le tourisme de masse apporte des revenus, mais il met la ville sous pression.",
+     "en": "It's a real challenge. Mass tourism brings income, but it puts the city under pressure."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "habitants",
+   "ipa": "/de za.bi.tɑ̃/",
+   "pos": "n.m.pl.",
+   "meaning": "residents",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Beaucoup d'habitants se plaignent de ne plus pouvoir vivre normalement dans le centre.",
+     "en": "Many residents complain about no longer being able to live normally in the center."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "fréquentés",
+   "ipa": "/fʁe.kɑ̃.te/",
+   "pos": "adj.",
+   "meaning": "crowded, much visited",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Cela suffit-il ? Certains sites sont tellement fréquentés qu'on ne peut même plus y circuler.",
+     "en": "Is that enough? Some sites are so crowded that you can't even walk around in them anymore."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "site",
+   "ipa": "/œ̃ sit/",
+   "pos": "n.m.",
+   "meaning": "(tourist) site",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Monsieur le maire, votre ville a reçu dix millions de visiteurs l'an dernier. Est-ce trop ?",
+     "en": "Mr. Mayor, your city received ten million visitors last year. Is that too many?"
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "durable",
+   "ipa": "/dy.ʁabl/",
+   "pos": "adj.",
+   "meaning": "sustainable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Au contraire. Nous voulons un tourisme plus durable : moins de visiteurs, mais qui restent plus longtemps.",
+     "en": "On the contrary. We want more sustainable tourism: fewer visitors, but who stay longer."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "retombée",
+   "ipa": "/yn ʁə.tɔ̃.be/",
+   "pos": "n.f.",
+   "meaning": "benefit, spin-off",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Une dernière question : les retombées économiques profitent-elles vraiment aux habitants ?",
+     "en": "One last question: do the economic benefits really reach the residents?"
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Journaliste",
+   "role": "npc",
+   "text": "Monsieur le maire, votre ville a reçu dix millions de visiteurs l'an dernier. Est-ce trop ?",
+   "glosses": [
+    {
+     "text": "site",
+     "pos": "n.m.",
+     "meaning": "(tourist) site"
+    }
+   ],
+   "en": "Mr. Mayor, your city received ten million visitors last year. Is that too many?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est un vrai défi. Le tourisme de masse apporte des revenus, mais il met la ville sous pression.",
+   "glosses": [
+    {
+     "text": "Le tourisme de masse",
+     "pos": "n.m.",
+     "meaning": "mass tourism"
+    }
+   ],
+   "en": "It's a real challenge. Mass tourism brings income, but it puts the city under pressure."
+  },
+  {
+   "id": "t3",
+   "speaker": "Journaliste",
+   "role": "npc",
+   "text": "Beaucoup d'habitants se plaignent de ne plus pouvoir vivre normalement dans le centre.",
+   "glosses": [
+    {
+     "text": "habitants",
+     "pos": "n.m.pl.",
+     "meaning": "residents"
+    }
+   ],
+   "en": "Many residents complain about no longer being able to live normally in the center."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Ils ont raison. Les loyers montent, les commerces de proximité disparaissent au profit des boutiques de souvenirs.",
+   "glosses": [],
+   "en": "They're right. Rents are rising, local shops are disappearing in favor of souvenir stores."
+  },
+  {
+   "id": "t5",
+   "speaker": "Journaliste",
+   "role": "npc",
+   "text": "Quelles mesures avez-vous prises pour limiter les dégâts ?",
+   "glosses": [],
+   "en": "What measures have you taken to limit the damage?"
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Nous avons plafonné les locations touristiques et créé une taxe de séjour plus élevée.",
+   "glosses": [],
+   "en": "We capped tourist rentals and created a higher tourist tax."
+  },
+  {
+   "id": "t7",
+   "speaker": "Journaliste",
+   "role": "npc",
+   "text": "Cela suffit-il ? Certains sites sont tellement fréquentés qu'on ne peut même plus y circuler.",
+   "glosses": [
+    {
+     "text": "fréquentés",
+     "pos": "adj.",
+     "meaning": "crowded, much visited"
+    },
+    {
+     "text": "site",
+     "pos": "n.m.",
+     "meaning": "(tourist) site"
+    }
+   ],
+   "en": "Is that enough? Some sites are so crowded that you can't even walk around in them anymore."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Non, c'est pourquoi nous testons un système de réservation en ligne pour les monuments les plus visités.",
+   "glosses": [],
+   "en": "No, which is why we're testing an online booking system for the most visited monuments."
+  },
+  {
+   "id": "t9",
+   "speaker": "Journaliste",
+   "role": "npc",
+   "text": "Ne craignez-vous pas de décourager les touristes ? Votre économie en dépend largement.",
+   "glosses": [],
+   "en": "Aren't you afraid of discouraging tourists? Your economy depends largely on them."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Au contraire. Nous voulons un tourisme plus durable : moins de visiteurs, mais qui restent plus longtemps.",
+   "glosses": [
+    {
+     "text": "site",
+     "pos": "n.m.",
+     "meaning": "(tourist) site"
+    },
+    {
+     "text": "durable",
+     "pos": "adj.",
+     "meaning": "sustainable"
+    }
+   ],
+   "en": "On the contrary. We want more sustainable tourism: fewer visitors, but who stay longer."
+  },
+  {
+   "id": "t11",
+   "speaker": "Journaliste",
+   "role": "npc",
+   "text": "Concrètement, comment les encourager à découvrir d'autres quartiers moins connus ?",
+   "glosses": [],
+   "en": "Concretely, how do you encourage them to discover other, lesser-known neighborhoods?"
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "En créant des itinéraires thématiques, et en améliorant les transports vers la périphérie.",
+   "glosses": [],
+   "en": "By creating themed routes, and by improving transport to the outskirts."
+  },
+  {
+   "id": "t13",
+   "speaker": "Journaliste",
+   "role": "npc",
+   "text": "Une dernière question : les retombées économiques profitent-elles vraiment aux habitants ?",
+   "glosses": [
+    {
+     "text": "habitants",
+     "pos": "n.m.pl.",
+     "meaning": "residents"
+    },
+    {
+     "text": "retombée",
+     "pos": "n.f.",
+     "meaning": "benefit, spin-off"
+    }
+   ],
+   "en": "One last question: do the economic benefits really reach the residents?"
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Pas assez, honnêtement. Nous réinvestissons désormais une partie de la taxe dans le logement social.",
+   "glosses": [],
+   "en": "Not enough, honestly. We now reinvest part of the tax in social housing."
+  },
+  {
+   "id": "t15",
+   "speaker": "Journaliste",
+   "role": "npc",
+   "text": "Merci, monsieur le maire. Je suivrai l'évolution de ces mesures avec grand intérêt.",
+   "glosses": [],
+   "en": "Thank you, Mr. Mayor. I'll follow how these measures develop with great interest."
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci à vous. J'espère que vous reviendrez dans un an pour constater les résultats.",
+   "glosses": [],
+   "en": "Thank you. I hope you'll come back in a year to see the results."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "le tourisme de masse",
+   "tip": "Say lə tu.ʁism də mas"
+  },
+  {
+   "id": "w2",
+   "text": "habitants",
+   "tip": "Say de za.bi.tɑ̃"
+  }
+ ]
+}

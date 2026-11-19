@@ -1,0 +1,307 @@
+{
+ "emoji": "💼",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "bilan",
+   "ipa": "/œ̃ bi.lɑ̃/",
+   "pos": "n.m.",
+   "meaning": "review, assessment",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Merci d'être venu. Je vous propose de faire le bilan de l'année ensemble.",
+     "en": "Thanks for coming. I suggest we review the year together."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "une augmentation",
+   "ipa": "/yn‿o.g.mɑ̃.ta.sjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "raise",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Je souhaiterais évoquer une augmentation. Mon salaire n'a pas évolué depuis mon embauche.",
+     "en": "I'd like to bring up a raise. My salary hasn't changed since I was hired."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "responsabilités",
+   "ipa": "/de ʁɛs.pɔ̃.sa.bi.li.te/",
+   "pos": "n.f.pl.",
+   "meaning": "responsibilities",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Oui. Depuis un an, j'ai pris en charge deux nouveaux projets et de nouvelles responsabilités.",
+     "en": "Yes. For a year, I've taken on two new projects and new responsibilities."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "objectif",
+   "ipa": "/œ̃n‿ɔb.ʒɛk.tif/",
+   "pos": "n.m.",
+   "meaning": "goal, target",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Globalement, je me félicite de votre engagement. Vous avez atteint presque tous vos objectifs.",
+     "en": "Overall, I'm pleased with your commitment. You've achieved almost all your goals."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "évolué",
+   "ipa": "/e.vɔ.lye/",
+   "pos": "p.p.",
+   "meaning": "changed, progressed",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Je souhaiterais évoquer une augmentation. Mon salaire n'a pas évolué depuis mon embauche.",
+     "en": "I'd like to bring up a raise. My salary hasn't changed since I was hired."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "un point faible",
+   "ipa": "/œ̃ pwɛ̃ fɛbl/",
+   "pos": "n.m.",
+   "meaning": "weakness",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Vous avez un point faible : vous prenez parfois trop de tâches, au détriment de la qualité.",
+     "en": "You have one weakness: you sometimes take on too many tasks, to the detriment of quality."
+    }
+   ]
+  },
+  {
+   "id": "v7",
+   "word": "argumenter",
+   "ipa": "/aʁ.gy.mɑ̃.te/",
+   "pos": "v.",
+   "meaning": "to argue a case",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Pouvez-vous argumenter votre demande avec des éléments concrets ? Le budget est serré cette année.",
+     "en": "Can you back up your request with concrete elements? The budget is tight this year."
+    }
+   ]
+  },
+  {
+   "id": "v8",
+   "word": "me félicite",
+   "ipa": "/mə fe.li.sit/",
+   "pos": "v.",
+   "meaning": "I am pleased",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Globalement, je me félicite de votre engagement. Vous avez atteint presque tous vos objectifs.",
+     "en": "Overall, I'm pleased with your commitment. You've achieved almost all your goals."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Directrice",
+   "role": "npc",
+   "text": "Merci d'être venu. Je vous propose de faire le bilan de l'année ensemble.",
+   "glosses": [
+    {
+     "text": "bilan",
+     "pos": "n.m.",
+     "meaning": "review, assessment"
+    }
+   ],
+   "en": "Thanks for coming. I suggest we review the year together."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Avec plaisir. J'aimerais d'abord connaître votre avis sur mon travail.",
+   "glosses": [],
+   "en": "With pleasure. I'd first like to know your opinion of my work."
+  },
+  {
+   "id": "t3",
+   "speaker": "Directrice",
+   "role": "npc",
+   "text": "Globalement, je me félicite de votre engagement. Vous avez atteint presque tous vos objectifs.",
+   "glosses": [
+    {
+     "text": "objectif",
+     "pos": "n.m.",
+     "meaning": "goal, target"
+    },
+    {
+     "text": "me félicite",
+     "pos": "v.",
+     "meaning": "I am pleased"
+    }
+   ],
+   "en": "Overall, I'm pleased with your commitment. You've achieved almost all your goals."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je suis ravi de l'entendre. Y a-t-il des points sur lesquels je devrais m'améliorer ?",
+   "glosses": [],
+   "en": "I'm delighted to hear that. Are there points on which I should improve?"
+  },
+  {
+   "id": "t5",
+   "speaker": "Directrice",
+   "role": "npc",
+   "text": "Vous avez un point faible : vous prenez parfois trop de tâches, au détriment de la qualité.",
+   "glosses": [
+    {
+     "text": "un point faible",
+     "pos": "n.m.",
+     "meaning": "weakness"
+    }
+   ],
+   "en": "You have one weakness: you sometimes take on too many tasks, to the detriment of quality."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est juste. J'essaierai de mieux prioriser et de déléguer davantage à l'avenir.",
+   "glosses": [],
+   "en": "That's fair. I'll try to prioritize better and delegate more in the future."
+  },
+  {
+   "id": "t7",
+   "speaker": "Directrice",
+   "role": "npc",
+   "text": "Très bien. Y a-t-il autre chose dont vous souhaitiez discuter aujourd'hui ?",
+   "glosses": [],
+   "en": "Very good. Is there anything else you'd like to discuss today?"
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui. Depuis un an, j'ai pris en charge deux nouveaux projets et de nouvelles responsabilités.",
+   "glosses": [
+    {
+     "text": "responsabilités",
+     "pos": "n.f.pl.",
+     "meaning": "responsibilities"
+    }
+   ],
+   "en": "Yes. For a year, I've taken on two new projects and new responsibilities."
+  },
+  {
+   "id": "t9",
+   "speaker": "Directrice",
+   "role": "npc",
+   "text": "En effet, et je l'ai remarqué. Où voulez-vous en venir ?",
+   "glosses": [],
+   "en": "Indeed, and I've noticed. What are you getting at?"
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je souhaiterais évoquer une augmentation. Mon salaire n'a pas évolué depuis mon embauche.",
+   "glosses": [
+    {
+     "text": "une augmentation",
+     "pos": "n.f.",
+     "meaning": "raise"
+    },
+    {
+     "text": "évolué",
+     "pos": "p.p.",
+     "meaning": "changed, progressed"
+    }
+   ],
+   "en": "I'd like to bring up a raise. My salary hasn't changed since I was hired."
+  },
+  {
+   "id": "t11",
+   "speaker": "Directrice",
+   "role": "npc",
+   "text": "Pouvez-vous argumenter votre demande avec des éléments concrets ? Le budget est serré cette année.",
+   "glosses": [
+    {
+     "text": "argumenter",
+     "pos": "v.",
+     "meaning": "to argue a case"
+    }
+   ],
+   "en": "Can you back up your request with concrete elements? The budget is tight this year."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bien sûr. J'ai fait économiser quinze pour cent de frais fournisseurs, et le projet Lambert a rapporté deux nouveaux clients.",
+   "glosses": [],
+   "en": "Of course. I saved fifteen percent in supplier costs, and the Lambert project brought in two new clients."
+  },
+  {
+   "id": "t13",
+   "speaker": "Directrice",
+   "role": "npc",
+   "text": "Ces résultats sont impressionnants. Je ne peux pas vous promettre un chiffre aujourd'hui, mais je défendrai votre dossier.",
+   "glosses": [],
+   "en": "These results are impressive. I can't promise you a figure today, but I'll support your case."
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est tout ce que je demande. Pourrait-on se revoir dans deux semaines pour en reparler ?",
+   "glosses": [],
+   "en": "That's all I ask. Could we meet again in two weeks to discuss it?"
+  },
+  {
+   "id": "t15",
+   "speaker": "Directrice",
+   "role": "npc",
+   "text": "Entendu. Préparez une courte note résumant vos réalisations, et je la transmettrai à la direction.",
+   "glosses": [],
+   "en": "Agreed. Prepare a short note summarizing your achievements, and I'll pass it on to management."
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci de votre confiance. Je vous la remets dès lundi matin.",
+   "glosses": [],
+   "en": "Thank you for your trust. I'll hand it to you first thing Monday morning."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "bilan",
+   "tip": "Say œ̃ bi.lɑ̃"
+  },
+  {
+   "id": "w2",
+   "text": "une augmentation",
+   "tip": "Say yn‿o.g.mɑ̃.ta.sjɔ̃"
+  }
+ ]
+}

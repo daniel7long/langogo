@@ -1,0 +1,242 @@
+{
+ "emoji": "🏘️",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "le quartier",
+   "ipa": "/lə kaʁ.tje/",
+   "pos": "n.m.",
+   "meaning": "neighborhood",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "C'est un peu cher pour moi, mais le quartier me plaît beaucoup.",
+     "en": "That's a bit expensive for me, but I really like the neighborhood."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "calme",
+   "ipa": "/kalm/",
+   "pos": "adj.",
+   "meaning": "quiet",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Je voudrais un quartier calme, mais pas trop loin du centre.",
+     "en": "I'd like a quiet neighborhood, but not too far from the center."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "un loyer",
+   "ipa": "/œ̃ lwa.je/",
+   "pos": "n.m.",
+   "meaning": "rent",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Parfait. Quel est le prix d'un loyer moyen par ici ?",
+     "en": "Perfect. What is the price of an average rent around here?"
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "à proximité",
+   "ipa": "/a pʁɔk.si.mi.te/",
+   "pos": "adv. phr.",
+   "meaning": "nearby",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Et il y a des commerces à proximité ? Je n'ai pas de voiture.",
+     "en": "And are there shops nearby? I don't have a car."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "les transports",
+   "ipa": "/le tʁɑ̃s.pɔʁ/",
+   "pos": "n.m.pl.",
+   "meaning": "public transport",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Très bien. Et les transports ? Je travaille près de la gare.",
+     "en": "Very good. And public transport? I work near the station."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "commerce",
+   "ipa": "/œ̃ kɔ.mɛʁs/",
+   "pos": "n.m.",
+   "meaning": "shop",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Et il y a des commerces à proximité ? Je n'ai pas de voiture.",
+     "en": "And are there shops nearby? I don't have a car."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Agent",
+   "role": "npc",
+   "text": "Bonjour, vous cherchez un appartement dans quel quartier ?",
+   "glosses": [],
+   "en": "Hello, which neighborhood are you looking for an apartment in?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je voudrais un quartier calme, mais pas trop loin du centre.",
+   "glosses": [
+    {
+     "text": "calme",
+     "pos": "adj.",
+     "meaning": "quiet"
+    }
+   ],
+   "en": "I'd like a quiet neighborhood, but not too far from the center."
+  },
+  {
+   "id": "t3",
+   "speaker": "Agent",
+   "role": "npc",
+   "text": "Le quartier Saint-Jean est parfait pour ça. Il y a beaucoup d'arbres.",
+   "glosses": [
+    {
+     "text": "Le quartier",
+     "pos": "n.m.",
+     "meaning": "neighborhood"
+    }
+   ],
+   "en": "The Saint-Jean neighborhood is perfect for that. There are lots of trees."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Et il y a des commerces à proximité ? Je n'ai pas de voiture.",
+   "glosses": [
+    {
+     "text": "à proximité",
+     "pos": "adv. phr.",
+     "meaning": "nearby"
+    },
+    {
+     "text": "commerce",
+     "pos": "n.m.",
+     "meaning": "shop"
+    }
+   ],
+   "en": "And are there shops nearby? I don't have a car."
+  },
+  {
+   "id": "t5",
+   "speaker": "Agent",
+   "role": "npc",
+   "text": "Oui, un marché, une boulangerie et un supermarché à cinq minutes à pied.",
+   "glosses": [],
+   "en": "Yes, a market, a bakery and a supermarket five minutes away on foot."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Très bien. Et les transports ? Je travaille près de la gare.",
+   "glosses": [
+    {
+     "text": "les transports",
+     "pos": "n.m.pl.",
+     "meaning": "public transport"
+    }
+   ],
+   "en": "Very good. And public transport? I work near the station."
+  },
+  {
+   "id": "t7",
+   "speaker": "Agent",
+   "role": "npc",
+   "text": "Le bus passe toutes les dix minutes, et le tram est à deux pas.",
+   "glosses": [],
+   "en": "The bus comes every ten minutes, and the tram is just around the corner."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Parfait. Quel est le prix d'un loyer moyen par ici ?",
+   "glosses": [
+    {
+     "text": "un loyer",
+     "pos": "n.m.",
+     "meaning": "rent"
+    }
+   ],
+   "en": "Perfect. What is the price of an average rent around here?"
+  },
+  {
+   "id": "t9",
+   "speaker": "Agent",
+   "role": "npc",
+   "text": "Pour un deux-pièces, comptez environ huit cents euros par mois.",
+   "glosses": [],
+   "en": "For a two-room apartment, count on about eight hundred euros a month."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est un peu cher pour moi, mais le quartier me plaît beaucoup.",
+   "glosses": [
+    {
+     "text": "le quartier",
+     "pos": "n.m.",
+     "meaning": "neighborhood"
+    }
+   ],
+   "en": "That's a bit expensive for me, but I really like the neighborhood."
+  },
+  {
+   "id": "t11",
+   "speaker": "Agent",
+   "role": "npc",
+   "text": "Je peux vous montrer deux appartements cet après-midi, si vous voulez.",
+   "glosses": [],
+   "en": "I can show you two apartments this afternoon, if you like."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Avec plaisir. Je prends mes affaires et je vous suis.",
+   "glosses": [],
+   "en": "With pleasure. I'll grab my things and follow you."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "le quartier",
+   "tip": "Say lə kaʁ.tje"
+  },
+  {
+   "id": "w2",
+   "text": "calme",
+   "tip": "Say kalm"
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "emoji": "♻️",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "tri",
+   "ipa": "/lə tʁi/",
+   "pos": "n.m.",
+   "meaning": "sorting (of waste)",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Merci à vous. Beaucoup d'habitants ne comprennent pas bien les nouvelles règles du tri.",
+     "en": "Thank you. Many residents don't understand the new sorting rules very well."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "les déchets",
+   "ipa": "/le de.ʃɛ/",
+   "pos": "n.m.pl.",
+   "meaning": "waste",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Pas si on mélange bien les déchets verts et secs. Nous organisons un atelier pratique samedi prochain.",
+     "en": "Not if you mix green and dry waste well. We're organizing a hands-on workshop next Saturday."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "poubelle",
+   "ipa": "/yn pu.bɛl/",
+   "pos": "n.f.",
+   "meaning": "trash can",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Tout à fait. Chez moi, ce sont mes filles qui contrôlent ce que je mets dans quelle poubelle !",
+     "en": "Absolutely. At my place, it's my daughters who check what I put in which bin!"
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "compost",
+   "ipa": "/lə kɔ̃.pɔst/",
+   "pos": "n.m.",
+   "meaning": "compost",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Oui, nous distribuons gratuitement des bacs à compost. Il suffit de vous inscrire en mairie.",
+     "en": "Yes, we're distributing compost bins for free. You just need to sign up at the town hall."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "jeter",
+   "ipa": "/ʒə.te/",
+   "pos": "v.",
+   "meaning": "to throw away",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Justement, je ne sais jamais où jeter les emballages en plastique ou les cartons à pizza.",
+     "en": "Precisely, I never know where to throw plastic packaging or pizza boxes."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "sensibiliser",
+   "ipa": "/sɑ̃.si.bi.li.ze/",
+   "pos": "v.",
+   "meaning": "to raise awareness",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Il faut sensibiliser, plutôt que punir. Nous allons intervenir dans les écoles dès la rentrée.",
+     "en": "We need to raise awareness rather than punish. We're going to visit schools starting in September."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Maire adjointe",
+   "role": "npc",
+   "text": "Merci d'être venus à cette réunion publique sur la gestion des déchets de notre commune.",
+   "glosses": [],
+   "en": "Thank you for coming to this public meeting on waste management in our town."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci à vous. Beaucoup d'habitants ne comprennent pas bien les nouvelles règles du tri.",
+   "glosses": [
+    {
+     "text": "tri",
+     "pos": "n.m.",
+     "meaning": "sorting (of waste)"
+    }
+   ],
+   "en": "Thank you. Many residents don't understand the new sorting rules very well."
+  },
+  {
+   "id": "t3",
+   "speaker": "Maire adjointe",
+   "role": "npc",
+   "text": "C'est précisément pour cela que nous sommes là. Chaque foyer reçoit désormais trois poubelles de couleurs différentes.",
+   "glosses": [
+    {
+     "text": "poubelle",
+     "pos": "n.f.",
+     "meaning": "trash can"
+    }
+   ],
+   "en": "That's precisely why we're here. Each household now receives three different-colored trash cans."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Justement, je ne sais jamais où jeter les emballages en plastique ou les cartons à pizza.",
+   "glosses": [
+    {
+     "text": "jeter",
+     "pos": "v.",
+     "meaning": "to throw away"
+    }
+   ],
+   "en": "Precisely, I never know where to throw plastic packaging or pizza boxes."
+  },
+  {
+   "id": "t5",
+   "speaker": "Maire adjointe",
+   "role": "npc",
+   "text": "Les emballages vont dans la poubelle jaune. Les cartons souillés, eux, vont dans la verte, avec les ordures ordinaires.",
+   "glosses": [
+    {
+     "text": "poubelle",
+     "pos": "n.f.",
+     "meaning": "trash can"
+    }
+   ],
+   "en": "Packaging goes in the yellow bin. Soiled cartons, however, go in the green one, with ordinary garbage."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "D'accord. Et pour les épluchures de légumes, y a-t-il une solution plus écologique ?",
+   "glosses": [],
+   "en": "All right. And for vegetable peelings, is there a more ecological solution?"
+  },
+  {
+   "id": "t7",
+   "speaker": "Maire adjointe",
+   "role": "npc",
+   "text": "Oui, nous distribuons gratuitement des bacs à compost. Il suffit de vous inscrire en mairie.",
+   "glosses": [
+    {
+     "text": "tri",
+     "pos": "n.m.",
+     "meaning": "sorting (of waste)"
+    },
+    {
+     "text": "compost",
+     "pos": "n.m.",
+     "meaning": "compost"
+    }
+   ],
+   "en": "Yes, we're distributing compost bins for free. You just need to sign up at the town hall."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Intéressant. Mais est-ce que cela ne sent pas mauvais, surtout en été ?",
+   "glosses": [],
+   "en": "Interesting. But doesn't it smell bad, especially in summer?"
+  },
+  {
+   "id": "t9",
+   "speaker": "Maire adjointe",
+   "role": "npc",
+   "text": "Pas si on mélange bien les déchets verts et secs. Nous organisons un atelier pratique samedi prochain.",
+   "glosses": [
+    {
+     "text": "les déchets",
+     "pos": "n.m.pl.",
+     "meaning": "waste"
+    }
+   ],
+   "en": "Not if you mix green and dry waste well. We're organizing a hands-on workshop next Saturday."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Très bien, j'y serai. Mais certaines personnes ne font aucun effort. Comment les faire changer ?",
+   "glosses": [],
+   "en": "Very good, I'll be there. But some people make no effort. How do we get them to change?"
+  },
+  {
+   "id": "t11",
+   "speaker": "Maire adjointe",
+   "role": "npc",
+   "text": "Il faut sensibiliser, plutôt que punir. Nous allons intervenir dans les écoles dès la rentrée.",
+   "glosses": [
+    {
+     "text": "sensibiliser",
+     "pos": "v.",
+     "meaning": "to raise awareness"
+    }
+   ],
+   "en": "We need to raise awareness rather than punish. We're going to visit schools starting in September."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je suis d'accord : les enfants sont souvent les meilleurs ambassadeurs auprès de leurs parents.",
+   "glosses": [],
+   "en": "I agree: children are often the best ambassadors to their parents."
+  },
+  {
+   "id": "t13",
+   "speaker": "Maire adjointe",
+   "role": "npc",
+   "text": "Tout à fait. Chez moi, ce sont mes filles qui contrôlent ce que je mets dans quelle poubelle !",
+   "glosses": [
+    {
+     "text": "poubelle",
+     "pos": "n.f.",
+     "meaning": "trash can"
+    }
+   ],
+   "en": "Absolutely. At my place, it's my daughters who check what I put in which bin!"
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Beaucoup de communes ont réduit leurs déchets de vingt pour cent grâce à ces mesures.",
+   "glosses": [],
+   "en": "Many towns have reduced their waste by twenty percent thanks to these measures."
+  },
+  {
+   "id": "t15",
+   "speaker": "Maire adjointe",
+   "role": "npc",
+   "text": "C'est un bel objectif. Notre commune pourrait même faire mieux avec la participation de tous.",
+   "glosses": [],
+   "en": "That's a fine goal. Our town could even do better with everyone's participation."
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je l'espère. Merci encore pour vos questions, et rendez-vous à l'atelier de samedi !",
+   "glosses": [],
+   "en": "I hope so. Thanks again for your questions, and see you at Saturday's workshop!"
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "tri",
+   "tip": "Say lə tʁi"
+  },
+  {
+   "id": "w2",
+   "text": "les déchets",
+   "tip": "Say le de.ʃɛ"
+  }
+ ]
+}

@@ -1,0 +1,281 @@
+{
+ "emoji": "🏫",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "l'éducation",
+   "ipa": "/le.dy.ka.sjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "education",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "C'est une question de priorités politiques. L'éducation est un investissement, pas une dépense.",
+     "en": "It's a matter of political priorities. Education is an investment, not an expense."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "programme scolaire",
+   "ipa": "/œ̃ pʁɔ.gʁam skɔ.lɛʁ/",
+   "pos": "n.m.",
+   "meaning": "curriculum",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Je ne le crois pas. Le programme scolaire est trop chargé et laisse peu de place à la créativité.",
+     "en": "I don't think so. The curriculum is too heavy and leaves little room for creativity."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "la réussite",
+   "ipa": "/la ʁe.y.sit/",
+   "pos": "n.f.",
+   "meaning": "success",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Je nuancerais. Un socle commun solide est indispensable, et la réussite de nos élèves en dépend.",
+     "en": "I'd qualify that. A solid common core is essential, and our pupils' success depends on it."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "les devoirs",
+   "ipa": "/le də.vwaʁ/",
+   "pos": "n.m.pl.",
+   "meaning": "homework",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Certes, mais regardez les devoirs : certains enfants passent trois heures par soir à travailler.",
+     "en": "True, but look at homework: some children spend three hours a night working."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "une réforme",
+   "ipa": "/yn ʁe.fɔʁm/",
+   "pos": "n.f.",
+   "meaning": "reform",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Alors que proposez-vous ? Une réforme profonde, ou de petits ajustements ?",
+     "en": "So what do you propose? A deep reform, or small adjustments?"
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "l'égalité des chances",
+   "ipa": "/le.ga.li.te de ʃɑ̃s/",
+   "pos": "n.f.",
+   "meaning": "equal opportunity",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Exactement. Un élève dont les parents peuvent l'aider réussira mieux, et l'égalité des chances n'est plus respectée.",
+     "en": "Exactly. A pupil whose parents can help will do better, and equal opportunity is no longer respected."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Animatrice",
+   "role": "npc",
+   "text": "Bonsoir à tous. Ce soir, notre débat porte sur l'éducation : le système scolaire français est-il encore adapté ?",
+   "glosses": [
+    {
+     "text": "l'éducation",
+     "pos": "n.f.",
+     "meaning": "education"
+    }
+   ],
+   "en": "Good evening, everyone. Tonight, our debate is about education: is the French school system still suitable?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je ne le crois pas. Le programme scolaire est trop chargé et laisse peu de place à la créativité.",
+   "glosses": [
+    {
+     "text": "programme scolaire",
+     "pos": "n.m.",
+     "meaning": "curriculum"
+    }
+   ],
+   "en": "I don't think so. The curriculum is too heavy and leaves little room for creativity."
+  },
+  {
+   "id": "t3",
+   "speaker": "Animatrice",
+   "role": "npc",
+   "text": "Je nuancerais. Un socle commun solide est indispensable, et la réussite de nos élèves en dépend.",
+   "glosses": [
+    {
+     "text": "la réussite",
+     "pos": "n.f.",
+     "meaning": "success"
+    }
+   ],
+   "en": "I'd qualify that. A solid common core is essential, and our pupils' success depends on it."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Certes, mais regardez les devoirs : certains enfants passent trois heures par soir à travailler.",
+   "glosses": [
+    {
+     "text": "les devoirs",
+     "pos": "n.m.pl.",
+     "meaning": "homework"
+    }
+   ],
+   "en": "True, but look at homework: some children spend three hours a night working."
+  },
+  {
+   "id": "t5",
+   "speaker": "Animatrice",
+   "role": "npc",
+   "text": "Beaucoup d'enseignants les ont d'ailleurs réduits, car ils creusent les inégalités entre les familles.",
+   "glosses": [],
+   "en": "Many teachers have actually reduced them, because they widen inequalities between families."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Exactement. Un élève dont les parents peuvent l'aider réussira mieux, et l'égalité des chances n'est plus respectée.",
+   "glosses": [
+    {
+     "text": "l'égalité des chances",
+     "pos": "n.f.",
+     "meaning": "equal opportunity"
+    }
+   ],
+   "en": "Exactly. A pupil whose parents can help will do better, and equal opportunity is no longer respected."
+  },
+  {
+   "id": "t7",
+   "speaker": "Animatrice",
+   "role": "npc",
+   "text": "Je partage ce constat, mais supprimer les devoirs me paraît trop radical. Il faut apprendre à travailler seul.",
+   "glosses": [
+    {
+     "text": "les devoirs",
+     "pos": "n.m.pl.",
+     "meaning": "homework"
+    }
+   ],
+   "en": "I share that observation, but abolishing homework seems too radical to me. One must learn to work alone."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Alors que proposez-vous ? Une réforme profonde, ou de petits ajustements ?",
+   "glosses": [
+    {
+     "text": "Une réforme",
+     "pos": "n.f.",
+     "meaning": "reform"
+    }
+   ],
+   "en": "So what do you propose? A deep reform, or small adjustments?"
+  },
+  {
+   "id": "t9",
+   "speaker": "Animatrice",
+   "role": "npc",
+   "text": "Je plaide pour des classes moins nombreuses. Avec vingt élèves au lieu de trente, tout change.",
+   "glosses": [],
+   "en": "I argue for smaller classes. With twenty pupils instead of thirty, everything changes."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Cela coûterait des milliards, et il faudrait recruter des milliers de professeurs. Est-ce réaliste ?",
+   "glosses": [],
+   "en": "That would cost billions, and thousands of teachers would have to be recruited. Is it realistic?"
+  },
+  {
+   "id": "t11",
+   "speaker": "Animatrice",
+   "role": "npc",
+   "text": "C'est une question de priorités politiques. L'éducation est un investissement, pas une dépense.",
+   "glosses": [
+    {
+     "text": "L'éducation",
+     "pos": "n.f.",
+     "meaning": "education"
+    }
+   ],
+   "en": "It's a matter of political priorities. Education is an investment, not an expense."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Belle formule, mais il faut aussi revaloriser le métier. Les enseignants se sentent souvent peu reconnus.",
+   "glosses": [],
+   "en": "Nice phrase, but the profession also needs to be valued more. Teachers often feel little recognized."
+  },
+  {
+   "id": "t13",
+   "speaker": "Animatrice",
+   "role": "npc",
+   "text": "C'est vrai, et c'est ce qui décourage les jeunes diplômés. On manque de candidats dans plusieurs matières.",
+   "glosses": [],
+   "en": "That's true, and it's what discourages young graduates. There's a shortage of candidates in several subjects."
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Nous n'allons pas régler tout cela ce soir. Mais retenons au moins une chose sur laquelle vous êtes d'accord ?",
+   "glosses": [],
+   "en": "We won't settle all this tonight. But can we at least retain one thing you agree on?"
+  },
+  {
+   "id": "t15",
+   "speaker": "Animatrice",
+   "role": "npc",
+   "text": "Oui : l'école doit apprendre à penser, pas seulement à réciter. Là-dessus, nous sommes tous d'accord.",
+   "glosses": [],
+   "en": "Yes: school must teach how to think, not just how to recite. On that, we all agree."
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Voilà un beau point de départ pour la suite du débat. Merci à vous deux pour cet échange éclairant.",
+   "glosses": [],
+   "en": "That's a nice starting point for the rest of the debate. Thank you both for this enlightening exchange."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "l'éducation",
+   "tip": "Say le.dy.ka.sjɔ̃"
+  },
+  {
+   "id": "w2",
+   "text": "programme scolaire",
+   "tip": "Say œ̃ pʁɔ.gʁam skɔ.lɛʁ"
+  }
+ ]
+}

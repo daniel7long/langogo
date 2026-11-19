@@ -1,0 +1,268 @@
+{
+ "emoji": "📰",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "un article",
+   "ipa": "/œ̃n‿aʁ.tikl/",
+   "pos": "n.m.",
+   "meaning": "article",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Il parle aussi des risques ? Un article sérieux ne peut pas ignorer les inconvénients.",
+     "en": "Does he also talk about the risks? A serious article can't ignore the drawbacks."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "résume",
+   "ipa": "/ʁe.zym/",
+   "pos": "v.",
+   "meaning": "(I) summarize (résumer)",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Oui, je l'ai lu dans le train. Tu veux que je te le résume en quelques phrases ?",
+     "en": "Yes, I read it on the train. Do you want me to summarize it for you in a few sentences?"
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "l'auteur",
+   "ipa": "/lo.tœʁ/",
+   "pos": "n.m.",
+   "meaning": "author",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Alors, l'auteur défend la thèse que le télétravail augmente la productivité, mais seulement sous certaines conditions.",
+     "en": "So, the author defends the argument that remote work increases productivity, but only under certain conditions."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "thèse",
+   "ipa": "/yn tɛz/",
+   "pos": "n.f.",
+   "meaning": "thesis, argument",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Alors, l'auteur défend la thèse que le télétravail augmente la productivité, mais seulement sous certaines conditions.",
+     "en": "So, the author defends the argument that remote work increases productivity, but only under certain conditions."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "argument",
+   "ipa": "/œ̃n‿aʁ.gy.mɑ̃/",
+   "pos": "n.m.",
+   "meaning": "argument",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Il donne d'autres arguments ? J'aimerais en avoir plusieurs pour convaincre la direction.",
+     "en": "Does he give other arguments? I'd like to have several to convince management."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "conclusion",
+   "ipa": "/la kɔ̃.kly.zjɔ̃/",
+   "pos": "n.f.",
+   "meaning": "conclusion",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Et comment termine-t-il ? Quelle est sa conclusion ?",
+     "en": "And how does he end? What is his conclusion?"
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Tu as lu l'article sur le travail à distance que je t'ai envoyé hier ?",
+   "glosses": [],
+   "en": "Did you read the article on remote work that I sent you yesterday?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, je l'ai lu dans le train. Tu veux que je te le résume en quelques phrases ?",
+   "glosses": [
+    {
+     "text": "résume",
+     "pos": "v.",
+     "meaning": "(I) summarize (résumer)"
+    }
+   ],
+   "en": "Yes, I read it on the train. Do you want me to summarize it for you in a few sentences?"
+  },
+  {
+   "id": "t3",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Volontiers. Je dois préparer la réunion de demain et je n'ai pas le temps de le lire en entier.",
+   "glosses": [],
+   "en": "Gladly. I have to prepare tomorrow's meeting and I don't have time to read it in full."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Alors, l'auteur défend la thèse que le télétravail augmente la productivité, mais seulement sous certaines conditions.",
+   "glosses": [
+    {
+     "text": "l'auteur",
+     "pos": "n.m.",
+     "meaning": "author"
+    },
+    {
+     "text": "thèse",
+     "pos": "n.f.",
+     "meaning": "thesis, argument"
+    }
+   ],
+   "en": "So, the author defends the argument that remote work increases productivity, but only under certain conditions."
+  },
+  {
+   "id": "t5",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Quelles conditions ? Il parle d'un équilibre avec le présentiel, je suppose.",
+   "glosses": [],
+   "en": "What conditions? He's talking about a balance with in-person work, I suppose."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Exactement. Il cite une étude selon laquelle deux jours au bureau suffisent pour garder le lien avec l'équipe.",
+   "glosses": [],
+   "en": "Exactly. He cites a study according to which two days at the office are enough to keep in touch with the team."
+  },
+  {
+   "id": "t7",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Il donne d'autres arguments ? J'aimerais en avoir plusieurs pour convaincre la direction.",
+   "glosses": [
+    {
+     "text": "argument",
+     "pos": "n.m.",
+     "meaning": "argument"
+    }
+   ],
+   "en": "Does he give other arguments? I'd like to have several to convince management."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui : moins de stress dans les transports, des économies pour l'entreprise et une meilleure concentration.",
+   "glosses": [],
+   "en": "Yes: less stress in transport, savings for the company and better concentration."
+  },
+  {
+   "id": "t9",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Il parle aussi des risques ? Un article sérieux ne peut pas ignorer les inconvénients.",
+   "glosses": [
+    {
+     "text": "Un article",
+     "pos": "n.m.",
+     "meaning": "article"
+    }
+   ],
+   "en": "Does he also talk about the risks? A serious article can't ignore the drawbacks."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, notamment l'isolement et la difficulté à séparer vie privée et vie professionnelle.",
+   "glosses": [],
+   "en": "Yes, notably isolation and the difficulty of separating private and professional life."
+  },
+  {
+   "id": "t11",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Et comment termine-t-il ? Quelle est sa conclusion ?",
+   "glosses": [
+    {
+     "text": "conclusion",
+     "pos": "n.f.",
+     "meaning": "conclusion"
+    }
+   ],
+   "en": "And how does he end? What is his conclusion?"
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Il recommande un modèle hybride, avec des règles claires fixées en accord avec les salariés.",
+   "glosses": [],
+   "en": "He recommends a hybrid model, with clear rules set in agreement with the employees."
+  },
+  {
+   "id": "t13",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Cela correspond bien à ce que je voulais proposer. Peux-tu m'envoyer la référence exacte ?",
+   "glosses": [],
+   "en": "That matches what I wanted to propose. Can you send me the exact reference?"
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bien sûr. Je t'envoie le lien et les passages que j'ai soulignés, ça te fera gagner du temps.",
+   "glosses": [],
+   "en": "Of course. I'll send you the link and the passages I underlined, it will save you time."
+  },
+  {
+   "id": "t15",
+   "speaker": "Collègue",
+   "role": "npc",
+   "text": "Merci, c'est précieux. Je citerai l'article dans ma présentation, en mentionnant son auteur.",
+   "glosses": [],
+   "en": "Thanks, that's valuable. I'll cite the article in my presentation, mentioning its author."
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Parfait. Bonne chance demain, et n'hésite pas à me demander si tu as des questions.",
+   "glosses": [],
+   "en": "Perfect. Good luck tomorrow, and don't hesitate to ask me if you have any questions."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "un article",
+   "tip": "Say œ̃n‿aʁ.tikl"
+  },
+  {
+   "id": "w2",
+   "text": "résume",
+   "tip": "Say ʁe.zym"
+  }
+ ]
+}

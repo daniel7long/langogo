@@ -1,0 +1,242 @@
+{
+ "emoji": "📦",
+ "max_flowers": 60,
+ "cefr": "B1",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "commande",
+   "ipa": "/yn kɔ.mɑ̃d/",
+   "pos": "n.f.",
+   "meaning": "order",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Je suis désolée. Pouvez-vous me donner votre numéro de commande ?",
+     "en": "I'm sorry. Can you give me your order number?"
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "un point relais",
+   "ipa": "/œ̃ pwɛ̃ ʁə.lɛ/",
+   "pos": "n.m.",
+   "meaning": "pickup point",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Oui, avec tous les accessoires. Déposez le colis dans un point relais.",
+     "en": "Yes, with all the accessories. Drop the parcel off at a pickup point."
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "défectueux",
+   "ipa": "/de.fɛk.tɥø/",
+   "pos": "adj.",
+   "meaning": "faulty",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Bonjour. J'ai reçu ma commande hier, mais l'article est défectueux.",
+     "en": "Hello. I received my order yesterday, but the item is faulty."
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "un remboursement",
+   "ipa": "/œ̃ ʁɑ̃.buʁ.sə.mɑ̃/",
+   "pos": "n.m.",
+   "meaning": "refund",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Je préfère un remboursement. J'ai déjà trouvé un autre modèle ailleurs.",
+     "en": "I prefer a refund. I've already found another model elsewhere."
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "un retour",
+   "ipa": "/œ̃ ʁə.tuʁ/",
+   "pos": "n.m.",
+   "meaning": "return",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Pas de problème. Je vous envoie une étiquette pour faire un retour gratuit.",
+     "en": "No problem. I'll send you a label for a free return."
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "le numéro de suivi",
+   "ipa": "/lə ny.me.ʁo də sɥi.vi/",
+   "pos": "n.m.",
+   "meaning": "tracking number",
+   "cefr": "B1",
+   "examples": [
+    {
+     "target": "Parfait. Je recevrai le numéro de suivi par courriel ? Merci pour votre aide.",
+     "en": "Perfect. Will I get the tracking number by email? Thanks for your help."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Conseillère",
+   "role": "npc",
+   "text": "Service client, bonjour. Comment puis-je vous aider ?",
+   "glosses": [],
+   "en": "Customer service, hello. How can I help you?"
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Bonjour. J'ai reçu ma commande hier, mais l'article est défectueux.",
+   "glosses": [
+    {
+     "text": "commande",
+     "pos": "n.f.",
+     "meaning": "order"
+    },
+    {
+     "text": "défectueux",
+     "pos": "adj.",
+     "meaning": "faulty"
+    }
+   ],
+   "en": "Hello. I received my order yesterday, but the item is faulty."
+  },
+  {
+   "id": "t3",
+   "speaker": "Conseillère",
+   "role": "npc",
+   "text": "Je suis désolée. Pouvez-vous me donner votre numéro de commande ?",
+   "glosses": [
+    {
+     "text": "commande",
+     "pos": "n.f.",
+     "meaning": "order"
+    }
+   ],
+   "en": "I'm sorry. Can you give me your order number?"
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "Oui, c'est le 48 21 70. Il s'agit d'un casque audio qui ne s'allume pas.",
+   "glosses": [],
+   "en": "Yes, it's 48 21 70. It's a headset that won't turn on."
+  },
+  {
+   "id": "t5",
+   "speaker": "Conseillère",
+   "role": "npc",
+   "text": "Merci. Souhaitez-vous un échange ou préférez-vous être remboursé ?",
+   "glosses": [],
+   "en": "Thank you. Would you like an exchange or would you prefer to be refunded?"
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Je préfère un remboursement. J'ai déjà trouvé un autre modèle ailleurs.",
+   "glosses": [
+    {
+     "text": "un remboursement",
+     "pos": "n.m.",
+     "meaning": "refund"
+    }
+   ],
+   "en": "I prefer a refund. I've already found another model elsewhere."
+  },
+  {
+   "id": "t7",
+   "speaker": "Conseillère",
+   "role": "npc",
+   "text": "Pas de problème. Je vous envoie une étiquette pour faire un retour gratuit.",
+   "glosses": [
+    {
+     "text": "un retour",
+     "pos": "n.m.",
+     "meaning": "return"
+    }
+   ],
+   "en": "No problem. I'll send you a label for a free return."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Dois-je remettre le casque dans le carton d'origine ?",
+   "glosses": [],
+   "en": "Do I have to put the headset back in the original box?"
+  },
+  {
+   "id": "t9",
+   "speaker": "Conseillère",
+   "role": "npc",
+   "text": "Oui, avec tous les accessoires. Déposez le colis dans un point relais.",
+   "glosses": [
+    {
+     "text": "un point relais",
+     "pos": "n.m.",
+     "meaning": "pickup point"
+    }
+   ],
+   "en": "Yes, with all the accessories. Drop the parcel off at a pickup point."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "Et je serai remboursé quand ? Je ne voudrais pas attendre un mois.",
+   "glosses": [],
+   "en": "And when will I be refunded? I wouldn't want to wait a month."
+  },
+  {
+   "id": "t11",
+   "speaker": "Conseillère",
+   "role": "npc",
+   "text": "Dès que nous recevons le colis, comptez trois à cinq jours.",
+   "glosses": [],
+   "en": "As soon as we receive the parcel, count on three to five days."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "Parfait. Je recevrai le numéro de suivi par courriel ? Merci pour votre aide.",
+   "glosses": [
+    {
+     "text": "le numéro de suivi",
+     "pos": "n.m.",
+     "meaning": "tracking number"
+    }
+   ],
+   "en": "Perfect. Will I get the tracking number by email? Thanks for your help."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "commande",
+   "tip": "Say yn kɔ.mɑ̃d"
+  },
+  {
+   "id": "w2",
+   "text": "un point relais",
+   "tip": "Say œ̃ pwɛ̃ ʁə.lɛ"
+  }
+ ]
+}

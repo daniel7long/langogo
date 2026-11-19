@@ -1,0 +1,307 @@
+{
+ "emoji": "🚀",
+ "max_flowers": 70,
+ "cefr": "B2",
+ "vocab": [
+  {
+   "id": "v1",
+   "word": "start-up",
+   "ipa": "/yn staʁ.tœp/",
+   "pos": "n.f.",
+   "meaning": "start-up",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Bonjour, merci d'être venu. Présentez-nous votre start-up en quelques minutes.",
+     "en": "Hello, thank you for coming. Present your start-up to us in a few minutes."
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "word": "marché",
+   "ipa": "/œ̃ maʁ.ʃe/",
+   "pos": "n.m.",
+   "meaning": "market",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "L'idée est séduisante. Mais le marché n'est-il pas déjà occupé par plusieurs concurrents ?",
+     "en": "The idea is appealing. But isn't the market already occupied by several competitors?"
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "word": "financement",
+   "ipa": "/lə fi.nɑ̃s.mɑ̃/",
+   "pos": "n.m.",
+   "meaning": "funding",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "De quel financement avez-vous besoin pour lancer le projet à plus grande échelle ?",
+     "en": "What funding do you need to launch the project on a larger scale?"
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "word": "rentable",
+   "ipa": "/ʁɑ̃.tabl/",
+   "pos": "adj.",
+   "meaning": "profitable",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "C'est un bon début. Votre modèle est-il rentable, ou dépend-il de subventions ?",
+     "en": "That's a good start. Is your model profitable, or does it depend on subsidies?"
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "word": "concurrent",
+   "ipa": "/œ̃ kɔ̃.ky.ʁɑ̃/",
+   "pos": "n.m.",
+   "meaning": "competitor",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "L'idée est séduisante. Mais le marché n'est-il pas déjà occupé par plusieurs concurrents ?",
+     "en": "The idea is appealing. But isn't the market already occupied by several competitors?"
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "word": "un prototype",
+   "ipa": "/œ̃ pʁɔ.tɔ.tip/",
+   "pos": "n.m.",
+   "meaning": "prototype",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Avez-vous déjà un prototype fonctionnel, ou n'est-ce encore qu'un projet sur le papier ?",
+     "en": "Do you already have a working prototype, or is it still just a project on paper?"
+    }
+   ]
+  },
+  {
+   "id": "v7",
+   "word": "lancer",
+   "ipa": "/lɑ̃.se/",
+   "pos": "v.",
+   "meaning": "to launch",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "De quel financement avez-vous besoin pour lancer le projet à plus grande échelle ?",
+     "en": "What funding do you need to launch the project on a larger scale?"
+    }
+   ]
+  },
+  {
+   "id": "v8",
+   "word": "clientèle",
+   "ipa": "/yn kli.ɑ̃.tɛl/",
+   "pos": "n.f.",
+   "meaning": "customer base",
+   "cefr": "B2",
+   "examples": [
+    {
+     "target": "Si, mais ils ciblent surtout les grandes villes. Nous visons les villes moyennes, où la clientèle est mal desservie.",
+     "en": "Yes, but they mainly target big cities. We're aiming at mid-sized towns, where the customer base is poorly served."
+    }
+   ]
+  }
+ ],
+ "dialogue": [
+  {
+   "id": "t1",
+   "speaker": "Investisseuse",
+   "role": "npc",
+   "text": "Bonjour, merci d'être venu. Présentez-nous votre start-up en quelques minutes.",
+   "glosses": [
+    {
+     "text": "start-up",
+     "pos": "n.f.",
+     "meaning": "start-up"
+    }
+   ],
+   "en": "Hello, thank you for coming. Present your start-up to us in a few minutes."
+  },
+  {
+   "id": "t2",
+   "speaker": "You",
+   "role": "you",
+   "text": "Merci de m'accorder ce temps. Nous développons une application qui lutte contre le gaspillage alimentaire.",
+   "glosses": [],
+   "en": "Thank you for giving me this time. We're developing an app that fights food waste."
+  },
+  {
+   "id": "t3",
+   "speaker": "Investisseuse",
+   "role": "npc",
+   "text": "Le principe est simple : les commerçants vendent leurs invendus à prix réduit le soir.",
+   "glosses": [],
+   "en": "The principle is simple: shopkeepers sell their unsold items at a discount in the evening."
+  },
+  {
+   "id": "t4",
+   "speaker": "You",
+   "role": "you",
+   "text": "L'idée est séduisante. Mais le marché n'est-il pas déjà occupé par plusieurs concurrents ?",
+   "glosses": [
+    {
+     "text": "marché",
+     "pos": "n.m.",
+     "meaning": "market"
+    },
+    {
+     "text": "concurrent",
+     "pos": "n.m.",
+     "meaning": "competitor"
+    }
+   ],
+   "en": "The idea is appealing. But isn't the market already occupied by several competitors?"
+  },
+  {
+   "id": "t5",
+   "speaker": "Investisseuse",
+   "role": "npc",
+   "text": "Si, mais ils ciblent surtout les grandes villes. Nous visons les villes moyennes, où la clientèle est mal desservie.",
+   "glosses": [
+    {
+     "text": "clientèle",
+     "pos": "n.f.",
+     "meaning": "customer base"
+    }
+   ],
+   "en": "Yes, but they mainly target big cities. We're aiming at mid-sized towns, where the customer base is poorly served."
+  },
+  {
+   "id": "t6",
+   "speaker": "You",
+   "role": "you",
+   "text": "Avez-vous déjà un prototype fonctionnel, ou n'est-ce encore qu'un projet sur le papier ?",
+   "glosses": [
+    {
+     "text": "un prototype",
+     "pos": "n.m.",
+     "meaning": "prototype"
+    }
+   ],
+   "en": "Do you already have a working prototype, or is it still just a project on paper?"
+  },
+  {
+   "id": "t7",
+   "speaker": "Investisseuse",
+   "role": "npc",
+   "text": "Nous avons testé une version pilote pendant six mois dans trois quartiers, avec des résultats encourageants.",
+   "glosses": [],
+   "en": "We tested a pilot version for six months in three neighborhoods, with encouraging results."
+  },
+  {
+   "id": "t8",
+   "speaker": "You",
+   "role": "you",
+   "text": "Concrètement, quels résultats ? Les chiffres m'intéressent plus que les promesses.",
+   "glosses": [],
+   "en": "Specifically, what results? Figures interest me more than promises."
+  },
+  {
+   "id": "t9",
+   "speaker": "Investisseuse",
+   "role": "npc",
+   "text": "Mille deux cents utilisateurs actifs et quatre-vingts commerçants partenaires, sans aucune campagne publicitaire.",
+   "glosses": [],
+   "en": "One thousand two hundred active users and eighty partner shopkeepers, without any advertising campaign."
+  },
+  {
+   "id": "t10",
+   "speaker": "You",
+   "role": "you",
+   "text": "C'est un bon début. Votre modèle est-il rentable, ou dépend-il de subventions ?",
+   "glosses": [
+    {
+     "text": "rentable",
+     "pos": "adj.",
+     "meaning": "profitable"
+    }
+   ],
+   "en": "That's a good start. Is your model profitable, or does it depend on subsidies?"
+  },
+  {
+   "id": "t11",
+   "speaker": "Investisseuse",
+   "role": "npc",
+   "text": "Nous prélevons une petite commission sur chaque vente. Nous serons à l'équilibre dans dix-huit mois.",
+   "glosses": [],
+   "en": "We take a small commission on each sale. We'll break even in eighteen months."
+  },
+  {
+   "id": "t12",
+   "speaker": "You",
+   "role": "you",
+   "text": "De quel financement avez-vous besoin pour lancer le projet à plus grande échelle ?",
+   "glosses": [
+    {
+     "text": "financement",
+     "pos": "n.m.",
+     "meaning": "funding"
+    },
+    {
+     "text": "lancer",
+     "pos": "v.",
+     "meaning": "to launch"
+    }
+   ],
+   "en": "What funding do you need to launch the project on a larger scale?"
+  },
+  {
+   "id": "t13",
+   "speaker": "Investisseuse",
+   "role": "npc",
+   "text": "Trois cent mille euros pour recruter une équipe technique et couvrir dix nouvelles villes.",
+   "glosses": [],
+   "en": "Three hundred thousand euros to hire a technical team and cover ten new cities."
+  },
+  {
+   "id": "t14",
+   "speaker": "You",
+   "role": "you",
+   "text": "Votre dossier est solide, mais je voudrais voir vos comptes détaillés avant de me prononcer.",
+   "glosses": [],
+   "en": "Your file is solid, but I'd like to see your detailed accounts before making a decision."
+  },
+  {
+   "id": "t15",
+   "speaker": "Investisseuse",
+   "role": "npc",
+   "text": "Bien sûr. Je vous les envoie demain matin, avec un plan de développement sur trois ans.",
+   "glosses": [],
+   "en": "Of course. I'll send them to you tomorrow morning, with a three-year development plan."
+  },
+  {
+   "id": "t16",
+   "speaker": "You",
+   "role": "you",
+   "text": "Parfait. Nous reprendrons contact avec vous dans une dizaine de jours. Merci de votre présentation.",
+   "glosses": [],
+   "en": "Perfect. We'll get back in touch with you in about ten days. Thank you for your presentation."
+  }
+ ],
+ "practice_words": [
+  {
+   "id": "w1",
+   "text": "start-up",
+   "tip": "Say yn staʁ.tœp"
+  },
+  {
+   "id": "w2",
+   "text": "marché",
+   "tip": "Say œ̃ maʁ.ʃe"
+  }
+ ]
+}
